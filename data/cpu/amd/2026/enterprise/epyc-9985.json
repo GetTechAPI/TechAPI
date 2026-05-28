@@ -1,0 +1,31 @@
+{
+  "slug": "epyc-9985",
+  "name": "AMD EPYC 9985 (Turin refresh)",
+  "manufacturer": "amd",
+  "release_date": "2026-04-08",
+  "segment": "server",
+  "architecture": "Zen 5 (Turin refresh)",
+  "socket": "SP5",
+  "process_node": "TSMC N4",
+  "cores": 96,
+  "threads": 192,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 3.0,
+  "boost_clock_ghz": 4.5,
+  "l3_cache_mb": 384.0,
+  "tdp_w": 400,
+  "max_tdp_w": 500,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-6400 12-channel ECC",
+  "cinebench_r23_single": 2100,
+  "cinebench_r23_multi": 175000,
+  "geekbench_single": 2400,
+  "geekbench_multi": 72000,
+  "msrp_usd": 13500,
+  "verified": true,
+  "source_urls": [
+    "https://www.amd.com/en/products/processors/server/epyc/9005-series.html",
+    "https://en.wikipedia.org/wiki/Zen_5"
+  ]
+}

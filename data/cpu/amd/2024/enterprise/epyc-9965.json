@@ -1,0 +1,31 @@
+{
+  "slug": "epyc-9965",
+  "name": "AMD EPYC 9965",
+  "manufacturer": "amd",
+  "release_date": "2024-10-10",
+  "segment": "server",
+  "architecture": "Zen 5c",
+  "socket": "SP5",
+  "process_node": "TSMC N3",
+  "cores": 192,
+  "threads": 384,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.25,
+  "boost_clock_ghz": 3.7,
+  "l3_cache_mb": 384.0,
+  "tdp_w": 500,
+  "max_tdp_w": 500,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-6400 12-channel ECC",
+  "cinebench_r23_single": 1850,
+  "cinebench_r23_multi": 235000,
+  "geekbench_single": 2150,
+  "geekbench_multi": 90000,
+  "msrp_usd": 14813,
+  "verified": true,
+  "source_urls": [
+    "https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9965.html",
+    "https://en.wikipedia.org/wiki/Zen_5"
+  ]
+}

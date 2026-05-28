@@ -1,0 +1,31 @@
+{
+  "slug": "epyc-9754",
+  "name": "AMD EPYC 9754",
+  "manufacturer": "amd",
+  "release_date": "2023-06-13",
+  "segment": "server",
+  "architecture": "Zen 4c",
+  "socket": "SP5",
+  "process_node": "TSMC N5",
+  "cores": 128,
+  "threads": 256,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.25,
+  "boost_clock_ghz": 3.1,
+  "l3_cache_mb": 256.0,
+  "tdp_w": 360,
+  "max_tdp_w": 400,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-4800 12-channel ECC",
+  "cinebench_r23_single": 1450,
+  "cinebench_r23_multi": 155000,
+  "geekbench_single": 1700,
+  "geekbench_multi": 62000,
+  "msrp_usd": 11900,
+  "verified": true,
+  "source_urls": [
+    "https://www.amd.com/en/products/processors/server/epyc/9004-series/amd-epyc-9754.html",
+    "https://en.wikipedia.org/wiki/Epyc"
+  ]
+}

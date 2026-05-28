@@ -1,0 +1,39 @@
+{
+  "slug": "galaxy-s21-plus",
+  "name": "Galaxy S21+",
+  "brand": "samsung",
+  "soc": "exynos-2100",
+  "release_date": "2021-01-29",
+  "msrp_usd": 999,
+  "ram_gb": 8,
+  "storage_options_gb": [128, 256],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2400x1080",
+    "refresh_hz": 120,
+    "type": "Dynamic AMOLED 2X",
+    "brightness_nits": 1300,
+    "ppi": 393
+  },
+  "cameras": [
+    {"type": "main", "mp": 12, "aperture": 1.8, "ois": true},
+    {"type": "telephoto", "mp": 64, "aperture": 2.0, "ois": true, "optical_zoom": 3},
+    {"type": "ultrawide", "mp": 12, "aperture": 2.2, "ois": false},
+    {"type": "selfie", "mp": 10, "aperture": 2.2}
+  ],
+  "battery_mah": 4800,
+  "charging_wired_w": 25,
+  "charging_wireless_w": 15,
+  "weight_g": 200.0,
+  "dimensions": {"height_mm": 161.5, "width_mm": 75.6, "depth_mm": 7.8},
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {"wifi": "Wi-Fi 6", "bluetooth": "5.0", "nfc": true, "usb": "USB-C 3.2"},
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s21-plus.webp",
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_S21",
+    "https://www.samsung.com/global/galaxy/galaxy-s21-5g/"
+  ]
+}

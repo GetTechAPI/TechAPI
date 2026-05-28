@@ -1,0 +1,40 @@
+{
+  "slug": "galaxy-s26-ultra",
+  "name": "Galaxy S26 Ultra",
+  "brand": "samsung",
+  "soc": "snapdragon-8-elite-gen-5",
+  "release_date": "2026-03-11",
+  "msrp_usd": 1299,
+  "ram_gb": 12,
+  "storage_options_gb": [256, 512, 1024],
+  "display": {
+    "size_inch": 6.9,
+    "resolution": "3120x1440",
+    "refresh_hz": 120,
+    "type": "Dynamic LTPO AMOLED 2X (Privacy Display)",
+    "brightness_nits": 2600,
+    "ppi": 501
+  },
+  "cameras": [
+    {"type": "main", "mp": 200, "aperture": 1.4, "ois": true, "sensor": "Samsung HP2"},
+    {"type": "ultrawide", "mp": 50, "aperture": 2.0, "ois": false},
+    {"type": "telephoto", "mp": 10, "aperture": 2.4, "ois": true, "optical_zoom": 3},
+    {"type": "telephoto", "mp": 50, "aperture": 2.9, "ois": true, "optical_zoom": 5},
+    {"type": "selfie", "mp": 12, "aperture": 2.2}
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 60,
+  "charging_wireless_w": 25,
+  "weight_g": 214.0,
+  "dimensions": {"height_mm": 163.6, "width_mm": 78.1, "depth_mm": 7.9},
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "16",
+  "connectivity": {"wifi": "Wi-Fi 7", "bluetooth": "6.0", "nfc": true, "usb": "USB-C 3.2"},
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s26-ultra.webp",
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_S26",
+    "https://www.samsung.com/global/galaxy/galaxy-s26-ultra/specs/"
+  ]
+}

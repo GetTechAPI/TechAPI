@@ -1,0 +1,39 @@
+{
+  "slug": "galaxy-s22-plus",
+  "name": "Galaxy S22+",
+  "brand": "samsung",
+  "soc": "exynos-2200",
+  "release_date": "2022-02-25",
+  "msrp_usd": 999,
+  "ram_gb": 8,
+  "storage_options_gb": [128, 256],
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "2340x1080",
+    "refresh_hz": 120,
+    "type": "Dynamic AMOLED 2X",
+    "brightness_nits": 1750,
+    "ppi": 393
+  },
+  "cameras": [
+    {"type": "main", "mp": 50, "aperture": 1.8, "ois": true},
+    {"type": "ultrawide", "mp": 12, "aperture": 2.2, "ois": false},
+    {"type": "telephoto", "mp": 10, "aperture": 2.4, "ois": true, "optical_zoom": 3},
+    {"type": "selfie", "mp": 10, "aperture": 2.2}
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 45,
+  "charging_wireless_w": 15,
+  "weight_g": 196.0,
+  "dimensions": {"height_mm": 157.4, "width_mm": 75.8, "depth_mm": 7.6},
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {"wifi": "Wi-Fi 6E", "bluetooth": "5.2", "nfc": true, "usb": "USB-C 3.2"},
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s22-plus.webp",
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_S22",
+    "https://www.samsung.com/global/galaxy/galaxy-s22/specs/"
+  ]
+}

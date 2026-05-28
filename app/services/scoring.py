@@ -101,8 +101,8 @@ def _camera_score(cameras: list[dict[str, Any]]) -> float | None:
 
 def _battery_score(
     battery_mah: int,
-    wired_w: int | None,
-    wireless_w: int | None,
+    wired_w: float | None,
+    wireless_w: float | None,
     process_nm: float | None,
 ) -> float | None:
     if battery_mah <= 0:

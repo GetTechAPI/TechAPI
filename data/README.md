@@ -7,9 +7,13 @@ singular folder names, organised by brand:
 brand/<slug>.json
 soc/<manufacturer>/<slug>.json
 smartphone/<brand>/<slug>.json
-gpu/<manufacturer>/<slug>.json
-cpu/<manufacturer>/<year>/<slug>.json   # CPUs are additionally split by release year
+gpu/<manufacturer>/<year>/<segment>/<slug>.json   # GPUs are split by release year then segment (consumer | enterprise)
+cpu/<manufacturer>/<year>/<slug>.json             # CPUs are additionally split by release year
 ```
+
+GPU `<segment>` is:
+* `consumer` — gaming/desktop & laptop dGPUs (GeForce GTX/RTX, Radeon RX/R9/HD, Arc, Voodoo, MTT S60/S70/S80, …)
+* `enterprise` — datacenter compute, AI accelerators, workstation pro cards (Tesla, A100/H100/B200, Quadro/RTX A/RTX PRO, Radeon Pro W, Instinct MI, MTT S3000/S4000, Vega Frontier, AI-focused TITAN V/RTX, …)
 
 > ⚠️ **This is a curated subset — NOT an exhaustive list of every device/chip.**
 > It is hand-verified and intentionally partial. Breadth is expanded out-of-band

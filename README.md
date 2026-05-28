@@ -106,7 +106,7 @@ Data is organised by category and brand with singular folder names. It is a
 data/brand/<slug>.json                       # e.g. data/brand/samsung.json
 data/soc/<manufacturer>/<slug>.json           # data/soc/qualcomm/snapdragon-8-elite.json
 data/smartphone/<brand>/<slug>.json           # data/smartphone/samsung/galaxy-s25.json
-data/gpu/<manufacturer>/<slug>.json           # data/gpu/nvidia/geforce-rtx-5090.json
+data/gpu/<manufacturer>/<year>/<segment>/<slug>.json  # data/gpu/nvidia/2025/consumer/geforce-rtx-5090.json (split by year then consumer/enterprise)
 data/cpu/<manufacturer>/<year>/<slug>.json    # data/cpu/intel/2023/core-i9-14900k.json (CPU also by year)
 ```
 

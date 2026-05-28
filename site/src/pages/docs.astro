@@ -1,0 +1,18 @@
+---
+const raw = import.meta.env.BASE_URL;
+const base = raw.endsWith("/") ? raw : raw + "/"; // ensure trailing slash
+const openapiUrl = `${base}openapi.json`;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechAPI — API reference</title>
+</head>
+<body>
+  <!-- Interactive OpenAPI reference, rendered client-side from the static spec. -->
+  <script id="api-reference" data-url={openapiUrl} is:inline></script>
+  <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference" is:inline></script>
+</body>
+</html>

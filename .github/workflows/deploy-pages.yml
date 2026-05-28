@@ -1,0 +1,72 @@
+name: deploy-pages
+
+# Builds the Astro site (intro homepage + OpenAPI docs) together with the static
+# JSON data dump and deploys everything to GitHub Pages. The dataset does not need
+# to be complete — whatever is curated in data/ is published.
+# Enable once: Settings → Pages → Source = GitHub Actions.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python deps
+        run: pip install -e .
+
+      - name: Validate curated data
+        run: python -m scripts.validate
+
+      - name: Generate static JSON dump + openapi.json
+        run: python -m scripts.dump --output dump
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Build Astro site
+        run: |
+          cd site
+          npm ci
+          npm run build
+
+      - name: Assemble site (Astro dist + JSON data dump)
+        run: |
+          mkdir -p _site
+          cp -r site/dist/. _site/
+          cp -r dump/. _site/
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

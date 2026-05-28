@@ -1,0 +1,128 @@
+---
+const raw = import.meta.env.BASE_URL;
+const base = raw.endsWith("/") ? raw : raw + "/"; // ensure trailing slash
+const endpoints = [
+  { label: "/v1/smartphones", href: `${base}v1/smartphones/index.json` },
+  { label: "/v1/smartphones/{slug}", href: `${base}v1/smartphones/galaxy-s25/index.json` },
+  { label: "/v1/socs · /v1/socs/{slug}", href: `${base}v1/socs/snapdragon-8-elite/index.json` },
+  { label: "/v1/gpus · /v1/gpus/{slug}", href: `${base}v1/gpus/geforce-rtx-4090/index.json` },
+  { label: "/v1/cpus · /v1/cpus/{slug}", href: `${base}v1/cpus/core-i9-14900k/index.json` },
+  { label: "/v1/brands", href: `${base}v1/brands/index.json` },
+];
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechAPI — open data for consumer electronics specs</title>
+  <meta name="description" content="A free, open, static dataset of smartphone, SoC, GPU and CPU specs. Inspired by PokeAPI." />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo">TechAPI</div>
+      <p class="tagline">Open data for consumer electronics — smartphones, SoCs, GPUs, CPUs.</p>
+      <div class="badges">
+        <span class="badge">Static JSON · no server</span>
+        <span class="badge">Code: MIT</span>
+        <span class="badge">Inspired by PokeAPI</span>
+      </div>
+      <div class="cta">
+        <a class="btn primary" href={`${base}docs`}>Interactive API docs →</a>
+        <a class="btn" href={`${base}v1/index.json`}>Browse the data</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>What is this?</h2>
+      <p>TechAPI is a free, open dataset of structured device & chip specs, served as
+      plain static JSON files (PokeAPI-style) — no API key, no server. Fetch any
+      resource directly:</p>
+      <pre><code id="example-url">curl …/v1/smartphones/galaxy-s25/index.json</code></pre>
+      <p class="note">⚠️ A curated subset that grows over time — not yet an exhaustive catalog of every device.</p>
+    </section>
+
+    <section>
+      <h2>Dataset</h2>
+      <div class="stats" id="stats"><div class="stat"><div class="n">…</div><div class="l">loading</div></div></div>
+    </section>
+
+    <section>
+      <h2>Endpoints (static JSON)</h2>
+      <ul class="ep">
+        {endpoints.map((e) => (
+          <li><span class="method">GET</span><a href={e.href}>{e.label}</a></li>
+        ))}
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sample: Galaxy S25</h2>
+      <pre id="preview"><code>loading…</code></pre>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    TechAPI · code MIT · data CC-BY-SA 4.0 · static dataset.
+    <br /><a href="https://github.com/Seungpyo1007/TechAPI">GitHub</a>
+  </footer>
+
+  <script>
+    const raw = import.meta.env.BASE_URL;
+    const base = raw.endsWith("/") ? raw : raw + "/";
+    const abs = new URL(base + "v1/smartphones/galaxy-s25/index.json", location.origin).href;
+    const ex = document.getElementById("example-url");
+    if (ex) ex.textContent = "curl " + abs;
+
+    fetch(base + "v1/index.json").then((r) => r.json()).then((m) => {
+      const order = ["smartphones", "socs", "gpus", "cpus", "brands"];
+      const el = document.getElementById("stats");
+      if (!el) return;
+      el.innerHTML = "";
+      for (const k of order) {
+        const c = m.collections?.[k]?.count;
+        if (c == null) continue;
+        el.insertAdjacentHTML("beforeend", `<div class="stat"><div class="n">${c}</div><div class="l">${k}</div></div>`);
+      }
+    }).catch(() => { const el = document.getElementById("stats"); if (el) el.textContent = "Data not built yet."; });
+
+    fetch(base + "v1/smartphones/galaxy-s25/index.json").then((r) => r.json()).then((d) => {
+      const el = document.querySelector("#preview code");
+      if (el) el.textContent = JSON.stringify(d, null, 2);
+    }).catch(() => { const el = document.querySelector("#preview code"); if (el) el.textContent = "Sample not available yet."; });
+  </script>
+
+  <style is:global>
+    :root { --bg:#0b0e14; --panel:#141925; --fg:#e6e9ef; --muted:#9aa4b2; --accent:#5b9dff; --accent2:#8b5cf6; --border:#222a3a; --code:#0f1420; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--fg); }
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    .wrap { max-width:920px; margin:0 auto; padding:0 20px; }
+    header { padding:64px 0 32px; text-align:center; background:radial-gradient(1200px 400px at 50% -10%, rgba(91,157,255,.15), transparent); }
+    .logo { font-size:44px; font-weight:800; letter-spacing:-1px; background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .tagline { color:var(--muted); font-size:18px; margin-top:8px; }
+    .badges { margin-top:16px; display:flex; gap:8px; justify-content:center; flex-wrap:wrap; }
+    .badge { font-size:12px; padding:4px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted); }
+    .cta { margin-top:24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+    .btn { padding:10px 18px; border-radius:10px; font-weight:600; border:1px solid var(--border); color:var(--fg); }
+    .btn.primary { background:linear-gradient(90deg,var(--accent),var(--accent2)); color:#fff; border:none; }
+    section { padding:28px 0; border-top:1px solid var(--border); }
+    h2 { font-size:20px; margin:0 0 14px; }
+    .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:12px; }
+    .stat { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:16px; text-align:center; }
+    .stat .n { font-size:28px; font-weight:800; }
+    .stat .l { color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.5px; }
+    pre { background:var(--code); border:1px solid var(--border); border-radius:12px; padding:16px; overflow:auto; }
+    code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:14px; }
+    ul.ep { list-style:none; padding:0; margin:0; display:grid; gap:6px; }
+    ul.ep li { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; font-family:ui-monospace,monospace; font-size:14px; }
+    .method { color:#7ee787; font-weight:700; margin-right:8px; }
+    footer { padding:40px 0; color:var(--muted); font-size:14px; text-align:center; border-top:1px solid var(--border); }
+    .note { color:var(--muted); font-size:14px; }
+    #preview { max-height:320px; }
+  </style>
+</body>
+</html>

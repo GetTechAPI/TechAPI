@@ -110,6 +110,23 @@ def _check_date(name: str, value: object, errors: list[str]) -> None:
         errors.append(f"{name}: release_date '{value}' must be ISO 8601 YYYY-MM-DD (§14.2)")
 
 
+def _check_unique_slugs(
+    category: str, records: list[tuple[str, dict[str, Any]]], errors: list[str]
+) -> None:
+    """Each category's `slug` must be unique — seed/dump load into a UNIQUE column."""
+    seen: dict[str, str] = {}
+    for fname, rec in records:
+        slug = rec.get("slug")
+        if not isinstance(slug, str):
+            continue
+        if slug in seen:
+            errors.append(
+                f"{fname}: duplicate {category} slug '{slug}' (also in {seen[slug]})"
+            )
+        else:
+            seen[slug] = fname
+
+
 def validate() -> list[str]:
     errors: list[str] = []
 
@@ -121,6 +138,15 @@ def validate() -> list[str]:
 
     brand_slugs = {rec["slug"] for _, rec in brands if "slug" in rec}
     soc_slugs = {rec["slug"] for _, rec in socs if "slug" in rec}
+
+    for category, records in (
+        ("brand", brands),
+        ("soc", socs),
+        ("smartphone", phones),
+        ("gpu", gpus),
+        ("cpu", cpus),
+    ):
+        _check_unique_slugs(category, records, errors)
 
     for fname, rec in brands:
         _check_required(fname, rec, BRAND_REQUIRED, errors)

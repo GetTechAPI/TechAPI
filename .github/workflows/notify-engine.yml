@@ -17,6 +17,7 @@ on:
     branches: [main]
     paths-ignore:
       - "TechEngine"
+  workflow_dispatch:   # manual reverse-sync trigger (uses main HEAD sha)
 
 permissions:
   contents: read

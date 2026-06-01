@@ -6,7 +6,7 @@
 ## What this is
 
 TechAPI — a free, open REST API for consumer-electronics specs (smartphones,
-SoCs, GPUs, CPUs, brands). FastAPI + SQLModel, inspired by PokeAPI. **This repo is
+SoCs, GPUs, CPUs, brands). FastAPI + SQLModel. **This repo is
 the public product: the API + a curated dataset + a static JSON dump.** It does
 **not** contain data-collection/scraping tooling (that is maintained separately;
 see "Data scope" below).
@@ -57,7 +57,7 @@ data/                CURATED SEED DATA — singular folder names, organised by b
 scripts/
   seed.py            data/ → DB (recurses brand subfolders; coerces ISO dates)
   validate.py        schema/range/FK/slug checks (run in CI on data changes)
-  dump.py            DB → static JSON dump (replays API; PokeAPI-style) → ./dump
+  dump.py            DB → static JSON dump (replays API) → ./dump
 tests/               unit/ + integration/ (conftest seeds a temp SQLite from data/)
 docs/                SPEC.md, DATA_PIPELINE.md, DEVELOPMENT.md
 .github/workflows/   test.yml, validate-data.yml, refresh-data.yml
@@ -84,8 +84,8 @@ python -m scripts.dump           # generate ./dump/ static tree (gitignored)
   recorded as **ADR-011** / **§6.7** in docs/SPEC.md (maintainer wants computer chips).
 - **GPU activated** — model existed (§6.5); endpoints + data added.
 - **Data restructured** to singular names + brand subfolders (maintainer request).
-- **Static-dump pivot** — `scripts/dump.py` exports the API to a static JSON tree
-  (PokeAPI api-data style), refreshed by GitHub Actions (`refresh-data.yml`).
+- **Static-dump pivot** — `scripts/dump.py` exports the API to a static JSON tree,
+  refreshed by GitHub Actions (`refresh-data.yml`).
 - **Scoring** is a Phase-0 reference-based approximation; Phase 1 → dataset-wide
   min-max (§8.4). Raw third-party benchmarks (Geekbench/AnTuTu/Cinebench/Time Spy)
   are stored as algorithm inputs but NOT exposed (ADR-006).

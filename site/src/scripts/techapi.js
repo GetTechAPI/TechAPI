@@ -1,5 +1,5 @@
 // TechAPI — homepage interactions (Astro client script)
-// Real static-JSON fetch against import.meta.env.BASE_URL (PokeAPI-style dump).
+// Real static-JSON fetch against import.meta.env.BASE_URL (static JSON dump).
 const raw = import.meta.env.BASE_URL;
 const base = raw.endsWith("/") ? raw : raw + "/";
 const absUrl = (path) => new URL(path.replace(/^\//, ""), location.origin + base).href;

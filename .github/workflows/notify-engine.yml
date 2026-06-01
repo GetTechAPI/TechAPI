@@ -32,12 +32,11 @@ jobs:
         if: env.ENGINE_TOKEN == ''
         run: echo "::warning::ENGINE_TOKEN not configured — reverse autosync dormant; skipping dispatch."
 
-      # Best-effort: TechEngine is org-owned (GetTechAPI), so ENGINE_TOKEN must be
-      # an org-approved PAT with Contents:write. If it isn't yet, the dispatch
-      # 403s — warn instead of failing the whole run on every real push.
+      # ENGINE_TOKEN must be an org-approved PAT with Contents:write on the
+      # org-owned GetTechAPI/TechEngine. Fail loud if the dispatch is rejected
+      # (e.g. PAT expired/revoked) so a broken reverse sync is visible.
       - name: Dispatch techapi-updated to TechEngine
         if: env.ENGINE_TOKEN != ''
-        continue-on-error: true
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.ENGINE_TOKEN }}

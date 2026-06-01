@@ -1,21 +1,16 @@
-<!-- PR title must follow Conventional Commits (§14.5), e.g. feat(api): add /compare endpoint -->
+<!-- PR title must follow Conventional Commits, e.g. feat(data/cpu): add EPYC Rome SKUs -->
 
 ## What & why
 
 <!-- What does this change and why? Link issues with "Closes #123". -->
 
-## How
+## Source
 
-<!-- Key implementation notes. -->
-
-## Testing
-
-<!-- How was this verified? Paste test output or screenshots. -->
+<!-- Cite the upstream source (vendor product page, Wikipedia infobox, datasheet). -->
 
 ## Checklist
 
-- [ ] Type hints on all new functions (§0.5.4)
-- [ ] Tests added/updated (§15)
-- [ ] `ruff check` and `pytest` pass locally
-- [ ] Data changes pass `python -m scripts.validate`
-- [ ] SPEC/README updated if behavior changed (§0.5.4)
+- [ ] `python -m app.validate` passes locally
+- [ ] Files live at the correct `data/<category>/<...>/<slug>.json` path
+- [ ] Slugs are kebab-case and unique within the category
+- [ ] `source_urls` cites at least one canonical reference

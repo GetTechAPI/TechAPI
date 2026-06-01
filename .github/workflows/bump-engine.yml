@@ -1,0 +1,49 @@
+name: bump-engine
+
+# Auto-bumps the TechEngine submodule pointer to its latest main commit.
+# Fired by TechEngine via repository_dispatch (event type: engine-updated) on
+# every push to TechEngine's main; also runnable manually. The submodule gitlink
+# lives in THIS repo, so the bump commit must be made here — TechEngine only
+# sends the signal (see .claude/techengine_submodule_sync_spec.md for the
+# TechEngine-side contract).
+on:
+  repository_dispatch:
+    types: [engine-updated]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bump-engine
+  cancel-in-progress: true
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Update TechEngine submodule to latest main
+        id: bump
+        run: |
+          git submodule update --remote --recursive TechEngine
+          if git diff --quiet -- TechEngine; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Submodule already up to date — nothing to do."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit & push bump
+        if: steps.bump.outputs.changed == 'true'
+        run: |
+          NEW_SHA=$(git -C TechEngine rev-parse --short HEAD)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add TechEngine
+          git commit -m "chore: bump TechEngine submodule to ${NEW_SHA}"
+          git push

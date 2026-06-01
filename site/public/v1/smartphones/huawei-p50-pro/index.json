@@ -1,0 +1,110 @@
+{
+  "id": 114,
+  "slug": "huawei-p50-pro",
+  "name": "Huawei P50 Pro",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 25,
+    "slug": "kirin-9000",
+    "name": "HiSilicon Kirin 9000",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP24",
+    "url": "/v1/socs/kirin-9000"
+  },
+  "release_date": "2021-07-29",
+  "msrp_usd": 1049,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "2700x1228",
+    "refresh_hz": 120,
+    "type": "OLED",
+    "brightness_nits": 800,
+    "ppi": 450
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX766"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "periscope",
+      "mp": 64,
+      "aperture": 3.5,
+      "ois": true,
+      "optical_zoom": 3.5
+    },
+    {
+      "type": "telephoto",
+      "mp": 40,
+      "aperture": 1.6,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 4360,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 195.0,
+  "dimensions": {
+    "height_mm": 158.8,
+    "width_mm": 72.8,
+    "depth_mm": 8.5
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-p50-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.0,
+    "performance": 5.6,
+    "camera": 40.1,
+    "battery": 50.1,
+    "display": 40.0,
+    "value": 38.2
+  },
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/p50-pro/",
+    "https://en.wikipedia.org/wiki/Huawei_P50_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.751185",
+  "updated_at": "2026-06-01T06:47:49.751185"
+}

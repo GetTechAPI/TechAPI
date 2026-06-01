@@ -1,0 +1,94 @@
+{
+  "id": 132,
+  "slug": "lg-g8-thinq",
+  "name": "LG G8 ThinQ",
+  "brand": {
+    "id": 78,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 65,
+    "slug": "snapdragon-855",
+    "name": "Snapdragon 855",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/snapdragon-855"
+  },
+  "release_date": "2019-03-22",
+  "msrp_usd": 820,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "3120x1440",
+    "refresh_hz": 60,
+    "type": "P-OLED FullVision",
+    "brightness_nits": 600,
+    "ppi": 564
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.5,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 16,
+      "aperture": 1.9,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 1.7
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": 9.0,
+  "weight_g": 167.0,
+  "dimensions": {
+    "height_mm": 151.9,
+    "width_mm": 71.8,
+    "depth_mm": 8.4
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "9",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-g8-thinq.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.8,
+    "performance": 1.5,
+    "camera": 18.0,
+    "battery": 9.3,
+    "display": 26.4,
+    "value": 36.9
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/LG_G8_ThinQ",
+    "https://www.lg.com/global/mobile-phones/lg-g8-thinq"
+  ],
+  "created_at": "2026-06-01T06:47:49.754185",
+  "updated_at": "2026-06-01T06:47:49.754185"
+}

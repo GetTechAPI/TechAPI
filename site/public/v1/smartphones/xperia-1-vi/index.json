@@ -1,0 +1,103 @@
+{
+  "id": 301,
+  "slug": "xperia-1-vi",
+  "name": "Xperia 1 VI",
+  "brand": {
+    "id": 76,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 93,
+    "slug": "snapdragon-8-gen-3",
+    "name": "Snapdragon 8 Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 750",
+    "url": "/v1/socs/snapdragon-8-gen-3"
+  },
+  "release_date": "2024-05-17",
+  "msrp_usd": 1399,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "2340x1080",
+    "refresh_hz": 120,
+    "type": "OLED",
+    "brightness_nits": 3000,
+    "ppi": 396
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.9,
+      "ois": true,
+      "sensor": "Exmor T"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 3.5,
+      "ois": true,
+      "optical_zoom": 7
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 192.0,
+  "dimensions": {
+    "height_mm": 162.0,
+    "width_mm": 73.3,
+    "depth_mm": 8.2
+  },
+  "ip_rating": "IP65/IP68",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xperia-1-vi.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 52.3,
+    "performance": 54.2,
+    "camera": 34.5,
+    "battery": 50.9,
+    "display": 69.6,
+    "value": 33.9
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.sony.com/en/articles/xperia-1-vi-specifications",
+    "https://en.wikipedia.org/wiki/Sony_Xperia_1_VI"
+  ],
+  "created_at": "2026-06-01T06:47:49.778961",
+  "updated_at": "2026-06-01T06:47:49.778961"
+}

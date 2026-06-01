@@ -1,0 +1,105 @@
+{
+  "id": 348,
+  "slug": "iqoo-13",
+  "name": "iQOO 13",
+  "brand": {
+    "id": 20,
+    "slug": "iqoo",
+    "name": "iQOO",
+    "country": "CN",
+    "url": "/v1/brands/iqoo"
+  },
+  "soc": {
+    "id": 96,
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 830",
+    "url": "/v1/socs/snapdragon-8-elite"
+  },
+  "release_date": "2024-12-10",
+  "msrp_usd": 750,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.82,
+    "resolution": "3168x1440",
+    "refresh_hz": 144,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 4500,
+    "ppi": 510
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.88,
+      "ois": true,
+      "sensor": "Sony LYT-818"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 1.85,
+      "ois": true,
+      "optical_zoom": 2,
+      "sensor": "Sony IMX816"
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 6150,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 213.0,
+  "dimensions": {
+    "height_mm": 163.6,
+    "width_mm": 76.7,
+    "depth_mm": 8.1
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "15",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iqoo-13.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 73.8,
+    "performance": 83.9,
+    "camera": 35.1,
+    "battery": 85.0,
+    "display": 91.0,
+    "value": 69.6
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/IQOO_13",
+    "https://www.vivo.com/iqoo/iqoo-13/specs"
+  ],
+  "created_at": "2026-06-01T06:47:49.784961",
+  "updated_at": "2026-06-01T06:47:49.784961"
+}

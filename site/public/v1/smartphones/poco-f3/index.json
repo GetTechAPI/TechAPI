@@ -1,0 +1,102 @@
+{
+  "id": 325,
+  "slug": "poco-f3",
+  "name": "POCO F3",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 82,
+    "slug": "snapdragon-870",
+    "name": "Snapdragon 870",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-870"
+  },
+  "release_date": "2021-03-22",
+  "msrp_usd": 299,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2400x1080",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 1300,
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.79,
+      "ois": false,
+      "sensor": "Sony IMX582"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "macro",
+      "mp": 5,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 4520,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 196.0,
+  "dimensions": {
+    "height_mm": 163.7,
+    "width_mm": 76.4,
+    "depth_mm": 7.8
+  },
+  "ip_rating": "IP53",
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/poco-f3.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.3,
+    "performance": 6.1,
+    "camera": 26.5,
+    "battery": 26.2,
+    "display": 42.4,
+    "value": 62.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/poco-f3",
+    "https://en.wikipedia.org/wiki/POCO_F3"
+  ],
+  "created_at": "2026-06-01T06:47:49.781961",
+  "updated_at": "2026-06-01T06:47:49.781961"
+}

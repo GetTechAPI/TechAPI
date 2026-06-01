@@ -1,0 +1,104 @@
+{
+  "id": 72,
+  "slug": "pixel-6-pro",
+  "name": "Pixel 6 Pro",
+  "brand": {
+    "id": 110,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 17,
+    "slug": "google-tensor",
+    "name": "Google Tensor",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP20",
+    "url": "/v1/socs/google-tensor"
+  },
+  "release_date": "2021-10-28",
+  "msrp_usd": 899,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "3120x1440",
+    "refresh_hz": 120,
+    "type": "AMOLED LTPO",
+    "brightness_nits": 1000,
+    "ppi": 512
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.85,
+      "ois": true,
+      "sensor": "Samsung GN1"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 48,
+      "aperture": 3.5,
+      "ois": true,
+      "optical_zoom": 4
+    },
+    {
+      "type": "selfie",
+      "mp": 11.1,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 5003,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": 23.0,
+  "weight_g": 210.0,
+  "dimensions": {
+    "height_mm": 163.9,
+    "width_mm": 75.9,
+    "depth_mm": 8.9
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-6-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.7,
+    "performance": 6.7,
+    "camera": 35.1,
+    "battery": 47.5,
+    "display": 49.4,
+    "value": 44.3
+  },
+  "verified": true,
+  "source_urls": [
+    "https://store.google.com/us/product/pixel_6_pro_specs",
+    "https://en.wikipedia.org/wiki/Pixel_6_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.744674",
+  "updated_at": "2026-06-01T06:47:49.744674"
+}

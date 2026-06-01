@@ -1,0 +1,108 @@
+{
+  "id": 95,
+  "slug": "honor-magic-v2",
+  "name": "HONOR Magic V2",
+  "brand": {
+    "id": 16,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 26,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2023-07-12",
+  "msrp_usd": 1599,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 7.92,
+    "resolution": "2344x2156",
+    "refresh_hz": 90,
+    "type": "LTPO OLED",
+    "brightness_nits": 2500,
+    "ppi": 410
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.9,
+      "ois": true,
+      "sensor": "Sony IMX906"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "periscope",
+      "mp": 20,
+      "aperture": 3.5,
+      "ois": true,
+      "optical_zoom": 3.5
+    },
+    {
+      "type": "selfie",
+      "mp": 16,
+      "aperture": 2.45
+    },
+    {
+      "type": "cover-selfie",
+      "mp": 16,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 231.0,
+  "dimensions": {
+    "height_mm": 156.7,
+    "width_mm": 145.4,
+    "depth_mm": 9.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/honor-magic-v2.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.1,
+    "performance": 10.0,
+    "camera": 40.1,
+    "battery": 39.7,
+    "display": 50.6,
+    "value": 17.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.hihonor.com/global/phones/honor-magic-v2/",
+    "https://en.wikipedia.org/wiki/Honor_Magic_V2"
+  ],
+  "created_at": "2026-06-01T06:47:49.749187",
+  "updated_at": "2026-06-01T06:47:49.749187"
+}

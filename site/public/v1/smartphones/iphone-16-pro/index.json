@@ -1,0 +1,105 @@
+{
+  "id": 40,
+  "slug": "iphone-16-pro",
+  "name": "iPhone 16 Pro",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 13,
+    "slug": "apple-a18-pro",
+    "name": "Apple A18 Pro",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Apple GPU (6-core)",
+    "url": "/v1/socs/apple-a18-pro"
+  },
+  "release_date": "2024-09-20",
+  "msrp_usd": 999,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "2622x1206",
+    "refresh_hz": 120,
+    "type": "LTPO Super Retina XDR OLED",
+    "brightness_nits": 2000,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.78,
+      "ois": true,
+      "sensor": "Sony IMX903"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.8,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 1.9
+    }
+  ],
+  "battery_mah": 3582,
+  "charging_wired_w": 27.0,
+  "charging_wireless_w": 25.0,
+  "weight_g": 199.0,
+  "dimensions": {
+    "height_mm": 149.6,
+    "width_mm": 71.5,
+    "depth_mm": 8.25
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "18",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-16-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 51.0,
+    "performance": 73.3,
+    "camera": 34.5,
+    "battery": 36.0,
+    "display": 60.1,
+    "value": 48.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-16-pro/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_16_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.739433",
+  "updated_at": "2026-06-01T06:47:49.739433"
+}

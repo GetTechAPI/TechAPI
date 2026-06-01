@@ -1,0 +1,101 @@
+{
+  "id": 270,
+  "slug": "galaxy-a26",
+  "name": "Galaxy A26 5G",
+  "brand": {
+    "id": 80,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 116,
+    "slug": "exynos-1380",
+    "name": "Samsung Exynos 1380",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G68 MP5",
+    "url": "/v1/socs/exynos-1380"
+  },
+  "release_date": "2025-03-02",
+  "msrp_usd": 299,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2340x1080",
+    "refresh_hz": 120,
+    "type": "Super AMOLED",
+    "brightness_nits": 1900,
+    "ppi": 385
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "macro",
+      "mp": 2,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 200.0,
+  "dimensions": {
+    "height_mm": 164.0,
+    "width_mm": 77.5,
+    "depth_mm": 7.7
+  },
+  "ip_rating": "IP67",
+  "os": "Android",
+  "os_version": "15",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-a26.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.4,
+    "performance": 1.5,
+    "camera": 35.1,
+    "battery": 41.9,
+    "display": 51.0,
+    "value": 66.2
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_A26",
+    "https://www.samsung.com/global/galaxy/galaxy-a26/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.773961",
+  "updated_at": "2026-06-01T06:47:49.773961"
+}

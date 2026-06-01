@@ -1,0 +1,102 @@
+{
+  "id": 307,
+  "slug": "vivo-v29",
+  "name": "vivo V29",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 80,
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g"
+  },
+  "release_date": "2023-09-12",
+  "msrp_usd": 449,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2400x1080",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 1800,
+    "ppi": 388
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.88,
+      "ois": true,
+      "sensor": "Sony IMX766"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "macro",
+      "mp": 2,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 50,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 4600,
+  "charging_wired_w": 44.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 186.0,
+  "dimensions": {
+    "height_mm": 164.1,
+    "width_mm": 75.0,
+    "depth_mm": 7.7
+  },
+  "ip_rating": "IP54",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-v29.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.6,
+    "performance": 3.0,
+    "camera": 35.1,
+    "battery": 34.5,
+    "display": 49.7,
+    "value": 59.5
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/v29",
+    "https://en.wikipedia.org/wiki/Vivo_V29"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.779962"
+}

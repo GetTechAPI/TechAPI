@@ -1,0 +1,103 @@
+{
+  "id": 336,
+  "slug": "xiaomi-12s-ultra",
+  "name": "Xiaomi 12S Ultra",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 88,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2022-07-04",
+  "msrp_usd": 1199,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.73,
+    "resolution": "3200x1440",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 1500,
+    "ppi": 521
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.9,
+      "ois": true,
+      "sensor": "Sony IMX989"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 48,
+      "aperture": 4.1,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 4860,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 225.0,
+  "dimensions": {
+    "height_mm": 163.18,
+    "width_mm": 74.97,
+    "depth_mm": 9.06
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-12s-ultra.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.3,
+    "performance": 25.2,
+    "camera": 35.1,
+    "battery": 62.8,
+    "display": 58.2,
+    "value": 38.0
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/xiaomi-12s-ultra",
+    "https://en.wikipedia.org/wiki/Xiaomi_12S_series"
+  ],
+  "created_at": "2026-06-01T06:47:49.783961",
+  "updated_at": "2026-06-01T06:47:49.783961"
+}

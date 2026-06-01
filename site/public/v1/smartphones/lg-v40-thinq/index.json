@@ -1,0 +1,107 @@
+{
+  "id": 131,
+  "slug": "lg-v40-thinq",
+  "name": "LG V40 ThinQ",
+  "brand": {
+    "id": 78,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 63,
+    "slug": "snapdragon-845",
+    "name": "Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/snapdragon-845"
+  },
+  "release_date": "2018-10-04",
+  "msrp_usd": 900,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.4,
+    "resolution": "3120x1440",
+    "refresh_hz": 60,
+    "type": "P-OLED FullVision",
+    "brightness_nits": 600,
+    "ppi": 537
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.5,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 16,
+      "aperture": 1.9,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 1.9
+    },
+    {
+      "type": "selfie",
+      "mp": 5,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": 9.0,
+  "weight_g": 169.0,
+  "dimensions": {
+    "height_mm": 158.7,
+    "width_mm": 75.7,
+    "depth_mm": 7.7
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "8.1",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-v40-thinq.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.6,
+    "performance": 1.5,
+    "camera": 23.0,
+    "battery": 6.3,
+    "display": 23.7,
+    "value": 33.7
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/LG_V40_ThinQ",
+    "https://www.lg.com/global/mobile-phones/lg-v40-thinq"
+  ],
+  "created_at": "2026-06-01T06:47:49.754185",
+  "updated_at": "2026-06-01T06:47:49.754185"
+}

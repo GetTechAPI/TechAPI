@@ -1,0 +1,104 @@
+{
+  "id": 142,
+  "slug": "motorola-edge-50-ultra",
+  "name": "Motorola Edge 50 Ultra",
+  "brand": {
+    "id": 117,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 97,
+    "slug": "snapdragon-8s-gen-3",
+    "name": "Snapdragon 8s Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 735",
+    "url": "/v1/socs/snapdragon-8s-gen-3"
+  },
+  "release_date": "2024-05-23",
+  "msrp_usd": 899,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2712x1220",
+    "refresh_hz": 144,
+    "type": "pOLED",
+    "brightness_nits": 2500,
+    "ppi": 446
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.6,
+      "ois": true,
+      "sensor": "Sony LYT-700C"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 1.9,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 64,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 50,
+      "aperture": 1.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 125.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 206.0,
+  "dimensions": {
+    "height_mm": 161.1,
+    "width_mm": 72.4,
+    "depth_mm": 8.59
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/motorola-edge-50-ultra.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 55.8,
+    "performance": 43.8,
+    "camera": 35.1,
+    "battery": 67.5,
+    "display": 76.7,
+    "value": 54.8
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.motorola.com/us/smartphones/edge-50-ultra",
+    "https://en.wikipedia.org/wiki/Motorola_Edge_50_Ultra"
+  ],
+  "created_at": "2026-06-01T06:47:49.755691",
+  "updated_at": "2026-06-01T06:47:49.755691"
+}

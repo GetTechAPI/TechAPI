@@ -1,0 +1,35 @@
+{
+  "id": 10,
+  "slug": "apple-a15-bionic",
+  "name": "Apple A15 Bionic",
+  "manufacturer": {
+    "slug": "apple",
+    "name": "Apple",
+    "url": "/v1/brands/apple"
+  },
+  "release_date": "2021-09-24",
+  "process_nm": 5.0,
+  "transistors_billion": 15.0,
+  "cpu_config": {
+    "performance": 2,
+    "efficiency": 4,
+    "architecture": "2x Avalanche + 4x Blizzard",
+    "clocks_ghz": [
+      3.23,
+      2.02
+    ]
+  },
+  "gpu_name": "Apple GPU (5-core)",
+  "gpu_cores": 5,
+  "gpu_clock_mhz": null,
+  "npu_tops": 15.8,
+  "modem": "Apple Modem (5G)",
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-13-pro/chip/",
+    "https://en.wikipedia.org/wiki/Apple_A15_Bionic"
+  ],
+  "created_at": "2026-06-01T06:47:49.590468",
+  "updated_at": "2026-06-01T06:47:49.590468",
+  "url": "/v1/socs/apple-a15-bionic"
+}

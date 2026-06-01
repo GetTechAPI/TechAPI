@@ -1,0 +1,104 @@
+{
+  "id": 347,
+  "slug": "xiaomi-13t-pro",
+  "name": "Xiaomi 13T Pro",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 41,
+    "slug": "dimensity-9200-plus",
+    "name": "MediaTek Dimensity 9200+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G715 MC11",
+    "url": "/v1/socs/dimensity-9200-plus"
+  },
+  "release_date": "2023-09-26",
+  "msrp_usd": 899,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2712x1220",
+    "refresh_hz": 144,
+    "type": "AMOLED",
+    "brightness_nits": 2600,
+    "ppi": 446
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.9,
+      "ois": true,
+      "sensor": "Sony IMX906"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 2.9,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.24
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 206.0,
+  "dimensions": {
+    "height_mm": 162.2,
+    "width_mm": 75.7,
+    "depth_mm": 8.49
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-13t-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 53.5,
+    "performance": 35.6,
+    "camera": 35.1,
+    "battery": 65.0,
+    "display": 78.2,
+    "value": 53.7
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/xiaomi-13t-pro",
+    "https://en.wikipedia.org/wiki/Xiaomi_13T_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.784961",
+  "updated_at": "2026-06-01T06:47:49.784961"
+}

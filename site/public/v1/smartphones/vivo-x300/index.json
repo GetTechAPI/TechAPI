@@ -1,0 +1,105 @@
+{
+  "id": 315,
+  "slug": "vivo-x300",
+  "name": "Vivo X300",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 50,
+    "slug": "dimensity-9500",
+    "name": "Dimensity 9500",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Mali G1-Ultra",
+    "url": "/v1/socs/dimensity-9500"
+  },
+  "release_date": "2025-10-13",
+  "msrp_usd": 749,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.31,
+    "resolution": "2640x1216",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 4500,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "Sony LYT-828"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 200,
+      "aperture": 2.7,
+      "ois": true,
+      "optical_zoom": 3,
+      "sensor": "Samsung HP9"
+    },
+    {
+      "type": "selfie",
+      "mp": 50,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 6040,
+  "charging_wired_w": 90.0,
+  "charging_wireless_w": 40.0,
+  "weight_g": 190.0,
+  "dimensions": {
+    "height_mm": 150.9,
+    "width_mm": 71.9,
+    "depth_mm": 7.95
+  },
+  "ip_rating": "IP69",
+  "os": "Android",
+  "os_version": "16",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "6.0",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x300.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 66.1,
+    "performance": null,
+    "camera": 35.1,
+    "battery": 87.3,
+    "display": 76.0,
+    "value": 65.8
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Vivo_X300",
+    "https://www.vivo.com/global/product/x300/specs"
+  ],
+  "created_at": "2026-06-01T06:47:49.780961",
+  "updated_at": "2026-06-01T06:47:49.780961"
+}

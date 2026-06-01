@@ -1,0 +1,104 @@
+{
+  "id": 165,
+  "slug": "oneplus-10-pro",
+  "name": "OnePlus 10 Pro",
+  "brand": {
+    "id": 28,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 81,
+    "slug": "snapdragon-8-gen-1",
+    "name": "Snapdragon 8 Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-gen-1"
+  },
+  "release_date": "2022-03-31",
+  "msrp_usd": 899,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "3216x1440",
+    "refresh_hz": 120,
+    "type": "AMOLED LTPO2",
+    "brightness_nits": 1300,
+    "ppi": 525
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX789"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 8,
+      "aperture": 3.3,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 80.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 200.5,
+  "dimensions": {
+    "height_mm": 163.0,
+    "width_mm": 73.9,
+    "depth_mm": 8.6
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-10-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 42.8,
+    "performance": 13.9,
+    "camera": 34.5,
+    "battery": 67.4,
+    "display": 55.4,
+    "value": 48.3
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.oneplus.com/us/oneplus-10-pro/specs",
+    "https://en.wikipedia.org/wiki/OnePlus_10_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.759695",
+  "updated_at": "2026-06-01T06:47:49.759695"
+}

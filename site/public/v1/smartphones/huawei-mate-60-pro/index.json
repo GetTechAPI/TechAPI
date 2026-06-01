@@ -1,0 +1,104 @@
+{
+  "id": 116,
+  "slug": "huawei-mate-60-pro",
+  "name": "Huawei Mate 60 Pro",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 26,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2023-08-29",
+  "msrp_usd": 1199,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.82,
+    "resolution": "2720x1260",
+    "refresh_hz": 120,
+    "type": "LTPO OLED",
+    "brightness_nits": 2500,
+    "ppi": 436
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.4,
+      "ois": true,
+      "sensor": "RYYB"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 48,
+      "aperture": 3.5,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 88.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 225.0,
+  "dimensions": {
+    "height_mm": 163.0,
+    "width_mm": 76.1,
+    "depth_mm": 8.1
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-mate-60-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 40.4,
+    "performance": 7.0,
+    "camera": 35.1,
+    "battery": 53.9,
+    "display": 65.6,
+    "value": 35.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/mate60pro/specs/",
+    "https://en.wikipedia.org/wiki/Huawei_Mate_60_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.752186",
+  "updated_at": "2026-06-01T06:47:49.752186"
+}

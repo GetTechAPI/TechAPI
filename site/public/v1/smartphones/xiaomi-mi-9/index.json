@@ -1,0 +1,102 @@
+{
+  "id": 321,
+  "slug": "xiaomi-mi-9",
+  "name": "Xiaomi Mi 9",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 65,
+    "slug": "snapdragon-855",
+    "name": "Snapdragon 855",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/snapdragon-855"
+  },
+  "release_date": "2019-03-01",
+  "msrp_usd": 445,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.39,
+    "resolution": "2340x1080",
+    "refresh_hz": 60,
+    "type": "AMOLED",
+    "brightness_nits": 600,
+    "ppi": 403
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.8,
+      "ois": false
+    },
+    {
+      "type": "ultrawide",
+      "mp": 16,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": 27.0,
+  "charging_wireless_w": 20.0,
+  "weight_g": 173.0,
+  "dimensions": {
+    "height_mm": 157.5,
+    "width_mm": 74.7,
+    "depth_mm": 7.6
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "9",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-mi-9.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.3,
+    "performance": 1.5,
+    "camera": 26.5,
+    "battery": 10.8,
+    "display": 10.3,
+    "value": 50.5
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Xiaomi_Mi_9",
+    "https://www.mi.com/global/mi9/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.781961",
+  "updated_at": "2026-06-01T06:47:49.781961"
+}

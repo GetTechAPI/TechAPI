@@ -1,0 +1,103 @@
+{
+  "id": 264,
+  "slug": "galaxy-s24-fe",
+  "name": "Galaxy S24 FE",
+  "brand": {
+    "id": 80,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 119,
+    "slug": "exynos-2400",
+    "name": "Samsung Exynos 2400",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Xclipse 940",
+    "url": "/v1/socs/exynos-2400"
+  },
+  "release_date": "2024-10-03",
+  "msrp_usd": 649,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2340x1080",
+    "refresh_hz": 120,
+    "type": "Dynamic AMOLED 2X",
+    "brightness_nits": 1900,
+    "ppi": 385
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 8,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 10,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 213.0,
+  "dimensions": {
+    "height_mm": 162.0,
+    "width_mm": 77.3,
+    "depth_mm": 8.0
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s24-fe.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 43.5,
+    "performance": 42.6,
+    "camera": 35.1,
+    "battery": 45.4,
+    "display": 51.0,
+    "value": 58.4
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.samsung.com/global/galaxy/galaxy-s24-fe/specs/",
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_S24_FE"
+  ],
+  "created_at": "2026-06-01T06:47:49.772961",
+  "updated_at": "2026-06-01T06:47:49.772961"
+}

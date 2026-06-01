@@ -1,0 +1,91 @@
+{
+  "id": 46,
+  "slug": "iphone-air",
+  "name": "iPhone Air",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 15,
+    "slug": "apple-a19-pro",
+    "name": "Apple A19 Pro",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Apple GPU (6-core)",
+    "url": "/v1/socs/apple-a19-pro"
+  },
+  "release_date": "2025-09-19",
+  "msrp_usd": 999,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "2736x1260",
+    "refresh_hz": 120,
+    "type": "LTPO Super Retina XDR OLED",
+    "brightness_nits": 3000,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.6,
+      "ois": true,
+      "sensor": "Fusion 48MP"
+    },
+    {
+      "type": "selfie",
+      "mp": 18,
+      "aperture": 1.9
+    }
+  ],
+  "battery_mah": 3149,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": 25.0,
+  "weight_g": 165.0,
+  "dimensions": {
+    "height_mm": 156.2,
+    "width_mm": 74.7,
+    "depth_mm": 5.64
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "26",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "6.0",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-air.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 42.9,
+    "performance": null,
+    "camera": 24.5,
+    "battery": 28.2,
+    "display": 76.0,
+    "value": 44.5
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.apple.com/iphone-air/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_Air"
+  ],
+  "created_at": "2026-06-01T06:47:49.740668",
+  "updated_at": "2026-06-01T06:47:49.740668"
+}

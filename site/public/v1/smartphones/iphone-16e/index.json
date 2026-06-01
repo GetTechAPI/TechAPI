@@ -1,0 +1,91 @@
+{
+  "id": 42,
+  "slug": "iphone-16e",
+  "name": "iPhone 16e",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 14,
+    "slug": "apple-a18",
+    "name": "Apple A18",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a18"
+  },
+  "release_date": "2025-02-28",
+  "msrp_usd": 599,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "2532x1170",
+    "refresh_hz": 60,
+    "type": "OLED Super Retina XDR",
+    "brightness_nits": 1200,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.6,
+      "ois": true,
+      "sensor": "Fusion 48MP"
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 1.9
+    }
+  ],
+  "battery_mah": 4005,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": 7.5,
+  "weight_g": 167.0,
+  "dimensions": {
+    "height_mm": 146.7,
+    "width_mm": 71.5,
+    "depth_mm": 7.8
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "18",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-16e.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 38.3,
+    "performance": 68.8,
+    "camera": 24.5,
+    "battery": 37.5,
+    "display": 22.4,
+    "value": 57.6
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/IPhone_16e",
+    "https://www.apple.com/iphone-16e/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.739433",
+  "updated_at": "2026-06-01T06:47:49.739433"
+}

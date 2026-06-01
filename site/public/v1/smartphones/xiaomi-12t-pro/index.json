@@ -1,0 +1,101 @@
+{
+  "id": 337,
+  "slug": "xiaomi-12t-pro",
+  "name": "Xiaomi 12T Pro",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 88,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2022-10-04",
+  "msrp_usd": 849,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2712x1220",
+    "refresh_hz": 144,
+    "type": "AMOLED",
+    "brightness_nits": 900,
+    "ppi": 446
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 200,
+      "aperture": 1.69,
+      "ois": true,
+      "sensor": "Samsung HP1"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "macro",
+      "mp": 2,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.24
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 205.0,
+  "dimensions": {
+    "height_mm": 163.1,
+    "width_mm": 75.9,
+    "depth_mm": 8.6
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-12t-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 56.1,
+    "performance": 25.2,
+    "camera": 83.0,
+    "battery": 65.0,
+    "display": 51.2,
+    "value": 57.0
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/xiaomi-12t-pro",
+    "https://en.wikipedia.org/wiki/Xiaomi_12T_series"
+  ],
+  "created_at": "2026-06-01T06:47:49.783961",
+  "updated_at": "2026-06-01T06:47:49.783961"
+}

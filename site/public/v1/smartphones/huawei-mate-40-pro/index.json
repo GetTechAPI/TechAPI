@@ -1,0 +1,103 @@
+{
+  "id": 112,
+  "slug": "huawei-mate-40-pro",
+  "name": "Huawei Mate 40 Pro",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 25,
+    "slug": "kirin-9000",
+    "name": "HiSilicon Kirin 9000",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP24",
+    "url": "/v1/socs/kirin-9000"
+  },
+  "release_date": "2020-10-22",
+  "msrp_usd": 1199,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.76,
+    "resolution": "2772x1344",
+    "refresh_hz": 90,
+    "type": "OLED",
+    "brightness_nits": 800,
+    "ppi": 456
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.9,
+      "ois": true,
+      "sensor": "RYYB"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 20,
+      "aperture": 1.8,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 3.4,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 4400,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 212.0,
+  "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 75.5,
+    "depth_mm": 9.1
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-mate-40-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.9,
+    "performance": 5.6,
+    "camera": 35.1,
+    "battery": 50.7,
+    "display": 28.1,
+    "value": 30.4
+  },
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/mate40-pro/specs/",
+    "https://en.wikipedia.org/wiki/Huawei_Mate_40_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.751185",
+  "updated_at": "2026-06-01T06:47:49.751185"
+}

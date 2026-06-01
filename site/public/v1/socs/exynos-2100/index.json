@@ -1,0 +1,36 @@
+{
+  "id": 113,
+  "slug": "exynos-2100",
+  "name": "Samsung Exynos 2100",
+  "manufacturer": {
+    "slug": "samsung",
+    "name": "Samsung",
+    "url": "/v1/brands/samsung"
+  },
+  "release_date": "2021-01-12",
+  "process_nm": 5.0,
+  "transistors_billion": null,
+  "cpu_config": {
+    "performance": 4,
+    "efficiency": 4,
+    "architecture": "1x Cortex-X1 + 3x A78 + 4x A55",
+    "clocks_ghz": [
+      2.91,
+      2.81,
+      2.2
+    ]
+  },
+  "gpu_name": "Mali-G78 MP14",
+  "gpu_cores": 14,
+  "gpu_clock_mhz": 854,
+  "npu_tops": 26.0,
+  "modem": "Exynos Modem 5123",
+  "verified": true,
+  "source_urls": [
+    "https://semiconductor.samsung.com/us/consumer-storage/internal-ssd/",
+    "https://en.wikipedia.org/wiki/Exynos_2100"
+  ],
+  "created_at": "2026-06-01T06:47:49.597469",
+  "updated_at": "2026-06-01T06:47:49.597469",
+  "url": "/v1/socs/exynos-2100"
+}

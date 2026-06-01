@@ -1,0 +1,90 @@
+{
+  "id": 14,
+  "slug": "iphone-xr",
+  "name": "iPhone XR",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 7,
+    "slug": "apple-a12-bionic",
+    "name": "Apple A12 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a12-bionic"
+  },
+  "release_date": "2018-10-26",
+  "msrp_usd": 749,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "1792x828",
+    "refresh_hz": 60,
+    "type": "Liquid Retina LCD",
+    "brightness_nits": 625,
+    "ppi": 326
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "selfie",
+      "mp": 7,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 2942,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": 7.0,
+  "weight_g": 194.0,
+  "dimensions": {
+    "height_mm": 150.9,
+    "width_mm": 75.7,
+    "depth_mm": 8.3
+  },
+  "ip_rating": "IP67",
+  "os": "iOS",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-xr.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 5.8,
+    "performance": 6.4,
+    "camera": 13.0,
+    "battery": 1.4,
+    "display": 2.6,
+    "value": 35.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-xr/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_XR"
+  ],
+  "created_at": "2026-06-01T06:47:49.734923",
+  "updated_at": "2026-06-01T06:47:49.734923"
+}

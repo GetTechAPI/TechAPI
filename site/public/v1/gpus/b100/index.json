@@ -1,0 +1,33 @@
+{
+  "id": 298,
+  "slug": "b100",
+  "name": "B100",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Blackwell",
+  "release_date": "2024-03-18",
+  "msrp_usd": 30000,
+  "cuda_cores": 16896,
+  "stream_processors": null,
+  "rt_cores": null,
+  "tensor_cores": 528,
+  "memory_gb": 192.0,
+  "memory_type": "HBM3e",
+  "memory_bus_bit": 8192,
+  "memory_bandwidth_gbps": 8000.0,
+  "base_clock_mhz": 1100,
+  "boost_clock_mhz": 1665,
+  "tdp_w": 700,
+  "pcie_version": "PCIe 5.0",
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+    "https://www.techpowerup.com/gpu-specs/b100.c4255",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/b100"
+}

@@ -1,0 +1,104 @@
+{
+  "id": 345,
+  "slug": "xiaomi-13-pro",
+  "name": "Xiaomi 13 Pro",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 87,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2023-02-26",
+  "msrp_usd": 1299,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.73,
+    "resolution": "3200x1440",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 2800,
+    "ppi": 522
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.9,
+      "ois": true,
+      "sensor": "Sony IMX989"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 3.0,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 4820,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 210.0,
+  "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 74.6,
+    "depth_mm": 8.38
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-13-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 55.8,
+    "performance": 36.7,
+    "camera": 35.1,
+    "battery": 72.3,
+    "display": 79.0,
+    "value": 39.5
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/xiaomi-13-pro",
+    "https://en.wikipedia.org/wiki/Xiaomi_13_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.784961",
+  "updated_at": "2026-06-01T06:47:49.784961"
+}

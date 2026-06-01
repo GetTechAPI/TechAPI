@@ -1,0 +1,108 @@
+{
+  "id": 236,
+  "slug": "galaxy-a72",
+  "name": "Galaxy A72",
+  "brand": {
+    "id": 80,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 72,
+    "slug": "snapdragon-720g",
+    "name": "Snapdragon 720G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 618",
+    "url": "/v1/socs/snapdragon-720g"
+  },
+  "release_date": "2021-03-26",
+  "msrp_usd": 549,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2400x1080",
+    "refresh_hz": 90,
+    "type": "Super AMOLED Plus Infinity-O",
+    "brightness_nits": 800,
+    "ppi": 393
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 8,
+      "aperture": 2.4,
+      "ois": false,
+      "optical_zoom": 3
+    },
+    {
+      "type": "macro",
+      "mp": 5,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 203.0,
+  "dimensions": {
+    "height_mm": 165.0,
+    "width_mm": 77.4,
+    "depth_mm": 8.4
+  },
+  "ip_rating": "IP67",
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-a72.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.9,
+    "performance": 1.5,
+    "camera": 44.6,
+    "battery": 31.9,
+    "display": 21.8,
+    "value": 52.8
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_A72",
+    "https://www.samsung.com/global/galaxy/galaxy-a72/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.769695",
+  "updated_at": "2026-06-01T06:47:49.769695"
+}

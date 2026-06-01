@@ -1,0 +1,36 @@
+{
+  "id": 25,
+  "slug": "kirin-9000",
+  "name": "HiSilicon Kirin 9000",
+  "manufacturer": {
+    "slug": "huawei",
+    "name": "Huawei",
+    "url": "/v1/brands/huawei"
+  },
+  "release_date": "2020-10-22",
+  "process_nm": 5.0,
+  "transistors_billion": 15.3,
+  "cpu_config": {
+    "performance": 4,
+    "efficiency": 4,
+    "architecture": "1x Cortex-A77 + 3x A77 + 4x A55",
+    "clocks_ghz": [
+      3.13,
+      2.54,
+      2.05
+    ]
+  },
+  "gpu_name": "Mali-G78 MP24",
+  "gpu_cores": 24,
+  "gpu_clock_mhz": 760,
+  "npu_tops": 23.5,
+  "modem": "Balong 5G Modem",
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/mate40-pro/",
+    "https://en.wikipedia.org/wiki/HiSilicon_Kirin_9000"
+  ],
+  "created_at": "2026-06-01T06:47:49.591467",
+  "updated_at": "2026-06-01T06:47:49.591467",
+  "url": "/v1/socs/kirin-9000"
+}

@@ -1,0 +1,91 @@
+{
+  "id": 318,
+  "slug": "xiaomi-mi-5",
+  "name": "Xiaomi Mi 5",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 59,
+    "slug": "snapdragon-820",
+    "name": "Snapdragon 820",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/snapdragon-820"
+  },
+  "release_date": "2016-02-24",
+  "msrp_usd": 305,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 5.15,
+    "resolution": "1920x1080",
+    "refresh_hz": 60,
+    "type": "IPS LCD",
+    "brightness_nits": 600,
+    "ppi": 428
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 16,
+      "aperture": 2.0,
+      "ois": true,
+      "sensor": "Sony IMX298"
+    },
+    {
+      "type": "selfie",
+      "mp": 4,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 129.0,
+  "dimensions": {
+    "height_mm": 144.6,
+    "width_mm": 69.2,
+    "depth_mm": 7.25
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "6.0",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-mi-5.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.9,
+    "performance": 12.0,
+    "camera": 14.3,
+    "battery": 0.6,
+    "display": 12.8,
+    "value": 54.8
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Xiaomi_Mi_5",
+    "https://www.mi.com/global/mi5/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.780961",
+  "updated_at": "2026-06-01T06:47:49.780961"
+}

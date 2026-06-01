@@ -1,0 +1,108 @@
+{
+  "id": 177,
+  "slug": "oppo-find-n3",
+  "name": "OPPO Find N3",
+  "brand": {
+    "id": 29,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 87,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2023-10-19",
+  "msrp_usd": 1699,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 7.82,
+    "resolution": "2440x1920",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 2800,
+    "ppi": 386
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony LYT-T808"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "periscope",
+      "mp": 64,
+      "aperture": 2.6,
+      "ois": true,
+      "optical_zoom": 6
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.2
+    },
+    {
+      "type": "cover-selfie",
+      "mp": 32,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 4805,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 245.0,
+  "dimensions": {
+    "height_mm": 153.4,
+    "width_mm": 143.1,
+    "depth_mm": 11.8
+  },
+  "ip_rating": "IPX4",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oppo-find-n3.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 49.3,
+    "performance": 36.7,
+    "camera": 40.1,
+    "battery": 55.0,
+    "display": 65.4,
+    "value": 24.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.oppo.com/en/smartphones/series-find-n/find-n3/specs/",
+    "https://en.wikipedia.org/wiki/Oppo_Find_N3"
+  ],
+  "created_at": "2026-06-01T06:47:49.760695",
+  "updated_at": "2026-06-01T06:47:49.760695"
+}

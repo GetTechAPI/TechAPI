@@ -1,0 +1,103 @@
+{
+  "id": 310,
+  "slug": "vivo-v30-pro",
+  "name": "vivo V30 Pro",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 35,
+    "slug": "dimensity-8200",
+    "name": "MediaTek Dimensity 8200",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G610 MC6",
+    "url": "/v1/socs/dimensity-8200"
+  },
+  "release_date": "2024-02-15",
+  "msrp_usd": 549,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 2800,
+    "ppi": 452
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.88,
+      "ois": true,
+      "sensor": "Sony IMX920"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 50,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 80.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 186.0,
+  "dimensions": {
+    "height_mm": 164.3,
+    "width_mm": 75.0,
+    "depth_mm": 7.46
+  },
+  "ip_rating": "IP54",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-v30-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.2,
+    "performance": 16.4,
+    "camera": 35.1,
+    "battery": 57.4,
+    "display": 72.0,
+    "value": 63.0
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/v30pro",
+    "https://en.wikipedia.org/wiki/Vivo_V30"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.779962"
+}

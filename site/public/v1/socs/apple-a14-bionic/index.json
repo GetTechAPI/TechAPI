@@ -1,0 +1,35 @@
+{
+  "id": 9,
+  "slug": "apple-a14-bionic",
+  "name": "Apple A14 Bionic",
+  "manufacturer": {
+    "slug": "apple",
+    "name": "Apple",
+    "url": "/v1/brands/apple"
+  },
+  "release_date": "2020-10-16",
+  "process_nm": 5.0,
+  "transistors_billion": 11.8,
+  "cpu_config": {
+    "performance": 2,
+    "efficiency": 4,
+    "architecture": "2x Firestorm + 4x Icestorm",
+    "clocks_ghz": [
+      3.1,
+      1.82
+    ]
+  },
+  "gpu_name": "Apple GPU (4-core)",
+  "gpu_cores": 4,
+  "gpu_clock_mhz": null,
+  "npu_tops": 11.0,
+  "modem": "Apple Modem (5G)",
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-12/chip/",
+    "https://en.wikipedia.org/wiki/Apple_A14_Bionic"
+  ],
+  "created_at": "2026-06-01T06:47:49.590468",
+  "updated_at": "2026-06-01T06:47:49.590468",
+  "url": "/v1/socs/apple-a14-bionic"
+}

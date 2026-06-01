@@ -1,0 +1,110 @@
+{
+  "id": 322,
+  "slug": "xiaomi-mi-10-pro",
+  "name": "Xiaomi Mi 10 Pro",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 70,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-02-18",
+  "msrp_usd": 999,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2340x1080",
+    "refresh_hz": 90,
+    "type": "Super AMOLED",
+    "brightness_nits": 800,
+    "ppi": 386
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "Samsung HMX"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 20,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.0,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "telephoto",
+      "mp": 8,
+      "aperture": 2.0,
+      "ois": true,
+      "optical_zoom": 10
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 50.0,
+  "charging_wireless_w": 30.0,
+  "weight_g": 208.0,
+  "dimensions": {
+    "height_mm": 162.6,
+    "width_mm": 74.8,
+    "depth_mm": 9.0
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-mi-10-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.5,
+    "performance": 3.0,
+    "camera": 58.7,
+    "battery": 35.2,
+    "display": 21.1,
+    "value": 37.9
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Xiaomi_Mi_10",
+    "https://www.mi.com/global/mi-10-pro/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.781961",
+  "updated_at": "2026-06-01T06:47:49.781961"
+}

@@ -1,0 +1,96 @@
+{
+  "id": 19,
+  "slug": "iphone-11",
+  "name": "iPhone 11",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 8,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2019-09-20",
+  "msrp_usd": 699,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "1792x828",
+    "refresh_hz": 60,
+    "type": "Liquid Retina IPS LCD",
+    "brightness_nits": 625,
+    "ppi": 326
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 3110,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": 7.0,
+  "weight_g": 194.0,
+  "dimensions": {
+    "height_mm": 150.9,
+    "width_mm": 75.7,
+    "depth_mm": 8.3
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-11.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.7,
+    "performance": 14.6,
+    "camera": 18.0,
+    "battery": 3.6,
+    "display": 2.6,
+    "value": 39.5
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-11/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_11"
+  ],
+  "created_at": "2026-06-01T06:47:49.735923",
+  "updated_at": "2026-06-01T06:47:49.735923"
+}

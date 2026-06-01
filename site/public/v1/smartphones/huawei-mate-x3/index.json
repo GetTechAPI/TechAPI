@@ -1,0 +1,104 @@
+{
+  "id": 117,
+  "slug": "huawei-mate-x3",
+  "name": "Huawei Mate X3",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 88,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-03-23",
+  "msrp_usd": 1900,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 7.85,
+    "resolution": "2496x2224",
+    "refresh_hz": 120,
+    "type": "LTPO OLED (foldable)",
+    "brightness_nits": 2500,
+    "ppi": 426
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX766"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 3.4,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 4800,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 239.0,
+  "dimensions": {
+    "height_mm": 156.9,
+    "width_mm": 141.5,
+    "depth_mm": 5.3
+  },
+  "ip_rating": "IPX8",
+  "os": "HarmonyOS",
+  "os_version": "3.1",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-mate-x3.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 46.6,
+    "performance": 25.2,
+    "camera": 35.1,
+    "battery": 61.7,
+    "display": 64.6,
+    "value": 23.3
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Huawei_Mate_X3",
+    "https://consumer.huawei.com/en/phones/mate-x3/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.752186",
+  "updated_at": "2026-06-01T06:47:49.752186"
+}

@@ -1,0 +1,96 @@
+{
+  "id": 50,
+  "slug": "asus-zenfone-8",
+  "name": "ASUS ZenFone 8",
+  "brand": {
+    "id": 89,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 77,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-05-12",
+  "msrp_usd": 599,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 5.9,
+    "resolution": "2400x1080",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 800,
+    "ppi": 446
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX686"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 169.0,
+  "dimensions": {
+    "height_mm": 148.0,
+    "width_mm": 68.5,
+    "depth_mm": 8.9
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/asus-zenfone-8.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.1,
+    "performance": 6.4,
+    "camera": 34.6,
+    "battery": 27.8,
+    "display": 39.6,
+    "value": 52.0
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Asus_Zenfone_8",
+    "https://www.asus.com/phone/zenfone-8/"
+  ],
+  "created_at": "2026-06-01T06:47:49.741675",
+  "updated_at": "2026-06-01T06:47:49.741675"
+}

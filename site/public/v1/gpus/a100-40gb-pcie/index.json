@@ -1,0 +1,34 @@
+{
+  "id": 271,
+  "slug": "a100-40gb-pcie",
+  "name": "A100 40GB PCIe",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Ampere",
+  "release_date": "2020-05-14",
+  "msrp_usd": 10000,
+  "cuda_cores": 6912,
+  "stream_processors": null,
+  "rt_cores": null,
+  "tensor_cores": 432,
+  "memory_gb": 40.0,
+  "memory_type": "HBM2",
+  "memory_bus_bit": 5120,
+  "memory_bandwidth_gbps": 1555.0,
+  "base_clock_mhz": 765,
+  "boost_clock_mhz": 1410,
+  "tdp_w": 250,
+  "pcie_version": "PCIe 4.0",
+  "blender_score": 4204.94,
+  "verified": false,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/a100/",
+    "https://www.techpowerup.com/gpu-specs/a100-pcie-40-gb.c3623",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/a100-40gb-pcie"
+}

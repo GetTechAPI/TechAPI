@@ -1,0 +1,97 @@
+{
+  "id": 146,
+  "slug": "nothing-phone-2",
+  "name": "Nothing Phone (2)",
+  "brand": {
+    "id": 60,
+    "slug": "nothing",
+    "name": "Nothing",
+    "country": "GB",
+    "url": "/v1/brands/nothing"
+  },
+  "soc": {
+    "id": 88,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-07-17",
+  "msrp_usd": 599,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2412x1080",
+    "refresh_hz": 120,
+    "type": "LTPO OLED",
+    "brightness_nits": 1600,
+    "ppi": 394
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.88,
+      "ois": true,
+      "sensor": "Sony IMX890"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": 45.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 201.2,
+  "dimensions": {
+    "height_mm": 162.1,
+    "width_mm": 76.4,
+    "depth_mm": 8.6
+  },
+  "ip_rating": "IP54",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/nothing-phone-2.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.9,
+    "performance": 25.2,
+    "camera": 30.1,
+    "battery": 49.2,
+    "display": 47.1,
+    "value": 57.5
+  },
+  "verified": true,
+  "source_urls": [
+    "https://nothing.tech/products/phone-2",
+    "https://en.wikipedia.org/wiki/Nothing_Phone_(2)"
+  ],
+  "created_at": "2026-06-01T06:47:49.756695",
+  "updated_at": "2026-06-01T06:47:49.756695"
+}

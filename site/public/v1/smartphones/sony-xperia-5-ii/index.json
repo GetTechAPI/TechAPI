@@ -1,0 +1,103 @@
+{
+  "id": 293,
+  "slug": "sony-xperia-5-ii",
+  "name": "Sony Xperia 5 II",
+  "brand": {
+    "id": 76,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 70,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-10-29",
+  "msrp_usd": 949,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "2520x1080",
+    "refresh_hz": 120,
+    "type": "OLED 21:9 CinemaWide HDR",
+    "brightness_nits": 700,
+    "ppi": 449
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "ZEISS T*"
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 21.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 163.0,
+  "dimensions": {
+    "height_mm": 158.0,
+    "width_mm": 68.0,
+    "depth_mm": 8.0
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/sony-xperia-5-ii.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.5,
+    "performance": 3.0,
+    "camera": 23.0,
+    "battery": 16.1,
+    "display": 39.9,
+    "value": 35.3
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Sony_Xperia_5_II",
+    "https://www.sony.com/electronics/mobile-phones/xperia-5-ii"
+  ],
+  "created_at": "2026-06-01T06:47:49.776961",
+  "updated_at": "2026-06-01T06:47:49.776961"
+}

@@ -1,0 +1,96 @@
+{
+  "id": 66,
+  "slug": "pixel-4-xl",
+  "name": "Pixel 4 XL",
+  "brand": {
+    "id": 110,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 65,
+    "slug": "snapdragon-855",
+    "name": "Snapdragon 855",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/snapdragon-855"
+  },
+  "release_date": "2019-10-24",
+  "msrp_usd": 899,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "3040x1440",
+    "refresh_hz": 90,
+    "type": "P-OLED",
+    "brightness_nits": 444,
+    "ppi": 537
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2,
+      "aperture": 1.7,
+      "ois": true
+    },
+    {
+      "type": "telephoto",
+      "mp": 16,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 3700,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": 11.0,
+  "weight_g": 193.0,
+  "dimensions": {
+    "height_mm": 160.4,
+    "width_mm": 75.1,
+    "depth_mm": 8.2
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-4-xl.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.3,
+    "performance": 1.5,
+    "camera": 18.1,
+    "battery": 13.3,
+    "display": 36.2,
+    "value": 35.6
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Pixel_4",
+    "https://store.google.com/product/pixel_4_xl_specs"
+  ],
+  "created_at": "2026-06-01T06:47:49.743675",
+  "updated_at": "2026-06-01T06:47:49.743675"
+}

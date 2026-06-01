@@ -1,0 +1,96 @@
+{
+  "id": 85,
+  "slug": "pixel-9",
+  "name": "Pixel 9",
+  "brand": {
+    "id": 110,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 20,
+    "slug": "tensor-g4",
+    "name": "Google Tensor G4",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G715 MP7",
+    "url": "/v1/socs/tensor-g4"
+  },
+  "release_date": "2024-08-22",
+  "msrp_usd": 799,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "2424x1080",
+    "refresh_hz": 120,
+    "type": "Actua OLED",
+    "brightness_nits": 2700,
+    "ppi": 422
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.68,
+      "ois": true,
+      "sensor": "Samsung GNK"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 1.7,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 10.5,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": 27.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 198.0,
+  "dimensions": {
+    "height_mm": 152.8,
+    "width_mm": 72.0,
+    "depth_mm": 8.5
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-9.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 41.6,
+    "performance": 23.1,
+    "camera": 30.1,
+    "battery": 45.8,
+    "display": 67.4,
+    "value": 51.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://store.google.com/product/pixel_9_specs",
+    "https://en.wikipedia.org/wiki/Pixel_9"
+  ],
+  "created_at": "2026-06-01T06:47:49.746674",
+  "updated_at": "2026-06-01T06:47:49.746674"
+}

@@ -1,0 +1,103 @@
+{
+  "id": 330,
+  "slug": "xiaomi-12",
+  "name": "Xiaomi 12",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 81,
+    "slug": "snapdragon-8-gen-1",
+    "name": "Snapdragon 8 Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-gen-1"
+  },
+  "release_date": "2021-12-28",
+  "msrp_usd": 749,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.28,
+    "resolution": "2400x1080",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 1100,
+    "ppi": 419
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.88,
+      "ois": true,
+      "sensor": "Sony IMX766"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 5,
+      "aperture": 2.4,
+      "ois": false,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 179.0,
+  "dimensions": {
+    "height_mm": 152.7,
+    "width_mm": 69.9,
+    "depth_mm": 8.16
+  },
+  "ip_rating": "IP53",
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-12.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.0,
+    "performance": 13.9,
+    "camera": 35.1,
+    "battery": 57.4,
+    "display": 41.7,
+    "value": 51.2
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/xiaomi-12",
+    "https://en.wikipedia.org/wiki/Xiaomi_12_series"
+  ],
+  "created_at": "2026-06-01T06:47:49.782962",
+  "updated_at": "2026-06-01T06:47:49.782962"
+}

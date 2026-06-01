@@ -1,0 +1,95 @@
+{
+  "id": 91,
+  "slug": "pixel-10a",
+  "name": "Pixel 10a",
+  "brand": {
+    "id": 110,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 20,
+    "slug": "tensor-g4",
+    "name": "Google Tensor G4",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G715 MP7",
+    "url": "/v1/socs/tensor-g4"
+  },
+  "release_date": "2026-03-05",
+  "msrp_usd": 499,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "2424x1080",
+    "refresh_hz": 120,
+    "type": "pOLED",
+    "brightness_nits": 3000,
+    "ppi": 422
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.7,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 5100,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": 10.0,
+  "weight_g": 183.0,
+  "dimensions": {
+    "height_mm": 153.9,
+    "width_mm": 73.0,
+    "depth_mm": 9.0
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "16",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-10a.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 43.3,
+    "performance": 20.1,
+    "camera": 29.5,
+    "battery": 51.4,
+    "display": 72.2,
+    "value": 64.0
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Pixel_10a",
+    "https://store.google.com/product/pixel_10a_specs"
+  ],
+  "created_at": "2026-06-01T06:47:49.748180",
+  "updated_at": "2026-06-01T06:47:49.748180"
+}

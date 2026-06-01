@@ -1,0 +1,96 @@
+{
+  "id": 25,
+  "slug": "iphone-13-mini",
+  "name": "iPhone 13 mini",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 10,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2021-09-24",
+  "msrp_usd": 699,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 5.4,
+    "resolution": "2340x1080",
+    "refresh_hz": 60,
+    "type": "Super Retina XDR OLED",
+    "brightness_nits": 800,
+    "ppi": 476
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.6,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 2438,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 140.0,
+  "dimensions": {
+    "height_mm": 131.5,
+    "width_mm": 64.2,
+    "depth_mm": 7.65
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "15",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-13-mini.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.8,
+    "performance": 33.4,
+    "camera": 18.0,
+    "battery": 14.0,
+    "display": 17.6,
+    "value": 45.0
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-13/specs/",
+    "https://en.wikipedia.org/wiki/iPhone_13"
+  ],
+  "created_at": "2026-06-01T06:47:49.736925",
+  "updated_at": "2026-06-01T06:47:49.736925"
+}

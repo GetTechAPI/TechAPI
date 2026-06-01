@@ -1,0 +1,89 @@
+{
+  "id": 153,
+  "slug": "oneplus-3",
+  "name": "OnePlus 3",
+  "brand": {
+    "id": 28,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 59,
+    "slug": "snapdragon-820",
+    "name": "Snapdragon 820",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/snapdragon-820"
+  },
+  "release_date": "2016-06-14",
+  "msrp_usd": 399,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1920x1080",
+    "refresh_hz": 60,
+    "type": "AMOLED",
+    "brightness_nits": 430,
+    "ppi": 401
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 16,
+      "aperture": 2.0,
+      "ois": true,
+      "sensor": "Sony IMX298"
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 158.0,
+  "dimensions": {
+    "height_mm": 152.7,
+    "width_mm": 74.7,
+    "depth_mm": 7.4
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "6.0",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "4.2",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-3.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.7,
+    "performance": 13.5,
+    "camera": 14.3,
+    "battery": 1.0,
+    "display": 10.1,
+    "value": 51.1
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/OnePlus_3",
+    "https://www.oneplus.com/oneplus-3/specs"
+  ],
+  "created_at": "2026-06-01T06:47:49.757695",
+  "updated_at": "2026-06-01T06:47:49.757695"
+}

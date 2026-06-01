@@ -1,0 +1,103 @@
+{
+  "id": 167,
+  "slug": "oneplus-11",
+  "name": "OnePlus 11",
+  "brand": {
+    "id": 28,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 87,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2023-02-07",
+  "msrp_usd": 699,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "3216x1440",
+    "refresh_hz": 120,
+    "type": "AMOLED LTPO3",
+    "brightness_nits": 1300,
+    "ppi": 525
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX890"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 32,
+      "aperture": 2.0,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 16,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 100.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 205.0,
+  "dimensions": {
+    "height_mm": 163.1,
+    "width_mm": 74.1,
+    "depth_mm": 8.5
+  },
+  "ip_rating": "IP64",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-11.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 47.9,
+    "performance": 39.7,
+    "camera": 35.1,
+    "battery": 61.2,
+    "display": 55.4,
+    "value": 58.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.oneplus.com/us/oneplus-11/specs",
+    "https://en.wikipedia.org/wiki/OnePlus_11"
+  ],
+  "created_at": "2026-06-01T06:47:49.759695",
+  "updated_at": "2026-06-01T06:47:49.759695"
+}

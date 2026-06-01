@@ -1,0 +1,35 @@
+{
+  "id": 6,
+  "slug": "apple-a11-bionic",
+  "name": "Apple A11 Bionic",
+  "manufacturer": {
+    "slug": "apple",
+    "name": "Apple",
+    "url": "/v1/brands/apple"
+  },
+  "release_date": "2017-09-22",
+  "process_nm": 10.0,
+  "transistors_billion": 4.3,
+  "cpu_config": {
+    "performance": 2,
+    "efficiency": 4,
+    "architecture": "2x Monsoon + 4x Mistral",
+    "clocks_ghz": [
+      2.39,
+      1.46
+    ]
+  },
+  "gpu_name": "Apple GPU (3-core)",
+  "gpu_cores": 3,
+  "gpu_clock_mhz": null,
+  "npu_tops": 0.6,
+  "modem": "Intel PMB9948",
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-x/chip/",
+    "https://en.wikipedia.org/wiki/Apple_A11_Bionic"
+  ],
+  "created_at": "2026-06-01T06:47:49.590468",
+  "updated_at": "2026-06-01T06:47:49.590468",
+  "url": "/v1/socs/apple-a11-bionic"
+}

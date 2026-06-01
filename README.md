@@ -1,6 +1,6 @@
 # TechAPI
 
-> **Open data platform for consumer electronics specs.** Free, open-source, and inspired by [PokeAPI](https://pokeapi.co).
+> **Open data platform for consumer electronics specs.** Free and open-source.
 
 [![test](https://github.com/GetTechAPI/techapi/actions/workflows/test.yml/badge.svg)](https://github.com/GetTechAPI/techapi/actions/workflows/test.yml)
 &nbsp;Code: **MIT** · Data: **CC-BY-SA 4.0**
@@ -77,7 +77,7 @@ pytest --cov=app                 # tests + coverage (target >60%)
 
 ## Static dataset & automation
 
-The live API can be exported to a **static JSON dump** (PokeAPI-style) that needs
+The live API can be exported to a **static JSON dump** that needs
 no server:
 
 ```bash

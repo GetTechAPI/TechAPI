@@ -1,6 +1,6 @@
 name: refresh-data
 
-# Static-dump refresh (PokeAPI api-data style + git-scraping pattern).
+# Static-dump refresh (git-scraping pattern).
 # Regenerates dump/ from the curated seed data and commits it back when it changes.
 # - weekly schedule keeps the static dump fresh
 # - runs on any change to data/ (e.g. a curated-data PR)

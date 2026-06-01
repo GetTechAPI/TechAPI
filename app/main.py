@@ -20,7 +20,7 @@ PREFIX = settings.api_version_prefix
 
 DESCRIPTION = (
     "Open data platform for consumer electronics specs. "
-    "Free, open-source, and inspired by PokeAPI. "
+    "Free and open-source. "
     f"Data licensed CC-BY-SA 4.0. Try `GET {PREFIX}/smartphones`."
 )
 

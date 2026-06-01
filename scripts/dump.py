@@ -1,6 +1,6 @@
 """Generate a static JSON dump from the database (§4.2 data flow, §16.1 dump-data.yml).
 
-PokeAPI-style: the live API responses are written to a tree of static files so a
+The live API responses are written to a tree of static files so a
 client can fetch ``dump/v1/smartphones/galaxy-s25/index.json`` without any server.
 Because the dump is produced by replaying the real endpoints through an in-process
 client, the static files byte-match the live API — zero serialization drift.

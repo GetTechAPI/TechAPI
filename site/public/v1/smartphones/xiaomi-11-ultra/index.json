@@ -1,0 +1,103 @@
+{
+  "id": 327,
+  "slug": "xiaomi-11-ultra",
+  "name": "Xiaomi Mi 11 Ultra",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 77,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-03-29",
+  "msrp_usd": 1199,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.81,
+    "resolution": "3200x1440",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 1700,
+    "ppi": 515
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": true,
+      "sensor": "Samsung GN2"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 48,
+      "aperture": 4.1,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": 67.0,
+  "weight_g": 234.0,
+  "dimensions": {
+    "height_mm": 163.18,
+    "width_mm": 74.6,
+    "depth_mm": 8.38
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-11-ultra.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 41.3,
+    "performance": 9.4,
+    "camera": 35.1,
+    "battery": 59.9,
+    "display": 60.8,
+    "value": 36.0
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/mi-11-ultra",
+    "https://en.wikipedia.org/wiki/Xiaomi_Mi_11_series"
+  ],
+  "created_at": "2026-06-01T06:47:49.781961",
+  "updated_at": "2026-06-01T06:47:49.781961"
+}

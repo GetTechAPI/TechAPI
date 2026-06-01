@@ -1,0 +1,96 @@
+{
+  "id": 73,
+  "slug": "pixel-6",
+  "name": "Pixel 6",
+  "brand": {
+    "id": 110,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 17,
+    "slug": "google-tensor",
+    "name": "Google Tensor",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP20",
+    "url": "/v1/socs/google-tensor"
+  },
+  "release_date": "2021-10-28",
+  "msrp_usd": 599,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.4,
+    "resolution": "2400x1080",
+    "refresh_hz": 90,
+    "type": "AMOLED",
+    "brightness_nits": 800,
+    "ppi": 411
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.85,
+      "ois": true,
+      "sensor": "Samsung GN1"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 4614,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": 21.0,
+  "weight_g": 207.0,
+  "dimensions": {
+    "height_mm": 158.6,
+    "width_mm": 74.8,
+    "depth_mm": 8.9
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-6.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.7,
+    "performance": 3.7,
+    "camera": 30.1,
+    "battery": 41.3,
+    "display": 23.6,
+    "value": 50.9
+  },
+  "verified": true,
+  "source_urls": [
+    "https://store.google.com/us/product/pixel_6_specs",
+    "https://en.wikipedia.org/wiki/Pixel_6"
+  ],
+  "created_at": "2026-06-01T06:47:49.744674",
+  "updated_at": "2026-06-01T06:47:49.744674"
+}

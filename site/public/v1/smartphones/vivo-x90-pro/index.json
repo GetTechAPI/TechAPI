@@ -1,0 +1,103 @@
+{
+  "id": 305,
+  "slug": "vivo-x90-pro",
+  "name": "vivo X90 Pro",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 36,
+    "slug": "dimensity-9200",
+    "name": "MediaTek Dimensity 9200",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G715 MC11",
+    "url": "/v1/socs/dimensity-9200"
+  },
+  "release_date": "2022-12-15",
+  "msrp_usd": 1099,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 1800,
+    "ppi": 452
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.75,
+      "ois": true,
+      "sensor": "Sony IMX989"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 1.98,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 4870,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 215.0,
+  "dimensions": {
+    "height_mm": 164.2,
+    "width_mm": 75.1,
+    "depth_mm": 9.7
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x90-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 49.0,
+    "performance": 31.9,
+    "camera": 35.1,
+    "battery": 73.0,
+    "display": 56.1,
+    "value": 43.8
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/x90pro",
+    "https://en.wikipedia.org/wiki/Vivo_X90_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.779962"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 279,
+  "slug": "rtx-a5000",
+  "name": "RTX A5000",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Ampere",
+  "release_date": "2021-04-12",
+  "msrp_usd": 2500,
+  "cuda_cores": 8192,
+  "stream_processors": null,
+  "rt_cores": 64,
+  "tensor_cores": 256,
+  "memory_gb": 24.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 384,
+  "memory_bandwidth_gbps": 768.0,
+  "base_clock_mhz": 1170,
+  "boost_clock_mhz": 1695,
+  "tdp_w": 230,
+  "pcie_version": "PCIe 4.0",
+  "blender_score": 4390.48,
+  "verified": false,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/design-visualization/rtx-a5000/",
+    "https://www.techpowerup.com/gpu-specs/rtx-a5000.c3748",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/rtx-a5000"
+}

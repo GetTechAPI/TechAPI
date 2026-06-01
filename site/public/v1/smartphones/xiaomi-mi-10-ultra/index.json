@@ -1,0 +1,111 @@
+{
+  "id": 323,
+  "slug": "xiaomi-mi-10-ultra",
+  "name": "Xiaomi Mi 10 Ultra",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 70,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-08-16",
+  "msrp_usd": 800,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2340x1080",
+    "refresh_hz": 120,
+    "type": "Super AMOLED",
+    "brightness_nits": 800,
+    "ppi": 386
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.85,
+      "ois": true,
+      "sensor": "Sony IMX586"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 20,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.0,
+      "ois": false,
+      "optical_zoom": 2
+    },
+    {
+      "type": "telephoto",
+      "mp": 48,
+      "aperture": 4.1,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.3
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 221.0,
+  "dimensions": {
+    "height_mm": 162.4,
+    "width_mm": 75.0,
+    "depth_mm": 9.5
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-mi-10-ultra.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.1,
+    "performance": 3.0,
+    "camera": 39.5,
+    "battery": 52.5,
+    "display": 33.6,
+    "value": 46.8
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Xiaomi_Mi_10",
+    "https://www.mi.com/global/mi-10-ultra/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.781961",
+  "updated_at": "2026-06-01T06:47:49.781961"
+}

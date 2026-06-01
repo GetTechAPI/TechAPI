@@ -1,0 +1,102 @@
+{
+  "id": 49,
+  "slug": "asus-rog-phone-5",
+  "name": "ASUS ROG Phone 5",
+  "brand": {
+    "id": 89,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 77,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-03-10",
+  "msrp_usd": 999,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2448x1080",
+    "refresh_hz": 144,
+    "type": "AMOLED",
+    "brightness_nits": 800,
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64,
+      "aperture": 1.8,
+      "ois": false,
+      "sensor": "Sony IMX686"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "macro",
+      "mp": 5,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 24,
+      "aperture": 2.5
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": 65.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 238.0,
+  "dimensions": {
+    "height_mm": 172.8,
+    "width_mm": 77.3,
+    "depth_mm": 10.3
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/asus-rog-phone-5.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.5,
+    "performance": 9.4,
+    "camera": 31.6,
+    "battery": 64.5,
+    "display": 44.5,
+    "value": 41.9
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/ASUS_ROG_Phone_5",
+    "https://rog.asus.com/phones/rog-phone-5/"
+  ],
+  "created_at": "2026-06-01T06:47:49.740668",
+  "updated_at": "2026-06-01T06:47:49.740668"
+}

@@ -1,0 +1,102 @@
+{
+  "id": 48,
+  "slug": "asus-zenfone-7-pro",
+  "name": "ASUS ZenFone 7 Pro",
+  "brand": {
+    "id": 89,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 76,
+    "slug": "snapdragon-865-plus",
+    "name": "Snapdragon 865+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865-plus"
+  },
+  "release_date": "2020-09-01",
+  "msrp_usd": 800,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2400x1080",
+    "refresh_hz": 90,
+    "type": "Super AMOLED",
+    "brightness_nits": 700,
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX686 (flip)"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 8,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 64,
+      "aperture": 1.8
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 230.0,
+  "dimensions": {
+    "height_mm": 165.1,
+    "width_mm": 77.3,
+    "depth_mm": 9.6
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/asus-zenfone-7-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.5,
+    "performance": 3.4,
+    "camera": 39.6,
+    "battery": 32.9,
+    "display": 22.0,
+    "value": 43.0
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Asus_Zenfone_7",
+    "https://www.asus.com/phone/zenfone-7-pro/"
+  ],
+  "created_at": "2026-06-01T06:47:49.740668",
+  "updated_at": "2026-06-01T06:47:49.740668"
+}

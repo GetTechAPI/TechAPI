@@ -1,0 +1,102 @@
+{
+  "id": 296,
+  "slug": "sony-xperia-pro-i",
+  "name": "Sony Xperia Pro-I",
+  "brand": {
+    "id": 76,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 77,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-12-05",
+  "msrp_usd": 1799,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "3840x1644",
+    "refresh_hz": 120,
+    "type": "OLED",
+    "brightness_nits": 800,
+    "ppi": 643
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "Sony 1-inch Exmor RS"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 2.9
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 211.0,
+  "dimensions": {
+    "height_mm": 165.0,
+    "width_mm": 71.0,
+    "depth_mm": 8.9
+  },
+  "ip_rating": "IP65",
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/sony-xperia-pro-i.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.7,
+    "performance": 9.4,
+    "camera": 23.0,
+    "battery": 35.4,
+    "display": 55.0,
+    "value": 15.3
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.sony.com/en/articles/xperia-pro-i",
+    "https://en.wikipedia.org/wiki/Sony_Xperia_Pro-I"
+  ],
+  "created_at": "2026-06-01T06:47:49.777961",
+  "updated_at": "2026-06-01T06:47:49.777961"
+}

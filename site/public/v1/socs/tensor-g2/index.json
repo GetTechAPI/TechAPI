@@ -1,0 +1,36 @@
+{
+  "id": 18,
+  "slug": "tensor-g2",
+  "name": "Google Tensor G2",
+  "manufacturer": {
+    "slug": "google",
+    "name": "Google",
+    "url": "/v1/brands/google"
+  },
+  "release_date": "2022-10-13",
+  "process_nm": 5.0,
+  "transistors_billion": null,
+  "cpu_config": {
+    "performance": 4,
+    "efficiency": 4,
+    "architecture": "2x Cortex-X1 + 2x A78 + 4x A55",
+    "clocks_ghz": [
+      2.85,
+      2.35,
+      1.8
+    ]
+  },
+  "gpu_name": "Mali-G710 MP7",
+  "gpu_cores": 7,
+  "gpu_clock_mhz": 848,
+  "npu_tops": null,
+  "modem": "Samsung Exynos 5300",
+  "verified": true,
+  "source_urls": [
+    "https://store.google.com/us/category/phones",
+    "https://en.wikipedia.org/wiki/Google_Tensor_G2"
+  ],
+  "created_at": "2026-06-01T06:47:49.590468",
+  "updated_at": "2026-06-01T06:47:49.590468",
+  "url": "/v1/socs/tensor-g2"
+}

@@ -1,0 +1,105 @@
+{
+  "id": 312,
+  "slug": "vivo-x200-pro",
+  "name": "vivo X200 Pro",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 47,
+    "slug": "dimensity-9400",
+    "name": "MediaTek Dimensity 9400",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Immortalis-G925 MC12",
+    "url": "/v1/socs/dimensity-9400"
+  },
+  "release_date": "2024-10-14",
+  "msrp_usd": 899,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 4500,
+    "ppi": 452
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.57,
+      "ois": true,
+      "sensor": "Sony LYT-818"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 200,
+      "aperture": 2.67,
+      "ois": true,
+      "optical_zoom": 3,
+      "sensor": "Samsung HP9"
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": 90.0,
+  "charging_wireless_w": 30.0,
+  "weight_g": 223.0,
+  "dimensions": {
+    "height_mm": 162.4,
+    "width_mm": 75.8,
+    "depth_mm": 8.2
+  },
+  "ip_rating": "IP69",
+  "os": "Android",
+  "os_version": "15",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x200-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 68.2,
+    "performance": 77.3,
+    "camera": 35.1,
+    "battery": 85.3,
+    "display": 75.2,
+    "value": 61.0
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/x200pro",
+    "https://en.wikipedia.org/wiki/Vivo_X200"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.779962"
+}

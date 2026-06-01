@@ -1,0 +1,95 @@
+{
+  "id": 129,
+  "slug": "lg-v30",
+  "name": "LG V30",
+  "brand": {
+    "id": 78,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 62,
+    "slug": "snapdragon-835",
+    "name": "Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/snapdragon-835"
+  },
+  "release_date": "2017-09-21",
+  "msrp_usd": 799,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "2880x1440",
+    "refresh_hz": 60,
+    "type": "P-OLED FullVision",
+    "brightness_nits": 616,
+    "ppi": 538
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 16,
+      "aperture": 1.6,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 1.9,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 5,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": 9.0,
+  "weight_g": 158.0,
+  "dimensions": {
+    "height_mm": 151.7,
+    "width_mm": 75.4,
+    "depth_mm": 7.3
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "7.1",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-v30.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.8,
+    "performance": 37.3,
+    "camera": 19.3,
+    "battery": 6.9,
+    "display": 23.8,
+    "value": 41.7
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/LG_V30",
+    "https://www.lg.com/global/mobile-phones/lg-v30"
+  ],
+  "created_at": "2026-06-01T06:47:49.754185",
+  "updated_at": "2026-06-01T06:47:49.754185"
+}

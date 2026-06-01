@@ -1,0 +1,103 @@
+{
+  "id": 122,
+  "slug": "huawei-pura-70-ultra",
+  "name": "Huawei Pura 70 Ultra",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 27,
+    "slug": "kirin-9010",
+    "name": "HiSilicon Kirin 9010",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9010"
+  },
+  "release_date": "2024-04-18",
+  "msrp_usd": 1599,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "2844x1260",
+    "refresh_hz": 120,
+    "type": "LTPO OLED",
+    "brightness_nits": 2500,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.6,
+      "ois": true,
+      "sensor": "RYYB Periscope"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 40,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 3.0,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 5200,
+  "charging_wired_w": 100.0,
+  "charging_wireless_w": 80.0,
+  "weight_g": 226.0,
+  "dimensions": {
+    "height_mm": 163.5,
+    "width_mm": 75.1,
+    "depth_mm": 9.5
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-pura-70-ultra.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 43.2,
+    "performance": 10.7,
+    "camera": 35.1,
+    "battery": 59.2,
+    "display": 68.0,
+    "value": 21.7
+  },
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/pura70ultra/specs/",
+    "https://en.wikipedia.org/wiki/Huawei_Pura_70_Ultra"
+  ],
+  "created_at": "2026-06-01T06:47:49.753185",
+  "updated_at": "2026-06-01T06:47:49.753185"
+}

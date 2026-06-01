@@ -1,0 +1,97 @@
+{
+  "id": 34,
+  "slug": "iphone-15-plus",
+  "name": "iPhone 15 Plus",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 11,
+    "slug": "apple-a16-bionic",
+    "name": "Apple A16 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a16-bionic"
+  },
+  "release_date": "2023-09-22",
+  "msrp_usd": 899,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2796x1290",
+    "refresh_hz": 60,
+    "type": "Super Retina XDR OLED",
+    "brightness_nits": 2000,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.6,
+      "ois": true,
+      "sensor": "Sony"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 1.9
+    }
+  ],
+  "battery_mah": 4383,
+  "charging_wired_w": 27.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 201.0,
+  "dimensions": {
+    "height_mm": 160.9,
+    "width_mm": 77.8,
+    "depth_mm": 7.8
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "17",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-15-plus.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.4,
+    "performance": 44.0,
+    "camera": 29.5,
+    "battery": 41.0,
+    "display": 35.1,
+    "value": 45.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-15/specs/",
+    "https://en.wikipedia.org/wiki/iPhone_15"
+  ],
+  "created_at": "2026-06-01T06:47:49.738429",
+  "updated_at": "2026-06-01T06:47:49.738429"
+}

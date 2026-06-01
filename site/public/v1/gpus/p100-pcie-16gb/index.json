@@ -1,0 +1,36 @@
+{
+  "id": 239,
+  "slug": "p100-pcie-16gb",
+  "name": "Tesla P100 PCIe 16GB",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Pascal",
+  "release_date": "2016-06-20",
+  "msrp_usd": 5899,
+  "cuda_cores": 3584,
+  "stream_processors": null,
+  "rt_cores": null,
+  "tensor_cores": null,
+  "memory_gb": 16.0,
+  "memory_type": "HBM2",
+  "memory_bus_bit": 4096,
+  "memory_bandwidth_gbps": 732.0,
+  "base_clock_mhz": 1190,
+  "boost_clock_mhz": 1329,
+  "tdp_w": 250,
+  "pcie_version": "PCIe 3.0",
+  "blender_score": 1113.08,
+  "verified": false,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/tesla-p100/",
+    "https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-16-gb.c2888",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/p100-pcie-16gb"
+}

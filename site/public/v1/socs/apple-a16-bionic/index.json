@@ -1,0 +1,35 @@
+{
+  "id": 11,
+  "slug": "apple-a16-bionic",
+  "name": "Apple A16 Bionic",
+  "manufacturer": {
+    "slug": "apple",
+    "name": "Apple",
+    "url": "/v1/brands/apple"
+  },
+  "release_date": "2022-09-16",
+  "process_nm": 4.0,
+  "transistors_billion": 16.0,
+  "cpu_config": {
+    "performance": 2,
+    "efficiency": 4,
+    "architecture": "2x Everest + 4x Sawtooth",
+    "clocks_ghz": [
+      3.46,
+      2.02
+    ]
+  },
+  "gpu_name": "Apple GPU (5-core)",
+  "gpu_cores": 5,
+  "gpu_clock_mhz": null,
+  "npu_tops": 17.0,
+  "modem": "Apple Modem (5G)",
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-14-pro/chip/",
+    "https://en.wikipedia.org/wiki/Apple_A16_Bionic"
+  ],
+  "created_at": "2026-06-01T06:47:49.590468",
+  "updated_at": "2026-06-01T06:47:49.590468",
+  "url": "/v1/socs/apple-a16-bionic"
+}

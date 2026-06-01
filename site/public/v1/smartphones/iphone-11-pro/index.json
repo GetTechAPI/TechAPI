@@ -1,0 +1,103 @@
+{
+  "id": 18,
+  "slug": "iphone-11-pro",
+  "name": "iPhone 11 Pro",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 8,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2019-09-20",
+  "msrp_usd": 999,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 5.8,
+    "resolution": "2436x1125",
+    "refresh_hz": 60,
+    "type": "Super Retina XDR OLED",
+    "brightness_nits": 800,
+    "ppi": 458
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.0,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 3046,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 188.0,
+  "dimensions": {
+    "height_mm": 144.0,
+    "width_mm": 71.4,
+    "depth_mm": 8.1
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-11-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 14.4,
+    "performance": 14.6,
+    "camera": 23.0,
+    "battery": 4.3,
+    "display": 15.8,
+    "value": 30.3
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-11-pro/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_11_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.735923",
+  "updated_at": "2026-06-01T06:47:49.735923"
+}

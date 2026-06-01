@@ -1,0 +1,108 @@
+{
+  "id": 82,
+  "slug": "pixel-9-pro-fold",
+  "name": "Google Pixel 9 Pro Fold",
+  "brand": {
+    "id": 110,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 20,
+    "slug": "tensor-g4",
+    "name": "Google Tensor G4",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G715 MP7",
+    "url": "/v1/socs/tensor-g4"
+  },
+  "release_date": "2024-09-04",
+  "msrp_usd": 1799,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 8.0,
+    "resolution": "2076x2152",
+    "refresh_hz": 120,
+    "type": "OLED",
+    "brightness_nits": 2700,
+    "ppi": 380
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "Samsung GN3"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 10.5,
+      "aperture": 1.95,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 10.5,
+      "aperture": 2.8,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 10,
+      "aperture": 2.2
+    },
+    {
+      "type": "inner-selfie",
+      "mp": 10,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 4650,
+  "charging_wired_w": 45.0,
+  "charging_wireless_w": 21.0,
+  "weight_g": 257.0,
+  "dimensions": {
+    "height_mm": 155.2,
+    "width_mm": 150.2,
+    "depth_mm": 10.5
+  },
+  "ip_rating": "IPX8",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-9-pro-fold.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.6,
+    "performance": 26.1,
+    "camera": 39.5,
+    "battery": 49.7,
+    "display": 63.2,
+    "value": 22.3
+  },
+  "verified": true,
+  "source_urls": [
+    "https://store.google.com/product/pixel_9_pro_fold_specs",
+    "https://en.wikipedia.org/wiki/Pixel_9"
+  ],
+  "created_at": "2026-06-01T06:47:49.746674",
+  "updated_at": "2026-06-01T06:47:49.746674"
+}

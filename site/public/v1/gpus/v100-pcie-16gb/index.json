@@ -1,0 +1,35 @@
+{
+  "id": 247,
+  "slug": "v100-pcie-16gb",
+  "name": "Tesla V100 PCIe 16GB",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Volta",
+  "release_date": "2017-06-21",
+  "msrp_usd": 8999,
+  "cuda_cores": 5120,
+  "stream_processors": null,
+  "rt_cores": null,
+  "tensor_cores": 640,
+  "memory_gb": 16.0,
+  "memory_type": "HBM2",
+  "memory_bus_bit": 4096,
+  "memory_bandwidth_gbps": 900.0,
+  "base_clock_mhz": 1245,
+  "boost_clock_mhz": 1380,
+  "tdp_w": 250,
+  "pcie_version": "PCIe 3.0",
+  "blender_score": 1912.03,
+  "verified": false,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/v100/",
+    "https://www.techpowerup.com/gpu-specs/tesla-v100-pcie-16-gb.c2957",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/v100-pcie-16gb"
+}

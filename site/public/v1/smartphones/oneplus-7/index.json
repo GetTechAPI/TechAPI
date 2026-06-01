@@ -1,0 +1,95 @@
+{
+  "id": 160,
+  "slug": "oneplus-7",
+  "name": "OnePlus 7",
+  "brand": {
+    "id": 28,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 65,
+    "slug": "snapdragon-855",
+    "name": "Snapdragon 855",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/snapdragon-855"
+  },
+  "release_date": "2019-05-14",
+  "msrp_usd": 465,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.41,
+    "resolution": "2340x1080",
+    "refresh_hz": 60,
+    "type": "AMOLED",
+    "brightness_nits": 600,
+    "ppi": 402
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.7,
+      "ois": true
+    },
+    {
+      "type": "depth",
+      "mp": 5,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 16,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 3700,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 182.0,
+  "dimensions": {
+    "height_mm": 157.7,
+    "width_mm": 74.8,
+    "depth_mm": 8.2
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "9",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-7.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.2,
+    "performance": 1.5,
+    "camera": 29.5,
+    "battery": 11.4,
+    "display": 10.2,
+    "value": 50.2
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/OnePlus_7",
+    "https://www.oneplus.com/oneplus-7/specs"
+  ],
+  "created_at": "2026-06-01T06:47:49.758695",
+  "updated_at": "2026-06-01T06:47:49.758695"
+}

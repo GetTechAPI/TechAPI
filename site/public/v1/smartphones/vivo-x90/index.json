@@ -1,0 +1,102 @@
+{
+  "id": 306,
+  "slug": "vivo-x90",
+  "name": "vivo X90",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 36,
+    "slug": "dimensity-9200",
+    "name": "MediaTek Dimensity 9200",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G715 MC11",
+    "url": "/v1/socs/dimensity-9200"
+  },
+  "release_date": "2022-12-26",
+  "msrp_usd": 649,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 1800,
+    "ppi": 450
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.75,
+      "ois": true,
+      "sensor": "IMX758"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 1.98,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 4810,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 185.0,
+  "dimensions": {
+    "height_mm": 164.1,
+    "width_mm": 75.4,
+    "depth_mm": 8.0
+  },
+  "ip_rating": "IP54",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x90.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 46.2,
+    "performance": 31.9,
+    "camera": 35.1,
+    "battery": 62.1,
+    "display": 55.9,
+    "value": 59.7
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/x90",
+    "https://en.wikipedia.org/wiki/Vivo_X90"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.779962"
+}

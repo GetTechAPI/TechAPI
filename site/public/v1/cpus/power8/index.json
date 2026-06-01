@@ -1,0 +1,35 @@
+{
+  "id": 445,
+  "slug": "power8",
+  "name": "IBM POWER8 (12-core)",
+  "manufacturer": {
+    "slug": "ibm",
+    "name": "IBM",
+    "url": "/v1/brands/ibm"
+  },
+  "release_date": "2014-04-28",
+  "segment": "server",
+  "architecture": "POWER8",
+  "socket": "SCM (single-chip module)",
+  "process_node": "IBM 22nm SOI eDRAM",
+  "cores": 12,
+  "threads": 96,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 3.0,
+  "boost_clock_ghz": 4.15,
+  "l3_cache_mb": 96.0,
+  "tdp_w": 250,
+  "max_tdp_w": null,
+  "integrated_graphics": null,
+  "memory_support": "DDR3/DDR4 Centaur octa-channel ECC",
+  "msrp_usd": null,
+  "verified": true,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/POWER8",
+    "https://en.wikichip.org/wiki/ibm/power8"
+  ],
+  "created_at": "2026-06-01T06:47:50.300707",
+  "updated_at": "2026-06-01T06:47:50.300707",
+  "url": "/v1/cpus/power8"
+}

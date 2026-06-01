@@ -1,0 +1,104 @@
+{
+  "id": 118,
+  "slug": "huawei-mate-x5",
+  "name": "Huawei Mate X5",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 26,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2023-09-25",
+  "msrp_usd": 1900,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 7.85,
+    "resolution": "2496x2224",
+    "refresh_hz": 120,
+    "type": "LTPO OLED (foldable)",
+    "brightness_nits": 2500,
+    "ppi": 426
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX766"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 3.4,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 5060,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 245.0,
+  "dimensions": {
+    "height_mm": 156.9,
+    "width_mm": 141.5,
+    "depth_mm": 5.3
+  },
+  "ip_rating": "IPX8",
+  "os": "HarmonyOS",
+  "os_version": "4.0",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-mate-x5.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.3,
+    "performance": 7.0,
+    "camera": 35.1,
+    "battery": 50.6,
+    "display": 64.6,
+    "value": 19.6
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Huawei_Mate_X5",
+    "https://consumer.huawei.com/en/phones/mate-x5/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.752186",
+  "updated_at": "2026-06-01T06:47:49.752186"
+}

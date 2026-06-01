@@ -1,0 +1,33 @@
+{
+  "id": 300,
+  "slug": "h200-sxm",
+  "name": "H200 SXM",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Hopper",
+  "release_date": "2024-03-18",
+  "msrp_usd": 32000,
+  "cuda_cores": 16896,
+  "stream_processors": null,
+  "rt_cores": null,
+  "tensor_cores": 528,
+  "memory_gb": 141.0,
+  "memory_type": "HBM3e",
+  "memory_bus_bit": 6144,
+  "memory_bandwidth_gbps": 4800.0,
+  "base_clock_mhz": 1365,
+  "boost_clock_mhz": 1980,
+  "tdp_w": 700,
+  "pcie_version": "PCIe 5.0",
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/h200/",
+    "https://www.techpowerup.com/gpu-specs/h200-sxm-141-gb.c4254",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/h200-sxm"
+}

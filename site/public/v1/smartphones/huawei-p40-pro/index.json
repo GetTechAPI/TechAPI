@@ -1,0 +1,104 @@
+{
+  "id": 113,
+  "slug": "huawei-p40-pro",
+  "name": "Huawei P40 Pro",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 24,
+    "slug": "kirin-990-5g",
+    "name": "HiSilicon Kirin 990 5G",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G76 MP16",
+    "url": "/v1/socs/kirin-990-5g"
+  },
+  "release_date": "2020-03-26",
+  "msrp_usd": 1049,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.58,
+    "resolution": "2640x1200",
+    "refresh_hz": 90,
+    "type": "OLED",
+    "brightness_nits": 800,
+    "ppi": 441
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.9,
+      "ois": true,
+      "sensor": "RYYB"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 40,
+      "aperture": 1.8,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 3.4,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": 40.0,
+  "charging_wireless_w": 27.0,
+  "weight_g": 209.0,
+  "dimensions": {
+    "height_mm": 158.2,
+    "width_mm": 72.6,
+    "depth_mm": 8.95
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-p40-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.2,
+    "performance": 3.0,
+    "camera": 35.1,
+    "battery": 28.2,
+    "display": 26.6,
+    "value": 32.8
+  },
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/p40-pro/specs/",
+    "https://en.wikipedia.org/wiki/Huawei_P40_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.751185",
+  "updated_at": "2026-06-01T06:47:49.751185"
+}

@@ -1,0 +1,103 @@
+{
+  "id": 292,
+  "slug": "sony-xperia-1-ii",
+  "name": "Sony Xperia 1 II",
+  "brand": {
+    "id": 76,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 70,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-05-22",
+  "msrp_usd": 1300,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "3840x1644",
+    "refresh_hz": 60,
+    "type": "OLED 21:9 CinemaWide",
+    "brightness_nits": 1000,
+    "ppi": 643
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "ZEISS T*"
+    },
+    {
+      "type": "telephoto",
+      "mp": 12.2,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12.2,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 21.0,
+  "charging_wireless_w": 11.0,
+  "weight_g": 181.0,
+  "dimensions": {
+    "height_mm": 166.0,
+    "width_mm": 71.1,
+    "depth_mm": 7.9
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/sony-xperia-1-ii.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.4,
+    "performance": 3.0,
+    "camera": 23.1,
+    "battery": 18.3,
+    "display": 33.2,
+    "value": 21.2
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Sony_Xperia_1_II",
+    "https://www.sony.com/electronics/mobile-phones/xperia-1-ii"
+  ],
+  "created_at": "2026-06-01T06:47:49.776961",
+  "updated_at": "2026-06-01T06:47:49.776961"
+}

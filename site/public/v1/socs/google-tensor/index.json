@@ -1,0 +1,36 @@
+{
+  "id": 17,
+  "slug": "google-tensor",
+  "name": "Google Tensor",
+  "manufacturer": {
+    "slug": "google",
+    "name": "Google",
+    "url": "/v1/brands/google"
+  },
+  "release_date": "2021-10-19",
+  "process_nm": 5.0,
+  "transistors_billion": null,
+  "cpu_config": {
+    "performance": 2,
+    "efficiency": 6,
+    "architecture": "2x Cortex-X1 + 2x A76 + 4x A55",
+    "clocks_ghz": [
+      2.8,
+      2.25,
+      1.8
+    ]
+  },
+  "gpu_name": "Mali-G78 MP20",
+  "gpu_cores": 20,
+  "gpu_clock_mhz": 848,
+  "npu_tops": null,
+  "modem": "Samsung Exynos Modem 5123",
+  "verified": true,
+  "source_urls": [
+    "https://store.google.com/us/product/tensor_specs",
+    "https://en.wikipedia.org/wiki/Google_Tensor"
+  ],
+  "created_at": "2026-06-01T06:47:49.590468",
+  "updated_at": "2026-06-01T06:47:49.590468",
+  "url": "/v1/socs/google-tensor"
+}

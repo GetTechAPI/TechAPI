@@ -1,0 +1,104 @@
+{
+  "id": 121,
+  "slug": "huawei-mate-xt-ultimate",
+  "name": "Huawei Mate XT Ultimate",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 27,
+    "slug": "kirin-9010",
+    "name": "HiSilicon Kirin 9010",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9010"
+  },
+  "release_date": "2024-09-20",
+  "msrp_usd": 2800,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 10.2,
+    "resolution": "3184x2232",
+    "refresh_hz": 120,
+    "type": "LTPO OLED (triple-fold)",
+    "brightness_nits": 1600,
+    "ppi": 372
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.4,
+      "ois": true,
+      "sensor": "Sony IMX989"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 3.4,
+      "ois": true,
+      "optical_zoom": 5.5
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 5600,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 298.0,
+  "dimensions": {
+    "height_mm": 219.0,
+    "width_mm": 156.7,
+    "depth_mm": 3.6
+  },
+  "ip_rating": null,
+  "os": "HarmonyOS",
+  "os_version": "4.2",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-mate-xt-ultimate.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.4,
+    "performance": 10.7,
+    "camera": 35.1,
+    "battery": 58.7,
+    "display": 44.9,
+    "value": 18.7
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Huawei_Mate_XT",
+    "https://consumer.huawei.com/cn/phones/mate-xt-ultimate-design/"
+  ],
+  "created_at": "2026-06-01T06:47:49.753185",
+  "updated_at": "2026-06-01T06:47:49.753185"
+}

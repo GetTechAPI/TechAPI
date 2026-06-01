@@ -1,0 +1,103 @@
+{
+  "id": 150,
+  "slug": "nothing-phone-3",
+  "name": "Nothing Phone (3)",
+  "brand": {
+    "id": 60,
+    "slug": "nothing",
+    "name": "Nothing",
+    "country": "GB",
+    "url": "/v1/brands/nothing"
+  },
+  "soc": {
+    "id": 101,
+    "slug": "snapdragon-8s-gen-4",
+    "name": "Snapdragon 8s Gen 4",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 825",
+    "url": "/v1/socs/snapdragon-8s-gen-4"
+  },
+  "release_date": "2025-07-01",
+  "msrp_usd": 799,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 4500,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "Sony LYT-700"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 2.7,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 50,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 5150,
+  "charging_wired_w": 65.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 218.0,
+  "dimensions": {
+    "height_mm": 160.6,
+    "width_mm": 75.7,
+    "depth_mm": 9.0
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "15",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "6.0",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/nothing-phone-3.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 57.0,
+    "performance": null,
+    "camera": 35.1,
+    "battery": 59.8,
+    "display": 76.0,
+    "value": 59.3
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Nothing_Phone_(3)",
+    "https://nothing.tech/products/phone-3"
+  ],
+  "created_at": "2026-06-01T06:47:49.757695",
+  "updated_at": "2026-06-01T06:47:49.757695"
+}

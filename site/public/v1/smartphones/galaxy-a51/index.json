@@ -1,0 +1,108 @@
+{
+  "id": 224,
+  "slug": "galaxy-a51",
+  "name": "Galaxy A51",
+  "brand": {
+    "id": 80,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 109,
+    "slug": "exynos-9611",
+    "name": "Exynos 9611",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/exynos-9611"
+  },
+  "release_date": "2019-12-12",
+  "msrp_usd": 399,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "2400x1080",
+    "refresh_hz": 60,
+    "type": "Super AMOLED Infinity-O",
+    "brightness_nits": 530,
+    "ppi": 405
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "depth",
+      "mp": 5,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "macro",
+      "mp": 5,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 172.0,
+  "dimensions": {
+    "height_mm": 158.5,
+    "width_mm": 73.6,
+    "depth_mm": 7.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-a51.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.4,
+    "performance": 28.4,
+    "camera": 31.5,
+    "battery": 15.0,
+    "display": 10.5,
+    "value": 56.9
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_A51",
+    "https://www.samsung.com/global/galaxy/galaxy-a51/specs/"
+  ],
+  "created_at": "2026-06-01T06:47:49.767695",
+  "updated_at": "2026-06-01T06:47:49.767695"
+}

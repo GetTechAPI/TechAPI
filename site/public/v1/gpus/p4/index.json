@@ -1,0 +1,36 @@
+{
+  "id": 240,
+  "slug": "p4",
+  "name": "Tesla P4",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Pascal",
+  "release_date": "2016-09-13",
+  "msrp_usd": 2199,
+  "cuda_cores": 2560,
+  "stream_processors": null,
+  "rt_cores": null,
+  "tensor_cores": null,
+  "memory_gb": 8.0,
+  "memory_type": "GDDR5",
+  "memory_bus_bit": 256,
+  "memory_bandwidth_gbps": 192.0,
+  "base_clock_mhz": 810,
+  "boost_clock_mhz": 1063,
+  "tdp_w": 75,
+  "pcie_version": "PCIe 3.0",
+  "blender_score": 386.73,
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Nvidia_Tesla",
+    "https://www.techpowerup.com/gpu-specs/tesla-p4.c2879",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/p4"
+}

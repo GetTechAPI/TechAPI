@@ -1,0 +1,95 @@
+{
+  "id": 130,
+  "slug": "lg-g7-thinq",
+  "name": "LG G7 ThinQ",
+  "brand": {
+    "id": 78,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 63,
+    "slug": "snapdragon-845",
+    "name": "Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/snapdragon-845"
+  },
+  "release_date": "2018-05-02",
+  "msrp_usd": 750,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "3120x1440",
+    "refresh_hz": 60,
+    "type": "IPS LCD FullVision",
+    "brightness_nits": 1000,
+    "ppi": 564
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 16,
+      "aperture": 1.6,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 16,
+      "aperture": 1.9,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 1.9
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": 9.0,
+  "weight_g": 162.0,
+  "dimensions": {
+    "height_mm": 153.2,
+    "width_mm": 71.9,
+    "depth_mm": 7.9
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "8.0",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 3.1"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-g7-thinq.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.7,
+    "performance": 0.0,
+    "camera": 19.3,
+    "battery": 1.8,
+    "display": 29.6,
+    "value": 39.1
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/LG_G7_ThinQ",
+    "https://www.lg.com/global/mobile-phones/lg-g7-thinq"
+  ],
+  "created_at": "2026-06-01T06:47:49.754185",
+  "updated_at": "2026-06-01T06:47:49.754185"
+}

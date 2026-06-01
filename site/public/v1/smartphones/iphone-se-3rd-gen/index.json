@@ -1,0 +1,91 @@
+{
+  "id": 33,
+  "slug": "iphone-se-3rd-gen",
+  "name": "iPhone SE (3rd generation)",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 10,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2022-03-18",
+  "msrp_usd": 429,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "1334x750",
+    "refresh_hz": 60,
+    "type": "Retina IPS LCD",
+    "brightness_nits": 625,
+    "ppi": 326
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX603"
+    },
+    {
+      "type": "selfie",
+      "mp": 7,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 2018,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": 7.0,
+  "weight_g": 144.0,
+  "dimensions": {
+    "height_mm": 138.4,
+    "width_mm": 67.3,
+    "depth_mm": 7.3
+  },
+  "ip_rating": "IP67",
+  "os": "iOS",
+  "os_version": "15",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-se-3rd-gen.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.3,
+    "performance": 33.4,
+    "camera": 13.0,
+    "battery": 12.4,
+    "display": 2.6,
+    "value": 52.7
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-se/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_SE_(3rd_generation)"
+  ],
+  "created_at": "2026-06-01T06:47:49.738429",
+  "updated_at": "2026-06-01T06:47:49.738429"
+}

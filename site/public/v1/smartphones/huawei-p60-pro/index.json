@@ -1,0 +1,103 @@
+{
+  "id": 120,
+  "slug": "huawei-p60-pro",
+  "name": "Huawei P60 Pro",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 88,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-03-23",
+  "msrp_usd": 999,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2700x1220",
+    "refresh_hz": 120,
+    "type": "OLED",
+    "brightness_nits": 2500,
+    "ppi": 440
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.4,
+      "ois": true,
+      "sensor": "Sony LYT-888"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 48,
+      "aperture": 2.1,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.4
+    }
+  ],
+  "battery_mah": 4815,
+  "charging_wired_w": 88.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 200.0,
+  "dimensions": {
+    "height_mm": 161.3,
+    "width_mm": 74.5,
+    "depth_mm": 8.3
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-p60-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 47.2,
+    "performance": 22.2,
+    "camera": 34.5,
+    "battery": 66.1,
+    "display": 66.1,
+    "value": 46.7
+  },
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/p60-pro/specs/",
+    "https://en.wikipedia.org/wiki/Huawei_P60_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.752186",
+  "updated_at": "2026-06-01T06:47:49.752186"
+}

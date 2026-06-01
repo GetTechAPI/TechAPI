@@ -1,0 +1,90 @@
+{
+  "id": 24,
+  "slug": "iphone-se-2020",
+  "name": "iPhone SE (2nd generation)",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 8,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2020-04-24",
+  "msrp_usd": 399,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "1334x750",
+    "refresh_hz": 60,
+    "type": "Retina HD LCD",
+    "brightness_nits": 625,
+    "ppi": 326
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "selfie",
+      "mp": 7,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 1821,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": 7.0,
+  "weight_g": 148.0,
+  "dimensions": {
+    "height_mm": 138.4,
+    "width_mm": 67.3,
+    "depth_mm": 7.3
+  },
+  "ip_rating": "IP67",
+  "os": "iOS",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-se-2020.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.1,
+    "performance": 14.6,
+    "camera": 13.0,
+    "battery": 2.0,
+    "display": 2.6,
+    "value": 50.2
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-se/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_SE_(2nd_generation)"
+  ],
+  "created_at": "2026-06-01T06:47:49.736925",
+  "updated_at": "2026-06-01T06:47:49.736925"
+}

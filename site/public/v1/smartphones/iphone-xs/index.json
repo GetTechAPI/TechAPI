@@ -1,0 +1,97 @@
+{
+  "id": 16,
+  "slug": "iphone-xs",
+  "name": "iPhone XS",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 7,
+    "slug": "apple-a12-bionic",
+    "name": "Apple A12 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a12-bionic"
+  },
+  "release_date": "2018-09-21",
+  "msrp_usd": 999,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 5.8,
+    "resolution": "2436x1125",
+    "refresh_hz": 60,
+    "type": "Super Retina OLED",
+    "brightness_nits": 625,
+    "ppi": 458
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 7,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 2658,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": 7.0,
+  "weight_g": 177.0,
+  "dimensions": {
+    "height_mm": 143.6,
+    "width_mm": 70.9,
+    "depth_mm": 7.7
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "12",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-xs.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.6,
+    "performance": 6.4,
+    "camera": 18.0,
+    "battery": 2.0,
+    "display": 15.8,
+    "value": 28.4
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-xs/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_XS"
+  ],
+  "created_at": "2026-06-01T06:47:49.735923",
+  "updated_at": "2026-06-01T06:47:49.735923"
+}

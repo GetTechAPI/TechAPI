@@ -1,0 +1,103 @@
+{
+  "id": 309,
+  "slug": "vivo-x100",
+  "name": "vivo X100",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 42,
+    "slug": "dimensity-9300",
+    "name": "MediaTek Dimensity 9300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G720 MC12",
+    "url": "/v1/socs/dimensity-9300"
+  },
+  "release_date": "2023-11-13",
+  "msrp_usd": 699,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "AMOLED",
+    "brightness_nits": 3000,
+    "ppi": 450
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.57,
+      "ois": true,
+      "sensor": "Samsung GN9"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 64,
+      "aperture": 2.57,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 202.0,
+  "dimensions": {
+    "height_mm": 164.0,
+    "width_mm": 75.2,
+    "depth_mm": 8.5
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x100.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 59.6,
+    "performance": 53.3,
+    "camera": 35.1,
+    "battery": 75.0,
+    "display": 75.0,
+    "value": 64.5
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/x100",
+    "https://en.wikipedia.org/wiki/Vivo_X100"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.779962"
+}

@@ -1,0 +1,102 @@
+{
+  "id": 339,
+  "slug": "poco-f5-pro",
+  "name": "POCO F5 Pro",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 88,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-05-09",
+  "msrp_usd": 549,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "3200x1440",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 2400,
+    "ppi": 521
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64,
+      "aperture": 1.73,
+      "ois": true,
+      "sensor": "OmniVision OV64B"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 2,
+      "aperture": 2.4,
+      "ois": false,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 16,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 5160,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 204.0,
+  "dimensions": {
+    "height_mm": 162.8,
+    "width_mm": 75.4,
+    "depth_mm": 9.35
+  },
+  "ip_rating": "IP53",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/poco-f5-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 48.6,
+    "performance": 25.2,
+    "camera": 39.6,
+    "battery": 57.3,
+    "display": 72.5,
+    "value": 64.7
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.mi.com/global/product/poco-f5-pro",
+    "https://en.wikipedia.org/wiki/POCO_F5_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.783961",
+  "updated_at": "2026-06-01T06:47:49.783961"
+}

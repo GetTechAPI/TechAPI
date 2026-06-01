@@ -1,0 +1,34 @@
+{
+  "id": 285,
+  "slug": "h100-pcie",
+  "name": "H100 PCIe",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Hopper",
+  "release_date": "2022-03-22",
+  "msrp_usd": 30000,
+  "cuda_cores": 14592,
+  "stream_processors": null,
+  "rt_cores": null,
+  "tensor_cores": 456,
+  "memory_gb": 80.0,
+  "memory_type": "HBM2e",
+  "memory_bus_bit": 5120,
+  "memory_bandwidth_gbps": 2000.0,
+  "base_clock_mhz": 1095,
+  "boost_clock_mhz": 1755,
+  "tdp_w": 350,
+  "pcie_version": "PCIe 5.0",
+  "blender_score": 5447.87,
+  "verified": false,
+  "source_urls": [
+    "https://www.nvidia.com/en-us/data-center/h100/",
+    "https://www.techpowerup.com/gpu-specs/h100-pcie-80-gb.c3899",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.topcpu.net/en/gpu-r/"
+  ],
+  "url": "/v1/gpus/h100-pcie"
+}

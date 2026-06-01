@@ -1,0 +1,104 @@
+{
+  "id": 30,
+  "slug": "iphone-14-pro-max",
+  "name": "iPhone 14 Pro Max",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 11,
+    "slug": "apple-a16-bionic",
+    "name": "Apple A16 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a16-bionic"
+  },
+  "release_date": "2022-09-16",
+  "msrp_usd": 1099,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2796x1290",
+    "refresh_hz": 120,
+    "type": "Super Retina XDR ProMotion OLED",
+    "brightness_nits": 2000,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.78,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.8,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 1.9
+    }
+  ],
+  "battery_mah": 4323,
+  "charging_wired_w": 27.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 240.0,
+  "dimensions": {
+    "height_mm": 160.7,
+    "width_mm": 77.6,
+    "depth_mm": 7.85
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "16",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-14-pro-max.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.7,
+    "performance": 44.0,
+    "camera": 34.5,
+    "battery": 40.1,
+    "display": 60.1,
+    "value": 41.6
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-14-pro/specs/",
+    "https://en.wikipedia.org/wiki/iPhone_14_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.736925",
+  "updated_at": "2026-06-01T06:47:49.736925"
+}

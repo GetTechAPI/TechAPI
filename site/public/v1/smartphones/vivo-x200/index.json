@@ -1,0 +1,103 @@
+{
+  "id": 313,
+  "slug": "vivo-x200",
+  "name": "vivo X200",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 47,
+    "slug": "dimensity-9400",
+    "name": "MediaTek Dimensity 9400",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Immortalis-G925 MC12",
+    "url": "/v1/socs/dimensity-9400"
+  },
+  "release_date": "2024-10-30",
+  "msrp_usd": 849,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 4500,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.57,
+      "ois": true,
+      "sensor": "Sony LYT-818"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 2.57,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 5800,
+  "charging_wired_w": 90.0,
+  "charging_wireless_w": 30.0,
+  "weight_g": 199.0,
+  "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 76.7,
+    "depth_mm": 7.99
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "15",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x200.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 66.9,
+    "performance": 74.3,
+    "camera": 35.1,
+    "battery": 82.3,
+    "display": 76.0,
+    "value": 62.4
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/x200",
+    "https://en.wikipedia.org/wiki/Vivo_X200"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.780961"
+}

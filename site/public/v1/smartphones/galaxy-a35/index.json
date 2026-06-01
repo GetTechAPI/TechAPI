@@ -1,0 +1,101 @@
+{
+  "id": 262,
+  "slug": "galaxy-a35",
+  "name": "Galaxy A35 5G",
+  "brand": {
+    "id": 80,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 116,
+    "slug": "exynos-1380",
+    "name": "Samsung Exynos 1380",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G68 MP5",
+    "url": "/v1/socs/exynos-1380"
+  },
+  "release_date": "2024-03-11",
+  "msrp_usd": 399,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "2340x1080",
+    "refresh_hz": 120,
+    "type": "Super AMOLED",
+    "brightness_nits": 1000,
+    "ppi": 390
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "macro",
+      "mp": 5,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 210.0,
+  "dimensions": {
+    "height_mm": 161.7,
+    "width_mm": 78.0,
+    "depth_mm": 8.2
+  },
+  "ip_rating": "IP67",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-a35.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.3,
+    "performance": 3.0,
+    "camera": 35.1,
+    "battery": 41.9,
+    "display": 37.2,
+    "value": 60.9
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.samsung.com/global/galaxy/galaxy-a35/specs/",
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_A35"
+  ],
+  "created_at": "2026-06-01T06:47:49.772961",
+  "updated_at": "2026-06-01T06:47:49.772961"
+}

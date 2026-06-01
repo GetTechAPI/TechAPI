@@ -1,0 +1,109 @@
+{
+  "id": 119,
+  "slug": "huawei-nova-12-pro",
+  "name": "Huawei nova 12 Pro",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 27,
+    "slug": "kirin-9010",
+    "name": "HiSilicon Kirin 9010",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9010"
+  },
+  "release_date": "2023-12-26",
+  "msrp_usd": 549,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.76,
+    "resolution": "2844x1272",
+    "refresh_hz": 120,
+    "type": "OLED",
+    "brightness_nits": 2500,
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.4,
+      "ois": true,
+      "sensor": "Sony IMX858"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 2,
+      "aperture": 2.4,
+      "ois": false,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 60,
+      "aperture": 2.4
+    },
+    {
+      "type": "front-depth",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    }
+  ],
+  "battery_mah": 4600,
+  "charging_wired_w": 100.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 190.0,
+  "dimensions": {
+    "height_mm": 161.2,
+    "width_mm": 74.8,
+    "depth_mm": 7.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.2",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-nova-12-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 41.5,
+    "performance": 7.7,
+    "camera": 40.1,
+    "battery": 50.2,
+    "display": 68.0,
+    "value": 61.1
+  },
+  "verified": true,
+  "source_urls": [
+    "https://consumer.huawei.com/en/phones/nova12-pro/",
+    "https://en.wikipedia.org/wiki/Huawei_nova_12_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.752186",
+  "updated_at": "2026-06-01T06:47:49.752186"
+}

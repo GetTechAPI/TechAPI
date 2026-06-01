@@ -1,0 +1,95 @@
+{
+  "id": 138,
+  "slug": "moto-g84",
+  "name": "Moto G84 5G",
+  "brand": {
+    "id": 117,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 79,
+    "slug": "snapdragon-695",
+    "name": "Snapdragon 695 5G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-695"
+  },
+  "release_date": "2023-08-08",
+  "msrp_usd": 249,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "2400x1080",
+    "refresh_hz": 120,
+    "type": "pOLED",
+    "brightness_nits": 1300,
+    "ppi": 402
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX582"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 16,
+      "aperture": 2.45
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": 0.0,
+  "weight_g": 167.0,
+  "dimensions": {
+    "height_mm": 159.6,
+    "width_mm": 72.7,
+    "depth_mm": 7.96
+  },
+  "ip_rating": "IP52",
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.1",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/moto-g84.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.4,
+    "performance": 6.0,
+    "camera": 30.1,
+    "battery": 38.4,
+    "display": 43.1,
+    "value": 64.7
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.motorola.com/us/smartphones-moto-g-series/moto-g84-5g/p",
+    "https://en.wikipedia.org/wiki/Motorola_Moto_G84"
+  ],
+  "created_at": "2026-06-01T06:47:49.755691",
+  "updated_at": "2026-06-01T06:47:49.755691"
+}

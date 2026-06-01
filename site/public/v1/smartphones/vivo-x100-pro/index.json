@@ -1,0 +1,104 @@
+{
+  "id": 308,
+  "slug": "vivo-x100-pro",
+  "name": "vivo X100 Pro",
+  "brand": {
+    "id": 44,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 42,
+    "slug": "dimensity-9300",
+    "name": "MediaTek Dimensity 9300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G720 MC12",
+    "url": "/v1/socs/dimensity-9300"
+  },
+  "release_date": "2023-11-13",
+  "msrp_usd": 1099,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "2800x1260",
+    "refresh_hz": 120,
+    "type": "LTPO AMOLED",
+    "brightness_nits": 3000,
+    "ppi": 452
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.57,
+      "ois": true,
+      "sensor": "Sony LYT-900"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 2.57,
+      "ois": true,
+      "optical_zoom": 4
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.0
+    }
+  ],
+  "battery_mah": 5400,
+  "charging_wired_w": 100.0,
+  "charging_wireless_w": 50.0,
+  "weight_g": 221.0,
+  "dimensions": {
+    "height_mm": 164.4,
+    "width_mm": 75.3,
+    "depth_mm": 9.45
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x100-pro.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 61.0,
+    "performance": 56.3,
+    "camera": 35.1,
+    "battery": 77.2,
+    "display": 75.2,
+    "value": 49.8
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.vivo.com/en/products/x100pro",
+    "https://en.wikipedia.org/wiki/Vivo_X100_Pro"
+  ],
+  "created_at": "2026-06-01T06:47:49.779962",
+  "updated_at": "2026-06-01T06:47:49.779962"
+}

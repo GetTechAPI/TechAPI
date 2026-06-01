@@ -1,0 +1,36 @@
+{
+  "id": 365,
+  "slug": "epyc-9755",
+  "name": "AMD EPYC 9755",
+  "manufacturer": {
+    "slug": "amd",
+    "name": "AMD",
+    "url": "/v1/brands/amd"
+  },
+  "release_date": "2024-10-10",
+  "segment": "server",
+  "architecture": "Zen 5",
+  "socket": "SP5",
+  "process_node": "TSMC N4",
+  "cores": 128,
+  "threads": 256,
+  "p_cores": null,
+  "e_cores": null,
+  "base_clock_ghz": 2.7,
+  "boost_clock_ghz": 4.1,
+  "l3_cache_mb": 512.0,
+  "tdp_w": 500,
+  "max_tdp_w": 500,
+  "integrated_graphics": null,
+  "memory_support": "DDR5-6400 12-channel ECC",
+  "msrp_usd": 12984,
+  "verified": true,
+  "source_urls": [
+    "https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9755.html",
+    "https://en.wikipedia.org/wiki/Zen_5",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+9755"
+  ],
+  "created_at": "2026-06-01T06:47:50.292707",
+  "updated_at": "2026-06-01T06:47:50.292707",
+  "url": "/v1/cpus/epyc-9755"
+}

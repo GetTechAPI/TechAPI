@@ -1,0 +1,103 @@
+{
+  "id": 21,
+  "slug": "iphone-12-pro-max",
+  "name": "iPhone 12 Pro Max",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 9,
+    "slug": "apple-a14-bionic",
+    "name": "Apple A14 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a14-bionic"
+  },
+  "release_date": "2020-11-13",
+  "msrp_usd": 1099,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2778x1284",
+    "refresh_hz": 60,
+    "type": "Super Retina XDR OLED",
+    "brightness_nits": 800,
+    "ppi": 458
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12,
+      "aperture": 1.6,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.4,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 3687,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 228.0,
+  "dimensions": {
+    "height_mm": 160.8,
+    "width_mm": 78.1,
+    "depth_mm": 7.4
+  },
+  "ip_rating": "IP68",
+  "os": "iOS",
+  "os_version": "14",
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "Lightning"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-12-pro-max.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.9,
+    "performance": 24.3,
+    "camera": 23.0,
+    "battery": 24.3,
+    "display": 15.8,
+    "value": 30.2
+  },
+  "verified": true,
+  "source_urls": [
+    "https://www.apple.com/iphone-12-pro/specs/",
+    "https://en.wikipedia.org/wiki/IPhone_12_Pro_Max"
+  ],
+  "created_at": "2026-06-01T06:47:49.735923",
+  "updated_at": "2026-06-01T06:47:49.735923"
+}

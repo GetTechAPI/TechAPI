@@ -1,0 +1,42 @@
+name: notify-engine
+
+# Reverse direction of bump-engine: on every *real* push to main, tell
+# TechEngine to bump its TechAPI submodule pointer to this commit. This mirrors
+# TechEngine's notify-techapi.yml (which points the other way).
+#
+# Loop guard: skip pushes that ONLY move the TechEngine submodule gitlink —
+# those are bump-engine.yml's own commits. Without this, the two repos would
+# ping-pong bump commits forever. (For full symmetry TechEngine's notify-techapi
+# should likewise paths-ignore its TechAPI gitlink.)
+#
+# Token: needs a PAT with Contents:write on GetTechAPI/TechEngine, stored as the
+# ENGINE_TOKEN secret. Until that secret exists this workflow is dormant — it
+# logs a warning and skips the dispatch instead of failing the run.
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "TechEngine"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      ENGINE_TOKEN: ${{ secrets.ENGINE_TOKEN }}
+    steps:
+      - name: Dormant when ENGINE_TOKEN is unset
+        if: env.ENGINE_TOKEN == ''
+        run: echo "::warning::ENGINE_TOKEN not configured — reverse autosync dormant; skipping dispatch."
+
+      - name: Dispatch techapi-updated to TechEngine
+        if: env.ENGINE_TOKEN != ''
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.ENGINE_TOKEN }}
+          repository: GetTechAPI/TechEngine
+          event-type: techapi-updated
+          client-payload: |
+            {"sha": "${{ github.sha }}", "ref": "${{ github.ref }}"}

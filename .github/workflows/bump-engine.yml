@@ -42,8 +42,10 @@ jobs:
         if: steps.bump.outputs.changed == 'true'
         run: |
           NEW_SHA=$(git -C TechEngine rev-parse --short HEAD)
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Attribute to the TechEngineBot account (id 289859915) so bumps show
+          # its avatar and count toward its contributions — not github-actions[bot].
+          git config user.name "TechEngineBot"
+          git config user.email "289859915+TechEngineBot@users.noreply.github.com"
           git add TechEngine
           git commit -m "chore: bump TechEngine submodule to ${NEW_SHA}"
           git push

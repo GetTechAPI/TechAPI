@@ -8,7 +8,7 @@ brand/<slug>.json
 soc/<manufacturer>/<slug>.json
 smartphone/<brand>/<slug>.json
 gpu/<manufacturer>/<year>/<segment>/<slug>.json   # GPUs are split by release year then segment (consumer | enterprise)
-cpu/<manufacturer>/<year>/<slug>.json             # CPUs are additionally split by release year
+cpu/<manufacturer>/<year>/<segment>/<slug>.json   # CPUs split by release year then segment (consumer | enterprise)
 ```
 
 GPU `<segment>` is:
@@ -21,4 +21,4 @@ GPU `<segment>` is:
 > each record carries `source_urls`. Don't assume a device is missing-by-error —
 > it may simply not be curated yet.
 
-Validate after edits: `python -m scripts.validate`. Add only real, sourced models.
+Validate after edits: `python -m app.validate`. Add only real, sourced models.

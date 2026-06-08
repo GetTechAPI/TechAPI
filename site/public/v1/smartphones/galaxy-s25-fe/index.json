@@ -1,0 +1,102 @@
+{
+  "id": 275,
+  "slug": "galaxy-s25-fe",
+  "name": "Galaxy S25 FE",
+  "brand": {
+    "id": 80,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 120,
+    "slug": "exynos-2400",
+    "name": "Samsung Exynos 2400",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Xclipse 940",
+    "url": "/v1/socs/exynos-2400"
+  },
+  "release_date": "2025-09-04",
+  "msrp_usd": 649,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "2340x1080",
+    "refresh_hz": 120,
+    "type": "Dynamic AMOLED 2X",
+    "brightness_nits": 1900,
+    "ppi": 385
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 8,
+      "aperture": 2.4,
+      "ois": true
+    },
+    {
+      "type": "selfie",
+      "mp": 12,
+      "aperture": 2.2
+    }
+  ],
+  "battery_mah": 4900,
+  "charging_wired_w": 45.0,
+  "charging_wireless_w": 15.0,
+  "weight_g": 190.0,
+  "dimensions": {
+    "height_mm": 161.3,
+    "width_mm": 76.6,
+    "depth_mm": 7.4
+  },
+  "ip_rating": "IP68",
+  "os": "Android",
+  "os_version": "16",
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
+  "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s25-fe.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.2,
+    "performance": 42.6,
+    "camera": 35.1,
+    "battery": 52.2,
+    "display": 51.0,
+    "value": 59.2
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.gsmarena.com/samsung_galaxy_s25_fe_5g-14042.php",
+    "https://www.samsung.com/us/smartphones/galaxy-s25-fe/"
+  ],
+  "created_at": "2026-06-08T12:06:04.914215",
+  "updated_at": "2026-06-08T12:06:04.914228"
+}

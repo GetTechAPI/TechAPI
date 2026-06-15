@@ -1266,6 +1266,17 @@
             "type": "string",
             "title": "Pcie Version"
           },
+          "fp32_tflops": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fp32 Tflops"
+          },
           "blender_score": {
             "anyOf": [
               {

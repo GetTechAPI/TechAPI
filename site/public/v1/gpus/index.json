@@ -1,5 +1,5 @@
 {
-  "count": 1972,
+  "count": 2030,
   "results": [
     {
       "slug": "rage-ii",
@@ -127,6 +127,11 @@
       "url": "/v1/gpus/arc-a310"
     },
     {
+      "slug": "arc-a350",
+      "name": "Arc A350",
+      "url": "/v1/gpus/arc-a350"
+    },
+    {
       "slug": "arc-a350m",
       "name": "Arc A350M",
       "url": "/v1/gpus/arc-a350m"
@@ -152,6 +157,11 @@
       "url": "/v1/gpus/arc-a530m"
     },
     {
+      "slug": "arc-a550m",
+      "name": "Arc A550M",
+      "url": "/v1/gpus/arc-a550m"
+    },
+    {
       "slug": "arc-a570m",
       "name": "Arc A570M",
       "url": "/v1/gpus/arc-a570m"
@@ -160,6 +170,11 @@
       "slug": "arc-a580",
       "name": "Arc A580",
       "url": "/v1/gpus/arc-a580"
+    },
+    {
+      "slug": "arc-a730m",
+      "name": "Arc A730M",
+      "url": "/v1/gpus/arc-a730m"
     },
     {
       "slug": "arc-a750",
@@ -175,6 +190,11 @@
       "slug": "arc-a770-8gb",
       "name": "Arc A770 8GB",
       "url": "/v1/gpus/arc-a770-8gb"
+    },
+    {
+      "slug": "arc-a770m",
+      "name": "Arc A770M",
+      "url": "/v1/gpus/arc-a770m"
     },
     {
       "slug": "arc-b570",
@@ -222,6 +242,21 @@
       "url": "/v1/gpus/arc-pro-b60"
     },
     {
+      "slug": "arctic-sound-1t",
+      "name": "Arctic Sound 1T",
+      "url": "/v1/gpus/arctic-sound-1t"
+    },
+    {
+      "slug": "arctic-sound-2t",
+      "name": "Arctic Sound 2T",
+      "url": "/v1/gpus/arctic-sound-2t"
+    },
+    {
+      "slug": "arctic-sound-m",
+      "name": "Arctic Sound-M",
+      "url": "/v1/gpus/arctic-sound-m"
+    },
+    {
       "slug": "aubrey-isle",
       "name": "Aubrey Isle",
       "url": "/v1/gpus/aubrey-isle"
@@ -237,9 +272,19 @@
       "url": "/v1/gpus/b200"
     },
     {
+      "slug": "b200-sxm-192-gb",
+      "name": "B200 SXM 192 GB",
+      "url": "/v1/gpus/b200-sxm-192-gb"
+    },
+    {
       "slug": "b300",
       "name": "B300 (Blackwell Ultra)",
       "url": "/v1/gpus/b300"
+    },
+    {
+      "slug": "cmp-100hx-210",
+      "name": "CMP 100HX-210",
+      "url": "/v1/gpus/cmp-100hx-210"
     },
     {
       "slug": "cmp-170hx-10-gb",
@@ -377,6 +422,51 @@
       "url": "/v1/gpus/firegl-x3-256"
     },
     {
+      "slug": "firemv-2200",
+      "name": "FireMV 2200",
+      "url": "/v1/gpus/firemv-2200"
+    },
+    {
+      "slug": "firemv-2200-pci",
+      "name": "FireMV 2200 PCI",
+      "url": "/v1/gpus/firemv-2200-pci"
+    },
+    {
+      "slug": "firemv-2250",
+      "name": "FireMV 2250",
+      "url": "/v1/gpus/firemv-2250"
+    },
+    {
+      "slug": "firemv-2250-pcie-x1",
+      "name": "FireMV 2250 PCIe x1",
+      "url": "/v1/gpus/firemv-2250-pcie-x1"
+    },
+    {
+      "slug": "firemv-2260",
+      "name": "FireMV 2260",
+      "url": "/v1/gpus/firemv-2260"
+    },
+    {
+      "slug": "firemv-2260-pcie-x1",
+      "name": "FireMV 2260 PCIe x1",
+      "url": "/v1/gpus/firemv-2260-pcie-x1"
+    },
+    {
+      "slug": "firemv-2400-pci",
+      "name": "FireMV 2400 PCI",
+      "url": "/v1/gpus/firemv-2400-pci"
+    },
+    {
+      "slug": "firemv-2400-pcie-x1",
+      "name": "FireMV 2400 PCIe x1",
+      "url": "/v1/gpus/firemv-2400-pcie-x1"
+    },
+    {
+      "slug": "firepro-2260-pci",
+      "name": "FirePro 2260 PCI",
+      "url": "/v1/gpus/firepro-2260-pci"
+    },
+    {
       "slug": "firepro-2270",
       "name": "FirePro 2270",
       "url": "/v1/gpus/firepro-2270"
@@ -385,6 +475,16 @@
       "slug": "firepro-2270-pcie-x1",
       "name": "FirePro 2270 PCIe x1",
       "url": "/v1/gpus/firepro-2270-pcie-x1"
+    },
+    {
+      "slug": "firepro-2450-multi-view",
+      "name": "FirePro 2450 Multi-View",
+      "url": "/v1/gpus/firepro-2450-multi-view"
+    },
+    {
+      "slug": "firepro-2450-multi-view-pcie-x1",
+      "name": "FirePro 2450 Multi-View PCIe x1",
+      "url": "/v1/gpus/firepro-2450-multi-view-pcie-x1"
     },
     {
       "slug": "firepro-2460-multi-view",
@@ -600,6 +700,16 @@
       "slug": "firepro-v7750",
       "name": "FirePro V7750",
       "url": "/v1/gpus/firepro-v7750"
+    },
+    {
+      "slug": "firepro-v7760",
+      "name": "FirePro V7760",
+      "url": "/v1/gpus/firepro-v7760"
+    },
+    {
+      "slug": "firepro-v7770",
+      "name": "FirePro V7770",
+      "url": "/v1/gpus/firepro-v7770"
     },
     {
       "slug": "firepro-v7800",
@@ -885,6 +995,16 @@
       "slug": "grid-m60-8q",
       "name": "GRID M60-8Q",
       "url": "/v1/gpus/grid-m60-8q"
+    },
+    {
+      "slug": "grid-rtx-t10-2",
+      "name": "GRID RTX T10-2",
+      "url": "/v1/gpus/grid-rtx-t10-2"
+    },
+    {
+      "slug": "grid-rtx-t10-4",
+      "name": "GRID RTX T10-4",
+      "url": "/v1/gpus/grid-rtx-t10-4"
     },
     {
       "slug": "geforce-205-oem",
@@ -3437,6 +3557,11 @@
       "url": "/v1/gpus/geforce-rtx-3050-8-gb-ga107"
     },
     {
+      "slug": "geforce-rtx-3050-a-mobile",
+      "name": "GeForce RTX 3050 A Mobile",
+      "url": "/v1/gpus/geforce-rtx-3050-a-mobile"
+    },
+    {
       "slug": "geforce-rtx-3050-max-q",
       "name": "GeForce RTX 3050 Max-Q",
       "url": "/v1/gpus/geforce-rtx-3050-max-q"
@@ -3495,6 +3620,11 @@
       "slug": "geforce-rtx-3060-12-gb-ga104",
       "name": "GeForce RTX 3060 12 GB GA104",
       "url": "/v1/gpus/geforce-rtx-3060-12-gb-ga104"
+    },
+    {
+      "slug": "geforce-rtx-3060-3840sp",
+      "name": "GeForce RTX 3060 3840SP",
+      "url": "/v1/gpus/geforce-rtx-3060-3840sp"
     },
     {
       "slug": "geforce-rtx-3060-8-gb",
@@ -3827,6 +3957,11 @@
       "url": "/v1/gpus/geforce-rtx-5070-mobile"
     },
     {
+      "slug": "geforce-rtx-5070-super",
+      "name": "GeForce RTX 5070 SUPER",
+      "url": "/v1/gpus/geforce-rtx-5070-super"
+    },
+    {
       "slug": "geforce-rtx-5070-ti",
       "name": "GeForce RTX 5070 Ti",
       "url": "/v1/gpus/geforce-rtx-5070-ti"
@@ -3842,6 +3977,11 @@
       "url": "/v1/gpus/geforce-rtx-5070-ti-mobile"
     },
     {
+      "slug": "geforce-rtx-5070-ti-super",
+      "name": "GeForce RTX 5070 Ti SUPER",
+      "url": "/v1/gpus/geforce-rtx-5070-ti-super"
+    },
+    {
       "slug": "geforce-rtx-5080",
       "name": "GeForce RTX 5080",
       "url": "/v1/gpus/geforce-rtx-5080"
@@ -3855,6 +3995,11 @@
       "slug": "geforce-rtx-5080-mobile",
       "name": "GeForce RTX 5080 Mobile",
       "url": "/v1/gpus/geforce-rtx-5080-mobile"
+    },
+    {
+      "slug": "geforce-rtx-5080-super",
+      "name": "GeForce RTX 5080 SUPER",
+      "url": "/v1/gpus/geforce-rtx-5080-super"
     },
     {
       "slug": "geforce-rtx-5090",
@@ -4145,6 +4290,11 @@
       "slug": "jetson-tx1",
       "name": "Jetson TX1",
       "url": "/v1/gpus/jetson-tx1"
+    },
+    {
+      "slug": "jetson-tx2",
+      "name": "Jetson TX2",
+      "url": "/v1/gpus/jetson-tx2"
     },
     {
       "slug": "jetson-xavier-nx-16-gb",
@@ -4485,6 +4635,11 @@
       "slug": "p102-100",
       "name": "P102-100",
       "url": "/v1/gpus/p102-100"
+    },
+    {
+      "slug": "p102-101",
+      "name": "P102-101",
+      "url": "/v1/gpus/p102-101"
     },
     {
       "slug": "p106-090",
@@ -6347,6 +6502,11 @@
       "url": "/v1/gpus/radeon-e9560-pcie"
     },
     {
+      "slug": "radeon-hd-2350-pro",
+      "name": "Radeon HD 2350 PRO",
+      "url": "/v1/gpus/radeon-hd-2350-pro"
+    },
+    {
       "slug": "radeon-hd-2400",
       "name": "Radeon HD 2400",
       "url": "/v1/gpus/radeon-hd-2400"
@@ -7567,6 +7727,16 @@
       "url": "/v1/gpus/radeon-instinct-mi325x"
     },
     {
+      "slug": "radeon-instinct-mi350x",
+      "name": "Radeon Instinct MI350X",
+      "url": "/v1/gpus/radeon-instinct-mi350x"
+    },
+    {
+      "slug": "radeon-instinct-mi355x",
+      "name": "Radeon Instinct MI355X",
+      "url": "/v1/gpus/radeon-instinct-mi355x"
+    },
+    {
       "slug": "radeon-instinct-mi50",
       "name": "Radeon Instinct MI50",
       "url": "/v1/gpus/radeon-instinct-mi50"
@@ -8025,6 +8195,16 @@
       "slug": "radeon-r5-435-oem",
       "name": "Radeon R5 435 OEM",
       "url": "/v1/gpus/radeon-r5-435-oem"
+    },
+    {
+      "slug": "radeon-r5-a220",
+      "name": "Radeon R5 A220",
+      "url": "/v1/gpus/radeon-r5-a220"
+    },
+    {
+      "slug": "radeon-r5-a240",
+      "name": "Radeon R5 A240",
+      "url": "/v1/gpus/radeon-r5-a240"
     },
     {
       "slug": "radeon-r5-m330",
@@ -8857,6 +9037,11 @@
       "url": "/v1/gpus/radeon-rx-9070-gre"
     },
     {
+      "slug": "radeon-rx-9070-gre-16-gb",
+      "name": "Radeon RX 9070 GRE 16 GB",
+      "url": "/v1/gpus/radeon-rx-9070-gre-16-gb"
+    },
+    {
       "slug": "radeon-rx-9070-xt",
       "name": "Radeon RX 9070 XT",
       "url": "/v1/gpus/radeon-rx-9070-xt"
@@ -8987,6 +9172,21 @@
       "url": "/v1/gpus/radeon-x1300-xt-agp"
     },
     {
+      "slug": "radeon-x1550-agp",
+      "name": "Radeon X1550 AGP",
+      "url": "/v1/gpus/radeon-x1550-agp"
+    },
+    {
+      "slug": "radeon-x1550-pci",
+      "name": "Radeon X1550 PCI",
+      "url": "/v1/gpus/radeon-x1550-pci"
+    },
+    {
+      "slug": "radeon-x1600",
+      "name": "Radeon X1600",
+      "url": "/v1/gpus/radeon-x1600"
+    },
+    {
       "slug": "radeon-x1600-pro-agp",
       "name": "Radeon X1600 PRO AGP",
       "url": "/v1/gpus/radeon-x1600-pro-agp"
@@ -8995,6 +9195,11 @@
       "slug": "radeon-x1600-pro",
       "name": "Radeon X1600 Pro",
       "url": "/v1/gpus/radeon-x1600-pro"
+    },
+    {
+      "slug": "radeon-x1600-se",
+      "name": "Radeon X1600 SE",
+      "url": "/v1/gpus/radeon-x1600-se"
     },
     {
       "slug": "radeon-x1600-xt",
@@ -9287,6 +9492,16 @@
       "url": "/v1/gpus/rage-128"
     },
     {
+      "slug": "riva-128-pci",
+      "name": "Riva 128 PCI",
+      "url": "/v1/gpus/riva-128-pci"
+    },
+    {
+      "slug": "stg-2000",
+      "name": "STG-2000",
+      "url": "/v1/gpus/stg-2000"
+    },
+    {
       "slug": "savage-2000",
       "name": "Savage 2000",
       "url": "/v1/gpus/savage-2000"
@@ -9300,6 +9515,11 @@
       "slug": "savage4",
       "name": "Savage4",
       "url": "/v1/gpus/savage4"
+    },
+    {
+      "slug": "stream-processor",
+      "name": "Stream Processor",
+      "url": "/v1/gpus/stream-processor"
     },
     {
       "slug": "t1000",
@@ -9647,6 +9867,11 @@
       "url": "/v1/gpus/tesla-s870"
     },
     {
+      "slug": "tesla-t10-16-gb",
+      "name": "Tesla T10 16 GB",
+      "url": "/v1/gpus/tesla-t10-16-gb"
+    },
+    {
       "slug": "t4",
       "name": "Tesla T4",
       "url": "/v1/gpus/t4"
@@ -9727,6 +9952,11 @@
       "url": "/v1/gpus/trio64v"
     },
     {
+      "slug": "velocity-100",
+      "name": "Velocity 100",
+      "url": "/v1/gpus/velocity-100"
+    },
+    {
       "slug": "virge",
       "name": "ViRGE",
       "url": "/v1/gpus/virge"
@@ -9752,9 +9982,24 @@
       "url": "/v1/gpus/voodoo-banshee"
     },
     {
+      "slug": "voodoo-banshee-agp-16-mb",
+      "name": "Voodoo Banshee AGP 16 MB",
+      "url": "/v1/gpus/voodoo-banshee-agp-16-mb"
+    },
+    {
+      "slug": "voodoo-banshee-pci-16-mb",
+      "name": "Voodoo Banshee PCI 16 MB",
+      "url": "/v1/gpus/voodoo-banshee-pci-16-mb"
+    },
+    {
       "slug": "voodoo-graphics",
       "name": "Voodoo Graphics",
       "url": "/v1/gpus/voodoo-graphics"
+    },
+    {
+      "slug": "voodoo-graphics-4-mb",
+      "name": "Voodoo Graphics 4 MB",
+      "url": "/v1/gpus/voodoo-graphics-4-mb"
     },
     {
       "slug": "voodoo-rush",
@@ -9767,9 +10012,24 @@
       "url": "/v1/gpus/voodoo2"
     },
     {
+      "slug": "voodoo2-12-mb",
+      "name": "Voodoo2 12 MB",
+      "url": "/v1/gpus/voodoo2-12-mb"
+    },
+    {
+      "slug": "voodoo2-8-mb",
+      "name": "Voodoo2 8 MB",
+      "url": "/v1/gpus/voodoo2-8-mb"
+    },
+    {
       "slug": "voodoo3-1000",
       "name": "Voodoo3 1000",
       "url": "/v1/gpus/voodoo3-1000"
+    },
+    {
+      "slug": "voodoo3-1000-agp",
+      "name": "Voodoo3 1000 AGP",
+      "url": "/v1/gpus/voodoo3-1000-agp"
     },
     {
       "slug": "voodoo3-2000",
@@ -9777,14 +10037,39 @@
       "url": "/v1/gpus/voodoo3-2000"
     },
     {
+      "slug": "voodoo3-2000-agp",
+      "name": "Voodoo3 2000 AGP",
+      "url": "/v1/gpus/voodoo3-2000-agp"
+    },
+    {
+      "slug": "voodoo3-2000-pci",
+      "name": "Voodoo3 2000 PCI",
+      "url": "/v1/gpus/voodoo3-2000-pci"
+    },
+    {
       "slug": "voodoo3-3000",
       "name": "Voodoo3 3000",
       "url": "/v1/gpus/voodoo3-3000"
     },
     {
+      "slug": "voodoo3-3000-agp",
+      "name": "Voodoo3 3000 AGP",
+      "url": "/v1/gpus/voodoo3-3000-agp"
+    },
+    {
+      "slug": "voodoo3-3000-pci",
+      "name": "Voodoo3 3000 PCI",
+      "url": "/v1/gpus/voodoo3-3000-pci"
+    },
+    {
       "slug": "voodoo3-3500-tv",
       "name": "Voodoo3 3500 TV",
       "url": "/v1/gpus/voodoo3-3500-tv"
+    },
+    {
+      "slug": "voodoo3-3500-tv-agp",
+      "name": "Voodoo3 3500 TV AGP",
+      "url": "/v1/gpus/voodoo3-3500-tv-agp"
     },
     {
       "slug": "voodoo4-4500",
@@ -9830,6 +10115,11 @@
       "slug": "xabre-600",
       "name": "Xabre 600",
       "url": "/v1/gpus/xabre-600"
+    },
+    {
+      "slug": "xe-dg1",
+      "name": "Xe DG1",
+      "url": "/v1/gpus/xe-dg1"
     },
     {
       "slug": "xeon-phi-3120a",

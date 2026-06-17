@@ -8,9 +8,6 @@ name: deploy-pages
 on:
   push:
     branches: [main]
-    paths:
-      - "site/**"
-      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:

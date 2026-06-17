@@ -21,6 +21,8 @@ concurrency:
 jobs:
   bump:
     runs-on: ubuntu-latest
+    env:
+      ENGINE_TOKEN: ${{ secrets.ENGINE_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,6 +41,7 @@ jobs:
           fi
 
       - name: Commit & push bump
+        id: commit
         if: steps.bump.outputs.changed == 'true'
         run: |
           NEW_SHA=$(git -C TechEngine rev-parse --short HEAD)
@@ -49,3 +52,14 @@ jobs:
           git add TechEngine
           git commit -m "chore: bump TechEngine submodule to ${NEW_SHA}"
           git push
+          echo "techapi_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Dispatch reciprocal TechAPI bump to TechEngine
+        if: steps.bump.outputs.changed == 'true' && env.ENGINE_TOKEN != ''
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.ENGINE_TOKEN }}
+          repository: GetTechAPI/TechEngine
+          event-type: techapi-updated
+          client-payload: |
+            {"sha": "${{ steps.commit.outputs.techapi_sha }}", "ref": "refs/heads/main"}

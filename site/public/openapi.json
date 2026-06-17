@@ -853,6 +853,13 @@
             ],
             "title": "Website"
           },
+          "source_urls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Source Urls"
+          },
           "description_en": {
             "anyOf": [
               {
@@ -885,6 +892,7 @@
           "id",
           "slug",
           "name",
+          "source_urls",
           "url"
         ],
         "title": "BrandRead",
@@ -1265,6 +1273,17 @@
           "pcie_version": {
             "type": "string",
             "title": "Pcie Version"
+          },
+          "fp32_tflops": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fp32 Tflops"
           },
           "blender_score": {
             "anyOf": [

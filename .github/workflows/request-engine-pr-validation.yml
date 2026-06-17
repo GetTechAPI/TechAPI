@@ -1,0 +1,60 @@
+name: request-engine-pr-validation
+
+# Ask TechEngine to validate data PRs and report the result back as a PR
+# comment. The ordinary PR check still runs locally; this gives curator-facing
+# feedback from the engine repository without moving PR ownership away from the
+# human author.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "data/**"
+      - "site/public/v1/**"
+      - "site/public/openapi.json"
+      - "app/validate.py"
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "TechAPI PR number to validate"
+        type: string
+        required: true
+      head_sha:
+        description: "TechAPI commit SHA to validate"
+        type: string
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  request:
+    runs-on: ubuntu-latest
+    env:
+      ENGINE_TOKEN: ${{ secrets.ENGINE_TOKEN }}
+      PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.head_sha }}
+      HEAD_REF: ${{ github.event.pull_request.head.ref || '' }}
+      PR_URL: ${{ github.event.pull_request.html_url || '' }}
+    steps:
+      - name: Skip when ENGINE_TOKEN is unset
+        if: env.ENGINE_TOKEN == ''
+        run: echo "::warning::ENGINE_TOKEN not configured; TechEngine PR validation comment was not requested."
+
+      - name: Dispatch TechEngine PR validation
+        if: env.ENGINE_TOKEN != ''
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.ENGINE_TOKEN }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: 'GetTechAPI',
+              repo: 'TechEngine',
+              event_type: 'techapi-pr-validate',
+              client_payload: {
+                pr_number: process.env.PR_NUMBER,
+                head_sha: process.env.HEAD_SHA,
+                head_ref: process.env.HEAD_REF,
+                pr_url: process.env.PR_URL,
+                requested_by: context.actor
+              }
+            })

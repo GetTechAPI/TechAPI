@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-a500-mobile",
+  "name": "RTX A500 Mobile",
+  "manufacturer": "nvidia",
+  "architecture": "Ampere",
+  "release_date": "2022-03-22",
+  "cuda_cores": 2048,
+  "stream_processors": 2048,
+  "rt_cores": 16,
+  "tensor_cores": 64,
+  "memory_gb": 4.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 64,
+  "memory_bandwidth_gbps": 96.0,
+  "base_clock_mhz": 832,
+  "boost_clock_mhz": 1537,
+  "tdp_w": 30,
+  "pcie_version": "PCIe 4.0 x8",
+  "fp32_tflops": 6.296,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1653,
+  "slug": "tesla-p100-sxm2",
+  "name": "Tesla P100 SXM2",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Pascal",
+  "release_date": "2016-04-05",
+  "msrp_usd": null,
+  "cuda_cores": 3584,
+  "stream_processors": 3584,
+  "rt_cores": null,
+  "tensor_cores": null,
+  "memory_gb": 16.0,
+  "memory_type": "HBM2",
+  "memory_bus_bit": 4096,
+  "memory_bandwidth_gbps": 732.2,
+  "base_clock_mhz": 1328,
+  "boost_clock_mhz": 1480,
+  "tdp_w": 300,
+  "pcie_version": "PCIe 3.0 x16",
+  "fp32_tflops": 10.61,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/tesla-p100-sxm2"
+}

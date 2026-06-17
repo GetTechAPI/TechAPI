@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-4000-ada-generation",
+  "name": "RTX 4000 Ada Generation",
+  "manufacturer": "nvidia",
+  "architecture": "Ada Lovelace",
+  "release_date": "2023-08-09",
+  "cuda_cores": 6144,
+  "stream_processors": 6144,
+  "rt_cores": 48,
+  "tensor_cores": 192,
+  "memory_gb": 20.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 160,
+  "memory_bandwidth_gbps": 360.0,
+  "base_clock_mhz": 1500,
+  "boost_clock_mhz": 2175,
+  "tdp_w": 130,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 26.73,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

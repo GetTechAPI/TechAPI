@@ -1,0 +1,22 @@
+{
+  "slug": "h100-pcie-80-gb",
+  "name": "H100 PCIe 80 GB",
+  "manufacturer": "nvidia",
+  "architecture": "Hopper",
+  "release_date": "2022-10-01",
+  "cuda_cores": 14592,
+  "stream_processors": 14592,
+  "tensor_cores": 456,
+  "memory_gb": 80.0,
+  "memory_type": "HBM2e",
+  "memory_bus_bit": 5120,
+  "base_clock_mhz": 1095,
+  "boost_clock_mhz": 1755,
+  "tdp_w": 350,
+  "pcie_version": "PCIe 5.0 x16",
+  "fp32_tflops": 51.22,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

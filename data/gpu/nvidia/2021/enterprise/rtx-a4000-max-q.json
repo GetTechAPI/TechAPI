@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-a4000-max-q",
+  "name": "RTX A4000 Max-Q",
+  "manufacturer": "nvidia",
+  "architecture": "Ampere",
+  "release_date": "2021-04-12",
+  "cuda_cores": 5120,
+  "stream_processors": 5120,
+  "rt_cores": 40,
+  "tensor_cores": 160,
+  "memory_gb": 8.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 256,
+  "memory_bandwidth_gbps": 352.0,
+  "base_clock_mhz": 780,
+  "boost_clock_mhz": 1395,
+  "tdp_w": 80,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 14.28,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

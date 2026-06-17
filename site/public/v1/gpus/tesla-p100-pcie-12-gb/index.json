@@ -1,0 +1,32 @@
+{
+  "id": 1651,
+  "slug": "tesla-p100-pcie-12-gb",
+  "name": "Tesla P100 PCIe 12 GB",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Pascal",
+  "release_date": "2016-06-20",
+  "msrp_usd": 4599,
+  "cuda_cores": 3584,
+  "stream_processors": 3584,
+  "rt_cores": null,
+  "tensor_cores": null,
+  "memory_gb": 12.0,
+  "memory_type": "HBM2",
+  "memory_bus_bit": 3072,
+  "memory_bandwidth_gbps": 549.1,
+  "base_clock_mhz": 1190,
+  "boost_clock_mhz": 1329,
+  "tdp_w": 250,
+  "pcie_version": "PCIe 3.0 x16",
+  "fp32_tflops": 9.526,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/tesla-p100-pcie-12-gb"
+}

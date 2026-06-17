@@ -1,0 +1,22 @@
+{
+  "slug": "drive-a100-prod",
+  "name": "DRIVE A100 PROD",
+  "manufacturer": "nvidia",
+  "architecture": "Ampere",
+  "release_date": "2020-05-14",
+  "cuda_cores": 6912,
+  "stream_processors": 6912,
+  "tensor_cores": 432,
+  "memory_gb": 32.0,
+  "memory_type": "HBM2e",
+  "memory_bus_bit": 6144,
+  "base_clock_mhz": 1065,
+  "boost_clock_mhz": 1410,
+  "tdp_w": 400,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 19.49,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

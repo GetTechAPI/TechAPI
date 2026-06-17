@@ -1,0 +1,32 @@
+{
+  "id": 1874,
+  "slug": "a10m",
+  "name": "A10M",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Ampere",
+  "release_date": "2022-02-01",
+  "msrp_usd": null,
+  "cuda_cores": 7168,
+  "stream_processors": 7168,
+  "rt_cores": 56,
+  "tensor_cores": 224,
+  "memory_gb": 20.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 320,
+  "memory_bandwidth_gbps": 500.2,
+  "base_clock_mhz": 975,
+  "boost_clock_mhz": 1635,
+  "tdp_w": 150,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 23.44,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/a10m"
+}

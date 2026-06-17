@@ -1,0 +1,22 @@
+{
+  "slug": "data-center-gpu-max-subsystem",
+  "name": "Data Center GPU Max Subsystem",
+  "manufacturer": "intel",
+  "architecture": "Generation 12.5",
+  "release_date": "2023-01-10",
+  "cuda_cores": 16384,
+  "stream_processors": 16384,
+  "rt_cores": 128,
+  "memory_gb": 128.0,
+  "memory_type": "HBM2e",
+  "memory_bus_bit": 8192,
+  "base_clock_mhz": 900,
+  "boost_clock_mhz": 1600,
+  "tdp_w": 2400,
+  "pcie_version": "PCIe 5.0 x16",
+  "fp32_tflops": 52.43,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

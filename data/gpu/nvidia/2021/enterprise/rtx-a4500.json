@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-a4500",
+  "name": "RTX A4500",
+  "manufacturer": "nvidia",
+  "architecture": "Ampere",
+  "release_date": "2021-11-23",
+  "cuda_cores": 7168,
+  "stream_processors": 7168,
+  "rt_cores": 56,
+  "tensor_cores": 224,
+  "memory_gb": 20.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 320,
+  "memory_bandwidth_gbps": 640.0,
+  "base_clock_mhz": 1050,
+  "boost_clock_mhz": 1650,
+  "tdp_w": 200,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 23.65,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

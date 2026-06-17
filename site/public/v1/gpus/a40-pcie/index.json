@@ -1,0 +1,32 @@
+{
+  "id": 1782,
+  "slug": "a40-pcie",
+  "name": "A40 PCIe",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Ampere",
+  "release_date": "2020-10-05",
+  "msrp_usd": null,
+  "cuda_cores": 10752,
+  "stream_processors": 10752,
+  "rt_cores": 84,
+  "tensor_cores": 336,
+  "memory_gb": 48.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 384,
+  "memory_bandwidth_gbps": 695.8,
+  "base_clock_mhz": 1305,
+  "boost_clock_mhz": 1740,
+  "tdp_w": 300,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 37.42,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/a40-pcie"
+}

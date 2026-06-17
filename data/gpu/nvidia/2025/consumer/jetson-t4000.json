@@ -1,0 +1,24 @@
+{
+  "slug": "jetson-t4000",
+  "name": "Jetson T4000",
+  "manufacturer": "nvidia",
+  "architecture": "Blackwell",
+  "release_date": "2025-08-27",
+  "cuda_cores": 1536,
+  "stream_processors": 1536,
+  "rt_cores": 12,
+  "tensor_cores": 64,
+  "memory_gb": 64.0,
+  "memory_type": "LPDDR5X",
+  "memory_bus_bit": 256,
+  "memory_bandwidth_gbps": 273.2,
+  "base_clock_mhz": 1665,
+  "boost_clock_mhz": 2525,
+  "tdp_w": 40,
+  "pcie_version": "PCIe 5.0 x16",
+  "fp32_tflops": 7.757,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

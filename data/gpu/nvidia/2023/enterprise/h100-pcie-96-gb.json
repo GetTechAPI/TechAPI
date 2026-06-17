@@ -1,0 +1,22 @@
+{
+  "slug": "h100-pcie-96-gb",
+  "name": "H100 PCIe 96 GB",
+  "manufacturer": "nvidia",
+  "architecture": "Hopper",
+  "release_date": "2023-03-21",
+  "cuda_cores": 16896,
+  "stream_processors": 16896,
+  "tensor_cores": 528,
+  "memory_gb": 96.0,
+  "memory_type": "HBM3",
+  "memory_bus_bit": 5120,
+  "base_clock_mhz": 1665,
+  "boost_clock_mhz": 1837,
+  "tdp_w": 700,
+  "pcie_version": "PCIe 5.0 x16",
+  "fp32_tflops": 62.08,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

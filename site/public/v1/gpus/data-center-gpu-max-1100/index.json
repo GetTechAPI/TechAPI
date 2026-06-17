@@ -1,0 +1,32 @@
+{
+  "id": 1029,
+  "slug": "data-center-gpu-max-1100",
+  "name": "Data Center GPU Max 1100",
+  "manufacturer": {
+    "slug": "intel",
+    "name": "Intel",
+    "url": "/v1/brands/intel"
+  },
+  "architecture": "Generation 12.5",
+  "release_date": "2023-01-10",
+  "msrp_usd": null,
+  "cuda_cores": 7168,
+  "stream_processors": 7168,
+  "rt_cores": 56,
+  "tensor_cores": null,
+  "memory_gb": 48.0,
+  "memory_type": "HBM2e",
+  "memory_bus_bit": 8192,
+  "memory_bandwidth_gbps": null,
+  "base_clock_mhz": 1000,
+  "boost_clock_mhz": 1550,
+  "tdp_w": 300,
+  "pcie_version": "PCIe 5.0 x16",
+  "fp32_tflops": 22.22,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/data-center-gpu-max-1100"
+}

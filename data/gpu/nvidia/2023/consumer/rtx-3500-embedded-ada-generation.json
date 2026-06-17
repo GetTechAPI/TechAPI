@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-3500-embedded-ada-generation",
+  "name": "RTX 3500 Embedded Ada Generation",
+  "manufacturer": "nvidia",
+  "architecture": "Ada Lovelace",
+  "release_date": "2023-03-21",
+  "cuda_cores": 5120,
+  "stream_processors": 5120,
+  "rt_cores": 40,
+  "tensor_cores": 160,
+  "memory_gb": 12.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 192,
+  "memory_bandwidth_gbps": 432.0,
+  "base_clock_mhz": 1725,
+  "boost_clock_mhz": 2250,
+  "tdp_w": 100,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 23.04,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

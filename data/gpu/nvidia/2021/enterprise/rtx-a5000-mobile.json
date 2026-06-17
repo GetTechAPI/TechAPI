@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-a5000-mobile",
+  "name": "RTX A5000 Mobile",
+  "manufacturer": "nvidia",
+  "architecture": "Ampere",
+  "release_date": "2021-04-12",
+  "cuda_cores": 6144,
+  "stream_processors": 6144,
+  "rt_cores": 48,
+  "tensor_cores": 192,
+  "memory_gb": 16.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 256,
+  "memory_bandwidth_gbps": 448.0,
+  "base_clock_mhz": 900,
+  "boost_clock_mhz": 1575,
+  "tdp_w": 150,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 19.35,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

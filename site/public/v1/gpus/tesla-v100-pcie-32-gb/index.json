@@ -1,0 +1,32 @@
+{
+  "id": 1720,
+  "slug": "tesla-v100-pcie-32-gb",
+  "name": "Tesla V100 PCIe 32 GB",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Volta",
+  "release_date": "2018-03-27",
+  "msrp_usd": null,
+  "cuda_cores": 5120,
+  "stream_processors": 5120,
+  "rt_cores": null,
+  "tensor_cores": 640,
+  "memory_gb": 32.0,
+  "memory_type": "HBM2",
+  "memory_bus_bit": 4096,
+  "memory_bandwidth_gbps": 897.0,
+  "base_clock_mhz": 1230,
+  "boost_clock_mhz": 1380,
+  "tdp_w": 250,
+  "pcie_version": "PCIe 3.0 x16",
+  "fp32_tflops": 14.13,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/tesla-v100-pcie-32-gb"
+}

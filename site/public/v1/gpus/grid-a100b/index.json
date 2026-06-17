@@ -1,0 +1,32 @@
+{
+  "id": 1785,
+  "slug": "grid-a100b",
+  "name": "GRID A100B",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Ampere",
+  "release_date": "2020-05-14",
+  "msrp_usd": null,
+  "cuda_cores": 6912,
+  "stream_processors": 6912,
+  "rt_cores": null,
+  "tensor_cores": 432,
+  "memory_gb": 48.0,
+  "memory_type": "HBM2e",
+  "memory_bus_bit": 6144,
+  "memory_bandwidth_gbps": null,
+  "base_clock_mhz": 900,
+  "boost_clock_mhz": 1005,
+  "tdp_w": 400,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 13.89,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/grid-a100b"
+}

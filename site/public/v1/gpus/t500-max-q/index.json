@@ -1,0 +1,32 @@
+{
+  "id": 1777,
+  "slug": "t500-max-q",
+  "name": "T500 Max-Q",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Turing",
+  "release_date": "2020-12-02",
+  "msrp_usd": null,
+  "cuda_cores": 896,
+  "stream_processors": 896,
+  "rt_cores": null,
+  "tensor_cores": null,
+  "memory_gb": 4.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 64,
+  "memory_bandwidth_gbps": 80.0,
+  "base_clock_mhz": 795,
+  "boost_clock_mhz": 1425,
+  "tdp_w": 18,
+  "pcie_version": "PCIe 3.0 x16",
+  "fp32_tflops": 2.554,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/t500-max-q"
+}

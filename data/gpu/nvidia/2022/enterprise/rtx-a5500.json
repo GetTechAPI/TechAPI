@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-a5500",
+  "name": "RTX A5500",
+  "manufacturer": "nvidia",
+  "architecture": "Ampere",
+  "release_date": "2022-03-22",
+  "cuda_cores": 10240,
+  "stream_processors": 10240,
+  "rt_cores": 80,
+  "tensor_cores": 320,
+  "memory_gb": 24.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 384,
+  "memory_bandwidth_gbps": 768.0,
+  "base_clock_mhz": 1080,
+  "boost_clock_mhz": 1665,
+  "tdp_w": 230,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 34.1,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

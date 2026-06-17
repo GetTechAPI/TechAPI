@@ -1,0 +1,24 @@
+{
+  "slug": "rtx-a3000-mobile",
+  "name": "RTX A3000 Mobile",
+  "manufacturer": "nvidia",
+  "architecture": "Ampere",
+  "release_date": "2021-04-12",
+  "cuda_cores": 4096,
+  "stream_processors": 4096,
+  "rt_cores": 32,
+  "tensor_cores": 128,
+  "memory_gb": 6.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 192,
+  "memory_bandwidth_gbps": 264.0,
+  "base_clock_mhz": 600,
+  "boost_clock_mhz": 1230,
+  "tdp_w": 70,
+  "pcie_version": "PCIe 4.0 x16",
+  "fp32_tflops": 10.08,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

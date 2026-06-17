@@ -1,0 +1,32 @@
+{
+  "id": 1025,
+  "slug": "arc-a530m",
+  "name": "Arc A530M",
+  "manufacturer": {
+    "slug": "intel",
+    "name": "Intel",
+    "url": "/v1/brands/intel"
+  },
+  "architecture": "Xe-HPG",
+  "release_date": "2023-08-01",
+  "msrp_usd": null,
+  "cuda_cores": 1536,
+  "stream_processors": 1536,
+  "rt_cores": 12,
+  "tensor_cores": null,
+  "memory_gb": 8.0,
+  "memory_type": "GDDR6",
+  "memory_bus_bit": 128,
+  "memory_bandwidth_gbps": 224.0,
+  "base_clock_mhz": 900,
+  "boost_clock_mhz": 1300,
+  "tdp_w": 65,
+  "pcie_version": "PCIe 4.0 x8",
+  "fp32_tflops": 3.994,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/arc-a530m"
+}

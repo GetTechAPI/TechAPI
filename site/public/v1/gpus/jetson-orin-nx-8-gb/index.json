@@ -1,0 +1,32 @@
+{
+  "id": 1915,
+  "slug": "jetson-orin-nx-8-gb",
+  "name": "Jetson Orin NX 8 GB",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Ampere",
+  "release_date": "2023-03-01",
+  "msrp_usd": 399,
+  "cuda_cores": 1024,
+  "stream_processors": 1024,
+  "rt_cores": null,
+  "tensor_cores": 32,
+  "memory_gb": 8.0,
+  "memory_type": "LPDDR5",
+  "memory_bus_bit": 128,
+  "memory_bandwidth_gbps": 102.4,
+  "base_clock_mhz": 765,
+  "boost_clock_mhz": 765,
+  "tdp_w": 20,
+  "pcie_version": "PCIe 4.0 x4",
+  "fp32_tflops": 1.567,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/jetson-orin-nx-8-gb"
+}

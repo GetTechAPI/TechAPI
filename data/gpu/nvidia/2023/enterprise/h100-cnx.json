@@ -1,0 +1,22 @@
+{
+  "slug": "h100-cnx",
+  "name": "H100 CNX",
+  "manufacturer": "nvidia",
+  "architecture": "Hopper",
+  "release_date": "2023-03-21",
+  "cuda_cores": 14592,
+  "stream_processors": 14592,
+  "tensor_cores": 456,
+  "memory_gb": 80.0,
+  "memory_type": "HBM2e",
+  "memory_bus_bit": 5120,
+  "base_clock_mhz": 690,
+  "boost_clock_mhz": 1845,
+  "tdp_w": 350,
+  "pcie_version": "PCIe 5.0 x16",
+  "fp32_tflops": 53.84,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": 1640,
+  "slug": "quadro-gp100",
+  "name": "Quadro GP100",
+  "manufacturer": {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "url": "/v1/brands/nvidia"
+  },
+  "architecture": "Pascal",
+  "release_date": "2016-10-01",
+  "msrp_usd": null,
+  "cuda_cores": 3584,
+  "stream_processors": 3584,
+  "rt_cores": null,
+  "tensor_cores": null,
+  "memory_gb": 16.0,
+  "memory_type": "HBM2",
+  "memory_bus_bit": 4096,
+  "memory_bandwidth_gbps": 732.2,
+  "base_clock_mhz": 1304,
+  "boost_clock_mhz": 1443,
+  "tdp_w": 235,
+  "pcie_version": "PCIe 3.0 x16",
+  "fp32_tflops": 10.34,
+  "blender_score": null,
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+  ],
+  "url": "/v1/gpus/quadro-gp100"
+}

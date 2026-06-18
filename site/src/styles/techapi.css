@@ -366,6 +366,9 @@ code, .mono { font-family: var(--mono); }
   font-size: 10px;
   color: var(--accent-text);
 }
+.history-bar-delta.is-negative {
+  color: var(--err);
+}
 .history-list li {
   display: grid;
   grid-template-columns: 12px 1fr;

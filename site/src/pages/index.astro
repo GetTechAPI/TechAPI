@@ -111,8 +111,8 @@ const endpoints = [
         <div class="sec-head">
           <div>
             <span class="kicker">00 - History</span>
-            <h2 style="margin-top:14px">Dataset growth, synced live</h2>
-            <p class="sec-sub">Counts come from the published static dump, while recent syncs come from repository activity when GitHub is reachable.</p>
+            <h2 style="margin-top:14px">Dataset growth over time</h2>
+            <p class="sec-sub">Recent dump commits are replayed into a small growth chart, showing how many records each sync added.</p>
           </div>
           <span class="num">v1/index.json</span>
         </div>
@@ -124,7 +124,10 @@ const endpoints = [
             <div class="history-grid" id="history-counts"></div>
           </div>
           <div class="history-panel">
-            <div class="history-label">Recent syncs</div>
+            <div class="history-label">Growth timeline</div>
+            <div class="history-chart" id="history-chart" aria-label="Dataset record growth chart">
+              <div class="history-empty">Loading growth chart...</div>
+            </div>
             <ol class="history-list" id="history-list">
               <li><span class="history-dot"></span><span>Loading repository history...</span></li>
             </ol>

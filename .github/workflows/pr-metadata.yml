@@ -107,7 +107,7 @@ jobs:
             if (trackers.size) {
               const marker = '<!-- techapi-tracking -->';
               const existing = pr.body || '';
-              const refs = [...trackers].sort().map((ref) => `- Refs ${ref}`).join('\n');
+              const refs = [...trackers].sort().map((ref) => `- Related to ${ref}`).join('\n');
               const block = `${marker}\n\n## Tracking\n${refs}`;
               const body = existing.includes(marker)
                 ? existing.replace(new RegExp(`${marker}[\\s\\S]*$`), block)
@@ -160,6 +160,11 @@ jobs:
             project_json="$(gh project view "$project_number" --owner "$owner" --format json)"
             project_id="$(jq -r '.id' <<< "$project_json")"
             item_id="$(gh project item-add "$project_number" --owner "$owner" --url "$PR_URL" --format json --jq '.id')"
+            status_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .id')"
+            status_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .options[] | select(.name == "In Progress") | .id')"
+            if [ -z "$status_option_id" ]; then
+              status_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .options[] | select(.name == "Todo") | .id')"
+            fi
             start_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Start date") | .id')"
             target_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Target date") | .id')"
             priority_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .id')"
@@ -168,6 +173,9 @@ jobs:
               priority_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .options[] | select(.name == "Medium") | .id')"
             fi
 
+            if [ -n "$item_id" ] && [ -n "$status_field_id" ] && [ -n "$status_option_id" ]; then
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$status_field_id" --single-select-option-id "$status_option_id"
+            fi
             if [ -n "$item_id" ] && [ -n "$start_field_id" ]; then
               gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$start_field_id" --date "$today"
             fi

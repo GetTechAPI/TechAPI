@@ -101,6 +101,38 @@ jobs:
               break;
             }
 
+            const trackingIssuesByLabel = new Map([
+              ['data', 1],
+              ['site', 19],
+            ]);
+            const trackingIssues = [];
+            for (const [label, issueNumber] of trackingIssuesByLabel) {
+              if (labels.has(label)) trackingIssues.push(issueNumber);
+            }
+            if (trackingIssues.length) {
+              let body = pr.body || '';
+              let updatedBody = body;
+              for (const issueNumber of trackingIssues) {
+                const closingLine = `Closes #${issueNumber}`;
+                const closingPattern = new RegExp(`\\b(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\\s+#${issueNumber}\\b`, 'i');
+                const refsPattern = new RegExp(`\\bRefs\\s+#${issueNumber}\\b`, 'i');
+                if (closingPattern.test(updatedBody)) continue;
+                if (refsPattern.test(updatedBody)) {
+                  updatedBody = updatedBody.replace(refsPattern, closingLine);
+                } else {
+                  updatedBody = `${updatedBody.trimEnd()}\n\n${closingLine}`;
+                }
+              }
+              if (updatedBody !== body) {
+                await github.rest.pulls.update({
+                  owner,
+                  repo,
+                  pull_number: issue_number,
+                  body: updatedBody,
+                });
+              }
+            }
+
             const changedLines = files.reduce((sum, file) => sum + file.additions + file.deletions, 0);
             let priority = 'Medium';
             if (labels.has('data') && (files.length >= 25 || changedLines >= 1000)) {

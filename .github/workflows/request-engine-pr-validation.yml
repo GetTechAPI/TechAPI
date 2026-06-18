@@ -1,9 +1,9 @@
 name: request-engine-pr-validation
 
-# Ask TechEngine to validate data PRs and report the result back as a PR
-# comment. The ordinary PR check still runs locally; this gives curator-facing
-# feedback from the engine repository without moving PR ownership away from the
-# human author.
+# Ask TechEngine to validate TechAPI PRs and report the result back as PR
+# comments. Data changes get engine data checks; homepage changes get the
+# TechAPI site build check without moving PR ownership away from the human
+# author.
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
@@ -11,6 +11,11 @@ on:
       - "data/**"
       - "site/public/v1/**"
       - "site/public/openapi.json"
+      - "site/src/**"
+      - "site/public/**"
+      - "site/astro.config.*"
+      - "site/package.json"
+      - "site/package-lock.json"
       - "app/validate.py"
   workflow_dispatch:
     inputs:

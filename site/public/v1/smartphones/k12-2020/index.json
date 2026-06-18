@@ -1,0 +1,80 @@
+{
+  "id": 366,
+  "slug": "k12-2020",
+  "name": "K12 2020",
+  "brand": {
+    "id": 23,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 57,
+    "slug": "helio-g25",
+    "name": "Helio G25",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-g25"
+  },
+  "release_date": "2021-02-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "IPS TFT LCD",
+    "ppi": 270
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {
+    "height_mm": 164.93,
+    "width_mm": 75.73,
+    "depth_mm": 8.89
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.6,
+    "performance": 0.0,
+    "camera": 16.5,
+    "battery": 15.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.673045",
+  "updated_at": "2026-06-18T08:01:07.673045"
+}

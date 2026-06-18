@@ -1,0 +1,82 @@
+{
+  "id": 281,
+  "slug": "mate-50-pro",
+  "name": "Mate 50 Pro",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 146,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2022-09-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.74,
+    "resolution": "1212x2616",
+    "refresh_hz": 120,
+    "type": "AM-OLED",
+    "ppi": 428
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": null,
+  "weight_g": 209.0,
+  "dimensions": {
+    "height_mm": 162.1,
+    "width_mm": 75.5,
+    "depth_mm": 8.5
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.2,
+    "performance": 22.2,
+    "camera": 17.2,
+    "battery": 50.2,
+    "display": 55.3,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.661534",
+  "updated_at": "2026-06-18T08:01:07.661534"
+}

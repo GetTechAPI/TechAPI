@@ -1,0 +1,82 @@
+{
+  "id": 784,
+  "slug": "poco-poco-f3",
+  "name": "Poco F3",
+  "brand": {
+    "id": 30,
+    "slug": "poco",
+    "name": "POCO",
+    "country": "CN",
+    "url": "/v1/brands/poco"
+  },
+  "soc": {
+    "id": 129,
+    "slug": "snapdragon-865-plus",
+    "name": "Snapdragon 865+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865-plus"
+  },
+  "release_date": "2021-04-29",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "refresh_hz": 120,
+    "type": "AM-OLED",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 4520,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 196.0,
+  "dimensions": {
+    "height_mm": 163.7,
+    "width_mm": 76.4,
+    "depth_mm": 7.8
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.5,
+    "performance": 3.4,
+    "camera": 16.5,
+    "battery": 26.2,
+    "display": 52.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.723593",
+  "updated_at": "2026-06-18T08:01:07.723593"
+}

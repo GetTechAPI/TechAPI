@@ -1,0 +1,83 @@
+{
+  "id": 1317,
+  "slug": "mi-13",
+  "name": "Mi 13",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 145,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2022-12-14",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.36,
+    "resolution": "1080x2400",
+    "refresh_hz": 120,
+    "type": "AM-OLED",
+    "ppi": 414
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 53.9
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {
+    "height_mm": 152.8,
+    "width_mm": 71.5,
+    "depth_mm": 7.98
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.1,
+    "performance": 36.7,
+    "camera": 18.4,
+    "battery": 47.4,
+    "display": 53.9,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.784148",
+  "updated_at": "2026-06-18T08:01:07.784148"
+}

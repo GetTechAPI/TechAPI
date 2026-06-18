@@ -1,0 +1,82 @@
+{
+  "id": 1370,
+  "slug": "redmi-note-12r",
+  "name": "Redmi Note 12R",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 147,
+    "slug": "snapdragon-4-gen-2",
+    "name": "Snapdragon 4 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 613",
+    "url": "/v1/socs/snapdragon-4-gen-2"
+  },
+  "release_date": "2023-06-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.79,
+    "resolution": "1080x2460",
+    "refresh_hz": 90,
+    "type": "IPS TFT LCD",
+    "ppi": 396
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {
+    "height_mm": 168.6,
+    "width_mm": 78.28,
+    "depth_mm": 8.17
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.4,
+    "performance": 3.0,
+    "camera": 17.2,
+    "battery": 45.6,
+    "display": 39.6,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.789650",
+  "updated_at": "2026-06-18T08:01:07.789650"
+}

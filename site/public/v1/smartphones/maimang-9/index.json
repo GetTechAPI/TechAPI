@@ -1,0 +1,80 @@
+{
+  "id": 267,
+  "slug": "maimang-9",
+  "name": "Maimang 9",
+  "brand": {
+    "id": 17,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 47,
+    "slug": "dimensity-800",
+    "name": "Dimensity 800",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC4",
+    "url": "/v1/socs/dimensity-800"
+  },
+  "release_date": "2020-08-07",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080x2400",
+    "type": "IPS TFT LCD",
+    "ppi": 387
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": 22.0,
+  "charging_wireless_w": null,
+  "weight_g": 212.0,
+  "dimensions": {
+    "height_mm": 170.0,
+    "width_mm": 78.5,
+    "depth_mm": 8.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.0,
+    "performance": 3.0,
+    "camera": 16.5,
+    "battery": 20.8,
+    "display": 43.7,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.659531",
+  "updated_at": "2026-06-18T08:01:07.659531"
+}

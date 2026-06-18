@@ -1,0 +1,83 @@
+{
+  "id": 28,
+  "slug": "iphone-se-2020-2nd-gen",
+  "name": "iPhone SE 2020 2nd gen",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 8,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2020-04-24",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "750x1334",
+    "refresh_hz": 60,
+    "type": "IPS TFT LCD",
+    "ppi": 325
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 7.2
+    }
+  ],
+  "battery_mah": 1821,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 148.0,
+  "dimensions": {
+    "height_mm": 138.4,
+    "width_mm": 67.3,
+    "depth_mm": 7.3
+  },
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": "13.4",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "Proprietary"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.6,
+    "performance": 16.7,
+    "camera": 5.1,
+    "battery": 0.6,
+    "display": 20.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.611454",
+  "updated_at": "2026-06-18T08:01:07.611454"
+}

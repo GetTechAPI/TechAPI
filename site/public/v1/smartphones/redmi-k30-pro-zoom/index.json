@@ -1,0 +1,83 @@
+{
+  "id": 1228,
+  "slug": "redmi-k30-pro-zoom",
+  "name": "Redmi K30 Pro Zoom",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 120,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-04-04",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "refresh_hz": 60,
+    "type": "AM-OLED",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 218.0,
+  "dimensions": {
+    "height_mm": 163.3,
+    "width_mm": 75.4,
+    "depth_mm": 8.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.9,
+    "performance": 6.0,
+    "camera": 21.5,
+    "battery": 28.9,
+    "display": 27.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.773640",
+  "updated_at": "2026-06-18T08:01:07.773640"
+}

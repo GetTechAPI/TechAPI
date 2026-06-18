@@ -1,0 +1,82 @@
+{
+  "id": 1179,
+  "slug": "mi-9-pro",
+  "name": "Mi 9 Pro",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 119,
+    "slug": "snapdragon-855-plus",
+    "name": "Snapdragon 855+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/snapdragon-855-plus"
+  },
+  "release_date": "2019-10-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.39,
+    "resolution": "1080x2340",
+    "type": "AM-OLED",
+    "ppi": 403
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 19.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 45.0,
+  "charging_wireless_w": null,
+  "weight_g": 196.0,
+  "dimensions": {
+    "height_mm": 157.21,
+    "width_mm": 74.64,
+    "depth_mm": 8.54
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "9.0",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.1,
+    "performance": 6.0,
+    "camera": 16.5,
+    "battery": 20.7,
+    "display": 45.3,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.768133",
+  "updated_at": "2026-06-18T08:01:07.768133"
+}

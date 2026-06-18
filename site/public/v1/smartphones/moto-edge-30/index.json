@@ -1,0 +1,82 @@
+{
+  "id": 425,
+  "slug": "moto-edge-30",
+  "name": "Moto Edge 30",
+  "brand": {
+    "id": 117,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 135,
+    "slug": "snapdragon-778g-plus",
+    "name": "Snapdragon 778G Plus",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g-plus"
+  },
+  "release_date": "2022-05-12",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "1080x2400",
+    "refresh_hz": 144,
+    "type": "AM-OLED",
+    "ppi": 402
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4020,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {
+    "height_mm": 159.38,
+    "width_mm": 74.24,
+    "depth_mm": 6.79
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.6,
+    "performance": 3.0,
+    "camera": 17.2,
+    "battery": 23.7,
+    "display": 62.7,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.679548",
+  "updated_at": "2026-06-18T08:01:07.679548"
+}

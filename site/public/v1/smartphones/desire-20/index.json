@@ -1,0 +1,80 @@
+{
+  "id": 251,
+  "slug": "desire-20",
+  "name": "Desire 20+",
+  "brand": {
+    "id": 92,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 125,
+    "slug": "snapdragon-720g",
+    "name": "Snapdragon 720G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 618",
+    "url": "/v1/socs/snapdragon-720g"
+  },
+  "release_date": "2020-10-24",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "IPS TFT LCD",
+    "ppi": 270
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": null,
+  "weight_g": 203.0,
+  "dimensions": {
+    "height_mm": 164.9,
+    "width_mm": 75.7,
+    "depth_mm": 9.0
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.8,
+    "performance": 1.5,
+    "camera": 16.5,
+    "battery": 30.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.639976",
+  "updated_at": "2026-06-18T08:01:07.639976"
+}

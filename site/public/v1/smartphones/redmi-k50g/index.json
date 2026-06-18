@@ -1,0 +1,81 @@
+{
+  "id": 1337,
+  "slug": "redmi-k50g",
+  "name": "Redmi K50G",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 138,
+    "slug": "snapdragon-8-gen-1",
+    "name": "Snapdragon 8 Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-gen-1"
+  },
+  "release_date": "2022-02-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "refresh_hz": 120,
+    "type": "AM-OLED",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {
+    "height_mm": 162.5,
+    "width_mm": 76.7,
+    "depth_mm": 8.5
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.0,
+    "performance": 13.9,
+    "camera": 21.5,
+    "battery": 60.5,
+    "display": 52.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.786148",
+  "updated_at": "2026-06-18T08:01:07.786148"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 783,
+  "slug": "poco-m4-pro",
+  "name": "Poco M4 Pro",
+  "brand": {
+    "id": 30,
+    "slug": "poco",
+    "name": "POCO",
+    "country": "CN",
+    "url": "/v1/brands/poco"
+  },
+  "soc": {
+    "id": 71,
+    "slug": "helio-g96",
+    "name": "Helio G96",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali G57 MC2",
+    "url": "/v1/socs/helio-g96"
+  },
+  "release_date": "2021-11-11",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.43,
+    "resolution": "1080x2400",
+    "refresh_hz": 90,
+    "type": "AM-OLED",
+    "ppi": 409
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 179.5,
+  "dimensions": {
+    "height_mm": 159.87,
+    "width_mm": 73.87,
+    "depth_mm": 8.09
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.7,
+    "performance": 3.0,
+    "camera": 21.5,
+    "battery": 33.4,
+    "display": 40.9,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.722593",
+  "updated_at": "2026-06-18T08:01:07.722593"
+}

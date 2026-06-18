@@ -1,0 +1,82 @@
+{
+  "id": 1249,
+  "slug": "mi-10s",
+  "name": "Mi 10S",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 140,
+    "slug": "snapdragon-870",
+    "name": "Snapdragon 870",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-870"
+  },
+  "release_date": "2021-03-11",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2340",
+    "refresh_hz": 90,
+    "type": "AM-OLED",
+    "ppi": 386
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 4780,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 208.0,
+  "dimensions": {
+    "height_mm": 162.6,
+    "width_mm": 74.8,
+    "depth_mm": 8.96
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.4,
+    "performance": 9.1,
+    "camera": 35.8,
+    "battery": 30.1,
+    "display": 38.6,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.776640",
+  "updated_at": "2026-06-18T08:01:07.776640"
+}

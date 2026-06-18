@@ -1,0 +1,82 @@
+{
+  "id": 418,
+  "slug": "moto-g51",
+  "name": "Moto G51",
+  "brand": {
+    "id": 117,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 131,
+    "slug": "snapdragon-480-plus",
+    "name": "Snapdragon 480 Plus",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-480-plus"
+  },
+  "release_date": "2021-11-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1080x2400",
+    "refresh_hz": 120,
+    "type": "IPS TFT LCD",
+    "ppi": 388
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {
+    "height_mm": 170.47,
+    "width_mm": 76.54,
+    "depth_mm": 9.13
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.4,
+    "performance": 3.0,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": 51.3,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.678045",
+  "updated_at": "2026-06-18T08:01:07.678045"
+}

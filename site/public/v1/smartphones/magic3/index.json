@@ -1,0 +1,76 @@
+{
+  "id": 107,
+  "slug": "magic3",
+  "name": "Magic3",
+  "brand": {
+    "id": 16,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 108,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-01-01",
+  "msrp_usd": 899,
+  "ram_gb": 8,
+  "storage_options_gb": [],
+  "display": {
+    "size_inch": 6.76,
+    "resolution": null,
+    "refresh_hz": null,
+    "type": null
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 4600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 202.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": null,
+    "bluetooth": null,
+    "nfc": null,
+    "usb": null
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.2,
+    "performance": 6.4,
+    "camera": 17.1,
+    "battery": 34.0,
+    "display": null,
+    "value": 36.5
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
+  ],
+  "created_at": "2026-06-18T06:58:10.185890",
+  "updated_at": "2026-06-18T06:58:10.185890"
+}

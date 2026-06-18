@@ -1,0 +1,79 @@
+{
+  "id": 275,
+  "slug": "one-vision-3",
+  "name": "One Vision 3",
+  "brand": {
+    "id": 117,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 145,
+    "slug": "exynos-9609",
+    "name": "Exynos 9609",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/exynos-9609"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": 299,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.3,
+    "resolution": null,
+    "refresh_hz": null,
+    "type": null
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 25.0
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": null,
+    "bluetooth": null,
+    "nfc": null,
+    "usb": null
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.0,
+    "performance": 3.0,
+    "camera": 16.5,
+    "battery": 7.5,
+    "display": null,
+    "value": 54.5
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
+  ],
+  "created_at": "2026-06-18T06:58:10.209314",
+  "updated_at": "2026-06-18T06:58:10.209314"
+}

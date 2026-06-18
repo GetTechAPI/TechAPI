@@ -1,0 +1,79 @@
+{
+  "id": 280,
+  "slug": "g21",
+  "name": "G21",
+  "brand": {
+    "id": 53,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 161,
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t606"
+  },
+  "release_date": "2022-01-01",
+  "msrp_usd": 169,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": null,
+    "refresh_hz": null,
+    "type": null
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": null,
+    "bluetooth": null,
+    "nfc": null,
+    "usb": null
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.4,
+    "performance": 1.5,
+    "camera": 17.1,
+    "battery": 30.7,
+    "display": null,
+    "value": 58.2
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
+  ],
+  "created_at": "2026-06-18T06:58:10.210314",
+  "updated_at": "2026-06-18T06:58:10.210314"
+}

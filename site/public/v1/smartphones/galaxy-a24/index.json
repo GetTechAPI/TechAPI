@@ -1,0 +1,80 @@
+{
+  "id": 535,
+  "slug": "galaxy-a24",
+  "name": "Galaxy A24",
+  "brand": {
+    "id": 80,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 61,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": 299,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1080x2408",
+    "refresh_hz": null,
+    "type": "Water Drop Notch"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": null,
+    "bluetooth": null,
+    "nfc": null,
+    "usb": null
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.9,
+    "performance": 1.5,
+    "camera": 17.1,
+    "battery": 35.0,
+    "display": null,
+    "value": 59.0
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025",
+    "https://www.kaggle.com/datasets/devgondaliya007/smartphone-specifications-dataset"
+  ],
+  "created_at": "2026-06-18T06:58:10.240357",
+  "updated_at": "2026-06-18T06:58:10.240357"
+}

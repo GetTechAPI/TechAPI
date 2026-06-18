@@ -48,7 +48,8 @@ const endpoints = [
         <span class="mark">T</span>TechAPI<span class="cursor" aria-hidden="true"></span>
       </a>
       <div class="nav-links">
-        <a href="#playground">try_it</a>
+        <a href="#playground">Playground</a>
+        <a href="#history">History</a>
         <a href="#featured">devices</a>
         <a href="#endpoints">endpoints</a>
         <a href={`${base}docs`}>docs</a>
@@ -75,7 +76,7 @@ const endpoints = [
         </h1>
         <p class="tagline">Structured specs &amp; computed scores for smartphones, SoCs, GPUs and CPUs — served as plain static JSON. Free and open.</p>
         <div class="hero-cta">
-          <a class="btn primary" href="#playground">Try the API <span class="arr">→</span></a>
+          <a class="btn primary" href="#playground">Open Playground <span class="arr">→</span></a>
           <a class="btn" href={`${base}docs`}>Read the docs</a>
         </div>
       </div>
@@ -104,6 +105,34 @@ const endpoints = [
   </header>
 
   <main>
+    <!-- HISTORY -->
+    <section class="block" id="history">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">00 - History</span>
+            <h2 style="margin-top:14px">Dataset growth, synced live</h2>
+            <p class="sec-sub">Counts come from the published static dump, while recent syncs come from repository activity when GitHub is reachable.</p>
+          </div>
+          <span class="num">v1/index.json</span>
+        </div>
+
+        <div class="history" data-reveal>
+          <div class="history-panel">
+            <div class="history-label">Current snapshot</div>
+            <div class="history-total" id="history-total">loading</div>
+            <div class="history-grid" id="history-counts"></div>
+          </div>
+          <div class="history-panel">
+            <div class="history-label">Recent syncs</div>
+            <ol class="history-list" id="history-list">
+              <li><span class="history-dot"></span><span>Loading repository history...</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ─────────────── PLAYGROUND ─────────────── -->
     <section class="block" id="playground">
       <div class="wrap">

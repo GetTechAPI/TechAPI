@@ -3,7 +3,12 @@
 const raw = import.meta.env.BASE_URL;
 const base = raw.endsWith("/") ? raw : raw + "/";
 const absUrl = (path) => new URL(path.replace(/^\//, ""), location.origin + base).href;
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const esc = (s) => String(s)
+  .replace(/&/g, "&amp;")
+  .replace(/</g, "&lt;")
+  .replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;")
+  .replace(/'/g, "&#39;");
 
 /* ---- theme: follow OS preference until the user picks one (persisted) ---- */
 const root = document.documentElement;
@@ -179,6 +184,54 @@ function countUp(node, target) {
     if (p < 1) requestAnimationFrame(tick);
   })(performance.now());
 }
+
+/* ============================================================
+   HISTORY
+   ============================================================ */
+(function history() {
+  const totalEl = document.getElementById("history-total");
+  const countsEl = document.getElementById("history-counts");
+  const listEl = document.getElementById("history-list");
+  if (!totalEl || !countsEl || !listEl) return;
+
+  const order = ["smartphones", "socs", "gpus", "cpus", "brands"];
+  const label = { smartphones: "Phones", socs: "SoCs", gpus: "GPUs", cpus: "CPUs", brands: "Brands" };
+
+  getJSON("v1/index.json").then((manifest) => {
+    const rows = order
+      .map((key) => ({ key, count: manifest.collections?.[key]?.count }))
+      .filter((row) => row.count != null);
+    const total = rows.reduce((sum, row) => sum + row.count, 0);
+    totalEl.textContent = total.toLocaleString() + " records";
+    countsEl.innerHTML = rows.map((row) =>
+      `<div class="history-count"><span>${label[row.key]}</span><b>${row.count.toLocaleString()}</b></div>`
+    ).join("");
+  }).catch(() => {
+    totalEl.textContent = "sync unavailable";
+    countsEl.innerHTML = '<div class="history-count"><span>Static dump</span><b>offline</b></div>';
+  });
+
+  fetch("https://api.github.com/repos/GetTechAPI/TechAPI/commits?path=site/public/v1&per_page=5")
+    .then((response) => {
+      if (!response.ok) throw new Error(response.statusText);
+      return response.json();
+    })
+    .then((commits) => {
+      const items = Array.isArray(commits) ? commits.slice(0, 4) : [];
+      if (!items.length) throw new Error("empty history");
+      listEl.innerHTML = items.map((item) => {
+        const message = (item.commit?.message || "Dataset sync").split("\n")[0];
+        const date = item.commit?.committer?.date ? new Date(item.commit.committer.date) : null;
+        const when = date ? date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "recent";
+        const sha = String(item.sha || "").slice(0, 7);
+        const url = item.html_url || "https://github.com/GetTechAPI/TechAPI";
+        return `<li><span class="history-dot"></span><span><a href="${esc(url)}" target="_blank" rel="noopener">${esc(message)}</a><small>${esc(when)} · ${esc(sha)}</small></span></li>`;
+      }).join("");
+    })
+    .catch(() => {
+      listEl.innerHTML = '<li><span class="history-dot"></span><span>Current static dump is available; repository history could not be loaded.<small>GitHub API unavailable</small></span></li>';
+    });
+})();
 
 /* ============================================================
    PLAYGROUND

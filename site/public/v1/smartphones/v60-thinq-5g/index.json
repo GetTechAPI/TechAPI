@@ -1,0 +1,81 @@
+{
+  "id": 424,
+  "slug": "v60-thinq-5g",
+  "name": "V60 ThinQ 5G",
+  "brand": {
+    "id": 78,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 139,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-03-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080x2460",
+    "type": "AM-OLED",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 10.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": null,
+  "weight_g": 214.0,
+  "dimensions": {
+    "height_mm": 169.3,
+    "width_mm": 77.7,
+    "depth_mm": 8.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.2,
+    "performance": 3.0,
+    "camera": 21.5,
+    "battery": 31.9,
+    "display": 44.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T09:10:16.398806",
+  "updated_at": "2026-06-18T09:10:16.398806"
+}

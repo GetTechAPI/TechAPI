@@ -1,0 +1,82 @@
+{
+  "id": 557,
+  "slug": "g21-2022-nfc-standard-edition",
+  "name": "G21 2022 NFC Standard Edition",
+  "brand": {
+    "id": 53,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 215,
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t606"
+  },
+  "release_date": "2022-03-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "refresh_hz": 90,
+    "type": "IPS TFT LCD",
+    "ppi": 270
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5050,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {
+    "height_mm": 164.9,
+    "width_mm": 75.9,
+    "depth_mm": 8.5
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.6,
+    "performance": 0.0,
+    "camera": 17.2,
+    "battery": 31.3,
+    "display": 30.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T09:10:16.414081",
+  "updated_at": "2026-06-18T09:10:16.414081"
+}

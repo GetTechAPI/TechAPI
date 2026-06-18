@@ -1,0 +1,80 @@
+{
+  "id": 425,
+  "slug": "velvet-5g",
+  "name": "Velvet 5G",
+  "brand": {
+    "id": 78,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 137,
+    "slug": "snapdragon-765g",
+    "name": "Snapdragon 765G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 620",
+    "url": "/v1/socs/snapdragon-765g"
+  },
+  "release_date": "2020-05-14",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080x2460",
+    "type": "AM-OLED",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": null,
+  "weight_g": 179.5,
+  "dimensions": {
+    "height_mm": 167.2,
+    "width_mm": 74.1,
+    "depth_mm": 7.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.4,
+    "performance": 3.0,
+    "camera": 16.5,
+    "battery": 21.4,
+    "display": 44.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T09:10:16.398806",
+  "updated_at": "2026-06-18T09:10:16.398806"
+}

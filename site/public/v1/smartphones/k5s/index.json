@@ -1,0 +1,80 @@
+{
+  "id": 381,
+  "slug": "k5s",
+  "name": "K5s",
+  "brand": {
+    "id": 23,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 42,
+    "slug": "helio-p22",
+    "name": "Helio P22",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-p22"
+  },
+  "release_date": "2018-10-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "720x1440",
+    "type": "IPS TFT LCD",
+    "ppi": 282
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {
+    "height_mm": 153.8,
+    "width_mm": 72.9,
+    "depth_mm": 7.95
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "8.1",
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.4,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T09:10:16.393629",
+  "updated_at": "2026-06-18T09:10:16.393629"
+}

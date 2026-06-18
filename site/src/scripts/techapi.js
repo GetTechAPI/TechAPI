@@ -191,46 +191,129 @@ function countUp(node, target) {
 (function history() {
   const totalEl = document.getElementById("history-total");
   const countsEl = document.getElementById("history-counts");
+  const chartEl = document.getElementById("history-chart");
   const listEl = document.getElementById("history-list");
-  if (!totalEl || !countsEl || !listEl) return;
+  if (!totalEl || !countsEl || !chartEl || !listEl) return;
 
   const order = ["smartphones", "socs", "gpus", "cpus", "brands"];
   const label = { smartphones: "Phones", socs: "SoCs", gpus: "GPUs", cpus: "CPUs", brands: "Brands" };
+  const shortLabel = { smartphones: "phones", socs: "socs", gpus: "gpus", cpus: "cpus", brands: "brands" };
+  const dumpPath = "site/public/v1/index.json";
+  const countRows = (manifest) => order
+    .map((key) => ({ key, count: manifest.collections?.[key]?.count }))
+    .filter((row) => row.count != null);
+  const totalRecords = (manifest) => countRows(manifest).reduce((sum, row) => sum + row.count, 0);
+  const sumByKey = (rows) => rows.reduce((out, row) => {
+    out[row.key] = row.count;
+    return out;
+  }, {});
 
-  getJSON("v1/index.json").then((manifest) => {
-    const rows = order
-      .map((key) => ({ key, count: manifest.collections?.[key]?.count }))
-      .filter((row) => row.count != null);
+  function renderSnapshot(manifest) {
+    const rows = countRows(manifest);
     const total = rows.reduce((sum, row) => sum + row.count, 0);
     totalEl.textContent = total.toLocaleString() + " records";
     countsEl.innerHTML = rows.map((row) =>
       `<div class="history-count"><span>${label[row.key]}</span><b>${row.count.toLocaleString()}</b></div>`
     ).join("");
+  }
+
+  function largestChanges(prevRows, nextRows) {
+    if (!prevRows) return [];
+    const prev = sumByKey(prevRows);
+    return nextRows
+      .map((row) => ({ key: row.key, delta: row.count - (prev[row.key] || 0) }))
+      .filter((row) => row.delta > 0)
+      .sort((a, b) => b.delta - a.delta)
+      .slice(0, 2);
+  }
+
+  function renderHistory(points) {
+    if (!points.length) throw new Error("empty history");
+    const maxTotal = Math.max(...points.map((point) => point.total));
+    const minTotal = Math.min(...points.map((point) => point.total));
+    const range = Math.max(1, maxTotal - minTotal);
+    chartEl.innerHTML = points.map((point) => {
+      const pct = 18 + ((point.total - minTotal) / range) * 82;
+      const deltaText = point.delta > 0 ? "+" + point.delta.toLocaleString() : "baseline";
+      return `<a class="history-bar" href="${esc(point.url)}" target="_blank" rel="noopener" style="--h:${pct.toFixed(1)}%" title="${esc(point.title)}">
+        <span class="history-bar-fill"></span>
+        <span class="history-bar-total">${point.total.toLocaleString()}</span>
+        <span class="history-bar-delta">${esc(deltaText)}</span>
+      </a>`;
+    }).join("");
+
+    listEl.innerHTML = points.slice().reverse().map((point) => {
+      const changes = point.changes.length
+        ? point.changes.map((row) => `${shortLabel[row.key]} +${row.delta.toLocaleString()}`).join(", ")
+        : (point.delta > 0 ? `total +${point.delta.toLocaleString()}` : "baseline snapshot");
+      return `<li><span class="history-dot"></span><span>
+        <a href="${esc(point.url)}" target="_blank" rel="noopener">${esc(point.title)}</a>
+        <small>${esc(point.when)} - ${esc(point.sha)} - ${esc(changes)}</small>
+      </span></li>`;
+    }).join("");
+  }
+
+  async function loadCommitHistory(currentManifest) {
+    const commitsUrl = `https://api.github.com/repos/GetTechAPI/TechAPI/commits?path=${encodeURIComponent(dumpPath)}&per_page=8`;
+    const response = await fetch(commitsUrl);
+    if (!response.ok) throw new Error(response.statusText);
+    const commits = await response.json();
+    const items = Array.isArray(commits) ? commits.slice(0, 7) : [];
+    const snapshots = await Promise.all(items.map(async (item) => {
+      const sha = String(item.sha || "");
+      const rawUrl = `https://raw.githubusercontent.com/GetTechAPI/TechAPI/${sha}/${dumpPath}`;
+      const raw = await fetch(rawUrl);
+      if (!raw.ok) return null;
+      const manifest = await raw.json();
+      const date = item.commit?.committer?.date ? new Date(item.commit.committer.date) : null;
+      return {
+        sha: sha.slice(0, 7),
+        dateValue: date ? date.getTime() : 0,
+        when: date ? date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "recent",
+        title: (item.commit?.message || "Dataset sync").split("\n")[0],
+        url: item.html_url || "https://github.com/GetTechAPI/TechAPI",
+        rows: countRows(manifest),
+        total: totalRecords(manifest),
+      };
+    }));
+
+    const points = snapshots.filter(Boolean).sort((a, b) => a.dateValue - b.dateValue);
+    if (!points.length) throw new Error("empty history");
+
+    const currentTotal = totalRecords(currentManifest);
+    const latest = points[points.length - 1];
+    if (latest.total !== currentTotal) {
+      points.push({
+        sha: "current",
+        dateValue: Date.now(),
+        when: "current",
+        title: "Current published snapshot",
+        url: base + "v1/index.json",
+        rows: countRows(currentManifest),
+        total: currentTotal,
+      });
+    }
+
+    for (let i = 0; i < points.length; i++) {
+      const prev = points[i - 1];
+      points[i].delta = prev ? points[i].total - prev.total : 0;
+      points[i].changes = largestChanges(prev?.rows, points[i].rows);
+    }
+    renderHistory(points);
+  }
+
+  getJSON("v1/index.json").then((manifest) => {
+    renderSnapshot(manifest);
+    return loadCommitHistory(manifest).catch(() => {
+      chartEl.innerHTML = '<div class="history-empty">Growth chart unavailable</div>';
+      listEl.innerHTML = '<li><span class="history-dot"></span><span>Current static dump is available; commit history could not be loaded.<small>GitHub API unavailable</small></span></li>';
+    });
   }).catch(() => {
     totalEl.textContent = "sync unavailable";
     countsEl.innerHTML = '<div class="history-count"><span>Static dump</span><b>offline</b></div>';
+    chartEl.innerHTML = '<div class="history-empty">Growth chart unavailable</div>';
+    listEl.innerHTML = '<li><span class="history-dot"></span><span>Current static dump could not be loaded.<small>Build the public data first</small></span></li>';
   });
-
-  fetch("https://api.github.com/repos/GetTechAPI/TechAPI/commits?path=site/public/v1&per_page=5")
-    .then((response) => {
-      if (!response.ok) throw new Error(response.statusText);
-      return response.json();
-    })
-    .then((commits) => {
-      const items = Array.isArray(commits) ? commits.slice(0, 4) : [];
-      if (!items.length) throw new Error("empty history");
-      listEl.innerHTML = items.map((item) => {
-        const message = (item.commit?.message || "Dataset sync").split("\n")[0];
-        const date = item.commit?.committer?.date ? new Date(item.commit.committer.date) : null;
-        const when = date ? date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "recent";
-        const sha = String(item.sha || "").slice(0, 7);
-        const url = item.html_url || "https://github.com/GetTechAPI/TechAPI";
-        return `<li><span class="history-dot"></span><span><a href="${esc(url)}" target="_blank" rel="noopener">${esc(message)}</a><small>${esc(when)} · ${esc(sha)}</small></span></li>`;
-      }).join("");
-    })
-    .catch(() => {
-      listEl.innerHTML = '<li><span class="history-dot"></span><span>Current static dump is available; repository history could not be loaded.<small>GitHub API unavailable</small></span></li>';
-    });
 })();
 
 /* ============================================================

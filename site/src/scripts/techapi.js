@@ -222,9 +222,16 @@ function countUp(node, target) {
     const prev = sumByKey(prevRows);
     return nextRows
       .map((row) => ({ key: row.key, delta: row.count - (prev[row.key] || 0) }))
-      .filter((row) => row.delta > 0)
-      .sort((a, b) => b.delta - a.delta)
-      .slice(0, 2);
+      .filter((row) => row.delta !== 0)
+      .sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta))
+      .slice(0, 3);
+  }
+
+  function formatDelta(delta, baseline = false) {
+    if (baseline) return "baseline";
+    if (delta > 0) return "+" + delta.toLocaleString();
+    if (delta < 0) return delta.toLocaleString();
+    return "no change";
   }
 
   function renderHistory(points) {
@@ -234,18 +241,19 @@ function countUp(node, target) {
     const range = Math.max(1, maxTotal - minTotal);
     chartEl.innerHTML = points.map((point) => {
       const pct = 18 + ((point.total - minTotal) / range) * 82;
-      const deltaText = point.delta > 0 ? "+" + point.delta.toLocaleString() : "baseline";
+      const deltaText = formatDelta(point.delta, point.baseline);
+      const deltaClass = point.delta < 0 ? " is-negative" : "";
       return `<a class="history-bar" href="${esc(point.url)}" target="_blank" rel="noopener" style="--h:${pct.toFixed(1)}%" title="${esc(point.title)}">
         <span class="history-bar-fill"></span>
         <span class="history-bar-total">${point.total.toLocaleString()}</span>
-        <span class="history-bar-delta">${esc(deltaText)}</span>
+        <span class="history-bar-delta${deltaClass}">${esc(deltaText)}</span>
       </a>`;
     }).join("");
 
     listEl.innerHTML = points.slice().reverse().map((point) => {
       const changes = point.changes.length
-        ? point.changes.map((row) => `${shortLabel[row.key]} +${row.delta.toLocaleString()}`).join(", ")
-        : (point.delta > 0 ? `total +${point.delta.toLocaleString()}` : "baseline snapshot");
+        ? point.changes.map((row) => `${shortLabel[row.key]} ${formatDelta(row.delta)}`).join(", ")
+        : (point.baseline ? "baseline snapshot" : `total ${formatDelta(point.delta)}`);
       return `<li><span class="history-dot"></span><span>
         <a href="${esc(point.url)}" target="_blank" rel="noopener">${esc(point.title)}</a>
         <small>${esc(point.when)} - ${esc(point.sha)} - ${esc(changes)}</small>
@@ -296,6 +304,7 @@ function countUp(node, target) {
 
     for (let i = 0; i < points.length; i++) {
       const prev = points[i - 1];
+      points[i].baseline = !prev;
       points[i].delta = prev ? points[i].total - prev.total : 0;
       points[i].changes = largestChanges(prev?.rows, points[i].rows);
     }

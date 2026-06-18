@@ -40,18 +40,15 @@ jobs:
             });
 
             const labels = new Set();
-            const trackers = new Set();
             const title = pr.title.toLowerCase();
             for (const file of files) {
               const path = file.filename;
               const isDataDump = path.startsWith('site/public/v1/') || path === 'site/public/openapi.json';
               if (path.startsWith('site/') && !isDataDump) {
                 labels.add('site');
-                trackers.add('#19');
               }
               if (path.startsWith('data/') || isDataDump) {
                 labels.add('data');
-                trackers.add('#1');
               }
               if (path.startsWith('app/')) labels.add('app');
               if (path.startsWith('.github/workflows/')) labels.add('ci');
@@ -102,22 +99,6 @@ jobs:
                 });
               }
               break;
-            }
-
-            if (trackers.size) {
-              const marker = '<!-- techapi-tracking -->';
-              const existing = pr.body || '';
-              const refs = [...trackers].sort().map((ref) => `- Related to ${ref}`).join('\n');
-              const block = `${marker}\n\n## Tracking\n${refs}`;
-              const body = existing.includes(marker)
-                ? existing.replace(new RegExp(`${marker}[\\s\\S]*$`), block)
-                : `${existing.trim()}\n\n${block}`.trim();
-              await github.rest.pulls.update({
-                owner,
-                repo,
-                pull_number: issue_number,
-                body,
-              });
             }
 
             const changedLines = files.reduce((sum, file) => sum + file.additions + file.deletions, 0);

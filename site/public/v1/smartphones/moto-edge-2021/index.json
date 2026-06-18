@@ -1,0 +1,81 @@
+{
+  "id": 403,
+  "slug": "moto-edge-2021",
+  "name": "Moto Edge 2021",
+  "brand": {
+    "id": 117,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 136,
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g"
+  },
+  "release_date": "2021-09-03",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1080x2460",
+    "refresh_hz": 144,
+    "type": "AM-OLED",
+    "ppi": 396
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": null,
+  "weight_g": 200.0,
+  "dimensions": {
+    "height_mm": 169.0,
+    "width_mm": 75.6,
+    "depth_mm": 8.99
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.7,
+    "performance": 3.0,
+    "camera": 35.8,
+    "battery": 37.9,
+    "display": 62.1,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.677045",
+  "updated_at": "2026-06-18T08:01:07.677045"
+}

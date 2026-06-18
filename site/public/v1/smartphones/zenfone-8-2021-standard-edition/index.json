@@ -1,0 +1,82 @@
+{
+  "id": 76,
+  "slug": "zenfone-8-2021-standard-edition",
+  "name": "ZenFone 8 2021 Standard Edition",
+  "brand": {
+    "id": 89,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 130,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-05-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 5.9,
+    "resolution": "1080x2400",
+    "refresh_hz": 120,
+    "type": "AM-OLED",
+    "ppi": 446
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {
+    "height_mm": 148.0,
+    "width_mm": 68.5,
+    "depth_mm": 8.9
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.2,
+    "performance": 6.4,
+    "camera": 21.7,
+    "battery": 27.8,
+    "display": 57.1,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.617457",
+  "updated_at": "2026-06-18T08:01:07.617457"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 136,
+  "slug": "honor-30-lite",
+  "name": "Honor 30 Lite",
+  "brand": {
+    "id": 16,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 47,
+    "slug": "dimensity-800",
+    "name": "Dimensity 800",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC4",
+    "url": "/v1/socs/dimensity-800"
+  },
+  "release_date": "2020-07-08",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1080x2400",
+    "refresh_hz": 90,
+    "type": "IPS TFT LCD",
+    "ppi": 405
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 22.0,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {
+    "height_mm": 160.0,
+    "width_mm": 75.32,
+    "depth_mm": 8.35
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.1,
+    "performance": 3.0,
+    "camera": 16.5,
+    "battery": 16.3,
+    "display": 40.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.623965",
+  "updated_at": "2026-06-18T08:01:07.623965"
+}

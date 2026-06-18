@@ -1,0 +1,82 @@
+{
+  "id": 1266,
+  "slug": "mi-mix-fold-2021",
+  "name": "Mi Mix Fold 2021",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 130,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-04-16",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 8.01,
+    "resolution": "1860x2480",
+    "refresh_hz": 60,
+    "type": "AM-OLED",
+    "ppi": 387
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 5020,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": null,
+  "weight_g": 317.0,
+  "dimensions": {
+    "height_mm": 173.27,
+    "width_mm": 133.38,
+    "depth_mm": 7.62
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.1,
+    "performance": 12.4,
+    "camera": 35.8,
+    "battery": 50.2,
+    "display": 26.2,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.777640",
+  "updated_at": "2026-06-18T08:01:07.777640"
+}

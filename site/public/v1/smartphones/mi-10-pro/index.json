@@ -1,0 +1,82 @@
+{
+  "id": 1197,
+  "slug": "mi-10-pro",
+  "name": "Mi 10 Pro",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 120,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-02-18",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2340",
+    "refresh_hz": 90,
+    "type": "AM-OLED",
+    "ppi": 386
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 2250,
+  "charging_wired_w": 65.0,
+  "charging_wireless_w": null,
+  "weight_g": 208.0,
+  "dimensions": {
+    "height_mm": 162.6,
+    "width_mm": 74.8,
+    "depth_mm": 8.96
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": 6.0,
+    "camera": 35.8,
+    "battery": 9.5,
+    "display": 38.6,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.770638",
+  "updated_at": "2026-06-18T08:01:07.770638"
+}

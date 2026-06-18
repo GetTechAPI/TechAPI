@@ -1,0 +1,82 @@
+{
+  "id": 560,
+  "slug": "11r",
+  "name": "11R",
+  "brand": {
+    "id": 28,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 146,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-02-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.74,
+    "resolution": "1240x2772",
+    "refresh_hz": 120,
+    "type": "AM-OLED",
+    "ppi": 451
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 100.0,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {
+    "height_mm": 163.4,
+    "width_mm": 74.3,
+    "depth_mm": 8.7
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "13",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 41.0,
+    "performance": 28.2,
+    "camera": 17.2,
+    "battery": 61.2,
+    "display": 57.6,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.697062",
+  "updated_at": "2026-06-18T08:01:07.697062"
+}

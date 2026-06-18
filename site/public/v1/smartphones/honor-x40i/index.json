@@ -1,0 +1,82 @@
+{
+  "id": 199,
+  "slug": "honor-x40i",
+  "name": "Honor X40i",
+  "brand": {
+    "id": 16,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 52,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2022-07-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.69,
+    "resolution": "1080x2388",
+    "refresh_hz": 60,
+    "type": "IPS TFT LCD",
+    "ppi": 392
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 40.0,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 74.5,
+    "depth_mm": 7.43
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.4,
+    "performance": 6.0,
+    "camera": 17.2,
+    "battery": 19.7,
+    "display": 26.7,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.632472",
+  "updated_at": "2026-06-18T08:01:07.632472"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 1208,
+  "slug": "mi10-ultra-silver-edition",
+  "name": "Mi10 Ultra Silver Edition",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 120,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-08-16",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2340",
+    "refresh_hz": 120,
+    "type": "AM-OLED",
+    "ppi": 386
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": null,
+  "weight_g": 221.8,
+  "dimensions": {
+    "height_mm": 162.38,
+    "width_mm": 75.04,
+    "depth_mm": 9.45
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.8,
+    "performance": 9.0,
+    "camera": 16.5,
+    "battery": 42.5,
+    "display": 51.1,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.771640",
+  "updated_at": "2026-06-18T08:01:07.771640"
+}

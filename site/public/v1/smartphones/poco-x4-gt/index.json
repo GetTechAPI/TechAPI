@@ -1,0 +1,82 @@
+{
+  "id": 801,
+  "slug": "poco-x4-gt",
+  "name": "Poco X4 GT",
+  "brand": {
+    "id": 30,
+    "slug": "poco",
+    "name": "POCO",
+    "country": "CN",
+    "url": "/v1/brands/poco"
+  },
+  "soc": {
+    "id": 75,
+    "slug": "dimensity-8100",
+    "name": "Dimensity 8100",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G610 MC6",
+    "url": "/v1/socs/dimensity-8100"
+  },
+  "release_date": "2022-06-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.57,
+    "resolution": "1080x2460",
+    "refresh_hz": 144,
+    "type": "IPS TFT LCD",
+    "ppi": 409
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.4
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5080,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": null,
+  "weight_g": 200.0,
+  "dimensions": {
+    "height_mm": 163.64,
+    "width_mm": 74.29,
+    "depth_mm": 8.87
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.6,
+    "performance": 6.3,
+    "camera": 21.7,
+    "battery": 51.1,
+    "display": 63.4,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.725593",
+  "updated_at": "2026-06-18T08:01:07.725593"
+}

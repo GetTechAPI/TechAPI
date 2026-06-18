@@ -1,0 +1,82 @@
+{
+  "id": 547,
+  "slug": "ace-racing",
+  "name": "Ace Racing",
+  "brand": {
+    "id": 28,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 75,
+    "slug": "dimensity-8100",
+    "name": "Dimensity 8100",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G610 MC6",
+    "url": "/v1/socs/dimensity-8100"
+  },
+  "release_date": "2022-05-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.59,
+    "resolution": "1080x2412",
+    "refresh_hz": 120,
+    "type": "IPS TFT LCD",
+    "ppi": 401
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 67.0,
+  "charging_wireless_w": null,
+  "weight_g": 205.0,
+  "dimensions": {
+    "height_mm": 164.3,
+    "width_mm": 74.8,
+    "depth_mm": 8.7
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 33.3,
+    "performance": 9.3,
+    "camera": 21.5,
+    "battery": 49.9,
+    "display": 52.6,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.695062",
+  "updated_at": "2026-06-18T08:01:07.695062"
+}

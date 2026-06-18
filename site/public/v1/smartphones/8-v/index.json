@@ -1,0 +1,81 @@
+{
+  "id": 476,
+  "slug": "8-v",
+  "name": "8 V",
+  "brand": {
+    "id": 53,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 118,
+    "slug": "snapdragon-765g",
+    "name": "Snapdragon 765G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 620",
+    "url": "/v1/socs/snapdragon-765g"
+  },
+  "release_date": "2020-11-12",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "size_inch": 6.81,
+    "resolution": "1080x2400",
+    "refresh_hz": 60,
+    "type": "IPS TFT LCD",
+    "ppi": 386
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 23.8
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 226.0,
+  "dimensions": {
+    "height_mm": 171.9,
+    "width_mm": 78.56,
+    "depth_mm": 8.99
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.1,
+    "performance": 1.5,
+    "camera": 21.5,
+    "battery": 23.1,
+    "display": 26.1,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.686554",
+  "updated_at": "2026-06-18T08:01:07.686554"
+}

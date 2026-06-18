@@ -1,0 +1,82 @@
+{
+  "id": 831,
+  "slug": "realme-6-standard-edition",
+  "name": "Realme 6 Standard Edition",
+  "brand": {
+    "id": 31,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 49,
+    "slug": "helio-g90t",
+    "name": "Helio G90T",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G76 MC4",
+    "url": "/v1/socs/helio-g90t"
+  },
+  "release_date": "2020-03-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1080x2400",
+    "refresh_hz": 90,
+    "type": "IPS TFT LCD",
+    "ppi": 405
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.4
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": null,
+  "weight_g": 191.0,
+  "dimensions": {
+    "height_mm": 162.1,
+    "width_mm": 74.8,
+    "depth_mm": 9.6
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.5,
+    "performance": 1.5,
+    "camera": 21.7,
+    "battery": 22.3,
+    "display": 40.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.729095",
+  "updated_at": "2026-06-18T08:01:07.729095"
+}

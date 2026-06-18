@@ -1,0 +1,81 @@
+{
+  "id": 163,
+  "slug": "honor-play5",
+  "name": "Honor Play5",
+  "brand": {
+    "id": 16,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 47,
+    "slug": "dimensity-800",
+    "name": "Dimensity 800",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC4",
+    "url": "/v1/socs/dimensity-800"
+  },
+  "release_date": "2021-05-16",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "size_inch": 6.53,
+    "resolution": "1080x2400",
+    "type": "AM-OLED",
+    "ppi": 403
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": null,
+  "weight_g": 179.0,
+  "dimensions": {
+    "height_mm": 161.6,
+    "width_mm": 74.8,
+    "depth_mm": 7.46
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.8,
+    "performance": 3.0,
+    "camera": 21.5,
+    "battery": 29.2,
+    "display": 45.3,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.627965",
+  "updated_at": "2026-06-18T08:01:07.627965"
+}

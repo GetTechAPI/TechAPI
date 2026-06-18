@@ -1,0 +1,83 @@
+{
+  "id": 38,
+  "slug": "iphone-14-plus-uw",
+  "name": "iPhone 14 Plus UW",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 10,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2022-10-07",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.68,
+    "resolution": "1284x2778",
+    "refresh_hz": 60,
+    "type": "AM-OLED",
+    "ppi": 458
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 4325,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": null,
+  "weight_g": 203.0,
+  "dimensions": {
+    "height_mm": 160.8,
+    "width_mm": 78.1,
+    "depth_mm": 7.8
+  },
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": "16",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "Proprietary"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.0,
+    "performance": 34.6,
+    "camera": 5.1,
+    "battery": 30.9,
+    "display": 33.3,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.612457",
+  "updated_at": "2026-06-18T08:01:07.612457"
+}

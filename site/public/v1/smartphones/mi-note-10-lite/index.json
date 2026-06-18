@@ -1,0 +1,81 @@
+{
+  "id": 1207,
+  "slug": "mi-note-10-lite",
+  "name": "Mi Note 10 Lite",
+  "brand": {
+    "id": 45,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 116,
+    "slug": "snapdragon-730g",
+    "name": "Snapdragon 730G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 618",
+    "url": "/v1/socs/snapdragon-730g"
+  },
+  "release_date": "2020-05-14",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.47,
+    "resolution": "1080x2340",
+    "type": "AM-OLED",
+    "ppi": 398
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.2
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5260,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {
+    "height_mm": 157.8,
+    "width_mm": 74.2,
+    "depth_mm": 9.67
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.6,
+    "performance": 3.0,
+    "camera": 21.7,
+    "battery": 36.7,
+    "display": 44.8,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.771640",
+  "updated_at": "2026-06-18T08:01:07.771640"
+}

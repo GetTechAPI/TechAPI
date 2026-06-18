@@ -1,0 +1,82 @@
+{
+  "id": 483,
+  "slug": "g60-2022",
+  "name": "G60 2022",
+  "brand": {
+    "id": 53,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 134,
+    "slug": "snapdragon-695",
+    "name": "Snapdragon 695 5G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-695"
+  },
+  "release_date": "2022-09-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.58,
+    "resolution": "1080x2400",
+    "refresh_hz": 120,
+    "type": "IPS TFT LCD",
+    "ppi": 400
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {
+    "height_mm": 165.99,
+    "width_mm": 75.93,
+    "depth_mm": 8.61
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.9,
+    "performance": 1.5,
+    "camera": 17.2,
+    "battery": 28.5,
+    "display": 52.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.687554",
+  "updated_at": "2026-06-18T08:01:07.687554"
+}

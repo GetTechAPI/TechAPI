@@ -1,0 +1,82 @@
+{
+  "id": 707,
+  "slug": "a57s",
+  "name": "A57s",
+  "brand": {
+    "id": 29,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 58,
+    "slug": "helio-g35",
+    "name": "Helio G35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/helio-g35"
+  },
+  "release_date": "2022-08-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "size_inch": 6.56,
+    "resolution": "720x1612",
+    "refresh_hz": 60,
+    "type": "IPS TFT LCD",
+    "ppi": 269
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 187.0,
+  "dimensions": {
+    "height_mm": 163.74,
+    "width_mm": 75.03,
+    "depth_mm": 7.99
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "12",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.0,
+    "performance": 0.0,
+    "camera": 17.2,
+    "battery": 33.4,
+    "display": 17.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T08:01:07.714085",
+  "updated_at": "2026-06-18T08:01:07.714085"
+}

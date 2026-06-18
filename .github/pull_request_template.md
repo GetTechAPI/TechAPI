@@ -2,7 +2,7 @@
 
 ## What & why
 
-<!-- What does this change and why? Link issues with "Closes #123". -->
+<!-- What does this change and why? Use "Closes #123" for GitHub Development linking. Auto-close is disabled for the long-running tracking issues. -->
 
 ## Source
 

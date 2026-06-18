@@ -1,0 +1,180 @@
+name: pr-metadata
+
+# Keep PR triage fields useful without requiring manual cleanup on every branch.
+# This workflow only updates PR metadata; it never checks out or executes PR code.
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    env:
+      PROJECT_TOKEN: ${{ secrets.PROJECT_TOKEN || secrets.ENGINE_TOKEN }}
+      TRIAGE_PROJECT_URLS: ${{ vars.TRIAGE_PROJECT_URLS }}
+    steps:
+      - name: Assign author and label by changed paths
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = pr.number;
+
+            const assignees = ['TechEngineBot'];
+            if (!pr.user?.type?.endsWith('Bot')) {
+              assignees.push(pr.user.login);
+            }
+
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number: issue_number,
+              per_page: 100,
+            });
+
+            const labels = new Set();
+            const trackers = new Set();
+            const title = pr.title.toLowerCase();
+            for (const file of files) {
+              const path = file.filename;
+              const isDataDump = path.startsWith('site/public/v1/') || path === 'site/public/openapi.json';
+              if (path.startsWith('site/') && !isDataDump) {
+                labels.add('site');
+                trackers.add('#19');
+              }
+              if (path.startsWith('data/') || isDataDump) {
+                labels.add('data');
+                trackers.add('#1');
+              }
+              if (path.startsWith('app/')) labels.add('app');
+              if (path.startsWith('.github/workflows/')) labels.add('ci');
+              if (path.startsWith('docs/') || path === 'README.md' || path.endsWith('.md')) labels.add('documentation');
+            }
+            if (title.startsWith('feat') || labels.has('site') || labels.has('data') || labels.has('app')) {
+              labels.add('enhancement');
+            }
+            if (title.startsWith('fix')) {
+              labels.add('bug');
+            }
+
+            await github.rest.issues.addAssignees({
+              owner,
+              repo,
+              issue_number,
+              assignees: [...new Set(assignees)],
+            });
+
+            if (labels.size) {
+              await github.rest.issues.addLabels({
+                owner,
+                repo,
+                issue_number,
+                labels: [...labels],
+              });
+            }
+
+            const milestoneByLabel = new Map([
+              ['site', 'Homepage and site improvements'],
+              ['data', 'Massive dataset rebuild (1989-2026)'],
+            ]);
+            for (const [label, title] of milestoneByLabel) {
+              if (!labels.has(label)) continue;
+              const milestones = await github.paginate(github.rest.issues.listMilestones, {
+                owner,
+                repo,
+                state: 'open',
+                per_page: 100,
+              });
+              const milestone = milestones.find((item) => item.title === title);
+              if (milestone) {
+                await github.rest.issues.update({
+                  owner,
+                  repo,
+                  issue_number,
+                  milestone: milestone.number,
+                });
+              }
+              break;
+            }
+
+            if (trackers.size) {
+              const marker = '<!-- techapi-tracking -->';
+              const existing = pr.body || '';
+              const refs = [...trackers].sort().map((ref) => `- Refs ${ref}`).join('\n');
+              const block = `${marker}\n\n## Tracking\n${refs}`;
+              const body = existing.includes(marker)
+                ? existing.replace(new RegExp(`${marker}[\\s\\S]*$`), block)
+                : `${existing.trim()}\n\n${block}`.trim();
+              await github.rest.pulls.update({
+                owner,
+                repo,
+                pull_number: issue_number,
+                body,
+              });
+            }
+
+            const changedLines = files.reduce((sum, file) => sum + file.additions + file.deletions, 0);
+            let priority = 'Medium';
+            if (labels.has('data') && (files.length >= 25 || changedLines >= 1000)) {
+              priority = 'High';
+            } else if (labels.has('data') || labels.has('app') || title.startsWith('fix')) {
+              priority = 'High';
+            } else if (labels.size === 1 && labels.has('documentation')) {
+              priority = 'Low';
+            } else if (changedLines <= 25 && !labels.has('ci')) {
+              priority = 'Low';
+            }
+            core.exportVariable('TRIAGE_PRIORITY', priority);
+
+      - name: Add PR to configured projects
+        if: env.TRIAGE_PROJECT_URLS != '' && env.PROJECT_TOKEN != ''
+        env:
+          GH_TOKEN: ${{ env.PROJECT_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          IFS=',' read -ra urls <<< "${TRIAGE_PROJECT_URLS}"
+          today="$(date -u +%F)"
+          for url in "${urls[@]}"; do
+            url="$(echo "$url" | xargs)"
+            [ -z "$url" ] && continue
+            if [[ "$url" =~ github.com/orgs/([^/]+)/projects/([0-9]+) ]]; then
+              owner="${BASH_REMATCH[1]}"
+              project_number="${BASH_REMATCH[2]}"
+            elif [[ "$url" =~ github.com/users/([^/]+)/projects/([0-9]+) ]]; then
+              owner="${BASH_REMATCH[1]}"
+              project_number="${BASH_REMATCH[2]}"
+            else
+              echo "::warning::Unsupported project URL: $url"
+              continue
+            fi
+
+            project_json="$(gh project view "$project_number" --owner "$owner" --format json)"
+            project_id="$(jq -r '.id' <<< "$project_json")"
+            item_id="$(gh project item-add "$project_number" --owner "$owner" --url "$PR_URL" --format json --jq '.id')"
+            start_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Start date") | .id')"
+            target_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Target date") | .id')"
+            priority_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .id')"
+            priority_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq ".fields[] | select(.name == \"Priority\") | .options[] | select(.name == \"${TRIAGE_PRIORITY:-Medium}\") | .id")"
+            if [ -z "$priority_option_id" ]; then
+              priority_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .options[] | select(.name == "Medium") | .id')"
+            fi
+
+            if [ -n "$item_id" ] && [ -n "$start_field_id" ]; then
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$start_field_id" --date "$today"
+            fi
+            if [ -n "$item_id" ] && [ -n "$target_field_id" ]; then
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$target_field_id" --date "$today"
+            fi
+            if [ -n "$item_id" ] && [ -n "$priority_field_id" ] && [ -n "$priority_option_id" ]; then
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$priority_field_id" --single-select-option-id "$priority_option_id"
+            fi
+          done

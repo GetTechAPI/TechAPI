@@ -1,0 +1,80 @@
+{
+  "id": 419,
+  "slug": "k92-5g",
+  "name": "K92 5G",
+  "brand": {
+    "id": 78,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 143,
+    "slug": "snapdragon-690",
+    "name": "Snapdragon 690",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 619L",
+    "url": "/v1/socs/snapdragon-690"
+  },
+  "release_date": "2020-11-06",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "IPS TFT LCD",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 202.0,
+  "dimensions": {
+    "height_mm": 166.37,
+    "width_mm": 77.21,
+    "depth_mm": 8.38
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "10",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.6,
+    "performance": 1.5,
+    "camera": 21.5,
+    "battery": 15.0,
+    "display": 44.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T09:10:16.397717",
+  "updated_at": "2026-06-18T09:10:16.397717"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 535,
+  "slug": "2-3",
+  "name": "2.3",
+  "brand": {
+    "id": 53,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 41,
+    "slug": "helio-a22",
+    "name": "Helio A22",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8300",
+    "url": "/v1/socs/helio-a22"
+  },
+  "release_date": "2019-12-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "size_inch": 6.18,
+    "resolution": "720x1520",
+    "type": "IPS TFT LCD",
+    "ppi": 272
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.1
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 5.0,
+  "charging_wireless_w": null,
+  "weight_g": 183.0,
+  "dimensions": {
+    "height_mm": 157.69,
+    "width_mm": 75.41,
+    "depth_mm": 8.68
+  },
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "9.0",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB Micro-AB"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.5,
+    "performance": null,
+    "camera": 5.4,
+    "battery": 15.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-18T09:10:16.411081",
+  "updated_at": "2026-06-18T09:10:16.411081"
+}

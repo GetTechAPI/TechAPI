@@ -1,0 +1,77 @@
+{
+  "id": 1416,
+  "slug": "durasport-5g-uw-td-lte-us-e6930",
+  "name": "DuraSport 5G UW TD-LTE US E6930",
+  "brand": {
+    "id": 71,
+    "slug": "kyocera",
+    "name": "Kyocera",
+    "country": "JP",
+    "url": "/v1/brands/kyocera"
+  },
+  "soc": {
+    "id": 151,
+    "slug": "snapdragon-480",
+    "name": "Snapdragon 480",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-480"
+  },
+  "release_date": "2021-11-12",
+  "msrp_usd": 580,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "1080x2400",
+    "refresh_hz": 60,
+    "type": "Color IPS TFT LCD display",
+    "ppi": 432
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 27.0,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.4,
+    "performance": 1.5,
+    "camera": 16.5,
+    "battery": 24.8,
+    "display": 30.7,
+    "value": 48.5
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-19T00:43:44.330606",
+  "updated_at": "2026-06-19T00:43:44.330606"
+}

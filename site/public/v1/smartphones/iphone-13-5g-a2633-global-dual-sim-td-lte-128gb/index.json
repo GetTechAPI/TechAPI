@@ -1,0 +1,77 @@
+{
+  "id": 200,
+  "slug": "iphone-13-5g-a2633-global-dual-sim-td-lte-128gb",
+  "name": "iPhone 13 5G A2633 Global Dual SIM TD-LTE 128GB",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 10,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2021-09-24",
+  "msrp_usd": 899,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.06,
+    "resolution": "1170x2532",
+    "refresh_hz": 120,
+    "type": "AM-OLED display",
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 3227,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": "15",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "Proprietary"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.8,
+    "performance": 33.1,
+    "camera": 5.1,
+    "battery": 14.4,
+    "display": 58.5,
+    "value": 40.9
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-19T00:43:44.136418",
+  "updated_at": "2026-06-19T00:43:44.136418"
+}

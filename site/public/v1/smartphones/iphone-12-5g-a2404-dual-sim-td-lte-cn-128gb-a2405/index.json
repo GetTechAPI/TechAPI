@@ -1,0 +1,77 @@
+{
+  "id": 136,
+  "slug": "iphone-12-5g-a2404-dual-sim-td-lte-cn-128gb-a2405",
+  "name": "iPhone 12 5G A2404 Dual SIM TD-LTE CN 128GB / A2405",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 9,
+    "slug": "apple-a14-bionic",
+    "name": "Apple A14 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a14-bionic"
+  },
+  "release_date": "2020-10-23",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.06,
+    "resolution": "1170x2532",
+    "refresh_hz": 60,
+    "type": "AM-OLED display",
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 2815,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": null,
+  "weight_g": 162.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": "14.1",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "Proprietary"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 26.5,
+    "camera": 5.1,
+    "battery": 11.0,
+    "display": 33.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-19T00:43:44.128422",
+  "updated_at": "2026-06-19T00:43:44.128422"
+}

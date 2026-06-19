@@ -1,0 +1,77 @@
+{
+  "id": 149,
+  "slug": "iphone-12-mini-uw-5g-a2176-dual-sim-td-lte-us-256gb",
+  "name": "iPhone 12 Mini UW 5G A2176 Dual SIM TD-LTE US 256GB",
+  "brand": {
+    "id": 103,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 9,
+    "slug": "apple-a14-bionic",
+    "name": "Apple A14 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a14-bionic"
+  },
+  "release_date": "2020-10-23",
+  "msrp_usd": 849,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "size_inch": 5.42,
+    "resolution": "1080x2340",
+    "refresh_hz": 60,
+    "type": "AM-OLED display",
+    "ppi": 475
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 2227,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": null,
+  "weight_g": 133.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": "14.1",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "Proprietary"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.4,
+    "performance": 26.5,
+    "camera": 5.1,
+    "battery": 11.0,
+    "display": 35.0,
+    "value": 38.6
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-19T00:43:44.130419",
+  "updated_at": "2026-06-19T00:43:44.130419"
+}

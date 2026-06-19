@@ -1,0 +1,80 @@
+{
+  "id": 8147,
+  "slug": "7-1",
+  "name": "7.1",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1305,
+    "slug": "qualcomm-sdm636-snapdragon-636",
+    "name": "Qualcomm SDM636 Snapdragon 636",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 509",
+    "url": "/v1/socs/qualcomm-sdm636-snapdragon-636"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    3,
+    4,
+    32,
+    64
+  ],
+  "display": {
+    "size_inch": 5.84,
+    "resolution": "1080x2280",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, EDR, LE, aptX",
+    "usb": "2.0, Type-C 1.0 reversible connector, USB On-The-Go",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:15.203508",
+  "updated_at": "2026-06-19T02:27:15.203508"
+}

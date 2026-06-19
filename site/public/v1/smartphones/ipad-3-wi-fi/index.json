@@ -1,0 +1,73 @@
+{
+  "id": 801,
+  "slug": "ipad-3-wi-fi",
+  "name": "iPad 3 Wi-Fi",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 3,
+    "slug": "apple-a5x",
+    "name": "Apple A5X",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "PowerVR SGX543MP4 (quad-core graphics)",
+    "url": "/v1/socs/apple-a5x"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    1,
+    64
+  ],
+  "display": {
+    "size_inch": 9.7,
+    "resolution": "1536x2048",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    }
+  ],
+  "battery_mah": 11560,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.0, A2DP",
+    "usb": "2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.0,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:13.939593",
+  "updated_at": "2026-06-19T02:27:13.939593"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 16412,
+  "slug": "blade-v10",
+  "name": "Blade V10",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 655,
+    "slug": "octa-core-2-1-ghz",
+    "name": "Octa-core 2.1 GHz",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/octa-core-2-1-ghz"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    3,
+    4,
+    32,
+    64
+  ],
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "1080x2280",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 16.0
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "usb": "2.0, Type-C 1.0 reversible connector",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 4.7,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 3.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:16.550798",
+  "updated_at": "2026-06-19T02:27:16.550798"
+}

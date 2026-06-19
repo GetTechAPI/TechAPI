@@ -1,0 +1,80 @@
+{
+  "id": 4131,
+  "slug": "matepad-pro-5g",
+  "name": "MatePad Pro 5G",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 710,
+    "slug": "kirin-990-5g",
+    "name": "HiSilicon Kirin 990 5G",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G76 MP16",
+    "url": "/v1/socs/kirin-990-5g"
+  },
+  "release_date": "2020-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    6,
+    8,
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 10.8,
+    "resolution": "2560x1600",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 7250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 460.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "5.1, A2DP, LE",
+    "usb": "3.1, Type-C 1.0 reversible connector, USB On-The-Go"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.8,
+    "performance": 3.0,
+    "camera": 5.3,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:14.496197",
+  "updated_at": "2026-06-19T02:27:14.496197"
+}

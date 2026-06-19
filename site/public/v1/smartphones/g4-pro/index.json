@@ -1,0 +1,78 @@
+{
+  "id": 5694,
+  "slug": "g4-pro",
+  "name": "G4 Pro",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1249,
+    "slug": "qualcomm-msm8996-snapdragon-820",
+    "name": "Qualcomm MSM8996 Snapdragon 820",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-820"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    4,
+    64
+  ],
+  "display": {
+    "size_inch": 5.8,
+    "resolution": "1440x2560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 27.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.1, A2DP, LE, aptX",
+    "usb": "microUSB 2.0 (SlimPort 4K), USB Host",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 4.9,
+    "performance": null,
+    "camera": 9.8,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:14.733015",
+  "updated_at": "2026-06-19T02:27:14.733015"
+}

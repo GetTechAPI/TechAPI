@@ -1,0 +1,78 @@
+{
+  "id": 6285,
+  "slug": "m10",
+  "name": "M10",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 984,
+    "slug": "mediatek-mt6757t-helio-p25",
+    "name": "Mediatek MT6757T Helio P25",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880MP2",
+    "url": "/v1/socs/mediatek-mt6757t-helio-p25"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    2,
+    3,
+    32
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.2,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:14.810855",
+  "updated_at": "2026-06-19T02:27:14.810855"
+}

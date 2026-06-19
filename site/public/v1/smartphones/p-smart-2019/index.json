@@ -1,0 +1,78 @@
+{
+  "id": 3760,
+  "slug": "p-smart-2019",
+  "name": "P smart 2019",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 696,
+    "slug": "hisilicon-kirin-710",
+    "name": "Hisilicon Kirin 710",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G51 MP4",
+    "url": "/v1/socs/hisilicon-kirin-710"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    3,
+    64
+  ],
+  "display": {
+    "size_inch": 6.21,
+    "resolution": "1080x2340",
+    "type": "LTPS IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 16.0
+    }
+  ],
+  "battery_mah": 3400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "usb": "microUSB 2.0, USB On-The-Go",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 5.7,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 6.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:14.448192",
+  "updated_at": "2026-06-19T02:27:14.448192"
+}

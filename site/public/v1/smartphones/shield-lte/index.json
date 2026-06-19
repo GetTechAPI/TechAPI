@@ -1,0 +1,77 @@
+{
+  "id": 8320,
+  "slug": "shield-lte",
+  "name": "Shield LTE",
+  "brand": {
+    "id": 172,
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "country": "US",
+    "url": "/v1/brands/nvidia"
+  },
+  "soc": {
+    "id": 1083,
+    "slug": "nvidia-tegra-k1",
+    "name": "Nvidia Tegra K1",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Kepler DX1",
+    "url": "/v1/socs/nvidia-tegra-k1"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    2,
+    32
+  ],
+  "display": {
+    "size_inch": 8.0,
+    "resolution": "1920x1200",
+    "type": "Capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ],
+  "battery_mah": 5400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 390.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 36.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:15.229038",
+  "updated_at": "2026-06-19T02:27:15.229038"
+}

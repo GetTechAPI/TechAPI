@@ -1,0 +1,78 @@
+{
+  "id": 1685,
+  "slug": "dtek50",
+  "name": "DTEK50",
+  "brand": {
+    "id": 6,
+    "slug": "blackberry",
+    "name": "BlackBerry",
+    "country": "CA",
+    "url": "/v1/brands/blackberry"
+  },
+  "soc": {
+    "id": 1244,
+    "slug": "qualcomm-msm8952-snapdragon-617",
+    "name": "Qualcomm MSM8952 Snapdragon 617",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 405",
+    "url": "/v1/socs/qualcomm-msm8952-snapdragon-617"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    3,
+    16
+  ],
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080x1920",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 2610,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE, EDR",
+    "usb": "microUSB 2.0, USB On-The-Go",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:14.084413",
+  "updated_at": "2026-06-19T02:27:14.084413"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 12117,
+  "slug": "galaxy-s20-ultra-5g",
+  "name": "Galaxy S20 Ultra 5G",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1471,
+    "slug": "exynos-990",
+    "name": "Samsung Exynos 990",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G77 MP11",
+    "url": "/v1/socs/exynos-990"
+  },
+  "release_date": "2020-01-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    12,
+    16,
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "size_inch": 6.9,
+    "resolution": "1440x3200",
+    "type": "Dynamic AMOLED 2X capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.0
+    },
+    {
+      "type": "selfie",
+      "mp": 40.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 222.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "usb": "3.2, Type-C 1.0 reversible connector, USB On-The-Go",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.9,
+    "performance": 9.0,
+    "camera": 35.7,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:15.842861",
+  "updated_at": "2026-06-19T02:27:15.842861"
+}

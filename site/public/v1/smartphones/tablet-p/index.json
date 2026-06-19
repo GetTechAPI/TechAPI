@@ -1,0 +1,73 @@
+{
+  "id": 13047,
+  "slug": "tablet-p",
+  "name": "Tablet P",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1070,
+    "slug": "nvidia-tegra-2-t20",
+    "name": "Nvidia Tegra 2 T20",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "ULP GeForce",
+    "url": "/v1/socs/nvidia-tegra-2-t20"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    1,
+    4
+  ],
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1024x480",
+    "type": "Dual TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    }
+  ],
+  "battery_mah": 3080,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 372.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n, DLNA",
+    "bluetooth": "2.1, A2DP",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.1,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 1.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:16.065051",
+  "updated_at": "2026-06-19T02:27:16.065051"
+}

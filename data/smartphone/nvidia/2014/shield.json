@@ -1,0 +1,47 @@
+{
+  "slug": "shield",
+  "name": "Shield",
+  "brand": "nvidia",
+  "soc": "nvidia-tegra-k1",
+  "release_date": "2014-01-01",
+  "ram_gb": 2,
+  "battery_mah": 5400,
+  "weight_g": 390.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    2,
+    16
+  ],
+  "display": {
+    "size_inch": 8.0,
+    "resolution": "1920x1200",
+    "type": "Capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.0, A2DP, LE",
+    "usb": "microUSB 2.0"
+  },
+  "raw_price": "About 230 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2014, July",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Nvidia Tegra K1",
+    "platform_cpu": "Quad-core 2.2 GHz Cortex-A15",
+    "platform_gpu": "ULP GeForce Kepler (192 cores)"
+  }
+}

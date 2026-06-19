@@ -1,0 +1,77 @@
+{
+  "id": 25,
+  "slug": "3l-2021-dual-sim-lte-eu-6056h",
+  "name": "3L 2021 Dual SIM LTE EU 6056H",
+  "brand": {
+    "id": 6,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 58,
+    "slug": "helio-a25",
+    "name": "Helio A25",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/helio-a25"
+  },
+  "release_date": "2021-04-26",
+  "msrp_usd": 155,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "refresh_hz": 60,
+    "type": "Color IPS TFT LCD display",
+    "ppi": 269
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 194.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": "11",
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB Micro-AB"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.2,
+    "performance": 0.0,
+    "camera": 16.5,
+    "battery": 15.0,
+    "display": 17.5,
+    "value": 56.1
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-19T00:43:44.112419",
+  "updated_at": "2026-06-19T00:43:44.112419"
+}

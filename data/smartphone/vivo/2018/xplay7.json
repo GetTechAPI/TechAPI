@@ -1,0 +1,47 @@
+{
+  "slug": "xplay7",
+  "name": "Xplay7",
+  "brand": "vivo",
+  "soc": "qualcomm-msm8998-snapdragon-835",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    6,
+    128
+  ],
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "1080x2160",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 16.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "usb": "Type-C 1.0 reversible connector",
+    "nfc": true
+  },
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "GSM / CDMA / HSPA / EVDO / LTE",
+    "platform_chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+    "platform_cpu": "Octa-core (4x2.35 GHz Kryo & 4x1.9 GHz Kryo)",
+    "platform_gpu": "Adreno 540"
+  }
+}

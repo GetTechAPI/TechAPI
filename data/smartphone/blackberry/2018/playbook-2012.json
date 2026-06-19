@@ -1,0 +1,43 @@
+{
+  "slug": "playbook-2012",
+  "name": "Playbook 2012",
+  "brand": "blackberry",
+  "soc": "ti-omap-4460",
+  "release_date": "2018-01-01",
+  "ram_gb": 1,
+  "battery_mah": 4800,
+  "weight_g": 425.0,
+  "os": "BlackBerry OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600x1024",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 3.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "2.1, EDR",
+    "usb": "microUSB 2.0",
+    "nfc": true
+  },
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "GSM / HSPA",
+    "platform_chipset": "TI OMAP 4460",
+    "platform_cpu": "Dual-core 1.5 GHz",
+    "platform_gpu": null
+  }
+}

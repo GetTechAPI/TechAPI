@@ -1,0 +1,42 @@
+{
+  "slug": "curve-touch-cdma",
+  "name": "Curve Touch CDMA",
+  "brand": "blackberry",
+  "soc": "qualcomm-msm8655-snapdragon-s2",
+  "release_date": "2018-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "BlackBerry OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    1
+  ],
+  "display": {
+    "size_inch": 3.25,
+    "resolution": "480x360",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11b/g/n",
+    "bluetooth": "2.1, A2DP",
+    "usb": "microUSB 2.0",
+    "nfc": true
+  },
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "CDMA / EVDO",
+    "platform_chipset": "Qualcomm MSM8655 Snapdragon S2",
+    "platform_cpu": "800 MHz Scorpion",
+    "platform_gpu": "Adreno 205"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "a10",
+  "name": "A10",
+  "brand": "blackberry",
+  "soc": "qualcomm-msm8960pro-snapdragon-s4-pro",
+  "release_date": "2018-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2800,
+  "weight_g": 150.0,
+  "os": "BlackBerry OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    2,
+    16
+  ],
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "720x1280",
+    "type": "Capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual band, DLNA",
+    "bluetooth": "4.0, A2DP, LE",
+    "usb": "microUSB 2.0",
+    "nfc": true
+  },
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "GSM / CDMA / HSPA / EVDO / LTE",
+    "platform_chipset": "Qualcomm MSM8960Pro Snapdragon S4 Pro",
+    "platform_cpu": "Dual-core 1.7 GHz Krait",
+    "platform_gpu": "Adreno 225"
+  }
+}

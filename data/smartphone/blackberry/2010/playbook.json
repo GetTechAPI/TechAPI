@@ -1,0 +1,47 @@
+{
+  "slug": "playbook",
+  "name": "Playbook",
+  "brand": "blackberry",
+  "soc": "ti-omap-4430",
+  "release_date": "2010-01-01",
+  "ram_gb": 1,
+  "battery_mah": 5300,
+  "weight_g": 425.0,
+  "os": "BlackBerry OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    1,
+    64
+  ],
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600x1024",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 3.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "2.1, EDR",
+    "usb": "microUSB 2.0"
+  },
+  "raw_price": "About 120 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "TI OMAP 4430",
+    "platform_cpu": "Dual-core 1.0 GHz Cortex-A9",
+    "platform_gpu": "PowerVR SGX540"
+  }
+}

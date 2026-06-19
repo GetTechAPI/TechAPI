@@ -1,0 +1,36 @@
+{
+  "slug": "smt5700",
+  "name": "SMT5700",
+  "brand": "at-t",
+  "soc": "ti-omap-v1030",
+  "release_date": "2007-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Windows Mobile",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "display": {
+    "resolution": "320x240",
+    "type": "TFT, 65K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 2.0
+    }
+  ],
+  "connectivity": {
+    "bluetooth": "1.2, A2DP",
+    "usb": "Proprietary"
+  },
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM",
+    "platform_chipset": "TI OMAP V1030",
+    "platform_cpu": "260 MHz",
+    "platform_gpu": null
+  }
+}

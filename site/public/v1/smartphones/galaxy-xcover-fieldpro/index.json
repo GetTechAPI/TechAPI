@@ -1,0 +1,78 @@
+{
+  "id": 11880,
+  "slug": "galaxy-xcover-fieldpro",
+  "name": "Galaxy Xcover FieldPro",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1451,
+    "slug": "exynos-9810",
+    "name": "Exynos 9810",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP18",
+    "url": "/v1/socs/exynos-9810"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    4,
+    64
+  ],
+  "display": {
+    "size_inch": 5.1,
+    "resolution": "1440x2560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 256.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6/i/r, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "usb": "2.0, Type-C 1.0 reversible connector",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.4,
+    "performance": 42.7,
+    "camera": 5.0,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:15.812834",
+  "updated_at": "2026-06-19T02:27:15.812834"
+}

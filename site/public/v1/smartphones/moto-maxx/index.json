@@ -1,0 +1,78 @@
+{
+  "id": 7050,
+  "slug": "moto-maxx",
+  "name": "Moto Maxx",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1182,
+    "slug": "qualcomm-apq8084-snapdragon-805",
+    "name": "Qualcomm APQ8084 Snapdragon 805",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 420",
+    "url": "/v1/socs/qualcomm-apq8084-snapdragon-805"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    3,
+    64
+  ],
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1440x2560",
+    "type": "OLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 21.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "battery_mah": 3900,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 176.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE, aptX",
+    "usb": "microUSB 2.0",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.7,
+    "performance": null,
+    "camera": 7.9,
+    "battery": 13.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:14.942207",
+  "updated_at": "2026-06-19T02:27:14.942207"
+}

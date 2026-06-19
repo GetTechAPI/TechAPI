@@ -1,0 +1,77 @@
+{
+  "id": 100,
+  "slug": "chromebook-tab-10",
+  "name": "Chromebook Tab 10",
+  "brand": {
+    "id": 128,
+    "slug": "acer",
+    "name": "Acer",
+    "country": "TW",
+    "url": "/v1/brands/acer"
+  },
+  "soc": {
+    "id": 642,
+    "slug": "rockchip-rk3399",
+    "name": "Rockchip RK3399",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/rockchip-rk3399"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    4,
+    32
+  ],
+  "display": {
+    "size_inch": 9.7,
+    "resolution": "1536x2048",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n/ac, dual-band, WiFi Direct",
+    "bluetooth": "4.1, A2DP, LE",
+    "usb": "3.1, Type-C 1.0 reversible connector"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.8,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:13.826121",
+  "updated_at": "2026-06-19T02:27:13.826121"
+}

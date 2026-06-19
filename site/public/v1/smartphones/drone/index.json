@@ -1,0 +1,73 @@
+{
+  "id": 13939,
+  "slug": "drone",
+  "name": "Drone",
+  "brand": {
+    "id": 185,
+    "slug": "unnecto",
+    "name": "Unnecto",
+    "country": "US",
+    "url": "/v1/brands/unnecto"
+  },
+  "soc": {
+    "id": 476,
+    "slug": "unnecto-mobile-platform-2012",
+    "name": "Unnecto mobile platform 2012",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/unnecto-mobile-platform-2012"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    2,
+    4
+  ],
+  "display": {
+    "size_inch": 3.2,
+    "resolution": "240x400",
+    "type": "TFT resistive touchscreen"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 2.0
+    }
+  ],
+  "battery_mah": 800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 117.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "2.1, A2DP, EDR",
+    "usb": "microUSB"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-19T02:27:16.204656",
+  "updated_at": "2026-06-19T02:27:16.204656"
+}

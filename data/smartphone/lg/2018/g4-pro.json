@@ -1,0 +1,47 @@
+{
+  "slug": "g4-pro",
+  "name": "G4 Pro",
+  "brand": "lg",
+  "soc": "qualcomm-msm8996-snapdragon-820",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    4,
+    64
+  ],
+  "display": {
+    "size_inch": 5.8,
+    "resolution": "1440x2560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 27.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.1, A2DP, LE, aptX",
+    "usb": "microUSB 2.0 (SlimPort 4K), USB Host",
+    "nfc": true
+  },
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+    "platform_cpu": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+    "platform_gpu": "Adreno 530"
+  }
+}

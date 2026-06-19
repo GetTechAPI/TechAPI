@@ -1,0 +1,43 @@
+{
+  "slug": "pf200",
+  "name": "PF200",
+  "brand": "zte",
+  "soc": "dual-core-1-2-ghz-processor",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "540x960",
+    "type": "Capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g, DLNA, hotspot",
+    "bluetooth": "2.1, A2DP",
+    "usb": "microUSB 2.0 (MHL TV-out)",
+    "nfc": true
+  },
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": null,
+    "platform_cpu": "Dual-core 1.2 GHz processor",
+    "platform_gpu": null
+  }
+}

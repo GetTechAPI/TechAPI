@@ -1,0 +1,47 @@
+{
+  "slug": "surface",
+  "name": "Surface",
+  "brand": "microsoft",
+  "soc": "nvidia-tegra-3-t30",
+  "release_date": "2012-01-01",
+  "ram_gb": 2,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Windows Mobile",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    2,
+    64
+  ],
+  "display": {
+    "size_inch": 10.6,
+    "resolution": "1366x768",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 1.2
+    },
+    {
+      "type": "selfie",
+      "mp": 1.2
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP",
+    "usb": "USB 2.0, USB Host support"
+  },
+  "raw_price": "About 260 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Nvidia Tegra 3 T30",
+    "platform_cpu": "Quad-core 1.3 GHz Cortex-A9",
+    "platform_gpu": "ULP GeForce"
+  }
+}

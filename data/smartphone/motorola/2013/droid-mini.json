@@ -1,0 +1,48 @@
+{
+  "slug": "droid-mini",
+  "name": "DROID Mini",
+  "brand": "motorola",
+  "soc": "qualcomm-snapdragon-s4-pro",
+  "release_date": "2013-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2000,
+  "weight_g": 130.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    2,
+    16
+  ],
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "720x1280",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 10.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot, DLNA",
+    "bluetooth": "4.0, A2DP, EDR, LE, aptX",
+    "usb": "microUSB 2.0",
+    "nfc": true
+  },
+  "raw_price": "About 180 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / CDMA / HSPA / EVDO / LTE",
+    "platform_chipset": "Qualcomm Snapdragon S4 Pro",
+    "platform_cpu": "Dual-core 1.7 GHz Krait",
+    "platform_gpu": "Adreno 320"
+  }
+}

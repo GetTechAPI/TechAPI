@@ -1,0 +1,48 @@
+{
+  "slug": "galaxy-note7",
+  "name": "Galaxy Note7",
+  "brand": "samsung",
+  "soc": "exynos-8890-octa",
+  "release_date": "2016-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3500,
+  "weight_g": 169.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    4,
+    64
+  ],
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "1440x2560",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, EDR, LE",
+    "usb": "3.1, Type-C 1.0 reversible connector",
+    "nfc": true
+  },
+  "raw_price": "About 850 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "Exynos 8890 Octa (14 nm)",
+    "platform_cpu": "Octa-core (4x2.3 GHz Mongoose & 4x1.6 GHz Cortex-A53)",
+    "platform_gpu": "Mali-T880 MP12"
+  }
+}

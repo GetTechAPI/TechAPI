@@ -1,0 +1,37 @@
+{
+  "slug": "mio-a502",
+  "name": "MIO A502",
+  "brand": "mitac",
+  "soc": "ti-omap-850",
+  "release_date": "2007-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1050,
+  "weight_g": 135.0,
+  "os": "Windows Mobile",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "display": {
+    "size_inch": 2.7,
+    "resolution": "240x320",
+    "type": "TFT resistive touchscreen, 256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 2.0
+    }
+  ],
+  "connectivity": {
+    "bluetooth": "2.0",
+    "usb": "miniUSB 2.0"
+  },
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "GSM",
+    "platform_chipset": "TI OMAP 850",
+    "platform_cpu": "200 MHz ARM926EJ-S",
+    "platform_gpu": null
+  }
+}

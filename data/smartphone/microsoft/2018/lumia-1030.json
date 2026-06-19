@@ -1,0 +1,47 @@
+{
+  "slug": "lumia-1030",
+  "name": "Lumia 1030",
+  "brand": "microsoft",
+  "soc": "quad-core",
+  "release_date": "2018-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2600,
+  "weight_g": 150.0,
+  "os": "Windows Mobile",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    2,
+    32
+  ],
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1080x1920",
+    "type": "AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 20.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE, aptX",
+    "usb": "microUSB 2.0",
+    "nfc": true
+  },
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": null,
+    "platform_cpu": "Quad-core",
+    "platform_gpu": null
+  }
+}

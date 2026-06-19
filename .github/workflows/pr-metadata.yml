@@ -101,6 +101,19 @@ jobs:
               break;
             }
 
+            const changedLines = files.reduce((sum, file) => sum + file.additions + file.deletions, 0);
+            let priority = 'Medium';
+            if (labels.has('data') && (files.length >= 25 || changedLines >= 1000)) {
+              priority = 'High';
+            } else if (labels.has('data') || labels.has('app') || title.startsWith('fix')) {
+              priority = 'High';
+            } else if (labels.size === 1 && labels.has('documentation')) {
+              priority = 'Low';
+            } else if (changedLines <= 25 && !labels.has('ci')) {
+              priority = 'Low';
+            }
+            core.exportVariable('TRIAGE_PRIORITY', priority);
+
             const trackingIssuesByLabel = new Map([
               ['data', 1],
               ['site', 19],
@@ -131,20 +144,97 @@ jobs:
                   body: updatedBody,
                 });
               }
-            }
 
-            const changedLines = files.reduce((sum, file) => sum + file.additions + file.deletions, 0);
-            let priority = 'Medium';
-            if (labels.has('data') && (files.length >= 25 || changedLines >= 1000)) {
-              priority = 'High';
-            } else if (labels.has('data') || labels.has('app') || title.startsWith('fix')) {
-              priority = 'High';
-            } else if (labels.size === 1 && labels.has('documentation')) {
-              priority = 'Low';
-            } else if (changedLines <= 25 && !labels.has('ci')) {
-              priority = 'Low';
+              const changedByTopLevel = new Map();
+              const changedData = new Map([
+                ['brand', { added: 0, modified: 0, deleted: 0 }],
+                ['soc', { added: 0, modified: 0, deleted: 0 }],
+                ['smartphone', { added: 0, modified: 0, deleted: 0 }],
+                ['gpu', { added: 0, modified: 0, deleted: 0 }],
+                ['cpu', { added: 0, modified: 0, deleted: 0 }],
+              ]);
+              for (const file of files) {
+                const top = file.filename.split('/')[0] || '(root)';
+                changedByTopLevel.set(top, (changedByTopLevel.get(top) || 0) + 1);
+                const parts = file.filename.split('/');
+                if (parts[0] === 'data' && changedData.has(parts[1])) {
+                  const bucket = changedData.get(parts[1]);
+                  const status = file.status === 'removed'
+                    ? 'deleted'
+                    : file.status === 'added'
+                      ? 'added'
+                      : 'modified';
+                  bucket[status] += 1;
+                }
+              }
+
+              const dataRows = [...changedData.entries()]
+                .filter(([, counts]) => counts.added || counts.modified || counts.deleted)
+                .map(([category, counts]) => `| ${category} | ${counts.added} | ${counts.modified} | ${counts.deleted} |`)
+                .join('\n') || '| none | 0 | 0 | 0 |';
+              const topRows = [...changedByTopLevel.entries()]
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(([area, count]) => `| ${area} | ${count} |`)
+                .join('\n');
+              const labelText = [...labels].sort().map((label) => `\`${label}\``).join(', ') || 'none';
+              const trackerComment = [
+                `<!-- techapi-tracking-issue-pr-${issue_number} -->`,
+                `## Linked PR update: ${pr.title} #${issue_number}`,
+                '',
+                `- PR: ${pr.html_url}`,
+                `- Branch: \`${pr.head.ref}\``,
+                `- Author: @${pr.user.login}`,
+                `- Labels: ${labelText}`,
+                `- Priority: ${priority}`,
+                `- Files changed: ${files.length}`,
+                `- Lines changed: +${files.reduce((sum, file) => sum + file.additions, 0)} / -${files.reduce((sum, file) => sum + file.deletions, 0)}`,
+                '',
+                '### Changed Data',
+                '',
+                '| Category | Added | Modified | Deleted |',
+                '| --- | ---: | ---: | ---: |',
+                dataRows,
+                '',
+                '### Changed Areas',
+                '',
+                '| Area | Files |',
+                '| --- | ---: |',
+                topRows || '| none | 0 |',
+                '',
+                '### Notes',
+                '',
+                '- This is an automatic tracking comment for the long-running issue.',
+                '- PR validation details are posted on the PR by TechEngineBot.',
+                '- The tracker issue remains open even when the PR uses `Closes #...` for GitHub Development linking.',
+              ].join('\n');
+
+              for (const issueNumber of trackingIssues) {
+                const comments = await github.paginate(github.rest.issues.listComments, {
+                  owner,
+                  repo,
+                  issue_number: issueNumber,
+                  per_page: 100,
+                });
+                const marker = `<!-- techapi-tracking-issue-pr-${issue_number} -->`;
+                const existing = comments.find((comment) => comment.body?.includes(marker));
+                if (existing) {
+                  await github.rest.issues.updateComment({
+                    owner,
+                    repo,
+                    comment_id: existing.id,
+                    body: trackerComment,
+                  });
+                } else {
+                  await github.rest.issues.createComment({
+                    owner,
+                    repo,
+                    issue_number: issueNumber,
+                    body: trackerComment,
+                  });
+                }
+              }
             }
-            core.exportVariable('TRIAGE_PRIORITY', priority);
 
       - name: Add PR to configured projects
         if: env.TRIAGE_PROJECT_URLS != '' && env.PROJECT_TOKEN != ''

@@ -1,0 +1,51 @@
+{
+  "slug": "galaxy-a21s",
+  "name": "Galaxy A21s",
+  "brand": "samsung",
+  "soc": "exynos-850",
+  "release_date": "2020-01-01",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 192.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    3,
+    4,
+    6,
+    32,
+    64
+  ],
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "PLS TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "usb": "2.0, Type-C 1.0 reversible connector",
+    "nfc": true
+  },
+  "raw_price": "<e2><82><ac><e2><80><89>204.75 / $<e2><80><89>219.99 / <e2><82><b9><e2><80><89>16,499",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2020, June 02",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "Exynos 850 (8nm)",
+    "platform_cpu": "Octa-core (4x2.0 GHz Cortex-A55 & 4x2.0 GHz Cortex-A55)",
+    "platform_gpu": "Mali-G52"
+  }
+}

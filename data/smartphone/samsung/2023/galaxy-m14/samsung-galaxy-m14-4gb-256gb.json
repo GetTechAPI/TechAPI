@@ -1,0 +1,40 @@
+{
+  "slug": "samsung-galaxy-m14-4gb-256gb",
+  "base_model_slug": "galaxy-m14",
+  "name": "Galaxy M14 256GB",
+  "brand": "samsung",
+  "soc": "exynos-850",
+  "release_date": "2023-01-01",
+  "ram_gb": 4,
+  "battery_mah": 6000,
+  "weight_g": 202.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 256
+    }
+  },
+  "display": {
+    "size": "6.6 inches"
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ]
+}

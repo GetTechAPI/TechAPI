@@ -1,0 +1,40 @@
+{
+  "slug": "vivo-x3s-1gb-16gb",
+  "base_model_slug": "x3s",
+  "name": "X3S 16GB",
+  "brand": "vivo",
+  "soc": "mediatek-mt6592",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 153.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    }
+  },
+  "display": {
+    "size": "5 inches"
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ]
+}

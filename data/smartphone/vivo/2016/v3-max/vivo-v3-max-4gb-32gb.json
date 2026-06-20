@@ -1,0 +1,40 @@
+{
+  "slug": "vivo-v3-max-4gb-32gb",
+  "base_model_slug": "v3-max",
+  "name": "V3 Max 32GB",
+  "brand": "vivo",
+  "soc": "qualcomm-msm8956-snapdragon-650qualcomm-msm8976-snapdragon-652",
+  "release_date": "2016-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 168.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    }
+  },
+  "display": {
+    "size": "5.5 inches"
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ]
+}

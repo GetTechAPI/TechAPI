@@ -1,0 +1,84 @@
+{
+  "id": 68165,
+  "slug": "sharp-aquos-sense5g-allphones-2047-8gb-128gb-5g",
+  "base_model_slug": "aquos-sense5g",
+  "name": "Sharp Aquos sense5G",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1720,
+    "slug": "qualcomm-snapdragon-690-5g-sm6350",
+    "name": "Qualcomm Snapdragon 690 5G SM6350",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Qualcomm Adreno 619L",
+    "url": "/v1/socs/qualcomm-snapdragon-690-5g-sm6350"
+  },
+  "release_date": "2021-02-09",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2047",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~435 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0, (wide), AF, 8 MP, f/2.4, (telephoto), AF, 12 MP, f/2.4, 121˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 4570,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 178.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.5,
+    "performance": null,
+    "camera": null,
+    "battery": 23.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.434690",
+  "updated_at": "2026-06-20T19:05:25.434690"
+}

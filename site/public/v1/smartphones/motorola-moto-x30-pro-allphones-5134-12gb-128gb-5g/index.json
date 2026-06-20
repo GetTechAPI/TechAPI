@@ -1,0 +1,86 @@
+{
+  "id": 37497,
+  "slug": "motorola-moto-x30-pro-allphones-5134-12gb-128gb-5g",
+  "base_model_slug": "moto-x30-pro",
+  "name": "Motorola Moto X30 Pro",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1749,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2022-08-11",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5134",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~393 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "200 MP, f/2.0, (wide), 1/1.22\", 0.64µm, PDAF, OIS, 50 MP, f/2.2, 117˚ (ultrawide), 1/2.76\", 0.64µm, AF, 12 MP, f/1.6, (telephoto), 1/2.93\", 1.22µm, PDAF, 2x optical zoom"
+    },
+    {
+      "type": "selfie",
+      "raw": "60 MP, f/2.2, (wide), 0.64µm"
+    }
+  ],
+  "battery_mah": 4610,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, MYUI 4.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.2,
+    "performance": 25.2,
+    "camera": null,
+    "battery": 39.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:14.897965",
+  "updated_at": "2026-06-20T19:05:14.897965"
+}

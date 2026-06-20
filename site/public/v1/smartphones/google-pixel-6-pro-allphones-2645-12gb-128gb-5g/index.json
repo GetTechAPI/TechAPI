@@ -1,0 +1,86 @@
+{
+  "id": 12532,
+  "slug": "google-pixel-6-pro-allphones-2645-12gb-128gb-5g",
+  "base_model_slug": "pixel-6-pro",
+  "name": "Google Pixel 6 Pro",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 765,
+    "slug": "google-tensor",
+    "name": "Google Tensor",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP20",
+    "url": "/v1/socs/google-tensor"
+  },
+  "release_date": "2021-10-28",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2645",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1440 x 3120 pixels, 19.5:9 ratio (~512 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 25mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, OIS, 48 MP, f/3.5, 104mm (periscope telephoto), 1/2.0\", 0.8µm, PDAF, OIS, 4x optical zoom, 12 MP, f/2.2, 17mm, 114˚ (ultrawide), 1.25µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "11.1 MP, f/2.2, 20mm (ultrawide), 1.22µm"
+    }
+  ],
+  "battery_mah": 5003,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, upgradable to Android 15, up to 5 major Android upgrades",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.4,
+    "performance": 6.7,
+    "camera": null,
+    "battery": 40.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:06.153645",
+  "updated_at": "2026-06-20T19:05:06.153645"
+}

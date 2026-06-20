@@ -1,0 +1,84 @@
+{
+  "id": 73343,
+  "slug": "ulefone-note-6-allphones-1262-1gb-32gb-3g",
+  "base_model_slug": "note-6",
+  "name": "Ulefone Note 6",
+  "brand": {
+    "id": 49,
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "country": "CN",
+    "url": "/v1/brands/ulefone"
+  },
+  "soc": {
+    "id": 2078,
+    "slug": "unisoc-sc7731e",
+    "name": "Unisoc SC7731E",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T820 MP1",
+    "url": "/v1/socs/unisoc-sc7731e"
+  },
+  "release_date": "2021-07-11",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1262",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Nano-SIM + Micro-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1560 pixels, 19.5:9 ratio (~282 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11 (Go edition)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 4.5,
+    "performance": null,
+    "camera": null,
+    "battery": 4.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.976027",
+  "updated_at": "2026-06-20T19:05:26.976531"
+}

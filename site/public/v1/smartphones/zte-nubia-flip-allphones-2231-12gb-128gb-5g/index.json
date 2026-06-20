@@ -1,0 +1,86 @@
+{
+  "id": 90025,
+  "slug": "zte-nubia-flip-allphones-2231-12gb-128gb-5g",
+  "base_model_slug": "nubia-flip",
+  "name": "ZTE nubia Flip",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2024-04-23",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2231",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1188 x 2790 pixels, 21:9 ratio (~439 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, (wide), PDAF, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, (wide)"
+    }
+  ],
+  "battery_mah": 4310,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 214.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.7,
+    "performance": null,
+    "camera": null,
+    "battery": 19.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:32.085913",
+  "updated_at": "2026-06-20T19:05:32.085913"
+}

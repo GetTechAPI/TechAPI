@@ -1,0 +1,77 @@
+{
+  "id": 2633,
+  "slug": "sony-tablet-s-3g-allphones-7455-1gb-16gb-3g",
+  "base_model_slug": "tablet-s-3g",
+  "name": "Sony Tablet S 3G",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1339,
+    "slug": "nvidia-tegra-2-t20",
+    "name": "Nvidia Tegra 2 T20",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "ULP GeForce",
+    "url": "/v1/socs/nvidia-tegra-2-t20"
+  },
+  "release_date": "2011-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7455",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~161 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 625.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 3.2 (Honeycomb), upgradable to 4.0.3 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.259590",
+  "updated_at": "2026-06-20T19:05:44.259590",
+  "url": "/v1/tablets/sony-tablet-s-3g-allphones-7455-1gb-16gb-3g"
+}

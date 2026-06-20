@@ -1,0 +1,85 @@
+{
+  "id": 44273,
+  "slug": "oppo-f7-allphones-6026-6gb-64gb-4g-lte",
+  "base_model_slug": "f7",
+  "name": "Oppo F7",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1125,
+    "slug": "helio-p60",
+    "name": "Helio P60",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/helio-p60"
+  },
+  "release_date": "2018-04-09",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6026",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~405 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.0, 1/2.8\", 0.9µm"
+    }
+  ],
+  "battery_mah": 3400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 158.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), ColorOS 5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.8,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 6.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:16.981270",
+  "updated_at": "2026-06-20T19:05:16.981270"
+}

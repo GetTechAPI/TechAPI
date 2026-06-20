@@ -1,0 +1,84 @@
+{
+  "id": 45231,
+  "slug": "oppo-reno-a-allphones-6042-6gb-128gb-4g-lte",
+  "base_model_slug": "reno-a",
+  "name": "Oppo Reno A",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1666,
+    "slug": "qualcomm-sdm710-snapdragon-710",
+    "name": "Qualcomm SDM710 Snapdragon 710",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 616",
+    "url": "/v1/socs/qualcomm-sdm710-snapdragon-710"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6042",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, 1/2.8\", 1.12µm, PDAF, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.4, 1/2.8\", 0.9µm"
+    }
+  ],
+  "battery_mah": 3600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), ColorOS 6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.0,
+    "performance": null,
+    "camera": null,
+    "battery": 9.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:17.817435",
+  "updated_at": "2026-06-20T19:05:17.817435"
+}

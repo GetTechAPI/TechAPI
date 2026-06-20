@@ -1,0 +1,77 @@
+{
+  "id": 1697,
+  "slug": "lenovo-tab-p11-plus-allphones-3651-6gb-64gb-4g-lte",
+  "base_model_slug": "tab-p11-plus",
+  "name": "Lenovo Tab P11 Plus",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1220,
+    "slug": "mediatek-mt6785-helio-g90t",
+    "name": "Mediatek MT6785 Helio G90T",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G76 MC4",
+    "url": "/v1/socs/mediatek-mt6785-helio-g90t"
+  },
+  "release_date": "2021-06-28",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3651",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "display": {
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~212 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ],
+  "battery_mah": 7700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 490.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.013955",
+  "updated_at": "2026-06-20T19:05:44.013955",
+  "url": "/v1/tablets/lenovo-tab-p11-plus-allphones-3651-6gb-64gb-4g-lte"
+}

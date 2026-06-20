@@ -1,0 +1,84 @@
+{
+  "id": 22987,
+  "slug": "infinix-note-8-allphones-1289-6gb-128gb-4g-lte",
+  "base_model_slug": "note-8",
+  "name": "Infinix Note 8",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1194,
+    "slug": "helio-g80",
+    "name": "Helio G80",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G52 MP2",
+    "url": "/v1/socs/helio-g80"
+  },
+  "release_date": "2020-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1289",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1640 pixels (~258 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, (wide), 1/1.73\", 0.8µm, PDAF, 2 MP, (macro), 2 MP, (depth), 2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, 2 MP, (depth)"
+    }
+  ],
+  "battery_mah": 5200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, XOS 7.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 33.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.855595",
+  "updated_at": "2026-06-20T19:05:09.855595"
+}

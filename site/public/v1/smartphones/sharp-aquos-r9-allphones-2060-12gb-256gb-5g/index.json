@@ -1,0 +1,84 @@
+{
+  "id": 68302,
+  "slug": "sharp-aquos-r9-allphones-2060-12gb-256gb-5g",
+  "base_model_slug": "aquos-r9",
+  "name": "Sharp Aquos R9",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1445,
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm"
+  },
+  "release_date": "2024-09-30",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2060",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~396 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50.3 MP, f/1.9, 23mm (wide), 1/1.55\", dual pixel PDAF, OIS, 50.3 MP, f/2.2, 13mm, 122˚ (ultrawide), 1/2.55\", PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "50.3 MP, f/2.2, 23mm (wide), 1/2.88\", AF"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 3 major Android upgrades",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.473464",
+  "updated_at": "2026-06-20T19:05:25.473464"
+}

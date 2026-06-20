@@ -1,0 +1,80 @@
+{
+  "id": 356,
+  "slug": "apple-ipad-pro-12-9-allphones-2539-16gb-128gb-5g",
+  "base_model_slug": "ipad-pro-12-9",
+  "name": "Apple iPad Pro 12.9 (2021)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 22,
+    "slug": "apple-a9x",
+    "name": "Apple A9X",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "PowerVR Series 7 (12-core graphics)",
+    "url": "/v1/socs/apple-a9x"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 16.0,
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2539",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "2048 x 2732 pixels, 4:3 ratio (~265 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, (wide), 1/3.0\", 1.22µm, dual pixel PDAF, 10 MP, f/2.4, 125˚ (ultrawide), TOF 3D LiDAR scanner (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.4, 122˚ (ultrawide)"
+    }
+  ],
+  "battery_mah": 10758,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 682.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iPadOS 14.5.1, upgradable to iPadOS 18.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.547957",
+  "updated_at": "2026-06-20T19:05:43.547957",
+  "url": "/v1/tablets/apple-ipad-pro-12-9-allphones-2539-16gb-128gb-5g"
+}

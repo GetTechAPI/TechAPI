@@ -1,0 +1,78 @@
+{
+  "id": 1347,
+  "slug": "huawei-matepad-10-4-allphones-3557-6gb-32gb-4g-lte",
+  "base_model_slug": "matepad-10-4",
+  "name": "Huawei MatePad 10.4",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 841,
+    "slug": "kirin-810",
+    "name": "Kirin 810",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G52 MP6",
+    "url": "/v1/socs/kirin-810"
+  },
+  "release_date": "2020-04-23",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3557",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "display": {
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 7250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 450.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, EMUI 10, no Google Play Services",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.914785",
+  "updated_at": "2026-06-20T19:05:43.914785",
+  "url": "/v1/tablets/huawei-matepad-10-4-allphones-3557-6gb-32gb-4g-lte"
+}

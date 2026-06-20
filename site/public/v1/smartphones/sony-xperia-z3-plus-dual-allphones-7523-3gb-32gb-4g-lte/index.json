@@ -1,0 +1,84 @@
+{
+  "id": 69299,
+  "slug": "sony-xperia-z3-plus-dual-allphones-7523-3gb-32gb-4g-lte",
+  "base_model_slug": "xperia-z3-plus-dual",
+  "name": "Sony Xperia Z3+ dual",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1598,
+    "slug": "qualcomm-msm8994-snapdragon-810",
+    "name": "Qualcomm MSM8994 Snapdragon 810",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 20.0,
+    "gpu_name": "Adreno 430",
+    "url": "/v1/socs/qualcomm-msm8994-snapdragon-810"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7523",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~428 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20.7 MP, f/2.0, 25mm (wide), 1/2.3\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5.1 MP, f/2.4"
+    }
+  ],
+  "battery_mah": 2930,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 144.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0 (Lollipop), upgradable to 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.779385",
+  "updated_at": "2026-06-20T19:05:25.779385"
+}

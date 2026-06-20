@@ -1,0 +1,74 @@
+{
+  "id": 1003,
+  "slug": "honor-pad-x8a-allphones-2668-4gb-64gb",
+  "base_model_slug": "pad-x8a",
+  "name": "Honor Pad X8a",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1226,
+    "slug": "mediatek",
+    "name": "Mediatek",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2668",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~206 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 8300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 495.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, MagicOS 8",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.822368",
+  "updated_at": "2026-06-20T19:05:43.822368",
+  "url": "/v1/tablets/honor-pad-x8a-allphones-2668-4gb-64gb"
+}

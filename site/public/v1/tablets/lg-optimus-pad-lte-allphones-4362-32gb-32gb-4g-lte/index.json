@@ -1,0 +1,76 @@
+{
+  "id": 1762,
+  "slug": "lg-optimus-pad-lte-allphones-4362-32gb-32gb-4g-lte",
+  "base_model_slug": "optimus-pad-lte",
+  "name": "LG Optimus Pad LTE",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1445,
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 32.0,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4362",
+    "memory": {
+      "ram_gb": 32,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "768 x 1280 pixels, 5:3 ratio (~168 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 6800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 497.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 3.2 (Honeycomb)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.024522",
+  "updated_at": "2026-06-20T19:05:44.024522",
+  "url": "/v1/tablets/lg-optimus-pad-lte-allphones-4362-32gb-32gb-4g-lte"
+}

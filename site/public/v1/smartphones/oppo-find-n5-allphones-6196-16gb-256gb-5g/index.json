@@ -1,0 +1,86 @@
+{
+  "id": 50102,
+  "slug": "oppo-find-n5-allphones-6196-16gb-256gb-5g",
+  "base_model_slug": "find-n5",
+  "name": "Oppo Find N5",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1780,
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 830",
+    "url": "/v1/socs/snapdragon-8-elite"
+  },
+  "release_date": "2025-02-20",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6196",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM +"
+  },
+  "display": {
+    "resolution": "2248 x 2480 pixels (~412 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 21mm (wide), 1/1.56”, PDAF, OIS, 50 MP, f/2.7, 75mm (periscope telephoto), 1/2.75\", 3x optical zoom, PDAF (10cm - ∞), OIS, 8 MP, f/2.2, 15mm, 116˚, (ultrawide), 1/4.0”, 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8MP, f/2.4, 21mm (ultrawide), 1/4.0”, 1.12µm, Cover camera:, 8MP, f/2.4, 21mm (ultrawide), 1/4.0”, 1.12µm"
+    }
+  ],
+  "battery_mah": 5600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 229.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 15, ColorOS 15",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 73.0,
+    "performance": 86.9,
+    "camera": null,
+    "battery": 59.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:19.164596",
+  "updated_at": "2026-06-20T19:05:19.164596"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 5651,
+  "slug": "apple-iphone-16-pro-allphones-2622-8gb-128gb-5g",
+  "base_model_slug": "iphone-16-pro",
+  "name": "Apple iPhone 16 Pro",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 48,
+    "slug": "apple-a18-pro",
+    "name": "Apple A18 Pro",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Apple GPU (6-core)",
+    "url": "/v1/socs/apple-a18-pro"
+  },
+  "release_date": "2024-09-20",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2622",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1206 x 2622 pixels, 19.5:9 ratio (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS, 12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12µm, dual pixel PDAF, 3D sensor‑shift OIS, 5x optical zoom, 48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7µm, PDAF, TOF 3D LiDAR scanner (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/1.9, 23mm (wide), 1/3.6\", 1.0µm, PDAF, OIS, SL 3D, (depth/biometrics sensor)"
+    }
+  ],
+  "battery_mah": 3582,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 18, upgradable to iOS 18.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 48.7,
+    "performance": 68.7,
+    "camera": null,
+    "battery": 28.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:03.787833",
+  "updated_at": "2026-06-20T19:05:03.787833"
+}

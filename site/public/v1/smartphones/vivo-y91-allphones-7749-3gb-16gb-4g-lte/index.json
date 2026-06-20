@@ -1,0 +1,85 @@
+{
+  "id": 74521,
+  "slug": "vivo-y91-allphones-7749-3gb-16gb-4g-lte",
+  "base_model_slug": "y91",
+  "name": "vivo Y91",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1661,
+    "slug": "qualcomm-sdm439-snapdragon-439",
+    "name": "Qualcomm SDM439 Snapdragon 439",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Adreno 505",
+    "url": "/v1/socs/qualcomm-sdm439-snapdragon-439"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7749",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/1.8"
+    }
+  ],
+  "battery_mah": 4030,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 163.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), Funtouch 4.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.4,
+    "performance": null,
+    "camera": null,
+    "battery": 15.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.359178",
+  "updated_at": "2026-06-20T19:05:27.359178"
+}

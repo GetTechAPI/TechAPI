@@ -1,0 +1,75 @@
+{
+  "id": 56312,
+  "slug": "samsung-r720-admire-allphones-7390-1gb",
+  "base_model_slug": "r720-admire",
+  "name": "Samsung R720 Admire",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 457,
+    "slug": "800-mhz",
+    "name": "800 MHz",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/800-mhz"
+  },
+  "release_date": "2011-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7390",
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "320 x 480 pixels, 3:2 ratio (~165 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ],
+  "battery_mah": 1600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 117.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:21.235573",
+  "updated_at": "2026-06-20T19:05:21.235573"
+}

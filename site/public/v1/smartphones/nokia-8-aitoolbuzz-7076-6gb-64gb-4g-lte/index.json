@@ -1,0 +1,92 @@
+{
+  "id": 40054,
+  "slug": "nokia-8-aitoolbuzz-7076-6gb-64gb-4g-lte",
+  "base_model_slug": "8",
+  "name": "Nokia 8",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1625,
+    "slug": "snapdragon-835",
+    "name": "Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/snapdragon-835"
+  },
+  "release_date": "2017-08-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:7076",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "TA-1004",
+      "TA-1012",
+      "TA-1052"
+    ],
+    "sim": "Nano-SIMNano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 5.3,
+    "resolution": "1440x2560 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.0, (wide), 1/3.1\", 1.12Âµm, PDAF"
+    }
+  ],
+  "battery_mah": 3090,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1, up to Android 9.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/nokia-8.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.0,
+    "performance": 24.6,
+    "camera": null,
+    "battery": 1.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/nokia-8"
+  ],
+  "created_at": "2026-06-20T19:05:15.762900",
+  "updated_at": "2026-06-20T19:05:15.762900"
+}

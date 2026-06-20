@@ -1,0 +1,85 @@
+{
+  "id": 80801,
+  "slug": "xiaomi-black-shark-3-allphones-8289-12gb-128gb-5g",
+  "base_model_slug": "black-shark-3",
+  "name": "Xiaomi Black Shark 3",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1689,
+    "slug": "snapdragon-865",
+    "name": "Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865"
+  },
+  "release_date": "2020-03-06",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8289",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 13 MP, f/2.3, (ultrawide), 5 MP, f/2.2, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.2, (wide), 1/3\", 0.9µm"
+    }
+  ],
+  "battery_mah": 4720,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 222.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.9,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 25.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:29.375576",
+  "updated_at": "2026-06-20T19:05:29.375576"
+}

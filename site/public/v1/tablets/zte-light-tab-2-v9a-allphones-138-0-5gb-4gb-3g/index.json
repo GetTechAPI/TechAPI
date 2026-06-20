@@ -1,0 +1,76 @@
+{
+  "id": 2965,
+  "slug": "zte-light-tab-2-v9a-allphones-138-0-5gb-4gb-3g",
+  "base_model_slug": "light-tab-2-v9a",
+  "name": "ZTE Light Tab 2 V9A",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1399,
+    "slug": "qualcomm-msm8255-snapdragon-s2",
+    "name": "Qualcomm MSM8255 Snapdragon S2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Adreno 205",
+    "url": "/v1/socs/qualcomm-msm8255-snapdragon-s2"
+  },
+  "release_date": "2011-01-01",
+  "msrp_usd": null,
+  "ram_gb": 0.5,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:138",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 3400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 389.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.351816",
+  "updated_at": "2026-06-20T19:05:44.351816",
+  "url": "/v1/tablets/zte-light-tab-2-v9a-allphones-138-0-5gb-4gb-3g"
+}

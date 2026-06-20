@@ -1,0 +1,84 @@
+{
+  "id": 72632,
+  "slug": "tecno-camon-30-premier-allphones-1838-12gb-512gb-5g",
+  "base_model_slug": "camon-30-premier",
+  "name": "Tecno Camon 30 Premier",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1250,
+    "slug": "dimensity-9200",
+    "name": "MediaTek Dimensity 9200",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G715 MC11",
+    "url": "/v1/socs/dimensity-9200"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1838",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1264 x 2780 pixels (~451 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS, 50 MP, f/2.2, 70mm (periscope telephoto), 1/2.76\", 0.64µm, PDAF, 3x optical zoom, 50 MP, f/2.2, 14mm, 114˚ (ultrawide), 1/2.76\", 0.64µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.5, 24mm (wide), 1/2.8\", 0.64µm, PDAF"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 2 major Android upgrades, HIOS 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 38.5,
+    "performance": 31.9,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.743776",
+  "updated_at": "2026-06-20T19:05:26.743776"
+}

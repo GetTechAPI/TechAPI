@@ -1,0 +1,91 @@
+{
+  "id": 21947,
+  "slug": "huawei-nova-13-aitoolbuzz-3683-12gb-256gb-5g",
+  "base_model_slug": "nova-13",
+  "name": "Huawei nova 13",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 849,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2024-10-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:3683",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "BLK-AL80"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1084x2412 pixels",
+    "type": "OLED, 1B colors, HDR, 120Hz"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "60 MP, f/2.4, 17mm, 100Ã‹Å¡ (ultrawide)"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 4.2",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/huawei-nova-13.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.5,
+    "performance": 7.0,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/huawei-nova-13"
+  ],
+  "created_at": "2026-06-20T19:05:09.497636",
+  "updated_at": "2026-06-20T19:05:09.497636"
+}

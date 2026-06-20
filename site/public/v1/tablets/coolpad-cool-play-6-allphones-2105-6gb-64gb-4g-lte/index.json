@@ -1,0 +1,76 @@
+{
+  "id": 818,
+  "slug": "coolpad-cool-play-6-allphones-2105-6gb-64gb-4g-lte",
+  "base_model_slug": "cool-play-6",
+  "name": "Coolpad Cool Play 6",
+  "brand": {
+    "id": 17,
+    "slug": "coolpad",
+    "name": "Coolpad",
+    "country": "CN",
+    "url": "/v1/brands/coolpad"
+  },
+  "soc": {
+    "id": 1618,
+    "slug": "qualcomm-msm8976-pro-snapdragon-653",
+    "name": "Qualcomm MSM8976 Pro Snapdragon 653",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 510",
+    "url": "/v1/socs/qualcomm-msm8976-pro-snapdragon-653"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2105",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, PDAF, 13 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 1/3.2\", 1.4µm"
+    }
+  ],
+  "battery_mah": 4060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1 (Nougat), Journey UI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.758490",
+  "updated_at": "2026-06-20T19:05:43.758490",
+  "url": "/v1/tablets/coolpad-cool-play-6-allphones-2105-6gb-64gb-4g-lte"
+}

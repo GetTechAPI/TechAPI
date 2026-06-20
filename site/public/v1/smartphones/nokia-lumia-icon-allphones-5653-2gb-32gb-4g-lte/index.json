@@ -1,0 +1,84 @@
+{
+  "id": 39945,
+  "slug": "nokia-lumia-icon-allphones-5653-2gb-32gb-4g-lte",
+  "base_model_slug": "lumia-icon",
+  "name": "Nokia Lumia Icon",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1530,
+    "slug": "qualcomm-snapdragon-800",
+    "name": "Qualcomm Snapdragon 800",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-snapdragon-800"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5653",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20 MP, 1/1.5\", 1.12µm, AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP"
+    }
+  ],
+  "battery_mah": 2420,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 167.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Phone 8, upgradable to Microsoft Windows 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:15.720802",
+  "updated_at": "2026-06-20T19:05:15.720802"
+}

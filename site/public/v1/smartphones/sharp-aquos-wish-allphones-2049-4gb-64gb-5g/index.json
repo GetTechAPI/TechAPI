@@ -1,0 +1,84 @@
+{
+  "id": 68236,
+  "slug": "sharp-aquos-wish-allphones-2049-4gb-64gb-5g",
+  "base_model_slug": "aquos-wish",
+  "name": "Sharp Aquos wish",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1717,
+    "slug": "qualcomm-snapdragon-480-5g-sm4350",
+    "name": "Qualcomm Snapdragon 480 5G SM4350",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Qualcomm Adreno 619",
+    "url": "/v1/socs/qualcomm-snapdragon-480-5g-sm4350"
+  },
+  "release_date": "2022-01-28",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2049",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~295 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 3730,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 162.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.9,
+    "performance": null,
+    "camera": null,
+    "battery": 10.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.458256",
+  "updated_at": "2026-06-20T19:05:25.458256"
+}

@@ -1,0 +1,76 @@
+{
+  "id": 1802,
+  "slug": "lg-g-pad-ii-8-0-lte-allphones-4452-1-5gb-32gb-4g-lte",
+  "base_model_slug": "g-pad-ii-8-0-lte",
+  "name": "LG G Pad II 8.0 LTE",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1503,
+    "slug": "qualcomm-msm8926-snapdragon-400",
+    "name": "Qualcomm MSM8926 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8926-snapdragon-400"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.5,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4452",
+    "memory": {
+      "ram_gb": 1.5,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 347.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0.2 (Lollipop)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.033153",
+  "updated_at": "2026-06-20T19:05:44.033153",
+  "url": "/v1/tablets/lg-g-pad-ii-8-0-lte-allphones-4452-1-5gb-32gb-4g-lte"
+}

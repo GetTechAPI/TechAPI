@@ -1,0 +1,84 @@
+{
+  "id": 39851,
+  "slug": "nokia-lumia-928-allphones-5243-1gb-32gb-4g-lte",
+  "base_model_slug": "lumia-928",
+  "name": "Nokia Lumia 928",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1431,
+    "slug": "qualcomm-msm8960-snapdragon-s4-plus",
+    "name": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 225",
+    "url": "/v1/socs/qualcomm-msm8960-snapdragon-s4-plus"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5243",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "768 x 1280 pixels, 5:3 ratio (~332 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, 1/3.2\", 1.4µm, AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ],
+  "battery_mah": 2000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 162.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Phone 8, upgradable to 8.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:15.695043",
+  "updated_at": "2026-06-20T19:05:15.695043"
+}

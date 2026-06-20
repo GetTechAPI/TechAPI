@@ -1,0 +1,91 @@
+{
+  "id": 17922,
+  "slug": "huawei-nova-4-aitoolbuzz-3691-8gb-128gb-4g-lte",
+  "base_model_slug": "nova-4",
+  "name": "Huawei nova 4",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 837,
+    "slug": "kirin-970",
+    "name": "Kirin 970",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP12",
+    "url": "/v1/socs/kirin-970"
+  },
+  "release_date": "2018-12-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:3691",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "VCE-AL00",
+      "VCE-TL00",
+      "VCE-L22"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.4,
+    "resolution": "1080x2310 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 3750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 172.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0, EMUI 9",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/huawei-nova-4.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.4,
+    "performance": 27.5,
+    "camera": null,
+    "battery": 11.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/huawei-nova-4"
+  ],
+  "created_at": "2026-06-20T19:05:08.307564",
+  "updated_at": "2026-06-20T19:05:08.307564"
+}

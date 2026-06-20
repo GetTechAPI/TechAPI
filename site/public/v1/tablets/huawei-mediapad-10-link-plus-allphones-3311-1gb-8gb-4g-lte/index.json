@@ -1,0 +1,77 @@
+{
+  "id": 1151,
+  "slug": "huawei-mediapad-10-link-plus-allphones-3311-1gb-8gb-4g-lte",
+  "base_model_slug": "mediapad-10-link-plus",
+  "name": "Huawei MediaPad 10 Link+",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 601,
+    "slug": "quad-core-1-6-ghz-cortex-a9",
+    "name": "Quad-core 1.6 GHz Cortex-A9",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/quad-core-1-6-ghz-cortex-a9"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3311",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Mini-SIM - cellular model only"
+  },
+  "display": {
+    "resolution": "1280 x 800 pixels, 16:10 ratio (~149 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 6600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 620.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2 (Jelly Bean), EMUI 1.6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.866440",
+  "updated_at": "2026-06-20T19:05:43.866440",
+  "url": "/v1/tablets/huawei-mediapad-10-link-plus-allphones-3311-1gb-8gb-4g-lte"
+}

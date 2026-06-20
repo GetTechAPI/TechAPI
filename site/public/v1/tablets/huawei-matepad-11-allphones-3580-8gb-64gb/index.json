@@ -1,0 +1,75 @@
+{
+  "id": 1381,
+  "slug": "huawei-matepad-11-allphones-3580-8gb-64gb",
+  "base_model_slug": "matepad-11",
+  "name": "Huawei MatePad 11 (2021)",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1697,
+    "slug": "qualcomm-sm8250-snapdragon-865",
+    "name": "Qualcomm SM8250 Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/qualcomm-sm8250-snapdragon-865"
+  },
+  "release_date": "2021-06-02",
+  "msrp_usd": null,
+  "ram_gb": 8.0,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3580",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~276 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 7250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 485.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 2.0, upgradable to 3.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.923342",
+  "updated_at": "2026-06-20T19:05:43.923342",
+  "url": "/v1/tablets/huawei-matepad-11-allphones-3580-8gb-64gb"
+}

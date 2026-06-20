@@ -1,0 +1,78 @@
+{
+  "id": 54809,
+  "slug": "samsung-i560-allphones-7125-1gb-3g",
+  "base_model_slug": "i560",
+  "name": "Samsung i560",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1997,
+    "slug": "ti-omap-2430",
+    "name": "TI OMAP 2430",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "PowerVR MBX",
+    "url": "/v1/socs/ti-omap-2430"
+  },
+  "release_date": "2007-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7125",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "QCIF videocall camera"
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 111.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Symbian OS 9.1, Series 60 v3.1 UI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:20.712442",
+  "updated_at": "2026-06-20T19:05:20.712442"
+}

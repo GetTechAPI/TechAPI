@@ -1,0 +1,86 @@
+{
+  "id": 38004,
+  "slug": "motorola-edge-50-pro-allphones-5162-12gb-128gb-5g",
+  "base_model_slug": "edge-50-pro",
+  "name": "Motorola Edge 50 Pro",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1763,
+    "slug": "snapdragon-7-gen-3",
+    "name": "Snapdragon 7 Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 720",
+    "url": "/v1/socs/snapdragon-7-gen-3"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5162",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4, 25mm (wide), 1/1.55\", 1.0µm, multi-directional PDAF, OIS, 10 MP, f/2.0, 67mm (telephoto), 1/3.94\", 1.0µm, PDAF, OIS, 3x optical zoom, 13 MP, f/2.2, 16mm, 120˚ (ultrawide), 1/3.0\", 1.12µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/1.9, 21mm (wide), 0.64µm, AF"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 3 major Android upgrades",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.8,
+    "performance": 22.0,
+    "camera": null,
+    "battery": 37.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:15.047601",
+  "updated_at": "2026-06-20T19:05:15.047601"
+}

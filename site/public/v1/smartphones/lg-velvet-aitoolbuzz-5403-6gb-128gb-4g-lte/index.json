@@ -1,0 +1,90 @@
+{
+  "id": 30476,
+  "slug": "lg-velvet-aitoolbuzz-5403-6gb-128gb-4g-lte",
+  "base_model_slug": "velvet",
+  "name": "LG Velvet",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1626,
+    "slug": "snapdragon-845",
+    "name": "Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/snapdragon-845"
+  },
+  "release_date": "2020-07-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:5403",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "LMG910EMW",
+      "LM-G910EMW"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080x2460 pixels",
+    "type": "P-OLED"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/1.9, 29mm (standard), 1/3.06, 1.0Âµm"
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, up to Android 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/lg-velvet.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.5,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 19.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/lg-velvet"
+  ],
+  "created_at": "2026-06-20T19:05:12.713834",
+  "updated_at": "2026-06-20T19:05:12.713834"
+}

@@ -1,0 +1,90 @@
+{
+  "id": 25335,
+  "slug": "lenovo-phab-aitoolbuzz-4671-1gb-16gb-4g-lte",
+  "base_model_slug": "phab",
+  "name": "Lenovo Phab",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1544,
+    "slug": "snapdragon-410",
+    "name": "Snapdragon 410",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 306",
+    "url": "/v1/socs/snapdragon-410"
+  },
+  "release_date": "2015-09-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:4671",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "PB1-750M",
+      "PB1-750P"
+    ],
+    "sim": "Hybrid Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.98,
+    "resolution": "720x1280 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 4250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 250.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/lenovo-phab.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.8,
+    "performance": null,
+    "camera": null,
+    "battery": 18.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/lenovo-phab"
+  ],
+  "created_at": "2026-06-20T19:05:10.618923",
+  "updated_at": "2026-06-20T19:05:10.618923"
+}

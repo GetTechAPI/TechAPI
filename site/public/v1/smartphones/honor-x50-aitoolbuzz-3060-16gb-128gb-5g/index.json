@@ -1,0 +1,91 @@
+{
+  "id": 14109,
+  "slug": "honor-x50-aitoolbuzz-3060-16gb-128gb-5g",
+  "base_model_slug": "x50",
+  "name": "Honor X50",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1746,
+    "slug": "snapdragon-6-gen-1",
+    "name": "Snapdragon 6 Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 710",
+    "url": "/v1/socs/snapdragon-6-gen-1"
+  },
+  "release_date": "2023-07-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:3060",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "ALI-AN00"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1220x2652 pixels",
+    "type": "AMOLED, 1B colors, 120Hz, 1200 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide)"
+    }
+  ],
+  "battery_mah": 5800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, Magic OS 7.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/honor-x50-13203d33.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 33.7,
+    "performance": 10.4,
+    "camera": null,
+    "battery": 57.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/honor-x50"
+  ],
+  "created_at": "2026-06-20T19:05:07.110803",
+  "updated_at": "2026-06-20T19:05:07.110803"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 49883,
+  "slug": "oppo-find-x7-ultra-allphones-5878-16gb-256gb-5g",
+  "base_model_slug": "find-x7-ultra",
+  "name": "Oppo Find X7 Ultra",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1766,
+    "slug": "snapdragon-8-gen-3",
+    "name": "Snapdragon 8 Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 750",
+    "url": "/v1/socs/snapdragon-8-gen-3"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5878",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 3168 pixels (~510 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 23mm (wide), 1.0\"-type, 1.6µm, dual pixel PDAF, OIS, 50 MP, f/2.6, 65mm (periscope telephoto), 1/1.56\", 1.0µm, 2.8x optical zoom, multi-directional PDAF (25cm - ∞), OIS, 50 MP, f/4.3, 135mm (periscope telephoto), 1/2.51\", 0.7µm, 6x optical zoom, dual pixel PDAF (35cm - ∞), OIS, 50 MP, f/2.0, 14mm, 123˚ (ultrawide), 1/1.95\", 1.0µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, 21mm (wide), 1/2.74\", 0.8µm, PDAF"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 221.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 4 major Android upgrades, ColorOS 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 51.1,
+    "performance": 57.2,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:19.100294",
+  "updated_at": "2026-06-20T19:05:19.100294"
+}

@@ -1,0 +1,101 @@
+{
+  "id": 28229,
+  "slug": "lg-g4-aitoolbuzz-4942-3gb-32gb-4g-lte",
+  "base_model_slug": "g4",
+  "name": "LG G4",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1583,
+    "slug": "snapdragon-808",
+    "name": "Snapdragon 808",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 20.0,
+    "gpu_name": "Adreno 418",
+    "url": "/v1/socs/snapdragon-808"
+  },
+  "release_date": "2015-04-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:4942",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "H815",
+      "H810",
+      "H811",
+      "H811",
+      "LS991",
+      "VS986",
+      "US991",
+      "H812",
+      "F500L",
+      "F500S",
+      "F500K",
+      "LGLS991",
+      "LGUS991"
+    ],
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1440x2560 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 1/4.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1.1, up to 7.0, LG UX 4 UI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/lg-g4.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.5,
+    "performance": 1.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/lg-g4"
+  ],
+  "created_at": "2026-06-20T19:05:12.084714",
+  "updated_at": "2026-06-20T19:05:12.084714"
+}

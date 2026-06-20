@@ -1,0 +1,84 @@
+{
+  "id": 27284,
+  "slug": "lg-nitro-hd-allphones-4355-1gb-4gb-4g-lte",
+  "base_model_slug": "nitro-hd",
+  "name": "LG Nitro HD",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 469,
+    "slug": "dual-core-1-5-ghz-scorpion",
+    "name": "Dual-core 1.5 GHz Scorpion",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Adreno 220",
+    "url": "/v1/socs/dual-core-1-5-ghz-scorpion"
+  },
+  "release_date": "2011-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4355",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~326 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ],
+  "battery_mah": 1830,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 127.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3.5 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:11.779389",
+  "updated_at": "2026-06-20T19:05:11.779389"
+}

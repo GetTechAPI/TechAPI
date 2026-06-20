@@ -1,0 +1,75 @@
+{
+  "id": 2238,
+  "slug": "samsung-galaxy-tab-2-7-0-p3110-allphones-6682-1gb-8gb",
+  "base_model_slug": "galaxy-tab-2-7-0-p3110",
+  "name": "Samsung Galaxy Tab 2 7.0 P3110",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 2021,
+    "slug": "ti-omap-4430",
+    "name": "TI OMAP 4430",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ti-omap-4430"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8,
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6682",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 344.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0.3 (Ice Cream Sandwich), upgradable to 4.2.2 (Jelly Bean), TouchWiz UX UI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.122286",
+  "updated_at": "2026-06-20T19:05:44.122286",
+  "url": "/v1/tablets/samsung-galaxy-tab-2-7-0-p3110-allphones-6682-1gb-8gb"
+}

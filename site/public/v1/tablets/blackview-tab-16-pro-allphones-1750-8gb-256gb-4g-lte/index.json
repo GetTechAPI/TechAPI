@@ -1,0 +1,76 @@
+{
+  "id": 749,
+  "slug": "blackview-tab-16-pro-allphones-1750-8gb-256gb-4g-lte",
+  "base_model_slug": "tab-16-pro",
+  "name": "Blackview Tab 16 Pro",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 2093,
+    "slug": "unisoc-tiger-t616",
+    "name": "UNISOC Tiger T616",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G57",
+    "url": "/v1/socs/unisoc-tiger-t616"
+  },
+  "release_date": "2024-05-01",
+  "msrp_usd": null,
+  "ram_gb": 8.0,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1750",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~206 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, 2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 7700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 503.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.730832",
+  "updated_at": "2026-06-20T19:05:43.730832",
+  "url": "/v1/tablets/blackview-tab-16-pro-allphones-1750-8gb-256gb-4g-lte"
+}

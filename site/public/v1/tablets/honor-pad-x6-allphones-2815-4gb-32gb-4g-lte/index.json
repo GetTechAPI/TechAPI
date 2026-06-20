@@ -1,0 +1,77 @@
+{
+  "id": 945,
+  "slug": "honor-pad-x6-allphones-2815-4gb-32gb-4g-lte",
+  "base_model_slug": "pad-x6",
+  "name": "Honor Pad X6",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1225,
+    "slug": "mediatek-mt8768",
+    "name": "Mediatek MT8768",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/mediatek-mt8768"
+  },
+  "release_date": "2020-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2815",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~156 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.4"
+    }
+  ],
+  "battery_mah": 5100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 460.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, Magic UI 3.1, no Google Play Services",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.805282",
+  "updated_at": "2026-06-20T19:05:43.805282",
+  "url": "/v1/tablets/honor-pad-x6-allphones-2815-4gb-32gb-4g-lte"
+}

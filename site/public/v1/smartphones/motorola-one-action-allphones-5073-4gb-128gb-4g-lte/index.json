@@ -1,0 +1,84 @@
+{
+  "id": 35508,
+  "slug": "motorola-one-action-allphones-5073-4gb-128gb-4g-lte",
+  "base_model_slug": "one-action",
+  "name": "Motorola One Action",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1929,
+    "slug": "exynos-9609",
+    "name": "Exynos 9609",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/exynos-9609"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5073",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2520 pixels, 21:9 ratio (~432 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 26mm (wide), 1/2.8\", 1.25µm, PDAF, 16 MP, f/2.2, 14mm (ultrawide), dedicated video camera (1080p), 5 MP, f/2.2, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.0, 26mm (wide), 1/2.8\", 1.25µm"
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 176.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), upgradable to Android 11, Android One",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.8,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:14.351195",
+  "updated_at": "2026-06-20T19:05:14.351195"
+}

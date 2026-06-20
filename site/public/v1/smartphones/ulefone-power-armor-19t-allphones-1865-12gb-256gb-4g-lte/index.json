@@ -1,0 +1,84 @@
+{
+  "id": 73393,
+  "slug": "ulefone-power-armor-19t-allphones-1865-12gb-256gb-4g-lte",
+  "base_model_slug": "power-armor-19t",
+  "name": "Ulefone Power Armor 19T",
+  "brand": {
+    "id": 49,
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "country": "CN",
+    "url": "/v1/brands/ulefone"
+  },
+  "soc": {
+    "id": 1252,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2023-03-06",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1865",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), 1/1.52\", 0.7µm, PDAF, 5 MP, f/3.0, (macro), 1/5.0\", 1.12µm, FLIR thermal camera (Lepton module), 5 MP (for thermal module)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide), 1.0µm"
+    }
+  ],
+  "battery_mah": 9600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 409.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.0,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 50.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.009554",
+  "updated_at": "2026-06-20T19:05:27.009554"
+}

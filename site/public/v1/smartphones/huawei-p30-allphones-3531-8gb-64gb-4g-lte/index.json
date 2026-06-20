@@ -1,0 +1,86 @@
+{
+  "id": 18979,
+  "slug": "huawei-p30-allphones-3531-8gb-64gb-4g-lte",
+  "base_model_slug": "p30",
+  "name": "Huawei P30",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 800,
+    "slug": "hisilicon-kirin-980",
+    "name": "HiSilicon Kirin 980",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G76 MP10",
+    "url": "/v1/socs/hisilicon-kirin-980"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3531",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~422 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "40 MP, f/1.8, 27mm (wide), 1/1.7\", PDAF, 8 MP, f/2.4, 80mm (telephoto), 1/4.0\", PDAF, OIS, 3x optical zoom, 16 MP, f/2.2, 17mm (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ],
+  "battery_mah": 3650,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 165.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, EMUI 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.8,
+    "performance": null,
+    "camera": null,
+    "battery": 9.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:08.593140",
+  "updated_at": "2026-06-20T19:05:08.593140"
+}

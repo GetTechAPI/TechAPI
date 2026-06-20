@@ -1,0 +1,95 @@
+{
+  "id": 4373,
+  "slug": "apple-iphone-se-aitoolbuzz-834-3gb-64gb-4g-lte",
+  "base_model_slug": "iphone-se",
+  "name": "Apple iPhone SE (2020)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 32,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2020-04-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:834",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "A2275",
+      "A2296",
+      "A2298",
+      "iPhone12",
+      "8"
+    ],
+    "sim": "Nano-SIM + eSIM"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "750x1334 pixels",
+    "type": "Retina IPS LCD, 625 nits (typ)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "7 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 1821,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 148.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 13, up to iOS 18.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/apple-iphone-se-2020.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.3,
+    "performance": 16.7,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/apple-iphone-se-2020"
+  ],
+  "created_at": "2026-06-20T19:05:03.457732",
+  "updated_at": "2026-06-20T19:05:03.457732"
+}

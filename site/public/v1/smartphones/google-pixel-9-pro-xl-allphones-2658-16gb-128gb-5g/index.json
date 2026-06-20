@@ -1,0 +1,87 @@
+{
+  "id": 12822,
+  "slug": "google-pixel-9-pro-xl-allphones-2658-16gb-128gb-5g",
+  "base_model_slug": "pixel-9-pro-xl",
+  "name": "Google Pixel 9 Pro XL",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 768,
+    "slug": "tensor-g4",
+    "name": "Google Tensor G4",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G715 MP7",
+    "url": "/v1/socs/tensor-g4"
+  },
+  "release_date": "2024-08-22",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2658",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1344 x 2992 pixels, 20:9 ratio (~486 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.7, 25mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, OIS, 48 MP, f/2.8, 113mm (periscope telephoto), 1/2.55\", dual pixel PDAF, OIS, 5x optical zoom, 48 MP, f/1.7, 123˚ (ultrawide), 1/2.55\", dual pixel PDAF,"
+    },
+    {
+      "type": "selfie",
+      "raw": "42 MP, f/2.2, 17mm (ultrawide), PDAF"
+    }
+  ],
+  "battery_mah": 5060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 221.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, upgradable to Android 15, up to 7 major Android upgrades",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.0,
+    "performance": 26.1,
+    "camera": null,
+    "battery": 45.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:06.249119",
+  "updated_at": "2026-06-20T19:05:06.249119"
+}

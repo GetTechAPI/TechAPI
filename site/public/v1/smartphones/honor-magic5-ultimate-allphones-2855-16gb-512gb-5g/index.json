@@ -1,0 +1,84 @@
+{
+  "id": 14062,
+  "slug": "honor-magic5-ultimate-allphones-2855-16gb-512gb-5g",
+  "base_model_slug": "magic5-ultimate",
+  "name": "Honor Magic5 Ultimate",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1748,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2855",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1312 x 2848 pixels, 19.5:9 ratio (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 23mm (wide), 1/1.12\" 1.4µm, multi-directional PDAF, OIS, 50 MP, f/3.0, 90mm (periscope telephoto), PDAF, OIS, 3.5x optical zoom, 50 MP, f/2.0, 13mm, 122˚ (ultrawide), 1/2.5\", AF, TOF 3D (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.4, 100˚ (ultrawide), 1.22µm, TOF 3D, (depth/biometrics sensor)"
+    }
+  ],
+  "battery_mah": 5450,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 217.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, MagicOS 7.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.8,
+    "performance": 39.7,
+    "camera": null,
+    "battery": 51.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:07.095124",
+  "updated_at": "2026-06-20T19:05:07.095124"
+}

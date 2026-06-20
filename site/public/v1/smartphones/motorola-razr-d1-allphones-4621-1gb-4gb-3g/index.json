@@ -1,0 +1,84 @@
+{
+  "id": 34268,
+  "slug": "motorola-razr-d1-allphones-4621-1gb-4gb-3g",
+  "base_model_slug": "razr-d1",
+  "name": "Motorola RAZR D1",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1011,
+    "slug": "mediatek-mt6575m",
+    "name": "Mediatek MT6575M",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 65.0,
+    "gpu_name": "PowerVR SGX531",
+    "url": "/v1/socs/mediatek-mt6575m"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4621",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM or Dual SIM (dual stand-by)"
+  },
+  "display": {
+    "resolution": "320 x 480 pixels, 3:2 ratio (~165 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ],
+  "battery_mah": 1785,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 110.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:14.012311",
+  "updated_at": "2026-06-20T19:05:14.012311"
+}

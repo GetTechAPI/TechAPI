@@ -1,0 +1,85 @@
+{
+  "id": 42203,
+  "slug": "oneplus-2-allphones-5807-4gb-16gb-4g-lte",
+  "base_model_slug": "2",
+  "name": "OnePlus 2",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1584,
+    "slug": "snapdragon-810",
+    "name": "Snapdragon 810",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 20.0,
+    "gpu_name": "Adreno 430",
+    "url": "/v1/socs/snapdragon-810"
+  },
+  "release_date": "2015-08-11",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    16,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5807",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 1/2.6\", 1.3µm, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.4"
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1 (Lollipop), upgradable to 6.0.1 (Marshmallow), Oxygen 3.5.6 UI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.2,
+    "performance": 8.0,
+    "camera": null,
+    "battery": 4.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:16.369466",
+  "updated_at": "2026-06-20T19:05:16.369466"
+}

@@ -1,0 +1,93 @@
+{
+  "id": 14144,
+  "slug": "honor-x8b-aitoolbuzz-3085-8gb-128gb-4g-lte",
+  "base_model_slug": "x8b",
+  "name": "Honor X8b",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1729,
+    "slug": "snapdragon-680",
+    "name": "Snapdragon 680 4G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 610",
+    "url": "/v1/socs/snapdragon-680"
+  },
+  "release_date": "2023-12-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:3085",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "LLY-LX1",
+      "LLY-LX2",
+      "LLY-LX3"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1080x2412 pixels",
+    "type": "AMOLED, 90Hz, 1200 nits (HBM), 2000 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.1, (wide)"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 166.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, MagicOS 7.2",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/honor-x8b.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.2,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 27.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/honor-x8b"
+  ],
+  "created_at": "2026-06-20T19:05:07.118853",
+  "updated_at": "2026-06-20T19:05:07.118853"
+}

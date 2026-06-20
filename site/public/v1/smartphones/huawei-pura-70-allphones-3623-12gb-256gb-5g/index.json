@@ -1,0 +1,86 @@
+{
+  "id": 21963,
+  "slug": "huawei-pura-70-allphones-3623-12gb-256gb-5g",
+  "base_model_slug": "pura-70",
+  "name": "Huawei Pura 70",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 850,
+    "slug": "kirin-9010",
+    "name": "HiSilicon Kirin 9010",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9010"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3623",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1256 x 2760 pixels (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-4.0, 25mm (wide), 1/1.3\", PDAF, OIS, 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 13 MP, f/2.2, 13mm (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, (ultrawide)"
+    }
+  ],
+  "battery_mah": 4900,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 207.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "EMUI 14.2 (International), HarmonyOS 4.2 (China)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.1,
+    "performance": 7.7,
+    "camera": null,
+    "battery": 28.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.502154",
+  "updated_at": "2026-06-20T19:05:09.502154"
+}

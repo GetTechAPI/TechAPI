@@ -1,0 +1,76 @@
+{
+  "id": 2662,
+  "slug": "sony-xperia-z2-tablet-lte-allphones-7437-3gb-16gb-4g-lte",
+  "base_model_slug": "xperia-z2-tablet-lte",
+  "name": "Sony Xperia Z2 Tablet LTE",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1508,
+    "slug": "qualcomm-msm8974ab-snapdragon-801",
+    "name": "Qualcomm MSM8974AB Snapdragon 801",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-msm8974ab-snapdragon-801"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7437",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8.1 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2.2 MP"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 439.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.1.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.267000",
+  "updated_at": "2026-06-20T19:05:44.267000",
+  "url": "/v1/tablets/sony-xperia-z2-tablet-lte-allphones-7437-3gb-16gb-4g-lte"
+}

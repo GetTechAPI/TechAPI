@@ -1,0 +1,84 @@
+{
+  "id": 69593,
+  "slug": "sony-xperia-xz2-allphones-7539-6gb-64gb-4g-lte",
+  "base_model_slug": "xperia-xz2",
+  "name": "Sony Xperia XZ2",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1626,
+    "slug": "snapdragon-845",
+    "name": "Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/snapdragon-845"
+  },
+  "release_date": "2018-04-05",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7539",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~424 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, 1/5.0\""
+    }
+  ],
+  "battery_mah": 3180,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.0 (Oreo), upgradable to Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.1,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 2.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.863919",
+  "updated_at": "2026-06-20T19:05:25.863919"
+}

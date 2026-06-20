@@ -1,0 +1,75 @@
+{
+  "id": 1407,
+  "slug": "huawei-matepad-pro-11-allphones-3217-12gb-128gb",
+  "base_model_slug": "matepad-pro-11",
+  "name": "Huawei MatePad Pro 11 (2024)",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 849,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2023-11-28",
+  "msrp_usd": null,
+  "ram_gb": 12.0,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3217",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~274 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 8300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 449.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 4.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.930376",
+  "updated_at": "2026-06-20T19:05:43.930376",
+  "url": "/v1/tablets/huawei-matepad-pro-11-allphones-3217-12gb-128gb"
+}

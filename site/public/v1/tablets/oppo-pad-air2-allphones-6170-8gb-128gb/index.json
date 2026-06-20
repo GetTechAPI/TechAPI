@@ -1,0 +1,74 @@
+{
+  "id": 1980,
+  "slug": "oppo-pad-air2-allphones-6170-8gb-128gb",
+  "base_model_slug": "pad-air2",
+  "name": "Oppo Pad Air2",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1252,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2023-11-23",
+  "msrp_usd": null,
+  "ram_gb": 8.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6170",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "1720 x 2408 pixels (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 8000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 538.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, ColorOS 13.2",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.072854",
+  "updated_at": "2026-06-20T19:05:44.072854",
+  "url": "/v1/tablets/oppo-pad-air2-allphones-6170-8gb-128gb"
+}

@@ -1,0 +1,97 @@
+{
+  "id": 3606,
+  "slug": "apple-iphone-xr-aitoolbuzz-837-3gb-64gb-4g-lte",
+  "base_model_slug": "iphone-xr",
+  "name": "Apple iPhone XR",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 28,
+    "slug": "apple-a12-bionic",
+    "name": "Apple A12 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a12-bionic"
+  },
+  "release_date": "2018-09-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:837",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "A2105",
+      "A1984",
+      "A2107",
+      "A2108",
+      "A2106",
+      "iPhone11",
+      "8"
+    ],
+    "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM (China)"
+  },
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "828x1792 pixels",
+    "type": "Liquid Retina IPS LCD, 625 nits (HBM)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "7 MP, f/2.2, 32mm (standard) SL 3D, (depth/biometrics sensor)"
+    }
+  ],
+  "battery_mah": 2942,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 194.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 12, up to iOS 18.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/apple-iphone-xr.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.4,
+    "performance": 4.7,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/apple-iphone-xr"
+  ],
+  "created_at": "2026-06-20T19:05:03.266946",
+  "updated_at": "2026-06-20T19:05:03.266946"
+}

@@ -1,0 +1,78 @@
+{
+  "id": 33410,
+  "slug": "motorola-krzr-k3-allphones-4879-1gb-3g",
+  "base_model_slug": "krzr-k3",
+  "name": "Motorola KRZR K3",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 306,
+    "slug": "motorola-mobile-platform-2007",
+    "name": "Motorola mobile platform 2007",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 90.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/motorola-mobile-platform-2007"
+  },
+  "release_date": "2007-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4879",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~200 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA videocall camera"
+    }
+  ],
+  "battery_mah": 910,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 110.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:13.712290",
+  "updated_at": "2026-06-20T19:05:13.712290"
+}

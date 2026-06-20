@@ -1,0 +1,74 @@
+{
+  "id": 1752,
+  "slug": "lenovo-tab-plus-allphones-3873-8gb-128gb",
+  "base_model_slug": "tab-plus",
+  "name": "Lenovo Tab Plus",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1252,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2024-06-20",
+  "msrp_usd": null,
+  "ram_gb": 8.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3873",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~203 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 8600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 650.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.022996",
+  "updated_at": "2026-06-20T19:05:44.022996",
+  "url": "/v1/tablets/lenovo-tab-plus-allphones-3873-8gb-128gb"
+}

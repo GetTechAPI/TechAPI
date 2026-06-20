@@ -1,0 +1,100 @@
+{
+  "id": 3518,
+  "slug": "apple-iphone-7-aitoolbuzz-827-2gb-32gb-4g-lte",
+  "base_model_slug": "iphone-7",
+  "name": "Apple iPhone 7",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 21,
+    "slug": "apple-a10-fusion",
+    "name": "Apple A10 Fusion",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "PowerVR GT7600 Plus (Apple G9)",
+    "url": "/v1/socs/apple-a10-fusion"
+  },
+  "release_date": "2016-09-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:827",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "A1660",
+      "A1778",
+      "A1779",
+      "A1780",
+      "A1853",
+      "A1866",
+      "iPhone9",
+      "1",
+      "iPhone9",
+      "3"
+    ],
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "750x1334 pixels",
+    "type": "Retina IPS LCD, 625 nits (typ)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "7 MP, f/2.2, 32mm (standard)"
+    }
+  ],
+  "battery_mah": 1960,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 138.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 10.0.1, up to iOS 15.8.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/apple-iphone-7.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/apple-iphone-7"
+  ],
+  "created_at": "2026-06-20T19:05:03.240768",
+  "updated_at": "2026-06-20T19:05:03.240768"
+}

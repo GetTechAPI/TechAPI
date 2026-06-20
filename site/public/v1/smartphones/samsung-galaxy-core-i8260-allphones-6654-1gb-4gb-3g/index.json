@@ -1,0 +1,85 @@
+{
+  "id": 56882,
+  "slug": "samsung-galaxy-core-i8260-allphones-6654-1gb-4gb-3g",
+  "base_model_slug": "galaxy-core-i8260",
+  "name": "Samsung Galaxy Core I8260",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1456,
+    "slug": "qualcomm-msm8225-snapdragon-s4-play",
+    "name": "Qualcomm MSM8225 Snapdragon S4 Play",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 203",
+    "url": "/v1/socs/qualcomm-msm8225-snapdragon-s4-play"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4,
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6654",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.6, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 1800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 124.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:21.431435",
+  "updated_at": "2026-06-20T19:05:21.431435"
+}

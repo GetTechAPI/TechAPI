@@ -1,0 +1,77 @@
+{
+  "id": 960,
+  "slug": "honor-tablet-v7-pro-allphones-2723-8gb-128gb-5g",
+  "base_model_slug": "tablet-v7-pro",
+  "name": "Honor Tablet V7 Pro",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2021-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2723",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "display": {
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), AF, 2 MP, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 7250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 485.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, Magic UI 5.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.810779",
+  "updated_at": "2026-06-20T19:05:43.810779",
+  "url": "/v1/tablets/honor-tablet-v7-pro-allphones-2723-8gb-128gb-5g"
+}

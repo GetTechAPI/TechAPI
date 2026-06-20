@@ -1,0 +1,87 @@
+{
+  "id": 11345,
+  "slug": "energizer-power-max-p600s-aitoolbuzz-2435-6gb-32gb-4g-lte",
+  "base_model_slug": "power-max-p600s",
+  "name": "Energizer Power Max P600S",
+  "brand": {
+    "id": 157,
+    "slug": "energizer",
+    "name": "Energizer",
+    "country": "US",
+    "url": "/v1/brands/energizer"
+  },
+  "soc": {
+    "id": 1112,
+    "slug": "mediatek-mt6757-helio-p25",
+    "name": "Mediatek MT6757 Helio P25",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880MP2",
+    "url": "/v1/socs/mediatek-mt6757-helio-p25"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:2435",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 5.9,
+    "resolution": "1080x2160 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/energizer-power-max-p600s.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": null,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/energizer-power-max-p600s"
+  ],
+  "created_at": "2026-06-20T19:05:05.667246",
+  "updated_at": "2026-06-20T19:05:05.667246"
+}

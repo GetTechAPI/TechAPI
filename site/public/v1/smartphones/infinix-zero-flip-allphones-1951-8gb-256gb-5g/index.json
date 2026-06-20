@@ -1,0 +1,85 @@
+{
+  "id": 23450,
+  "slug": "infinix-zero-flip-allphones-1951-8gb-256gb-5g",
+  "base_model_slug": "zero-flip",
+  "name": "Infinix Zero Flip",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1732,
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1951",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2640 pixels (~413 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 24mm (wide), 1/1.57\", 1.0µm, PDAF, OIS, 50 MP, f/2.2, 115˚ (ultrawide), 1/2.8\", 0.64µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.5, 25mm (wide), 1/2.76\", 0.64µm, PDAF"
+    }
+  ],
+  "battery_mah": 4720,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 2 major Android upgrades, XOS 14.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.9,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 30.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.994629",
+  "updated_at": "2026-06-20T19:05:09.994629"
+}

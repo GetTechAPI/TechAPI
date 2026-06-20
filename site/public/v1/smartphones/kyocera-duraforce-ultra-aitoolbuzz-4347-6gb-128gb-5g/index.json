@@ -1,0 +1,86 @@
+{
+  "id": 24161,
+  "slug": "kyocera-duraforce-ultra-aitoolbuzz-4347-6gb-128gb-5g",
+  "base_model_slug": "duraforce-ultra",
+  "name": "Kyocera DuraForce Ultra",
+  "brand": {
+    "id": 100,
+    "slug": "kyocera",
+    "name": "Kyocera",
+    "country": "JP",
+    "url": "/v1/brands/kyocera"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2021-03-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:4347",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano SIM"
+  },
+  "display": {
+    "size_inch": 5.45,
+    "resolution": "1080x2160 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "24MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 23mm (wide), 1/4.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 278.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, up to Android 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/kyocera-duraforce-ultra.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": null,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/kyocera-duraforce-ultra"
+  ],
+  "created_at": "2026-06-20T19:05:10.241700",
+  "updated_at": "2026-06-20T19:05:10.241700"
+}

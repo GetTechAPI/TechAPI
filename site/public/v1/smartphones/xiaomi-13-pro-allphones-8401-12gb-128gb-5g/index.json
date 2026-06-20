@@ -1,0 +1,86 @@
+{
+  "id": 84841,
+  "slug": "xiaomi-13-pro-allphones-8401-12gb-128gb-5g",
+  "base_model_slug": "13-pro",
+  "name": "Xiaomi 13 Pro",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1748,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2023-02-26",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8401",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1440 x 3200 pixels, 20:9 ratio (~522 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50.3 MP, f/1.9, 23mm (wide), 1.0\"-type, 1.6µm, dual pixel PDAF, OIS, 50 MP, f/2.0, 75mm (telephoto), PDAF (10cm - ∞), 3.2x optical zoom, 50 MP, f/2.2, 14mm, 115˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 22mm (wide), 1/3.14\", 0.7µm"
+    }
+  ],
+  "battery_mah": 4820,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, upgradable to Android 14, HyperOS",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.5,
+    "performance": 36.7,
+    "camera": null,
+    "battery": 42.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:30.561271",
+  "updated_at": "2026-06-20T19:05:30.561271"
+}

@@ -1,0 +1,84 @@
+{
+  "id": 21220,
+  "slug": "huawei-mate-50-rs-porsche-design-allphones-3597-12gb-512gb-4g-lte",
+  "base_model_slug": "mate-50-rs-porsche-design",
+  "name": "Huawei Mate 50 RS Porsche Design",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1749,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2022-09-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3597",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1212 x 2616 pixels, 19.5:9 ratio (~428 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS, 48 MP, f/3.0, 90mm (periscope telephoto macro), PDAF, OIS, 3.5x optical zoom, 13 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide), TOF 3D, (depth/biometrics sensor)"
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 232.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 3.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.9,
+    "performance": 25.2,
+    "camera": null,
+    "battery": 40.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.258957",
+  "updated_at": "2026-06-20T19:05:09.258957"
+}

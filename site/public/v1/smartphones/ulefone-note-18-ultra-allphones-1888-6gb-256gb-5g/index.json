@@ -1,0 +1,84 @@
+{
+  "id": 73438,
+  "slug": "ulefone-note-18-ultra-allphones-1888-6gb-256gb-5g",
+  "base_model_slug": "note-18-ultra",
+  "name": "Ulefone Note 18 Ultra",
+  "brand": {
+    "id": 49,
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "country": "CN",
+    "url": "/v1/brands/ulefone"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2024-05-24",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1888",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2460 pixels (~396 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/2.0, (wide), 1/1.31\", 0.7µm, PDAF, 50 MP, f/2.2, 117˚, (ultrawide), 1/2.8\""
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, (wide), 1/2.8\", 0.7µm"
+    }
+  ],
+  "battery_mah": 5450,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 211.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.8,
+    "performance": null,
+    "camera": null,
+    "battery": 36.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.034536",
+  "updated_at": "2026-06-20T19:05:27.034536"
+}

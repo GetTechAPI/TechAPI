@@ -1,0 +1,48 @@
+{
+  "slug": "philips-s351f-dual-sim-td-lte-sady36-russia-2gb-16gb",
+  "base_model_slug": "s351f-dual-sim-td-lte",
+  "name": "S351F Dual SIM TD-LTE CN",
+  "brand": "philips",
+  "release_date": "2019-01-24",
+  "ram_gb": 2,
+  "battery_mah": 2000,
+  "weight_g": 180.0,
+  "os": "Google Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "variant": {
+    "region": "russia",
+    "market_country": "Russia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1655:russia",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "market_regions": "Asia"
+  },
+  "soc": "mediatek-mt6737t",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "size_inch": 4.0,
+    "resolution": "480x800",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 4.9
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.0"
+  }
+}

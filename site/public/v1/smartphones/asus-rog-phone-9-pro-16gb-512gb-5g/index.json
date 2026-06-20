@@ -1,0 +1,91 @@
+{
+  "id": 3445,
+  "slug": "asus-rog-phone-9-pro-16gb-512gb-5g",
+  "base_model_slug": "rog-phone-9-pro",
+  "name": "Asus ROG Phone 9 Pro",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 615,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2024-11-20",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1080 x 2400",
+    "type": "LTPO AMOLED",
+    "refresh_hz": 185
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+32+13MP"
+    }
+  ],
+  "battery_mah": 5800,
+  "charging_wired_w": 65.0,
+  "charging_wireless_w": null,
+  "weight_g": 227.0,
+  "dimensions": {},
+  "ip_rating": "IP68/IP69K",
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.4",
+    "wlan": "Wi-Fi 7 (802.11 a/b/g/n/ac/be/ax) 5GHz 6GHz, MIMO",
+    "usb": "Yes",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/asus-rog-phone-9-pro-phantom-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 59.5,
+    "performance": null,
+    "camera": null,
+    "battery": 51.5,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/asus-rog-phone-9-pro"
+  ],
+  "created_at": "2026-06-20T12:07:15.614828",
+  "updated_at": "2026-06-20T12:07:15.614828"
+}

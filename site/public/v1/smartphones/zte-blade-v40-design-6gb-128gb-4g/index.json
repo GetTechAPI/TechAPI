@@ -1,0 +1,90 @@
+{
+  "id": 39193,
+  "slug": "zte-blade-v40-design-6gb-128gb-4g",
+  "base_model_slug": "blade-v40-design",
+  "name": "Zte Blade V40 Design",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 2071,
+    "slug": "unisoc-tiger-t616",
+    "name": "UNISOC Tiger T616",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G57",
+    "url": "/v1/socs/unisoc-tiger-t616"
+  },
+  "release_date": "2023-01-10",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "1080 x 2408",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+2+2MP"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 22.5,
+  "charging_wireless_w": null,
+  "weight_g": 183.4,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 b/g/n)",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/ZTE Blade V40 Design Official Image..jpg.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.9,
+    "performance": null,
+    "camera": null,
+    "battery": 23.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/zte-blade-v40-design"
+  ],
+  "created_at": "2026-06-20T12:07:23.903408",
+  "updated_at": "2026-06-20T12:07:23.903408"
+}

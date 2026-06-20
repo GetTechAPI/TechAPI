@@ -1,0 +1,91 @@
+{
+  "id": 34872,
+  "slug": "xiaomi-mi-5s-plus-4gb-64gb-4g",
+  "base_model_slug": "mi-5s-plus",
+  "name": "Xiaomi Mi 5s Plus",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1644,
+    "slug": "qualcomm-msm8996-snapdragon-821",
+    "name": "Qualcomm MSM8996 Snapdragon 821",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-821"
+  },
+  "release_date": "2016-10-18",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "1080 x 1920",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+13MP"
+    }
+  ],
+  "battery_mah": 3800,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v6",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "USB Type-C",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/xiaomi-mi-5s-plus-gold-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.6,
+    "performance": null,
+    "camera": null,
+    "battery": 12.6,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/xiaomi-mi-5s-plus"
+  ],
+  "created_at": "2026-06-20T12:07:22.840488",
+  "updated_at": "2026-06-20T12:07:22.840488"
+}

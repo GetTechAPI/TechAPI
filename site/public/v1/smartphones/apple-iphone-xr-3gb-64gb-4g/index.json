@@ -1,0 +1,90 @@
+{
+  "id": 1722,
+  "slug": "apple-iphone-xr-3gb-64gb-4g",
+  "base_model_slug": "iphone-xr",
+  "name": "Apple iPhone XR",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 28,
+    "slug": "apple-a12-bionic",
+    "name": "Apple A12 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a12-bionic"
+  },
+  "release_date": "2018-10-26",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "828 x 1792",
+    "type": "Liquid Retina IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    }
+  ],
+  "battery_mah": 2942,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": null,
+  "weight_g": 194.0,
+  "dimensions": {},
+  "ip_rating": "IP67",
+  "os": "iOS v12.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz, MIMO",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/17107793941C6xQ.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.4,
+    "performance": 4.7,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/apple-iphone-xr"
+  ],
+  "created_at": "2026-06-20T12:07:15.238584",
+  "updated_at": "2026-06-20T12:07:15.238584"
+}

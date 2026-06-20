@@ -1,0 +1,91 @@
+{
+  "id": 10190,
+  "slug": "infinix-note-12-pro-8gb-256gb-4g",
+  "base_model_slug": "note-12-pro",
+  "name": "Infinix Note 12 Pro",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1207,
+    "slug": "mediatek-helio",
+    "name": "Mediatek Helio",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-helio"
+  },
+  "release_date": "2022-07-18",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1080 x 2400",
+    "type": "AMOLED",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108+2MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "Yes",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/17101614295IGfB.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 33.0,
+    "performance": null,
+    "camera": null,
+    "battery": 33.4,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/infinix-note-12-pro"
+  ],
+  "created_at": "2026-06-20T12:07:17.140108",
+  "updated_at": "2026-06-20T12:07:17.140108"
+}

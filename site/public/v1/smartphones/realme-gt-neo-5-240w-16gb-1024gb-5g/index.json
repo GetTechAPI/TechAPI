@@ -1,0 +1,91 @@
+{
+  "id": 23077,
+  "slug": "realme-gt-neo-5-240w-16gb-1024gb-5g",
+  "base_model_slug": "gt-neo-5-240w",
+  "name": "Realme GT Neo 5 240W",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1432,
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm"
+  },
+  "release_date": "2023-02-09",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 1024
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual Nano SIM"
+  },
+  "display": {
+    "size_inch": 6.74,
+    "resolution": "1240 x 2772",
+    "type": "AMOLED",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+8+2MP"
+    }
+  ],
+  "battery_mah": 4600,
+  "charging_wired_w": 240.0,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual Nano SIM",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/1713637379qvOFn.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 55.8,
+    "performance": null,
+    "camera": null,
+    "battery": 44.0,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/realme-gt-neo-5-240w"
+  ],
+  "created_at": "2026-06-20T12:07:20.122822",
+  "updated_at": "2026-06-20T12:07:20.122822"
+}

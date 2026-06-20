@@ -1,0 +1,91 @@
+{
+  "id": 10424,
+  "slug": "itel-s23-plus-8gb-256gb-4g",
+  "base_model_slug": "s23-plus",
+  "name": "Itel S23 Plus",
+  "brand": {
+    "id": 29,
+    "slug": "itel",
+    "name": "itel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/itel"
+  },
+  "soc": {
+    "id": 2073,
+    "slug": "unisoc-t616",
+    "name": "Unisoc T616",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t616"
+  },
+  "release_date": "2023-09-19",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1080 x 2400",
+    "type": "AMOLED",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+0.08MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 178.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.1",
+    "wlan": "Wi-Fi 5 (802.11 b/g/n/ac) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/itel-s23-plus-lake-cyan-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.6,
+    "performance": null,
+    "camera": null,
+    "battery": 30.6,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/itel-s23-plus"
+  ],
+  "created_at": "2026-06-20T12:07:17.181052",
+  "updated_at": "2026-06-20T12:07:17.181052"
+}

@@ -1,0 +1,89 @@
+{
+  "id": 1829,
+  "slug": "apple-iphone-11-pro-max-4gb-512gb-4g",
+  "base_model_slug": "iphone-11-pro-max",
+  "name": "Apple iPhone 11 Pro Max (512GB)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 32,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2019-09-20",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 512
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1242 x 2688",
+    "type": "Super Retina XDR OLED"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12+12+12MP"
+    }
+  ],
+  "battery_mah": 3969,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 226.0,
+  "dimensions": {},
+  "ip_rating": "IP68",
+  "os": "iOS v13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual stand-by)",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax) 5GHz",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/apple-iphone-11-pro-max-midnight-green-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.9,
+    "performance": 16.7,
+    "camera": null,
+    "battery": 15.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/apple-iphone-11-pro-max-512gb"
+  ],
+  "created_at": "2026-06-20T12:07:15.261801",
+  "updated_at": "2026-06-20T12:07:15.261801"
+}

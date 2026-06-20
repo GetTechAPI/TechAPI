@@ -1,0 +1,91 @@
+{
+  "id": 34275,
+  "slug": "vivo-x100-ultra-16gb-512gb-5g",
+  "base_model_slug": "x100-ultra",
+  "name": "Vivo X100 Ultra (16GB+512GB)",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1397,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2024-05-28",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1440 x 3200",
+    "type": "AMOLED",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+50+200MP"
+    }
+  ],
+  "battery_mah": 5500,
+  "charging_wired_w": 80.0,
+  "charging_wireless_w": null,
+  "weight_g": 229.0,
+  "dimensions": {},
+  "ip_rating": "IP69/IP68",
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.4",
+    "wlan": "Wi-Fi 7 (802.11 a/b/g/n/ac/be/ax) 5GHz 6GHz, MIMO",
+    "usb": "USB Type-C 3.2",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/vivo-x100-ultra-titanium-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 53.7,
+    "performance": null,
+    "camera": null,
+    "battery": 49.9,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/vivo-x100-ultra-16gb-512gb"
+  ],
+  "created_at": "2026-06-20T12:07:22.728777",
+  "updated_at": "2026-06-20T12:07:22.728777"
+}

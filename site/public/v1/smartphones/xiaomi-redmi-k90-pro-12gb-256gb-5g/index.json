@@ -1,0 +1,91 @@
+{
+  "id": 37569,
+  "slug": "xiaomi-redmi-k90-pro-12gb-256gb-5g",
+  "base_model_slug": "redmi-k90-pro",
+  "name": "Xiaomi Redmi K90 Pro",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 615,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2025-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1440 x 3200",
+    "type": "OLED",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+50+48MP"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": 120.0,
+  "charging_wireless_w": null,
+  "weight_g": 217.0,
+  "dimensions": {},
+  "ip_rating": "IP68",
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v6.0",
+    "wlan": "Wi-Fi 7 (802.11 a/b/g/n/ac/be/ax) 5GHz 6GHz, MIMO",
+    "usb": "Yes",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/redmi-k90-pro-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 66.2,
+    "performance": null,
+    "camera": null,
+    "battery": 65.0,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/redmi-k90-pro"
+  ],
+  "created_at": "2026-06-20T12:07:23.491348",
+  "updated_at": "2026-06-20T12:07:23.491348"
+}

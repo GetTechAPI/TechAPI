@@ -1,0 +1,90 @@
+{
+  "id": 15361,
+  "slug": "motorola-nexus-6-3gb-32gb-4g",
+  "base_model_slug": "nexus-6",
+  "name": "Motorola Nexus 6",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1478,
+    "slug": "qualcomm-apq8084-snapdragon-805",
+    "name": "Qualcomm APQ8084 Snapdragon 805",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 420",
+    "url": "/v1/socs/qualcomm-apq8084-snapdragon-805"
+  },
+  "release_date": "2014-11-20",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.96,
+    "resolution": "1440 x 2560",
+    "type": "AMOLED",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 3220,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v5.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/motorola-nexus-6-midnight-blue-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.9,
+    "performance": null,
+    "camera": null,
+    "battery": 3.3,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/motorola-nexus-6"
+  ],
+  "created_at": "2026-06-20T12:07:18.386278",
+  "updated_at": "2026-06-20T12:07:18.386278"
+}

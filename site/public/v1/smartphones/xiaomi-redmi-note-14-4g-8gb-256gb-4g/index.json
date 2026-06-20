@@ -1,0 +1,91 @@
+{
+  "id": 37573,
+  "slug": "xiaomi-redmi-note-14-4g-8gb-256gb-4g",
+  "base_model_slug": "redmi-note-14-4g",
+  "name": "Xiaomi Redmi Note 14 4G (8GB+256GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1207,
+    "slug": "mediatek-helio",
+    "name": "Mediatek Helio",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-helio"
+  },
+  "release_date": "2025-01-14",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080 x 2400",
+    "type": "AMOLED",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108+2+2MP"
+    }
+  ],
+  "battery_mah": 5500,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 196.5,
+  "dimensions": {},
+  "ip_rating": "IP54",
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.3",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/xiaomi-redmi-note-14-4g-mist-purple-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 49.2,
+    "performance": null,
+    "camera": null,
+    "battery": 40.9,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/xiaomi-redmi-note-14-4g-8gb-256gb"
+  ],
+  "created_at": "2026-06-20T12:07:23.492349",
+  "updated_at": "2026-06-20T12:07:23.492349"
+}

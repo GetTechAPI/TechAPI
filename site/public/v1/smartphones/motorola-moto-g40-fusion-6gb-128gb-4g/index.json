@@ -1,0 +1,91 @@
+{
+  "id": 16037,
+  "slug": "motorola-moto-g40-fusion-6gb-128gb-4g",
+  "base_model_slug": "moto-g40-fusion",
+  "name": "Motorola Moto G40 Fusion (6GB/128GB)",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1397,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2021-05-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080 x 2460",
+    "type": "IPS LCD",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64+8+2MP"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": null,
+  "weight_g": 225.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/Motorola Moto G40 Fusion.jpg.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 51.8,
+    "performance": null,
+    "camera": null,
+    "battery": 46.0,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/motorola-moto-g40-fusion-6gb-128gb"
+  ],
+  "created_at": "2026-06-20T12:07:18.516409",
+  "updated_at": "2026-06-20T12:07:18.516409"
+}

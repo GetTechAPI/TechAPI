@@ -1,0 +1,91 @@
+{
+  "id": 16445,
+  "slug": "motorola-moto-e13-4gb-64gb-4g",
+  "base_model_slug": "moto-e13",
+  "name": "Motorola Moto E13",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 2063,
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t606"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual Nano SIM"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720 x 1600",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 179.5,
+  "dimensions": {},
+  "ip_rating": "IP52",
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual Nano SIM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz, MIMO",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/1713792324Z66gA.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.8,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 30.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/motorola-moto-e13"
+  ],
+  "created_at": "2026-06-20T12:07:18.598925",
+  "updated_at": "2026-06-20T12:07:18.598925"
+}

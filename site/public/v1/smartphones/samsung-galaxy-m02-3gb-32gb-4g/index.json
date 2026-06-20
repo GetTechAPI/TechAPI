@@ -1,0 +1,90 @@
+{
+  "id": 27181,
+  "slug": "samsung-galaxy-m02-3gb-32gb-4g",
+  "base_model_slug": "galaxy-m02",
+  "name": "Samsung Galaxy M02",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1142,
+    "slug": "mediatek-mt6739wm",
+    "name": "Mediatek MT6739WM",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739wm"
+  },
+  "release_date": "2021-02-09",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720 x 1600",
+    "type": "PLS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+2MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "v10",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)",
+    "bluetooth": "5.0, A2DP, LE",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "GPS, GLONASS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/17101827781893a.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.2,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/samsung-galaxy-m02-3gb-ram"
+  ],
+  "created_at": "2026-06-20T12:07:21.018901",
+  "updated_at": "2026-06-20T12:07:21.018901"
+}

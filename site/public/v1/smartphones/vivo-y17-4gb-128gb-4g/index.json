@@ -1,0 +1,90 @@
+{
+  "id": 32918,
+  "slug": "vivo-y17-4gb-128gb-4g",
+  "base_model_slug": "y17",
+  "name": "Vivo Y17",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1123,
+    "slug": "helio-p35",
+    "name": "Helio P35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-p35"
+  },
+  "release_date": "2019-04-24",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM, Dual VoLTE"
+  },
+  "display": {
+    "size_inch": 6.35,
+    "resolution": "720 x 1544",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+8+2MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 190.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM, Dual VoLTE",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n) 5GHz",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/vivo-y17-mystic-purple-colour.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 30.6,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/vivo-y17"
+  ],
+  "created_at": "2026-06-20T12:07:22.431153",
+  "updated_at": "2026-06-20T12:07:22.431153"
+}

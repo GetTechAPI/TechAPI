@@ -1,0 +1,91 @@
+{
+  "id": 6038,
+  "slug": "honor-9x-4gb-64gb-4g",
+  "base_model_slug": "9x",
+  "name": "Honor 9X",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 615,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2019-10-02",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.59,
+    "resolution": "1080 x 2340",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48+8+2MP"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 196.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/honor-9x-sapphire-blue-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.8,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/honor-9x"
+  ],
+  "created_at": "2026-06-20T12:07:16.302723",
+  "updated_at": "2026-06-20T12:07:16.302723"
+}

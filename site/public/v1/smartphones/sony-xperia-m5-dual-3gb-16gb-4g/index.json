@@ -1,0 +1,90 @@
+{
+  "id": 30501,
+  "slug": "sony-xperia-m5-dual-3gb-16gb-4g",
+  "base_model_slug": "xperia-m5-dual",
+  "name": "Sony Xperia M5 Dual",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1068,
+    "slug": "mediatek-mt6795-helio-x10",
+    "name": "Mediatek MT6795 Helio X10",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6200",
+    "url": "/v1/socs/mediatek-mt6795-helio-x10"
+  },
+  "release_date": "2015-09-03",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "1080 x 1920",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "21.2MP"
+    }
+  ],
+  "battery_mah": 2600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 142.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v5.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.1",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/sony-xperia-m5-dual-official-gold-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/sony-xperia-m5-dual"
+  ],
+  "created_at": "2026-06-20T12:07:21.737137",
+  "updated_at": "2026-06-20T12:07:21.737137"
+}

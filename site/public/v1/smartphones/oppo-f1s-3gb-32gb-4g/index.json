@@ -1,0 +1,90 @@
+{
+  "id": 19226,
+  "slug": "oppo-f1s-3gb-32gb-4g",
+  "base_model_slug": "f1s",
+  "name": "Oppo F1s",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1088,
+    "slug": "mediatek-mt6755",
+    "name": "Mediatek MT6755",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T860MP2",
+    "url": "/v1/socs/mediatek-mt6755"
+  },
+  "release_date": "2016-08-13",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720 x 1280",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 3075,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v5.1",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 a/b/g/n) 5GHz",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/oppo-f1s-gold-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.8,
+    "performance": null,
+    "camera": null,
+    "battery": 1.1,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/oppo-f1s"
+  ],
+  "created_at": "2026-06-20T12:07:19.210953",
+  "updated_at": "2026-06-20T12:07:19.210953"
+}

@@ -1,0 +1,89 @@
+{
+  "id": 7565,
+  "slug": "huawei-ascend-mate7-2gb-16gb-4g",
+  "base_model_slug": "ascend-mate7",
+  "name": "Huawei Ascend Mate7",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 775,
+    "slug": "hisilicon-kirin-925",
+    "name": "HiSilicon Kirin 925",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T628 MP4",
+    "url": "/v1/socs/hisilicon-kirin-925"
+  },
+  "release_date": "2014-10-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "1080 x 1920",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v4.4.2",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 a/b/g/n)",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-ascend-mate7.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.5,
+    "performance": null,
+    "camera": null,
+    "battery": 16.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-ascend-mate7"
+  ],
+  "created_at": "2026-06-20T12:07:16.600325",
+  "updated_at": "2026-06-20T12:07:16.600325"
+}

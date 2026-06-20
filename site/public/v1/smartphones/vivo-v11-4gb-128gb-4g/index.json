@@ -1,0 +1,90 @@
+{
+  "id": 32537,
+  "slug": "vivo-v11-4gb-128gb-4g",
+  "base_model_slug": "v11",
+  "name": "Vivo V11",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1651,
+    "slug": "qualcomm-sdm660-snapdragon-660",
+    "name": "Qualcomm SDM660 Snapdragon 660",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 512",
+    "url": "/v1/socs/qualcomm-sdm660-snapdragon-660"
+  },
+  "release_date": "2018-09-10",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.41,
+    "resolution": "1080 x 2340",
+    "type": "Super AMOLED",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12+5MP"
+    }
+  ],
+  "battery_mah": 3400,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 163.7,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.1",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n) 5GHz",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/vivo-v11-starry-night-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.6,
+    "performance": null,
+    "camera": null,
+    "battery": 6.6,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/vivo-v11"
+  ],
+  "created_at": "2026-06-20T12:07:22.356042",
+  "updated_at": "2026-06-20T12:07:22.356042"
+}

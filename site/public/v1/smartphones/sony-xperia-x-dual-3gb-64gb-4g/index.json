@@ -1,0 +1,90 @@
+{
+  "id": 30552,
+  "slug": "sony-xperia-x-dual-3gb-64gb-4g",
+  "base_model_slug": "xperia-x-dual",
+  "name": "Sony Xperia X Dual",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 615,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2016-05-05",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "1080 x 1920",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "23MP"
+    }
+  ],
+  "battery_mah": 2620,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 153.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v6.0.1",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 5 (802.11 a/g/n/ac) 5GHz",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/sony-xperia-x-dual-graphite-black-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.6,
+    "performance": null,
+    "camera": null,
+    "battery": 0.6,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/sony-xperia-x-dual"
+  ],
+  "created_at": "2026-06-20T12:07:21.744721",
+  "updated_at": "2026-06-20T12:07:21.744721"
+}

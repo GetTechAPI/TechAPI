@@ -1,0 +1,91 @@
+{
+  "id": 39286,
+  "slug": "zte-voyage-3d-6gb-128gb-5g",
+  "base_model_slug": "voyage-3d",
+  "name": "Zte Voyage 3D",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 615,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2024-06-27",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.58,
+    "resolution": "1080 x 2408",
+    "type": "IPS LCD",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+5MP"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/zte-voyage-3d-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 41.7,
+    "performance": null,
+    "camera": null,
+    "battery": 25.9,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/zte-voyage-3d"
+  ],
+  "created_at": "2026-06-20T12:07:23.921409",
+  "updated_at": "2026-06-20T12:07:23.921409"
+}

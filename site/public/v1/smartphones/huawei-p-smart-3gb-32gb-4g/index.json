@@ -1,0 +1,89 @@
+{
+  "id": 8013,
+  "slug": "huawei-p-smart-3gb-32gb-4g",
+  "base_model_slug": "p-smart",
+  "name": "Huawei P Smart",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 835,
+    "slug": "kirin-659",
+    "name": "Kirin 659",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T830 MP2",
+    "url": "/v1/socs/kirin-659"
+  },
+  "release_date": "2017-12-22",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.65,
+    "resolution": "1080 x 2160",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+2MP"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 143.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-p-smart-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-p-smart"
+  ],
+  "created_at": "2026-06-20T12:07:16.697844",
+  "updated_at": "2026-06-20T12:07:16.697844"
+}

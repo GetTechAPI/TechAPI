@@ -1,0 +1,90 @@
+{
+  "id": 8231,
+  "slug": "huawei-y-max-4gb-128gb-4g",
+  "base_model_slug": "y-max",
+  "name": "Huawei Y Max",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1651,
+    "slug": "qualcomm-sdm660-snapdragon-660",
+    "name": "Qualcomm SDM660 Snapdragon 660",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 512",
+    "url": "/v1/socs/qualcomm-sdm660-snapdragon-660"
+  },
+  "release_date": "2018-12-20",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 7.12,
+    "resolution": "1080 x 2244",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16+2MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.1",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-y-max-amber-brown-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.2,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-y-max"
+  ],
+  "created_at": "2026-06-20T12:07:16.735849",
+  "updated_at": "2026-06-20T12:07:16.735849"
+}

@@ -1,0 +1,91 @@
+{
+  "id": 34346,
+  "slug": "vivo-y04-4gb-128gb-5g",
+  "base_model_slug": "y04",
+  "name": "Vivo Y04 (128GB)",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 2079,
+    "slug": "unisoc-t7225",
+    "name": "Unisoc T7225",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57",
+    "url": "/v1/socs/unisoc-t7225"
+  },
+  "release_date": "2025-03-17",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.74,
+    "resolution": "720 x 1600",
+    "type": "IPS LCD",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+0.08MP"
+    }
+  ],
+  "battery_mah": 5500,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": "IP64",
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/vivo-y04-jade-green-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 41.2,
+    "performance": null,
+    "camera": null,
+    "battery": 37.5,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/vivo-y04-128gb"
+  ],
+  "created_at": "2026-06-20T12:07:22.739781",
+  "updated_at": "2026-06-20T12:07:22.739781"
+}

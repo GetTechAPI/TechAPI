@@ -1,0 +1,90 @@
+{
+  "id": 1104,
+  "slug": "alcatel-3-3gb-64gb-4g",
+  "base_model_slug": "3",
+  "name": "Alcatel 3 (2025)",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 2058,
+    "slug": "unisoc-sc9863",
+    "name": "Unisoc SC9863",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/unisoc-sc9863"
+  },
+  "release_date": "2025-05-21",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "576 x 1280",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8MP"
+    }
+  ],
+  "battery_mah": 5010,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/alcatel-3-2025-teal-blue-official-color-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.2,
+    "performance": null,
+    "camera": null,
+    "battery": 30.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/alcatel-3-2025"
+  ],
+  "created_at": "2026-06-20T12:07:15.102248",
+  "updated_at": "2026-06-20T12:07:15.102248"
+}

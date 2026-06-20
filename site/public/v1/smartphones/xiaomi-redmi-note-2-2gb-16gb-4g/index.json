@@ -1,0 +1,89 @@
+{
+  "id": 34811,
+  "slug": "xiaomi-redmi-note-2-2gb-16gb-4g",
+  "base_model_slug": "redmi-note-2",
+  "name": "Xiaomi Redmi Note 2",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1068,
+    "slug": "mediatek-mt6795-helio-x10",
+    "name": "Mediatek MT6795 Helio X10",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6200",
+    "url": "/v1/socs/mediatek-mt6795-helio-x10"
+  },
+  "release_date": "2015-08-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1080 x 1920",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 3060,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v5.0 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/xiaomi-redmi-note-2-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.9,
+    "performance": null,
+    "camera": null,
+    "battery": 0.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/xiaomi-redmi-note-2"
+  ],
+  "created_at": "2026-06-20T12:07:22.828743",
+  "updated_at": "2026-06-20T12:07:22.828743"
+}

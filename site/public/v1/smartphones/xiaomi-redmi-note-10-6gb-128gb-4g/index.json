@@ -1,0 +1,91 @@
+{
+  "id": 36038,
+  "slug": "xiaomi-redmi-note-10-6gb-128gb-4g",
+  "base_model_slug": "redmi-note-10",
+  "name": "Xiaomi Redmi Note 10 (6GB+128GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1397,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2021-03-16",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.43,
+    "resolution": "1080 x 2400",
+    "type": "Super AMOLED",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48+8+2+2MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 178.8,
+  "dimensions": {},
+  "ip_rating": "IP53",
+  "os": "v11",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/1710170534SRYKU.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 33.0,
+    "performance": null,
+    "camera": null,
+    "battery": 33.4,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/xiaomi-redmi-note-10-6gb-128gb"
+  ],
+  "created_at": "2026-06-20T12:07:23.093053",
+  "updated_at": "2026-06-20T12:07:23.093053"
+}

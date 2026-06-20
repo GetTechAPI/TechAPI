@@ -1,0 +1,90 @@
+{
+  "id": 4837,
+  "slug": "coolpad-cool-3-plus-3gb-32gb-4g",
+  "base_model_slug": "cool-3-plus",
+  "name": "Coolpad Cool 3 Plus",
+  "brand": {
+    "id": 17,
+    "slug": "coolpad",
+    "name": "Coolpad",
+    "country": "CN",
+    "url": "/v1/brands/coolpad"
+  },
+  "soc": {
+    "id": 1121,
+    "slug": "helio-a22",
+    "name": "Helio A22",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8300",
+    "url": "/v1/socs/helio-a22"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.71,
+    "resolution": "720 x 1520",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/coolpad-cool-3-ocean-blue-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/coolpad-cool-3-plus"
+  ],
+  "created_at": "2026-06-20T12:07:15.912435",
+  "updated_at": "2026-06-20T12:07:15.912435"
+}

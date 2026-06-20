@@ -1,0 +1,90 @@
+{
+  "id": 21834,
+  "slug": "panasonic-eluga-ray-530-3gb-32gb-4g",
+  "base_model_slug": "eluga-ray-530",
+  "name": "Panasonic Eluga Ray 530",
+  "brand": {
+    "id": 103,
+    "slug": "panasonic",
+    "name": "Panasonic",
+    "country": "JP",
+    "url": "/v1/brands/panasonic"
+  },
+  "soc": {
+    "id": 1169,
+    "slug": "mediatek-mt6739",
+    "name": "Mediatek MT6739",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739"
+  },
+  "release_date": "2018-10-30",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "720 x 1440",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 141.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/panasonic-eluga-ray-530-blue-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/panasonic-eluga-ray-530"
+  ],
+  "created_at": "2026-06-20T12:07:19.875713",
+  "updated_at": "2026-06-20T12:07:19.875713"
+}

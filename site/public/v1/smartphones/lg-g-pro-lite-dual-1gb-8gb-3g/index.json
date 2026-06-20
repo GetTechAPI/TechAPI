@@ -1,0 +1,89 @@
+{
+  "id": 12248,
+  "slug": "lg-g-pro-lite-dual-1gb-8gb-3g",
+  "base_model_slug": "g-pro-lite-dual",
+  "name": "Lg G Pro Lite Dual",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1000,
+    "slug": "mediatek-mt6577",
+    "name": "Mediatek MT6577",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 40.0,
+    "gpu_name": "PowerVR SGX531u",
+    "url": "/v1/socs/mediatek-mt6577"
+  },
+  "release_date": "2013-11-07",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "540 x 960",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8MP"
+    }
+  ],
+  "battery_mah": 3140,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 161.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v4.1.2",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/lg-g-pro-lite-dual-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.1,
+    "performance": null,
+    "camera": null,
+    "battery": 2.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/lg-g-pro-lite-dual"
+  ],
+  "created_at": "2026-06-20T12:07:17.732697",
+  "updated_at": "2026-06-20T12:07:17.732697"
+}

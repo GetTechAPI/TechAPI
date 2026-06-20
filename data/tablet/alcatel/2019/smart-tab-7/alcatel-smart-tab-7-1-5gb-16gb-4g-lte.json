@@ -1,0 +1,103 @@
+{
+  "slug": "alcatel-smart-tab-7-1-5gb-16gb-4g-lte",
+  "name": "alcatel Smart Tab 7",
+  "brand": "alcatel",
+  "release_date": "2019-09-01",
+  "ram_gb": 1.5,
+  "battery_mah": 2580,
+  "weight_g": 268.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "smart-tab-7",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.5,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "TN TFT LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "Speed": "No",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2019, September",
+      "Status": "Available. Released 2019, Q4"
+    },
+    "Body": {
+      "Dimensions": "176 x 126 x 12 mm (6.93 x 4.96 x 0.47 in)",
+      "Weight": "268 g (9.45 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "TN TFT LCD",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie)",
+      "Chipset": "Mediatek MT8167D",
+      "CPU": "Quad-core 1.3 GHz Cortex-A53",
+      "GPU": "IMG GE8300"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 1.5GB RAM"
+    },
+    "Main Camera": {
+      "Single": "0.3 MP, f/2.4, 1/5.0\""
+    },
+    "Selfie camera": {
+      "Single": "2 MP, f/2.4, 1/5.0\", 1.65µm"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with dual speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2580 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 80 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt8167d"
+}

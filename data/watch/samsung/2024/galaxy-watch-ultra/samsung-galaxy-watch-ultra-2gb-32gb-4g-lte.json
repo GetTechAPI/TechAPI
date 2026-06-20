@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-watch-ultra-2gb-32gb-4g-lte",
+  "name": "Samsung Galaxy Watch Ultra",
+  "brand": "samsung",
+  "release_date": "2024-07-10",
+  "ram_gb": 2.0,
+  "battery_mah": 590,
+  "weight_g": 60.5,
+  "os": "Android Wear OS 5, One UI Watch 6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-watch-ultra",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.5 inches",
+    "resolution": "480 x 480 pixels (~327 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, July 10",
+      "Status": "Available. Released 2024, July 24"
+    },
+    "Body": {
+      "Dimensions": "47.4 x 47.4 x 12.1 mm (1.87 x 1.87 x 0.48 in)",
+      "Weight": "60.5 g (2.15 oz)",
+      "Build": "Sapphire crystal front, ceramic/sapphire crystal back, titanium frame (grade 4)",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "1.5 inches",
+      "Resolution": "480 x 480 pixels (~327 ppi density)",
+      "Protection": "Sapphire crystal glass"
+    },
+    "Platform": {
+      "OS": "Android Wear OS 5, One UI Watch 6",
+      "Chipset": "Exynos W1000 (3 nm)",
+      "CPU": "Penta-core",
+      "GPU": "Mali-G68"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "5.3, A2DP, LE",
+      "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer, altimeter, compass, SpO2, temperature (body), temperature (water), BioActive"
+    },
+    "Battery": {
+      "Type": "Li-Ion 590 mAh, non-removable",
+      "Charging": "10W wireless (Qi)"
+    },
+    "Misc": {
+      "Colors": "Titanium Sliver, Titanium Gray, Titanium White",
+      "Models": "SM-L705F, SM-L705N, SM-L705U",
+      "SAR EU": "0.11 W/kg (head)     0.36 W/kg (body)     "
+    }
+  },
+  "storage_options_gb": [
+    32
+  ]
+}

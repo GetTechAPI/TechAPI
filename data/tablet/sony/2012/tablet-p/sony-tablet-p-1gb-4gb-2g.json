@@ -1,0 +1,102 @@
+{
+  "slug": "sony-tablet-p-1gb-4gb-2g",
+  "name": "Sony Tablet P",
+  "brand": "sony",
+  "release_date": "2012-09-01",
+  "ram_gb": 1.0,
+  "battery_mah": 3080,
+  "weight_g": 372.0,
+  "os": "Android 3.2 (Honeycomb), upgradable to 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tablet-p",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 75.0 cm",
+    "resolution": "1024 x 480 pixels (~206 ppi density)",
+    "type": "Dual TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA",
+    "bluetooth": "2.1, A2DP",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2012, Q1. Released 2012, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "180 x 158 x 14 mm (opened), 180 x 79 x 28 mm (closed)",
+      "Weight": "372 g (13.12 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Dual TFT",
+      "Size": "5.5 inches, 75.0 cm",
+      "Resolution": "1024 x 480 pixels (~206 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 3.2 (Honeycomb), upgradable to 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Nvidia Tegra 2 T20",
+      "CPU": "Dual-core 1.0 GHz Cortex-A9",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA",
+      "Bluetooth": "2.1, A2DP",
+      "Positioning": "GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 3080 mAh battery",
+      "Stand-by": "Up to 120 h",
+      "Music play": "Up to 17 h"
+    },
+    "Misc": {
+      "Colors": "Silver/Black",
+      "Price": "About 210 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "nvidia-tegra-2-t20"
+}

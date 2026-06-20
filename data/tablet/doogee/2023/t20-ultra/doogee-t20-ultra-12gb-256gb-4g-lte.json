@@ -1,0 +1,106 @@
+{
+  "slug": "doogee-t20-ultra-12gb-256gb-4g-lte",
+  "name": "Doogee T20 Ultra",
+  "brand": "doogee",
+  "release_date": "2023-10-01",
+  "ram_gb": 12.0,
+  "battery_mah": 10800,
+  "weight_g": 568.0,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "t20-ultra",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "12.0 inches, 409.9 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~194 ppi density)",
+    "type": "IPS LCD, 350 nits"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG, magnetic accessory connector pins"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 66",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, October",
+      "Status": "Available. Released 2023, November"
+    },
+    "Body": {
+      "Dimensions": "278.8 x 174.3 x 7.6 mm (10.98 x 6.86 x 0.30 in)",
+      "Weight": "568 g (1.25 lb)",
+      "Build": "Glass front, aluminum frame, aluminum back",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 350 nits",
+      "Size": "12.0 inches, 409.9 cm",
+      "Resolution": "1200 x 2000 pixels, 5:3 ratio (~194 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13",
+      "Chipset": "Mediatek Helio G99 (6 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP",
+      "Features": "LED flash",
+      "Video": "1440p@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GALILEO, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG, magnetic accessory connector pins"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "10800 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Blue, Gray, Black",
+      "Price": "About 230 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "helio-g99"
+}

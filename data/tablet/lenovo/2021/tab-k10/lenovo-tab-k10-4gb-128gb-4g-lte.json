@@ -1,0 +1,108 @@
+{
+  "slug": "lenovo-tab-k10-4gb-128gb-4g-lte",
+  "name": "Lenovo Tab K10",
+  "brand": "lenovo",
+  "release_date": "2021-05-19",
+  "ram_gb": 4.0,
+  "battery_mah": 7700,
+  "weight_g": 460.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tab-k10",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.3 inches, 307.6 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~220 ppi density)",
+    "type": "IPS LCD, 330 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 19, 20, 26, 28, 34, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2021, May 19",
+      "Status": "Available. Released 2021, June"
+    },
+    "Body": {
+      "Dimensions": "244 x 153 x 8.2 mm (9.61 x 6.02 x 0.32 in)",
+      "Weight": "460 g (1.01 lb)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD, 330 nits (typ)",
+      "Size": "10.3 inches, 307.6 cm",
+      "Resolution": "1200 x 1920 pixels, 16:10 ratio (~220 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 11",
+      "Chipset": "Mediatek MT6762 Helio P22T (12 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 7700 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Abyss Blue",
+      "Models": "TB-X6C6F, TB-X6C6X",
+      "Price": "About 170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "soc": "mediatek-mt6762-helio-p22t"
+}

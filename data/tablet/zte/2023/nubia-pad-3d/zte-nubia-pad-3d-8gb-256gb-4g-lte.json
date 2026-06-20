@@ -1,0 +1,109 @@
+{
+  "slug": "zte-nubia-pad-3d-8gb-256gb-4g-lte",
+  "name": "ZTE nubia Pad 3D",
+  "brand": "zte",
+  "release_date": "2023-02-28",
+  "ram_gb": 8.0,
+  "battery_mah": 9070,
+  "weight_g": 780.0,
+  "os": "Android 12L",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nubia-pad-3d",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "12.4 inches, 445.8 cm",
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~243 ppi density)",
+    "type": "IPS LCD, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 3.1, OTG, magnetic connector, video output"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2023, February 28",
+      "Status": "Available. Released 2023, April 11"
+    },
+    "Body": {
+      "Dimensions": "285 x 190 x 8.5 mm (11.22 x 7.48 x 0.33 in)",
+      "Weight": "780 g (1.72 lb)",
+      "Build": "Glass front, aluminum frame, aluminum back",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD, 120Hz",
+      "Size": "12.4 inches, 445.8 cm",
+      "Resolution": "1600 x 2560 pixels, 16:10 ratio (~243 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 12L",
+      "Chipset": "Qualcomm SM8350 Snapdragon 888 5G (5 nm)",
+      "CPU": "Octa-core (1x2.84 GHz Cortex-X1 & 3x2.42 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)",
+      "GPU": "Adreno 660"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.9, 27mm (wide), AF",
+      "Features": "LED flash, HDR, panorama, stereoscopic Al-powered 3D capture",
+      "Video": "1200p@30fps"
+    },
+    "Selfie camera": {
+      "Dual": "8 MP, f.2,2, 105˚ (ultrawide)",
+      "Features": "Stereoscopic Al-powered 3D capture",
+      "Video": "1200p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG, magnetic connector, video output"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass, proximity (accessories only)"
+    },
+    "Battery": {
+      "Type": "9070 mAh, non-removable",
+      "Charging": "33W wired"
+    },
+    "Misc": {
+      "Colors": "Gray",
+      "Price": "About 1300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ]
+}

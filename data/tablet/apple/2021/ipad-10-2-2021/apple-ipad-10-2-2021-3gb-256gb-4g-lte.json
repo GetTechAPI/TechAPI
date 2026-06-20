@@ -1,0 +1,115 @@
+{
+  "slug": "apple-ipad-10-2-2021-3gb-256gb-4g-lte",
+  "name": "Apple iPad 10.2 (2021)",
+  "brand": "apple",
+  "release_date": "2021-09-14",
+  "ram_gb": 3.0,
+  "battery_mah": 8557,
+  "weight_g": 487.0,
+  "os": "iPadOS 15, upgradable to iPadOS 18",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ipad-10-2-2021",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.2 inches, 322.2 cm",
+    "resolution": "1620 x 2160 pixels, 4:3 ratio (~265 ppi density)",
+    "type": "Retina IPS LCD, 500 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.2, A2DP, EDR, LE",
+    "nfc": "No",
+    "usb": "Lightning, USB 2.0; magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 29, 30, 34, 38, 39, 40, 41, 66, 71 - A2603",
+      "Speed": "HSPA, LTE (CA)"
+    },
+    "Launch": {
+      "Announced": "2021, September 14",
+      "Status": "Available. Released 2021, September 24"
+    },
+    "Body": {
+      "Dimensions": "250.6 x 174.1 x 7.5 mm (9.87 x 6.85 x 0.30 in)",
+      "Weight": "487 g (Wi-Fi) / 498 g (LTE) (1.07 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Display": {
+      "Type": "Retina IPS LCD, 500 nits (typ)",
+      "Size": "10.2 inches, 322.2 cm",
+      "Resolution": "1620 x 2160 pixels, 4:3 ratio (~265 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iPadOS 15, upgradable to iPadOS 18",
+      "Chipset": "Apple A13 Bionic (7 nm+)",
+      "CPU": "Hexa-core (2x2.65 GHz Lightning + 4x1.8 GHz Thunder)",
+      "GPU": "Apple GPU (4-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 3GB RAM, 256GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, 31mm (standard), 1.12µm, AF",
+      "Features": "HDR, panorama",
+      "Video": "1080p@25/30fps, 720p@120fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "12 MP, f/2.4, 122˚ (ultrawide)",
+      "Features": "HDR",
+      "Video": "1080p@25/30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "4.2, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS (Wi‑Fi + Cellular model only)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0; magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion, non-removable 8557 mAh (32.4 Wh)"
+    },
+    "Misc": {
+      "Colors": "Silver, Space Gray",
+      "Models": "A2603, A2604, iPad12,1, iPad12,2",
+      "Price": "About 430 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 617292(v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    256
+  ],
+  "soc": "apple-a13-bionic"
+}

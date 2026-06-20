@@ -1,0 +1,105 @@
+{
+  "slug": "blackview-tab-11-se-8gb-256gb-4g-lte",
+  "name": "Blackview Tab 11 SE",
+  "brand": "blackview",
+  "release_date": "2023-02-17",
+  "ram_gb": 8.0,
+  "battery_mah": 7680,
+  "weight_g": 512.0,
+  "os": "Android 12, Doke OS_P 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tab-11-se",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.36 inches, 305.5 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~225 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20, 40",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, February 17",
+      "Status": "Available. Released 2023, February 17"
+    },
+    "Body": {
+      "Dimensions": "249 x 156.7 x 8.1 mm (9.80 x 6.17 x 0.32 in)",
+      "Weight": "512 g (1.13 lb)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "10.36 inches, 305.5 cm",
+      "Resolution": "1200 x 2000 pixels, 5:3 ratio (~225 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, Doke OS_P 3.0",
+      "Chipset": "Unisoc T606 (12 nm)",
+      "CPU": "Octa-core (2x1.6 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.0, A2DP",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "FM Radio",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "7680 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Blue, Gray, Silver",
+      "Price": "About 240 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "unisoc-t606"
+}

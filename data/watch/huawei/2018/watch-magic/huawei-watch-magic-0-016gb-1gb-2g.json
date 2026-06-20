@@ -1,0 +1,92 @@
+{
+  "slug": "huawei-watch-magic-0-016gb-1gb-2g",
+  "name": "Huawei Watch Magic",
+  "brand": "huawei",
+  "release_date": "2018-11-01",
+  "ram_gb": 0.016,
+  "battery_mah": 178,
+  "weight_g": 32.5,
+  "os": "Proprietary OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-magic",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.016,
+      "storage_gb": 1
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.2 inches",
+    "resolution": "390 x 390 pixels (~326 ppi density)",
+    "type": "OLED"
+  },
+  "connectivity": {
+    "wlan": "No",
+    "bluetooth": "4.2, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "Speed": "No",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2018, November",
+      "Status": "Available. Released 2018, November"
+    },
+    "Body": {
+      "Dimensions": "42.8 x 42.8 x 9.8 mm (1.69 x 1.69 x 0.39 in)",
+      "Weight": "32.5 g (1.16 oz)",
+      "Build": "Glass front, plastic back, stainless steel 316L frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "OLED",
+      "Size": "1.2 inches",
+      "Resolution": "390 x 390 pixels (~326 ppi density)"
+    },
+    "Platform": {
+      "OS": "Proprietary OS"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128MB 16MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "No",
+      "Bluetooth": "4.2, LE",
+      "Positioning": "GPS, GLONASS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 178 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Lava Black, Moonlight Silver",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    1
+  ]
+}

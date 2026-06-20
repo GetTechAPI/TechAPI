@@ -1,0 +1,98 @@
+{
+  "slug": "apple-watch-edition-38mm-1st-gen-0-5gb-8gb-2g",
+  "name": "Apple Watch Edition 38mm (1st gen)",
+  "brand": "apple",
+  "release_date": "2014-07-01",
+  "ram_gb": 0.5,
+  "battery_mah": 205,
+  "weight_g": 55.0,
+  "os": "watchOS 1.0, upgradable to watchOS 4.3.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-edition-38mm-1st-gen",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.5 inches",
+    "resolution": "340 x 272 pixels (~290 ppi density)",
+    "type": "Retina OLED, 450 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, September. Released 2015, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "38.6 x 33.3 x 10.5 mm (1.52 x 1.31 x 0.41 in)",
+      "Weight": "55 g body (3.35 oz)",
+      "Build": "Glass front (Sapphire crystal), ceramic back, 18-karat yellow/rose gold frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "Retina OLED, 450 nits (peak)",
+      "Size": "1.5 inches",
+      "Resolution": "340 x 272 pixels (~290 ppi density)",
+      "Protection": "Sapphire crystal glass"
+    },
+    "Platform": {
+      "OS": "watchOS 1.0, upgradable to watchOS 4.3.2",
+      "Chipset": "Apple S1 (28 nm)",
+      "CPU": "520 MHz Cortex-A7",
+      "GPU": "PowerVR SGX543"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "8GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.0, LE",
+      "Positioning": "No",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate"
+    },
+    "Battery": {
+      "Type": "Li-Ion 205 mAh (0.78 Wh), non-removable",
+      "Charging": "Wireless"
+    },
+    "Misc": {
+      "Colors": "18-karat Rose Gold/White, Rose Gray Buckle",
+      "Models": "A1553",
+      "Price": "About 11000 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "apple-s1"
+}

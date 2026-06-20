@@ -1,0 +1,104 @@
+{
+  "slug": "samsung-galaxy-tab-2-10-1-cdma-1gb-16gb-4g-lte",
+  "name": "Samsung Galaxy Tab 2 10.1 CDMA",
+  "brand": "samsung",
+  "release_date": "2012-01-01",
+  "ram_gb": 1.0,
+  "battery_mah": 7000,
+  "weight_g": 581.2,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-2-10-1-cdma",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "PLS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 - SCH-I915, SPH-P500",
+      "3G bands": "CDMA2000 1xEV-DO - SCH-I915, SPH-P500",
+      "4G bands": "4, 13 - SCH-I915",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012. Released 2012",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "256.6 x 175.3 x 9.7 mm (10.10 x 6.90 x 0.38 in)",
+      "Weight": "581.2 g (1.28 lb)",
+      "SIM": "Yes"
+    },
+    "Display": {
+      "Type": "PLS LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Qualcomm MSM8960 Snapdragon S4 Plus",
+      "CPU": "Dual-core 1.5 GHz Krait",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "3.15 MP",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 7000 mAh, non-removable",
+      "Stand-by": "Up to 624 h",
+      "Talk time": "Up to 12 h"
+    },
+    "Misc": {
+      "Colors": "Black/Silver"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus"
+}

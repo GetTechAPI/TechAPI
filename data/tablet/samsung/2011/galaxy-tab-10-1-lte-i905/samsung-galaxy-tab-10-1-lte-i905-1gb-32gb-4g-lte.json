@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-tab-10-1-lte-i905-1gb-32gb-4g-lte",
+  "name": "Samsung Galaxy Tab 10.1 LTE I905",
+  "brand": "samsung",
+  "release_date": "2011-07-01",
+  "ram_gb": 1.0,
+  "battery_mah": 6800,
+  "weight_g": 565.0,
+  "os": "Android 3.1 (Honeycomb)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-10-1-lte-i905",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "PLS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "2.1, A2DP",
+    "nfc": null,
+    "usb": "2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "13",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE"
+    },
+    "Launch": {
+      "Announced": "2011, Q1. Released 2011, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "256.7 x 175.3 x 8.6 mm (10.11 x 6.90 x 0.34 in)",
+      "Weight": "565 g (1.31 lb)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "PLS LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 3.1 (Honeycomb)",
+      "Chipset": "Nvidia Tegra 2 T20",
+      "CPU": "Dual-core 1.0 GHz Cortex-A9",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "3.15 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+      "Bluetooth": "2.1, A2DP",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Po 6800 mAh battery",
+      "Stand-by": "Up to 400 h",
+      "Talk time": "Up to 12 h"
+    },
+    "Misc": {
+      "Colors": "Metallic Gray and White",
+      "SAR": "1.18 W/kg (body)     ",
+      "Price": "About 290 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "nvidia-tegra-2-t20"
+}

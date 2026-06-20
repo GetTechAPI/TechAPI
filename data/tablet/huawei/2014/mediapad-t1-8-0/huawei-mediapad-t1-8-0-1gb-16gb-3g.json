@@ -1,0 +1,108 @@
+{
+  "slug": "huawei-mediapad-t1-8-0-1gb-16gb-3g",
+  "name": "Huawei MediaPad T1 8.0",
+  "brand": "huawei",
+  "release_date": "2014-09-01",
+  "ram_gb": 1.0,
+  "battery_mah": 4800,
+  "weight_g": 360.0,
+  "os": "Android 4.3 (Jelly Bean), EMUI 1.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mediapad-t1-8-0",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "8.0 inches, 187.6 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~188 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "TBC",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA",
+      "Speed": "HSPA 42.2/5.76 Mbps",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2014, September. Released 2014, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "210.6 x 127.7 x 7.9 mm (8.29 x 5.03 x 0.31 in)",
+      "Weight": "360 g (12.70 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "8.0 inches, 187.6 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~188 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean), EMUI 1.6",
+      "Chipset": "Qualcomm MSM8212 Snapdragon 200 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, 1.4µm",
+      "Features": "Panorama",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "TBC",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4800 mAh, non-removable",
+      "Stand-by": "Up to 300 h (2G) / Up to 480 h (3G)",
+      "Talk time": "Up to 10 h (multimedia) (2G) / Up to 36 h (3G)",
+      "Music play": "Up to 20 h"
+    },
+    "Misc": {
+      "Colors": "White/Silver",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "qualcomm-msm8212-snapdragon-200"
+}

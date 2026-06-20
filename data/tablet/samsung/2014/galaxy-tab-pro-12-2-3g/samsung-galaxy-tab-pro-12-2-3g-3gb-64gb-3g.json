@@ -1,0 +1,105 @@
+{
+  "slug": "samsung-galaxy-tab-pro-12-2-3g-3gb-64gb-3g",
+  "name": "Samsung Galaxy Tab Pro 12.2 3G",
+  "brand": "samsung",
+  "release_date": "2014-01-01",
+  "ram_gb": 3.0,
+  "battery_mah": 9500,
+  "weight_g": 732.0,
+  "os": "Android 4.4 (KitKat), TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-pro-12-2-3g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "12.2 inches, 431.6 cm",
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~247 ppi density)",
+    "type": "Super clear LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 3.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, January. Released 2014, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "295.6 x 204 x 8 mm (11.64 x 8.03 x 0.31 in)",
+      "Weight": "732 g (1.61 lb)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super clear LCD",
+      "Size": "12.2 inches, 431.6 cm",
+      "Resolution": "2560 x 1600 pixels, 16:10 ratio (~247 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4 (KitKat), TouchWiz UI",
+      "Chipset": "Exynos 5420 Octa (28 nm)",
+      "CPU": "Octa-core (4x1.9 GHz Cortex-A15 & 4x1.3 GHz Cortex-A7)",
+      "GPU": "Mali-T628 MP6"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM, 64GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 3.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 9500 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 470 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "exynos-5420-octa"
+}

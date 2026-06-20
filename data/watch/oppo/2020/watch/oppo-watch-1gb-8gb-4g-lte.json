@@ -1,0 +1,96 @@
+{
+  "slug": "oppo-watch-1gb-8gb-4g-lte",
+  "name": "Oppo Watch",
+  "brand": "oppo",
+  "release_date": "2020-03-06",
+  "ram_gb": 1.0,
+  "battery_mah": 430,
+  "weight_g": 40.0,
+  "os": "Android Wear OS - International",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.91 inches",
+    "resolution": "402 x 476 pixels (~326 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20, 38 - International",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, March 06",
+      "Status": "Available. Released 2020, March 24"
+    },
+    "Body": {
+      "Dimensions": "46 x 39 x 11.4 mm (1.81 x 1.54 x 0.45 in)",
+      "Weight": "40 g (aluminum) / 45.5 g (stainless steel) (1.41 oz)",
+      "Build": "Glass front, stainless steel frame or aluminum frame, ceramic/sapphire crystal back or plastic back",
+      "SIM": "eSIM (market/region dependent)"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "1.91 inches",
+      "Resolution": "402 x 476 pixels (~326 ppi density)",
+      "Protection": "Schott Xensation Up (46mm), Corning Gorilla Glass (41mm)"
+    },
+    "Platform": {
+      "OS": "Android Wear OS - International",
+      "Chipset": "Qualcomm Snapdragon Wear 3100 (28 nm) - International",
+      "CPU": "Quad-core 1.09 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 430 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, Glossy Gold, Pink Gold, Silver Mist",
+      "Price": "About 100 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ]
+}

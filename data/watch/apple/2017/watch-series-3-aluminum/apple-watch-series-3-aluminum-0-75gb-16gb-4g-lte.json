@@ -1,0 +1,101 @@
+{
+  "slug": "apple-watch-series-3-aluminum-0-75gb-16gb-4g-lte",
+  "name": "Apple Watch Series 3 Aluminum",
+  "brand": "apple",
+  "release_date": "2017-09-01",
+  "ram_gb": 0.75,
+  "battery_mah": 341,
+  "weight_g": 34.9,
+  "os": "watchOS 4.0, upgradable to watchOS 8.7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-series-3-aluminum",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.75,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.65 inches",
+    "resolution": "390 x 312 pixels (~303 ppi density)",
+    "type": "Retina OLED, 1000 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 2100 / 800 - Europe, Australia (A1891)",
+      "4G bands": "1, 3, 5, 7, 8, 18, 19, 20, 26 - Europe, Australia (A1891)",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2017, September",
+      "Status": "Available. Released 2017, September"
+    },
+    "Body": {
+      "Dimensions": "42.5 x 36.4 x 11.4 mm (1.67 x 1.43 x 0.45 in)",
+      "Weight": "34.9 g (1.23 oz)",
+      "Build": "Glass front, ceramic back, aluminum frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "Retina OLED, 1000 nits (peak)",
+      "Size": "1.65 inches",
+      "Resolution": "390 x 312 pixels (~303 ppi density)",
+      "Protection": "Ion-X strengthened glass"
+    },
+    "Platform": {
+      "OS": "watchOS 4.0, upgradable to watchOS 8.7",
+      "Chipset": "Apple S3",
+      "CPU": "Dual-core",
+      "GPU": "PowerVR"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "8GB 768MB RAM, 16GB 768MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 341 mAh (1.34 Wh), non-removable",
+      "Charging": "Wireless"
+    },
+    "Misc": {
+      "Colors": "Silver, Gold, Space Gray",
+      "Models": "A1860, A1861, A1889, A1891, A1890, A1892, A1858, A1859",
+      "SAR": "0.52 W/kg (head)     0.34 W/kg (body)     ",
+      "Price": "About 480 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "apple-s3"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "asus-zenpad-10-z300m-2gb-32gb-2g",
+  "name": "Asus Zenpad 10 Z300M",
+  "brand": "asus",
+  "release_date": "2016-05-01",
+  "ram_gb": 2.0,
+  "battery_mah": 4890,
+  "weight_g": 490.0,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zenpad-10-z300m",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n",
+    "bluetooth": "4.0, aptX",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2016, May. Released 2016, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "251.6 x 172 x 7.9 mm (9.91 x 6.77 x 0.31 in)",
+      "Weight": "490 g (1.08 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+      "Protection": "Oleophobic coating"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow)",
+      "Chipset": "Mediatek MT8163 (28 nm)",
+      "CPU": "Quad-core 1.5 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n",
+      "Bluetooth": "4.0, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4890 mAh, non-removable (18 Wh)",
+      "Talk time": "Up to 11 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Dark Gray, Pearl White, Rose Gold"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "mediatek-mt8163"
+}

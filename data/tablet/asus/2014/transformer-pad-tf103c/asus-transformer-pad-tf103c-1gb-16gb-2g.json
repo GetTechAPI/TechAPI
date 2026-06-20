@@ -1,0 +1,103 @@
+{
+  "slug": "asus-transformer-pad-tf103c-1gb-16gb-2g",
+  "name": "Asus Transformer Pad TF103C",
+  "brand": "asus",
+  "release_date": "2014-06-01",
+  "ram_gb": 1.0,
+  "battery_mah": 5000,
+  "weight_g": 550.0,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "transformer-pad-tf103c",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, June. Released 2014, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "257.5 x 178.4 x 9.9 mm (10.14 x 7.02 x 0.39 in)",
+      "Weight": "550 g (1.21 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat)",
+      "Chipset": "Intel Atom Z3745",
+      "CPU": "Quad-core 1.86 GHz",
+      "GPU": "Intel Gen 7 (Ivy Bridge)"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "2 MP",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 5000 mAh, non-removable (19 Wh)",
+      "Talk time": "Up to 9 h 30 min (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "intel-atom-z3745"
+}

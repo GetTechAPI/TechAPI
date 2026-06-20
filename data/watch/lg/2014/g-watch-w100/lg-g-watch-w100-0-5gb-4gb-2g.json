@@ -1,0 +1,95 @@
+{
+  "slug": "lg-g-watch-w100-0-5gb-4gb-2g",
+  "name": "LG G Watch W100",
+  "brand": "lg",
+  "release_date": "2014-06-01",
+  "ram_gb": 0.5,
+  "battery_mah": 400,
+  "weight_g": 63.0,
+  "os": "Android Wear OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g-watch-w100",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.65 inches",
+    "resolution": "280 x 280 pixels (~240 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "No",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, June. Released 2014, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "46.5 x 37.9 x 10 mm (1.83 x 1.49 x 0.39 in)",
+      "Weight": "63 g (2.22 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "1.65 inches",
+      "Resolution": "280 x 280 pixels (~240 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android Wear OS",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "No",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 400 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black Titan, White Gold",
+      "Price": "About 90 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-snapdragon-400"
+}

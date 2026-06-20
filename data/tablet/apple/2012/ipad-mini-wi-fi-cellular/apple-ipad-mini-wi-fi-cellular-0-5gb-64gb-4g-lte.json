@@ -1,0 +1,114 @@
+{
+  "slug": "apple-ipad-mini-wi-fi-cellular-0-5gb-64gb-4g-lte",
+  "name": "Apple iPad mini Wi-Fi + Cellular",
+  "brand": "apple",
+  "release_date": "2012-10-01",
+  "ram_gb": 0.5,
+  "battery_mah": 4490,
+  "weight_g": 312.0,
+  "os": "iOS 6, upgradable to iOS 9.3.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ipad-mini-wi-fi-cellular",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.9 inches, 193.3 cm",
+    "resolution": "768 x 1024 pixels, 4:3 ratio (~162 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "Lightning, USB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900  - A1454; A1455",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100  - A1454; A1455",
+      "4G bands": "4, 17 - A1454",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, October. Released 2012, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "200 x 134.7 x 7.2 mm (7.87 x 5.30 x 0.28 in)",
+      "Weight": "312 g (11.01 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "7.9 inches, 193.3 cm",
+      "Resolution": "768 x 1024 pixels, 4:3 ratio (~162 ppi density)",
+      "Protection": "Oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 6, upgradable to iOS 9.3.6",
+      "Chipset": "Apple A5 (45 nm)",
+      "CPU": "Dual-core 1.0 GHz Cortex-A9",
+      "GPU": "PowerVR SGX543MP2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 512MB RAM, 32GB 512MB RAM, 64GB 512MB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP",
+      "Features": "face detection, FaceTime over Wi-Fi or Cellular",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4490 mAh, non-removable (16.7 Wh)",
+      "Talk time": "Up to 10 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Black/Slate, White/Silver",
+      "Models": "A1454, A1455, iPad2,6, iPad2,7",
+      "Price": "About 300 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "soc": "apple-a5"
+}

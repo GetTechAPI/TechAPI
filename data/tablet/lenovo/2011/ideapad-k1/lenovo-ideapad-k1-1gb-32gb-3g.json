@@ -1,0 +1,103 @@
+{
+  "slug": "lenovo-ideapad-k1-1gb-32gb-3g",
+  "name": "Lenovo IdeaPad K1",
+  "brand": "lenovo",
+  "release_date": "2011-06-01",
+  "ram_gb": 1.0,
+  "battery_mah": 7400,
+  "weight_g": 750.0,
+  "os": "Android 3.1 (Honeycomb)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ideapad-k1",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "miniUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " ",
+      "3G bands": "HSDPA 2100 - region dependent",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, HSPA (region dependent)"
+    },
+    "Launch": {
+      "Announced": "2011, June. Released 2011, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "264 x 189 x 13.3 mm (10.39 x 7.44 x 0.52 in)",
+      "Weight": "750 g (1.65 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 3.1 (Honeycomb)",
+      "Chipset": "Nvidia Tegra 2 T20",
+      "CPU": "Dual-core 1.0 GHz Cortex-A9",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "miniUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 7400 mAh battery",
+      "Talk time": "Up to 10 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "White, Black, Red, Brown",
+      "Price": "About 330 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "nvidia-tegra-2-t20"
+}

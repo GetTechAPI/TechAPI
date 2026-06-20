@@ -1,0 +1,93 @@
+{
+  "slug": "oneplus-watch-2-esim-2gb-32gb-4g-lte",
+  "name": "OnePlus Watch 2 (eSIM)",
+  "brand": "oneplus",
+  "release_date": "2024-06-27",
+  "ram_gb": 2.0,
+  "battery_mah": 500,
+  "weight_g": 37.0,
+  "os": "ColorOS Watch 6.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-2-esim",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.43 inches",
+    "resolution": "466 x 466 pixels (~326 ppi density)",
+    "type": "AMOLED, 1000 nits (HBM)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, June 27",
+      "Status": "Available. Released 2024, July 03"
+    },
+    "Body": {
+      "Dimensions": "47.6 x 46.6 x 12.1 mm (1.87 x 1.83 x 0.48 in)",
+      "Weight": "37 g (1.31 oz)",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "AMOLED, 1000 nits (HBM)",
+      "Size": "1.43 inches",
+      "Resolution": "466 x 466 pixels (~326 ppi density)"
+    },
+    "Platform": {
+      "OS": "ColorOS Watch 6.0",
+      "Chipset": "Qualcomm Snapdragon W5 Gen 1 (4 nm)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, barometer, compass, heart rate, SpO2"
+    },
+    "Battery": {
+      "Type": "500 mAh, non-removable",
+      "Charging": "7.5W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Silver",
+      "Price": "About 230 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ]
+}

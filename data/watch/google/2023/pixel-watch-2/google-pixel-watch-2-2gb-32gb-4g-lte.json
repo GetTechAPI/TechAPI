@@ -1,0 +1,95 @@
+{
+  "slug": "google-pixel-watch-2-2gb-32gb-4g-lte",
+  "name": "Google Pixel Watch 2",
+  "brand": "google",
+  "release_date": "2023-10-04",
+  "ram_gb": 2.0,
+  "battery_mah": 306,
+  "weight_g": 31.0,
+  "os": "Android Wear OS 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pixel-watch-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.2 inches",
+    "resolution": "450 x 450 pixels (~320 ppi density)",
+    "type": "AMOLED, 1000 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, October 04",
+      "Status": "Available. Released 2023, October 12"
+    },
+    "Body": {
+      "Dimensions": "41 x 41 x 12.3 mm (1.61 x 1.61 x 0.48 in)",
+      "Weight": "31 g (1.09 oz)",
+      "Build": "Glass front (Gorilla Glass 5), aluminum frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "AMOLED, 1000 nits (peak)",
+      "Size": "1.2 inches",
+      "Resolution": "450 x 450 pixels (~320 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android Wear OS 4",
+      "Chipset": "Qualcomm 5100"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, altimeter, compass, SpO2, thermometer (skin temperature), skin conductance"
+    },
+    "Battery": {
+      "Type": "Li-Ion 306 mAh, non-removable",
+      "Charging": "Wired, 80% in 45 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Polished Silver, Matte Black, Champagne Gold",
+      "Models": "G4TSL, GC3G8, GD2WG"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ]
+}

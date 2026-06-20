@@ -1,0 +1,96 @@
+{
+  "slug": "lg-watch-urbane-lte-1gb-4gb-4g-lte",
+  "name": "LG Watch Urbane LTE",
+  "brand": "lg",
+  "release_date": "2015-03-01",
+  "ram_gb": 1.0,
+  "battery_mah": 700,
+  "weight_g": 45.0,
+  "os": "Proprietary OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-urbane-lte",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.3 inches",
+    "resolution": "320 x 320 pixels (~348 ppi density)",
+    "type": "P-OLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, LE",
+    "nfc": "Yes",
+    "usb": "TBC"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2015, March. Released 2015, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Weight": "45 g (3G)/ 115 g (LTE) (4.06 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "P-OLED",
+      "Size": "1.3 inches",
+      "Resolution": "320 x 320 pixels (~348 ppi density)"
+    },
+    "Platform": {
+      "OS": "Proprietary OS",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.0, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "TBC"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 700 mAh, non-removable (LTE model)"
+    },
+    "Misc": {
+      "Colors": "Silver",
+      "Price": "About 320 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-snapdragon-400"
+}

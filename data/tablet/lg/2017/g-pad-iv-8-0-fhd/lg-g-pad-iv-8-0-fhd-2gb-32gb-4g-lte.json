@@ -1,0 +1,104 @@
+{
+  "slug": "lg-g-pad-iv-8-0-fhd-2gb-32gb-4g-lte",
+  "name": "LG G Pad IV 8.0 FHD",
+  "brand": "lg",
+  "release_date": "2017-07-01",
+  "ram_gb": 2.0,
+  "battery_mah": 3000,
+  "weight_g": 290.0,
+  "os": "Android 7.0 (Nougat), upgradable to Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g-pad-iv-8-0-fhd",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "8.0 inches, 185.6 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~283 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "2, 4, 5, 12, 66",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2017, July",
+      "Status": "Available. Released 2017, August"
+    },
+    "Body": {
+      "Dimensions": "216.2 x 127 x 6.9 mm (8.51 x 5.0 x 0.27 in)",
+      "Weight": "290 g (10.23 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "8.0 inches, 185.6 cm",
+      "Resolution": "1200 x 1920 pixels, 16:10 ratio (~283 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat), upgradable to Android 8.1 (Oreo)",
+      "Chipset": "Qualcomm MSM8940 Snapdragon 435 (28 nm)",
+      "CPU": "Octa-core 1.4 GHz Cortex-A53",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "Panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Dark Brown",
+      "Models": "V533, LK460, V530, P530",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8940-snapdragon-435"
+}

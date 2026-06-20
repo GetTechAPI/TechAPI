@@ -1,0 +1,100 @@
+{
+  "slug": "asus-memo-pad-me172v-1gb-16gb-2g",
+  "name": "Asus Memo Pad ME172V",
+  "brand": "asus",
+  "release_date": "2013-01-01",
+  "ram_gb": 1.0,
+  "battery_mah": 4270,
+  "weight_g": 370.0,
+  "os": "Android 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "memo-pad-me172v",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "LED-backlit LCD,"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "No",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2013, January. Released 2013, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "196.2 x 119.2 x 11.2 mm (7.72 x 4.69 x 0.44 in)",
+      "Weight": "370 g (13.05 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "LED-backlit LCD,",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean)",
+      "Chipset": "VIA WM8950",
+      "CPU": "1.0 GHz",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "1 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "No",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 4270 mAh, non-removable (16 Wh)",
+      "Talk time": "Up to 7 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Sugar White, Titanium Gray, Cherry Pink",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "via-wm8950"
+}

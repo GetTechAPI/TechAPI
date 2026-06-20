@@ -1,0 +1,93 @@
+{
+  "slug": "samsung-gear-live-0-5gb-4gb-2g",
+  "name": "Samsung Gear Live",
+  "brand": "samsung",
+  "release_date": "2014-06-01",
+  "ram_gb": 0.5,
+  "battery_mah": 300,
+  "weight_g": 59.0,
+  "os": "Android Wear OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "gear-live",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.63 inches",
+    "resolution": "320 x 320 pixels (~278 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "No",
+    "bluetooth": "4.0, LE",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, June. Released 2014, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "56.4 x 37.9 x 8.9 mm (2.22 x 1.49 x 0.35 in)",
+      "Weight": "59 g (2.08 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "1.63 inches",
+      "Resolution": "320 x 320 pixels (~278 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android Wear OS",
+      "Chipset": "Qualcomm MSM8226 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "No",
+      "Bluetooth": "4.0, LE",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 300 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, Wine Red"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-msm8226-snapdragon-400"
+}

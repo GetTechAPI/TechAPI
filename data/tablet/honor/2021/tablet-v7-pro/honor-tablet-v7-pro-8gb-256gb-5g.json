@@ -1,0 +1,107 @@
+{
+  "slug": "honor-tablet-v7-pro-8gb-256gb-5g",
+  "name": "Honor Tablet V7 Pro",
+  "brand": "honor",
+  "release_date": "2021-08-13",
+  "ram_gb": 8.0,
+  "battery_mah": 7250,
+  "weight_g": 485.0,
+  "os": "Android 11, Magic UI 5.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tablet-v7-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 350.9 cm",
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)",
+    "type": "IPS LCD, 120Hz, 300 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA 800 / 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "5G bands": " SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2021, August 13",
+      "Status": "Available. Released 2021, August 19"
+    },
+    "Body": {
+      "Dimensions": "252.1 x 163.4 x 7.3 mm (9.93 x 6.43 x 0.29 in)",
+      "Weight": "485 g (1.07 lb)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD, 120Hz, 300 nits (typ)",
+      "Size": "11.0 inches, 350.9 cm",
+      "Resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)",
+      "Protection": "Aluminosilicate glass"
+    },
+    "Platform": {
+      "OS": "Android 11, Magic UI 5.0",
+      "Chipset": "Mediatek MT8797 Kompanio 1300T (6 nm)",
+      "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G77 MC9"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, (wide), AF",
+      "Features": "LED flash, HDR",
+      "Video": "4K@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB-C"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 7250 mAh, non-removable",
+      "Charging": "22.5W wired, 100% in 125 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Gold, Blue, Silver",
+      "Price": "About 330 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ]
+}

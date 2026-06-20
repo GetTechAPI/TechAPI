@@ -1,0 +1,92 @@
+{
+  "slug": "sony-smartwatch-3-swr50-0-5gb-4gb-2g",
+  "name": "Sony SmartWatch 3 SWR50",
+  "brand": "sony",
+  "release_date": "2014-02-01",
+  "ram_gb": 0.5,
+  "battery_mah": 420,
+  "weight_g": 76.0,
+  "os": "Android Wear OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "smartwatch-3-swr50",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.6 inches",
+    "resolution": "320 x 320 pixels (~283 ppi density)",
+    "type": "TFT, 65K colors"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "51 x 36 x 10 mm (2.01 x 1.42 x 0.39 in)",
+      "Weight": "76 g (38 g body) (2.68 oz)",
+      "Build": "Glass front, stainless steel frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "TFT, 65K colors",
+      "Size": "1.6 inches",
+      "Resolution": "320 x 320 pixels (~283 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android Wear OS",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 420 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Leather Brown, Leather Black, Silver, Black, Yellow",
+      "Price": "About 160 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "sony-xperia-z4-tablet-lte-3gb-32gb-4g-lte",
+  "name": "Sony Xperia Z4 Tablet LTE",
+  "brand": "sony",
+  "release_date": "2015-03-01",
+  "ram_gb": 3.0,
+  "battery_mah": 6000,
+  "weight_g": 393.0,
+  "os": "Android 5.0 (Lollipop), upgradable to 7.1 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-z4-tablet-lte",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~299 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL 3.0 TV-out)"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 28, 40",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, March. Released 2015, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "254 x 167 x 6.1 mm (10.0 x 6.57 x 0.24 in)",
+      "Weight": "393 g (13.86 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "2560 x 1600 pixels, 16:10 ratio (~299 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "Android 5.0 (Lollipop), upgradable to 7.1 (Nougat)",
+      "Chipset": "Qualcomm MSM8994 Snapdragon 810 (20 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x2.0 GHz Cortex-A57)",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8.1 MP, AF",
+      "Features": "HDR",
+      "Video": "1080p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "5.1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL 3.0 TV-out)"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 6000 mAh, non-removable",
+      "Charging": "18W wired, QC2"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "SGP771",
+      "Price": "About 500 EUR"
+    },
+    "Tests": {
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8994-snapdragon-810"
+}

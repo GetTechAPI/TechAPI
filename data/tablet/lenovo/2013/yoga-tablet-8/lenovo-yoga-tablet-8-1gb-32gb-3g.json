@@ -1,0 +1,103 @@
+{
+  "slug": "lenovo-yoga-tablet-8-1gb-32gb-3g",
+  "name": "Lenovo Yoga Tablet 8",
+  "brand": "lenovo",
+  "release_date": "2013-10-01",
+  "ram_gb": 1.0,
+  "battery_mah": 6000,
+  "weight_g": 401.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "yoga-tablet-8",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "8.0 inches, 185.6 cm",
+    "resolution": "1280 x 800 pixels, 16:10 ratio (~189 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2013, October. Released 2013, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "213 x 144 x 7.3 mm (8.39 x 5.67 x 0.29 in)",
+      "Weight": "401 g (Wi-Fi) / 404 g (3G) (14.25 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "8.0 inches, 185.6 cm",
+      "Resolution": "1280 x 800 pixels, 16:10 ratio (~189 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT8125 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "1.6 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 6000 mAh, non-removable",
+      "Talk time": "Up to 18 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Gray",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "mediatek-mt8125"
+}

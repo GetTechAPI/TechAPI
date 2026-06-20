@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-galaxy-watch-fe-1-5gb-16gb-4g-lte",
+  "name": "Samsung Galaxy Watch FE",
+  "brand": "samsung",
+  "release_date": "2024-06-13",
+  "ram_gb": 1.5,
+  "battery_mah": 247,
+  "weight_g": 26.6,
+  "os": "Android Wear OS 4, One UI Watch 5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-watch-fe",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.5,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.2 inches",
+    "resolution": "396 x 396 pixels (~330 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, June 13",
+      "Status": "Available. Released 2024, June 24"
+    },
+    "Body": {
+      "Dimensions": "40.4 x 39.3 x 9.8 mm (1.59 x 1.55 x 0.39 in)",
+      "Weight": "26.6 g (0.95 oz)",
+      "Build": "Glass front (sapphire crystal), aluminum frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "1.2 inches",
+      "Resolution": "396 x 396 pixels (~330 ppi density)",
+      "Protection": "Sapphire crystal glass"
+    },
+    "Platform": {
+      "OS": "Android Wear OS 4, One UI Watch 5",
+      "Chipset": "Exynos W920 (5 nm)",
+      "CPU": "Dual-core 1.18 GHz Cortex-A55",
+      "GPU": "Mali-G68"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1.5GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GALILEO, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer, altimeter, compass, SpO2, temperature (skin)"
+    },
+    "Battery": {
+      "Type": "Li-Ion 247 mAh battery, non-removable",
+      "Charging": "Wireless (Qi)"
+    },
+    "Misc": {
+      "Colors": "Black, Pink Gold, Silver",
+      "Models": "SM-R861",
+      "SAR EU": "0.52 W/kg (head)     0.17 W/kg (body)     "
+    }
+  },
+  "storage_options_gb": [
+    16
+  ]
+}

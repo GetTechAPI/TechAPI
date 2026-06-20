@@ -1,0 +1,97 @@
+{
+  "slug": "huawei-watch-0-5gb-4gb-2g",
+  "name": "Huawei Watch",
+  "brand": "huawei",
+  "release_date": "2015-03-01",
+  "ram_gb": 0.5,
+  "battery_mah": 300,
+  "weight_g": 60.5,
+  "os": "Android Wear OS 2.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.4 inches",
+    "resolution": "400 x 400 pixels (~286 ppi density)",
+    "type": "OLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g",
+    "bluetooth": "4.1, LE",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2015, March. Released 2015, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "42 x 42 x 11.3 mm (1.65 x 1.65 x 0.44 in)",
+      "Weight": "60.5 g (2.15 oz)",
+      "Build": "Glass front (Sapphire crystal), stainless steel 316L frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "OLED",
+      "Size": "1.4 inches",
+      "Resolution": "400 x 400 pixels (~286 ppi density)",
+      "Protection": "Sapphire crystal glass"
+    },
+    "Platform": {
+      "OS": "Android Wear OS 2.1",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g",
+      "Bluetooth": "4.1, LE",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 300 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Silver, Black, Rose Gold/ Black Leather, Steel Link Bracelet, Stainless Steel Mesh, Black-plated Link Bracelet, Alligator-pressed Brown Leather, Rose Gold-plated Link Bracelet, Wat",
+      "Price": "About 290 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

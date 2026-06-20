@@ -1,0 +1,96 @@
+{
+  "slug": "motorola-moto-360-sport-1st-gen-0-5gb-4gb-2g",
+  "name": "Motorola Moto 360 Sport (1st gen)",
+  "brand": "motorola",
+  "release_date": "2015-01-01",
+  "ram_gb": 0.5,
+  "battery_mah": 300,
+  "weight_g": 54.0,
+  "os": "Android Wear OS 2.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "moto-360-sport-1st-gen",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.37 inches",
+    "resolution": "360 x 325 pixels (~263 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g",
+    "bluetooth": "4.0, LE, aptX",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2015, September. Released 2016, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "45 x 45 x 11.5 mm (1.77 x 1.77 x 0.45 in)",
+      "Weight": "54 g (1.90 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "1.37 inches",
+      "Resolution": "360 x 325 pixels (~263 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android Wear OS 2.1",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "No",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g",
+      "Bluetooth": "4.0, LE, aptX",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, altimeter, gyro, heart rate"
+    },
+    "Battery": {
+      "Type": "Li-Ion 300 mAh, non-removable",
+      "Charging": "Wireless (Qi)"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

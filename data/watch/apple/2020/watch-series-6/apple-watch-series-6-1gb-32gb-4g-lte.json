@@ -1,0 +1,98 @@
+{
+  "slug": "apple-watch-series-6-1gb-32gb-4g-lte",
+  "name": "Apple Watch Series 6",
+  "brand": "apple",
+  "release_date": "2020-09-15",
+  "ram_gb": 1.0,
+  "battery_mah": 303,
+  "weight_g": 47.1,
+  "os": "watchOS 7.0, upgradable to watchOS 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-series-6",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.78 inches",
+    "resolution": "448 x 368 pixels (~326 ppi density)",
+    "type": "Retina LTPO OLED, 1000 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 / 2100 - USA, LATAM, Canada",
+      "4G bands": "1, 2, 3, 4, 5, 7, 12, 13, 17, 18, 19, 25, 26, 39, 40, 41, 66 - USA, LATAM, Canada",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, September 15",
+      "Status": "Available. Released 2020, September 18"
+    },
+    "Body": {
+      "Dimensions": "44 x 38 x 10.7 mm (1.73 x 1.50 x 0.42 in)",
+      "Weight": "47.1 g (1.66 oz)",
+      "Build": "Glass front (Sapphire crystal), ceramic/sapphire crystal back, stainless steel frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "Retina LTPO OLED, 1000 nits (peak)",
+      "Size": "1.78 inches",
+      "Resolution": "448 x 368 pixels (~326 ppi density)",
+      "Protection": "Sapphire crystal glass"
+    },
+    "Platform": {
+      "OS": "watchOS 7.0, upgradable to watchOS 11",
+      "Chipset": "Apple S6",
+      "CPU": "Dual-core",
+      "GPU": "PowerVR"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 1GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer, always-on altimeter, compass, SpO2, VO2max"
+    },
+    "Battery": {
+      "Type": "Li-Ion 303.8 mAh (1.17 Wh), non-removable",
+      "Charging": "Wireless"
+    },
+    "Misc": {
+      "Colors": "Silver, Graphite (DLC), Gold (PVD)",
+      "Models": "A2293, A2294, A2375, A2376",
+      "Price": "About 710 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ]
+}

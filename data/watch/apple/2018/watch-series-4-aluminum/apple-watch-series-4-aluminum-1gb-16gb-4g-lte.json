@@ -1,0 +1,99 @@
+{
+  "slug": "apple-watch-series-4-aluminum-1gb-16gb-4g-lte",
+  "name": "Apple Watch Series 4 Aluminum",
+  "brand": "apple",
+  "release_date": "2018-09-01",
+  "ram_gb": 1.0,
+  "battery_mah": 292,
+  "weight_g": 36.7,
+  "os": "watchOS 5.0, upgradable to watchOS 10.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-series-4-aluminum",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.78 inches",
+    "resolution": "448 x 368 pixels (~326 ppi density)",
+    "type": "Retina LTPO OLED, 1000 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 2100 / 800 - Europe, Australia",
+      "4G bands": "1, 3, 5, 7, 8, 18, 19, 20, 26 - Europe, Australia",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2018, September",
+      "Status": "Available. Released 2018, September"
+    },
+    "Body": {
+      "Dimensions": "44 x 38 x 10.7 mm (1.73 x 1.50 x 0.42 in)",
+      "Weight": "36.7 g (1.31 oz)",
+      "Build": "Glass front, ceramic/sapphire crystal back, aluminum frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "Retina LTPO OLED, 1000 nits (peak)",
+      "Size": "1.78 inches",
+      "Resolution": "448 x 368 pixels (~326 ppi density)",
+      "Protection": "Ion-X strengthened glass"
+    },
+    "Platform": {
+      "OS": "watchOS 5.0, upgradable to watchOS 10.6",
+      "Chipset": "Apple S4",
+      "CPU": "Dual-core",
+      "GPU": "PowerVR"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 292 mAh (1.12 Wh), non-removable",
+      "Charging": "Wireless"
+    },
+    "Misc": {
+      "Colors": "Silver, Gold, Space Gray",
+      "Models": "A1975, A1976, A2007, A2008, A1977, A1978",
+      "Price": "About 430 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "apple-s4"
+}

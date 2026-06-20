@@ -1,0 +1,100 @@
+{
+  "slug": "alcatel-one-touch-t10-1gb-4gb-2g",
+  "name": "alcatel One Touch T10",
+  "brand": "alcatel",
+  "release_date": "2013-01-01",
+  "ram_gb": 1.0,
+  "battery_mah": 3000,
+  "weight_g": 340.0,
+  "os": "Android 4.0.3 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-touch-t10",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 139.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~133 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "No",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2013, Q2. Released 2013, Q2",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "192 x 117.6 x 11.3 mm (7.56 x 4.63 x 0.44 in)",
+      "Weight": "340 g (11.99 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "7.0 inches, 139.5 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~133 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0.3 (Ice Cream Sandwich)",
+      "Chipset": "Rochip RK2918",
+      "CPU": "1.0 GHz Cortex-A8",
+      "GPU": "Vivante GC800"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB (2.1GB user available), 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "VGA",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "No",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black/Silver",
+      "SAR EU": "0.07 W/kg (head)     ",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    2,
+    4
+  ],
+  "soc": "rochip-rk2918"
+}

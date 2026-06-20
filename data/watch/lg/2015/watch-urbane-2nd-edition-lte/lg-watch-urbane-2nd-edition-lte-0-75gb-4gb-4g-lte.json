@@ -1,0 +1,97 @@
+{
+  "slug": "lg-watch-urbane-2nd-edition-lte-0-75gb-4gb-4g-lte",
+  "name": "LG Watch Urbane 2nd Edition LTE",
+  "brand": "lg",
+  "release_date": "2015-03-01",
+  "ram_gb": 0.75,
+  "battery_mah": 570,
+  "weight_g": 92.7,
+  "os": "Android Wear OS 2.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-urbane-2nd-edition-lte",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.75,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.38 inches",
+    "resolution": "480 x 480 pixels (~348 ppi density)",
+    "type": "P-OLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.1, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 - AT&T",
+      "4G bands": "2, 5 - AT&T",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2015, October. Released 2016, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "44.5 x 44.5 x 14.2 mm (1.75 x 1.75 x 0.56 in)",
+      "Weight": "92.7 g (3.28 oz)",
+      "Build": "Glass front (Gorilla Glass 3), stainless steel frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "P-OLED",
+      "Size": "1.38 inches",
+      "Resolution": "480 x 480 pixels (~348 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android Wear OS 2.1",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 768MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.1, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 570 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Space Black, Opal Blue, Opal Blue, Signature Brown",
+      "Price": "About 270 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-snapdragon-400"
+}

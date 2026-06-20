@@ -1,0 +1,97 @@
+{
+  "slug": "zte-light-tab-v9c-0-5gb-1gb-3g",
+  "name": "ZTE Light Tab V9C",
+  "brand": "zte",
+  "release_date": "2011-11-01",
+  "ram_gb": 0.5,
+  "battery_mah": 3400,
+  "weight_g": 389.0,
+  "os": "Android 2.1 (Eclair), upgradable to 2.2 (Froyo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "light-tab-v9c",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 1
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 139.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~133 ppi density)",
+    "type": "LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g, hotspot (Android 2.2)",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 7.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, November. Released 2011, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "202 x 122 x 12.6 mm (7.95 x 4.80 x 0.50 in)",
+      "Weight": "389 g (13.72 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "LCD",
+      "Size": "7.0 inches, 139.5 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~133 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 2.1 (Eclair), upgradable to 2.2 (Froyo)",
+      "CPU": "800 MHz"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "512MB 512MB RAM"
+    },
+    "Main Camera": {
+      "Single": "2 MP",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g, hotspot (Android 2.2)",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 3400 mAh battery",
+      "Talk time": "Up to 7 h"
+    },
+    "Misc": {
+      "Colors": "Black"
+    }
+  },
+  "storage_options_gb": [
+    1
+  ]
+}

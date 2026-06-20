@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-gear-s-0-5gb-4gb-3g",
+  "name": "Samsung Gear S",
+  "brand": "samsung",
+  "release_date": "2014-08-01",
+  "ram_gb": 0.5,
+  "battery_mah": 300,
+  "weight_g": 67.0,
+  "os": "Tizen OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "gear-s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "2.0 inches",
+    "resolution": "360 x 480 pixels (~300 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2014, August. Released 2014, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "58.1 x 39.9 x 12.5 mm (2.29 x 1.57 x 0.49 in)",
+      "Weight": "67 g (2.36 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "2.0 inches",
+      "Resolution": "360 x 480 pixels (~300 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Tizen OS",
+      "Chipset": "Qualcomm MSM8928 Snapdragon 400 (28 nm)",
+      "CPU": "Dual-core 1.0 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, heart rate, barometer, UV light"
+    },
+    "Battery": {
+      "Type": "Li-Ion 300 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Charcoal Black, Frost White",
+      "Models": "SM-R750, SM-R750A, SM-R750B, SM-R750C, SM-R750P, SM-R750R4, SM-R750T, SM-R750V, SM-R750W, SM-N910A, SM-N910V, SM-N915P, SM-N910T",
+      "SAR": "0.81 W/kg (head)     1.07 W/kg (body)     ",
+      "SAR EU": "0.56 W/kg (head)     0.65 W/kg (body)     ",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-msm8928-snapdragon-400"
+}

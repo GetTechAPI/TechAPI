@@ -1,0 +1,99 @@
+{
+  "slug": "samsung-gear-s2-0-5gb-4gb-2g",
+  "name": "Samsung Gear S2",
+  "brand": "samsung",
+  "release_date": "2015-08-01",
+  "ram_gb": 0.5,
+  "battery_mah": 250,
+  "weight_g": 47.0,
+  "os": "Tizen OS 2.3.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "gear-s2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.2 inches",
+    "resolution": "360 x 360 pixels (~302 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2015, August. Released 2015, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "49.8 x 42.3 x 11.4 mm (1.96 x 1.67 x 0.45 in)",
+      "Weight": "47 g (1.66 oz)",
+      "Build": "Glass front (Gorilla Glass 3), stainless steel frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "1.2 inches",
+      "Resolution": "360 x 360 pixels (~302 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Tizen OS 2.3.2",
+      "Chipset": "Exynos 3250 Dual",
+      "CPU": "Dual-core 1.0 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "No",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "No",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 250 mAh, non-removable",
+      "Charging": "Wireless (Qi)",
+      "Stand-by": "Up to 48 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Dark Gray, Silver",
+      "Models": "SM-R720",
+      "Price": "About 170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "exynos-3250-dual"
+}

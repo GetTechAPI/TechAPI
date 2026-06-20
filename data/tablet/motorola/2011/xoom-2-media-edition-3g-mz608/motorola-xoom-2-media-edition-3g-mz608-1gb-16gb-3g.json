@@ -1,0 +1,106 @@
+{
+  "slug": "motorola-xoom-2-media-edition-3g-mz608-1gb-16gb-3g",
+  "name": "Motorola XOOM 2 Media Edition 3G MZ608",
+  "brand": "motorola",
+  "release_date": "2011-12-01",
+  "ram_gb": 1.0,
+  "battery_mah": 3960,
+  "weight_g": 386.0,
+  "os": "Android 3.2 (Honeycomb), upgradable to 4.0.4 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xoom-2-media-edition-3g-mz608",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "8.2 inches, 195.0 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~184 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, December. Released 2011, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "216 x 139 x 9 mm (8.50 x 5.47 x 0.35 in)",
+      "Weight": "386 g (13.62 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "8.2 inches, 195.0 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~184 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 3.2 (Honeycomb), upgradable to 4.0.4 (Ice Cream Sandwich)",
+      "Chipset": "TI OMAP 4430",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "PowerVR SGX540"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 3960 mAh battery",
+      "Stand-by": "Up to 648 h",
+      "Talk time": "Up to 6 h",
+      "Music play": "Up to 72 h"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 210 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "ti-omap-4430"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "samsung-galaxy-tab-j-1-5gb-8gb-4g-lte",
+  "name": "Samsung Galaxy Tab J",
+  "brand": "samsung",
+  "release_date": "2016-07-01",
+  "ram_gb": 1.5,
+  "battery_mah": 4000,
+  "weight_g": 289.0,
+  "os": "Android 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-j",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.5,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 142.1 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)",
+    "type": "PLS"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, July. Released 2016, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "186.9 x 108.8 x 8.7 mm (7.36 x 4.28 x 0.34 in)",
+      "Weight": "289 g (10.19 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "PLS",
+      "Size": "7.0 inches, 142.1 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1 (Lollipop)",
+      "Chipset": "Spreadtrum SC8830",
+      "CPU": "Quad-core 1.5 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1.5GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/1.9, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP, f/2.2"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White, Gold",
+      "Models": "SM-T285YD"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "spreadtrum-sc8830"
+}

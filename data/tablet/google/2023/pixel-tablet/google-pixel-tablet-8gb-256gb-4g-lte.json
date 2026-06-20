@@ -1,0 +1,109 @@
+{
+  "slug": "google-pixel-tablet-8gb-256gb-4g-lte",
+  "name": "Google Pixel Tablet",
+  "brand": "google",
+  "release_date": "2023-05-10",
+  "ram_gb": 8.0,
+  "battery_mah": 7020,
+  "weight_g": 493.0,
+  "os": "Android 13, upgradable to Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pixel-tablet",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.95 inches, 347.7 cm",
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~276 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 3.2 (Gen 1), magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2023, May 10",
+      "Status": "Available. Released 2023, June 20"
+    },
+    "Body": {
+      "Dimensions": "258 x 169 x 8.1 mm (10.16 x 6.65 x 0.32 in)",
+      "Weight": "493 g (1.09 lb)",
+      "Build": "Glass front, aluminum frame, aluminum back",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "10.95 inches, 347.7 cm",
+      "Resolution": "1600 x 2560 pixels, 16:10 ratio (~276 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, upgradable to Android 14",
+      "Chipset": "Google Tensor G2 (5 nm)",
+      "CPU": "Octa-core (2x2.85 GHz Cortex-X1 & 2x2.35 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)",
+      "GPU": "Mali-G710 MP7"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, 24mm (wide), 1/4.0\", 1.12µm",
+      "Features": "HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 24mm (wide), 1/4.0\", 1.12µm",
+      "Features": "HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 3.2 (Gen 1), magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass, proximity (accessories only)"
+    },
+    "Battery": {
+      "Type": "Li-Po 7020 mAh, non-removable (27 Wh)",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Colors": "Porcelain, Hazel, Rose",
+      "Price": "About 670 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "tensor-g2"
+}

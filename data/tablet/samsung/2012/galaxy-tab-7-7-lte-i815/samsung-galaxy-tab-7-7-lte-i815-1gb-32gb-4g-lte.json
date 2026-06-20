@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-tab-7-7-lte-i815-1gb-32gb-4g-lte",
+  "name": "Samsung Galaxy Tab 7.7 LTE I815",
+  "brand": "samsung",
+  "release_date": "2012-01-01",
+  "ram_gb": 1.0,
+  "battery_mah": 5100,
+  "weight_g": 340.2,
+  "os": "Android 3.2 (Honeycomb)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-7-7-lte-i815",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.7 inches, 171.9 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~196 ppi density)",
+    "type": "Super AMOLED Plus"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": null,
+    "usb": "2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "2, 5, 13",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE"
+    },
+    "Launch": {
+      "Announced": "2012, January. Released 2012, Q3",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "196.6 x 133.1 x 7.9 mm (7.74 x 5.24 x 0.31 in)",
+      "Weight": "340.2 g (11.99 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED Plus",
+      "Size": "7.7 inches, 171.9 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~196 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 3.2 (Honeycomb)",
+      "Chipset": "Exynos 4210",
+      "CPU": "Dual-core 1.4 GHz Cortex-A9",
+      "GPU": "Mali-400MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "3.15 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 5100 mAh battery",
+      "Stand-by": "Up to 392 h (3G)",
+      "Talk time": "Up to 13 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Metallic Gray and White",
+      "SAR": "1.09 W/kg (body)     ",
+      "Price": "About 280 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "exynos-4210"
+}

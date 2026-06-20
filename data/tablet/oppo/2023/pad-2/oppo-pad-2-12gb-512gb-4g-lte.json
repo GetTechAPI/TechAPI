@@ -1,0 +1,109 @@
+{
+  "slug": "oppo-pad-2-12gb-512gb-4g-lte",
+  "name": "Oppo Pad 2",
+  "brand": "oppo",
+  "release_date": "2023-03-21",
+  "ram_gb": 12.0,
+  "battery_mah": 9510,
+  "weight_g": 552.0,
+  "os": "Android 13, ColorOS 13.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pad-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12.0,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.61 inches, 411.3 cm",
+    "resolution": "2000 x 2800 pixels (~296 ppi density)",
+    "type": "IPS LCD, 1B colors, Dolby Vision, 144Hz, 500 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG, accessory connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2023, March 21",
+      "Status": "Available. Released 2023, March 24"
+    },
+    "Body": {
+      "Dimensions": "258 x 189.4 x 6.5 mm (10.16 x 7.46 x 0.26 in)",
+      "Weight": "552 g (1.22 lb)",
+      "Build": "Glass front, aluminum frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD, 1B colors, Dolby Vision, 144Hz, 500 nits (typ)",
+      "Size": "11.61 inches, 411.3 cm",
+      "Resolution": "2000 x 2800 pixels (~296 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, ColorOS 13.1",
+      "Chipset": "Mediatek Dimensity 9000 (4 nm)",
+      "CPU": "Octa-core (1x3.05 GHz Cortex-X2 & 3x2.85 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Mali-G710 MC10"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, (wide), AF",
+      "Features": "LED flash",
+      "Video": "4K@30fps, 1080p@30ps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.3, 103˚ (ultrawide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "Bluetooth": "5.3, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS (B1I+B1c)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG, accessory connector"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Po 9510 mAh, non-removable",
+      "Charging": "67W wired, PD, QC 2.0"
+    },
+    "Misc": {
+      "Colors": "Gray, Gold",
+      "Models": "OPD2201, X22N2",
+      "Price": "About 410 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "dimensity-9000-plus"
+}

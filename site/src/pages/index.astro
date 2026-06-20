@@ -9,6 +9,9 @@ const endpoints = [
   { label: "/v1/smartphones", desc: "List all phones", href: `${base}v1/smartphones/index.json` },
   { label: "/v1/smartphones/{slug}", desc: "Phone detail + scores", href: `${base}v1/smartphones/galaxy-s25-ultra/index.json` },
   { label: "/v1/smartphones/{slug}/score", desc: "Computed scores", href: `${base}v1/smartphones/galaxy-s25-ultra/score/index.json` },
+  { label: "/v1/tablets", desc: "List all tablets", href: `${base}v1/tablets/index.json` },
+  { label: "/v1/watches", desc: "List all watches", href: `${base}v1/watches/index.json` },
+  { label: "/v1/pdas", desc: "List all PDAs", href: `${base}v1/pdas/index.json` },
   { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${base}v1/socs/snapdragon-8-elite/index.json` },
   { label: "/v1/gpus/{slug}", desc: "Discrete GPU detail", href: `${base}v1/gpus/geforce-rtx-5090/index.json` },
   { label: "/v1/cpus/{slug}", desc: "Desktop / laptop CPU", href: `${base}v1/cpus/core-i9-14900k/index.json` },
@@ -155,6 +158,9 @@ const endpoints = [
               <label for="pg-resource">Resource</label>
               <select id="pg-resource">
                 <option value="smartphones">smartphones</option>
+                <option value="tablets">tablets</option>
+                <option value="watches">watches</option>
+                <option value="pdas">pdas</option>
                 <option value="socs">socs</option>
                 <option value="gpus">gpus</option>
                 <option value="cpus">cpus</option>

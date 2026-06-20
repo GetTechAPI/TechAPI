@@ -1,0 +1,97 @@
+{
+  "slug": "zte-nubia-watch-1gb-8gb-4g-lte",
+  "name": "ZTE nubia Watch",
+  "brand": "zte",
+  "release_date": "2020-07-28",
+  "ram_gb": 1.0,
+  "battery_mah": 420,
+  "weight_g": 98.0,
+  "os": "Proprietary OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nubia-watch",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.01 inches",
+    "resolution": "192 x 960 pixels (~244 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 1800 ",
+      "3G bands": "HSDPA 2100 ",
+      "4G bands": "1, 3, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, July 28",
+      "Status": "Available. Released 2020, August 05"
+    },
+    "Body": {
+      "Dimensions": "125 x 41.5 x 14.2 mm (4.92 x 1.63 x 0.56 in)",
+      "Weight": "98 g (3.46 oz)",
+      "Build": "Plastic front (display), stainless steel 316L & aluminum alloy frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "4.01 inches",
+      "Resolution": "192 x 960 pixels (~244 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Proprietary OS",
+      "Chipset": "Qualcomm MSM8909W Snapdragon Wear 2100",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 420 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, Red, Green",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8909w-snapdragon-wear-2100"
+}

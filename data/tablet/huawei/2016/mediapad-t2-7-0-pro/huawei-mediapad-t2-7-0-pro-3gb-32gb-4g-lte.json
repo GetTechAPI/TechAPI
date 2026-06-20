@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-mediapad-t2-7-0-pro-3gb-32gb-4g-lte",
+  "name": "Huawei MediaPad T2 7.0 Pro",
+  "brand": "huawei",
+  "release_date": "2016-08-01",
+  "ram_gb": 3.0,
+  "battery_mah": 4360,
+  "weight_g": 250.0,
+  "os": "Android 5.1 (Lollipop), EMUI 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mediapad-t2-7-0-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 135.1 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~315 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.0, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": " HSDPA",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 21.1/5.76 Mbps, LTE Cat4 150/50 Mbps",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2016, August. Released 2016, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "187.4 x 105.8 x 8.2 mm (7.38 x 4.17 x 0.32 in)",
+      "Weight": "250 g (8.82 oz)",
+      "SIM": "Dual SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "7.0 inches, 135.1 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~315 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1 (Lollipop), EMUI 3.1",
+      "Chipset": "Qualcomm MSM8939 Snapdragon 615 (28 nm)",
+      "CPU": "Octa-core (4x1.2 GHz Cortex-A53 & 4x1.5 GHz Cortex-A53)",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "16GB 2GB RAM, 32GB 3GB RAM (701L); 16GB 3GB RAM, 32GB 3GB RAM (703L)"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.0, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.0, LE",
+      "Positioning": "GPS, GLONASS/ BDS (region dependent)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4360 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White, Gold, Blue, Pink",
+      "Models": "PLE-701L, PLE-703L",
+      "Price": "About 230 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "qualcomm-msm8939-snapdragon-615"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-mediapad-10-link-1gb-32gb-4g-lte",
+  "name": "Huawei MediaPad 10 Link",
+  "brand": "huawei",
+  "release_date": "2013-01-01",
+  "ram_gb": 1.0,
+  "battery_mah": 6600,
+  "weight_g": 620.0,
+  "os": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mediapad-10-link",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "1280 x 800 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "IPS LCD,"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "3.0",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2013. Released 2013",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "257.4 x 175.9 x 9.9 mm (10.13 x 6.93 x 0.39 in)",
+      "Weight": "620 g (Wi-Fi) / 640 g (3G/LTE) (1.41 lb)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD,",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "1280 x 800 pixels, 16:10 ratio (~149 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean)",
+      "Chipset": "Huawei K3V2",
+      "CPU": "Quad-core 1.2 GHz Cortex-A9",
+      "GPU": "Vivante GC4000"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "3.15 MP",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "3.0",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 6600 mAh, non-removable",
+      "Talk time": "Up to 10 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Black/Silver",
+      "Price": "About 250 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16,
+    32
+  ],
+  "soc": "huawei-k3v2"
+}

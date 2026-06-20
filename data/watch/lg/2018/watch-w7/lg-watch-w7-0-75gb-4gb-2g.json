@@ -1,0 +1,94 @@
+{
+  "slug": "lg-watch-w7-0-75gb-4gb-2g",
+  "name": "LG Watch W7",
+  "brand": "lg",
+  "release_date": "2018-10-01",
+  "ram_gb": 0.75,
+  "battery_mah": 240,
+  "weight_g": 79.0,
+  "os": "Android Wear OS 2.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-w7",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.75,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.2 inches",
+    "resolution": "360 x 360 pixels (~300 ppi density)",
+    "type": "P-OLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2018, October",
+      "Status": "Available. Released 2018, October"
+    },
+    "Body": {
+      "Dimensions": "45.5 x 44.5 x 13 mm (1.79 x 1.75 x 0.51 in)",
+      "Weight": "79 g (2.79 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "P-OLED",
+      "Size": "1.2 inches",
+      "Resolution": "360 x 360 pixels (~300 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android Wear OS 2.0",
+      "Chipset": "Qualcomm MSM8909W Snapdragon Wear 2100",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 768MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "No",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, barometer, altimeter"
+    },
+    "Battery": {
+      "Type": "Li-Ion 240 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Silver",
+      "Price": "About 260 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-msm8909w-snapdragon-wear-2100"
+}

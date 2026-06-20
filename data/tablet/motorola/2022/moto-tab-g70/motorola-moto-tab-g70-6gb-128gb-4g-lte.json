@@ -1,0 +1,107 @@
+{
+  "slug": "motorola-moto-tab-g70-6gb-128gb-4g-lte",
+  "name": "Motorola Moto Tab G70",
+  "brand": "motorola",
+  "release_date": "2022-01-12",
+  "ram_gb": 6.0,
+  "battery_mah": 7700,
+  "weight_g": 500.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "moto-tab-g70",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 344.4 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~212 ppi density)",
+    "type": "IPS LCD, 400 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 4, 7, 8, 20, 28, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2022, January 12",
+      "Status": "Available. Released 2022, January 13"
+    },
+    "Body": {
+      "Dimensions": "258.4 x 163 x 7.5 mm (10.17 x 6.42 x 0.30 in)",
+      "Weight": "500 g (1.10 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD, 400 nits (typ)",
+      "Size": "11.0 inches, 344.4 cm",
+      "Resolution": "1200 x 2000 pixels, 5:3 ratio (~212 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 11",
+      "Chipset": "Mediatek MT6785 Helio G90T (12 nm)",
+      "CPU": "Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G76 MC4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, 26mm (wide), AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 26mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 7700 mAh, non-removable",
+      "Charging": "20W wired"
+    },
+    "Misc": {
+      "Colors": "Modernist Teal, Blue",
+      "Price": "About 380 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "mediatek-mt6785-helio-g90t"
+}

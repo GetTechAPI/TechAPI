@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-mediapad-x2-3gb-32gb-4g-lte",
+  "name": "Huawei MediaPad X2",
+  "brand": "huawei",
+  "release_date": "2015-03-01",
+  "ram_gb": 3.0,
+  "battery_mah": 5000,
+  "weight_g": 239.0,
+  "os": "Android 5 (Lollipop), upgradable to 6 (Marshmallow), EMUI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mediapad-x2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 142.1 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~323 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.0, A2DP, EDR, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "4G bands": "1, 3, 7, 38, 39, 40, 41 - GEM-703L",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2015, March. Released 2015, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "183.5 x 103.9 x 7.2 mm (7.22 x 4.09 x 0.28 in)",
+      "Weight": "239 g (8.43 oz)",
+      "SIM": "Dual SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "7.0 inches, 142.1 cm",
+      "Resolution": "1200 x 1920 pixels, 16:10 ratio (~323 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5 (Lollipop), upgradable to 6 (Marshmallow), EMUI 3",
+      "Chipset": "Kirin 930 (28 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x2.0 GHz Cortex-A53)",
+      "GPU": "Mali-T628 MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM, 32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "4.0, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 5000 mAh, non-removable",
+      "Charging": "Reverse wired",
+      "Stand-by": "Up to 576 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Moonlight silver, Amber gold",
+      "Models": "GEM-703L, GEM-702L, GEM-701L",
+      "Price": "About 370 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ]
+}

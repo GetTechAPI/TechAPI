@@ -1,0 +1,105 @@
+{
+  "slug": "doogee-t30-max-8gb-512gb-4g-lte",
+  "name": "Doogee T30 Max",
+  "brand": "doogee",
+  "release_date": "2024-03-08",
+  "ram_gb": 8.0,
+  "battery_mah": 10800,
+  "weight_g": 678.0,
+  "os": "Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "t30-max",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "12.4 inches, 445.8 cm",
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~243 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG, charging/accessories connector pins"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 66",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, March 08",
+      "Status": "Available. Released 2024, March"
+    },
+    "Body": {
+      "Dimensions": "285.1 x 185.4 x 7.9 mm (11.22 x 7.30 x 0.31 in)",
+      "Weight": "678 g (1.49 lb)",
+      "Build": "Glass front, aluminum frame, aluminum back, silicone polymer (eco leather) cover",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "12.4 inches, 445.8 cm",
+      "Resolution": "1600 x 2560 pixels, 16:10 ratio (~243 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 14",
+      "Chipset": "Mediatek Helio G99",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "512GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "50 MP, (wide)",
+      "Features": "LED flash",
+      "Video": "1440p@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "20 MP",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG, charging/accessories connector pins"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, compass, proximity (accessories only)"
+    },
+    "Battery": {
+      "Type": "10800 mAh, non-removable",
+      "Charging": "33W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Green, Khaki"
+    }
+  },
+  "storage_options_gb": [
+    512
+  ],
+  "soc": "helio-g99"
+}

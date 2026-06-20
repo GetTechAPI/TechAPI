@@ -1,0 +1,107 @@
+{
+  "slug": "apple-ipad-2-wi-fi-0-5gb-64gb-2g",
+  "name": "Apple iPad 2 Wi-Fi",
+  "brand": "apple",
+  "release_date": "2011-03-01",
+  "ram_gb": 0.5,
+  "battery_mah": 6930,
+  "weight_g": 601.0,
+  "os": "iOS 4, upgradable to iOS 9.3.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ipad-2-wi-fi",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "9.7 inches, 291.4 cm",
+    "resolution": "768 x 1024 pixels, 4:3 ratio (~132 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2011, March. Released 2011, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "241.2 x 185.7 x 8.8 mm (9.50 x 7.31 x 0.35 in)",
+      "Weight": "601 g (1.32 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "9.7 inches, 291.4 cm",
+      "Resolution": "768 x 1024 pixels, 4:3 ratio (~132 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 4, upgradable to iOS 9.3.5",
+      "Chipset": "Apple A5 (45 nm)",
+      "CPU": "Dual-core 1.0 GHz Cortex-A9",
+      "GPU": "PowerVR SGX543MP2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 512MB RAM, 32GB 512MB RAM, 64GB 512MB RAM"
+    },
+    "Main Camera": {
+      "Single": "0.7 MP",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "No",
+      "Radio": "No",
+      "USB": "2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass",
+      "Browser": "HTML (Safari)"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Po 6930 mAh battery (25 Wh)",
+      "Stand-by": "Up to 720 h",
+      "Talk time": "Up to 10 h"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "A1395,  iPad2,1, iPad2,4",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "soc": "apple-a5"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "samsung-gear-2-neo-0-5gb-4gb-2g",
+  "name": "Samsung Gear 2 Neo",
+  "brand": "samsung",
+  "release_date": "2014-02-01",
+  "ram_gb": 0.5,
+  "battery_mah": 300,
+  "weight_g": 55.0,
+  "os": "Tizen OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "gear-2-neo",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.63 inches",
+    "resolution": "320 x 320 pixels (~278 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "No",
+    "bluetooth": "4.0, LE",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "58.7 x 37.9 x 9.9 mm (2.31 x 1.49 x 0.39 in)",
+      "Weight": "55 g (1.94 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "1.63 inches",
+      "Resolution": "320 x 320 pixels (~278 ppi density)"
+    },
+    "Platform": {
+      "OS": "Tizen OS",
+      "Chipset": "Exynos 3250 Dual",
+      "CPU": "Dual-core 1.0 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "No",
+      "Bluetooth": "4.0, LE",
+      "Positioning": "No",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate"
+    },
+    "Battery": {
+      "Type": "Li-Ion 300 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Mocha Gray, Wild Orange, Charcoal Black",
+      "Models": "SM-R3810",
+      "Price": "About 170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "exynos-3250-dual"
+}

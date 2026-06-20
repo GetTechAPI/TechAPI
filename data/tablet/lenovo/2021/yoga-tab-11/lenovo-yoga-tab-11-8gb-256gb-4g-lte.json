@@ -1,0 +1,106 @@
+{
+  "slug": "lenovo-yoga-tab-11-8gb-256gb-4g-lte",
+  "name": "Lenovo Yoga Tab 11",
+  "brand": "lenovo",
+  "release_date": "2021-06-28",
+  "ram_gb": 8.0,
+  "battery_mah": 7700,
+  "weight_g": 655.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "yoga-tab-11",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 344.4 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~212 ppi density)",
+    "type": "IPS LCD, Dolby Vision, 400 nits"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": " LTE (Unspecified)",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2021, June 28",
+      "Status": "Available. Released 2021, June 31"
+    },
+    "Body": {
+      "Dimensions": "256.8 mm x 169 mm x 7.9-8.3 mm",
+      "Weight": "655 g (1.44 lb)",
+      "Build": "Glass front, aluminum frame, aluminum back",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD, Dolby Vision, 400 nits",
+      "Size": "11.0 inches, 344.4 cm",
+      "Resolution": "1200 x 2000 pixels, 5:3 ratio (~212 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 11",
+      "Chipset": "Mediatek MT6785 Helio G90T (12 nm)",
+      "CPU": "Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G76 MC4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "128GB 4GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Face recognition, accelerometer, gyro"
+    },
+    "Battery": {
+      "Type": "Li-Po 7700 mAh, non-removable",
+      "Charging": "20W wired"
+    },
+    "Misc": {
+      "Colors": "Storm Gray",
+      "Price": "About 350 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "mediatek-mt6785-helio-g90t"
+}

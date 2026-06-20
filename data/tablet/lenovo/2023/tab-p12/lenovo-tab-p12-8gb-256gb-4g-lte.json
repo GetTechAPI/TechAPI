@@ -1,0 +1,106 @@
+{
+  "slug": "lenovo-tab-p12-8gb-256gb-4g-lte",
+  "name": "Lenovo Tab P12",
+  "brand": "lenovo",
+  "release_date": "2023-07-28",
+  "ram_gb": 8.0,
+  "battery_mah": 10200,
+  "weight_g": 615.0,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tab-p12",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "12.7 inches, 467.7 cm",
+    "resolution": "1840 x 2944 pixels, 16:10 ratio (~273 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Unspecified",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2023, July 28",
+      "Status": "Available. Released 2023, July 28"
+    },
+    "Body": {
+      "Dimensions": "293.3 x 190.7 x 6.9 mm (11.55 x 7.51 x 0.27 in)",
+      "Weight": "615 g (1.36 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "12.7 inches, 467.7 cm",
+      "Resolution": "1840 x 2944 pixels, 16:10 ratio (~273 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13",
+      "Chipset": "Mediatek Dimensity 7050 (6 nm)",
+      "CPU": "Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MC4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 4GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, (wide), AF",
+      "Features": "LED flash",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, (ultrawide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "No",
+      "NFC": "Unspecified",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 10200 mAh, non-removable",
+      "Charging": "30W wired, QC4"
+    },
+    "Misc": {
+      "Colors": "Storm Grey, Oat",
+      "Price": "About 400 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ]
+}

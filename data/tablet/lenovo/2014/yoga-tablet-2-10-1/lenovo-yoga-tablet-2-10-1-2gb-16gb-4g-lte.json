@@ -1,0 +1,104 @@
+{
+  "slug": "lenovo-yoga-tablet-2-10-1-2gb-16gb-4g-lte",
+  "name": "Lenovo Yoga Tablet 2 10.1",
+  "brand": "lenovo",
+  "release_date": "2014-10-01",
+  "ram_gb": 2.0,
+  "battery_mah": 9600,
+  "weight_g": 619.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "yoga-tablet-2-10-1",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "1920 x 1200 pixels, 16:10 ratio (~224 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2014, October. Released 2014, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "255 x 183 x 7.2 mm (10.04 x 7.20 x 0.28 in)",
+      "Weight": "619 g (1.36 lb)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "1920 x 1200 pixels, 16:10 ratio (~224 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 5.0 (Lollipop)",
+      "Chipset": "Intel Atom Z3745",
+      "CPU": "Quad-core 1.86 GHz",
+      "GPU": "Intel Gen 7 (Ivy Bridge)"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "1.6 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 9600 mAh, non-removable",
+      "Stand-by": "Up to 384 h (3G)",
+      "Talk time": "Up to 18 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Platinum",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "intel-atom-z3745"
+}

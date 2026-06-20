@@ -1,0 +1,112 @@
+{
+  "slug": "apple-ipad-9-7-2017-2gb-128gb-4g-lte",
+  "name": "Apple iPad 9.7 (2017)",
+  "brand": "apple",
+  "release_date": "2017-03-01",
+  "ram_gb": 2.0,
+  "battery_mah": 8827,
+  "weight_g": 469.0,
+  "os": "iOS 10.3, upgradable to iPadOS 16.7.7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ipad-9-7-2017",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "9.7 inches, 291.4 cm",
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.2, A2DP, EDR, LE",
+    "nfc": "No",
+    "usb": "Lightning, USB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, March",
+      "Status": "Available. Released 2017, March"
+    },
+    "Body": {
+      "Dimensions": "240 x 169.5 x 7.5 mm (9.45 x 6.67 x 0.30 in)",
+      "Weight": "469 g (Wi-Fi) / 478 g (LTE) (1.03 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "9.7 inches, 291.4 cm",
+      "Resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 10.3, upgradable to iPadOS 16.7.7",
+      "Chipset": "Apple A9 (14 nm)",
+      "CPU": "Dual-core 1.84 GHz (Twister)",
+      "GPU": "PowerVR GT7600 (six-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM, 128GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, 31mm (standard), 1.12µm, AF",
+      "Features": "HDR",
+      "Video": "1080p@30fps, 720p@120fps, HDR, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP, f/2.2, 31mm (standard)",
+      "Features": "Face detection, HDR, panorama",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "4.2, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS (Wi‑Fi + Cellular model only)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 8827 mAh, non-removable (32.9 Wh)",
+      "Talk time": "Up to 10 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Silver, Gold, Space Gray",
+      "Models": "A1822, A1823, iPad6,11, iPad6,12",
+      "SAR": "1.18 W/kg (body)     ",
+      "SAR EU": "0.99 W/kg (body)     ",
+      "Price": "About 390 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    128
+  ],
+  "soc": "apple-a9"
+}

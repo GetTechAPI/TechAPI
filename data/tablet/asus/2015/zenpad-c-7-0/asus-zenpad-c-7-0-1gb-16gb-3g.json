@@ -1,0 +1,104 @@
+{
+  "slug": "asus-zenpad-c-7-0-1gb-16gb-3g",
+  "name": "Asus Zenpad C 7.0",
+  "brand": "asus",
+  "release_date": "2015-06-01",
+  "ram_gb": 1.0,
+  "battery_mah": 3450,
+  "weight_g": 265.0,
+  "os": "Android 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zenpad-c-7-0",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Z170CG",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2015, June. Released 2015, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "189 x 108 x 8.4 mm (7.44 x 4.25 x 0.33 in)",
+      "Weight": "265 g (9.35 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+      "Protection": "Oleophobic coating"
+    },
+    "Platform": {
+      "OS": "Android 5.0 (Lollipop)",
+      "Chipset": "Intel Atom x3-C3200",
+      "CPU": "Quad-core",
+      "GPU": "Mali-450MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.0 or 2 MP",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 3450 mAh, non-removable (13 Wh)",
+      "Talk time": "Up to 8 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Red, Aurora Metallic",
+      "Price": "About 140 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "intel-atom-x3-c3200"
+}

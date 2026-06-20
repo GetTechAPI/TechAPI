@@ -1,0 +1,107 @@
+{
+  "slug": "asus-google-nexus-7-cellular-1gb-32gb-3g",
+  "name": "Asus Google Nexus 7 Cellular",
+  "brand": "asus",
+  "release_date": "2012-10-01",
+  "ram_gb": 1.0,
+  "battery_mah": 4325,
+  "weight_g": 347.0,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "google-nexus-7-cellular",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 142.1 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)",
+    "type": "LED-backlit IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "3.0",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, October. Released 2012, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "198.5 x 120 x 10.5 mm (7.81 x 4.72 x 0.41 in)",
+      "Weight": "347 g (12.24 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "LED-backlit IPS LCD",
+      "Size": "7.0 inches, 142.1 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), upgradable to 5.1.1 (Lollipop)",
+      "Chipset": "Nvidia Tegra 3",
+      "CPU": "Quad-core 1.2 GHz Cortex-A9",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "1.2 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "3.0",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4325 mAh, non-removable (16 Wh)",
+      "Stand-by": "Up to 300 h",
+      "Talk time": "Up to 9 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 230 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "nvidia-tegra-3"
+}

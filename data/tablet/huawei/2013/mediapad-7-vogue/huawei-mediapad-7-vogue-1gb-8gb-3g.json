@@ -1,0 +1,109 @@
+{
+  "slug": "huawei-mediapad-7-vogue-1gb-8gb-3g",
+  "name": "Huawei MediaPad 7 Vogue",
+  "brand": "huawei",
+  "release_date": "2013-06-01",
+  "ram_gb": 1.0,
+  "battery_mah": 4100,
+  "weight_g": 335.0,
+  "os": "Android 4.1 (Jelly Bean), EMUI 1.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mediapad-7-vogue",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA",
+    "bluetooth": "3.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, June. Released 2013, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "193.8 x 121.3 x 9.5 mm (7.63 x 4.78 x 0.37 in)",
+      "Weight": "335 g (11.82 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), EMUI 1.5",
+      "Chipset": "Huawei K3V2",
+      "CPU": "Quad-core 1.2 GHz Cortex-A9",
+      "GPU": "Vivante GC4000"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "3.15 MP",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA",
+      "Bluetooth": "3.0, A2DP, EDR",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4100 mAh, non-removable",
+      "Talk time": "Up to 20 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Price": "About 180 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "huawei-k3v2"
+}

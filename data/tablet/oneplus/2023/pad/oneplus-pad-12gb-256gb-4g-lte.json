@@ -1,0 +1,113 @@
+{
+  "slug": "oneplus-pad-12gb-256gb-4g-lte",
+  "name": "OnePlus Pad",
+  "brand": "oneplus",
+  "release_date": "2023-02-07",
+  "ram_gb": 12.0,
+  "battery_mah": 9510,
+  "weight_g": 552.0,
+  "os": "Android 13, OxygenOS 13.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pad",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.61 inches, 411.3 cm",
+    "resolution": "2000 x 2800 pixels (~296 ppi density)",
+    "type": "IPS LCD, 1B colors, Dolby Vision, HDR10+, 144Hz, 500 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG, accessory connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2023, February 07",
+      "Status": "Available. Released 2023, April 28"
+    },
+    "Body": {
+      "Dimensions": "258 x 189.4 x 6.5 mm (10.16 x 7.46 x 0.26 in)",
+      "Weight": "552 g (1.22 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD, 1B colors, Dolby Vision, HDR10+, 144Hz, 500 nits (typ)",
+      "Size": "11.61 inches, 411.3 cm",
+      "Resolution": "2000 x 2800 pixels (~296 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, OxygenOS 13.1",
+      "Chipset": "Mediatek Dimensity 9000 (4 nm)",
+      "CPU": "Octa-core (1x3.05 GHz Cortex-X2 & 3x2.85 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Mali-G710 MC10"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, 23mm (wide)",
+      "Features": "LED flash",
+      "Video": "4K@30fps, 1080p@30ps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.3, (wide), 1/4.0\", 1.12µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "Bluetooth": "5.3, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS (B1+B1c)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG, accessory connector"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 9510 mAh, non-removable",
+      "Charging": "67W wired"
+    },
+    "Misc": {
+      "Colors": "Halo Green",
+      "Price": "About 500 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 859019 (v9)",
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-9000-plus"
+}

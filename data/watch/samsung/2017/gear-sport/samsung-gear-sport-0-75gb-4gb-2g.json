@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-gear-sport-0-75gb-4gb-2g",
+  "name": "Samsung Gear Sport",
+  "brand": "samsung",
+  "release_date": "2017-08-01",
+  "ram_gb": 0.75,
+  "battery_mah": 300,
+  "weight_g": 67.0,
+  "os": "Tizen OS 5.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "gear-sport",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.75,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.2 inches",
+    "resolution": "360 x 360 pixels (~424 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2017, August",
+      "Status": "Available. Released 2017, October"
+    },
+    "Body": {
+      "Dimensions": "44.6 x 42.9 x 11.6 mm (1.76 x 1.69 x 0.46 in)",
+      "Weight": "67g (w/ strap); 50g (w/о strap) (1.76 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "1.2 inches",
+      "Resolution": "360 x 360 pixels (~424 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Tizen OS 5.5",
+      "Chipset": "Exynos 3250 Dual",
+      "CPU": "Dual-core 1.0 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 768MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "No",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 300 mAh, non-removable",
+      "Charging": "Wireless (Qi)",
+      "Stand-by": "Up to 48 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, Blue",
+      "Models": "SM-R600",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "exynos-3250-dual"
+}

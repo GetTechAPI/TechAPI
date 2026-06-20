@@ -1,0 +1,99 @@
+{
+  "slug": "zte-light-tab-3-v9s-1gb-16gb-3g",
+  "name": "ZTE Light Tab 3 V9S",
+  "brand": "zte",
+  "release_date": "2012-02-01",
+  "ram_gb": 1.0,
+  "battery_mah": 4000,
+  "weight_g": 400.0,
+  "os": "Android 3.2 (Honeycomb)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "light-tab-3-v9s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 142.1 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "Proprietary"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 14.4/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, February. Released 2012, Q4",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "194 x 120 x 12 mm (7.64 x 4.72 x 0.47 in)",
+      "Weight": "400 g (14.11 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "7.0 inches, 142.1 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 3.2 (Honeycomb)",
+      "Chipset": "Qualcomm MSM8260 Snapdragon S3",
+      "CPU": "Dual-core 1.2 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "Proprietary"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 4000 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Black"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8260-snapdragon-s3"
+}

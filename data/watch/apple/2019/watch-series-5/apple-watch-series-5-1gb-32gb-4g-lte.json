@@ -1,0 +1,99 @@
+{
+  "slug": "apple-watch-series-5-1gb-32gb-4g-lte",
+  "name": "Apple Watch Series 5",
+  "brand": "apple",
+  "release_date": "2019-09-01",
+  "ram_gb": 1.0,
+  "battery_mah": 296,
+  "weight_g": 47.8,
+  "os": "watchOS 6.0, upgradable to watchOS 10.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "watch-series-5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.78 inches",
+    "resolution": "448 x 368 pixels (~326 ppi density)",
+    "type": "Retina LTPO OLED, 1000 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 25, 26, 39, 40, 41, 66 - Global",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, September",
+      "Status": "Available. Released 2019, September"
+    },
+    "Body": {
+      "Dimensions": "44 x 38 x 10.7 mm (1.73 x 1.50 x 0.42 in)",
+      "Weight": "47.8 g (1.69 oz)",
+      "Build": "Glass front (Sapphire crystal), ceramic/sapphire crystal back, stainless steel frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "Retina LTPO OLED, 1000 nits (peak)",
+      "Size": "1.78 inches",
+      "Resolution": "448 x 368 pixels (~326 ppi density)",
+      "Protection": "Sapphire crystal glass"
+    },
+    "Platform": {
+      "OS": "watchOS 6.0, upgradable to watchOS 10.6",
+      "Chipset": "Apple S5",
+      "CPU": "Dual-core",
+      "GPU": "PowerVR"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 1GB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 296 mAh (1.13 Wh), non-removable",
+      "Charging": "Wireless"
+    },
+    "Misc": {
+      "Colors": "Space Black, Silver, Gold",
+      "Models": "A2156, A2157, A2094, A2095",
+      "Price": "About 750 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "apple-s5"
+}

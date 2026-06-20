@@ -1,0 +1,109 @@
+{
+  "slug": "samsung-galaxy-tab-s6-lite-2020-4gb-128gb-4g-lte",
+  "name": "Samsung Galaxy Tab S6 Lite (2020)",
+  "brand": "samsung",
+  "release_date": "2020-04-02",
+  "ram_gb": 4.0,
+  "battery_mah": 7040,
+  "weight_g": 467.0,
+  "os": "Android 10, upgradable to Android 13, One UI 5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-s6-lite-2020",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.4 inches, 307.9 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~224 ppi density)",
+    "type": "TFT LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1800 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 28, 38, 40, 66",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, April 02",
+      "Status": "Available. Released 2020, May 16"
+    },
+    "Body": {
+      "Dimensions": "244.5 x 154.3 x 7 mm (9.63 x 6.07 x 0.28 in)",
+      "Weight": "467 g (1.03 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "TFT LCD",
+      "Size": "10.4 inches, 307.9 cm",
+      "Resolution": "1200 x 2000 pixels, 5:3 ratio (~224 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, upgradable to Android 13, One UI 5",
+      "Chipset": "Exynos 9611 (10 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, (wide), 1/4.0\", 1.12µm",
+      "Features": "HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, gyro"
+    },
+    "Battery": {
+      "Type": "Li-Po 7040 mAh, non-removable",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Colors": "Chiffon Pink, Angora Blue, Oxford Gray",
+      "Models": "SM-P610N, SM-P615, SM-P610",
+      "SAR": "1.45 W/kg (body)     ",
+      "Price": "About 380 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "exynos-9611"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-tab-3-lite-7-0-1gb-8gb-2g",
+  "name": "Samsung Galaxy Tab 3 Lite 7.0",
+  "brand": "samsung",
+  "release_date": "2014-01-01",
+  "ram_gb": 1.0,
+  "battery_mah": 3600,
+  "weight_g": 310.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-3-lite-7-0",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, LE",
+    "nfc": "No",
+    "usb": "2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " ",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, January. Released 2014, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "193.4 x 116.4 x 9.7 mm (7.61 x 4.58 x 0.38 in)",
+      "Weight": "310 g (10.93 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean)",
+      "Chipset": "Marvell PXA986",
+      "CPU": "Dual-core 1.2 GHz",
+      "GPU": "Vivante GC1000"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "2 MP",
+      "Video": "480p@24fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3600 mAh, non-removable",
+      "Talk time": "Up to 8 h (multimedia)",
+      "Music play": "Up to 200 h"
+    },
+    "Misc": {
+      "Colors": "White, Black, Green, Pink, Yellow",
+      "Models": "SM-T110",
+      "SAR": "1.10 W/kg (body)     ",
+      "SAR EU": "0.83 W/kg (body)     ",
+      "Price": "About 150 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Audio quality": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "marvell-pxa986"
+}

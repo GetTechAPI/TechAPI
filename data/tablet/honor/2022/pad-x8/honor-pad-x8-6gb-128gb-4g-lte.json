@@ -1,0 +1,105 @@
+{
+  "slug": "honor-pad-x8-6gb-128gb-4g-lte",
+  "name": "Honor Pad X8",
+  "brand": "honor",
+  "release_date": "2022-09-17",
+  "ram_gb": 6.0,
+  "battery_mah": 5100,
+  "weight_g": 460.0,
+  "os": "Android 10, Magic UI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pad-x8",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)",
+    "type": "TFT LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2022, September 17",
+      "Status": "Available. Released 2022, September 22"
+    },
+    "Body": {
+      "Dimensions": "240.2 x 159 x 7.6 mm (9.46 x 6.26 x 0.30 in)",
+      "Weight": "460 g (1.01 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "TFT LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, Magic UI 4",
+      "Chipset": "MediaTek MT8786",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G52"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 5100 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Dark Blue, Light Blue",
+      "Models": "AGM3-W09HN",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ]
+}

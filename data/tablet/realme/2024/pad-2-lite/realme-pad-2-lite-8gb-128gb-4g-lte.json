@@ -1,0 +1,106 @@
+{
+  "slug": "realme-pad-2-lite-8gb-128gb-4g-lte",
+  "name": "Realme Pad 2 Lite",
+  "brand": "realme",
+  "release_date": "2024-09-13",
+  "ram_gb": 8.0,
+  "battery_mah": 8300,
+  "weight_g": 525.0,
+  "os": "Android 14, Realme UI 5.0 for Pad",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pad-2-lite",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.95 inches, 347.7 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~207 ppi density)",
+    "type": "IPS LCD, 1B colors, 90Hz, 450 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+      "Speed": "Yes, 384 kbps"
+    },
+    "Launch": {
+      "Announced": "2024, September 13",
+      "Status": "Available. Released 2024, September 26"
+    },
+    "Body": {
+      "Dimensions": "258 x 169.5 x 8.3 mm (10.16 x 6.67 x 0.33 in)",
+      "Weight": "525 g (1.16 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD, 1B colors, 90Hz, 450 nits (peak)",
+      "Size": "10.95 inches, 347.7 cm",
+      "Resolution": "1200 x 1920 pixels, 16:10 ratio (~207 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 14, Realme UI 5.0 for Pad",
+      "Chipset": "Mediatek Helio G99 (6 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "Unspecified",
+      "Internal": "128GB 4GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0",
+      "Features": "Panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2",
+      "Features": "Panorama",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GALILEO, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "8300 mAh, non-removable",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Colors": "Nebula Purple, Space Grey",
+      "Price": "About 160 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "helio-g99"
+}

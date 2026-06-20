@@ -1,0 +1,112 @@
+{
+  "slug": "apple-ipad-pro-11-2018-6gb-512gb-4g-lte",
+  "name": "Apple iPad Pro 11 (2018)",
+  "brand": "apple",
+  "release_date": "2018-10-01",
+  "ram_gb": 6.0,
+  "battery_mah": 7812,
+  "weight_g": 468.0,
+  "os": "iOS 12, upgradable to iPadOS 18",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ipad-pro-11-2018",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6.0,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 366.5 cm",
+    "resolution": "1668 x 2388 pixels (~265 ppi density)",
+    "type": "IPS LCD, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "5.0, A2DP, LE, EDR",
+    "nfc": "No",
+    "usb": "USB Type-C 3.1, magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 29, 30, 34, 38, 39, 40, 41, 46, 66, 71 - A2013",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (4CA) Cat16 1024/150 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, October",
+      "Status": "Available. Released 2018, November"
+    },
+    "Body": {
+      "Dimensions": "247.6 x 178.5 x 5.9 mm (9.75 x 7.03 x 0.23 in)",
+      "Weight": "468 g (1.03 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Display": {
+      "Type": "IPS LCD, 120Hz",
+      "Size": "11.0 inches, 366.5 cm",
+      "Resolution": "1668 x 2388 pixels (~265 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 12, upgradable to iPadOS 18",
+      "Chipset": "Apple A12X Bionic (7 nm)",
+      "CPU": "Octa-core (4x2.5 GHz Vortex + 4x1.6 GHz Tempest)",
+      "GPU": "Apple GPU (7-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 4GB RAM, 256GB 4GB RAM, 512GB 4GB RAM, 1TB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/1.8, 29mm (standard), 1/3.0\", 1.22µm, PDAF",
+      "Features": "Quad-LED dual-tone flash, HDR",
+      "Video": "4K@30/60fps, 1080p@30/60/120fps, 720p@240fps"
+    },
+    "Selfie camera": {
+      "Single": "7 MP, f/2.2, 32mm (standard)",
+      "Features": "Face detection, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "5.0, A2DP, LE, EDR",
+      "Positioning": "GPS, GLONASS, GALILEO, QZSS (Wi‑Fi + Cellular model only)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Face ID, accelerometer, gyro, proximity, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 7812 mAh, non-removable (29.45 Wh)"
+    },
+    "Misc": {
+      "Colors": "Silver, Space Gray",
+      "Models": "A2013, A1934, A1980, A1979, iPad8,1, iPad8,2, iPad8,3, iPad8,4",
+      "SAR": "1.19 W/kg (body)     ",
+      "SAR EU": "0.99 W/kg (body)     ",
+      "Price": "About 880 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    256,
+    512
+  ],
+  "soc": "apple-a12x-bionic"
+}

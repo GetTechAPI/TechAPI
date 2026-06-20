@@ -1,0 +1,112 @@
+{
+  "slug": "htc-nexus-9-2gb-32gb-4g-lte",
+  "name": "HTC Nexus 9",
+  "brand": "htc",
+  "release_date": "2014-10-01",
+  "ram_gb": 2.0,
+  "battery_mah": 6700,
+  "weight_g": 425.0,
+  "os": "Android 5.0 (Lollipop), upgradable to 7.1.1 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nexus-9",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "8.9 inches, 257.7 cm",
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~281 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.1, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 20",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, October. Released 2014, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "228.2 x 153.7 x 8 mm (8.98 x 6.05 x 0.31 in)",
+      "Weight": "425 g (Wi-Fi) / 436 g (3G/LTE) (14.99 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "8.9 inches, 257.7 cm",
+      "Resolution": "1536 x 2048 pixels, 4:3 ratio (~281 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 5.0 (Lollipop), upgradable to 7.1.1 (Nougat)",
+      "Chipset": "Nvidia Tegra K1",
+      "CPU": "Dual-core 2.3 GHz Denver",
+      "GPU": "Kepler DX1"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB (Wi-Fi)/ 32GB (LTE), 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "1.6 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.1, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 6700 mAh, non-removable",
+      "Stand-by": "Up to 720 h (3G)",
+      "Talk time": "Up to 9 h 30 min (multimedia) (3G)"
+    },
+    "Misc": {
+      "Colors": "Indigo Black, Lunar White, Sand",
+      "Price": "About 300 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 1540Basemark X: 28244",
+      "Camera": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "nvidia-tegra-k1"
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "samsung-galaxy-watch-active-0-75gb-4gb-2g",
+  "name": "Samsung Galaxy Watch Active",
+  "brand": "samsung",
+  "release_date": "2019-02-01",
+  "ram_gb": 0.75,
+  "battery_mah": 230,
+  "weight_g": 25.0,
+  "os": "Tizen OS 5.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-watch-active",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.75,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.1 inches",
+    "resolution": "360 x 360 pixels (~302 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2019, February",
+      "Status": "Available. Released 2019, April"
+    },
+    "Body": {
+      "Dimensions": "39.5 x 39.5 x 10.5 mm (1.56 x 1.56 x 0.41 in)",
+      "Weight": "25 g (0.88 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "1.1 inches",
+      "Resolution": "360 x 360 pixels (~302 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Tizen OS 5.5",
+      "Chipset": "Exynos 9110 (10 nm)",
+      "CPU": "Dual-core 1.15 GHz Cortex-A53",
+      "GPU": "Mali-T720"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 768MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 230 mAh, non-removable",
+      "Charging": "Wireless (Qi)"
+    },
+    "Misc": {
+      "Colors": "Silver, Black, Rose Gold, Sea Green",
+      "Models": "SM-R500",
+      "Price": "About 210 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "exynos-9110"
+}

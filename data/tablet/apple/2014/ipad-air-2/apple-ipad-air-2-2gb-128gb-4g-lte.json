@@ -1,0 +1,119 @@
+{
+  "slug": "apple-ipad-air-2-2gb-128gb-4g-lte",
+  "name": "Apple iPad Air 2",
+  "brand": "apple",
+  "release_date": "2014-10-16",
+  "ram_gb": 2.0,
+  "battery_mah": 7340,
+  "weight_g": 437.0,
+  "os": "iOS 8.1, upgradable to iPadOS 15.8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ipad-air-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "9.7 inches, 291.4 cm",
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "Lightning, USB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29, 38, 39, 40, 41 - A1567",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, October 16. Released 2014, October 24",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "240 x 169.5 x 6.1 mm (9.45 x 6.67 x 0.24 in)",
+      "Weight": "437 g (Wi-Fi) / 444 g (3G/LTE) (15.41 oz)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "9.7 inches, 291.4 cm",
+      "Resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 8.1, upgradable to iPadOS 15.8.1",
+      "Chipset": "Apple A8X (20 nm)",
+      "CPU": "Triple-core 1.5 GHz Typhoon",
+      "GPU": "PowerVR GXA6850 (octa-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM, 64GB 2GB RAM, 128GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, 31mm (standard), 1.12µm, AF",
+      "Features": "HDR",
+      "Video": "1080p@30fps, 720p@120fps, HDR, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP, f/2.2, 31mm (standard)",
+      "Features": "face detection, HDR, FaceTime over Wi-Fi or Cellular",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS, GLONASS (3G/LTE model only)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 7340 mAh, non-removable (27.62 Wh)",
+      "Talk time": "Up to 10 h (multimedia)"
+    },
+    "Misc": {
+      "Colors": "Space Gray, Silver, Gold",
+      "Models": "A1566, A1567, iPad5,3, iPad5,4",
+      "Price": "About 440 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark X: 29753",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "soc": "apple-a8x"
+}

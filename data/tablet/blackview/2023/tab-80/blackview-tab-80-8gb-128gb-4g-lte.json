@@ -1,0 +1,105 @@
+{
+  "slug": "blackview-tab-80-8gb-128gb-4g-lte",
+  "name": "Blackview Tab 80",
+  "brand": "blackview",
+  "release_date": "2023-09-01",
+  "ram_gb": 8.0,
+  "battery_mah": 7680,
+  "weight_g": 484.0,
+  "os": "Android 13, Doke OS_P 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tab-80",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20, 40",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, September",
+      "Status": "Available. Released 2023, September"
+    },
+    "Body": {
+      "Dimensions": "241 x 156 x 7.5 mm (9.49 x 6.14 x 0.30 in)",
+      "Weight": "484 g (1.07 lb)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "10.1 inches, 295.8 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, Doke OS_P 3.0",
+      "Chipset": "Unisoc T606 (12 nm)",
+      "CPU": "Octa-core (2x1.6 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.0, A2DP",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "FM Radio",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "7680 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Grey, Blue, Green"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "unisoc-t606"
+}

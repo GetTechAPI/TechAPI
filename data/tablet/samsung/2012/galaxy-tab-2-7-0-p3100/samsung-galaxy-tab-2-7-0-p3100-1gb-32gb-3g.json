@@ -1,0 +1,106 @@
+{
+  "slug": "samsung-galaxy-tab-2-7-0-p3100-1gb-32gb-3g",
+  "name": "Samsung Galaxy Tab 2 7.0 P3100",
+  "brand": "samsung",
+  "release_date": "2012-02-01",
+  "ram_gb": 1.0,
+  "battery_mah": 4000,
+  "weight_g": 345.0,
+  "os": "Android 4.0.3 (Ice Cream Sandwich), upgradable to 4.2.2 (Jelly Bean), TouchWiz UX UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-2-7-0-p3100",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "PLS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": null,
+    "usb": "2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 - GT-P3100",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, February. Released 2012, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "193.7 x 122.4 x 10.5 mm (7.63 x 4.82 x 0.41 in)",
+      "Weight": "345 g (12.17 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "PLS LCD",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0.3 (Ice Cream Sandwich), upgradable to 4.2.2 (Jelly Bean), TouchWiz UX UI",
+      "Chipset": "TI OMAP 4430",
+      "CPU": "Dual-core 1.0 GHz",
+      "GPU": "PowerVR SGX540"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "3.15 MP",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, A-GPS, GLONASS",
+      "Radio": "No",
+      "USB": "2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 4000 mAh battery",
+      "Stand-by": "Up to 1190 h (2G) / Up to 1080 h (3G)",
+      "Talk time": "Up to 40 h (2G) / Up to 20 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, White, Red",
+      "Models": "GT-P3105, GT-P3100, GT-P3105",
+      "SAR EU": "0.71 W/kg (head)     ",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16,
+    32
+  ],
+  "soc": "ti-omap-4430"
+}

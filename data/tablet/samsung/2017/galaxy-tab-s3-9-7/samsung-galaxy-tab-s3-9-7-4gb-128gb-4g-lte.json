@@ -1,0 +1,112 @@
+{
+  "slug": "samsung-galaxy-tab-s3-9-7-4gb-128gb-4g-lte",
+  "name": "Samsung Galaxy Tab S3 9.7",
+  "brand": "samsung",
+  "release_date": "2017-02-01",
+  "ram_gb": 4.0,
+  "battery_mah": 6000,
+  "weight_g": 429.0,
+  "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), One UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-s3-9-7",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "9.7 inches, 291.4 cm",
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 3.1, magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 17, 20, 28, 40",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, February",
+      "Status": "Available. Released 2017, April"
+    },
+    "Body": {
+      "Dimensions": "237.3 x 169 x 6 mm (9.34 x 6.65 x 0.24 in)",
+      "Weight": "429 g (Wi-Fi)/ 434 g (LTE) (15.13 oz)",
+      "Build": "Glass front, glass back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "9.7 inches, 291.4 cm",
+      "Resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), One UI",
+      "Chipset": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+      "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/1.9, 27mm (wide), AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2, 23mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 6000 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "White, black",
+      "Models": "SM-T820, SM-T825, SM-T825Y",
+      "SAR EU": "0.99 W/kg (body)     ",
+      "Price": "About 380 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nGFXBench: 13fps (ES 3.1 onscreen)"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    128
+  ],
+  "soc": "qualcomm-msm8996-snapdragon-820"
+}

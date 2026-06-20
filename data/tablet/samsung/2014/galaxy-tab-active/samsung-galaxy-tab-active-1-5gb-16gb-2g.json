@@ -1,0 +1,103 @@
+{
+  "slug": "samsung-galaxy-tab-active-1-5gb-16gb-2g",
+  "name": "Samsung Galaxy Tab Active",
+  "brand": "samsung",
+  "release_date": "2014-09-01",
+  "ram_gb": 1.5,
+  "battery_mah": 4450,
+  "weight_g": 393.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to Android 5.1.1, TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-tab-active",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.5,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "8.0 inches, 185.6 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)",
+    "type": "LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, September. Released 2014, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "213.1 x 126.2 x 9.7 mm (8.39 x 4.97 x 0.38 in)",
+      "Weight": "393 g (13.86 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "LCD",
+      "Size": "8.0 inches, 185.6 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to Android 5.1.1, TouchWiz UI",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 1.5GB RAM"
+    },
+    "Main Camera": {
+      "Single": "3.15 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4450 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Titanium Green",
+      "Models": "SM-T360",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-snapdragon-400"
+}

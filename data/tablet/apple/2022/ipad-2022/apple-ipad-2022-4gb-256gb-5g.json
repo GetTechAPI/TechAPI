@@ -1,0 +1,110 @@
+{
+  "slug": "apple-ipad-2022-4gb-256gb-5g",
+  "name": "Apple iPad (2022)",
+  "brand": "apple",
+  "release_date": "2022-10-18",
+  "ram_gb": 4.0,
+  "battery_mah": 7606,
+  "weight_g": 477.0,
+  "os": "iPadOS 16.1, upgradable to iPadOS 18",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ipad-2022",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "10.9 inches, 359.2 cm",
+    "resolution": "1640 x 2360 pixels (~264 ppi density)",
+    "type": "Liquid Retina IPS LCD, 500 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+    "bluetooth": "5.2, A2DP, EDR, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, DisplayPort; magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - A2757",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66, 71 - A2757",
+      "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 29, 30, 38, 40, 41, 48, 66, 71, 77, 78, 79 SA/NSA/Sub6 - A2757, A2777",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, October 18",
+      "Status": "Available. Released 2022, October 26"
+    },
+    "Body": {
+      "Dimensions": "248.6 x 179.5 x 7 mm (9.79 x 7.07 x 0.28 in)",
+      "Weight": "477 g (Wi-Fi) / 481 g (LTE) (1.05 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Display": {
+      "Type": "Liquid Retina IPS LCD, 500 nits (typ)",
+      "Size": "10.9 inches, 359.2 cm",
+      "Resolution": "1640 x 2360 pixels (~264 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iPadOS 16.1, upgradable to iPadOS 18",
+      "Chipset": "Apple A14 Bionic (5 nm)",
+      "CPU": "Hexa-core (2x3.0 GHz Firestorm + 4x1.8 GHz Icestorm)",
+      "GPU": "Apple GPU (4-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 4GB RAM, 256GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/1.8, (wide), PDAF",
+      "Features": "HDR, panorama",
+      "Video": "4K@24/25/30/60fps, 1080p@25/30/60/120/240fps"
+    },
+    "Selfie camera": {
+      "Single": "12 MP, f/2.4, 122˚ (ultrawide)",
+      "Features": "HDR",
+      "Video": "1080p@25/30/60fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+      "Bluetooth": "5.2, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS (Wi‑Fi + Cellular model only)",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, DisplayPort; magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (top-mounted), accelerometer, gyro, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 7606 mAh, non-removable (28.6 Wh)"
+    },
+    "Misc": {
+      "Colors": "Silver, Blue, Pink, Yellow",
+      "Models": "A2757, A2777, A2696, iPad13,18, iPad13,19",
+      "Price": "About 430 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    256
+  ],
+  "soc": "apple-a14-bionic"
+}

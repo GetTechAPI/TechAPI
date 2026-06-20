@@ -1,0 +1,96 @@
+{
+  "slug": "motorola-moto-360-1st-gen-0-5gb-4gb-2g",
+  "name": "Motorola Moto 360 (1st gen)",
+  "brand": "motorola",
+  "release_date": "2014-09-01",
+  "ram_gb": 0.5,
+  "battery_mah": 320,
+  "weight_g": 49.0,
+  "os": "Android Wear OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "moto-360-1st-gen",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.56 inches",
+    "resolution": "320 x 290 pixels (~205 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "No",
+    "bluetooth": "4.0, LE, aptX",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2014, September. Released 2014, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "46 x 46 x 11.5 mm (1.81 x 1.81 x 0.45 in)",
+      "Weight": "49 g (1.73 oz)",
+      "Build": "Glass front (Gorilla Glass 3), stainless steel frame",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "1.56 inches",
+      "Resolution": "320 x 290 pixels (~205 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android Wear OS",
+      "Chipset": "TI OMAP 3",
+      "CPU": "1.0 GHz"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "4GB 512MB RAM"
+    },
+    "Sound": {
+      "Loudspeaker": "No",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "No",
+      "Bluetooth": "4.0, LE, aptX",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, heart rate"
+    },
+    "Battery": {
+      "Type": "Li-Ion 320 mAh, non-removable",
+      "Charging": "Wireless (Qi)"
+    },
+    "Misc": {
+      "Colors": "Cognac Leather, Black, Stone Grey, Champagne Metal, Natural Metal, Champagne, Dark Metal, Light Metal",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "ti-omap-3"
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "blackview-tab-6-3gb-32gb-4g-lte",
+  "name": "Blackview Tab 6",
+  "brand": "blackview",
+  "release_date": "2021-11-15",
+  "ram_gb": 3.0,
+  "battery_mah": 5580,
+  "weight_g": 365.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tab-6",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "8.0 inches, 185.6 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2021, November 15",
+      "Status": "Available. Released 2021, November"
+    },
+    "Body": {
+      "Dimensions": "207.6 x 124 x 9.5 mm (8.17 x 4.88 x 0.37 in)",
+      "Weight": "365 g (12.87 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "8.0 inches, 185.6 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)",
+      "Protection": "Innolux Glass"
+    },
+    "Platform": {
+      "OS": "Android 11",
+      "Chipset": "Unisoc Tiger T310 (12 nm)",
+      "CPU": "Quad-core (1x2.0 GHz Cortex-A75 & 3x1.8 GHz Cortex-A55)",
+      "GPU": "PowerVR GE8300"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.2, (wide)",
+      "Features": "LED flash",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "2 MP, f/2.2, (wide)",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "5580 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Gray, Gold, Blue",
+      "Price": "About 120 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ]
+}

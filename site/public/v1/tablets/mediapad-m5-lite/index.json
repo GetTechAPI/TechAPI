@@ -1,0 +1,84 @@
+{
+  "id": 163,
+  "slug": "mediapad-m5-lite",
+  "base_model_slug": "mediapad-m5-lite",
+  "name": "MediaPad M5 lite",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 792,
+    "slug": "hisilicon-kirin-659",
+    "name": "HiSilicon Kirin 659",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T830 MP2",
+    "url": "/v1/socs/hisilicon-kirin-659"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    3,
+    4,
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "mediapad-m5-lite",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size_inch": 10.1,
+    "resolution": "1920x1200",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 7500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 475.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "usb": "2.0, Type-C 1.0 reversible connector"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.735625",
+  "updated_at": "2026-06-20T10:36:34.735625",
+  "url": "/v1/tablets/mediapad-m5-lite"
+}

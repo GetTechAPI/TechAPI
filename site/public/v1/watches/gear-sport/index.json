@@ -1,0 +1,72 @@
+{
+  "id": 68,
+  "slug": "gear-sport",
+  "base_model_slug": "gear-sport",
+  "name": "Gear Sport",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1882,
+    "slug": "exynos-3250-dual",
+    "name": "Exynos 3250 Dual",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-400MP2",
+    "url": "/v1/socs/exynos-3250-dual"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "gear-sport",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "Wi-Fi"
+    }
+  },
+  "display": {
+    "size_inch": 1.2,
+    "resolution": "360x360",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 67.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.854147",
+  "updated_at": "2026-06-20T10:36:34.854147",
+  "url": "/v1/watches/gear-sport"
+}

@@ -1,0 +1,71 @@
+{
+  "id": 49,
+  "slug": "watch-style",
+  "base_model_slug": "watch-style",
+  "name": "Watch Style",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1575,
+    "slug": "qualcomm-msm8909w-snapdragon-wear-2100",
+    "name": "Qualcomm MSM8909W Snapdragon Wear 2100",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 304",
+    "url": "/v1/socs/qualcomm-msm8909w-snapdragon-wear-2100"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "watch-style",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "Wi-Fi"
+    }
+  },
+  "display": {
+    "size_inch": 1.2,
+    "resolution": "360x360",
+    "type": "P-OLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, LE"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.850147",
+  "updated_at": "2026-06-20T10:36:34.850147",
+  "url": "/v1/watches/watch-style"
+}

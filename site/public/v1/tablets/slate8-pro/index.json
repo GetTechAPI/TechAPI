@@ -1,0 +1,78 @@
+{
+  "id": 106,
+  "slug": "slate8-pro",
+  "base_model_slug": "slate8-pro",
+  "name": "Slate8 Pro",
+  "brand": {
+    "id": 160,
+    "slug": "hp",
+    "name": "HP",
+    "country": "US",
+    "url": "/v1/brands/hp"
+  },
+  "soc": {
+    "id": 1333,
+    "slug": "nvidia-tegra-4-t40-s",
+    "name": "Nvidia Tegra 4 T40 S",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/nvidia-tegra-4-t40-s"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    1,
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "slate8-pro",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "Wi-Fi"
+    }
+  },
+  "display": {
+    "size_inch": 8.0,
+    "resolution": "1200x1600",
+    "type": "Capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5680,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 453.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.0, LE",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.724625",
+  "updated_at": "2026-06-20T10:36:34.724625",
+  "url": "/v1/tablets/slate8-pro"
+}

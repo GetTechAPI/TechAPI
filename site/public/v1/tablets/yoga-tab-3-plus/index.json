@@ -1,0 +1,82 @@
+{
+  "id": 208,
+  "slug": "yoga-tab-3-plus",
+  "base_model_slug": "yoga-tab-3-plus",
+  "name": "Yoga Tab 3 Plus",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1612,
+    "slug": "qualcomm-msm8953-snapdragon-625",
+    "name": "Qualcomm MSM8953 Snapdragon 625",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 506",
+    "url": "/v1/socs/qualcomm-msm8953-snapdragon-625"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    3,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "yoga-tab-3-plus",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size_inch": 10.1,
+    "resolution": "1600x2560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ],
+  "battery_mah": 9300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "usb": "2.0, Type-C 1.0 reversible connector"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.746529",
+  "updated_at": "2026-06-20T10:36:34.746529",
+  "url": "/v1/tablets/yoga-tab-3-plus"
+}

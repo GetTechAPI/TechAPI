@@ -1,0 +1,85 @@
+{
+  "id": 9,
+  "slug": "iconia-tab-a511",
+  "base_model_slug": "iconia-tab-a511",
+  "name": "Iconia Tab A511",
+  "brand": {
+    "id": 128,
+    "slug": "acer",
+    "name": "Acer",
+    "country": "TW",
+    "url": "/v1/brands/acer"
+  },
+  "soc": {
+    "id": 1328,
+    "slug": "nvidia-tegra-3",
+    "name": "Nvidia Tegra 3",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "ULP GeForce",
+    "url": "/v1/socs/nvidia-tegra-3"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    1,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "iconia-tab-a511",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "model_numbers": [
+      "A511"
+    ],
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size_inch": 10.1,
+    "resolution": "1280x800",
+    "type": "TFT capacitive touchscreen, 256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 1.0
+    }
+  ],
+  "battery_mah": 9800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.705100",
+  "updated_at": "2026-06-20T10:36:34.705100",
+  "url": "/v1/tablets/iconia-tab-a511"
+}

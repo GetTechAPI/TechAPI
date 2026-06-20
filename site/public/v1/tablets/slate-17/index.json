@@ -1,0 +1,78 @@
+{
+  "id": 107,
+  "slug": "slate-17",
+  "base_model_slug": "slate-17",
+  "name": "Slate 17",
+  "brand": {
+    "id": 160,
+    "slug": "hp",
+    "name": "HP",
+    "country": "US",
+    "url": "/v1/brands/hp"
+  },
+  "soc": {
+    "id": 923,
+    "slug": "intel-celeron-n2807",
+    "name": "Intel Celeron N2807",
+    "manufacturer": {
+      "slug": "intel",
+      "name": "Intel",
+      "url": "/v1/brands/intel"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/intel-celeron-n2807"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    2,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "slate-17",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "Wi-Fi"
+    }
+  },
+  "display": {
+    "size_inch": 17.3,
+    "resolution": "1080x1920",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 0.9
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct",
+    "bluetooth": "4.0, A2DP",
+    "usb": "USB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.724625",
+  "updated_at": "2026-06-20T10:36:34.724625",
+  "url": "/v1/tablets/slate-17"
+}

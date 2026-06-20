@@ -1,0 +1,71 @@
+{
+  "id": 47,
+  "slug": "pdal",
+  "base_model_slug": "pdal",
+  "name": "PDAL",
+  "brand": {
+    "id": 1,
+    "slug": "i-mate",
+    "name": "i-mate",
+    "country": "AE",
+    "url": "/v1/brands/i-mate"
+  },
+  "soc": {
+    "id": 1974,
+    "slug": "ti-omap-850",
+    "name": "TI OMAP 850",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ti-omap-850"
+  },
+  "release_date": "2006-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "pdal",
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size_inch": 2.4,
+    "resolution": "320x240",
+    "type": "TFT resistive touchscreen, 65K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 2.0
+    }
+  ],
+  "battery_mah": 1100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 116.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Windows Mobile",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g",
+    "bluetooth": "1.2, A2DP",
+    "usb": "1.1"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.902747",
+  "updated_at": "2026-06-20T10:36:34.902747",
+  "url": "/v1/pdas/pdal"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "galaxy-watch-active",
+  "name": "Galaxy Watch Active",
+  "brand": "samsung",
+  "soc": "exynos-9110",
+  "release_date": "2019-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "size_inch": 1.1,
+    "resolution": "360x360",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": true
+  },
+  "raw_price": "About 250 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2019, April",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Exynos 9110",
+    "platform_cpu": "Dual-core 1.15 GHz",
+    "platform_gpu": null
+  },
+  "base_model_slug": "galaxy-watch-active",
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "galaxy-watch-active",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "Wi-Fi"
+    }
+  }
+}

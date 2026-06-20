@@ -1,0 +1,55 @@
+{
+  "slug": "tab-phone-72dc",
+  "name": "Tab Phone 72DC",
+  "brand": "maxwest",
+  "soc": "mediatek-mt8377",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2800,
+  "weight_g": 270.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    1,
+    8
+  ],
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600x1024",
+    "type": "TFT capacitive touchscreen"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 2.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "usb": "Proprietary"
+  },
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / UMTS",
+    "platform_chipset": "Mediatek MT8377 (40 nm)",
+    "platform_cpu": "Dual-core 1.2 GHz Cortex-A9",
+    "platform_gpu": "PowerVR SGX531u"
+  },
+  "base_model_slug": "tab-phone-72dc",
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "tab-phone-72dc",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  }
+}

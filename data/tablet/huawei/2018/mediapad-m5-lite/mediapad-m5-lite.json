@@ -1,0 +1,62 @@
+{
+  "slug": "mediapad-m5-lite",
+  "name": "MediaPad M5 lite",
+  "brand": "huawei",
+  "soc": "hisilicon-kirin-659",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 7500,
+  "weight_g": 475.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    3,
+    4,
+    32,
+    64
+  ],
+  "display": {
+    "size_inch": 10.1,
+    "resolution": "1920x1200",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "usb": "2.0, Type-C 1.0 reversible connector"
+  },
+  "raw_price": "About 300 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2018, October",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "HiSilicon Kirin 659 (16 nm)",
+    "platform_cpu": "Octa-core (4x2.36 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)",
+    "platform_gpu": "Mali-T830 MP2"
+  },
+  "base_model_slug": "mediapad-m5-lite",
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "mediapad-m5-lite",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  }
+}

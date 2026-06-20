@@ -1,0 +1,62 @@
+{
+  "slug": "nexus-9",
+  "name": "Nexus 9",
+  "brand": "htc",
+  "soc": "nvidia-tegra-k1",
+  "release_date": "2014-01-01",
+  "ram_gb": 2,
+  "battery_mah": 6700,
+  "weight_g": 425.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    2,
+    16,
+    32
+  ],
+  "display": {
+    "size_inch": 8.9,
+    "resolution": "1536x2048",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 1.6
+    }
+  ],
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.1, A2DP, aptX",
+    "usb": "microUSB 2.0",
+    "nfc": true
+  },
+  "raw_price": "About 300 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "Nvidia Tegra K1",
+    "platform_cpu": "Dual-core 2.3 GHz Denver",
+    "platform_gpu": "Kepler DX1"
+  },
+  "base_model_slug": "nexus-9",
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "nexus-9",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  }
+}

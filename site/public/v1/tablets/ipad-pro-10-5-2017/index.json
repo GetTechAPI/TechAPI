@@ -1,0 +1,83 @@
+{
+  "id": 55,
+  "slug": "ipad-pro-10-5-2017",
+  "base_model_slug": "ipad-pro-10-5-2017",
+  "name": "iPad Pro 10.5 (2017)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 24,
+    "slug": "apple-a10x-fusion",
+    "name": "Apple A10X Fusion",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/apple-a10x-fusion"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    4,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "ipad-pro-10-5-2017",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size_inch": 10.5,
+    "resolution": "1668x2224",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 7.0
+    }
+  ],
+  "battery_mah": 8134,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 469.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.2, A2DP, EDR",
+    "usb": "3.0, proprietary reversible connector; magnetic connector",
+    "nfc": true
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.715096",
+  "updated_at": "2026-06-20T10:36:34.715096",
+  "url": "/v1/tablets/ipad-pro-10-5-2017"
+}

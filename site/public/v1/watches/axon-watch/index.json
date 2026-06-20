@@ -1,0 +1,67 @@
+{
+  "id": 78,
+  "slug": "axon-watch",
+  "base_model_slug": "axon-watch",
+  "name": "Axon Watch",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1486,
+    "slug": "qualcomm-msm8926-snapdragon-400",
+    "name": "Qualcomm MSM8926 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8926-snapdragon-400"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "axon-watch",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    }
+  },
+  "display": {
+    "size_inch": 1.4,
+    "resolution": "400x400",
+    "type": "AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "4.1, LE"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.856646",
+  "updated_at": "2026-06-20T10:36:34.856646",
+  "url": "/v1/watches/axon-watch"
+}

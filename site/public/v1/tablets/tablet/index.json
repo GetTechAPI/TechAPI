@@ -1,0 +1,82 @@
+{
+  "id": 173,
+  "slug": "tablet",
+  "base_model_slug": "tablet",
+  "name": "Tablet",
+  "brand": {
+    "id": 66,
+    "slug": "jolla",
+    "name": "Jolla",
+    "country": "FI",
+    "url": "/v1/brands/jolla"
+  },
+  "soc": {
+    "id": 941,
+    "slug": "intel-atom-z3735f",
+    "name": "Intel Atom Z3735F",
+    "manufacturer": {
+      "slug": "intel",
+      "name": "Intel",
+      "url": "/v1/brands/intel"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/intel-atom-z3735f"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    2,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "tablet",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "Wi-Fi"
+    }
+  },
+  "display": {
+    "size_inch": 7.85,
+    "resolution": "1536x2048",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "battery_mah": 4450,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 384.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "3.0",
+    "usb": "microUSB 2.0, USB Host"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.737625",
+  "updated_at": "2026-06-20T10:36:34.737625",
+  "url": "/v1/tablets/tablet"
+}

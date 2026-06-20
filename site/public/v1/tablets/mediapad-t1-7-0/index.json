@@ -1,0 +1,82 @@
+{
+  "id": 144,
+  "slug": "mediapad-t1-7-0",
+  "base_model_slug": "mediapad-t1-7-0",
+  "name": "MediaPad T1 7.0",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 2026,
+    "slug": "spreadtrum-sc7731g",
+    "name": "Spreadtrum SC7731G",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/spreadtrum-sc7731g"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    1,
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "mediapad-t1-7-0",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600x1024",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 2.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
+    }
+  ],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 278.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, LE",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.732629",
+  "updated_at": "2026-06-20T10:36:34.732629",
+  "url": "/v1/tablets/mediapad-t1-7-0"
+}

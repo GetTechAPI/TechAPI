@@ -1,0 +1,82 @@
+{
+  "id": 54,
+  "slug": "ipad-9-7-2017",
+  "base_model_slug": "ipad-9-7-2017",
+  "name": "iPad 9.7 (2017)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 18,
+    "slug": "apple-a9",
+    "name": "Apple A9",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "PowerVR GT7600",
+    "url": "/v1/socs/apple-a9"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    2,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "ipad-9-7-2017",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size_inch": 9.7,
+    "resolution": "1536x2048",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 1.2
+    }
+  ],
+  "battery_mah": 8827,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 469.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.2, A2DP, EDR, LE",
+    "usb": "2.0, proprietary reversible connector"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "created_at": "2026-06-20T10:36:34.715096",
+  "updated_at": "2026-06-20T10:36:34.715096",
+  "url": "/v1/tablets/ipad-9-7-2017"
+}

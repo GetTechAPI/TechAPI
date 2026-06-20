@@ -1,0 +1,42 @@
+{
+  "slug": "qtek-a9100",
+  "base_model_slug": "a9100",
+  "name": "Qtek A9100",
+  "brand": "qtek",
+  "release_date": "2006-03-01",
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "battery_mah": 1250,
+  "weight_g": 168.0,
+  "os": "Microsoft Windows Mobile 5.0 PocketPC",
+  "display": {
+    "size_inch": 2.8,
+    "resolution": "240 x 320 pixels (~143 ppi pixel density)",
+    "type": "TFT resistive touchscreen  65K colors"
+  },
+  "connectivity": {
+    "network": "GSM",
+    "sim": "Mini-SIM",
+    "bluetooth": "1.2",
+    "wlan": "Wi-Fi 802.11 b/i",
+    "usb": "miniUSB",
+    "gps": "No"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "ti-omap-850",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/qtek-a9100.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP| LED flash"
+    }
+  ]
+}

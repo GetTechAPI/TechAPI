@@ -1,0 +1,44 @@
+{
+  "slug": "blu-studio-m-lte",
+  "base_model_slug": "studio-m-lte",
+  "name": "Blu Studio M LTE",
+  "brand": "blu",
+  "release_date": "2016-08-01",
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "battery_mah": 2300,
+  "weight_g": 155.0,
+  "os": "Android 6.0 (Marshmallow)",
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "480 x 854 pixels (~196 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Dual SIM (Micro-SIM)",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "Yes with A-GPS"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "mediatek-mt6735",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/blu-studio-m-lte.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ]
+}

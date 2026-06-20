@@ -1,0 +1,42 @@
+{
+  "slug": "t-mobile-wing",
+  "base_model_slug": "wing",
+  "name": "T-Mobile Wing",
+  "brand": "t-mobile",
+  "release_date": "2006-11-01",
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "battery_mah": 1130,
+  "weight_g": 168.0,
+  "os": "Microsoft Windows Mobile 6 Professional",
+  "display": {
+    "size_inch": 2.8,
+    "resolution": "240 x 320 pixels (~143 ppi pixel density)",
+    "type": "TFT resistive touchscreen  65K colors"
+  },
+  "connectivity": {
+    "network": "GSM",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.0| A2DP",
+    "wlan": "Wi-Fi 802.11b/g",
+    "usb": "1.1",
+    "gps": "No"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "ti-omap-850",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/wing.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    }
+  ]
+}

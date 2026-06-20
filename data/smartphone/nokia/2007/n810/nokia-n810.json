@@ -1,0 +1,44 @@
+{
+  "slug": "nokia-n810",
+  "base_model_slug": "n810",
+  "name": "Nokia N810",
+  "brand": "nokia",
+  "release_date": "2007-10-01",
+  "ram_gb": 1,
+  "storage_options_gb": [
+    2
+  ],
+  "battery_mah": 1500,
+  "weight_g": 225.0,
+  "os": "Internet Tablet OS 2008 edition",
+  "display": {
+    "size_inch": 4.13,
+    "resolution": "480 x 800 pixels (~226 ppi pixel density)",
+    "type": "TFT resistive touchscreen  65K colors"
+  },
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "2.0| EDR",
+    "wlan": "Wi-Fi 802.11 b/g",
+    "usb": "2.0| USB Host",
+    "gps": "Yes"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "ti-omap-2420",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/nokia-n810.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "lava-v5",
+  "base_model_slug": "v5",
+  "name": "Lava V5",
+  "brand": "lava",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16
+  ],
+  "battery_mah": 3000,
+  "weight_g": 153.2,
+  "os": "Android 5.1 (Lollipop)| planned upgrade to 6.0 (Marshmallow)",
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720 x 1280 pixels (~267 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Dual SIM",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0| USB On-The-Go",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "mediatek-mt6735",
+  "raw_price": "About 150 EUR",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lava-v5.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| f/2.0| phase detection autofocus| dual-LED (dual tone) flash"
+    }
+  ]
+}

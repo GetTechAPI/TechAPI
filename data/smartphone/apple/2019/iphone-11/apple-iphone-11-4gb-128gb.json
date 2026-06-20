@@ -1,0 +1,40 @@
+{
+  "slug": "apple-iphone-11-4gb-128gb",
+  "base_model_slug": "iphone-11",
+  "name": "iPhone 11 128GB",
+  "brand": "apple",
+  "soc": "apple-a13-bionic",
+  "release_date": "2019-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3110,
+  "weight_g": 194.0,
+  "os": "iOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    }
+  },
+  "display": {
+    "size": "6.1 inches"
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 12.0
+    }
+  ]
+}

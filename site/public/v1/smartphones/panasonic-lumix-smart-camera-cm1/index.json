@@ -1,0 +1,82 @@
+{
+  "id": 20365,
+  "slug": "panasonic-lumix-smart-camera-cm1",
+  "base_model_slug": "lumix-smart-camera-cm1",
+  "name": "Panasonic Lumix Smart Camera CM1",
+  "brand": {
+    "id": 103,
+    "slug": "panasonic",
+    "name": "Panasonic",
+    "country": "JP",
+    "url": "/v1/brands/panasonic"
+  },
+  "soc": {
+    "id": 1495,
+    "slug": "qualcomm-msm8974ab-snapdragon-801",
+    "name": "Qualcomm MSM8974AB Snapdragon 801",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-msm8974ab-snapdragon-801"
+  },
+  "release_date": "2014-09-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "1080 x 1920 pixels (~469 ppi pixel density)",
+    "type": "Capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20.1 MP| f/2.8| 28mm| Leica optics| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat)| upgradable to 5.0 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot",
+    "usb": "microUSB 2.0",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/panasonic-lumix.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:21.927136",
+  "updated_at": "2026-06-20T11:42:21.927136"
+}

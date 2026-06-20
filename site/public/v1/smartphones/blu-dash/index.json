@@ -1,0 +1,79 @@
+{
+  "id": 3620,
+  "slug": "blu-dash",
+  "base_model_slug": "dash",
+  "name": "Blu Dash",
+  "brand": {
+    "id": 151,
+    "slug": "blu",
+    "name": "BLU Products",
+    "country": "US",
+    "url": "/v1/brands/blu"
+  },
+  "soc": {
+    "id": 998,
+    "slug": "mediatek-mt6573",
+    "name": "Mediatek MT6573",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 65.0,
+    "gpu_name": "PowerVR SGX531",
+    "url": "/v1/socs/mediatek-mt6573"
+  },
+  "release_date": "2011-03-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 2.8,
+    "resolution": "240 x 320 pixels (~143 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 1110,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 96.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM (Mini-SIM)",
+    "bluetooth": "3.0| EDR",
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "usb": "microUSB 2.0",
+    "gps": "Yes"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/blu-dash.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.221629",
+  "updated_at": "2026-06-20T11:42:18.221629"
+}

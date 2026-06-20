@@ -1,0 +1,82 @@
+{
+  "id": 7462,
+  "slug": "huawei-honor-8",
+  "base_model_slug": "honor-8",
+  "name": "Huawei Honor 8",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 792,
+    "slug": "hisilicon-kirin-950",
+    "name": "HiSilicon Kirin 950",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880 MP4",
+    "url": "/v1/socs/hisilicon-kirin-950"
+  },
+  "release_date": "2016-07-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080 x 1920 pixels (~423 ppi pixel density)",
+    "type": "LTPS IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "Dual 12 MP| f/2.2| 35mm| laser autofocus| dual-LED (dual tone) flash| "
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 153.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow)| upgradable to 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM| dual stand-by)",
+    "bluetooth": "4.2| A2DP| EDR| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot",
+    "usb": "2.0| Type-C 1.0 reversible connector| USB On-The-Go",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS BDS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/huawei-honor-8r1.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.119031",
+  "updated_at": "2026-06-20T11:42:19.119031"
+}

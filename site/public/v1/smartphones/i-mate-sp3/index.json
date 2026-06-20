@@ -1,0 +1,79 @@
+{
+  "id": 9284,
+  "slug": "i-mate-sp3",
+  "base_model_slug": "sp3",
+  "name": "I-Mate SP3",
+  "brand": {
+    "id": 1,
+    "slug": "i-mate",
+    "name": "i-mate",
+    "country": "AE",
+    "url": "/v1/brands/i-mate"
+  },
+  "soc": {
+    "id": 1964,
+    "slug": "ti-omap-730",
+    "name": "TI OMAP 730",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 90.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ti-omap-730"
+  },
+  "release_date": "2004-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 2.2,
+    "resolution": "176 x 220 pixels| 2.2 inches (~128 ppi pixel density)",
+    "type": "TFT  65K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 1050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 106.3,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Mobile 2003 SE Smartphone",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM",
+    "sim": "Mini-SIM",
+    "bluetooth": "1.1",
+    "wlan": "No",
+    "usb": "Yes",
+    "gps": "No"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/imsp3.gif",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.468970",
+  "updated_at": "2026-06-20T11:42:19.468970"
+}

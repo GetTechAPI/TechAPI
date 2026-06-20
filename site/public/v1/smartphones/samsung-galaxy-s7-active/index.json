@@ -1,0 +1,82 @@
+{
+  "id": 23980,
+  "slug": "samsung-galaxy-s7-active",
+  "base_model_slug": "galaxy-s7-active",
+  "name": "Samsung Galaxy S7 active",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1586,
+    "slug": "qualcomm-msm8996-snapdragon-820",
+    "name": "Qualcomm MSM8996 Snapdragon 820",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-820"
+  },
+  "release_date": "2016-06-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.1,
+    "resolution": "1440 x 2560 pixels (~576 ppi pixel density)",
+    "type": "Super AMOLED capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP| f/1.7| 26mm| phase detection autofocus| OIS| LED flash"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow)| upgradable to 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Nano-SIM",
+    "bluetooth": "4.2| A2DP| LE| aptX",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s7-active.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.0,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:22.845063",
+  "updated_at": "2026-06-20T11:42:22.845063"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 23305,
+  "slug": "samsung-galaxy-note-4",
+  "base_model_slug": "galaxy-note-4",
+  "name": "Samsung Galaxy Note 4 (USA)",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1397,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "1440 x 2560 pixels (~518 ppi pixel density)",
+    "type": "Super AMOLED capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP| f/2.2| 31mm| OIS| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 3220,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 176.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.4 (KitKat)| upgradable to 6.0.1 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / EVDO / LTE",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.1| A2DP| EDR| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0 (MHL 3 TV-out)| USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note-4-cdma.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.3,
+    "performance": null,
+    "camera": null,
+    "battery": 3.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:22.722503",
+  "updated_at": "2026-06-20T11:42:22.722503"
+}

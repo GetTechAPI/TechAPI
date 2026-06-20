@@ -1,0 +1,68 @@
+{
+  "id": 76,
+  "slug": "amazon-kindle-fire",
+  "base_model_slug": "kindle-fire",
+  "name": "Amazon Kindle Fire",
+  "brand": {
+    "id": 146,
+    "slug": "amazon",
+    "name": "Amazon",
+    "country": "US",
+    "url": "/v1/brands/amazon"
+  },
+  "soc": {
+    "id": 1999,
+    "slug": "ti-omap-4430",
+    "name": "TI OMAP 4430",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ti-omap-4430"
+  },
+  "release_date": "2011-09-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600 x 1024 pixels (~170 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 4400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 413.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3 (customized)",
+  "os_version": null,
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "No",
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "usb": "Yes",
+    "gps": "No"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/amazon-kindle-fire.jpg",
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:27.542130",
+  "updated_at": "2026-06-20T11:42:27.542130",
+  "url": "/v1/tablets/amazon-kindle-fire"
+}

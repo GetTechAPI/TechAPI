@@ -1,0 +1,82 @@
+{
+  "id": 11361,
+  "slug": "lg-prada-3-0",
+  "base_model_slug": "prada-3-0",
+  "name": "Lg Prada 3.0",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1999,
+    "slug": "ti-omap-4430",
+    "name": "TI OMAP 4430",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ti-omap-4430"
+  },
+  "release_date": "2011-12-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "480 x 800 pixels (~217 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash| "
+    }
+  ],
+  "battery_mah": 1540,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 138.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3.7 (Gingerbread)| planned upgrade to 4.0 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "3.0| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| DLNA| hotspot",
+    "usb": "microUSB 2.0 (MHL TV-out)",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lg-prada-3.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.903452",
+  "updated_at": "2026-06-20T11:42:19.903452"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 35003,
+  "slug": "yota-yotaphone",
+  "base_model_slug": "yotaphone",
+  "name": "YotaPhone",
+  "brand": {
+    "id": 121,
+    "slug": "yota",
+    "name": "Yota Devices",
+    "country": "RU",
+    "url": "/v1/brands/yota"
+  },
+  "soc": {
+    "id": 1492,
+    "slug": "qualcomm-msm8960t-snapdragon-s4-pro",
+    "name": "Qualcomm MSM8960T Snapdragon S4 Pro",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 225",
+    "url": "/v1/socs/qualcomm-msm8960t-snapdragon-s4-pro"
+  },
+  "release_date": "2012-12-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "720 x 1280 pixels (~342 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 1800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 146.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/yotaphone-1.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:25.061593",
+  "updated_at": "2026-06-20T11:42:25.061593"
+}

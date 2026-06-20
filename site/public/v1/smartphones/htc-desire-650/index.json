@@ -1,0 +1,82 @@
+{
+  "id": 6736,
+  "slug": "htc-desire-650",
+  "base_model_slug": "desire-650",
+  "name": "Htc Desire 650",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1580,
+    "slug": "qualcomm-msm8928-snapdragon-400",
+    "name": "Qualcomm MSM8928 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8928-snapdragon-400"
+  },
+  "release_date": "2016-11-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "720 x 1280 pixels (~294 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| f/2.0| 28mm| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM| dual stand-by)",
+    "bluetooth": "4.1| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0",
+    "nfc": "Yes (EMEA only)",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/htc-desire-650.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.968415",
+  "updated_at": "2026-06-20T11:42:18.968415"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 4606,
+  "slug": "coolpad-cool1-dual",
+  "base_model_slug": "cool1-dual",
+  "name": "Coolpad Cool1 dual",
+  "brand": {
+    "id": 17,
+    "slug": "coolpad",
+    "name": "Coolpad",
+    "country": "CN",
+    "url": "/v1/brands/coolpad"
+  },
+  "soc": {
+    "id": 1583,
+    "slug": "qualcomm-msm8976-snapdragon-652",
+    "name": "Qualcomm MSM8976 Snapdragon 652",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 510",
+    "url": "/v1/socs/qualcomm-msm8976-snapdragon-652"
+  },
+  "release_date": "2016-08-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1080 x 1920 pixels (~401 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "Dual 13 MP| f/2.0| phase detection autofocus| dual-LED (dual tone) flash"
+    }
+  ],
+  "battery_mah": 4060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 167.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / LTE",
+    "sim": "Dual SIM (Nano-SIM| dual stand-by)",
+    "bluetooth": "4.1| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot",
+    "usb": "Type-C 1.0 reversible connector",
+    "gps": "Yes with A-GPS GLONASS BDS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/leeco-cool1-dual.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.9,
+    "performance": null,
+    "camera": null,
+    "battery": 15.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.407741",
+  "updated_at": "2026-06-20T11:42:18.407741"
+}

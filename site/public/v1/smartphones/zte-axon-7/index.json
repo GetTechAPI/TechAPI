@@ -1,0 +1,82 @@
+{
+  "id": 35563,
+  "slug": "zte-axon-7",
+  "base_model_slug": "axon-7",
+  "name": "Zte Axon 7",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1586,
+    "slug": "qualcomm-msm8996-snapdragon-820",
+    "name": "Qualcomm MSM8996 Snapdragon 820",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-820"
+  },
+  "release_date": "2016-05-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1440 x 2560 pixels (~538 ppi pixel density)",
+    "type": "AMOLED capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20 MP| f/1.8| phase detection autofocus| OIS| dual-LED (dual tone) flash| "
+    }
+  ],
+  "battery_mah": 3250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0.1 (Marshmallow)| upgradable to 7.1.1 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / LTE",
+    "sim": "Dual SIM (Nano-SIM| dual stand-by)",
+    "bluetooth": "4.2| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n/ac| dual-band| WiFi Direct| hotspot",
+    "usb": "3.0| Type-C 1.0 reversible connector",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS/ BDS (region dependent)"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/zte-axon-7.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.7,
+    "performance": null,
+    "camera": null,
+    "battery": 3.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:25.154486",
+  "updated_at": "2026-06-20T11:42:25.154486"
+}

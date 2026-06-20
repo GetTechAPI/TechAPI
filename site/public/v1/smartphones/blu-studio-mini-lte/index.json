@@ -1,0 +1,81 @@
+{
+  "id": 3785,
+  "slug": "blu-studio-mini-lte",
+  "base_model_slug": "studio-mini-lte",
+  "name": "Blu Studio Mini LTE",
+  "brand": {
+    "id": 151,
+    "slug": "blu",
+    "name": "BLU Products",
+    "country": "US",
+    "url": "/v1/brands/blu"
+  },
+  "soc": {
+    "id": 1490,
+    "slug": "qualcomm-msm8926-snapdragon-400",
+    "name": "Qualcomm MSM8926 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8926-snapdragon-400"
+  },
+  "release_date": "2014-11-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.5,
+    "resolution": "480 x 854 pixels (~218 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 1850,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 145.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.3 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/blu-Studio-Mini-LTE.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.253167",
+  "updated_at": "2026-06-20T11:42:18.253167"
+}

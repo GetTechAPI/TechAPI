@@ -1,0 +1,83 @@
+{
+  "id": 11468,
+  "slug": "lg-optimus-l5-e610",
+  "base_model_slug": "optimus-l5-e610",
+  "name": "Lg Optimus L5 E610",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1440,
+    "slug": "qualcomm-msm7225a-snapdragon-s1",
+    "name": "Qualcomm MSM7225A Snapdragon S1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7225a-snapdragon-s1"
+  },
+  "release_date": "2012-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    2,
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.0,
+    "resolution": "320 x 480 pixels (~144 ppi pixel density)",
+    "type": "Capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 125.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "3.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lg-optimus-l5-new.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.930953",
+  "updated_at": "2026-06-20T11:42:19.930953"
+}

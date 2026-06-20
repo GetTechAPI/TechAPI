@@ -1,0 +1,79 @@
+{
+  "id": 91,
+  "slug": "acer-liquid-mini-e310",
+  "base_model_slug": "liquid-mini-e310",
+  "name": "Acer Liquid mini E310",
+  "brand": {
+    "id": 128,
+    "slug": "acer",
+    "name": "Acer",
+    "country": "TW",
+    "url": "/v1/brands/acer"
+  },
+  "soc": {
+    "id": 1373,
+    "slug": "qualcomm-msm7227-1-snapdragon-s1",
+    "name": "Qualcomm MSM7227-1 Snapdragon S1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7227-1-snapdragon-s1"
+  },
+  "release_date": "2011-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 3.2,
+    "resolution": "320 x 480 pixels (~180 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 1300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 108.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.2 (Froyo)| upgradable to 2.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.1| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 b/g| DLNA| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/acer-liquidmini.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:17.568600",
+  "updated_at": "2026-06-20T11:42:17.568600"
+}

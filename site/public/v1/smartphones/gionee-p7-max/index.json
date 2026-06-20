@@ -1,0 +1,81 @@
+{
+  "id": 5293,
+  "slug": "gionee-p7-max",
+  "base_model_slug": "p7-max",
+  "name": "Gionee P7 Max",
+  "brand": {
+    "id": 19,
+    "slug": "gionee",
+    "name": "Gionee",
+    "country": "CN",
+    "url": "/v1/brands/gionee"
+  },
+  "soc": {
+    "id": 1082,
+    "slug": "mediatek-mt6595",
+    "name": "Mediatek MT6595",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "PowerVR G6200",
+    "url": "/v1/socs/mediatek-mt6595"
+  },
+  "release_date": "2016-10-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720 x 1280 pixels (~267 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 3100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 183.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Dual SIM",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| Wi-Fi Direct| hotspot",
+    "usb": "Yes",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/gionee-p7-max-r.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 1.5,
+    "performance": null,
+    "camera": null,
+    "battery": 1.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.551377",
+  "updated_at": "2026-06-20T11:42:18.551377"
+}

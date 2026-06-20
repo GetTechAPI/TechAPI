@@ -1,0 +1,81 @@
+{
+  "id": 35669,
+  "slug": "zte-max-xl",
+  "base_model_slug": "max-xl",
+  "name": "Zte Max XL",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1643,
+    "slug": "qualcomm-msm8940-snapdragon-435",
+    "name": "Qualcomm MSM8940 Snapdragon 435",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 505",
+    "url": "/v1/socs/qualcomm-msm8940-snapdragon-435"
+  },
+  "release_date": "2017-04-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "1080 x 1920 pixels (~367 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 3990,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Yes",
+    "bluetooth": "4.2| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| WiFi Direct| hotspot",
+    "usb": "Type-C 1.0 reversible connector",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/zte-max-xl.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 14.8,
+    "performance": null,
+    "camera": null,
+    "battery": 14.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:25.169771",
+  "updated_at": "2026-06-20T11:42:25.169771"
+}

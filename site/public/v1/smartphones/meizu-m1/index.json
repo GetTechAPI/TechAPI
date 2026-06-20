@@ -1,0 +1,81 @@
+{
+  "id": 12982,
+  "slug": "meizu-m1",
+  "base_model_slug": "m1",
+  "name": "Meizu M1",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1060,
+    "slug": "mediatek-mt6732",
+    "name": "Mediatek MT6732",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T760MP2",
+    "url": "/v1/socs/mediatek-mt6732"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "768 x 1280 pixels (~300 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| f/2.2| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 128.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.4 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/meizu-m1-note-mini.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:20.226881",
+  "updated_at": "2026-06-20T11:42:20.226881"
+}

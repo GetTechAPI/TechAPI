@@ -1,0 +1,79 @@
+{
+  "id": 29232,
+  "slug": "spice-fire-one",
+  "base_model_slug": "fire-one",
+  "name": "Spice Fire One (Mi-FX-1)",
+  "brand": {
+    "id": 94,
+    "slug": "spice",
+    "name": "Spice",
+    "country": "IN",
+    "url": "/v1/brands/spice"
+  },
+  "soc": {
+    "id": 2012,
+    "slug": "spreadtrum-6821",
+    "name": "Spreadtrum 6821",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/spreadtrum-6821"
+  },
+  "release_date": "2014-08-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 3.5,
+    "resolution": "320 x 480 pixels (~165 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP| LED flash"
+    }
+  ],
+  "battery_mah": 1400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 65.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Firefox OS",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM",
+    "sim": "Dual SIM (Mini-SIM)",
+    "bluetooth": "2.1| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "usb": "microUSB 2.0",
+    "gps": "No"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/spice-firefox.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:23.834277",
+  "updated_at": "2026-06-20T11:42:23.834277"
+}

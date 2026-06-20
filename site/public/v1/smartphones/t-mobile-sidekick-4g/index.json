@@ -1,0 +1,81 @@
+{
+  "id": 29387,
+  "slug": "t-mobile-sidekick-4g",
+  "base_model_slug": "sidekick-4g",
+  "name": "T-Mobile Sidekick 4G",
+  "brand": {
+    "id": 62,
+    "slug": "t-mobile",
+    "name": "T-Mobile",
+    "country": "DE",
+    "url": "/v1/brands/t-mobile"
+  },
+  "soc": {
+    "id": 409,
+    "slug": "hummingbird",
+    "name": "Hummingbird",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "PowerVR SGX540",
+    "url": "/v1/socs/hummingbird"
+  },
+  "release_date": "2011-03-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    1
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 3.5,
+    "resolution": "480 x 800 pixels (~267 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP| autofocus"
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 162.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.2 (Froyo)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "3.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| DLNA| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/t-mobile-sidekick-4g.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:23.867409",
+  "updated_at": "2026-06-20T11:42:23.867409"
+}

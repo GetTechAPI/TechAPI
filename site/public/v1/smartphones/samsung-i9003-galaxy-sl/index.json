@@ -1,0 +1,81 @@
+{
+  "id": 22584,
+  "slug": "samsung-i9003-galaxy-sl",
+  "base_model_slug": "i9003-galaxy-sl",
+  "name": "Samsung I9003 Galaxy SL",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1996,
+    "slug": "ti-omap-3630",
+    "name": "TI OMAP 3630",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "PowerVR SGX530",
+    "url": "/v1/socs/ti-omap-3630"
+  },
+  "release_date": "2011-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.0,
+    "resolution": "480 x 800 pixels (~233 ppi pixel density)",
+    "type": "SC-LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| autofocus"
+    }
+  ],
+  "battery_mah": 1650,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 131.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.2 (Froyo)| upgradable to 2.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.1| A2DP| EDR| aptX",
+    "wlan": "Wi-Fi 802.11 b/g/n| DLNA| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-i9003-galaxy-s-sl.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:22.575548",
+  "updated_at": "2026-06-20T11:42:22.575548"
+}

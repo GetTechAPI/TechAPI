@@ -1,0 +1,82 @@
+{
+  "id": 6419,
+  "slug": "htc-8xt",
+  "base_model_slug": "8xt",
+  "name": "Htc 8XT",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1451,
+    "slug": "qualcomm-msm8930-snapdragon-400",
+    "name": "Qualcomm MSM8930 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8930-snapdragon-400"
+  },
+  "release_date": "2013-06-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "480 x 800 pixels (~217 ppi pixel density)",
+    "type": "Capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 1800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 120.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Phone 8",
+  "os_version": null,
+  "connectivity": {
+    "network": "CDMA / EVDO / LTE",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| hotspot",
+    "usb": "microUSB 2.0",
+    "nfc": "Yes (market dependent)",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/htc-8xt.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.786067",
+  "updated_at": "2026-06-20T11:42:18.786067"
+}

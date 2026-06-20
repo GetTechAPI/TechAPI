@@ -1,0 +1,81 @@
+{
+  "id": 29273,
+  "slug": "spice-stellar-526",
+  "base_model_slug": "stellar-526",
+  "name": "Spice Stellar 526 (Mi-526)",
+  "brand": {
+    "id": 94,
+    "slug": "spice",
+    "name": "Spice",
+    "country": "IN",
+    "url": "/v1/brands/spice"
+  },
+  "soc": {
+    "id": 1038,
+    "slug": "mediatek-mt6591",
+    "name": "Mediatek MT6591",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-450MP4",
+    "url": "/v1/socs/mediatek-mt6591"
+  },
+  "release_date": "2014-07-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "720 x 1280 pixels (~294 ppi pixel density)",
+    "type": "Capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM (Mini-SIM/ Micro-SIM)",
+    "bluetooth": "4.0| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/spice-526.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:23.841340",
+  "updated_at": "2026-06-20T11:42:23.841340"
+}

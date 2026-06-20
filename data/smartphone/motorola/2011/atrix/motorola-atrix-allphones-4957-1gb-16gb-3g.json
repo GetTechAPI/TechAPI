@@ -1,0 +1,45 @@
+{
+  "slug": "motorola-atrix-allphones-4957-1gb-16gb-3g",
+  "base_model_slug": "atrix",
+  "name": "Motorola ATRIX",
+  "brand": "motorola",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1930,
+  "weight_g": 135.0,
+  "os": "Android 2.2 (Froyo), upgradable to 2.3 (Gingerbread)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4957",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "nvidia-tegra-2-ap20h",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~275 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "sony-xperia-tablet-z-wi-fi-allphones-7497-2gb-16gb",
+  "base_model_slug": "xperia-tablet-z-wi-fi",
+  "name": "Sony Xperia Tablet Z Wi-Fi",
+  "brand": "sony",
+  "release_date": "2013-01-01",
+  "ram_gb": 2,
+  "battery_mah": 6000,
+  "weight_g": 495.0,
+  "os": "Android 4.1.2 (Jelly Bean), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7497",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "soc": "qualcomm-apq8064-snapdragon-600",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8.1 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2.2 MP"
+    }
+  ]
+}

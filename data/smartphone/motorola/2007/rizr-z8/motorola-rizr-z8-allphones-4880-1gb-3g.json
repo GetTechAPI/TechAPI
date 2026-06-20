@@ -1,0 +1,38 @@
+{
+  "slug": "motorola-rizr-z8-allphones-4880-1gb-3g",
+  "base_model_slug": "rizr-z8",
+  "name": "Motorola RIZR Z8",
+  "brand": "motorola",
+  "release_date": "2007-07-02",
+  "ram_gb": 1,
+  "battery_mah": 1030,
+  "weight_g": 112.0,
+  "os": "Symbian 9.2, UIQ 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4880",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "texas-instruments-omap-2420",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~182 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA videocall camera"
+    }
+  ]
+}

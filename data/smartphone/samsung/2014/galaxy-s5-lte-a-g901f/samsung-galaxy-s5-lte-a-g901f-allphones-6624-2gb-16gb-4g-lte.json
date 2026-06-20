@@ -1,0 +1,46 @@
+{
+  "slug": "samsung-galaxy-s5-lte-a-g901f-allphones-6624-2gb-16gb-4g-lte",
+  "base_model_slug": "galaxy-s5-lte-a-g901f",
+  "name": "Samsung Galaxy S5 LTE-A G901F",
+  "brand": "samsung",
+  "release_date": "2014-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2800,
+  "weight_g": 145.0,
+  "os": "Android 4.4.2 (KitKat), TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6624",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-apq8084-snapdragon-805",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~432 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, 1/2.6\", 1.12µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "motorola-moto-x-allphones-4626-2gb-16gb-4g-lte",
+  "base_model_slug": "moto-x",
+  "name": "Motorola Moto X",
+  "brand": "motorola",
+  "release_date": "2013-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2200,
+  "weight_g": 130.0,
+  "os": "Android 4.2.2 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4626",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8960dt-snapdragon-s4-pro",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "10 MP, f/2.4, 30mm (standard), 1/2.6\", 1.4µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "lg-connect-4g-ms840-allphones-4360-1gb-2gb-4g-lte",
+  "base_model_slug": "connect-4g-ms840",
+  "name": "LG Connect 4G MS840",
+  "brand": "lg",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1540,
+  "weight_g": 137.0,
+  "os": "Android 2.3.5 (Gingerbread)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4360",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 2
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "qualcomm-msm8660-snapdragon-s3",
+  "storage_options_gb": [
+    2,
+    4
+  ],
+  "display": {
+    "resolution": "480 x 840 pixels, 16:9 ratio (~242 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

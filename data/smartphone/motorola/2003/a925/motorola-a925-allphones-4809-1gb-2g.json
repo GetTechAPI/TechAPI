@@ -1,0 +1,38 @@
+{
+  "slug": "motorola-a925-allphones-4809-1gb-2g",
+  "base_model_slug": "a925",
+  "name": "Motorola A925",
+  "brand": "motorola",
+  "release_date": "2003-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1050,
+  "weight_g": 210.0,
+  "os": "Symbian 7.0, UIQ 2.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4809",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "ti-omap-1510",
+  "display": {
+    "resolution": "208 x 320 pixels, 3:2 ratio"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

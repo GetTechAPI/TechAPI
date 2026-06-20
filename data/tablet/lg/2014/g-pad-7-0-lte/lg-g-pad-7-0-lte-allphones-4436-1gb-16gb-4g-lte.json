@@ -1,0 +1,45 @@
+{
+  "slug": "lg-g-pad-7-0-lte-allphones-4436-1gb-16gb-4g-lte",
+  "base_model_slug": "g-pad-7-0-lte",
+  "name": "LG G Pad 7.0 LTE",
+  "brand": "lg",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 4000,
+  "weight_g": 294.8,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4436",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-snapdragon-400",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

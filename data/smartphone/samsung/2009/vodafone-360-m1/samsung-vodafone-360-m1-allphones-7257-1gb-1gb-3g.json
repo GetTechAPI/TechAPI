@@ -1,0 +1,45 @@
+{
+  "slug": "samsung-vodafone-360-m1-allphones-7257-1gb-1gb-3g",
+  "base_model_slug": "vodafone-360-m1",
+  "name": "Samsung Vodafone 360 M1",
+  "brand": "samsung",
+  "release_date": "2009-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 111.0,
+  "os": "Linux-based LiMo R2.0.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7257",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 1
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "600-mhz-cortex-a8",
+  "storage_options_gb": [
+    1
+  ],
+  "display": {
+    "resolution": "240 x 400 pixels, 5:3 ratio (~146 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

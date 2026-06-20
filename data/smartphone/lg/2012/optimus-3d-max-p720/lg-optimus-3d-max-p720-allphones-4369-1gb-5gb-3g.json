@@ -1,0 +1,46 @@
+{
+  "slug": "lg-optimus-3d-max-p720-allphones-4369-1gb-5gb-3g",
+  "base_model_slug": "optimus-3d-max-p720",
+  "name": "LG Optimus 3D Max P720",
+  "brand": "lg",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1520,
+  "weight_g": 148.0,
+  "os": "Android 2.3 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4369",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 5
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "ti-omap-4430",
+  "storage_options_gb": [
+    5,
+    8
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF, 5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

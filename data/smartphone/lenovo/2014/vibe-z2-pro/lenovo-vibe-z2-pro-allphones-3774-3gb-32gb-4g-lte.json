@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-vibe-z2-pro-allphones-3774-3gb-32gb-4g-lte",
+  "base_model_slug": "vibe-z2-pro",
+  "name": "Lenovo Vibe Z2 Pro",
+  "brand": "lenovo",
+  "release_date": "2014-01-01",
+  "ram_gb": 3,
+  "battery_mah": 4000,
+  "weight_g": 179.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.0.2 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3774",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "qualcomm-msm8974ac-snapdragon-801",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~490 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.2, AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

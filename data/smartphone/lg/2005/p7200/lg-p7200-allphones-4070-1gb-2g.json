@@ -1,0 +1,38 @@
+{
+  "slug": "lg-p7200-allphones-4070-1gb-2g",
+  "base_model_slug": "p7200",
+  "name": "LG P7200",
+  "brand": "lg",
+  "release_date": "2005-01-01",
+  "ram_gb": 1,
+  "battery_mah": 800,
+  "weight_g": 112.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4070",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "lg-mobile-platform-2005",
+  "display": {
+    "resolution": "176 x 220 pixels"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

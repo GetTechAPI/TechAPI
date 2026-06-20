@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-c414-allphones-7381-1gb-3g",
+  "base_model_slug": "c414",
+  "name": "Samsung C414",
+  "brand": "samsung",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 89.4,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7381",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2011",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~182 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

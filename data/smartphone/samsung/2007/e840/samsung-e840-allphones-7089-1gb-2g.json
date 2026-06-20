@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-e840-allphones-7089-1gb-2g",
+  "base_model_slug": "e840",
+  "name": "Samsung E840",
+  "brand": "samsung",
+  "release_date": "2007-01-01",
+  "ram_gb": 1,
+  "battery_mah": 690,
+  "weight_g": 99.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7089",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2007",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~182 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

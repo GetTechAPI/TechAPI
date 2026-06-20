@@ -1,0 +1,38 @@
+{
+  "slug": "asus-p525-allphones-690-1gb-2g",
+  "base_model_slug": "p525",
+  "name": "Asus P525",
+  "brand": "asus",
+  "release_date": "2006-09-01",
+  "ram_gb": 1,
+  "battery_mah": 1300,
+  "weight_g": 160.0,
+  "os": "Microsoft Windows Mobile 5.0 PocketPC",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:690",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "intel-xscale-pxa270",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~143 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

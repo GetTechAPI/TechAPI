@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-e215-allphones-6804-1gb-2g",
+  "base_model_slug": "e215",
+  "name": "Samsung E215",
+  "brand": "samsung",
+  "release_date": "2008-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 89.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6804",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2008",
+  "display": {
+    "resolution": "128 x 160 pixels (~102 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

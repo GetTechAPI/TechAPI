@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-c6620-allphones-7180-1gb-3g",
+  "base_model_slug": "c6620",
+  "name": "Samsung C6620",
+  "brand": "samsung",
+  "release_date": "2008-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1300,
+  "weight_g": 108.8,
+  "os": "Microsoft Windows Mobile 6.1 Standard",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7180",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2008",
+  "display": {
+    "resolution": "320 x 240 pixels, 4:3 ratio (~154 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

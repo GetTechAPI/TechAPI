@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-f520-allphones-7092-1gb-3g",
+  "base_model_slug": "f520",
+  "name": "Samsung F520",
+  "brand": "samsung",
+  "release_date": "2007-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7092",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2007",
+  "display": {
+    "resolution": "480 x 272 pixels, 16:9 ratio (~184 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

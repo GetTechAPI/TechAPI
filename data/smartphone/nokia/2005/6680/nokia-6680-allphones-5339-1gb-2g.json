@@ -1,0 +1,38 @@
+{
+  "slug": "nokia-6680-allphones-5339-1gb-2g",
+  "base_model_slug": "6680",
+  "name": "Nokia 6680",
+  "brand": "nokia",
+  "release_date": "2005-01-01",
+  "ram_gb": 1,
+  "battery_mah": 900,
+  "weight_g": 133.0,
+  "os": "Symbian OS 8.0a , Series 60 UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5339",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "ti-omap-1710",
+  "display": {
+    "resolution": "176 x 208 pixels (~130 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA videocall camera"
+    }
+  ]
+}

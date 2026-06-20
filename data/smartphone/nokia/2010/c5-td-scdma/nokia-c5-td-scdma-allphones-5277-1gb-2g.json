@@ -1,0 +1,38 @@
+{
+  "slug": "nokia-c5-td-scdma-allphones-5277-1gb-2g",
+  "base_model_slug": "c5-td-scdma",
+  "name": "Nokia C5 TD-SCDMA",
+  "brand": "nokia",
+  "release_date": "2010-01-01",
+  "ram_gb": 1,
+  "battery_mah": 950,
+  "weight_g": 122.0,
+  "os": "Symbian 9.3, Series 60 rel. 3.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5277",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "600-mhz-arm-11",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA videocall camera"
+    }
+  ]
+}

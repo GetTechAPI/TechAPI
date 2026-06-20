@@ -1,0 +1,46 @@
+{
+  "slug": "htc-flyer-allphones-3059-1gb-16gb-3g",
+  "base_model_slug": "flyer",
+  "name": "HTC Flyer",
+  "brand": "htc",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 4000,
+  "weight_g": 420.8,
+  "os": "Android 2.3.3 (Gingerbread), upgradable to 3.2 (Honeycomb), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3059",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "qualcomm-msm8255t-snapdragon-s2",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ]
+}

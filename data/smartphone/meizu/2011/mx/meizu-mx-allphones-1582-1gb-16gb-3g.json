@@ -1,0 +1,45 @@
+{
+  "slug": "meizu-mx-allphones-1582-1gb-16gb-3g",
+  "base_model_slug": "mx",
+  "name": "Meizu MX",
+  "brand": "meizu",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1600,
+  "weight_g": 139.0,
+  "os": "Android 2.3.5 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1582",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "exynos",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "640 x 960 pixels, 3:2 ratio (~288 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

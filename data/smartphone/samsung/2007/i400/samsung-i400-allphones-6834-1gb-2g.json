@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-i400-allphones-6834-1gb-2g",
+  "base_model_slug": "i400",
+  "name": "Samsung i400",
+  "brand": "samsung",
+  "release_date": "2007-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 92.0,
+  "os": "Symbian OS 9.2, Series 60 v3.1 UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6834",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "ti-omap-2430",
+  "display": {
+    "resolution": "320 x 240 pixels, 4:3 ratio (~174 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

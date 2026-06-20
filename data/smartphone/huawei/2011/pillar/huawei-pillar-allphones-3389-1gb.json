@@ -1,0 +1,35 @@
+{
+  "slug": "huawei-pillar-allphones-3389-1gb",
+  "base_model_slug": "pillar",
+  "name": "Huawei Pillar",
+  "brand": "huawei",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 900,
+  "weight_g": 99.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3389",
+    "sim": "Mini-SIM"
+  },
+  "soc": "huawei-mobile-platform-2011",
+  "display": {
+    "resolution": "320 x 240 pixels, 4:3 ratio (~200 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

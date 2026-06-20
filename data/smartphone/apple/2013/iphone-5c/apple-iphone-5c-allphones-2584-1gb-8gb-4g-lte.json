@@ -1,0 +1,47 @@
+{
+  "slug": "apple-iphone-5c-allphones-2584-1gb-8gb-4g-lte",
+  "base_model_slug": "iphone-5c",
+  "name": "Apple iPhone 5c",
+  "brand": "apple",
+  "release_date": "2013-09-20",
+  "ram_gb": 1,
+  "battery_mah": 1510,
+  "weight_g": 132.0,
+  "os": "iOS 7, upgradable to iOS 10.3.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2584",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "apple-a6",
+  "storage_options_gb": [
+    8,
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "640 x 1136 pixels, 16:9 ratio (~326 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.4, 33mm (standard), 1/3.2\", 1.4µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP"
+    }
+  ]
+}

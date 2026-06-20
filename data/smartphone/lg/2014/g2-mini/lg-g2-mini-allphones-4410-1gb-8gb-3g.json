@@ -1,0 +1,45 @@
+{
+  "slug": "lg-g2-mini-allphones-4410-1gb-8gb-3g",
+  "base_model_slug": "g2-mini",
+  "name": "LG G2 mini",
+  "brand": "lg",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2440,
+  "weight_g": 121.0,
+  "os": "Android 4.4.2 (KitKat), LG Optimus UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4410",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "qualcomm-msm8226-snapdragon-400",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~234 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ]
+}

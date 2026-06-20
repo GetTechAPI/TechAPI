@@ -1,0 +1,46 @@
+{
+  "slug": "sony-xperia-z3-allphones-7506-3gb-16gb-4g-lte",
+  "base_model_slug": "xperia-z3",
+  "name": "Sony Xperia Z3",
+  "brand": "sony",
+  "release_date": "2014-09-23",
+  "ram_gb": 3,
+  "battery_mah": 3100,
+  "weight_g": 152.0,
+  "os": "Android 4.4.4 (KitKat), upgradable to 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7506",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-801",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20.7 MP, f/2.0, 25mm (wide), 1/2.3\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2.2 MP, f/2.8"
+    }
+  ]
+}

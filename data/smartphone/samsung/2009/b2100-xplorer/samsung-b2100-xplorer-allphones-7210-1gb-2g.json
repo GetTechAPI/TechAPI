@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-b2100-xplorer-allphones-7210-1gb-2g",
+  "base_model_slug": "b2100-xplorer",
+  "name": "Samsung B2100 Xplorer",
+  "brand": "samsung",
+  "release_date": "2009-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1000,
+  "weight_g": 102.8,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7210",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2009",
+  "display": {
+    "resolution": "120 x 160 pixels, 4:3 ratio (~113 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-w850-allphones-6771-1gb-3g",
+  "base_model_slug": "w850",
+  "name": "Samsung W850",
+  "brand": "samsung",
+  "release_date": "2009-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1200,
+  "weight_g": 120.8,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6771",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "qualcomm-msm6246",
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

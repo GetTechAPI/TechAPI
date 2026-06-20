@@ -1,0 +1,38 @@
+{
+  "slug": "huawei-u3300-allphones-3365-1gb-2g",
+  "base_model_slug": "u3300",
+  "name": "Huawei U3300",
+  "brand": "huawei",
+  "release_date": "2008-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3365",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "huawei-mobile-platform-2008",
+  "display": {
+    "resolution": "176 x 220 pixels (~141 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA videocall camera"
+    }
+  ]
+}

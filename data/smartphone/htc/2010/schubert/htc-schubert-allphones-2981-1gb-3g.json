@@ -1,0 +1,35 @@
+{
+  "slug": "htc-schubert-allphones-2981-1gb-3g",
+  "base_model_slug": "schubert",
+  "name": "HTC Schubert",
+  "brand": "htc",
+  "release_date": "2010-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 130.0,
+  "os": "Microsoft Windows Phone 7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2981",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "qualcomm-snapdragon-s1-qsd8250",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "Yes"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

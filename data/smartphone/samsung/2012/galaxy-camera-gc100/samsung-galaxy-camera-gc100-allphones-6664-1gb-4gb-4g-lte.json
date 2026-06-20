@@ -1,0 +1,45 @@
+{
+  "slug": "samsung-galaxy-camera-gc100-allphones-6664-1gb-4gb-4g-lte",
+  "base_model_slug": "galaxy-camera-gc100",
+  "name": "Samsung Galaxy Camera GC100",
+  "brand": "samsung",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1650,
+  "weight_g": 300.0,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 4.1.2 (Jelly Bean), TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6664",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "exynos-4412-quad",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~306 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16.3 MP, AF, 21x optical zoom"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

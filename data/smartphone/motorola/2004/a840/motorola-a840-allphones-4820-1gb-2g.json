@@ -1,0 +1,38 @@
+{
+  "slug": "motorola-a840-allphones-4820-1gb-2g",
+  "base_model_slug": "a840",
+  "name": "Motorola A840",
+  "brand": "motorola",
+  "release_date": "2004-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 115.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4820",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "motorola-mobile-platform-2004",
+  "display": {
+    "resolution": "176 x 220 pixels (~128 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

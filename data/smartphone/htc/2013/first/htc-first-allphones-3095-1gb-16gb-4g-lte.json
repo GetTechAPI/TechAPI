@@ -1,0 +1,45 @@
+{
+  "slug": "htc-first-allphones-3095-1gb-16gb-4g-lte",
+  "base_model_slug": "first",
+  "name": "HTC First",
+  "brand": "htc",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 123.9,
+  "os": "Android 4.1 (Jelly Bean), Facebook Home UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3095",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8930-snapdragon-400",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.6 MP"
+    }
+  ]
+}

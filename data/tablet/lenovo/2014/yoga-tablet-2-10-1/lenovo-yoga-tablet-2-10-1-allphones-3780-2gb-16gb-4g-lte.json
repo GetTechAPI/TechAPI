@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-yoga-tablet-2-10-1-allphones-3780-2gb-16gb-4g-lte",
+  "base_model_slug": "yoga-tablet-2-10-1",
+  "name": "Lenovo Yoga Tablet 2 10.1",
+  "brand": "lenovo",
+  "release_date": "2014-01-01",
+  "ram_gb": 2,
+  "battery_mah": 9600,
+  "weight_g": 619.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3780",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "intel-atom-z3745",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "1920 x 1200 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.6 MP"
+    }
+  ]
+}

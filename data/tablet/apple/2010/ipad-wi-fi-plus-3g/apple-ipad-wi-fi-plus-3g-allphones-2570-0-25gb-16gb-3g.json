@@ -1,0 +1,43 @@
+{
+  "slug": "apple-ipad-wi-fi-plus-3g-allphones-2570-0-25gb-16gb-3g",
+  "base_model_slug": "ipad-wi-fi-plus-3g",
+  "name": "Apple iPad Wi-Fi + 3G",
+  "brand": "apple",
+  "release_date": "2010-01-01",
+  "ram_gb": 0.25,
+  "battery_mah": 6600,
+  "weight_g": 730.0,
+  "os": "iOS 4, upgradable to iOS 5.1.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2570",
+    "memory": {
+      "ram_gb": 0.25,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "apple-a4",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "768 x 1024 pixels, 4:3 ratio (~132 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "No"
+    }
+  ]
+}

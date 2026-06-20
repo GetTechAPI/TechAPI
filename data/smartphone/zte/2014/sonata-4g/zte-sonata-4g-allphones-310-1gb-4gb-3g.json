@@ -1,0 +1,45 @@
+{
+  "slug": "zte-sonata-4g-allphones-310-1gb-4gb-3g",
+  "base_model_slug": "sonata-4g",
+  "name": "ZTE Sonata 4G",
+  "brand": "zte",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1780,
+  "weight_g": 150.0,
+  "os": "Android (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:310",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-snapdragon-400",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

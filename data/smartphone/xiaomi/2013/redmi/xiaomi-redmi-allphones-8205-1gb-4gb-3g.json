@@ -1,0 +1,45 @@
+{
+  "slug": "xiaomi-redmi-allphones-8205-1gb-4gb-3g",
+  "base_model_slug": "redmi",
+  "name": "Xiaomi Redmi",
+  "brand": "xiaomi",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 158.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8205",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM"
+  },
+  "soc": "mediatek-mt6589t",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.2, 28mm (wide), 1/3.2\", 1.4µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ]
+}

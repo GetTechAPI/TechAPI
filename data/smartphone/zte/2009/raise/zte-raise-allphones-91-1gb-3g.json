@@ -1,0 +1,38 @@
+{
+  "slug": "zte-raise-allphones-91-1gb-3g",
+  "base_model_slug": "raise",
+  "name": "ZTE Raise",
+  "brand": "zte",
+  "release_date": "2009-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1250,
+  "weight_g": 146.0,
+  "os": "Microsoft Windows Mobile 6.1 Professional",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:91",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "zte-mobile-platform-2009",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~125 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

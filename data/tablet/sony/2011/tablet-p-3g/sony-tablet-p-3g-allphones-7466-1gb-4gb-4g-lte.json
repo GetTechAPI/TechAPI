@@ -1,0 +1,45 @@
+{
+  "slug": "sony-tablet-p-3g-allphones-7466-1gb-4gb-4g-lte",
+  "base_model_slug": "tablet-p-3g",
+  "name": "Sony Tablet P 3G",
+  "brand": "sony",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 3080,
+  "weight_g": 372.0,
+  "os": "Android 3.2 (Honeycomb), upgradable to 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7466",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "nvidia-tegra-2-t20",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "1024 x 480 pixels (~206 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

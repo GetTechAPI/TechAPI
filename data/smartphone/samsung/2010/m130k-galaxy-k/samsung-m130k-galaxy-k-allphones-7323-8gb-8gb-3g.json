@@ -1,0 +1,45 @@
+{
+  "slug": "samsung-m130k-galaxy-k-allphones-7323-8gb-8gb-3g",
+  "base_model_slug": "m130k-galaxy-k",
+  "name": "Samsung M130K Galaxy K",
+  "brand": "samsung",
+  "release_date": "2010-01-01",
+  "ram_gb": 8,
+  "battery_mah": 1500,
+  "weight_g": 131.0,
+  "os": "Android 2.2 (Froyo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7323",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "hummingbird",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~252 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

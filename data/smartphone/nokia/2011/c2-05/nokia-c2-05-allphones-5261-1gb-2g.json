@@ -1,0 +1,38 @@
+{
+  "slug": "nokia-c2-05-allphones-5261-1gb-2g",
+  "base_model_slug": "c2-05",
+  "name": "Nokia C2-05",
+  "brand": "nokia",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 860,
+  "weight_g": 98.5,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5261",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "nokia-mobile-platform-2011",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~200 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "micromax-x256-allphones-407-1gb-2g",
+  "base_model_slug": "x256",
+  "name": "Micromax X256",
+  "brand": "micromax",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1200,
+  "weight_g": 150.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:407",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Dual SIM (Mini-SIM, dual stand-by)"
+  },
+  "soc": "micromax-mobile-platform-2011",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~154 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-x3s-allphones-7695-1gb-16gb-3g",
+  "base_model_slug": "x3s",
+  "name": "vivo X3S",
+  "brand": "vivo",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 150.0,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7695",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Nano-SIM + Micro-SIM"
+  },
+  "soc": "mediatek-mt6592",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

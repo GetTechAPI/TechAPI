@@ -1,0 +1,38 @@
+{
+  "slug": "lg-ks660-allphones-4021-1gb-2g",
+  "base_model_slug": "ks660",
+  "name": "LG KS660",
+  "brand": "lg",
+  "release_date": "2009-01-01",
+  "ram_gb": 1,
+  "battery_mah": 950,
+  "weight_g": 110.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4021",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Dual SIM (Mini-SIM)"
+  },
+  "soc": "lg-mobile-platform-2009",
+  "display": {
+    "resolution": "240 x 400 pixels, 5:3 ratio (~155 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

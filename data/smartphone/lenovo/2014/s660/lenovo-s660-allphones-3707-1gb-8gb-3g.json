@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-s660-allphones-3707-1gb-8gb-3g",
+  "base_model_slug": "s660",
+  "name": "Lenovo S660",
+  "brand": "lenovo",
+  "release_date": "2014-06-01",
+  "ram_gb": 1,
+  "battery_mah": 3000,
+  "weight_g": 151.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3707",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM"
+  },
+  "soc": "mediatek-mt6582m",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~234 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": 39681,
+  "slug": "xiaomi-mi-a3-4gb-64gb-4g-lte",
+  "base_model_slug": "mi-a3",
+  "name": "Xiaomi Mi A3",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1682,
+    "slug": "snapdragon-665",
+    "name": "Snapdragon 665",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Adreno 610",
+    "url": "/v1/socs/snapdragon-665"
+  },
+  "release_date": "2019-08-21",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.08 inches, 720 x 1560 pixels",
+    "resolution": "~ 286 PPI",
+    "type": "Color Super AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4030,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9.0 (Pie), upgradable to v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.7,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 15.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.977021",
+  "updated_at": "2026-06-20T13:09:25.977021"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 22555,
+  "slug": "oppo-a16k-4gb-ram-64gb-4gb-64gb-4g-lte",
+  "base_model_slug": "a16k-4gb-ram-64gb",
+  "name": "OPPO A16K (4GB RAM + 64GB)",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1192,
+    "slug": "helio-g35",
+    "name": "Helio G35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/helio-g35"
+  },
+  "release_date": "2021-11-06",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.52 inches, 720 x 1600 pixels, 60 Hz",
+    "resolution": "~ 269 PPI",
+    "type": "Color IPS LCD Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4230,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, microUSB v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.2,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 18.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.140092",
+  "updated_at": "2026-06-20T13:09:19.140092"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 38654,
+  "slug": "vivo-v50e-5g-8gb-128gb-5g",
+  "base_model_slug": "v50e-5g",
+  "name": "Vivo V50e 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1285,
+    "slug": "dimensity-7300",
+    "name": "MediaTek Dimensity 7300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G615 MC2",
+    "url": "/v1/socs/dimensity-7300"
+  },
+  "release_date": "2025-04-10",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.77 inches, 1080 x 2392 pixels, 120 Hz",
+    "resolution": "~ 387 PPI",
+    "type": "Color AMOLED Screen (1.07 B)"
+  },
+  "cameras": [],
+  "battery_mah": 5600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 54.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.272265",
+  "updated_at": "2026-06-20T13:09:25.272265"
+}

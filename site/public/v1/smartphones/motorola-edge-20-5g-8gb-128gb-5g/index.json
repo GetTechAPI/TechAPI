@@ -1,0 +1,80 @@
+{
+  "id": 17736,
+  "slug": "motorola-edge-20-5g-8gb-128gb-5g",
+  "base_model_slug": "edge-20-5g",
+  "name": "Motorola Edge 20 5G",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1732,
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g"
+  },
+  "release_date": "2021-08-17",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 1080 x 2460 pixels, 144 Hz",
+    "resolution": "~ 394 PPI",
+    "type": "Color OLED Screen (1B)"
+  },
+  "cameras": [],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 163.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 11.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 20.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:17.246602",
+  "updated_at": "2026-06-20T13:09:17.246602"
+}

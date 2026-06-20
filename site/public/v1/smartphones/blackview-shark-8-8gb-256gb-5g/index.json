@@ -1,0 +1,80 @@
+{
+  "id": 4062,
+  "slug": "blackview-shark-8-8gb-256gb-5g",
+  "base_model_slug": "shark-8",
+  "name": "Blackview Shark 8",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 1252,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1080 x 2460 pixels, 165 Hz",
+    "resolution": "~ 396 PPI",
+    "type": "Color IPS Screen (1B)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.3,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:11.119611",
+  "updated_at": "2026-06-20T13:09:11.119611"
+}

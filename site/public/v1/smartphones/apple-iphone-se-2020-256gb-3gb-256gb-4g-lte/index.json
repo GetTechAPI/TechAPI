@@ -1,0 +1,80 @@
+{
+  "id": 2099,
+  "slug": "apple-iphone-se-2020-256gb-3gb-256gb-4g-lte",
+  "base_model_slug": "iphone-se-2020-256gb",
+  "name": "Apple iPhone SE 2020 (256GB)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 32,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2020-04-15",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 750 x 1334 pixels",
+    "resolution": "~ 326 PPI",
+    "type": "Color IPS LCD Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 1821,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 148.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, Proprietary v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.3,
+    "performance": 16.7,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:10.343493",
+  "updated_at": "2026-06-20T13:09:10.343493"
+}

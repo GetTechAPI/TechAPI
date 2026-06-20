@@ -1,0 +1,80 @@
+{
+  "id": 20041,
+  "slug": "nokia-c20-plus-2gb-32gb-4g-lte",
+  "base_model_slug": "c20-plus",
+  "name": "Nokia C20 Plus",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 2081,
+    "slug": "unisoc-sc9863a",
+    "name": "Unisoc SC9863A",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "IMG8322",
+    "url": "/v1/socs/unisoc-sc9863a"
+  },
+  "release_date": "2021-08-09",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 720 x 1600 pixels",
+    "resolution": "~ 270 PPI",
+    "type": "Color IPS LCD Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4950,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.7,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v4.2, A2DP",
+    "nfc": "",
+    "usb": "Yes, microUSB v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.2,
+    "performance": null,
+    "camera": null,
+    "battery": 29.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:18.267724",
+  "updated_at": "2026-06-20T13:09:18.267724"
+}

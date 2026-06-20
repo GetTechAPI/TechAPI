@@ -1,0 +1,80 @@
+{
+  "id": 6890,
+  "slug": "honor-win-12gb-256gb-5g",
+  "base_model_slug": "win",
+  "name": "Honor Win",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1780,
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 830",
+    "url": "/v1/socs/snapdragon-8-elite"
+  },
+  "release_date": "2026-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.55 inches, 1264 x 2736 pixels, 120 Hz",
+    "resolution": "~ 460 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 8000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 201.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 74.5,
+    "performance": 83.9,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:12.173331",
+  "updated_at": "2026-06-20T13:09:12.173331"
+}

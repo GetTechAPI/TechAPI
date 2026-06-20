@@ -1,0 +1,80 @@
+{
+  "id": 20644,
+  "slug": "oneplus-8-pro-8gb-128gb-5g",
+  "base_model_slug": "8-pro",
+  "name": "OnePlus 8 Pro",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1714,
+    "slug": "snapdragon-865-plus",
+    "name": "Snapdragon 865+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865-plus"
+  },
+  "release_date": "2020-04-14",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1440 x 3168 pixels, 120 Hz",
+    "resolution": "~ 513 PPI",
+    "type": "Color Fluid AMOLED (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4510,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10.0",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE, aptX HD, LDAC, AAC",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.0,
+    "performance": 3.4,
+    "camera": null,
+    "battery": 22.6,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:18.484458",
+  "updated_at": "2026-06-20T13:09:18.484458"
+}

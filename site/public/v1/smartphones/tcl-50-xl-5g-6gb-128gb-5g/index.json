@@ -1,0 +1,80 @@
+{
+  "id": 35407,
+  "slug": "tcl-50-xl-5g-6gb-128gb-5g",
+  "base_model_slug": "50-xl-5g",
+  "name": "TCL 50 XL 5G",
+  "brand": {
+    "id": 46,
+    "slug": "tcl",
+    "name": "TCL",
+    "country": "CN",
+    "url": "/v1/brands/tcl"
+  },
+  "soc": {
+    "id": 1266,
+    "slug": "dimensity-6100-plus",
+    "name": "Dimensity 6100+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6100-plus"
+  },
+  "release_date": "2024-06-26",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1080 x 2460 pixels, 120 Hz",
+    "resolution": "~ 396 PPI",
+    "type": "Color IPS Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5010,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.4,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 35.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:24.138433",
+  "updated_at": "2026-06-20T13:09:24.138433"
+}

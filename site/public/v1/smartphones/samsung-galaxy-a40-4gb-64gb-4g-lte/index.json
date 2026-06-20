@@ -1,0 +1,80 @@
+{
+  "id": 29278,
+  "slug": "samsung-galaxy-a40-4gb-64gb-4g-lte",
+  "base_model_slug": "galaxy-a40",
+  "name": "Samsung Galaxy A40",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1915,
+    "slug": "exynos-7885",
+    "name": "Exynos 7885",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-G71 MP2",
+    "url": "/v1/socs/exynos-7885"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.9 inches, 1080 x 2340 pixels",
+    "resolution": "~ 437 PPI",
+    "type": "Color Super AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v4.2",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.8,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 1.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:21.916512",
+  "updated_at": "2026-06-20T13:09:21.916512"
+}

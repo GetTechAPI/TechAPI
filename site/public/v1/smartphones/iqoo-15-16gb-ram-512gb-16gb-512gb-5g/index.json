@@ -1,0 +1,80 @@
+{
+  "id": 11553,
+  "slug": "iqoo-15-16gb-ram-512gb-16gb-512gb-5g",
+  "base_model_slug": "15-16gb-ram-512gb",
+  "name": "iQOO 15 (16GB RAM + 512GB)",
+  "brand": {
+    "id": 28,
+    "slug": "iqoo",
+    "name": "iQOO",
+    "country": "CN",
+    "url": "/v1/brands/iqoo"
+  },
+  "soc": {
+    "id": 1804,
+    "slug": "snapdragon-8-elite-gen-5",
+    "name": "Snapdragon 8 Elite Gen 5",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 840",
+    "url": "/v1/socs/snapdragon-8-elite-gen-5"
+  },
+  "release_date": "2025-01-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.85 inches, 1440 x 3168 pixels, 144 Hz",
+    "resolution": "~ 508 PPI",
+    "type": "Color LTPO AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 7000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 215.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 79.5,
+    "performance": 94.0,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:14.371266",
+  "updated_at": "2026-06-20T13:09:14.371266"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 6479,
+  "slug": "honor-huawei-honor-8-pro-6gb-128gb-4g-lte",
+  "base_model_slug": "huawei-honor-8-pro",
+  "name": "Huawei Honor 8 Pro",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 797,
+    "slug": "hisilicon-kirin-960",
+    "name": "HiSilicon Kirin 960",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/hisilicon-kirin-960"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 1440 x 2560 pixels",
+    "resolution": "~ 515 PPI",
+    "type": "Color LTPS IPS LCD (16M colors Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v7.0 (Nougat), upgradable to v8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v4.2",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.0,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:12.001633",
+  "updated_at": "2026-06-20T13:09:12.001633"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 13898,
+  "slug": "lg-l70-dual-1gb-4gb",
+  "base_model_slug": "l70-dual",
+  "name": "LG L70 Dual",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1568,
+    "slug": "qualcomm-snapdragon-200",
+    "name": "Qualcomm Snapdragon 200",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 302",
+    "url": "/v1/socs/qualcomm-snapdragon-200"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "unknown"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 480 x 800 pixels",
+    "resolution": "~ 207 PPI",
+    "type": "Color IPS Screen (16M colors Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 2100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 126.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v4.0",
+    "nfc": "",
+    "usb": "Yes, microUSB v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:15.337420",
+  "updated_at": "2026-06-20T13:09:15.337420"
+}

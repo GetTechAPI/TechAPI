@@ -1,0 +1,80 @@
+{
+  "id": 20388,
+  "slug": "nubia-fold-12gb-256gb-5g",
+  "base_model_slug": "fold",
+  "name": "Nubia Fold",
+  "brand": {
+    "id": 35,
+    "slug": "nubia",
+    "name": "Nubia",
+    "country": "CN",
+    "url": "/v1/brands/nubia"
+  },
+  "soc": {
+    "id": 1780,
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 830",
+    "url": "/v1/socs/snapdragon-8-elite"
+  },
+  "release_date": "2025-12-02",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "8 inches, 2200 x 2480 pixels, 120 Hz",
+    "resolution": "~ 414 PPI",
+    "type": "Color OLED Screen"
+  },
+  "cameras": [],
+  "battery_mah": 6560,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 249.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 74.5,
+    "performance": 83.9,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:18.381808",
+  "updated_at": "2026-06-20T13:09:18.381808"
+}

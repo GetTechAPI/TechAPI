@@ -1,0 +1,80 @@
+{
+  "id": 38719,
+  "slug": "vivo-y600-pro-5g-8gb-128gb-5g",
+  "base_model_slug": "y600-pro-5g",
+  "name": "Vivo Y600 Pro 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1327,
+    "slug": "mediatek-dimensity-7300e",
+    "name": "Mediatek Dimensity 7300e",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G610",
+    "url": "/v1/socs/mediatek-dimensity-7300e"
+  },
+  "release_date": "2026-04-27",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.83 inches, 1260 x 2800 pixels, 120 Hz",
+    "resolution": "~ 450 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 10200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 221.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 60.0,
+    "performance": null,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.292862",
+  "updated_at": "2026-06-20T13:09:25.292862"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 20679,
+  "slug": "oneplus-nord-8gb-ram-128gb-8gb-128gb-5g",
+  "base_model_slug": "nord-8gb-ram-128gb",
+  "name": "OnePlus Nord (8GB RAM + 128GB)",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1687,
+    "slug": "snapdragon-765g",
+    "name": "Snapdragon 765G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 620",
+    "url": "/v1/socs/snapdragon-765g"
+  },
+  "release_date": "2020-07-21",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 1080 x 2400 pixels, 90 Hz",
+    "resolution": "~ 402 PPI",
+    "type": "Color Fluid AMOLED (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4115,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10, upgradable to v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.8,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 16.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:18.493981",
+  "updated_at": "2026-06-20T13:09:18.493981"
+}

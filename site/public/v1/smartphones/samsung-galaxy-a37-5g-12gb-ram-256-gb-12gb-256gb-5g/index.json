@@ -1,0 +1,80 @@
+{
+  "id": 33030,
+  "slug": "samsung-galaxy-a37-5g-12gb-ram-256-gb-12gb-256gb-5g",
+  "base_model_slug": "galaxy-a37-5g-12gb-ram-256-gb",
+  "name": "Samsung Galaxy A37 5G (12GB RAM + 256 GB)",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1959,
+    "slug": "exynos-1480",
+    "name": "Samsung Exynos 1480",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Xclipse 530",
+    "url": "/v1/socs/exynos-1480"
+  },
+  "release_date": "2026-03-25",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 1080 x 2340 pixels, 120 Hz",
+    "resolution": "~ 385 PPI",
+    "type": "Color Super AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 196.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.4,
+    "performance": 7.9,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:23.235709",
+  "updated_at": "2026-06-20T13:09:23.235709"
+}

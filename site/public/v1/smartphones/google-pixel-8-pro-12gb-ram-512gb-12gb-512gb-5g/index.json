@@ -1,0 +1,80 @@
+{
+  "id": 6145,
+  "slug": "google-pixel-8-pro-12gb-ram-512gb-12gb-512gb-5g",
+  "base_model_slug": "pixel-8-pro-12gb-ram-512gb",
+  "name": "Google Pixel 8 Pro (12GB RAM + 512GB)",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 767,
+    "slug": "tensor-g3",
+    "name": "Google Tensor G3",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G715 MP7",
+    "url": "/v1/socs/tensor-g3"
+  },
+  "release_date": "2023-10-04",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 1344 x 2992 pixels, 120 Hz",
+    "resolution": "~ 490 PPI",
+    "type": "Color LTPO OLED (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 213.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 33.5,
+    "performance": 21.3,
+    "camera": null,
+    "battery": 45.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:11.871911",
+  "updated_at": "2026-06-20T13:09:11.871911"
+}

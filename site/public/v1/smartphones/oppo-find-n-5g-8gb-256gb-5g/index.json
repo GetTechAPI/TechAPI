@@ -1,0 +1,80 @@
+{
+  "id": 22642,
+  "slug": "oppo-find-n-5g-8gb-256gb-5g",
+  "base_model_slug": "find-n-5g",
+  "name": "Oppo Find N 5G",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1737,
+    "slug": "snapdragon-888-plus",
+    "name": "Snapdragon 888+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888-plus"
+  },
+  "release_date": "2021-12-15",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "7.1 inches, 1792 x 1920 pixels, 120 Hz",
+    "resolution": "~ 370 PPI",
+    "type": "Color AMOLED Screen"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 275.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.4,
+    "performance": 8.2,
+    "camera": null,
+    "battery": 32.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.170276",
+  "updated_at": "2026-06-20T13:09:19.170276"
+}

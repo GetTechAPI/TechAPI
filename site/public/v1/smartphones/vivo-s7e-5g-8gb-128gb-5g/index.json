@@ -1,0 +1,80 @@
+{
+  "id": 37073,
+  "slug": "vivo-s7e-5g-8gb-128gb-5g",
+  "base_model_slug": "s7e-5g",
+  "name": "Vivo S7e 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1187,
+    "slug": "dimensity-720",
+    "name": "Dimensity 720",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC3",
+    "url": "/v1/socs/dimensity-720"
+  },
+  "release_date": "2020-11-04",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 1080 x 2400 pixels",
+    "resolution": "~ 409 PPI",
+    "type": "Color AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.7,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.8,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 16.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:24.712903",
+  "updated_at": "2026-06-20T13:09:24.712903"
+}

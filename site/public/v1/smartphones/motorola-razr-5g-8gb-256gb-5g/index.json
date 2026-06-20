@@ -1,0 +1,80 @@
+{
+  "id": 17730,
+  "slug": "motorola-razr-5g-8gb-256gb-5g",
+  "base_model_slug": "razr-5g",
+  "name": "Motorola Razr 5G",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1687,
+    "slug": "snapdragon-765g",
+    "name": "Snapdragon 765G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 620",
+    "url": "/v1/socs/snapdragon-765g"
+  },
+  "release_date": "2020-10-05",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.2 inches, 876 x 2142 pixels",
+    "resolution": "~ 374 PPI",
+    "type": "Color pOLED (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 2800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10, upgradable to v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 1.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:17.242037",
+  "updated_at": "2026-06-20T13:09:17.242037"
+}

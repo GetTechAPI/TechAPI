@@ -1,0 +1,80 @@
+{
+  "id": 26020,
+  "slug": "realme-p2-pro-12gb-ram-256gb-12gb-256gb-5g",
+  "base_model_slug": "p2-pro-12gb-ram-256gb",
+  "name": "Realme P2 Pro (12GB RAM + 256GB)",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1765,
+    "slug": "snapdragon-7s-gen-2",
+    "name": "Snapdragon 7s Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 710",
+    "url": "/v1/socs/snapdragon-7s-gen-2"
+  },
+  "release_date": "2024-09-13",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 1080 x 2412 pixels, 120 Hz",
+    "resolution": "~ 394 PPI",
+    "type": "Color OLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.0,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 48.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:20.336270",
+  "updated_at": "2026-06-20T13:09:20.336270"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 25866,
+  "slug": "realme-c67-5g-4gb-128gb-5g",
+  "base_model_slug": "c67-5g",
+  "name": "Realme C67 5G",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1266,
+    "slug": "dimensity-6100-plus",
+    "name": "Dimensity 6100+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6100-plus"
+  },
+  "release_date": "2023-12-14",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.72 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 388 PPI",
+    "type": "Color LCD Screen (16.7M)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.5,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:20.279559",
+  "updated_at": "2026-06-20T13:09:20.279559"
+}

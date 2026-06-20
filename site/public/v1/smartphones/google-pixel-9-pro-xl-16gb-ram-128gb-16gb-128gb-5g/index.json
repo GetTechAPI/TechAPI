@@ -1,0 +1,80 @@
+{
+  "id": 6209,
+  "slug": "google-pixel-9-pro-xl-16gb-ram-128gb-16gb-128gb-5g",
+  "base_model_slug": "pixel-9-pro-xl-16gb-ram-128gb",
+  "name": "Google Pixel 9 Pro XL (16GB RAM + 128GB)",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 768,
+    "slug": "tensor-g4",
+    "name": "Google Tensor G4",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G715 MP7",
+    "url": "/v1/socs/tensor-g4"
+  },
+  "release_date": "2024-08-13",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.8 inches, 1344 x 2992 pixels, 120 Hz",
+    "resolution": "~ 482 PPI",
+    "type": "Color OLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 221.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.0,
+    "performance": 26.1,
+    "camera": null,
+    "battery": 45.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:11.891992",
+  "updated_at": "2026-06-20T13:09:11.891992"
+}

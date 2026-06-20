@@ -1,0 +1,80 @@
+{
+  "id": 23991,
+  "slug": "oppo-find-x9-5g-16gb-ram-512gb-16gb-512gb-5g",
+  "base_model_slug": "find-x9-5g-16gb-ram-512gb",
+  "name": "Oppo Find X9 5G (16GB RAM + 512GB)",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1310,
+    "slug": "dimensity-9500",
+    "name": "Dimensity 9500",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Mali G1-Ultra",
+    "url": "/v1/socs/dimensity-9500"
+  },
+  "release_date": "2025-10-16",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.59 inches, 1256 x 2760 pixels, 120 Hz",
+    "resolution": "~ 460 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 7025,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 203.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 77.2,
+    "performance": 89.4,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.608386",
+  "updated_at": "2026-06-20T13:09:19.608386"
+}

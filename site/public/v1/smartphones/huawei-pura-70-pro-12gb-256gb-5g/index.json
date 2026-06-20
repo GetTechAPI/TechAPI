@@ -1,0 +1,80 @@
+{
+  "id": 10638,
+  "slug": "huawei-pura-70-pro-12gb-256gb-5g",
+  "base_model_slug": "pura-70-pro",
+  "name": "Huawei Pura 70 Pro",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 850,
+    "slug": "kirin-9010",
+    "name": "HiSilicon Kirin 9010",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9010"
+  },
+  "release_date": "2024-04-18",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.8 inches, 1260 x 2844 pixels, 120 Hz",
+    "resolution": "~ 460 PPI",
+    "type": "Color OLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 220.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS v4.2",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.2,
+    "performance": 7.7,
+    "camera": null,
+    "battery": 30.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:13.984803",
+  "updated_at": "2026-06-20T13:09:13.985302"
+}

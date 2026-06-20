@@ -1,0 +1,80 @@
+{
+  "id": 25966,
+  "slug": "realme-gt-7-pro-16gb-ram-512gb-16gb-512gb-5g",
+  "base_model_slug": "gt-7-pro-16gb-ram-512gb",
+  "name": "Realme GT 7 Pro (16GB RAM + 512GB)",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1780,
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 830",
+    "url": "/v1/socs/snapdragon-8-elite"
+  },
+  "release_date": "2024-11-26",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1264 x 2780 pixels, 120 Hz",
+    "resolution": "~ 450 PPI",
+    "type": "Color OLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 220.2,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 74.5,
+    "performance": 86.9,
+    "camera": null,
+    "battery": 62.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:20.319730",
+  "updated_at": "2026-06-20T13:09:20.319730"
+}

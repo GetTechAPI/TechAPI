@@ -1,0 +1,80 @@
+{
+  "id": 41715,
+  "slug": "xiaomi-poco-m6-5g-6gb-ram-128gb-6gb-128gb-5g",
+  "base_model_slug": "poco-m6-5g-6gb-ram-128gb",
+  "name": "Poco M6 5G (6GB RAM + 128GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1266,
+    "slug": "dimensity-6100-plus",
+    "name": "Dimensity 6100+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6100-plus"
+  },
+  "release_date": "2023-12-22",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.74 inches, 720 x 1650 pixels, 90 Hz",
+    "resolution": "~ 267 PPI",
+    "type": "Color IPS LCD Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.642632",
+  "updated_at": "2026-06-20T13:09:26.642632"
+}

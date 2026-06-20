@@ -1,0 +1,80 @@
+{
+  "id": 41278,
+  "slug": "xiaomi-redmi-k40s-5g-6gb-128gb-5g",
+  "base_model_slug": "redmi-k40s-5g",
+  "name": "Xiaomi Redmi K40s 5G",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1736,
+    "slug": "snapdragon-870",
+    "name": "Snapdragon 870",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-870"
+  },
+  "release_date": "2022-03-17",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 395 PPI",
+    "type": "Color AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.6,
+    "performance": 4.6,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.492156",
+  "updated_at": "2026-06-20T13:09:26.492156"
+}

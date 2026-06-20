@@ -1,0 +1,80 @@
+{
+  "id": 38341,
+  "slug": "vivo-t2-5g-6gb-128gb-5g",
+  "base_model_slug": "t2-5g",
+  "name": "Vivo T2 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1730,
+    "slug": "snapdragon-695",
+    "name": "Snapdragon 695 5G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-695"
+  },
+  "release_date": "2023-04-11",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.38 inches, 1080 x 2400 pixels, 90 Hz",
+    "resolution": "~ 413 PPI",
+    "type": "Color AMOLED Screen (16.7M)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 172.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE, aptX HD",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 14.5,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 27.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.163278",
+  "updated_at": "2026-06-20T13:09:25.163278"
+}

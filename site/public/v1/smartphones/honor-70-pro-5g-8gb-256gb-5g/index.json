@@ -1,0 +1,80 @@
+{
+  "id": 6714,
+  "slug": "honor-70-pro-5g-8gb-256gb-5g",
+  "base_model_slug": "70-pro-5g",
+  "name": "Honor 70 Pro 5G",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1245,
+    "slug": "dimensity-8000",
+    "name": "Dimensity 8000",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "ARM Mali-G610",
+    "url": "/v1/socs/dimensity-8000"
+  },
+  "release_date": "2022-05-30",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1200 x 2652 pixels, 120 Hz",
+    "resolution": "~ 429 PPI",
+    "type": "Color OLED Screen (1.07 B)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.5,
+    "performance": null,
+    "camera": null,
+    "battery": 32.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:12.099948",
+  "updated_at": "2026-06-20T13:09:12.099948"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 23620,
+  "slug": "oppo-k11x-5g-8gb-128gb-5g",
+  "base_model_slug": "k11x-5g",
+  "name": "Oppo K11x 5G",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1730,
+    "slug": "snapdragon-695",
+    "name": "Snapdragon 695 5G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-695"
+  },
+  "release_date": "2023-05-24",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.72 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 391 PPI",
+    "type": "Color IPS LCD Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.483890",
+  "updated_at": "2026-06-20T13:09:19.483890"
+}

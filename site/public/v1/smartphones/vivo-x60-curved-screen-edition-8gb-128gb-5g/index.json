@@ -1,0 +1,80 @@
+{
+  "id": 37601,
+  "slug": "vivo-x60-curved-screen-edition-8gb-128gb-5g",
+  "base_model_slug": "x60-curved-screen-edition",
+  "name": "Vivo X60 Curved Screen Edition",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1936,
+    "slug": "exynos-1080",
+    "name": "Exynos 1080",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP10",
+    "url": "/v1/socs/exynos-1080"
+  },
+  "release_date": "2021-05-24",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.56 inches, 1080 x 2376 pixels, 120 Hz",
+    "resolution": "~ 398 PPI",
+    "type": "Color E3 AMOLED (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE, aptX HD",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 29.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:24.895981",
+  "updated_at": "2026-06-20T13:09:24.895981"
+}

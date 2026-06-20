@@ -1,0 +1,80 @@
+{
+  "id": 37919,
+  "slug": "vivo-t1-pro-5g-8gb-ram-128gb-8gb-128gb-5g",
+  "base_model_slug": "t1-pro-5g-8gb-ram-128gb",
+  "name": "Vivo T1 Pro 5G (8GB RAM + 128GB)",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1732,
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g"
+  },
+  "release_date": "2022-05-04",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 1080 x 2404 pixels, 90 Hz",
+    "resolution": "~ 401 PPI",
+    "type": "Color AMOLED Screen (16.7M)"
+  },
+  "cameras": [],
+  "battery_mah": 4700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE, aptX HD",
+    "nfc": "",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.8,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 30.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.024293",
+  "updated_at": "2026-06-20T13:09:25.024293"
+}

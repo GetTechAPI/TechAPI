@@ -1,0 +1,80 @@
+{
+  "id": 11561,
+  "slug": "iqoo-neo-10-pro-plus-12gb-256gb-5g",
+  "base_model_slug": "neo-10-pro-plus",
+  "name": "iQOO Neo 10 Pro Plus",
+  "brand": {
+    "id": 28,
+    "slug": "iqoo",
+    "name": "iQOO",
+    "country": "CN",
+    "url": "/v1/brands/iqoo"
+  },
+  "soc": {
+    "id": 1780,
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 830",
+    "url": "/v1/socs/snapdragon-8-elite"
+  },
+  "release_date": "2025-05-20",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.82 inches, 1440 x 3168 pixels, 144 Hz",
+    "resolution": "~ 510 PPI",
+    "type": "Color LTPO AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 6800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 212.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 74.5,
+    "performance": 83.9,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:14.374280",
+  "updated_at": "2026-06-20T13:09:14.374280"
+}

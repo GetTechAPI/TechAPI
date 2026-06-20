@@ -1,0 +1,80 @@
+{
+  "id": 41120,
+  "slug": "xiaomi-poco-f4-12gb-ram-256gb-12gb-256gb-5g",
+  "base_model_slug": "poco-f4-12gb-ram-256gb",
+  "name": "Poco F4 (12GB RAM + 256GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1736,
+    "slug": "snapdragon-870",
+    "name": "Snapdragon 870",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-870"
+  },
+  "release_date": "2022-06-23",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 395 PPI",
+    "type": "Color Super AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.8,
+    "performance": 9.1,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.445912",
+  "updated_at": "2026-06-20T13:09:26.445912"
+}

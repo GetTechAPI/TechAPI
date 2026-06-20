@@ -1,0 +1,80 @@
+{
+  "id": 26070,
+  "slug": "realme-gt-8-pro-12gb-256gb-5g",
+  "base_model_slug": "gt-8-pro",
+  "name": "Realme GT 8 Pro",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1804,
+    "slug": "snapdragon-8-elite-gen-5",
+    "name": "Snapdragon 8 Elite Gen 5",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 840",
+    "url": "/v1/socs/snapdragon-8-elite-gen-5"
+  },
+  "release_date": "2025-10-21",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.79 inches, 1440 x 3136 pixels, 144 Hz",
+    "resolution": "~ 508 PPI",
+    "type": "Color LTPO AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 7000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 214.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0, A2DP, LE, aptX HD",
+    "nfc": "Yes, Dual Side",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 78.0,
+    "performance": 91.0,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:20.355547",
+  "updated_at": "2026-06-20T13:09:20.355547"
+}

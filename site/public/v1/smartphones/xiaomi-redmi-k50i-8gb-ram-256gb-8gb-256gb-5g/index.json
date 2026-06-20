@@ -1,0 +1,80 @@
+{
+  "id": 41296,
+  "slug": "xiaomi-redmi-k50i-8gb-ram-256gb-8gb-256gb-5g",
+  "base_model_slug": "redmi-k50i-8gb-ram-256gb",
+  "name": "Xiaomi Redmi K50i (8GB RAM + 256GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1247,
+    "slug": "dimensity-8100",
+    "name": "Dimensity 8100",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G610 MC6",
+    "url": "/v1/socs/dimensity-8100"
+  },
+  "release_date": "2022-07-20",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.6 inches, 1080 x 2460 pixels, 144 Hz",
+    "resolution": "~ 407 PPI",
+    "type": "Color Liquid FFS LCD Panel (1 Billion)"
+  },
+  "cameras": [],
+  "battery_mah": 5080,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 200.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.8,
+    "performance": 6.3,
+    "camera": null,
+    "battery": 41.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.497595",
+  "updated_at": "2026-06-20T13:09:26.497595"
+}

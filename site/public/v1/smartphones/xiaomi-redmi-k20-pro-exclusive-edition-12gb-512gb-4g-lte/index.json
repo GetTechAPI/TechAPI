@@ -1,0 +1,80 @@
+{
+  "id": 39806,
+  "slug": "xiaomi-redmi-k20-pro-exclusive-edition-12gb-512gb-4g-lte",
+  "base_model_slug": "redmi-k20-pro-exclusive-edition",
+  "name": "Xiaomi Redmi K20 Pro Exclusive Edition",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1688,
+    "slug": "snapdragon-855-plus",
+    "name": "Snapdragon 855+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/snapdragon-855-plus"
+  },
+  "release_date": "2019-09-19",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.39 inches, 1080 x 2340 pixels",
+    "resolution": "~ 403 PPI",
+    "type": "Color Horizon AMOLED (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 191.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.5,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.015688",
+  "updated_at": "2026-06-20T13:09:26.015688"
+}

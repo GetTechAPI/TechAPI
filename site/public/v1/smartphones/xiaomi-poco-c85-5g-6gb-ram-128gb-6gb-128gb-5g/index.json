@@ -1,0 +1,80 @@
+{
+  "id": 42382,
+  "slug": "xiaomi-poco-c85-5g-6gb-ram-128gb-6gb-128gb-5g",
+  "base_model_slug": "poco-c85-5g-6gb-ram-128gb",
+  "name": "POCO C85 5G (6GB RAM + 128GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1284,
+    "slug": "dimensity-6300",
+    "name": "MediaTek Dimensity 6300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6300"
+  },
+  "release_date": "2025-12-09",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.9 inches, 720 x 1600 pixels, 120 Hz",
+    "resolution": "~ 254 PPI",
+    "type": "Color IPS Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 211.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.8,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 50.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.882739",
+  "updated_at": "2026-06-20T13:09:26.882739"
+}

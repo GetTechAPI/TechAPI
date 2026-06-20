@@ -1,0 +1,80 @@
+{
+  "id": 6259,
+  "slug": "google-pixel-9a-8gb-256gb-5g",
+  "base_model_slug": "pixel-9a",
+  "name": "Google Pixel 9A",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 768,
+    "slug": "tensor-g4",
+    "name": "Google Tensor G4",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G715 MP7",
+    "url": "/v1/socs/tensor-g4"
+  },
+  "release_date": "2025-03-19",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 1080 x 2424 pixels, 120 Hz",
+    "resolution": "~ 422 PPI",
+    "type": "Color OLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 185.9,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 33.3,
+    "performance": 20.1,
+    "camera": null,
+    "battery": 46.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:11.914083",
+  "updated_at": "2026-06-20T13:09:11.914083"
+}

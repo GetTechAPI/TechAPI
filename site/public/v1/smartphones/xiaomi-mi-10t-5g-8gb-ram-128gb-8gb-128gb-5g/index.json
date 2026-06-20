@@ -1,0 +1,80 @@
+{
+  "id": 40006,
+  "slug": "xiaomi-mi-10t-5g-8gb-ram-128gb-8gb-128gb-5g",
+  "base_model_slug": "mi-10t-5g-8gb-ram-128gb",
+  "name": "Xiaomi Mi 10T 5G (8GB RAM + 128GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1714,
+    "slug": "snapdragon-865-plus",
+    "name": "Snapdragon 865+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865-plus"
+  },
+  "release_date": "2020-10-15",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 2400 x 1080 pixels, 144 Hz",
+    "resolution": "~ 395 PPI",
+    "type": "Color (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 216.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10, upgradable to v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.7,
+    "performance": 3.4,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.080228",
+  "updated_at": "2026-06-20T13:09:26.080228"
+}

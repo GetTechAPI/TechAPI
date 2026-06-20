@@ -1,0 +1,80 @@
+{
+  "id": 38718,
+  "slug": "vivo-y21-5g-8gb-ram-128gb-8gb-128gb-5g",
+  "base_model_slug": "y21-5g-8gb-ram-128gb",
+  "name": "Vivo Y21 5G (8GB RAM + 128GB)",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1284,
+    "slug": "dimensity-6300",
+    "name": "MediaTek Dimensity 6300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6300"
+  },
+  "release_date": "2026-03-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.74 inches, 720 x 1600 pixels, 120 Hz",
+    "resolution": "~ 260 PPI",
+    "type": "Color IPS Screen"
+  },
+  "cameras": [],
+  "battery_mah": 6500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 209.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 50.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.292356",
+  "updated_at": "2026-06-20T13:09:25.292356"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 20381,
+  "slug": "nubia-z17s-8gb-ram-128gb-8gb-128gb-4g-lte",
+  "base_model_slug": "z17s-8gb-ram-128gb",
+  "name": "Nubia Z17s (8GB RAM + 128GB)",
+  "brand": {
+    "id": 35,
+    "slug": "nubia",
+    "name": "Nubia",
+    "country": "CN",
+    "url": "/v1/brands/nubia"
+  },
+  "soc": {
+    "id": 1625,
+    "slug": "snapdragon-835",
+    "name": "Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/snapdragon-835"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.73 inches, 1080 x 2040 pixels",
+    "resolution": "~ 403 PPI",
+    "type": "Color LTPS IPS LCD (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v7.1.1 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v4.2",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.8,
+    "performance": 26.1,
+    "camera": null,
+    "battery": 1.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:18.378806",
+  "updated_at": "2026-06-20T13:09:18.378806"
+}

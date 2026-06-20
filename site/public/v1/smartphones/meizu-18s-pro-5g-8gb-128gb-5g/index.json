@@ -1,0 +1,80 @@
+{
+  "id": 15617,
+  "slug": "meizu-18s-pro-5g-8gb-128gb-5g",
+  "base_model_slug": "18s-pro-5g",
+  "name": "Meizu 18s Pro 5G",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1737,
+    "slug": "snapdragon-888-plus",
+    "name": "Snapdragon 888+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888-plus"
+  },
+  "release_date": "2021-09-22",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 1440 x 3200 pixels, 120 Hz",
+    "resolution": "~ 526 PPI",
+    "type": "Color Super AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.4,
+    "performance": 8.2,
+    "camera": null,
+    "battery": 32.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:16.010485",
+  "updated_at": "2026-06-20T13:09:16.010485"
+}

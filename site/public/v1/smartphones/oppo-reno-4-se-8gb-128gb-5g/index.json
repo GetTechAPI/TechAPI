@@ -1,0 +1,80 @@
+{
+  "id": 22488,
+  "slug": "oppo-reno-4-se-8gb-128gb-5g",
+  "base_model_slug": "reno-4-se",
+  "name": "Oppo Reno 4 SE",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1187,
+    "slug": "dimensity-720",
+    "name": "Dimensity 720",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC3",
+    "url": "/v1/socs/dimensity-720"
+  },
+  "release_date": "2020-09-21",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.43 inches, 1080 x 2400 pixels, 60 Hz",
+    "resolution": "~ 409 PPI",
+    "type": "Color Super AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10, upgradable to v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 11.2,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 19.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.110459",
+  "updated_at": "2026-06-20T13:09:19.110459"
+}

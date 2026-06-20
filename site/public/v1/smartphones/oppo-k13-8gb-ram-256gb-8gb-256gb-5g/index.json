@@ -1,0 +1,80 @@
+{
+  "id": 23996,
+  "slug": "oppo-k13-8gb-ram-256gb-8gb-256gb-5g",
+  "base_model_slug": "k13-8gb-ram-256gb",
+  "name": "Oppo K13 (8GB RAM + 256GB)",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1785,
+    "slug": "qualcomm-snapdragon-6-gen4",
+    "name": "Qualcomm Snapdragon 6 Gen4",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno",
+    "url": "/v1/socs/qualcomm-snapdragon-6-gen4"
+  },
+  "release_date": "2025-04-21",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 395 PPI",
+    "type": "Color AMOLED Screen (16.7 M)"
+  },
+  "cameras": [],
+  "battery_mah": 7000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 208.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2",
+    "nfc": "",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 60.0,
+    "performance": null,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.609388",
+  "updated_at": "2026-06-20T13:09:19.609388"
+}

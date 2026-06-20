@@ -1,0 +1,80 @@
+{
+  "id": 11548,
+  "slug": "iqoo-z9-lite-5g-6gb-ram-128gb-6gb-128gb-5g",
+  "base_model_slug": "z9-lite-5g-6gb-ram-128gb",
+  "name": "iQOO Z9 Lite 5G (6GB RAM +128GB)",
+  "brand": {
+    "id": 28,
+    "slug": "iqoo",
+    "name": "iQOO",
+    "country": "CN",
+    "url": "/v1/brands/iqoo"
+  },
+  "soc": {
+    "id": 1284,
+    "slug": "dimensity-6300",
+    "name": "MediaTek Dimensity 6300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6300"
+  },
+  "release_date": "2024-07-15",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.56 inches, 720 x 1612 pixels, 90 Hz",
+    "resolution": "~ 269 PPI",
+    "type": "Color LCD Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:14.368765",
+  "updated_at": "2026-06-20T13:09:14.368765"
+}

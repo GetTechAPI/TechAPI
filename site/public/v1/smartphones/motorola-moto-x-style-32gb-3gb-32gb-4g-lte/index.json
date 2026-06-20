@@ -1,0 +1,80 @@
+{
+  "id": 17142,
+  "slug": "motorola-moto-x-style-32gb-3gb-32gb-4g-lte",
+  "base_model_slug": "moto-x-style-32gb",
+  "name": "Motorola Moto X Style (32GB)",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1583,
+    "slug": "snapdragon-808",
+    "name": "Snapdragon 808",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 20.0,
+    "gpu_name": "Adreno 418",
+    "url": "/v1/socs/snapdragon-808"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 1440 x 2560 pixels",
+    "resolution": "~ 515 PPI",
+    "type": "Color IPS Screen (16M colors Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 179.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v5.1.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v4.1",
+    "nfc": "Yes",
+    "usb": "Yes, microUSB v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.5,
+    "performance": 1.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:16.992749",
+  "updated_at": "2026-06-20T13:09:16.992749"
+}

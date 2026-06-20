@@ -1,0 +1,80 @@
+{
+  "id": 38346,
+  "slug": "vivo-t2-pro-5g-8gb-ram-256gb-8gb-256gb-5g",
+  "base_model_slug": "t2-pro-5g-8gb-ram-256gb",
+  "name": "Vivo T2 Pro 5G (8GB RAM + 256GB)",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1267,
+    "slug": "dimensity-7200",
+    "name": "MediaTek Dimensity 7200",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G610 MC4",
+    "url": "/v1/socs/dimensity-7200"
+  },
+  "release_date": "2023-09-22",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 389 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 176.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE, aptX HD",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.4,
+    "performance": 5.8,
+    "camera": null,
+    "battery": 39.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.165281",
+  "updated_at": "2026-06-20T13:09:25.165281"
+}

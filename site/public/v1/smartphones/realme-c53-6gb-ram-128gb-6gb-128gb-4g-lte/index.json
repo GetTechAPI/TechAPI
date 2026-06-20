@@ -1,0 +1,80 @@
+{
+  "id": 25856,
+  "slug": "realme-c53-6gb-ram-128gb-6gb-128gb-4g-lte",
+  "base_model_slug": "c53-6gb-ram-128gb",
+  "name": "Realme C53 (6GB RAM + 128GB)",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 2092,
+    "slug": "unisoc-tiger-t612",
+    "name": "UNISOC Tiger T612",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G57",
+    "url": "/v1/socs/unisoc-tiger-t612"
+  },
+  "release_date": "2023-07-19",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.74 inches, 1080 x 2400 pixels, 90 Hz",
+    "resolution": "~ 390 PPI",
+    "type": "Color IPS LCD Screen (16.7M)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:20.274032",
+  "updated_at": "2026-06-20T13:09:20.274032"
+}

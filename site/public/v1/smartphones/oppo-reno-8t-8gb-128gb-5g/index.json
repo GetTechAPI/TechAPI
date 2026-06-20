@@ -1,0 +1,80 @@
+{
+  "id": 23783,
+  "slug": "oppo-reno-8t-8gb-128gb-5g",
+  "base_model_slug": "reno-8t",
+  "name": "Oppo Reno 8T",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1730,
+    "slug": "snapdragon-695",
+    "name": "Snapdragon 695 5G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-695"
+  },
+  "release_date": "2023-02-03",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 1080 x 2412 pixels, 120 Hz",
+    "resolution": "~ 394 PPI",
+    "type": "Color 3D Flexible OLED (1.07B)"
+  },
+  "cameras": [],
+  "battery_mah": 4800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 32.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.542927",
+  "updated_at": "2026-06-20T13:09:19.542927"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 25431,
+  "slug": "realme-x-spiderman-edition-8gb-128gb-4g-lte",
+  "base_model_slug": "x-spiderman-edition",
+  "name": "Realme X Spiderman Edition",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1652,
+    "slug": "snapdragon-710",
+    "name": "Snapdragon 710",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 616",
+    "url": "/v1/socs/snapdragon-710"
+  },
+  "release_date": "2019-05-15",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.53 inches, 1080 x 2340 pixels",
+    "resolution": "~ 394 PPI",
+    "type": "Color AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3765,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 191.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, 5.0",
+    "nfc": "",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.2,
+    "performance": 23.0,
+    "camera": null,
+    "battery": 11.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:20.136288",
+  "updated_at": "2026-06-20T13:09:20.136288"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 16125,
+  "slug": "micromax-in-1b-2gb-32gb-4g-lte",
+  "base_model_slug": "in-1b",
+  "name": "Micromax IN 1b",
+  "brand": {
+    "id": 93,
+    "slug": "micromax",
+    "name": "Micromax",
+    "country": "IN",
+    "url": "/v1/brands/micromax"
+  },
+  "soc": {
+    "id": 1192,
+    "slug": "helio-g35",
+    "name": "Helio G35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/helio-g35"
+  },
+  "release_date": "2020-11-03",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.52 inches, 720 x 1600 pixels",
+    "resolution": "~ 256 PPI",
+    "type": "Color IPS Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:16.222801",
+  "updated_at": "2026-06-20T13:09:16.223301"
+}

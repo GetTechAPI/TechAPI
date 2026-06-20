@@ -1,0 +1,80 @@
+{
+  "id": 42141,
+  "slug": "xiaomi-redmi-13-4g-6gb-128gb-4g-lte",
+  "base_model_slug": "redmi-13-4g",
+  "name": "Xiaomi Redmi 13 4G",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1307,
+    "slug": "mediatek-helio-g91-ultra",
+    "name": "MediaTek Helio G91-Ultra",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/mediatek-helio-g91-ultra"
+  },
+  "release_date": "2024-06-03",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.79 inches, 1080 x 2460 pixels, 90 Hz",
+    "resolution": "~ 396 PPI",
+    "type": "Color IPS Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5030,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 205.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.5,
+    "performance": null,
+    "camera": null,
+    "battery": 30.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.789302",
+  "updated_at": "2026-06-20T13:09:26.789302"
+}

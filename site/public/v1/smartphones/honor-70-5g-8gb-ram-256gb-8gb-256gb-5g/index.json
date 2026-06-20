@@ -1,0 +1,80 @@
+{
+  "id": 6711,
+  "slug": "honor-70-5g-8gb-ram-256gb-8gb-256gb-5g",
+  "base_model_slug": "70-5g-8gb-ram-256gb",
+  "name": "Honor 70 5G (8GB RAM + 256GB)",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1731,
+    "slug": "snapdragon-778g-plus",
+    "name": "Snapdragon 778G Plus",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g-plus"
+  },
+  "release_date": "2022-05-30",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 395 PPI",
+    "type": "Color OLED Screen (1.07 B)"
+  },
+  "cameras": [],
+  "battery_mah": 4800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 178.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 32.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:12.098416",
+  "updated_at": "2026-06-20T13:09:12.098416"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 35227,
+  "slug": "tcl-10-5g-uw-6gb-128gb-5g",
+  "base_model_slug": "10-5g-uw",
+  "name": "TCL 10 5G UW",
+  "brand": {
+    "id": 46,
+    "slug": "tcl",
+    "name": "TCL",
+    "country": "CN",
+    "url": "/v1/brands/tcl"
+  },
+  "soc": {
+    "id": 1687,
+    "slug": "snapdragon-765g",
+    "name": "Snapdragon 765G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 620",
+    "url": "/v1/socs/snapdragon-765g"
+  },
+  "release_date": "2020-10-27",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.53 inches, 1080 x 2340 pixels",
+    "resolution": "~ 395 PPI",
+    "type": "Color IPS LCD Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.0,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:24.072407",
+  "updated_at": "2026-06-20T13:09:24.072407"
+}

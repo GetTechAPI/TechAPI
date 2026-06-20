@@ -1,0 +1,80 @@
+{
+  "id": 18731,
+  "slug": "motorola-moto-g67-4gb-128gb-5g",
+  "base_model_slug": "moto-g67",
+  "name": "Motorola Moto G67",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1284,
+    "slug": "dimensity-6300",
+    "name": "MediaTek Dimensity 6300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6300"
+  },
+  "release_date": "2026-01-29",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1272 x 2772 pixels, 120 Hz",
+    "resolution": "~ 450 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 182.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 38.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:17.670405",
+  "updated_at": "2026-06-20T13:09:17.670405"
+}

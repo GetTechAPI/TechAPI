@@ -1,0 +1,80 @@
+{
+  "id": 11492,
+  "slug": "iqoo-vivo-iqoo-3-8gb-128gb-4g-lte",
+  "base_model_slug": "vivo-iqoo-3",
+  "name": "Vivo iQOO 3",
+  "brand": {
+    "id": 28,
+    "slug": "iqoo",
+    "name": "iQOO",
+    "country": "CN",
+    "url": "/v1/brands/iqoo"
+  },
+  "soc": {
+    "id": 1714,
+    "slug": "snapdragon-865-plus",
+    "name": "Snapdragon 865+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865-plus"
+  },
+  "release_date": "2020-02-25",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 1080 x 2400 pixels, 60 Hz",
+    "resolution": "~ 409 PPI",
+    "type": "Color Super AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4440,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 214.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.5,
+    "performance": 3.4,
+    "camera": null,
+    "battery": 21.6,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:14.345648",
+  "updated_at": "2026-06-20T13:09:14.345648"
+}

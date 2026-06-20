@@ -1,0 +1,80 @@
+{
+  "id": 11541,
+  "slug": "iqoo-13-16gb-ram-512gb-16gb-512gb-5g",
+  "base_model_slug": "13-16gb-ram-512gb",
+  "name": "iQOO 13 (16GB RAM + 512GB)",
+  "brand": {
+    "id": 28,
+    "slug": "iqoo",
+    "name": "iQOO",
+    "country": "CN",
+    "url": "/v1/brands/iqoo"
+  },
+  "soc": {
+    "id": 1780,
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Adreno 830",
+    "url": "/v1/socs/snapdragon-8-elite"
+  },
+  "release_date": "2024-12-03",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.82 inches, 1440 x 3168 pixels, 144 Hz",
+    "resolution": "~ 510 PPI",
+    "type": "Color LTPO 2.0 AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 207.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 76.0,
+    "performance": 86.9,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:14.367256",
+  "updated_at": "2026-06-20T13:09:14.367256"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 26121,
+  "slug": "realme-16t-5g-8gb-ram-128gb-8gb-128gb-5g",
+  "base_model_slug": "16t-5g-8gb-ram-128gb",
+  "name": "Realme 16T 5G (8GB RAM + 128GB)",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1284,
+    "slug": "dimensity-6300",
+    "name": "MediaTek Dimensity 6300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6300"
+  },
+  "release_date": "2026-05-22",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.8 inches, 720 x 1570 pixels, 144 Hz",
+    "resolution": "~ 254 PPI",
+    "type": "Color LCD Screen (16.7 m Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 8000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 224.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, SBC, AAC, LDAC, aptX, aptX HD, LHDC 5.0",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 50.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:20.374938",
+  "updated_at": "2026-06-20T13:09:20.374938"
+}

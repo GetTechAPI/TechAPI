@@ -1,0 +1,79 @@
+{
+  "id": 25798,
+  "slug": "poco-f5-pro-8gb-256gb",
+  "base_model_slug": "f5-pro",
+  "name": "F5 Pro 256GB",
+  "brand": {
+    "id": 38,
+    "slug": "poco",
+    "name": "POCO",
+    "country": "CN",
+    "url": "/v1/brands/poco"
+  },
+  "soc": {
+    "id": 1749,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    }
+  },
+  "display": {
+    "size": "6.67 inches"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.0
+    },
+    {
+      "type": "selfie",
+      "mp": 20.0
+    }
+  ],
+  "battery_mah": 5160,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.4,
+    "performance": 22.2,
+    "camera": 21.6,
+    "battery": 47.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "created_at": "2026-06-20T17:22:00.768871",
+  "updated_at": "2026-06-20T17:22:00.768871"
+}

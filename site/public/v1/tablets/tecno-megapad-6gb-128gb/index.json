@@ -1,0 +1,71 @@
+{
+  "id": 1257,
+  "slug": "tecno-megapad-6gb-128gb",
+  "base_model_slug": "megapad",
+  "name": "Megapad 128GB",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1204,
+    "slug": "mediatek-helio-g80",
+    "name": "Mediatek Helio G80",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G52 MC2",
+    "url": "/v1/socs/mediatek-helio-g80"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    }
+  },
+  "display": {
+    "size": "10.9 inches"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 12.0
+    }
+  ],
+  "battery_mah": 7500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 420.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "created_at": "2026-06-20T17:22:20.166793",
+  "updated_at": "2026-06-20T17:22:20.166793",
+  "url": "/v1/tablets/tecno-megapad-6gb-128gb"
+}

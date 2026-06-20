@@ -1,0 +1,79 @@
+{
+  "id": 2083,
+  "slug": "apple-iphone-12-4gb-128gb",
+  "base_model_slug": "iphone-12",
+  "name": "iPhone 12 128GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 36,
+    "slug": "apple-a14-bionic-apl1w01-t8101",
+    "name": "Apple A14 Bionic APL1W01 T8101",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple G13P MP4",
+    "url": "/v1/socs/apple-a14-bionic-apl1w01-t8101"
+  },
+  "release_date": "2020-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    }
+  },
+  "display": {
+    "size": "6.1 inches"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 12.0
+    }
+  ],
+  "battery_mah": 2815,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 164.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 10.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "created_at": "2026-06-20T17:21:49.464195",
+  "updated_at": "2026-06-20T17:21:49.464195"
+}

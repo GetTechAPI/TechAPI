@@ -1,0 +1,92 @@
+{
+  "id": 33762,
+  "slug": "libero-5g-ii-td-lte-jp-a103zt",
+  "base_model_slug": "libero-ii",
+  "name": "Libero 5G II TD-LTE JP A103ZT",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1236,
+    "slug": "mediatek-dimensity-700-mt6833v-za",
+    "name": "MediaTek Dimensity 700 MT6833V/ZA",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "ARM Mali-G57MP2",
+    "url": "/v1/socs/mediatek-dimensity-700-mt6833v-za"
+  },
+  "release_date": "2021-12-03",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "jp",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "libero-5g-ii-td-lte-jp-a103zt",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "A103ZT"
+    ]
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 15.9
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3900,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 200.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.4,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 13.5,
+    "display": 44.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:18:00.815973",
+  "updated_at": "2026-06-20T11:18:00.815973"
+}

@@ -1,0 +1,93 @@
+{
+  "id": 7668,
+  "slug": "honor-60-5g-standard-edition-dual-sim-td-lte-cn-256gb-lsa-an00",
+  "base_model_slug": "honor-60-lsa",
+  "name": "Honor 60 5G Standard Edition Dual SIM TD-LTE CN 256GB LSA-AN00",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1711,
+    "slug": "qualcomm-snapdragon-778g-5g-sm7325",
+    "name": "Qualcomm Snapdragon 778G 5G SM7325",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Qualcomm Adreno 642L",
+    "url": "/v1/socs/qualcomm-snapdragon-778g-5g-sm7325"
+  },
+  "release_date": "2021-12-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "honor-60-5g-standard-edition-dual-sim-td-lte-cn-256gb-lsa-an00",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "dual SIM",
+    "model_numbers": [
+      "AN00"
+    ]
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 179.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.4,
+    "performance": null,
+    "camera": 35.8,
+    "battery": 32.0,
+    "display": 44.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:53.858758",
+  "updated_at": "2026-06-20T11:17:53.859822"
+}

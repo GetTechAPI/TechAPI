@@ -1,0 +1,90 @@
+{
+  "id": 981,
+  "slug": "1se-light-2020-dual-sim-lte-emea-32gb-4087u",
+  "base_model_slug": "1se-2020-4087u",
+  "name": "1SE light 2020 Dual SIM LTE EMEA 32GB 4087U",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 2059,
+    "slug": "unisoc-sc9863a",
+    "name": "Unisoc SC9863A",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "IMG8322",
+    "url": "/v1/socs/unisoc-sc9863a"
+  },
+  "release_date": "2021-01-03",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "1se-light-2020-dual-sim-lte-emea-32gb-4087u",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "dual SIM"
+  },
+  "display": {
+    "size_inch": 6.22,
+    "resolution": "720x1520",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 271
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2",
+    "usb": "USB Micro-AB"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.4,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 15.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:52.376157",
+  "updated_at": "2026-06-20T11:17:52.376157"
+}

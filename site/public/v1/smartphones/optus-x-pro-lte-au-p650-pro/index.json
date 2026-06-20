@@ -1,0 +1,92 @@
+{
+  "id": 33675,
+  "slug": "optus-x-pro-lte-au-p650-pro",
+  "base_model_slug": "optus-x",
+  "name": "Optus X Pro LTE AU / P650 Pro",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 2059,
+    "slug": "unisoc-sc9863a",
+    "name": "Unisoc SC9863A",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "IMG8322",
+    "url": "/v1/socs/unisoc-sc9863a"
+  },
+  "release_date": "2020-10-07",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "optus-x-pro-lte-au-p650-pro",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "P650-PRO"
+    ]
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1584",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 268
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 15.9
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 182.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2",
+    "usb": "USB Micro-AB"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.8,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 15.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:18:00.801969",
+  "updated_at": "2026-06-20T11:18:00.801969"
+}

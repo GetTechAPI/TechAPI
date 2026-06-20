@@ -1,0 +1,93 @@
+{
+  "id": 26157,
+  "slug": "aquos-v6-5g-global-dual-sim-td-lte-128gb-sh-c05",
+  "base_model_slug": "aquos-v6-sh",
+  "name": "Aquos V6 5G Global Dual SIM TD-LTE 128GB SH-C05",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1236,
+    "slug": "mediatek-dimensity-700-mt6833v-za",
+    "name": "MediaTek Dimensity 700 MT6833V/ZA",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "ARM Mali-G57MP2",
+    "url": "/v1/socs/mediatek-dimensity-700-mt6833v-za"
+  },
+  "release_date": "2022-11-11",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "aquos-v6-5g-global-dual-sim-td-lte-128gb-sh-c05",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "dual SIM",
+    "model_numbers": [
+      "C05"
+    ]
+  },
+  "display": {
+    "size_inch": 6.57,
+    "resolution": "720x1612",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 269
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.4,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:58.869766",
+  "updated_at": "2026-06-20T11:17:58.869766"
+}

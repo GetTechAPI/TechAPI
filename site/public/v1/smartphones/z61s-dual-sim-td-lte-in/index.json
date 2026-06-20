@@ -1,0 +1,93 @@
+{
+  "id": 9347,
+  "slug": "z61s-dual-sim-td-lte-in",
+  "base_model_slug": "z61s",
+  "name": "Z61s Dual SIM TD-LTE IN",
+  "brand": {
+    "id": 92,
+    "slug": "lava",
+    "name": "Lava International",
+    "country": "IN",
+    "url": "/v1/brands/lava"
+  },
+  "soc": {
+    "id": 2047,
+    "slug": "spreadtrum-sc9832e",
+    "name": "Spreadtrum SC9832E",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "ARM Mali-T820",
+    "url": "/v1/socs/spreadtrum-sc9832e"
+  },
+  "release_date": "2019-04-22",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "in",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "z61s-dual-sim-td-lte-in",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "dual SIM",
+    "model_numbers": [
+      "Z61S-DUAL-SIM-TD-LTE-IN"
+    ]
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "480x854",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 196
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 4.9
+    },
+    {
+      "type": "selfie",
+      "mp": 1.9
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.0",
+    "usb": "USB Micro-AB"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.3,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:54.287805",
+  "updated_at": "2026-06-20T11:17:54.287805"
+}

@@ -1,0 +1,92 @@
+{
+  "id": 1484,
+  "slug": "iphone-7-a1780-td-lte-cn-32gb",
+  "base_model_slug": "iphone-7",
+  "name": "iPhone 7 A1780 TD-LTE CN 32GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 19,
+    "slug": "apple-a10-fusion-apl1024-apl1w24",
+    "name": "Apple A10 Fusion APL1024 / APL1W24",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "PowerVR GT7600 Plus",
+    "url": "/v1/socs/apple-a10-fusion-apl1024-apl1w24"
+  },
+  "release_date": "2016-09-23",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "iphone-7-a1780-td-lte-cn-32gb",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "A1780-TD-LTE-CN-32GB"
+    ]
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "750x1334",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 325
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 7.1
+    }
+  ],
+  "battery_mah": 1960,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 138.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2",
+    "usb": "Proprietary"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 14.2,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": 37.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:52.484620",
+  "updated_at": "2026-06-20T11:17:52.484620"
+}

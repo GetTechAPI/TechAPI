@@ -1,0 +1,81 @@
+{
+  "id": 32351,
+  "slug": "sony-xperia-z3-dual-3gb-32gb-4g-lte",
+  "base_model_slug": "xperia-z3-dual",
+  "name": "Sony Xperia Z3 Dual",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1552,
+    "slug": "qualcomm-msm8974ac-snapdragon-801",
+    "name": "Qualcomm MSM8974AC Snapdragon 801",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-msm8974ac-snapdragon-801"
+  },
+  "release_date": "2014-09-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 74.5 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 152.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.4 (KitKat), upgradable to 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL 3 TV-out), OTG, magnetic connector"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 1.5,
+    "performance": null,
+    "camera": null,
+    "battery": 1.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:19.230391",
+  "updated_at": "2026-06-20T12:45:19.230391"
+}

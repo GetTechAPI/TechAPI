@@ -1,0 +1,81 @@
+{
+  "id": 14846,
+  "slug": "meizu-pro-5-4gb-64gb-4g-lte",
+  "base_model_slug": "pro-5",
+  "name": "Meizu PRO 5",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1873,
+    "slug": "exynos-7420-octa",
+    "name": "Exynos 7420 Octa",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-T760MP8",
+    "url": "/v1/socs/exynos-7420-octa"
+  },
+  "release_date": "2015-09-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 89.6 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~386 ppi density)",
+    "type": "AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 3050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1 (Lollipop), Flyme 5",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.8,
+    "performance": null,
+    "camera": null,
+    "battery": 0.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.353527",
+  "updated_at": "2026-06-20T12:45:13.353527"
+}

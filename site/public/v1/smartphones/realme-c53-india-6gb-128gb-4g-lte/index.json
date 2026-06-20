@@ -1,0 +1,81 @@
+{
+  "id": 24671,
+  "slug": "realme-c53-india-6gb-128gb-4g-lte",
+  "base_model_slug": "c53-india",
+  "name": "Realme C53 (India)",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 2070,
+    "slug": "unisoc-tiger-t612",
+    "name": "UNISOC Tiger T612",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G57",
+    "url": "/v1/socs/unisoc-tiger-t612"
+  },
+  "release_date": "2023-07-19",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.74 inches, 109.7 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~390 ppi density)",
+    "type": "IPS LCD, 90Hz, 560 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, Realme UI",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:16.555851",
+  "updated_at": "2026-06-20T12:45:16.555851"
+}

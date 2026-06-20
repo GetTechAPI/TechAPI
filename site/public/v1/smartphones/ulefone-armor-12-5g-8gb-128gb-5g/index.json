@@ -1,0 +1,80 @@
+{
+  "id": 34190,
+  "slug": "ulefone-armor-12-5g-8gb-128gb-5g",
+  "base_model_slug": "armor-12-5g",
+  "name": "Ulefone Armor 12 5G",
+  "brand": {
+    "id": 49,
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "country": "CN",
+    "url": "/v1/brands/ulefone"
+  },
+  "soc": {
+    "id": 1185,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2021-08-14",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.52 inches, 104.4 cm",
+    "resolution": "720 x 1560 pixels, 19.5:9 ratio (~264 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 5180,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 296.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.9,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 32.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:19.778693",
+  "updated_at": "2026-06-20T12:45:19.778693"
+}

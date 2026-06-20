@@ -1,0 +1,82 @@
+{
+  "id": 2196,
+  "slug": "apple-iphone-13-pro-6gb-512gb-5g",
+  "base_model_slug": "iphone-13-pro",
+  "name": "Apple iPhone 13 Pro",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 38,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2021-09-14",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.1 inches, 90.2 cm",
+    "resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
+    "type": "Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (HBM), 1200 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 3095,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 15, upgradable to iOS 18",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Lightning, USB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.0,
+    "performance": 34.6,
+    "camera": null,
+    "battery": 11.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:09.279876",
+  "updated_at": "2026-06-20T12:45:09.279876"
+}

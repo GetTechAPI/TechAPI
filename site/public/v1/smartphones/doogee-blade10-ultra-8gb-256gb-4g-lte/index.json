@@ -1,0 +1,80 @@
+{
+  "id": 5247,
+  "slug": "doogee-blade10-ultra-8gb-256gb-4g-lte",
+  "base_model_slug": "blade10-ultra",
+  "name": "Doogee Blade10 Ultra",
+  "brand": {
+    "id": 18,
+    "slug": "doogee",
+    "name": "DOOGEE",
+    "country": "CN",
+    "url": "/v1/brands/doogee"
+  },
+  "soc": {
+    "id": 2063,
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t606"
+  },
+  "release_date": "2024-08-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.56 inches, 103.4 cm",
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)",
+    "type": "IPS LCD, 90Hz"
+  },
+  "cameras": [],
+  "battery_mah": 5150,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 240.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.6,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 32.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:10.321027",
+  "updated_at": "2026-06-20T12:45:10.321027"
+}

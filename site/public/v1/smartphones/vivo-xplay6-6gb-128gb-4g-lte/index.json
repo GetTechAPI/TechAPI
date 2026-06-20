@@ -1,0 +1,80 @@
+{
+  "id": 34654,
+  "slug": "vivo-xplay6-6gb-128gb-4g-lte",
+  "base_model_slug": "xplay6",
+  "name": "vivo Xplay6",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1586,
+    "slug": "qualcomm-msm8996-snapdragon-820",
+    "name": "Qualcomm MSM8996 Snapdragon 820",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-820"
+  },
+  "release_date": "2016-11-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.46 inches, 82.2 cm",
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~538 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 4080,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 178.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.1 (Marshmallow), upgradable to Android 8 (Oreo), Funtouch 3",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 16.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:19.931594",
+  "updated_at": "2026-06-20T12:45:19.931594"
+}

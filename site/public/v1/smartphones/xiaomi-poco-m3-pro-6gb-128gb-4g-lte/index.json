@@ -1,0 +1,81 @@
+{
+  "id": 38438,
+  "slug": "xiaomi-poco-m3-pro-6gb-128gb-4g-lte",
+  "base_model_slug": "poco-m3-pro",
+  "name": "Xiaomi Poco M3 Pro",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1185,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2021-05-19",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 102.0 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~405 ppi density)",
+    "type": "IPS LCD, 90Hz, 400 nits (typ), 500 nits (HBM)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, MIUI 12",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.8,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:21.018111",
+  "updated_at": "2026-06-20T12:45:21.018111"
+}

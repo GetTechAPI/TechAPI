@@ -1,0 +1,81 @@
+{
+  "id": 8572,
+  "slug": "huawei-p-smart-4gb-64gb-4g-lte",
+  "base_model_slug": "p-smart",
+  "name": "Huawei P smart",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 835,
+    "slug": "kirin-659",
+    "name": "Kirin 659",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T830 MP2",
+    "url": "/v1/socs/kirin-659"
+  },
+  "release_date": "2017-12-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.65 inches, 82.4 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~427 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 143.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.0 (Oreo), EMUI 8",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes (FIG-LX1 only)",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.322455",
+  "updated_at": "2026-06-20T12:45:11.322455"
+}

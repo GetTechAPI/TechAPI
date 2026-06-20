@@ -1,0 +1,81 @@
+{
+  "id": 11189,
+  "slug": "itel-p55-8gb-256gb-4g-lte",
+  "base_model_slug": "p55",
+  "name": "itel P55",
+  "brand": {
+    "id": 29,
+    "slug": "itel",
+    "name": "itel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/itel"
+  },
+  "soc": {
+    "id": 2063,
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t606"
+  },
+  "release_date": "2024-01-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.6 inches, 104.6 cm",
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~267 ppi density)",
+    "type": "IPS LCD, 90Hz"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.281121",
+  "updated_at": "2026-06-20T12:45:12.281121"
+}

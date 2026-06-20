@@ -1,0 +1,81 @@
+{
+  "id": 36102,
+  "slug": "vivo-v23-pro-12gb-256gb-5g",
+  "base_model_slug": "v23-pro",
+  "name": "vivo V23 Pro",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1227,
+    "slug": "dimensity-1200",
+    "name": "MediaTek Dimensity 1200",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G77 MC9",
+    "url": "/v1/socs/dimensity-1200"
+  },
+  "release_date": "2022-01-05",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.56 inches, 104.6 cm",
+    "resolution": "1080 x 2376 pixels (~398 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10+"
+  },
+  "cameras": [],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, Funtouch 12",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.7,
+    "performance": 6.9,
+    "camera": null,
+    "battery": 24.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:20.387808",
+  "updated_at": "2026-06-20T12:45:20.387808"
+}

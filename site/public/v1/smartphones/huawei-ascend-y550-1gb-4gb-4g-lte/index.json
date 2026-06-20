@@ -1,0 +1,80 @@
+{
+  "id": 8114,
+  "slug": "huawei-ascend-y550-1gb-4gb-4g-lte",
+  "base_model_slug": "ascend-y550",
+  "name": "Huawei Ascend Y550",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1544,
+    "slug": "qualcomm-msm8916-snapdragon-410",
+    "name": "Qualcomm MSM8916 Snapdragon 410",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 306",
+    "url": "/v1/socs/qualcomm-msm8916-snapdragon-410"
+  },
+  "release_date": "2014-09-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 153.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat), EMUI 2.3",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.179812",
+  "updated_at": "2026-06-20T12:45:11.179812"
+}

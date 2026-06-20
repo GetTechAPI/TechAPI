@@ -1,0 +1,80 @@
+{
+  "id": 8817,
+  "slug": "huawei-y3-2018-1gb-8gb-4g-lte",
+  "base_model_slug": "y3-2018",
+  "name": "Huawei Y3 (2018)",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1104,
+    "slug": "mediatek-mt6737m",
+    "name": "Mediatek MT6737M",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T720MP2",
+    "url": "/v1/socs/mediatek-mt6737m"
+  },
+  "release_date": "2018-05-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2280,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.0 Oreo (Go edition)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.384376",
+  "updated_at": "2026-06-20T12:45:11.384376"
+}

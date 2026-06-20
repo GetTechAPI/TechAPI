@@ -1,0 +1,80 @@
+{
+  "id": 10748,
+  "slug": "infinix-zero-5-pro-6gb-128gb-4g-lte",
+  "base_model_slug": "zero-5-pro",
+  "name": "Infinix Zero 5 Pro",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1147,
+    "slug": "mediatek-mt6757cd-helio-p20",
+    "name": "Mediatek MT6757CD Helio P20",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880MP2",
+    "url": "/v1/socs/mediatek-mt6757cd-helio-p20"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.98 inches, 98.6 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~368 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4350,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.2,
+    "performance": null,
+    "camera": null,
+    "battery": 20.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.139037",
+  "updated_at": "2026-06-20T12:45:12.139037"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 6313,
+  "slug": "honor-6a-pro-3gb-32gb-4g-lte",
+  "base_model_slug": "6a-pro",
+  "name": "Honor 6A (Pro)",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1615,
+    "slug": "qualcomm-msm8937-snapdragon-430",
+    "name": "Qualcomm MSM8937 Snapdragon 430",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 505",
+    "url": "/v1/socs/qualcomm-msm8937-snapdragon-430"
+  },
+  "release_date": "2017-05-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3020,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 143.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat), EMUI 5.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.3,
+    "performance": null,
+    "camera": null,
+    "battery": 0.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:10.646441",
+  "updated_at": "2026-06-20T12:45:10.646441"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 12286,
+  "slug": "lenovo-tab3-8-plus-3gb-16gb-4g-lte",
+  "base_model_slug": "tab3-8-plus",
+  "name": "Lenovo Tab3 8 Plus",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1616,
+    "slug": "qualcomm-msm8953-snapdragon-625",
+    "name": "Qualcomm MSM8953 Snapdragon 625",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 506",
+    "url": "/v1/socs/qualcomm-msm8953-snapdragon-625"
+  },
+  "release_date": "2017-03-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "8.0 inches, 185.6 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~283 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 329.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0.1 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.8,
+    "performance": null,
+    "camera": null,
+    "battery": 18.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.579722",
+  "updated_at": "2026-06-20T12:45:12.579722"
+}

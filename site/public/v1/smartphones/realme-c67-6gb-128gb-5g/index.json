@@ -1,0 +1,80 @@
+{
+  "id": 24675,
+  "slug": "realme-c67-6gb-128gb-5g",
+  "base_model_slug": "c67",
+  "name": "Realme C67",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1265,
+    "slug": "dimensity-6100-plus",
+    "name": "Dimensity 6100+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6100-plus"
+  },
+  "release_date": "2023-12-14",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.72 inches, 109.0 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~392 ppi density)",
+    "type": "IPS LCD, 120Hz, 550 nits (typ), 680 nits (HBM)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, Realme UI 4.0",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:16.557359",
+  "updated_at": "2026-06-20T12:45:16.557359"
+}

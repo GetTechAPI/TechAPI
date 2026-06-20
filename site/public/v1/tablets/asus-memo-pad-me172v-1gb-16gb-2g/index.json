@@ -1,0 +1,73 @@
+{
+  "id": 202,
+  "slug": "asus-memo-pad-me172v-1gb-16gb-2g",
+  "base_model_slug": "memo-pad-me172v",
+  "name": "Asus Memo Pad ME172V",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 611,
+    "slug": "via-wm8950",
+    "name": "VIA WM8950",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-400",
+    "url": "/v1/socs/via-wm8950"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "LED-backlit LCD,"
+  },
+  "cameras": [],
+  "battery_mah": 4270,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 370.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "No",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.199575",
+  "updated_at": "2026-06-20T12:45:26.199575",
+  "url": "/v1/tablets/asus-memo-pad-me172v-1gb-16gb-2g"
+}

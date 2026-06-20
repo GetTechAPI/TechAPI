@@ -1,0 +1,73 @@
+{
+  "id": 271,
+  "slug": "blackview-tab-16-8gb-256gb-4g-lte",
+  "base_model_slug": "tab-16",
+  "name": "Blackview Tab 16",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 2071,
+    "slug": "unisoc-tiger-t616",
+    "name": "UNISOC Tiger T616",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G57",
+    "url": "/v1/socs/unisoc-tiger-t616"
+  },
+  "release_date": "2023-02-28",
+  "msrp_usd": null,
+  "ram_gb": 8.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 344.4 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~212 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 7680,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 533.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, Doke OS_P 3.0",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.216650",
+  "updated_at": "2026-06-20T12:45:26.216650",
+  "url": "/v1/tablets/blackview-tab-16-8gb-256gb-4g-lte"
+}

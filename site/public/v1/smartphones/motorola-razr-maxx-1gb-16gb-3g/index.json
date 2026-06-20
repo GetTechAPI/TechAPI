@@ -1,0 +1,80 @@
+{
+  "id": 16433,
+  "slug": "motorola-razr-maxx-1gb-16gb-3g",
+  "base_model_slug": "razr-maxx",
+  "name": "Motorola RAZR MAXX",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1999,
+    "slug": "ti-omap-4430",
+    "name": "TI OMAP 4430",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ti-omap-4430"
+  },
+  "release_date": "2012-04-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "Super AMOLED Advanced"
+  },
+  "cameras": [],
+  "battery_mah": 3300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 145.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3.6 (Gingerbread), upgradable to 4.1.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 4.5,
+    "performance": null,
+    "camera": null,
+    "battery": 4.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.866132",
+  "updated_at": "2026-06-20T12:45:13.866132"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 13267,
+  "slug": "lg-nexus-5-2gb-32gb-4g-lte",
+  "base_model_slug": "nexus-5",
+  "name": "LG Nexus 5",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1453,
+    "slug": "qualcomm-msm8974-snapdragon-800",
+    "name": "Qualcomm MSM8974 Snapdragon 800",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-msm8974-snapdragon-800"
+  },
+  "release_date": "2013-10-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.95 inches, 67.5 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~445 ppi density)",
+    "type": "True HD IPS+"
+  },
+  "cameras": [],
+  "battery_mah": 2300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 130.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4 (Ice Cream Sandwich), upgradable to 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (SlimPort), OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.882341",
+  "updated_at": "2026-06-20T12:45:12.882341"
+}

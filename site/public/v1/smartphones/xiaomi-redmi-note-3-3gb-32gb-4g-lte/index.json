@@ -1,0 +1,81 @@
+{
+  "id": 37325,
+  "slug": "xiaomi-redmi-note-3-3gb-32gb-4g-lte",
+  "base_model_slug": "redmi-note-3",
+  "name": "Xiaomi Redmi Note 3",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1604,
+    "slug": "qualcomm-msm8956-snapdragon-650",
+    "name": "Qualcomm MSM8956 Snapdragon 650",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 510",
+    "url": "/v1/socs/qualcomm-msm8956-snapdragon-650"
+  },
+  "release_date": "2016-01-14",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 82.6 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 164.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 6.0.1 (Marshmallow), MIUI 9.5",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.8,
+    "performance": null,
+    "camera": null,
+    "battery": 15.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:20.715537",
+  "updated_at": "2026-06-20T12:45:20.715537"
+}

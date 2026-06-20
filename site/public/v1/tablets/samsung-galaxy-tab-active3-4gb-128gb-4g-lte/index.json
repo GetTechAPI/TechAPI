@@ -1,0 +1,73 @@
+{
+  "id": 1020,
+  "slug": "samsung-galaxy-tab-active3-4gb-128gb-4g-lte",
+  "base_model_slug": "galaxy-tab-active3",
+  "name": "Samsung Galaxy Tab Active3",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1895,
+    "slug": "exynos-9810",
+    "name": "Exynos 9810",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP18",
+    "url": "/v1/socs/exynos-9810"
+  },
+  "release_date": "2020-09-28",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4.0,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "8.0 inches, 185.6 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~283 ppi density)",
+    "type": "PLS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 5050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 426.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, upgradable to Android 12, One UI 4.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes (EMV Level 1 certification)",
+    "usb": "USB Type-C 3.1, magnetic connector"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.414635",
+  "updated_at": "2026-06-20T12:45:26.414635",
+  "url": "/v1/tablets/samsung-galaxy-tab-active3-4gb-128gb-4g-lte"
+}

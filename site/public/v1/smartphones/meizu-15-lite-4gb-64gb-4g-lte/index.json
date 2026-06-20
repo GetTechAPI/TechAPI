@@ -1,0 +1,80 @@
+{
+  "id": 14940,
+  "slug": "meizu-15-lite-4gb-64gb-4g-lte",
+  "base_model_slug": "15-lite",
+  "name": "Meizu 15 Lite",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1603,
+    "slug": "qualcomm-msm8953-pro-snapdragon-626",
+    "name": "Qualcomm MSM8953-Pro Snapdragon 626",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 506",
+    "url": "/v1/socs/qualcomm-msm8953-pro-snapdragon-626"
+  },
+  "release_date": "2018-04-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.46 inches, 82.2 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 145.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.2 (Nougat), Flyme 7",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.383744",
+  "updated_at": "2026-06-20T12:45:13.383744"
+}

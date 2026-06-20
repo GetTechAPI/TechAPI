@@ -1,0 +1,80 @@
+{
+  "id": 13784,
+  "slug": "lg-g5-se-3gb-32gb-4g-lte",
+  "base_model_slug": "g5-se",
+  "name": "LG G5 SE",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1583,
+    "slug": "qualcomm-msm8976-snapdragon-652",
+    "name": "Qualcomm MSM8976 Snapdragon 652",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 510",
+    "url": "/v1/socs/qualcomm-msm8976-snapdragon-652"
+  },
+  "release_date": "2016-04-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.3 inches, 77.4 cm",
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~554 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 156.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat), LG Optimus UX UI 5",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "4.2, A2DP, LE, aptX",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.036072",
+  "updated_at": "2026-06-20T12:45:13.036072"
+}

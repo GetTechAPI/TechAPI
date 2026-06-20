@@ -1,0 +1,80 @@
+{
+  "id": 26299,
+  "slug": "samsung-ativ-odyssey-i930-1gb-8gb-4g-lte",
+  "base_model_slug": "ativ-odyssey-i930",
+  "name": "Samsung Ativ Odyssey I930",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1418,
+    "slug": "qualcomm-msm8960-snapdragon-s4-plus",
+    "name": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 225",
+    "url": "/v1/socs/qualcomm-msm8960-snapdragon-s4-plus"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 45.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 2100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 125.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Phone 8",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "3.1, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:17.099343",
+  "updated_at": "2026-06-20T12:45:17.099343"
+}

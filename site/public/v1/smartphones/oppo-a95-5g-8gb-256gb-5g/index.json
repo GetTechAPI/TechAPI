@@ -1,0 +1,81 @@
+{
+  "id": 21725,
+  "slug": "oppo-a95-5g-8gb-256gb-5g",
+  "base_model_slug": "a95-5g",
+  "name": "Oppo A95 5G",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1187,
+    "slug": "dimensity-800u",
+    "name": "Dimensity 800U",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC3",
+    "url": "/v1/socs/dimensity-800u"
+  },
+  "release_date": "2021-04-27",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.43 inches, 99.8 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "AMOLED, 430 nits (typ), 800 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 4310,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, ColorOS 11.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 11.3,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 19.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:15.663042",
+  "updated_at": "2026-06-20T12:45:15.663042"
+}

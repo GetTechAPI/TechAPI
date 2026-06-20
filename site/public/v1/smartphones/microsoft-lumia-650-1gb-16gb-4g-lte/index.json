@@ -1,0 +1,80 @@
+{
+  "id": 15693,
+  "slug": "microsoft-lumia-650-1gb-16gb-4g-lte",
+  "base_model_slug": "lumia-650",
+  "name": "Microsoft Lumia 650",
+  "brand": {
+    "id": 167,
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "country": "US",
+    "url": "/v1/brands/microsoft"
+  },
+  "soc": {
+    "id": 1578,
+    "slug": "qualcomm-msm8909v2-snapdragon-212",
+    "name": "Qualcomm MSM8909v2 Snapdragon 212",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 304",
+    "url": "/v1/socs/qualcomm-msm8909v2-snapdragon-212"
+  },
+  "release_date": "2016-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 67.5 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~297 ppi density)",
+    "type": "OLED"
+  },
+  "cameras": [],
+  "battery_mah": 2000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 122.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows 10",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.600630",
+  "updated_at": "2026-06-20T12:45:13.600630"
+}

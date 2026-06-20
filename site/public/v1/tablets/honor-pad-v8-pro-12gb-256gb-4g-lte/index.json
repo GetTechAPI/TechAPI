@@ -1,0 +1,73 @@
+{
+  "id": 313,
+  "slug": "honor-pad-v8-pro-12gb-256gb-4g-lte",
+  "base_model_slug": "pad-v8-pro",
+  "name": "Honor Pad V8 Pro",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1246,
+    "slug": "dimensity-8100",
+    "name": "Dimensity 8100",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G610 MC6",
+    "url": "/v1/socs/dimensity-8100"
+  },
+  "release_date": "2022-12-26",
+  "msrp_usd": null,
+  "ram_gb": 12.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "12.1 inches, 424.5 cm",
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~249 ppi density)",
+    "type": "IPS LCD, 1B colors, 144Hz, 600 nits"
+  },
+  "cameras": [],
+  "battery_mah": 10050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 589.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, MagicOS 7",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C, magnetic connector"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.231645",
+  "updated_at": "2026-06-20T12:45:26.231645",
+  "url": "/v1/tablets/honor-pad-v8-pro-12gb-256gb-4g-lte"
+}

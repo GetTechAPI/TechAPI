@@ -1,0 +1,73 @@
+{
+  "id": 681,
+  "slug": "oneplus-pad-12gb-256gb-4g-lte",
+  "base_model_slug": "pad",
+  "name": "OnePlus Pad",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1248,
+    "slug": "dimensity-9000-plus",
+    "name": "Dimensity 9000+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "ARM Mali-G710",
+    "url": "/v1/socs/dimensity-9000-plus"
+  },
+  "release_date": "2023-02-07",
+  "msrp_usd": null,
+  "ram_gb": 12.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.61 inches, 411.3 cm",
+    "resolution": "2000 x 2800 pixels (~296 ppi density)",
+    "type": "IPS LCD, 1B colors, Dolby Vision, HDR10+, 144Hz, 500 nits (typ)"
+  },
+  "cameras": [],
+  "battery_mah": 9510,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 552.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, OxygenOS 13.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG, accessory connector"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.328025",
+  "updated_at": "2026-06-20T12:45:26.328025",
+  "url": "/v1/tablets/oneplus-pad-12gb-256gb-4g-lte"
+}

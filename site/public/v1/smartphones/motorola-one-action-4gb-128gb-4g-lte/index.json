@@ -1,0 +1,80 @@
+{
+  "id": 16954,
+  "slug": "motorola-one-action-4gb-128gb-4g-lte",
+  "base_model_slug": "one-action",
+  "name": "Motorola One Action",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1907,
+    "slug": "exynos-9609",
+    "name": "Exynos 9609",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/exynos-9609"
+  },
+  "release_date": "2019-08-16",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 94.0 cm",
+    "resolution": "1080 x 2520 pixels, 21:9 ratio (~432 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 176.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), upgradable to Android 11, Android One",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, EDR",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.8,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:14.011143",
+  "updated_at": "2026-06-20T12:45:14.011143"
+}

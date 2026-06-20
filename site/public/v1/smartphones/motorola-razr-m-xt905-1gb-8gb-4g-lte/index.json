@@ -1,0 +1,81 @@
+{
+  "id": 16430,
+  "slug": "motorola-razr-m-xt905-1gb-8gb-4g-lte",
+  "base_model_slug": "razr-m-xt905",
+  "name": "Motorola RAZR M XT905",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1418,
+    "slug": "qualcomm-msm8960-snapdragon-s4-plus",
+    "name": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 225",
+    "url": "/v1/socs/qualcomm-msm8960-snapdragon-s4-plus"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4,
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "Super AMOLED Advanced"
+  },
+  "cameras": [],
+  "battery_mah": 2000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 126.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0.4 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.864617",
+  "updated_at": "2026-06-20T12:45:13.864617"
+}

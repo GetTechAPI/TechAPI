@@ -1,0 +1,80 @@
+{
+  "id": 7148,
+  "slug": "htc-one-x-at-t-1gb-16gb-4g-lte",
+  "base_model_slug": "one-x-at-t",
+  "name": "HTC One X AT&T",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1418,
+    "slug": "qualcomm-msm8960-snapdragon-s4-plus",
+    "name": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 225",
+    "url": "/v1/socs/qualcomm-msm8960-snapdragon-s4-plus"
+  },
+  "release_date": "2012-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+    "type": "Super IPS LCD2"
+  },
+  "cameras": [],
+  "battery_mah": 1800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 129.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean), Sense UI",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out)"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:10.900763",
+  "updated_at": "2026-06-20T12:45:10.900763"
+}

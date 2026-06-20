@@ -1,0 +1,80 @@
+{
+  "id": 24561,
+  "slug": "realme-v15-5g-8gb-128gb-5g",
+  "base_model_slug": "v15-5g",
+  "name": "Realme V15 5G",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1187,
+    "slug": "dimensity-800u",
+    "name": "Dimensity 800U",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC3",
+    "url": "/v1/socs/dimensity-800u"
+  },
+  "release_date": "2021-01-07",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.4 inches, 98.9 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~411 ppi density)",
+    "type": "Super AMOLED, 430 nits (typ), 600 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 4310,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 176.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, Realme UI",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 11.3,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 19.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:16.529272",
+  "updated_at": "2026-06-20T12:45:16.529272"
+}

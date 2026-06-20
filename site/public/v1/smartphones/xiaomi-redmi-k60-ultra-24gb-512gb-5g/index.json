@@ -1,0 +1,81 @@
+{
+  "id": 39545,
+  "slug": "xiaomi-redmi-k60-ultra-24gb-512gb-5g",
+  "base_model_slug": "redmi-k60-ultra",
+  "name": "Xiaomi Redmi K60 Ultra",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1268,
+    "slug": "dimensity-9200-plus",
+    "name": "MediaTek Dimensity 9200+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G715 MC11",
+    "url": "/v1/socs/dimensity-9200-plus"
+  },
+  "release_date": "2023-08-15",
+  "msrp_usd": null,
+  "ram_gb": 24,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 24,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)",
+    "type": "OLED, 68B colors, 144Hz, Dolby Vision, HDR10+, 2600 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, MIUI 14",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.8,
+    "performance": 44.6,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:21.311599",
+  "updated_at": "2026-06-20T12:45:21.311599"
+}

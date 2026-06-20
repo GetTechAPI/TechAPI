@@ -1,0 +1,72 @@
+{
+  "id": 106,
+  "slug": "lg-watch-style-0-5gb-4gb-2g",
+  "base_model_slug": "watch-style",
+  "name": "LG Watch Style",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1579,
+    "slug": "qualcomm-msm8909w-snapdragon-wear-2100",
+    "name": "Qualcomm MSM8909W Snapdragon Wear 2100",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 304",
+    "url": "/v1/socs/qualcomm-msm8909w-snapdragon-wear-2100"
+  },
+  "release_date": "2017-02-01",
+  "msrp_usd": null,
+  "ram_gb": 0.5,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.2 inches",
+    "resolution": "360 x 360 pixels (~299 ppi density)",
+    "type": "P-OLED"
+  },
+  "cameras": [],
+  "battery_mah": 240,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 46.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android Wear OS 2.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, LE",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.626997",
+  "updated_at": "2026-06-20T12:45:26.626997",
+  "url": "/v1/watches/lg-watch-style-0-5gb-4gb-2g"
+}

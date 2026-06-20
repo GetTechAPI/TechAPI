@@ -1,0 +1,81 @@
+{
+  "id": 8500,
+  "slug": "huawei-mate-9-pro-6gb-128gb-4g-lte",
+  "base_model_slug": "mate-9-pro",
+  "name": "Huawei Mate 9 Pro",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 834,
+    "slug": "kirin-960",
+    "name": "Kirin 960",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-G71 MP8",
+    "url": "/v1/socs/kirin-960"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~534 ppi density)",
+    "type": "OLED"
+  },
+  "cameras": [],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), EMUI 9.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, EDR, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.305761",
+  "updated_at": "2026-06-20T12:45:11.305761"
+}

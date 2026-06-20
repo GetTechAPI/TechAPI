@@ -1,0 +1,81 @@
+{
+  "id": 6337,
+  "slug": "honor-8c-4gb-64gb-4g-lte",
+  "base_model_slug": "8c",
+  "name": "Honor 8C",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1649,
+    "slug": "qualcomm-sdm632-snapdragon-632",
+    "name": "Qualcomm SDM632 Snapdragon 632",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 506",
+    "url": "/v1/socs/qualcomm-sdm632-snapdragon-632"
+  },
+  "release_date": "2018-10-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.26 inches, 97.8 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~269 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 167.2,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), EMUI 8.2",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE, aptX",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.0,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:10.652648",
+  "updated_at": "2026-06-20T12:45:10.652648"
+}

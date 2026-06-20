@@ -1,0 +1,72 @@
+{
+  "id": 45,
+  "slug": "apple-watch-edition-series-5-1gb-32gb-4g-lte",
+  "base_model_slug": "watch-edition-series-5",
+  "name": "Apple Watch Edition Series 5",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 33,
+    "slug": "apple-s5",
+    "name": "Apple S5",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "PowerVR",
+    "url": "/v1/socs/apple-s5"
+  },
+  "release_date": "2019-09-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "1.78 inches",
+    "resolution": "448 x 368 pixels (~326 ppi density)",
+    "type": "Retina LTPO OLED, 1000 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 296,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 47.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "watchOS 6.0, upgradable to watchOS 10.6",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.612920",
+  "updated_at": "2026-06-20T12:45:26.612920",
+  "url": "/v1/watches/apple-watch-edition-series-5-1gb-32gb-4g-lte"
+}

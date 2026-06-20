@@ -1,0 +1,81 @@
+{
+  "id": 13800,
+  "slug": "lg-k4-2017-1gb-16gb-4g-lte",
+  "base_model_slug": "k4-2017",
+  "name": "LG K4 (2017)",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1577,
+    "slug": "qualcomm-msm8909-snapdragon-210",
+    "name": "Qualcomm MSM8909 Snapdragon 210",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 304",
+    "url": "/v1/socs/qualcomm-msm8909-snapdragon-210"
+  },
+  "release_date": "2016-03-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 69.6 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~195 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 138.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0.1 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.039577",
+  "updated_at": "2026-06-20T12:45:13.039577"
+}

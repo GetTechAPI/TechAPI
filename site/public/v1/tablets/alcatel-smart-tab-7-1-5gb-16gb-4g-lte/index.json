@@ -1,0 +1,72 @@
+{
+  "id": 62,
+  "slug": "alcatel-smart-tab-7-1-5gb-16gb-4g-lte",
+  "base_model_slug": "smart-tab-7",
+  "name": "alcatel Smart Tab 7",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1118,
+    "slug": "mediatek-mt8167d",
+    "name": "Mediatek MT8167D",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "PowerVR GE8300",
+    "url": "/v1/socs/mediatek-mt8167d"
+  },
+  "release_date": "2019-09-01",
+  "msrp_usd": null,
+  "ram_gb": 1.5,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.5,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "TN TFT LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2580,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 268.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.164641",
+  "updated_at": "2026-06-20T12:45:26.164641",
+  "url": "/v1/tablets/alcatel-smart-tab-7-1-5gb-16gb-4g-lte"
+}

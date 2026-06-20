@@ -1,0 +1,80 @@
+{
+  "id": 10970,
+  "slug": "infinix-zero-30-4g-8gb-256gb-4g-lte",
+  "base_model_slug": "zero-30-4g",
+  "name": "Infinix Zero 30 4G",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1251,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2023-10-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 111.0 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~388 ppi density)",
+    "type": "AMOLED, 1B colors, 120Hz, 950 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 182.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, XOS 13",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.213929",
+  "updated_at": "2026-06-20T12:45:12.213929"
+}

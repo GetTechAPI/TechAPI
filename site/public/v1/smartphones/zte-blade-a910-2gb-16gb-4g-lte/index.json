@@ -1,0 +1,80 @@
+{
+  "id": 41114,
+  "slug": "zte-blade-a910-2gb-16gb-4g-lte",
+  "base_model_slug": "blade-a910",
+  "name": "ZTE Blade A910",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1083,
+    "slug": "mediatek-mt6735",
+    "name": "Mediatek MT6735",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T720MP2",
+    "url": "/v1/socs/mediatek-mt6735"
+  },
+  "release_date": "2016-04-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 2540,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:22.075999",
+  "updated_at": "2026-06-20T12:45:22.075999"
+}

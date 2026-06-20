@@ -1,0 +1,80 @@
+{
+  "id": 19015,
+  "slug": "nokia-2-1gb-8gb-4g-lte",
+  "base_model_slug": "2",
+  "name": "Nokia 2",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1578,
+    "slug": "qualcomm-msm8909v2-snapdragon-212",
+    "name": "Qualcomm MSM8909v2 Snapdragon 212",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 304",
+    "url": "/v1/socs/qualcomm-msm8909v2-snapdragon-212"
+  },
+  "release_date": "2017-10-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 161.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1 (Nougat), upgradable to Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.5,
+    "performance": null,
+    "camera": null,
+    "battery": 16.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:14.928333",
+  "updated_at": "2026-06-20T12:45:14.928333"
+}

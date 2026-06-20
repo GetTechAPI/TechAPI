@@ -1,0 +1,80 @@
+{
+  "id": 34132,
+  "slug": "ulefone-armor-5s-4gb-64gb-4g-lte",
+  "base_model_slug": "armor-5s",
+  "name": "Ulefone Armor 5S",
+  "brand": {
+    "id": 49,
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "country": "CN",
+    "url": "/v1/brands/ulefone"
+  },
+  "soc": {
+    "id": 1176,
+    "slug": "mediatek-mt6763-helio-p23",
+    "name": "Mediatek MT6763 Helio P23",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-G71 MP2",
+    "url": "/v1/socs/mediatek-mt6763-helio-p23"
+  },
+  "release_date": "2019-07-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.85 inches, 85.7 cm",
+    "resolution": "720 x 1512 pixels, 19:9 ratio (~286 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 228.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:19.759631",
+  "updated_at": "2026-06-20T12:45:19.759631"
+}

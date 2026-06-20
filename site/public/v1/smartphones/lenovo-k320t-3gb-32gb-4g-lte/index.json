@@ -1,0 +1,81 @@
+{
+  "id": 12271,
+  "slug": "lenovo-k320t-3gb-32gb-4g-lte",
+  "base_model_slug": "k320t",
+  "name": "Lenovo K320t",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 2045,
+    "slug": "spreadtrum",
+    "name": "Spreadtrum",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-400",
+    "url": "/v1/socs/spreadtrum"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 83.8 cm",
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 153.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.576172",
+  "updated_at": "2026-06-20T12:45:12.576172"
+}

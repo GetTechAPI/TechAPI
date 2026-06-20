@@ -1,0 +1,80 @@
+{
+  "id": 30337,
+  "slug": "samsung-galaxy-f34-8gb-128gb-5g",
+  "base_model_slug": "galaxy-f34",
+  "name": "Samsung Galaxy F34",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1928,
+    "slug": "exynos-1280",
+    "name": "Samsung Exynos 1280",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G68 MP4",
+    "url": "/v1/socs/exynos-1280"
+  },
+  "release_date": "2023-08-07",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 103.7 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~396 ppi density)",
+    "type": "Super AMOLED, 120Hz, 1000 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 208.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, One UI 5.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 55.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:18.529612",
+  "updated_at": "2026-06-20T12:45:18.529612"
+}

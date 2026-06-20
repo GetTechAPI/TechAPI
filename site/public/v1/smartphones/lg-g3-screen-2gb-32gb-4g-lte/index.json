@@ -1,0 +1,80 @@
+{
+  "id": 13364,
+  "slug": "lg-g3-screen-2gb-32gb-4g-lte",
+  "base_model_slug": "g3-screen",
+  "name": "LG G3 Screen",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 635,
+    "slug": "lg-nuclun",
+    "name": "LG Nuclun",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/lg-nuclun"
+  },
+  "release_date": "2014-10-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.9 inches, 96.0 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~373 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 182.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.4 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.904218",
+  "updated_at": "2026-06-20T12:45:12.904218"
+}

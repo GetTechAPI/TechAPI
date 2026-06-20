@@ -1,0 +1,80 @@
+{
+  "id": 22838,
+  "slug": "oppo-a3-6gb-128gb-5g",
+  "base_model_slug": "a3",
+  "name": "Oppo A3",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1283,
+    "slug": "dimensity-6300",
+    "name": "MediaTek Dimensity 6300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-6300"
+  },
+  "release_date": "2024-08-20",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.2 cm",
+    "resolution": "720 x 1604 pixels, 20:9 ratio (~264 ppi density)",
+    "type": "IPS LCD, 120Hz, 1000 nits (HBM)"
+  },
+  "cameras": [],
+  "battery_mah": 5100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 187.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, ColorOS 14",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 36.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:16.021950",
+  "updated_at": "2026-06-20T12:45:16.021950"
+}

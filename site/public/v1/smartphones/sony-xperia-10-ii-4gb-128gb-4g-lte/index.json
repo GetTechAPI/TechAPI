@@ -1,0 +1,81 @@
+{
+  "id": 32704,
+  "slug": "sony-xperia-10-ii-4gb-128gb-4g-lte",
+  "base_model_slug": "xperia-10-ii",
+  "name": "Sony Xperia 10 II",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1679,
+    "slug": "qualcomm-sdm665-snapdragon-665",
+    "name": "Qualcomm SDM665 Snapdragon 665",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Adreno 610",
+    "url": "/v1/socs/qualcomm-sdm665-snapdragon-665"
+  },
+  "release_date": "2020-02-24",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 84.1 cm",
+    "resolution": "1080 x 2520 pixels, 21:9 ratio (~457 ppi density)",
+    "type": "OLED"
+  },
+  "cameras": [],
+  "battery_mah": 3600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 151.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, upgradable to Android 12",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.0,
+    "performance": null,
+    "camera": null,
+    "battery": 9.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:19.325600",
+  "updated_at": "2026-06-20T12:45:19.325600"
+}

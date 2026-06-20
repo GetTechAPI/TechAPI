@@ -1,0 +1,80 @@
+{
+  "id": 10761,
+  "slug": "infinix-hot-8-lite-2gb-32gb-4g-lte",
+  "base_model_slug": "hot-8-lite",
+  "name": "Infinix Hot 8 Lite",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1166,
+    "slug": "mediatek-mt6580",
+    "name": "Mediatek MT6580",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-mt6580"
+  },
+  "release_date": "2019-10-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.6 inches, 105.2 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)",
+    "type": "IPS LCD, 450 nits (typ)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 Oreo (Go edition)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.146698",
+  "updated_at": "2026-06-20T12:45:12.146698"
+}

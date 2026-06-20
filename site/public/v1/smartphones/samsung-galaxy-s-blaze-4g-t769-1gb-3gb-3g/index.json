@@ -1,0 +1,80 @@
+{
+  "id": 26096,
+  "slug": "samsung-galaxy-s-blaze-4g-t769-1gb-3gb-3g",
+  "base_model_slug": "galaxy-s-blaze-4g-t769",
+  "name": "Samsung Galaxy S Blaze 4G T769",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1414,
+    "slug": "qualcomm-msm8260-snapdragon-s3",
+    "name": "Qualcomm MSM8260 Snapdragon S3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 220",
+    "url": "/v1/socs/qualcomm-msm8260-snapdragon-s3"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    3
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 3
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "3.97 inches, 44.9 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~235 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 1750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 127.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3.6 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:17.032776",
+  "updated_at": "2026-06-20T12:45:17.032776"
+}

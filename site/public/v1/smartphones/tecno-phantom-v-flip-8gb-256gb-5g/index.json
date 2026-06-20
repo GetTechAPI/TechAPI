@@ -1,0 +1,80 @@
+{
+  "id": 33939,
+  "slug": "tecno-phantom-v-flip-8gb-256gb-5g",
+  "base_model_slug": "phantom-v-flip",
+  "name": "Tecno Phantom V Flip",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1245,
+    "slug": "dimensity-8050",
+    "name": "MediaTek Dimensity 8050",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G77 MC9",
+    "url": "/v1/socs/dimensity-8050"
+  },
+  "release_date": "2023-09-22",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.9 inches, 107.6 cm",
+    "resolution": "1080 x 2640 pixels (~413 ppi density)",
+    "type": "Foldable LTPO AMOLED, 120Hz, 1000 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 194.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, HIOS 13.5",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.1,
+    "performance": 4.1,
+    "camera": null,
+    "battery": 20.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:19.697974",
+  "updated_at": "2026-06-20T12:45:19.697974"
+}

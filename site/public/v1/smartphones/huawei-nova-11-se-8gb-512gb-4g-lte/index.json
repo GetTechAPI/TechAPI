@@ -1,0 +1,81 @@
+{
+  "id": 10232,
+  "slug": "huawei-nova-11-se-8gb-512gb-4g-lte",
+  "base_model_slug": "nova-11-se",
+  "name": "Huawei nova 11 SE",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1716,
+    "slug": "snapdragon-680",
+    "name": "Snapdragon 680 4G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 610",
+    "url": "/v1/socs/snapdragon-680"
+  },
+  "release_date": "2023-10-28",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+    "type": "OLED, 1B colors, 90Hz"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 4.0",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.2,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 27.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.988940",
+  "updated_at": "2026-06-20T12:45:11.988940"
+}

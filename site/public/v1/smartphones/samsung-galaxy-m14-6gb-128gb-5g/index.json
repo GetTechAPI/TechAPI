@@ -1,0 +1,81 @@
+{
+  "id": 30341,
+  "slug": "samsung-galaxy-m14-6gb-128gb-5g",
+  "base_model_slug": "galaxy-m14",
+  "name": "Samsung Galaxy M14",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1933,
+    "slug": "exynos-1330",
+    "name": "Exynos 1330 5G",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "ARM Mali-G68",
+    "url": "/v1/socs/exynos-1330"
+  },
+  "release_date": "2023-03-08",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.6 inches, 104.9 cm",
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~400 ppi density)",
+    "type": "PLS LCD, 90Hz"
+  },
+  "cameras": [],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, One UI core 5.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 55.0,
+    "performance": null,
+    "camera": null,
+    "battery": 55.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:18.530111",
+  "updated_at": "2026-06-20T12:45:18.530111"
+}

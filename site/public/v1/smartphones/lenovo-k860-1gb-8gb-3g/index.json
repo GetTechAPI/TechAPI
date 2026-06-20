@@ -1,0 +1,80 @@
+{
+  "id": 11758,
+  "slug": "lenovo-k860-1gb-8gb-3g",
+  "base_model_slug": "k860",
+  "name": "Lenovo K860",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1845,
+    "slug": "exynos-4412-quad",
+    "name": "Exynos 4412 Quad",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 32.0,
+    "gpu_name": "Mali-400MP4",
+    "url": "/v1/socs/exynos-4412-quad"
+  },
+  "release_date": "2012-08-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 193.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "Yes",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.440354",
+  "updated_at": "2026-06-20T12:45:12.440354"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 19771,
+  "slug": "oneplus-x-3gb-16gb-4g-lte",
+  "base_model_slug": "x",
+  "name": "OnePlus X",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1523,
+    "slug": "qualcomm-snapdragon-801",
+    "name": "Qualcomm Snapdragon 801",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-snapdragon-801"
+  },
+  "release_date": "2015-10-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 2525,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 138.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 6.0.1 (Marshmallow), OxygenOS 2.2.3",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:15.141516",
+  "updated_at": "2026-06-20T12:45:15.141516"
+}

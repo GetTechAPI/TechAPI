@@ -1,0 +1,48 @@
+{
+  "slug": "kindle-fire",
+  "name": "Kindle Fire",
+  "brand": "amazon",
+  "soc": "ti-omap-4430",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 4400,
+  "weight_g": 413.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+  ],
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600x1024",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n",
+    "usb": "Proprietary"
+  },
+  "raw_price": "About 120 EUR",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "TI OMAP 4430",
+    "platform_cpu": "Dual-core 1.0 GHz Cortex-A9",
+    "platform_gpu": "PowerVR SGX540"
+  },
+  "base_model_slug": "kindle-fire",
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-reclassified",
+    "source_slug": "kindle-fire",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "Wi-Fi"
+    }
+  }
+}

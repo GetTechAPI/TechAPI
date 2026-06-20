@@ -1,0 +1,90 @@
+{
+  "id": 30383,
+  "slug": "sony-xperia-m2-1gb-8gb-4g",
+  "base_model_slug": "xperia-m2",
+  "name": "Sony Xperia M2",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1490,
+    "slug": "qualcomm-msm8926-snapdragon-400",
+    "name": "Qualcomm MSM8926 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8926-snapdragon-400"
+  },
+  "release_date": "2014-05-08",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Single SIM, GSM"
+  },
+  "display": {
+    "size_inch": 4.8,
+    "resolution": "540 x 960",
+    "type": "TFT",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8MP"
+    }
+  ],
+  "battery_mah": 2300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 148.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v4.3",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Single SIM, GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 a/b/g/n), Dual antennas",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/sony-xperia-m2-white-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/sony-xperia-m2"
+  ],
+  "created_at": "2026-06-20T12:07:21.716719",
+  "updated_at": "2026-06-20T12:07:21.716719"
+}

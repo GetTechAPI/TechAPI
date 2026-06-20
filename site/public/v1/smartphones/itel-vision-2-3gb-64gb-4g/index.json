@@ -1,0 +1,90 @@
+{
+  "id": 10414,
+  "slug": "itel-vision-2-3gb-64gb-4g",
+  "base_model_slug": "vision-2",
+  "name": "Itel Vision 2 (3GB+64GB)",
+  "brand": {
+    "id": 29,
+    "slug": "itel",
+    "name": "itel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/itel"
+  },
+  "soc": {
+    "id": 2059,
+    "slug": "unisoc-sc9863a",
+    "name": "Unisoc SC9863A",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "IMG8322",
+    "url": "/v1/socs/unisoc-sc9863a"
+  },
+  "release_date": "2021-03-26",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "720 x 1600",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+2MP"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "usb": "microUSB",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/itel-vision-2-3gb64gb-green-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.0,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/itel-vision-2-3gb-64gb"
+  ],
+  "created_at": "2026-06-20T12:07:17.180047",
+  "updated_at": "2026-06-20T12:07:17.180047"
+}

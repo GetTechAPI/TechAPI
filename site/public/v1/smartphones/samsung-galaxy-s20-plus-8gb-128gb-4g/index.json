@@ -1,0 +1,91 @@
+{
+  "id": 26562,
+  "slug": "samsung-galaxy-s20-plus-8gb-128gb-4g",
+  "base_model_slug": "galaxy-s20-plus",
+  "name": "Samsung Galaxy S20 Plus",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1918,
+    "slug": "exynos-990",
+    "name": "Samsung Exynos 990",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G77 MP11",
+    "url": "/v1/socs/exynos-990"
+  },
+  "release_date": "2020-03-06",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1440 x 3200",
+    "type": "Dynamic AMOLED 2x",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12+64+12+0.3MP"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": "IP68",
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/samsung-galaxy-s20-plus-cosmic-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.3,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 24.4,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/samsung-galaxy-s20-plus"
+  ],
+  "created_at": "2026-06-20T12:07:20.895390",
+  "updated_at": "2026-06-20T12:07:20.895390"
+}

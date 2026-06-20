@@ -1,0 +1,90 @@
+{
+  "id": 21839,
+  "slug": "panasonic-eluga-ray-600-3gb-32gb-4g",
+  "base_model_slug": "eluga-ray-600",
+  "name": "Panasonic Eluga Ray 600",
+  "brand": {
+    "id": 103,
+    "slug": "panasonic",
+    "name": "Panasonic",
+    "country": "JP",
+    "url": "/v1/brands/panasonic"
+  },
+  "soc": {
+    "id": 1169,
+    "slug": "mediatek-mt6739",
+    "name": "Mediatek MT6739",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739"
+  },
+  "release_date": "2018-10-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.99,
+    "resolution": "720 x 1440",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 158.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.1",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.1",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/panasonic-eluga-ray-600-black-color-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.8,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/panasonic-eluga-ray-600"
+  ],
+  "created_at": "2026-06-20T12:07:19.876714",
+  "updated_at": "2026-06-20T12:07:19.876714"
+}

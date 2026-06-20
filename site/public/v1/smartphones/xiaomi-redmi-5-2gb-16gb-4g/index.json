@@ -1,0 +1,90 @@
+{
+  "id": 34953,
+  "slug": "xiaomi-redmi-5-2gb-16gb-4g",
+  "base_model_slug": "redmi-5",
+  "name": "Xiaomi Redmi 5",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1678,
+    "slug": "qualcomm-sdm450-snapdragon-450",
+    "name": "Qualcomm SDM450 Snapdragon 450",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 506",
+    "url": "/v1/socs/qualcomm-sdm450-snapdragon-450"
+  },
+  "release_date": "2017-12-02",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720 x 1280",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": 10.0,
+  "charging_wireless_w": null,
+  "weight_g": 157.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.2",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 4 802.11 b/g/n, Wi-Fi Direct",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/xiaomi-redmi-5-black-color-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.5,
+    "performance": null,
+    "camera": null,
+    "battery": 4.5,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/xiaomi-redmi-5"
+  ],
+  "created_at": "2026-06-20T12:07:22.855429",
+  "updated_at": "2026-06-20T12:07:22.855429"
+}

@@ -1,0 +1,90 @@
+{
+  "id": 907,
+  "slug": "alcatel-idol-4-3gb-16gb-4g",
+  "base_model_slug": "idol-4",
+  "name": "Alcatel Idol 4",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1581,
+    "slug": "qualcomm-msm8952-snapdragon-617",
+    "name": "Qualcomm MSM8952 Snapdragon 617",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 405",
+    "url": "/v1/socs/qualcomm-msm8952-snapdragon-617"
+  },
+  "release_date": "2016-06-03",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080 x 1920",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    }
+  ],
+  "battery_mah": 2610,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v6.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/alcatel-idol-4-official-dark-gray-back-image-2.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.6,
+    "performance": null,
+    "camera": null,
+    "battery": 0.6,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/alcatel-idol-4"
+  ],
+  "created_at": "2026-06-20T12:07:15.063734",
+  "updated_at": "2026-06-20T12:07:15.063734"
+}

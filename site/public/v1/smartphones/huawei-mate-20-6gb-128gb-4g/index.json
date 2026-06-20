@@ -1,0 +1,90 @@
+{
+  "id": 8143,
+  "slug": "huawei-mate-20-6gb-128gb-4g",
+  "base_model_slug": "mate-20",
+  "name": "Huawei Mate 20",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 838,
+    "slug": "kirin-980",
+    "name": "Kirin 980",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G76 MP10",
+    "url": "/v1/socs/kirin-980"
+  },
+  "release_date": "2018-11-28",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.53,
+    "resolution": "1080 x 2244",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12+16+8MP"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": 22.5,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": "IP53",
+  "os": "Android v9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac)",
+    "usb": "USB Type-C 3.1",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-mate-20-midnight-blue-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.5,
+    "performance": 54.5,
+    "camera": null,
+    "battery": 16.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-mate-20"
+  ],
+  "created_at": "2026-06-20T12:07:16.720843",
+  "updated_at": "2026-06-20T12:07:16.720843"
+}

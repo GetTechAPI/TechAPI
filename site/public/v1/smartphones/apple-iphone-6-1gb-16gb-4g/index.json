@@ -1,0 +1,90 @@
+{
+  "id": 1618,
+  "slug": "apple-iphone-6-1gb-16gb-4g",
+  "base_model_slug": "iphone-6",
+  "name": "Apple iPhone 6",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 12,
+    "slug": "apple-a8-apl1011-t7000",
+    "name": "Apple A8 APL1011 T7000",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown",
+    "url": "/v1/socs/apple-a8-apl1011-t7000"
+  },
+  "release_date": "2014-09-05",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Single SIM, GSM"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "750 x 1334",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8MP"
+    }
+  ],
+  "battery_mah": 1810,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 129.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS v8",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Single SIM, GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac), Dual antennas",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/apple-iphone-6-grey-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/apple-iphone-6"
+  ],
+  "created_at": "2026-06-20T12:07:15.216584",
+  "updated_at": "2026-06-20T12:07:15.216584"
+}

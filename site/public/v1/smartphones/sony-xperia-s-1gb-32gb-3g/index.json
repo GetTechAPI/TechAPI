@@ -1,0 +1,90 @@
+{
+  "id": 30199,
+  "slug": "sony-xperia-s-1gb-32gb-3g",
+  "base_model_slug": "xperia-s",
+  "name": "Sony Xperia S",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1414,
+    "slug": "qualcomm-msm8260-snapdragon-s3",
+    "name": "Qualcomm MSM8260 Snapdragon S3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 220",
+    "url": "/v1/socs/qualcomm-msm8260-snapdragon-s3"
+  },
+  "release_date": "2012-02-14",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM, GSM"
+  },
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "720 x 1280",
+    "type": "LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    }
+  ],
+  "battery_mah": 1750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 144.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v4.1.2",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G",
+    "sim": "Single SIM, GSM",
+    "bluetooth": "v2.1",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/sony-xperia-s-black-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/sony-xperia-s"
+  ],
+  "created_at": "2026-06-20T12:07:21.683210",
+  "updated_at": "2026-06-20T12:07:21.683210"
+}

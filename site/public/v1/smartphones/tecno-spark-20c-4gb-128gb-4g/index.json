@@ -1,0 +1,91 @@
+{
+  "id": 31886,
+  "slug": "tecno-spark-20c-4gb-128gb-4g",
+  "base_model_slug": "spark-20c",
+  "name": "Tecno Spark 20C",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1207,
+    "slug": "mediatek-helio",
+    "name": "Mediatek Helio",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-helio"
+  },
+  "release_date": "2023-12-15",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "720 x 1612",
+    "type": "IPS LCD",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+0.08MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)",
+    "bluetooth": "Yes",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/1712394556xFD1g.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.8,
+    "performance": null,
+    "camera": null,
+    "battery": 30.6,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/tecno-spark-20c"
+  ],
+  "created_at": "2026-06-20T12:07:22.212984",
+  "updated_at": "2026-06-20T12:07:22.212984"
+}

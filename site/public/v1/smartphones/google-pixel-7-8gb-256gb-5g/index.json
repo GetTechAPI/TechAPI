@@ -1,0 +1,91 @@
+{
+  "id": 5667,
+  "slug": "google-pixel-7-8gb-256gb-5g",
+  "base_model_slug": "pixel-7",
+  "name": "Google Pixel 7 (256GB)",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 764,
+    "slug": "google-tensor",
+    "name": "Google Tensor",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP20",
+    "url": "/v1/socs/google-tensor"
+  },
+  "release_date": "2022-10-13",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "1080 x 2400",
+    "type": "AMOLED",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+12MP"
+    }
+  ],
+  "battery_mah": 4355,
+  "charging_wired_w": 30.0,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": "IP68",
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax) 5GHz, MIMO",
+    "usb": "USB Type-C 3.2",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/google-pixel-7-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.3,
+    "performance": 3.7,
+    "camera": null,
+    "battery": 33.2,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/google-pixel-7-256gb"
+  ],
+  "created_at": "2026-06-20T12:07:16.221175",
+  "updated_at": "2026-06-20T12:07:16.221175"
+}

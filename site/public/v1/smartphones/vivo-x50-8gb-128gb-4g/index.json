@@ -1,0 +1,91 @@
+{
+  "id": 33175,
+  "slug": "vivo-x50-8gb-128gb-4g",
+  "base_model_slug": "x50",
+  "name": "Vivo X50",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1655,
+    "slug": "qualcomm-sdm730-snapdragon-730",
+    "name": "Qualcomm SDM730 Snapdragon 730",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 618",
+    "url": "/v1/socs/qualcomm-sdm730-snapdragon-730"
+  },
+  "release_date": "2020-07-16",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.56,
+    "resolution": "1080 x 2376",
+    "type": "AMOLED",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48+13+8+5MP"
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": 33.0,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.1",
+    "wlan": "Wi-Fi 5 (802.11 b/g/n/ac) 5GHz",
+    "usb": "Yes",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/vivo-x50-blue-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 33.2,
+    "performance": null,
+    "camera": null,
+    "battery": 21.4,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/vivo-x50"
+  ],
+  "created_at": "2026-06-20T12:07:22.494806",
+  "updated_at": "2026-06-20T12:07:22.494806"
+}

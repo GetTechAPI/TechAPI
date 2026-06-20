@@ -1,0 +1,90 @@
+{
+  "id": 10775,
+  "slug": "lava-iris-x8-2gb-16gb-3g",
+  "base_model_slug": "iris-x8",
+  "name": "Lava Iris X8",
+  "brand": {
+    "id": 92,
+    "slug": "lava",
+    "name": "Lava International",
+    "country": "IN",
+    "url": "/v1/brands/lava"
+  },
+  "soc": {
+    "id": 1040,
+    "slug": "mediatek-mt6592m",
+    "name": "Mediatek MT6592M",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-450MP4",
+    "url": "/v1/socs/mediatek-mt6592m"
+  },
+  "release_date": "2015-02-11",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "720 x 1280",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8MP"
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v4.2.2",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/lava-iris-x8-white-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/lava-iris-x8"
+  ],
+  "created_at": "2026-06-20T12:07:17.258297",
+  "updated_at": "2026-06-20T12:07:17.258297"
+}

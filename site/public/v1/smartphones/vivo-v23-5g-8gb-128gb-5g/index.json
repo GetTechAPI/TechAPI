@@ -1,0 +1,91 @@
+{
+  "id": 33775,
+  "slug": "vivo-v23-5g-8gb-128gb-5g",
+  "base_model_slug": "v23-5g",
+  "name": "Vivo V23 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 615,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2022-01-19",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual Nano SIM"
+  },
+  "display": {
+    "size_inch": 6.44,
+    "resolution": "1080 x 2400",
+    "type": "AMOLED",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64+8+2MP"
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": 44.0,
+  "charging_wireless_w": null,
+  "weight_g": 179.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual Nano SIM",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "Yes",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/171336996800JV6.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.2,
+    "performance": null,
+    "camera": null,
+    "battery": 23.5,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/vivo-v23-5g"
+  ],
+  "created_at": "2026-06-20T12:07:22.642802",
+  "updated_at": "2026-06-20T12:07:22.642802"
+}

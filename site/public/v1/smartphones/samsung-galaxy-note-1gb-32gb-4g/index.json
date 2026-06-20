@@ -1,0 +1,89 @@
+{
+  "id": 24169,
+  "slug": "samsung-galaxy-note-1gb-32gb-4g",
+  "base_model_slug": "galaxy-note",
+  "name": "Samsung Galaxy Note",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1839,
+    "slug": "exynos-4210-dual",
+    "name": "Exynos 4210 Dual",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Mali-400MP4",
+    "url": "/v1/socs/exynos-4210-dual"
+  },
+  "release_date": "2011-12-10",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Single SIM, GSM"
+  },
+  "display": {
+    "size_inch": 5.3,
+    "resolution": "800 x 1280",
+    "type": "Super AMOLED"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8MP"
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 178.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v2.3.5",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Single SIM, GSM",
+    "bluetooth": "v3",
+    "wlan": "Wi-Fi 4 (802.11 a/b/g/n), Dual antennas",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/samsung-galaxy-note-black-color-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/samsung-galaxy-note"
+  ],
+  "created_at": "2026-06-20T12:07:20.400031",
+  "updated_at": "2026-06-20T12:07:20.400031"
+}

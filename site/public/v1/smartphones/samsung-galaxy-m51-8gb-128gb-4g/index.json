@@ -1,0 +1,90 @@
+{
+  "id": 26527,
+  "slug": "samsung-galaxy-m51-8gb-128gb-4g",
+  "base_model_slug": "galaxy-m51",
+  "name": "Samsung Galaxy M51",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1621,
+    "slug": "qualcomm-sdm730-snapdragon-730g",
+    "name": "Qualcomm SDM730 Snapdragon 730G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 618",
+    "url": "/v1/socs/qualcomm-sdm730-snapdragon-730g"
+  },
+  "release_date": "2020-01-11",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1080 x 2400",
+    "type": "Super AMOLED Plus",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64+12+5+5MP"
+    }
+  ],
+  "battery_mah": 7000,
+  "charging_wired_w": 25.0,
+  "charging_wireless_w": null,
+  "weight_g": 213.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "12",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)",
+    "bluetooth": "5.0, A2DP, LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "gps": "GPS, GLONASS, GALILEO, BDS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/samsung-galaxy-m51-white-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.7,
+    "performance": null,
+    "camera": null,
+    "battery": 46.9,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/samsung-galaxy-m51"
+  ],
+  "created_at": "2026-06-20T12:07:20.890390",
+  "updated_at": "2026-06-20T12:07:20.890390"
+}

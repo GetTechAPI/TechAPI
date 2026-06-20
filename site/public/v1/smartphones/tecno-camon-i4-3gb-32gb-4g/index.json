@@ -1,0 +1,90 @@
+{
+  "id": 31799,
+  "slug": "tecno-camon-i4-3gb-32gb-4g",
+  "base_model_slug": "camon-i4",
+  "name": "Tecno Camon i4",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1121,
+    "slug": "helio-a22",
+    "name": "Helio A22",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8300",
+    "url": "/v1/socs/helio-a22"
+  },
+  "release_date": "2019-03-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM, Dual VoLTE"
+  },
+  "display": {
+    "size_inch": 6.2,
+    "resolution": "720 x 1520",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+8+2MP"
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM, Dual VoLTE",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/tecno-camon-i4-midnight-black-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.0,
+    "performance": null,
+    "camera": null,
+    "battery": 7.5,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/tecno-camon-i4"
+  ],
+  "created_at": "2026-06-20T12:07:22.196986",
+  "updated_at": "2026-06-20T12:07:22.196986"
+}

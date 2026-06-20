@@ -1,0 +1,91 @@
+{
+  "id": 8526,
+  "slug": "huawei-p30-lite-4gb-128gb-4g",
+  "base_model_slug": "p30-lite",
+  "name": "Huawei P30 Lite",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 803,
+    "slug": "hisilicon-kirin-710",
+    "name": "Hisilicon Kirin 710",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G51 MP4",
+    "url": "/v1/socs/hisilicon-kirin-710"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.15,
+    "resolution": "1080 x 2312",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "24+8+2MP"
+    }
+  ],
+  "battery_mah": 3340,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 159.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v9",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.2",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-p30-lite-midnight-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.1,
+    "performance": null,
+    "camera": null,
+    "battery": 5.7,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-p30-lite"
+  ],
+  "created_at": "2026-06-20T12:07:16.791876",
+  "updated_at": "2026-06-20T12:07:16.791876"
+}

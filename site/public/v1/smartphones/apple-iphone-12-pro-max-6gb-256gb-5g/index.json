@@ -1,0 +1,90 @@
+{
+  "id": 1953,
+  "slug": "apple-iphone-12-pro-max-6gb-256gb-5g",
+  "base_model_slug": "iphone-12-pro-max",
+  "name": "Apple iPhone 12 Pro Max (256GB)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 37,
+    "slug": "apple-a14-bionic",
+    "name": "Apple A14 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a14-bionic"
+  },
+  "release_date": "2020-11-13",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 256
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1284 x 2778",
+    "type": "Super Retina XDR OLED",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12+12+12MP"
+    }
+  ],
+  "battery_mah": 3687,
+  "charging_wired_w": 20.0,
+  "charging_wireless_w": null,
+  "weight_g": 226.0,
+  "dimensions": {},
+  "ip_rating": "IP68",
+  "os": "iOS v14",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 6 (802.11 b/g/n/ax), MIMO",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/apple-iphone-12-pro-max-pacific-blue-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.3,
+    "performance": 28.0,
+    "camera": null,
+    "battery": 21.3,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/apple-iphone-12-pro-max-256gb"
+  ],
+  "created_at": "2026-06-20T12:07:15.290318",
+  "updated_at": "2026-06-20T12:07:15.290318"
+}

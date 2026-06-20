@@ -1,0 +1,91 @@
+{
+  "id": 9635,
+  "slug": "huawei-mate-x5-16gb-512gb-5g",
+  "base_model_slug": "mate-x5",
+  "name": "Huawei Mate X5",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 848,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2024-09-16",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 7.85,
+    "resolution": "2224 x 2496",
+    "type": "Foldable OLED",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+12+13MP"
+    }
+  ],
+  "battery_mah": 5060,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": null,
+  "weight_g": 245.0,
+  "dimensions": {},
+  "ip_rating": "IPX8",
+  "os": "HarmonyOS v4.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 6E (802.11 a/b/g/n/ac/ax) 5GHz 6GHz, MIMO",
+    "usb": "USB Type-C 3.1",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-mate-x5-purple-official-image_2.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.0,
+    "performance": 10.0,
+    "camera": null,
+    "battery": 40.6,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-mate-x5"
+  ],
+  "created_at": "2026-06-20T12:07:17.024172",
+  "updated_at": "2026-06-20T12:07:17.024172"
+}

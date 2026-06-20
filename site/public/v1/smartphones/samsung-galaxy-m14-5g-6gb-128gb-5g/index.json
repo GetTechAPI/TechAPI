@@ -1,0 +1,90 @@
+{
+  "id": 28465,
+  "slug": "samsung-galaxy-m14-5g-6gb-128gb-5g",
+  "base_model_slug": "galaxy-m14-5g",
+  "name": "Samsung Galaxy M14 5G",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1933,
+    "slug": "exynos-1330",
+    "name": "Exynos 1330 5G",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "ARM Mali-G68",
+    "url": "/v1/socs/exynos-1330"
+  },
+  "release_date": "2023-03-08",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "1080 x 2408",
+    "type": "PLS LCD",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+2+2MP"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": 15.0,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "13",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)",
+    "bluetooth": "5.2, A2DP, LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "gps": "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC"
+  },
+  "image_url": "https://www.mobiledokan.com/media/samsung-galaxy-m14-5g-navy-blue-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 50.0,
+    "performance": null,
+    "camera": null,
+    "battery": 55.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/samsung-galaxy-m14-5g"
+  ],
+  "created_at": "2026-06-20T12:07:21.285730",
+  "updated_at": "2026-06-20T12:07:21.285730"
+}

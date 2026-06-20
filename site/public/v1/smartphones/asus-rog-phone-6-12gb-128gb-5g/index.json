@@ -1,0 +1,91 @@
+{
+  "id": 3333,
+  "slug": "asus-rog-phone-6-12gb-128gb-5g",
+  "base_model_slug": "rog-phone-6",
+  "name": "Asus ROG Phone 6",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 1397,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2022-07-13",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1080 x 2448",
+    "type": "AMOLED",
+    "refresh_hz": 165
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+13+5MP"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": 65.0,
+  "charging_wireless_w": null,
+  "weight_g": 239.0,
+  "dimensions": {},
+  "ip_rating": "IPX4",
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax) 5GHz, MIMO",
+    "usb": "USB Type-C 3.1",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/1713708053BHE9i.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 61.0,
+    "performance": null,
+    "camera": null,
+    "battery": 54.5,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/asus-rog-phone-6"
+  ],
+  "created_at": "2026-06-20T12:07:15.591828",
+  "updated_at": "2026-06-20T12:07:15.591828"
+}

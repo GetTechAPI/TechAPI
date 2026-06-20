@@ -1,0 +1,90 @@
+{
+  "id": 12458,
+  "slug": "lg-l70-dual-d325-1gb-4gb-3g",
+  "base_model_slug": "l70-dual-d325",
+  "name": "Lg L70 Dual D325",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1542,
+    "slug": "qualcomm-msm8210-snapdragon-200",
+    "name": "Qualcomm MSM8210 Snapdragon 200",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 302",
+    "url": "/v1/socs/qualcomm-msm8210-snapdragon-200"
+  },
+  "release_date": "2014-05-08",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 4.5,
+    "resolution": "480 x 800",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5MP"
+    }
+  ],
+  "battery_mah": 2100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 126.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v4.4.2",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/lg-l70-dual-d325-white-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/lg-l70-dual-d325"
+  ],
+  "created_at": "2026-06-20T12:07:17.768866",
+  "updated_at": "2026-06-20T12:07:17.768866"
+}

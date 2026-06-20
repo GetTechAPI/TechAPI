@@ -1,0 +1,91 @@
+{
+  "id": 6267,
+  "slug": "honor-x60-gt-12gb-256gb-5g",
+  "base_model_slug": "x60-gt",
+  "name": "Honor X60 GT",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1432,
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm"
+  },
+  "release_date": "2025-04-22",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1200 x 2664",
+    "type": "AMOLED",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+2MP"
+    }
+  ],
+  "battery_mah": 6300,
+  "charging_wired_w": 80.0,
+  "charging_wireless_w": null,
+  "weight_g": 193.0,
+  "dimensions": {},
+  "ip_rating": "IP65",
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.3",
+    "wlan": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax) 5GHz, MIMO",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/honor-x60-gt-black-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 57.5,
+    "performance": null,
+    "camera": null,
+    "battery": 57.4,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/honor-x60-gt"
+  ],
+  "created_at": "2026-06-20T12:07:16.345725",
+  "updated_at": "2026-06-20T12:07:16.345725"
+}

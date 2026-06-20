@@ -1,0 +1,91 @@
+{
+  "id": 20194,
+  "slug": "oppo-a54-6gb-128gb-4g",
+  "base_model_slug": "a54",
+  "name": "Oppo A54",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1123,
+    "slug": "helio-p35",
+    "name": "Helio P35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-p35"
+  },
+  "release_date": "2021-04-21",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.51,
+    "resolution": "720 x 1600",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13+2+2MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "usb": "USB Type-C 2.0",
+    "gps": "With A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/1711618189toL4z.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.5,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 30.6,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/oppo-a54"
+  ],
+  "created_at": "2026-06-20T12:07:19.398924",
+  "updated_at": "2026-06-20T12:07:19.398924"
+}

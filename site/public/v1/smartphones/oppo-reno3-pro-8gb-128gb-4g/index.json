@@ -1,0 +1,91 @@
+{
+  "id": 20133,
+  "slug": "oppo-reno3-pro-8gb-128gb-4g",
+  "base_model_slug": "reno3-pro",
+  "name": "Oppo Reno3 Pro",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1196,
+    "slug": "helio-p95",
+    "name": "Helio P95",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GM9446",
+    "url": "/v1/socs/helio-p95"
+  },
+  "release_date": "2020-03-06",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.4,
+    "resolution": "1080 x 2400",
+    "type": "Super AMOLED",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64+13+8+2MP"
+    }
+  ],
+  "battery_mah": 4025,
+  "charging_wired_w": 4.0,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 6 (802.11 b/g/n/ac/ax) 5GHz",
+    "usb": "Yes",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/oppo-reno3-pro-auroral-blue-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.1,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 15.4,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/oppo-reno3-pro"
+  ],
+  "created_at": "2026-06-20T12:07:19.387923",
+  "updated_at": "2026-06-20T12:07:19.387923"
+}

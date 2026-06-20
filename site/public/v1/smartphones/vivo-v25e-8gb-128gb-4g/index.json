@@ -1,0 +1,91 @@
+{
+  "id": 33781,
+  "slug": "vivo-v25e-8gb-128gb-4g",
+  "base_model_slug": "v25e",
+  "name": "Vivo V25e",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1207,
+    "slug": "mediatek-helio",
+    "name": "Mediatek Helio",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-helio"
+  },
+  "release_date": "2022-09-07",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.44,
+    "resolution": "1080 x 2404",
+    "type": "AMOLED",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64+2+2MP"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": 44.0,
+  "charging_wireless_w": null,
+  "weight_g": 183.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n) 5GHz",
+    "usb": "USB Type-C 2.0",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/1710580457Tg3z9.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.5,
+    "performance": null,
+    "camera": null,
+    "battery": 28.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/vivo-v25e"
+  ],
+  "created_at": "2026-06-20T12:07:22.643802",
+  "updated_at": "2026-06-20T12:07:22.643802"
+}

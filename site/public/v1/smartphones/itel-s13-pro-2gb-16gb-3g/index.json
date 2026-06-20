@@ -1,0 +1,90 @@
+{
+  "id": 10394,
+  "slug": "itel-s13-pro-2gb-16gb-3g",
+  "base_model_slug": "s13-pro",
+  "name": "Itel S13 Pro",
+  "brand": {
+    "id": 29,
+    "slug": "itel",
+    "name": "itel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/itel"
+  },
+  "soc": {
+    "id": 1167,
+    "slug": "mediatek-mt6580m",
+    "name": "Mediatek MT6580M",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-400MP2",
+    "url": "/v1/socs/mediatek-mt6580m"
+  },
+  "release_date": "2018-11-15",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720 x 1280",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5+0.3 MP"
+    }
+  ],
+  "battery_mah": 2400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 167.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v4.0",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "https://www.mobiledokan.com/media/itel-s13-pro-gold-official-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/itel-s13-pro"
+  ],
+  "created_at": "2026-06-20T12:07:17.177052",
+  "updated_at": "2026-06-20T12:07:17.177052"
+}

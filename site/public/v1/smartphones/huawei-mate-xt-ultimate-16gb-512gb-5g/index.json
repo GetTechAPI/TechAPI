@@ -1,0 +1,91 @@
+{
+  "id": 9640,
+  "slug": "huawei-mate-xt-ultimate-16gb-512gb-5g",
+  "base_model_slug": "mate-xt-ultimate",
+  "name": "Huawei Mate XT Ultimate (512GB)",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 724,
+    "slug": "octa-core",
+    "name": "Octa-core",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/octa-core"
+  },
+  "release_date": "2024-09-20",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 10.2,
+    "resolution": "2232 x 3184",
+    "type": "Tri-foldable LTPO OLED",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+12+12MP"
+    }
+  ],
+  "battery_mah": 5600,
+  "charging_wired_w": 66.0,
+  "charging_wireless_w": null,
+  "weight_g": 298.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS v4.2",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.2",
+    "wlan": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax) 5GHz, MIMO",
+    "usb": "USB Type-C 3.1, DisplayPort 1.2",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-mate-xt-ultimate-red-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 46.9,
+    "performance": null,
+    "camera": null,
+    "battery": 48.7,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-mate-xt-ultimate-512gb"
+  ],
+  "created_at": "2026-06-20T12:07:17.024172",
+  "updated_at": "2026-06-20T12:07:17.024172"
+}

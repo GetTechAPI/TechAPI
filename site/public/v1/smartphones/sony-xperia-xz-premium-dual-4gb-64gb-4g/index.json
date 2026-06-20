@@ -1,0 +1,91 @@
+{
+  "id": 30584,
+  "slug": "sony-xperia-xz-premium-dual-4gb-64gb-4g",
+  "base_model_slug": "xperia-xz-premium-dual",
+  "name": "Sony Xperia XZ Premium Dual",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1645,
+    "slug": "qualcomm-msm8998-snapdragon-835",
+    "name": "Qualcomm MSM8998 Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/qualcomm-msm8998-snapdragon-835"
+  },
+  "release_date": "2017-06-10",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 5.46,
+    "resolution": "3840 x 2160",
+    "type": "IPS LCD",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "19MP"
+    }
+  ],
+  "battery_mah": 3230,
+  "charging_wired_w": 18.0,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": "IP68",
+  "os": "Android v8.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "usb": "USB Type-C 3.1",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/sony-xperia-xz-premium-dual-bronze-pink-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.2,
+    "performance": null,
+    "camera": null,
+    "battery": 4.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/sony-xperia-xz-premium-dual"
+  ],
+  "created_at": "2026-06-20T12:07:21.748723",
+  "updated_at": "2026-06-20T12:07:21.748723"
+}

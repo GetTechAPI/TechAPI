@@ -1,0 +1,90 @@
+{
+  "id": 8524,
+  "slug": "huawei-p30-6gb-128gb-4g",
+  "base_model_slug": "p30",
+  "name": "Huawei P30",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 799,
+    "slug": "hisilicon-kirin-980",
+    "name": "HiSilicon Kirin 980",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G76 MP10",
+    "url": "/v1/socs/hisilicon-kirin-980"
+  },
+  "release_date": "2019-03-26",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "4G"
+    },
+    "sim": "Dual SIM, GSM+GSM, Dual VoLTE"
+  },
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "1080 x 2340",
+    "type": "OLED",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "40+16+8MP"
+    }
+  ],
+  "battery_mah": 3650,
+  "charging_wired_w": 22.5,
+  "charging_wireless_w": null,
+  "weight_g": 165.0,
+  "dimensions": {},
+  "ip_rating": "IP53",
+  "os": "Android v9.0",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G",
+    "sim": "Dual SIM, GSM+GSM, Dual VoLTE",
+    "bluetooth": "v5.0",
+    "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/huawei-p30-official-breathings-crystal-image.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.9,
+    "performance": null,
+    "camera": null,
+    "battery": 11.2,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/huawei-p30"
+  ],
+  "created_at": "2026-06-20T12:07:16.791876",
+  "updated_at": "2026-06-20T12:07:16.791876"
+}

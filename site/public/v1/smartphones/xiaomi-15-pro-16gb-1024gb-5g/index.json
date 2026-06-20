@@ -1,0 +1,91 @@
+{
+  "id": 37287,
+  "slug": "xiaomi-15-pro-16gb-1024gb-5g",
+  "base_model_slug": "15-pro",
+  "name": "Xiaomi 15 Pro (16GB+1TB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 615,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2024-10-29",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 1024
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Dual SIM, GSM+GSM"
+  },
+  "display": {
+    "size_inch": 6.73,
+    "resolution": "1440 x 3200",
+    "type": "LTPO AMOLED",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50+50+50MP"
+    }
+  ],
+  "battery_mah": 6100,
+  "charging_wired_w": 90.0,
+  "charging_wireless_w": null,
+  "weight_g": 213.0,
+  "dimensions": {},
+  "ip_rating": "IP68",
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "network": "2G, 3G, 4G, 5G",
+    "sim": "Dual SIM, GSM+GSM",
+    "bluetooth": "v5.4",
+    "wlan": "Wi-Fi 7 (802.11 a/b/g/n/ac/be/ax) 5GHz 6GHz, MIMO",
+    "usb": "USB Type-C 3.2 Gen2",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "image_url": "https://www.mobiledokan.com/media/xiaomi-15-pro-black-official-image_2.webp",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 58.4,
+    "performance": null,
+    "camera": null,
+    "battery": 59.3,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/xiaomi-15-pro-16gb-1tb"
+  ],
+  "created_at": "2026-06-20T12:07:23.418240",
+  "updated_at": "2026-06-20T12:07:23.418240"
+}

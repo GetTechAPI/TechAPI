@@ -249,6 +249,7 @@ jobs:
 
       - name: Add PR to configured projects
         if: env.TRIAGE_PROJECT_URLS != '' && env.PROJECT_TOKEN != ''
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ env.PROJECT_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
@@ -280,17 +281,17 @@ jobs:
               echo "::warning::Could not add PR to project $owner/$project_number. Skipping project metadata."
               continue
             }
-            status_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .id')"
-            status_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .options[] | select(.name == "In Progress") | .id')"
+            status_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .id' || true)"
+            status_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .options[] | select(.name == "In Progress") | .id' || true)"
             if [ -z "$status_option_id" ]; then
-              status_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .options[] | select(.name == "Todo") | .id')"
+              status_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .options[] | select(.name == "Todo") | .id' || true)"
             fi
-            start_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Start date") | .id')"
-            target_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Target date") | .id')"
-            priority_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .id')"
-            priority_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq ".fields[] | select(.name == \"Priority\") | .options[] | select(.name == \"${TRIAGE_PRIORITY:-Medium}\") | .id")"
+            start_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Start date") | .id' || true)"
+            target_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Target date") | .id' || true)"
+            priority_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .id' || true)"
+            priority_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq ".fields[] | select(.name == \"Priority\") | .options[] | select(.name == \"${TRIAGE_PRIORITY:-Medium}\") | .id" || true)"
             if [ -z "$priority_option_id" ]; then
-              priority_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .options[] | select(.name == "Medium") | .id')"
+              priority_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Priority") | .options[] | select(.name == "Medium") | .id' || true)"
             fi
 
             if [ -n "$item_id" ] && [ -n "$status_field_id" ] && [ -n "$status_option_id" ]; then

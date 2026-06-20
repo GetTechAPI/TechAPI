@@ -1,0 +1,40 @@
+{
+  "slug": "samsung-galaxy-a24-6gb-256gb",
+  "base_model_slug": "galaxy-a24",
+  "name": "Galaxy A24 256GB",
+  "brand": "samsung",
+  "soc": "mediatek-helio",
+  "release_date": "2023-01-01",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 195.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 256
+    }
+  },
+  "display": {
+    "size": "6.5 inches"
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ]
+}

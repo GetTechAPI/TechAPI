@@ -1,0 +1,40 @@
+{
+  "slug": "apple-iphone-15-pro-8gb-512gb",
+  "base_model_slug": "iphone-15-pro",
+  "name": "iPhone 15 Pro 512GB",
+  "brand": "apple",
+  "soc": "apple-a16-bionic-apl1010-apl1w10",
+  "release_date": "2023-01-01",
+  "ram_gb": 8,
+  "battery_mah": 4400,
+  "weight_g": 206.0,
+  "os": "iOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 512
+    }
+  },
+  "display": {
+    "size": "6.1 inches"
+  },
+  "storage_options_gb": [
+    512
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 12.0
+    }
+  ]
+}

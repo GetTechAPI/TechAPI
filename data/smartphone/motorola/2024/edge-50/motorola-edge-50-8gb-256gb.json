@@ -1,0 +1,40 @@
+{
+  "slug": "motorola-edge-50-8gb-256gb",
+  "base_model_slug": "edge-50",
+  "name": "Edge 50 256GB",
+  "brand": "motorola",
+  "soc": "snapdragon-7s-gen-2",
+  "release_date": "2024-01-01",
+  "ram_gb": 8,
+  "battery_mah": 4700,
+  "weight_g": 180.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    }
+  },
+  "display": {
+    "size": "6.7 inches"
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ]
+}

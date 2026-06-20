@@ -1,0 +1,48 @@
+{
+  "slug": "lava-z60-dual-sim-sady36-india-1gb-16gb",
+  "base_model_slug": "z60-dual-sim",
+  "name": "Z60 Dual SIM TD-LTE",
+  "brand": "lava",
+  "release_date": "2017-10-12",
+  "ram_gb": 1,
+  "battery_mah": 2500,
+  "weight_g": 149.0,
+  "os": "Google Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "variant": {
+    "region": "india",
+    "market_country": "India",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:881:india",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "market_regions": "Asia"
+  },
+  "soc": "mediatek-mt6737",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "480x854",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 4.9
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.0"
+  }
+}

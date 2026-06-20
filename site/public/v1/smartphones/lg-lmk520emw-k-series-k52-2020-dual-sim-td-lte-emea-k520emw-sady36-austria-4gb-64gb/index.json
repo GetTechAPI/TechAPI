@@ -1,0 +1,86 @@
+{
+  "id": 22792,
+  "slug": "lg-lmk520emw-k-series-k52-2020-dual-sim-td-lte-emea-k520emw-sady36-austria-4gb-64gb",
+  "base_model_slug": "lmk520emw-k-series-k52-2020-dual-sim-td-lte-emea-k520emw",
+  "name": "LMK520EMW K Series K52 2020 Dual SIM TD-LTE EMEA K520EMW",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1163,
+    "slug": "mediatek-helio-p35-mt6765",
+    "name": "MediaTek Helio P35 MT6765",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-p35-mt6765"
+  },
+  "release_date": "2020-10-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4167:austria",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.59,
+    "resolution": "720x1600",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.8,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:11.244078",
+  "updated_at": "2026-06-20T18:00:11.244078"
+}

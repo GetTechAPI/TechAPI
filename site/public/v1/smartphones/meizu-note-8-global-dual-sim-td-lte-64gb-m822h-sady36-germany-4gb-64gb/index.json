@@ -1,0 +1,86 @@
+{
+  "id": 23467,
+  "slug": "meizu-note-8-global-dual-sim-td-lte-64gb-m822h-sady36-germany-4gb-64gb",
+  "base_model_slug": "note-8-global-dual-sim-td-lte-64gb-m822h",
+  "name": "Note 8 Global Dual SIM TD-LTE 64GB M822H",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1672,
+    "slug": "qualcomm-snapdragon-632-sdm632",
+    "name": "Qualcomm Snapdragon 632 SDM632",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Qualcomm Adreno 506",
+    "url": "/v1/socs/qualcomm-snapdragon-632-sdm632"
+  },
+  "release_date": "2018-12-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "germany",
+    "market_country": "Germany",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2199:germany",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "1080x2160",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.0,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 9.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:11.461274",
+  "updated_at": "2026-06-20T18:00:11.461274"
+}

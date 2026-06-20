@@ -1,0 +1,86 @@
+{
+  "id": 52310,
+  "slug": "sharp-android-one-s7-td-lte-jp-s7-sh-sady36-japan-3gb-32gb",
+  "base_model_slug": "android-one-s7-td-lte-jp-s7-sh",
+  "name": "Android One S7 TD-LTE JP S7-SH",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1644,
+    "slug": "qualcomm-snapdragon-630-sdm630",
+    "name": "Qualcomm Snapdragon 630 SDM630",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Qualcomm Adreno 508",
+    "url": "/v1/socs/qualcomm-snapdragon-630-sdm630"
+  },
+  "release_date": "2019-12-19",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3065:japan",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 5.49,
+    "resolution": "1080x2280",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 167.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.0,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:21.257579",
+  "updated_at": "2026-06-20T18:00:21.257579"
+}

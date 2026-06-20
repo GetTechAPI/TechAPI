@@ -1,0 +1,87 @@
+{
+  "id": 63812,
+  "slug": "xiaomi-mi-12-lite-5g-premium-edition-global-dual-sim-td-lte-256gb-2203129g-sady36-austria-8gb-256gb",
+  "base_model_slug": "mi-12-lite-5g-premium-edition-global-dual-sim-td-lte-256gb-2203129g",
+  "name": "Mi 12 Lite 5G Premium Edition Global Dual SIM TD-LTE 256GB 2203129G",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1724,
+    "slug": "qualcomm-snapdragon-778g-5g-sm7325",
+    "name": "Qualcomm Snapdragon 778G 5G SM7325",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Qualcomm Adreno 642L",
+    "url": "/v1/socs/qualcomm-snapdragon-778g-5g-sm7325"
+  },
+  "release_date": "2022-07-13",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6540:austria",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Africa , Asia , Australia , Eastern Europe , Europe , North America , Oceania , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.0
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.2,
+    "performance": null,
+    "camera": 35.7,
+    "battery": 24.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:25.213837",
+  "updated_at": "2026-06-20T18:00:25.213837"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 14322,
+  "slug": "huawei-p30-lite-td-lte-emea-128gb-mar-l01-mar-l01m-sady36-cyprus-4gb-128gb",
+  "base_model_slug": "p30-lite-td-lte-emea-128gb-mar-l01-mar-l01m",
+  "name": "P30 Lite TD-LTE EMEA 128GB MAR-L01 / MAR-L01M",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 821,
+    "slug": "hisilicon-honor-kirin710",
+    "name": "HiSilicon Honor KIRIN710",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G51MP4",
+    "url": "/v1/socs/hisilicon-honor-kirin710"
+  },
+  "release_date": "2019-05-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "cyprus",
+    "market_country": "Cyprus",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1874:cyprus",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.15,
+    "resolution": "1080x2312",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 23.8
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 3340,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 159.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.0,
+    "performance": null,
+    "camera": 8.8,
+    "battery": 5.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.221973",
+  "updated_at": "2026-06-20T18:00:08.221973"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 47538,
+  "slug": "samsung-sm-a022g-ds-galaxy-a02-2021-premium-edition-dual-sim-td-lte-apac-32gb-sady36-vietnam-3gb-32gb",
+  "base_model_slug": "sm-a022g-ds-galaxy-a02-2021-premium-edition-dual-sim-td-lte-apac-32gb",
+  "name": "SM-A022G/DS Galaxy A02 2021 Premium Edition Dual SIM TD-LTE APAC 32GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1170,
+    "slug": "mediatek-mt6739",
+    "name": "Mediatek MT6739",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739"
+  },
+  "release_date": "2021-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "vietnam",
+    "market_country": "Vietnam",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4594:vietnam",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Asia , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "type": "Color PLS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:19.774252",
+  "updated_at": "2026-06-20T18:00:19.774252"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 28143,
+  "slug": "motorola-moto-g23-2023-standard-edition-td-lte-latam-128gb-xt2333-1-sady36-mexico-4gb-128gb",
+  "base_model_slug": "moto-g23-2023-standard-edition-td-lte-latam-128gb-xt2333-1",
+  "name": "Moto G23 2023 Standard Edition TD-LTE LATAM 128GB XT2333-1",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1306,
+    "slug": "mediatek-helio-g85-mt6769z",
+    "name": "MediaTek Helio G85 MT6769Z",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/mediatek-helio-g85-mt6769z"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "mexico",
+    "market_country": "Mexico",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:8266:mexico",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Central America , North America , South America"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.2,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.7,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:13.016926",
+  "updated_at": "2026-06-20T18:00:13.016926"
+}

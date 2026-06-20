@@ -1,0 +1,86 @@
+{
+  "id": 8380,
+  "slug": "doogee-s55-lite-dual-sim-lte-sady36-bulgaria-2gb-16gb",
+  "base_model_slug": "s55-lite-dual-sim-lte",
+  "name": "S55 Lite Dual SIM LTE EMEA",
+  "brand": {
+    "id": 18,
+    "slug": "doogee",
+    "name": "DOOGEE",
+    "country": "CN",
+    "url": "/v1/brands/doogee"
+  },
+  "soc": {
+    "id": 1170,
+    "slug": "mediatek-mt6739",
+    "name": "Mediatek MT6739",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739"
+  },
+  "release_date": "2018-08-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "bulgaria",
+    "market_country": "Bulgaria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3116:bulgaria",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 265.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.4,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 37.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:06.023120",
+  "updated_at": "2026-06-20T18:00:06.024131"
+}

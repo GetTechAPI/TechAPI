@@ -1,0 +1,87 @@
+{
+  "id": 32334,
+  "slug": "oneplus-nord-ce-2-5g-premium-edition-global-dual-sim-td-lte-128gb-iv2203-sady36-denmark-8gb-128gb",
+  "base_model_slug": "nord-ce-2-5g-premium-edition-global-dual-sim-td-lte-128gb-iv2203",
+  "name": "Nord CE 2 5G Premium Edition Global Dual SIM TD-LTE 128GB IV2203",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1260,
+    "slug": "mediatek-dimensity-900-mt6877v-za",
+    "name": "MediaTek Dimensity 900 MT6877V/ZA",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "ARM Mali-G68MP4",
+    "url": "/v1/socs/mediatek-dimensity-900-mt6877v-za"
+  },
+  "release_date": "2022-02-23",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "denmark",
+    "market_country": "Denmark",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6897:denmark",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.43,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.3,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 27.5,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.418362",
+  "updated_at": "2026-06-20T18:00:14.418362"
+}

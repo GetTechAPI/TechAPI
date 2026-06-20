@@ -1,0 +1,86 @@
+{
+  "id": 22257,
+  "slug": "lg-lmx430fmw-k-series-k40s-2019-dual-sim-lte-a-latam-x430fmw-sady36-guatemala-2gb-32gb",
+  "base_model_slug": "lmx430fmw-k-series-k40s-2019-dual-sim-lte-a-latam-x430fmw",
+  "name": "LMX430FMW K Series K40S 2019 Dual SIM LTE-A LATAM X430FMW",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1162,
+    "slug": "mediatek-helio-p22-mt6762",
+    "name": "MediaTek Helio P22 MT6762",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-p22-mt6762"
+  },
+  "release_date": "2019-10-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "guatemala",
+    "market_country": "Guatemala",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5267:guatemala",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "market_regions": "Central America , North America , South America"
+  },
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "720x1560",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.4,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:11.087886",
+  "updated_at": "2026-06-20T18:00:11.088891"
+}

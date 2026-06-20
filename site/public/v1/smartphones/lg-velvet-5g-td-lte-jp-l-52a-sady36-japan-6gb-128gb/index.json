@@ -1,0 +1,86 @@
+{
+  "id": 22953,
+  "slug": "lg-velvet-5g-td-lte-jp-l-52a-sady36-japan-6gb-128gb",
+  "base_model_slug": "velvet-5g-td-lte-jp-l-52a",
+  "name": "Velvet 5G TD-LTE JP L-52A",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1739,
+    "slug": "qualcomm-snapdragon-765g-5g-sm7250-ab",
+    "name": "Qualcomm Snapdragon 765G 5G SM7250-AB",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 620",
+    "url": "/v1/socs/qualcomm-snapdragon-765g-5g-sm7250-ab"
+  },
+  "release_date": "2020-12-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4131:japan",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080x2460",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.0,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 19.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:11.289393",
+  "updated_at": "2026-06-20T18:00:11.289393"
+}

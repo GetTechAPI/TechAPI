@@ -1,0 +1,86 @@
+{
+  "id": 59767,
+  "slug": "wiko-rakuten-mini-initial-edition-td-lte-jp-c330-sady36-japan-3gb-32gb",
+  "base_model_slug": "rakuten-mini-initial-edition-td-lte-jp-c330",
+  "name": "Rakuten Mini Initial Edition TD-LTE JP C330",
+  "brand": {
+    "id": 72,
+    "slug": "wiko",
+    "name": "Wiko",
+    "country": "FR",
+    "url": "/v1/brands/wiko"
+  },
+  "soc": {
+    "id": 1639,
+    "slug": "qualcomm-snapdragon-439-sdm439",
+    "name": "Qualcomm Snapdragon 439 SDM439",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Qualcomm Adreno 505",
+    "url": "/v1/socs/qualcomm-snapdragon-439-sdm439"
+  },
+  "release_date": "2020-01-23",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3140:japan",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 3.58,
+    "resolution": "720x1280",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 15.9
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 1250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 79.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.1,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.042804",
+  "updated_at": "2026-06-20T18:00:24.042804"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 3693,
+  "slug": "apple-iphone-13-pro-max-5g-a2643-global-dual-sim-td-lte-128gb-sady36-austria-6gb-128gb",
+  "base_model_slug": "iphone-13-pro-max-5g-a2643-global-dual-sim-td-lte-128gb",
+  "name": "iPhone 13 Pro Max 5G A2643 Global Dual SIM TD-LTE 128GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 39,
+    "slug": "apple-a15-bionic-apl1007-apl1w07",
+    "name": "Apple A15 Bionic APL1007 / APL1W07",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple A15MP5",
+    "url": "/v1/socs/apple-a15-bionic-apl1007-apl1w07"
+  },
+  "release_date": "2021-09-24",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5541:austria",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Australia , Central America , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia , Western Europe , Worldwide"
+  },
+  "display": {
+    "size_inch": 6.68,
+    "resolution": "1284x2778",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 4352,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 238.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 15",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.0,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 30.3,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.553483",
+  "updated_at": "2026-06-20T18:00:04.553483"
+}

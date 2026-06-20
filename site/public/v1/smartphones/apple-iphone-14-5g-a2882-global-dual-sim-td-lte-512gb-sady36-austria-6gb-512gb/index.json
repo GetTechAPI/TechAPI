@@ -1,0 +1,87 @@
+{
+  "id": 3982,
+  "slug": "apple-iphone-14-5g-a2882-global-dual-sim-td-lte-512gb-sady36-austria-6gb-512gb",
+  "base_model_slug": "iphone-14-5g-a2882-global-dual-sim-td-lte-512gb",
+  "name": "iPhone 14 5G A2882 Global Dual SIM TD-LTE 512GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 39,
+    "slug": "apple-a15-bionic-apl1007-apl1w07",
+    "name": "Apple A15 Bionic APL1007 / APL1W07",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple A15MP5",
+    "url": "/v1/socs/apple-a15-bionic-apl1007-apl1w07"
+  },
+  "release_date": "2022-09-16",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6952:austria",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 512
+    },
+    "market_regions": "Africa , Asia , Australia , Central America , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia , Western Europe , Worldwide"
+  },
+  "display": {
+    "size_inch": 6.06,
+    "resolution": "1170x2532",
+    "type": "AM-OLED display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 3279,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 172.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 16",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.3,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 14.2,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.642987",
+  "updated_at": "2026-06-20T18:00:04.642987"
+}

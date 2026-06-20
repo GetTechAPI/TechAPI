@@ -1,0 +1,86 @@
+{
+  "id": 47543,
+  "slug": "samsung-sm-a022m-ds-galaxy-a02-2021-premium-edition-dual-sim-lte-latam-32gb-sady36-peru-3gb-32gb",
+  "base_model_slug": "sm-a022m-ds-galaxy-a02-2021-premium-edition-dual-sim-lte-latam-32gb",
+  "name": "SM-A022M/DS Galaxy A02 2021 Premium Edition Dual SIM LTE LATAM 32GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1170,
+    "slug": "mediatek-mt6739",
+    "name": "Mediatek MT6739",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739"
+  },
+  "release_date": "2021-03-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "peru",
+    "market_country": "Peru",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5048:peru",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Central America , South America"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "type": "Color PLS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:19.775752",
+  "updated_at": "2026-06-20T18:00:19.775752"
+}

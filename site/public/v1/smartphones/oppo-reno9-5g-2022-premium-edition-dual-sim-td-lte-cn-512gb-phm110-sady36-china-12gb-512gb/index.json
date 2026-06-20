@@ -1,0 +1,87 @@
+{
+  "id": 37760,
+  "slug": "oppo-reno9-5g-2022-premium-edition-dual-sim-td-lte-cn-512gb-phm110-sady36-china-12gb-512gb",
+  "base_model_slug": "reno9-5g-2022-premium-edition-dual-sim-td-lte-cn-512gb-phm110",
+  "name": "Reno9 5G 2022 Premium Edition Dual SIM TD-LTE CN 512GB PHM110",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1724,
+    "slug": "qualcomm-snapdragon-778g-5g-sm7325",
+    "name": "Qualcomm Snapdragon 778G 5G SM7325",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Qualcomm Adreno 642L",
+    "url": "/v1/socs/qualcomm-snapdragon-778g-5g-sm7325"
+  },
+  "release_date": "2022-12-02",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:8049:china",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1080x2412",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 174.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.5,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 27.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:16.430122",
+  "updated_at": "2026-06-20T18:00:16.430122"
+}

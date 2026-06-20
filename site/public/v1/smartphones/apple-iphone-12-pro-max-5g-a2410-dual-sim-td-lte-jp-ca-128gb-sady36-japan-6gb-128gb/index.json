@@ -1,0 +1,87 @@
+{
+  "id": 3189,
+  "slug": "apple-iphone-12-pro-max-5g-a2410-dual-sim-td-lte-jp-ca-128gb-sady36-japan-6gb-128gb",
+  "base_model_slug": "iphone-12-pro-max-5g-a2410-dual-sim-td-lte-jp-ca-128gb",
+  "name": "iPhone 12 Pro Max 5G A2410 Dual SIM TD-LTE JP CA 128GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 37,
+    "slug": "apple-a14-bionic",
+    "name": "Apple A14 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a14-bionic"
+  },
+  "release_date": "2020-11-13",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4439:japan",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Central America , North America"
+  },
+  "display": {
+    "size_inch": 6.68,
+    "resolution": "1284x2778",
+    "type": "AM-OLED display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 3687,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 226.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 14.1",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.5,
+    "performance": 28.0,
+    "camera": 5.1,
+    "battery": 20.3,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.397786",
+  "updated_at": "2026-06-20T18:00:04.397786"
+}

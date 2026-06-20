@@ -1,0 +1,86 @@
+{
+  "id": 67862,
+  "slug": "zte-z5g31-gabb-z1-lte-sady36-usa-2gb-16gb",
+  "base_model_slug": "z5g31-gabb-z1-lte",
+  "name": "Z5G31 Gabb Z1 LTE US",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1636,
+    "slug": "qualcomm-snapdragon-210-msm8909",
+    "name": "Qualcomm Snapdragon 210 MSM8909",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 304",
+    "url": "/v1/socs/qualcomm-snapdragon-210-msm8909"
+  },
+  "release_date": "2019-09-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "usa",
+    "market_country": "USA",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3028:usa",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "market_regions": "North America"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "480x854",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 4.9
+    },
+    {
+      "type": "selfie",
+      "mp": 1.9
+    }
+  ],
+  "battery_mah": 2200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 141.7,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.468968",
+  "updated_at": "2026-06-20T18:00:26.468968"
+}

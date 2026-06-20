@@ -1,0 +1,87 @@
+{
+  "id": 36204,
+  "slug": "oppo-reno-5f-2021-dual-sim-td-lte-v1-id-128gb-cph2217-sady36-indonesia-8gb-128gb",
+  "base_model_slug": "reno-5f-2021-dual-sim-td-lte-v1-id-128gb-cph2217",
+  "name": "Reno 5F 2021 Dual SIM TD-LTE V1 ID 128GB CPH2217",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1242,
+    "slug": "mediatek-helio-p95-mt6779v-cv",
+    "name": "MediaTek Helio P95 MT6779V/CV",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GM9446",
+    "url": "/v1/socs/mediatek-helio-p95-mt6779v-cv"
+  },
+  "release_date": "2021-03-17",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "indonesia",
+    "market_country": "Indonesia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5460:indonesia",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.43,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4310,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 172.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.9,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 19.7,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:15.997470",
+  "updated_at": "2026-06-20T18:00:15.997470"
+}

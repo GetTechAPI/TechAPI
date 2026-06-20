@@ -1,0 +1,86 @@
+{
+  "id": 1341,
+  "slug": "alcatel-1s-2019-dual-sim-lte-emea-5024d-sady36-cyprus-3gb-32gb",
+  "base_model_slug": "1s-2019-dual-sim-lte-emea-5024d",
+  "name": "1S 2019 Dual SIM LTE EMEA 5024D",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 2081,
+    "slug": "unisoc-sc9863a",
+    "name": "Unisoc SC9863A",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "IMG8322",
+    "url": "/v1/socs/unisoc-sc9863a"
+  },
+  "release_date": "2019-05-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "cyprus",
+    "market_country": "Cyprus",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1858:cyprus",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 3060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 146.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.1,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:03.838640",
+  "updated_at": "2026-06-20T18:00:03.838640"
+}

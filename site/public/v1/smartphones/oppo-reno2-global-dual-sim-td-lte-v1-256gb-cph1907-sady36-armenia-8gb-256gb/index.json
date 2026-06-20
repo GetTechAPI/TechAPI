@@ -1,0 +1,86 @@
+{
+  "id": 34098,
+  "slug": "oppo-reno2-global-dual-sim-td-lte-v1-256gb-cph1907-sady36-armenia-8gb-256gb",
+  "base_model_slug": "reno2-global-dual-sim-td-lte-v1-256gb-cph1907",
+  "name": "Reno2 Global Dual SIM TD-LTE V1 256GB CPH1907",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1703,
+    "slug": "qualcomm-snapdragon-730g-sm7150-ab",
+    "name": "Qualcomm Snapdragon 730G SM7150-AB",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Qualcomm Adreno 618",
+    "url": "/v1/socs/qualcomm-snapdragon-730g-sm7150-ab"
+  },
+  "release_date": "2019-09-09",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "armenia",
+    "market_country": "Armenia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2623:armenia",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , Middle East , Oceania , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.54,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.8,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.952290",
+  "updated_at": "2026-06-20T18:00:14.952290"
+}

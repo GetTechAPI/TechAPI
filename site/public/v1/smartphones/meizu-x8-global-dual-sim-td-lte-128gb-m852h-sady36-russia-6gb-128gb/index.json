@@ -1,0 +1,86 @@
+{
+  "id": 23489,
+  "slug": "meizu-x8-global-dual-sim-td-lte-128gb-m852h-sady36-russia-6gb-128gb",
+  "base_model_slug": "x8-global-dual-sim-td-lte-128gb-m852h",
+  "name": "X8 Global Dual SIM TD-LTE 128GB M852H",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1700,
+    "slug": "qualcomm-snapdragon-710-sdm710",
+    "name": "Qualcomm Snapdragon 710 SDM710",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Qualcomm Adreno 616",
+    "url": "/v1/socs/qualcomm-snapdragon-710-sdm710"
+  },
+  "release_date": "2018-11-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "russia",
+    "market_country": "Russia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2195:russia",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.15,
+    "resolution": "1080x2220",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.3
+    },
+    {
+      "type": "selfie",
+      "mp": 20.1
+    }
+  ],
+  "battery_mah": 3210,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 4.1,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 3.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:11.467782",
+  "updated_at": "2026-06-20T18:00:11.467782"
+}

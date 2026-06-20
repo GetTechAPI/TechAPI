@@ -1,0 +1,87 @@
+{
+  "id": 68428,
+  "slug": "zte-nubia-z30pro-5g-premium-edition-dual-sim-td-lte-cn-512gb-nx667j-sady36-china-16gb-512gb",
+  "base_model_slug": "nubia-z30pro-5g-premium-edition-dual-sim-td-lte-cn-512gb-nx667j",
+  "name": "Nubia Z30Pro 5G Premium Edition Dual SIM TD-LTE CN 512GB NX667J",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1744,
+    "slug": "qualcomm-snapdragon-888-5g-sm8350",
+    "name": "Qualcomm Snapdragon 888 5G SM8350",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Qualcomm Adreno 660",
+    "url": "/v1/socs/qualcomm-snapdragon-888-5g-sm8350"
+  },
+  "release_date": "2021-05-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6833:china",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.4
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.1,
+    "performance": null,
+    "camera": 21.7,
+    "battery": 28.0,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.637283",
+  "updated_at": "2026-06-20T18:00:26.637283"
+}

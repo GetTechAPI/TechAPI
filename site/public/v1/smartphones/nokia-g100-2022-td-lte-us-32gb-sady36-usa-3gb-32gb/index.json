@@ -1,0 +1,86 @@
+{
+  "id": 30927,
+  "slug": "nokia-g100-2022-td-lte-us-32gb-sady36-usa-3gb-32gb",
+  "base_model_slug": "g100-2022-td-lte-us-32gb",
+  "name": "G100 2022 TD-LTE US 32GB",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1752,
+    "slug": "qualcomm-snapdragon-662-sm6115",
+    "name": "Qualcomm Snapdragon 662 SM6115",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Qualcomm Adreno 610",
+    "url": "/v1/socs/qualcomm-snapdragon-662-sm6115"
+  },
+  "release_date": "2022-10-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "usa",
+    "market_country": "USA",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:8070:usa",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "North America"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 194.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:13.969764",
+  "updated_at": "2026-06-20T18:00:13.969764"
+}

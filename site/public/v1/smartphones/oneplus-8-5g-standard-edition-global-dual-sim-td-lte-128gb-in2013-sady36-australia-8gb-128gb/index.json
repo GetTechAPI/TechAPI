@@ -1,0 +1,87 @@
+{
+  "id": 31727,
+  "slug": "oneplus-8-5g-standard-edition-global-dual-sim-td-lte-128gb-in2013-sady36-australia-8gb-128gb",
+  "base_model_slug": "8-5g-standard-edition-global-dual-sim-td-lte-128gb-in2013",
+  "name": "8 5G Standard Edition Global Dual SIM TD-LTE 128GB IN2013",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1705,
+    "slug": "qualcomm-snapdragon-865-5g-sm8250",
+    "name": "Qualcomm Snapdragon 865 5G SM8250",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-865-5g-sm8250"
+  },
+  "release_date": "2020-04-21",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "australia",
+    "market_country": "Australia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3480:australia",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.0,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 19.5,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.231573",
+  "updated_at": "2026-06-20T18:00:14.231573"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 988,
+  "slug": "alcatel-one-touch-pop-4-plus-global-dual-sim-lte-5056d-pop-4-plus-sady36-denmark-2gb-16gb",
+  "base_model_slug": "one-touch-pop-4-plus-global-dual-sim-lte-5056d-pop-4-plus",
+  "name": "One Touch Pop 4+ Global Dual SIM LTE 5056D / Pop 4 Plus",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1636,
+    "slug": "qualcomm-snapdragon-210-msm8909",
+    "name": "Qualcomm Snapdragon 210 MSM8909",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 304",
+    "url": "/v1/socs/qualcomm-snapdragon-210-msm8909"
+  },
+  "release_date": "2016-03-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "denmark",
+    "market_country": "Denmark",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3600:denmark",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720x1280",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 156.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 6.0.1 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:03.736166",
+  "updated_at": "2026-06-20T18:00:03.736166"
+}

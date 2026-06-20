@@ -1,0 +1,87 @@
+{
+  "id": 26282,
+  "slug": "motorola-moto-edge-5g-global-dual-sim-td-lte-xt2063-3-sady36-belgium-6gb-128gb",
+  "base_model_slug": "moto-edge-5g-global-dual-sim-td-lte-xt2063-3",
+  "name": "Moto Edge 5G Global Dual SIM TD-LTE XT2063-3",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1722,
+    "slug": "qualcomm-snapdragon-765-5g-sm7250-aa",
+    "name": "Qualcomm Snapdragon 765 5G SM7250-AA",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 620",
+    "url": "/v1/socs/qualcomm-snapdragon-765-5g-sm7250-aa"
+  },
+  "release_date": "2020-05-28",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "belgium",
+    "market_country": "Belgium",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3507:belgium",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , South America , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 24.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.7,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 22.5,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:12.446744",
+  "updated_at": "2026-06-20T18:00:12.446744"
+}

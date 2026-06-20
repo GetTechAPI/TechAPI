@@ -1,0 +1,86 @@
+{
+  "id": 38758,
+  "slug": "panasonic-eluga-y-pro-dual-sim-td-lte-tw-sady36-taiwan-4gb-64gb",
+  "base_model_slug": "eluga-y-pro-dual-sim-td-lte-tw",
+  "name": "Eluga Y Pro Dual SIM TD-LTE TW",
+  "brand": {
+    "id": 103,
+    "slug": "panasonic",
+    "name": "Panasonic",
+    "country": "JP",
+    "url": "/v1/brands/panasonic"
+  },
+  "soc": {
+    "id": 1102,
+    "slug": "mediatek-helio-p23-mt6763",
+    "name": "MediaTek Helio P23 MT6763",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "ARM Mali-G71 MP2",
+    "url": "/v1/socs/mediatek-helio-p23-mt6763"
+  },
+  "release_date": "2018-08-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "taiwan",
+    "market_country": "Taiwan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1105:taiwan",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 5.85,
+    "resolution": "720x1520",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 16.3
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.2,
+    "performance": null,
+    "camera": 6.4,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:16.781706",
+  "updated_at": "2026-06-20T18:00:16.781706"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 68203,
+  "slug": "zte-axon-30-5g-top-edition-global-dual-sim-td-lte-256gb-a2322g-sady36-canada-12gb-256gb",
+  "base_model_slug": "axon-30-5g-top-edition-global-dual-sim-td-lte-256gb-a2322g",
+  "name": "Axon 30 5G Top Edition Global Dual SIM TD-LTE 256GB A2322G",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1741,
+    "slug": "qualcomm-snapdragon-870-5g-sm8250-ac",
+    "name": "Qualcomm Snapdragon 870 5G SM8250-AC",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-870-5g-sm8250-ac"
+  },
+  "release_date": "2021-09-09",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "canada",
+    "market_country": "Canada",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5317:canada",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , Middle East , North America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.92,
+    "resolution": "1080x2460",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.2
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.4,
+    "performance": null,
+    "camera": 21.7,
+    "battery": 18.0,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.575468",
+  "updated_at": "2026-06-20T18:00:26.575468"
+}

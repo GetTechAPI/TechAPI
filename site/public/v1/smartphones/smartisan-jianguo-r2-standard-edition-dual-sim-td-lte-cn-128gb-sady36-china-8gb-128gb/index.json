@@ -1,0 +1,87 @@
+{
+  "id": 52735,
+  "slug": "smartisan-jianguo-r2-standard-edition-dual-sim-td-lte-cn-128gb-sady36-china-8gb-128gb",
+  "base_model_slug": "jianguo-r2-standard-edition-dual-sim-td-lte-cn-128gb",
+  "name": "JianGuo R2 Standard Edition Dual SIM TD-LTE CN 128GB",
+  "brand": {
+    "id": 43,
+    "slug": "smartisan",
+    "name": "Smartisan",
+    "country": "CN",
+    "url": "/v1/brands/smartisan"
+  },
+  "soc": {
+    "id": 1705,
+    "slug": "qualcomm-snapdragon-865-5g-sm8250",
+    "name": "Qualcomm Snapdragon 865 5G SM8250",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-865-5g-sm8250"
+  },
+  "release_date": "2020-10-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4598:china",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 4510,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 216.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.5,
+    "performance": null,
+    "camera": 35.8,
+    "battery": 22.6,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:21.794076",
+  "updated_at": "2026-06-20T18:00:21.794076"
+}

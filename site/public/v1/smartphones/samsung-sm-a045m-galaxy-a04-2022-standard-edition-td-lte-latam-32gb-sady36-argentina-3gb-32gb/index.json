@@ -1,0 +1,86 @@
+{
+  "id": 49256,
+  "slug": "samsung-sm-a045m-galaxy-a04-2022-standard-edition-td-lte-latam-32gb-sady36-argentina-3gb-32gb",
+  "base_model_slug": "sm-a045m-galaxy-a04-2022-standard-edition-td-lte-latam-32gb",
+  "name": "SM-A045M Galaxy A04 2022 Standard Edition TD-LTE LATAM 32GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1163,
+    "slug": "mediatek-helio-p35-mt6765",
+    "name": "MediaTek Helio P35 MT6765",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-p35-mt6765"
+  },
+  "release_date": "2022-10-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "argentina",
+    "market_country": "Argentina",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7507:argentina",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "North America , South America"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "type": "Color PLS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.6,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.262853",
+  "updated_at": "2026-06-20T18:00:20.262853"
+}

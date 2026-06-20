@@ -1,0 +1,87 @@
+{
+  "id": 50868,
+  "slug": "samsung-sm-a145r-dsn-galaxy-a14-4g-2023-standard-edition-dual-sim-td-lt-90b6c41b-sady36-belgium-4gb-128gb",
+  "base_model_slug": "sm-a145r-dsn-galaxy-a14-4g-2023-standard-edition-dual-sim-td-lt-90b6c41b",
+  "name": "SM-A145R/DSN Galaxy A14 4G 2023 Standard Edition Dual SIM TD-LTE EU 128GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1264,
+    "slug": "mediatek-helio-g80-mt6769v-cu",
+    "name": "MediaTek Helio G80 MT6769V/CU",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/mediatek-helio-g80-mt6769v-cu"
+  },
+  "release_date": "2023-03-27",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "belgium",
+    "market_country": "Belgium",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7859:belgium",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.57,
+    "resolution": "1080x2408",
+    "type": "Color PLS TFT LCD display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 201.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.6,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.727849",
+  "updated_at": "2026-06-20T18:00:20.727849"
+}

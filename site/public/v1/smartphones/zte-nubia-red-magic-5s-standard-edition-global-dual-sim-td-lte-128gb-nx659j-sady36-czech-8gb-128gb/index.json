@@ -1,0 +1,87 @@
+{
+  "id": 68098,
+  "slug": "zte-nubia-red-magic-5s-standard-edition-global-dual-sim-td-lte-128gb-nx659j-sady36-czech-8gb-128gb",
+  "base_model_slug": "nubia-red-magic-5s-standard-edition-global-dual-sim-td-lte-128gb-nx659j",
+  "name": "Nubia Red Magic 5S Standard Edition Global Dual SIM TD-LTE 128GB NX659J",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1705,
+    "slug": "qualcomm-snapdragon-865-5g-sm8250",
+    "name": "Qualcomm Snapdragon 865 5G SM8250",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-865-5g-sm8250"
+  },
+  "release_date": "2020-08-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "czech",
+    "market_country": "Czech",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4604:czech",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Middle East , North America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.65,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 220.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.2,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 22.5,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.539358",
+  "updated_at": "2026-06-20T18:00:26.539358"
+}

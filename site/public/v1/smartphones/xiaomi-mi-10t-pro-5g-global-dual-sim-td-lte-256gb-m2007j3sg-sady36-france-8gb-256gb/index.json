@@ -1,0 +1,87 @@
+{
+  "id": 61745,
+  "slug": "xiaomi-mi-10t-pro-5g-global-dual-sim-td-lte-256gb-m2007j3sg-sady36-france-8gb-256gb",
+  "base_model_slug": "mi-10t-pro-5g-global-dual-sim-td-lte-256gb-m2007j3sg",
+  "name": "Mi 10T Pro 5G Global Dual SIM TD-LTE 256GB M2007J3SG",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1705,
+    "slug": "qualcomm-snapdragon-865-5g-sm8250",
+    "name": "Qualcomm Snapdragon 865 5G SM8250",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-865-5g-sm8250"
+  },
+  "release_date": "2020-10-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "france",
+    "market_country": "France",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4090:france",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Middle East , Oceania , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 20.1
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 218.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.4,
+    "performance": null,
+    "camera": 35.8,
+    "battery": 30.0,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.603154",
+  "updated_at": "2026-06-20T18:00:24.603154"
+}

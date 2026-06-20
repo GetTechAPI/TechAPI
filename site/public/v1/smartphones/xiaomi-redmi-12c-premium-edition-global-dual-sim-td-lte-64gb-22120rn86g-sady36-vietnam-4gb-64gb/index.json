@@ -1,0 +1,86 @@
+{
+  "id": 65423,
+  "slug": "xiaomi-redmi-12c-premium-edition-global-dual-sim-td-lte-64gb-22120rn86g-sady36-vietnam-4gb-64gb",
+  "base_model_slug": "redmi-12c-premium-edition-global-dual-sim-td-lte-64gb-22120rn86g",
+  "name": "Redmi 12C Premium Edition Global Dual SIM TD-LTE 64GB 22120RN86G",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1306,
+    "slug": "mediatek-helio-g85-mt6769z",
+    "name": "MediaTek Helio G85 MT6769Z",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/mediatek-helio-g85-mt6769z"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "vietnam",
+    "market_country": "Vietnam",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7649:vietnam",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.71,
+    "resolution": "720x1650",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.6,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:25.683582",
+  "updated_at": "2026-06-20T18:00:25.683582"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 34403,
+  "slug": "oppo-a53-2020-standard-edition-global-dual-sim-td-lte-v6-64gb-cph2127-sady36-australia-4gb-64gb",
+  "base_model_slug": "a53-2020-standard-edition-global-dual-sim-td-lte-v6-64gb-cph2127",
+  "name": "A53 2020 Standard Edition Global Dual SIM TD-LTE V6 64GB CPH2127",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1716,
+    "slug": "qualcomm-snapdragon-460-sm4250-aa",
+    "name": "Qualcomm Snapdragon 460 SM4250-AA",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Qualcomm Adreno 610",
+    "url": "/v1/socs/qualcomm-snapdragon-460-sm4250-aa"
+  },
+  "release_date": "2020-08-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "australia",
+    "market_country": "Australia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4286:australia",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Australia , Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.8,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 30.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:15.036986",
+  "updated_at": "2026-06-20T18:00:15.036986"
+}

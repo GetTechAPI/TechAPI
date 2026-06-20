@@ -1,0 +1,86 @@
+{
+  "id": 46210,
+  "slug": "samsung-sm-a415f-dsn-galaxy-a41-2020-global-dual-sim-td-lte-sm-a415f-ds-sady36-belarus-4gb-64gb",
+  "base_model_slug": "sm-a415f-dsn-galaxy-a41-2020-global-dual-sim-td-lte-sm-a415f-ds",
+  "name": "SM-A415F/DSN Galaxy A41 2020 Global Dual SIM TD-LTE / SM-A415F/DS",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1207,
+    "slug": "mediatek-helio-p65-mt6768",
+    "name": "MediaTek Helio P65 MT6768",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/mediatek-helio-p65-mt6768"
+  },
+  "release_date": "2020-05-16",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "belarus",
+    "market_country": "Belarus",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3454:belarus",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Middle East , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 24.8
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 152.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.0,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:19.365905",
+  "updated_at": "2026-06-20T18:00:19.365905"
+}

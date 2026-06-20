@@ -1,0 +1,87 @@
+{
+  "id": 16349,
+  "slug": "huawei-mate-50e-4g-dual-sim-td-lte-cn-128gb-cet-al60-sady36-china-8gb-128gb",
+  "base_model_slug": "mate-50e-4g-dual-sim-td-lte-cn-128gb-cet-al60",
+  "name": "Mate 50E 4G Dual SIM TD-LTE CN 128GB CET-AL60",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1772,
+    "slug": "qualcomm-snapdragon-778g-4g-sm7325",
+    "name": "Qualcomm Snapdragon 778G 4G SM7325",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Qualcomm Adreno 642L",
+    "url": "/v1/socs/qualcomm-snapdragon-778g-4g-sm7325"
+  },
+  "release_date": "2022-10-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7970:china",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.69,
+    "resolution": "1224x2700",
+    "type": "AM-OLED display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 4460,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 201.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Huawei HarmonyOS 3.0",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 29.7,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 26.9,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.833866",
+  "updated_at": "2026-06-20T18:00:08.833866"
+}

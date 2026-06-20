@@ -1,0 +1,87 @@
+{
+  "id": 49400,
+  "slug": "samsung-sm-a233j-galaxy-a23-5g-2022-td-lte-jp-64gb-scg18-sady36-japan-4gb-64gb",
+  "base_model_slug": "sm-a233j-galaxy-a23-5g-2022-td-lte-jp-64gb-scg18",
+  "name": "SM-A233J Galaxy A23 5G 2022 TD-LTE JP 64GB SCG18",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1237,
+    "slug": "mediatek-dimensity-700-mt6833v-za",
+    "name": "MediaTek Dimensity 700 MT6833V/ZA",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "ARM Mali-G57MP2",
+    "url": "/v1/socs/mediatek-dimensity-700-mt6833v-za"
+  },
+  "release_date": "2022-10-27",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7056:japan",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 5.8,
+    "resolution": "720x1560",
+    "type": "Color PLS TFT LCD display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 49.9
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.5,
+    "performance": null,
+    "camera": 17.1,
+    "battery": 15.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.301537",
+  "updated_at": "2026-06-20T18:00:20.301537"
+}

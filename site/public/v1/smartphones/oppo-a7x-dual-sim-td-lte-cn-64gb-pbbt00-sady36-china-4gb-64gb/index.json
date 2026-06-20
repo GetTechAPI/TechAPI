@@ -1,0 +1,86 @@
+{
+  "id": 33072,
+  "slug": "oppo-a7x-dual-sim-td-lte-cn-64gb-pbbt00-sady36-china-4gb-64gb",
+  "base_model_slug": "a7x-dual-sim-td-lte-cn-64gb-pbbt00",
+  "name": "A7x Dual SIM TD-LTE CN 64GB PBBT00",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1133,
+    "slug": "mediatek-helio-p60-mt6771",
+    "name": "MediaTek Helio P60 MT6771",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G72MP3",
+    "url": "/v1/socs/mediatek-helio-p60-mt6771"
+  },
+  "release_date": "2018-09-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:947:china",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "1080x2340",
+    "type": "Color TN-TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 15.9
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.9,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.662380",
+  "updated_at": "2026-06-20T18:00:14.662380"
+}

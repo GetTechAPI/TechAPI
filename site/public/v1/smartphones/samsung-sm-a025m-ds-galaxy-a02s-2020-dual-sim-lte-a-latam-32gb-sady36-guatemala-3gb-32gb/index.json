@@ -1,0 +1,86 @@
+{
+  "id": 47564,
+  "slug": "samsung-sm-a025m-ds-galaxy-a02s-2020-dual-sim-lte-a-latam-32gb-sady36-guatemala-3gb-32gb",
+  "base_model_slug": "sm-a025m-ds-galaxy-a02s-2020-dual-sim-lte-a-latam-32gb",
+  "name": "SM-A025M/DS Galaxy A02s 2020 Dual SIM LTE-A LATAM 32GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1640,
+    "slug": "qualcomm-snapdragon-450-sdm450",
+    "name": "Qualcomm Snapdragon 450 SDM450",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Qualcomm Adreno 506",
+    "url": "/v1/socs/qualcomm-snapdragon-450-sdm450"
+  },
+  "release_date": "2021-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "guatemala",
+    "market_country": "Guatemala",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4590:guatemala",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Central America , North America , South America"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "type": "Color PLS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 196.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:19.780654",
+  "updated_at": "2026-06-20T18:00:19.780654"
+}

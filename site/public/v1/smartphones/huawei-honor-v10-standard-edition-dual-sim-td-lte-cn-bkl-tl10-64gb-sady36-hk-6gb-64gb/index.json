@@ -1,0 +1,86 @@
+{
+  "id": 12756,
+  "slug": "huawei-honor-v10-standard-edition-dual-sim-td-lte-cn-bkl-tl10-64gb-sady36-hk-6gb-64gb",
+  "base_model_slug": "honor-v10-standard-edition-dual-sim-td-lte-cn-bkl-tl10-64gb",
+  "name": "Honor V10 Standard Edition Dual SIM TD-LTE CN BKL-TL10 64GB",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2017-12-06",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "hk",
+    "market_country": "HK",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:781:hk",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 5.99,
+    "resolution": "1080x2160",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 11.8
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 3750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 165.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.1,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 11.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:07.799930",
+  "updated_at": "2026-06-20T18:00:07.799930"
+}

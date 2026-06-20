@@ -1,0 +1,86 @@
+{
+  "id": 8358,
+  "slug": "doogee-homtom-s99-lte-dual-sim-p269-sady36-netherlands-4gb-64gb",
+  "base_model_slug": "homtom-s99-lte-dual-sim-p269",
+  "name": "HOMTOM S99 LTE Dual SIM P269",
+  "brand": {
+    "id": 18,
+    "slug": "doogee",
+    "name": "DOOGEE",
+    "country": "CN",
+    "url": "/v1/brands/doogee"
+  },
+  "soc": {
+    "id": 1110,
+    "slug": "mediatek-mt6750t",
+    "name": "Mediatek MT6750T",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T860MP2",
+    "url": "/v1/socs/mediatek-mt6750t"
+  },
+  "release_date": "2018-06-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "netherlands",
+    "market_country": "Netherlands",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:758:netherlands",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Africa , Asia , Europe"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 21.0
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 6200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 216.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.4,
+    "performance": null,
+    "camera": 7.9,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:06.017554",
+  "updated_at": "2026-06-20T18:00:06.017554"
+}

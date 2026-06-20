@@ -1,0 +1,87 @@
+{
+  "id": 68808,
+  "slug": "zte-tianji-a41-ultra-5g-premium-edition-dual-sim-td-lte-cn-256gb-a2023h-sady36-china-12gb-256gb",
+  "base_model_slug": "tianji-a41-ultra-5g-premium-edition-dual-sim-td-lte-cn-256gb-a2023h",
+  "name": "Tianji A41 Ultra 5G Premium Edition Dual SIM TD-LTE CN 256GB A2023H",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1758,
+    "slug": "qualcomm-snapdragon-8-gen-1-5g-sm8450",
+    "name": "Qualcomm Snapdragon 8 Gen 1 5G SM8450",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Qualcomm Adreno 730",
+    "url": "/v1/socs/qualcomm-snapdragon-8-gen-1-5g-sm8450"
+  },
+  "release_date": "2022-06-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7298:china",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.2
+    },
+    {
+      "type": "selfie",
+      "mp": 43.7
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.7,
+    "performance": null,
+    "camera": 21.7,
+    "battery": 45.0,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.750460",
+  "updated_at": "2026-06-20T18:00:26.750460"
+}

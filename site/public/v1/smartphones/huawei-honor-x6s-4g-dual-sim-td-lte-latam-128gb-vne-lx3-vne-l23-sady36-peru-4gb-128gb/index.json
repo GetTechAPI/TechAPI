@@ -1,0 +1,87 @@
+{
+  "id": 16035,
+  "slug": "huawei-honor-x6s-4g-dual-sim-td-lte-latam-128gb-vne-lx3-vne-l23-sady36-peru-4gb-128gb",
+  "base_model_slug": "honor-x6s-4g-dual-sim-td-lte-latam-128gb-vne-lx3-vne-l23",
+  "name": "Honor X6s 4G Dual SIM TD-LTE LATAM 128GB VNE-LX3 / VNE-L23",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1262,
+    "slug": "mediatek-helio-g25-mt6762g",
+    "name": "MediaTek Helio G25 MT6762G",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-g25-mt6762g"
+  },
+  "release_date": "2022-10-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "peru",
+    "market_country": "Peru",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7984:peru",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "South America"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 194.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.6,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.731260",
+  "updated_at": "2026-06-20T18:00:08.731260"
+}

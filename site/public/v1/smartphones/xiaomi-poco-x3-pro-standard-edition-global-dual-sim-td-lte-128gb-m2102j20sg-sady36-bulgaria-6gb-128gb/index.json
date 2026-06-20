@@ -1,0 +1,87 @@
+{
+  "id": 62928,
+  "slug": "xiaomi-poco-x3-pro-standard-edition-global-dual-sim-td-lte-128gb-m2102j20sg-sady36-bulgaria-6gb-128gb",
+  "base_model_slug": "poco-x3-pro-standard-edition-global-dual-sim-td-lte-128gb-m2102j20sg",
+  "name": "Poco X3 Pro Standard Edition Global Dual SIM TD-LTE 128GB M2102J20SG",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1726,
+    "slug": "qualcomm-snapdragon-860-sm8150-ac",
+    "name": "Qualcomm Snapdragon 860 SM8150-AC",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 640",
+    "url": "/v1/socs/qualcomm-snapdragon-860-sm8150-ac"
+  },
+  "release_date": "2021-03-29",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "bulgaria",
+    "market_country": "Bulgaria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4845:bulgaria",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Middle East , North America , South America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 5160,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 215.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.5,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 32.4,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.942669",
+  "updated_at": "2026-06-20T18:00:24.942669"
+}

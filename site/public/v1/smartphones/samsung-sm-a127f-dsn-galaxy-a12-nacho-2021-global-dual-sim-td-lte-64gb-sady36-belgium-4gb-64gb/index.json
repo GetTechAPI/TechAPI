@@ -1,0 +1,86 @@
+{
+  "id": 47738,
+  "slug": "samsung-sm-a127f-dsn-galaxy-a12-nacho-2021-global-dual-sim-td-lte-64gb-sady36-belgium-4gb-64gb",
+  "base_model_slug": "sm-a127f-dsn-galaxy-a12-nacho-2021-global-dual-sim-td-lte-64gb",
+  "name": "SM-A127F/DSN Galaxy A12 Nacho 2021 Global Dual SIM TD-LTE 64GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1947,
+    "slug": "samsung-exynos-8-octa-850-s5e8380",
+    "name": "Samsung Exynos 8 Octa 850 S5E8380",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/samsung-exynos-8-octa-850-s5e8380"
+  },
+  "release_date": "2021-08-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "belgium",
+    "market_country": "Belgium",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5233:belgium",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Central America , Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "type": "Color PLS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 205.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.2,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:19.828511",
+  "updated_at": "2026-06-20T18:00:19.828511"
+}

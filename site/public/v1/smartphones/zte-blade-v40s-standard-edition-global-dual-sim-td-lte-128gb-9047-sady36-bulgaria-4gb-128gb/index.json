@@ -1,0 +1,86 @@
+{
+  "id": 68617,
+  "slug": "zte-blade-v40s-standard-edition-global-dual-sim-td-lte-128gb-9047-sady36-bulgaria-4gb-128gb",
+  "base_model_slug": "blade-v40s-standard-edition-global-dual-sim-td-lte-128gb-9047",
+  "name": "Blade V40s Standard Edition Global Dual SIM TD-LTE 128GB 9047",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 2087,
+    "slug": "unisoc-tiger-t618",
+    "name": "UNISOC Tiger T618",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/unisoc-tiger-t618"
+  },
+  "release_date": "2022-07-12",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "bulgaria",
+    "market_country": "Bulgaria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:8001:bulgaria",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Eastern Europe , Europe , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.1,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.9,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.697048",
+  "updated_at": "2026-06-20T18:00:26.697048"
+}

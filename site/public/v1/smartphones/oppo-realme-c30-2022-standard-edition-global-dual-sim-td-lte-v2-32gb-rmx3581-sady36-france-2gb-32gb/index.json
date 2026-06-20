@@ -1,0 +1,87 @@
+{
+  "id": 37333,
+  "slug": "oppo-realme-c30-2022-standard-edition-global-dual-sim-td-lte-v2-32gb-rmx3581-sady36-france-2gb-32gb",
+  "base_model_slug": "realme-c30-2022-standard-edition-global-dual-sim-td-lte-v2-32gb-rmx3581",
+  "name": "Realme C30 2022 Standard Edition Global Dual SIM TD-LTE V2 32GB RMX3581",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 2092,
+    "slug": "unisoc-tiger-t612",
+    "name": "UNISOC Tiger T612",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G57",
+    "url": "/v1/socs/unisoc-tiger-t612"
+  },
+  "release_date": "2022-06-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "france",
+    "market_country": "France",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7465:france",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 182.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 Go Edition (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 30.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:16.315768",
+  "updated_at": "2026-06-20T18:00:16.315768"
+}

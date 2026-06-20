@@ -1,0 +1,86 @@
+{
+  "id": 2636,
+  "slug": "apple-iphone-xs-max-a1921-td-lte-na-256gb-a2103-sady36-usa-4gb-256gb",
+  "base_model_slug": "iphone-xs-max-a1921-td-lte-na-256gb-a2103",
+  "name": "iPhone Xs Max A1921 TD-LTE NA 256GB / A2103",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 28,
+    "slug": "apple-a12-bionic",
+    "name": "Apple A12 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a12-bionic"
+  },
+  "release_date": "2018-09-21",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "usa",
+    "market_country": "USA",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1050:usa",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 256
+    },
+    "market_regions": "Central America , North America"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1242x2688",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 7.2
+    }
+  ],
+  "battery_mah": 3179,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 208.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 12",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 4.2,
+    "performance": 4.7,
+    "camera": 5.1,
+    "battery": 2.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.233320",
+  "updated_at": "2026-06-20T18:00:04.233320"
+}

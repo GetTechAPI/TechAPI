@@ -1,0 +1,86 @@
+{
+  "id": 25766,
+  "slug": "motorola-moto-e6-play-global-td-lte-xt2029-2-sady36-belgium-2gb-32gb",
+  "base_model_slug": "moto-e6-play-global-td-lte-xt2029-2",
+  "name": "Moto E6 Play Global TD-LTE XT2029-2",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1170,
+    "slug": "mediatek-mt6739",
+    "name": "Mediatek MT6739",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739"
+  },
+  "release_date": "2019-11-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "belgium",
+    "market_country": "Belgium",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2563:belgium",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "market_regions": "Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.45,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:12.294564",
+  "updated_at": "2026-06-20T18:00:12.294564"
+}

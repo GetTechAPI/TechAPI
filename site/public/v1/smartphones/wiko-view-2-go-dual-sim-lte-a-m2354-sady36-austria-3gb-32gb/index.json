@@ -1,0 +1,86 @@
+{
+  "id": 59627,
+  "slug": "wiko-view-2-go-dual-sim-lte-a-m2354-sady36-austria-3gb-32gb",
+  "base_model_slug": "view-2-go-dual-sim-lte-a-m2354",
+  "name": "View 2 GO Dual SIM LTE-A M2354",
+  "brand": {
+    "id": 72,
+    "slug": "wiko",
+    "name": "Wiko",
+    "country": "FR",
+    "url": "/v1/brands/wiko"
+  },
+  "soc": {
+    "id": 1638,
+    "slug": "qualcomm-snapdragon-430-msm8937",
+    "name": "Qualcomm Snapdragon 430 MSM8937",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 505",
+    "url": "/v1/socs/qualcomm-snapdragon-430-msm8937"
+  },
+  "release_date": "2018-08-31",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:919:austria",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Africa , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.93,
+    "resolution": "720x1512",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.0,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.006636",
+  "updated_at": "2026-06-20T18:00:24.006636"
+}

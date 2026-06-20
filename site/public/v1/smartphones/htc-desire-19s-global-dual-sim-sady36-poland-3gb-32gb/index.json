@@ -1,0 +1,86 @@
+{
+  "id": 11780,
+  "slug": "htc-desire-19s-global-dual-sim-sady36-poland-3gb-32gb",
+  "base_model_slug": "desire-19s-global-dual-sim",
+  "name": "Desire 19s Global Dual SIM TD-LTE",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1162,
+    "slug": "mediatek-helio-p22-mt6762",
+    "name": "MediaTek Helio P22 MT6762",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-p22-mt6762"
+  },
+  "release_date": "2019-11-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "poland",
+    "market_country": "Poland",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2641:poland",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Southeast Asia , Western Europe , Worldwide"
+  },
+  "display": {
+    "size_inch": 6.2,
+    "resolution": "720x1520",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 3850,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.0,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 12.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:07.471148",
+  "updated_at": "2026-06-20T18:00:07.471148"
+}

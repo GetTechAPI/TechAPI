@@ -1,0 +1,45 @@
+{
+  "slug": "intex-irist-smartwatch",
+  "base_model_slug": "irist-smartwatch",
+  "name": "Intex IRist Smartwatch",
+  "brand": "intex",
+  "release_date": "2015-07-01",
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "battery_mah": 600,
+  "weight_g": 83.0,
+  "os": "Android OS compatible",
+  "display": {
+    "size_inch": 1.56,
+    "resolution": "240 x 240 pixels (~218 ppi pixel density)",
+    "type": "OLED capacitive touchscreen"
+  },
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Micro-SIM",
+    "bluetooth": "Yes",
+    "wlan": "Yes",
+    "usb": "microUSB 2.0",
+    "gps": "Yes"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "mediatek-mt6572",
+  "raw_price": "About 160 EUR",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/intex-watch.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    }
+  ]
+}

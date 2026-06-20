@@ -1,0 +1,45 @@
+{
+  "slug": "jolla-tablet",
+  "base_model_slug": "tablet",
+  "name": "Jolla Tablet",
+  "brand": "jolla",
+  "release_date": "2014-11-01",
+  "ram_gb": 2,
+  "storage_options_gb": [
+    64
+  ],
+  "battery_mah": 4450,
+  "weight_g": 384.0,
+  "os": "Sailfish 2.0",
+  "display": {
+    "size_inch": 7.85,
+    "resolution": "1536 x 2048 pixels (~330 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "3.0",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "A-GPS GLONASS"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "intel-atom-z3735f",
+  "raw_price": "About 170 EUR",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/jolla-tablet.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| autofocus"
+    }
+  ]
+}

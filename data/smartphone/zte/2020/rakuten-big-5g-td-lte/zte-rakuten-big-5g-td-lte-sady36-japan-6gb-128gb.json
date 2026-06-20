@@ -1,0 +1,49 @@
+{
+  "slug": "zte-rakuten-big-5g-td-lte-sady36-japan-6gb-128gb",
+  "base_model_slug": "rakuten-big-5g-td-lte",
+  "name": "Rakuten BIG 5G TD-LTE JP",
+  "brand": "zte",
+  "release_date": "2020-11-24",
+  "ram_gb": 6,
+  "battery_mah": 4220,
+  "weight_g": 227.0,
+  "os": "Google Android 10 (Q)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4263:japan",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "soc": "qualcomm-snapdragon-765g-5g-sm7250-ab",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "size_inch": 6.92,
+    "resolution": "1080x2460",
+    "type": "AM-OLED display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.4
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  }
+}

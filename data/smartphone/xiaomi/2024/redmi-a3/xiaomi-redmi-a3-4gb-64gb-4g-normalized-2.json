@@ -1,19 +1,19 @@
 {
-  "slug": "vivo-vivo-v21e-8gb-128gb-4g",
-  "base_model_slug": "vivo-v21e",
-  "name": "Vivo V21e",
-  "brand": "vivo",
-  "soc": "0",
-  "release_date": "2021-05-05",
-  "ram_gb": 8,
+  "slug": "xiaomi-redmi-a3-4gb-64gb-4g-normalized-2",
+  "base_model_slug": "redmi-a3",
+  "name": "Xiaomi Redmi A3",
+  "brand": "xiaomi",
+  "soc": "mediatek-helio",
+  "release_date": "2024-01-23",
+  "ram_gb": 4,
   "storage_options_gb": [
-    128
+    64
   ],
   "variant": {
     "region": "global",
     "memory": {
-      "ram_gb": 8,
-      "storage_gb": 128
+      "ram_gb": 4,
+      "storage_gb": 64
     },
     "source_category": "global-smartphone-database-2025",
     "source_dataset": "rajibdab/global-smartphone-database-2025",
@@ -23,33 +23,34 @@
     "sim": "Dual SIM, GSM+GSM"
   },
   "display": {
-    "size_inch": 6.44,
-    "resolution": "1080 x 2400",
-    "type": "AMOLED"
+    "size_inch": 6.71,
+    "resolution": "720 x 1650",
+    "type": "IPS LCD",
+    "refresh_hz": 90
   },
   "connectivity": {
     "network": "2G, 3G, 4G",
     "sim": "Dual SIM, GSM+GSM",
-    "bluetooth": "v5.1",
+    "bluetooth": "v5.3",
     "wlan": "Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
     "usb": "USB Type-C 2.0",
     "gps": "Yes with A-GPS, Glonass"
   },
-  "battery_mah": 4000,
-  "weight_g": 171.0,
-  "os": "Android v11",
+  "battery_mah": 5000,
+  "weight_g": 193.0,
+  "os": "Android v14",
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
-    "https://www.mobiledokan.com/mobile/vivo-v21e"
+    "https://www.mobiledokan.com/mobile/xiaomi-redmi-a3"
   ],
-  "image_url": "https://www.mobiledokan.com/media/vivo-v21e-diamond-flare-official-image.webp",
+  "image_url": "https://www.mobiledokan.com/media/1713266807sfOVA.webp",
   "cameras": [
     {
       "type": "main",
-      "raw": "64+8+2MP"
+      "raw": "8+0.08MP"
     }
   ],
-  "charging_wired_w": 33.0,
+  "charging_wired_w": 10.0,
   "raw_price": "nan"
 }

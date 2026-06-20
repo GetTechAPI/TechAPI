@@ -1,0 +1,81 @@
+{
+  "id": 36612,
+  "slug": "vivo-s19-pro-16gb-512gb-5g",
+  "base_model_slug": "s19-pro",
+  "name": "vivo S19 Pro",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1268,
+    "slug": "dimensity-9200-plus",
+    "name": "MediaTek Dimensity 9200+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G715 MC11",
+    "url": "/v1/socs/dimensity-9200-plus"
+  },
+  "release_date": "2024-05-28",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 111.0 cm",
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)",
+    "type": "AMOLED, 1B colors, 120Hz, 4500 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 5500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, OriginOS 4",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.5,
+    "performance": 38.6,
+    "camera": null,
+    "battery": 52.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:20.520837",
+  "updated_at": "2026-06-20T12:45:20.520837"
+}

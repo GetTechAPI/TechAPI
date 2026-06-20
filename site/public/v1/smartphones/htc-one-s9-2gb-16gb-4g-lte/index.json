@@ -1,0 +1,80 @@
+{
+  "id": 7610,
+  "slug": "htc-one-s9-2gb-16gb-4g-lte",
+  "base_model_slug": "one-s9",
+  "name": "HTC One S9",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1068,
+    "slug": "mediatek-mt6795-helio-x10",
+    "name": "Mediatek MT6795 Helio X10",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6200",
+    "url": "/v1/socs/mediatek-mt6795-helio-x10"
+  },
+  "release_date": "2016-04-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "Super LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2840,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 158.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow), Sense UI",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "4.1, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.038585",
+  "updated_at": "2026-06-20T12:45:11.038585"
+}

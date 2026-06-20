@@ -1,0 +1,81 @@
+{
+  "id": 5823,
+  "slug": "google-pixel-2-4gb-128gb-4g-lte",
+  "base_model_slug": "pixel-2",
+  "name": "Google Pixel 2",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 1645,
+    "slug": "qualcomm-msm8998-snapdragon-835",
+    "name": "Qualcomm MSM8998 Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/qualcomm-msm8998-snapdragon-835"
+  },
+  "release_date": "2017-10-04",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 2700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 143.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.0 (Oreo), upgradable to Android 11",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:10.504693",
+  "updated_at": "2026-06-20T12:45:10.504693"
+}

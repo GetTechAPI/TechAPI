@@ -1,0 +1,72 @@
+{
+  "id": 351,
+  "slug": "huawei-mediapad-1gb-8gb-3g",
+  "base_model_slug": "mediapad",
+  "name": "Huawei MediaPad",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1414,
+    "slug": "qualcomm-msm8260-snapdragon-s3",
+    "name": "Qualcomm MSM8260 Snapdragon S3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 220",
+    "url": "/v1/socs/qualcomm-msm8260-snapdragon-s3"
+  },
+  "release_date": "2011-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 142.1 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)",
+    "type": "IPS LCD, 256K colors"
+  },
+  "cameras": [],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 390.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 3.2 (Honeycomb), upgradable to 4.0 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.238146",
+  "updated_at": "2026-06-20T12:45:26.238146",
+  "url": "/v1/tablets/huawei-mediapad-1gb-8gb-3g"
+}

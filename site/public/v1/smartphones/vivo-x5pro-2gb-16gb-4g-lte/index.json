@@ -1,0 +1,80 @@
+{
+  "id": 34581,
+  "slug": "vivo-x5pro-2gb-16gb-4g-lte",
+  "base_model_slug": "x5pro",
+  "name": "vivo X5Pro",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1549,
+    "slug": "qualcomm-msm8939-snapdragon-615",
+    "name": "Qualcomm MSM8939 Snapdragon 615",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 405",
+    "url": "/v1/socs/qualcomm-msm8939-snapdragon-615"
+  },
+  "release_date": "2015-05-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 74.5 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 2450,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 151.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0 (Lollipop), Funtouch 2.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:19.912503",
+  "updated_at": "2026-06-20T12:45:19.912503"
+}

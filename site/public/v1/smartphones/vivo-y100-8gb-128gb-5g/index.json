@@ -1,0 +1,80 @@
+{
+  "id": 36531,
+  "slug": "vivo-y100-8gb-128gb-5g",
+  "base_model_slug": "y100",
+  "name": "vivo Y100",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1229,
+    "slug": "dimensity-900",
+    "name": "Dimensity 900",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G68 MC4",
+    "url": "/v1/socs/dimensity-900"
+  },
+  "release_date": "2023-02-16",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.38 inches, 98.3 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~413 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10+, 1300 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 181.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, Funtouch 13",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": null,
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.2,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 27.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:20.498767",
+  "updated_at": "2026-06-20T12:45:20.499266"
+}

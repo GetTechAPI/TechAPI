@@ -1,0 +1,73 @@
+{
+  "id": 412,
+  "slug": "huawei-mediapad-m2-7-0-3gb-32gb-4g-lte",
+  "base_model_slug": "mediapad-m2-7-0",
+  "name": "Huawei MediaPad M2 7.0",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1549,
+    "slug": "qualcomm-msm8939-snapdragon-615",
+    "name": "Qualcomm MSM8939 Snapdragon 615",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 405",
+    "url": "/v1/socs/qualcomm-msm8939-snapdragon-615"
+  },
+  "release_date": "2016-05-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 142.1 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~323 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4360,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 250.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1.1 (Lollipop), EMUI",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.256786",
+  "updated_at": "2026-06-20T12:45:26.256786",
+  "url": "/v1/tablets/huawei-mediapad-m2-7-0-3gb-32gb-4g-lte"
+}

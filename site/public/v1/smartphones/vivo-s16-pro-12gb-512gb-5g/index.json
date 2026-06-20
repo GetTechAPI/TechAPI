@@ -1,0 +1,81 @@
+{
+  "id": 36094,
+  "slug": "vivo-s16-pro-12gb-512gb-5g",
+  "base_model_slug": "s16-pro",
+  "name": "vivo S16 Pro",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1247,
+    "slug": "dimensity-8200",
+    "name": "MediaTek Dimensity 8200",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G610 MC6",
+    "url": "/v1/socs/dimensity-8200"
+  },
+  "release_date": "2022-12-22",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 111.0 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~388 ppi density)",
+    "type": "AMOLED, 120Hz, HDR10+"
+  },
+  "cameras": [],
+  "battery_mah": 4600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 182.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, OriginOS 3",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.7,
+    "performance": 16.4,
+    "camera": null,
+    "battery": 39.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:20.385306",
+  "updated_at": "2026-06-20T12:45:20.385306"
+}

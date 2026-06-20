@@ -1,0 +1,82 @@
+{
+  "id": 16788,
+  "slug": "motorola-moto-g6-plus-6gb-128gb-4g-lte",
+  "base_model_slug": "moto-g6-plus",
+  "name": "Motorola Moto G6 Plus",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1619,
+    "slug": "qualcomm-sdm630-snapdragon-630",
+    "name": "Qualcomm SDM630 Snapdragon 630",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 508Adreno 505",
+    "url": "/v1/socs/qualcomm-sdm630-snapdragon-630"
+  },
+  "release_date": "2018-04-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.9 inches, 89.8 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~409 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 167.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, EDR",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": null,
+    "battery": 3.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.968032",
+  "updated_at": "2026-06-20T12:45:13.968032"
+}

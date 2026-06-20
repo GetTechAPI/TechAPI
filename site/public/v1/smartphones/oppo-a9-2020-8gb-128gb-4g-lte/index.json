@@ -1,0 +1,80 @@
+{
+  "id": 20886,
+  "slug": "oppo-a9-2020-8gb-128gb-4g-lte",
+  "base_model_slug": "a9-2020",
+  "name": "Oppo A9 (2020)",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1679,
+    "slug": "qualcomm-sdm665-snapdragon-665",
+    "name": "Qualcomm SDM665 Snapdragon 665",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Adreno 610",
+    "url": "/v1/socs/qualcomm-sdm665-snapdragon-665"
+  },
+  "release_date": "2019-09-10",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 102.0 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)",
+    "type": "IPS LCD, 480 nits (typ)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, ColorOS 7.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:15.433157",
+  "updated_at": "2026-06-20T12:45:15.433157"
+}

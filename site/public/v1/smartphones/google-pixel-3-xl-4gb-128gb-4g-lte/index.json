@@ -1,0 +1,81 @@
+{
+  "id": 5834,
+  "slug": "google-pixel-3-xl-4gb-128gb-4g-lte",
+  "base_model_slug": "pixel-3-xl",
+  "name": "Google Pixel 3 XL",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 1656,
+    "slug": "qualcomm-sdm845-snapdragon-845",
+    "name": "Qualcomm SDM845 Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/qualcomm-sdm845-snapdragon-845"
+  },
+  "release_date": "2018-10-09",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 100.3 cm",
+    "resolution": "1440 x 2960 pixels, 18.5:9 ratio (~523 ppi density)",
+    "type": "P-OLED, HDR"
+  },
+  "cameras": [],
+  "battery_mah": 3430,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), upgradable to Android 12",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.4,
+    "performance": null,
+    "camera": null,
+    "battery": 6.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:10.507205",
+  "updated_at": "2026-06-20T12:45:10.507205"
+}

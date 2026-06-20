@@ -1,0 +1,81 @@
+{
+  "id": 13008,
+  "slug": "lg-connect-4g-ms840-1gb-4gb-4g-lte",
+  "base_model_slug": "connect-4g-ms840",
+  "name": "LG Connect 4G MS840",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1389,
+    "slug": "qualcomm-msm8660-snapdragon-s3",
+    "name": "Qualcomm MSM8660 Snapdragon S3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Adreno 220",
+    "url": "/v1/socs/qualcomm-msm8660-snapdragon-s3"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    1,
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 44.5 cm",
+    "resolution": "480 x 840 pixels, 16:9 ratio (~242 ppi density)",
+    "type": "TFT, 256K colors"
+  },
+  "cameras": [],
+  "battery_mah": 1540,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 137.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3.5 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, DLNA",
+    "bluetooth": "3.0, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.804747",
+  "updated_at": "2026-06-20T12:45:12.804747"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 12306,
+  "slug": "lenovo-k5-pro-6gb-128gb-4g-lte",
+  "base_model_slug": "k5-pro",
+  "name": "Lenovo K5 Pro",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1650,
+    "slug": "qualcomm-sdm636-snapdragon-636",
+    "name": "Qualcomm SDM636 Snapdragon 636",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 509",
+    "url": "/v1/socs/qualcomm-sdm636-snapdragon-636"
+  },
+  "release_date": "2018-10-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.99 inches, 92.6 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~403 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 165.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.8,
+    "performance": null,
+    "camera": null,
+    "battery": 15.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:12.585819",
+  "updated_at": "2026-06-20T12:45:12.585819"
+}

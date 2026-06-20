@@ -1,0 +1,81 @@
+{
+  "id": 16561,
+  "slug": "motorola-droid-turbo-2-3gb-64gb-4g-lte",
+  "base_model_slug": "droid-turbo-2",
+  "name": "Motorola Droid Turbo 2",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1585,
+    "slug": "qualcomm-msm8994-snapdragon-810",
+    "name": "Qualcomm MSM8994 Snapdragon 810",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 20.0,
+    "gpu_name": "Adreno 430",
+    "url": "/v1/socs/qualcomm-msm8994-snapdragon-810"
+  },
+  "release_date": "2015-10-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.4 inches, 81.6 cm",
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~540 ppi density)",
+    "type": "AMOLED"
+  },
+  "cameras": [],
+  "battery_mah": 3760,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.1,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.1, A2DP, EDR, LE, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 11.4,
+    "performance": null,
+    "camera": null,
+    "battery": 11.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.907521",
+  "updated_at": "2026-06-20T12:45:13.907521"
+}

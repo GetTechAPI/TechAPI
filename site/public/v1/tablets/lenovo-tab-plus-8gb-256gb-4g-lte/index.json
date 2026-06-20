@@ -1,0 +1,73 @@
+{
+  "id": 597,
+  "slug": "lenovo-tab-plus-8gb-256gb-4g-lte",
+  "base_model_slug": "tab-plus",
+  "name": "Lenovo Tab Plus",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1251,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2024-06-20",
+  "msrp_usd": null,
+  "ram_gb": 8.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8.0,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.5 inches, 376.4 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~203 ppi density)",
+    "type": "IPS LCD, 90Hz, 400 nits (typ)"
+  },
+  "cameras": [],
+  "battery_mah": 8600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 650.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.302915",
+  "updated_at": "2026-06-20T12:45:26.302915",
+  "url": "/v1/tablets/lenovo-tab-plus-8gb-256gb-4g-lte"
+}

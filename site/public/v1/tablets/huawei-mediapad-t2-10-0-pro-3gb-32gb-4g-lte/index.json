@@ -1,0 +1,73 @@
+{
+  "id": 419,
+  "slug": "huawei-mediapad-t2-10-0-pro-3gb-32gb-4g-lte",
+  "base_model_slug": "mediapad-t2-10-0-pro",
+  "name": "Huawei MediaPad T2 10.0 Pro",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1549,
+    "slug": "qualcomm-msm8939-snapdragon-615",
+    "name": "Qualcomm MSM8939 Snapdragon 615",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 405",
+    "url": "/v1/socs/qualcomm-msm8939-snapdragon-615"
+  },
+  "release_date": "2016-08-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.0 inches, 290.0 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~226 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 6660,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 495.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1 (Lollipop), EMUI 3.1",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.258786",
+  "updated_at": "2026-06-20T12:45:26.258786",
+  "url": "/v1/tablets/huawei-mediapad-t2-10-0-pro-3gb-32gb-4g-lte"
+}

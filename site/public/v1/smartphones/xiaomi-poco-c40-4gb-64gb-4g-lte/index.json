@@ -1,0 +1,81 @@
+{
+  "id": 38932,
+  "slug": "xiaomi-poco-c40-4gb-64gb-4g-lte",
+  "base_model_slug": "poco-c40",
+  "name": "Xiaomi Poco C40",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 751,
+    "slug": "jlq-jr510",
+    "name": "JLQ JR510",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "ARM Mali-G52",
+    "url": "/v1/socs/jlq-jr510"
+  },
+  "release_date": "2022-06-06",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.71 inches, 106.5 cm",
+    "resolution": "720 x 1650 pixels (~268 ppi density)",
+    "type": "IPS LCD, 400 nits"
+  },
+  "cameras": [],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, MIUI 13 for POCO",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.0,
+    "performance": null,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:21.147813",
+  "updated_at": "2026-06-20T12:45:21.147813"
+}

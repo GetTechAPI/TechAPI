@@ -1,0 +1,82 @@
+{
+  "id": 2052,
+  "slug": "apple-iphone-12-pro-max-6gb-512gb-5g",
+  "base_model_slug": "iphone-12-pro-max",
+  "name": "Apple iPhone 12 Pro Max",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 37,
+    "slug": "apple-a14-bionic",
+    "name": "Apple A14 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a14-bionic"
+  },
+  "release_date": "2020-10-13",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 109.8 cm",
+    "resolution": "1284 x 2778 pixels, 19.5:9 ratio (~458 ppi density)",
+    "type": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 3687,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 228.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 14.1, upgradable to iOS 18",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Lightning, USB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.1,
+    "performance": 28.0,
+    "camera": null,
+    "battery": 20.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:09.234927",
+  "updated_at": "2026-06-20T12:45:09.234927"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 367,
+  "slug": "huawei-mediapad-7-vogue-1gb-8gb-3g",
+  "base_model_slug": "mediapad-7-vogue",
+  "name": "Huawei MediaPad 7 Vogue",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 530,
+    "slug": "huawei-k3v2",
+    "name": "Huawei K3V2",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Vivante GC4000",
+    "url": "/v1/socs/huawei-k3v2"
+  },
+  "release_date": "2013-06-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 335.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1 (Jelly Bean), EMUI 1.5",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA",
+    "bluetooth": "3.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.243240",
+  "updated_at": "2026-06-20T12:45:26.243240",
+  "url": "/v1/tablets/huawei-mediapad-7-vogue-1gb-8gb-3g"
+}

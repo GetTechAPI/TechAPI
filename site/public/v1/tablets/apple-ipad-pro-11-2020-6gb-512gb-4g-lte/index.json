@@ -1,0 +1,74 @@
+{
+  "id": 152,
+  "slug": "apple-ipad-pro-11-2020-6gb-512gb-4g-lte",
+  "base_model_slug": "ipad-pro-11-2020",
+  "name": "Apple iPad Pro 11 (2020)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 34,
+    "slug": "apple-a12z-bionic",
+    "name": "Apple A12Z Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (8-core graphics)",
+    "url": "/v1/socs/apple-a12z-bionic"
+  },
+  "release_date": "2020-03-18",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6.0,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 366.5 cm",
+    "resolution": "1668 x 2388 pixels (~265 ppi density)",
+    "type": "IPS LCD, 120Hz, 600 nits (typ)"
+  },
+  "cameras": [],
+  "battery_mah": 7538,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 471.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iPadOS 13.4, upgradable to iPadOS 18",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot",
+    "bluetooth": "5.0, A2DP, LE, EDR",
+    "nfc": "No",
+    "usb": "USB Type-C 3.1, magnetic connector"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.186701",
+  "updated_at": "2026-06-20T12:45:26.186701",
+  "url": "/v1/tablets/apple-ipad-pro-11-2020-6gb-512gb-4g-lte"
+}

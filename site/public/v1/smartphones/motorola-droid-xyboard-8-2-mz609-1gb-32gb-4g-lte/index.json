@@ -1,0 +1,81 @@
+{
+  "id": 16238,
+  "slug": "motorola-droid-xyboard-8-2-mz609-1gb-32gb-4g-lte",
+  "base_model_slug": "droid-xyboard-8-2-mz609",
+  "name": "Motorola DROID XYBOARD 8.2 MZ609",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1999,
+    "slug": "ti-omap-4430",
+    "name": "TI OMAP 4430",
+    "manufacturer": {
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ti-omap-4430"
+  },
+  "release_date": "2011-12-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "8.2 inches, 195.0 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~184 ppi density)",
+    "type": "HD-IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 3960,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 390.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 3.2 (Honeycomb), upgradable to 4.0 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 14.4,
+    "performance": null,
+    "camera": null,
+    "battery": 14.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.805622",
+  "updated_at": "2026-06-20T12:45:13.805622"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 625,
+  "slug": "lg-g-pad-5-10-1-4gb-32gb-4g-lte",
+  "base_model_slug": "g-pad-5-10-1",
+  "name": "LG G Pad 5 10.1",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1644,
+    "slug": "qualcomm-msm8996-snapdragon-821",
+    "name": "Qualcomm MSM8996 Snapdragon 821",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-821"
+  },
+  "release_date": "2019-10-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4.0,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 8200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 498.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.310942",
+  "updated_at": "2026-06-20T12:45:26.310942",
+  "url": "/v1/tablets/lg-g-pad-5-10-1-4gb-32gb-4g-lte"
+}

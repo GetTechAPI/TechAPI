@@ -1,0 +1,82 @@
+{
+  "id": 13960,
+  "slug": "lg-g6-4gb-128gb-4g-lte",
+  "base_model_slug": "g6",
+  "name": "LG G6",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1644,
+    "slug": "qualcomm-msm8996-snapdragon-821",
+    "name": "Qualcomm MSM8996 Snapdragon 821",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-821"
+  },
+  "release_date": "2017-02-26",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 84.1 cm",
+    "resolution": "1440 x 2880 pixels, 18:9 ratio (~564 ppi density)",
+    "type": "IPS LCD, HDR10, Dolby Vision"
+  },
+  "cameras": [],
+  "battery_mah": 3300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 163.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), LG UX 8 UI",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "4.2, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 4.5,
+    "performance": null,
+    "camera": null,
+    "battery": 4.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:13.088963",
+  "updated_at": "2026-06-20T12:45:13.088963"
+}

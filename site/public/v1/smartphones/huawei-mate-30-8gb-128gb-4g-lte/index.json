@@ -1,0 +1,80 @@
+{
+  "id": 9033,
+  "slug": "huawei-mate-30-8gb-128gb-4g-lte",
+  "base_model_slug": "mate-30",
+  "name": "Huawei Mate 30",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 809,
+    "slug": "kirin-990",
+    "name": "Kirin 990",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G76 MP16",
+    "url": "/v1/socs/kirin-990"
+  },
+  "release_date": "2019-09-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.62 inches, 107.6 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~389 ppi density)",
+    "type": "OLED, HDR10"
+  },
+  "cameras": [],
+  "battery_mah": 4200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 196.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, EMUI 10, no Google Play Services",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, aptX HD, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.0,
+    "performance": null,
+    "camera": null,
+    "battery": 18.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.448089",
+  "updated_at": "2026-06-20T12:45:11.448089"
+}

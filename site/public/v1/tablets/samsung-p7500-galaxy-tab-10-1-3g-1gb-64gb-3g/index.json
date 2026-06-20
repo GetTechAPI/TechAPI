@@ -1,0 +1,74 @@
+{
+  "id": 806,
+  "slug": "samsung-p7500-galaxy-tab-10-1-3g-1gb-64gb-3g",
+  "base_model_slug": "p7500-galaxy-tab-10-1-3g",
+  "name": "Samsung P7500 Galaxy Tab 10.1 3G",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1326,
+    "slug": "nvidia-tegra-2-t20",
+    "name": "Nvidia Tegra 2 T20",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "ULP GeForce",
+    "url": "/v1/socs/nvidia-tegra-2-t20"
+  },
+  "release_date": "2011-03-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1.0,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "10.1 inches, 295.8 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+    "type": "PLS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 7000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 565.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 3.1 (Honeycomb), TouchWiz UI",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": null,
+    "usb": "2.0 (TV-out)"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.356136",
+  "updated_at": "2026-06-20T12:45:26.356136",
+  "url": "/v1/tablets/samsung-p7500-galaxy-tab-10-1-3g-1gb-64gb-3g"
+}

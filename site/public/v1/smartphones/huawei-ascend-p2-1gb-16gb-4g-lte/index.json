@@ -1,0 +1,80 @@
+{
+  "id": 7987,
+  "slug": "huawei-ascend-p2-1gb-16gb-4g-lte",
+  "base_model_slug": "ascend-p2",
+  "name": "Huawei Ascend P2",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 530,
+    "slug": "huawei-k3v2",
+    "name": "Huawei K3V2",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Vivante GC4000",
+    "url": "/v1/socs/huawei-k3v2"
+  },
+  "release_date": "2013-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 2420,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 122.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1.2 (Jelly Bean), EMUI 1.6",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, dual band, DLNA",
+    "bluetooth": "4.0, A2DP, EDR, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.154264",
+  "updated_at": "2026-06-20T12:45:11.154264"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 3272,
+  "slug": "asus-zenfone-max-plus-m1-zb570tl-4gb-64gb-4g-lte",
+  "base_model_slug": "zenfone-max-plus-m1-zb570tl",
+  "name": "Asus Zenfone Max Plus (M1) ZB570TL",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 1109,
+    "slug": "mediatek-mt6750t",
+    "name": "Mediatek MT6750T",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T860MP2",
+    "url": "/v1/socs/mediatek-mt6750t"
+  },
+  "release_date": "2017-11-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 83.8 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~424 ppi density)",
+    "type": "IPS LCD"
+  },
+  "cameras": [],
+  "battery_mah": 4130,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7 (Nougat), ZenUI 4",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.0,
+    "performance": null,
+    "camera": null,
+    "battery": 17.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:09.771650",
+  "updated_at": "2026-06-20T12:45:09.771650"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 9747,
+  "slug": "huawei-matepad-11-2021-8gb-256gb-4g-lte",
+  "base_model_slug": "matepad-11-2021",
+  "name": "Huawei MatePad 11 (2021)",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1684,
+    "slug": "qualcomm-sm8250-snapdragon-865",
+    "name": "Qualcomm SM8250 Snapdragon 865",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/qualcomm-sm8250-snapdragon-865"
+  },
+  "release_date": "2021-06-02",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.95 inches, 347.7 cm",
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~276 ppi density)",
+    "type": "IPS LCD, 120Hz"
+  },
+  "cameras": [],
+  "battery_mah": 7250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 485.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 2.0, upgradable to 3.0",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.0,
+    "performance": null,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:11.652456",
+  "updated_at": "2026-06-20T12:45:11.652456"
+}

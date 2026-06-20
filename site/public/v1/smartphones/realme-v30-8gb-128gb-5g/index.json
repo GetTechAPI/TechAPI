@@ -1,0 +1,80 @@
+{
+  "id": 24700,
+  "slug": "realme-v30-8gb-128gb-5g",
+  "base_model_slug": "v30",
+  "name": "Realme V30",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1225,
+    "slug": "mediatek",
+    "name": "Mediatek",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek"
+  },
+  "release_date": "2023-02-09",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 102.0 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)",
+    "type": "IPS LCD, 600 nits"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, Realme UI 3.0",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "Unspecified",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:16.562874",
+  "updated_at": "2026-06-20T12:45:16.562874"
+}

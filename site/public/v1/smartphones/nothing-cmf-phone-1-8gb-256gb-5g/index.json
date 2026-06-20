@@ -1,0 +1,81 @@
+{
+  "id": 19619,
+  "slug": "nothing-cmf-phone-1-8gb-256gb-5g",
+  "base_model_slug": "cmf-phone-1",
+  "name": "Nothing CMF Phone 1",
+  "brand": {
+    "id": 78,
+    "slug": "nothing",
+    "name": "Nothing",
+    "country": "GB",
+    "url": "/v1/brands/nothing"
+  },
+  "soc": {
+    "id": 1284,
+    "slug": "dimensity-7300",
+    "name": "MediaTek Dimensity 7300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G615 MC2",
+    "url": "/v1/socs/dimensity-7300"
+  },
+  "release_date": "2024-07-08",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+    "type": "AMOLED, 120Hz, 500 nits (typ), 2000 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 2 major Android upgrades",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.3, A2DP, BLE",
+    "nfc": "No",
+    "usb": "USB Type-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:15.097087",
+  "updated_at": "2026-06-20T12:45:15.097087"
+}

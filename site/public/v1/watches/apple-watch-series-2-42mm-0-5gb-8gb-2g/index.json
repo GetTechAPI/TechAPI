@@ -1,0 +1,72 @@
+{
+  "id": 29,
+  "slug": "apple-watch-series-2-42mm-0-5gb-8gb-2g",
+  "base_model_slug": "watch-series-2-42mm",
+  "name": "Apple Watch Series 2 42mm",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 24,
+    "slug": "apple-s2",
+    "name": "Apple S2",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "PowerVR G6200",
+    "url": "/v1/socs/apple-s2"
+  },
+  "release_date": "2016-09-01",
+  "msrp_usd": null,
+  "ram_gb": 0.5,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "2G"
+    }
+  },
+  "display": {
+    "size": "1.65 inches",
+    "resolution": "390 x 312 pixels (~303 ppi density)",
+    "type": "Retina OLED, 1000 nits (peak)"
+  },
+  "cameras": [],
+  "battery_mah": 334,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 52.4,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "watchOS 3.0, upgradable to watchOS 6.2.8",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "No"
+  },
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "created_at": "2026-06-20T12:45:26.608399",
+  "updated_at": "2026-06-20T12:45:26.608399",
+  "url": "/v1/watches/apple-watch-series-2-42mm-0-5gb-8gb-2g"
+}

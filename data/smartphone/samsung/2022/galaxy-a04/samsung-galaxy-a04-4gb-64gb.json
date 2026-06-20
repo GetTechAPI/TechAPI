@@ -1,0 +1,40 @@
+{
+  "slug": "samsung-galaxy-a04-4gb-64gb",
+  "base_model_slug": "galaxy-a04",
+  "name": "Galaxy A04 64GB",
+  "brand": "samsung",
+  "soc": "exynos-850",
+  "release_date": "2022-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 188.0,
+  "os": "Android",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    }
+  },
+  "display": {
+    "size": "6.5 inches"
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
+    }
+  ]
+}

@@ -44,6 +44,19 @@ PHONE_REQUIRED = {
     "os",
 }
 
+MOBILE_DEVICE_REQUIRED = {
+    "slug",
+    "name",
+    "brand",
+    "release_date",
+    "ram_gb",
+    "battery_mah",
+    "weight_g",
+    "os",
+    "source_urls",
+    "verified",
+}
+
 GPU_REQUIRED = {
     "slug",
     "name",
@@ -135,12 +148,49 @@ def _check_source_urls(name: str, record: dict[str, Any], errors: list[str]) -> 
         errors.append(f"{name}: source_urls must be a non-empty list of http(s) URL strings")
 
 
+def _check_variant_path(
+    fname: str,
+    rec: dict[str, Any],
+    category: str,
+    errors: list[str],
+    *,
+    allow_flat: bool = False,
+) -> None:
+    parts = Path(fname).parts
+    if allow_flat and len(parts) == 4:
+        return
+    if len(parts) != 5:
+        errors.append(
+            f"{fname}: {category} variants must live at "
+            f"'{category}/<brand>/<year>/<base_model_slug>/<slug>.json'"
+        )
+        return
+    _, brand, year, base_model_slug, filename = parts
+    if rec.get("brand") != brand:
+        errors.append(f"{fname}: lives in brand '{brand}' but brand='{rec.get('brand')}'")
+    release_year = str(rec.get("release_date", ""))[:4]
+    if release_year and year != release_year:
+        errors.append(
+            f"{fname}: lives in year '{year}' but release_date starts with '{release_year}'"
+        )
+    if rec.get("base_model_slug") and rec.get("base_model_slug") != base_model_slug:
+        errors.append(
+            f"{fname}: lives under base '{base_model_slug}' but "
+            f"base_model_slug='{rec.get('base_model_slug')}'"
+        )
+    if filename != f"{rec.get('slug')}.json":
+        errors.append(f"{fname}: filename must match slug '{rec.get('slug')}'")
+
+
 def validate() -> list[str]:
     errors: list[str] = []
 
     brands = _load("brand")
     socs = _load("soc")
     phones = _load("smartphone")
+    tablets = _load("tablet")
+    watches = _load("watch")
+    pdas = _load("pda")
     gpus = _load("gpu")
     cpus = _load("cpu")
 
@@ -151,6 +201,9 @@ def validate() -> list[str]:
         ("brand", brands),
         ("soc", socs),
         ("smartphone", phones),
+        ("tablet", tablets),
+        ("watch", watches),
+        ("pda", pdas),
         ("gpu", gpus),
         ("cpu", cpus),
     ):
@@ -214,6 +267,25 @@ def validate() -> list[str]:
             errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
         if rec.get("soc") not in soc_slugs:
             errors.append(f"{fname}: soc '{rec.get('soc')}' not a known SoC")
+        _check_variant_path(fname, rec, "smartphone", errors, allow_flat=True)
+
+    for category, records in (("tablet", tablets), ("watch", watches), ("pda", pdas)):
+        for fname, rec in records:
+            _check_required(fname, rec, MOBILE_DEVICE_REQUIRED, errors)
+            _check_source_urls(fname, rec, errors)
+            _check_slug(fname, rec.get("slug"), errors)
+            if "release_date" in rec:
+                _check_date(fname, rec["release_date"], errors)
+            _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
+            _check_range(fname, "battery_mah", rec.get("battery_mah"), 50, 20000, errors)
+            _check_range(fname, "weight_g", rec.get("weight_g"), 10, 2000, errors)
+            if "msrp_usd" in rec:
+                _check_range(fname, "msrp_usd", rec["msrp_usd"], 10, 10000, errors)
+            if rec.get("brand") not in brand_slugs:
+                errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
+            if rec.get("soc") is not None and rec.get("soc") not in soc_slugs:
+                errors.append(f"{fname}: soc '{rec.get('soc')}' not a known SoC")
+            _check_variant_path(fname, rec, category, errors)
 
     for fname, rec in gpus:
         _check_required(fname, rec, GPU_REQUIRED, errors)

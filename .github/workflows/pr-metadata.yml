@@ -254,7 +254,7 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
         shell: bash
         run: |
-          set -euo pipefail
+          set -uo pipefail
           IFS=',' read -ra urls <<< "${TRIAGE_PROJECT_URLS}"
           today="$(date -u +%F)"
           for url in "${urls[@]}"; do
@@ -271,9 +271,15 @@ jobs:
               continue
             fi
 
-            project_json="$(gh project view "$project_number" --owner "$owner" --format json)"
+            project_json="$(gh project view "$project_number" --owner "$owner" --format json)" || {
+              echo "::warning::Could not read project $owner/$project_number. Skipping project metadata."
+              continue
+            }
             project_id="$(jq -r '.id' <<< "$project_json")"
-            item_id="$(gh project item-add "$project_number" --owner "$owner" --url "$PR_URL" --format json --jq '.id')"
+            item_id="$(gh project item-add "$project_number" --owner "$owner" --url "$PR_URL" --format json --jq '.id')" || {
+              echo "::warning::Could not add PR to project $owner/$project_number. Skipping project metadata."
+              continue
+            }
             status_field_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .id')"
             status_option_id="$(gh project field-list "$project_number" --owner "$owner" --format json --jq '.fields[] | select(.name == "Status") | .options[] | select(.name == "In Progress") | .id')"
             if [ -z "$status_option_id" ]; then
@@ -288,15 +294,15 @@ jobs:
             fi
 
             if [ -n "$item_id" ] && [ -n "$status_field_id" ] && [ -n "$status_option_id" ]; then
-              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$status_field_id" --single-select-option-id "$status_option_id"
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$status_field_id" --single-select-option-id "$status_option_id" || echo "::warning::Could not set project status."
             fi
             if [ -n "$item_id" ] && [ -n "$start_field_id" ]; then
-              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$start_field_id" --date "$today"
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$start_field_id" --date "$today" || echo "::warning::Could not set project start date."
             fi
             if [ -n "$item_id" ] && [ -n "$target_field_id" ]; then
-              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$target_field_id" --date "$today"
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$target_field_id" --date "$today" || echo "::warning::Could not set project target date."
             fi
             if [ -n "$item_id" ] && [ -n "$priority_field_id" ] && [ -n "$priority_option_id" ]; then
-              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$priority_field_id" --single-select-option-id "$priority_option_id"
+              gh project item-edit --id "$item_id" --project-id "$project_id" --field-id "$priority_field_id" --single-select-option-id "$priority_option_id" || echo "::warning::Could not set project priority."
             fi
           done

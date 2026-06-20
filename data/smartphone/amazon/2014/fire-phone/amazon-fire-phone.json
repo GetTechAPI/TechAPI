@@ -1,0 +1,46 @@
+{
+  "slug": "amazon-fire-phone",
+  "base_model_slug": "fire-phone",
+  "name": "Amazon Fire Phone",
+  "brand": "amazon",
+  "release_date": "2014-06-01",
+  "ram_gb": 2,
+  "storage_options_gb": [
+    64
+  ],
+  "battery_mah": 2400,
+  "weight_g": 160.0,
+  "os": "Amazon Fire 3.5 (Android based)| upgradable to 3.6.5",
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "720 x 1280 pixels (~312 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Nano-SIM",
+    "bluetooth": "3.0",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band",
+    "usb": "microUSB 2.0",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "qualcomm-snapdragon-800",
+  "raw_price": "About 160 EUR",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/amazon-fire-phone.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| OIS| autofocus| LED flash"
+    }
+  ]
+}

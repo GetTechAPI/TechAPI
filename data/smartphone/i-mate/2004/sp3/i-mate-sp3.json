@@ -1,0 +1,42 @@
+{
+  "slug": "i-mate-sp3",
+  "base_model_slug": "sp3",
+  "name": "I-Mate SP3",
+  "brand": "i-mate",
+  "release_date": "2004-01-01",
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "battery_mah": 1050,
+  "weight_g": 106.3,
+  "os": "Microsoft Windows Mobile 2003 SE Smartphone",
+  "display": {
+    "size_inch": 2.2,
+    "resolution": "176 x 220 pixels| 2.2 inches (~128 ppi pixel density)",
+    "type": "TFT  65K colors"
+  },
+  "connectivity": {
+    "network": "GSM",
+    "sim": "Mini-SIM",
+    "bluetooth": "1.1",
+    "wlan": "No",
+    "usb": "Yes",
+    "gps": "No"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "ti-omap-730",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/imsp3.gif",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    }
+  ]
+}

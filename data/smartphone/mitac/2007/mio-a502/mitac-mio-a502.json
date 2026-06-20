@@ -1,0 +1,42 @@
+{
+  "slug": "mitac-mio-a502",
+  "base_model_slug": "mio-a502",
+  "name": "Mitac MIO A502",
+  "brand": "mitac",
+  "release_date": "2007-01-01",
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "battery_mah": 1050,
+  "weight_g": 135.0,
+  "os": "Windows Mobile 6 Professional",
+  "display": {
+    "size_inch": 2.7,
+    "resolution": "240 x 320 pixels (~148 ppi pixel density)",
+    "type": "TFT resistive touchscreen  256K colors"
+  },
+  "connectivity": {
+    "network": "GSM",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.0",
+    "wlan": "No",
+    "usb": "miniUSB 2.0",
+    "gps": "Yes SiRF Star III chipset"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "ti-omap-850",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/mio-a502.gif",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP| LED flash"
+    }
+  ]
+}

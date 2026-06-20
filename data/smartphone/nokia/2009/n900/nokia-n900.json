@@ -1,0 +1,45 @@
+{
+  "slug": "nokia-n900",
+  "base_model_slug": "n900",
+  "name": "Nokia N900",
+  "brand": "nokia",
+  "release_date": "2009-08-01",
+  "ram_gb": 1,
+  "storage_options_gb": [
+    32
+  ],
+  "battery_mah": 1320,
+  "weight_g": 181.0,
+  "os": "Maemo 5",
+  "display": {
+    "size_inch": 3.5,
+    "resolution": "800 x 480 pixels (~267 ppi pixel density)",
+    "type": "TFT resistive touchscreen  65K colors"
+  },
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.1| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g| DLNA",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS; Ovi Maps"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "ti-omap-3430",
+  "raw_price": "About 160 EUR",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/nokia-n900.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| Carl Zeiss optics| autofocus| Dual-LED flash| "
+    }
+  ]
+}

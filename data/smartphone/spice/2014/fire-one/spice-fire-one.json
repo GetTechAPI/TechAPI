@@ -1,0 +1,42 @@
+{
+  "slug": "spice-fire-one",
+  "base_model_slug": "fire-one",
+  "name": "Spice Fire One (Mi-FX-1)",
+  "brand": "spice",
+  "release_date": "2014-08-01",
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "battery_mah": 1400,
+  "weight_g": 65.0,
+  "os": "Firefox OS",
+  "display": {
+    "size_inch": 3.5,
+    "resolution": "320 x 480 pixels (~165 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  256K colors"
+  },
+  "connectivity": {
+    "network": "GSM",
+    "sim": "Dual SIM (Mini-SIM)",
+    "bluetooth": "2.1| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "usb": "microUSB 2.0",
+    "gps": "No"
+  },
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "soc": "spreadtrum-6821",
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/spice-firefox.jpg",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP| LED flash"
+    }
+  ]
+}

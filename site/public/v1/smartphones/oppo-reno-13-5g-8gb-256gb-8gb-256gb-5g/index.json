@@ -1,0 +1,80 @@
+{
+  "id": 23946,
+  "slug": "oppo-reno-13-5g-8gb-256gb-8gb-256gb-5g",
+  "base_model_slug": "reno-13-5g-8gb-256gb",
+  "name": "OPPO Reno 13 5G (8GB+256GB)",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1308,
+    "slug": "dimensity-8350",
+    "name": "Dimensity 8350",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G615 MC6",
+    "url": "/v1/socs/dimensity-8350"
+  },
+  "release_date": "2024-11-25",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.59 inches, 1256 x 2760 pixels, 120 Hz",
+    "resolution": "~ 460 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 181.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, SBC, AAC, aptx, aptx-HD, LDAC, LHDC5.0",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 38.1,
+    "performance": 22.2,
+    "camera": null,
+    "battery": 54.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.595038",
+  "updated_at": "2026-06-20T13:09:19.595038"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 38641,
+  "slug": "vivo-t4x-5g-6gb-128gb-5g",
+  "base_model_slug": "t4x-5g",
+  "name": "Vivo T4x 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1285,
+    "slug": "dimensity-7300",
+    "name": "MediaTek Dimensity 7300",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G615 MC2",
+    "url": "/v1/socs/dimensity-7300"
+  },
+  "release_date": "2025-03-05",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.72 inches, 1080 x 2408 pixels, 120 Hz",
+    "resolution": "~ 393 PPI",
+    "type": "Color LCD Screen (16.7 M)"
+  },
+  "cameras": [],
+  "battery_mah": 6500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.8,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.267730",
+  "updated_at": "2026-06-20T13:09:25.267730"
+}

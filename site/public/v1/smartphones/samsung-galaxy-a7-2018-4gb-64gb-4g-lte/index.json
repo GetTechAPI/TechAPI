@@ -1,0 +1,80 @@
+{
+  "id": 28979,
+  "slug": "samsung-galaxy-a7-2018-4gb-64gb-4g-lte",
+  "base_model_slug": "galaxy-a7-2018",
+  "name": "Samsung Galaxy A7 (2018)",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1915,
+    "slug": "exynos-7885",
+    "name": "Exynos 7885",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-G71 MP2",
+    "url": "/v1/socs/exynos-7885"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6 inches, 2220 x 1080 pixels",
+    "resolution": "~ 411 PPI",
+    "type": "Color Super AMOLED Screen (16M colors Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, microUSB v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.2,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 4.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:21.825489",
+  "updated_at": "2026-06-20T13:09:21.825489"
+}

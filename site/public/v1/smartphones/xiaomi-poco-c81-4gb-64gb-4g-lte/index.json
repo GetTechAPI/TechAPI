@@ -1,0 +1,80 @@
+{
+  "id": 42525,
+  "slug": "xiaomi-poco-c81-4gb-64gb-4g-lte",
+  "base_model_slug": "poco-c81",
+  "name": "POCO C81",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 2102,
+    "slug": "unisoc-t7250",
+    "name": "Unisoc T7250",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali G57 MP1 @ 850 MHz",
+    "url": "/v1/socs/unisoc-t7250"
+  },
+  "release_date": "2026-04-23",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.9 inches, 720 x 1600 pixels, 120 Hz",
+    "resolution": "~ 254 PPI",
+    "type": "Color IPS Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 6300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 208.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2",
+    "nfc": "",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 50.0,
+    "performance": null,
+    "camera": null,
+    "battery": 50.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.934803",
+  "updated_at": "2026-06-20T13:09:26.934803"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 17033,
+  "slug": "motorola-google-nexus-6-3gb-32gb-4g-lte",
+  "base_model_slug": "google-nexus-6",
+  "name": "Google Nexus 6",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1546,
+    "slug": "snapdragon-805",
+    "name": "Snapdragon 805",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 420",
+    "url": "/v1/socs/snapdragon-805"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6 inches, 1440 x 2560 pixels",
+    "resolution": "~ 490 PPI",
+    "type": "Color AMOLED Screen (16M colors Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3220,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v5.0 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v4.1",
+    "nfc": "Yes",
+    "usb": "Yes, microUSB-SlimPort v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.1,
+    "performance": 1.0,
+    "camera": null,
+    "battery": 3.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:16.939009",
+  "updated_at": "2026-06-20T13:09:16.939009"
+}

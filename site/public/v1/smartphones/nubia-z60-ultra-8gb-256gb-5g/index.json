@@ -1,0 +1,80 @@
+{
+  "id": 20384,
+  "slug": "nubia-z60-ultra-8gb-256gb-5g",
+  "base_model_slug": "z60-ultra",
+  "name": "Nubia Z60 Ultra",
+  "brand": {
+    "id": 35,
+    "slug": "nubia",
+    "name": "Nubia",
+    "country": "CN",
+    "url": "/v1/brands/nubia"
+  },
+  "soc": {
+    "id": 1798,
+    "slug": "qualcomm-snapdragon-8-gen3",
+    "name": "Qualcomm Snapdragon 8 Gen3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 750",
+    "url": "/v1/socs/qualcomm-snapdragon-8-gen3"
+  },
+  "release_date": "2023-12-19",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.8 inches, 1116 x 2480 pixels, 120 Hz",
+    "resolution": "~ 400 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 246.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 60.0,
+    "performance": null,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:18.379805",
+  "updated_at": "2026-06-20T13:09:18.379805"
+}

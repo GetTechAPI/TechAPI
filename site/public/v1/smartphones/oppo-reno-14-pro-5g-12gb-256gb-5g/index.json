@@ -1,0 +1,80 @@
+{
+  "id": 24047,
+  "slug": "oppo-reno-14-pro-5g-12gb-256gb-5g",
+  "base_model_slug": "reno-14-pro-5g",
+  "name": "OPPO Reno 14 Pro 5G",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1317,
+    "slug": "mediatek-dimensity-8450",
+    "name": "Mediatek Dimensity 8450",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Mali-G720 MC7",
+    "url": "/v1/socs/mediatek-dimensity-8450"
+  },
+  "release_date": "2025-07-03",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.83 inches, 1272 x 2800 pixels, 120 Hz",
+    "resolution": "~ 450 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 6200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 201.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.4, SBC, AAC, aptX, aptX HD, LDAC, LHDC 5.0",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 60.0,
+    "performance": null,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.629952",
+  "updated_at": "2026-06-20T13:09:19.629952"
+}

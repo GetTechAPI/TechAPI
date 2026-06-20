@@ -1,0 +1,80 @@
+{
+  "id": 34416,
+  "slug": "sony-xperia-10-iii-lite-5g-6gb-64gb-5g",
+  "base_model_slug": "xperia-10-iii-lite-5g",
+  "name": "Sony Xperia 10 III Lite 5G",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1709,
+    "slug": "snapdragon-690",
+    "name": "Snapdragon 690",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 619L",
+    "url": "/v1/socs/snapdragon-690"
+  },
+  "release_date": "2021-08-20",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6 inches, 1080 x 2520 pixels",
+    "resolution": "~ 457 PPI",
+    "type": "Color OLED Screen (1B)"
+  },
+  "cameras": [],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.0,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:23.750031",
+  "updated_at": "2026-06-20T13:09:23.750031"
+}

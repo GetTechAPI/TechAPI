@@ -1,0 +1,80 @@
+{
+  "id": 35672,
+  "slug": "tecno-phantom-v-fold-2-12gb-512gb-5g",
+  "base_model_slug": "phantom-v-fold-2",
+  "name": "Tecno Phantom V Fold 2",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1249,
+    "slug": "dimensity-9000-plus",
+    "name": "Dimensity 9000+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "ARM Mali-G710",
+    "url": "/v1/socs/dimensity-9000-plus"
+  },
+  "release_date": "2024-09-13",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "7.85 inches, 2000 x 2296 pixels, 120 Hz",
+    "resolution": "~ 388 PPI",
+    "type": "Color LTPO AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 249.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v14",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 56.3,
+    "performance": null,
+    "camera": null,
+    "battery": 56.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:24.229961",
+  "updated_at": "2026-06-20T13:09:24.229961"
+}

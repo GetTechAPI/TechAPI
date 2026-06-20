@@ -1,0 +1,80 @@
+{
+  "id": 22495,
+  "slug": "oppo-reno3-a-6gb-128gb-4g-lte",
+  "base_model_slug": "reno3-a",
+  "name": "Oppo Reno3 A",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1682,
+    "slug": "snapdragon-665",
+    "name": "Snapdragon 665",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Adreno 610",
+    "url": "/v1/socs/snapdragon-665"
+  },
+  "release_date": "2020-06-13",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 1080 x 2400 pixels",
+    "resolution": "~ 409 PPI",
+    "type": "Color AMOLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4025,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v10.0, upgradable to v11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, USB-C v1.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.4,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 15.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:19.116001",
+  "updated_at": "2026-06-20T13:09:19.116001"
+}

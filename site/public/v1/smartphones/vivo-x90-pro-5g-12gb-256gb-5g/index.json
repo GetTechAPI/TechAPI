@@ -1,0 +1,80 @@
+{
+  "id": 38406,
+  "slug": "vivo-x90-pro-5g-12gb-256gb-5g",
+  "base_model_slug": "x90-pro-5g",
+  "name": "Vivo X90 Pro 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1269,
+    "slug": "dimensity-9200-plus",
+    "name": "MediaTek Dimensity 9200+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G715 MC11",
+    "url": "/v1/socs/dimensity-9200-plus"
+  },
+  "release_date": "2023-04-26",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 1260 x 2800 pixels, 120 Hz",
+    "resolution": "~ 452 PPI",
+    "type": "Color AMOLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4870,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 214.85,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v13",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.3,
+    "performance": 35.6,
+    "camera": null,
+    "battery": 43.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:25.184880",
+  "updated_at": "2026-06-20T13:09:25.184880"
+}

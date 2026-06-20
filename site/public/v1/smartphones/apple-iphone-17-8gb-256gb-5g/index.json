@@ -1,0 +1,80 @@
+{
+  "id": 2668,
+  "slug": "apple-iphone-17-8gb-256gb-5g",
+  "base_model_slug": "iphone-17",
+  "name": "Apple iPhone 17",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 56,
+    "slug": "apple-a19",
+    "name": "Apple A19",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a19"
+  },
+  "release_date": "2025-09-09",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 1206 x 2622 pixels, 120 Hz",
+    "resolution": "~ 460 PPI",
+    "type": "Color OLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3692,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 177.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS v26",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 52.2,
+    "performance": 74.1,
+    "camera": null,
+    "battery": 30.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:10.582106",
+  "updated_at": "2026-06-20T13:09:10.582106"
+}

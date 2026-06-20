@@ -1,0 +1,80 @@
+{
+  "id": 2677,
+  "slug": "apple-iphone-air-512gb-8gb-512gb-5g",
+  "base_model_slug": "iphone-air-512gb",
+  "name": "Apple iPhone Air (512GB)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 55,
+    "slug": "apple-a19-pro",
+    "name": "Apple A19 Pro",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Apple GPU (6-core)",
+    "url": "/v1/socs/apple-a19-pro"
+  },
+  "release_date": "2025-09-09",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 1260 x 2736 pixels",
+    "resolution": "~ 460 PPI",
+    "type": "Color OLED Screen (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 3149,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 165.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS v26",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 52.1,
+    "performance": 82.1,
+    "camera": null,
+    "battery": 22.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:10.586119",
+  "updated_at": "2026-06-20T13:09:10.586119"
+}

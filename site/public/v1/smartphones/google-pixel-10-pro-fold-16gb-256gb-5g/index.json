@@ -1,0 +1,80 @@
+{
+  "id": 6252,
+  "slug": "google-pixel-10-pro-fold-16gb-256gb-5g",
+  "base_model_slug": "pixel-10-pro-fold",
+  "name": "Google Pixel 10 Pro Fold",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 769,
+    "slug": "tensor-g5",
+    "name": "Google Tensor G5",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Imagination DXT-48-1536",
+    "url": "/v1/socs/tensor-g5"
+  },
+  "release_date": "2025-08-20",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "8 inches, 2076 x 2152 pixels, 120 Hz",
+    "resolution": "~ 374 PPI",
+    "type": "Color OLED Screen (16M Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5015,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 258.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v16",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C v3.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 47.2,
+    "performance": 44.2,
+    "camera": null,
+    "battery": 50.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:11.909038",
+  "updated_at": "2026-06-20T13:09:11.909038"
+}

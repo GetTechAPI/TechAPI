@@ -1,0 +1,80 @@
+{
+  "id": 20363,
+  "slug": "nothing-phone-3-5g-12gb-256gb-5g",
+  "base_model_slug": "phone-3-5g",
+  "name": "Nothing Phone 3 5G",
+  "brand": {
+    "id": 78,
+    "slug": "nothing",
+    "name": "Nothing",
+    "country": "GB",
+    "url": "/v1/brands/nothing"
+  },
+  "soc": {
+    "id": 1800,
+    "slug": "qualcomm-snapdragon-8s-gen4",
+    "name": "Qualcomm Snapdragon 8s Gen4",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 825",
+    "url": "/v1/socs/qualcomm-snapdragon-8s-gen4"
+  },
+  "release_date": "2025-07-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 1260 x 2800 pixels, 120 Hz",
+    "resolution": "~ 460 PPI",
+    "type": "Color AMOLED Flexible LTPS (1.07B)"
+  },
+  "cameras": [],
+  "battery_mah": 5500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 218.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v15",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v6.0",
+    "nfc": "Yes",
+    "usb": "Yes, USB-C"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 52.5,
+    "performance": null,
+    "camera": null,
+    "battery": 52.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:18.373278",
+  "updated_at": "2026-06-20T13:09:18.373278"
+}

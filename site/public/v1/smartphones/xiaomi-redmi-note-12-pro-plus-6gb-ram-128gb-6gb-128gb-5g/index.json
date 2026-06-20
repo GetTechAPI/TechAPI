@@ -1,0 +1,80 @@
+{
+  "id": 41849,
+  "slug": "xiaomi-redmi-note-12-pro-plus-6gb-ram-128gb-6gb-128gb-5g",
+  "base_model_slug": "redmi-note-12-pro-plus-6gb-ram-128gb",
+  "name": "Xiaomi Redmi Note 12 Pro Plus (6GB RAM + 128GB)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1243,
+    "slug": "dimensity-1080",
+    "name": "MediaTek Dimensity 1080",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G68 MC4",
+    "url": "/v1/socs/dimensity-1080"
+  },
+  "release_date": "2023-01-05",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 1080 x 2400 pixels, 120 Hz",
+    "resolution": "~ 395 PPI",
+    "type": "Color Pro AMOLED (1B Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 4980,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 208.4,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.2, A2DP, LE",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.1,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 34.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:26.682635",
+  "updated_at": "2026-06-20T13:09:26.682635"
+}

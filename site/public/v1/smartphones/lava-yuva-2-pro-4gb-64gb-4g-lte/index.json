@@ -1,0 +1,80 @@
+{
+  "id": 12130,
+  "slug": "lava-yuva-2-pro-4gb-64gb-4g-lte",
+  "base_model_slug": "yuva-2-pro",
+  "name": "Lava Yuva 2 Pro",
+  "brand": {
+    "id": 92,
+    "slug": "lava",
+    "name": "Lava International",
+    "country": "IN",
+    "url": "/v1/brands/lava"
+  },
+  "soc": {
+    "id": 1233,
+    "slug": "helio-g37",
+    "name": "Helio G37",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-g37"
+  },
+  "release_date": "2023-02-21",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 1600 x 720 pixels, 60 Hz",
+    "resolution": "~ 270 PPI",
+    "type": "Color IPS Screen (16.7M)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v12",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.1",
+    "nfc": "",
+    "usb": "Yes, USB-C v2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:14.601729",
+  "updated_at": "2026-06-20T13:09:14.601729"
+}

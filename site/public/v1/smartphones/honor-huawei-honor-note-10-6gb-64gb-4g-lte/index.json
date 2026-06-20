@@ -1,0 +1,80 @@
+{
+  "id": 6520,
+  "slug": "honor-huawei-honor-note-10-6gb-64gb-4g-lte",
+  "base_model_slug": "huawei-honor-note-10",
+  "name": "Huawei Honor Note 10",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 799,
+    "slug": "hisilicon-kirin-970",
+    "name": "Hisilicon Kirin 970",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Mali-G72 MP12",
+    "url": "/v1/socs/hisilicon-kirin-970"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "mayankkumarpoddar/smartprix-mobiles-dataset",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.95 inches, 1080 x 2280 pixels",
+    "resolution": "~ 355 PPI",
+    "type": "Color AMOLED Screen (16M colors Colors)"
+  },
+  "cameras": [],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 230.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android v8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Yes, with wifi-hotspot",
+    "bluetooth": "Yes, v5.0",
+    "nfc": "",
+    "usb": "Yes, microUSB"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+  ],
+  "created_at": "2026-06-20T13:09:12.020114",
+  "updated_at": "2026-06-20T13:09:12.020114"
+}

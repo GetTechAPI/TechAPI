@@ -1,0 +1,97 @@
+{
+  "id": 10220,
+  "slug": "huawei-nova-8i-8gb-6gb-4g-lte",
+  "base_model_slug": "nova-8i",
+  "name": "Huawei nova 8i",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1707,
+    "slug": "snapdragon-662",
+    "name": "Snapdragon 662",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Adreno 610",
+    "url": "/v1/socs/snapdragon-662"
+  },
+  "release_date": "2021-07-22",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    6,
+    8,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 6
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "NEN-L22",
+      "NEN-LX1",
+      "NEN-LX3"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size": "6.67\"",
+    "resolution": "1080x2376 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, EMUI 11, no Google Play Services",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/huawei-nova-8i.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 11.2,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 19.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/huawei-nova-8i"
+  ],
+  "created_at": "2026-06-20T13:49:35.021875",
+  "updated_at": "2026-06-20T13:49:35.021875"
+}

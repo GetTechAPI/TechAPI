@@ -1,0 +1,93 @@
+{
+  "id": 4676,
+  "slug": "blu-c5l-max-2gb-1gb-4g-lte",
+  "base_model_slug": "c5l-max",
+  "name": "BLU C5L Max",
+  "brand": {
+    "id": 151,
+    "slug": "blu",
+    "name": "BLU Products",
+    "country": "US",
+    "url": "/v1/brands/blu"
+  },
+  "soc": {
+    "id": 2079,
+    "slug": "unisoc-sc9832e",
+    "name": "Unisoc SC9832E",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T820 MP1",
+    "url": "/v1/socs/unisoc-sc9832e"
+  },
+  "release_date": "2021-12-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    1,
+    2,
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 1
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "size": "5.7\"",
+    "resolution": "480x960 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 2000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 174.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/blu-c5l-max.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/blu-c5l-max"
+  ],
+  "created_at": "2026-06-20T13:49:32.528713",
+  "updated_at": "2026-06-20T13:49:32.528713"
+}

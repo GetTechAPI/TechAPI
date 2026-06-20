@@ -1,0 +1,87 @@
+{
+  "id": 49790,
+  "slug": "samsung-sm-g990b-ds-galaxy-s21-fe-5g-global-dual-sim-td-lte-256gb-sm-g990b2-ds-sady36-bulgaria-8gb-256gb",
+  "base_model_slug": "sm-g990b-ds-galaxy-s21-fe-5g-global-dual-sim-td-lte-256gb-sm-g990b2-ds",
+  "name": "SM-G990B/DS Galaxy S21 FE 5G Global Dual SIM TD-LTE 256GB / SM-G990B2/DS",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1744,
+    "slug": "qualcomm-snapdragon-888-5g-sm8350",
+    "name": "Qualcomm Snapdragon 888 5G SM8350",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Qualcomm Adreno 660",
+    "url": "/v1/socs/qualcomm-snapdragon-888-5g-sm8350"
+  },
+  "release_date": "2022-01-11",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "bulgaria",
+    "market_country": "Bulgaria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5942:bulgaria",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Oceania , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.41,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 177.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.7,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 32.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.410565",
+  "updated_at": "2026-06-20T18:00:20.410565"
+}

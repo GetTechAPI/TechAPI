@@ -1,0 +1,86 @@
+{
+  "id": 13219,
+  "slug": "huawei-mate-20-rs-porsche-design-global-dual-sim-td-lte-256gb-lya-l29-sady36-germany-8gb-256gb",
+  "base_model_slug": "mate-20-rs-porsche-design-global-dual-sim-td-lte-256gb-lya-l29",
+  "name": "Mate 20 RS Porsche Design Global Dual SIM TD-LTE 256GB LYA-L29",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 801,
+    "slug": "hisilicon-honor-kirin980",
+    "name": "HiSilicon Honor KIRIN980",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "ARM Mali-G76MP10",
+    "url": "/v1/socs/hisilicon-honor-kirin980"
+  },
+  "release_date": "2018-12-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "germany",
+    "market_country": "Germany",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2753:germany",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , North America , South America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.39,
+    "resolution": "1440x3120",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 39.9
+    },
+    {
+      "type": "selfie",
+      "mp": 23.8
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.9,
+    "performance": null,
+    "camera": 13.9,
+    "battery": 18.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:07.920665",
+  "updated_at": "2026-06-20T18:00:07.920665"
+}

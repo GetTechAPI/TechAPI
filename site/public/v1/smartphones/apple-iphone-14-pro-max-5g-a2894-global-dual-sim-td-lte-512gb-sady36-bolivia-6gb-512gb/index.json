@@ -1,0 +1,87 @@
+{
+  "id": 4214,
+  "slug": "apple-iphone-14-pro-max-5g-a2894-global-dual-sim-td-lte-512gb-sady36-bolivia-6gb-512gb",
+  "base_model_slug": "iphone-14-pro-max-5g-a2894-global-dual-sim-td-lte-512gb",
+  "name": "iPhone 14 Pro Max 5G A2894 Global Dual SIM TD-LTE 512GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 42,
+    "slug": "apple-a16-bionic-apl1010-apl1w10",
+    "name": "Apple A16 Bionic APL1010 / APL1W10",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple A16MP5",
+    "url": "/v1/socs/apple-a16-bionic-apl1010-apl1w10"
+  },
+  "release_date": "2022-09-16",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "bolivia",
+    "market_country": "Bolivia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6752:bolivia",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 512
+    },
+    "market_regions": "Africa , Asia , Australia , Central America , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia , Western Europe , Worldwide"
+  },
+  "display": {
+    "size_inch": 6.69,
+    "resolution": "1290x2796",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 4323,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 240.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 16",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.6,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 29.8,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.705733",
+  "updated_at": "2026-06-20T18:00:04.705733"
+}

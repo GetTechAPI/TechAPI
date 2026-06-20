@@ -1,0 +1,86 @@
+{
+  "id": 64142,
+  "slug": "xiaomi-poco-m5s-standard-edition-global-dual-sim-td-lte-128gb-2207117bpg-sady36-hungary-4gb-128gb",
+  "base_model_slug": "poco-m5s-standard-edition-global-dual-sim-td-lte-128gb-2207117bpg",
+  "name": "Poco M5s Standard Edition Global Dual SIM TD-LTE 128GB 2207117BPG",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1265,
+    "slug": "mediatek-helio-g95-mt6785v-cd",
+    "name": "MediaTek Helio G95 MT6785V/CD",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G76MC4",
+    "url": "/v1/socs/mediatek-helio-g95-mt6785v-cd"
+  },
+  "release_date": "2022-09-07",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "hungary",
+    "market_country": "Hungary",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7259:hungary",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Middle East , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.43,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.4
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 178.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.9,
+    "performance": null,
+    "camera": 21.7,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:25.301829",
+  "updated_at": "2026-06-20T18:00:25.301829"
+}

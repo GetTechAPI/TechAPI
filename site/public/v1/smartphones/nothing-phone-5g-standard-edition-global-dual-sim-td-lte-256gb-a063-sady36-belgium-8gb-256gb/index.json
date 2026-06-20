@@ -1,0 +1,87 @@
+{
+  "id": 31231,
+  "slug": "nothing-phone-5g-standard-edition-global-dual-sim-td-lte-256gb-a063-sady36-belgium-8gb-256gb",
+  "base_model_slug": "phone-5g-standard-edition-global-dual-sim-td-lte-256gb-a063",
+  "name": "Phone (1) 5G Standard Edition Global Dual SIM TD-LTE 256GB A063",
+  "brand": {
+    "id": 78,
+    "slug": "nothing",
+    "name": "Nothing",
+    "country": "GB",
+    "url": "/v1/brands/nothing"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2022-07-21",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "belgium",
+    "market_country": "Belgium",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7337:belgium",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 193.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.4,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 22.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.069798",
+  "updated_at": "2026-06-20T18:00:14.069798"
+}

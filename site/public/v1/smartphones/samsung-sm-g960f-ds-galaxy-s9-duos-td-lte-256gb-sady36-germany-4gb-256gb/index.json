@@ -1,0 +1,86 @@
+{
+  "id": 43914,
+  "slug": "samsung-sm-g960f-ds-galaxy-s9-duos-td-lte-256gb-sady36-germany-4gb-256gb",
+  "base_model_slug": "sm-g960f-ds-galaxy-s9-duos-td-lte-256gb",
+  "name": "SM-G960F/DS Galaxy S9 Duos TD-LTE 256GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2018-05-02",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "germany",
+    "market_country": "Germany",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:856:germany",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Middle East , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.77,
+    "resolution": "1440x2960",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.1
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 163.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.5,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:18.643954",
+  "updated_at": "2026-06-20T18:00:18.643954"
+}

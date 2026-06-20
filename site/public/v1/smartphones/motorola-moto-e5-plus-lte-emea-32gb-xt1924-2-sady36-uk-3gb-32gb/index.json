@@ -1,0 +1,86 @@
+{
+  "id": 25475,
+  "slug": "motorola-moto-e5-plus-lte-emea-32gb-xt1924-2-sady36-uk-3gb-32gb",
+  "base_model_slug": "moto-e5-plus-lte-emea-32gb-xt1924-2",
+  "name": "Moto E5 Plus LTE EMEA 32GB XT1924-2",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1637,
+    "slug": "qualcomm-snapdragon-425-msm8917",
+    "name": "Qualcomm Snapdragon 425 MSM8917",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 308",
+    "url": "/v1/socs/qualcomm-snapdragon-425-msm8917"
+  },
+  "release_date": "2018-06-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "uk",
+    "market_country": "UK",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1266:uk",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.98,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 196.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:12.209045",
+  "updated_at": "2026-06-20T18:00:12.209045"
+}

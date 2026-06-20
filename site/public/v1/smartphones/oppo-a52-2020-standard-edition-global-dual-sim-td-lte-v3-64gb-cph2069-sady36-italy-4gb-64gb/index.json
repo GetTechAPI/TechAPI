@@ -1,0 +1,86 @@
+{
+  "id": 34356,
+  "slug": "oppo-a52-2020-standard-edition-global-dual-sim-td-lte-v3-64gb-cph2069-sady36-italy-4gb-64gb",
+  "base_model_slug": "a52-2020-standard-edition-global-dual-sim-td-lte-v3-64gb-cph2069",
+  "name": "A52 2020 Standard Edition Global Dual SIM TD-LTE V3 64GB CPH2069",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1718,
+    "slug": "qualcomm-snapdragon-665-sm6125",
+    "name": "Qualcomm Snapdragon 665 SM6125",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Qualcomm Adreno 610",
+    "url": "/v1/socs/qualcomm-snapdragon-665-sm6125"
+  },
+  "release_date": "2020-05-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "italy",
+    "market_country": "Italy",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3552:italy",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Australia , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.4
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.6,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:15.024759",
+  "updated_at": "2026-06-20T18:00:15.024759"
+}

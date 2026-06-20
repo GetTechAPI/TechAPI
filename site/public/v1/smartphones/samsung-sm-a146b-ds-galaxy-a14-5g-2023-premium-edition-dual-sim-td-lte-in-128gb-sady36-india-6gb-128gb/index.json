@@ -1,0 +1,87 @@
+{
+  "id": 50883,
+  "slug": "samsung-sm-a146b-ds-galaxy-a14-5g-2023-premium-edition-dual-sim-td-lte-in-128gb-sady36-india-6gb-128gb",
+  "base_model_slug": "sm-a146b-ds-galaxy-a14-5g-2023-premium-edition-dual-sim-td-lte-in-128gb",
+  "name": "SM-A146B/DS Galaxy A14 5G 2023 Premium Edition Dual SIM TD-LTE IN 128GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1967,
+    "slug": "samsung-exynos-1330-5g-s5e8535",
+    "name": "Samsung Exynos 1330 5G S5E8535",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "ARM Mali-G68MP2",
+    "url": "/v1/socs/samsung-exynos-1330-5g-s5e8535"
+  },
+  "release_date": "2023-01-21",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "india",
+    "market_country": "India",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7847:india",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.58,
+    "resolution": "1080x2408",
+    "type": "Color PLS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 201.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.1,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 40.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.731874",
+  "updated_at": "2026-06-20T18:00:20.731874"
+}

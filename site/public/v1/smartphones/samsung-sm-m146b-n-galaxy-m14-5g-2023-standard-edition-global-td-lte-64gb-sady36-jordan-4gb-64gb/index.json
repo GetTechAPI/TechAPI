@@ -1,0 +1,87 @@
+{
+  "id": 51067,
+  "slug": "samsung-sm-m146b-n-galaxy-m14-5g-2023-standard-edition-global-td-lte-64gb-sady36-jordan-4gb-64gb",
+  "base_model_slug": "sm-m146b-n-galaxy-m14-5g-2023-standard-edition-global-td-lte-64gb",
+  "name": "SM-M146B/N Galaxy M14 5G 2023 Standard Edition Global TD-LTE 64GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1967,
+    "slug": "samsung-exynos-1330-5g-s5e8535",
+    "name": "Samsung Exynos 1330 5G S5E8535",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "ARM Mali-G68MP2",
+    "url": "/v1/socs/samsung-exynos-1330-5g-s5e8535"
+  },
+  "release_date": "2023-03-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "jordan",
+    "market_country": "Jordan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:8220:jordan",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Africa , Middle East"
+  },
+  "display": {
+    "size_inch": 6.58,
+    "resolution": "1080x2408",
+    "type": "Color PLS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.1,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 55.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.779493",
+  "updated_at": "2026-06-20T18:00:20.779493"
+}

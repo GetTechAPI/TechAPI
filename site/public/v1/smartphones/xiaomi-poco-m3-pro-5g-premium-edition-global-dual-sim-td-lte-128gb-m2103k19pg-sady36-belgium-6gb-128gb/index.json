@@ -1,0 +1,87 @@
+{
+  "id": 62847,
+  "slug": "xiaomi-poco-m3-pro-5g-premium-edition-global-dual-sim-td-lte-128gb-m2103k19pg-sady36-belgium-6gb-128gb",
+  "base_model_slug": "poco-m3-pro-5g-premium-edition-global-dual-sim-td-lte-128gb-m2103k19pg",
+  "name": "Poco M3 Pro 5G Premium Edition Global Dual SIM TD-LTE 128GB M2103K19PG",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1237,
+    "slug": "mediatek-dimensity-700-mt6833v-za",
+    "name": "MediaTek Dimensity 700 MT6833V/ZA",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "ARM Mali-G57MP2",
+    "url": "/v1/socs/mediatek-dimensity-700-mt6833v-za"
+  },
+  "release_date": "2021-05-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "belgium",
+    "market_country": "Belgium",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4963:belgium",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , Middle East , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.5,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 30.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.920947",
+  "updated_at": "2026-06-20T18:00:24.920947"
+}

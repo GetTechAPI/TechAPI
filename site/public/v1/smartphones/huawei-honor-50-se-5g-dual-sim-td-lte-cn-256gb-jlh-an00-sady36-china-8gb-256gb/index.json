@@ -1,0 +1,87 @@
+{
+  "id": 15529,
+  "slug": "huawei-honor-50-se-5g-dual-sim-td-lte-cn-256gb-jlh-an00-sady36-china-8gb-256gb",
+  "base_model_slug": "honor-50-se-5g-dual-sim-td-lte-cn-256gb-jlh-an00",
+  "name": "Honor 50 SE 5G Dual SIM TD-LTE CN 256GB JLH-AN00",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1260,
+    "slug": "mediatek-dimensity-900-mt6877v-za",
+    "name": "MediaTek Dimensity 900 MT6877V/ZA",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "ARM Mali-G68MP4",
+    "url": "/v1/socs/mediatek-dimensity-900-mt6877v-za"
+  },
+  "release_date": "2021-07-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5277:china",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1080x2388",
+    "type": "Color PLS TFT LCD display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.6
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 191.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.8,
+    "performance": null,
+    "camera": 35.8,
+    "battery": 20.0,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.575313",
+  "updated_at": "2026-06-20T18:00:08.575313"
+}

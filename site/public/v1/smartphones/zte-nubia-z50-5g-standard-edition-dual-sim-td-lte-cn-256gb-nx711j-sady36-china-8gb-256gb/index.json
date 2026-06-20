@@ -1,0 +1,87 @@
+{
+  "id": 68989,
+  "slug": "zte-nubia-z50-5g-standard-edition-dual-sim-td-lte-cn-256gb-nx711j-sady36-china-8gb-256gb",
+  "base_model_slug": "nubia-z50-5g-standard-edition-dual-sim-td-lte-cn-256gb-nx711j",
+  "name": "Nubia Z50 5G Standard Edition Dual SIM TD-LTE CN 256GB NX711J",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1774,
+    "slug": "qualcomm-snapdragon-8-gen-2-5g-sm8550-ab",
+    "name": "Qualcomm Snapdragon 8 Gen 2 5G SM8550-AB",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Qualcomm Adreno 740",
+    "url": "/v1/socs/qualcomm-snapdragon-8-gen-2-5g-sm8550-ab"
+  },
+  "release_date": "2023-12-22",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7302:china",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.7,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 45.0,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.814308",
+  "updated_at": "2026-06-20T18:00:26.814308"
+}

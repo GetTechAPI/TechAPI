@@ -1,0 +1,87 @@
+{
+  "id": 62109,
+  "slug": "xiaomi-redmi-k30-pro-zoom-5g-dual-sim-td-lte-cn-512gb-m2001j11e-m2001j11c-sady36-china-12gb-512gb",
+  "base_model_slug": "redmi-k30-pro-zoom-5g-dual-sim-td-lte-cn-512gb-m2001j11e-m2001j11c",
+  "name": "Redmi K30 Pro Zoom 5G Dual SIM TD-LTE CN 512GB M2001J11E / M2001J11C",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1705,
+    "slug": "qualcomm-snapdragon-865-5g-sm8250",
+    "name": "Qualcomm Snapdragon 865 5G SM8250",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-865-5g-sm8250"
+  },
+  "release_date": "2020-04-04",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3494:china",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 19.7
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 218.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.5,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 25.5,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.694594",
+  "updated_at": "2026-06-20T18:00:24.694594"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 27491,
+  "slug": "motorola-moto-e22i-2022-dual-sim-td-lte-emea-32gb-xt2239-18-xt2239-19-sady36-france-2gb-32gb",
+  "base_model_slug": "moto-e22i-2022-dual-sim-td-lte-emea-32gb-xt2239-18-xt2239-19",
+  "name": "Moto E22i 2022 Dual SIM TD-LTE EMEA 32GB XT2239-18 / XT2239-19",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1281,
+    "slug": "mediatek-helio-g37-mt6765h",
+    "name": "MediaTek Helio G37 MT6765H",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-g37-mt6765h"
+  },
+  "release_date": "2022-10-12",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "france",
+    "market_country": "France",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7433:france",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "market_regions": "Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "720x1600",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 15.9
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 4020,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 Go Edition (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.2,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 15.3,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:12.820435",
+  "updated_at": "2026-06-20T18:00:12.820435"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 64665,
+  "slug": "xiaomi-redmi-note-11-pro-plus-5g-standard-edition-global-dual-sim-td-l-c62e6976-sady36-austria-6gb-128gb",
+  "base_model_slug": "redmi-note-11-pro-plus-5g-standard-edition-global-dual-sim-td-l-c62e6976",
+  "name": "Redmi Note 11 Pro+ 5G Standard Edition Global Dual SIM TD-LTE 128GB 21091116UG",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1278,
+    "slug": "mediatek-dimensity-920-mt6877v-tza",
+    "name": "MediaTek Dimensity 920 MT6877V/TZA",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "ARM Mali-G68MP4",
+    "url": "/v1/socs/mediatek-dimensity-920-mt6877v-tza"
+  },
+  "release_date": "2022-03-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6258:austria",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , Middle East , North America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 40.2,
+    "performance": null,
+    "camera": 35.7,
+    "battery": 27.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:25.451014",
+  "updated_at": "2026-06-20T18:00:25.451014"
+}

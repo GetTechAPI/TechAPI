@@ -1,0 +1,87 @@
+{
+  "id": 36113,
+  "slug": "oppo-realme-gt-master-premium-edition-5g-dual-sim-td-lte-in-128gb-rmx3360-sady36-india-8gb-128gb",
+  "base_model_slug": "realme-gt-master-premium-edition-5g-dual-sim-td-lte-in-128gb-rmx3360",
+  "name": "Realme GT Master Premium Edition 5G Dual SIM TD-LTE IN 128GB RMX3360",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1724,
+    "slug": "qualcomm-snapdragon-778g-5g-sm7325",
+    "name": "Qualcomm Snapdragon 778G 5G SM7325",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Qualcomm Adreno 642L",
+    "url": "/v1/socs/qualcomm-snapdragon-778g-5g-sm7325"
+  },
+  "release_date": "2021-08-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "india",
+    "market_country": "India",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5438:india",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.43,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.1
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 174.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.5,
+    "performance": null,
+    "camera": 21.6,
+    "battery": 24.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:15.973341",
+  "updated_at": "2026-06-20T18:00:15.973341"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 6682,
+  "slug": "blackview-bv9600-pro-global-dual-sim-sady36-denmark-6gb-128gb",
+  "base_model_slug": "bv9600-pro-global-dual-sim",
+  "name": "BV9600 Pro Global Dual SIM TD-LTE",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 1134,
+    "slug": "mediatek-helio-p70-mt6771wt",
+    "name": "MediaTek Helio P70 MT6771WT",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G72MP3",
+    "url": "/v1/socs/mediatek-helio-p70-mt6771wt"
+  },
+  "release_date": "2018-10-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "denmark",
+    "market_country": "Denmark",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2159:denmark",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Europe , Middle East , Oceania , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.21,
+    "resolution": "1080x2248",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 16.2
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5580,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 268.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 38.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:05.496829",
+  "updated_at": "2026-06-20T18:00:05.496829"
+}

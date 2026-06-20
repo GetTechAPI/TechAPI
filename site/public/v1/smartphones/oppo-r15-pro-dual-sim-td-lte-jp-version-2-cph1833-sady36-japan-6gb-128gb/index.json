@@ -1,0 +1,86 @@
+{
+  "id": 33256,
+  "slug": "oppo-r15-pro-dual-sim-td-lte-jp-version-2-cph1833-sady36-japan-6gb-128gb",
+  "base_model_slug": "r15-pro-dual-sim-td-lte-jp-version-2-cph1833",
+  "name": "R15 Pro Dual SIM TD-LTE JP Version 2 CPH1833",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1645,
+    "slug": "qualcomm-snapdragon-660-sdm660",
+    "name": "Qualcomm Snapdragon 660 SDM660",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Qualcomm Adreno 304",
+    "url": "/v1/socs/qualcomm-snapdragon-660-sdm660"
+  },
+  "release_date": "2018-08-16",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:591:japan",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.28,
+    "resolution": "1080x2280",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 15.9
+    },
+    {
+      "type": "selfie",
+      "mp": 20.1
+    }
+  ],
+  "battery_mah": 3430,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.3,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 6.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.714306",
+  "updated_at": "2026-06-20T18:00:14.714306"
+}

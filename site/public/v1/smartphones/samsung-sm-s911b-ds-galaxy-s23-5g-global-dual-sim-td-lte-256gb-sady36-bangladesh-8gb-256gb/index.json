@@ -1,0 +1,87 @@
+{
+  "id": 51105,
+  "slug": "samsung-sm-s911b-ds-galaxy-s23-5g-global-dual-sim-td-lte-256gb-sady36-bangladesh-8gb-256gb",
+  "base_model_slug": "sm-s911b-ds-galaxy-s23-5g-global-dual-sim-td-lte-256gb",
+  "name": "SM-S911B/DS Galaxy S23 5G Global Dual SIM TD-LTE 256GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1760,
+    "slug": "qualcomm-snapdragon-8-gen-2-for-galaxy-sm8550-ac",
+    "name": "Qualcomm Snapdragon 8 Gen 2 for Galaxy SM8550-AC",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Qualcomm Adreno 730",
+    "url": "/v1/socs/qualcomm-snapdragon-8-gen-2-for-galaxy-sm8550-ac"
+  },
+  "release_date": "2023-02-17",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "bangladesh",
+    "market_country": "Bangladesh",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7681:bangladesh",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Africa , Asia , Central America , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.06,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 12.0
+    }
+  ],
+  "battery_mah": 3900,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.4,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 28.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.788639",
+  "updated_at": "2026-06-20T18:00:20.788639"
+}

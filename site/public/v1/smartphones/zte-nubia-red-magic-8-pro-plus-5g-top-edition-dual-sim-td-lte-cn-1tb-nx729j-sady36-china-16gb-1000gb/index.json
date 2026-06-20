@@ -1,0 +1,87 @@
+{
+  "id": 68765,
+  "slug": "zte-nubia-red-magic-8-pro-plus-5g-top-edition-dual-sim-td-lte-cn-1tb-nx729j-sady36-china-16gb-1000gb",
+  "base_model_slug": "nubia-red-magic-8-pro-plus-5g-top-edition-dual-sim-td-lte-cn-1tb-nx729j",
+  "name": "Nubia Red Magic 8 Pro+ 5G Top Edition Dual SIM TD-LTE CN 1TB NX729J",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1774,
+    "slug": "qualcomm-snapdragon-8-gen-2-5g-sm8550-ab",
+    "name": "Qualcomm Snapdragon 8 Gen 2 5G SM8550-AB",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Qualcomm Adreno 740",
+    "url": "/v1/socs/qualcomm-snapdragon-8-gen-2-5g-sm8550-ab"
+  },
+  "release_date": "2022-12-28",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    1000
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:8165:china",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 1000
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1116x2480",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 230.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 13 (Tiramisu)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.9,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 45.0,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.736411",
+  "updated_at": "2026-06-20T18:00:26.736411"
+}

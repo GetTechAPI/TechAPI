@@ -1,0 +1,86 @@
+{
+  "id": 59621,
+  "slug": "wiko-view-2-dual-sim-lte-a-m2124-sady36-cyprus-3gb-32gb",
+  "base_model_slug": "view-2-dual-sim-lte-a-m2124",
+  "name": "View 2 Dual SIM LTE-A M2124",
+  "brand": {
+    "id": 72,
+    "slug": "wiko",
+    "name": "Wiko",
+    "country": "FR",
+    "url": "/v1/brands/wiko"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2018-03-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "cyprus",
+    "market_country": "Cyprus",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:104:cyprus",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Africa , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "720x1528",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.1
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 153.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.7,
+    "performance": null,
+    "camera": 5.4,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.003626",
+  "updated_at": "2026-06-20T18:00:24.003626"
+}

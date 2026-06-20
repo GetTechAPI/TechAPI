@@ -1,0 +1,86 @@
+{
+  "id": 60815,
+  "slug": "xiaomi-mi-9-global-dual-sim-td-lte-128gb-m1902f1g-sady36-italy-6gb-128gb",
+  "base_model_slug": "mi-9-global-dual-sim-td-lte-128gb-m1902f1g",
+  "name": "Mi 9 Global Dual SIM TD-LTE 128GB M1902F1G",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1677,
+    "slug": "qualcomm-snapdragon-855-sm8150",
+    "name": "Qualcomm Snapdragon 855 SM8150",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 640",
+    "url": "/v1/socs/qualcomm-snapdragon-855-sm8150"
+  },
+  "release_date": "2019-03-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "italy",
+    "market_country": "Italy",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1710:italy",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , Middle East , North America , Oceania , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.39,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 19.9
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.5,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 4.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.343306",
+  "updated_at": "2026-06-20T18:00:24.343306"
+}

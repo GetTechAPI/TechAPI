@@ -1,0 +1,86 @@
+{
+  "id": 13275,
+  "slug": "huawei-nova-3-dual-sim-lte-a-emea-par-lx1m-par-l21m-sady36-romania-4gb-128gb",
+  "base_model_slug": "nova-3-dual-sim-lte-a-emea-par-lx1m-par-l21m",
+  "name": "Nova 3 Dual SIM LTE-A EMEA PAR-LX1M / PAR-L21M",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2018-08-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "romania",
+    "market_country": "Romania",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:907:romania",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "1080x2340",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 23.8
+    },
+    {
+      "type": "selfie",
+      "mp": 23.8
+    }
+  ],
+  "battery_mah": 3750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 166.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.0,
+    "performance": null,
+    "camera": 8.8,
+    "battery": 11.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:07.936209",
+  "updated_at": "2026-06-20T18:00:07.936209"
+}

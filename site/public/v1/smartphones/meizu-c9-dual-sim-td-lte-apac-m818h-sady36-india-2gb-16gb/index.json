@@ -1,0 +1,86 @@
+{
+  "id": 23360,
+  "slug": "meizu-c9-dual-sim-td-lte-apac-m818h-sady36-india-2gb-16gb",
+  "base_model_slug": "c9-dual-sim-td-lte-apac-m818h",
+  "name": "C9 Dual SIM TD-LTE APAC M818H",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 2069,
+    "slug": "spreadtrum-sc9832e",
+    "name": "Spreadtrum SC9832E",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "ARM Mali-T820",
+    "url": "/v1/socs/spreadtrum-sc9832e"
+  },
+  "release_date": "2018-10-29",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "india",
+    "market_country": "India",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1260:india",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "market_regions": "Asia , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 5.45,
+    "resolution": "720x1440",
+    "type": "Color ASV TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:11.432572",
+  "updated_at": "2026-06-20T18:00:11.432572"
+}

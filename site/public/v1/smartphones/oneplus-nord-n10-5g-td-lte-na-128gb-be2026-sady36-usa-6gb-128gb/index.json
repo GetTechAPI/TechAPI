@@ -1,0 +1,87 @@
+{
+  "id": 32097,
+  "slug": "oneplus-nord-n10-5g-td-lte-na-128gb-be2026-sady36-usa-6gb-128gb",
+  "base_model_slug": "nord-n10-5g-td-lte-na-128gb-be2026",
+  "name": "Nord N10 5G TD-LTE NA 128GB BE2026",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1720,
+    "slug": "qualcomm-snapdragon-690-5g-sm6350",
+    "name": "Qualcomm Snapdragon 690 5G SM6350",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Qualcomm Adreno 619L",
+    "url": "/v1/socs/qualcomm-snapdragon-690-5g-sm6350"
+  },
+  "release_date": "2021-01-14",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "usa",
+    "market_country": "USA",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4986:usa",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "North America"
+  },
+  "display": {
+    "size_inch": 6.49,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.7,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 19.5,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.341924",
+  "updated_at": "2026-06-20T18:00:14.341924"
+}

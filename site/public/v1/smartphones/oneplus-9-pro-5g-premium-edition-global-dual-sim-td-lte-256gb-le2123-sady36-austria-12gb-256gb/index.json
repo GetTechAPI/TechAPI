@@ -1,0 +1,87 @@
+{
+  "id": 31974,
+  "slug": "oneplus-9-pro-5g-premium-edition-global-dual-sim-td-lte-256gb-le2123-sady36-austria-12gb-256gb",
+  "base_model_slug": "9-pro-5g-premium-edition-global-dual-sim-td-lte-256gb-le2123",
+  "name": "9 Pro 5G Premium Edition Global Dual SIM TD-LTE 256GB LE2123",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1744,
+    "slug": "qualcomm-snapdragon-888-5g-sm8350",
+    "name": "Qualcomm Snapdragon 888 5G SM8350",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Qualcomm Adreno 660",
+    "url": "/v1/socs/qualcomm-snapdragon-888-5g-sm8350"
+  },
+  "release_date": "2021-03-29",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4768:austria",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "market_regions": "Africa , Asia , Australia , Eastern Europe , Europe , Middle East , North America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.69,
+    "resolution": "1440x3216",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.5,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 32.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:14.307283",
+  "updated_at": "2026-06-20T18:00:14.307283"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 65175,
+  "slug": "xiaomi-mi-13-lite-5g-standard-edition-global-dual-sim-td-lte-128gb-2210129sg-sady36-bulgaria-8gb-128gb",
+  "base_model_slug": "mi-13-lite-5g-standard-edition-global-dual-sim-td-lte-128gb-2210129sg",
+  "name": "Mi 13 Lite 5G Standard Edition Global Dual SIM TD-LTE 128GB 2210129SG",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1770,
+    "slug": "qualcomm-snapdragon-7-gen-1-5g-sm7450-ab",
+    "name": "Qualcomm Snapdragon 7 Gen 1 5G SM7450-AB",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Qualcomm Adreno 644",
+    "url": "/v1/socs/qualcomm-snapdragon-7-gen-1-5g-sm7450-ab"
+  },
+  "release_date": "2023-02-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "bulgaria",
+    "market_country": "Bulgaria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7610:bulgaria",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Australia , Eastern Europe , Europe , Middle East , North America , Oceania , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 37.4,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 37.5,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:25.613688",
+  "updated_at": "2026-06-20T18:00:25.613688"
+}

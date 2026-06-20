@@ -1,0 +1,87 @@
+{
+  "id": 55092,
+  "slug": "tcl-10l-global-dual-sim-td-lte-128gb-t770h-sady36-finland-6gb-128gb",
+  "base_model_slug": "10l-global-dual-sim-td-lte-128gb-t770h",
+  "name": "10L Global Dual SIM TD-LTE 128GB T770H",
+  "brand": {
+    "id": 46,
+    "slug": "tcl",
+    "name": "TCL",
+    "country": "CN",
+    "url": "/v1/brands/tcl"
+  },
+  "soc": {
+    "id": 1718,
+    "slug": "qualcomm-snapdragon-665-sm6125",
+    "name": "Qualcomm Snapdragon 665 SM6125",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 11.0,
+    "gpu_name": "Qualcomm Adreno 610",
+    "url": "/v1/socs/qualcomm-snapdragon-665-sm6125"
+  },
+  "release_date": "2020-04-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "finland",
+    "market_country": "Finland",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3449:finland",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Middle East , Oceania , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.53,
+    "resolution": "1080x2340",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.3,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 15.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:22.567580",
+  "updated_at": "2026-06-20T18:00:22.567580"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 17418,
+  "slug": "infinix-hot-s3-dual-sim-td-lte-32gb-x573-sady36-egypt-3gb-32gb",
+  "base_model_slug": "hot-s3-dual-sim-td-lte-32gb-x573",
+  "name": "HOT S3 Dual SIM TD-LTE 32GB X573",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1638,
+    "slug": "qualcomm-snapdragon-430-msm8937",
+    "name": "Qualcomm Snapdragon 430 MSM8937",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 505",
+    "url": "/v1/socs/qualcomm-snapdragon-430-msm8937"
+  },
+  "release_date": "2018-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "egypt",
+    "market_country": "Egypt",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:575:egypt",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Africa , Asia , Middle East , Oceania , South America , Worldwide"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 19.8
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.2,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:09.178969",
+  "updated_at": "2026-06-20T18:00:09.178969"
+}

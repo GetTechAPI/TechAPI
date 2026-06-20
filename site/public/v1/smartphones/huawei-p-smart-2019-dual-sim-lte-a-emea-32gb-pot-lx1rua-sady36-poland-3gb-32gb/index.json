@@ -1,0 +1,86 @@
+{
+  "id": 14227,
+  "slug": "huawei-p-smart-2019-dual-sim-lte-a-emea-32gb-pot-lx1rua-sady36-poland-3gb-32gb",
+  "base_model_slug": "p-smart-2019-dual-sim-lte-a-emea-32gb-pot-lx1rua",
+  "name": "P Smart 2019 Dual SIM LTE-A EMEA 32GB POT-LX1RUA",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 821,
+    "slug": "hisilicon-honor-kirin710",
+    "name": "HiSilicon Honor KIRIN710",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G51MP4",
+    "url": "/v1/socs/hisilicon-honor-kirin710"
+  },
+  "release_date": "2019-01-02",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "poland",
+    "market_country": "Poland",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1452:poland",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.21,
+    "resolution": "1080x2340",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 3400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 5.7,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 6.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.194926",
+  "updated_at": "2026-06-20T18:00:08.194926"
+}

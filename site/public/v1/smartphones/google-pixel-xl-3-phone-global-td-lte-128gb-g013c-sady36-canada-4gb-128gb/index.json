@@ -1,0 +1,86 @@
+{
+  "id": 9278,
+  "slug": "google-pixel-xl-3-phone-global-td-lte-128gb-g013c-sady36-canada-4gb-128gb",
+  "base_model_slug": "pixel-xl-3-phone-global-td-lte-128gb-g013c",
+  "name": "Pixel XL 3 Phone Global TD-LTE 128GB G013C",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 1675,
+    "slug": "qualcomm-snapdragon-845-sdm845",
+    "name": "Qualcomm Snapdragon 845 SDM845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Qualcomm Adreno 630",
+    "url": "/v1/socs/qualcomm-snapdragon-845-sdm845"
+  },
+  "release_date": "2018-10-17",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "canada",
+    "market_country": "Canada",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:774:canada",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Australia , Europe , Middle East , North America , South America , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "1440x2960",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3430,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 5.8,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 6.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:06.644861",
+  "updated_at": "2026-06-20T18:00:06.644861"
+}

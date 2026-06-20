@@ -1,0 +1,86 @@
+{
+  "id": 14922,
+  "slug": "huawei-maimang-9-5g-premium-edition-dual-sim-td-lte-cn-128gb-tnn-an00-sady36-china-8gb-128gb",
+  "base_model_slug": "maimang-9-5g-premium-edition-dual-sim-td-lte-cn-128gb-tnn-an00",
+  "name": "Maimang 9 5G Premium Edition Dual SIM TD-LTE CN 128GB TNN-AN00",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1200,
+    "slug": "mediatek-dimensity-800-mt6873-mt6873v",
+    "name": "MediaTek Dimensity 800 MT6873 / MT6873V",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "ARM Mali-G57MP4",
+    "url": "/v1/socs/mediatek-dimensity-800-mt6873-mt6873v"
+  },
+  "release_date": "2020-08-07",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3999:china",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 212.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.0,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 19.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.412187",
+  "updated_at": "2026-06-20T18:00:08.412187"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 13106,
+  "slug": "huawei-honor-v20-standard-edition-dual-sim-td-lte-cn-pct-al10-view-20-sady36-hk-6gb-128gb",
+  "base_model_slug": "honor-v20-standard-edition-dual-sim-td-lte-cn-pct-al10-view-20",
+  "name": "Honor V20 Standard Edition Dual SIM TD-LTE CN PCT-AL10 / View 20",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 801,
+    "slug": "hisilicon-honor-kirin980",
+    "name": "HiSilicon Honor KIRIN980",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "ARM Mali-G76MP10",
+    "url": "/v1/socs/hisilicon-honor-kirin980"
+  },
+  "release_date": "2018-12-28",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "hk",
+    "market_country": "HK",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1491:hk",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.4,
+    "resolution": "1080x2310",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 24.8
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.8,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:07.888795",
+  "updated_at": "2026-06-20T18:00:07.888795"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 49548,
+  "slug": "samsung-sm-a536e-ds-galaxy-a53-5g-2022-premium-edition-global-dual-sim-7678ed4e-sady36-bangladesh-8gb-128gb",
+  "base_model_slug": "sm-a536e-ds-galaxy-a53-5g-2022-premium-edition-global-dual-sim-7678ed4e",
+  "name": "SM-A536E/DS Galaxy A53 5G 2022 Premium Edition Global Dual SIM TD-LTE 128GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1966,
+    "slug": "samsung-exynos-1280-5g-s5e8825",
+    "name": "Samsung Exynos 1280 5G S5E8825",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "ARM Mali-G68MP4",
+    "url": "/v1/socs/samsung-exynos-1280-5g-s5e8825"
+  },
+  "release_date": "2022-04-02",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "bangladesh",
+    "market_country": "Bangladesh",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6206:bangladesh",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Australia , Central America , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.46,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 32.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 39.7,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 40.0,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:20.344508",
+  "updated_at": "2026-06-20T18:00:20.344508"
+}

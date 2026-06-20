@@ -1,0 +1,86 @@
+{
+  "id": 29737,
+  "slug": "nokia-5-1-plus-2018-global-dual-sim-td-lte-32gb-sady36-latvia-3gb-32gb",
+  "base_model_slug": "5-1-plus-2018-global-dual-sim-td-lte-32gb",
+  "name": "5.1 Plus 2018 Global Dual SIM TD-LTE 32GB",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1133,
+    "slug": "mediatek-helio-p60-mt6771",
+    "name": "MediaTek Helio P60 MT6771",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G72MP3",
+    "url": "/v1/socs/mediatek-helio-p60-mt6771"
+  },
+  "release_date": "2018-12-06",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "latvia",
+    "market_country": "Latvia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1400:latvia",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.86,
+    "resolution": "720x1520",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 151.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.1,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:13.611586",
+  "updated_at": "2026-06-20T18:00:13.611586"
+}

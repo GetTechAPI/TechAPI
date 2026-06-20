@@ -1,0 +1,86 @@
+{
+  "id": 13320,
+  "slug": "huawei-nova-3i-dual-sim-td-lte-apac-ine-lx2-128gb-sady36-indonesia-4gb-128gb",
+  "base_model_slug": "nova-3i-dual-sim-td-lte-apac-ine-lx2-128gb",
+  "name": "Nova 3i Dual SIM TD-LTE APAC INE-LX2 128GB",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 821,
+    "slug": "hisilicon-honor-kirin710",
+    "name": "HiSilicon Honor KIRIN710",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G51MP4",
+    "url": "/v1/socs/hisilicon-honor-kirin710"
+  },
+  "release_date": "2018-07-26",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "indonesia",
+    "market_country": "Indonesia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:688:indonesia",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Oceania , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "1080x2340",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 15.9
+    },
+    {
+      "type": "selfie",
+      "mp": 23.8
+    }
+  ],
+  "battery_mah": 3340,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 5.7,
+    "performance": null,
+    "camera": 6.3,
+    "battery": 5.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:07.947749",
+  "updated_at": "2026-06-20T18:00:07.947749"
+}

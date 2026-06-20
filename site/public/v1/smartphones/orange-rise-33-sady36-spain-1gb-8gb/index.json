@@ -1,0 +1,86 @@
+{
+  "id": 38461,
+  "slug": "orange-rise-33-sady36-spain-1gb-8gb",
+  "base_model_slug": "rise-33",
+  "name": "Rise 33",
+  "brand": {
+    "id": 70,
+    "slug": "orange",
+    "name": "Orange",
+    "country": "FR",
+    "url": "/v1/brands/orange"
+  },
+  "soc": {
+    "id": 1167,
+    "slug": "mediatek-mt6580",
+    "name": "Mediatek MT6580",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-mt6580"
+  },
+  "release_date": "2017-03-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "spain",
+    "market_country": "Spain",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:859:spain",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "market_regions": "Europe , South America"
+  },
+  "display": {
+    "size_inch": 4.0,
+    "resolution": "480x800",
+    "type": "Color TN-TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 1.9
+    },
+    {
+      "type": "selfie",
+      "mp": 1.9
+    }
+  ],
+  "battery_mah": 1750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 114.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:16.671706",
+  "updated_at": "2026-06-20T18:00:16.671706"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 45383,
+  "slug": "samsung-sm-n970f-galaxy-note-10-global-td-lte-256gb-sady36-croatia-8gb-256gb",
+  "base_model_slug": "sm-n970f-galaxy-note-10-global-td-lte-256gb",
+  "name": "SM-N970F Galaxy Note 10 Global TD-LTE 256GB",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1871,
+    "slug": "exynos",
+    "name": "Exynos",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-400",
+    "url": "/v1/socs/exynos"
+  },
+  "release_date": "2019-08-23",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "croatia",
+    "market_country": "Croatia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2333:croatia",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Africa , Asia , Australia , Eastern Europe , Europe , Middle East , South America , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.28,
+    "resolution": "1080x2280",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 10.0
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.3,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:19.075785",
+  "updated_at": "2026-06-20T18:00:19.075785"
+}

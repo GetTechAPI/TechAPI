@@ -1,0 +1,86 @@
+{
+  "id": 6759,
+  "slug": "blackview-bv5900-dual-sim-td-lte-sady36-czech-3gb-32gb",
+  "base_model_slug": "bv5900-dual-sim-td-lte",
+  "name": "BV5900 Dual SIM TD-LTE EMEA",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 1161,
+    "slug": "mediatek-helio-a22-mt6761",
+    "name": "MediaTek Helio A22 MT6761",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8300",
+    "url": "/v1/socs/mediatek-helio-a22-mt6761"
+  },
+  "release_date": "2019-09-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "czech",
+    "market_country": "Czech",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3137:czech",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "market_regions": "Africa , Asia , Europe , Oceania , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "720x1520",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 5580,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 268.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.0,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 38.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:05.513391",
+  "updated_at": "2026-06-20T18:00:05.513391"
+}

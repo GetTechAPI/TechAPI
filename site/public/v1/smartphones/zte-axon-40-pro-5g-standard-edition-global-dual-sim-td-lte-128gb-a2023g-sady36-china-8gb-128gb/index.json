@@ -1,0 +1,87 @@
+{
+  "id": 68554,
+  "slug": "zte-axon-40-pro-5g-standard-edition-global-dual-sim-td-lte-128gb-a2023g-sady36-china-8gb-128gb",
+  "base_model_slug": "axon-40-pro-5g-standard-edition-global-dual-sim-td-lte-128gb-a2023g",
+  "name": "Axon 40 Pro 5G Standard Edition Global Dual SIM TD-LTE 128GB A2023G",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1741,
+    "slug": "qualcomm-snapdragon-870-5g-sm8250-ac",
+    "name": "Qualcomm Snapdragon 870 5G SM8250-AC",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-870-5g-sm8250-ac"
+  },
+  "release_date": "2022-05-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:7121:china",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Eastern Europe , Europe , Middle East , North America , Oceania , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "refresh_hz": 144
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 108.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 12 (S)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.4,
+    "performance": null,
+    "camera": 35.7,
+    "battery": 30.0,
+    "display": 67.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:26.679525",
+  "updated_at": "2026-06-20T18:00:26.679525"
+}

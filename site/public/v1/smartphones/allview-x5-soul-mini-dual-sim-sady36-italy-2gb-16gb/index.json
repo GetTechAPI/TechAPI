@@ -1,0 +1,86 @@
+{
+  "id": 1975,
+  "slug": "allview-x5-soul-mini-dual-sim-sady36-italy-2gb-16gb",
+  "base_model_slug": "x5-soul-mini-dual-sim",
+  "name": "X5 Soul Mini Dual SIM TD-LTE",
+  "brand": {
+    "id": 120,
+    "slug": "allview",
+    "name": "Allview",
+    "country": "RO",
+    "url": "/v1/brands/allview"
+  },
+  "soc": {
+    "id": 1170,
+    "slug": "mediatek-mt6739",
+    "name": "Mediatek MT6739",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR GE8100",
+    "url": "/v1/socs/mediatek-mt6739"
+  },
+  "release_date": "2018-08-23",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "italy",
+    "market_country": "Italy",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:972:italy",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "market_regions": "Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.67,
+    "resolution": "720x1498",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 3050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 156.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.018030",
+  "updated_at": "2026-06-20T18:00:04.018030"
+}

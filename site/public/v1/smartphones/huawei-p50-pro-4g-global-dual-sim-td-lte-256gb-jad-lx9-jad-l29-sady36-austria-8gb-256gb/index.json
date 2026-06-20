@@ -1,0 +1,87 @@
+{
+  "id": 15836,
+  "slug": "huawei-p50-pro-4g-global-dual-sim-td-lte-256gb-jad-lx9-jad-l29-sady36-austria-8gb-256gb",
+  "base_model_slug": "p50-pro-4g-global-dual-sim-td-lte-256gb-jad-lx9-jad-l29",
+  "name": "P50 Pro 4G Global Dual SIM TD-LTE 256GB JAD-LX9 / JAD-L29",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1742,
+    "slug": "qualcomm-snapdragon-888-4g",
+    "name": "Qualcomm Snapdragon 888 4G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Qualcomm Adreno 660",
+    "url": "/v1/socs/qualcomm-snapdragon-888-4g"
+  },
+  "release_date": "2021-08-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5231:austria",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.59,
+    "resolution": "1228x2700",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 4360,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Huawei HarmonyOS 2.0",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.0,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.4,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.674501",
+  "updated_at": "2026-06-20T18:00:08.674501"
+}

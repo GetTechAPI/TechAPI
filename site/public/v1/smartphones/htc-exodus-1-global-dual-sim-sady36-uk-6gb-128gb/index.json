@@ -1,0 +1,86 @@
+{
+  "id": 11690,
+  "slug": "htc-exodus-1-global-dual-sim-sady36-uk-6gb-128gb",
+  "base_model_slug": "exodus-1-global-dual-sim",
+  "name": "Exodus 1 Global Dual SIM TD-LTE",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1675,
+    "slug": "qualcomm-snapdragon-845-sdm845",
+    "name": "Qualcomm Snapdragon 845 SDM845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Qualcomm Adreno 630",
+    "url": "/v1/socs/qualcomm-snapdragon-845-sdm845"
+  },
+  "release_date": "2018-12-08",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "uk",
+    "market_country": "UK",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1243:uk",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Europe , North America , Southeast Asia , Worldwide"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "1440x2880",
+    "type": "Color PVA TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.3,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:07.443556",
+  "updated_at": "2026-06-20T18:00:07.443556"
+}

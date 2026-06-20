@@ -1,0 +1,86 @@
+{
+  "id": 8845,
+  "slug": "fujitsu-arrows-we-td-lte-jp-a101fc-sady36-japan-4gb-64gb",
+  "base_model_slug": "arrows-we-td-lte-jp-a101fc",
+  "name": "Arrows We TD-LTE JP A101FC",
+  "brand": {
+    "id": 98,
+    "slug": "fujitsu",
+    "name": "Fujitsu",
+    "country": "JP",
+    "url": "/v1/brands/fujitsu"
+  },
+  "soc": {
+    "id": 1717,
+    "slug": "qualcomm-snapdragon-480-5g-sm4350",
+    "name": "Qualcomm Snapdragon 480 5G SM4350",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Qualcomm Adreno 619",
+    "url": "/v1/socs/qualcomm-snapdragon-480-5g-sm4350"
+  },
+  "release_date": "2021-12-03",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "japan",
+    "market_country": "Japan",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6428:japan",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "720x1520",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 172.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.2,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:06.173122",
+  "updated_at": "2026-06-20T18:00:06.173122"
+}

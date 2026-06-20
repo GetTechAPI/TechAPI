@@ -1,0 +1,87 @@
+{
+  "id": 15481,
+  "slug": "huawei-y9a-4g-premium-edition-dual-sim-td-lte-emea-frl-l22-frl-lx2-sady36-nigeria-8gb-128gb",
+  "base_model_slug": "y9a-4g-premium-edition-dual-sim-td-lte-emea-frl-l22-frl-lx2",
+  "name": "Y9a 4G Premium Edition Dual SIM TD-LTE EMEA FRL-L22 / FRL-LX2",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1264,
+    "slug": "mediatek-helio-g80-mt6769v-cu",
+    "name": "MediaTek Helio G80 MT6769V/CU",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G52MP2",
+    "url": "/v1/socs/mediatek-helio-g80-mt6769v-cu"
+  },
+  "release_date": "2020-09-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "nigeria",
+    "market_country": "Nigeria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5249:nigeria",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Asia , Middle East"
+  },
+  "display": {
+    "size_inch": 6.63,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.2,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 18.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.563187",
+  "updated_at": "2026-06-20T18:00:08.563187"
+}

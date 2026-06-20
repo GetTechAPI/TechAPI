@@ -1,0 +1,87 @@
+{
+  "id": 63383,
+  "slug": "xiaomi-redmi-note-11-5g-premium-edition-dual-sim-td-lte-cn-128gb-21091116ac-sady36-china-6gb-128gb",
+  "base_model_slug": "redmi-note-11-5g-premium-edition-dual-sim-td-lte-cn-128gb-21091116ac",
+  "name": "Redmi Note 11 5G Premium Edition Dual SIM TD-LTE CN 128GB 21091116AC",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1257,
+    "slug": "mediatek-dimensity-810-mt6833p",
+    "name": "MediaTek Dimensity 810 MT6833P",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "ARM Mali-G57MP2",
+    "url": "/v1/socs/mediatek-dimensity-810-mt6833p"
+  },
+  "release_date": "2021-11-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "china",
+    "market_country": "China",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6102:china",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia"
+  },
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.4,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 35.0,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:25.073823",
+  "updated_at": "2026-06-20T18:00:25.073823"
+}

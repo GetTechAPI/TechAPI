@@ -1,0 +1,86 @@
+{
+  "id": 53527,
+  "slug": "sony-xperia-xz3-global-td-lte-h8416-pf42-sady36-austria-4gb-64gb",
+  "base_model_slug": "xperia-xz3-global-td-lte-h8416-pf42",
+  "name": "Xperia XZ3 Global TD-LTE H8416 / PF42",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1675,
+    "slug": "qualcomm-snapdragon-845-sdm845",
+    "name": "Qualcomm Snapdragon 845 SDM845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Qualcomm Adreno 630",
+    "url": "/v1/socs/qualcomm-snapdragon-845-sdm845"
+  },
+  "release_date": "2018-10-04",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "austria",
+    "market_country": "Austria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:899:austria",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , North America , South America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.98,
+    "resolution": "1440x2880",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 19.2
+    },
+    {
+      "type": "selfie",
+      "mp": 13.0
+    }
+  ],
+  "battery_mah": 3330,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 193.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.2,
+    "performance": null,
+    "camera": 7.3,
+    "battery": 5.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:22.050065",
+  "updated_at": "2026-06-20T18:00:22.050065"
+}

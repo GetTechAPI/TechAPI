@@ -1,0 +1,86 @@
+{
+  "id": 61022,
+  "slug": "xiaomi-mi-mix-3-5g-global-td-lte-64gb-m1810e5gg-sady36-italy-6gb-64gb",
+  "base_model_slug": "mi-mix-3-5g-global-td-lte-64gb-m1810e5gg",
+  "name": "Mi Mix 3 5G Global TD-LTE 64GB M1810E5GG",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1677,
+    "slug": "qualcomm-snapdragon-855-sm8150",
+    "name": "Qualcomm Snapdragon 855 SM8150",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 640",
+    "url": "/v1/socs/qualcomm-snapdragon-855-sm8150"
+  },
+  "release_date": "2019-05-02",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "italy",
+    "market_country": "Italy",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1709:italy",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , North America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.39,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 23.9
+    }
+  ],
+  "battery_mah": 3800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 225.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.6,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 12.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.405149",
+  "updated_at": "2026-06-20T18:00:24.405149"
+}

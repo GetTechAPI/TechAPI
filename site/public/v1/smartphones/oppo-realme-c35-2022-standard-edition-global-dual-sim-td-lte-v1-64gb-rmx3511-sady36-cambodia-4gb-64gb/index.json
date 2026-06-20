@@ -1,0 +1,87 @@
+{
+  "id": 37424,
+  "slug": "oppo-realme-c35-2022-standard-edition-global-dual-sim-td-lte-v1-64gb-rmx3511-sady36-cambodia-4gb-64gb",
+  "base_model_slug": "realme-c35-2022-standard-edition-global-dual-sim-td-lte-v1-64gb-rmx3511",
+  "name": "Realme C35 2022 Standard Edition Global Dual SIM TD-LTE V1 64GB RMX3511",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 2093,
+    "slug": "unisoc-tiger-t616",
+    "name": "UNISOC Tiger T616",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G57",
+    "url": "/v1/socs/unisoc-tiger-t616"
+  },
+  "release_date": "2022-02-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "cambodia",
+    "market_country": "Cambodia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6892:cambodia",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Eastern Europe , Europe , Oceania , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "1080x2408",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.1
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 11 (R)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.6,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 30.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:16.339929",
+  "updated_at": "2026-06-20T18:00:16.339929"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 22567,
+  "slug": "lg-lmg900em-velvet-5g-global-td-lte-g900em-sady36-czech-6gb-128gb",
+  "base_model_slug": "lmg900em-velvet-5g-global-td-lte-g900em",
+  "name": "LMG900EM Velvet 5G Global TD-LTE G900EM",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1739,
+    "slug": "qualcomm-snapdragon-765g-5g-sm7250-ab",
+    "name": "Qualcomm Snapdragon 765G 5G SM7250-AB",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 620",
+    "url": "/v1/socs/qualcomm-snapdragon-765g-5g-sm7250-ab"
+  },
+  "release_date": "2020-06-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "czech",
+    "market_country": "Czech",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3948:czech",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "market_regions": "Africa , Australia , Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1080x2460",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 179.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.0,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 19.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:11.184508",
+  "updated_at": "2026-06-20T18:00:11.184508"
+}

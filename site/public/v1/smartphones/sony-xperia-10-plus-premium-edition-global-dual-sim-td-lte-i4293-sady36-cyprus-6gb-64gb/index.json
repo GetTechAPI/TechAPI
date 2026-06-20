@@ -1,0 +1,86 @@
+{
+  "id": 53634,
+  "slug": "sony-xperia-10-plus-premium-edition-global-dual-sim-td-lte-i4293-sady36-cyprus-6gb-64gb",
+  "base_model_slug": "xperia-10-plus-premium-edition-global-dual-sim-td-lte-i4293",
+  "name": "Xperia 10 Plus Premium Edition Global Dual SIM TD-LTE I4293",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1673,
+    "slug": "qualcomm-snapdragon-636-sdm636",
+    "name": "Qualcomm Snapdragon 636 SDM636",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Qualcomm Adreno 509",
+    "url": "/v1/socs/qualcomm-snapdragon-636-sdm636"
+  },
+  "release_date": "2019-02-28",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "cyprus",
+    "market_country": "Cyprus",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:1862:cyprus",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Australia , Eastern Europe , Europe , Middle East , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1080x2520",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:22.080206",
+  "updated_at": "2026-06-20T18:00:22.080206"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 4344,
+  "slug": "apple-iphone-se-5g-2022-3rd-gen-a2784-dual-sim-td-lte-ru-kz-64gb-sady36-armenia-4gb-64gb",
+  "base_model_slug": "iphone-se-5g-2022-3rd-gen-a2784-dual-sim-td-lte-ru-kz-64gb",
+  "name": "iPhone SE 5G 2022 3rd gen A2784 Dual SIM TD-LTE RU KZ 64GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 39,
+    "slug": "apple-a15-bionic-apl1007-apl1w07",
+    "name": "Apple A15 Bionic APL1007 / APL1W07",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple A15MP5",
+    "url": "/v1/socs/apple-a15-bionic-apl1007-apl1w07"
+  },
+  "release_date": "2022-03-18",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "armenia",
+    "market_country": "Armenia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:6111:armenia",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Asia , Eastern Europe , Europe"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "750x1334",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 7.2
+    }
+  ],
+  "battery_mah": 2018,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 144.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 15",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.9,
+    "performance": null,
+    "camera": 5.1,
+    "battery": 10.0,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.739401",
+  "updated_at": "2026-06-20T18:00:04.739401"
+}

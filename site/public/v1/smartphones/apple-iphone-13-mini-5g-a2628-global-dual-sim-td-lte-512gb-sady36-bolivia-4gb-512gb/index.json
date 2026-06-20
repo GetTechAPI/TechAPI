@@ -1,0 +1,87 @@
+{
+  "id": 3513,
+  "slug": "apple-iphone-13-mini-5g-a2628-global-dual-sim-td-lte-512gb-sady36-bolivia-4gb-512gb",
+  "base_model_slug": "iphone-13-mini-5g-a2628-global-dual-sim-td-lte-512gb",
+  "name": "iPhone 13 mini 5G A2628 Global Dual SIM TD-LTE 512GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 38,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2021-09-24",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "bolivia",
+    "market_country": "Bolivia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:5525:bolivia",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 512
+    },
+    "market_regions": "Africa , Asia , Australia , Central America , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia , Western Europe , Worldwide"
+  },
+  "display": {
+    "size_inch": 5.39,
+    "resolution": "1080x2340",
+    "type": "AM-OLED display",
+    "refresh_hz": 120
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 2406,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 15",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.4,
+    "performance": 33.1,
+    "camera": 5.1,
+    "battery": 10.0,
+    "display": 57.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.499755",
+  "updated_at": "2026-06-20T18:00:04.499755"
+}

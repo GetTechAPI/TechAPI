@@ -1,0 +1,86 @@
+{
+  "id": 13586,
+  "slug": "huawei-y7-2018-lte-emea-ldn-l01-sady36-cyprus-2gb-16gb",
+  "base_model_slug": "y7-2018-lte-emea-ldn-l01",
+  "name": "Y7 2018 LTE EMEA LDN-L01",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1638,
+    "slug": "qualcomm-snapdragon-430-msm8937",
+    "name": "Qualcomm Snapdragon 430 MSM8937",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 505",
+    "url": "/v1/socs/qualcomm-snapdragon-430-msm8937"
+  },
+  "release_date": "2018-03-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "cyprus",
+    "market_country": "Cyprus",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:851:cyprus",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "market_regions": "Eastern Europe , Europe , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.99,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.1"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.6,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:08.021476",
+  "updated_at": "2026-06-20T18:00:08.021476"
+}

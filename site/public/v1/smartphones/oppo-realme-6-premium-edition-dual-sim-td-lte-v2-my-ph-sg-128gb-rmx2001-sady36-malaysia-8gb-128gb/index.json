@@ -1,0 +1,87 @@
+{
+  "id": 34877,
+  "slug": "oppo-realme-6-premium-edition-dual-sim-td-lte-v2-my-ph-sg-128gb-rmx2001-sady36-malaysia-8gb-128gb",
+  "base_model_slug": "realme-6-premium-edition-dual-sim-td-lte-v2-my-ph-sg-128gb-rmx2001",
+  "name": "Realme 6 Premium Edition Dual SIM TD-LTE V2 MY PH SG 128GB RMX2001",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1206,
+    "slug": "mediatek-helio-g90t-mt6785v-cc",
+    "name": "MediaTek Helio G90T MT6785V/CC",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G76MC4",
+    "url": "/v1/socs/mediatek-helio-g90t-mt6785v-cc"
+  },
+  "release_date": "2020-03-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "malaysia",
+    "market_country": "Malaysia",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:3712:malaysia",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "market_regions": "Asia , Oceania , Southeast Asia"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "refresh_hz": 90
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.4
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 191.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.7,
+    "performance": null,
+    "camera": 21.7,
+    "battery": 19.5,
+    "display": 45.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:15.637944",
+  "updated_at": "2026-06-20T18:00:15.637944"
+}

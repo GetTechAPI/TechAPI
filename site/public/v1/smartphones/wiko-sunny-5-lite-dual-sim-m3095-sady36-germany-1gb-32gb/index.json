@@ -1,0 +1,86 @@
+{
+  "id": 59783,
+  "slug": "wiko-sunny-5-lite-dual-sim-m3095-sady36-germany-1gb-32gb",
+  "base_model_slug": "sunny-5-lite-dual-sim-m3095",
+  "name": "Sunny 5 Lite Dual SIM M3095",
+  "brand": {
+    "id": 72,
+    "slug": "wiko",
+    "name": "Wiko",
+    "country": "FR",
+    "url": "/v1/brands/wiko"
+  },
+  "soc": {
+    "id": 2052,
+    "slug": "spreadtrum-sc7731g",
+    "name": "Spreadtrum SC7731G",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/spreadtrum-sc7731g"
+  },
+  "release_date": "2020-08-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "germany",
+    "market_country": "Germany",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:4324:germany",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "market_regions": "Africa , Eastern Europe , Europe , Middle East , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.45,
+    "resolution": "480x960",
+    "type": "Color TN-TFT LCD display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 4.9
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Google Android 10 Go edition (Q)",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 4.2"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.5,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:24.046319",
+  "updated_at": "2026-06-20T18:00:24.046319"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 2611,
+  "slug": "apple-iphone-xs-a2097-global-td-lte-64gb-sady36-bulgaria-4gb-64gb",
+  "base_model_slug": "iphone-xs-a2097-global-td-lte-64gb",
+  "name": "iPhone Xs A2097 Global TD-LTE 64GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 28,
+    "slug": "apple-a12-bionic",
+    "name": "Apple A12 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a12-bionic"
+  },
+  "release_date": "2018-09-21",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "bulgaria",
+    "market_country": "Bulgaria",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:954:bulgaria",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Africa , Asia , Australia , Eastern Europe , Europe , Middle East , North America , Oceania , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 5.85,
+    "resolution": "1125x2436",
+    "type": "AM-OLED display"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 7.2
+    }
+  ],
+  "battery_mah": 2659,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 177.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 12",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.3,
+    "performance": 4.7,
+    "camera": 5.1,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.225724",
+  "updated_at": "2026-06-20T18:00:04.225724"
+}

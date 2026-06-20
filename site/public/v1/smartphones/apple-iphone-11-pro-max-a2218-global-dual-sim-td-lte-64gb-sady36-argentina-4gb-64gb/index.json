@@ -1,0 +1,87 @@
+{
+  "id": 2890,
+  "slug": "apple-iphone-11-pro-max-a2218-global-dual-sim-td-lte-64gb-sady36-argentina-4gb-64gb",
+  "base_model_slug": "iphone-11-pro-max-a2218-global-dual-sim-td-lte-64gb",
+  "name": "iPhone 11 Pro Max A2218 Global Dual SIM TD-LTE 64GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 32,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2019-09-21",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "argentina",
+    "market_country": "Argentina",
+    "source_dataset": "sady36/mobile-phones-specs",
+    "source_key": "sady36/mobile-phones-specs:2374:argentina",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "market_regions": "Africa , Asia , Australia , Central America , Eastern Europe , Europe , Middle East , North America , Oceania , South America , Southeast Asia , Western Europe"
+  },
+  "display": {
+    "size_inch": 6.5,
+    "resolution": "1242x2688",
+    "type": "AM-OLED display",
+    "refresh_hz": 60
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.2
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 3969,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 226.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Apple iOS 13",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.2,
+    "performance": 16.7,
+    "camera": 5.1,
+    "battery": 14.5,
+    "display": 32.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T18:00:04.308580",
+  "updated_at": "2026-06-20T18:00:04.308580"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "htc-desire-650-allphones-2910-2gb-16gb-4g-lte",
+  "base_model_slug": "desire-650",
+  "name": "HTC Desire 650",
+  "brand": "htc",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2200,
+  "weight_g": 140.0,
+  "os": "Android 6.0 (Marshmallow), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2910",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8928-snapdragon-400",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 28mm (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.8, 34mm (standard)"
+    }
+  ]
+}

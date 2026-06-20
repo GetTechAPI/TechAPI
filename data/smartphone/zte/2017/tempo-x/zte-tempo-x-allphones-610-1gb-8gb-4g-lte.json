@@ -1,0 +1,45 @@
+{
+  "slug": "zte-tempo-x-allphones-610-1gb-8gb-4g-lte",
+  "base_model_slug": "tempo-x",
+  "name": "ZTE Tempo X",
+  "brand": "zte",
+  "release_date": "2017-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2200,
+  "weight_g": 141.8,
+  "os": "Android 7.1.1 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:610",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8909-snapdragon-210",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

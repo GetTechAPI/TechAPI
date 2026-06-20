@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-nex-3-5g-allphones-7666-12gb-256gb-5g",
+  "base_model_slug": "nex-3-5g",
+  "name": "vivo NEX 3 5G",
+  "brand": "vivo",
+  "release_date": "2019-01-01",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 218.5,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, Funtouch 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7666",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sm8150-snapdragon-855",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2256 pixels (~363 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 13 MP, f/2.5, 52mm (telephoto), PDAF, 2x optical zoom, 13 MP, f/2.2, 13mm (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Motorized pop-up 16 MP, f/2.1, 26mm (wide), 1/3.06\", 1.0µm"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "oneplus-nord-2t-allphones-5797-12gb-128gb-5g",
+  "base_model_slug": "nord-2t",
+  "name": "OnePlus Nord 2T",
+  "brand": "oneplus",
+  "release_date": "2022-05-01",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 190.0,
+  "os": "Android 12, upgradable to Android 14, OxygenOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5797",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-1300",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 24mm (wide), 1/1.56\", 1.0µm, PDAF, OIS, 8 MP, f/2.2, 120˚ (ultrawide), 2 MP, f/2.2, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

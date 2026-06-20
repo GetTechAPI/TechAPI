@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-v5-plus-allphones-7726-4gb-64gb-4g-lte",
+  "base_model_slug": "v5-plus",
+  "name": "vivo V5 Plus",
+  "brand": "vivo",
+  "release_date": "2017-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3160,
+  "weight_g": 158.6,
+  "os": "Android 6 (Marshmallow), Funtouch 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7726",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-625",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.0, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm, 8 MP"
+    }
+  ]
+}

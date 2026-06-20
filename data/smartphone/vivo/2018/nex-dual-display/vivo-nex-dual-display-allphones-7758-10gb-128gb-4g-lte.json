@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-nex-dual-display-allphones-7758-10gb-128gb-4g-lte",
+  "base_model_slug": "nex-dual-display",
+  "name": "vivo NEX Dual Display",
+  "brand": "vivo",
+  "release_date": "2018-01-01",
+  "ram_gb": 10,
+  "battery_mah": 3500,
+  "weight_g": 199.0,
+  "os": "Android 9.0 (Pie), Funtouch 4.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7758",
+    "memory": {
+      "ram_gb": 10,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm845-snapdragon-845",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, 4-axis OIS, 2 MP, f/1.8, 1/5.0\", 1.75µm, (depth), TOF 3D, f/1.3, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "No - uses main camera"
+    }
+  ]
+}

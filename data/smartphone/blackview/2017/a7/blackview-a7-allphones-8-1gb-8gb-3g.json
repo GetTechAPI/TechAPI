@@ -1,0 +1,45 @@
+{
+  "slug": "blackview-a7-allphones-8-1gb-8gb-3g",
+  "base_model_slug": "a7",
+  "name": "Blackview A7",
+  "brand": "blackview",
+  "release_date": "2017-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2800,
+  "weight_g": 176.0,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM"
+  },
+  "soc": "mediatek-mt6580a",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF, 0.3 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

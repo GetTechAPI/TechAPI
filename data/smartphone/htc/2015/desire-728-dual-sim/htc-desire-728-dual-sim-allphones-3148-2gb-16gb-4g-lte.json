@@ -1,0 +1,45 @@
+{
+  "slug": "htc-desire-728-dual-sim-allphones-3148-2gb-16gb-4g-lte",
+  "base_model_slug": "desire-728-dual-sim",
+  "name": "HTC Desire 728 dual sim",
+  "brand": "htc",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2800,
+  "weight_g": 153.0,
+  "os": "Android 5.1.1 (Lollipop), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3148",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6753",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 28mm (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.8, 34mm (standard)"
+    }
+  ]
+}

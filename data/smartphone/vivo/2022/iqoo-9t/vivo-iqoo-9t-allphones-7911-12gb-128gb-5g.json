@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-iqoo-9t-allphones-7911-12gb-128gb-5g",
+  "base_model_slug": "iqoo-9t",
+  "name": "vivo iQOO 9T",
+  "brand": "vivo",
+  "release_date": "2022-08-02",
+  "ram_gb": 12,
+  "battery_mah": 4700,
+  "weight_g": 206.0,
+  "os": "Android 12, upgradable to Android 14, Funtouch 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7911",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~388 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), 1/1.57\", 1.0µm, PDAF, OIS, 12 MP, f/2.0, 47mm (telephoto), PDAF, 2x optical zoom, 13 MP, f/2.2, 16mm, 120˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "huawei-y7-allphones-3488-2gb-16gb-4g-lte",
+  "base_model_slug": "y7",
+  "name": "Huawei Y7",
+  "brand": "huawei",
+  "release_date": "2017-01-01",
+  "ram_gb": 2,
+  "battery_mah": 4000,
+  "weight_g": 165.0,
+  "os": "Android 7.0 (Nougat), EMUI 5.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3488",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Single SIM or Hybrid Dual SIM"
+  },
+  "soc": "qualcomm-msm8940-snapdragon-435",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.2, 1/2.9\", 1.25µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "honor-pad-x6-allphones-2815-4gb-32gb-4g-lte",
+  "base_model_slug": "pad-x6",
+  "name": "Honor Pad X6",
+  "brand": "honor",
+  "release_date": "2020-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5100,
+  "weight_g": 460.0,
+  "os": "Android 10, Magic UI 3.1, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2815",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "soc": "mediatek-mt8768",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~156 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.4"
+    }
+  ]
+}

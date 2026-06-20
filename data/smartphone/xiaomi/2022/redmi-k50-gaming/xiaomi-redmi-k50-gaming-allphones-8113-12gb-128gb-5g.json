@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-redmi-k50-gaming-allphones-8113-12gb-128gb-5g",
+  "base_model_slug": "redmi-k50-gaming",
+  "name": "Xiaomi Redmi K50 Gaming",
+  "brand": "xiaomi",
+  "release_date": "2022-02-01",
+  "ram_gb": 12,
+  "battery_mah": 4700,
+  "weight_g": 210.0,
+  "os": "Android 12, MIUI 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8113",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-8-gen-1",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, 26mm (wide), 1/1.73\", 0.8µm, PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.4, (wide), 1/2.0\", 0.8µm"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "apple-ipad-9-7-allphones-2557-2gb-32gb-4g-lte",
+  "base_model_slug": "ipad-9-7",
+  "name": "Apple iPad 9.7 (2017)",
+  "brand": "apple",
+  "release_date": "2017-01-01",
+  "ram_gb": 2,
+  "battery_mah": 8827,
+  "weight_g": 469.0,
+  "os": "iOS 10.3, upgradable to iPadOS 16.7.7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2557",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "apple-a9",
+  "storage_options_gb": [
+    32,
+    128
+  ],
+  "display": {
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.4, 31mm (standard), 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP, f/2.2, 31mm (standard)"
+    }
+  ]
+}

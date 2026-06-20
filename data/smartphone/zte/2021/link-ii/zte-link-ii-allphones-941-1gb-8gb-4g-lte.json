@@ -1,0 +1,41 @@
+{
+  "slug": "zte-link-ii-allphones-941-1gb-8gb-4g-lte",
+  "base_model_slug": "link-ii",
+  "name": "ZTE Link II",
+  "brand": "zte",
+  "release_date": "2021-02-22",
+  "ram_gb": 1,
+  "battery_mah": 1600,
+  "weight_g": 128.0,
+  "os": "Proprietary",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:941",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-215",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "128 x 160 pixels (~73 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    }
+  ]
+}

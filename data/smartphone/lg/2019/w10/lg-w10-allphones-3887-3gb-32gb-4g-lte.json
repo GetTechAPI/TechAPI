@@ -1,0 +1,45 @@
+{
+  "slug": "lg-w10-allphones-3887-3gb-32gb-4g-lte",
+  "base_model_slug": "w10",
+  "name": "LG W10",
+  "brand": "lg",
+  "release_date": "2019-01-01",
+  "ram_gb": 3,
+  "battery_mah": 4000,
+  "weight_g": 164.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3887",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "mediatek-mt6762-helio-p22",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1512 pixels, 19:9 ratio (~271 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, PDAF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

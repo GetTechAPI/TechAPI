@@ -1,0 +1,46 @@
+{
+  "slug": "motorola-razr-40-ultra-allphones-4559-12gb-256gb-5g",
+  "base_model_slug": "razr-40-ultra",
+  "name": "Motorola Razr 40 Ultra",
+  "brand": "motorola",
+  "release_date": "2023-06-01",
+  "ram_gb": 12,
+  "battery_mah": 3800,
+  "weight_g": 184.5,
+  "os": "Android 13, up to 3 major Android upgrades",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4559",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-8-plus-gen-1",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2640 pixels (~413 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.5, (wide), 1/2.55\", 1.4µm, PDAF, OIS, 13 MP, f/2.2, 108˚ (ultrawide), 1/3.0\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, (wide), 0.7µm"
+    }
+  ]
+}

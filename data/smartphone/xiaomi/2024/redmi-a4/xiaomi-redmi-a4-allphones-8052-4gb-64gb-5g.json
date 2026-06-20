@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-redmi-a4-allphones-8052-4gb-64gb-5g",
+  "base_model_slug": "redmi-a4",
+  "name": "Xiaomi Redmi A4",
+  "brand": "xiaomi",
+  "release_date": "2024-11-27",
+  "ram_gb": 4,
+  "battery_mah": 5160,
+  "weight_g": 212.4,
+  "os": "Android 14, up to 2 major Android upgrades, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8052",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1640 pixels (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), Auxiliary lens"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, (wide)"
+    }
+  ]
+}

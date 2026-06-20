@@ -1,0 +1,47 @@
+{
+  "slug": "huawei-p50-pro-allphones-3589-12gb-128gb-4g-lte",
+  "base_model_slug": "p50-pro",
+  "name": "Huawei P50 Pro",
+  "brand": "huawei",
+  "release_date": "2021-07-29",
+  "ram_gb": 12,
+  "battery_mah": 4360,
+  "weight_g": 195.0,
+  "os": "HarmonyOS 2.0 (China), EMUI 14.2 (Europe), no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3589",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "kirin-9000",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1228 x 2700 pixels (~450 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 23mm (wide), PDAF, OIS, 64 MP, f/3.5, 90mm (periscope telephoto), PDAF, OIS, 3.5x optical zoom, 7x lossless zoom, 13 MP, f/2.2, 13mm (ultrawide), AF, 40 MP, f/1.6, 23mm (B/W), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, (wide), AF"
+    }
+  ]
+}

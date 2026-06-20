@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-camon-15-air-allphones-779-3gb-64gb-4g-lte",
+  "base_model_slug": "camon-15-air",
+  "name": "Tecno Camon 15 Air",
+  "brand": "tecno",
+  "release_date": "2020-01-01",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 150.0,
+  "os": "Android 10, HIOS 6.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:779",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6762-helio-p22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, PDAF, 2 MP, (macro), 2 MP, (depth), QVGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide)"
+    }
+  ]
+}

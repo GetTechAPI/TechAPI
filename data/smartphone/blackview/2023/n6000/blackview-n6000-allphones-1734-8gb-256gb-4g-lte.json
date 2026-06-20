@@ -1,0 +1,45 @@
+{
+  "slug": "blackview-n6000-allphones-1734-8gb-256gb-4g-lte",
+  "base_model_slug": "n6000",
+  "name": "Blackview N6000",
+  "brand": "blackview",
+  "release_date": "2023-07-19",
+  "ram_gb": 8,
+  "battery_mah": 3880,
+  "weight_g": 208.0,
+  "os": "Android 13, DokeOS 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1734",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "540 x 1200 pixels, 20:9 ratio (~306 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, (wide), 1/2.25\", PDAF, other unspecified camera"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, (wide), 1/3\""
+    }
+  ]
+}

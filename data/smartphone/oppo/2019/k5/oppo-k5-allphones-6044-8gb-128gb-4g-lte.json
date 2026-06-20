@@ -1,0 +1,46 @@
+{
+  "slug": "oppo-k5-allphones-6044-8gb-128gb-4g-lte",
+  "base_model_slug": "k5",
+  "name": "Oppo K5",
+  "brand": "oppo",
+  "release_date": "2019-10-10",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 182.0,
+  "os": "Android 9.0 (Pie), planned upgrade to Android 10, ColorOS 6.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6044",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm730-snapdragon-730g",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.2, 13mm (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

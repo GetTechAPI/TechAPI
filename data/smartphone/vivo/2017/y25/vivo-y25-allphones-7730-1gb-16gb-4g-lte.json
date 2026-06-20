@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-y25-allphones-7730-1gb-16gb-4g-lte",
+  "base_model_slug": "y25",
+  "name": "vivo Y25",
+  "brand": "vivo",
+  "release_date": "2017-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1900,
+  "weight_g": 150.0,
+  "os": "Android 5.1 (Lollipop), Funtouch 2.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7730",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM"
+  },
+  "soc": "mediatek-mt6580",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

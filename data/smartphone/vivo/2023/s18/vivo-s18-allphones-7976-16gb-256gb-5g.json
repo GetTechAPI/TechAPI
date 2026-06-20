@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-s18-allphones-7976-16gb-256gb-5g",
+  "base_model_slug": "s18",
+  "name": "vivo S18",
+  "brand": "vivo",
+  "release_date": "2023-12-22",
+  "ram_gb": 16,
+  "battery_mah": 5000,
+  "weight_g": 185.8,
+  "os": "Android 14, OriginOS 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7976",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), PDAF, OIS, 8 MP, f/2.2, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.0, 22mm (wide), AF"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "zte-blade-l3-plus-allphones-343-1gb-8gb-3g",
+  "base_model_slug": "blade-l3-plus",
+  "name": "ZTE Blade L3 Plus",
+  "brand": "zte",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 150.0,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:343",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6582",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

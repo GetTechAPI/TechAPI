@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-camon-11-pro-allphones-758-6gb-64gb-4g-lte",
+  "base_model_slug": "camon-11-pro",
+  "name": "Tecno Camon 11 Pro",
+  "brand": "tecno",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3750,
+  "weight_g": 155.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:758",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6762-helio-p22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1500 pixels (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, 25mm (wide), AF, 5 MP, f/2.4, (depth),"
+    },
+    {
+      "type": "selfie",
+      "raw": "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm"
+    }
+  ]
+}

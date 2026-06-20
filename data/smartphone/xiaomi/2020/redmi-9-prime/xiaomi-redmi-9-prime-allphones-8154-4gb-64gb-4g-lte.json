@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-redmi-9-prime-allphones-8154-4gb-64gb-4g-lte",
+  "base_model_slug": "redmi-9-prime",
+  "name": "Xiaomi Redmi 9 Prime",
+  "brand": "xiaomi",
+  "release_date": "2020-06-18",
+  "ram_gb": 4,
+  "battery_mah": 5020,
+  "weight_g": 198.0,
+  "os": "Android 10, MIUI 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8154",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g80",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 28mm (wide), 1/3.1\", 1.12µm, PDAF, 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0\", 1.12µm, 5 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 27mm (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

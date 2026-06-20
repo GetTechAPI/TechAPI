@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-v15-pro-allphones-7760-8gb-128gb-4g-lte",
+  "base_model_slug": "v15-pro",
+  "name": "vivo V15 Pro",
+  "brand": "vivo",
+  "release_date": "2019-01-01",
+  "ram_gb": 8,
+  "battery_mah": 3700,
+  "weight_g": 185.0,
+  "os": "Android 9.0 (Pie), Funtouch 9",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7760",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-675",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~404 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, f/2.2, 13mm (ultrawide), 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "Motorized pop-up 32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

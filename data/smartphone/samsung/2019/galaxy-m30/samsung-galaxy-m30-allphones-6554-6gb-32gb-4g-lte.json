@@ -1,0 +1,47 @@
+{
+  "slug": "samsung-galaxy-m30-allphones-6554-6gb-32gb-4g-lte",
+  "base_model_slug": "galaxy-m30",
+  "name": "Samsung Galaxy M30",
+  "brand": "samsung",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 174.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 10, One UI 2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6554",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "exynos-7904",
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.9, PDAF, 5 MP, f/2.2, 12mm (ultrawide), 5 MP, f/2.2, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm"
+    }
+  ]
+}

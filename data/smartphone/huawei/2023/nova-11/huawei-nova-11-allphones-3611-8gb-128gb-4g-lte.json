@@ -1,0 +1,47 @@
+{
+  "slug": "huawei-nova-11-allphones-3611-8gb-128gb-4g-lte",
+  "base_model_slug": "nova-11",
+  "name": "Huawei nova 11",
+  "brand": "huawei",
+  "release_date": "2023-04-27",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 168.0,
+  "os": "HarmonyOS 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3611",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-778g",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1084 x 2412 pixels, 20:9 ratio (~391 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), PDAF, 8 MP, f/2.2, 112˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "60 MP, f/2.4, 100˚ (ultrawide)"
+    }
+  ]
+}

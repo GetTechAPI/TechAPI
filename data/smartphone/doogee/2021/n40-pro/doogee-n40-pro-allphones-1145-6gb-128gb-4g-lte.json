@@ -1,0 +1,45 @@
+{
+  "slug": "doogee-n40-pro-allphones-1145-6gb-128gb-4g-lte",
+  "base_model_slug": "n40-pro",
+  "name": "Doogee N40 Pro",
+  "brand": "doogee",
+  "release_date": "2021-07-06",
+  "ram_gb": 6,
+  "battery_mah": 6380,
+  "weight_g": 210.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1145",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6771-helio-p60",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20 MP, f/2.2, (wide), PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 8 MP, f/2.2, (macro), 2 MP, f/2.2, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "sharp-aquos-r5g-allphones-2044-12gb-256gb-5g",
+  "base_model_slug": "aquos-r5g",
+  "name": "Sharp Aquos R5G",
+  "brand": "sharp",
+  "release_date": "2020-04-02",
+  "ram_gb": 12,
+  "battery_mah": 3730,
+  "weight_g": 189.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2044",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-865-plus",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1440 x 3168 pixels (~544 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.7, 26mm (wide), 1.4µm, dual pixel PDAF, OIS, 12 MP, f/2.7, 52mm (telephoto), 1.0µm, PDAF, 2x optical zoom, OIS, 48 MP, f/2.9, 19mm (ultrawide), 0.8µm, TOF 3D (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 26mm (wide), 0.7µm"
+    }
+  ]
+}

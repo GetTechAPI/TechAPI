@@ -1,0 +1,45 @@
+{
+  "slug": "htc-desire-520-allphones-3140-1gb-8gb-4g-lte",
+  "base_model_slug": "desire-520",
+  "name": "HTC Desire 520",
+  "brand": "htc",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 150.0,
+  "os": "Android 5.1 (Lollipop), Sense 7 UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3140",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8909-snapdragon-210",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

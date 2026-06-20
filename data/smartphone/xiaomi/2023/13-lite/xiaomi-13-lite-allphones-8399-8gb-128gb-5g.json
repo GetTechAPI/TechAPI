@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-13-lite-allphones-8399-8gb-128gb-5g",
+  "base_model_slug": "13-lite",
+  "name": "Xiaomi 13 Lite",
+  "brand": "xiaomi",
+  "release_date": "2023-03-08",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 171.0,
+  "os": "Android 12, MIUI 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8399",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, 8 MP, f/2.2, 119˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, 100˚ (ultrawide), 1/2.74\", 0.8µm, 8 MP, f/2.3, (depth)"
+    }
+  ]
+}

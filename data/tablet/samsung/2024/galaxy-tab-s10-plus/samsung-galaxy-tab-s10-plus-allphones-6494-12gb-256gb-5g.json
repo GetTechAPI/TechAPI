@@ -1,0 +1,46 @@
+{
+  "slug": "samsung-galaxy-tab-s10-plus-allphones-6494-12gb-256gb-5g",
+  "base_model_slug": "galaxy-tab-s10-plus",
+  "name": "Samsung Galaxy Tab S10+",
+  "brand": "samsung",
+  "release_date": "2024-09-26",
+  "ram_gb": 12,
+  "battery_mah": 10090,
+  "weight_g": 571.0,
+  "os": "Android 14, One UI 6.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6494",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "dimensity-9300-plus",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1752 x 2800 pixels, 16:10 ratio (~266 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 26mm (wide), 1/3.4\", 1.0µm, AF, 8 MP, f/2.2, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.4, 120˚ (ultrawide)"
+    }
+  ]
+}

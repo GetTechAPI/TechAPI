@@ -1,0 +1,45 @@
+{
+  "slug": "realme-v23i-allphones-6408-4gb-128gb-5g",
+  "base_model_slug": "v23i",
+  "name": "Realme V23i",
+  "brand": "realme",
+  "release_date": "2022-08-25",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 185.0,
+  "os": "Android 12, ColorOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6408",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-700",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), AF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ]
+}

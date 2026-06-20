@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-iqoo-neo5-se-allphones-7872-12gb-128gb-5g",
+  "base_model_slug": "iqoo-neo5-se",
+  "name": "vivo iQOO Neo5 SE",
+  "brand": "vivo",
+  "release_date": "2021-12-01",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 189.0,
+  "os": "Android 11, OriginOS Ocean",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7872",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

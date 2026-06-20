@@ -1,0 +1,46 @@
+{
+  "slug": "realme-gt-6-allphones-6266-16gb-256gb-5g",
+  "base_model_slug": "gt-6",
+  "name": "Realme GT 6",
+  "brand": "realme",
+  "release_date": "2023-01-01",
+  "ram_gb": 16,
+  "battery_mah": 5500,
+  "weight_g": 199.0,
+  "os": "Android 14, up to 3 major Android upgrades, Realme UI 5.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6266",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-8s-gen-3",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1264 x 2780 pixels (~450 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.7, (wide), 1/1.4\", PDAF, OIS, 50 MP, f/2.0, 47mm (telephoto), 1/2.8\", PDAF, 8 MP, f/2.2, 16mm, 112˚ (ultrawide), 1/4.0\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, 22mm (wide), 1/2.74\""
+    }
+  ]
+}

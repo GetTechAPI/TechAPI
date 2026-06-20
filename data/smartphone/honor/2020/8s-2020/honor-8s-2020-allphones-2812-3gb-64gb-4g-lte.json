@@ -1,0 +1,45 @@
+{
+  "slug": "honor-8s-2020-allphones-2812-3gb-64gb-4g-lte",
+  "base_model_slug": "8s-2020",
+  "name": "Honor 8S 2020",
+  "brand": "honor",
+  "release_date": "2020-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3020,
+  "weight_g": 146.0,
+  "os": "Android 9.0 (Pie), EMUI 9, Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2812",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "mediatek-mt6761-helio-a22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~295 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

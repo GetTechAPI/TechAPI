@@ -1,0 +1,45 @@
+{
+  "slug": "honor-x5-allphones-2704-2gb-32gb-4g-lte",
+  "base_model_slug": "x5",
+  "name": "Honor X5",
+  "brand": "honor",
+  "release_date": "2023-01-01",
+  "ram_gb": 2,
+  "battery_mah": 5000,
+  "weight_g": 193.0,
+  "os": "Android 12 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2704",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g25",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, (wide)"
+    }
+  ]
+}

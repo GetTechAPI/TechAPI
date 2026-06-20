@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-lumia-650-allphones-2212-1gb-16gb-4g-lte",
+  "base_model_slug": "lumia-650",
+  "name": "Microsoft Lumia 650",
+  "brand": "microsoft",
+  "release_date": "2016-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 122.0,
+  "os": "Microsoft Windows 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2212",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8909v2-snapdragon-212",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~297 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.2, 28mm (wide), 1/4.0\", AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

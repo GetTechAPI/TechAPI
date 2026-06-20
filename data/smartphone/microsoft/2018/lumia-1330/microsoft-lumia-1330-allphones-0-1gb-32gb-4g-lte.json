@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-lumia-1330-allphones-0-1gb-32gb-4g-lte",
+  "base_model_slug": "lumia-1330",
+  "name": "Microsoft Lumia 1330",
+  "brand": "microsoft",
+  "release_date": "2018-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Microsoft Windows Phone 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:0",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8930ab-snapdragon-400",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "14 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

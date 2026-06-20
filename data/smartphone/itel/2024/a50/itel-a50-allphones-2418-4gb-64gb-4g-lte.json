@@ -1,0 +1,46 @@
+{
+  "slug": "itel-a50-allphones-2418-4gb-64gb-4g-lte",
+  "base_model_slug": "a50",
+  "name": "itel A50",
+  "brand": "itel",
+  "release_date": "2024-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 186.0,
+  "os": "Android 14 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2418",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM"
+  },
+  "soc": "unisoc-t603",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, auxiliary lens"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

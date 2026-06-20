@@ -1,0 +1,45 @@
+{
+  "slug": "ulefone-t2-allphones-807-6gb-128gb-4g-lte",
+  "base_model_slug": "t2",
+  "name": "Ulefone T2",
+  "brand": "ulefone",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 4200,
+  "weight_g": 197.2,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:807",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6771-helio-p70",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~377 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, (wide), AF, 8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

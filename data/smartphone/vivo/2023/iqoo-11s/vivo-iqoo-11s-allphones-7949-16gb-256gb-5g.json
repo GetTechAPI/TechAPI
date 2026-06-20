@@ -1,0 +1,47 @@
+{
+  "slug": "vivo-iqoo-11s-allphones-7949-16gb-256gb-5g",
+  "base_model_slug": "iqoo-11s",
+  "name": "vivo iQOO 11S",
+  "brand": "vivo",
+  "release_date": "2023-07-10",
+  "ram_gb": 16,
+  "battery_mah": 4700,
+  "weight_g": 207.0,
+  "os": "Android 13, OriginOS 3 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7949",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1440 x 3200 pixels, 20:9 ratio (~518 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 23mm (wide), 1/1.49\", 1.0µm, PDAF, OIS, 13 MP, f/2.5, 47mm (telephoto), PDAF, 2x optical zoom, 8 MP, f/2.2, 16mm (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

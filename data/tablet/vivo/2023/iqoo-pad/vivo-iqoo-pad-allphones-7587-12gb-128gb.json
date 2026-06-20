@@ -1,0 +1,44 @@
+{
+  "slug": "vivo-iqoo-pad-allphones-7587-12gb-128gb",
+  "base_model_slug": "iqoo-pad",
+  "name": "vivo iQOO Pad",
+  "brand": "vivo",
+  "release_date": "2023-05-23",
+  "ram_gb": 12,
+  "battery_mah": 10000,
+  "weight_g": 585.0,
+  "os": "Android 13, OriginOS 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7587",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "soc": "dimensity-9000-plus",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1968 x 2800 pixels (~283 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 21mm, 112˚ (ultrawide), 1.12µm, AF, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

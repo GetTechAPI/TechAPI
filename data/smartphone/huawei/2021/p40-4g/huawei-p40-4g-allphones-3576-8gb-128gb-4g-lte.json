@@ -1,0 +1,45 @@
+{
+  "slug": "huawei-p40-4g-allphones-3576-8gb-128gb-4g-lte",
+  "base_model_slug": "p40-4g",
+  "name": "Huawei P40 4G",
+  "brand": "huawei",
+  "release_date": "2021-02-26",
+  "ram_gb": 8,
+  "battery_mah": 3800,
+  "weight_g": 175.0,
+  "os": "Android 10, EMUI, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3576",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "kirin-990",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~422 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 23mm (wide), 1/1.28\", 1.22µm, multi-directional PDAF, OIS, 8 MP, f/2.4, 80mm (telephoto), PDAF, OIS, 3x optical zoom, 16 MP, f/2.2, 17mm (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm, IR TOF 3D, (biometrics sensor only)"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "nokia-1-plus-allphones-5695-3gb-8gb-4g-lte",
+  "base_model_slug": "1-plus",
+  "name": "Nokia 1 Plus",
+  "brand": "nokia",
+  "release_date": "2019-01-01",
+  "ram_gb": 3,
+  "battery_mah": 2500,
+  "weight_g": 138.4,
+  "os": "Android 9.0 Pie (Go edition), upgradable to Android 10 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5695",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6739ww",
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "display": {
+    "resolution": "480 x 960 pixels, 18:9 ratio (~197 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

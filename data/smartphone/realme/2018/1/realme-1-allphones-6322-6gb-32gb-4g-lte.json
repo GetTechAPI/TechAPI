@@ -1,0 +1,47 @@
+{
+  "slug": "realme-1-allphones-6322-6gb-32gb-4g-lte",
+  "base_model_slug": "1",
+  "name": "Realme 1",
+  "brand": "realme",
+  "release_date": "2018-05-01",
+  "ram_gb": 6,
+  "battery_mah": 3410,
+  "weight_g": 155.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), ColorOS 6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6322",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-p60",
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2"
+    }
+  ]
+}

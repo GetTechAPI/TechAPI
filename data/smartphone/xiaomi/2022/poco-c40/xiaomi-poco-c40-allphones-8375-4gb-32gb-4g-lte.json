@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-poco-c40-allphones-8375-4gb-32gb-4g-lte",
+  "base_model_slug": "poco-c40",
+  "name": "Xiaomi Poco C40",
+  "brand": "xiaomi",
+  "release_date": "2022-06-06",
+  "ram_gb": 4,
+  "battery_mah": 6000,
+  "weight_g": 204.0,
+  "os": "Android 11, MIUI 13 for POCO",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8375",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "jlq-jr510",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1650 pixels (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

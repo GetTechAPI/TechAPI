@@ -1,0 +1,47 @@
+{
+  "slug": "huawei-nova-9-se-allphones-3226-8gb-128gb-4g-lte",
+  "base_model_slug": "nova-9-se",
+  "name": "Huawei nova 9 SE",
+  "brand": "huawei",
+  "release_date": "2022-03-11",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 191.0,
+  "os": "Android 11, EMUI 12, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3226",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-680",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2388 pixels (~387 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), 1/1.52\", 0.7µm, PDAF, 8 MP, f/2.2, 112˚ (ultrawide), 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2, 22mm (wide)"
+    }
+  ]
+}

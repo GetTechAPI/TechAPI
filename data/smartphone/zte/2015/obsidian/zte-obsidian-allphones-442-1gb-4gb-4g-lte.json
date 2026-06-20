@@ -1,0 +1,45 @@
+{
+  "slug": "zte-obsidian-allphones-442-1gb-4gb-4g-lte",
+  "base_model_slug": "obsidian",
+  "name": "ZTE Obsidian",
+  "brand": "zte",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 137.5,
+  "os": "Android 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:442",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "mediatek-mt6735m",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

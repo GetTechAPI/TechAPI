@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-spark-go-1s-allphones-1858-3gb-64gb-4g-lte",
+  "base_model_slug": "spark-go-1s",
+  "name": "Tecno Spark Go 1S",
+  "brand": "tecno",
+  "release_date": "2024-01-01",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 190.0,
+  "os": "Android 14 (Go edition), HIOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1858",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-a22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~263 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, 27mm (wide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

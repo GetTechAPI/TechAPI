@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-v25-allphones-7602-12gb-128gb-5g",
+  "base_model_slug": "v25",
+  "name": "vivo V25",
+  "brand": "vivo",
+  "release_date": "2022-08-17",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 186.0,
+  "os": "Android 12, Funtouch 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7602",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-900",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2404 pixels, 20:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), 0.7µm, PDAF, OIS, 8 MP, f/2.2, 16mm, 120˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.0, (wide), AF"
+    }
+  ]
+}

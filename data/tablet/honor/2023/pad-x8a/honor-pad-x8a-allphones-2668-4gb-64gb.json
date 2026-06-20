@@ -1,0 +1,43 @@
+{
+  "slug": "honor-pad-x8a-allphones-2668-4gb-64gb",
+  "base_model_slug": "pad-x8a",
+  "name": "Honor Pad X8a",
+  "brand": "honor",
+  "release_date": "2023-01-01",
+  "ram_gb": 4,
+  "battery_mah": 8300,
+  "weight_g": 495.0,
+  "os": "Android 14, MagicOS 8",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2668",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "sim": "No"
+  },
+  "soc": "mediatek",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~206 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "apple-ipad-pro-12-9-allphones-2550-4gb-32gb-4g-lte",
+  "base_model_slug": "ipad-pro-12-9",
+  "name": "Apple iPad Pro 12.9 (2015)",
+  "brand": "apple",
+  "release_date": "2015-01-01",
+  "ram_gb": 4,
+  "battery_mah": 10307,
+  "weight_g": 713.0,
+  "os": "iOS 9, upgradable to iPadOS 16.7.7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2550",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "apple-a9x",
+  "storage_options_gb": [
+    32,
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "2048 x 2732 pixels, 4:3 ratio (~264 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.4, 31mm (standard), 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP"
+    }
+  ]
+}

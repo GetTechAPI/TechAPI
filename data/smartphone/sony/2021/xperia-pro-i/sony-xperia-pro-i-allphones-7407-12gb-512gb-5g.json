@@ -1,0 +1,45 @@
+{
+  "slug": "sony-xperia-pro-i-allphones-7407-12gb-512gb-5g",
+  "base_model_slug": "xperia-pro-i",
+  "name": "Sony Xperia Pro-I",
+  "brand": "sony",
+  "release_date": "2021-12-05",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 211.0,
+  "os": "Android 11, upgradable to Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7407",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-888",
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "resolution": "1644 x 3840 pixels, 21:9 ratio (~643 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0-4.0, 24mm (wide), 1.0\"-type, 2.4µm, dual pixel PDAF, OIS (315 PDAF points, 90% frame coverage), 12 MP, f/2.4, 50mm (telephoto), 1/2.9\", PDAF, 2x optical zoom, OIS, 12 MP, f/2.2, 124˚, 16mm (ultrawide), 1/2.55\", dual pixel PDAF, 0.3 MP, TOF 3D, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 24mm (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

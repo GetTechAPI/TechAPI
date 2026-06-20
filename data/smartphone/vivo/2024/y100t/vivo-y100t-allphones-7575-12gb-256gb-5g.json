@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-y100t-allphones-7575-12gb-256gb-5g",
+  "base_model_slug": "y100t",
+  "name": "vivo Y100t",
+  "brand": "vivo",
+  "release_date": "2024-02-23",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 200.0,
+  "os": "Android 13, OriginOS 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7575",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-8200",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2388 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), 1/2.0\", 0.7µm, PDAF, OIS, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

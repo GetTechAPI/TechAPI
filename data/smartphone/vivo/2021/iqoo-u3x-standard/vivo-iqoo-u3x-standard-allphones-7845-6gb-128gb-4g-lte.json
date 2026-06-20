@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-iqoo-u3x-standard-allphones-7845-6gb-128gb-4g-lte",
+  "base_model_slug": "iqoo-u3x-standard",
+  "name": "vivo iQOO U3x Standard",
+  "brand": "vivo",
+  "release_date": "2021-06-09",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 191.4,
+  "os": "Android 11, OriginOS 1.0 for iQOO",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7845",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-helio-g70-mt6769v-cb",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/1.8, (wide)"
+    }
+  ]
+}

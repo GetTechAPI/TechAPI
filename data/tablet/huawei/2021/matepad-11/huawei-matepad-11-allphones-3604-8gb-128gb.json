@@ -1,0 +1,43 @@
+{
+  "slug": "huawei-matepad-11-allphones-3604-8gb-128gb",
+  "base_model_slug": "matepad-11",
+  "name": "Huawei MatePad 11 (2023)",
+  "brand": "huawei",
+  "release_date": "2021-06-02",
+  "ram_gb": 8,
+  "battery_mah": 7250,
+  "weight_g": 480.0,
+  "os": "HarmonyOS 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3604",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "soc": "qualcomm-sm8250-snapdragon-865",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~275 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

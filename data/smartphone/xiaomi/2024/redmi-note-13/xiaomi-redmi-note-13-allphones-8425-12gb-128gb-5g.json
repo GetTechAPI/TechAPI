@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-redmi-note-13-allphones-8425-12gb-128gb-5g",
+  "base_model_slug": "redmi-note-13",
+  "name": "Xiaomi Redmi Note 13",
+  "brand": "xiaomi",
+  "release_date": "2024-01-10",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 174.5,
+  "os": "Android 13, upgradable to Android 14, up to 2 major Android upgrades, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8425",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.7, (wide), 1/1.67\", 0.64µm, PDAF, 8 MP, f/2.2, (ultrawide), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.4, (wide)"
+    }
+  ]
+}

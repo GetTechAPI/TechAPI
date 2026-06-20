@@ -1,0 +1,45 @@
+{
+  "slug": "doogee-smini-allphones-1774-8gb-256gb-4g-lte",
+  "base_model_slug": "smini",
+  "name": "Doogee Smini",
+  "brand": "doogee",
+  "release_date": "2023-10-27",
+  "ram_gb": 8,
+  "battery_mah": 3000,
+  "weight_g": 155.0,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1774",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "480 x 1170 pixels (~281 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, (wide), AF, 2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

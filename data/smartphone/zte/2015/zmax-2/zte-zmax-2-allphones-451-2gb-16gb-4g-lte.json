@@ -1,0 +1,45 @@
+{
+  "slug": "zte-zmax-2-allphones-451-2gb-16gb-4g-lte",
+  "base_model_slug": "zmax-2",
+  "name": "ZTE Zmax 2",
+  "brand": "zte",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 170.1,
+  "os": "Android 5.1 (Lollipop), upgradable to 6.0.1 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:451",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8916-snapdragon-410",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

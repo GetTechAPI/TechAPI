@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-iqoo-8-allphones-7646-12gb-128gb-5g",
+  "base_model_slug": "iqoo-8",
+  "name": "vivo iQOO 8",
+  "brand": "vivo",
+  "release_date": "2021-08-24",
+  "ram_gb": 12,
+  "battery_mah": 4350,
+  "weight_g": 200.0,
+  "os": "Android 11, OriginOS 1.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7646",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-888",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2376 pixels (~398 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 23mm (wide), 1/2.0\", 0.8µm, PDAF, 13 MP, f/2.2, 50mm (telephoto), PDAF, 13 MP, f/2.2, 120˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

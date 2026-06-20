@@ -1,0 +1,46 @@
+{
+  "slug": "honor-9-allphones-2770-6gb-64gb-4g-lte",
+  "base_model_slug": "9",
+  "name": "Honor 9",
+  "brand": "honor",
+  "release_date": "2017-06-01",
+  "ram_gb": 6,
+  "battery_mah": 3200,
+  "weight_g": 155.0,
+  "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2770",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "kirin-960",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~428 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.2, 27mm (wide), PDAF, 2x lossless zoom, 20 MP B/W, f/2.2, 27mm (wide), 1/2.7\""
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

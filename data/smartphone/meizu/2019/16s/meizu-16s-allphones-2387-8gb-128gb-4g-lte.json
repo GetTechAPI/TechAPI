@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-16s-allphones-2387-8gb-128gb-4g-lte",
+  "base_model_slug": "16s",
+  "name": "Meizu 16s",
+  "brand": "meizu",
+  "release_date": "2019-01-01",
+  "ram_gb": 8,
+  "battery_mah": 3600,
+  "weight_g": 165.0,
+  "os": "Android 9.0 (Pie), Flyme 7.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2387",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sm8150-snapdragon-855",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2232 pixels, 18.5:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.7, (wide), 1/2.0\", 0.8µm, PDAF, OIS, 20MP, f/2.6, (telephoto), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20MP, f/2.2"
+    }
+  ]
+}

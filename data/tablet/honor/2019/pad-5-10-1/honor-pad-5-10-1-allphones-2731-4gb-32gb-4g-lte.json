@@ -1,0 +1,46 @@
+{
+  "slug": "honor-pad-5-10-1-allphones-2731-4gb-32gb-4g-lte",
+  "base_model_slug": "pad-5-10-1",
+  "name": "Honor Pad 5 10.1",
+  "brand": "honor",
+  "release_date": "2019-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5100,
+  "weight_g": 150.0,
+  "os": "Android 8.0 (Oreo), EMUI 8",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2731",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "soc": "kirin-659",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1920 x 1200 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.4, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.4"
+    }
+  ]
+}

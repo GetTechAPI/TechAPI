@@ -1,0 +1,47 @@
+{
+  "slug": "vivo-x70-pro-allphones-7850-16gb-128gb-5g",
+  "base_model_slug": "x70-pro",
+  "name": "vivo X70 Pro",
+  "brand": "vivo",
+  "release_date": "2021-01-01",
+  "ram_gb": 16,
+  "battery_mah": 4450,
+  "weight_g": 186.0,
+  "os": "Android 11, upgradable to Android 14, Funtouch OS 14 (International), OriginOS (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7850",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-1200",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2376 pixels (~398 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, gimbal OIS, 8 MP, f/3.4, 125mm (periscope telephoto), 1/4.4\", 1.0µm, PDAF, OIS, 5x optical zoom, 12 MP, f/2.0, 50mm (telephoto), 1/2.93\", 1.22µm, PDAF, 2x optical zoom, 12 MP, f/2.2, 16mm, 116˚ (ultrawide), 1/3.1\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, 24mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "tcl-20b-allphones-2466-4gb-64gb-4g-lte",
+  "base_model_slug": "20b",
+  "name": "TCL 20B",
+  "brand": "tcl",
+  "release_date": "2021-09-28",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 178.0,
+  "os": "Android 11, TCL UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2466",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6762-helio-p22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, (wide), PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

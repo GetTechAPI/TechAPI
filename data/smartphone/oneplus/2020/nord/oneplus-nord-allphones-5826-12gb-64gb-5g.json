@@ -1,0 +1,47 @@
+{
+  "slug": "oneplus-nord-allphones-5826-12gb-64gb-5g",
+  "base_model_slug": "nord",
+  "name": "OnePlus Nord",
+  "brand": "oneplus",
+  "release_date": "2020-08-04",
+  "ram_gb": 12,
+  "battery_mah": 4115,
+  "weight_g": 184.0,
+  "os": "Android 10, upgradable to Android 12, OxygenOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5826",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-765g",
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~408 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, OIS, 8 MP, f/2.3, 119˚ (ultrawide), 5 MP, f/2.4, (depth), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, (wide), 1/2.8\", 0.8µm, 8 MP, f/2.5, 105˚ (ultrawide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

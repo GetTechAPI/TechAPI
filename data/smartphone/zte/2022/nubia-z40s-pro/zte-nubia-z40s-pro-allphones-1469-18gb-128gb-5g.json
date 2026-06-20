@@ -1,0 +1,48 @@
+{
+  "slug": "zte-nubia-z40s-pro-allphones-1469-18gb-128gb-5g",
+  "base_model_slug": "nubia-z40s-pro",
+  "name": "ZTE nubia Z40S Pro",
+  "brand": "zte",
+  "release_date": "2022-07-26",
+  "ram_gb": 18,
+  "battery_mah": 5000,
+  "weight_g": 205.0,
+  "os": "Android 12, upgradable to Android 13, MyOS 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1469",
+    "memory": {
+      "ram_gb": 18,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-8-plus-gen-1",
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.6, 35mm (standard), 1/1.7\", PDAF, OIS, 8 MP, f/3.4, 125mm (periscope telephoto), 1/4.0\", PDAF, OIS, 5x optical zoom, 50 MP, f/2.2, 14mm, 116˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

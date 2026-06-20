@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-17-pro-allphones-2393-12gb-128gb-5g",
+  "base_model_slug": "17-pro",
+  "name": "Meizu 17 Pro",
+  "brand": "meizu",
+  "release_date": "2020-01-01",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 219.0,
+  "os": "Android 10, Flyme 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2393",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sm8250-snapdragon-865",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~390 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.4, 79mm (telephoto), 1.0µm, PDAF, 32 MP, f/2.2, 15mm, 129˚ (ultrawide), 1/2.8\", 0.8µm, 0.3 MP, TOF 3D, f/1.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.2, (wide), 0.8µm"
+    }
+  ]
+}

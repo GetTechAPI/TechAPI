@@ -1,0 +1,45 @@
+{
+  "slug": "ulefone-note-9p-allphones-1247-4gb-64gb-4g-lte",
+  "base_model_slug": "note-9p",
+  "name": "Ulefone Note 9P",
+  "brand": "ulefone",
+  "release_date": "2020-07-27",
+  "ram_gb": 4,
+  "battery_mah": 4500,
+  "weight_g": 188.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1247",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6762-helio-p22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.2, AF, 5 MP, (macro), 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2"
+    }
+  ]
+}

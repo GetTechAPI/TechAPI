@@ -1,0 +1,44 @@
+{
+  "slug": "asus-zenpad-s-8-0-z580ca-allphones-1041-4gb-16gb",
+  "base_model_slug": "zenpad-s-8-0-z580ca",
+  "name": "Asus Zenpad S 8.0 Z580CA",
+  "brand": "asus",
+  "release_date": "2015-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3950,
+  "weight_g": 298.0,
+  "os": "Android 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1041",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "soc": "intel-atom-z3560-or-z3580",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~320 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

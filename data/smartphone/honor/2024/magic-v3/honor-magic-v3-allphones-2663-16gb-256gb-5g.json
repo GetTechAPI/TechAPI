@@ -1,0 +1,47 @@
+{
+  "slug": "honor-magic-v3-allphones-2663-16gb-256gb-5g",
+  "base_model_slug": "magic-v3",
+  "name": "Honor Magic V3",
+  "brand": "honor",
+  "release_date": "2024-09-05",
+  "ram_gb": 16,
+  "battery_mah": 5150,
+  "weight_g": 226.0,
+  "os": "Android 14, upgradable to Android 15, MagicOS 9",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2663",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-8-gen-3",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "2156 x 2344 pixels (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS, 50 MP, f/3.0, 90mm (periscope telephoto), 1/2.51\", 0.7µm, PDAF, OIS, 3.5x optical zoom, 40 MP, f/2.2, 16mm, 112˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.2, 90˚, 21mm (wide), 0.61µm, Cover camera:, 20 MP, f/2.2, 90˚, 21mm (wide), 0.61µm"
+    }
+  ]
+}

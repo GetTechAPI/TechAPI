@@ -1,0 +1,45 @@
+{
+  "slug": "blackview-bl9000-pro-allphones-1748-12gb-512gb-5g",
+  "base_model_slug": "bl9000-pro",
+  "name": "Blackview BL9000 Pro",
+  "brand": "blackview",
+  "release_date": "2024-05-28",
+  "ram_gb": 12,
+  "battery_mah": 8800,
+  "weight_g": 412.0,
+  "os": "Android 14, Doke-OS 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1748",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2460 pixels (~396 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, (wide), 1/1.57\", PDAF, 13 MP, 120˚, (ultrawide), AF, FLIR thermal camera (Lepton 3.5 module)"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, (wide), 1/2.8\""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenfone-2-ze550ml-allphones-1033-2gb-16gb-4g-lte",
+  "base_model_slug": "zenfone-2-ze550ml",
+  "name": "Asus Zenfone 2 ZE550ML",
+  "brand": "asus",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 170.0,
+  "os": "Android 5.0 (Lollipop), upgradable to 6.0 (Marshmallow), ZenUI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1033",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "intel-atom-z3560",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0"
+    }
+  ]
+}

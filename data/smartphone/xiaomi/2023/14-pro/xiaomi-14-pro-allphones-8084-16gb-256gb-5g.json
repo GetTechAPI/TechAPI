@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-14-pro-allphones-8084-16gb-256gb-5g",
+  "base_model_slug": "14-pro",
+  "name": "Xiaomi 14 Pro",
+  "brand": "xiaomi",
+  "release_date": "2023-01-01",
+  "ram_gb": 16,
+  "battery_mah": 4880,
+  "weight_g": 223.0,
+  "os": "Android 14, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8084",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-8-gen-3",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1440 x 3200 pixels, 20:9 ratio (~522 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 23mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, OIS, 50 MP, f/2.0, 75mm (telephoto), PDAF (10cm - ∞), OIS, 3.2x optical zoom, 50 MP, f/2.2, 14mm, 115˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 22mm (wide), 0.7µm"
+    }
+  ]
+}

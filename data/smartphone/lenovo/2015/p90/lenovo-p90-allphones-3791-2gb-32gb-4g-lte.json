@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-p90-allphones-3791-2gb-32gb-4g-lte",
+  "base_model_slug": "p90",
+  "name": "Lenovo P90",
+  "brand": "lenovo",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 4000,
+  "weight_g": 156.0,
+  "os": "Android 4.4 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3791",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "intel-atom-z3560",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

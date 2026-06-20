@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenpad-z8-allphones-1555-2gb-16gb-4g-lte",
+  "base_model_slug": "zenpad-z8",
+  "name": "Asus Zenpad Z8",
+  "brand": "asus",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 4680,
+  "weight_g": 320.1,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1555",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM (built-in)"
+  },
+  "soc": "qualcomm-msm8956-snapdragon-650",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~324 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

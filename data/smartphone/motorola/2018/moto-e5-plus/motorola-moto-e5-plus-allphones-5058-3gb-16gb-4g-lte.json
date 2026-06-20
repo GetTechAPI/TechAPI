@@ -1,0 +1,46 @@
+{
+  "slug": "motorola-moto-e5-plus-allphones-5058-3gb-16gb-4g-lte",
+  "base_model_slug": "moto-e5-plus",
+  "name": "Motorola Moto E5 Plus",
+  "brand": "motorola",
+  "release_date": "2018-01-01",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 196.6,
+  "os": "Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5058",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8917-snapdragon-425",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0, 1/2.8\", 1.25µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0"
+    }
+  ]
+}

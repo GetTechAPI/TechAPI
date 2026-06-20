@@ -1,0 +1,45 @@
+{
+  "slug": "ulefone-armor-5s-allphones-805-4gb-64gb-4g-lte",
+  "base_model_slug": "armor-5s",
+  "name": "Ulefone Armor 5S",
+  "brand": "ulefone",
+  "release_date": "2019-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 228.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:805",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6763-helio-p23",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1512 pixels, 19:9 ratio (~286 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, (wide), AF, 2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

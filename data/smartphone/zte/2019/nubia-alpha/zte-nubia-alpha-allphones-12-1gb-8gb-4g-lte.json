@@ -1,0 +1,44 @@
+{
+  "slug": "zte-nubia-alpha-allphones-12-1gb-8gb-4g-lte",
+  "base_model_slug": "nubia-alpha",
+  "name": "ZTE nubia Alpha",
+  "brand": "zte",
+  "release_date": "2019-01-01",
+  "ram_gb": 1,
+  "battery_mah": 500,
+  "weight_g": 158.0,
+  "os": "Proprietary OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:12",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "soc": "qualcomm-msm8909w-snapdragon-wear-2100",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "192 x 960 pixels (~244 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2, 25mm (wide), 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "Uses main camera"
+    }
+  ]
+}

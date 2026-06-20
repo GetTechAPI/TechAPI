@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-x-note-allphones-7883-12gb-256gb-5g",
+  "base_model_slug": "x-note",
+  "name": "vivo X Note",
+  "brand": "vivo",
+  "release_date": "2022-04-15",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 221.0,
+  "os": "Android 12, OriginOS Ocean",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7883",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1440 x 3080 pixels (~486 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, (wide), 1/1.31\", 1.2µm, PDAF, OIS, 8 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 12 MP, f/2.0, 47mm (telephoto), 1/2.93\", 1.2µm, PDAF, 2x optical zoom, 48 MP, f/2.2, 14mm, 114˚ (ultrawide), 1/2.0\", 0.8µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

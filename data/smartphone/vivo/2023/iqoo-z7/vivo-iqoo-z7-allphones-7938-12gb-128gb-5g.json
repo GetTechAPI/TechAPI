@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-iqoo-z7-allphones-7938-12gb-128gb-5g",
+  "base_model_slug": "iqoo-z7",
+  "name": "vivo iQOO Z7 (China)",
+  "brand": "vivo",
+  "release_date": "2023-03-21",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 201.5,
+  "os": "Android 13, OriginOS 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7938",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2388 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), 1/1.97\", 0.7µm, PDAF, OIS, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

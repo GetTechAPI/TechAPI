@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-x9-allphones-7722-4gb-64gb-4g-lte",
+  "base_model_slug": "x9",
+  "name": "vivo X9",
+  "brand": "vivo",
+  "release_date": "2016-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3050,
+  "weight_g": 154.0,
+  "os": "Android 6.1 (Marshmallow), upgradable to Android 8 (Oreo), Funtouch 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7722",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-msm8953-snapdragon-625",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.0, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm, 8 MP"
+    }
+  ]
+}

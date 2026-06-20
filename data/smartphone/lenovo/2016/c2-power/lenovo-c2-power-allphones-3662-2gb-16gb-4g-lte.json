@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-c2-power-allphones-3662-2gb-16gb-4g-lte",
+  "base_model_slug": "c2-power",
+  "name": "Lenovo C2 Power",
+  "brand": "lenovo",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3500,
+  "weight_g": 155.6,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3662",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6735p",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

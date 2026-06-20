@@ -1,0 +1,47 @@
+{
+  "slug": "asus-zenfone-3-deluxe-zs570kl-allphones-1553-6gb-64gb-4g-lte",
+  "base_model_slug": "zenfone-3-deluxe-zs570kl",
+  "name": "Asus Zenfone 3 Deluxe ZS570KL",
+  "brand": "asus",
+  "release_date": "2016-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3000,
+  "weight_g": 170.0,
+  "os": "Android 6.1 (Marshmallow), upgradable to Android 8 (Oreo), ZenUI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1553",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Micro-SIM"
+  },
+  "soc": "qualcomm-msm8996-snapdragon-820",
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~386 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "23 MP, f/2.0, 1/2.6\", 1.0µm, PDAF, 4-axis OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

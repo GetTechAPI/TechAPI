@@ -1,0 +1,45 @@
+{
+  "slug": "alcatel-pop-7-lte-allphones-1526-1gb-8gb-4g-lte",
+  "base_model_slug": "pop-7-lte",
+  "name": "alcatel Pop 7 LTE",
+  "brand": "alcatel",
+  "release_date": "2016-01-01",
+  "ram_gb": 1,
+  "battery_mah": 3240,
+  "weight_g": 295.1,
+  "os": "Android 6.0.1 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1526",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "quad-core-1-1-ghz",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

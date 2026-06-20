@@ -1,0 +1,45 @@
+{
+  "slug": "infinix-note-40s-allphones-1955-8gb-256gb-4g-lte",
+  "base_model_slug": "note-40s",
+  "name": "Infinix Note 40S",
+  "brand": "infinix",
+  "release_date": "2024-01-01",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 176.0,
+  "os": "Android 14, up to 2 major Android upgrades, XOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1955",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2436 pixels (~393 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, 24mm (wide), 1/1.52\", PDAF, 2 MP, f/2.4, (macro), 3rd unspecified camera"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.2, (wide), 1/3.1\""
+    }
+  ]
+}

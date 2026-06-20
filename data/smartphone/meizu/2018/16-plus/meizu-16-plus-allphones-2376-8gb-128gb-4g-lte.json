@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-16-plus-allphones-2376-8gb-128gb-4g-lte",
+  "base_model_slug": "16-plus",
+  "name": "Meizu 16 Plus",
+  "brand": "meizu",
+  "release_date": "2018-01-01",
+  "ram_gb": 8,
+  "battery_mah": 3570,
+  "weight_g": 182.0,
+  "os": "Android 8.0 (Oreo), Flyme UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2376",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm845-snapdragon-845",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~374 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 1/2.3\", 1.55µm, dual pixel PDAF, 4-axis OIS, 20 MP, f/2.6, 1/2.6\", 1.0µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm"
+    }
+  ]
+}

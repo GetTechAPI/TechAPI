@@ -1,0 +1,45 @@
+{
+  "slug": "doogee-s119-allphones-1809-8gb-512gb-4g-lte",
+  "base_model_slug": "s119",
+  "name": "Doogee S119",
+  "brand": "doogee",
+  "release_date": "2025-01-22",
+  "ram_gb": 8,
+  "battery_mah": 10200,
+  "weight_g": 368.0,
+  "os": "Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1809",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek",
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~392 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "100 MP, f/1.8, (wide), PDAF, 20 MP, f/1.8, (night vision), infrared night vision light, 5 MP, f/2.2, 120˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.3, (wide)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "sharp-aquos-s3-high-allphones-2036-8gb-64gb-4g-lte",
+  "base_model_slug": "aquos-s3-high",
+  "name": "Sharp Aquos S3 High",
+  "brand": "sharp",
+  "release_date": "2018-01-01",
+  "ram_gb": 8,
+  "battery_mah": 3200,
+  "weight_g": 167.4,
+  "os": "Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2036",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm660-snapdragon-660",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, 13 MP, 2x optical zoom"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide), 1/3.06\", 1.0µm"
+    }
+  ]
+}

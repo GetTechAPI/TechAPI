@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-f2-lte-allphones-753-1gb-8gb-4g-lte",
+  "base_model_slug": "f2-lte",
+  "name": "Tecno F2 LTE",
+  "brand": "tecno",
+  "release_date": "2018-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2400,
+  "weight_g": 168.5,
+  "os": "Android 8.1 Oreo (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:753",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM"
+  },
+  "soc": "mediatek-mt6739wa",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

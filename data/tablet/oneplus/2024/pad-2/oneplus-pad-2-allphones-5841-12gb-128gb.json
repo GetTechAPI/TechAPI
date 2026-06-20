@@ -1,0 +1,42 @@
+{
+  "slug": "oneplus-pad-2-allphones-5841-12gb-128gb",
+  "base_model_slug": "pad-2",
+  "name": "OnePlus Pad 2",
+  "brand": "oneplus",
+  "release_date": "2024-07-16",
+  "ram_gb": 12,
+  "battery_mah": 9510,
+  "weight_g": 584.0,
+  "os": "Android 14, upgradable to Android 15, OxygenOS 15",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5841",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "2120 x 3000 pixels (~304 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 23mm (wide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.3, (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

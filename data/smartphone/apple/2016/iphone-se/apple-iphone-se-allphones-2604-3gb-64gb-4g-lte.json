@@ -1,0 +1,47 @@
+{
+  "slug": "apple-iphone-se-allphones-2604-3gb-64gb-4g-lte",
+  "base_model_slug": "iphone-se",
+  "name": "Apple iPhone SE (2020)",
+  "brand": "apple",
+  "release_date": "2016-03-31",
+  "ram_gb": 3,
+  "battery_mah": 1821,
+  "weight_g": 148.0,
+  "os": "iOS 13, upgradable to iOS 18.4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2604",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "apple-a9",
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8 (wide), PDAF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "7 MP, f/2.2"
+    }
+  ]
+}

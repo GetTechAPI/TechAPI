@@ -1,0 +1,46 @@
+{
+  "slug": "ulefone-note-14-allphones-1863-4gb-16gb-4g-lte",
+  "base_model_slug": "note-14",
+  "name": "Ulefone Note 14",
+  "brand": "ulefone",
+  "release_date": "2022-09-29",
+  "ram_gb": 4,
+  "battery_mah": 4500,
+  "weight_g": 189.0,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1863",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-a22",
+  "storage_options_gb": [
+    16,
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, (wide), 1.12µm, AF (64/4 model), 8 MP, f/1.8, (wide), 1.12µm, AF (16/3 model), Depth camera"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0, (wide)"
+    }
+  ]
+}

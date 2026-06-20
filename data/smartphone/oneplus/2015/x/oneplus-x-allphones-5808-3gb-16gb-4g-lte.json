@@ -1,0 +1,45 @@
+{
+  "slug": "oneplus-x-allphones-5808-3gb-16gb-4g-lte",
+  "base_model_slug": "x",
+  "name": "OnePlus X",
+  "brand": "oneplus",
+  "release_date": "2015-10-01",
+  "ram_gb": 3,
+  "battery_mah": 2525,
+  "weight_g": 138.0,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 6.0.1 (Marshmallow), OxygenOS 2.2.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5808",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon-801",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 1/3.1\", 1.14µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.4"
+    }
+  ]
+}

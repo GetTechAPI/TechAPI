@@ -1,0 +1,44 @@
+{
+  "slug": "huawei-matepad-pro-11-allphones-3217-12gb-128gb",
+  "base_model_slug": "matepad-pro-11",
+  "name": "Huawei MatePad Pro 11 (2024)",
+  "brand": "huawei",
+  "release_date": "2023-11-28",
+  "ram_gb": 12,
+  "battery_mah": 8300,
+  "weight_g": 449.0,
+  "os": "HarmonyOS 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3217",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "soc": "kirin-9000s",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~274 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2"
+    }
+  ]
+}

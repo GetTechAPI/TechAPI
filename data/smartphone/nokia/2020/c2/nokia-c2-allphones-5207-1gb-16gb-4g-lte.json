@@ -1,0 +1,45 @@
+{
+  "slug": "nokia-c2-allphones-5207-1gb-16gb-4g-lte",
+  "base_model_slug": "c2",
+  "name": "Nokia C2",
+  "brand": "nokia",
+  "release_date": "2020-03-22",
+  "ram_gb": 1,
+  "battery_mah": 2800,
+  "weight_g": 161.0,
+  "os": "Android 9.0 Pie (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5207",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "tiger-t610",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-lumia-550-allphones-2207-1gb-8gb-4g-lte",
+  "base_model_slug": "lumia-550",
+  "name": "Microsoft Lumia 550",
+  "brand": "microsoft",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2100,
+  "weight_g": 141.9,
+  "os": "Microsoft Windows 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2207",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8909-snapdragon-210",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~315 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.4, 1/4.0\", AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.8"
+    }
+  ]
+}

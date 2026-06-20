@@ -1,0 +1,45 @@
+{
+  "slug": "doogee-x96-allphones-1150-2gb-32gb-4g-lte",
+  "base_model_slug": "x96",
+  "name": "Doogee X96",
+  "brand": "doogee",
+  "release_date": "2021-09-28",
+  "ram_gb": 2,
+  "battery_mah": 5400,
+  "weight_g": 198.0,
+  "os": "Android 11 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1150",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-sc9863a",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, (wide), 2 MP, f/2.8, (macro), 2 MP, f/2.8, (depth), 2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, (wide)"
+    }
+  ]
+}

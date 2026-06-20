@@ -1,0 +1,46 @@
+{
+  "slug": "lg-q-stylus-allphones-4495-4gb-32gb-4g-lte",
+  "base_model_slug": "q-stylus",
+  "name": "LG Q Stylus",
+  "brand": "lg",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3300,
+  "weight_g": 171.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4495",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "mediatek-mt6750-q-stylus-q-stylus-a",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~389 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, PDAF (Q Stylus α), 16 MP, PDAF (Q Stylus/ Q Stylus+)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP or 5 MP - Q Stylus/Q Stylus+, 5 MP - Q Stylus α"
+    }
+  ]
+}

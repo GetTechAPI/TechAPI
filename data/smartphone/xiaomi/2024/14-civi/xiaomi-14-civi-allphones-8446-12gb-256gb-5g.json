@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-14-civi-allphones-8446-12gb-256gb-5g",
+  "base_model_slug": "14-civi",
+  "name": "Xiaomi 14 Civi",
+  "brand": "xiaomi",
+  "release_date": "2024-06-20",
+  "ram_gb": 12,
+  "battery_mah": 4700,
+  "weight_g": 177.6,
+  "os": "Android 14, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8446",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1236 x 2750 pixels, 20:9 ratio (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 25mm (wide), 1/1.55\", 1.0µm, PDAF, OIS, 50 MP, f/2.0, 50mm (telephoto), 0.64µm, PDAF, 2x optical zoom, 12 MP, f/2.2, 15mm, 120˚ (ultrawide), 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm, AF, 32 MP, f/2.4, 100˚ (ultrawide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

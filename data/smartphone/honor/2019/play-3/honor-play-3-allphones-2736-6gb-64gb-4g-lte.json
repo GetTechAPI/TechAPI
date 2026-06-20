@@ -1,0 +1,46 @@
+{
+  "slug": "honor-play-3-allphones-2736-6gb-64gb-4g-lte",
+  "base_model_slug": "play-3",
+  "name": "Honor Play 3",
+  "brand": "honor",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 4000,
+  "weight_g": 176.0,
+  "os": "Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2736",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "kirin-710f",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1560 pixels, 19.5:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 27mm (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, f/2.4, 13mm (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

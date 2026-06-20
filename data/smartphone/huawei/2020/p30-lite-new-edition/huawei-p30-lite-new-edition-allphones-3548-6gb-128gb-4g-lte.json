@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-p30-lite-new-edition-allphones-3548-6gb-128gb-4g-lte",
+  "base_model_slug": "p30-lite-new-edition",
+  "name": "Huawei P30 lite New Edition",
+  "brand": "huawei",
+  "release_date": "2020-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3340,
+  "weight_g": 152.9,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, EMUI 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3548",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "kirin-710",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2312 pixels, 19.3:9 ratio (~415 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 27mm (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, 120˚, 17mm (ultrawide), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

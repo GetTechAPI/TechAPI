@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-mediapad-t2-10-0-pro-allphones-3299-3gb-16gb-4g-lte",
+  "base_model_slug": "mediapad-t2-10-0-pro",
+  "name": "Huawei MediaPad T2 10.0 Pro",
+  "brand": "huawei",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 6660,
+  "weight_g": 495.0,
+  "os": "Android 5.1 (Lollipop), EMUI 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3299",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8939-snapdragon-615",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~226 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

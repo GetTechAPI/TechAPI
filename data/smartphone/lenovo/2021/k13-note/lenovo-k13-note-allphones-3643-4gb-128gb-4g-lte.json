@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-k13-note-allphones-3643-4gb-128gb-4g-lte",
+  "base_model_slug": "k13-note",
+  "name": "Lenovo K13 Note",
+  "brand": "lenovo",
+  "release_date": "2021-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 200.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3643",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-460",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.7, (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

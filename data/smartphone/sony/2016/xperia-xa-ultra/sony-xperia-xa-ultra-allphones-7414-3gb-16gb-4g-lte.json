@@ -1,0 +1,45 @@
+{
+  "slug": "sony-xperia-xa-ultra-allphones-7414-3gb-16gb-4g-lte",
+  "base_model_slug": "xperia-xa-ultra",
+  "name": "Sony Xperia XA Ultra",
+  "brand": "sony",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 2700,
+  "weight_g": 202.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7414",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "mediatek-mt6755-helio-p10",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "21.5 MP, f/2.2, 1/2.4\", 1/2.4\", PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 23mm (wide), 1/2.6\", OIS"
+    }
+  ]
+}

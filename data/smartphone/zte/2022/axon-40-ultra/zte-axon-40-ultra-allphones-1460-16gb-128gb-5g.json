@@ -1,0 +1,48 @@
+{
+  "slug": "zte-axon-40-ultra-allphones-1460-16gb-128gb-5g",
+  "base_model_slug": "axon-40-ultra",
+  "name": "ZTE Axon 40 Ultra",
+  "brand": "zte",
+  "release_date": "2022-05-13",
+  "ram_gb": 16,
+  "battery_mah": 5000,
+  "weight_g": 204.0,
+  "os": "Android 12, upgradable to Android 13, MyOS 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1460",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1116 x 2480 pixels, 20:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.6, 35mm (standard), 1/1.7\", PDAF, OIS, 64 MP, f/3.5, 91mm (periscope telephoto), 1/2.0\", PDAF, OIS, 3.5x optical zoom (vs. 26mm cam), 64 MP, f/2.4, 16mm, 112˚ (ultrawide), 1/1.7\", PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 26mm (wide), 1/2.8\", 1.22µm, under display"
+    }
+  ]
+}

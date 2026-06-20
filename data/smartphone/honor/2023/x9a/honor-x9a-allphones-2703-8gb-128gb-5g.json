@@ -1,0 +1,46 @@
+{
+  "slug": "honor-x9a-allphones-2703-8gb-128gb-5g",
+  "base_model_slug": "x9a",
+  "name": "Honor X9a",
+  "brand": "honor",
+  "release_date": "2023-01-01",
+  "ram_gb": 8,
+  "battery_mah": 5100,
+  "weight_g": 175.0,
+  "os": "Android 12, upgradable to Android 13, MagicOS 7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2703",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-695",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), PDAF, 5 MP, f/2.2, (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

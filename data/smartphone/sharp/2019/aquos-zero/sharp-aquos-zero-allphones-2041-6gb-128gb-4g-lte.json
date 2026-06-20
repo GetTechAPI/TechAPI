@@ -1,0 +1,45 @@
+{
+  "slug": "sharp-aquos-zero-allphones-2041-6gb-128gb-4g-lte",
+  "base_model_slug": "aquos-zero",
+  "name": "Sharp Aquos Zero",
+  "brand": "sharp",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3130,
+  "weight_g": 146.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2041",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-sdm845-snapdragon-845",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1440 x 2992 pixels, 18.7:9 ratio (~536 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "22.6 MP, f/1.9, 22 mm, PDAF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 23 mm"
+    }
+  ]
+}

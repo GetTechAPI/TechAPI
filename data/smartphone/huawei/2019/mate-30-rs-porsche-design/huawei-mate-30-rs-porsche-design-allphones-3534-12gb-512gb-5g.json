@@ -1,0 +1,45 @@
+{
+  "slug": "huawei-mate-30-rs-porsche-design-allphones-3534-12gb-512gb-5g",
+  "base_model_slug": "mate-30-rs-porsche-design",
+  "name": "Huawei Mate 30 RS Porsche Design",
+  "brand": "huawei",
+  "release_date": "2019-01-01",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 198.0,
+  "os": "Android 10, EMUI 10, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3534",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "kirin-990-5g",
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "resolution": "1176 x 2400 pixels, 18.5:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "40 MP, f/1.6, 27mm (wide), 1/1.7\", PDAF, OIS, 8 MP, f/2.4, 80mm (telephoto), 1/4.0\", PDAF, OIS, 3x optical zoom, 40 MP, f/1.8, 18mm (ultrawide), 1/1.54\", PDAF, TOF 3D, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm, TOF 3D, (depth/biometrics sensor)"
+    }
+  ]
+}

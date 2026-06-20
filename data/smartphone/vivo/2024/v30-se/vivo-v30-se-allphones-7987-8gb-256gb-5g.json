@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-v30-se-allphones-7987-8gb-256gb-5g",
+  "base_model_slug": "v30-se",
+  "name": "vivo V30 SE",
+  "brand": "vivo",
+  "release_date": "2024-05-01",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 185.5,
+  "os": "Android 14, Funtouch 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7987",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-4-gen-2",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 26mm (wide), PDAF, 8 MP, f/2.2, (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

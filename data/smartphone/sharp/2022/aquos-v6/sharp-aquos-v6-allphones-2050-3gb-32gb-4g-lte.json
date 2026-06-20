@@ -1,0 +1,45 @@
+{
+  "slug": "sharp-aquos-v6-allphones-2050-3gb-32gb-4g-lte",
+  "base_model_slug": "aquos-v6",
+  "name": "Sharp Aquos V6",
+  "brand": "sharp",
+  "release_date": "2022-02-01",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 190.0,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2050",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-helio-g25-mt6762g",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), 2 MP, (macro), 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

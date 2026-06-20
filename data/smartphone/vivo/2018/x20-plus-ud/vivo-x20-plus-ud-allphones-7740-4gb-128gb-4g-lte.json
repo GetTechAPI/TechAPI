@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-x20-plus-ud-allphones-7740-4gb-128gb-4g-lte",
+  "base_model_slug": "x20-plus-ud",
+  "name": "vivo X20 Plus UD",
+  "brand": "vivo",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3900,
+  "weight_g": 181.5,
+  "os": "Android 7.1.1 (Nougat), Funtouch 3.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7740",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm660-snapdragon-660",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~376 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, AF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.0, (wide), 1/2.8\", 1.28µm"
+    }
+  ]
+}

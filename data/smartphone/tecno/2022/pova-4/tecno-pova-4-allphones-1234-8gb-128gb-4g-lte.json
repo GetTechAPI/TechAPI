@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-pova-4-allphones-1234-8gb-128gb-4g-lte",
+  "base_model_slug": "pova-4",
+  "name": "Tecno Pova 4",
+  "brand": "tecno",
+  "release_date": "2022-10-10",
+  "ram_gb": 8,
+  "battery_mah": 6000,
+  "weight_g": 214.0,
+  "os": "Android 12, HIOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1234",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~257 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, (wide), PDAF, 0.08 MP (auxiliary lens)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

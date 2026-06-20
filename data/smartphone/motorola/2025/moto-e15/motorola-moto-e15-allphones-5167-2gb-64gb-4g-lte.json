@@ -1,0 +1,45 @@
+{
+  "slug": "motorola-moto-e15-allphones-5167-2gb-64gb-4g-lte",
+  "base_model_slug": "moto-e15",
+  "name": "Motorola Moto E15",
+  "brand": "motorola",
+  "release_date": "2025-01-10",
+  "ram_gb": 2,
+  "battery_mah": 5200,
+  "weight_g": 188.8,
+  "os": "Android 14 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5167",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-helio",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1604 pixels, 20:9 ratio (~264 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "32 MP, f/2.2, (wide), 0.64µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.1, (wide), 1.12µm"
+    }
+  ]
+}

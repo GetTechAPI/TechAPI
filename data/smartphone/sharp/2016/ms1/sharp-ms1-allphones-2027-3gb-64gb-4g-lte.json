@@ -1,0 +1,45 @@
+{
+  "slug": "sharp-ms1-allphones-2027-3gb-64gb-4g-lte",
+  "base_model_slug": "ms1",
+  "name": "Sharp MS1",
+  "brand": "sharp",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 2600,
+  "weight_g": 151.0,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2027",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6753",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP"
+    }
+  ]
+}

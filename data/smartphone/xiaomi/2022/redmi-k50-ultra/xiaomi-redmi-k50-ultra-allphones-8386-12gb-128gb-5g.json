@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-redmi-k50-ultra-allphones-8386-12gb-128gb-5g",
+  "base_model_slug": "redmi-k50-ultra",
+  "name": "Xiaomi Redmi K50 Ultra",
+  "brand": "xiaomi",
+  "release_date": "2022-08-25",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 202.0,
+  "os": "Android 12, MIUI 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8386",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.6, (wide), 1/1.67\", PDAF, OIS, 8 MP, f/2.2, 120˚, (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, (wide)"
+    }
+  ]
+}

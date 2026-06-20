@@ -1,0 +1,45 @@
+{
+  "slug": "xiaomi-pad-5-pro-allphones-8336-8gb-128gb-5g",
+  "base_model_slug": "pad-5-pro",
+  "name": "Xiaomi Pad 5 Pro",
+  "brand": "xiaomi",
+  "release_date": "2021-08-10",
+  "ram_gb": 8,
+  "battery_mah": 8600,
+  "weight_g": 515.0,
+  "os": "Android 11, upgradable to Android 13, MIUI 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8336",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5G model:, 50 MP, 1/2.5\", 0.7µm, PDAF, 5 MP, f/2.4, (depth), , Wi-Fi model, 13 MP, f/2.0, AF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

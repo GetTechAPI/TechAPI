@@ -1,0 +1,45 @@
+{
+  "slug": "infinix-zero-x-allphones-1302-8gb-128gb-4g-lte",
+  "base_model_slug": "zero-x",
+  "name": "Infinix Zero X",
+  "brand": "infinix",
+  "release_date": "2021-09-13",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 193.0,
+  "os": "Android 11, XOS 7.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1302",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g95",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, (wide), PDAF, OIS, 8 MP, f/3.4, 125mm (periscope telephoto), PDAF, 5x optical zoom, OIS, 8 MP, f/2.3, 13mm, 120˚ (ultrawide), 1/4.0\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, (wide)"
+    }
+  ]
+}

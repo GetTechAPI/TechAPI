@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-s16e-allphones-7925-12gb-128gb-5g",
+  "base_model_slug": "s16e",
+  "name": "vivo S16e",
+  "brand": "vivo",
+  "release_date": "2022-12-22",
+  "ram_gb": 12,
+  "battery_mah": 4600,
+  "weight_g": 187.7,
+  "os": "Android 11, OriginOS Ocean",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7925",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "exynos-1080",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~398 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, OIS, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

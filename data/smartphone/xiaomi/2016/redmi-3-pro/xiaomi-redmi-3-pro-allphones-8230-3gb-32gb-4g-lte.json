@@ -1,0 +1,45 @@
+{
+  "slug": "xiaomi-redmi-3-pro-allphones-8230-3gb-32gb-4g-lte",
+  "base_model_slug": "redmi-3-pro",
+  "name": "Xiaomi Redmi 3 Pro",
+  "brand": "xiaomi",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 4100,
+  "weight_g": 144.0,
+  "os": "Android 5.1 (Lollipop), MIUI 7.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8230",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Micro-SIM"
+  },
+  "soc": "qualcomm-msm8939v2-snapdragon-616",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-civi-3-allphones-8414-16gb-256gb-5g",
+  "base_model_slug": "civi-3",
+  "name": "Xiaomi Civi 3",
+  "brand": "xiaomi",
+  "release_date": "2023-05-01",
+  "ram_gb": 16,
+  "battery_mah": 4500,
+  "weight_g": 174.0,
+  "os": "Android 13, MIUI 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8414",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-8200",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 1/1.49\", 1.0µm, PDAF, OIS, 8 MP, f/2.2, 115˚ (ultrawide), 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm, AF, 32 MP, f/2.4, 100˚ (ultrawide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "honor-x40-gt-allphones-2692-12gb-256gb-5g",
+  "base_model_slug": "x40-gt",
+  "name": "Honor X40 GT",
+  "brand": "honor",
+  "release_date": "2022-10-18",
+  "ram_gb": 12,
+  "battery_mah": 4800,
+  "weight_g": 199.5,
+  "os": "Android 12, Magic UI 6.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2692",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-888",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2388 pixels (~385 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5"
+    }
+  ]
+}

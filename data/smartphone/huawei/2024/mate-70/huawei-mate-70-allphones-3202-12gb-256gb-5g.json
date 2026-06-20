@@ -1,0 +1,47 @@
+{
+  "slug": "huawei-mate-70-allphones-3202-12gb-256gb-5g",
+  "base_model_slug": "mate-70",
+  "name": "Huawei Mate 70",
+  "brand": "huawei",
+  "release_date": "2024-01-01",
+  "ram_gb": 12,
+  "battery_mah": 5300,
+  "weight_g": 203.0,
+  "os": "HarmonyOS 4.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3202",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "kirin-9010",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1216 x 2688 pixels (~440 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS, 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 40 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide)"
+    }
+  ]
+}

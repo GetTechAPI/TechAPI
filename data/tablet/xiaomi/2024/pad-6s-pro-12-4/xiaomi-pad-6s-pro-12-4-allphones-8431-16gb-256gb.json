@@ -1,0 +1,43 @@
+{
+  "slug": "xiaomi-pad-6s-pro-12-4-allphones-8431-16gb-256gb",
+  "base_model_slug": "pad-6s-pro-12-4",
+  "name": "Xiaomi Pad 6S Pro 12.4",
+  "brand": "xiaomi",
+  "release_date": "2024-02-22",
+  "ram_gb": 16,
+  "battery_mah": 10000,
+  "weight_g": 590.0,
+  "os": "Android 14, up to 3 major Android upgrades, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8431",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "sim": "No"
+  },
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "2032 x 3048 pixels, 3:2 ratio (~295 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 1/2.76\", 0.64µm, PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.2, (wide), 1/3.6\", 0.61µm"
+    }
+  ]
+}

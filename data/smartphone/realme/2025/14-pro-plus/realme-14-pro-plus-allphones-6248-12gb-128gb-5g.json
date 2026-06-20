@@ -1,0 +1,47 @@
+{
+  "slug": "realme-14-pro-plus-allphones-6248-12gb-128gb-5g",
+  "base_model_slug": "14-pro-plus",
+  "name": "Realme 14 Pro+",
+  "brand": "realme",
+  "release_date": "2025-01-09",
+  "ram_gb": 12,
+  "battery_mah": 6000,
+  "weight_g": 194.0,
+  "os": "Android 15, up to 2 major Android upgrades, Realme UI 6.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6248",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM +"
+  },
+  "soc": "qualcomm",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1272 x 2800 pixels (~450 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS, 50 MP, f/2.7, 73mm, (periscope telephoto), 1/1.95\", 0.8µm, multi-directional PDAF, OIS, 3x optical zoom, 8 MP, f/2.2, 16mm, 112˚ (ultrawide), 1/4.0\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 21mm (wide), 1/2.74\", 0.8µm, AF"
+    }
+  ]
+}

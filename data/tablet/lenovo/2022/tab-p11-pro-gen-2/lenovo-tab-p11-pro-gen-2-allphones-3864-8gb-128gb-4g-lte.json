@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-tab-p11-pro-gen-2-allphones-3864-8gb-128gb-4g-lte",
+  "base_model_slug": "tab-p11-pro-gen-2",
+  "name": "Lenovo Tab P11 Pro Gen 2",
+  "brand": "lenovo",
+  "release_date": "2022-09-01",
+  "ram_gb": 8,
+  "battery_mah": 8200,
+  "weight_g": 480.0,
+  "os": "Android 12, upgradable to Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3864",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1536 x 2560 pixels, 5:3 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.4, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

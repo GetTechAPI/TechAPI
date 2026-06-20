@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-nova-y70-plus-allphones-3228-4gb-64gb-4g-lte",
+  "base_model_slug": "nova-y70-plus",
+  "name": "Huawei nova Y70 Plus",
+  "brand": "huawei",
+  "release_date": "2022-04-20",
+  "ram_gb": 4,
+  "battery_mah": 6000,
+  "weight_g": 199.0,
+  "os": "EMUI 12, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3228",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "kirin-710a",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 26mm (wide), PDAF, 5 MP, f/2.2, 120˚ (ultrawide), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

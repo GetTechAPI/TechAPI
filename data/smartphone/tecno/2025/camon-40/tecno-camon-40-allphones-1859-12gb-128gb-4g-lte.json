@@ -1,0 +1,46 @@
+{
+  "slug": "tecno-camon-40-allphones-1859-12gb-128gb-4g-lte",
+  "base_model_slug": "camon-40",
+  "name": "Tecno Camon 40",
+  "brand": "tecno",
+  "release_date": "2025-04-10",
+  "ram_gb": 12,
+  "battery_mah": 5200,
+  "weight_g": 177.2,
+  "os": "Android 15, up to 3 major Android upgrades, HIOS 15",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1859",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2436 pixels (~393 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS, 8 MP, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, (wide)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "huawei-y5ii-allphones-3292-1gb-8gb-4g-lte",
+  "base_model_slug": "y5ii",
+  "name": "Huawei Y5II",
+  "brand": "huawei",
+  "release_date": "2016-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2200,
+  "weight_g": 135.0,
+  "os": "Android 5.1 (Lollipop), EMUI 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3292",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6735p",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

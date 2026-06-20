@@ -1,0 +1,46 @@
+{
+  "slug": "tecno-pova-5-pro-allphones-1825-8gb-128gb-5g",
+  "base_model_slug": "pova-5-pro",
+  "name": "Tecno Pova 5 Pro",
+  "brand": "tecno",
+  "release_date": "2023-08-22",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 212.0,
+  "os": "Android 13, upgradable to Android 14, HIOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1825",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2460 pixels (~396 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, (wide), PDAF, 0.08 MP (auxiliary lens)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

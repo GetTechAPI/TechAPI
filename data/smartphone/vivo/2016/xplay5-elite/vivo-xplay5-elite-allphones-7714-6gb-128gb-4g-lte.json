@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-xplay5-elite-allphones-7714-6gb-128gb-4g-lte",
+  "base_model_slug": "xplay5-elite",
+  "name": "vivo Xplay5 Elite",
+  "brand": "vivo",
+  "release_date": "2016-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3600,
+  "weight_g": 167.8,
+  "os": "Android 6.0 (Marshmallow), Funtouch 2.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7714",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-msm8996-snapdragon-820",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~541 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.0, 1/2.8\", 1.12µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.4"
+    }
+  ]
+}

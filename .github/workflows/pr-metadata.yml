@@ -32,12 +32,19 @@ jobs:
               assignees.push(pr.user.login);
             }
 
-            const files = await github.paginate(github.rest.pulls.listFiles, {
+            const FILE_SCAN_LIMIT = 500;
+            const files = [];
+            const fileIterator = github.paginate.iterator(github.rest.pulls.listFiles, {
               owner,
               repo,
               pull_number: issue_number,
               per_page: 100,
             });
+            for await (const { data } of fileIterator) {
+              files.push(...data);
+              if (files.length >= FILE_SCAN_LIMIT) break;
+            }
+            const filesWereCapped = (pr.changed_files || files.length) > files.length;
 
             const labels = new Set();
             const title = pr.title.toLowerCase();
@@ -101,7 +108,7 @@ jobs:
               break;
             }
 
-            const changedLines = files.reduce((sum, file) => sum + file.additions + file.deletions, 0);
+            const changedLines = (pr.additions || 0) + (pr.deletions || 0);
             let priority = 'Medium';
             if (labels.has('data') && (files.length >= 25 || changedLines >= 1000)) {
               priority = 'High';
@@ -190,8 +197,8 @@ jobs:
                 `- Author: @${pr.user.login}`,
                 `- Labels: ${labelText}`,
                 `- Priority: ${priority}`,
-                `- Files changed: ${files.length}`,
-                `- Lines changed: +${files.reduce((sum, file) => sum + file.additions, 0)} / -${files.reduce((sum, file) => sum + file.deletions, 0)}`,
+                `- Files changed: ${pr.changed_files || files.length}${filesWereCapped ? ` (sampled ${files.length} for metadata)` : ''}`,
+                `- Lines changed: +${pr.additions || files.reduce((sum, file) => sum + file.additions, 0)} / -${pr.deletions || files.reduce((sum, file) => sum + file.deletions, 0)}`,
                 '',
                 '### Changed Data',
                 '',
@@ -208,6 +215,7 @@ jobs:
                 '### Notes',
                 '',
                 '- This is an automatic tracking comment for the long-running issue.',
+                ...(filesWereCapped ? ['- Large PR detected: changed-area tables are based on the first sampled files, while total file/line counts come from GitHub PR metadata.'] : []),
                 '- PR validation details are posted on the PR by TechEngineBot.',
                 '- The tracker issue remains open even when the PR uses `Closes #...` for GitHub Development linking.',
               ].join('\n');

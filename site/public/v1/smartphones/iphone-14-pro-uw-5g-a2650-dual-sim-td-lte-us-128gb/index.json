@@ -1,0 +1,93 @@
+{
+  "id": 2059,
+  "slug": "iphone-14-pro-uw-5g-a2650-dual-sim-td-lte-us-128gb",
+  "base_model_slug": "iphone-14",
+  "name": "iPhone 14 Pro UW 5G A2650 Dual SIM TD-LTE US 128GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 42,
+    "slug": "apple-a16-bionic-apl1010-apl1w10",
+    "name": "Apple A16 Bionic APL1010 / APL1W10",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple A16MP5",
+    "url": "/v1/socs/apple-a16-bionic-apl1010-apl1w10"
+  },
+  "release_date": "2022-09-16",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "iphone-14-pro-uw-5g-a2650-dual-sim-td-lte-us-128gb",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "dual SIM",
+    "model_numbers": [
+      "A2650-DUAL-SIM-TD-LTE-US-128GB"
+    ]
+  },
+  "display": {
+    "size_inch": 6.12,
+    "resolution": "1179x2556",
+    "type": "AM-OLED display",
+    "ppi": 460
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 12.2
+    }
+  ],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.3",
+    "usb": "Proprietary"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 26.8,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 13.0,
+    "display": 51.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:52.594415",
+  "updated_at": "2026-06-20T11:17:52.594415"
+}

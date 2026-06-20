@@ -1,0 +1,92 @@
+{
+  "id": 30264,
+  "slug": "rakuten-hand-td-lte-jp-p710",
+  "base_model_slug": "rakuten-hand",
+  "name": "Rakuten Hand TD-LTE JP P710",
+  "brand": {
+    "id": 72,
+    "slug": "wiko",
+    "name": "Wiko",
+    "country": "FR",
+    "url": "/v1/brands/wiko"
+  },
+  "soc": {
+    "id": 1708,
+    "slug": "qualcomm-snapdragon-720g-sm7125",
+    "name": "Qualcomm Snapdragon 720G SM7125",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Qualcomm Adreno 618",
+    "url": "/v1/socs/qualcomm-snapdragon-720g-sm7125"
+  },
+  "release_date": "2020-12-08",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "jp",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "rakuten-hand-td-lte-jp-p710",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "P710"
+    ]
+  },
+  "display": {
+    "size_inch": 5.1,
+    "resolution": "720x1520",
+    "type": "AM-OLED display",
+    "ppi": 330
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 2750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 129.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.2,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 0.0,
+    "display": 38.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:59.939247",
+  "updated_at": "2026-06-20T11:17:59.939247"
+}

@@ -1,0 +1,92 @@
+{
+  "id": 15728,
+  "slug": "c100-2022-lte-us-32gb",
+  "base_model_slug": "c100-2022",
+  "name": "C100 2022 LTE US 32GB",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1160,
+    "slug": "mediatek-helio-a22-mt6761",
+    "name": "MediaTek Helio A22 MT6761",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8300",
+    "url": "/v1/socs/mediatek-helio-a22-mt6761"
+  },
+  "release_date": "2022-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "c100-2022-lte-us-32gb",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "C100-2022-LTE-US-32GB"
+    ]
+  },
+  "display": {
+    "size_inch": 5.45,
+    "resolution": "720x1440",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 295
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.3,
+    "performance": null,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:56.030154",
+  "updated_at": "2026-06-20T11:17:56.030154"
+}

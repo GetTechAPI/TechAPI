@@ -1,0 +1,89 @@
+{
+  "id": 4992,
+  "slug": "pixel-fold-5g-uw-global-td-lte-256gb-g9fpl",
+  "base_model_slug": "pixel-fold-g9fpl",
+  "name": "Pixel Fold 5G UW Global TD-LTE 256GB G9FPL",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 1936,
+    "slug": "samsung-google-tensor-g2-gs201-s5p9855",
+    "name": "Samsung Google Tensor G2 GS201 S5P9855",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "ARM Mali-G710MP7",
+    "url": "/v1/socs/samsung-google-tensor-g2-gs201-s5p9855"
+  },
+  "release_date": "2023-06-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "pixel-fold-5g-uw-global-td-lte-256gb-g9fpl",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size_inch": 7.57,
+    "resolution": "2208x1840",
+    "type": "AM-OLED display",
+    "ppi": 380
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 9.5
+    }
+  ],
+  "battery_mah": 4821,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 283.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.3,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 37.3,
+    "display": 43.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:53.208484",
+  "updated_at": "2026-06-20T11:17:53.208484"
+}

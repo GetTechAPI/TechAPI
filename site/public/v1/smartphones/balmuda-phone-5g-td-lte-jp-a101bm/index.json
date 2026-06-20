@@ -1,0 +1,92 @@
+{
+  "id": 9096,
+  "slug": "balmuda-phone-5g-td-lte-jp-a101bm",
+  "base_model_slug": "balmuda-phone",
+  "name": "Balmuda Phone 5G TD-LTE JP A101BM",
+  "brand": {
+    "id": 100,
+    "slug": "kyocera",
+    "name": "Kyocera",
+    "country": "JP",
+    "url": "/v1/brands/kyocera"
+  },
+  "soc": {
+    "id": 1709,
+    "slug": "qualcomm-snapdragon-765-5g-sm7250-aa",
+    "name": "Qualcomm Snapdragon 765 5G SM7250-AA",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 620",
+    "url": "/v1/socs/qualcomm-snapdragon-765-5g-sm7250-aa"
+  },
+  "release_date": "2021-11-26",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "jp",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "balmuda-phone-5g-td-lte-jp-a101bm",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "A101BM"
+    ]
+  },
+  "display": {
+    "size_inch": 4.9,
+    "resolution": "1080x1920",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 449
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 8.0
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 138.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.1,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 0.0,
+    "display": 49.9,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:54.227805",
+  "updated_at": "2026-06-20T11:17:54.227805"
+}

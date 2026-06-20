@@ -1,0 +1,92 @@
+{
+  "id": 9112,
+  "slug": "easy-smartphone-2-td-lte-jp-a201kc",
+  "base_model_slug": "easy-smartphone-2",
+  "name": "Easy Smartphone 2+ TD-LTE JP A201KC",
+  "brand": {
+    "id": 100,
+    "slug": "kyocera",
+    "name": "Kyocera",
+    "country": "JP",
+    "url": "/v1/brands/kyocera"
+  },
+  "soc": {
+    "id": 1160,
+    "slug": "mediatek-helio-a22-mt6761",
+    "name": "MediaTek Helio A22 MT6761",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8300",
+    "url": "/v1/socs/mediatek-helio-a22-mt6761"
+  },
+  "release_date": "2022-03-24",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "jp",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "easy-smartphone-2-td-lte-jp-a201kc",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "A201KC"
+    ]
+  },
+  "display": {
+    "size_inch": 5.6,
+    "resolution": "720x1480",
+    "type": "AM-OLED display",
+    "ppi": 294
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 3300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 151.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 14.9,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 4.5,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:54.231805",
+  "updated_at": "2026-06-20T11:17:54.231805"
+}

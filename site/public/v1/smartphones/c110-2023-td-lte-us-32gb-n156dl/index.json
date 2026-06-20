@@ -1,0 +1,92 @@
+{
+  "id": 15840,
+  "slug": "c110-2023-td-lte-us-32gb-n156dl",
+  "base_model_slug": "c110-2023",
+  "name": "C110 2023 TD-LTE US 32GB N156DL",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1161,
+    "slug": "mediatek-helio-p22-mt6762",
+    "name": "MediaTek Helio P22 MT6762",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-p22-mt6762"
+  },
+  "release_date": "2023-06-02",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "c110-2023-td-lte-us-32gb-n156dl",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "C110-2023-TD-LTE-US-32GB-N156DL"
+    ]
+  },
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "720x1560",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 273
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 4.9
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.4,
+    "performance": null,
+    "camera": 5.3,
+    "battery": 0.0,
+    "display": 35.0,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:56.058159",
+  "updated_at": "2026-06-20T11:17:56.058159"
+}

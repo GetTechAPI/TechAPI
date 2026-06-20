@@ -1,0 +1,92 @@
+{
+  "id": 15775,
+  "slug": "g400-2022-5g-td-lte-us-64gb",
+  "base_model_slug": "g400-2022",
+  "name": "G400 2022 5G TD-LTE US 64GB",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1738,
+    "slug": "qualcomm-snapdragon-480-5g-sm4350-ac",
+    "name": "Qualcomm Snapdragon 480+ 5G SM4350-AC",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Qualcomm Adreno 619",
+    "url": "/v1/socs/qualcomm-snapdragon-480-5g-sm4350-ac"
+  },
+  "release_date": "2022-08-24",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "g400-2022-5g-td-lte-us-64gb",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "G400-2022-5G-TD-LTE-US-64GB"
+    ]
+  },
+  "display": {
+    "size_inch": 6.58,
+    "resolution": "1080x2408",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 401
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.9,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.5,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 30.0,
+    "display": 45.1,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:56.038154",
+  "updated_at": "2026-06-20T11:17:56.038154"
+}

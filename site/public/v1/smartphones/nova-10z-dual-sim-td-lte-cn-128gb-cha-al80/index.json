@@ -1,0 +1,93 @@
+{
+  "id": 8121,
+  "slug": "nova-10z-dual-sim-td-lte-cn-128gb-cha-al80",
+  "base_model_slug": "nova-10z-cha",
+  "name": "Nova 10z Dual SIM TD-LTE CN 128GB CHA-AL80",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 816,
+    "slug": "hisilicon-honor-kirin710a",
+    "name": "HiSilicon Honor KIRIN710A",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "ARM Mali-G51MP4",
+    "url": "/v1/socs/hisilicon-honor-kirin710a"
+  },
+  "release_date": "2022-09-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "nova-10z-dual-sim-td-lte-cn-128gb-cha-al80",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "dual SIM",
+    "model_numbers": [
+      "AL80"
+    ]
+  },
+  "display": {
+    "size_inch": 6.6,
+    "resolution": "1080x2400",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 399
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 63.7
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 179.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.1",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.1,
+    "performance": null,
+    "camera": 21.5,
+    "battery": 15.0,
+    "display": 44.9,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:53.951590",
+  "updated_at": "2026-06-20T11:17:53.951590"
+}

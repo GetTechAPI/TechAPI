@@ -1,0 +1,92 @@
+{
+  "id": 27576,
+  "slug": "revvl-5g-td-lte-us-128gb-t790w-t790z",
+  "base_model_slug": "revvl",
+  "name": "REVVL 5G TD-LTE US 128GB T790W / T790Z",
+  "brand": {
+    "id": 62,
+    "slug": "t-mobile",
+    "name": "T-Mobile",
+    "country": "DE",
+    "url": "/v1/brands/t-mobile"
+  },
+  "soc": {
+    "id": 1709,
+    "slug": "qualcomm-snapdragon-765-5g-sm7250-aa",
+    "name": "Qualcomm Snapdragon 765 5G SM7250-AA",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 620",
+    "url": "/v1/socs/qualcomm-snapdragon-765-5g-sm7250-aa"
+  },
+  "release_date": "2020-09-07",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "us",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "revvl-5g-td-lte-us-128gb-t790w-t790z",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "T790W-T790Z"
+    ]
+  },
+  "display": {
+    "size_inch": 6.53,
+    "resolution": "1080x2340",
+    "type": "Color IPS TFT LCD display",
+    "ppi": 395
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 48.0
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 214.9,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.0",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.8,
+    "performance": null,
+    "camera": 16.5,
+    "battery": 22.5,
+    "display": 44.5,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:59.305772",
+  "updated_at": "2026-06-20T11:17:59.305772"
+}

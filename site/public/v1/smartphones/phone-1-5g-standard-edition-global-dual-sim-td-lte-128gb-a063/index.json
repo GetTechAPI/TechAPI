@@ -1,0 +1,93 @@
+{
+  "id": 15877,
+  "slug": "phone-1-5g-standard-edition-global-dual-sim-td-lte-128gb-a063",
+  "base_model_slug": "phone-1",
+  "name": "Phone (1) 5G Standard Edition Global Dual SIM TD-LTE 128GB A063",
+  "brand": {
+    "id": 78,
+    "slug": "nothing",
+    "name": "Nothing",
+    "country": "GB",
+    "url": "/v1/brands/nothing"
+  },
+  "soc": {
+    "id": 1743,
+    "slug": "qualcomm-snapdragon-778g-5g-sm7325-ae",
+    "name": "Qualcomm Snapdragon 778G+ 5G SM7325-AE",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Qualcomm Adreno 642L",
+    "url": "/v1/socs/qualcomm-snapdragon-778g-5g-sm7325-ae"
+  },
+  "release_date": "2022-07-21",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "smartphone-variant-import",
+    "source_slug": "phone-1-5g-standard-edition-global-dual-sim-td-lte-128gb-a063",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "dual SIM",
+    "model_numbers": [
+      "A063"
+    ]
+  },
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "1080x2400",
+    "type": "AM-OLED display",
+    "ppi": 402
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.3
+    },
+    {
+      "type": "selfie",
+      "mp": 15.9
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 193.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {
+    "bluetooth": "Bluetooth 5.2",
+    "usb": "USB C reversible"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": 17.2,
+    "battery": 27.5,
+    "display": 45.2,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+  ],
+  "created_at": "2026-06-20T11:17:56.070160",
+  "updated_at": "2026-06-20T11:17:56.070160"
+}

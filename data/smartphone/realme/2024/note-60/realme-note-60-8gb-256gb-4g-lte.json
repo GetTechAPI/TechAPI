@@ -1,0 +1,109 @@
+{
+  "slug": "realme-note-60-8gb-256gb-4g-lte",
+  "name": "Realme Note 60",
+  "brand": "realme",
+  "release_date": "2024-08-28",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 187.0,
+  "os": "Android 14, Realme UI 5.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "note-60",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.74 inches, 109.7 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+    "type": "IPS LCD, 90Hz, 450 nits (typ), 560 nits (HBM)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 40",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, August 30",
+      "Status": "Available. Released 2024, August 30"
+    },
+    "Body": {
+      "Dimensions": "167.3 x 76.7 x 7.8 mm (6.59 x 3.02 x 0.31 in)",
+      "Weight": "187 g (6.60 oz)",
+      "Build": "Glass front, plastic frame, plastic back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz, 450 nits (typ), 560 nits (HBM)",
+      "Size": "6.74 inches, 109.7 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+      "Protection": "Reinforced glass"
+    },
+    "Platform": {
+      "OS": "Android 14, Realme UI 5.0",
+      "Chipset": "Unisoc Tiger T612 (12 nm)",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G57"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "32 MP, f/1.8, (wide), PDAF",
+      "Features": "LED flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, (wide)",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GALILEO, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Voyage Blue, Marble Black",
+      "Price": "About 80 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "soc": "unisoc-tiger-t612"
+}

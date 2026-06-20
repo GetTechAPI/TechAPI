@@ -1,0 +1,104 @@
+{
+  "slug": "energizer-energy-e500-1gb-8gb-3g",
+  "name": "Energizer Energy E500",
+  "brand": "energizer",
+  "release_date": "2018-08-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 127.0,
+  "os": "Android Go",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "energy-e500",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/11.5 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, August",
+      "Status": "Available. Released 2018, August"
+    },
+    "Body": {
+      "Dimensions": "139.8 x 71.5 x 8.6 mm (5.50 x 2.81 x 0.34 in)",
+      "Weight": "127 g (4.48 oz)",
+      "SIM": "Hybrid Dual SIM (Micro-SIM/Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android Go",
+      "Chipset": "Mediatek MT6580M (28 nm)",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (uses shared SIM slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Features": "LED flash",
+      "Video": "480p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, removable",
+      "Stand-by": "Up to 200 h (3G)",
+      "Talk time": "Up to 12 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 70 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "mediatek-mt6580m"
+}

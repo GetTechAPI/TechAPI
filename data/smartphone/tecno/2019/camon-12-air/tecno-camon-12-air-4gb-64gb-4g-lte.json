@@ -1,0 +1,106 @@
+{
+  "slug": "tecno-camon-12-air-4gb-64gb-4g-lte",
+  "name": "Tecno Camon 12 Air",
+  "brand": "tecno",
+  "release_date": "2019-10-01",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 181.0,
+  "os": "Android 9.0 (Pie), HIOS 5.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "camon-12-air",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.55 inches, 103.6 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~268 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 20, 28",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, October",
+      "Status": "Available. Released 2019, October"
+    },
+    "Body": {
+      "Dimensions": "164.2 x 76.1 x 8.2 mm (6.46 x 3.00 x 0.32 in)",
+      "Weight": "181 g (6.38 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.55 inches, 103.6 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~268 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), HIOS 5.5",
+      "Chipset": "Mediatek MT6761 Helio A22 (12 nm)",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSD",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "16 MP, PDAF",
+      "Features": "Quad-LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "4000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Ocean Blue, Alpenglow Gold, Stellar Purple"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "mediatek-mt6761-helio-a22"
+}

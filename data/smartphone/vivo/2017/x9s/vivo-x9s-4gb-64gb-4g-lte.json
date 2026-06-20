@@ -1,0 +1,105 @@
+{
+  "slug": "vivo-x9s-4gb-64gb-4g-lte",
+  "name": "vivo X9s",
+  "brand": "vivo",
+  "release_date": "2017-07-01",
+  "ram_gb": 4,
+  "battery_mah": 3320,
+  "weight_g": 154.0,
+  "os": "Android 7.1 (Nougat), upgradable to Android 8.0 (Oreo), Funtouch 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "x9s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 4, 5, 8, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, July",
+      "Status": "Available. Released 2017, July"
+    },
+    "Body": {
+      "Dimensions": "152.6 x 74 x 7 mm (6.01 x 2.91 x 0.28 in)",
+      "Weight": "154 g (5.43 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.1 (Nougat), upgradable to Android 8.0 (Oreo), Funtouch 3.1",
+      "Chipset": "Qualcomm MSM8976 Snapdragon 652 (28 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Cortex-A72 & 4x1.2 GHz Cortex A53)",
+      "GPU": "Adreno 510"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, 1/2.8\", PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Dual": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3320 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Gold, Rose Gold, Black",
+      "Price": "About 350 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-msm8976-snapdragon-652"
+}

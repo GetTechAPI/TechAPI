@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-enjoy-70-8gb-256gb-4g-lte",
+  "name": "Huawei Enjoy 70",
+  "brand": "huawei",
+  "release_date": "2023-12-05",
+  "ram_gb": 8,
+  "battery_mah": 6000,
+  "weight_g": 207.0,
+  "os": "HarmonyOS 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "enjoy-70",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.75 inches, 110.0 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+    "type": "TFT LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, December 05",
+      "Status": "Available. Released 2023, December 13"
+    },
+    "Body": {
+      "Dimensions": "168.3 x 77.7 x 8.9 mm (6.63 x 3.06 x 0.35 in)",
+      "Weight": "207 g (7.30 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "TFT LCD",
+      "Size": "6.75 inches, 110.0 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+    },
+    "Platform": {
+      "OS": "HarmonyOS 4.0",
+      "Chipset": "Kirin 710A (14 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "50 MP, f/1.8, (wide), AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 6000 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Black, White, Green",
+      "Models": "FGD-AL00",
+      "Price": "About 160 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "kirin-710a"
+}

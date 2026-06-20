@@ -1,0 +1,114 @@
+{
+  "slug": "meizu-m5s-3gb-32gb-4g-lte",
+  "name": "Meizu M5s",
+  "brand": "meizu",
+  "release_date": "2017-02-01",
+  "ram_gb": 3,
+  "battery_mah": 3000,
+  "weight_g": 143.0,
+  "os": "Android 6.0 (Marshmallow), Flyme 5.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "m5s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 74.5 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~282 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 1900 / 2100 ",
+      "4G bands": " LTE 1800 / 2100 / 2600 TD-LTE 2300 / 2600",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2017, February. Released 2017, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "148.2 x 72.5 x 8.4 mm (5.83 x 2.85 x 0.33 in)",
+      "Weight": "143 g (5.04 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.2 inches, 74.5 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~282 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow), Flyme 5.2",
+      "Chipset": "Mediatek MT6753 (28 nm)",
+      "CPU": "Octa-core 1.3 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "16GB 3GB RAM, 32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, PDAF",
+      "Features": "Dual-LED dual-tone flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.0"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro (digital), proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "24W wired"
+    },
+    "Misc": {
+      "Colors": "Champanage Gold, Rose Gold, Stay Gray, Moonlight Silver",
+      "Models": "M5s, MZ-M5s",
+      "Price": "About 130 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 781Basemark X: 4646",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "mediatek-mt6753"
+}

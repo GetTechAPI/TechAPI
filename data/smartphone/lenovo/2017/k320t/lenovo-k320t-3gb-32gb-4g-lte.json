@@ -1,0 +1,105 @@
+{
+  "slug": "lenovo-k320t-3gb-32gb-4g-lte",
+  "name": "Lenovo K320t",
+  "brand": "lenovo",
+  "release_date": "2017-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3000,
+  "weight_g": 153.8,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "k320t",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 83.8 cm",
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat7 300/100 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, December",
+      "Status": "Available. Released 2018, January"
+    },
+    "Body": {
+      "Dimensions": "155.2 x 73.5 x 8.5 mm (6.11 x 2.89 x 0.33 in)",
+      "Weight": "153.8 g (5.43 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.7 inches, 83.8 cm",
+      "Resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat)",
+      "Chipset": "Spreadtrum",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "16GB 2GB RAM, 32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "8 MP, f/2.0, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.2"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "K320t",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "spreadtrum"
+}

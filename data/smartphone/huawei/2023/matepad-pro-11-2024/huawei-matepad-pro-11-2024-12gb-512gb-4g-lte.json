@@ -1,0 +1,109 @@
+{
+  "slug": "huawei-matepad-pro-11-2024-12gb-512gb-4g-lte",
+  "name": "Huawei MatePad Pro 11 (2024)",
+  "brand": "huawei",
+  "release_date": "2023-11-28",
+  "ram_gb": 12,
+  "battery_mah": 8300,
+  "weight_g": 449.0,
+  "os": "HarmonyOS 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "matepad-pro-11-2024",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 350.9 cm",
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~274 ppi density)",
+    "type": "OLED, 1B colors, 120Hz, 600 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2023, November 28",
+      "Status": "Available. Released 2023, December 18"
+    },
+    "Body": {
+      "Dimensions": "249.2 x 160.4 x 5.9 mm (9.81 x 6.31 x 0.23 in)",
+      "Weight": "449 g g cellular model) (15.84 oz)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "OLED, 1B colors, 120Hz, 600 nits (typ)",
+      "Size": "11.0 inches, 350.9 cm",
+      "Resolution": "2560 x 1600 pixels, 16:10 ratio (~274 ppi density)"
+    },
+    "Platform": {
+      "OS": "HarmonyOS 4.0",
+      "Chipset": "Kirin 9000S (7 nm)",
+      "CPU": "Octa-core (1x2.49 GHz Taishan Big & 3x2.15 GHz Taishan Mid & 4x1.53GHz Cortex-A510)",
+      "GPU": "Maleoon 910 MP4"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, f/1.8, (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.2",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (6 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity (accessories only), compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 8300 mAh, non-removable",
+      "Charging": "66W wired"
+    },
+    "Misc": {
+      "Colors": "Gray, Blue, White, Black",
+      "Models": "XYAO-W00",
+      "Price": "About 540 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "soc": "kirin-9000s"
+}

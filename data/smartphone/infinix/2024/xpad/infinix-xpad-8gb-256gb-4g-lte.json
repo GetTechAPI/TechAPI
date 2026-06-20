@@ -1,0 +1,109 @@
+{
+  "slug": "infinix-xpad-8gb-256gb-4g-lte",
+  "name": "Infinix Xpad",
+  "brand": "infinix",
+  "release_date": "2024-08-12",
+  "ram_gb": 8,
+  "battery_mah": 7000,
+  "weight_g": 496.0,
+  "os": "Android 14, XOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xpad",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "11.0 inches, 350.9 cm",
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~206 ppi density)",
+    "type": "IPS LCD, 90Hz, 440 nits"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, August 12",
+      "Status": "Available. Released 2024, August 18"
+    },
+    "Body": {
+      "Dimensions": "257 x 168.6 x 7.6 mm (10.12 x 6.64 x 0.30 in)",
+      "Weight": "496 g (1.09 lb)",
+      "Build": "Glass front, aluminum frame, aluminum back",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz, 440 nits",
+      "Size": "11.0 inches, 350.9 cm",
+      "Resolution": "1200 x 1920 pixels, 16:10 ratio (~206 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 14, XOS 14",
+      "Chipset": "Mediatek Helio G99 (6 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "128GB 4GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP",
+      "Features": "Quad-LED flash",
+      "Video": "1440p@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Features": "Dual-LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 7000 mAh, non-removable",
+      "Charging": "18W wired, 50% in 40 mins (advertised)"
+    },
+    "Misc": {
+      "Colors": "Titan Gold, Frost Blue, Stellar Grey",
+      "Models": "X1101",
+      "Price": "About 140 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "helio-g99"
+}

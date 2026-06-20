@@ -1,0 +1,121 @@
+{
+  "slug": "xiaomi-mi-9-se-6gb-128gb-4g-lte",
+  "name": "Xiaomi Mi 9 SE",
+  "brand": "xiaomi",
+  "release_date": "2019-02-20",
+  "ram_gb": 6,
+  "battery_mah": 3070,
+  "weight_g": 155.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 11, MIUI 12.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mi-9-se",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.97 inches, 87.5 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~432 ppi density)",
+    "type": "Super AMOLED, HDR"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 4, 5, 7, 8, 20, 38, 40 - Global",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, February 20",
+      "Status": "Available. Released 2019, March"
+    },
+    "Body": {
+      "Dimensions": "147.5 x 70.5 x 7.5 mm (5.81 x 2.78 x 0.30 in)",
+      "Weight": "155 g (5.47 oz)",
+      "Build": "Glass front (Gorilla Glass 5), glass back, aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED, HDR",
+      "Size": "5.97 inches, 87.5 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~432 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), upgradable to Android 11, MIUI 12.5",
+      "Chipset": "Qualcomm SDM712 Snapdragon 712 (10 nm)",
+      "CPU": "Octa-core (2x2.3 GHz Kryo 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+      "GPU": "Adreno 616"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 6GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "48 MP, f/1.8, (wide), 1/2.0\", 0.8µm, PDAF",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60/120fps, 720p@960fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "20 MP, f/2.0, (wide), 1/3\", 0.9µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "5.0, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3070 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Violet, Blue, Gray",
+      "Models": "M1903F2G",
+      "SAR": "1.39 W/kg (head)     1.39 W/kg (body)     ",
+      "SAR EU": "1.19 W/kg (head)     1.17 W/kg (body)     ",
+      "Price": "About 460 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 180057 (v7)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-sdm712-snapdragon-712"
+}

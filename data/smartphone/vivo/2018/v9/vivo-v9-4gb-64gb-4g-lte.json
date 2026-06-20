@@ -1,0 +1,106 @@
+{
+  "slug": "vivo-v9-4gb-64gb-4g-lte",
+  "name": "vivo V9",
+  "brand": "vivo",
+  "release_date": "2018-03-01",
+  "ram_gb": 4,
+  "battery_mah": 3260,
+  "weight_g": 150.0,
+  "os": "Android 8.1 (Oreo), Funtouch 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v9",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 99.1 cm",
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~400 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, March",
+      "Status": "Available. Released 2018, April"
+    },
+    "Body": {
+      "Dimensions": "154.8 x 75.1 x 7.9 mm (6.09 x 2.96 x 0.31 in)",
+      "Weight": "150 g (5.29 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.3 inches, 99.1 cm",
+      "Resolution": "1080 x 2280 pixels, 19:9 ratio (~400 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), Funtouch 4",
+      "Chipset": "Qualcomm MSM8953-Pro Snapdragon 626 (14 nm)",
+      "CPU": "Octa-core 2.2 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/2.0, PDAF",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio, recording",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3260 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Gold, Black, Sapphire Blue",
+      "Models": "1723",
+      "Price": "About 390 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-msm8953-pro-snapdragon-626"
+}

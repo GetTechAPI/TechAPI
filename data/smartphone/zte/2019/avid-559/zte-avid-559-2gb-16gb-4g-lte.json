@@ -1,0 +1,102 @@
+{
+  "slug": "zte-avid-559-2gb-16gb-4g-lte",
+  "name": "ZTE Avid 559",
+  "brand": "zte",
+  "release_date": "2019-03-01",
+  "ram_gb": 2,
+  "battery_mah": 2200,
+  "weight_g": 145.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "avid-559",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 5.00, 68.9 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)",
+    "type": "TFT LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 ",
+      "4G bands": "2, 4, 5, 12, 66, 71",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, March",
+      "Status": "Available. Released 2019, March"
+    },
+    "Body": {
+      "Dimensions": "147 x 71.9 x 9.4 mm (5.79 x 2.83 x 0.37 in)",
+      "Weight": "145 g (5.11 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "TFT LCD",
+      "Size": "5.0 inches, 5.00, 68.9 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo)",
+      "Chipset": "Qualcomm MSM8909 Snapdragon 210 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM Radio",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2200 mAh"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 40 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8909-snapdragon-210"
+}

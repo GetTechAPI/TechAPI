@@ -1,0 +1,110 @@
+{
+  "slug": "motorola-razr-2019-6gb-128gb-4g-lte",
+  "name": "Motorola Razr 2019",
+  "brand": "motorola",
+  "release_date": "2019-02-06",
+  "ram_gb": 6,
+  "battery_mah": 2510,
+  "weight_g": 205.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "razr-2019",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.2 inches, 86.9 cm",
+    "resolution": "876 x 2142 pixels (~373 ppi density)",
+    "type": "Foldable P-OLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 13, 20, 28, 38, 66 - MEA",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, November 14",
+      "Status": "Available. Released 2020, February 06"
+    },
+    "Body": {
+      "Dimensions": "Unfolded: 172 x 72 x 6.9 mm",
+      "Weight": "205 g (7.23 oz)",
+      "Build": "Plastic front, plastic back, aluminum frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "Foldable P-OLED",
+      "Size": "6.2 inches, 86.9 cm",
+      "Resolution": "876 x 2142 pixels (~373 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), upgradable to Android 11",
+      "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "CPU": "Octa-core (2x2.2 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+      "GPU": "Adreno 616"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/1.7, 1.22um, dual pixel PDAF",
+      "Features": "Laser AF, Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.0, 1.12um",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 2510 mAh, non-removable",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Colors": "Noir Black, Blush Gold",
+      "Models": "XT2000-1, XT2000-2",
+      "SAR": "0.78 W/kg (head)     0.97 W/kg (body)     ",
+      "SAR EU": "0.29 W/kg (head)     0.97 W/kg (body)     ",
+      "Price": "About 510 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "qualcomm-sdm710-snapdragon-710"
+}

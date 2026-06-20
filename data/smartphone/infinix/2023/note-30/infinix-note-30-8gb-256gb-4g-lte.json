@@ -1,0 +1,115 @@
+{
+  "slug": "infinix-note-30-8gb-256gb-4g-lte",
+  "name": "Infinix Note 30",
+  "brand": "infinix",
+  "release_date": "2023-05-22",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 219.0,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "note-30",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 109.2 cm",
+    "resolution": "1080 x 2460 pixels (~396 ppi density)",
+    "type": "IPS LCD, 120Hz, 580 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "Yes",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, May 22",
+      "Status": "Available. Released 2023, May 22"
+    },
+    "Body": {
+      "Dimensions": "168.6 x 76.6 x 8.6 mm (6.64 x 3.02 x 0.34 in)",
+      "Weight": "219 g (7.72 oz)",
+      "Build": "Glass front, plastic frame, glass or leather back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 120Hz, 580 nits (peak)",
+      "Size": "6.78 inches, 109.2 cm",
+      "Resolution": "1080 x 2460 pixels (~396 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13",
+      "Chipset": "Mediatek Helio G99 (6 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "64 MP, f/1.7, (wide), 1/2.0\", 0.7µm, PDAF",
+      "Features": "Quad-LED flash, HDR, panorama",
+      "Video": "1440p@30fps, 1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, (wide)",
+      "Features": "LED flash, HDR",
+      "Video": "1440p@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS",
+      "NFC": "Yes (market/region dependent)",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "45W wired"
+    },
+    "Misc": {
+      "Colors": "Obsidian Black, Interstellar Blue, Sunset Gold",
+      "Models": "X6833B, X6716B"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 374263 (v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "helio-g99"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "alcatel-u5-hd-1gb-8gb-4g-lte",
+  "name": "alcatel U5 HD",
+  "brand": "alcatel",
+  "release_date": "2017-08-01",
+  "ram_gb": 1,
+  "battery_mah": 2200,
+  "weight_g": 129.0,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "u5-hd",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20",
+      "Speed": "HSPA 42.2/11.5 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, August",
+      "Status": "Available. Released 2017, August"
+    },
+    "Body": {
+      "Dimensions": "141.8 x 71.4 x 9 mm (5.58 x 2.81 x 0.35 in)",
+      "Weight": "129 g (4.55 oz)",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat)",
+      "Chipset": "Mediatek MT6737 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2200 mAh, non-removable",
+      "Stand-by": "Up to 200 h (3G)",
+      "Talk time": "Up to 5 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "5047U, 5047Y, 5047I, 5047D"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "mediatek-mt6737"
+}

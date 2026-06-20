@@ -1,0 +1,108 @@
+{
+  "slug": "micromax-dual-5-4gb-128gb-4g-lte",
+  "name": "Micromax Dual 5",
+  "brand": "micromax",
+  "release_date": "2017-03-01",
+  "ram_gb": 4,
+  "battery_mah": 3200,
+  "weight_g": 164.0,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "dual-5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 42.2/11.5 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, March. Released 2017, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "-",
+      "Weight": "164 g (5.78 oz)",
+      "SIM": "Dual SIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow)",
+      "Chipset": "Qualcomm MSM8976 Snapdragon 652 (28 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Cortex-A72 & 4x1.4 GHz Cortex-A53)",
+      "GPU": "Adreno 510"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "13 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3200 mAh, non-removable",
+      "Charging": "18W wired, QC3, 100% in 45 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Gold",
+      "Models": "E4820",
+      "Price": "About 360 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "qualcomm-msm8976-snapdragon-652"
+}

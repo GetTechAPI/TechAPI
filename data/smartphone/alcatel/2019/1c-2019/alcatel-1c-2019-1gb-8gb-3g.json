@@ -1,0 +1,104 @@
+{
+  "slug": "alcatel-1c-2019-1gb-8gb-3g",
+  "name": "alcatel 1c (2019)",
+  "brand": "alcatel",
+  "release_date": "2019-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 148.0,
+  "os": "Android 8.1 Oreo (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "1c-2019",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 64.5 cm",
+    "resolution": "480 x 960 pixels, 18:9 ratio (~215 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, January",
+      "Status": "Available. Released 2019, Q1"
+    },
+    "Body": {
+      "Dimensions": "136.6 x 65.3 x 10 mm (5.38 x 2.57 x 0.39 in)",
+      "Weight": "148 g (5.22 oz)",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 64.5 cm",
+      "Resolution": "480 x 960 pixels, 18:9 ratio (~215 ppi density)"
+    },
+    "Platform": {
+      "OS": " Android 8.1 Oreo (Go edition)",
+      "Chipset": "Spreadtrum SC7731E",
+      "CPU": "Quad-core 1.3 GHz Cortex-A53"
+    },
+    "Memory": {
+      "Card slot": "microSDHC",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Features": "LED flash, HDR",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Enamel Blue, Blush Pink, Volcano Black",
+      "Models": "5009A, 5009D, 5003G, 5003D_EEA, 5003D, 5003A, 5003U",
+      "Price": "About 70 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "spreadtrum-sc7731e"
+}

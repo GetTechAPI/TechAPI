@@ -1,0 +1,116 @@
+{
+  "slug": "tecno-camon-20-premier-8gb-512gb-5g",
+  "name": "Tecno Camon 20 Premier",
+  "brand": "tecno",
+  "release_date": "2023-05-09",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 202.5,
+  "os": "Android 13, HIOS 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "camon-20-premier",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+    "type": "AMOLED, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "5G bands": " SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2023, May 09",
+      "Status": "Available. Released 2023, May 09"
+    },
+    "Body": {
+      "Dimensions": "161.9 x 74.3 x 8.2 mm (6.37 x 2.93 x 0.32 in)",
+      "Weight": "202.5 g (7.16 oz)",
+      "Build": "Glass front, leather back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 120Hz",
+      "Size": "6.67 inches, 107.4 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, HIOS 13",
+      "Chipset": "Mediatek Dimensity 8050 (6 nm)",
+      "CPU": "Octa-core (1x3.0 GHz Cortex-A78 & 3x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G77 MC9"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "512GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, sensor-shift OIS",
+      "Features": "Laser AF, Ring-LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.5, 24mm (wide), 1/2.8\", 0.8µm",
+      "Features": "Dual-LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "45W wired"
+    },
+    "Misc": {
+      "Colors": "Dark Welkin, Serenity Blue",
+      "Models": "CK9n",
+      "Price": "About 410 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 673809 (v9), 802232(v10)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    512
+  ],
+  "soc": "dimensity-8050"
+}

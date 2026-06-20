@@ -1,0 +1,105 @@
+{
+  "slug": "tcl-403-2gb-32gb-4g-lte",
+  "name": "TCL 403",
+  "brand": "tcl",
+  "release_date": "2023-01-05",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 182.0,
+  "os": "Android 12 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "403",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 92.9 cm",
+    "resolution": "480 x 960 pixels, 18:9 ratio (~179 ppi density)",
+    "type": "TFT LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 - T431D",
+      "4G bands": "1, 3, 7, 8, 20, 28 - T431D",
+      "Speed": "HSPA 42.2/11.5 Mbps, LTE Cat4 150/75 Mbps"
+    },
+    "Launch": {
+      "Announced": "2023, January 05",
+      "Status": "Available. Released 2023, April 04"
+    },
+    "Body": {
+      "Dimensions": "159.2 x 78.2 x 9.6 mm (6.27 x 3.08 x 0.38 in)",
+      "Weight": "182 g (6.42 oz)",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "TFT LCD",
+      "Size": "6.0 inches, 92.9 cm",
+      "Resolution": "480 x 960 pixels, 18:9 ratio (~179 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12 (Go edition)",
+      "Chipset": "Mediatek MT6761 Helio A22 (12 nm)",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 1GB RAM, 32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, 27mm (wide), 1/4.0\", 1.12µm, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps or 720p@30fps (T431Q only)"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.8",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "Unspecified",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh"
+    },
+    "Misc": {
+      "Colors": "Prime Black, Mauve Mist",
+      "Models": "T431D, T431U, T431Q, T431P, T431A, T431E",
+      "Price": "About 80 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "mediatek-mt6761-helio-a22"
+}

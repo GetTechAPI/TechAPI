@@ -1,0 +1,117 @@
+{
+  "slug": "huawei-p50-pro-12gb-512gb-4g-lte",
+  "name": "Huawei P50 Pro",
+  "brand": "huawei",
+  "release_date": "2021-07-28",
+  "ram_gb": 12,
+  "battery_mah": 4360,
+  "weight_g": 195.0,
+  "os": "HarmonyOS 2.0 (China), EMUI 14.2 (Europe), no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "p50-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.6 inches, 105.4 cm",
+    "resolution": "1228 x 2700 pixels (~450 ppi density)",
+    "type": "OLED, 1B colors, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM)",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 17, 18, 19, 20, 26, 28, 34, 38, 39, 40, 41 - China",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2021, July 29",
+      "Status": "Available. Released 2021, August 12"
+    },
+    "Body": {
+      "Dimensions": "158.8 x 72.8 x 8.5 mm (6.25 x 2.87 x 0.33 in)",
+      "Weight": "195 g (6.88 oz)",
+      "Build": "Glass front, glass back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "OLED, 1B colors, 120Hz",
+      "Size": "6.6 inches, 105.4 cm",
+      "Resolution": "1228 x 2700 pixels (~450 ppi density)"
+    },
+    "Platform": {
+      "OS": "HarmonyOS 2.0 (China), EMUI 14.2 (Europe), no Google Play Services",
+      "Chipset": "Kirin 9000 (5 nm)",
+      "CPU": "Octa-core (1x3.13 GHz Cortex-A77 & 3x2.54 GHz Cortex-A77 & 4x2.05 GHz Cortex-A55)",
+      "GPU": "Mali-G78 MP24"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 512GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "50 MP, f/1.8, 23mm (wide), PDAF, OIS",
+      "Features": "Laser AF, Leica optics, dual-LED flash, panorama, HDR",
+      "Video": "4K@30/60fps, 1080p@30/60fps, 1080p@960fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, f/2.4, (wide), AF",
+      "Features": "Panorama, HDR",
+      "Video": "4K@30fps, 1080p@30/60/240fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, barometer, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Po 4360 mAh, non-removable",
+      "Charging": "66W wired"
+    },
+    "Misc": {
+      "Colors": "Golden Black, Cocoa Gold, Pearl White, Charm Pink",
+      "Models": "JAD-AL50, JAD-LX9, JAD-AL00"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 793876 (v8), 786215 (v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "soc": "kirin-9000"
+}

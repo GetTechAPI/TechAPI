@@ -1,0 +1,110 @@
+{
+  "slug": "vivo-x30-8gb-256gb-5g",
+  "name": "vivo X30",
+  "brand": "vivo",
+  "release_date": "2019-12-01",
+  "ram_gb": 8,
+  "battery_mah": 4350,
+  "weight_g": 196.5,
+  "os": "Android 9.0 (Pie), Funtouch 10.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "x30",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 100.1 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "Super AMOLED, HDR, 800 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 34, 38, 39, 40, 41",
+      "5G bands": "41, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G (3.6+ Gbps DL)"
+    },
+    "Launch": {
+      "Announced": "2019, December",
+      "Status": "Available. Released 2019, December"
+    },
+    "Body": {
+      "Dimensions": "158.5 x 74.1 x 8.8 mm (6.24 x 2.92 x 0.35 in)",
+      "Weight": "196.5 g (6.95 oz)",
+      "Build": "Glass front, glass back, aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED, HDR, 800 nits (typ)",
+      "Size": "6.44 inches, 100.1 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), Funtouch 10.0",
+      "Chipset": "Exynos 980 (8 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A77 & 6x1.8 GHz Cortex A55)",
+      "GPU": "Mali-G76 MP5"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF, OIS",
+      "Features": "Laser AF, LED flash, HDR, panorama",
+      "Video": "4K@30fps"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.4, 26mm (wide), 1/2.8\", 0.8µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4350 mAh, non-removable",
+      "Charging": "33W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Peach, Light Blue, Rainbow Shadow",
+      "Models": "V1938CT",
+      "Price": "About 420 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "exynos-980"
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "apple-iphone-8-2gb-256gb-4g-lte",
+  "name": "Apple iPhone 8",
+  "brand": "apple",
+  "release_date": "2017-09-12",
+  "ram_gb": 2,
+  "battery_mah": 1821,
+  "weight_g": 148.0,
+  "os": "iOS 11, up to iOS 16.7.7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "iphone-8",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)",
+    "type": "Retina IPS LCD, 625 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "Lightning, USB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30, 34, 38, 39, 40, 41, 66",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat12 600/150 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, September 12",
+      "Status": "Available. Released 2017, September 22"
+    },
+    "Body": {
+      "Dimensions": "138.4 x 67.3 x 7.3 mm (5.45 x 2.65 x 0.29 in)",
+      "Weight": "148 g (5.22 oz)",
+      "Build": "Glass front (Corning-made glass), glass back (Corning-made glass), aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "Retina IPS LCD, 625 nits (typ)",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)",
+      "Protection": "Ion-strengthened glass"
+    },
+    "Platform": {
+      "OS": "iOS 11, up to iOS 16.7.7",
+      "Chipset": "Apple A11 Bionic (10 nm)",
+      "CPU": "Hexa-core (2x Monsoon + 4x Mistral)",
+      "GPU": "Apple GPU (three-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 2GB RAM, 128GB 2GB RAM, 256GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/1.8, 28mm (wide), PDAF, OIS",
+      "Features": "Quad-LED dual-tone flash, HDR",
+      "Video": "4K@24/30/60fps, 1080p@30/60/120/240fps"
+    },
+    "Selfie camera": {
+      "Single": "7 MP, f/2.2",
+      "Features": "Face detection, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1821 mAh, non-removable (6.96 Wh)",
+      "Charging": "15W wired, PD2.0, 50% in 30 min (advertised)",
+      "Talk time": "Up to 14 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Silver, Space Gray, Gold, Red",
+      "Models": "A1863, A1905, A1906, A1907, iPhone10,1, iPhone10,4",
+      "SAR": "1.32 W/kg (head)     1.36 W/kg (body)     ",
+      "SAR EU": "1.19 W/kg (head)     1.17 W/kg (body)     ",
+      "Price": "About 210 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 237594 (v7)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "soc": "apple-a11-bionic"
+}

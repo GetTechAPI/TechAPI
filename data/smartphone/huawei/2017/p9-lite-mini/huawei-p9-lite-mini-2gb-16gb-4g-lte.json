@@ -1,0 +1,105 @@
+{
+  "slug": "huawei-p9-lite-mini-2gb-16gb-4g-lte",
+  "name": "Huawei P9 lite mini",
+  "brand": "huawei",
+  "release_date": "2017-08-01",
+  "ram_gb": 2,
+  "battery_mah": 3020,
+  "weight_g": 145.0,
+  "os": "Android 7.0 (Nougat), EMUI 5.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "p9-lite-mini",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "v4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, August",
+      "Status": "Available. Released 2017, September"
+    },
+    "Body": {
+      "Dimensions": "143.5 x 71 x 8.1 mm (5.65 x 2.80 x 0.32 in)",
+      "Weight": "145 g (5.11 oz)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat), EMUI 5.1",
+      "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A53",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "v4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3020 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Silver, black, gold",
+      "Models": "SLA-L02, SLA-L22, SLA-L03, SLA-L23",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8917-snapdragon-425"
+}

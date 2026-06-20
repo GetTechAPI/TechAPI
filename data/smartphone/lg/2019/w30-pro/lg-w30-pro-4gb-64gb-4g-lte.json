@@ -1,0 +1,106 @@
+{
+  "slug": "lg-w30-pro-4gb-64gb-4g-lte",
+  "name": "LG W30 Pro",
+  "brand": "lg",
+  "release_date": "2019-06-01",
+  "ram_gb": 4,
+  "battery_mah": 4050,
+  "weight_g": 172.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "w30-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.22 inches, 96.6 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, June",
+      "Status": "Available. Released 2019, October"
+    },
+    "Body": {
+      "Dimensions": "157.7 x 75.9 x 8.3 mm (6.21 x 2.99 x 0.33 in)",
+      "Weight": "172 g (6.07 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.22 inches, 96.6 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie)",
+      "Chipset": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "13 MP, PDAF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.2, (wide), 1/3.06\", 1.0µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4050 mAh, non-removable",
+      "Charging": "Wired, 50% in 35 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Midnight Blue, Midnight Purple",
+      "Models": "LMX600IM, LM-X600IM",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-sdm632-snapdragon-632"
+}

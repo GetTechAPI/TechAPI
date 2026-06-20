@@ -1,0 +1,106 @@
+{
+  "slug": "energizer-power-max-p490s-2gb-16gb-4g-lte",
+  "name": "Energizer Power Max P490S",
+  "brand": "energizer",
+  "release_date": "2018-06-01",
+  "ram_gb": 2,
+  "battery_mah": 4000,
+  "weight_g": 139.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "power-max-p490s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.95 inches, 63.2 cm",
+    "resolution": "480 x 960 pixels, 18:9 ratio (~217 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20, 28, 38, 40",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, June",
+      "Status": "Available. Released 2018, August"
+    },
+    "Body": {
+      "Dimensions": "139 x 65.8 x 12 mm (5.47 x 2.59 x 0.47 in)",
+      "Weight": "139 g (4.90 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.95 inches, 63.2 cm",
+      "Resolution": "480 x 960 pixels, 18:9 ratio (~217 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo)",
+      "Chipset": "Mediatek MT6739WA (28 nm)",
+      "CPU": "Quad-core 1.3 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "8 MP, AF",
+      "Features": "Dual-LED dual-tone flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Dual": "5 MP",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4000 mAh, non-removable",
+      "Stand-by": "Up to 400 h (3G)",
+      "Talk time": "Up to 16 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6739wa"
+}

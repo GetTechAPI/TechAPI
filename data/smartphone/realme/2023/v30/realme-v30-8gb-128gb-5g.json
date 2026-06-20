@@ -1,0 +1,104 @@
+{
+  "slug": "realme-v30-8gb-128gb-5g",
+  "name": "Realme V30",
+  "brand": "realme",
+  "release_date": "2023-02-09",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 186.0,
+  "os": "Android 12, Realme UI 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v30",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 102.0 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)",
+    "type": "IPS LCD, 600 nits"
+  },
+  "connectivity": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "Unspecified",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": " LTE",
+      "5G bands": " SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2023, February 09",
+      "Status": "Available. Released 2023, March 20"
+    },
+    "Body": {
+      "Dimensions": "8.1 mm thickness",
+      "Weight": "186 g (6.56 oz)",
+      "Build": "Glass front, plastic frame, plastic back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 600 nits",
+      "Size": "6.5 inches, 102.0 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, Realme UI 3.0",
+      "Chipset": "Mediatek"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "128GB 6GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, (wide), AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP (wide)",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Yes",
+      "Bluetooth": "Yes",
+      "Positioning": "Yes",
+      "NFC": "Unspecified",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, Gold",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "mediatek"
+}

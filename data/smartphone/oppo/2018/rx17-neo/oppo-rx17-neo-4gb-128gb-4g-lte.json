@@ -1,0 +1,108 @@
+{
+  "slug": "oppo-rx17-neo-4gb-128gb-4g-lte",
+  "name": "Oppo RX17 Neo",
+  "brand": "oppo",
+  "release_date": "2018-11-01",
+  "ram_gb": 4,
+  "battery_mah": 3600,
+  "weight_g": 156.0,
+  "os": "Android 8.1 (Oreo), ColorOS 5.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "rx17-neo",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.41 inches, 100.9 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 26, 28, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat12 600/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, November",
+      "Status": "Available. Released 2018, November"
+    },
+    "Body": {
+      "Dimensions": "158.3 x 75.5 x 7.4 mm (6.23 x 2.97 x 0.29 in)",
+      "Weight": "156 g (5.50 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "6.41 inches, 100.9 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), ColorOS 5.2",
+      "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.8, 1/2.8\", 1.12µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3600 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Mocha Red, Astral Blue",
+      "Models": "CPH1893",
+      "Price": "About 330 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "qualcomm-sdm660-snapdragon-660"
+}

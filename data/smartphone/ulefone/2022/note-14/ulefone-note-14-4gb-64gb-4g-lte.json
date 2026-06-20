@@ -1,0 +1,105 @@
+{
+  "slug": "ulefone-note-14-4gb-64gb-4g-lte",
+  "name": "Ulefone Note 14",
+  "brand": "ulefone",
+  "release_date": "2022-09-28",
+  "ram_gb": 4,
+  "battery_mah": 4500,
+  "weight_g": 189.0,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "note-14",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.52 inches, 102.6 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 19, 20, 28",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2022, September 29",
+      "Status": "Available. Released 2022, September 29"
+    },
+    "Body": {
+      "Dimensions": "164.8 x 76 x 9 mm (6.49 x 2.99 x 0.35 in)",
+      "Weight": "189 g (6.67 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.52 inches, 102.6 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12",
+      "Chipset": "Mediatek MT6761 Helio A22 (12 nm)",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8300"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, f/2.0, (wide), 1.12µm, AF (64/4 model)",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.0, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "Stereo FM radio, RDS, recording",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4500 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Midnight Black, Mint Green, Lavender Purple",
+      "Price": "About 100 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    64
+  ],
+  "soc": "mediatek-mt6761-helio-a22"
+}

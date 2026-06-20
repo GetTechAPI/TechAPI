@@ -1,0 +1,104 @@
+{
+  "slug": "vivo-y89-4gb-64gb-4g-lte",
+  "name": "vivo Y89",
+  "brand": "vivo",
+  "release_date": "2019-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3260,
+  "weight_g": 149.3,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "y89",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.26 inches, 97.8 cm",
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~403 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 34, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, January",
+      "Status": "Available. Released 2019, January"
+    },
+    "Body": {
+      "Dimensions": "154.8 x 75 x 7.9 mm (6.09 x 2.95 x 0.31 in)",
+      "Weight": "149.3 g (5.26 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.26 inches, 97.8 cm",
+      "Resolution": "1080 x 2280 pixels, 19:9 ratio (~403 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo)",
+      "Chipset": "Qualcomm MSM8953-Pro Snapdragon 626 (14 nm)",
+      "CPU": "Octa-core 2.2 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/2.0, PDAF",
+      "Features": "LED flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3260 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Aurora, Black",
+      "Models": "V1730EA",
+      "Price": "About 210 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-msm8953-pro-snapdragon-626"
+}

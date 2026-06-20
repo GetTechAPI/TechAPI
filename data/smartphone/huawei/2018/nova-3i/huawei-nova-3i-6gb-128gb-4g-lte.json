@@ -1,0 +1,109 @@
+{
+  "slug": "huawei-nova-3i-6gb-128gb-4g-lte",
+  "name": "Huawei nova 3i",
+  "brand": "huawei",
+  "release_date": "2018-07-18",
+  "ram_gb": 6,
+  "battery_mah": 3340,
+  "weight_g": 169.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nova-3i",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 97.4 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE, EDR, aptX HD",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 28, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat12 600/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, July 18",
+      "Status": "Available. Released 2018, July 27"
+    },
+    "Body": {
+      "Dimensions": "157.6 x 75.2 x 7.6 mm (6.20 x 2.96 x 0.30 in)",
+      "Weight": "169 g (5.96 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.3 inches, 97.4 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.0",
+      "Chipset": "Kirin 710 (12 nm)",
+      "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/2.2, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Dual": "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE, EDR, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3340 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Pearl White, Iris Purple",
+      "Models": "INE-LX1, INE-LX1r, INE-LX1, Sydney 6353, INE-LX2r, INE-AL00, INE-TL00",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-710"
+}

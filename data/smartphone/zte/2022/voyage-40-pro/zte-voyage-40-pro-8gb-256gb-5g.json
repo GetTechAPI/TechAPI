@@ -1,0 +1,107 @@
+{
+  "slug": "zte-voyage-40-pro-8gb-256gb-5g",
+  "name": "ZTE Voyage 40 Pro+",
+  "brand": "zte",
+  "release_date": "2022-11-28",
+  "ram_gb": 8,
+  "battery_mah": 4510,
+  "weight_g": 192.5,
+  "os": "Android 12, MyOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "voyage-40-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+    "type": "AMOLED, 770 nits (HBM)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "5G bands": "1, 5, 28, 41, 78, 84 SA/NSA",
+      "Speed": "HSPA, LTE (CA), 5G"
+    },
+    "Launch": {
+      "Announced": "2022, November 29",
+      "Status": "Available. Released 2022, December 06"
+    },
+    "Body": {
+      "Dimensions": "163.5 x 75.8 x 7.6 mm (6.44 x 2.98 x 0.30 in)",
+      "Weight": "192.5 g (6.81 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 770 nits (HBM)",
+      "Size": "6.67 inches, 107.4 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, MyOS 12",
+      "Chipset": "Mediatek Dimensity 810 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "64 MP, f/1.8, (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30ps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4510 mAh, non-removable",
+      "Charging": "66W wired, 55% in 15 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Gray, Blue, Starry",
+      "Models": "9042N",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "dimensity-810"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "zte-blade-a2-plus-4gb-32gb-4g-lte",
+  "name": "ZTE Blade A2 Plus",
+  "brand": "zte",
+  "release_date": "2017-02-01",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 189.0,
+  "os": "Android 6.0 (Marshmallow), MiFavor UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "blade-a2-plus",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 42.2/11.5 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, February",
+      "Status": "Available. Released 2017, February"
+    },
+    "Body": {
+      "Dimensions": "155 x 76.2 x 9.8 mm (6.10 x 3.00 x 0.39 in)",
+      "Weight": "189 g (6.67 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow), MiFavor UI",
+      "Chipset": "Mediatek MT6750T (28 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53)",
+      "GPU": "Mali-T860MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 5000 mAh, non-removable",
+      "Talk time": "Up to 24 h (mixed usage)"
+    },
+    "Misc": {
+      "Colors": "Gold",
+      "Models": "V0730",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "mediatek-mt6750t"
+}

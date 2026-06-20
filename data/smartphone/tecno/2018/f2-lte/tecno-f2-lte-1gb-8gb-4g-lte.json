@@ -1,0 +1,103 @@
+{
+  "slug": "tecno-f2-lte-1gb-8gb-4g-lte",
+  "name": "Tecno F2 LTE",
+  "brand": "tecno",
+  "release_date": "2018-05-01",
+  "ram_gb": 1,
+  "battery_mah": 2400,
+  "weight_g": 168.5,
+  "os": "Android 8.1 Oreo (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "f2-lte",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "3, 7, 20",
+      "Speed": "cat"
+    },
+    "Launch": {
+      "Announced": "2018, May",
+      "Status": "Available. Released 2018, May"
+    },
+    "Body": {
+      "Dimensions": "143.8 x 74 x 9.6 mm (5.66 x 2.91 x 0.38 in)",
+      "Weight": "168.5 g (5.96 oz)",
+      "SIM": "Dual SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 Oreo (Go edition)",
+      "Chipset": "Mediatek MT6739WA (28 nm)",
+      "CPU": "Quad-core 1.3 GHz Cortex-A53",
+      "GPU": "PowerVR GE8100"
+    },
+    "Memory": {
+      "Card slot": "microSDHC",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Features": "Dual-LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2400 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Champagne Gold, Midnight Black, City Blue"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "mediatek-mt6739wa"
+}

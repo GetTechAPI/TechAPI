@@ -1,0 +1,110 @@
+{
+  "slug": "honor-v40-5g-8gb-256gb-5g",
+  "name": "Honor V40 5G",
+  "brand": "honor",
+  "release_date": "2021-01-22",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 189.0,
+  "os": "Android 10, Magic UI 4.0, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v40-5g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.72 inches, 110.4 cm",
+    "resolution": "1236 x 2676 pixels, 19.5:9 ratio (~440 ppi density)",
+    "type": "AMOLED, 1B colors, HDR10, 120Hz, 800 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 8, 18, 19, 26, 34, 38, 39, 40, 41",
+      "5G bands": "1, 28, 38, 41, 77, 78, 79 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2021, January 22",
+      "Status": "Available. Released 2021, January 22"
+    },
+    "Body": {
+      "Dimensions": "163.1 x 74.3 x 8 mm (6.42 x 2.93 x 0.31 in)",
+      "Weight": "189 g (6.67 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 1B colors, HDR10, 120Hz, 800 nits (peak)",
+      "Size": "6.72 inches, 110.4 cm",
+      "Resolution": "1236 x 2676 pixels, 19.5:9 ratio (~440 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, Magic UI 4.0, no Google Play Services",
+      "Chipset": "Mediatek Dimensity 1000+ (7 nm)",
+      "CPU": "Octa-core (4x2.6 GHz Cortex-A77 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G77 MC9"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.9, (wide), 1/1.56\", 1.0µm, PDAF",
+      "Features": "Laser AF, LED flash, panorama, HDR",
+      "Video": "4K, 1080p, 720p@1920fps, HDR, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Dual": "16 MP, f/2.0, (wide)",
+      "Features": "HDR",
+      "Video": "1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Charging": "66W wired, 60% in 15 min, 100% in 35 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Midnight Black, Rose Gold, Titanium Silver",
+      "Models": "YOK-AN10",
+      "Price": "About 460 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "mediatek-dimensity-1000"
+}

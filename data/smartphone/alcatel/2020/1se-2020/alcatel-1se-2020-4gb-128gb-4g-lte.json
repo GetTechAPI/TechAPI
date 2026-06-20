@@ -1,0 +1,109 @@
+{
+  "slug": "alcatel-1se-2020-4gb-128gb-4g-lte",
+  "name": "alcatel 1SE (2020)",
+  "brand": "alcatel",
+  "release_date": "2020-10-28",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 175.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "1se-2020",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.22 inches, 96.6 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20, 28",
+      "Speed": "HSPA 21.1/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2020, October 28",
+      "Status": "Available. Released 2020, October 28"
+    },
+    "Body": {
+      "Dimensions": "159.2 x 75.2 x 8.7 mm (6.27 x 2.96 x 0.34 in)",
+      "Weight": "175 g (6.17 oz)",
+      "Build": "Glass front, plastic frame, plastic back",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.22 inches, 96.6 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10",
+      "Chipset": "Unisoc SC9863A (28 nm)",
+      "CPU": "Octa-core (4x1.6 GHz Cortex-A55 & 4x1.2 GHz Cortex-A55)",
+      "GPU": "IMG8322"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 3GB RAM, 64GB 2GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "13 MP, f/2.2, (wide), 1/3.06\", 1.12µm, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2, (wide), 1/5.0\", 1.12µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Agate Greeen, Power Gray",
+      "Models": "5030F, 5030U, 5030D_EEA, 5030F_EEA, 5030D, 5030E, 5030A, 5030E_TCL, 5030I, 5030M",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "soc": "unisoc-sc9863a"
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "vivo-nex-dual-display-10gb-256gb-4g-lte",
+  "name": "vivo NEX Dual Display",
+  "brand": "vivo",
+  "release_date": "2018-12-01",
+  "ram_gb": 10,
+  "battery_mah": 3500,
+  "weight_g": 199.0,
+  "os": "Android 9.0 (Pie), Funtouch 4.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nex-dual-display",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 10,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.39 inches, 100.2 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 19, 28, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (4CA) Cat16 1024/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, December",
+      "Status": "Available. Released 2018, December"
+    },
+    "Body": {
+      "Dimensions": "157.2 x 75.3 x 8.1 mm (6.19 x 2.96 x 0.32 in)",
+      "Weight": "199 g (7.02 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "6.39 inches, 100.2 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), Funtouch 4.5",
+      "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 10GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, 4-axis OIS",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Triple": "No - uses main camera"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, BDS, GNSS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3500 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Polar Blue",
+      "Models": "V1821A, 1813, V1821T",
+      "Price": "About 960 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 292042 (v7), 346833 (v8)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "qualcomm-sdm845-snapdragon-845"
+}

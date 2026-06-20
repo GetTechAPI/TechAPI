@@ -1,0 +1,117 @@
+{
+  "slug": "oppo-f9-f9-pro-6gb-128gb-4g-lte",
+  "name": "Oppo F9 (F9 Pro)",
+  "brand": "oppo",
+  "release_date": "2018-08-01",
+  "ram_gb": 6,
+  "battery_mah": 3500,
+  "weight_g": 169.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 10, ColorOS 7.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "f9-f9-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 97.4 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 - all versions",
+      "4G bands": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat13 600/100 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, August",
+      "Status": "Available. Released 2018, August"
+    },
+    "Body": {
+      "Dimensions": "156.7 x 74 x 8 mm (6.17 x 2.91 x 0.31 in)",
+      "Weight": "169 g (5.96 oz)",
+      "Build": "Glass front (Gorilla Glass 6), aluminum back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.3 inches, 97.4 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+      "Protection": "Corning Gorilla Glass 6"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 10, ColorOS 7.0",
+      "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM, 64GB 6GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.8, 1/3.1, 1.0µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "25 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3500 mAh, non-removable",
+      "Charging": "20W wired"
+    },
+    "Misc": {
+      "Colors": "Sunrise Red, Twilight Blue, Starry Purple, Jade Green",
+      "Models": "CPH1823, CPH1881, CPH1825",
+      "Price": "About 290 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nGeekBench: 5673 (v4.4)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "mediatek-mt6771-helio-p60"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "meizu-m6s-3gb-64gb-4g-lte",
+  "name": "Meizu M6s",
+  "brand": "meizu",
+  "release_date": "2018-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3000,
+  "weight_g": 160.0,
+  "os": "Android 7.0 (Nougat), Flyme 6.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "m6s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 83.8 cm",
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20, 40",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, January",
+      "Status": "Available. Released 2018, January"
+    },
+    "Body": {
+      "Dimensions": "152 x 72.5 x 8 mm (5.98 x 2.85 x 0.31 in)",
+      "Weight": "160 g (5.64 oz)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.7 inches, 83.8 cm",
+      "Resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat), Flyme 6.2",
+      "Chipset": "Exynos 7872 (14 nm)",
+      "CPU": "Hexa-core (4x1.6 GHz Cortex-A53 & 2x2.0 GHz Cortex-A73)",
+      "GPU": "Mali-G71 MP1"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 3GB RAM, 64GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/2.0, PDAF",
+      "Features": "Dual-LED dual-tone flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Silver, Gold, Blue",
+      "Models": "M6s",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "exynos-7872"
+}

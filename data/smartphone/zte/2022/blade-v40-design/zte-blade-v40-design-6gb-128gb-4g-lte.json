@@ -1,0 +1,106 @@
+{
+  "slug": "zte-blade-v40-design-6gb-128gb-4g-lte",
+  "name": "ZTE Blade V40 Design",
+  "brand": "zte",
+  "release_date": "2022-01-10",
+  "ram_gb": 6,
+  "battery_mah": 4500,
+  "weight_g": 183.4,
+  "os": "Android 12, MyOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "blade-v40-design",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.6 inches, 104.9 cm",
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~400 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2022, December 21",
+      "Status": "Available. Released 2023, January 10"
+    },
+    "Body": {
+      "Dimensions": "163 x 74 x 8 mm (6.42 x 2.91 x 0.31 in)",
+      "Weight": "183.4 g (6.46 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.6 inches, 104.9 cm",
+      "Resolution": "1080 x 2408 pixels, 20:9 ratio (~400 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, MyOS 12",
+      "Chipset": "Unisoc Tiger T616 (12 nm)",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.8, (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Yes",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4500 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Sky Blue, Starry Black",
+      "Models": "8046",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "unisoc-tiger-t616"
+}

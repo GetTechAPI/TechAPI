@@ -1,0 +1,108 @@
+{
+  "slug": "huawei-p-smart-2019-6gb-128gb-4g-lte",
+  "name": "Huawei P Smart+ 2019",
+  "brand": "huawei",
+  "release_date": "2018-07-01",
+  "ram_gb": 6,
+  "battery_mah": 3400,
+  "weight_g": 160.0,
+  "os": "Android 9.0 (Pie), EMUI 9, Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "p-smart-2019",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.21 inches, 94.7 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~415 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat12 600/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, July",
+      "Status": "Available. Released 2018, August"
+    },
+    "Body": {
+      "Dimensions": "155.2 x 73.4 x 8 mm (6.11 x 2.89 x 0.31 in)",
+      "Weight": "160 g (5.64 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.21 inches, 94.7 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~415 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), EMUI 9, Google Play Services",
+      "Chipset": "Kirin 710 (12 nm)",
+      "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 3GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "24 MP, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3400 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Starlight Blue, Midnight Black",
+      "Models": "POT-LX1T",
+      "Price": "About 260 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-710"
+}

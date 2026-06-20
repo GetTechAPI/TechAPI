@@ -1,0 +1,108 @@
+{
+  "slug": "honor-80-se-12gb-256gb-5g",
+  "name": "Honor 80 SE",
+  "brand": "honor",
+  "release_date": "2022-11-23",
+  "ram_gb": 12,
+  "battery_mah": 4600,
+  "weight_g": 175.0,
+  "os": "Android 12, MagicOS 7",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "80-se",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.9 cm",
+    "resolution": "1080 x 2400 pixels (~444 ppi density)",
+    "type": "OLED, 1B colors, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "5G bands": " SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, November 23",
+      "Status": "Available. Released 2022, December 09"
+    },
+    "Body": {
+      "Dimensions": "161.3 x 73.4 x 7.7 mm (6.35 x 2.89 x 0.30 in)",
+      "Weight": "175 g (6.17 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "OLED, 1B colors, 120Hz",
+      "Size": "6.67 inches, 107.9 cm",
+      "Resolution": "1080 x 2400 pixels (~444 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, MagicOS 7",
+      "Chipset": "Mediatek Dimensity 900 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MC4"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 8GB RAM, 256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "64 MP, f/1.8, (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.4, (wide)",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4600 mAh, non-removable",
+      "Charging": "66W wired, 3-80% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Black, Blue, Pink, Crystal Blue",
+      "Models": "GIA-AN8",
+      "Price": "About 370 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "dimensity-900"
+}

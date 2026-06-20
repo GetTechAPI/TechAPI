@@ -1,0 +1,118 @@
+{
+  "slug": "asus-rog-phone-zs600kl-8gb-512gb-4g-lte",
+  "name": "Asus ROG Phone ZS600KL",
+  "brand": "asus",
+  "release_date": "2018-06-01",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 200.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), ROG Gaming X UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "rog-phone-zs600kl",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 92.9 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+    "type": "AMOLED, 90Hz, HDR"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/ad, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, accessory connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 - A version, B version",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 28, 29, 32, 34, 38, 39, 40, 41, 46 - A version, B version",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (5CA) Cat18 1200/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, June",
+      "Status": "Available. Released 2018, October"
+    },
+    "Body": {
+      "Dimensions": "158.8 x 76.2 x 8.3 mm (6.25 x 3.00 x 0.33 in)",
+      "Weight": "200 g (7.05 oz)",
+      "Build": "Glass front (Gorilla Glass 6), glass back (Gorilla Glass 5), aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 90Hz, HDR",
+      "Size": "6.0 inches, 92.9 cm",
+      "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+      "Protection": "Corning Gorilla Glass 6"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), ROG Gaming X UI",
+      "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "CPU": "Octa-core (4x2.96 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 512GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "12 MP, f/1.8, 24mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, 4-axis OIS",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30/60fps, 1080p@30/60/240fps, (3-axis gyro-EIS)"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 24mm (wide)",
+      "Features": "Panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/ad, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 3.1, accessory connector"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4000 mAh, non-removable",
+      "Charging": "30W wired, QC4"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "Z01QD, ZS600KL",
+      "Price": "About 1110 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 288821 (v7)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    512
+  ],
+  "soc": "qualcomm-sdm845-snapdragon-845"
+}

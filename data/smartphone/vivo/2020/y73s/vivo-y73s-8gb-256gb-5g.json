@@ -1,0 +1,109 @@
+{
+  "slug": "vivo-y73s-8gb-256gb-5g",
+  "name": "vivo Y73s",
+  "brand": "vivo",
+  "release_date": "2020-10-12",
+  "ram_gb": 8,
+  "battery_mah": 4100,
+  "weight_g": 171.3,
+  "os": "Android 10, Funtouch 10.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "y73s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 100.1 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "AMOLED, HDR10"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 3, 4, 5, 8, 19, 26, 28, 34, 38, 39, 40, 41",
+      "5G bands": "1, 3, 28, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2020, October 12",
+      "Status": "Available. Released 2020, October 16"
+    },
+    "Body": {
+      "Dimensions": "161 x 74 x 7.8 mm (6.34 x 2.91 x 0.31 in)",
+      "Weight": "171.3 g (6.03 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, HDR10",
+      "Size": "6.44 inches, 100.1 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, Funtouch 10.5",
+      "Chipset": "Mediatek Dimensity 720 (7 nm)",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC3"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, (wide)",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4100 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Silver",
+      "Models": "V2031A",
+      "Price": "About 280 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-720"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "huawei-matepad-10-4-2022-6gb-128gb-4g-lte",
+  "name": "Huawei MatePad 10.4 (2022)",
+  "brand": "huawei",
+  "release_date": "2022-05-13",
+  "ram_gb": 6,
+  "battery_mah": 7250,
+  "weight_g": 460.0,
+  "os": "Android 10, EMUI 10.1, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "matepad-10-4-2022",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.4 inches, 307.9 cm",
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~224 ppi density)",
+    "type": "IPS LCD, 470 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2022, May 13",
+      "Status": "Available. Released 2022, May 13"
+    },
+    "Body": {
+      "Dimensions": "245.2 x 155 x 7.5 mm (9.65 x 6.10 x 0.30 in)",
+      "Weight": "460 g (1.01 lb)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD, 470 nits (typ)",
+      "Size": "10.4 inches, 307.9 cm",
+      "Resolution": "1200 x 2000 pixels, 5:3 ratio (~224 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, EMUI 10.1, no Google Play Services",
+      "Chipset": "Kirin 820 5G (7 nm)",
+      "CPU": "Octa-core (1x2.36 GHz Cortex-A76 & 3x2.22 GHz Cortex-A76 & 4x1.84 GHz Cortex-A55)",
+      "GPU": "Mali-G57 (6-core)"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "64GB 4GB RAM, 64GB 6GB RAM, 128GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 7250 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Midnight Grey",
+      "Models": "BAH4-W09",
+      "Price": "About 350 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-820-5g"
+}

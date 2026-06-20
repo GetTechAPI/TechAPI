@@ -1,0 +1,108 @@
+{
+  "slug": "infinix-zero-8i-8gb-128gb-4g-lte",
+  "name": "Infinix Zero 8i",
+  "brand": "infinix",
+  "release_date": "2020-12-03",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 210.5,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zero-8i",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.85 inches, 111.4 cm",
+    "resolution": "1080 x 2460 pixels (~392 ppi density)",
+    "type": "IPS LCD, 90Hz, 480 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, December 03",
+      "Status": "Available. Released 2020, December 09"
+    },
+    "Body": {
+      "Dimensions": "168.7 x 76.1 x 9.1 mm (6.64 x 3.00 x 0.36 in)",
+      "Weight": "210.5 g (7.44 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz, 480 nits (typ)",
+      "Size": "6.85 inches, 111.4 cm",
+      "Resolution": "1080 x 2460 pixels (~392 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10",
+      "Chipset": "Mediatek MT6785 Helio G90T (12 nm)",
+      "CPU": "Octa-core (2x2.05 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G76 MC4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "48 MP, f/1.8, (wide), PDAF",
+      "Features": "Quad-LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Dual": "16 MP, f/2.0, (wide)",
+      "Features": "Dual-LED flash, HDR",
+      "Video": "4K@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4500 mAh, non-removable",
+      "Charging": "33W wired"
+    },
+    "Misc": {
+      "Colors": "Silver Diamond, Black Diamond",
+      "Models": "X687B",
+      "SAR": "0.40 W/kg (head)     0.95 W/kg (body)     ",
+      "Price": "About 170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "mediatek-mt6785-helio-g90t"
+}

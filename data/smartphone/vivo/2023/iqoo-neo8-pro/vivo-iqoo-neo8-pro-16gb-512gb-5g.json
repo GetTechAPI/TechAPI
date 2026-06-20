@@ -1,0 +1,109 @@
+{
+  "slug": "vivo-iqoo-neo8-pro-16gb-512gb-5g",
+  "name": "vivo iQOO Neo8 Pro",
+  "brand": "vivo",
+  "release_date": "2023-05-23",
+  "ram_gb": 16,
+  "battery_mah": 5000,
+  "weight_g": 192.0,
+  "os": "Android 13, Funtouch 13 or OriginOS 3 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "iqoo-neo8-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 111.0 cm",
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)",
+    "type": "AMOLED, 1B colors, 144Hz, HDR10, 1300 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.3, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 19, 28, 28, 34, 38, 39, 40, 41",
+      "5G bands": "1, 3, 5, 8, 28, 40, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2023, May 23",
+      "Status": "Available. Released 2023, May 23"
+    },
+    "Body": {
+      "Dimensions": "164.7 x 77 x 8.5 mm (6.48 x 3.03 x 0.33 in)",
+      "Weight": "192 g (6.77 oz)",
+      "Build": "Glass front, plastic frame, glass or leather back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 1B colors, 144Hz, HDR10, 1300 nits (peak)",
+      "Size": "6.78 inches, 111.0 cm",
+      "Resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, Funtouch 13 or OriginOS 3 (China)",
+      "Chipset": "Mediatek Dimensity 9200+ (4 nm)",
+      "CPU": "Octa-core (1x3.35 GHz Cortex-X3 & 3x3.0 GHz Cortex-A715 & 4x2.0 GHz Cortex-A510)",
+      "GPU": "Immortalis-G715 MC11"
+    },
+    "Memory": {
+      "Card slot": "Unspecified",
+      "Internal": "256GB 16GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "50 MP, f/1.9, (wide), 1/1.49\", 1.0µm, PDAF, OIS",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "8K@30fps, 4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.5, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.3, A2DP, LE, aptX HD, aptX Adaptive",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "120W wired, 50% in 9 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Red, Mint, Black",
+      "Price": "About 430 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "dimensity-9200-plus"
+}

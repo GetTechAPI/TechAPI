@@ -1,0 +1,98 @@
+{
+  "slug": "alcatel-go-flip-v-1gb-8gb-4g-lte",
+  "name": "alcatel Go Flip V",
+  "brand": "alcatel",
+  "release_date": "2019-07-11",
+  "ram_gb": 1,
+  "battery_mah": 1350,
+  "weight_g": 118.0,
+  "os": "KaiOS 2.5.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "go-flip-v",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "2.8 inches, 24.3 cm",
+    "resolution": "240 x 320 pixels, 4:3 ratio (~143 ppi density)",
+    "type": "TN TFT LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.2, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 ",
+      "4G bands": "2, 4, 5, 13",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, July 11",
+      "Status": "Available. Released 2019, July 11"
+    },
+    "Body": {
+      "Dimensions": "104.9 x 52.8 x 18.7 mm (4.13 x 2.08 x 0.74 in)",
+      "Weight": "118 g (4.16 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "TN TFT LCD",
+      "Size": "2.8 inches, 24.3 cm",
+      "Resolution": "240 x 320 pixels, 4:3 ratio (~143 ppi density)"
+    },
+    "Platform": {
+      "OS": "KaiOS 2.5.2",
+      "Chipset": "Qualcomm MSM8909 Snapdragon 210 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "2 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.2, A2DP",
+      "Positioning": "No",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1350 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "4051S",
+      "SAR": "1.08 W/kg (head)     1.32 W/kg (body)     ",
+      "Price": "About 80 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8909-snapdragon-210"
+}

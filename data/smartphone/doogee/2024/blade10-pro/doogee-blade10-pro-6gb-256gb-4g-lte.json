@@ -1,0 +1,105 @@
+{
+  "slug": "doogee-blade10-pro-6gb-256gb-4g-lte",
+  "name": "Doogee Blade10 Pro",
+  "brand": "doogee",
+  "release_date": "2024-08-01",
+  "ram_gb": 6,
+  "battery_mah": 5150,
+  "weight_g": 240.0,
+  "os": "Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "blade10-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.56 inches, 103.4 cm",
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)",
+    "type": "IPS LCD, 90Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 66",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, August",
+      "Status": "Available. Released 2024, September"
+    },
+    "Body": {
+      "Dimensions": "10.7 mm thickness",
+      "Weight": "240 g (8.47 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz",
+      "Size": "6.56 inches, 103.4 cm",
+      "Resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 14",
+      "Chipset": "Unisoc T606 (12 nm)",
+      "CPU": "Octa-core (2x1.6 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "256GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "50 MP, (wide), AF",
+      "Features": "LED flash",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, (wide)",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Unspecified"
+    },
+    "Battery": {
+      "Type": "5150 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, Camouflage",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "unisoc-t606"
+}

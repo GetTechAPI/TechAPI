@@ -1,0 +1,119 @@
+{
+  "slug": "vivo-v23-pro-12gb-256gb-5g",
+  "name": "vivo V23 Pro",
+  "brand": "vivo",
+  "release_date": "2022-01-05",
+  "ram_gb": 12,
+  "battery_mah": 4300,
+  "weight_g": 171.0,
+  "os": "Android 12, Funtouch 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v23-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.56 inches, 104.6 cm",
+    "resolution": "1080 x 2376 pixels (~398 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10+"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "5G bands": "1, 3, 5, 8, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, January 05",
+      "Status": "Available. Released 2022, January 13"
+    },
+    "Body": {
+      "Dimensions": "159.5 x 73.3 x 7.4 mm (6.28 x 2.89 x 0.29 in)",
+      "Weight": "171 g (6.03 oz)",
+      "Build": "Glass front (Schott Xensation α), glass back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 90Hz, HDR10+",
+      "Size": "6.56 inches, 104.6 cm",
+      "Resolution": "1080 x 2376 pixels (~398 ppi density)",
+      "Protection": "Schott Xensation α glass"
+    },
+    "Platform": {
+      "OS": "Android 12, Funtouch 12",
+      "Chipset": "Mediatek Dimensity 1200 (6 nm)",
+      "CPU": "Octa-core (1x3.0 GHz Cortex-A78 & 3x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G77 MC9"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "108 MP, f/1.9, 26mm (wide), 1/1.52\", 0.7µm PDAF",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Dual": "50 MP, f/2.0, (wide), AF",
+      "Features": "Dual-LED dual-tone flash, HDR",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS, NavIC",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4300 mAh, non-removable",
+      "Charging": "44W wired, 63% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Sunshine Gold, Stardust Black",
+      "Models": "V2132",
+      "SAR": "1.22 W/kg (head)     0.63 W/kg (body)     ",
+      "Price": "About 460 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 635060 (v8), 716766 (v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-1200"
+}

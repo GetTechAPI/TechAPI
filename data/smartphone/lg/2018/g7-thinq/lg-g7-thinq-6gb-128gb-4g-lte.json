@@ -1,0 +1,118 @@
+{
+  "slug": "lg-g7-thinq-6gb-128gb-4g-lte",
+  "name": "LG G7 ThinQ",
+  "brand": "lg",
+  "release_date": "2018-05-02",
+  "ram_gb": 6,
+  "battery_mah": 3000,
+  "weight_g": 162.0,
+  "os": "Android 8.0 (Oreo), upgradable to Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g7-thinq",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.1 inches, 91.0 cm",
+    "resolution": "1440 x 3120 pixels, 19.5:9 ratio (~564 ppi density)",
+    "type": "IPS LCD, HDR10"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Global",
+      "4G bands": "1, 3, 4, 5, 7, 8, 12, 17, 20, 28, 32, 38, 40, 42, 46 - Global",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat16 1024/150 Mbps or Cat15 800/150 Mbps (region dependant)"
+    },
+    "Launch": {
+      "Announced": "2018, May 02",
+      "Status": "Available. Released 2018, June 01"
+    },
+    "Body": {
+      "Dimensions": "153.2 x 71.9 x 7.9 mm (6.03 x 2.83 x 0.31 in)",
+      "Weight": "162 g (5.71 oz)",
+      "Build": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, HDR10",
+      "Size": "6.1 inches, 91.0 cm",
+      "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~564 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 8.0 (Oreo), upgradable to Android 10",
+      "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot) - single-SIM model",
+      "Internal": "64GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.6, 30mm (standard), 1/3.1\", 1.0µm, PDAF, OIS",
+      "Features": "Laser AF, LED flash, HDR, panorama",
+      "Video": "4K@30/60fps, 1080p@30/60fps, 720p@240fps, HDR, 24-bit/192kHz stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/1.9, 26mm (wide)",
+      "Video": "1080p@60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "5.0, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 3000 mAh, non-removable",
+      "Charging": "18W wired, QC3"
+    },
+    "Misc": {
+      "Colors": "New Platinum Gray, New Aurora Black, New Moroccan Blue, Raspberry Rose",
+      "Models": "LM-G710, LM-G710N, LM-G710VM, G710, SM-G710, LM-G710V",
+      "SAR EU": "0.24 W/kg (head)     1.47 W/kg (body)     ",
+      "Price": "About 370 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 259393 (v7), 297116 (v8)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-sdm845-snapdragon-845"
+}

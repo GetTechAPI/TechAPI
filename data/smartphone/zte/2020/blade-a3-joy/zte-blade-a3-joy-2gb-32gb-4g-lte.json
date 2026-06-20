@@ -1,0 +1,102 @@
+{
+  "slug": "zte-blade-a3-joy-2gb-32gb-4g-lte",
+  "name": "ZTE Blade A3 Joy",
+  "brand": "zte",
+  "release_date": "2020-06-01",
+  "ram_gb": 2,
+  "battery_mah": 2650,
+  "weight_g": 162.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "blade-a3-joy",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 78.1 cm",
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~293 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 ",
+      "4G bands": "2, 4, 5, 12, 41, 66, 71",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, June",
+      "Status": "Available. Released 2020, June"
+    },
+    "Body": {
+      "Dimensions": "142.2 x 63.2 x 7.9 mm (5.60 x 2.49 x 0.31 in)",
+      "Weight": "162 g (5.71 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 78.1 cm",
+      "Resolution": "720 x 1440 pixels, 18:9 ratio (~293 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10",
+      "Chipset": "Mediatek MT6761D Helio A20 (12 nm)",
+      "CPU": "Quad-core 1.8 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2650 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "Z5156CC",
+      "Price": "About 50 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "mediatek-mt6761d-helio-a20"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "lg-stylo-6-3gb-64gb-4g-lte",
+  "name": "LG Stylo 6",
+  "brand": "lg",
+  "release_date": "2020-05-20",
+  "ram_gb": 3,
+  "battery_mah": 4000,
+  "weight_g": 219.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "stylo-6",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.8 inches, 109.8 cm",
+    "resolution": "1080 x 2460 pixels (~395 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2020, May 20",
+      "Status": "Available. Released 2020, May 20"
+    },
+    "Body": {
+      "Dimensions": "171.2 x 77.7 x 8.6 mm (6.74 x 3.06 x 0.34 in)",
+      "Weight": "219 g (7.72 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.8 inches, 109.8 cm",
+      "Resolution": "1080 x 2460 pixels (~395 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10",
+      "Chipset": "Mediatek MT6765 Helio P35 (12 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "13 MP, (wide), PDAF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, 1/3.1\", 1.12µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White",
+      "Models": "LMQ730TM, LM-Q730TM",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "mediatek-mt6765-helio-p35"
+}

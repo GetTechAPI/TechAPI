@@ -1,0 +1,118 @@
+{
+  "slug": "vivo-v25-12gb-256gb-5g",
+  "name": "vivo V25",
+  "brand": "vivo",
+  "release_date": "2022-08-17",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 186.0,
+  "os": "Android 12, Funtouch 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v25",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 100.0 cm",
+    "resolution": "1080 x 2404 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10+, 1300 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "5G bands": "1, 3, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, August 17",
+      "Status": "Available. Released 2022, September 21"
+    },
+    "Body": {
+      "Dimensions": "159.2 x 74.2 x 7.8 mm (6.27 x 2.92 x 0.31 in)",
+      "Weight": "186 g (6.56 oz)",
+      "Build": "Glass front, glass back",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 90Hz, HDR10+, 1300 nits (peak)",
+      "Size": "6.44 inches, 100.0 cm",
+      "Resolution": "1080 x 2404 pixels, 20:9 ratio (~409 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, Funtouch 12",
+      "Chipset": "Mediatek Dimensity 900 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MC4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "64 MP, f/1.8, (wide), 0.7µm, PDAF, OIS",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "50 MP, f/2.0, (wide), AF",
+      "Features": "HDR",
+      "Video": "4K@30fps, 1080p@30fps, HDR"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS, NavIC",
+      "NFC": "Yes (market/region dependent)",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4500 mAh, non-removable",
+      "Charging": "44W wired, 61% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Elegant Black, Sunrise Gold, Surfing Blue",
+      "Models": "V2202",
+      "SAR": "0.94 W/kg (head)     1.24 W/kg (body)     ",
+      "Price": "About 350 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 461428 (v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-900"
+}

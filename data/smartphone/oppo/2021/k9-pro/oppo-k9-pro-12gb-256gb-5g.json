@@ -1,0 +1,108 @@
+{
+  "slug": "oppo-k9-pro-12gb-256gb-5g",
+  "name": "Oppo K9 Pro",
+  "brand": "oppo",
+  "release_date": "2021-09-26",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 180.0,
+  "os": "Android 11, ColorOS 11.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "k9-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.43 inches, 99.8 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "AMOLED, 120Hz, HDR10, 430 nits (typ), 800 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 28, 34, 38, 39, 40, 41",
+      "5G bands": "1, 28, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2021, September 26",
+      "Status": "Available. Released 2021, October 20"
+    },
+    "Body": {
+      "Dimensions": "158.7 x 73.5 x 8.5 mm (6.25 x 2.89 x 0.33 in)",
+      "Weight": "180 g (6.35 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 120Hz, HDR10, 430 nits (typ), 800 nits (peak)",
+      "Size": "6.43 inches, 99.8 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 11, ColorOS 11.3",
+      "Chipset": "Mediatek Dimensity 1200 (6 nm)",
+      "CPU": "Octa-core (1x3.0 GHz Cortex-A78 & 3x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G77 MC9"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 12GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "64 MP, f/1.7, 26mm (wide), PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60/120fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.4, (wide)",
+      "Video": "1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4500 mAh, non-removable",
+      "Charging": "60W wired, 50% in 16 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Black, Aurora",
+      "Models": "PEYM00",
+      "Price": "About 360 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-1200"
+}

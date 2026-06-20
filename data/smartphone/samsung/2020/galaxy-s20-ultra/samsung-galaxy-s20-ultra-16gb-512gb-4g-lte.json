@@ -1,0 +1,112 @@
+{
+  "slug": "samsung-galaxy-s20-ultra-16gb-512gb-4g-lte",
+  "name": "Samsung Galaxy S20 Ultra",
+  "brand": "samsung",
+  "release_date": "2020-02-11",
+  "ram_gb": 16,
+  "battery_mah": 5000,
+  "weight_g": 220.0,
+  "os": "Android 10, upgradable to Android 13, One UI 5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-s20-ultra",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.9 inches, 114.0 cm",
+    "resolution": "1440 x 3200 pixels, 20:9 ratio (~511 ppi density)",
+    "type": "Dynamic AMOLED 2X, 120Hz, HDR10+, 1400 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.2, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (Dual SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 66",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (7CA) Cat20 2000/200 Mbps"
+    },
+    "Launch": {
+      "Announced": "2020, February 11",
+      "Status": "Available. Released 2020, March 15"
+    },
+    "Body": {
+      "Dimensions": "166.9 x 76 x 8.8 mm (6.57 x 2.99 x 0.35 in)",
+      "Weight": "220 g (7.76 oz)",
+      "Build": "Glass front (Gorilla Glass 6), glass back (Gorilla Glass 6), aluminum frame",
+      "SIM": "Nano-SIM and eSIM or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Dynamic AMOLED 2X, 120Hz, HDR10+, 1400 nits (peak)",
+      "Size": "6.9 inches, 114.0 cm",
+      "Resolution": "1440 x 3200 pixels, 20:9 ratio (~511 ppi density)",
+      "Protection": "Corning Gorilla Glass 6"
+    },
+    "Platform": {
+      "OS": "Android 10, upgradable to Android 13, One UI 5",
+      "Chipset": "Exynos 990 (7 nm+)",
+      "CPU": "Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G77 MP11"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "128GB 12GB RAM, 512GB 16GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "108 MP, f/1.8, 26mm (wide), 1/1.33\", 0.8µm, PDAF, OIS",
+      "Features": "LED flash, auto-HDR, panorama",
+      "Video": "8K@24fps, 4K@30/60fps, 1080p@30/60/240fps, 720p@960fps, HDR10+, stereo sound rec., gyro-EIS & OIS"
+    },
+    "Selfie camera": {
+      "Single": "40 MP, f/2.2, 26mm (wide), 1/2.8\", 0.7µm, PDAF",
+      "Features": "HDR",
+      "Video": "4K@30/60fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "FM radio (USA & Canada only)",
+      "USB": "USB Type-C 3.2, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 5000 mAh, non-removable",
+      "Charging": "45W wired, PD3.0"
+    },
+    "Misc": {
+      "Colors": "Cosmic Grey, Cosmic Black, Cloud White",
+      "Models": "SM-G988B/DS",
+      "SAR": "0.94 W/kg (head)     0.95 W/kg (body)     ",
+      "SAR EU": "0.32 W/kg (head)     1.56 W/kg (body)     ",
+      "Price": "About 690 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    512
+  ],
+  "soc": "exynos-990"
+}

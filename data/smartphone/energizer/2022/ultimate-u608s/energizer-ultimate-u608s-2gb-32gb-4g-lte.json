@@ -1,0 +1,101 @@
+{
+  "slug": "energizer-ultimate-u608s-2gb-32gb-4g-lte",
+  "name": "Energizer Ultimate U608s",
+  "brand": "energizer",
+  "release_date": "2022-06-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 156.8,
+  "os": "Android 12 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ultimate-u608s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.08 inches, 92.3 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~277 ppi density)",
+    "type": "LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.2, A2DP",
+    "nfc": "No",
+    "usb": "microUSB"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2022, June",
+      "Status": "Available. Released 2022, July"
+    },
+    "Body": {
+      "Dimensions": "155.4 x 73.3 x 9.8 mm (6.12 x 2.89 x 0.39 in)",
+      "Weight": "156.8 g (5.54 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "LCD",
+      "Size": "6.08 inches, 92.3 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~277 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12 (Go edition)",
+      "Chipset": "Mediatek MT6761 Helio A22 (12 nm)",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Features": "LED flash",
+      "Video": "1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.2, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 90 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "mediatek-mt6761-helio-a22"
+}

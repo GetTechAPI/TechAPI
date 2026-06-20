@@ -1,0 +1,109 @@
+{
+  "slug": "honor-30-8gb-256gb-5g",
+  "name": "Honor 30",
+  "brand": "honor",
+  "release_date": "2020-04-15",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 185.0,
+  "os": "Android 10, Magic UI 3, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "30",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.53 inches, 102.9 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~403 ppi density)",
+    "type": "OLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 6, 7, 8, 9, 18, 19, 20, 26, 34, 38, 39, 40, 41 - International",
+      "5G bands": "1, 3, 38, 41, 77, 78, 79 SA/NSA - International",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2020, April 15",
+      "Status": "Available. Released 2020, April 21"
+    },
+    "Body": {
+      "Dimensions": "160.3 x 74.2 x 8.1 mm (6.31 x 2.92 x 0.32 in)",
+      "Weight": "185 g (6.53 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "OLED",
+      "Size": "6.53 inches, 102.9 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~403 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, Magic UI 3, no Google Play Services",
+      "Chipset": "Kirin 985 5G (7 nm)",
+      "CPU": "Octa-core (1x2.58 GHz Cortex-A76 & 3x2.40 GHz Cortex-A76 & 4x1.84 GHz Cortex-A55)",
+      "GPU": "Mali-G77"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "40 MP, f/1.8, 27mm (wide), 1/1.7\", PDAF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30/60fps, 1080p@30/60fps, 720p@960fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm",
+      "Features": "HDR",
+      "Video": "4K, 1080p; gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Charging": "40W wired"
+    },
+    "Misc": {
+      "Colors": "Titanium silver, Emerald Green, Midnight Black, Icelandic Frost, Neon purple",
+      "Models": "BMH-AN10, BMH-AN20",
+      "Price": "About 1170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "kirin-985-5g"
+}

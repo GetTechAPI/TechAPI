@@ -1,0 +1,105 @@
+{
+  "slug": "meizu-x8-6gb-128gb-4g-lte",
+  "name": "Meizu X8",
+  "brand": "meizu",
+  "release_date": "2018-09-01",
+  "ram_gb": 6,
+  "battery_mah": 3210,
+  "weight_g": 160.0,
+  "os": "Android 8.0 (Oreo), Flyme UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "x8",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.2 inches, 97.6 cm",
+    "resolution": "1080 x 2220 pixels, 18.5:9 ratio (~398 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 - China",
+      "4G bands": "1, 3, 5, 8, 34, 38, 39, 40, 41 - China",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat15 800/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, September",
+      "Status": "Available. Released 2018, October"
+    },
+    "Body": {
+      "Dimensions": "151.2 x 74.6 x 7.8 mm (5.95 x 2.94 x 0.31 in)",
+      "Weight": "160 g (5.64 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.2 inches, 97.6 cm",
+      "Resolution": "1080 x 2220 pixels, 18.5:9 ratio (~398 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.0 (Oreo), Flyme UI",
+      "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "CPU": "Octa-core (2x2.2 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+      "GPU": "Adreno 616"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 4GB RAM, 64GB 6GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF",
+      "Features": "Dual-LED dual-tone flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3210 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, Blue, White",
+      "Models": "X8",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-sdm710-snapdragon-710"
+}

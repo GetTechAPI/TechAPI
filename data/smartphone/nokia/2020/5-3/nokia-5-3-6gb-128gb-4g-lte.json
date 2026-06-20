@@ -1,0 +1,111 @@
+{
+  "slug": "nokia-5-3-6gb-128gb-4g-lte",
+  "name": "Nokia 5.3",
+  "brand": "nokia",
+  "release_date": "2020-03-19",
+  "ram_gb": 6,
+  "battery_mah": 4000,
+  "weight_g": 185.0,
+  "os": "Android 10, upgradable to Android 11, Android One",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "5-3",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.55 inches, 103.6 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~268 ppi density)",
+    "type": "IPS LCD, 450 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n/ac, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE, aptX",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Global",
+      "4G bands": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41 - Global",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2020, March 19",
+      "Status": "Available. Released 2020, April 02"
+    },
+    "Body": {
+      "Dimensions": "164.3 x 76.6 x 8.5 mm (6.47 x 3.02 x 0.33 in)",
+      "Weight": "185 g (6.53 oz)",
+      "Build": "Glass front (Gorilla Glass 3), plastic back, plastic frame",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 450 nits (typ)",
+      "Size": "6.55 inches, 103.6 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~268 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 10, upgradable to Android 11, Android One",
+      "Chipset": "Qualcomm SM6125 Snapdragon 665 (11 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 610"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 3GB RAM, 64GB 4GB RAM, 64GB 6GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "13 MP, f/1.8, (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n/ac, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Cyan, Sand, Charcoal",
+      "Models": "TA-1234, TA-1223, TA-1227, TA-1229",
+      "SAR": "1.03 W/kg (head)     0.95 W/kg (body)     ",
+      "SAR EU": "0.70 W/kg (head)     1.39 W/kg (body)     ",
+      "Price": "About 290 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-sm6125-snapdragon-665"
+}

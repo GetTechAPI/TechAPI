@@ -1,0 +1,117 @@
+{
+  "slug": "honor-view-10-6gb-128gb-4g-lte",
+  "name": "Honor View 10",
+  "brand": "honor",
+  "release_date": "2017-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3750,
+  "weight_g": 172.0,
+  "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "view-10",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.99 inches, 92.6 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~403 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, aptX HD, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat18 1200/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, December",
+      "Status": "Available. Released 2018, January"
+    },
+    "Body": {
+      "Dimensions": "157 x 75 x 7 mm (6.18 x 2.95 x 0.28 in)",
+      "Weight": "172 g (6.07 oz)",
+      "Build": "Glass front (Aluminosilicate glass), aluminum back, plastic frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.99 inches, 92.6 cm",
+      "Resolution": "1080 x 2160 pixels, 18:9 ratio (~403 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.1",
+      "Chipset": "Kirin 970 (10 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP12"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM, 64GB 6GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.8, PDAF",
+      "Features": "Panorama, HDR, LED flash",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, f/2.0",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, aptX HD, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3750 mAh, non-removable",
+      "Charging": "22.5W wired, 58% in 30 min (advertised)",
+      "Stand-by": "Up to 528 h (3G)",
+      "Talk time": "Up to 23 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Navy Blue, Midnight Black, Beach Gold, Aurora Blue, Charm Red",
+      "Models": "BKL-AL20, BKL-L04, BKL-L09, BKL-AL00",
+      "Price": "About 320 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 212708 (v7)",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-970"
+}

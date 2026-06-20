@@ -1,0 +1,108 @@
+{
+  "slug": "lenovo-a8-2020-4gb-64gb-4g-lte",
+  "name": "Lenovo A8 2020",
+  "brand": "lenovo",
+  "release_date": "2020-10-15",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 205.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "a8-2020",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.53 inches, 107.9 cm",
+    "resolution": "720 x 1560 pixels, 19.5:9 ratio (~259 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 & SIM 3",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, October 15",
+      "Status": "Available. Released 2020, October 15"
+    },
+    "Body": {
+      "Dimensions": "163.8 x 75.6 x 9.3 mm (6.45 x 2.98 x 0.37 in)",
+      "Weight": "205 g (7.23 oz)",
+      "Build": "Plastic back, plastic frame",
+      "SIM": "Triple SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.53 inches, 107.9 cm",
+      "Resolution": "720 x 1560 pixels, 19.5:9 ratio (~259 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10",
+      "Chipset": "Mediatek MT6762 Helio P22 (12 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "13 MP, (wide), AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 5000 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Blue",
+      "Models": "L10041",
+      "Price": "About 90 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "mediatek-mt6762-helio-p22"
+}

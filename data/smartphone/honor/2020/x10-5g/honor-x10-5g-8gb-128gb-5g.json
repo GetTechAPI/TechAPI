@@ -1,0 +1,111 @@
+{
+  "slug": "honor-x10-5g-8gb-128gb-5g",
+  "name": "Honor X10 5G",
+  "brand": "honor",
+  "release_date": "2020-05-20",
+  "ram_gb": 8,
+  "battery_mah": 4300,
+  "weight_g": 203.0,
+  "os": "Android 10, Magic UI 3.1, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "x10-5g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.63 inches, 106.1 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~397 ppi density)",
+    "type": "IPS LCD, 90Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 8, 18, 19, 26, 34, 38, 39, 40, 41",
+      "5G bands": "1, 3, 38, 41, 77, 78, 79, 80, 84 SA/NSA",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (4CA) Cat12 600/50 Mbps, 5G 2.3 Gbps DL"
+    },
+    "Launch": {
+      "Announced": "2020, May 20",
+      "Status": "Available. Released 2020, May 26"
+    },
+    "Body": {
+      "Dimensions": "163.7 x 76.5 x 8.8 mm (6.44 x 3.01 x 0.35 in)",
+      "Weight": "203 g (7.16 oz)",
+      "Build": "Glass front (Aluminosilicate glass)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz",
+      "Size": "6.63 inches, 106.1 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~397 ppi density)",
+      "Protection": "Aluminosilicate glass"
+    },
+    "Platform": {
+      "OS": "Android 10, Magic UI 3.1, no Google Play Services",
+      "Chipset": "Kirin 820 5G (7 nm)",
+      "CPU": "Octa-core (1x2.36 GHz Cortex-A76 & 3x2.22 GHz Cortex-A76 & 4x1.84 GHz Cortex-A55)",
+      "GPU": "Mali-G57 (6-core)"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "64GB 6GB RAM, 128GB 6GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "40 MP, f/1.8, 26mm (wide), 1/1.7\", PDAF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps, 720p@960fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "Motorized pop-up 16 MP, f/2.2, 24mm (wide), 1/3.06\", 1.0µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4300 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Blue, Orange, Black, Silver",
+      "Models": "TEL-AN00, TEL-TN00, TEL-AN00a, TEL-AN10",
+      "Price": "About 250 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-820-5g"
+}

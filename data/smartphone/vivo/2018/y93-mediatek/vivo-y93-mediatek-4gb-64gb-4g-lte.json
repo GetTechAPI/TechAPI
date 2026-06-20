@@ -1,0 +1,104 @@
+{
+  "slug": "vivo-y93-mediatek-4gb-64gb-4g-lte",
+  "name": "vivo Y93 (Mediatek)",
+  "brand": "vivo",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 4030,
+  "weight_g": 163.5,
+  "os": "Android 8.1 (Oreo), Funtouch 4.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "y93-mediatek",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.22 inches, 96.6 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM only)",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat5 150/75 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, December",
+      "Status": "Available. Released 2019, January"
+    },
+    "Body": {
+      "Dimensions": "155.1 x 75.1 x 8.3 mm (6.11 x 2.96 x 0.33 in)",
+      "Weight": "163.5 g (5.78 oz)",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.22 inches, 96.6 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), Funtouch 4.5",
+      "Chipset": "Mediatek MT6762 Helio P22 (12 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "32GB 3GB RAM, 32GB 4GB RAM, 64GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, f/2.2, PDAF",
+      "Features": "LED flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4030 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Starry Black, Nebula Purple",
+      "Models": "V1818CT, V1818CA"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "mediatek-mt6762-helio-p22"
+}

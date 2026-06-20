@@ -1,0 +1,120 @@
+{
+  "slug": "nokia-7-1-4gb-64gb-4g-lte",
+  "name": "Nokia 7.1",
+  "brand": "nokia",
+  "release_date": "2018-10-04",
+  "ram_gb": 4,
+  "battery_mah": 3060,
+  "weight_g": 160.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 10, Android One",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "7-1",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.84 inches, 85.1 cm",
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~432 ppi density)",
+    "type": "IPS LCD, HDR10"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, EDR, LE, aptX",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 28, 38, 40, 66 - USA",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, October 04",
+      "Status": "Available. Released 2018, October 28"
+    },
+    "Body": {
+      "Dimensions": "149.7 x 71.2 x 8 mm (5.89 x 2.80 x 0.31 in)",
+      "Weight": "160 g (5.64 oz)",
+      "Build": "Glass front (Gorilla Glass 3), glass back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, HDR10",
+      "Size": "5.84 inches, 85.1 cm",
+      "Resolution": "1080 x 2280 pixels, 19:9 ratio (~432 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 10, Android One",
+      "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Kryo 260 Gold & 4x1.6 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 509"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "12 MP, f/1.8, 1.28µm, dual pixel PDAF",
+      "Features": "Zeiss optics, dual-LED dual-tone flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps (gyro-EIS)"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 24mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, EDR, LE, aptX",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3060 mAh, non-removable",
+      "Charging": "18W wired",
+      "Stand-by": "Up to 408 h (3G)",
+      "Talk time": "Up to 19 h 30 min (3G)"
+    },
+    "Misc": {
+      "Colors": "Gloss midnight blue, gloss steel",
+      "Models": "TA-1100, TA-1097, TA-1085, TA-1095, TA-1096",
+      "SAR EU": "0.26 W/kg (head)     1.74 W/kg (body)     ",
+      "Price": "About 240 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 117175 (v7)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "qualcomm-sdm636-snapdragon-636"
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "nokia-7-6gb-64gb-4g-lte",
+  "name": "Nokia 7",
+  "brand": "nokia",
+  "release_date": "2017-10-01",
+  "ram_gb": 6,
+  "battery_mah": 3000,
+  "weight_g": 153.0,
+  "os": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "7",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 74.5 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 34, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, October",
+      "Status": "Available. Released 2017, October"
+    },
+    "Body": {
+      "Dimensions": "141.2 x 71.5 x 7.9 mm (5.56 x 2.81 x 0.31 in)",
+      "Weight": "153 g (5.40 oz)",
+      "Build": "Glass front (Gorilla Glass 3), glass back, aluminum frame (7000 series)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.2 inches, 74.5 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie)",
+      "Chipset": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+      "CPU": "Octa-core 2.2 GHz Cortex-A53",
+      "GPU": "Adreno 508"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM, 64GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/1.8, 1.12µm, PDAF",
+      "Features": "Zeiss optics, dual-LED dual-tone flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.0, 1/4.0\", 1.4µm, AF",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "18W wired",
+      "Stand-by": "Up to 340 h (3G)",
+      "Talk time": "Up to 15 h (3G)",
+      "Music play": "Up to 85 h"
+    },
+    "Misc": {
+      "Colors": "Gloss Black, Matt White",
+      "Models": "TA-1041",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-sdm630-snapdragon-630"
+}

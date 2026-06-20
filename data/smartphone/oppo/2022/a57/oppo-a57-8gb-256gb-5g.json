@@ -1,0 +1,112 @@
+{
+  "slug": "oppo-a57-8gb-256gb-5g",
+  "name": "Oppo A57",
+  "brand": "oppo",
+  "release_date": "2022-04-14",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 186.0,
+  "os": "Android 12, ColorOS 12.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "a57",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.56 inches, 103.4 cm",
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)",
+    "type": "IPS LCD, 90Hz, 480 nits (typ), 600 nits (HBM)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": " HSDPA 800 / 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 28, 34, 38, 39, 40, 41",
+      "5G bands": "1, 5, 8, 28, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, April 14",
+      "Status": "Available. Released 2022, April 15"
+    },
+    "Body": {
+      "Dimensions": "163.8 x 75.1 x 8 mm (6.45 x 2.96 x 0.31 in)",
+      "Weight": "186 g (6.56 oz)",
+      "Build": "Glass front, plastic frame, plastic back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz, 480 nits (typ), 600 nits (HBM)",
+      "Size": "6.56 inches, 103.4 cm",
+      "Resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, ColorOS 12.1",
+      "Chipset": "Mediatek Dimensity 810 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, f/2.2, 26mm (wide), 1/3.06\", 1.12µm, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 26mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 5000 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Blue, Lilac",
+      "Models": "PFTM20",
+      "Price": "About 200 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-810"
+}

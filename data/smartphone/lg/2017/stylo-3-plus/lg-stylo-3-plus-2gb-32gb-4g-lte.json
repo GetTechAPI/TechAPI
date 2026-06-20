@@ -1,0 +1,107 @@
+{
+  "slug": "lg-stylo-3-plus-2gb-32gb-4g-lte",
+  "name": "LG Stylo 3 Plus",
+  "brand": "lg",
+  "release_date": "2017-05-01",
+  "ram_gb": 2,
+  "battery_mah": 3080,
+  "weight_g": 150.0,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "stylo-3-plus",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 89.6 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~386 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "2, 4, 5, 12, 66",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, May",
+      "Status": "Available. Released 2017, May"
+    },
+    "Body": {
+      "Dimensions": "155.7 x 79.8 x 7.4 mm (6.13 x 3.14 x 0.29 in)",
+      "Weight": "150 g (5.29 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.7 inches, 89.6 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~386 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat)",
+      "Chipset": "Qualcomm MSM8940 Snapdragon 435 (28 nm)",
+      "CPU": "Octa-core 1.4 GHz Cortex-A53",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, 1/3.1\", 1.12µm, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3080 mAh, removable",
+      "Stand-by": "Up to 456 h (3G)",
+      "Talk time": "Up to 14 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Titan",
+      "Models": "TP450, M470",
+      "Price": "About 170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8940-snapdragon-435"
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "oppo-reno-ace-12gb-256gb-4g-lte",
+  "name": "Oppo Reno Ace",
+  "brand": "oppo",
+  "release_date": "2019-10-01",
+  "ram_gb": 12,
+  "battery_mah": 4000,
+  "weight_g": 200.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, ColorOS 7.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "reno-ace",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 103.5 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~402 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10, 500 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 34, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, October",
+      "Status": "Available. Released 2019, October"
+    },
+    "Body": {
+      "Dimensions": "161 x 75.7 x 8.7 mm (6.34 x 2.98 x 0.34 in)",
+      "Weight": "200 g (7.05 oz)",
+      "Build": "Glass front (Gorilla Glass 6), glass back (Gorilla Glass 5), aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 90Hz, HDR10, 500 nits (typ)",
+      "Size": "6.5 inches, 103.5 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~402 ppi density)",
+      "Protection": "Corning Gorilla Glass 6"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), upgradable to Android 10, ColorOS 7.0",
+      "Chipset": "Qualcomm SM8150 Snapdragon 855+ (7 nm)",
+      "CPU": "Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485)",
+      "GPU": "Adreno 640 (700 MHz)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "48 MP, f/1.7, 26mm (wide), 1/2.0\", 0.8µm, PDAF, OIS",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "4K@30/60fps, 1080p@30/60/120/240fps; (gyro-EIS); video rec. only with main camera"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with dual speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE, aptX HD",
+      "Positioning": "GPS (L1+L5), GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Charging": "65W wired, 100% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Electric purple, Interstellar blue, Gundam Edition",
+      "Models": "PCLM10",
+      "Price": "About 380 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 354367 (v7), 434063 (v8)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "qualcomm-sm8150-snapdragon-855"
+}

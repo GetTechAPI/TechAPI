@@ -1,0 +1,109 @@
+{
+  "slug": "oppo-f27-8gb-256gb-5g",
+  "name": "Oppo F27",
+  "brand": "oppo",
+  "release_date": "2024-08-20",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 187.0,
+  "os": "Android 14, ColorOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "f27",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+    "type": "AMOLED, 120Hz, 600 nits (typ), 1200 nits (HMB), 2100 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 28, 40, 41",
+      "5G bands": "1, 3, 5, 8, 28, 40, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2024, August 20",
+      "Status": "Available. Released 2024, August 20"
+    },
+    "Body": {
+      "Dimensions": "163 x 75.8 x 7.7 mm (6.42 x 2.98 x 0.30 in)",
+      "Weight": "187 g (6.60 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 120Hz, 600 nits (typ), 1200 nits (HMB), 2100 nits (peak)",
+      "Size": "6.67 inches, 107.4 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+      "Protection": "Asahi Glass AGC DT-Star2"
+    },
+    "Platform": {
+      "OS": "Android 14, ColorOS 14",
+      "Chipset": "Mediatek Dimensity 6300 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "50 MP, f/1.8, 26mm (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.4, 22mm (wide), 1/2.74\", 0.8µm",
+      "Features": "Panorama",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.3, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "45W wired, PD3.0"
+    },
+    "Misc": {
+      "Colors": "Emerald Green, Amber Orange"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-6300"
+}

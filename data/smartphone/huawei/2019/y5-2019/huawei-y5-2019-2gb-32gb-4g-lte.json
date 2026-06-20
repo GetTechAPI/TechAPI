@@ -1,0 +1,106 @@
+{
+  "slug": "huawei-y5-2019-2gb-32gb-4g-lte",
+  "name": "Huawei Y5 (2019)",
+  "brand": "huawei",
+  "release_date": "2019-04-24",
+  "ram_gb": 2,
+  "battery_mah": 3020,
+  "weight_g": 146.0,
+  "os": "Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "y5-2019",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.71 inches, 81.4 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~295 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes (market/region dependent) - AMN-LX1 only",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (Dual SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, April 24",
+      "Status": "Available. Released 2019, April 24"
+    },
+    "Body": {
+      "Dimensions": "147.1 x 70.8 x 8.5 mm (5.79 x 2.79 x 0.33 in)",
+      "Weight": "146 g (5.15 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.71 inches, 81.4 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~295 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), EMUI 9.1",
+      "Chipset": "Mediatek MT6761 Helio A22 (12 nm)",
+      "CPU": "Quad-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/1.8, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes (market/region dependent) - AMN-LX1 only",
+      "Radio": "FM Radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3020 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Midnight Black, Modern Black, Sapphire Blue, Amber Brown",
+      "Models": "AMN-LX9, AMN-LX1, AMN-LX2, AMN-LX3",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "mediatek-mt6761-helio-a22"
+}

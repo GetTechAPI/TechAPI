@@ -1,0 +1,105 @@
+{
+  "slug": "alcatel-tetra-2gb-16gb-4g-lte",
+  "name": "alcatel Tetra",
+  "brand": "alcatel",
+  "release_date": "2018-09-01",
+  "ram_gb": 2,
+  "battery_mah": 2050,
+  "weight_g": 150.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "tetra",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 ",
+      "4G bands": "2, 4, 5, 12, 14",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, September",
+      "Status": "Available. Released 2018, September"
+    },
+    "Body": {
+      "Dimensions": "142.5 x 71.9 x 9.4 mm (5.61 x 2.83 x 0.37 in)",
+      "Weight": "150 g (5.29 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)",
+      "Protection": "Asahi Dragontrail Glass"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo)",
+      "Chipset": "Mediatek MT6739WM (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A53",
+      "GPU": "PowerVR GE8100"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash, HDR",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2050 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Stealth Black",
+      "Price": "About 40 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6739wm"
+}

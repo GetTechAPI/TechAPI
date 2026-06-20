@@ -1,0 +1,116 @@
+{
+  "slug": "sony-xperia-xz2-compact-4gb-64gb-4g-lte",
+  "name": "Sony Xperia XZ2 Compact",
+  "brand": "sony",
+  "release_date": "2018-02-01",
+  "ram_gb": 4,
+  "battery_mah": 2870,
+  "weight_g": 168.0,
+  "os": "Android 8.0 (Oreo), upgradable to Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-xz2-compact",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 64.5 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~483 ppi density)",
+    "type": "IPS LCD, HDR BT.2020"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, aptX HD, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 19, 20, 26, 28, 29, 32, 38, 39, 40, 41, 66",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (4CA) Cat15 800/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, February",
+      "Status": "Available. Released 2018, April"
+    },
+    "Body": {
+      "Dimensions": "135 x 65 x 12.1 mm (5.31 x 2.56 x 0.48 in)",
+      "Weight": "168 g (5.93 oz)",
+      "Build": "Glass front (Gorilla Glass 5), plastic back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, HDR BT.2020",
+      "Size": "5.0 inches, 64.5 cm",
+      "Resolution": "1080 x 2160 pixels, 18:9 ratio (~483 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 8.0 (Oreo), upgradable to Android 10",
+      "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot) - dual SIM model only",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF",
+      "Features": "Laser AF, LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 1080p@960fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2, 23mm (wide), 1/5.0\"",
+      "Video": "1080p@30fps (gyro-EIS)"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "5.0, A2DP, aptX HD, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2870 mAh, non-removable",
+      "Charging": "18W wired, QC3"
+    },
+    "Misc": {
+      "Colors": "Black, White Silver, Moss Green, Coral Pink",
+      "Models": "H8324, H8314, SO-05K",
+      "Price": "About 430 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 265326 (v7), 308651 (v8)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-sdm845-snapdragon-845"
+}

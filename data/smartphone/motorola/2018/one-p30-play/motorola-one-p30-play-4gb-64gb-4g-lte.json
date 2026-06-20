@@ -1,0 +1,119 @@
+{
+  "slug": "motorola-one-p30-play-4gb-64gb-4g-lte",
+  "name": "Motorola One (P30 Play)",
+  "brand": "motorola",
+  "release_date": "2018-08-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 162.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 10, Android One",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-p30-play",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.9 inches, 85.7 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~287 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, EDR",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 5, 7, 8, 34, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2018, August",
+      "Status": "Available. Released 2018, October"
+    },
+    "Body": {
+      "Dimensions": "149.9 x 72.2 x 8 mm (5.90 x 2.84 x 0.31 in)",
+      "Weight": "162 g (5.71 oz)",
+      "Build": "Glass front (Gorilla Glass), plastic back, plastic frame",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.9 inches, 85.7 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~287 ppi density)",
+      "Protection": "Corning Gorilla Glass (unspecified version)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 10, Android One",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, f/2.0, 1/3.1\", 1.12µm, PDAF",
+      "Features": "LED flash, panorama",
+      "Video": "4K@30fps, 1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.2, 1/4.0\", 1.12µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE, EDR",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "XT1941, One, XT1941-2",
+      "SAR": "0.46 W/kg (head)     0.80 W/kg (body)     ",
+      "SAR EU": "0.46 W/kg (head)     0.80 W/kg (body)     ",
+      "Price": "About 300 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 81024 (v7)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "qualcomm-msm8953-snapdragon-625"
+}

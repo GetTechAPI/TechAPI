@@ -1,0 +1,106 @@
+{
+  "slug": "ulefone-power-armor-20wt-12gb-256gb-4g-lte",
+  "name": "Ulefone Power Armor 20WT",
+  "brand": "ulefone",
+  "release_date": "2023-03-08",
+  "ram_gb": 12,
+  "battery_mah": 10850,
+  "weight_g": 382.0,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "power-armor-20wt",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.65 inches, 82.4 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~427 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 66",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, March 08",
+      "Status": "Available. Released 2023, March 08"
+    },
+    "Body": {
+      "Dimensions": "164.8 x 79.2 x 18.1 mm (6.49 x 3.12 x 0.71 in)",
+      "Weight": "382 g (13.47 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.65 inches, 82.4 cm",
+      "Resolution": "1080 x 2160 pixels, 18:9 ratio (~427 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 12",
+      "Chipset": "Mediatek Helio G99 (6 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Single": "50 MP, f/2.2, (wide), 1.0µm, PDAF",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.2, (wide), 1.0µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Radio": "Wireless FM radio, RDS, recording",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass, gyro, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 10850 mAh, non-removable",
+      "Charging": "33W wired"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 330 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "helio-g99"
+}

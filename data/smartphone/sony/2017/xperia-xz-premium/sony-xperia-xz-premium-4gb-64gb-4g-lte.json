@@ -1,0 +1,116 @@
+{
+  "slug": "sony-xperia-xz-premium-4gb-64gb-4g-lte",
+  "name": "Sony Xperia XZ Premium",
+  "brand": "sony",
+  "release_date": "2017-02-27",
+  "ram_gb": 4,
+  "battery_mah": 3230,
+  "weight_g": 195.0,
+  "os": "Android 7.1 (Nougat), upgradable to Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-xz-premium",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.46 inches, 82.2 cm",
+    "resolution": "3840 x 2160 pixels, 16:9 ratio (~807 ppi density)",
+    "type": "IPS LCD, HDR10"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, aptX HD, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 - G8142",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 - G8141, G8142",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 19, 20, 26, 28, 29, 32, 38, 39, 40, 41 - G8141, G8142",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat16 1024/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, February 27",
+      "Status": "Available. Released 2017, June 18"
+    },
+    "Body": {
+      "Dimensions": "156 x 77 x 7.9 mm (6.14 x 3.03 x 0.31 in)",
+      "Weight": "195 g (6.88 oz)",
+      "Build": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum/plastic frame",
+      "SIM": "Single SIM (Nano-SIM) - G8141"
+    },
+    "Display": {
+      "Type": "IPS LCD, HDR10",
+      "Size": "5.46 inches, 82.2 cm",
+      "Resolution": "3840 x 2160 pixels, 16:9 ratio (~807 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 7.1 (Nougat), upgradable to Android 9.0 (Pie)",
+      "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "CPU": "Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot) - dual SIM model only",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "19 MP, f/2.0, 25mm (wide), 1/2.3\", predictive PDAF",
+      "Features": "Laser AF, LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps (gyro-EIS), 720p@960fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, f/2.0, 22mm (wide), 1/3.1\", 1.12µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "5.0, A2DP, aptX HD, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted, region dependent), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3230 mAh, non-removable",
+      "Charging": "18W wired, QC3"
+    },
+    "Misc": {
+      "Colors": "Luminous Chrome, Deepsea Black, Bronze Pink, Rosso",
+      "Models": "G8142, G8141, SO-04K, SO-04J",
+      "Price": "About 320 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nGeekBench: 5460 (v4.4), 1603 (v5.1)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-msm8998-snapdragon-835"
+}

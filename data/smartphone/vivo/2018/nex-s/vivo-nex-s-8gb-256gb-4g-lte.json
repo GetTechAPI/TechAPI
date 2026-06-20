@@ -1,0 +1,115 @@
+{
+  "slug": "vivo-nex-s-8gb-256gb-4g-lte",
+  "name": "vivo NEX S",
+  "brand": "vivo",
+  "release_date": "2018-06-01",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 199.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), Funtouch 6.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nex-s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.59 inches, 107.3 cm",
+    "resolution": "1080 x 2316 pixels, 19.3:9 ratio (~388 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (4CA) Cat16 1024/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, June",
+      "Status": "Available. Released 2018, June"
+    },
+    "Body": {
+      "Dimensions": "162 x 77 x 8 mm (6.38 x 3.03 x 0.31 in)",
+      "Weight": "199 g (7.02 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "6.59 inches, 107.3 cm",
+      "Resolution": "1080 x 2316 pixels, 19.3:9 ratio (~388 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), Funtouch 6.6",
+      "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, 4-axis OIS",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "Motorized pop-up 8 MP, f/2.0",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, BDS, GNSS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4000 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Red",
+      "Models": "1805, NEX S",
+      "Price": "About 700 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 287081 (v7), 351286 (v8)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "qualcomm-sdm845-snapdragon-845"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "honor-30i-4gb-128gb-4g-lte",
+  "name": "Honor 30i",
+  "brand": "honor",
+  "release_date": "2020-09-11",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 171.5,
+  "os": "Android 10, Magic UI 2.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "30i",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 95.8 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~418 ppi density)",
+    "type": "AMOLED, 600 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 19, 20, 26, 28, 34, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, September 11",
+      "Status": "Available. Released 2020, September 12"
+    },
+    "Body": {
+      "Dimensions": "157.2 x 73.2 x 7.7 mm (6.19 x 2.88 x 0.30 in)",
+      "Weight": "171.5 g (6.07 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 600 nits (typ)",
+      "Size": "6.3 inches, 95.8 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~418 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, Magic UI 2.1",
+      "Chipset": "Kirin 710F (12 nm)",
+      "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "48 MP, f/1.8, 28mm (wide), 1/2.0\", 0.8µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Ultraviolet Sunset, Turquoise, Midnight Black",
+      "Models": "LRA-LX1",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "kirin-710f"
+}

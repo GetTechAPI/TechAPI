@@ -1,0 +1,119 @@
+{
+  "slug": "vivo-v23-5g-12gb-256gb-5g",
+  "name": "vivo V23 5G",
+  "brand": "vivo",
+  "release_date": "2022-01-05",
+  "ram_gb": 12,
+  "battery_mah": 4200,
+  "weight_g": 179.0,
+  "os": "Android 12, upgradable to Android 14, Funtouch 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v23-5g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 100.1 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10+"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi 6 (market dependent), dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 8, 18, 19, 26, 38, 39, 40, 41",
+      "5G bands": "1, 3, 38, 40, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, January 05",
+      "Status": "Available. Released 2022, January 19"
+    },
+    "Body": {
+      "Dimensions": "157.2 x 72.4 x 7.4 or 7.6 mm",
+      "Weight": "179 g or 181 g (6.31 oz)",
+      "Build": "Glass front (Schott Xensation Up), glass back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 90Hz, HDR10+",
+      "Size": "6.44 inches, 100.1 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+      "Protection": "Schott Xensation Up"
+    },
+    "Platform": {
+      "OS": "Android 12, upgradable to Android 14, Funtouch 14",
+      "Chipset": "Mediatek Dimensity 920 (6 nm)",
+      "CPU": "Octa-core (2x2.5 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MC4"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM, 256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "64 MP, f/1.9, 26mm (wide), PDAF",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Dual": "50 MP, f/2.0, (wide), AF",
+      "Features": "Dual-LED dual-tone flash, HDR",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi 6 (market dependent), dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS, NavIC",
+      "NFC": "Yes (market/region dependent)",
+      "Radio": "No",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4200 mAh, non-removable",
+      "Charging": "44W wired, 68% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Sunshine Gold, Stardust Black",
+      "Models": "V2130, V2303",
+      "SAR": "1.08 W/kg (head)     0.72 W/kg (body)     ",
+      "Price": "About 600 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 406498 (v8), 476058 (v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "dimensity-920"
+}

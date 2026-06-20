@@ -1,0 +1,108 @@
+{
+  "slug": "samsung-galaxy-s-light-luxury-4gb-64gb-4g-lte",
+  "name": "Samsung Galaxy S Light Luxury",
+  "brand": "samsung",
+  "release_date": "2018-05-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 150.0,
+  "os": "Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-s-light-luxury",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.8 inches, 85.4 cm",
+    "resolution": "1080 x 2220 pixels, 18.5:9 ratio (~426 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, aptX",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 4, 5, 7, 8, 12, 17, 34, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat12 600/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, May",
+      "Status": "Available. Released 2018, May"
+    },
+    "Body": {
+      "Dimensions": "148.9 x 68.1 x 8 mm (5.86 x 2.68 x 0.31 in)",
+      "Weight": "150 g (5.29 oz)",
+      "Build": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.8 inches, 85.4 cm",
+      "Resolution": "1080 x 2220 pixels, 18.5:9 ratio (~426 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 8.0 (Oreo)",
+      "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "CPU": "Octa-core (4x2.2 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 512"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/1.7, 1.12µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps"
+    },
+    "Selfie camera": {
+      "Dual": "8 MP, f/1.7, 25mm (wide), 1/3.6\", 1.22µm, AF",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Iris scanner, fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable (11.55 Wh)",
+      "Charging": "Wireless (Qi)"
+    },
+    "Misc": {
+      "Colors": "Burgundy Red, Black Night",
+      "Models": "SM-G8750",
+      "Price": "About 400 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-sdm660-snapdragon-660"
+}

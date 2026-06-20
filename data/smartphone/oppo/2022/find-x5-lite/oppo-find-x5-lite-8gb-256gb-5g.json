@@ -1,0 +1,114 @@
+{
+  "slug": "oppo-find-x5-lite-8gb-256gb-5g",
+  "name": "Oppo Find X5 Lite",
+  "brand": "oppo",
+  "release_date": "2022-02-24",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 173.0,
+  "os": "Android 11, ColorOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "find-x5-lite",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.43 inches, 99.8 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10+, 430 nits (typ), 600 nits (HDR), 800 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 39, 40, 41, 66",
+      "5G bands": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41, 66, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE (CA), 5G"
+    },
+    "Launch": {
+      "Announced": "2022, February 24",
+      "Status": "Available. Released 2022, March 24"
+    },
+    "Body": {
+      "Dimensions": "160.6 x 73.2 x 7.8 mm (6.32 x 2.88 x 0.31 in)",
+      "Weight": "173 g (6.10 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 90Hz, HDR10+, 430 nits (typ), 600 nits (HDR), 800 nits (peak)",
+      "Size": "6.43 inches, 99.8 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 11, ColorOS 12",
+      "Chipset": "Mediatek Dimensity 900 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MC4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "64 MP, f/1.7, 26mm (wide), 1/2.0\", 0.7µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60/120fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.4, 24mm (wide)",
+      "Features": "Panorama",
+      "Video": "1080p@30/120fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4500 mAh, non-removable",
+      "Charging": "65W wired, PD, 100% in 31 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Starlight Black, Startrails Blue",
+      "Models": "CPH2371"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 407040 (v8), 479608 (v9)",
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "dimensity-900"
+}

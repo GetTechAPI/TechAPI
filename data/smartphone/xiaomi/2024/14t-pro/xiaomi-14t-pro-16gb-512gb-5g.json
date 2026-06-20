@@ -1,0 +1,116 @@
+{
+  "slug": "xiaomi-14t-pro-16gb-512gb-5g",
+  "name": "Xiaomi 14T Pro",
+  "brand": "xiaomi",
+  "release_date": "2024-09-26",
+  "ram_gb": 16,
+  "battery_mah": 5000,
+  "weight_g": 209.0,
+  "os": "Android 14, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "14t-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)",
+    "type": "AMOLED, 68B colors, 144Hz, Dolby Vision, HDR10+, 1600 nits (HBM), 4000 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.4, A2DP, LE, LHDC",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 48, 66",
+      "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 38, 40, 41, 48, 66, 75, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2024, September 26",
+      "Status": "Available. Released 2024, September 26"
+    },
+    "Body": {
+      "Dimensions": "160.4 x 75.1 x 8.4 mm (6.31 x 2.96 x 0.33 in)",
+      "Weight": "209 g (7.37 oz)",
+      "Build": "Glass front, aluminum frame",
+      "SIM": "Nano-SIM, eSIM or eSIM, eSIM or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 68B colors, 144Hz, Dolby Vision, HDR10+, 1600 nits (HBM), 4000 nits (peak)",
+      "Size": "6.67 inches, 107.4 cm",
+      "Resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)",
+      "Protection": "Scratch/drop-resistant glass"
+    },
+    "Platform": {
+      "OS": "Android 14, HyperOS",
+      "Chipset": "Mediatek Dimensity 9300+ (4 nm)",
+      "CPU": "Octa-core (1x3.4 GHz Cortex-X4 & 3x2.85 GHz Cortex-X4 & 4x2.0 GHz Cortex-A720)",
+      "GPU": "Immortalis-G720 MC12"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.6, 23mm (wide), 1/1.31\", 1.2µm, PDAF, OIS",
+      "Features": "Leica lens, Ultra HDR, LED flash, HDR, panorama",
+      "Video": "8K@24/30fps, 4K@24/30/60fps, 1080p@30/60/120/240/960fps, gyro-EIS, 10-bit Rec. 2020, HDR10+"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.0, 25mm (wide)",
+      "Features": "HDR",
+      "Video": "4K@30fps, 1080p@30/60fps, HDR10+"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.4, A2DP, LE, LHDC",
+      "Positioning": "GPS (L1+L5), BDS (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L5), GLONASS",
+      "NFC": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 5000 mAh, non-removable",
+      "Charging": "120W wired, PD3.0, QC4, 100% in 19 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Titan Gray, Titan Blue, Titan Black"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 2015655 (v10)",
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (new)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "dimensity-9300-plus"
+}

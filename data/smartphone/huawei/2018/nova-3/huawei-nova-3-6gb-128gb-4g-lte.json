@@ -1,0 +1,109 @@
+{
+  "slug": "huawei-nova-3-6gb-128gb-4g-lte",
+  "name": "Huawei nova 3",
+  "brand": "huawei",
+  "release_date": "2018-07-01",
+  "ram_gb": 6,
+  "battery_mah": 3750,
+  "weight_g": 166.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nova-3",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 97.4 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE, EDR, aptX HD",
+    "nfc": "Yes (PAR-LX1 model only)",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - PAR-LX1M, PAR-LX1, PAR-TL20",
+      "4G bands": "1, 3, 5, 7, 8, 20 - PAR-LX1M, PAR-LX1",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat16 1024/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, July",
+      "Status": "Available. Released 2018, August"
+    },
+    "Body": {
+      "Dimensions": "157 x 73.7 x 7.3 mm (6.18 x 2.90 x 0.29 in)",
+      "Weight": "166 g (5.86 oz)",
+      "Build": "Glass front, glass back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.3 inches, 97.4 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.1",
+      "Chipset": "Kirin 970 (10 nm)",
+      "CPU": "Octa-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP12"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 6GB RAM, 128GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, 27mm (wide), f/1.8, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS)"
+    },
+    "Selfie camera": {
+      "Dual": "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE, EDR, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes (PAR-LX1 model only)",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Infrared Face ID, fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3750 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Iris Purple, Airy blue, Primrose Gold, Red, Black",
+      "Models": "PAR-AL00, PAR-LX1M, PAR-LX1, PAR-LX9, PAR-TL20, PAR-TL00",
+      "Price": "About 350 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-970"
+}

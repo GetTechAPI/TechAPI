@@ -1,0 +1,105 @@
+{
+  "slug": "lg-q52-4gb-64gb-4g-lte",
+  "name": "LG Q52",
+  "brand": "lg",
+  "release_date": "2020-09-26",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 186.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "q52",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.6 inches, 105.2 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, September 26",
+      "Status": "Available. Released 2020, October 26"
+    },
+    "Body": {
+      "Dimensions": "165 x 76.7 x 8.4 mm (6.50 x 3.02 x 0.33 in)",
+      "Weight": "186 g (6.56 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.6 inches, 105.2 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10",
+      "Chipset": "Mediatek MT6765 Helio P35 (12 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "48 MP, f/1.8, (wide), 1/2.0\", 0.8µm, PDAF",
+      "Features": "Dual-LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, (wide), 1/3.1\", 1.12µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Silky White, Silky Red",
+      "Models": "LM-Q520N",
+      "Price": "About 240 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "mediatek-mt6765-helio-p35"
+}

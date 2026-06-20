@@ -1,0 +1,110 @@
+{
+  "slug": "samsung-galaxy-j2-pro-2018-2gb-16gb-4g-lte",
+  "name": "Samsung Galaxy J2 Pro (2018)",
+  "brand": "samsung",
+  "release_date": "2018-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2600,
+  "weight_g": 153.0,
+  "os": "Android 7.1 (Nougat), upgradable to Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-j2-pro-2018",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20, 38, 40 - Asia, Russia",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, January",
+      "Status": "Available. Released 2018, January"
+    },
+    "Body": {
+      "Dimensions": "143.8 x 72.3 x 8.4 mm (5.66 x 2.85 x 0.33 in)",
+      "Weight": "153 g (5.40 oz)",
+      "Build": "Glass front (Gorilla Glass), plastic back, aluminum frame",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)",
+      "Protection": "Corning Gorilla Glass (unspecified version)"
+    },
+    "Platform": {
+      "OS": "Android 7.1 (Nougat), upgradable to Android 8.0 (Oreo)",
+      "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A53",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 1.5GB RAM, 16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.2, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2600 mAh, removable",
+      "Talk time": "Up to 18 h (3G)",
+      "Music play": "Up to 60 h"
+    },
+    "Misc": {
+      "Colors": "Black, Gold, Blue, Pink",
+      "Models": "SM-J250F, SM-J250G, SM-J250F, SM-J250M, SM-J250Y",
+      "SAR": "0.51 W/kg (head)     1.20 W/kg (body)     ",
+      "Price": "About 120 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8917-snapdragon-425"
+}

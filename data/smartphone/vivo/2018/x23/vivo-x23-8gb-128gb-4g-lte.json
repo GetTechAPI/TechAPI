@@ -1,0 +1,107 @@
+{
+  "slug": "vivo-x23-8gb-128gb-4g-lte",
+  "name": "vivo X23",
+  "brand": "vivo",
+  "release_date": "2018-09-01",
+  "ram_gb": 8,
+  "battery_mah": 3400,
+  "weight_g": 160.5,
+  "os": "Android 8.1 (Oreo), Funtouch 4.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "x23",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.41 inches, 100.9 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, EDR, LE, aptX",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 8, 34, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, September",
+      "Status": "Available. Released 2018, September"
+    },
+    "Body": {
+      "Dimensions": "157.7 x 74.1 x 7.5 mm (6.21 x 2.92 x 0.30 in)",
+      "Weight": "160.5 g (5.68 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "6.41 inches, 100.9 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), Funtouch 4.5",
+      "Chipset": "Qualcomm SDM670 Snapdragon 670 (10 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Kryo 360 & 4x1.8 GHz Kryo 360)",
+      "GPU": "Adreno 615"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "12 MP, f/2.0, (wide), 1/2.8\", 1.28µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, EDR, LE, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3400 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Phantom Purple, Magic Night, Phantom Red",
+      "Models": "V1809A, V1816A, V1809T, V1816T",
+      "Price": "About 500 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "qualcomm-sdm670-snapdragon-670"
+}

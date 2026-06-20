@@ -1,0 +1,113 @@
+{
+  "slug": "huawei-matepad-11-2021-8gb-256gb-4g-lte",
+  "name": "Huawei MatePad 11 (2021)",
+  "brand": "huawei",
+  "release_date": "2021-06-02",
+  "ram_gb": 8,
+  "battery_mah": 7250,
+  "weight_g": 485.0,
+  "os": "HarmonyOS 2.0, upgradable to 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "matepad-11-2021",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "10.95 inches, 347.7 cm",
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~276 ppi density)",
+    "type": "IPS LCD, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": " N/A",
+      "3G bands": " N/A",
+      "4G bands": " N/A",
+      "GPRS": "No",
+      "EDGE": "No"
+    },
+    "Launch": {
+      "Announced": "2021, June 02",
+      "Status": "Available. Released 2021, July 13"
+    },
+    "Body": {
+      "Dimensions": "253.8 x 165.3 x 7.3 mm (9.99 x 6.51 x 0.29 in)",
+      "Weight": "485 g (1.07 lb)",
+      "SIM": "No"
+    },
+    "Display": {
+      "Type": "IPS LCD, 120Hz",
+      "Size": "10.95 inches, 347.7 cm",
+      "Resolution": "2560 x 1600 pixels, 16:10 ratio (~276 ppi density)"
+    },
+    "Platform": {
+      "OS": "HarmonyOS 2.0, upgradable to 3.0",
+      "Chipset": "Qualcomm SM8250 Snapdragon 865 (7 nm+)",
+      "CPU": "Octa-core (1x2.84 GHz Cortex-A77 & 3x2.42 GHz Cortex-A77 & 4x1.80 GHz Cortex-A55)",
+      "GPU": "Adreno 650"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 6GB RAM, 128GB 6GB RAM, 128GB 8GB RAM, 256GB 6GB RAM, 256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/1.8, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers (4 speakers)",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 7250 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Matte Gray",
+      "Models": "DBY-W09",
+      "Price": "About 400 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "soc": "qualcomm-sm8250-snapdragon-865"
+}

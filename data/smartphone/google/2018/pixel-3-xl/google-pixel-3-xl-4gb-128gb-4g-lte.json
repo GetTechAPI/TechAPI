@@ -1,0 +1,113 @@
+{
+  "slug": "google-pixel-3-xl-4gb-128gb-4g-lte",
+  "name": "Google Pixel 3 XL",
+  "brand": "google",
+  "release_date": "2018-10-09",
+  "ram_gb": 4,
+  "battery_mah": 3430,
+  "weight_g": 184.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pixel-3-xl",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 100.3 cm",
+    "resolution": "1440 x 2960 pixels, 18.5:9 ratio (~523 ppi density)",
+    "type": "P-OLED, HDR"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 32, 38, 39, 40, 41, 42, 46, 66, 71",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (5CA) Cat16 1024/75 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, October 09",
+      "Status": "Available. Released 2018, October 18"
+    },
+    "Body": {
+      "Dimensions": "158 x 76.7 x 7.9 mm (6.22 x 3.02 x 0.31 in)",
+      "Weight": "184 g (6.49 oz)",
+      "Build": "Glass front (Gorilla Glass 5), glass back (Gorilla Glass 5), aluminum frame",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Display": {
+      "Type": "P-OLED, HDR",
+      "Size": "6.3 inches, 100.3 cm",
+      "Resolution": "1440 x 2960 pixels, 18.5:9 ratio (~523 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), upgradable to Android 12",
+      "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "CPU": "Octa-core (4x2.5 GHz Kryo 385 Gold & 4x1.6 GHz Kryo 385 Silver)",
+      "GPU": "Adreno 630"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12.2 MP, f/1.8, 28mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS",
+      "Features": "Dual-LED flash, Pixel Shift, Auto-HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60/120fps, 1080p@30fps (gyro-EIS)"
+    },
+    "Selfie camera": {
+      "Dual": "8 MP, f/1.8, 28mm (wide), PDAF",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "5.0, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 3430 mAh, non-removable",
+      "Charging": "18W wired, PD2.0"
+    },
+    "Misc": {
+      "Colors": "Clearly White, Just Black, Not Pink",
+      "Models": "G013C",
+      "Price": "About 260 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 258244 (v7), 341814 (v8)"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-sdm845-snapdragon-845"
+}

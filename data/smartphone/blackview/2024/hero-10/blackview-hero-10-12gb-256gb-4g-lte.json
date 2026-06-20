@@ -1,0 +1,104 @@
+{
+  "slug": "blackview-hero-10-12gb-256gb-4g-lte",
+  "name": "Blackview Hero 10",
+  "brand": "blackview",
+  "release_date": "2024-05-01",
+  "ram_gb": 12,
+  "battery_mah": 4000,
+  "weight_g": 198.0,
+  "os": "Android 13, DokeOS 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "hero-10",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.9 inches, 110.0 cm",
+    "resolution": "1080 x 2560 pixels (~403 ppi density)",
+    "type": "Foldable AMOLED, 1B colors, 1300 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 38, 40, 41, 66",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, May",
+      "Status": "Available. Released 2024, May"
+    },
+    "Body": {
+      "Dimensions": "Unfolded: 169 x 75.5 x 8.1 mm",
+      "Weight": "198 g (6.98 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Foldable AMOLED, 1B colors, 1300 nits (peak)",
+      "Size": "6.9 inches, 110.0 cm",
+      "Resolution": "1080 x 2560 pixels (~403 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, DokeOS 4",
+      "Chipset": "Mediatek Helio G99 (6 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "108 MP, f/1.9, (wide), 1/1.67\" , PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1440p@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.5, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "4000 mAh, non-removable",
+      "Charging": "45W wired, 48% in 20 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Black, Purple"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "helio-g99"
+}

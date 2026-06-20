@@ -1,0 +1,106 @@
+{
+  "slug": "tecno-camon-12-pro-6gb-64gb-4g-lte",
+  "name": "Tecno Camon 12 Pro",
+  "brand": "tecno",
+  "release_date": "2019-09-01",
+  "ram_gb": 6,
+  "battery_mah": 3500,
+  "weight_g": 161.0,
+  "os": "Android 9.0 (Pie), HIOS 5.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "camon-12-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.35 inches, 97.4 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~276 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 20, 28",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, September",
+      "Status": "Available. Released 2019, September"
+    },
+    "Body": {
+      "Dimensions": "158.6 x 75.5 x 7.8 mm (6.24 x 2.97 x 0.31 in)",
+      "Weight": "161 g (5.68 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "6.35 inches, 97.4 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~276 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), HIOS 5.5",
+      "Chipset": "Mediatek MT6762 Helio P22 (12 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "16 MP, PDAF",
+      "Features": "Quad-LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "3500 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Dawn Blue",
+      "Price": "About 10000 INR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "mediatek-mt6762-helio-p22"
+}

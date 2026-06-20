@@ -1,0 +1,107 @@
+{
+  "slug": "zte-blade-10-prime-3gb-64gb-4g-lte",
+  "name": "ZTE Blade 10 Prime",
+  "brand": "zte",
+  "release_date": "2019-11-01",
+  "ram_gb": 3,
+  "battery_mah": 3200,
+  "weight_g": 165.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "blade-10-prime",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.3 inches, 99.1 cm",
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~400 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "2, 4, 5, 12, 13, 66",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, November",
+      "Status": "Available. Released 2019, November"
+    },
+    "Body": {
+      "Dimensions": "158 x 75.2 x 7.9 mm (6.22 x 2.96 x 0.31 in)",
+      "Weight": "165 g (5.82 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.3 inches, 99.1 cm",
+      "Resolution": "1080 x 2280 pixels, 19:9 ratio (~400 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie)",
+      "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.8, 1/2.8\", 1.12µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps (gyro-EIS)"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3200 mAh, non-removable",
+      "Charging": "18W wired, PD2.0"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "Z6530, Z6530M, Z6530V",
+      "Price": "About 160 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "mediatek-mt6771-helio-p60"
+}

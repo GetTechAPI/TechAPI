@@ -1,0 +1,109 @@
+{
+  "slug": "motorola-p30-6gb-128gb-4g-lte",
+  "name": "Motorola P30",
+  "brand": "motorola",
+  "release_date": "2018-08-01",
+  "ram_gb": 6,
+  "battery_mah": 3000,
+  "weight_g": 170.0,
+  "os": "Android 8 (Oreo), ZUI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "p30",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.2 inches, 96.9 cm",
+    "resolution": "1080 x 2246 pixels, 18.7:9 ratio (~402 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, EDR",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 5, 7, 8, 34, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, August",
+      "Status": "Available. Released 2018, September"
+    },
+    "Body": {
+      "Dimensions": "155.5 x 76 x 7.7 mm (6.12 x 2.99 x 0.30 in)",
+      "Weight": "170 g (6.00 oz)",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.2 inches, 96.9 cm",
+      "Resolution": "1080 x 2246 pixels, 18.7:9 ratio (~402 ppi density)",
+      "Protection": "Corning Gorilla Glass (unspecified version)"
+    },
+    "Platform": {
+      "OS": "Android 8 (Oreo), ZUI 4",
+      "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Kryo 260 Gold & 4x1.6 GHz Kryo 260 Silver)",
+      "GPU": "Adreno 509"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 6GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.8, 1.25µm, PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "12 MP, f/1.9, (wide), 1/2.8\", 1.25µm",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE, EDR",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "White, Black, Aurora (128/6 GB only)",
+      "Models": "XT1943-1",
+      "Price": "About 280 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-sdm636-snapdragon-636"
+}

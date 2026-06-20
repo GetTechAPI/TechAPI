@@ -1,0 +1,114 @@
+{
+  "slug": "huawei-p40-lite-8gb-128gb-4g-lte",
+  "name": "Huawei P40 lite",
+  "brand": "huawei",
+  "release_date": "2020-02-27",
+  "ram_gb": 8,
+  "battery_mah": 4200,
+  "weight_g": 183.0,
+  "os": "Android 10, EMUI 10, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "p40-lite",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.4 inches, 101.4 cm",
+    "resolution": "1080 x 2310 pixels (~398 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "Yes (market/region dependent): JNY-L21A, JNY-L01A, JNY-L21B",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 28, 34, 38, 39, 40, 41 - JNY-L21A, JNY-L01A, JNY-L21B",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat13 400/75 Mbps"
+    },
+    "Launch": {
+      "Announced": "2020, February 27",
+      "Status": "Available. Released 2020, March 02"
+    },
+    "Body": {
+      "Dimensions": "159.2 x 76.3 x 8.7 mm (6.27 x 3.00 x 0.34 in)",
+      "Weight": "183 g (6.46 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.4 inches, 101.4 cm",
+      "Resolution": "1080 x 2310 pixels (~398 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 10, EMUI 10, no Google Play Services",
+      "Chipset": "Kirin 810 (7 nm)",
+      "CPU": "Octa-core (2x2.27 GHz Cortex-A76 & 6x1.88 GHz Cortex-A55)",
+      "GPU": "Mali-G52 MP6"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "128GB 6GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, (wide), 1/3.06\", 1.0µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "Yes (market/region dependent): JNY-L21A, JNY-L01A, JNY-L21B",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4200 mAh, non-removable",
+      "Charging": "40W wired, 70% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Black, Emerald Green, Light Pink/Blue, Skyline Gray",
+      "Models": "JNY-L21A, JNY-L01A, JNY-L21B, JNY-L22A, JNY-L02A, JNY-L22B, JNY-LX1"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 325777 (v8)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "kirin-810"
+}

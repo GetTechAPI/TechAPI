@@ -1,0 +1,101 @@
+{
+  "slug": "zte-nubia-alpha-1gb-8gb-4g-lte",
+  "name": "ZTE nubia Alpha",
+  "brand": "zte",
+  "release_date": "2019-02-01",
+  "ram_gb": 1,
+  "battery_mah": 500,
+  "weight_g": 158.0,
+  "os": "Proprietary OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nubia-alpha",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.01 inches",
+    "resolution": "192 x 960 pixels (~244 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "No"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 1800 ",
+      "3G bands": "HSDPA 2100 ",
+      "4G bands": "1, 3, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, February",
+      "Status": "Available. Released 2019, April"
+    },
+    "Body": {
+      "Dimensions": "47.1 x 35 x 13.8 mm (1.85 x 1.38 x 0.54 in)",
+      "Weight": "158 g (5.57 oz)",
+      "Build": "Plastic front (display), stainless steel 316L frame",
+      "SIM": "eSIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "4.01 inches",
+      "Resolution": "192 x 960 pixels (~244 ppi density)",
+      "Protection": "Yes"
+    },
+    "Platform": {
+      "OS": "Proprietary OS",
+      "Chipset": "Qualcomm MSM8909W Snapdragon Wear 2100",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.2, 25mm (wide), 1.12µm",
+      "Video": "Yes (up to 10 sec. duration)"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, heart rate, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 500 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Gold, Black",
+      "Price": "About 450 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8909w-snapdragon-wear-2100"
+}

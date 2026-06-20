@@ -1,0 +1,108 @@
+{
+  "slug": "sharp-aquos-zero-2-8gb-256gb-4g-lte",
+  "name": "Sharp Aquos Zero 2",
+  "brand": "sharp",
+  "release_date": "2020-05-22",
+  "ram_gb": 8,
+  "battery_mah": 3130,
+  "weight_g": 141.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "aquos-zero-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.4 inches, 100.5 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+    "type": "OLED, 1B colors, 240Hz, HDR10, Dolby Vision"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, aptX HD, aptX Adaptive",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 13, 17, 18, 19, 20, 28, 38, 39, 41 - Taiwan",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2020, May 22",
+      "Status": "Available. Released 2020, May 22"
+    },
+    "Body": {
+      "Dimensions": "158 x 74 x 8.8 mm (6.22 x 2.91 x 0.35 in)",
+      "Weight": "141 g (4.97 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "OLED, 1B colors, 240Hz, HDR10, Dolby Vision",
+      "Size": "6.4 inches, 100.5 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+      "Protection": "Corning Gorilla Glass 6"
+    },
+    "Platform": {
+      "OS": "Android 10",
+      "Chipset": "Qualcomm SM8150 Snapdragon 855 (7 nm)",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "12.2 MP, f/1.7, (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.2, 23mm (wide)",
+      "Features": "HDR",
+      "Video": "1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE, aptX HD, aptX Adaptive",
+      "Positioning": "GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3130 mAh, non-removable",
+      "Charging": "Wired, PD2.0"
+    },
+    "Misc": {
+      "Colors": "Blue",
+      "Models": "SH-Z20, SHV47, 906SH",
+      "Price": "About 670 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "qualcomm-sm8150-snapdragon-855"
+}

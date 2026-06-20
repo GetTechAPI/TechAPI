@@ -1,0 +1,117 @@
+{
+  "slug": "xiaomi-redmi-7-4gb-64gb-4g-lte",
+  "name": "Xiaomi Redmi 7",
+  "brand": "xiaomi",
+  "release_date": "2019-03-18",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 180.0,
+  "os": "Android 9.0 Pie, upgradable to Android 10, MIUI 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "redmi-7",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.26 inches, 97.8 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~269 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - Global",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 20, 38, 40 - Global",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, March 18",
+      "Status": "Available. Released 2019, March 20"
+    },
+    "Body": {
+      "Dimensions": "158.7 x 75.6 x 8.5 mm (6.25 x 2.98 x 0.33 in)",
+      "Weight": "180 g (6.35 oz)",
+      "Build": "Glass front (Gorilla Glass 5), plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.26 inches, 97.8 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~269 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 9.0 Pie, upgradable to Android 10, MIUI 12",
+      "Chipset": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM, 32GB 3GB RAM, 64GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/2.2, 1/2.9\", 1.25µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 1/4.0\", 1.12µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Lunar Red, Eclipse Black, Comet Blue",
+      "Models": "M1810F6LG, M1810F6LH, M1810F6LI",
+      "SAR": "1.10 W/kg (head)     1.02 W/kg (body)     ",
+      "SAR EU": "0.58 W/kg (head)     1.25 W/kg (body)     ",
+      "Price": "About 150 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 102616 (v7)"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "soc": "qualcomm-sdm632-snapdragon-632"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "oppo-f7-youth-4gb-64gb-4g-lte",
+  "name": "Oppo F7 Youth",
+  "brand": "oppo",
+  "release_date": "2018-05-01",
+  "ram_gb": 4,
+  "battery_mah": 3410,
+  "weight_g": 155.0,
+  "os": "Android 8.1 (Oreo), ColorOS 5.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "f7-youth",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 92.9 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 - Taiwan",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 26, 28, 38, 39, 40, 41 - Taiwan",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat13 600/100 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, May",
+      "Status": "Available. Released 2018, June"
+    },
+    "Body": {
+      "Dimensions": "156.5 x 75.2 x 7.8 mm (6.16 x 2.96 x 0.31 in)",
+      "Weight": "155 g (5.47 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.0 inches, 92.9 cm",
+      "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), ColorOS 5.2",
+      "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.2"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3410 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Solar Red, Diamond Black",
+      "Price": "About 250 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "mediatek-mt6771-helio-p60"
+}

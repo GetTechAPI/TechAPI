@@ -1,0 +1,117 @@
+{
+  "slug": "realme-1-6gb-128gb-4g-lte",
+  "name": "Realme 1",
+  "brand": "realme",
+  "release_date": "2018-05-01",
+  "ram_gb": 6,
+  "battery_mah": 3410,
+  "weight_g": 155.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), ColorOS 6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "1",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 92.9 cm",
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat13 600/100 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, May",
+      "Status": "Available. Released 2018, May"
+    },
+    "Body": {
+      "Dimensions": "156.5 x 75.2 x 7.8 mm (6.16 x 2.96 x 0.31 in)",
+      "Weight": "155 g (5.47 oz)",
+      "Build": "Glass front (Gorilla Glass 3), plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.0 inches, 92.9 cm",
+      "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), ColorOS 6",
+      "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+      "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+      "GPU": "Mali-G72 MP3"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.2",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3410 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Diamond Black, Solar Red, Moonlight Silver",
+      "Models": "CPH1859, CPH1861, 1861",
+      "Price": "About 130 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 138524 (v7)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "soc": "mediatek-mt6771-helio-p60"
+}

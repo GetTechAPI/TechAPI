@@ -1,0 +1,107 @@
+{
+  "slug": "realme-v23-12gb-256gb-5g",
+  "name": "Realme V23",
+  "brand": "realme",
+  "release_date": "2022-04-14",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 190.0,
+  "os": "Android 12, Realme UI 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v23",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.58 inches, 104.3 cm",
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)",
+    "type": "IPS LCD, 90Hz, 600 nits (HBM)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "5G bands": " SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, April 14",
+      "Status": "Available. Released 2022, April 14"
+    },
+    "Body": {
+      "Dimensions": "163.8 x 75.1 x 8.1 mm (6.45 x 2.96 x 0.32 in)",
+      "Weight": "190 g (6.70 oz)",
+      "Build": "Glass front, plastic frame, plastic back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz, 600 nits (HBM)",
+      "Size": "6.58 inches, 104.3 cm",
+      "Resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12, Realme UI 3.0",
+      "Chipset": "Mediatek Dimensity 810 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "256GB 8GB RAM, 256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "48 MP, f/1.8, 26mm (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 26mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.3, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "33W wired, 50% in 28 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Black, Gradient",
+      "Price": "About 240 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "dimensity-810"
+}

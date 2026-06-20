@@ -1,0 +1,106 @@
+{
+  "slug": "zte-blade-v40-vita-4gb-128gb-4g-lte",
+  "name": "ZTE Blade V40 Vita",
+  "brand": "zte",
+  "release_date": "2022-05-28",
+  "ram_gb": 4,
+  "battery_mah": 6000,
+  "weight_g": 214.3,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "blade-v40-vita",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.75 inches, 110.0 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+    "type": "IPS LCD, 90Hz"
+  },
+  "connectivity": {
+    "wlan": "Yes",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2022, May 31",
+      "Status": "Available. Released 2022, July 13"
+    },
+    "Body": {
+      "Dimensions": "168 x 77.5 x 9.4 mm (6.61 x 3.05 x 0.37 in)",
+      "Weight": "214.3 g (7.55 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz",
+      "Size": "6.75 inches, 110.0 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 12",
+      "Chipset": "Unisoc T606 (12 nm)",
+      "CPU": "Octa-core (2x1.6 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "48 MP, f/1.8, 26mm (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Yes",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 6000 mAh, non-removable",
+      "Charging": "22.5W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Blue, Red",
+      "Models": "8045",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "unisoc-t606"
+}

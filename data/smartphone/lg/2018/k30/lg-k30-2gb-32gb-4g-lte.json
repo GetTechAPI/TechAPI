@@ -1,0 +1,106 @@
+{
+  "slug": "lg-k30-2gb-32gb-4g-lte",
+  "name": "LG K30",
+  "brand": "lg",
+  "release_date": "2018-05-01",
+  "ram_gb": 2,
+  "battery_mah": 2880,
+  "weight_g": 168.1,
+  "os": "Android 7.1 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "k30",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.3 inches, 77.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~277 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 / 2100 - T-Mobile",
+      "4G bands": "2, 3, 4, 7, 12, 66, 71 - T-Mobile",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2018, May",
+      "Status": "Available. Released 2018, May"
+    },
+    "Body": {
+      "Dimensions": "148.6 x 75 x 8.6 mm (5.85 x 2.95 x 0.34 in)",
+      "Weight": "168.1 g (5.93 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.3 inches, 77.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~277 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.1 (Nougat)",
+      "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A53",
+      "GPU": "Adreno 308"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, PDAF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes (market/region dependent)",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2880 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "New Aurora Black, Blue",
+      "Models": "LM-X410.F, LM-X410(FG), LM-X410.FN, LM-X410.FGN, LM-X410PM, LM-X410UM, LM-X210K, LM-K830",
+      "Price": "About 160 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8917-snapdragon-425"
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "huawei-mate-20-rs-porsche-design-8gb-512gb-4g-lte",
+  "name": "Huawei Mate 20 RS Porsche Design",
+  "brand": "huawei",
+  "release_date": "2018-10-01",
+  "ram_gb": 8,
+  "battery_mah": 4200,
+  "weight_g": 187.0,
+  "os": "Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mate-20-rs-porsche-design",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.39 inches, 100.2 cm",
+    "resolution": "1440 x 3120 pixels, 19.5:9 ratio (~538 ppi density)",
+    "type": "OLED, HDR10"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, aptX HD, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 17, 18, 19, 20, 26, 28, 32, 34, 38, 39, 40",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat21 1400/200 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, October",
+      "Status": "Available. Released 2018, December"
+    },
+    "Body": {
+      "Dimensions": "157.8 x 72.3 x 9.7 mm (6.21 x 2.85 x 0.38 in)",
+      "Weight": "187 g (6.60 oz)",
+      "Build": "Glass front (Gorilla Glass), leather/glass back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "OLED, HDR10",
+      "Size": "6.39 inches, 100.2 cm",
+      "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~538 ppi density)",
+      "Protection": "Corning Gorilla Glass (unspecified version)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), EMUI 9.1",
+      "Chipset": "Kirin 980 (7 nm)",
+      "CPU": "Octa-core (2x2.6 GHz Cortex-A76 & 2x1.92 GHz Cortex-A76 & 4x1.8 GHz Cortex-A55)",
+      "GPU": "Mali-G76 MP10"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "256GB 8GB RAM, 512GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "40 MP, f/1.8, 27mm (wide), 1/1.7\", PDAF",
+      "Features": "Laser AF, Leica optics, dual-LED dual-tone flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 720p@960fps"
+    },
+    "Selfie camera": {
+      "Single": "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, aptX HD, LE",
+      "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1), GALILEO (E1+E5a), QZSS (L1+L5)",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG"
+    },
+    "Features": {
+      "Sensors": "Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4200 mAh, non-removable",
+      "Charging": "40W wired, 70% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Black, Red (China only)",
+      "Models": "LYA-L29, LYA-AL00P",
+      "Price": "About 1200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "kirin-980"
+}

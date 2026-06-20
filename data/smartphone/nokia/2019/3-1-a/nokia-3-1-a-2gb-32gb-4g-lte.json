@@ -1,0 +1,107 @@
+{
+  "slug": "nokia-3-1-a-2gb-32gb-4g-lte",
+  "name": "Nokia 3.1 A",
+  "brand": "nokia",
+  "release_date": "2019-06-01",
+  "ram_gb": 2,
+  "battery_mah": 2990,
+  "weight_g": 156.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "3-1-a",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.45 inches, 76.7 cm",
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~295 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 ",
+      "4G bands": "2, 4, 5, 12, 14, 29, 30",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, June",
+      "Status": "Available. Released 2019, June"
+    },
+    "Body": {
+      "Dimensions": "152.7 x 71.9 x 9.4 mm (6.01 x 2.83 x 0.37 in)",
+      "Weight": "156 g (5.50 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.45 inches, 76.7 cm",
+      "Resolution": "720 x 1440 pixels, 18:9 ratio (~295 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie)",
+      "Chipset": "Qualcomm SDM429 Snapdragon 429 (12 nm)",
+      "CPU": "Quad-core 1.8 GHz Cortex-A53",
+      "GPU": "Adreno 504"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2",
+      "Features": "HDR",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2990 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "TA1140",
+      "SAR": "1.11 W/kg (head)     0.81 W/kg (body)     "
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-sdm429-snapdragon-429"
+}

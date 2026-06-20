@@ -1,0 +1,109 @@
+{
+  "slug": "samsung-galaxy-j3-2017-2gb-16gb-4g-lte",
+  "name": "Samsung Galaxy J3 (2017)",
+  "brand": "samsung",
+  "release_date": "2017-06-01",
+  "ram_gb": 2,
+  "battery_mah": 2400,
+  "weight_g": 142.0,
+  "os": "Android 7.0 (Nougat), 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-j3-2017",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "PLS"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes (optional)",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 17, 38, 40",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, June. Released 2017, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "143.2 x 70.3 x 8.2 mm (5.64 x 2.77 x 0.32 in)",
+      "Weight": "142 g (5.01 oz)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "PLS",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat), 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+      "Chipset": "Exynos 7570 Quad (14 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A53",
+      "GPU": "Mali-T720 MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/1.9, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes (optional)",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2400 mAh, non-removable",
+      "Talk time": "Up to 15 h (3G)",
+      "Music play": "Up to 61 h"
+    },
+    "Misc": {
+      "Colors": "White, Black, Gold, Blue",
+      "Models": "SM-J330F, J330F, J330G, SM-J330G, SM-J330FN, SM-J3308, SM-J327F, SM-S337TL, SM-J3300, SM-J330L, SM-J327U, SM-J330N",
+      "SAR EU": "0.66 W/kg (head)     1.32 W/kg (body)     ",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "exynos-7570-quad"
+}

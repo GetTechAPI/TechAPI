@@ -1,0 +1,110 @@
+{
+  "slug": "huawei-pura-70-pro-16gb-512gb-5g",
+  "name": "Huawei Pura 70 Pro+",
+  "brand": "huawei",
+  "release_date": "2024-04-18",
+  "ram_gb": 16,
+  "battery_mah": 5050,
+  "weight_g": 220.0,
+  "os": "HarmonyOS 4.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pura-70-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.8 inches, 109.0 cm",
+    "resolution": "1260 x 2844 pixels (~460 ppi density)",
+    "type": "LTPO OLED, 1B colors, HDR, 120Hz, 2500 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, L2HC",
+    "nfc": "Yes; NFC-SIM, HCE",
+    "usb": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "5G bands": " SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2024, April 18",
+      "Status": "Available. Released 2024, April 29"
+    },
+    "Body": {
+      "Dimensions": "162.6 x 75.1 x 8.4 mm (6.40 x 2.96 x 0.33 in)",
+      "Weight": "220 g (7.76 oz)",
+      "Build": "Glass front, aluminum frame, silicone polymer back (eco leather)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "LTPO OLED, 1B colors, HDR, 120Hz, 2500 nits (peak)",
+      "Size": "6.8 inches, 109.0 cm",
+      "Resolution": "1260 x 2844 pixels (~460 ppi density)",
+      "Protection": "Kunlun Glass (Xuanwu tempered)"
+    },
+    "Platform": {
+      "OS": "HarmonyOS 4.2",
+      "Chipset": "Kirin 9010 (7 nm)",
+      "CPU": "Octa-core (1x2.3 GHz Taishan Big & 3x2.18 GHz Taishan Mid & 4x1.55 GHz  Cortex-A510)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "512GB 16GB RAM, 1TB 16GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.4-4.0, 25mm (wide), 1/1.3\", PDAF, OIS",
+      "Features": "Laser AF, LED flash, panorama, HDR",
+      "Video": "4K, 1080p, HDR, gyro-EIS, OIS"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, f/2.4, (ultrawide), AF",
+      "Features": "HDR, panorama",
+      "Video": "Yes, HDR"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE, L2HC",
+      "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+      "NFC": "Yes; NFC-SIM, HCE",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, gyro, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Po 5050 mAh, non-removable",
+      "Charging": "100W wired"
+    },
+    "Misc": {
+      "Colors": "Black, White, Silver",
+      "Models": "HBN-AL10, HBN-AL80",
+      "Price": "About 1050 EUR"
+    }
+  },
+  "storage_options_gb": [
+    512
+  ],
+  "soc": "kirin-9010"
+}

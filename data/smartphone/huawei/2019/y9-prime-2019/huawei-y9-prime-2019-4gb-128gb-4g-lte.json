@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-y9-prime-2019-4gb-128gb-4g-lte",
+  "name": "Huawei Y9 Prime (2019)",
+  "brand": "huawei",
+  "release_date": "2019-08-01",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 196.8,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, Magic UI 2.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "y9-prime-2019",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.59 inches, 106.6 cm",
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~391 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (Dual SIM model only)",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 26, 28, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat12 600/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, August 01",
+      "Status": "Available. Released 2019, August 05"
+    },
+    "Body": {
+      "Dimensions": "163.5 x 77.3 x 8.9 mm (6.44 x 3.04 x 0.35 in)",
+      "Weight": "196.8 g (6.95 oz)",
+      "Build": "Glass front, plastic back",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.59 inches, 106.6 cm",
+      "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~391 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), upgradable to Android 10, Magic UI 2.1",
+      "Chipset": "Kirin 710F (12 nm)",
+      "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "16 MP, f/1.8, (wide), PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "Motorized pop-up 16 MP, f/2.0",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Emerald Green, Midnight Black, Sapphire Blue",
+      "Models": "STK-L21, STK-L22, STK-LX3",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-710f"
+}

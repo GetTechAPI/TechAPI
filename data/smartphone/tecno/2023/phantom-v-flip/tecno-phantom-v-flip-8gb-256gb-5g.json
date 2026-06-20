@@ -1,0 +1,115 @@
+{
+  "slug": "tecno-phantom-v-flip-8gb-256gb-5g",
+  "name": "Tecno Phantom V Flip",
+  "brand": "tecno",
+  "release_date": "2023-09-22",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 194.0,
+  "os": "Android 13, HIOS 13.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "phantom-v-flip",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.9 inches, 107.6 cm",
+    "resolution": "1080 x 2640 pixels (~413 ppi density)",
+    "type": "Foldable LTPO AMOLED, 120Hz, 1000 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "5G bands": " SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2023, September 22",
+      "Status": "Available. Released 2023, October 01"
+    },
+    "Body": {
+      "Dimensions": "Unfolded: 171.7 x 74.1 x 7 mm",
+      "Weight": "194 g (6.84 oz)",
+      "Build": "Eco leather back, aluminum frame, steel hinge",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "Foldable LTPO AMOLED, 120Hz, 1000 nits (peak)",
+      "Size": "6.9 inches, 107.6 cm",
+      "Resolution": "1080 x 2640 pixels (~413 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, HIOS 13.5",
+      "Chipset": "Mediatek Dimensity 8050 (6 nm)",
+      "CPU": "Octa-core (1x3.0 GHz Cortex-A78 & 3x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G77 MC9"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "64 MP, f/1.7, 25mm (wide), 1/1.73\", 0.8µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60fps"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.5, 24mm (wide), 1/2.8\", 0.8µm, AF",
+      "Features": "LED flash",
+      "Video": "1440p@30fps, 1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity (incl. for accessories), compass"
+    },
+    "Battery": {
+      "Type": "4000 mAh, non-removable",
+      "Charging": "45W wired, 50% in 15 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Iconic Black, Mystic Dawn",
+      "Models": "AD11"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 565851 (v9), 734846 (v10)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "dimensity-8050"
+}

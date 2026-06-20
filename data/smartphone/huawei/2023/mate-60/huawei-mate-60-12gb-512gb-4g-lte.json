@@ -1,0 +1,111 @@
+{
+  "slug": "huawei-mate-60-12gb-512gb-4g-lte",
+  "name": "Huawei Mate 60",
+  "brand": "huawei",
+  "release_date": "2023-08-28",
+  "ram_gb": 12,
+  "battery_mah": 4750,
+  "weight_g": 209.0,
+  "os": "HarmonyOS 4.0 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mate-60",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.69 inches, 108.4 cm",
+    "resolution": "1216 x 2688 pixels (~441 ppi density)",
+    "type": "LTPO OLED, 1B colors, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1, OTG, Display Port 1.2"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, August 29",
+      "Status": "Available. Released 2023, September 10"
+    },
+    "Body": {
+      "Dimensions": "161.4 x 76 x 8 mm (6.35 x 2.99 x 0.31 in)",
+      "Weight": "209 g (7.37 oz)",
+      "Build": "Glass front, aluminum frame, glass back",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "LTPO OLED, 1B colors, 120Hz",
+      "Size": "6.69 inches, 108.4 cm",
+      "Resolution": "1216 x 2688 pixels (~441 ppi density)",
+      "Protection": "Huawei Kunlun Glass 2"
+    },
+    "Platform": {
+      "OS": "HarmonyOS 4.0 (China)",
+      "Chipset": "Kirin 9000S (7 nm)",
+      "CPU": "Octa-core (1x2.62 GHz Taishan Big & 3x2.15 GHz Taishan Mid & 4x1.53GHz Cortex-A510)",
+      "GPU": "Maleoon 910 MP4"
+    },
+    "Memory": {
+      "Card slot": "NM (Nano Memory), up to 256GB (uses shared SIM slot)",
+      "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS",
+      "Features": "Laser AF, LED flash, panorama, HDR",
+      "Video": "4K@30/60fps, 1080p@30/60/120/240/480fps, 720p@960fps, 720p@3840fps, HDR, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, f/2.4, 18mm (ultrawide)",
+      "Features": "HDR, panorama",
+      "Video": "4K@30/60fps, 1080p@30/60/240fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L5)",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1, OTG, Display Port 1.2"
+    },
+    "Features": {
+      "Sensors": "Face ID, fingerprint (under display, optical), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Po 4750 mAh, non-removable",
+      "Charging": "66W wired, 100% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Black, White, Green, Purple",
+      "Models": "ALN-AL00, BRA-AL00",
+      "Price": "About 750 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "kirin-9000s"
+}

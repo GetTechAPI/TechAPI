@@ -1,0 +1,109 @@
+{
+  "slug": "vivo-v21e-5g-8gb-128gb-5g",
+  "name": "vivo V21e 5G",
+  "brand": "vivo",
+  "release_date": "2021-06-24",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 165.0,
+  "os": "Android 11, Funtouch 11.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v21e-5g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.44 inches, 100.1 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)",
+    "type": "AMOLED, 430 nits (typ), 600 nits (HBM)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 8, 38, 40, 41",
+      "5G bands": "78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2021, June 24",
+      "Status": "Available. Released 2021, June 28"
+    },
+    "Body": {
+      "Dimensions": "160.6 x 73.9 x 7.7 or 7.8 mm",
+      "Weight": "165 g or 167 g (5.82 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 430 nits (typ), 600 nits (HBM)",
+      "Size": "6.44 inches, 100.1 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 11, Funtouch 11.1",
+      "Chipset": "Mediatek Dimensity 700 (7 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "64 MP, f/1.8, 26mm (wide), 1/1.7X\", 0.8µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.0, (wide)",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4000 mAh, non-removable",
+      "Charging": "44W wired, 72% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Sunset Jazz, Dark Pearl",
+      "Models": "V2055",
+      "SAR": "0.86 W/kg (head)     0.72 W/kg (body)     ",
+      "Price": "About 310 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "dimensity-700"
+}

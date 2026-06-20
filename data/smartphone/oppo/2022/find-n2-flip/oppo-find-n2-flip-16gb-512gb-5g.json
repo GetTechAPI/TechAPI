@@ -1,0 +1,116 @@
+{
+  "slug": "oppo-find-n2-flip-16gb-512gb-5g",
+  "name": "Oppo Find N2 Flip",
+  "brand": "oppo",
+  "release_date": "2022-12-15",
+  "ram_gb": 16,
+  "battery_mah": 4300,
+  "weight_g": 191.0,
+  "os": "Android 13, up to 4 major Android upgrades, ColorOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "find-n2-flip",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.8 inches, 108.0 cm",
+    "resolution": "1080 x 2520 pixels, 21:9 ratio (~403 ppi density)",
+    "type": "Foldable LTPO AMOLED, 120Hz, HDR10+, 1200 nits (HBM), 1600 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, tri-band",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes, eSE, HCE, NFC-SIM",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 66 - International",
+      "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 40, 41, 66, 77, 78, 79 SA/NSA - International",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, December 15",
+      "Status": "Available. Released 2022, December 23"
+    },
+    "Body": {
+      "Dimensions": "Unfolded: 166.2 x 75.2 x 7.5 mm",
+      "Weight": "191 g (6.74 oz)",
+      "Build": "Plastic front (unfolded), plastic back (unfolded), aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Foldable LTPO AMOLED, 120Hz, HDR10+, 1200 nits (HBM), 1600 nits (peak)",
+      "Size": "6.8 inches, 108.0 cm",
+      "Resolution": "1080 x 2520 pixels, 21:9 ratio (~403 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, up to 4 major Android upgrades, ColorOS 14",
+      "Chipset": "Mediatek Dimensity 9000+ (4 nm)",
+      "CPU": "Octa-core (1x3.20 GHz Cortex-X2 & 3x2.85 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Mali-G710 MC10"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 16GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60/240fps"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.4, 22mm (wide), 1/2.74\", 0.8µm, AF",
+      "Features": "HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, tri-band",
+      "Bluetooth": "5.3, A2DP, LE, aptX HD",
+      "Positioning": "GPS (L1+L5), GLONASS (G1), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5)",
+      "NFC": "Yes, eSE, HCE, NFC-SIM",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, dual gyro, dual proximity, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Po 4300 mAh, non-removable",
+      "Charging": "44W wired, 50% in 23 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Astral Black, Moonlit Purple, Gold",
+      "Models": "CPH2437, PGT110"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 773574 (v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "dimensity-9000-plus"
+}

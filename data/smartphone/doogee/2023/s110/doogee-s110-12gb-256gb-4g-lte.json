@@ -1,0 +1,106 @@
+{
+  "slug": "doogee-s110-12gb-256gb-4g-lte",
+  "name": "Doogee S110",
+  "brand": "doogee",
+  "release_date": "2023-08-03",
+  "ram_gb": 12,
+  "battery_mah": 10800,
+  "weight_g": 390.0,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "s110",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.58 inches, 104.5 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~400 ppi density)",
+    "type": "IPS LCD, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 66, 71",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2023, August 03",
+      "Status": "Available. Released 2023, August"
+    },
+    "Body": {
+      "Dimensions": "178.5 x 83.1 x 17.9 mm (7.03 x 3.27 x 0.70 in)",
+      "Weight": "390 g (13.76 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 120Hz",
+      "Size": "6.58 inches, 104.5 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~400 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 13",
+      "Chipset": "Mediatek Helio G99 (6 nm)",
+      "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "256GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.8, (wide), 1/1.67\", PDAF",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "1440p, 1080p"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.0, (wide), 1/2.8\", 0.8µm",
+      "Video": "1440p, 1080p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes (market/region dependent)",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "10800 mAh, non-removable",
+      "Charging": "66W wired"
+    },
+    "Misc": {
+      "Colors": "Black, Silver, Gold",
+      "Price": "About 320 EUR"
+    }
+  },
+  "storage_options_gb": [
+    256
+  ],
+  "soc": "helio-g99"
+}

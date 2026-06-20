@@ -1,0 +1,108 @@
+{
+  "slug": "realme-v5-5g-8gb-128gb-5g",
+  "name": "Realme V5 5G",
+  "brand": "realme",
+  "release_date": "2020-08-03",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 194.0,
+  "os": "Android 10, Realme UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "v5-5g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.5 inches, 102.0 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~405 ppi density)",
+    "type": "IPS LCD, 90Hz"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 34, 38, 39, 40, 41",
+      "5G bands": "1, 41, 77, 78, 79 SA/NSA",
+      "Speed": "HSPA, LTE (CA), 5G 2.3 Gbps DL"
+    },
+    "Launch": {
+      "Announced": "2020, August 03",
+      "Status": "Available. Released 2020, August 07"
+    },
+    "Body": {
+      "Dimensions": "162.1 x 75 x 9.1 mm (6.38 x 2.95 x 0.36 in)",
+      "Weight": "194 g (6.84 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 90Hz",
+      "Size": "6.5 inches, 102.0 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~405 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 10, Realme UI",
+      "Chipset": "Mediatek Dimensity 720 (7 nm)",
+      "CPU": "Octa-core (2x2.0 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC3"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "128GB 6GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Quad": "48 MP, f/1.8, 25mm (wide), 1/2.0\", 0.8µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30/60/120fps; gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.1, 26mm (wide), 1/3.06\", 1.0µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "30W wired, 100% in 65 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Blue, Silver, Mint",
+      "Price": "About 180 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "dimensity-720"
+}

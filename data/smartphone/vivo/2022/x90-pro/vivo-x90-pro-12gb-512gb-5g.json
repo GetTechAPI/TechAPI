@@ -1,0 +1,118 @@
+{
+  "slug": "vivo-x90-pro-12gb-512gb-5g",
+  "name": "vivo X90 Pro",
+  "brand": "vivo",
+  "release_date": "2022-11-22",
+  "ram_gb": 12,
+  "battery_mah": 4870,
+  "weight_g": 214.9,
+  "os": "Android 13, upgradable to Android 14, Funtouch 14 (Global), OriginOS 3 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "x90-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.78 inches, 111.0 cm",
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)",
+    "type": "AMOLED, 1B colors, 120Hz, HDR10+, 1300 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.3, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.2, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 66 - International",
+      "5G bands": "1, 2, 3, 5, 7, 8, 20, 28, 38, 40, 41, 71, 75, 77, 78, 79 SA/NSA - International",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2022, November 22",
+      "Status": "Available. Released 2022, December 06"
+    },
+    "Body": {
+      "Dimensions": "164.1 x 74.5 x 9.3 mm (6.46 x 2.93 x 0.37 in)",
+      "Weight": "214.9 g (7.58 oz)",
+      "Build": "Glass front, aluminum frame, eco leather back",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 1B colors, 120Hz, HDR10+, 1300 nits (peak)",
+      "Size": "6.78 inches, 111.0 cm",
+      "Resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, upgradable to Android 14, Funtouch 14 (Global), OriginOS 3 (China)",
+      "Chipset": "Mediatek Dimensity 9200 (4 nm)",
+      "CPU": "Octa-core (1x3.05 GHz Cortex-X3 & 3x2.85 GHz Cortex-A715 & 4x1.80 GHz Cortex-A510)",
+      "GPU": "Immortalis-G715 MC11"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50.3 MP, f/1.8, 23mm (wide), 1.0\"-type, 1.6µm, dual pixel PDAF, OIS",
+      "Features": "Laser AF, Zeiss optics, Zeiss T* lens coating, Pixel Shift, dual-LED dual-tone flash, HDR, panorama",
+      "Video": "8K@24fps, 4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.5, 24mm (wide), 1/2.8\", 0.8µm",
+      "Features": "HDR",
+      "Video": "1080p@30/60fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.3, A2DP, LE, aptX HD",
+      "Positioning": "GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS, NavIC",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.2, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "4870 mAh, non-removable",
+      "Charging": "120W wired, 50% in 8 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Legendary Black, Red",
+      "Models": "V2242A, V2219",
+      "Price": "About 1200 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 1228735 (v9)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "dimensity-9200-plus"
+}

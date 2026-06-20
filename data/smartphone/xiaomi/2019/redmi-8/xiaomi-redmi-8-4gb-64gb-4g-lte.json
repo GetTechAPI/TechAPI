@@ -1,0 +1,113 @@
+{
+  "slug": "xiaomi-redmi-8-4gb-64gb-4g-lte",
+  "name": "Xiaomi Redmi 8",
+  "brand": "xiaomi",
+  "release_date": "2019-10-09",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 188.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, MIUI 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "redmi-8",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.22 inches, 96.6 cm",
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)",
+    "type": "IPS LCD, 400 nits (typ)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - Global",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 20, 38, 40 - Global",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2019, October 09",
+      "Status": "Available. Released 2019, October 12"
+    },
+    "Body": {
+      "Dimensions": "156.5 x 75.4 x 9.4 mm (6.16 x 2.97 x 0.37 in)",
+      "Weight": "188 g (6.63 oz)",
+      "Build": "Glass front (Gorilla Glass 5), plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 400 nits (typ)",
+      "Size": "6.22 inches, 96.6 cm",
+      "Resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), upgradable to Android 10, MIUI 12",
+      "Chipset": "Qualcomm SDM439 Snapdragon 439 (12 nm)",
+      "CPU": "Octa-core (4x1.95 GHz Cortex-A53 & 4x1.45 GHz Cortex A53)",
+      "GPU": "Adreno 505"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 1/4.0\", 1.12µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "Wireless FM radio (no wired headphones required)",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 5000 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Onyx Black, Ruby Red, Sapphire Blue, Phantom Red",
+      "Models": "M1908C3IC, MZB8255IN, M1908C3IG, M1908C3IH",
+      "SAR": "0.34 W/kg (head)     1.00 W/kg (body)     ",
+      "SAR EU": "0.23 W/kg (head)     1.48 W/kg (body)     ",
+      "Price": "About 210 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "qualcomm-sdm439-snapdragon-439"
+}

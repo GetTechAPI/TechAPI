@@ -1,0 +1,110 @@
+{
+  "slug": "oppo-reno12-f-12gb-512gb-5g",
+  "name": "Oppo Reno12 F",
+  "brand": "oppo",
+  "release_date": "2024-06-28",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 187.0,
+  "os": "Android 14, ColorOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "reno12-f",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.67 inches, 107.4 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+    "type": "AMOLED, 1B colors, 120Hz, 600 nits (typ), 1200 nits (HMB), 2100 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.3, A2DP, LE, aptX",
+    "nfc": "Yes (market/region dependent)",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 26, 28, 38, 39, 40, 41, 66",
+      "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 26, 28, 38, 40, 41, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2024, June 28",
+      "Status": "Available. Released 2024, July"
+    },
+    "Body": {
+      "Dimensions": "163.1 x 75.8 x 7.8 mm (6.42 x 2.98 x 0.31 in)",
+      "Weight": "187 g (6.60 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 1B colors, 120Hz, 600 nits (typ), 1200 nits (HMB), 2100 nits (peak)",
+      "Size": "6.67 inches, 107.4 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)",
+      "Protection": "Asahi Glass AGC DT-Star2"
+    },
+    "Platform": {
+      "OS": "Android 14, ColorOS 14",
+      "Chipset": "Mediatek Dimensity 6300 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "50 MP, f/1.8, 26mm (wide), PDAF, OIS",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30/60fps, gyro-EIS"
+    },
+    "Selfie camera": {
+      "Single": "32 MP, f/2.4, 22mm (wide), 1/2.74\", 0.8µm",
+      "Features": "Panorama",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+      "Bluetooth": "5.3, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+      "NFC": "Yes (market/region dependent)",
+      "Infrared port": "Yes",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "45W wired, PD2.0"
+    },
+    "Misc": {
+      "Colors": "Olive Green, Amber Orange",
+      "Models": "CPH2637"
+    }
+  },
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "soc": "dimensity-6300"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "vivo-z1-lite-4gb-32gb-4g-lte",
+  "name": "vivo Z1 Lite",
+  "brand": "vivo",
+  "release_date": "2018-11-01",
+  "ram_gb": 4,
+  "battery_mah": 3260,
+  "weight_g": 149.0,
+  "os": "Android 8.1 (Oreo), Funtouch 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "z1-lite",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.26 inches, 97.8 cm",
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~403 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 34, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, November",
+      "Status": "Available. Released 2018, November"
+    },
+    "Body": {
+      "Dimensions": "154.8 x 75 x 7.9 mm (6.09 x 2.95 x 0.31 in)",
+      "Weight": "149 g (5.26 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.26 inches, 97.8 cm",
+      "Resolution": "1080 x 2280 pixels, 19:9 ratio (~403 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo), Funtouch 4",
+      "Chipset": "Qualcomm MSM8953-Pro Snapdragon 626 (14 nm)",
+      "CPU": "Octa-core 2.2 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "32GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/2.0, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.2, 26mm (wide), 1/3.06\", 1.0µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio, recording",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3260 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, Red, Aurora",
+      "Price": "About 170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8953-pro-snapdragon-626"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "vivo-y100-8gb-128gb-5g",
+  "name": "vivo Y100",
+  "brand": "vivo",
+  "release_date": "2023-02-16",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 181.0,
+  "os": "Android 13, Funtouch 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "y100",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    }
+  },
+  "display": {
+    "size": "6.38 inches, 98.3 cm",
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~413 ppi density)",
+    "type": "AMOLED, 90Hz, HDR10+, 1300 nits (peak)"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": null,
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 8, 38, 40, 41",
+      "5G bands": "1, 3, 8, 28, 77, 78 SA/NSA",
+      "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+      "Announced": "2023, February 16",
+      "Status": "Available. Released 2023, February 16"
+    },
+    "Body": {
+      "Dimensions": "158.9 x 73.5 x 7.7 mm (6.26 x 2.89 x 0.30 in)",
+      "Weight": "181 g (6.38 oz)",
+      "Build": "Glass front, glass back",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED, 90Hz, HDR10+, 1300 nits (peak)",
+      "Size": "6.38 inches, 98.3 cm",
+      "Resolution": "1080 x 2400 pixels, 20:9 ratio (~413 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 13, Funtouch 13",
+      "Chipset": "Mediatek Dimensity 900 (6 nm)",
+      "CPU": "Octa-core (2x2.4 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+      "GPU": "Mali-G68 MC4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "128GB 8GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "64 MP, f/1.8, (wide), 0.7µm, PDAF, OIS",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+      "Bluetooth": "5.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO, QZSS",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "4500 mAh, non-removable",
+      "Charging": "44W wired, 60% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Metal Black, Twilight Gold, Pacific Blue",
+      "Models": "V2239"
+    }
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "soc": "dimensity-900"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "tecno-camon-11-pro-6gb-64gb-4g-lte",
+  "name": "Tecno Camon 11 Pro",
+  "brand": "tecno",
+  "release_date": "2018-09-01",
+  "ram_gb": 6,
+  "battery_mah": 3750,
+  "weight_g": 155.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "camon-11-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.2 inches, 96.7 cm",
+    "resolution": "720 x 1500 pixels (~268 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct (Africa)",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 20, 28, 38, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2018, September",
+      "Status": "Available. Released 2018, November"
+    },
+    "Body": {
+      "Dimensions": "156.5 x 76 x 5.6 mm (6.16 x 2.99 x 0.22 in)",
+      "Weight": "155 g (5.47 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.2 inches, 96.7 cm",
+      "Resolution": "720 x 1500 pixels (~268 ppi density)",
+      "Protection": "NEG"
+    },
+    "Platform": {
+      "OS": "Android 8.1 (Oreo)",
+      "Chipset": "Mediatek MT6762 Helio P22 (12 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "PowerVR GE8320"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "64GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "16 MP, f/1.8, 25mm (wide), AF",
+      "Features": "Quad-LED dual-tone flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct (Africa)",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Infrared Face ID, fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3750 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Nebula black",
+      "Models": "CF8"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "mediatek-mt6762-helio-p22"
+}

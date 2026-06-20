@@ -1,0 +1,116 @@
+{
+  "slug": "sony-xperia-xz1-compact-4gb-32gb-4g-lte",
+  "name": "Sony Xperia XZ1 Compact",
+  "brand": "sony",
+  "release_date": "2017-08-01",
+  "ram_gb": 4,
+  "battery_mah": 2700,
+  "weight_g": 140.0,
+  "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-xz1-compact",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.6 inches, 58.3 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~319 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "5.0, A2DP, aptX HD, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 19, 20, 25, 26, 28, 29, 32, 38, 39, 40, 41, 66",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (4CA) Cat15 800/75 Mbps"
+    },
+    "Launch": {
+      "Announced": "2017, August",
+      "Status": "Available. Released 2017, October"
+    },
+    "Body": {
+      "Dimensions": "129 x 65 x 9.3 mm (5.08 x 2.56 x 0.37 in)",
+      "Weight": "140 g (4.94 oz)",
+      "Build": "Glass front (Gorilla Glass 4), plastic back, plastic frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.6 inches, 58.3 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~319 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+      "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "CPU": "Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)",
+      "GPU": "Adreno 540"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF",
+      "Features": "Laser AF, LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 720p@960fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.4, 18mm, 1/4.0\"",
+      "Video": "1080p@30fps (gyro-EIS)"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "5.0, A2DP, aptX HD, LE",
+      "Positioning": "GPS, GLONASS, BDS, GALILEO",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2700 mAh, non-removable",
+      "Charging": "18W wired, QC3"
+    },
+    "Misc": {
+      "Colors": "Black, White Silver, Horizon Blue, Twilight Pink",
+      "Models": "G8441, SO-02K",
+      "Price": "About 300 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 204581 (v7), 255140 (v8)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8998-snapdragon-835"
+}

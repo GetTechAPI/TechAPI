@@ -1,0 +1,106 @@
+{
+  "slug": "itel-p65-8gb-256gb-4g-lte",
+  "name": "itel P65",
+  "brand": "itel",
+  "release_date": "2024-08-08",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 192.4,
+  "os": "Android 14, itel OS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "p65",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.7 inches, 108.4 cm",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~262 ppi density)",
+    "type": "IPS LCD, 120Hz"
+  },
+  "connectivity": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "Yes (256/6GB model only)",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": " LTE",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2024, August 08",
+      "Status": "Available. Released 2024, August 08"
+    },
+    "Body": {
+      "Dimensions": "165.9 x 77.3 x 7.9 mm (6.53 x 3.04 x 0.31 in)",
+      "Weight": "192.4 g (6.81 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD, 120Hz",
+      "Size": "6.7 inches, 108.4 cm",
+      "Resolution": "720 x 1600 pixels, 20:9 ratio (~262 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 14, itel OS 14",
+      "Chipset": "Unisoc T615 (12 nm)",
+      "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+      "GPU": "Mali-G57 MP1"
+    },
+    "Memory": {
+      "Card slot": "microSDXC",
+      "Internal": "128GB 4GB RAM, 128GB 8GB RAM, 256GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "50 MP",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Video": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Yes",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS",
+      "NFC": "Yes (256/6GB model only)",
+      "Radio": "Unspecified",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "5000 mAh, non-removable",
+      "Charging": "18W wired, 40% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Cyber Blaze, Cyber Black, Cyber Titanium",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "soc": "unisoc-t615"
+}

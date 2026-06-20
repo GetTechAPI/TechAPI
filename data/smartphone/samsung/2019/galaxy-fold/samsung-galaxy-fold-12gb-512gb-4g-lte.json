@@ -1,0 +1,117 @@
+{
+  "slug": "samsung-galaxy-fold-12gb-512gb-4g-lte",
+  "name": "Samsung Galaxy Fold",
+  "brand": "samsung",
+  "release_date": "2019-02-01",
+  "ram_gb": 12,
+  "battery_mah": 4380,
+  "weight_g": 276.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 12, One UI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-fold",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "7.3 inches, 162.6 cm",
+    "resolution": "1536 x 2152 pixels (~362 ppi density)",
+    "type": "Foldable Dynamic AMOLED, HDR10+"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 3.1"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 18, 19, 20, 25, 26, 28, 38, 39, 40, 41, 46, 66, 71 - SM-F900U",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (6CA) Cat18 1200/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, February",
+      "Status": "Available. Released 2019, September"
+    },
+    "Body": {
+      "Dimensions": "Unfolded: 160.9 x 117.9 x 6.9 mm",
+      "Weight": "276 g (9.74 oz)",
+      "Build": "Glass front (folded), plastic front (unfolded), glass back, aluminum frame",
+      "SIM": "Nano-SIM and eSIM"
+    },
+    "Display": {
+      "Type": "Foldable Dynamic AMOLED, HDR10+",
+      "Size": "7.3 inches, 162.6 cm",
+      "Resolution": "1536 x 2152 pixels (~362 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), upgradable to Android 12, One UI 4",
+      "Chipset": "Qualcomm SM8150 Snapdragon 855 (7 nm)",
+      "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+      "GPU": "Adreno 640"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "512GB 12GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "12 MP, f/1.5-2.4, 27mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@60fps, 1080p@60/240fps (gyro-EIS), 720p@960fps (gyro-EIS), HDR10"
+    },
+    "Selfie camera": {
+      "Dual": "10 MP, f/2.2, 26mm (wide), 1/3\", 1.22µm",
+      "Features": "HDR",
+      "Video": "4K@30/60fps, 1080p@30fps, gyro-EIS"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "No"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, GALILEO, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 3.1"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 4380 mAh, non-removable",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Colors": "Space Silver, Cosmos Black, Martian Green, Astro Blue",
+      "Models": "SM-F900F, SM-F9000, SM-F900W, SM-F900U, SM-F900N, SM-F900U1",
+      "SAR": "0.41 W/kg (head)     1.39 W/kg (body)     ",
+      "SAR EU": "0.49 W/kg (head)     1.58 W/kg (body)     ",
+      "Price": "About 1750 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nAnTuTu: 363016 (v7)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    512
+  ],
+  "soc": "qualcomm-sm8150-snapdragon-855"
+}

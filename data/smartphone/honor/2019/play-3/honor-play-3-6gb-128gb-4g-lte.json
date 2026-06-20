@@ -1,0 +1,109 @@
+{
+  "slug": "honor-play-3-6gb-128gb-4g-lte",
+  "name": "Honor Play 3",
+  "brand": "honor",
+  "release_date": "2019-09-01",
+  "ram_gb": 6,
+  "battery_mah": 4000,
+  "weight_g": 176.0,
+  "os": "Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "play-3",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.39 inches, 100.2 cm",
+    "resolution": "720 x 1560 pixels, 19.5:9 ratio (~269 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "5.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 34, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 400/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2019, September",
+      "Status": "Available. Released 2019, September"
+    },
+    "Body": {
+      "Dimensions": "159.8 x 76.1 x 8.1 mm (6.29 x 3.00 x 0.32 in)",
+      "Weight": "176 g (6.21 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.39 inches, 100.2 cm",
+      "Resolution": "720 x 1560 pixels, 19.5:9 ratio (~269 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 9.0 (Pie), EMUI 9.1",
+      "Chipset": "Kirin 710F (12 nm)",
+      "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+      "GPU": "Mali-G51 MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM, 64GB 6GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Triple": "48 MP, f/1.8, 27mm (wide), 1/2.0\", 0.8µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "5.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Charging": "10W wired"
+    },
+    "Misc": {
+      "Colors": "Magic Night Black, Aurora Blue, Charm Red",
+      "Models": "ASK-AL00x",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "kirin-710f"
+}

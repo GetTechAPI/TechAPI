@@ -1,0 +1,103 @@
+{
+  "slug": "zte-grand-x-in-1gb-16gb-3g",
+  "name": "ZTE Grand X IN",
+  "brand": "zte",
+  "release_date": "2012-08-01",
+  "ram_gb": 1,
+  "battery_mah": 1650,
+  "weight_g": 140.8,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "grand-x-in",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out)"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, August. Released 2012, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "127 x 65 x 9.9 mm (5.0 x 2.56 x 0.39 in)",
+      "Weight": "140.8 g (4.94 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Intel XMM 6260",
+      "CPU": "1.6 GHz Intel Atom Z2460",
+      "GPU": "Intel graphics media accelerator (400 MHz)"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "NFC": "Yes",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL TV-out)"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1650 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 430 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4,
+    16
+  ],
+  "soc": "intel-xmm-6260"
+}

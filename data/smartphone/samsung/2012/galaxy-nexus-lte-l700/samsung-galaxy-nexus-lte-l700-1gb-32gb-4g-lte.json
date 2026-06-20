@@ -1,0 +1,106 @@
+{
+  "slug": "samsung-galaxy-nexus-lte-l700-1gb-32gb-4g-lte",
+  "name": "Samsung Galaxy Nexus LTE L700",
+  "brand": "samsung",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1850,
+  "weight_g": 144.5,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-nexus-lte-l700",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.65 inches, 59.6 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~316 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "25",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE"
+    },
+    "Launch": {
+      "Announced": "2012, January. Released 2012, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "134.6 x 68.6 x 9.4 mm (5.30 x 2.70 x 0.37 in)",
+      "Weight": "144.5 g (5.08 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "4.65 inches, 59.6 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~316 ppi density)",
+      "Protection": "Scratch-resistant glass"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich)",
+      "Chipset": "TI OMAP 4460",
+      "CPU": "Dual-core 1.2 GHz"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, A-GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1850 mAh battery",
+      "Talk time": "Up to 7 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR": "1.04 W/kg (head)     1.41 W/kg (body)     ",
+      "Price": "About 270 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "ti-omap-4460"
+}

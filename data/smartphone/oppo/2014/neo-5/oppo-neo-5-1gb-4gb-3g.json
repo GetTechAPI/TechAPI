@@ -1,0 +1,104 @@
+{
+  "slug": "oppo-neo-5-1gb-4gb-3g",
+  "name": "Oppo Neo 5",
+  "brand": "oppo",
+  "release_date": "2014-08-01",
+  "ram_gb": 1,
+  "battery_mah": 1900,
+  "weight_g": 132.5,
+  "os": "Android 4.3 (Jelly Bean), ColorOS 1.4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "neo-5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, August. Released 2014, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "132 x 65.8 x 9.2 mm (5.20 x 2.59 x 0.36 in)",
+      "Weight": "132.5 g (4.69 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean), ColorOS 1.4",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1900 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "1201, R831L",
+      "Price": "About 140 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-snapdragon-400"
+}

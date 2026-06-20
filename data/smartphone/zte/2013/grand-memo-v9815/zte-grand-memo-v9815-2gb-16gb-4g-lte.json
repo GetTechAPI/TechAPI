@@ -1,0 +1,103 @@
+{
+  "slug": "zte-grand-memo-v9815-2gb-16gb-4g-lte",
+  "name": "ZTE Grand Memo V9815",
+  "brand": "zte",
+  "release_date": "2013-02-01",
+  "ram_gb": 2,
+  "battery_mah": 3200,
+  "weight_g": 189.0,
+  "os": "Android 4.1.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "grand-memo-v9815",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 89.6 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0 (MHL TV-out)"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "3, 7, 8, 20",
+      "Speed": "HSPA, LTE Cat3 100/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, February. Released 2013, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "159.9 x 82.6 x 8.5 mm (6.30 x 3.25 x 0.33 in)",
+      "Weight": "189 g (6.67 oz)",
+      "SIM": "Yes"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "5.7 inches, 89.6 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1.2 (Jelly Bean)",
+      "Chipset": "Qualcomm MSM8974 Snapdragon 800 (28 nm)",
+      "CPU": "Quad-core 1.7 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0 (MHL TV-out)"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-ion 3200 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 340 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8974-snapdragon-800"
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "lenovo-vibe-k5-2gb-16gb-4g-lte",
+  "name": "Lenovo Vibe K5",
+  "brand": "lenovo",
+  "release_date": "2016-02-21",
+  "ram_gb": 2,
+  "battery_mah": 2750,
+  "weight_g": 142.0,
+  "os": "Android 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "vibe-k5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20, 38, 40, 41",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, February 21. Released 2016, June 13",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "142 x 71 x 8 mm (5.59 x 2.80 x 0.31 in)",
+      "Weight": "142 g (5.01 oz)",
+      "Build": "Glass front, aluminum/plastic back, aluminum frame",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8929 Snapdragon 415 (28 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.2 GHz Cortex-A53)",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.8"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2750 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Champagne Gold, Platinum Silver",
+      "Models": "A6020a40, A6020a41, A6020l36, A6020l37",
+      "Price": "About 120 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 789Basemark X: 4263",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8929-snapdragon-415"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "zte-grand-s-pro-2gb-8gb-4g-lte",
+  "name": "ZTE Grand S Pro",
+  "brand": "zte",
+  "release_date": "2014-06-01",
+  "ram_gb": 2,
+  "battery_mah": 2300,
+  "weight_g": 155.4,
+  "os": "Android 4.3 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "grand-s-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "2, 4, 5, 12, 17",
+      "Speed": "LTE, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, June. Released 2014, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "142.2 x 71.1 x 10.2 mm (5.60 x 2.80 x 0.40 in)",
+      "Weight": "155.4 g (5.47 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+      "Protection": "Asahi Dragontrail Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean)",
+      "Chipset": "Qualcomm MSM8974AB Snapdragon 801 (28 nm)",
+      "CPU": "Quad-core 2.3 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2300 mAh, removable",
+      "Stand-by": "Up to 264 h (3G)",
+      "Talk time": "Up to 10 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black/White"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8974ab-snapdragon-801"
+}

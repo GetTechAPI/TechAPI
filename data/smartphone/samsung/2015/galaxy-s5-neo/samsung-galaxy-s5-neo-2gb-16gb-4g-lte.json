@@ -1,0 +1,109 @@
+{
+  "slug": "samsung-galaxy-s5-neo-2gb-16gb-4g-lte",
+  "name": "Samsung Galaxy S5 Neo",
+  "brand": "samsung",
+  "release_date": "2015-08-01",
+  "ram_gb": 2,
+  "battery_mah": 2800,
+  "weight_g": 145.0,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-s5-neo",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.1 inches, 71.7 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~432 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, EDR, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - G903F",
+      "4G bands": "1, 3, 5, 7, 8, 20 - G903F",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, August. Released 2015, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "142 x 72.5 x 8.1 mm (5.59 x 2.85 x 0.32 in)",
+      "Weight": "145 g (5.11 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.1 inches, 71.7 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~432 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1.1 (Lollipop), upgradable to 7.0 (Nougat)",
+      "Chipset": "Exynos 7580 Octa (28 nm)",
+      "CPU": "Octa-core 1.6 GHz Cortex-A53",
+      "GPU": "Mali-T720MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/1.9, 31mm (standard), AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/1.9, 23mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, heart rate"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2800 mAh, removable",
+      "Talk time": "Up to 15 h (3G)",
+      "Music play": "Up to 73 h"
+    },
+    "Misc": {
+      "Colors": "Black, Gray, Gold",
+      "Models": "SM-G903F, SM-G903W, SM-G903M, SM-S903VL",
+      "SAR": "1.03 W/kg (head)     1.27 W/kg (body)     ",
+      "SAR EU": "0.46 W/kg (head)     0.58 W/kg (body)     ",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "exynos-7580-octa"
+}

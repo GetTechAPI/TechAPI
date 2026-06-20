@@ -1,0 +1,107 @@
+{
+  "slug": "asus-zenfone-zoom-zx550-4gb-128gb-4g-lte",
+  "name": "Asus Zenfone Zoom ZX550",
+  "brand": "asus",
+  "release_date": "2015-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 185.0,
+  "os": "Android 5.0 (Lollipop), ZenUI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zenfone-zoom-zx550",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 82.6 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 9, 17, 18, 19, 20, 28, 29",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "158.9 x 78.8 x 12 mm (6.26 x 3.10 x 0.47 in)",
+      "Weight": "185 g (6.53 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 82.6 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 5.0 (Lollipop), ZenUI",
+      "Chipset": "Intel Atom Z3580",
+      "CPU": "Quad-core 2.3 GHz",
+      "GPU": "PowerVR G6430"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM, 64GB 2GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.7-4.8, 28-84mm (periscope telephoto zoom), OIS, 3x optical zoom",
+      "Features": "Laser AF, Dual-LED dual-tone flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.0"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Meteorite black, Glacier white",
+      "Price": "About 400 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "soc": "intel-atom-z3580"
+}

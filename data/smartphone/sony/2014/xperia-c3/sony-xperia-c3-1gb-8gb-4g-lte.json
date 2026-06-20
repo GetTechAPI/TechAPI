@@ -1,0 +1,111 @@
+{
+  "slug": "sony-xperia-c3-1gb-8gb-4g-lte",
+  "name": "Sony Xperia C3",
+  "brand": "sony",
+  "release_date": "2014-07-01",
+  "ram_gb": 1,
+  "battery_mah": 2500,
+  "weight_g": 149.7,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-c3",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 28",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, July. Released 2014, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "156.2 x 78.7 x 7.6 mm (6.15 x 3.10 x 0.30 in)",
+      "Weight": "149.7 g (5.29 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 5.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.3, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p, HDR"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.3",
+      "Features": "LED flash",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2500 mAh, non-removable",
+      "Stand-by": "Up to 1040 h (2G) / Up to 1000 h (3G)",
+      "Talk time": "Up to 11 h (2G) / Up to 25 h (3G)",
+      "Music play": "Up to 67 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Mint",
+      "Models": "D2533",
+      "SAR": "0.91 W/kg (head)     1.24 W/kg (body)     ",
+      "SAR EU": "0.53 W/kg (head)     0.38 W/kg (body)     ",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

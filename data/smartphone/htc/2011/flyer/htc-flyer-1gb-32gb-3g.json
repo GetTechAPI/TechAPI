@@ -1,0 +1,108 @@
+{
+  "slug": "htc-flyer-1gb-32gb-3g",
+  "name": "HTC Flyer",
+  "brand": "htc",
+  "release_date": "2011-02-01",
+  "ram_gb": 1,
+  "battery_mah": 4000,
+  "weight_g": 420.8,
+  "os": "Android 2.3.3 (Gingerbread), upgradable to 3.2 (Honeycomb), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "flyer",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 1700 / 2100 ",
+      "Speed": "HSPA 14.4/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, February. Released 2011, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "195.4 x 122 x 13.2 mm (7.69 x 4.80 x 0.52 in)",
+      "Weight": "420.8 g (14.82 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "LCD",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 2.3.3 (Gingerbread), upgradable to 3.2 (Honeycomb), Sense UI",
+      "Chipset": "Qualcomm MSM8255T Snapdragon S2",
+      "CPU": "1.5 GHz Scorpion",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass",
+      "Browser": "HTML, Adobe Flash"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Po 4000 mAh battery",
+      "Stand-by": "Up to 1470 h"
+    },
+    "Misc": {
+      "Colors": "Silver",
+      "Price": "About 300 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Audio quality": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "qualcomm-msm8255t-snapdragon-s2"
+}

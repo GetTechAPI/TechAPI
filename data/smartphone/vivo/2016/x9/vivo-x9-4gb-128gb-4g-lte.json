@@ -1,0 +1,107 @@
+{
+  "slug": "vivo-x9-4gb-128gb-4g-lte",
+  "name": "vivo X9",
+  "brand": "vivo",
+  "release_date": "2016-11-01",
+  "ram_gb": 4,
+  "battery_mah": 3050,
+  "weight_g": 154.0,
+  "os": "Android 6.1 (Marshmallow), upgradable to Android 8 (Oreo), Funtouch 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "x9",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 8, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, November. Released 2016, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "152.6 x 74 x 7 mm (6.01 x 2.91 x 0.28 in)",
+      "Weight": "154 g (5.43 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+      "Protection": "Corning Gorilla Glass 5"
+    },
+    "Platform": {
+      "OS": "Android 6.1 (Marshmallow), upgradable to Android 8 (Oreo), Funtouch 3",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/2.0, PDAF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Dual": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3050 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Gold, Rose Gold",
+      "Price": "About 460 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-msm8953-snapdragon-625"
+}

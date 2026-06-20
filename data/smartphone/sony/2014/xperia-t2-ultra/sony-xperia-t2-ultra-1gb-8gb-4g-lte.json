@@ -1,0 +1,117 @@
+{
+  "slug": "sony-xperia-t2-ultra-1gb-8gb-4g-lte",
+  "name": "Sony Xperia T2 Ultra",
+  "brand": "sony",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 3000,
+  "weight_g": 171.7,
+  "os": "Android 4.3 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-t2-ultra",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 99.2 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - all versions",
+      "3G bands": "HSDPA 850 / 900 / 2100 - D5303",
+      "4G bands": "1, 3, 5, 7, 8, 20 - D5303",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, January. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "165.2 x 83.8 x 7.7 mm (6.50 x 3.30 x 0.30 in)",
+      "Weight": "171.7 g (D5303)/ 172.4 g (D5306) (6.07 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.0 inches, 99.2 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~245 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8928 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.3, AF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "1.1 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Stand-by": "Up to 1071 h (2G) / Up to 1046 h (3G)",
+      "Talk time": "Up to 14 h (2G) / Up to 24 h (3G)",
+      "Music play": "Up to 93 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Purple",
+      "Models": "D5303, D5316",
+      "SAR": "1.22 W/kg (head)     1.10 W/kg (body)     ",
+      "SAR EU": "1.22 W/kg (head)     1.53 W/kg (body)     ",
+      "Price": "About 230 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8928-snapdragon-400"
+}

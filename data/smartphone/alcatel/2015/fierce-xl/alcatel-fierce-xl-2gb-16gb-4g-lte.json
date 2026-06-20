@@ -1,0 +1,107 @@
+{
+  "slug": "alcatel-fierce-xl-2gb-16gb-4g-lte",
+  "name": "alcatel Fierce XL",
+  "brand": "alcatel",
+  "release_date": "2015-10-01",
+  "ram_gb": 2,
+  "battery_mah": 2500,
+  "weight_g": 173.0,
+  "os": "Android 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "fierce-xl",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "2, 4, 5, 7, 12, 17",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, October. Released 2015, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "151.9 x 77.8 x 9.5 mm (5.98 x 3.06 x 0.37 in)",
+      "Weight": "173 g (6.10 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+      "Protection": "Asahi Dragontrail Glass"
+    },
+    "Platform": {
+      "OS": "Android 5.1.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8909 Snapdragon 210 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2500 mAh, non-removable",
+      "Stand-by": "Up to 360 h (3G)",
+      "Talk time": "Up to 12 h (3G)"
+    },
+    "Misc": {
+      "Colors": "White",
+      "Models": "5054N",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8909-snapdragon-210"
+}

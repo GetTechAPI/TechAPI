@@ -1,0 +1,109 @@
+{
+  "slug": "meizu-mx2-2gb-64gb-3g",
+  "name": "Meizu MX2",
+  "brand": "meizu",
+  "release_date": "2012-11-01",
+  "ram_gb": 2,
+  "battery_mah": 1800,
+  "weight_g": 142.0,
+  "os": "Android 4.1.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mx2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.4 inches, 56.1 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~343 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 ",
+      "3G bands": "HSDPA 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, November. Released 2012, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "124.9 x 64.9 x 10.2 mm (4.92 x 2.56 x 0.40 in)",
+      "Weight": "142 g (5.01 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.4 inches, 56.1 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~343 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1.1 (Jelly Bean)",
+      "Chipset": "Exynos 4412 Quad (32 nm)",
+      "CPU": "Quad-core 1.6 GHz Cortex-A9",
+      "GPU": "Mali-400MP4"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM, 64GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1800 mAh, non-removable",
+      "Stand-by": "Up to 380 h (2G) / Up to 330 h (3G)",
+      "Talk time": "Up to 13 h (2G) / Up to 10 h (3G)",
+      "Music play": "Up to 46 h"
+    },
+    "Misc": {
+      "Colors": "Black front & white back",
+      "Price": "About 310 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "soc": "exynos-4412-quad"
+}

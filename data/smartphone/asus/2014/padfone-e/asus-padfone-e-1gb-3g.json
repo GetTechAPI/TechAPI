@@ -1,0 +1,104 @@
+{
+  "slug": "asus-padfone-e-1gb-3g",
+  "name": "Asus PadFone E",
+  "brand": "asus",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1820,
+  "weight_g": 126.0,
+  "os": "Android 4.3 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "padfone-e",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": null
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+    "type": "Super IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2014, January. Released 2014, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "139.6 x 69.7 x 9.1 mm (5.50 x 2.74 x 0.36 in)",
+      "Weight": "126 g (4.44 oz)",
+      "SIM": "Dual SIM (dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super IPS LCD",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean)",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps, 720p@60fps"
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1820 mAh, non-removable",
+      "Stand-by": "Up to 270 h (2G) / Up to 330 h (3G)",
+      "Talk time": "Up to 27 h (2G) / Up to 15 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "PadFone T008",
+      "Price": "About 260 EUR"
+    }
+  },
+  "soc": "qualcomm-snapdragon-400"
+}

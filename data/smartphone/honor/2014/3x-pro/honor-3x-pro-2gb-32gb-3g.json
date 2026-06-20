@@ -1,0 +1,102 @@
+{
+  "slug": "honor-3x-pro-2gb-32gb-3g",
+  "name": "Honor 3X Pro",
+  "brand": "honor",
+  "release_date": "2014-05-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 162.0,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "3x-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2014, May. Released 2014, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "149.5 x 77.4 x 8.9 mm (5.89 x 3.05 x 0.35 in)",
+      "Weight": "162 g (5.71 oz)",
+      "SIM": "Dual SIM (Mini-SIM, Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT6592 (28 nm)",
+      "CPU": "Octa-core 1.7 GHz Cortex-A7",
+      "GPU": "Mali-450MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "mediatek-mt6592"
+}

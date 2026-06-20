@@ -1,0 +1,104 @@
+{
+  "slug": "lg-optimus-q2-lu6500-1gb-8gb-3g",
+  "name": "LG Optimus Q2 LU6500",
+  "brand": "lg",
+  "release_date": "2011-09-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 147.0,
+  "os": "Android 2.3.4 (Gingerbread)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "optimus-q2-lu6500",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 45.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "HSDPA 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2011, September. Released 2011, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "123 x 65 x 12.3 mm (4.84 x 2.56 x 0.48 in)",
+      "Weight": "147 g (5.19 oz)",
+      "Keyboard": "QWERTY",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.0 inches, 45.5 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 2.3.4 (Gingerbread)",
+      "Chipset": "Nvidia Tegra 2 AP20H",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1500 mAh battery",
+      "Stand-by": "Up to 200 h",
+      "Talk time": "Up to 4 h"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Price": "About 120 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "nvidia-tegra-2-ap20h"
+}

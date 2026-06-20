@@ -1,0 +1,113 @@
+{
+  "slug": "nokia-lumia-icon-2gb-32gb-4g-lte",
+  "name": "Nokia Lumia Icon",
+  "brand": "nokia",
+  "release_date": "2014-02-01",
+  "ram_gb": 2,
+  "battery_mah": 2420,
+  "weight_g": 167.0,
+  "os": "Microsoft Windows Phone 8, upgradable to Microsoft Windows 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "lumia-icon",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE/ aptX after WP8 Denim update",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "4, 13",
+      "Speed": "HSPA 21.1/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "137 x 71 x 9.8 mm (5.39 x 2.80 x 0.39 in)",
+      "Weight": "167 g (5.89 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Microsoft Windows Phone 8, upgradable to Microsoft Windows 10",
+      "Chipset": "Qualcomm Snapdragon 800 (28 nm)",
+      "CPU": "Quad-core 2.2 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "20 MP, 1/1.5\", 1.12µm, AF, OIS",
+      "Features": "Zeiss optics, dual-LED flash, panorama",
+      "Video": "4K@30fps (after WP8 Denim update), 1080p@30fps, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR, LE/ aptX after WP8 Denim update",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, sensor core"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2420 mAh, non-removable (BV-5QW)",
+      "Charging": "Wireless (Qi)",
+      "Stand-by": "Up to 432 h",
+      "Talk time": "Up to 16 h 20 min (3G)",
+      "Music play": "Up to 75 h"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "SAR": "0.70 W/kg (head)     0.93 W/kg (body)     ",
+      "Price": "About 400 EUR"
+    },
+    "Tests": {
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-snapdragon-800"
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "sharp-z2-4gb-32gb-4g-lte",
+  "name": "Sharp Z2",
+  "brand": "sharp",
+  "release_date": "2016-10-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 160.0,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "z2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2016, October. Released 2016, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "153 x 76 x 8.4 mm (6.02 x 2.99 x 0.33 in)",
+      "Weight": "160 g (5.64 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+      "Protection": "Corning Gorilla Glass (unspecified version)"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow)",
+      "Chipset": "Mediatek MT6797 Helio X20 (20 nm)",
+      "CPU": "Deca-core (2x2.3GHz Cortex-A72, 4x2.0GHz Cortex-A53, 4x1.4GHz Cortex-A53)",
+      "GPU": "Mali-T880 MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, PDAF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Silver, Gold",
+      "Models": "FS8002",
+      "Price": "About 330 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "mediatek-mt6797-helio-x20"
+}

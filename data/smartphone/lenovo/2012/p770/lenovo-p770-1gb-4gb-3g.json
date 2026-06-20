@@ -1,0 +1,104 @@
+{
+  "slug": "lenovo-p770-1gb-4gb-3g",
+  "name": "Lenovo P770",
+  "brand": "lenovo",
+  "release_date": "2012-11-01",
+  "ram_gb": 1,
+  "battery_mah": 3500,
+  "weight_g": 161.0,
+  "os": "Android 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "p770",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "Yes",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2012, November. Released 2012, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "133 x 67 x 11.9 mm (5.24 x 2.64 x 0.47 in)",
+      "Weight": "161 g (5.68 oz)",
+      "SIM": "Dual SIM (Mini-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean)",
+      "Chipset": "Mediatek MT6577 (40 nm)",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "PowerVR SGX531u"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot), 8 GB included",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "Yes,"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3500 mAh, removable",
+      "Stand-by": "Up to 644 h",
+      "Talk time": "Up to 29 h"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 140 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "mediatek-mt6577"
+}

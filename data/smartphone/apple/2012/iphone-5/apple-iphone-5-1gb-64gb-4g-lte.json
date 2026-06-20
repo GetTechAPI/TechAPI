@@ -1,0 +1,121 @@
+{
+  "slug": "apple-iphone-5-1gb-64gb-4g-lte",
+  "name": "Apple iPhone 5",
+  "brand": "apple",
+  "release_date": "2012-09-12",
+  "ram_gb": 1,
+  "battery_mah": 1440,
+  "weight_g": 112.0,
+  "os": "iOS 6, upgradable to iOS 10.3.4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "iphone-5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 44.1 cm",
+    "resolution": "640 x 1136 pixels, 16:9 ratio (~326 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": null,
+    "usb": "Lightning, USB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - GSM A1428",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - GSM A1428",
+      "4G bands": "4, 17 - GSM A1428",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, September 12. Released 2012, September  21",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "123.8 x 58.6 x 7.6 mm (4.87 x 2.31 x 0.30 in)",
+      "Weight": "112 g (3.95 oz)",
+      "Build": "Glass front (Corning-made glass), aluminum back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.0 inches, 44.1 cm",
+      "Resolution": "640 x 1136 pixels, 16:9 ratio (~326 ppi density)",
+      "Protection": "Corning Gorilla Glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 6, upgradable to iOS 10.3.4",
+      "Chipset": "Apple A6 (32 nm)",
+      "CPU": "Dual-core 1.3 GHz Swift (ARM v7-based)",
+      "GPU": "PowerVR SGX 543MP3 (triple-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM, 64GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, 33mm (standard), 1/3.2\", 1.4µm, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP, f/2.4, 35mm (standard)",
+      "Features": "face detection, FaceTime over Wi-Fi or Cellular",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, A-GPS, GLONASS",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 1440 mAh, non-removable (5.45 Wh)",
+      "Stand-by": "Up to 225 h (3G)",
+      "Talk time": "Up to 8 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black/Slate, White/Silver",
+      "Models": "A1428, A1429, A1442, iPhone5,1, iPhone5,2",
+      "SAR": "1.18 W/kg (head)     1.18 W/kg (body)     ",
+      "SAR EU": "0.95 W/kg (head)     0.90 W/kg (body)     ",
+      "Price": "About 340 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark X: 2229",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "soc": "apple-a6"
+}

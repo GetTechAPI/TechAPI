@@ -1,0 +1,117 @@
+{
+  "slug": "nokia-n9-1gb-64gb-3g",
+  "name": "Nokia N9",
+  "brand": "nokia",
+  "release_date": "2011-06-01",
+  "ram_gb": 1,
+  "battery_mah": 1450,
+  "weight_g": 135.0,
+  "os": "MeeGo 1.2 Harmattan",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "n9",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "3.9 inches, 41.9 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~251 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA 14.4/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, June. Released 2011, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "116.5 x 61.2 x 12.1 mm, 76 cc (4.59 x 2.41 x 0.48 in)",
+      "Weight": "135 g (4.76 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "3.9 inches, 41.9 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~251 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "MeeGo 1.2 Harmattan",
+      "Chipset": "TI OMAP 3630",
+      "CPU": "1.0 GHz Cortex A8",
+      "GPU": "PowerVR SGX530"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM, 64GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "Carl Zeiss optics, dual-LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS; Ovi Maps",
+      "NFC": "Yes",
+      "Radio": "FM radio (via third party software)",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass",
+      "Browser": "WAP 2.0/xHTML, HTML5, RSS feeds"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 1450 mAh battery (BV-5JW)",
+      "Stand-by": "Up to 380 h (2G) / Up to 450 h (3G)",
+      "Talk time": "Up to 11 h (2G) / Up to 7 h (3G)",
+      "Music play": "Up to 50 h"
+    },
+    "Misc": {
+      "Colors": "Black, Cyan, Magenta, Glossy white",
+      "SAR": "1.18 W/kg (head)     1.18 W/kg (body)     ",
+      "SAR EU": "1.16 W/kg (head)     ",
+      "Price": "About 140 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    64
+  ],
+  "soc": "ti-omap-3630"
+}

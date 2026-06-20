@@ -1,0 +1,103 @@
+{
+  "slug": "zte-nubia-z5-2gb-32gb-3g",
+  "name": "ZTE nubia Z5",
+  "brand": "zte",
+  "release_date": "2012-12-01",
+  "ram_gb": 2,
+  "battery_mah": 2300,
+  "weight_g": 126.0,
+  "os": "Android 4.1.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nubia-z5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, December. Released 2012, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "137.9 x 69.1 x 7.6 mm (5.43 x 2.72 x 0.30 in)",
+      "Weight": "126 g (4.44 oz)",
+      "SIM": "Yes"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+      "Protection": "Scratch-resistant glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1.1 (Jelly Bean)",
+      "Chipset": "Qualcomm APQ8064 Snapdragon 600",
+      "CPU": "Quad-core 1.5 GHz Krait 300",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2300 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White, Black",
+      "Price": "About 520 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-apq8064-snapdragon-600"
+}

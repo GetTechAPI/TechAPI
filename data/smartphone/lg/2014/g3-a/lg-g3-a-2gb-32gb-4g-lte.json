@@ -1,0 +1,108 @@
+{
+  "slug": "lg-g3-a-2gb-32gb-4g-lte",
+  "name": "LG G3 A",
+  "brand": "lg",
+  "release_date": "2014-08-01",
+  "ram_gb": 2,
+  "battery_mah": 2610,
+  "weight_g": 146.8,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g3-a",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 74.5 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE",
+      "GPRS": "Class 12",
+      "EDGE": "Class 12"
+    },
+    "Launch": {
+      "Announced": "2014, August. Released 2014, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "141 x 71.6 x 9.8 mm (5.55 x 2.82 x 0.39 in)",
+      "Weight": "146.8 g (5.19 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.2 inches, 74.5 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+      "Protection": "To be confirmed"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat)",
+      "Chipset": "Qualcomm Snapdragon 800 (28 nm)",
+      "CPU": "Quad-core 2.26 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, 1/3.0\", OIS",
+      "Features": "Laser AF, Dual-LED dual-tone flash, panorama, HDR",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "2.1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2610 mAh, removable",
+      "Stand-by": "Up to 532 h (2G) / Up to 628 h (3G)",
+      "Talk time": "Up to 12 h (2G) / Up to 19 h (3G)"
+    },
+    "Misc": {
+      "Colors": "White, Titanium",
+      "Price": "About 360 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-snapdragon-800"
+}

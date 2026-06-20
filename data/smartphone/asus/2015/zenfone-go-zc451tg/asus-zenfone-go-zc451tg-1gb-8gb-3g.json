@@ -1,0 +1,105 @@
+{
+  "slug": "asus-zenfone-go-zc451tg-1gb-8gb-3g",
+  "name": "Asus Zenfone Go ZC451TG",
+  "brand": "asus",
+  "release_date": "2015-12-01",
+  "ram_gb": 1,
+  "battery_mah": 1600,
+  "weight_g": 133.5,
+  "os": "Android 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zenfone-go-zc451tg",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, December. Released 2015, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "135 x 67 x 10.1 mm (5.31 x 2.64 x 0.40 in)",
+      "Weight": "133.5 g (4.73 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1 (Lollipop)",
+      "Chipset": "Mediatek MT6580M (28 nm)",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.0, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1600 mAh, removable",
+      "Stand-by": "Up to 355 h (3G)",
+      "Talk time": "Up to 11 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Charcoal Black, Pearl White, Rouge Pink, Flash Blue",
+      "Models": "Z00SD",
+      "Price": "About 70 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "mediatek-mt6580m"
+}

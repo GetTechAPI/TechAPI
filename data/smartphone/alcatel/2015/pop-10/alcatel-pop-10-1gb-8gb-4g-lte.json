@@ -1,0 +1,103 @@
+{
+  "slug": "alcatel-pop-10-1gb-8gb-4g-lte",
+  "name": "alcatel Pop 10",
+  "brand": "alcatel",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 4600,
+  "weight_g": 380.0,
+  "os": "Android 5.0.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pop-10",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "9.6 inches, 267.2 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~157 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 2100 - EMEA",
+      "4G bands": "1, 3, 7, 8, 20 - EMEA",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "245.2 x 146.4 x 7.9 mm (9.65 x 5.76 x 0.31 in)",
+      "Weight": "380 g (13.40 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "9.6 inches, 267.2 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~157 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.0.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4600 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White, Dark grey",
+      "Price": "About 250 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "zte-axon-pro-4gb-64gb-4g-lte",
+  "name": "ZTE Axon Pro",
+  "brand": "zte",
+  "release_date": "2015-07-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 172.9,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "axon-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~534 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "2, 4, 5, 12, 17, 29, 30",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2015, July. Released 2015, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "153.9 x 73.7 x 9.4 mm (6.06 x 2.90 x 0.37 in)",
+      "Weight": "172.9 g (6.35 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1440 x 2560 pixels, 16:9 ratio (~534 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 5.1.1 (Lollipop), upgradable to 6.0 (Marshmallow)",
+      "Chipset": "Qualcomm MSM8994 Snapdragon 810 (20 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x2.0 GHz Cortex-A57)",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 4GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Dual": "13 MP, PDAF",
+      "Features": "Dual-LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps, 720p@120fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "18W wired, QC2",
+      "Stand-by": "Up to 240 h (3G)",
+      "Talk time": "Up to 12 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Ion Gold, Chromium Silver, Phthalo Blue",
+      "Price": "About 290 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "qualcomm-msm8994-snapdragon-810"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "samsung-galaxy-j1-2016-1gb-8gb-4g-lte",
+  "name": "Samsung Galaxy J1 (2016)",
+  "brand": "samsung",
+  "release_date": "2016-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2050,
+  "weight_g": 131.0,
+  "os": "Android 5.1.1 (Lollipop), upgradable to Android 6.0.1 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-j1-2016",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 57.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - J120F",
+      "4G bands": "1, 3, 5, 7, 8, 20 - J120F",
+      "Speed": "HSPA 21.1/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, January. Released 2016, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "132.6 x 69.3 x 8.9 mm (5.22 x 2.73 x 0.35 in)",
+      "Weight": "131 g (4.62 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "4.5 inches, 57.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1.1 (Lollipop), upgradable to Android 6.0.1 (Marshmallow)",
+      "Chipset": "Spreadtrum SC9830",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.2, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP, f/2.2"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio, RDS, recording",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2050 mAh, removable",
+      "Talk time": "Up to 12 h (3G)",
+      "Music play": "Up to 39 h"
+    },
+    "Misc": {
+      "Colors": "White, Black, Gold",
+      "Models": "SM-J120F, SM-J120H, SM-J120M, SM-J120M, SM-J120T, SM-J120G, SM-J120A, SM-J120FN, SM-J120AZ, SM-J120ZN, SM-J120W",
+      "SAR": "1.58 W/kg (head)     1.18 W/kg (body)     ",
+      "SAR EU": "0.70 W/kg (head)     0.59 W/kg (body)     ",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "spreadtrum-sc9830"
+}

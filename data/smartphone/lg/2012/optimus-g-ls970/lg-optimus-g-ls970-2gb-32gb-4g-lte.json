@@ -1,0 +1,105 @@
+{
+  "slug": "lg-optimus-g-ls970-2gb-32gb-4g-lte",
+  "name": "LG Optimus G LS970",
+  "brand": "lg",
+  "release_date": "2012-10-01",
+  "ram_gb": 2,
+  "battery_mah": 2100,
+  "weight_g": 144.9,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "optimus-g-ls970",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 62.9 cm",
+    "resolution": "768 x 1280 pixels, 5:3 ratio (~318 ppi density)",
+    "type": "True HD-IPS + LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "25",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE, HSPA"
+    },
+    "Launch": {
+      "Announced": "2012, October. Released 2012, Q4",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "131.9 x 68.9 x 8.5 mm (5.19 x 2.71 x 0.33 in)",
+      "Weight": "144.9 g (5.08 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "True HD-IPS + LCD",
+      "Size": "4.7 inches, 62.9 cm",
+      "Resolution": "768 x 1280 pixels, 5:3 ratio (~318 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Qualcomm Snapdragon S4",
+      "CPU": "Qualcomm APQ8064",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, A-GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Po 2100 mAh battery",
+      "Talk time": "Up to 13 h"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR": "1.26 W/kg (head)     1.27 W/kg (body)     ",
+      "Price": "About 480 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-snapdragon-s4"
+}

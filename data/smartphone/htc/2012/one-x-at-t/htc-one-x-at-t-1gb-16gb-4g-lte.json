@@ -1,0 +1,108 @@
+{
+  "slug": "htc-one-x-at-t-1gb-16gb-4g-lte",
+  "name": "HTC One X AT&T",
+  "brand": "htc",
+  "release_date": "2012-02-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 129.0,
+  "os": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-x-at-t",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+    "type": "Super IPS LCD2"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out)"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 ",
+      "4G bands": "4, 17",
+      "Speed": "HSPA 21.1/5.76 Mbps, LTE Cat3 100/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, February. Released 2012, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "134.8 x 69.9 x 8.9 mm (5.31 x 2.75 x 0.35 in)",
+      "Weight": "129 g (4.55 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super IPS LCD2",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean), Sense UI",
+      "Chipset": "Qualcomm MSM8960 Snapdragon S4 Plus",
+      "CPU": "Dual-core 1.5 GHz Krait",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, A-GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0 (MHL TV-out)"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Po 1800 mAh battery",
+      "Stand-by": "Up to 300 h",
+      "Talk time": "Up to 8 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Gray, White",
+      "SAR": "0.60 W/kg (head)     1.29 W/kg (body)     ",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus"
+}

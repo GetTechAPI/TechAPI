@@ -1,0 +1,113 @@
+{
+  "slug": "motorola-atrix-4g-1gb-16gb-3g",
+  "name": "Motorola ATRIX 4G",
+  "brand": "motorola",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1930,
+  "weight_g": 135.0,
+  "os": "Android 2.3 (Gingerbread), not upgradable to 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "atrix-4g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 44.1 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~275 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 ",
+      "Speed": "HSPA 14.4/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, January. Released 2011, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "117.8 x 63.5 x 11 mm (4.64 x 2.5 x 0.43 in)",
+      "Weight": "135 g (4.76 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.0 inches, 44.1 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~275 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 2.3 (Gingerbread), not upgradable to 4.1 (Jelly Bean)",
+      "Chipset": "Nvidia Tegra 2 AP20H",
+      "CPU": "Dual-core 1.0 GHz Cortex-A9",
+      "GPU": "ULP GeForce"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps, 1080p (via SW update)"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass",
+      "Browser": "HTML, Adobe Flash"
+    },
+    "Battery": {
+      "Type": "Removable Li-Po 1930 mAh battery",
+      "Stand-by": "Up to 400 h (2G) / Up to 350 h (3G)",
+      "Talk time": "Up to 8 h 50 min (2G) / Up to 9 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "MB860",
+      "SAR": "1.45 W/kg (head)     0.63 W/kg (body)     ",
+      "Price": "About 190 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "nvidia-tegra-2-ap20h"
+}

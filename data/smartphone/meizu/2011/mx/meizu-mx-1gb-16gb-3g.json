@@ -1,0 +1,108 @@
+{
+  "slug": "meizu-mx-1gb-16gb-3g",
+  "name": "Meizu MX",
+  "brand": "meizu",
+  "release_date": "2011-03-01",
+  "ram_gb": 1,
+  "battery_mah": 1600,
+  "weight_g": 139.0,
+  "os": "Android 2.3.5 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mx",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 47.6 cm",
+    "resolution": "640 x 960 pixels, 3:2 ratio (~288 ppi density)",
+    "type": "ASV"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, December. Released 2012, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "121.3 x 63.3 x 10.3 mm (4.78 x 2.49 x 0.41 in)",
+      "Weight": "139 g (4.90 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "ASV",
+      "Size": "4.0 inches, 47.6 cm",
+      "Resolution": "640 x 960 pixels, 3:2 ratio (~288 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 2.3.5 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Exynos",
+      "CPU": "Dual-core 1.4 GHz Cortex-A9",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.2, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 1600 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Black/White",
+      "Price": "About 270 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "exynos"
+}

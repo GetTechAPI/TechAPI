@@ -1,0 +1,109 @@
+{
+  "slug": "htc-rezound-1gb-16gb-4g-lte",
+  "name": "HTC Rezound",
+  "brand": "htc",
+  "release_date": "2011-11-01",
+  "ram_gb": 1,
+  "battery_mah": 1620,
+  "weight_g": 170.1,
+  "os": "Android 2.3.4 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich), Sense UI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "rezound",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)",
+    "type": "S-LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": null,
+    "usb": "microUSB 2.0 (MHL TV-out)"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "13 - Verizon",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE Class 13"
+    },
+    "Launch": {
+      "Announced": "2011, November. Released 2011, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "129 x 65.5 x 13.7 mm (5.08 x 2.58 x 0.54 in)",
+      "Weight": "170.1 g (6.00 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "S-LCD",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 2.3.4 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich), Sense UI 3",
+      "Chipset": "Qualcomm MSM8660 Snapdragon S3",
+      "CPU": "Dual-core 1.5 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot), 16 GB included",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "Dual-LED flash",
+      "Video": "1080p@30fps, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0 (MHL TV-out)"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1620 mAh battery",
+      "Stand-by": "Up to 261 h",
+      "Talk time": "Up to 6 h 24 min"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR": "1.25 W/kg (head)     1.12 W/kg (body)     ",
+      "SAR EU": "1.40 W/kg (head)     ",
+      "Price": "About 160 EUR"
+    },
+    "Tests": {
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8660-snapdragon-s3"
+}

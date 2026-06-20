@@ -1,0 +1,106 @@
+{
+  "slug": "lenovo-s60-2gb-8gb-4g-lte",
+  "name": "Lenovo S60",
+  "brand": "lenovo",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2150,
+  "weight_g": 128.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "s60",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3, 7, 20",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "143.3 x 72 x 7.7 mm (5.64 x 2.83 x 0.30 in)",
+      "Weight": "128 g (4.52 oz)",
+      "SIM": "Dual SIM (Micro-SIM/Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 5 (Lollipop)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 2150 mAh, non-removable",
+      "Stand-by": "Up to 336 h (2G) / Up to 240 h (3G)",
+      "Talk time": "Up to 30 h (2G) / Up to 16 h 30 min (3G)"
+    },
+    "Misc": {
+      "Colors": "Pearl White, Graphite Grey, Yellow",
+      "Models": "S60-a, S60",
+      "Price": "About 280 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

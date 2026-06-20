@@ -1,0 +1,108 @@
+{
+  "slug": "alcatel-flash-2-2gb-16gb-4g-lte",
+  "name": "alcatel Flash 2",
+  "brand": "alcatel",
+  "release_date": "2015-09-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 140.0,
+  "os": "Android 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "flash-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 7, 40",
+      "Speed": "HSPA 42.2/11.5 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, September. Released 2015, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "145.8 x 70.4 x 9 mm (5.74 x 2.77 x 0.35 in)",
+      "Weight": "140 g (4.94 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1 (Lollipop)",
+      "Chipset": "Mediatek MT6753 (28 nm)",
+      "CPU": "Octa-core 1.3 GHz Cortex-A53",
+      "GPU": "Mali-T720MP3"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.0, PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Stand-by": "Up to 600 h",
+      "Talk time": "Up to 25 h",
+      "Music play": "Up to 30 h"
+    },
+    "Misc": {
+      "Colors": "Volcanic Grey, Mica White",
+      "Models": "7049D",
+      "Price": "About 230 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6753"
+}

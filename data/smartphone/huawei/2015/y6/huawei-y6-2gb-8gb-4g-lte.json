@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-y6-2gb-8gb-4g-lte",
+  "name": "Huawei Y6",
+  "brand": "huawei",
+  "release_date": "2015-07-01",
+  "ram_gb": 2,
+  "battery_mah": 2200,
+  "weight_g": 125.0,
+  "os": "Android 5.1 (Lollipop), EMUI 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "y6",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.1, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2 - SCL-TL00H",
+      "3G bands": "HSDPA 900 / 2100 - SCL-AL00",
+      "4G bands": "38, 39, 40 - SCL-TL00H",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, July. Released 2015, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "143.5 x 72.1 x 8.5 mm (5.65 x 2.84 x 0.33 in)",
+      "Weight": "125 g (4.41 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.1 (Lollipop), EMUI 3.1",
+      "Chipset": "Qualcomm MSM8909 Snapdragon 210 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 8GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, dual speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.1, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 2200 mAh, removable",
+      "Stand-by": "Up to 300 h (3G)",
+      "Talk time": "Up to 11 h (3G)"
+    },
+    "Misc": {
+      "Colors": "White, Black, Gold",
+      "Models": "SCC-U21, SCL-U31, SCL-L21, SCL-L01, SCL-L04, SCL-AL00, HW-SCL-L32, SCL-TL00, SCL-L03, SCL-TL00H",
+      "Price": "About 90 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8909-snapdragon-210"
+}

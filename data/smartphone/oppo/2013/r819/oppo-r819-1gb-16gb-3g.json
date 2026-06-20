@@ -1,0 +1,109 @@
+{
+  "slug": "oppo-r819-1gb-16gb-3g",
+  "name": "Oppo R819",
+  "brand": "oppo",
+  "release_date": "2013-08-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 110.0,
+  "os": "Android 4.2.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "r819",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "3.0",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 - SIM 1 & SIM 2",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2013, August. Released 2013, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "136.5 x 68 x 7.3 mm (5.37 x 2.68 x 0.29 in)",
+      "Weight": "110 g (3.88 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2.1 (Jelly Bean)",
+      "Chipset": "Mediatek MT6589 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.9 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "3.0",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White",
+      "Price": "About 250 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6589"
+}

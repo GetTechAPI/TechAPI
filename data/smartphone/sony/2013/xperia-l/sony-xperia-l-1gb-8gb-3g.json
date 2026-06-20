@@ -1,0 +1,117 @@
+{
+  "slug": "sony-xperia-l-1gb-8gb-3g",
+  "name": "Sony Xperia L",
+  "brand": "sony",
+  "release_date": "2013-03-01",
+  "ram_gb": 1,
+  "battery_mah": 1750,
+  "weight_g": 137.0,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 4.2.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-l",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~228 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - C2104, C2105",
+      "3G bands": "HSDPA 900 / 2100 - C2105",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, March. Released 2013, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "128.7 x 65 x 9.7 mm (5.07 x 2.56 x 0.38 in)",
+      "Weight": "137 g (4.83 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~228 ppi density)",
+      "Protection": "Scratch-resistant glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), upgradable to 4.2.2 (Jelly Bean)",
+      "Chipset": "Qualcomm MSM8230 Snapdragon 400 (28 nm)",
+      "CPU": "Dual-core 1.0 GHz Krait",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB (5.8GB user available), 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, AF",
+      "Features": "LED flash, HDR",
+      "Video": "720p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1750 mAh, removable",
+      "Stand-by": "Up to 498 h (2G) / Up to 454 h (3G)",
+      "Talk time": "Up to 8 h 30 min (2G) / Up to 9 h (3G)",
+      "Music play": "Up to 43 h 12 min"
+    },
+    "Misc": {
+      "Colors": "Black, White, Red",
+      "Models": "C2105, C2104",
+      "SAR": "0.79 W/kg (head)     1.38 W/kg (body)     ",
+      "SAR EU": "0.69 W/kg (head)     ",
+      "Price": "About 130 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    5,
+    8
+  ],
+  "soc": "qualcomm-msm8230-snapdragon-400"
+}

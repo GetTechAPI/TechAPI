@@ -1,0 +1,121 @@
+{
+  "slug": "htc-one-a9-3gb-32gb-4g-lte",
+  "name": "HTC One A9",
+  "brand": "htc",
+  "release_date": "2015-09-01",
+  "ram_gb": 3,
+  "battery_mah": 2150,
+  "weight_g": 143.0,
+  "os": "Android 6.0 (Marshmallow), upgradable to 7.0 (Nougat), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-a9",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "4.1, A2DP, aptX",
+    "nfc": "Yes (payments only)",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - Americas",
+      "4G bands": "2, 3, 4, 5, 7, 12, 13, 17, 29 - Americas",
+      "Speed": "HSPA, LTE Cat7 (2CA) 300/100 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, September. Released 2015, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "145.8 x 70.8 x 7.3 mm (5.74 x 2.79 x 0.29 in)",
+      "Weight": "143 g (5.04 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow), upgradable to 7.0 (Nougat), Sense UI",
+      "Chipset": "Qualcomm MSM8952 Snapdragon 617 (28 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.2 GHz Cortex-A53)",
+      "GPU": "Adreno 405"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM, 32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.0, AF, OIS",
+      "Features": "Dual-LED dual-tone flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "4 MP, f/2.0, 27mm (wide), 1/3\", 2µm",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "4.1, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes (payments only)",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2150 mAh, non-removable",
+      "Charging": "18W wired, QC3",
+      "Stand-by": "Up to 432 h (3G)",
+      "Talk time": "Up to 16 h (3G)",
+      "Music play": "Up to 60 h"
+    },
+    "Misc": {
+      "Colors": "Carbon Gray, Opal Silver, Topaz Gold, Deep Garnet, Pink",
+      "Models": "One A9, 2PQ93, A9u, 2PQ910",
+      "SAR EU": "0.41 W/kg (head)     ",
+      "Price": "About 300 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 644Basemark X: 6617",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "qualcomm-msm8952-snapdragon-617"
+}

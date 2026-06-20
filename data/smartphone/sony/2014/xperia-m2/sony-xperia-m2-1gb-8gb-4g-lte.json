@@ -1,0 +1,118 @@
+{
+  "slug": "sony-xperia-m2-1gb-8gb-4g-lte",
+  "name": "Sony Xperia M2",
+  "brand": "sony",
+  "release_date": "2014-02-01",
+  "ram_gb": 1,
+  "battery_mah": 2300,
+  "weight_g": 148.0,
+  "os": "Android 4.3 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-m2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.8 inches, 63.5 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~229 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - all models",
+      "3G bands": "HSDPA 850 / 900 / 2100 - D2303",
+      "4G bands": "1, 3, 5, 7, 8, 20 - D2303",
+      "Speed": "HSPA 42.2(D2303, D2306)/21.1(D2305)/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "139.7 x 71.1 x 8.6 mm (5.5 x 2.80 x 0.34 in)",
+      "Weight": "148 g (5.22 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.8 inches, 63.5 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~229 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm) (D2303, D2306)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "VGA",
+      "Video": "480p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2300 mAh, non-removable",
+      "Stand-by": "Up to 588 h (2G) / Up to 633 h (3G)",
+      "Talk time": "Up to 13 h 25 min (2G) / Up to 14 h 36 min (3G)",
+      "Music play": "Up to 58 h 25 min"
+    },
+    "Misc": {
+      "Colors": "Black, White, Purple",
+      "Models": "D2303, D2305, D2306",
+      "SAR": "0.70 W/kg (head)     1.13 W/kg (body)     ",
+      "SAR EU": "0.77 W/kg (head)     0.78 W/kg (body)     ",
+      "Price": "About 170 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

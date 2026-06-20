@@ -1,0 +1,104 @@
+{
+  "slug": "htc-one-vx-1gb-8gb-4g-lte",
+  "name": "HTC One VX",
+  "brand": "htc",
+  "release_date": "2012-10-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 124.7,
+  "os": "Android 4.0 (Ice Cream Sandwich), Sense UI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-vx",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "Super LCD2"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 ",
+      "4G bands": "4, 17",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, October. Released 2012, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "133.5 x 67.6 x 9.2 mm (5.26 x 2.66 x 0.36 in)",
+      "Weight": "124.7 g (4.37 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super LCD2",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich), Sense UI 4",
+      "Chipset": "Qualcomm MSM8930 Snapdragon 400 (28 nm)",
+      "CPU": "Dual-core 1.2 GHz Krait",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1800 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White, Black, Gray",
+      "SAR": "1.16 W/kg (head)     1.23 W/kg (body)     ",
+      "Price": "About 290 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8930-snapdragon-400"
+}

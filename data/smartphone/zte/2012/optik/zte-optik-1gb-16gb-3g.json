@@ -1,0 +1,100 @@
+{
+  "slug": "zte-optik-1gb-16gb-3g",
+  "name": "ZTE Optik",
+  "brand": "zte",
+  "release_date": "2012-02-01",
+  "ram_gb": 1,
+  "battery_mah": 4000,
+  "weight_g": 400.0,
+  "os": "Android 3.2 (Honeycomb)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "optik",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 142.1 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "Speed": "EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, February. Released 2012, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "193 x 119.4 x 13.2 mm (7.60 x 4.70 x 0.52 in)",
+      "Weight": "400 g (14.11 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "7.0 inches, 142.1 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~216 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 3.2 (Honeycomb)",
+      "Chipset": "Qualcomm MSM8660 Snapdragon S3",
+      "CPU": "Dual-core 1.2 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 4000 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 230 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8660-snapdragon-s3"
+}

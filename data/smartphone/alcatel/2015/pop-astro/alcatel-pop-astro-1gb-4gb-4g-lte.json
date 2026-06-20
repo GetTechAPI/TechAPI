@@ -1,0 +1,105 @@
+{
+  "slug": "alcatel-pop-astro-1gb-4gb-4g-lte",
+  "name": "alcatel Pop Astro",
+  "brand": "alcatel",
+  "release_date": "2015-04-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 144.9,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "pop-astro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 ",
+      "4G bands": "2, 4, 12",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, April. Released 2015, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "133.6 x 65.3 x 9.9 mm (5.26 x 2.57 x 0.39 in)",
+      "Weight": "144.9 g (5.11 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat)",
+      "Chipset": "Mediatek MT6732 (28 nm)",
+      "CPU": "Quad-core 1.5 GHz Cortex-A53",
+      "GPU": "Mali-T760MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, removable",
+      "Stand-by": "Up to 288 h (3G)",
+      "Talk time": "Up to 11 h (3G)"
+    },
+    "Misc": {
+      "Colors": "White",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "mediatek-mt6732"
+}

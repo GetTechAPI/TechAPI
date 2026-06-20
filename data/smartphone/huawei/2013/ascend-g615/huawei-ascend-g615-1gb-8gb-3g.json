@@ -1,0 +1,107 @@
+{
+  "slug": "huawei-ascend-g615-1gb-8gb-3g",
+  "name": "Huawei Ascend G615",
+  "brand": "huawei",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2150,
+  "weight_g": 145.0,
+  "os": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ascend-g615",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 54.5 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~330 ppi density)",
+    "type": "Super IPS+ LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA",
+    "bluetooth": "3.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, January. Released 2013, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "134 x 67.5 x 10.5 mm (5.28 x 2.66 x 0.41 in)",
+      "Weight": "145 g (5.11 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super IPS+ LCD",
+      "Size": "4.5 inches, 54.5 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~330 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean)",
+      "Chipset": "Huawei K3V2",
+      "CPU": "Quad-core 1.4 GHz Cortex-A9",
+      "GPU": "Vivante GC4000"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "Dual-LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 2150 mAh, removable",
+      "Stand-by": "Up to 360 h",
+      "Talk time": "Up to 11 h"
+    },
+    "Misc": {
+      "Colors": "Metallic black, Ceramic white",
+      "Models": "G615-U10",
+      "SAR EU": "0.69 W/kg (head)     ",
+      "Price": "About 250 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "huawei-k3v2"
+}

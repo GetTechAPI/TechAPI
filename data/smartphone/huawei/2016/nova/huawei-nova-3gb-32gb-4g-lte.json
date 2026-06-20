@@ -1,0 +1,115 @@
+{
+  "slug": "huawei-nova-3gb-32gb-4g-lte",
+  "name": "Huawei nova",
+  "brand": "huawei",
+  "release_date": "2016-09-01",
+  "ram_gb": 3,
+  "battery_mah": 3020,
+  "weight_g": 146.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat), EMUI 4.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nova",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - CAN-L01L11",
+      "4G bands": "1, 3, 7, 8, 20, 38 - CAN-L01L11",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2016, September. Released 2016, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "141.2 x 69.1 x 7.1 mm (5.56 x 2.72 x 0.28 in)",
+      "Weight": "146 g (5.15 oz)",
+      "Build": "Glass front, aluminum back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat), EMUI 4.1",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, 1/2.9\", 1.25µm, PDAF",
+      "Features": "HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3020 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Prestige Gold, Mystic Silver, Titanium Grey, Obsidian Black",
+      "Models": "CAN-L01L11, CAN-L02L12, CAN-L03L13, CAN-L11, CAN-L01, CAN-L12, CAZ-AL10, CAZ-TL10, CAN-L13",
+      "Price": "About 200 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 1218Basemark X: 10511",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8953-snapdragon-625"
+}

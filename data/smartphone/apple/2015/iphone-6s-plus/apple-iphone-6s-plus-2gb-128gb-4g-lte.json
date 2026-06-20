@@ -1,0 +1,123 @@
+{
+  "slug": "apple-iphone-6s-plus-2gb-128gb-4g-lte",
+  "name": "Apple iPhone 6s Plus",
+  "brand": "apple",
+  "release_date": "2015-09-09",
+  "ram_gb": 2,
+  "battery_mah": 2750,
+  "weight_g": 192.0,
+  "os": "iOS 9, upgradable to iOS 15.8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "iphone-6s-plus",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes (Apple Pay only)",
+    "usb": "Lightning, USB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30 - A1633",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, September 09. Released 2015, September 25",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "158.2 x 77.9 x 7.3 mm (6.23 x 3.07 x 0.29 in)",
+      "Weight": "192 g (6.77 oz)",
+      "Build": "Glass front (Corning-made glass), aluminum back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+      "Protection": "Ion-strengthened glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 9, upgradable to iOS 15.8.1",
+      "Chipset": "Apple A9 (14/16 nm - maker dependant)",
+      "CPU": "Dual-core 1.84 GHz Twister",
+      "GPU": "PowerVR GT7600 (six-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM, 64GB 2GB RAM, 128GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/2.2, 29mm (standard), 1/3.0\", 1.22µm, PDAF, OIS",
+      "Features": "Dual-LED dual-tone flash, HDR",
+      "Video": "4K@30fps, 1080p@60fps, 1080p@120fps, 720p@240fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2, 31mm (standard)",
+      "Features": "Face detection, HDR, panorama",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, GALILEO, QZSS",
+      "NFC": "Yes (Apple Pay only)",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2750 mAh, non-removable (10.45 Wh)",
+      "Stand-by": "Up to 384 h (3G)",
+      "Talk time": "Up to 24 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Space Gray, Silver, Gold, Rose Gold",
+      "Models": "A1634, A1687, A1690, A1699, iPhone8,2",
+      "SAR": "1.12 W/kg (head)     1.14 W/kg (body)     ",
+      "SAR EU": "0.93 W/kg (head)     0.98 W/kg (body)     ",
+      "Price": "About 240 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 2261",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "soc": "apple-a9"
+}

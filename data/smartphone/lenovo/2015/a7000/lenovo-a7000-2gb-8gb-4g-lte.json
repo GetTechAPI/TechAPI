@@ -1,0 +1,108 @@
+{
+  "slug": "lenovo-a7000-2gb-8gb-4g-lte",
+  "name": "Lenovo A7000",
+  "brand": "lenovo",
+  "release_date": "2015-03-02",
+  "ram_gb": 2,
+  "battery_mah": 2900,
+  "weight_g": 140.0,
+  "os": "Android 5.0.2 (Lollipop), upgradable to 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "a7000",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 2100 ",
+      "4G bands": "1, 3, 7, 20, 40 - Data only, no voice",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, March 02. Released 2015, April 07",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "152.6 x 76.2 x 8 mm (6.01 x 3.00 x 0.31 in)",
+      "Weight": "140 g (4.94 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.0.2 (Lollipop), upgradable to 6.0 (Marshmallow)",
+      "Chipset": "Mediatek MT6752m",
+      "CPU": "Octa-core 1.5 GHz Cortex-A53",
+      "GPU": "Mali-T760MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.2, AF",
+      "Features": "Dual-LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 2900 mAh, removable",
+      "Stand-by": "Up to 264 h (2G) / Up to 264 h (3G)",
+      "Talk time": "Up to 39 h (2G) / Up to 16 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Onyx Black, Pearl White, Yellow",
+      "Models": "A7000-a",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "mediatek-mt6752m"
+}

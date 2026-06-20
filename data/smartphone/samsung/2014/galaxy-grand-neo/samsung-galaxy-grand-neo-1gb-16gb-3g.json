@@ -1,0 +1,115 @@
+{
+  "slug": "samsung-galaxy-grand-neo-1gb-16gb-3g",
+  "name": "Samsung Galaxy Grand Neo",
+  "brand": "samsung",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2100,
+  "weight_g": 163.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-grand-neo",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.01 inches, 71.4 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~186 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - I9060, I9060I",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, January. Released 2014, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "143.7 x 77.1 x 9.6 mm (5.66 x 3.04 x 0.38 in)",
+      "Weight": "163 g (5.75 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Single SIM (Mini-SIM) or Dual SIM (Mini-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "5.01 inches, 71.4 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~186 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean)",
+      "Chipset": "Broadcom BCM23550",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Broadcom VideoCore IV"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.6, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA/ 2 MP, GT-I9060I"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2100 mAh, removable",
+      "Stand-by": "Up to 430 h",
+      "Talk time": "Up to 11 h",
+      "Music play": "Up to 38 h"
+    },
+    "Misc": {
+      "Colors": "White, Midnight Black, Orange, Lime Green",
+      "Models": "GT-I9060I, GT-I9062, GT-I9060, GT-I9060C, GT-I9060M, GT-I9060L, GT-I9168I",
+      "SAR EU": "0.21 W/kg (head)     0.32 W/kg (body)     ",
+      "Price": "About 130 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "broadcom-bcm23550"
+}

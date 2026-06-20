@@ -1,0 +1,108 @@
+{
+  "slug": "microsoft-lumia-532-1gb-8gb-3g",
+  "name": "Microsoft Lumia 532",
+  "brand": "microsoft",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1560,
+  "weight_g": 136.3,
+  "os": "Microsoft Windows Phone 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "lumia-532",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 45.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+    "type": "IPS LCD,"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "118.9 x 65.5 x 11.6 mm (4.68 x 2.58 x 0.46 in)",
+      "Weight": "136.3 g (4.80 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD,",
+      "Size": "4.0 inches, 45.5 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+    },
+    "Platform": {
+      "OS": "Microsoft Windows Phone 8.1",
+      "Chipset": "Qualcomm MSM8212 Snapdragon 200 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.4, 28mm (wide)",
+      "Video": "480p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA",
+      "Video": "480p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "A-GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1560 mAh, removable",
+      "Stand-by": "Up to 528 h (2G) / Up to 528 h (3G)",
+      "Talk time": "Up to 21 h (2G) / Up to 12 h (3G)",
+      "Music play": "Up to 61 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Green, Orange",
+      "Price": "About 90 EUR"
+    },
+    "Tests": {
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8212-snapdragon-200"
+}

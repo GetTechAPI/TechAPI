@@ -1,0 +1,107 @@
+{
+  "slug": "lg-k10-2017-2gb-32gb-4g-lte",
+  "name": "LG K10 (2017)",
+  "brand": "lg",
+  "release_date": "2016-02-01",
+  "ram_gb": 2,
+  "battery_mah": 2800,
+  "weight_g": 144.0,
+  "os": "Android 7.0 (Nougat), upgradable to Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "k10-2017",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.3 inches, 77.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~277 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.2(Europe)/4.1(India), A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Europe",
+      "4G bands": "1, 3, 5, 7, 8, 20 - Europe",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, December. Released 2017, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "148.7 x 75.3 x 7.9 mm (5.85 x 2.96 x 0.31 in)",
+      "Weight": "144 g (5.08 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.3 inches, 77.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~277 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 7.0 (Nougat), upgradable to Android 8.0 (Oreo)",
+      "Chipset": "Mediatek MT6750 (28 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53)",
+      "GPU": "Mali-T860MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, 1/3.1\", 1.12µm, AF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.4, 1/5.0\", 1.12µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.2(Europe)/4.1(India), A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS, recording",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2800 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black, Gold, Titan",
+      "Models": "M250, X400, LGM-K121K, LGM-K121L",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "mediatek-mt6750"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "htc-one-m8-for-windows-cdma-2gb-32gb-4g-lte",
+  "name": "HTC One (M8) for Windows (CDMA)",
+  "brand": "htc",
+  "release_date": "2014-08-01",
+  "ram_gb": 2,
+  "battery_mah": 2600,
+  "weight_g": 160.0,
+  "os": "Microsoft Windows Phone 8.1.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-m8-for-windows-cdma",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "Super LCD3"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2014, August. Released 2014, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "146.4 x 70.6 x 9.4 mm (5.76 x 2.78 x 0.37 in)",
+      "Weight": "160 g (5.64 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "Super LCD3",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+      "Protection": "To be confirmed"
+    },
+    "Platform": {
+      "OS": "Microsoft Windows Phone 8.1.1",
+      "Chipset": "Qualcomm MSM8974AB Snapdragon 801 (28 nm)",
+      "CPU": "Quad-core 2.3 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "4 MP, f/2.0, 27mm (wide), 1/3.0\", 2µm, AF",
+      "Features": "Dual-LED dual-tone flash, panorama, HDR",
+      "Video": "1080p@60fps, 720p@60fps, HDR, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2600 mAh, non-removable",
+      "Stand-by": "Up to 387 h",
+      "Talk time": "Up to 24 h"
+    },
+    "Misc": {
+      "Colors": "Gunmetal Gray",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8974ab-snapdragon-801"
+}

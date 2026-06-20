@@ -1,0 +1,118 @@
+{
+  "slug": "xiaomi-mi-note-2-6gb-128gb-4g-lte",
+  "name": "Xiaomi Mi Note 2",
+  "brand": "xiaomi",
+  "release_date": "2016-10-01",
+  "ram_gb": 6,
+  "battery_mah": 4070,
+  "weight_g": 166.0,
+  "os": "Android 6.0 (Marshmallow), MIUI 8.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mi-note-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 89.6 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~386 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 29, 30, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat12 600/150 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, October. Released 2016, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "156.2 x 77.3 x 7.6 mm (6.15 x 3.04 x 0.30 in)",
+      "Weight": "166 g (5.86 oz)",
+      "Build": "Glass front, glass back, aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "5.7 inches, 89.6 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~386 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow), MIUI 8.2",
+      "Chipset": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+      "CPU": "Quad-core (2x2.35 GHz Kryo & 2x1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 4GB RAM, 64GB 6GB RAM, 128GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "22.5 MP, f/2.0, 1/2.6\", 1.0µm, PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps (gyro-EIS)"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, AF",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4070 mAh, non-removable",
+      "Charging": "18W wired, QC3"
+    },
+    "Misc": {
+      "Colors": "Black, Gold, Silver",
+      "Models": "2015213",
+      "SAR": "0.78 W/kg (head)     1.38 W/kg (body)     ",
+      "Price": "About 310 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nGFXBench: 20fps (ES 3.1 onscreen)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-msm8996-snapdragon-821"
+}

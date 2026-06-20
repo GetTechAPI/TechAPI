@@ -1,0 +1,106 @@
+{
+  "slug": "samsung-galaxy-note-t879-1gb-16gb-3g",
+  "name": "Samsung Galaxy Note T879",
+  "brand": "samsung",
+  "release_date": "2012-03-01",
+  "ram_gb": 1,
+  "battery_mah": 2500,
+  "weight_g": 180.0,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-note-t879",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.3 inches, 81.4 cm",
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~285 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP, EDR",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, March. Released 2012, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "146.8 x 83.1 x 9.7 mm (5.78 x 3.27 x 0.38 in)",
+      "Weight": "180 g (6.35 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.3 inches, 81.4 cm",
+      "Resolution": "800 x 1280 pixels, 16:10 ratio (~285 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0.4 (Ice Cream Sandwich)",
+      "Chipset": "Qualcomm APQ8060 Snapdragon S3",
+      "CPU": "Dual-core 1.5 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP, EDR",
+      "Positioning": "GPS, A-GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 2500 mAh battery",
+      "Stand-by": "Up to 240 h",
+      "Talk time": "10 h"
+    },
+    "Misc": {
+      "Colors": "Navy Blue, Ceramic White, Soft Pink",
+      "SAR": "0.19 W/kg (head)     1.13 W/kg (body)     ",
+      "SAR EU": "0.17 W/kg (head)     ",
+      "Price": "About 350 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-apq8060-snapdragon-s3"
+}

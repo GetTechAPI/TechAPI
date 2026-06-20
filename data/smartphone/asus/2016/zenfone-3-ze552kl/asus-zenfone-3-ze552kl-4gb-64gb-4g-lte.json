@@ -1,0 +1,116 @@
+{
+  "slug": "asus-zenfone-3-ze552kl-4gb-64gb-4g-lte",
+  "name": "Asus Zenfone 3 ZE552KL",
+  "brand": "asus",
+  "release_date": "2016-05-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 155.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat), ZenUI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zenfone-3-ze552kl",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "Super IPS+"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, EDR, LE",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Global",
+      "4G bands": "1, 2, 3, 5, 7, 8, 20 - Global",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps (Global), LTE (2CA) Cat6 300/50 Mbps (Taiwan)"
+    },
+    "Launch": {
+      "Announced": "2016, May. Released 2016, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "152.6 x 77.4 x 7.7 mm (6.01 x 3.05 x 0.30 in)",
+      "Weight": "155 g (5.47 oz)",
+      "Build": "Glass front (Gorilla Glass 3), glass back (Gorilla Glass 3), aluminum frame",
+      "SIM": "Hybrid Dual SIM (Nano-SIM/ Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super IPS+",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat), ZenUI 3",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/2.0, PDAF, 3-axis OIS",
+      "Features": "Laser AF, Dual-LED dual-tone flash, panorama, HDR",
+      "Video": "4K@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Sapphire Black, Moonlight White, Shimmer Gold",
+      "Models": "Z012DB, Z012D, Z012DA, Z012DC, Z012S, Z012DE",
+      "Price": "About 330 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 1205",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "qualcomm-msm8953-snapdragon-625"
+}

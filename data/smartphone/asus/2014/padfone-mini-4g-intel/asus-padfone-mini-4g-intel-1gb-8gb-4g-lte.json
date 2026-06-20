@@ -1,0 +1,106 @@
+{
+  "slug": "asus-padfone-mini-4g-intel-1gb-8gb-4g-lte",
+  "name": "Asus PadFone mini 4G (Intel)",
+  "brand": "asus",
+  "release_date": "2014-09-01",
+  "ram_gb": 1,
+  "battery_mah": 2060,
+  "weight_g": 150.0,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "padfone-mini-4g-intel",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 28 - Taiwan",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, September. Released 2014, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "132 x 66.7 x 6.3 - 12.5 mm",
+      "Weight": "150 g (5.29 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat)",
+      "Chipset": "Intel Atom Z2560",
+      "CPU": "Dual-core 1.6 GHz",
+      "GPU": "PowerVR SGX544MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2060 mAh, removable",
+      "Stand-by": "Up to 388 h (2G) / Up to 374 h (3G)",
+      "Talk time": "Up to 29 h (2G) / Up to 17 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Charcoal Black, Pearl White, Cherry Red",
+      "Price": "About 300 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "intel-atom-z2560"
+}

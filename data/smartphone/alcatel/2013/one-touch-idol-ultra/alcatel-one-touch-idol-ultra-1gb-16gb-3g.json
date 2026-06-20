@@ -1,0 +1,106 @@
+{
+  "slug": "alcatel-one-touch-idol-ultra-1gb-16gb-3g",
+  "name": "alcatel One Touch Idol Ultra",
+  "brand": "alcatel",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 115.0,
+  "os": "Android 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-touch-idol-ultra",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.65 inches, 59.6 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~316 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 7.2/0.384 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, January. Released 2013, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "134.4 x 68.5 x 6.5 mm (5.29 x 2.70 x 0.26 in)",
+      "Weight": "115 g (4.06 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "4.65 inches, 59.6 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~316 ppi density)",
+      "Protection": "Asahi Dragontrail Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean)",
+      "Chipset": "Mediatek MT6577 (40 nm)",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "PowerVR SGX531T"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "No, included adaptor for 3.5mm"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1800 mAh, non-removable",
+      "Stand-by": "Up to 400 h (2G) / Up to 400 h (3G)",
+      "Talk time": "Up to 12 h (2G) / Up to 7 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, Red, Yellow, Green, Turquoise",
+      "SAR EU": "0.76 W/kg (head)     1.37 W/kg (body)     ",
+      "Price": "About 270 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6577"
+}

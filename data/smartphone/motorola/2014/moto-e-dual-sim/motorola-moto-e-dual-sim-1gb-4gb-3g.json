@@ -1,0 +1,110 @@
+{
+  "slug": "motorola-moto-e-dual-sim-1gb-4gb-3g",
+  "name": "Motorola Moto E Dual SIM",
+  "brand": "motorola",
+  "release_date": "2014-05-01",
+  "ram_gb": 1,
+  "battery_mah": 1980,
+  "weight_g": 142.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "moto-e-dual-sim",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "IPS LCD,"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, LE, aptX",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 2100 - XT1022",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, May. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "124.8 x 64.8 x 12.3 mm (4.91 x 2.55 x 0.48 in)",
+      "Weight": "142 g (5.01 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD,",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 5.1 (Lollipop)",
+      "Chipset": "Qualcomm Snapdragon 200 (28 nm)",
+      "CPU": "Dual-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.4",
+      "Features": "Panorama, HDR",
+      "Video": "480p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, LE, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1980 mAh, non-removable",
+      "Talk time": "Up to 24 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "XT1022, XT1025",
+      "SAR": "1.50 W/kg (head)     1.36 W/kg (body)     ",
+      "SAR EU": "0.76 W/kg (head)     ",
+      "Price": "About 90 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-snapdragon-200"
+}

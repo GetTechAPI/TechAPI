@@ -1,0 +1,106 @@
+{
+  "slug": "zte-grand-xmax-1gb-8gb-3g",
+  "name": "ZTE Grand Xmax",
+  "brand": "zte",
+  "release_date": "2014-10-01",
+  "ram_gb": 1,
+  "battery_mah": 3200,
+  "weight_g": 171.8,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "grand-xmax",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 99.2 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, October. Released 2014, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "162.1 x 83.1 x 7.9 mm (6.38 x 3.27 x 0.31 in)",
+      "Weight": "171.8 g (6.07 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "6.0 inches, 99.2 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~245 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat)",
+      "Chipset": "Qualcomm MSM8212 Snapdragon 200 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3200 mAh, non-removable",
+      "Charging": "10W wired, QC1",
+      "Stand-by": "Up to 860 h",
+      "Talk time": "Up to 6 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Black"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8212-snapdragon-200"
+}

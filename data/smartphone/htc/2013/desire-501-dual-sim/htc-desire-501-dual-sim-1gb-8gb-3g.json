@@ -1,0 +1,103 @@
+{
+  "slug": "htc-desire-501-dual-sim-1gb-8gb-3g",
+  "name": "HTC Desire 501 dual sim",
+  "brand": "htc",
+  "release_date": "2013-02-01",
+  "ram_gb": 1,
+  "battery_mah": 2100,
+  "weight_g": 130.0,
+  "os": "Android 4.1 (Jelly Bean), Sense UI 4+",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "desire-501-dual-sim",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 52.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+    "type": "Super LCD2"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, DLNA",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 14.4/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, December. Released 2014, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "128.5 x 66.7 x 9.8 mm (5.06 x 2.63 x 0.39 in)",
+      "Weight": "130 g (4.59 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super LCD2",
+      "Size": "4.3 inches, 52.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), Sense UI 4+",
+      "Chipset": "NovaThor U8500",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "Mali-400"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, HDR",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "2.1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, DLNA",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2100 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black, White, Pink",
+      "SAR": "0.51 W/kg (head)     0.56 W/kg (body)     ",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "novathor-u8500"
+}

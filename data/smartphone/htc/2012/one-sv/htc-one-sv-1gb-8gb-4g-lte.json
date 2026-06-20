@@ -1,0 +1,110 @@
+{
+  "slug": "htc-one-sv-1gb-8gb-4g-lte",
+  "name": "HTC One SV",
+  "brand": "htc",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 122.0,
+  "os": "Android 4.0.4 (Ice Cream Sandwich), upgradable to 4.1.2 (Jelly Bean), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-sv",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 52.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+    "type": "Super LCD2"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out)"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 1900 / 2100 - EU",
+      "4G bands": "3, 7, 20 - EU",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, November. Released 2013, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "128 x 66.9 x 9.2 mm (5.04 x 2.63 x 0.36 in)",
+      "Weight": "122 g (4.30 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super LCD2",
+      "Size": "4.3 inches, 52.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+      "Protection": "Corning Gorilla Glass 2"
+    },
+    "Platform": {
+      "OS": "Android 4.0.4 (Ice Cream Sandwich), upgradable to 4.1.2 (Jelly Bean), Sense UI",
+      "Chipset": "Qualcomm MSM8960 Snapdragon S4 Plus",
+      "CPU": "Dual-core 1.2 GHz Krait",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.6 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0 (MHL TV-out)"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1800 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "SAR": "0.61 W/kg (head)     0.93 W/kg (body)     ",
+      "Price": "About 200 EUR"
+    },
+    "Tests": {
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus"
+}

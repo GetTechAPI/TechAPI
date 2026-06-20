@@ -1,0 +1,108 @@
+{
+  "slug": "lg-zero-2gb-16gb-4g-lte",
+  "name": "LG Zero",
+  "brand": "lg",
+  "release_date": "2015-09-01",
+  "ram_gb": 2,
+  "battery_mah": 2050,
+  "weight_g": 150.0,
+  "os": "Android 5.1.1 (Lollipop), upgradаble to 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zero",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.1, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20 - H650E",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, September. Released 2015, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "142 x 71.8 x 7.4 mm (5.59 x 2.83 x 0.29 in)",
+      "Weight": "150 g (5.29 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 5.1.1 (Lollipop), upgradаble to 6.0 (Marshmallow)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot) - F620S",
+      "Internal": "16GB 1.5GB RAM (H650E), 16GB 2GB RAM (F620S)"
+    },
+    "Main Camera": {
+      "Single": "13 MP, 1/3.0\", AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.1, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2050 mAh, non-removable",
+      "Stand-by": "Up to 340 h (2G) / Up to 340 h (3G)",
+      "Talk time": "Up to 6 h (2G) / Up to 10 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Gold, Silver, Blue, Black",
+      "Models": "H650, F620, F620L, F620K",
+      "Price": "About 190 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

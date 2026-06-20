@@ -1,0 +1,106 @@
+{
+  "slug": "zte-nubia-z11-mini-s-4gb-128gb-4g-lte",
+  "name": "ZTE nubia Z11 mini S",
+  "brand": "zte",
+  "release_date": "2016-10-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 158.0,
+  "os": "Android 6 (Marshmallow), nubia UI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "nubia-z11-mini-s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 74.5 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "USB Type-C, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2016, October. Released 2016, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "146.1 x 72.1 x 7.6 mm (5.75 x 2.84 x 0.30 in)",
+      "Weight": "158 g (5.57 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.2 inches, 74.5 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 6 (Marshmallow), nubia UI 4",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "23 MP, f/2.0, 1/2.6\", 1.0µm, PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "13 MP, f/2.2, 1/3\", 1.22µm, PDAF"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "USB Type-C, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "18W wired"
+    },
+    "Misc": {
+      "Colors": "Black, White, Gold",
+      "Models": "NX549J",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-msm8953-snapdragon-625"
+}

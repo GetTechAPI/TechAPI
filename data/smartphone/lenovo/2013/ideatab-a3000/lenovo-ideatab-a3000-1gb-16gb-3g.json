@@ -1,0 +1,106 @@
+{
+  "slug": "lenovo-ideatab-a3000-1gb-16gb-3g",
+  "name": "Lenovo IdeaTab A3000",
+  "brand": "lenovo",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 3500,
+  "weight_g": 339.0,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ideatab-a3000",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": " HSDPA (optional)",
+      "Speed": "HSPA",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2013, January. Released 2013, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "194 x 120 x 11 mm (7.64 x 4.72 x 0.43 in)",
+      "Weight": "339 g (11.96 oz)",
+      "SIM": "Single SIM or Dual SIM (dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), upgradable to 4.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT8125 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 3500 mAh, non-removable",
+      "Stand-by": "Up to 336 h",
+      "Talk time": "Up to 8 h"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "A3000-H",
+      "Price": "About 180 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt8125"
+}

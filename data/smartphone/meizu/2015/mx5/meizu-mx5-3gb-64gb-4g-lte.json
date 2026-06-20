@@ -1,0 +1,119 @@
+{
+  "slug": "meizu-mx5-3gb-64gb-4g-lte",
+  "name": "Meizu MX5",
+  "brand": "meizu",
+  "release_date": "2015-06-01",
+  "ram_gb": 3,
+  "battery_mah": 3150,
+  "weight_g": 149.0,
+  "os": "Android 5.0.1 (Lollipop), Flyme 4.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mx5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": " HSDPA",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2015, June. Released 2015, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "149.9 x 74.7 x 7.6 mm (5.90 x 2.94 x 0.30 in)",
+      "Weight": "149 g (5.26 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 5.0.1 (Lollipop), Flyme 4.5",
+      "Chipset": "Mediatek MT6795 Helio X10 (28 nm)",
+      "CPU": "Octa-core 2.2 GHz Cortex-A53",
+      "GPU": "PowerVR G6200"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 3GB RAM, 32GB 3GB RAM, 64GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "20.7 MP, f/2.2, 1/2.3\", 1.2µm",
+      "Features": "Laser AF, Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps, 720p@100fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3150 mAh, non-removable",
+      "Charging": "24W wired, 60% in 40 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Gray, Gold, Silver, Black/Silver",
+      "Models": "MX5",
+      "Price": "About 210 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 1252Basemark X: 10403",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "soc": "mediatek-mt6795-helio-x10"
+}

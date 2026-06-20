@@ -1,0 +1,116 @@
+{
+  "slug": "oneplus-3-6gb-64gb-4g-lte",
+  "name": "OnePlus 3",
+  "brand": "oneplus",
+  "release_date": "2016-06-01",
+  "ram_gb": 6,
+  "battery_mah": 3000,
+  "weight_g": 158.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "3",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "Optic AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA",
+    "bluetooth": "4.2, A2DP, LE, aptX HD",
+    "nfc": "Yes",
+    "usb": "USB Type-C 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20, 38, 40",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (2CA) Cat6 300/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, June. Released 2016, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "152.7 x 74.7 x 7.4 mm (6.01 x 2.94 x 0.29 in)",
+      "Weight": "158 g (5.57 oz)",
+      "Build": "Glass front (Gorilla Glass 4), aluminum back, aluminum frame",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Optic AMOLED",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+      "Protection": "Corning Gorilla Glass 4"
+    },
+    "Platform": {
+      "OS": "Android 6.0.1 (Marshmallow), upgradable to Android 9.0 (Pie)",
+      "Chipset": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+      "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "64GB 6GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/2.0, 1/2.8\", 1.12µm, PDAF, OIS",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30/60fps, 720p@120fps, Auto HDR"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.0, 1/3.2\", 1.4µm"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA",
+      "Bluetooth": "4.2, A2DP, LE, aptX HD",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Charging": "20W wired"
+    },
+    "Misc": {
+      "Colors": "Graphite, soft gold",
+      "Models": "A3003, A3000, SM-A3000",
+      "SAR EU": "0.39 W/kg (head)     0.32 W/kg (body)     ",
+      "Price": "About 400 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 2365Basemark X: 32715",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "soc": "qualcomm-msm8996-snapdragon-820"
+}

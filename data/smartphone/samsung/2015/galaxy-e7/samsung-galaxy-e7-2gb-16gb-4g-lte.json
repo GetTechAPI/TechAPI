@@ -1,0 +1,119 @@
+{
+  "slug": "samsung-galaxy-e7-2gb-16gb-4g-lte",
+  "name": "Samsung Galaxy E7",
+  "brand": "samsung",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2950,
+  "weight_g": 141.0,
+  "os": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-e7",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes (LTE model)",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - E700F, E700H, E700M",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 7, 8, 20 - E700F",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "151.3 x 77.2 x 7.3 mm (5.96 x 3.04 x 0.29 in)",
+      "Weight": "141 g (4.97 oz)",
+      "Build": "Glass front (Gorilla Glass 4), plastic back, plastic frame",
+      "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+      "Protection": "Corning Gorilla Glass 4"
+    },
+    "Platform": {
+      "OS": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.1, 27mm (wide), AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2, 23mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes (LTE model)",
+      "Radio": "FM radio, RDS, recording",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2950 mAh, non-removable",
+      "Talk time": "Up to 18 h (3G)",
+      "Music play": "Up to 88 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Brown, Blue",
+      "Models": "SM-E7000, SM-E7009, SM-E700F, SM-E700F, SM-E700H, SM-E700H/DD, SM-E700H, SM-E700M, SM-E700M",
+      "SAR": "0.64 W/kg (head)     0.85 W/kg (body)     ",
+      "SAR EU": "0.33 W/kg (head)     0.47 W/kg (body)     ",
+      "Price": "About 230 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 580Basemark X: 1915",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

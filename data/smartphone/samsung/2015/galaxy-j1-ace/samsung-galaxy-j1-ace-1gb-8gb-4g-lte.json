@@ -1,0 +1,110 @@
+{
+  "slug": "samsung-galaxy-j1-ace-1gb-8gb-4g-lte",
+  "name": "Samsung Galaxy J1 Ace",
+  "brand": "samsung",
+  "release_date": "2015-08-28",
+  "ram_gb": 1,
+  "battery_mah": 1900,
+  "weight_g": 131.0,
+  "os": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-j1-ace",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 52.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 2100 - J111F",
+      "4G bands": "1, 3, 5, 7, 8, 20 - J110F",
+      "Speed": "HSPA 21.1/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, August 31. Released 2015, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "130.1 x 67.6 x 9.5 mm (5.12 x 2.66 x 0.37 in)",
+      "Weight": "131 g (4.62 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "4.3 inches, 52.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+      "Chipset": "Spreadtrum SC9830",
+      "CPU": "Quad-core 1.5 GHz Cortex-A7 - J111F",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "4GB 512MB RAM (J110L), 4GB 768MB RAM (J110F, J110G), 8GB 1GB RAM (J110M, J111F)"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.2, 31mm (standard), AF",
+      "Features": "LED flash, panorama",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio, RDS, recording",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1900 mAh, removable",
+      "Talk time": "Up to 10 h (3G)",
+      "Music play": "Up to 68 h"
+    },
+    "Misc": {
+      "Colors": "White, Black, Blue",
+      "Models": "SM-J111F, SM-J110G, SM-J110F, SM-J110H, SM-J110M, SM-J110L, SM-J111M",
+      "SAR": "1.57 W/kg (head)     1.22 W/kg (body)     ",
+      "SAR EU": "0.69 W/kg (head)     0.53 W/kg (body)     ",
+      "Price": "About 140 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4,
+    8
+  ],
+  "soc": "spreadtrum-sc9830"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "alcatel-idol-alpha-1gb-16gb-3g",
+  "name": "alcatel Idol Alpha",
+  "brand": "alcatel",
+  "release_date": "2013-06-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 117.4,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "idol-alpha",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 42.2/11.5 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, September. Released 2014, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "138 x 66.6 x 7.5 mm (5.43 x 2.62 x 0.30 in)",
+      "Weight": "117.4 g (4.16 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+      "Protection": "Asahi Dragontrail Glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT6589 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, non-removable",
+      "Stand-by": "Up to 720 h (2G) / Up to 360 h (3G)",
+      "Talk time": "Up to 20 h (2G) / Up to 10 h (3G)",
+      "Music play": "Up to 24 h"
+    },
+    "Misc": {
+      "Colors": "Slate, Soft Gold/Matte, Soft Gold/Brushed, Pink Gold/Brushed",
+      "Price": "About 360 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6589"
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "oppo-r3-1gb-8gb-4g-lte",
+  "name": "Oppo R3",
+  "brand": "oppo",
+  "release_date": "2014-06-01",
+  "ram_gb": 1,
+  "battery_mah": 2410,
+  "weight_g": 140.0,
+  "os": "Android 4.3 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "r3",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " TD-SCDMA",
+      "4G bands": "38, 39, 40",
+      "Speed": "HSPA, LTE",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2014, June. Released 2014, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "142.3 x 70.4 x 6.3 mm (5.60 x 2.77 x 0.25 in)",
+      "Weight": "140 g (4.94 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean)",
+      "Chipset": "Qualcomm Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.6 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2410 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "Black, white",
+      "Price": "About 270 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-snapdragon-400"
+}

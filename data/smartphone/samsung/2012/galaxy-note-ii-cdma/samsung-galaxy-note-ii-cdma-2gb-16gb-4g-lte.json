@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-note-ii-cdma-2gb-16gb-4g-lte",
+  "name": "Samsung Galaxy Note II CDMA",
+  "brand": "samsung",
+  "release_date": "2012-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3100,
+  "weight_g": 179.4,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 4.4.2 (KitKat), TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-note-ii-cdma",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SCH-I605, SPH-L900",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - SCH-I605, SPH-L900",
+      "4G bands": "13 - SCH-I605",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, Q3. Released 2012, Q4",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "151.1 x 80.5 x 9.4 mm (5.95 x 3.17 x 0.37 in)",
+      "Weight": "179.4 g (6.31 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), upgradable to 4.4.2 (KitKat), TouchWiz UI",
+      "Chipset": "Exynos 4412 Quad (32 nm)",
+      "CPU": "Quad-core 1.6 GHz Cortex-A9",
+      "GPU": "Mali-400MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.9 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "Stereo FM radio, RDS - I605 & R950 models",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3100 mAh, removable",
+      "Stand-by": "Up to 250 h (2G) / Up to 300 h (3G)",
+      "Talk time": "Up to 15 h",
+      "Music play": "Up to 40 h"
+    },
+    "Misc": {
+      "Colors": "Titanium Gray, Marble White, Amber Brown, Ruby Wine",
+      "Models": "SCH-I605",
+      "Price": "About 350 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "exynos-4412-quad"
+}

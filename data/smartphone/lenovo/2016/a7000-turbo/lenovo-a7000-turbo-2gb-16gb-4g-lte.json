@@ -1,0 +1,103 @@
+{
+  "slug": "lenovo-a7000-turbo-2gb-16gb-4g-lte",
+  "name": "Lenovo A7000 Turbo",
+  "brand": "lenovo",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2900,
+  "weight_g": 150.0,
+  "os": "Android 5 (Lollipop), Vibe UI 2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "a7000-turbo",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 2100 ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, January. Released 2016, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "152.6 x 76.2 x 8 mm (6.01 x 3.00 x 0.31 in)",
+      "Weight": "150 g (5.29 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5 (Lollipop), Vibe UI 2",
+      "Chipset": "Mediatek MT6752 (28 nm)",
+      "CPU": "Octa-core 1.7 GHz Cortex-A53",
+      "GPU": "Mali-T760MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.0, AF",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2900 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Matte Black",
+      "Price": "About 180 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6752"
+}

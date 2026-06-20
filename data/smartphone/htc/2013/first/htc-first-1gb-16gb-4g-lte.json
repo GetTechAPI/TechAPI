@@ -1,0 +1,110 @@
+{
+  "slug": "htc-first-1gb-16gb-4g-lte",
+  "name": "HTC First",
+  "brand": "htc",
+  "release_date": "2013-04-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 123.9,
+  "os": "Android 4.1 (Jelly Bean), Facebook Home UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "first",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)",
+    "type": "Super LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "2, 4, 5, 17 - AT&T",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2013, April. Released 2013, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "126 x 65 x 8.9 mm (4.96 x 2.56 x 0.35 in)",
+      "Weight": "123.9 g (4.34 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super LCD",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), Facebook Home UI",
+      "Chipset": "Qualcomm MSM8930 Snapdragon 400 (28 nm)",
+      "CPU": "Dual-core 1.4 GHz Krait",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.6 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 2000 mAh, non-removable",
+      "Stand-by": "Up to 432 h",
+      "Talk time": "Up to 14 h 20 min"
+    },
+    "Misc": {
+      "Colors": "White, Black, Red, Pale Blue",
+      "Price": "About 200 EUR"
+    },
+    "Tests": {
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8930-snapdragon-400"
+}

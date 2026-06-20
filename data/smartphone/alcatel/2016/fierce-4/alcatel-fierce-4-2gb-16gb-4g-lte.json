@@ -1,0 +1,107 @@
+{
+  "slug": "alcatel-fierce-4-2gb-16gb-4g-lte",
+  "name": "alcatel Fierce 4",
+  "brand": "alcatel",
+  "release_date": "2016-08-01",
+  "ram_gb": 2,
+  "battery_mah": 2500,
+  "weight_g": 163.9,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "fierce-4",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700(AWS) / 1900 ",
+      "4G bands": "2, 4, 12",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, August. Released 2016, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "150.9 x 77 x 8.1 mm (5.94 x 3.03 x 0.32 in)",
+      "Weight": "163.9 g (5.78 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+      "Protection": "Asahi Dragontrail Glass"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow)",
+      "Chipset": "Qualcomm MSM8909 Snapdragon 210 (28 nm)",
+      "CPU": "Quad-core 1.1 GHz Cortex-A7",
+      "GPU": "Adreno 304"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2500 mAh, non-removable",
+      "Stand-by": "Up to 526 h (3G)",
+      "Talk time": "Up to 12 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "5056N, 5056W",
+      "Price": "About 80 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8909-snapdragon-210"
+}

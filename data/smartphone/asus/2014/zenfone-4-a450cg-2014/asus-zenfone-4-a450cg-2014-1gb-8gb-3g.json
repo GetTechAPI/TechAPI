@@ -1,0 +1,104 @@
+{
+  "slug": "asus-zenfone-4-a450cg-2014-1gb-8gb-3g",
+  "name": "Asus Zenfone 4 A450CG (2014)",
+  "brand": "asus",
+  "release_date": "2014-06-01",
+  "ram_gb": 1,
+  "battery_mah": 1750,
+  "weight_g": 134.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.0.2 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zenfone-4-a450cg-2014",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, June. Released 2014, July",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "136.8 x 67.9 x 11.3 mm (5.39 x 2.67 x 0.44 in)",
+      "Weight": "134 g (4.73 oz)",
+      "SIM": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 5.0.2 (Lollipop)",
+      "Chipset": "Intel Atom Z2520",
+      "CPU": "Dual-core 1.2 GHz",
+      "GPU": "PowerVR SGX544MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, AF",
+      "Features": "LED flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 1750 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Charcoal Black, Pearl White, Cherry Red, Sky Blue, Solar Yellow",
+      "Models": "T00Q",
+      "Price": "About 100 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "intel-atom-z2520"
+}

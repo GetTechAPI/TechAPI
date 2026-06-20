@@ -1,0 +1,104 @@
+{
+  "slug": "zte-warp-4g-1gb-8gb-4g-lte",
+  "name": "ZTE Warp 4G",
+  "brand": "zte",
+  "release_date": "2013-09-01",
+  "ram_gb": 1,
+  "battery_mah": 2070,
+  "weight_g": 127.6,
+  "os": "Android 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "warp-4g",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~326 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE"
+    },
+    "Launch": {
+      "Announced": "2013, September. Released 2013, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "132.1 x 66 x 10.4 mm (5.20 x 2.60 x 0.41 in)",
+      "Weight": "127.6 g (4.48 oz)",
+      "SIM": "Yes"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~326 ppi density)",
+      "Protection": "Scratch-resistant glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean)",
+      "Chipset": "Qualcomm MSM8930 Snapdragon 400 (28 nm)",
+      "CPU": "Dual-core 1.2 GHz Krait 200",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2070 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8930-snapdragon-400"
+}

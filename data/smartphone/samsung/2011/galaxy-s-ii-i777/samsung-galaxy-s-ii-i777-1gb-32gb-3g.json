@@ -1,0 +1,108 @@
+{
+  "slug": "samsung-galaxy-s-ii-i777-1gb-32gb-3g",
+  "name": "Samsung Galaxy S II I777",
+  "brand": "samsung",
+  "release_date": "2011-08-01",
+  "ram_gb": 1,
+  "battery_mah": 1650,
+  "weight_g": 121.9,
+  "os": "Android 2.3.4 (Gingerbread)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-s-ii-i777",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 52.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+    "type": "Super AMOLED Plus"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP, aptX",
+    "nfc": "Optional",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, August. Released 2011, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "126 x 66 x 8.9 mm (4.96 x 2.60 x 0.35 in)",
+      "Weight": "121.9 g (4.27 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED Plus",
+      "Size": "4.3 inches, 52.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 2.3.4 (Gingerbread)",
+      "Chipset": "Exynos 4210 Dual",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "Mali-400MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot), 8 GB included",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP, aptX",
+      "Positioning": "GPS, A-GPS",
+      "NFC": "Optional",
+      "Radio": "No",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1650 mAh battery",
+      "Stand-by": "Up to 400 h",
+      "Talk time": "Up to 8 h"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR": "0.36 W/kg (head)     0.90 W/kg (body)     ",
+      "SAR EU": "0.25 W/kg (head)     ",
+      "Price": "About 170 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "exynos-4210-dual"
+}

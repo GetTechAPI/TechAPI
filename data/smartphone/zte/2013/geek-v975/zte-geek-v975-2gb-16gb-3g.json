@@ -1,0 +1,103 @@
+{
+  "slug": "zte-geek-v975-2gb-16gb-3g",
+  "name": "ZTE Geek V975",
+  "brand": "zte",
+  "release_date": "2013-04-01",
+  "ram_gb": 2,
+  "battery_mah": 2300,
+  "weight_g": 148.0,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "geek-v975",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2013, April. Released 2013, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "145 x 70 x 9.5 mm (5.71 x 2.76 x 0.37 in)",
+      "Weight": "148 g (5.22 oz)",
+      "SIM": "Yes"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.2.2 (Jelly Bean)",
+      "Chipset": "Intel Atom Z2580",
+      "CPU": "Dual-core 2.0 GHz",
+      "GPU": "PowerVR SGX544MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 2GB RAM, 16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-ion 2300 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "intel-atom-z2580"
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "sony-xperia-m2-aqua-1gb-8gb-4g-lte",
+  "name": "Sony Xperia M2 Aqua",
+  "brand": "sony",
+  "release_date": "2014-08-01",
+  "ram_gb": 1,
+  "battery_mah": 2300,
+  "weight_g": 149.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-m2-aqua",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.8 inches, 63.5 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~229 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - all models",
+      "3G bands": "HSDPA 850 / 900 / 2100 - D2403",
+      "4G bands": "1, 3, 5, 7, 8, 20 - D2403",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, August. Released 2014, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "140 x 72 x 8.6 mm (5.51 x 2.83 x 0.34 in)",
+      "Weight": "149 g (5.26 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.8 inches, 63.5 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~229 ppi density)",
+      "Protection": "Scratch-resistant glass"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 5.1.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8926-2 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "VGA",
+      "Video": "480p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2300 mAh, non-removable",
+      "Stand-by": "Up to 595 h (2G) / Up to 641 h (3G)",
+      "Talk time": "Up to 11 h 23 min (2G) / Up to 12 h 11 min (3G)",
+      "Music play": "Up to 37 h 11 min"
+    },
+    "Misc": {
+      "Colors": "Black, White, Copper",
+      "Models": "D2403, D2406",
+      "SAR": "0.69 W/kg (head)     1.25 W/kg (body)     ",
+      "SAR EU": "0.66 W/kg (head)     0.86 W/kg (body)     ",
+      "Price": "About 200 EUR"
+    },
+    "Tests": {
+      "Camera": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8926-2-snapdragon-400"
+}

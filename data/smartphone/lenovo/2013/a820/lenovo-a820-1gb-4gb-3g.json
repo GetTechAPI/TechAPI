@@ -1,0 +1,99 @@
+{
+  "slug": "lenovo-a820-1gb-4gb-3g",
+  "name": "Lenovo A820",
+  "brand": "lenovo",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 151.0,
+  "os": "Android 4.1.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "a820",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "Yes",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2013. Released 2013",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "135 x 68.2 x 9.9 mm (5.31 x 2.69 x 0.39 in)",
+      "Weight": "151 g (5.33 oz)",
+      "SIM": "Dual SIM (Mini-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT6589 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR EU": "0.37 W/kg (head)     ",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "mediatek-mt6589"
+}

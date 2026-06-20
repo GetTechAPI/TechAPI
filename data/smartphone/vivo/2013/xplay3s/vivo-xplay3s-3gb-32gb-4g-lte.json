@@ -1,0 +1,107 @@
+{
+  "slug": "vivo-xplay3s-3gb-32gb-4g-lte",
+  "name": "vivo Xplay3S",
+  "brand": "vivo",
+  "release_date": "2013-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3200,
+  "weight_g": 174.0,
+  "os": "Android 4.3 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xplay3s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 99.2 cm",
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~490 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "4G bands": "1, 3, 7",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013. Released 2013",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "158.2 x 82.6 x 8.7 mm (6.23 x 3.25 x 0.34 in)",
+      "Weight": "174 g (6.14 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.0 inches, 99.2 cm",
+      "Resolution": "1440 x 2560 pixels, 16:9 ratio (~490 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.3 (Jelly Bean)",
+      "Chipset": "Qualcomm Snapdragon 801 (28 nm)",
+      "CPU": "Quad-core 2.3 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@60fps, 720p@120fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "3200 mAh, non-removable",
+      "Stand-by": "Up to 490 h (2G) / Up to 490 h (3G)",
+      "Talk time": "Up to 17 h (2G) / Up to 16 h (3G)",
+      "Music play": "Up to 38 h"
+    },
+    "Misc": {
+      "Colors": "White",
+      "SAR EU": "0.24 W/kg (head)     1.30 W/kg (body)     "
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-snapdragon-801"
+}

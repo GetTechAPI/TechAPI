@@ -1,0 +1,111 @@
+{
+  "slug": "sony-xperia-z3v-3gb-32gb-4g-lte",
+  "name": "Sony Xperia Z3v",
+  "brand": "sony",
+  "release_date": "2014-10-01",
+  "ram_gb": 3,
+  "battery_mah": 3200,
+  "weight_g": 170.6,
+  "os": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-z3v",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 74.5 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL 3 TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "4, 13",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, October. Released 2014, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "148.5 x 73.4 x 8.9 mm (5.85 x 2.89 x 0.35 in)",
+      "Weight": "170.6 g (6.00 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.2 inches, 74.5 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+      "Protection": "Shatter proof glass"
+    },
+    "Platform": {
+      "OS": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8974AC Snapdragon 801 (28 nm)",
+      "CPU": "Quad-core 2.5 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "20.7 MP, f/2.0, 25mm (wide), 1/2.3\", 1.12µm, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@60fps, 720p@120fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "2.2 MP, f/2.8",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL 3 TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3200 mAh, non-removable",
+      "Charging": "18W wired, QC2",
+      "Stand-by": "Up to 840 h (2G) / Up to 760 h (3G)",
+      "Talk time": "Up to 16 h (2G) / Up to 21 h (3G)",
+      "Music play": "Up to 120 h"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "D6708",
+      "SAR": "0.65 W/kg (head)     1.19 W/kg (body)     ",
+      "Price": "About 370 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8974ac-snapdragon-801"
+}

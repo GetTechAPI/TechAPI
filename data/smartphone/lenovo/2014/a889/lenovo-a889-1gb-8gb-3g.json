@@ -1,0 +1,103 @@
+{
+  "slug": "lenovo-a889-1gb-8gb-3g",
+  "name": "Lenovo A889",
+  "brand": "lenovo",
+  "release_date": "2014-05-01",
+  "ram_gb": 1,
+  "battery_mah": 2500,
+  "weight_g": 192.0,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "a889",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 99.2 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~184 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "3.0",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2014, May. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "164 x 85.4 x 9 mm (6.46 x 3.36 x 0.35 in)",
+      "Weight": "192 g (6.77 oz)",
+      "SIM": "Dual SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.0 inches, 99.2 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~184 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT6582 (28 nm)",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "3.0",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2500 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "White",
+      "Models": "A889",
+      "Price": "About 120 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "mediatek-mt6582"
+}

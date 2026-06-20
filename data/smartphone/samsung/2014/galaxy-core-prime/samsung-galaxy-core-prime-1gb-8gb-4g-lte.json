@@ -1,0 +1,113 @@
+{
+  "slug": "samsung-galaxy-core-prime-1gb-8gb-4g-lte",
+  "name": "Samsung Galaxy Core Prime",
+  "brand": "samsung",
+  "release_date": "2014-11-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 130.0,
+  "os": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-core-prime",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 57.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes (LTE models, except SM-G360BT)",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 2100 - G360F",
+      "4G bands": "1, 3, 5, 7, 8, 28 - G360G",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, November. Released 2014, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "130.8 x 67.9 x 8.8 mm (5.15 x 2.67 x 0.35 in)",
+      "Weight": "130 g (4.59 oz)",
+      "Build": "Glass front, plastic back, plastic frame",
+      "SIM": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.5 inches, 57.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.6, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "Yes (LTE models, except SM-G360BT)",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, removable",
+      "Talk time": "Up to 13 h (3G)",
+      "Music play": "Up to 60 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Gray",
+      "Models": "SM-G360T, SM-G3606, SM-G3608, SM-G3609, SM-G360BT, SM-G360F, SM-G360FY, SM-G360G, SM-G360GY, SM-G360H, SM-G360H/D, SM-G360BT, SM-G361, SM-G361H, SM-G361F, SM-G360HU, SM-G360T1, SM-G360M, SM-G360P, SM-G360V, SM-S820L, SM-G360AZ, SM-G361HU",
+      "SAR": "0.70 W/kg (head)     1.07 W/kg (body)     ",
+      "SAR EU": "0.60 W/kg (head)     0.40 W/kg (body)     ",
+      "Price": "About 150 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark X: 1895",
+      "Camera": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

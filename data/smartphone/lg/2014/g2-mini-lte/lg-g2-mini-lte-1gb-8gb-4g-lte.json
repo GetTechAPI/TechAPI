@@ -1,0 +1,111 @@
+{
+  "slug": "lg-g2-mini-lte-1gb-8gb-4g-lte",
+  "name": "LG G2 mini LTE",
+  "brand": "lg",
+  "release_date": "2014-02-01",
+  "ram_gb": 1,
+  "battery_mah": 2440,
+  "weight_g": 121.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.0.2 (Lollipop), LG Optimus UI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g2-mini-lte",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~234 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 7, 8, 20 - D620",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "129.6 x 66 x 9.8 mm (5.10 x 2.60 x 0.39 in)",
+      "Weight": "121 g (4.27 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~234 ppi density)",
+      "Protection": "Corning Gorilla Glass 2"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 5.0.2 (Lollipop), LG Optimus UI 3",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2440 mAh, removable",
+      "Stand-by": "Up to 700 h (2G) / Up to 900 h (3G)",
+      "Talk time": "Up to 12 h (2G) / Up to 17 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Titan Black, Lunar White, Red, Gold",
+      "Models": "D620",
+      "SAR": "0.46 W/kg (head)     0.37 W/kg (body)     ",
+      "SAR EU": "0.52 W/kg (head)     0.42 W/kg (body)     ",
+      "Price": "About 180 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

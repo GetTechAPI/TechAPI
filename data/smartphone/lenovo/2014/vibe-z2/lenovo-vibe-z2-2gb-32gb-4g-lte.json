@@ -1,0 +1,105 @@
+{
+  "slug": "lenovo-vibe-z2-2gb-32gb-4g-lte",
+  "name": "Lenovo Vibe Z2",
+  "brand": "lenovo",
+  "release_date": "2014-09-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 158.0,
+  "os": "Android 4.4 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "vibe-z2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n/ac, dual band, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - SIM 1 & SIM 2",
+      "4G bands": "1, 3, 7, 20 - SIM 1 & SIM 2",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, September. Released 2014, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "148.5 x 76.4 x 7.8 mm (5.85 x 3.01 x 0.31 in)",
+      "Weight": "158 g (5.57 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4 (KitKat)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF, OIS",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n/ac, dual band, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 3000 mAh, non-removable",
+      "Stand-by": "Up to 408 h (3G)",
+      "Talk time": "Up to 30 h (2G) / Up to 28 h (3G)"
+    },
+    "Misc": {
+      "Colors": "White, Gold, Titanium",
+      "Price": "About 430 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

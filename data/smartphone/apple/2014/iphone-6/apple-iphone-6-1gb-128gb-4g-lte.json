@@ -1,0 +1,123 @@
+{
+  "slug": "apple-iphone-6-1gb-128gb-4g-lte",
+  "name": "Apple iPhone 6",
+  "brand": "apple",
+  "release_date": "2014-09-09",
+  "ram_gb": 1,
+  "battery_mah": 1810,
+  "weight_g": 129.0,
+  "os": "iOS 8, upgradable to iOS 12.5.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "iphone-6",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes (Apple Pay only)",
+    "usb": "Lightning, USB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - A1549 (GSM), A1549 (CDMA), A1586",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - A1549 (GSM), A1549 (CDMA), A1586",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29 - A1549 GSM, A1549 CDMA",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, September 09. Released 2014, September 19",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "138.1 x 67 x 6.9 mm (5.44 x 2.64 x 0.27 in)",
+      "Weight": "129 g (4.55 oz)",
+      "Build": "Glass front (Corning-made glass), aluminum back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)",
+      "Protection": "Ion-strengthened glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "iOS 8, upgradable to iOS 12.5.6",
+      "Chipset": "Apple A8 (20 nm)",
+      "CPU": "Dual-core 1.4 GHz Typhoon (ARM v8-based)",
+      "GPU": "PowerVR GX6450 (quad-core graphics)"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM, 64GB 1GB RAM, 128GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.2, 29mm (standard), 1/3.0\", 1.5µm, PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR",
+      "Video": "1080p@60fps, 720p@240fps"
+    },
+    "Selfie camera": {
+      "Single": "1.2 MP, f/2.2, 31mm (standard)",
+      "Features": "face detection, HDR, FaceTime over Wi-Fi or Cellular",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes (Apple Pay only)",
+      "Radio": "No",
+      "USB": "Lightning, USB 2.0"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 1810 mAh, non-removable (6.9 Wh)",
+      "Stand-by": "Up to 250 h (3G)",
+      "Talk time": "Up to 14 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Space Gray, Silver, Gold",
+      "Models": "A1549, A1586, A1589, A1522, A1524, A1593, iPhone7,2",
+      "SAR": "1.18 W/kg (head)     1.18 W/kg (body)     ",
+      "SAR EU": "0.98 W/kg (head)     0.97 W/kg (body)     ",
+      "Price": "About 100 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark X: 15841",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "soc": "apple-a8"
+}

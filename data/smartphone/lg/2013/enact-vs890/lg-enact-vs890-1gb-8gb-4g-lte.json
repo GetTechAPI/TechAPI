@@ -1,0 +1,107 @@
+{
+  "slug": "lg-enact-vs890-1gb-8gb-4g-lte",
+  "name": "LG Enact VS890",
+  "brand": "lg",
+  "release_date": "2013-08-01",
+  "ram_gb": 1,
+  "battery_mah": 2460,
+  "weight_g": 169.8,
+  "os": "Android 4.1.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "enact-vs890",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 45.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot, DLNA",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": null
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "13",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE"
+    },
+    "Launch": {
+      "Announced": "2013, August. Released 2013, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "111 x 52.3 x 15.8 mm (4.37 x 2.06 x 0.62 in)",
+      "Weight": "169.8 g (5.96 oz)",
+      "Keyboard": "QWERTY",
+      "SIM": "Yes"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.0 inches, 45.5 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.1.2 (Jelly Bean)",
+      "Chipset": "Qualcomm MSM8930 Snapdragon 400 (28 nm)",
+      "CPU": "Dual-core 1.2 GHz Krait",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot, DLNA",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, S-GPS",
+      "NFC": "No",
+      "Radio": "No"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2460 mAh, removable",
+      "Stand-by": "Up to 216 h",
+      "Talk time": "Up to 11 h 40 min"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR": "0.79 W/kg (head)     1.17 W/kg (body)     ",
+      "Price": "About 260 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8930-snapdragon-400"
+}

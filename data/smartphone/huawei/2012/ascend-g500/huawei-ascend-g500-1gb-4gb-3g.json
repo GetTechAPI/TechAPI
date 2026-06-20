@@ -1,0 +1,104 @@
+{
+  "slug": "huawei-ascend-g500-1gb-4gb-3g",
+  "name": "Huawei Ascend G500",
+  "brand": "huawei",
+  "release_date": "2012-11-01",
+  "ram_gb": 1,
+  "battery_mah": 1930,
+  "weight_g": 156.0,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ascend-g500",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "Yes",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2012, November. Released 2012, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "130 x 65 x 11 mm (5.12 x 2.56 x 0.43 in)",
+      "Weight": "156 g (5.50 oz)",
+      "SIM": "Dual SIM (Mini-SIM)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.0.4 (Ice Cream Sandwich)",
+      "Chipset": "Mediatek MT6575 (40 nm)",
+      "CPU": "1.0 GHz Cortex-A9",
+      "GPU": "PowerVR SGX531"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 1930 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR EU": "0.45 W/kg (head)     ",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "mediatek-mt6575"
+}

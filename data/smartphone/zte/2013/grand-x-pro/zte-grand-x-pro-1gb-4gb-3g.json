@@ -1,0 +1,105 @@
+{
+  "slug": "zte-grand-x-pro-1gb-4gb-3g",
+  "name": "ZTE Grand X Pro",
+  "brand": "zte",
+  "release_date": "2013-03-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 146.0,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "grand-x-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~326 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 7.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, March. Released 2013, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "132.6 x 64.4 x 9.4 mm (5.22 x 2.54 x 0.37 in)",
+      "Weight": "146 g (5.15 oz)",
+      "SIM": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~326 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Mediatek MT6577 (40 nm)",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "PowerVR SGX531u"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "To be confirmed",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, non-removable",
+      "Stand-by": "Up to 500 h",
+      "Talk time": "Up to 11 h 15 min"
+    },
+    "Misc": {
+      "Colors": "Black, Red, Blue, Yellow",
+      "SAR EU": "0.35 W/kg (head)     ",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "mediatek-mt6577"
+}

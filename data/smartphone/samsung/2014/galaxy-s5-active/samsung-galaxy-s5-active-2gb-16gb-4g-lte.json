@@ -1,0 +1,118 @@
+{
+  "slug": "samsung-galaxy-s5-active-2gb-16gb-4g-lte",
+  "name": "Samsung Galaxy S5 Active",
+  "brand": "samsung",
+  "release_date": "2014-05-01",
+  "ram_gb": 2,
+  "battery_mah": 2800,
+  "weight_g": 170.1,
+  "os": "Android 4.4.2 (KitKat), upgradable to 6.0.1 (Marshmallow), TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-s5-active",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.1 inches, 71.7 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~432 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - all versions",
+      "3G bands": "HSDPA 850 / 1900 / 2100 - AT&T, Bell",
+      "4G bands": "1, 2, 3, 4, 5, 7, 17 - AT&T",
+      "Speed": "HSPA 42.2/11.5 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, May. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "145.3 x 73.4 x 8.9 mm (5.72 x 2.89 x 0.35 in)",
+      "Weight": "170.1 g (6.00 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.1 inches, 71.7 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~432 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), upgradable to 6.0.1 (Marshmallow), TouchWiz UI",
+      "Chipset": "Qualcomm Snapdragon 801 (28 nm)",
+      "CPU": "Quad-core 2.5 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB (11.2GB user available), 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/2.2, 31mm (standard), AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP, f/2.4, 22mm (wide)",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR, LE, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, heart rate"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2800 mAh, removable",
+      "Stand-by": "Up to 480 h",
+      "Talk time": "Up to 29 h"
+    },
+    "Misc": {
+      "Colors": "Camo Green, Titanium Grey, Ruby Red",
+      "Models": "SM-G870A, SC-02G, SM-G870D, SM-G870F, SM-G870W",
+      "SAR": "0.92 W/kg (head)     1.48 W/kg (body)     ",
+      "SAR EU": "0.67 W/kg (head)     0.45 W/kg (body)     ",
+      "Price": "About 400 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 1073Basemark X: 12111",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    11,
+    16
+  ],
+  "soc": "qualcomm-snapdragon-801"
+}

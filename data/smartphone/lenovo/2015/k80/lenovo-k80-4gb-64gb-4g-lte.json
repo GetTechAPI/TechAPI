@@ -1,0 +1,105 @@
+{
+  "slug": "lenovo-k80-4gb-64gb-4g-lte",
+  "name": "Lenovo K80",
+  "brand": "lenovo",
+  "release_date": "2015-04-01",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 158.0,
+  "os": "Android 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "k80",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "1, 3",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, April. Released 2015, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "8.5 mm thickness",
+      "Weight": "158 g (5.57 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 5.0 (Lollipop)",
+      "Chipset": "Intel Atom Z3560",
+      "CPU": "Quad-core 1.83 GHz"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "32GB 2GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF, OIS",
+      "Features": "Dual-LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4000 mAh, non-removable",
+      "Stand-by": "Up to 520 h (3G)",
+      "Talk time": "Up to 33 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, Silver, Red",
+      "Price": "About 280 EUR"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "intel-atom-z3560"
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "asus-zenfone-max-zc550kl-2gb-16gb-4g-lte",
+  "name": "Asus Zenfone Max ZC550KL",
+  "brand": "asus",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 5000,
+  "weight_g": 202.0,
+  "os": "Android 5.0.1 (Lollipop), upgradable to 6.0.1 (Marshmallow), ZenUI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "zenfone-max-zc550kl",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 38, 39, 40, 41 - India",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, August. Released 2016, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "156 x 77.5 x 10.6 mm (6.14 x 3.05 x 0.42 in)",
+      "Weight": "202 g (7.13 oz)",
+      "Build": "Glass front (Gorilla Glass 4), plastic back, plastic frame",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+      "Protection": "Corning Gorilla Glass 4"
+    },
+    "Platform": {
+      "OS": "Android 5.0.1 (Lollipop), upgradable to 6.0.1 (Marshmallow), ZenUI",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 2GB RAM, 16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.0",
+      "Features": "Laser AF, Dual-LED dual-tone flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.0"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS, GLONASS, BDS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 5000 mAh, non-removable",
+      "Charging": "Reverse wired",
+      "Stand-by": "Up to 914 h (3G)",
+      "Talk time": "Up to 38 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "Z010D, Z010DA",
+      "Price": "About 170 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 624Basemark X: 1844",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "lenovo-k860-1gb-8gb-3g",
+  "name": "Lenovo K860",
+  "brand": "lenovo",
+  "release_date": "2012-08-01",
+  "ram_gb": 1,
+  "battery_mah": 2250,
+  "weight_g": 193.5,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "k860",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "Yes",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2012, August. Released 2012, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "143.5 x 74.4 x 9.6 mm (5.65 x 2.93 x 0.38 in)",
+      "Weight": "193.5 g (6.81 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.0.4 (Ice Cream Sandwich)",
+      "Chipset": "Exynos 4412 Quad (32 nm)",
+      "CPU": "Quad-core 1.4 GHz Cortex-A9",
+      "GPU": "Mali-400MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "Dual-LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 2250 mAh battery",
+      "Stand-by": "Up to 336 h"
+    },
+    "Misc": {
+      "Colors": "Black, Red",
+      "Price": "About 290 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "exynos-4412-quad"
+}

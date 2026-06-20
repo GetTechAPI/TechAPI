@@ -1,0 +1,103 @@
+{
+  "slug": "nokia-lumia-525-1gb-8gb-3g",
+  "name": "Nokia Lumia 525",
+  "brand": "nokia",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1430,
+  "weight_g": 124.0,
+  "os": "Microsoft Windows Phone 8, upgradable to 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "lumia-525",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 45.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP, LE/ aptX after WP8 Denim update",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - RM-998",
+      "3G bands": "HSDPA 900 / 2100 - RM-998",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, November. Released 2014, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "119.9 x 64 x 9.9 mm, 75.7 cc (4.72 x 2.52 x 0.39 in)",
+      "Weight": "124 g (4.37 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.0 inches, 45.5 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+      "Protection": "Scratch-resistant glass"
+    },
+    "Platform": {
+      "OS": "Microsoft Windows Phone 8, upgradable to 8.1",
+      "Chipset": "Qualcomm MSM8227",
+      "CPU": "Dual-core 1.0 GHz",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, 1/4.0\", AF",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP, LE/ aptX after WP8 Denim update",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM Radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1430 mAh, removable (BL-5J)",
+      "Stand-by": "Up to 336 h (2G) / Up to 336 h (3G)",
+      "Talk time": "Up to 17 h (2G) / Up to 10 h 40 min (3G)",
+      "Music play": "Up to 48 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Yellow, Red",
+      "SAR EU": "0.72 W/kg (head)     0.79 W/kg (body)     ",
+      "Price": "About 120 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8227"
+}

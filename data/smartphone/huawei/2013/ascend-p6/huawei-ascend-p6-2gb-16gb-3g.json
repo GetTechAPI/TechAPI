@@ -1,0 +1,115 @@
+{
+  "slug": "huawei-ascend-p6-2gb-16gb-3g",
+  "name": "Huawei Ascend P6",
+  "brand": "huawei",
+  "release_date": "2013-06-01",
+  "ram_gb": 2,
+  "battery_mah": 2000,
+  "weight_g": 120.0,
+  "os": "Android 4.2.2 (Jelly Bean), upgradable to 4.4.2 (KitKat), EMUI 1.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "ascend-p6",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+    "type": "IPS+ LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA",
+    "bluetooth": "3.0, A2DP, EDR, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - international version",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - international version",
+      "Speed": "HSPA 21.1/5.76 Mbps, EV-DO Rev. A 3.1 Mbps (version for China)"
+    },
+    "Launch": {
+      "Announced": "2013, June. Released 2013, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "132.7 x 65.5 x 6.2 mm (5.22 x 2.58 x 0.24 in)",
+      "Weight": "120 g (4.23 oz)",
+      "SIM": "Single SIM (Micro-SIM) or Hybrid Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS+ LCD",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~312 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.2.2 (Jelly Bean), upgradable to 4.4.2 (KitKat), EMUI 1.6",
+      "Chipset": "Huawei K3V2",
+      "CPU": "Quad-core 1.5 GHz Cortex-A9",
+      "GPU": "Vivante GC4000"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot) - dual SIM model only",
+      "Internal": "8GB 2GB RAM, 16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, AF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA",
+      "Bluetooth": "3.0, A2DP, EDR, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, temperature"
+    },
+    "Battery": {
+      "Type": "Li-Po 2000 mAh, non-removable",
+      "Stand-by": "Up to 416 h (2G) / Up to 315 h (3G)",
+      "Talk time": "Up to 28 h (2G) / Up to 14 h 30 min (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, White, Pink",
+      "Models": "P6-U06, P6",
+      "SAR EU": "0.64 W/kg (head)     ",
+      "Price": "About 230 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "huawei-k3v2"
+}

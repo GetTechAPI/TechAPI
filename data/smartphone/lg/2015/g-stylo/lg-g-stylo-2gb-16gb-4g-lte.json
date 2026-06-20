@@ -1,0 +1,107 @@
+{
+  "slug": "lg-g-stylo-2gb-16gb-4g-lte",
+  "name": "LG G Stylo",
+  "brand": "lg",
+  "release_date": "2015-05-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 165.9,
+  "os": "Android 5.0 (Lollipop), upgradable to 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g-stylo",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 89.6 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP",
+    "nfc": "Yes (operator dependent)",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "2, 4, 5, 12, 25, 26, 41 - LS770 (Boost Mobile)",
+      "Speed": "HSPA (roaming, voice only), LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, May. Released 2015, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "154.4 x 79.3 x 9.4 mm (6.08 x 3.12 x 0.37 in)",
+      "Weight": "165.9 g (5.86 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.7 inches, 89.6 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 5.0 (Lollipop), upgradable to 6.0 (Marshmallow)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.4",
+      "Features": "Laser AF, LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes (operator dependent)",
+      "Radio": "FM radio (operator dependent)",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "LGMS631, LGLS770, H634, F560K",
+      "Price": "About 180 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

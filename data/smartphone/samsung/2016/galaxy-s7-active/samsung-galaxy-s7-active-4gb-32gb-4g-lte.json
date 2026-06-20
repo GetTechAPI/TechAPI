@@ -1,0 +1,119 @@
+{
+  "slug": "samsung-galaxy-s7-active-4gb-32gb-4g-lte",
+  "name": "Samsung Galaxy S7 active",
+  "brand": "samsung",
+  "release_date": "2016-06-01",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 184.8,
+  "os": "Android 6.0 (Marshmallow), upgradable to 7.0 (Nougat), TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-s7-active",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.1 inches, 71.7 cm",
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~576 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+    "bluetooth": "4.2, A2DP, LE, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 20, 29, 30, 38, 39, 40, 41",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE (3CA) Cat9 450/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, June. Released 2016, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "148.8 x 74.9 x 9.9 mm (5.86 x 2.95 x 0.39 in)",
+      "Weight": "184.8 g (6.53 oz)",
+      "Build": "Glass front (Gorilla Glass 4), plastic back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.1 inches, 71.7 cm",
+      "Resolution": "1440 x 2560 pixels, 16:9 ratio (~576 ppi density)",
+      "Protection": "Corning Gorilla Glass 4"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow), upgradable to 7.0 (Nougat), TouchWiz UI",
+      "Chipset": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+      "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+      "GPU": "Adreno 530"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/1.7, 26mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS",
+      "Features": "LED flash, auto-HDR, panorama",
+      "Video": "4K@30fps, 1080p@30fps (gyro-EIS), 1080p@60fps, 720p@240fps, HDR, stereo sound rec., OIS"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/1.7, 22mm (wide), 1/4.1\", 1.34µm",
+      "Features": "HDR"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+      "Bluetooth": "4.2, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer, heart rate, SpO2"
+    },
+    "Battery": {
+      "Type": "Li-Ion 4000 mAh, non-removable",
+      "Charging": "15W wired, QC2",
+      "Stand-by": "Up to 384 h (3G)",
+      "Talk time": "Up to 32 h (3G)",
+      "Music play": "Up to 110 h"
+    },
+    "Misc": {
+      "Colors": "Camo Green, Titanium Gray, Sandy Gold",
+      "Models": "SM-G891A",
+      "SAR": "0.92 W/kg (head)     0.75 W/kg (body)     ",
+      "SAR EU": "0.32 W/kg (head)     0.98 W/kg (body)     ",
+      "Price": "About 360 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 2487Basemark X: 32362",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8996-snapdragon-820"
+}

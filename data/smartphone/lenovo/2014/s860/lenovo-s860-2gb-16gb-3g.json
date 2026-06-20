@@ -1,0 +1,105 @@
+{
+  "slug": "lenovo-s860-2gb-16gb-3g",
+  "name": "Lenovo S860",
+  "brand": "lenovo",
+  "release_date": "2014-02-01",
+  "ram_gb": 2,
+  "battery_mah": 4000,
+  "weight_g": 190.0,
+  "os": "Android 4.2 (Jelly Bean), upgradable to 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "s860",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.3 inches, 77.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~277 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "149.5 x 77 x 10.3 mm (5.89 x 3.03 x 0.41 in)",
+      "Weight": "190 g (6.70 oz)",
+      "SIM": "Dual SIM (Micro-SIM)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.3 inches, 77.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~277 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean), upgradable to 4.4.2 (KitKat)",
+      "Chipset": "Mediatek MT6582 (28 nm)",
+      "CPU": "Quad-core 1.3 GHz Cortex-A7",
+      "GPU": "Mali-400MP2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, HDR",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "1.6 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Po 4000 mAh, non-removable",
+      "Stand-by": "Up to 684 h (2G) / Up to 960 h (3G)",
+      "Talk time": "Up to 43 h (2G) / Up to 24 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Titanium",
+      "SAR": "0.65 W/kg (head)     0.47 W/kg (body)     ",
+      "Price": "About 250 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6582"
+}

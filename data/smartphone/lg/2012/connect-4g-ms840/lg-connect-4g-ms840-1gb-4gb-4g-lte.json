@@ -1,0 +1,106 @@
+{
+  "slug": "lg-connect-4g-ms840-1gb-4gb-4g-lte",
+  "name": "LG Connect 4G MS840",
+  "brand": "lg",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1540,
+  "weight_g": 137.0,
+  "os": "Android 2.3.5 (Gingerbread)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "connect-4g-ms840",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 44.5 cm",
+    "resolution": "480 x 840 pixels, 16:9 ratio (~242 ppi density)",
+    "type": "TFT, 256K colors"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, DLNA",
+    "bluetooth": "3.0, A2DP, EDR",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "4",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE"
+    },
+    "Launch": {
+      "Announced": "2012, January. Released 2012, February",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "117 x 62 x 11.7 mm (4.61 x 2.44 x 0.46 in)",
+      "Weight": "137 g (4.83 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "TFT, 256K colors",
+      "Size": "4.0 inches, 44.5 cm",
+      "Resolution": "480 x 840 pixels, 16:9 ratio (~242 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 2.3.5 (Gingerbread)",
+      "Chipset": "Qualcomm MSM8660 Snapdragon S3",
+      "CPU": "Dual-core 1.2 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot), 2 GB included",
+      "Internal": "4GB (1.9GB user available), 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot, DLNA",
+      "Bluetooth": "3.0, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1540 mAh battery",
+      "Stand-by": "Up to 250 h",
+      "Talk time": "Up to 4 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR": "1.04 W/kg (head)     1.01 W/kg (body)     ",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    1,
+    4
+  ],
+  "soc": "qualcomm-msm8660-snapdragon-s3"
+}

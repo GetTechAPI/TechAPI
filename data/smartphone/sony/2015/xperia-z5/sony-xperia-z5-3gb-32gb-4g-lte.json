@@ -1,0 +1,122 @@
+{
+  "slug": "sony-xperia-z5-3gb-32gb-4g-lte",
+  "name": "Sony Xperia Z5",
+  "brand": "sony",
+  "release_date": "2015-09-02",
+  "ram_gb": 3,
+  "battery_mah": 2900,
+  "weight_g": 154.0,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 7.1.1 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-z5",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.2 inches, 73.2 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~428 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.1, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL 3 TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - E6603, E6653",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 28, 38, 40 - E6603, E6653",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps (E6603), LTE Cat6 300/50 Mbps (E6653)"
+    },
+    "Launch": {
+      "Announced": "2015, September 02. Released 2015, October 02",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "146 x 72 x 7.3 mm (5.75 x 2.83 x 0.29 in)",
+      "Weight": "154 g (5.43 oz)",
+      "Build": "Glass front, glass back, aluminum frame",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.2 inches, 73.2 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~428 ppi density)",
+      "Protection": "Scratch-resistant glass, oleophobic coating"
+    },
+    "Platform": {
+      "OS": "Android 5.1.1 (Lollipop), upgradable to 7.1.1 (Nougat)",
+      "Chipset": "Qualcomm MSM8994 Snapdragon 810 (20 nm)",
+      "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x2.0 GHz Cortex-A57)",
+      "GPU": "Adreno 430"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "4K@30fps, 1080p@60fps, 720p@120fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "5.1 MP, f/2.4",
+      "Features": "HDR",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.1, A2DP, aptX",
+      "Positioning": "GPS, GLONASS/ BDS (market dependant)",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL 3 TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (side-mounted; EU model only), accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2900 mAh, non-removable",
+      "Charging": "18W wired, QC2",
+      "Stand-by": "Up to 520 h (2G) / Up to 540 h (3G)",
+      "Talk time": "Up to 13 h 10 min (2G) / Up to 17 h (3G)",
+      "Music play": "Up to 87 h"
+    },
+    "Misc": {
+      "Colors": "White, Graphite Black, Gold, Green, Pink",
+      "Models": "E6653, SO-01H, SOV32, E6603, 501SO",
+      "SAR": "0.55 W/kg (head)     0.64 W/kg (body)     ",
+      "SAR EU": "0.75 W/kg (head)     0.78 W/kg (body)     ",
+      "Price": "About 150 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark OS II 2.0: 1580Basemark X: 24941",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8994-snapdragon-810"
+}

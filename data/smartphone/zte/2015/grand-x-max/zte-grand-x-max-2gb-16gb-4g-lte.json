@@ -1,0 +1,108 @@
+{
+  "slug": "zte-grand-x-max-2gb-16gb-4g-lte",
+  "name": "ZTE Grand X Max+",
+  "brand": "zte",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3200,
+  "weight_g": 171.8,
+  "os": "Android 4.4.4 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "grand-x-max",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 99.2 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 - Z987 (Criket)",
+      "4G bands": "2, 4, 5, 17 - Z987 (Criket)",
+      "Speed": "HSPA, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "162.1 x 83.1 x 7.9 mm (6.38 x 3.27 x 0.31 in)",
+      "Weight": "171.8 g (6.07 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.0 inches, 99.2 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~245 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.4 (KitKat)",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "Yes"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Infrared port": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3200 mAh, non-removable",
+      "Charging": "10W wired, QC1",
+      "Stand-by": "Up to 860 h",
+      "Talk time": "Up to 6 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "Z987"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

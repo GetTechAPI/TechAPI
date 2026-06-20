@@ -1,0 +1,106 @@
+{
+  "slug": "lg-lucid2-vs870-1gb-8gb-4g-lte",
+  "name": "LG Lucid2 VS870",
+  "brand": "lg",
+  "release_date": "2013-04-01",
+  "ram_gb": 1,
+  "battery_mah": 2460,
+  "weight_g": 129.0,
+  "os": "Android 4.1.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "lucid2-vs870",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "AH IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot, DLNA",
+    "bluetooth": "4.0, A2DP, EDR",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "13",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE"
+    },
+    "Launch": {
+      "Announced": "2013, April. Released 2013, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "122.5 x 62.8 x 9.8 mm (4.82 x 2.47 x 0.39 in)",
+      "Weight": "129 g (4.55 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "AH IPS LCD",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1.2 (Jelly Bean)",
+      "Chipset": "Qualcomm MSM8960 Snapdragon S4 Plus",
+      "CPU": "Dual-core 1.2 GHz Krait",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot, DLNA",
+      "Bluetooth": "4.0, A2DP, EDR",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2460 mAh, removable",
+      "Stand-by": "Up to 480 h",
+      "Talk time": "Up to 7 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR": "0.59 W/kg (head)     1.12 W/kg (body)     ",
+      "Price": "About 270 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus"
+}

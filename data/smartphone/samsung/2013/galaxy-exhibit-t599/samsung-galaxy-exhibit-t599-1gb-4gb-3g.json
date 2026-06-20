@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-exhibit-t599-1gb-4gb-3g",
+  "name": "Samsung Galaxy Exhibit T599",
+  "brand": "samsung",
+  "release_date": "2013-05-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 119.1,
+  "os": "Android 4.1.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-exhibit-t599",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "3.8 inches, 41.1 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~246 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+    "bluetooth": "2.1, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2013, May. Released 2013, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "121.4 x 62.5 x 10.4 mm (4.78 x 2.46 x 0.41 in)",
+      "Weight": "119.1 g (4.20 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "3.8 inches, 41.1 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~246 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1.2 (Jelly Bean)",
+      "Chipset": "NovaThor U8420",
+      "CPU": "1.0 GHz dual-core Cortex-A9",
+      "GPU": "Mali-400MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.9 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot",
+      "Bluetooth": "2.1, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1500 mAh, removable",
+      "Stand-by": "Up to 600 h (3G)",
+      "Talk time": "Up to 9 h (3G)",
+      "Music play": "Up to 27 h"
+    },
+    "Misc": {
+      "Colors": "Gray",
+      "Models": "SGH-T599N",
+      "SAR": "0.78 W/kg (head)     1.12 W/kg (body)     ",
+      "Price": "About 90 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "novathor-u8420"
+}

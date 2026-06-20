@@ -1,0 +1,111 @@
+{
+  "slug": "oppo-n1-2gb-32gb-3g",
+  "name": "Oppo N1",
+  "brand": "oppo",
+  "release_date": "2013-09-01",
+  "ram_gb": 2,
+  "battery_mah": 3610,
+  "weight_g": 213.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "n1",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.9 inches, 96.0 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~373 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2013, September. Released 2013, October",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "170.7 x 82.6 x 9 mm (6.72 x 3.25 x 0.35 in)",
+      "Weight": "213 g (7.51 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.9 inches, 96.0 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~373 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean)",
+      "Chipset": "Qualcomm Snapdragon 600",
+      "CPU": "Quad-core 1.7 GHz Krait 300",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "Dual-LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "Rotating pop-up main camera module",
+      "Features": "LED flash"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3610 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White, dark blue",
+      "Price": "About 430 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "qualcomm-snapdragon-600"
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "meizu-m3x-4gb-64gb-4g-lte",
+  "name": "Meizu M3x",
+  "brand": "meizu",
+  "release_date": "2016-11-01",
+  "ram_gb": 4,
+  "battery_mah": 3200,
+  "weight_g": 165.0,
+  "os": "Android 6 (Marshmallow), Flyme 6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "m3x",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "USB Type-C"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": " HSDPA",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA, LTE",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2016, November. Released 2016, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "153.8 x 76 x 7.4 mm (6.06 x 2.99 x 0.29 in)",
+      "Weight": "165 g (5.82 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 6 (Marshmallow), Flyme 6",
+      "Chipset": "Mediatek MT6757 Helio P20 (16 nm)",
+      "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.6 GHz Cortex-A53)",
+      "GPU": "Mali-T880MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "32GB 3GB RAM, 64GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "12 MP, f/2.0, 1/2.9\", 1.25µm, PDAF",
+      "Features": "Dual-LED dual-tone flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.0, 1/4.0\", 1.4µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "USB Type-C"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3200 mAh, non-removable",
+      "Charging": "24W wired"
+    },
+    "Misc": {
+      "Colors": "Blue, Gold, Black, Silver"
+    }
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "soc": "mediatek-mt6757-helio-p20"
+}

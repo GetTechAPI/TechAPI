@@ -1,0 +1,105 @@
+{
+  "slug": "lg-stylo-2-2gb-16gb-4g-lte",
+  "name": "LG Stylo 2",
+  "brand": "lg",
+  "release_date": "2016-04-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 144.6,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "stylo-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.7 inches, 89.6 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.1, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "4G bands": "2, 4, 5, 12, 25, 26, 41 - LS775",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2016, April. Released 2016, April",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "155 x 79.5 x 7.4 mm (6.10 x 3.13 x 0.29 in)",
+      "Weight": "144.6 g (5.11 oz)",
+      "SIM": "Nano-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.7 inches, 89.6 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 6.0 (Marshmallow)",
+      "Chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A53",
+      "GPU": "Adreno 306"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.1, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Models": "LGLS775, VS835, K540, LGL82VL",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8916-snapdragon-410"
+}

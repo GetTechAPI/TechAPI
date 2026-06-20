@@ -1,0 +1,106 @@
+{
+  "slug": "htc-desire-820g-dual-sim-1gb-16gb-3g",
+  "name": "HTC Desire 820G+ dual sim",
+  "brand": "htc",
+  "release_date": "2015-05-01",
+  "ram_gb": 1,
+  "battery_mah": 2600,
+  "weight_g": 154.5,
+  "os": "Android 4.4.2 (KitKat), Sense UI 6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "desire-820g-dual-sim",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 83.4 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2015, May. Released 2015, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "157.7 x 78.7 x 7.7 mm (6.21 x 3.10 x 0.30 in)",
+      "Weight": "154.5 g (5.47 oz)",
+      "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.5 inches, 83.4 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), Sense UI 6",
+      "Chipset": "Mediatek MT6592 (28 nm)",
+      "CPU": "Octa-core 1.7 GHz Cortex-A7",
+      "GPU": "Mali-450MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, f/2.2, 28mm (wide), AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "8 MP, f/2.3",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 2600 mAh, non-removable",
+      "Stand-by": "Up to 600 h (2G) / Up to 560 h (3G)",
+      "Talk time": "Up to 32 h (2G) / Up to 12 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Marble White, Dovetail gray",
+      "Models": "Desire 820G PLUS dua, Desire_820G_PLUS_dua",
+      "Price": "About 180 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "mediatek-mt6592"
+}

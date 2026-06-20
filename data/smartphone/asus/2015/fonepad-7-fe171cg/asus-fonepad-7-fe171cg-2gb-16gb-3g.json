@@ -1,0 +1,107 @@
+{
+  "slug": "asus-fonepad-7-fe171cg-2gb-16gb-3g",
+  "name": "Asus Fonepad 7 FE171CG",
+  "brand": "asus",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3950,
+  "weight_g": 280.0,
+  "os": "Android 4.4 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "fonepad-7-fe171cg",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "7.0 inches, 137.9 cm",
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "196 x 110.6 x 7.9 mm (7.72 x 4.35 x 0.31 in)",
+      "Weight": "280 g (9.88 oz)",
+      "SIM": "Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "7.0 inches, 137.9 cm",
+      "Resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)",
+      "Protection": "Oleophobic coating"
+    },
+    "Platform": {
+      "OS": "Android 4.4 (KitKat)",
+      "Chipset": "Intel Atom Z2520",
+      "CPU": "Dual-core 1.2 GHz",
+      "GPU": "PowerVR SGX544MP2"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP or 8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer"
+    },
+    "Battery": {
+      "Type": "Li-Po 3950 mAh, non-removable (15 Wh)",
+      "Talk time": "Up to 11 h 30 min (multimedia) (2G) / Up to 34 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, White, Gold, Red",
+      "Models": "K01N",
+      "Price": "About 160 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "intel-atom-z2520"
+}

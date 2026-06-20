@@ -1,0 +1,107 @@
+{
+  "slug": "motorola-droid-razr-xt912-1gb-16gb-4g-lte",
+  "name": "Motorola DROID RAZR XT912",
+  "brand": "motorola",
+  "release_date": "2011-10-01",
+  "ram_gb": 1,
+  "battery_mah": 1780,
+  "weight_g": 127.0,
+  "os": "Android 2.3.5 (Gingerbread), upgradable to 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "droid-razr-xt912",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "4.0, EDR, LE",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "13 - Verizon",
+      "Speed": "EV-DO Rev.A 3.1 Mbps, LTE, HSPA"
+    },
+    "Launch": {
+      "Announced": "2011, October. Released 2011, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "130.7 x 68.9 x 7.1 mm (5.15 x 2.71 x 0.28 in)",
+      "Weight": "127 g (4.48 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 2.3.5 (Gingerbread), upgradable to 4.1 (Jelly Bean)",
+      "Chipset": "TI OMAP 4430",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "PowerVR SGX540"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot), 16 GB included",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps, 480p@120fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+      "Bluetooth": "4.0, EDR, LE",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 1780 mAh battery",
+      "Stand-by": "Up to 204 h",
+      "Talk time": "Up to 12 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Black, White, Purple",
+      "SAR": "1.45 W/kg (head)     0.71 W/kg (body)     ",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "ti-omap-4430"
+}

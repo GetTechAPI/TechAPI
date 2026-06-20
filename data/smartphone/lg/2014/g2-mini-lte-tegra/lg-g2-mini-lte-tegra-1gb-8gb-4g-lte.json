@@ -1,0 +1,108 @@
+{
+  "slug": "lg-g2-mini-lte-tegra-1gb-8gb-4g-lte",
+  "name": "LG G2 mini LTE (Tegra)",
+  "brand": "lg",
+  "release_date": "2014-02-01",
+  "ram_gb": 1,
+  "battery_mah": 2440,
+  "weight_g": 121.0,
+  "os": "Android 4.4.2 (KitKat), LG Optimus UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g2-mini-lte-tegra",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.7 inches, 60.9 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~234 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA",
+      "4G bands": " LTE (unspecified)",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps",
+      "GPRS": "Class 12",
+      "EDGE": "Class 12"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "129.6 x 66 x 9.8 mm (5.10 x 2.60 x 0.39 in)",
+      "Weight": "121 g (4.27 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.7 inches, 60.9 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~234 ppi density)",
+      "Protection": "Corning Gorilla Glass 2"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), LG Optimus UI",
+      "Chipset": "Nvidia Tegra 4i",
+      "CPU": "Quad-core 1.7 GHz Cotex-A9",
+      "GPU": "ULP GeForce (60 cores)"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, LE",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Infrared port": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2440 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Titan Black, Lunar White, Red, Gold",
+      "Price": "About 240 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "nvidia-tegra-4i"
+}

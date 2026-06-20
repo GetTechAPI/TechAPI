@@ -1,0 +1,106 @@
+{
+  "slug": "samsung-i9100g-galaxy-s-ii-1gb-16gb-3g",
+  "name": "Samsung I9100G Galaxy S II",
+  "brand": "samsung",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1650,
+  "weight_g": 116.0,
+  "os": "Android 2.3.4 (Gingerbread), 4.0.4 (Ice Cream Sandwich), upgradable to 4.1.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "i9100g-galaxy-s-ii",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 52.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+    "type": "Super AMOLED Plus"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP, aptX",
+    "nfc": "Optional",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, Q3",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "125.3 x 66.1 x 8.5 mm (4.93 x 2.60 x 0.33 in)",
+      "Weight": "116 g (4.09 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED Plus",
+      "Size": "4.3 inches, 52.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 2.3.4 (Gingerbread), 4.0.4 (Ice Cream Sandwich), upgradable to 4.1.2 (Jelly Bean)",
+      "Chipset": "TI OMAP 4430",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "PowerVR SGX540"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, 1/3.2\", f/2.6, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP, aptX",
+      "Positioning": "GPS, A-GPS",
+      "NFC": "Optional",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1650 mAh battery",
+      "Stand-by": "Up to 660 h (2G) / Up to 560 h (3G)",
+      "Talk time": "Up to 18 h 40 min (2G) / Up to 9 h (3G)"
+    },
+    "Misc": {
+      "Colors": "Black, White, Pink",
+      "SAR EU": "0.25 W/kg (head)     ",
+      "Price": "About 220 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "ti-omap-4430"
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "htc-windows-phone-8x-1gb-16gb-4g-lte",
+  "name": "HTC Windows Phone 8X",
+  "brand": "htc",
+  "release_date": "2012-09-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 130.0,
+  "os": "Microsoft Windows Phone 8, upgradable to 8.1.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "windows-phone-8x",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)",
+    "type": "S-LCD2"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
+    "bluetooth": "3.1, A2DP, EDR/ 4.0, LE after Amber update",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "2, 4, 5, 17 - AT&T",
+      "Speed": "HSPA, LTE Cat3 100/50 Mbps, EV-DO Rev.A 3.1 Mbps (LTE for AT&T version)"
+    },
+    "Launch": {
+      "Announced": "2012, September. Released 2012, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "132.4 x 66.2 x 10.1 mm (5.21 x 2.61 x 0.40 in)",
+      "Weight": "130 g (4.59 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "S-LCD2",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)",
+      "Protection": "Corning Gorilla Glass 2"
+    },
+    "Platform": {
+      "OS": "Microsoft Windows Phone 8, upgradable to 8.1.1",
+      "Chipset": "Qualcomm MSM8960 Snapdragon S4 Plus",
+      "CPU": "Dual-core 1.5 GHz Krait",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2.1 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+      "Bluetooth": "3.1, A2DP, EDR/ 4.0, LE after Amber update",
+      "Positioning": "GPS, A-GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Ion 1800 mAh battery"
+    },
+    "Misc": {
+      "Colors": "California Blue, Graphite Black, Flame Red, Limelight Yellow",
+      "SAR": "0.59 W/kg (head)     0.32 W/kg (body)     ",
+      "Price": "About 170 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus"
+}

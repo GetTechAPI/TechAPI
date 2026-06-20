@@ -1,0 +1,108 @@
+{
+  "slug": "oppo-r9-plus-4gb-128gb-4g-lte",
+  "name": "Oppo R9 Plus",
+  "brand": "oppo",
+  "release_date": "2016-03-01",
+  "ram_gb": 4,
+  "battery_mah": 4120,
+  "weight_g": 185.0,
+  "os": "Android 5.1 (Lollipop), upgradable to 6 (Marshmallow), ColorOS 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "r9-plus",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "6.0 inches, 99.2 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+      "4G bands": "1, 3, 5, 38, 39, 40, 41",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2016, March. Released 2016, March",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "163.1 x 80.8 x 7.4 mm (6.42 x 3.18 x 0.29 in)",
+      "Weight": "185 g (6.53 oz)",
+      "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "6.0 inches, 99.2 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)",
+      "Protection": "Corning Gorilla Glass 4"
+    },
+    "Platform": {
+      "OS": "Android 5.1 (Lollipop), upgradable to 6 (Marshmallow), ColorOS 3",
+      "Chipset": "Qualcomm MSM8976 Snapdragon 652 (28 nm)",
+      "CPU": "Octa-core (4x1.8 GHz Cortex-A72 & 4x1.2 GHz Cortex-A53)",
+      "GPU": "Adreno 510"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (uses shared SIM slot)",
+      "Internal": "64GB 4GB RAM, 128GB 4GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/2.0, 1/2.8\", PDAF",
+      "Features": "LED flash, panorama, HDR",
+      "Video": "4K@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.1, A2DP, LE",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 4120 mAh, non-removable",
+      "Charging": "20W wired, 75% in 30 min (advertised)"
+    },
+    "Misc": {
+      "Colors": "Gold",
+      "Models": "X9079",
+      "Price": "About 550 EUR"
+    }
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "soc": "qualcomm-msm8976-snapdragon-652"
+}

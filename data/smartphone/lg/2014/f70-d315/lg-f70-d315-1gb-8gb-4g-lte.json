@@ -1,0 +1,106 @@
+{
+  "slug": "lg-f70-d315-1gb-8gb-4g-lte",
+  "name": "LG F70 D315",
+  "brand": "lg",
+  "release_date": "2014-02-01",
+  "ram_gb": 1,
+  "battery_mah": 2440,
+  "weight_g": 129.6,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "f70-d315",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 57.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes (LTE model only)",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "4G bands": "3, 7, 20",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2014, February. Released 2014, May",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "127.2 x 66.4 x 10 mm (5.01 x 2.61 x 0.39 in)",
+      "Weight": "129.6 g (4.59 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 57.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat)",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM, 8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "Yes (LTE model only)",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2440 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "White, Black",
+      "SAR": "0.36 W/kg (head)     0.73 W/kg (body)     ",
+      "SAR EU": "0.51 W/kg (head)     0.58 W/kg (body)     ",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4,
+    8
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

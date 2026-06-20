@@ -1,0 +1,106 @@
+{
+  "slug": "lg-l-fino-1gb-4gb-3g",
+  "name": "LG L Fino",
+  "brand": "lg",
+  "release_date": "2014-08-01",
+  "ram_gb": 1,
+  "battery_mah": 1900,
+  "weight_g": 145.0,
+  "os": "Android 4.4.2 (KitKat), LG UI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "l-fino",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 57.6 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, August. Released 2014, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "127.5 x 67.9 x 11.9 mm (5.02 x 2.67 x 0.47 in)",
+      "Weight": "145 g (5.11 oz)",
+      "SIM": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.5 inches, 57.6 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat), LG UI 3",
+      "Chipset": "Qualcomm MSM8212 Snapdragon 200 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash, panorama",
+      "Video": "480p"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1900 mAh, removable",
+      "Stand-by": "Up to 345 h (3G)",
+      "Talk time": "Up to 15 h (3G)"
+    },
+    "Misc": {
+      "Colors": "White, Black, Gold, Red, Green",
+      "Models": "D295, D290",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-msm8212-snapdragon-200"
+}

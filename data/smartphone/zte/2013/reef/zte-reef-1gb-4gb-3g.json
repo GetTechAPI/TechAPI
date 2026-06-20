@@ -1,0 +1,104 @@
+{
+  "slug": "zte-reef-1gb-4gb-3g",
+  "name": "ZTE Reef",
+  "brand": "zte",
+  "release_date": "2013-08-01",
+  "ram_gb": 1,
+  "battery_mah": 1650,
+  "weight_g": 127.6,
+  "os": "Android 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "reef",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.0 inches, 45.5 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "Speed": "EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, August. Released 2013, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "127 x 64.8 x 11.2 mm (5.0 x 2.55 x 0.44 in)",
+      "Weight": "127.6 g (4.48 oz)",
+      "SIM": "Yes"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "4.0 inches, 45.5 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean)",
+      "Chipset": "Qualcomm MSM8655 Snapdragon S2",
+      "CPU": "1.0 GHz",
+      "GPU": "Adreno 205"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP",
+      "Features": "LED flash, panorama",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot, Wi-Fi Direct",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "No",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1650 mAh, removable",
+      "Stand-by": "Up to 165 h",
+      "Talk time": "Up to 9 h 30 min"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "Price": "About 110 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "qualcomm-msm8655-snapdragon-s2"
+}

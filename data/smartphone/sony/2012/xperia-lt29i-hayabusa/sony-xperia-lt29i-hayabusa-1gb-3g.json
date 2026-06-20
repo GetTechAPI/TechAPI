@@ -1,0 +1,100 @@
+{
+  "slug": "sony-xperia-lt29i-hayabusa-1gb-3g",
+  "name": "Sony Xperia LT29i Hayabusa",
+  "brand": "sony",
+  "release_date": "2012-08-01",
+  "ram_gb": 1,
+  "battery_mah": 1700,
+  "weight_g": 127.0,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-lt29i-hayabusa",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": null
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.6 inches, 58.3 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~319 ppi density)",
+    "type": "LED-backlit LCD,"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA",
+      "Speed": "HSPA 21.1/5.76 Mbps",
+      "GPRS": "Up to 86 kbps",
+      "EDGE": "Up to 237 kbps"
+    },
+    "Launch": {
+      "Announced": "Exp. announcement 2012, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "8.6mm thick",
+      "Weight": "127g (4.48 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "LED-backlit LCD,",
+      "Size": "4.6 inches, 58.3 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~319 ppi density)",
+      "Protection": "Scratch-resistant glass"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich)",
+      "Chipset": "Qualcomm MSM8960 Snapdragon S4 Plus",
+      "CPU": "Dual-core 1.5 GHz Krait",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash, panorama",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "Yes"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "2.1, A2DP, EDR",
+      "Positioning": "GPS, A-GPS",
+      "NFC": "Yes",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1700 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Black"
+    }
+  },
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus"
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "sony-xperia-z1-2gb-16gb-4g-lte",
+  "name": "Sony Xperia Z1",
+  "brand": "sony",
+  "release_date": "2013-09-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 170.0,
+  "os": "Android 4.2 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "xperia-z1",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG, magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - all versions",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - all versions",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 20 - C6903, C6943",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, September. Released 2013, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "144 x 74 x 8.5 mm (5.67 x 2.91 x 0.33 in)",
+      "Weight": "170 g (6.00 oz)",
+      "Build": "Glass front, glass back, aluminum frame",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+      "Protection": "Shatter proof glass"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+      "Chipset": "Qualcomm MSM8974 Snapdragon 800 (28 nm)",
+      "CPU": "Quad-core 2.2 GHz Krait 400",
+      "GPU": "Adreno 330"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "16GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "20.7 MP, f/2.0, 27mm (wide), 1/2.3\", AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "1080p@30fps, HDR"
+    },
+    "Selfie camera": {
+      "Single": "2 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG, magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3000 mAh, non-removable",
+      "Stand-by": "Up to 880 h (2G) / Up to 850 h (3G)",
+      "Talk time": "Up to 13 h 50 min (2G) / Up to 15 h (3G)",
+      "Music play": "Up to 110 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Purple",
+      "Models": "C6903, C6902, C6906, SO-01F, SOL23",
+      "SAR": "0.75 W/kg (head)     1.15 W/kg (body)     ",
+      "SAR EU": "0.77 W/kg (head)     ",
+      "Price": "About 330 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nBasemark X: 9399",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8974-snapdragon-800"
+}

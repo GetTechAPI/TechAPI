@@ -1,0 +1,107 @@
+{
+  "slug": "samsung-galaxy-s-ii-epic-4g-touch-1gb-16gb-3g",
+  "name": "Samsung Galaxy S II Epic 4G Touch",
+  "brand": "samsung",
+  "release_date": "2011-08-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 130.0,
+  "os": "Android 2.3.4 (Gingerbread)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "galaxy-s-ii-epic-4g-touch",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.52 inches, 58.2 cm",
+    "resolution": "480 x 800 pixels, 5:3 ratio (~206 ppi density)",
+    "type": "Super AMOLED Plus"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot; WiMax",
+    "bluetooth": "3.0, A2DP, aptX",
+    "nfc": "Optional",
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "CDMA 800 / 1900 ",
+      "3G bands": "CDMA2000 1xEV-DO ",
+      "Speed": "EV-DO Rev.A 3.1 Mbps"
+    },
+    "Launch": {
+      "Announced": "2011, August. Released 2011, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "130 x 70 x 10 mm (5.12 x 2.76 x 0.39 in)",
+      "Weight": "130 g (4.59 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED Plus",
+      "Size": "4.52 inches, 58.2 cm",
+      "Resolution": "480 x 800 pixels, 5:3 ratio (~206 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 2.3.4 (Gingerbread)",
+      "Chipset": "Exynos 4210 Dual",
+      "CPU": "Dual-core 1.2 GHz Cortex-A9",
+      "GPU": "Mali-400MP4"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.6, 1/3.2\", AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot; WiMax",
+      "Bluetooth": "3.0, A2DP, aptX",
+      "Positioning": "GPS, A-GPS",
+      "NFC": "Optional",
+      "Radio": "No",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass",
+      "Browser": "HTML, Adobe Flash"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1800 mAh battery",
+      "Stand-by": "Up to 252 h",
+      "Talk time": "Up to 8 h 45 min"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "SAR": "0.40 W/kg (head)     0.54 W/kg (body)     ",
+      "Price": "About 130 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "exynos-4210-dual"
+}

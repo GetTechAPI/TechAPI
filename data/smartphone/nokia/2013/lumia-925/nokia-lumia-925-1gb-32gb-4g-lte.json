@@ -1,0 +1,117 @@
+{
+  "slug": "nokia-lumia-925-1gb-32gb-4g-lte",
+  "name": "Nokia Lumia 925",
+  "brand": "nokia",
+  "release_date": "2013-05-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 139.0,
+  "os": "Microsoft Windows Phone 8, upgradable to 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "lumia-925",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 57.6 cm",
+    "resolution": "768 x 1280 pixels, 5:3 ratio (~332 ppi density)",
+    "type": "AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE/ aptX after WP8 Denim update",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - all versions",
+      "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - RM-892",
+      "4G bands": "1, 3, 7, 8, 20 - RM-892",
+      "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat3 100/50 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, May. Released 2013, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "129 x 70.6 x 8.5 mm, 78 cc (5.08 x 2.78 x 0.33 in)",
+      "Weight": "139 g (4.90 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "AMOLED",
+      "Size": "4.5 inches, 57.6 cm",
+      "Resolution": "768 x 1280 pixels, 5:3 ratio (~332 ppi density)",
+      "Protection": "Corning Gorilla Glass 2"
+    },
+    "Platform": {
+      "OS": "Microsoft Windows Phone 8, upgradable to 8.1",
+      "Chipset": "Qualcomm MSM8960 Snapdragon S4 Plus",
+      "CPU": "Dual-core 1.5 GHz Krait",
+      "GPU": "Adreno 225"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM, 32GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, 1/3.0\", AF, OIS",
+      "Features": "Carl Zeiss optics, dual-LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP",
+      "Video": "720p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, EDR, LE/ aptX after WP8 Denim update",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2000 mAh, non-removable (BL-4YW)",
+      "Stand-by": "Up to 440 h (3G)",
+      "Talk time": "Up to 18 h 20 min (2G) / Up to 12 h 40 min (3G)",
+      "Music play": "Up to 55 h"
+    },
+    "Misc": {
+      "Colors": "Black, White, Gray",
+      "SAR": "1.42 W/kg (head)     1.00 W/kg (body)     ",
+      "SAR EU": "0.81 W/kg (head)     ",
+      "Price": "About 260 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus"
+}

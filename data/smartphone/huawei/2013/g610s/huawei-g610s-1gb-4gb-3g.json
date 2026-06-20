@@ -1,0 +1,104 @@
+{
+  "slug": "huawei-g610s-1gb-4gb-3g",
+  "name": "Huawei G610s",
+  "brand": "huawei",
+  "release_date": "2013-07-01",
+  "ram_gb": 1,
+  "battery_mah": 2150,
+  "weight_g": 170.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "g610s",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA",
+    "bluetooth": "Yes",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 900 / 2100 - SIM 1",
+      "Speed": "HSPA 7.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, July. Released 2013, August",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "142 x 73.6 x 9.9 mm (5.59 x 2.90 x 0.39 in)",
+      "Weight": "170 g (6.00 oz)",
+      "SIM": "Dual SIM (Mini-SIM)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT6589 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "PowerVR SGX544"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "4GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p"
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA",
+      "Bluetooth": "Yes",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2150 mAh, removable"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "Models": "G610-U00, G610-U20",
+      "SAR EU": "0.39 W/kg (head)     ",
+      "Price": "About 150 EUR"
+    }
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "soc": "mediatek-mt6589"
+}

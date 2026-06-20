@@ -1,0 +1,109 @@
+{
+  "slug": "htc-one-s-c2-1gb-16gb-3g",
+  "name": "HTC One S C2",
+  "brand": "htc",
+  "release_date": "2012-05-01",
+  "ram_gb": 1,
+  "battery_mah": 1650,
+  "weight_g": 119.5,
+  "os": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "one-s-c2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, aptX",
+    "nfc": null,
+    "usb": "microUSB 2.0 (MHL TV-out)"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 900 / 2100 ",
+      "Speed": "HSPA"
+    },
+    "Launch": {
+      "Announced": "2012, May. Released 2012, June",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "130.9 x 65 x 7.8 mm (5.15 x 2.56 x 0.31 in)",
+      "Weight": "119.5 g (4.20 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)",
+      "Protection": "Corning Gorilla Glass"
+    },
+    "Platform": {
+      "OS": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean), Sense UI",
+      "Chipset": "Qualcomm MSM8260 Snapdragon S3",
+      "CPU": "Dual-core 1.7 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps, stereo sound rec."
+    },
+    "Selfie camera": {
+      "Single": "VGA"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, aptX",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0 (MHL TV-out)"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Non-removable Li-Po 1650 mAh battery"
+    },
+    "Misc": {
+      "Colors": "Black",
+      "SAR EU": "0.69 W/kg (head)     ",
+      "Price": "About 180 EUR"
+    },
+    "Tests": {
+      "Display": "\r\n",
+      "Loudspeaker": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-msm8260-snapdragon-s3"
+}

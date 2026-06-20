@@ -1,0 +1,118 @@
+{
+  "slug": "motorola-moto-z-play-3gb-32gb-4g-lte",
+  "name": "Motorola Moto Z Play",
+  "brand": "motorola",
+  "release_date": "2016-08-01",
+  "ram_gb": 3,
+  "battery_mah": 3510,
+  "weight_g": 165.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "moto-z-play",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.5 inches, 82.6 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)",
+    "type": "Super AMOLED"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+    "bluetooth": "4.0, A2DP, LE, aptX",
+    "nfc": "Yes",
+    "usb": "USB Type-C, magnetic connector"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+      "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+      "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 19, 20, 28, 38, 40 - USA",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2016, August. Released 2016, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "156.4 x 76.4 x 7 mm (6.16 x 3.01 x 0.28 in)",
+      "Weight": "165 g (5.82 oz)",
+      "Build": "Glass front (Gorilla Glass 3), glass back, aluminum frame",
+      "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "Super AMOLED",
+      "Size": "5.5 inches, 82.6 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
+      "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "CPU": "Octa-core 2.0 GHz Cortex-A53",
+      "GPU": "Adreno 506"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "32GB 3GB RAM"
+    },
+    "Main Camera": {
+      "Single": "16 MP, f/2.0, 1.3µm, PDAF",
+      "Features": "Laser AF, Dual-LED dual-tone flash, panorama",
+      "Video": "4K@30fps, 1080p@30fps, 720p@120fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP, f/2.2, 1/4.0\", 1.4µm",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct",
+      "Bluetooth": "4.0, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "Yes",
+      "Radio": "No",
+      "USB": "USB Type-C, magnetic connector"
+    },
+    "Features": {
+      "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 3510 mAh, non-removable",
+      "Charging": "15W wired"
+    },
+    "Misc": {
+      "Colors": "Black/Silver/Black Slate, White/Fine Gold/Sugar White",
+      "Models": "XT1635-02, XT1635-01, XT1635-03",
+      "SAR": "1.45 W/kg (head)     1.15 W/kg (body)     ",
+      "SAR EU": "0.40 W/kg (head)     1.40 W/kg (body)     ",
+      "Price": "About 220 EUR"
+    },
+    "Tests": {
+      "Performance": "\r\nGFXBench: 3.7fps (ES 3.1 onscreen)",
+      "Display": "\r\n",
+      "Camera": "\r\n",
+      "Audio quality": "\r\n",
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "soc": "qualcomm-msm8953-snapdragon-625"
+}

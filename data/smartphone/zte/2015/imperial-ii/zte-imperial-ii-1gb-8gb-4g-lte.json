@@ -1,0 +1,106 @@
+{
+  "slug": "zte-imperial-ii-1gb-8gb-4g-lte",
+  "name": "ZTE Imperial II",
+  "brand": "zte",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2300,
+  "weight_g": 143.7,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "imperial-ii",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)",
+    "type": "TFT"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": " HSDPA",
+      "4G bands": "2, 4, 5, 12, 17",
+      "Speed": "HSPA",
+      "GPRS": "Yes",
+      "EDGE": "Yes"
+    },
+    "Launch": {
+      "Announced": "2015, January. Released 2015, January",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "142.2 x 71.1 x 10.2 mm (5.60 x 2.80 x 0.40 in)",
+      "Weight": "143.7 g (5.04 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "TFT",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.4.2 (KitKat)",
+      "Chipset": "Qualcomm MSM8926 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, AF",
+      "Features": "LED flash",
+      "Video": "720p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2300 mAh, removable",
+      "Stand-by": "Up to 296 h (3G)",
+      "Talk time": "Up to 15 h (3G)"
+    },
+    "Misc": {
+      "Colors": "White"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-msm8926-snapdragon-400"
+}

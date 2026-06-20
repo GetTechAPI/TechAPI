@@ -1,0 +1,103 @@
+{
+  "slug": "xiaomi-mi-2-2gb-32gb-3g",
+  "name": "Xiaomi Mi 2",
+  "brand": "xiaomi",
+  "release_date": "2012-08-01",
+  "ram_gb": 2,
+  "battery_mah": 2000,
+  "weight_g": 145.0,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 4.4.4 (KitKat), MIUI 5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "mi-2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "4.3 inches, 51.0 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "nfc": null,
+    "usb": "microUSB 2.0 (MHL TV-out), OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2012, August. Released 2012, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "126 x 62 x 10.2 mm (4.96 x 2.44 x 0.40 in)",
+      "Weight": "145 g (5.11 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "4.3 inches, 51.0 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~342 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 4.1 (Jelly Bean), upgradable to 4.4.4 (KitKat), MIUI 5",
+      "Chipset": "Qualcomm APQ8064 Snapdragon S4 Pro",
+      "CPU": "Quad-core 1.5 GHz Krait",
+      "GPU": "Adreno 320"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, 27mm (wide), AF",
+      "Features": "LED flash, HDR",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "2 MP",
+      "Video": "1080p@30fps"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+      "Bluetooth": "4.0, A2DP",
+      "Positioning": "GPS, A-GPS, GLONASS",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0 (MHL TV-out), OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass, barometer"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 2000 mAh battery"
+    },
+    "Misc": {
+      "Colors": "White, green, blue, red",
+      "Price": "About 250 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "qualcomm-apq8064-snapdragon-s4-pro"
+}

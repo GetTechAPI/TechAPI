@@ -1,0 +1,106 @@
+{
+  "slug": "lenovo-vibe-x-s960-2gb-32gb-3g",
+  "name": "Lenovo Vibe X S960",
+  "brand": "lenovo",
+  "release_date": "2013-09-01",
+  "ram_gb": 2,
+  "battery_mah": 2000,
+  "weight_g": 121.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "vibe-x-s960",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2013, September. Released 2013, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "144 x 74 x 6.9 mm (5.67 x 2.91 x 0.27 in)",
+      "Weight": "121 g (4.27 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.2 (Jelly Bean)",
+      "Chipset": "Mediatek MT6589T (28 nm)",
+      "CPU": "Quad-core 1.5 GHz Cortex A7",
+      "GPU": "PowerVR SGX544MP2"
+    },
+    "Memory": {
+      "Card slot": "No",
+      "Internal": "16GB 2GB RAM, 32GB 2GB RAM"
+    },
+    "Main Camera": {
+      "Single": "13 MP, AF",
+      "Features": "LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Po 2000 mAh, non-removable",
+      "Stand-by": "Up to 288 h",
+      "Talk time": "Up to 16 h"
+    },
+    "Misc": {
+      "Colors": "Black/Silver",
+      "Price": "About 420 EUR"
+    }
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "soc": "mediatek-mt6589t"
+}

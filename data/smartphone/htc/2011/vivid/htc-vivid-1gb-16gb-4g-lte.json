@@ -1,0 +1,108 @@
+{
+  "slug": "htc-vivid-1gb-16gb-4g-lte",
+  "name": "HTC Vivid",
+  "brand": "htc",
+  "release_date": "2011-10-01",
+  "ram_gb": 1,
+  "battery_mah": 1620,
+  "weight_g": 176.9,
+  "os": "Android 2.3.4 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "vivid",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    }
+  },
+  "display": {
+    "size": "4.5 inches, 55.8 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)",
+    "type": "S-LCD, 256K colors"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "nfc": null,
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 850 / 1900 / 2100 ",
+      "4G bands": "4, 17",
+      "Speed": "HSPA, LTE"
+    },
+    "Launch": {
+      "Announced": "2011, October. Released 2011, November",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "128.8 x 67.1 x 11.2 mm (5.07 x 2.64 x 0.44 in)",
+      "Weight": "176.9 g (6.21 oz)",
+      "SIM": "Mini-SIM"
+    },
+    "Display": {
+      "Type": "S-LCD, 256K colors",
+      "Size": "4.5 inches, 55.8 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)"
+    },
+    "Platform": {
+      "OS": "Android 2.3.4 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich), Sense UI",
+      "Chipset": "Qualcomm APQ8060 Snapdragon S3",
+      "CPU": "Dual-core 1.2 GHz Scorpion",
+      "GPU": "Adreno 220"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, AF",
+      "Features": "Dual-LED flash",
+      "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "1.3 MP"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+      "Bluetooth": "3.0, A2DP",
+      "Positioning": "GPS, A-GPS",
+      "Radio": "Stereo FM radio, RDS",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Removable Li-Ion 1620 mAh battery",
+      "Stand-by": "Up to 288 h",
+      "Talk time": "Up to 7 h 40 min"
+    },
+    "Misc": {
+      "Colors": "Black, White",
+      "SAR": "1.28 W/kg (head)     1.09 W/kg (body)     ",
+      "Price": "About 160 EUR"
+    },
+    "Tests": {
+      "Battery (old)": "\r\n"
+    }
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "soc": "qualcomm-apq8060-snapdragon-s3"
+}

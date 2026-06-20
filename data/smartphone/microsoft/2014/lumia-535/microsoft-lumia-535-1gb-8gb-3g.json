@@ -1,0 +1,109 @@
+{
+  "slug": "microsoft-lumia-535-1gb-8gb-3g",
+  "name": "Microsoft Lumia 535",
+  "brand": "microsoft",
+  "release_date": "2014-11-01",
+  "ram_gb": 1,
+  "battery_mah": 1905,
+  "weight_g": 146.0,
+  "os": "Microsoft Windows Phone 8.1, upgradable to Microsoft Windows 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "lumia-535",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, LE, aptX",
+    "nfc": "No",
+    "usb": "microUSB 2.0"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+      "3G bands": "HSDPA 900 / 2100 ",
+      "Speed": "HSPA 42.2/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, November. Released 2014, December",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "140.2 x 72.4 x 8.8 mm (5.52 x 2.85 x 0.35 in)",
+      "Weight": "146 g (5.15 oz)",
+      "SIM": "Micro-SIM"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Microsoft Windows Phone 8.1, upgradable to Microsoft Windows 10",
+      "Chipset": "Qualcomm Snapdragon 200 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 302"
+    },
+    "Memory": {
+      "Card slot": "microSDXC (dedicated slot)",
+      "Internal": "8GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "5 MP, f/2.4, 28mm (wide), 1/4.0\", AF",
+      "Features": "LED flash",
+      "Video": "480p@30fps"
+    },
+    "Selfie camera": {
+      "Single": "5 MP",
+      "Video": "720p"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+      "Bluetooth": "4.0, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, proximity"
+    },
+    "Battery": {
+      "Type": "Li-Ion 1905 mAh, removable (BL-L4A)",
+      "Stand-by": "Up to 552 h",
+      "Talk time": "Up to 11 h (2G) / Up to 13 h (3G)",
+      "Music play": "Up to 78 h"
+    },
+    "Misc": {
+      "Colors": "Orange, green, white, black, gray, blue",
+      "SAR": "0.46 W/kg (head)     0.38 W/kg (body)     ",
+      "SAR EU": "0.62 W/kg (head)     0.57 W/kg (body)     ",
+      "Price": "About 80 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8
+  ],
+  "soc": "qualcomm-snapdragon-200"
+}

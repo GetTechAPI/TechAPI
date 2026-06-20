@@ -1,0 +1,104 @@
+{
+  "slug": "motorola-moto-g-dual-sim-2nd-gen-1gb-16gb-3g",
+  "name": "Motorola Moto G Dual SIM (2nd gen)",
+  "brand": "motorola",
+  "release_date": "2014-09-01",
+  "ram_gb": 1,
+  "battery_mah": 2070,
+  "weight_g": 149.0,
+  "os": "Android 4.4.4 (KitKat), upgradable to Android L",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+  ],
+  "base_model_slug": "moto-g-dual-sim-2nd-gen",
+  "variant": {
+    "region": "global",
+    "source_dataset": "jakubkhalponiak/phones-2024",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    }
+  },
+  "display": {
+    "size": "5.0 inches, 68.9 cm",
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+    "type": "IPS LCD"
+  },
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP, LE, aptX",
+    "nfc": "No",
+    "usb": "microUSB 2.0, OTG"
+  },
+  "raw_phones_2024": {
+    "Network": {
+      "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+      "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 ",
+      "Speed": "HSPA 21.1/5.76 Mbps"
+    },
+    "Launch": {
+      "Announced": "2014, September. Released 2014, September",
+      "Status": "Discontinued"
+    },
+    "Body": {
+      "Dimensions": "141.5 x 70.7 x 11 mm (5.57 x 2.78 x 0.43 in)",
+      "Weight": "149 g (5.26 oz)",
+      "SIM": "Dual SIM, (Micro-SIM, dual stand-by)"
+    },
+    "Display": {
+      "Type": "IPS LCD",
+      "Size": "5.0 inches, 68.9 cm",
+      "Resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)",
+      "Protection": "Corning Gorilla Glass 3"
+    },
+    "Platform": {
+      "OS": "Android 4.4.4 (KitKat), upgradable to Android L",
+      "Chipset": "Qualcomm MSM8226 Snapdragon 400 (28 nm)",
+      "CPU": "Quad-core 1.2 GHz Cortex-A7",
+      "GPU": "Adreno 305"
+    },
+    "Memory": {
+      "Card slot": "microSDHC (dedicated slot)",
+      "Internal": "8GB 1GB RAM, 16GB 1GB RAM"
+    },
+    "Main Camera": {
+      "Single": "8 MP, f/2.0, AF",
+      "Features": "LED flash, HDR, panorama",
+      "Video": "720p@30fps, stereo sound rec., HDR"
+    },
+    "Selfie camera": {
+      "Single": "2 MP, f/2.2"
+    },
+    "Sound": {
+      "Loudspeaker": "Yes, with stereo speakers",
+      "3.5mm jack": "Yes"
+    },
+    "Comms": {
+      "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+      "Bluetooth": "4.0, A2DP, LE, aptX",
+      "Positioning": "GPS, GLONASS",
+      "NFC": "No",
+      "Radio": "FM radio",
+      "USB": "microUSB 2.0, OTG"
+    },
+    "Features": {
+      "Sensors": "Accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+      "Type": "Li-Ion 2070 mAh, non-removable"
+    },
+    "Misc": {
+      "Colors": "White, Black",
+      "Price": "About 200 EUR"
+    }
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "soc": "qualcomm-msm8226-snapdragon-400"
+}

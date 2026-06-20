@@ -148,8 +148,17 @@ async function loadList(resource) {
 (function stats() {
   const el = document.getElementById("stats");
   if (!el) return;
-  const order = ["smartphones", "socs", "gpus", "cpus", "brands"];
-  const label = { smartphones: "phones", socs: "socs", gpus: "gpus", cpus: "cpus", brands: "brands" };
+  const order = ["smartphones", "tablets", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
+  const label = {
+    smartphones: "phones",
+    tablets: "tablets",
+    watches: "watches",
+    pdas: "pdas",
+    socs: "socs",
+    gpus: "gpus",
+    cpus: "cpus",
+    brands: "brands",
+  };
   getJSON("v1/index.json").then((m) => {
     el.innerHTML = "";
     for (const k of order) {
@@ -195,9 +204,27 @@ function countUp(node, target) {
   const listEl = document.getElementById("history-list");
   if (!totalEl || !countsEl || !chartEl || !listEl) return;
 
-  const order = ["smartphones", "socs", "gpus", "cpus", "brands"];
-  const label = { smartphones: "Phones", socs: "SoCs", gpus: "GPUs", cpus: "CPUs", brands: "Brands" };
-  const shortLabel = { smartphones: "phones", socs: "socs", gpus: "gpus", cpus: "cpus", brands: "brands" };
+  const order = ["smartphones", "tablets", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
+  const label = {
+    smartphones: "Phones",
+    tablets: "Tablets",
+    watches: "Watches",
+    pdas: "PDAs",
+    socs: "SoCs",
+    gpus: "GPUs",
+    cpus: "CPUs",
+    brands: "Brands",
+  };
+  const shortLabel = {
+    smartphones: "phones",
+    tablets: "tablets",
+    watches: "watches",
+    pdas: "pdas",
+    socs: "socs",
+    gpus: "gpus",
+    cpus: "cpus",
+    brands: "brands",
+  };
   const dumpPath = "site/public/v1/index.json";
   const countRows = (manifest) => order
     .map((key) => ({ key, count: manifest.collections?.[key]?.count }))

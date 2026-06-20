@@ -1,0 +1,96 @@
+{
+  "id": 23004,
+  "slug": "oppo-k9s-8gb-6gb-5g",
+  "base_model_slug": "k9s",
+  "name": "Oppo K9s",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1724,
+    "slug": "qualcomm-snapdragon-778g-5g-sm7325",
+    "name": "Qualcomm Snapdragon 778G 5G SM7325",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Qualcomm Adreno 642L",
+    "url": "/v1/socs/qualcomm-snapdragon-778g-5g-sm7325"
+  },
+  "release_date": "2021-11-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    6,
+    8,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 6
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "PERM10"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size": "6.59\"",
+    "resolution": "1080x2412 pixels",
+    "type": "IPS LCD, 120Hz, 480 nits (typ), 600 nits (HBM)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 26mm (wide)"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, ColorOS 11.2",
+  "os_version": null,
+  "connectivity": {
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+    "bluetooth": "5.2, A2DP, LE, aptX HD",
+    "nfc": "No",
+    "usb": "USB Type-C 2.0, OTG"
+  },
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/oppo-k9s.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 35.0,
+    "performance": null,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/oppo-k9s"
+  ],
+  "created_at": "2026-06-20T13:49:41.001649",
+  "updated_at": "2026-06-20T13:49:41.001649"
+}

@@ -1,0 +1,73 @@
+{
+  "id": 40,
+  "slug": "alcatel-one-touch-evo-8hd",
+  "base_model_slug": "one-touch-evo-8hd",
+  "name": "Alcatel One Touch Evo 8HD",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 605,
+    "slug": "rockchip-rk3066",
+    "name": "Rockchip RK3066",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/rockchip-rk3066"
+  },
+  "release_date": "2013-09-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 8.0,
+    "resolution": "768 x 1024 pixels (~160 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    }
+  ],
+  "battery_mah": 4160,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 415.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "3.0",
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "Yes"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/alcatel-evo-8hd.jpg",
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:27.536118",
+  "updated_at": "2026-06-20T11:42:27.536118",
+  "url": "/v1/tablets/alcatel-one-touch-evo-8hd"
+}

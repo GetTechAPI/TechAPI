@@ -1,0 +1,81 @@
+{
+  "id": 34776,
+  "slug": "xolo-q2000",
+  "base_model_slug": "q2000",
+  "name": "Xolo Q2000",
+  "brand": {
+    "id": 95,
+    "slug": "xolo",
+    "name": "Xolo",
+    "country": "IN",
+    "url": "/v1/brands/xolo"
+  },
+  "soc": {
+    "id": 1037,
+    "slug": "mediatek-mt6589",
+    "name": "Mediatek MT6589",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR SGX544",
+    "url": "/v1/socs/mediatek-mt6589"
+  },
+  "release_date": "2013-11-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720 x 1280 pixels (~267 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM (Mini-SIM)",
+    "bluetooth": "2.0",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lava-xolo-q2000.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:25.030014",
+  "updated_at": "2026-06-20T11:42:25.030014"
+}

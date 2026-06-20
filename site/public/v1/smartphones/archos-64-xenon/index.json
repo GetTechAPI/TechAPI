@@ -1,0 +1,81 @@
+{
+  "id": 2486,
+  "slug": "archos-64-xenon",
+  "base_model_slug": "64-xenon",
+  "name": "Archos 64 Xenon",
+  "brand": {
+    "id": 68,
+    "slug": "archos",
+    "name": "Archos",
+    "country": "FR",
+    "url": "/v1/brands/archos"
+  },
+  "soc": {
+    "id": 1012,
+    "slug": "mediatek-mt6582",
+    "name": "Mediatek MT6582",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-400MP2",
+    "url": "/v1/socs/mediatek-mt6582"
+  },
+  "release_date": "2014-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 6.4,
+    "resolution": "720 x 1280 pixels (~229 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 232.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM",
+    "bluetooth": "3.0| A2DP| EDR",
+    "wlan": "Yes| hotspot| Wi-Fi Direct| DLNA",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/archos-64-xenon.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.012488",
+  "updated_at": "2026-06-20T11:42:18.012488"
+}

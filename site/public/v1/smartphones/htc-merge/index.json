@@ -1,0 +1,81 @@
+{
+  "id": 6290,
+  "slug": "htc-merge",
+  "base_model_slug": "merge",
+  "name": "Htc Merge",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1384,
+    "slug": "qualcomm-msm7630",
+    "name": "Qualcomm MSM7630",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-msm7630"
+  },
+  "release_date": "2011-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    2
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 3.8,
+    "resolution": "480 x 800 pixels (~246 ppi pixel density)",
+    "type": "S-LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 1400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.2 (Froyo)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / EVDO",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.1| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/htc-merge-uscellular.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.762295",
+  "updated_at": "2026-06-20T11:42:18.762295"
+}

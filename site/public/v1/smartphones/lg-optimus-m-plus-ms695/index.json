@@ -1,0 +1,81 @@
+{
+  "id": 11479,
+  "slug": "lg-optimus-m-plus-ms695",
+  "base_model_slug": "optimus-m-plus-ms695",
+  "name": "Lg Optimus M+ MS695",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-msm7627a-snapdragon-s1",
+    "name": "Qualcomm MSM7627A Snapdragon S1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7627a-snapdragon-s1"
+  },
+  "release_date": "2012-03-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 3.5,
+    "resolution": "320 x 480 pixels (~165 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 1300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 119.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {
+    "network": "CDMA / EVDO",
+    "sim": "Mini-SIM",
+    "bluetooth": "3.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lg-optimus-m-plus.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.933251",
+  "updated_at": "2026-06-20T11:42:19.933251"
+}

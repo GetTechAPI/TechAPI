@@ -1,0 +1,79 @@
+{
+  "id": 14183,
+  "slug": "motorola-quench-xt3-xt502",
+  "base_model_slug": "quench-xt3-xt502",
+  "name": "Motorola Quench XT3 XT502",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1365,
+    "slug": "qualcomm-msm7227-snapdragon-s1",
+    "name": "Qualcomm MSM7227 Snapdragon S1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7227-snapdragon-s1"
+  },
+  "release_date": "2010-07-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 3.2,
+    "resolution": "320 x 480 pixels (~180 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP| LED flash"
+    }
+  ],
+  "battery_mah": 1270,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 114.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 1.6 (Donut)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.0| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 b/g",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/motorola-quench-xt3-new.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:20.600325",
+  "updated_at": "2026-06-20T11:42:20.600325"
+}

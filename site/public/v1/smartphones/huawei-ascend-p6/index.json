@@ -1,0 +1,81 @@
+{
+  "id": 7085,
+  "slug": "huawei-ascend-p6",
+  "base_model_slug": "ascend-p6",
+  "name": "Huawei Ascend P6",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 530,
+    "slug": "huawei-k3v2",
+    "name": "Huawei K3V2",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Vivante GC4000",
+    "url": "/v1/socs/huawei-k3v2"
+  },
+  "release_date": "2013-06-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "720 x 1280 pixels (~312 ppi pixel density)",
+    "type": "IPS+ LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| f/2.0| autofocus| LED flash| "
+    }
+  ],
+  "battery_mah": 2000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 120.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)| upgradable to 4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / EVDO",
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM| dual stand-by)",
+    "bluetooth": "3.0| A2DP| EDR| LE",
+    "wlan": "Wi-Fi 802.11 b/g/n| Wi-Fi Direct| DLNA| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/huawei-ascend-p6-ofic.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.041122",
+  "updated_at": "2026-06-20T11:42:19.041122"
+}

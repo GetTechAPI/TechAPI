@@ -1,0 +1,81 @@
+{
+  "id": 21084,
+  "slug": "posh-pegasus-4g-s400",
+  "base_model_slug": "pegasus-4g-s400",
+  "name": "Posh Pegasus 4G S400",
+  "brand": {
+    "id": 177,
+    "slug": "posh",
+    "name": "Posh Mobile",
+    "country": "US",
+    "url": "/v1/brands/posh"
+  },
+  "soc": {
+    "id": 1032,
+    "slug": "mediatek-mt6572m",
+    "name": "Mediatek MT6572M",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-400",
+    "url": "/v1/socs/mediatek-mt6572m"
+  },
+  "release_date": "2014-05-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.0,
+    "resolution": "480 x 800 pixels (~233 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 1450,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 119.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM (Mini-SIM| dual stand-by)",
+    "bluetooth": "2.1| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "No"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/posh-s400.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:22.089120",
+  "updated_at": "2026-06-20T11:42:22.089120"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 4445,
+  "slug": "celkon-q500-millennium-ultra",
+  "base_model_slug": "q500-millennium-ultra",
+  "name": "Celkon Q500 Millennium Ultra",
+  "brand": {
+    "id": 88,
+    "slug": "celkon",
+    "name": "Celkon",
+    "country": "IN",
+    "url": "/v1/brands/celkon"
+  },
+  "soc": {
+    "id": 761,
+    "slug": "broadcom-bcm23550",
+    "name": "Broadcom BCM23550",
+    "manufacturer": {
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "url": "/v1/brands/broadcom"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Broadcom VideoCore IV",
+    "url": "/v1/socs/broadcom-bcm23550"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "720 x 1280 pixels (~294 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 149.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/celkon-millennium-ultra-q500.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.374922",
+  "updated_at": "2026-06-20T11:42:18.374922"
+}

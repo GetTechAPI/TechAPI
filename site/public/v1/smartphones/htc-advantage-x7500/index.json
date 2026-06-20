@@ -1,0 +1,81 @@
+{
+  "id": 6006,
+  "slug": "htc-advantage-x7500",
+  "base_model_slug": "advantage-x7500",
+  "name": "Htc Advantage X7500",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 296,
+    "slug": "ati-graphic-chip-w2284",
+    "name": "ATI Graphic Chip W2284",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 90.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/ati-graphic-chip-w2284"
+  },
+  "release_date": "2007-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "640 x 480 pixels (~160 ppi pixel density)",
+    "type": "TFT resistive touchscreen  256K colors (65K effective)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 359.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Mobile 5.0 for PocketPC Phone Edition",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g",
+    "usb": "miniUSB",
+    "gps": "Yes"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/htc-advantage.gif",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.694252",
+  "updated_at": "2026-06-20T11:42:18.694252"
+}

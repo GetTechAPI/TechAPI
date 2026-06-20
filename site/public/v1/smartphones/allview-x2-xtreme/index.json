@@ -1,0 +1,82 @@
+{
+  "id": 1230,
+  "slug": "allview-x2-xtreme",
+  "base_model_slug": "x2-xtreme",
+  "name": "Allview X2 Xtreme",
+  "brand": {
+    "id": 120,
+    "slug": "allview",
+    "name": "Allview",
+    "country": "RO",
+    "url": "/v1/brands/allview"
+  },
+  "soc": {
+    "id": 1068,
+    "slug": "mediatek-mt6795-helio-x10",
+    "name": "Mediatek MT6795 Helio X10",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6200",
+    "url": "/v1/socs/mediatek-mt6795-helio-x10"
+  },
+  "release_date": "2015-06-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "1440 x 2560 pixels (~490 ppi pixel density)",
+    "type": "AMOLED capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "24 MP| OIS| phase detection autofocus| dual-LED (dual tone) flash"
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.4,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Dual SIM (Micro-SIM| dual stand-by)",
+    "bluetooth": "4.0| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/allview-x2-extr.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.5,
+    "performance": null,
+    "camera": null,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:17.762079",
+  "updated_at": "2026-06-20T11:42:17.762079"
+}

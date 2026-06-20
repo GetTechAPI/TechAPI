@@ -1,0 +1,79 @@
+{
+  "id": 6050,
+  "slug": "htc-s730",
+  "base_model_slug": "s730",
+  "name": "Htc S730",
+  "brand": {
+    "id": 134,
+    "slug": "htc",
+    "name": "HTC",
+    "country": "TW",
+    "url": "/v1/brands/htc"
+  },
+  "soc": {
+    "id": 1350,
+    "slug": "qualcomm-msm7200",
+    "name": "Qualcomm MSM7200",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 90.0,
+    "gpu_name": "Adreno 130",
+    "url": "/v1/socs/qualcomm-msm7200"
+  },
+  "release_date": "2007-10-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 2.4,
+    "resolution": "240 x 320 pixels (~167 ppi pixel density)",
+    "type": "TFT  65K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 1050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Mobile 6.0 Standard",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.0| A2DP",
+    "wlan": "Wi-Fi 802.11b/g",
+    "usb": "miniUSB",
+    "gps": "Yes (newest firmware versions only)"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/htc-s730.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.705436",
+  "updated_at": "2026-06-20T11:42:18.705436"
+}

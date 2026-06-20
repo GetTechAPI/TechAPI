@@ -1,0 +1,82 @@
+{
+  "id": 28402,
+  "slug": "sony-xperia-t2-ultra-dual",
+  "base_model_slug": "xperia-t2-ultra-dual",
+  "name": "Sony Xperia T2 Ultra dual",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1483,
+    "slug": "qualcomm-msm8228-snapdragon-400",
+    "name": "Qualcomm MSM8228 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8228-snapdragon-400"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "720 x 1280 pixels (~245 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.8,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.3 (Jelly Bean)| upgradable to 5.1.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM (Micro-SIM| dual stand-by)",
+    "bluetooth": "4.0| A2DP| aptX",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| DLNA| hotspot",
+    "usb": "microUSB 2.0 (MHL TV-out)",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/sony-xperia-t2-ultra-ss.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:23.660249",
+  "updated_at": "2026-06-20T11:42:23.660249"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 4161,
+  "slug": "bq-aquaris-x-pro",
+  "base_model_slug": "aquaris-x-pro",
+  "name": "Bq Aquaris X Pro",
+  "brand": {
+    "id": 63,
+    "slug": "bq",
+    "name": "BQ",
+    "country": "ES",
+    "url": "/v1/brands/bq"
+  },
+  "soc": {
+    "id": 1603,
+    "slug": "qualcomm-msm8953-pro-snapdragon-626",
+    "name": "Qualcomm MSM8953-Pro Snapdragon 626",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 506",
+    "url": "/v1/socs/qualcomm-msm8953-pro-snapdragon-626"
+  },
+  "release_date": "2017-04-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080 x 1920 pixels (~424 ppi pixel density)",
+    "type": "LTPS IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP| f/1.8| phase detection autofocus| dual-LED (dual tone) flash"
+    }
+  ],
+  "battery_mah": 3100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 158.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Dual SIM (Nano-SIM| dual stand-by)",
+    "bluetooth": "4.2| A2DP| LE| aptX",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot",
+    "usb": "2.0| Type-C 1.0 reversible connector| USB On-The-Go",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS GALILEO"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/bq-aquaris-xpro.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 1.5,
+    "performance": null,
+    "camera": null,
+    "battery": 1.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.314274",
+  "updated_at": "2026-06-20T11:42:18.314274"
+}

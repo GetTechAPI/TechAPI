@@ -1,0 +1,81 @@
+{
+  "id": 9451,
+  "slug": "icemobile-gravity-pro",
+  "base_model_slug": "gravity-pro",
+  "name": "Icemobile Gravity Pro",
+  "brand": {
+    "id": 162,
+    "slug": "icemobile",
+    "name": "Icemobile",
+    "country": "US",
+    "url": "/v1/brands/icemobile"
+  },
+  "soc": {
+    "id": 1037,
+    "slug": "mediatek-mt6589",
+    "name": "Mediatek MT6589",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR SGX544",
+    "url": "/v1/socs/mediatek-mt6589"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.02,
+    "resolution": "480 x 854 pixels (~244 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 240.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Yes",
+    "bluetooth": "4.1| A2DP",
+    "wlan": "Yes| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/icemobile-gravity-pro.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.511460",
+  "updated_at": "2026-06-20T11:42:19.511460"
+}

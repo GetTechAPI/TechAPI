@@ -1,0 +1,81 @@
+{
+  "id": 3704,
+  "slug": "blu-life-view",
+  "base_model_slug": "life-view",
+  "name": "Blu Life View",
+  "brand": {
+    "id": 151,
+    "slug": "blu",
+    "name": "BLU Products",
+    "country": "US",
+    "url": "/v1/brands/blu"
+  },
+  "soc": {
+    "id": 1037,
+    "slug": "mediatek-mt6589",
+    "name": "Mediatek MT6589",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR SGX544",
+    "url": "/v1/socs/mediatek-mt6589"
+  },
+  "release_date": "2013-03-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "720 x 1280 pixels (~258 ppi pixel density)",
+    "type": "LED-backlit IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 220.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Dual SIM (Mini-SIM| dual stand-by)",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/blu-life-view.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:18.238135",
+  "updated_at": "2026-06-20T11:42:18.238135"
+}

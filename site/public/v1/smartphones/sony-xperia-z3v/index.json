@@ -1,0 +1,82 @@
+{
+  "id": 28420,
+  "slug": "sony-xperia-z3v",
+  "base_model_slug": "xperia-z3v",
+  "name": "Sony Xperia Z3v",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1552,
+    "slug": "qualcomm-msm8974ac-snapdragon-801",
+    "name": "Qualcomm MSM8974AC Snapdragon 801",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-msm8974ac-snapdragon-801"
+  },
+  "release_date": "2014-10-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080 x 1920 pixels (~424 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20.7 MP| f/2.0| 25mm| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.4 (KitKat)| upgradable to 5.1.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / LTE",
+    "sim": "Nano-SIM",
+    "bluetooth": "4.0| A2DP| aptX",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| DLNA| hotspot",
+    "usb": "microUSB 2.0 (MHL 3 TV-out)| USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS BDS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/sony-xperia-z3v.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": null,
+    "battery": 3.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:23.663254",
+  "updated_at": "2026-06-20T11:42:23.663254"
+}

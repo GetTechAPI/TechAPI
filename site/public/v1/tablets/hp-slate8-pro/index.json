@@ -1,0 +1,73 @@
+{
+  "id": 206,
+  "slug": "hp-slate8-pro",
+  "base_model_slug": "slate8-pro",
+  "name": "Hp Slate8 Pro",
+  "brand": {
+    "id": 160,
+    "slug": "hp",
+    "name": "HP",
+    "country": "US",
+    "url": "/v1/brands/hp"
+  },
+  "soc": {
+    "id": 1337,
+    "slug": "nvidia-tegra-4-t40-s",
+    "name": "Nvidia Tegra 4 T40 S",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/nvidia-tegra-4-t40-s"
+  },
+  "release_date": "2013-12-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 8.0,
+    "resolution": "1200 x 1600 pixels (~250 ppi pixel density)",
+    "type": "Capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 5680,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 453.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "4.0| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band",
+    "usb": "microUSB 2.0",
+    "gps": "Yes"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/hp-slate8-pro.jpg",
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:27.565871",
+  "updated_at": "2026-06-20T11:42:27.565871",
+  "url": "/v1/tablets/hp-slate8-pro"
+}

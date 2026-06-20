@@ -1,0 +1,73 @@
+{
+  "id": 738,
+  "slug": "xolo-play-tegra-note",
+  "base_model_slug": "play-tegra-note",
+  "name": "Xolo Play Tegra Note",
+  "brand": {
+    "id": 95,
+    "slug": "xolo",
+    "name": "Xolo",
+    "country": "IN",
+    "url": "/v1/brands/xolo"
+  },
+  "soc": {
+    "id": 1340,
+    "slug": "nvidia-tegra-4",
+    "name": "Nvidia Tegra 4",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "ULP GeForce",
+    "url": "/v1/socs/nvidia-tegra-4"
+  },
+  "release_date": "2013-12-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "1280 x 800 pixels (~216 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| autofocus"
+    }
+  ],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 320.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| Wi-Fi Direct",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/xolo-tegra.jpg",
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:27.657886",
+  "updated_at": "2026-06-20T11:42:27.657886",
+  "url": "/v1/tablets/xolo-play-tegra-note"
+}

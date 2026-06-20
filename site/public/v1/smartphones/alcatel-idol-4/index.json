@@ -1,0 +1,82 @@
+{
+  "id": 895,
+  "slug": "alcatel-idol-4",
+  "base_model_slug": "idol-4",
+  "name": "Alcatel Idol 4",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1581,
+    "slug": "qualcomm-msm8952-snapdragon-617",
+    "name": "Qualcomm MSM8952 Snapdragon 617",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 405",
+    "url": "/v1/socs/qualcomm-msm8952-snapdragon-617"
+  },
+  "release_date": "2016-02-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080 x 1920 pixels (~424 ppi pixel density)",
+    "type": "LTPS IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| f/2.0| phase detection autofocus| dual-LED (dual tone) flash"
+    }
+  ],
+  "battery_mah": 2610,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0.1 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Dual SIM (Nano-SIM| dual stand-by) - 6055K| 6055I",
+    "bluetooth": "4.2| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| WiFi Direct| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/alcatel-idol-4--.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:17.712380",
+  "updated_at": "2026-06-20T11:42:17.712380"
+}

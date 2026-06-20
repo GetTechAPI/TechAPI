@@ -1,0 +1,82 @@
+{
+  "id": 23025,
+  "slug": "samsung-galaxy-note-3",
+  "base_model_slug": "galaxy-note-3",
+  "name": "Samsung Galaxy Note 3",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1397,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2013-09-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "1080 x 1920 pixels (~386 ppi pixel density)",
+    "type": "Super AMOLED capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP| f/2.2| 31mm| autofocus| LED flash| "
+    }
+  ],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.3 (Jelly Bean)| upgradable to 4.4.2 (KitKat)| upgradable to 5.0 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / EVDO / LTE",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP| EDR| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| DLNA| hotspot",
+    "usb": "microUSB 3.0 (MHL 2 TV-out)| USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note-3.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": null,
+    "battery": 3.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:22.662298",
+  "updated_at": "2026-06-20T11:42:22.662298"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 23639,
+  "slug": "samsung-galaxy-s6",
+  "base_model_slug": "galaxy-s6",
+  "name": "Samsung Galaxy S6 (USA)",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1873,
+    "slug": "exynos-7420-octa",
+    "name": "Exynos 7420 Octa",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-T760MP8",
+    "url": "/v1/socs/exynos-7420-octa"
+  },
+  "release_date": "2015-03-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 5.1,
+    "resolution": "1440 x 2560 pixels (~576 ppi pixel density)",
+    "type": "Super AMOLED capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP| f/1.9| 28mm| OIS| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2550,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0.2 (Lollipop)| upgradable to 5.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / CDMA / HSPA / EVDO / LTE",
+    "sim": "Nano-SIM",
+    "bluetooth": "4.1| A2DP| LE| aptX",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s6-cdma.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:22.781190",
+  "updated_at": "2026-06-20T11:42:22.781190"
+}

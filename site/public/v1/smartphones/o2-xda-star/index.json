@@ -1,0 +1,79 @@
+{
+  "id": 17330,
+  "slug": "o2-xda-star",
+  "base_model_slug": "xda-star",
+  "name": "O2 XDA Star",
+  "brand": {
+    "id": 79,
+    "slug": "o2",
+    "name": "O2",
+    "country": "GB",
+    "url": "/v1/brands/o2"
+  },
+  "soc": {
+    "id": 1350,
+    "slug": "qualcomm-msm7200",
+    "name": "Qualcomm MSM7200",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 90.0,
+    "gpu_name": "Adreno 130",
+    "url": "/v1/socs/qualcomm-msm7200"
+  },
+  "release_date": "2007-10-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 2.6,
+    "resolution": "240 x 320 pixels (~154 ppi pixel density)",
+    "type": "TFT resistive touchscreen  65K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 1120,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 120.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Mobile 6.0 Professional",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.0",
+    "wlan": "No",
+    "usb": "miniUSB",
+    "gps": "No"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/o2-xda-star.gif",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:21.332842",
+  "updated_at": "2026-06-20T11:42:21.332842"
+}

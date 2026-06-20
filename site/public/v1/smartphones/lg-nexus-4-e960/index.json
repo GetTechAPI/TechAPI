@@ -1,0 +1,82 @@
+{
+  "id": 11448,
+  "slug": "lg-nexus-4-e960",
+  "base_model_slug": "nexus-4-e960",
+  "name": "Lg Nexus 4 E960",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1399,
+    "slug": "qualcomm-apq8064-snapdragon-s4-pro",
+    "name": "Qualcomm APQ8064 Snapdragon S4 Pro",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 320",
+    "url": "/v1/socs/qualcomm-apq8064-snapdragon-s4-pro"
+  },
+  "release_date": "2012-10-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "768 x 1280 pixels (~318 ppi pixel density)",
+    "type": "True HD IPS Plus capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash| "
+    }
+  ],
+  "battery_mah": 2100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 139.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2 (Jelly Bean)| upgradable to 5.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| DLNA| hotspot",
+    "usb": "microUSB 2.0 (SlimPort)",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lg-nexus-4-new.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.927291",
+  "updated_at": "2026-06-20T11:42:19.927291"
+}

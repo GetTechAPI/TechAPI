@@ -1,0 +1,73 @@
+{
+  "id": 436,
+  "slug": "nokia-n1",
+  "base_model_slug": "n1",
+  "name": "Nokia N1",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 941,
+    "slug": "intel-atom-z3580",
+    "name": "Intel Atom Z3580",
+    "manufacturer": {
+      "slug": "intel",
+      "name": "Intel",
+      "url": "/v1/brands/intel"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6430",
+    "url": "/v1/socs/intel-atom-z3580"
+  },
+  "release_date": "2014-11-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 7.9,
+    "resolution": "1536 x 2048 pixels (~324 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| "
+    }
+  ],
+  "battery_mah": 5300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 318.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0 (Lollipop)| upgradable to 5.1.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| DLNA| hotspot",
+    "usb": "2.0| Type-C 1.0 reversible connector",
+    "gps": "No"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/nokia-n1.jpg",
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:27.607876",
+  "updated_at": "2026-06-20T11:42:27.607876",
+  "url": "/v1/tablets/nokia-n1"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 11642,
+  "slug": "lg-optimus-l9-ii",
+  "base_model_slug": "optimus-l9-ii",
+  "name": "Lg Optimus L9 II",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1447,
+    "slug": "qualcomm-msm8230-snapdragon-400",
+    "name": "Qualcomm MSM8230 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8230-snapdragon-400"
+  },
+  "release_date": "2013-08-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "720 x 1280 pixels (~312 ppi pixel density)",
+    "type": "True HD-IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 2150,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 120.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1.2 (Jelly Bean)| upgrad&#1072;ble to 4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "4.0| A2DP| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| DLNA| hotspot",
+    "usb": "microUSB 2.0 HS",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lg-optimus-l9-ii-new.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:19.968246",
+  "updated_at": "2026-06-20T11:42:19.968246"
+}

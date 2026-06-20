@@ -1,0 +1,79 @@
+{
+  "id": 29882,
+  "slug": "toshiba-tg01",
+  "base_model_slug": "tg01",
+  "name": "Toshiba TG01",
+  "brand": {
+    "id": 108,
+    "slug": "toshiba",
+    "name": "Toshiba",
+    "country": "JP",
+    "url": "/v1/brands/toshiba"
+  },
+  "soc": {
+    "id": 1618,
+    "slug": "qualcomm-qsd8250-snapdragon-s1",
+    "name": "Qualcomm QSD8250 Snapdragon S1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-qsd8250-snapdragon-s1"
+  },
+  "release_date": "2009-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.1,
+    "resolution": "480 x 800 pixels (~228 ppi pixel density)",
+    "type": "TFT resistive touchscreen  256K colors (65K effective)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP| autofocus"
+    }
+  ],
+  "battery_mah": 1000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 129.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Mobile 6.1 Professional| upgradeable to Windows Mobile 6.5",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.0| A2DP",
+    "wlan": "Wi-Fi 802.11b/g",
+    "usb": "microUSB",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/toshiba-tg01.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:23.966549",
+  "updated_at": "2026-06-20T11:42:23.966549"
+}

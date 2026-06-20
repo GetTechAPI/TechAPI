@@ -1,0 +1,82 @@
+{
+  "id": 22763,
+  "slug": "samsung-galaxy-discover-s730m",
+  "base_model_slug": "galaxy-discover-s730m",
+  "name": "Samsung Galaxy Discover S730M",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1440,
+    "slug": "qualcomm-msm7225a-snapdragon-s1",
+    "name": "Qualcomm MSM7225A Snapdragon S1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7225a-snapdragon-s1"
+  },
+  "release_date": "2012-11-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    2,
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 3.5,
+    "resolution": "320 x 480 pixels (~165 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  256K colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP| LED flash"
+    }
+  ],
+  "battery_mah": 1300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 122.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "Yes",
+    "wlan": "Wi-Fi 802.11 b/g| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-discover.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:22.616805",
+  "updated_at": "2026-06-20T11:42:22.616805"
+}

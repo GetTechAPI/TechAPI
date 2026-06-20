@@ -1,0 +1,73 @@
+{
+  "id": 733,
+  "slug": "xiaomi-mi-pad-7-9",
+  "base_model_slug": "mi-pad-7-9",
+  "name": "Xiaomi Mi Pad 7.9",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1345,
+    "slug": "nvidia-tegra-k1",
+    "name": "Nvidia Tegra K1",
+    "manufacturer": {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "url": "/v1/brands/nvidia"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Kepler DX1",
+    "url": "/v1/socs/nvidia-tegra-k1"
+  },
+  "release_date": "2014-03-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 7.9,
+    "resolution": "1536 x 2048 pixels (~326 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| f/2.0| "
+    }
+  ],
+  "battery_mah": 6700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 360.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.4 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| hotspot",
+    "usb": "microUSB 2.0| USB Host",
+    "gps": "No"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-pad-79.jpg",
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:27.656811",
+  "updated_at": "2026-06-20T11:42:27.656811",
+  "url": "/v1/tablets/xiaomi-mi-pad-7-9"
+}

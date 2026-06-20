@@ -1,0 +1,82 @@
+{
+  "id": 28563,
+  "slug": "sony-xperia-xa1-ultra",
+  "base_model_slug": "xperia-xa1-ultra",
+  "name": "Sony Xperia XA1 Ultra",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1110,
+    "slug": "mediatek-mt6757-helio-p20",
+    "name": "Mediatek MT6757 Helio P20",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880MP2",
+    "url": "/v1/socs/mediatek-mt6757-helio-p20"
+  },
+  "release_date": "2017-02-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 6.0,
+    "resolution": "1080 x 1920 pixels (~367 ppi pixel density)",
+    "type": "IPS LCD capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "23 MP| f/2.0| 24mm| phase detection and laser autofocus| LED flash| "
+    }
+  ],
+  "battery_mah": 2700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA / LTE",
+    "sim": "Single SIM (Nano-SIM) - G3221| G3223",
+    "bluetooth": "4.2| A2DP| aptX| LE",
+    "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| hotspot",
+    "usb": "2.0| Type-C 1.0 reversible connector; USB Host",
+    "nfc": "Yes",
+    "gps": "Yes with A-GPS GLONASS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xa1-ultra-2017.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:23.690345",
+  "updated_at": "2026-06-20T11:42:23.690345"
+}

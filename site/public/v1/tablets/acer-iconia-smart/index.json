@@ -1,0 +1,73 @@
+{
+  "id": 1,
+  "slug": "acer-iconia-smart",
+  "base_model_slug": "iconia-smart",
+  "name": "Acer Iconia Smart",
+  "brand": {
+    "id": 128,
+    "slug": "acer",
+    "name": "Acer",
+    "country": "TW",
+    "url": "/v1/brands/acer"
+  },
+  "soc": {
+    "id": 1385,
+    "slug": "qualcomm-msm8255-1-snapdragon-s2",
+    "name": "Qualcomm MSM8255-1 Snapdragon S2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Adreno 205",
+    "url": "/v1/socs/qualcomm-msm8255-1-snapdragon-s2"
+  },
+  "release_date": "2011-02-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.8,
+    "resolution": "480 x 1024 pixels (~236 ppi pixel density)",
+    "type": "TFT capacitive touchscreen  16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP| autofocus| LED flash"
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "bluetooth": "2.1| A2DP| EDR",
+    "wlan": "Wi-Fi 802.11 b/g/n| UPnP| DLNA| hotspot",
+    "usb": "microUSB 2.0",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/acer-iconia-smart-new.jpg",
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:27.527890",
+  "updated_at": "2026-06-20T11:42:27.527890",
+  "url": "/v1/tablets/acer-iconia-smart"
+}

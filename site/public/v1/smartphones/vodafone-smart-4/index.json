@@ -1,0 +1,82 @@
+{
+  "id": 32055,
+  "slug": "vodafone-smart-4",
+  "base_model_slug": "smart-4",
+  "name": "Vodafone Smart 4",
+  "brand": {
+    "id": 83,
+    "slug": "vodafone",
+    "name": "Vodafone",
+    "country": "GB",
+    "url": "/v1/brands/vodafone"
+  },
+  "soc": {
+    "id": 1542,
+    "slug": "qualcomm-msm8210-snapdragon-200",
+    "name": "Qualcomm MSM8210 Snapdragon 200",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 302",
+    "url": "/v1/socs/qualcomm-msm8210-snapdragon-200"
+  },
+  "release_date": "2014-05-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_category": "gsmarena-kaggle",
+    "source_dataset": "arwinneil/gsmarena-phone-dataset"
+  },
+  "display": {
+    "size_inch": 4.5,
+    "resolution": "480 x 854 pixels (~218 ppi pixel density)",
+    "type": "TFT capacitive touchscreen"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP| LED flash"
+    }
+  ],
+  "battery_mah": 1880,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 152.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {
+    "network": "GSM / HSPA",
+    "sim": "Micro-SIM",
+    "bluetooth": "4.0| A2DP",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "usb": "microUSB 2.0",
+    "nfc": "Yes (optional)",
+    "gps": "Yes with A-GPS"
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/vodafone-smart-4.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+  ],
+  "created_at": "2026-06-20T11:42:24.362540",
+  "updated_at": "2026-06-20T11:42:24.362540"
+}

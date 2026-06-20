@@ -1,0 +1,54 @@
+{
+  "slug": "sony-xperia-s-1gb-32gb-3g",
+  "base_model_slug": "xperia-s",
+  "name": "Sony Xperia S",
+  "brand": "sony",
+  "soc": "qualcomm-msm8260-snapdragon-s3",
+  "release_date": "2012-02-14",
+  "ram_gb": 1,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "source_category": "global-smartphone-database-2025",
+    "source_dataset": "rajibdab/global-smartphone-database-2025",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM, GSM"
+  },
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "720 x 1280",
+    "type": "LCD",
+    "refresh_hz": 60
+  },
+  "connectivity": {
+    "network": "2G, 3G",
+    "sim": "Single SIM, GSM",
+    "bluetooth": "v2.1",
+    "wlan": "Wi-Fi 4 (802.11 b/g/n)",
+    "gps": "Yes with A-GPS, Glonass"
+  },
+  "battery_mah": 1750,
+  "weight_g": 144.0,
+  "os": "Android v4.1.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
+    "https://www.mobiledokan.com/mobile/sony-xperia-s"
+  ],
+  "image_url": "https://www.mobiledokan.com/media/sony-xperia-s-black-image.webp",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    }
+  ],
+  "raw_price": "nan"
+}

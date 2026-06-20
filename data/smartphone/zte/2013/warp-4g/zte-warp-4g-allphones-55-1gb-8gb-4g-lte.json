@@ -1,0 +1,45 @@
+{
+  "slug": "zte-warp-4g-allphones-55-1gb-8gb-4g-lte",
+  "base_model_slug": "warp-4g",
+  "name": "ZTE Warp 4G",
+  "brand": "zte",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2070,
+  "weight_g": 127.6,
+  "os": "Android 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:55",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Yes"
+  },
+  "soc": "qualcomm-msm8930-snapdragon-400",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~326 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1 MP"
+    }
+  ]
+}

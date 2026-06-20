@@ -1,0 +1,38 @@
+{
+  "slug": "zte-f233-allphones-87-1gb-3g",
+  "base_model_slug": "f233",
+  "name": "ZTE F233",
+  "brand": "zte",
+  "release_date": "2009-01-01",
+  "ram_gb": 1,
+  "battery_mah": 830,
+  "weight_g": 90.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:87",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "zte-mobile-platform-2009",
+  "display": {
+    "resolution": "176 x 220 pixels (~141 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

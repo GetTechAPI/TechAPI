@@ -1,0 +1,38 @@
+{
+  "slug": "nokia-c2-03-allphones-5603-1gb-2g",
+  "base_model_slug": "c2-03",
+  "name": "Nokia C2-03",
+  "brand": "nokia",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1020,
+  "weight_g": 115.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5603",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Dual SIM (Mini-SIM)"
+  },
+  "soc": "nokia-mobile-platform-2011",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~154 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

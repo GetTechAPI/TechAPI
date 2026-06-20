@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenfone-4-a450cg-allphones-1020-1gb-8gb-3g",
+  "base_model_slug": "zenfone-4-a450cg",
+  "name": "Asus Zenfone 4 A450CG (2014)",
+  "brand": "asus",
+  "release_date": "2014-07-01",
+  "ram_gb": 1,
+  "battery_mah": 1750,
+  "weight_g": 134.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.0.2 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1020",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "intel-atom-3rd-gen-z2520",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

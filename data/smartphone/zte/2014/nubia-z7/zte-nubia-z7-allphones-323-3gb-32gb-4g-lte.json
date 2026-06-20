@@ -1,0 +1,45 @@
+{
+  "slug": "zte-nubia-z7-allphones-323-3gb-32gb-4g-lte",
+  "base_model_slug": "nubia-z7",
+  "name": "ZTE nubia Z7",
+  "brand": "zte",
+  "release_date": "2014-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3000,
+  "weight_g": 150.0,
+  "os": "Android 4.4.2 (KitKat), nubia UI 2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:323",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "qualcomm-msm8974ac-snapdragon-801",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~538 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

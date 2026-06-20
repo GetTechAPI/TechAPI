@@ -1,0 +1,38 @@
+{
+  "slug": "nokia-e55-allphones-5300-1gb-3g",
+  "base_model_slug": "e55",
+  "name": "Nokia E55",
+  "brand": "nokia",
+  "release_date": "2009-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 98.0,
+  "os": "Symbian, S60 rel. 3.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5300",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "600-mhz-arm-11",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "QVGA videocall camera"
+    }
+  ]
+}

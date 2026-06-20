@@ -1,0 +1,45 @@
+{
+  "slug": "lg-g2-lite-allphones-3915-1gb-4gb-3g",
+  "base_model_slug": "g2-lite",
+  "name": "LG G2 Lite",
+  "brand": "lg",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1820,
+  "weight_g": 153.7,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3915",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (dual stand-by)"
+  },
+  "soc": "quad-core-1-2-ghz",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~207 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

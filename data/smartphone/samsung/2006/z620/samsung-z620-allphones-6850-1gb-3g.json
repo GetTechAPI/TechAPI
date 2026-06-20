@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-z620-allphones-6850-1gb-3g",
+  "base_model_slug": "z620",
+  "name": "Samsung Z620",
+  "brand": "samsung",
+  "release_date": "2006-01-01",
+  "ram_gb": 1,
+  "battery_mah": 900,
+  "weight_g": 96.5,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6850",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2006",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~174 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

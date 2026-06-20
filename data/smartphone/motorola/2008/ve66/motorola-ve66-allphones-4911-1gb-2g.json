@@ -1,0 +1,38 @@
+{
+  "slug": "motorola-ve66-allphones-4911-1gb-2g",
+  "base_model_slug": "ve66",
+  "name": "Motorola VE66",
+  "brand": "motorola",
+  "release_date": "2008-01-01",
+  "ram_gb": 1,
+  "battery_mah": 810,
+  "weight_g": 121.0,
+  "os": "Linux / Java-based MOTOMAGX",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4911",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "500-mhz-freescale-mxc275-30",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~182 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

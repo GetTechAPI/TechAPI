@@ -1,0 +1,38 @@
+{
+  "slug": "motorola-razr-v3xx-allphones-4868-1gb-3g",
+  "base_model_slug": "razr-v3xx",
+  "name": "Motorola RAZR V3xx",
+  "brand": "motorola",
+  "release_date": "2006-01-01",
+  "ram_gb": 1,
+  "battery_mah": 940,
+  "weight_g": 107.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4868",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "motorola-mobile-platform-2006",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~182 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA videocall camera"
+    }
+  ]
+}

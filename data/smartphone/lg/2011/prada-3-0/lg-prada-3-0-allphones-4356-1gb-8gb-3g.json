@@ -1,0 +1,45 @@
+{
+  "slug": "lg-prada-3-0-allphones-4356-1gb-8gb-3g",
+  "base_model_slug": "prada-3-0",
+  "name": "LG Prada 3.0",
+  "brand": "lg",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1540,
+  "weight_g": 138.0,
+  "os": "Android 2.3.7 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4356",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "ti-omap-4430",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ]
+}

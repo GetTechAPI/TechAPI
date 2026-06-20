@@ -1,0 +1,46 @@
+{
+  "slug": "nokia-lumia-1020-allphones-5247-2gb-32gb-4g-lte",
+  "base_model_slug": "lumia-1020",
+  "name": "Nokia Lumia 1020",
+  "brand": "nokia",
+  "release_date": "2013-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2000,
+  "weight_g": 158.0,
+  "os": "Microsoft Windows Phone 8, upgradable to 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5247",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "768 x 1280 pixels, 5:3 ratio (~332 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "41 MP, f/2.2, 26mm (wide), 1/1.5\", 1.12µm, AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP"
+    }
+  ]
+}

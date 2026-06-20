@@ -1,0 +1,45 @@
+{
+  "slug": "sony-xperia-e3-dual-allphones-7511-1gb-4gb-3g",
+  "base_model_slug": "xperia-e3-dual",
+  "name": "Sony Xperia E3 Dual",
+  "brand": "sony",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2330,
+  "weight_g": 143.8,
+  "os": "Android 4.4.2 (KitKat), upgradable to Android 4.4.4 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7511",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "qualcomm-msm8226-2-snapdragon-400",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

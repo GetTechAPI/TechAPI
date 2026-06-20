@@ -1,0 +1,47 @@
+{
+  "slug": "apple-ipad-mini-wi-fi-plus-cellular-allphones-2582-0-5gb-16gb-4g-lte",
+  "base_model_slug": "ipad-mini-wi-fi-plus-cellular",
+  "name": "Apple iPad mini Wi-Fi + Cellular",
+  "brand": "apple",
+  "release_date": "2012-01-01",
+  "ram_gb": 0.5,
+  "battery_mah": 4490,
+  "weight_g": 312.0,
+  "os": "iOS 6, upgradable to iOS 9.3.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2582",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "apple-a5",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "768 x 1024 pixels, 4:3 ratio (~162 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "huawei-ascend-w3-allphones-3349-1gb-4g-lte",
+  "base_model_slug": "ascend-w3",
+  "name": "Huawei Ascend W3",
+  "brand": "huawei",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Microsoft Windows Phone 8",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3349",
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "dual-core",
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~326 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

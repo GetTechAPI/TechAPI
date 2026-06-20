@@ -1,0 +1,47 @@
+{
+  "slug": "apple-ipad-2-wi-fi-plus-3g-allphones-2575-0-5gb-16gb-3g",
+  "base_model_slug": "ipad-2-wi-fi-plus-3g",
+  "name": "Apple iPad 2 Wi-Fi + 3G",
+  "brand": "apple",
+  "release_date": "2011-01-01",
+  "ram_gb": 0.5,
+  "battery_mah": 6930,
+  "weight_g": 607.0,
+  "os": "iOS 4, upgradable to iOS 9.3.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2575",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "apple-a5",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "768 x 1024 pixels, 4:3 ratio (~132 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "0.7 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

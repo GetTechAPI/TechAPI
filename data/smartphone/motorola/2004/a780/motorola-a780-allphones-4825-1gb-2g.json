@@ -1,0 +1,38 @@
+{
+  "slug": "motorola-a780-allphones-4825-1gb-2g",
+  "base_model_slug": "a780",
+  "name": "Motorola A780",
+  "brand": "motorola",
+  "release_date": "2004-01-01",
+  "ram_gb": 1,
+  "battery_mah": 780,
+  "weight_g": 141.0,
+  "os": "Linux",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4825",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "312-mhz",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~160 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "1.3 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

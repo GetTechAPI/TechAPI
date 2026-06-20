@@ -1,0 +1,45 @@
+{
+  "slug": "micromax-canvas-win-w121-allphones-881-1gb-8gb-3g",
+  "base_model_slug": "canvas-win-w121",
+  "name": "Micromax Canvas Win W121",
+  "brand": "micromax",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 150.0,
+  "os": "Microsoft Windows Phone 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:881",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Dual stand-by)"
+  },
+  "soc": "qualcomm-msm8212-snapdragon-200",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

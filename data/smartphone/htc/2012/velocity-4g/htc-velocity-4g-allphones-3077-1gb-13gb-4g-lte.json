@@ -1,0 +1,46 @@
+{
+  "slug": "htc-velocity-4g-allphones-3077-1gb-13gb-4g-lte",
+  "base_model_slug": "velocity-4g",
+  "name": "HTC Velocity 4G",
+  "brand": "htc",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1620,
+  "weight_g": 163.8,
+  "os": "Android 2.3.7 (Gingerbread), upgradable to 4.0.4 (Ice Cream Sandwich), Sense UI 3.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3077",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 13
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "qualcomm-msm8260-snapdragon-s3",
+  "storage_options_gb": [
+    13,
+    16
+  ],
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~245 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "nokia-n87-allphones-5366-1gb-3g",
+  "base_model_slug": "n87",
+  "name": "Nokia N87",
+  "brand": "nokia",
+  "release_date": "2010-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Symbian OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5366",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "arm-cortex-a8",
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA videocall camera"
+    }
+  ]
+}

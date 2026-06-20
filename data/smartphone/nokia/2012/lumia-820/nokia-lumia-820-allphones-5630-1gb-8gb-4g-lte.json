@@ -1,0 +1,45 @@
+{
+  "slug": "nokia-lumia-820-allphones-5630-1gb-8gb-4g-lte",
+  "base_model_slug": "lumia-820",
+  "name": "Nokia Lumia 820",
+  "brand": "nokia",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1650,
+  "weight_g": 160.0,
+  "os": "Microsoft Windows Phone 8, upgradable to 8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5630",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8960-snapdragon-s4-plus",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~217 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

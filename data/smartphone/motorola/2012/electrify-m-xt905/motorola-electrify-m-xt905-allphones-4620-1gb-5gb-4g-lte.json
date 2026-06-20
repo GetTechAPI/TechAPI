@@ -1,0 +1,46 @@
+{
+  "slug": "motorola-electrify-m-xt905-allphones-4620-1gb-5gb-4g-lte",
+  "base_model_slug": "electrify-m-xt905",
+  "name": "Motorola Electrify M XT905",
+  "brand": "motorola",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 111.1,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4620",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 5
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "dual-core-1-5-ghz",
+  "storage_options_gb": [
+    5,
+    8
+  ],
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "sharp-tm200-allphones-1396-1gb-2g",
+  "base_model_slug": "tm200",
+  "name": "Sharp TM200",
+  "brand": "sharp",
+  "release_date": "2004-01-01",
+  "ram_gb": 1,
+  "battery_mah": 840,
+  "weight_g": 120.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1396",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "sharp-mobile-platform-2004",
+  "display": {
+    "resolution": "320 x 240 pixels, 4:3 ratio (~182 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

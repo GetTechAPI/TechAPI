@@ -1,0 +1,45 @@
+{
+  "slug": "motorola-razr-d3-xt919-allphones-4622-1gb-4gb-3g",
+  "base_model_slug": "razr-d3-xt919",
+  "name": "Motorola RAZR D3 XT919",
+  "brand": "motorola",
+  "release_date": "2013-03-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 120.0,
+  "os": "Android 4.1 (Jelly Bean), upgradable to 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4622",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM or Dual SIM (dual stand-by)"
+  },
+  "soc": "mediatek-mt6577",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "apple-ipad-2-wi-fi-allphones-2574-0-5gb-16gb",
+  "base_model_slug": "ipad-2-wi-fi",
+  "name": "Apple iPad 2 Wi-Fi",
+  "brand": "apple",
+  "release_date": "2011-01-01",
+  "ram_gb": 0.5,
+  "battery_mah": 6930,
+  "weight_g": 601.0,
+  "os": "iOS 4, upgradable to iOS 9.3.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2574",
+    "memory": {
+      "ram_gb": 0.5,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "soc": "apple-a5",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "768 x 1024 pixels, 4:3 ratio (~132 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "0.7 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

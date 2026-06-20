@@ -1,0 +1,45 @@
+{
+  "slug": "lg-g3-a-allphones-4437-2gb-32gb-4g-lte",
+  "base_model_slug": "g3-a",
+  "name": "LG G3 A",
+  "brand": "lg",
+  "release_date": "2014-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2610,
+  "weight_g": 146.8,
+  "os": "Android 4.4.2 (KitKat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4437",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-snapdragon-800",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, 1/3.0\", OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "2.1 MP"
+    }
+  ]
+}

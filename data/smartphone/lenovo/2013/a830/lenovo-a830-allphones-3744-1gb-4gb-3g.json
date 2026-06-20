@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-a830-allphones-3744-1gb-4gb-3g",
+  "base_model_slug": "a830",
+  "name": "Lenovo A830",
+  "brand": "lenovo",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2250,
+  "weight_g": 165.4,
+  "os": "Android 4.2.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3744",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Mini-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6589",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~220 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

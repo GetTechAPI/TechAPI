@@ -1,0 +1,45 @@
+{
+  "slug": "samsung-galaxy-s-ii-hd-lte-allphones-6703-1gb-16gb-4g-lte",
+  "base_model_slug": "galaxy-s-ii-hd-lte",
+  "name": "Samsung Galaxy S II HD LTE",
+  "brand": "samsung",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1850,
+  "weight_g": 130.5,
+  "os": "Android 2.3 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich), TouchWiz UI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6703",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8660-snapdragon-s3",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~316 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

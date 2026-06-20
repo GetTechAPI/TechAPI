@@ -1,0 +1,43 @@
+{
+  "slug": "lenovo-ideatab-s6000-allphones-3750-1gb-16gb",
+  "base_model_slug": "ideatab-s6000",
+  "name": "Lenovo IdeaTab S6000",
+  "brand": "lenovo",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 6350,
+  "weight_g": 562.5,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3750",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "soc": "mediatek-mt8125",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "1280 x 800 pixels, 16:10 ratio (~149 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

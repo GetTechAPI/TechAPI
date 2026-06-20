@@ -1,0 +1,44 @@
+{
+  "slug": "samsung-galaxy-tab-8-9-p7310-allphones-6709-1gb-16gb",
+  "base_model_slug": "galaxy-tab-8-9-p7310",
+  "name": "Samsung Galaxy Tab 8.9 P7310",
+  "brand": "samsung",
+  "release_date": "2011-01-01",
+  "ram_gb": 1,
+  "battery_mah": 6000,
+  "weight_g": 447.9,
+  "os": "Android 3.0 (Honeycomb), upgradable to 3.1 (Honeycomb)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6709",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "soc": "nvidia-tegra-2-t20",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

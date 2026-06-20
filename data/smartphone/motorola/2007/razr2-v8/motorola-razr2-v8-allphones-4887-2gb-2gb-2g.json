@@ -1,0 +1,45 @@
+{
+  "slug": "motorola-razr2-v8-allphones-4887-2gb-2gb-2g",
+  "base_model_slug": "razr2-v8",
+  "name": "Motorola RAZR2 V8",
+  "brand": "motorola",
+  "release_date": "2007-07-07",
+  "ram_gb": 2,
+  "battery_mah": 770,
+  "weight_g": 117.0,
+  "os": "Linux / Java-based MOTOMAGX",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4887",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 2
+    },
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "freescale-mxc275-30",
+  "storage_options_gb": [
+    2
+  ],
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~182 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

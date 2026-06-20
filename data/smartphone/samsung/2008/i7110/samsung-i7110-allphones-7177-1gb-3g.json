@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-i7110-allphones-7177-1gb-3g",
+  "base_model_slug": "i7110",
+  "name": "Samsung i7110",
+  "brand": "samsung",
+  "release_date": "2008-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1200,
+  "weight_g": 125.0,
+  "os": "Symbian 9.3, Series 60 rel. 3.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7177",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "samsung-mobile-platform-2008",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~154 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Videocall camera"
+    }
+  ]
+}

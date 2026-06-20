@@ -1,0 +1,43 @@
+{
+  "slug": "microsoft-surface-2-allphones-2191-2gb-32gb",
+  "base_model_slug": "surface-2",
+  "name": "Microsoft Surface 2",
+  "brand": "microsoft",
+  "release_date": "2013-01-01",
+  "ram_gb": 2,
+  "battery_mah": 1500,
+  "weight_g": 675.9,
+  "os": "Microsoft Windows RT",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2191",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "sim": "No"
+  },
+  "soc": "nvidia-tegra-4-t40",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1920 x 1080 pixels, 16:9 ratio (~208 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "3.5 MP"
+    }
+  ]
+}

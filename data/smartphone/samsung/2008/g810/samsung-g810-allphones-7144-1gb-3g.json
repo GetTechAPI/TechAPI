@@ -1,0 +1,38 @@
+{
+  "slug": "samsung-g810-allphones-7144-1gb-3g",
+  "base_model_slug": "g810",
+  "name": "Samsung G810",
+  "brand": "samsung",
+  "release_date": "2008-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1200,
+  "weight_g": 139.0,
+  "os": "Symbian 9.2, Series 60 rel. 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7144",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "ti-omap-2430",
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~154 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF, 3x optical zoom"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ]
+}

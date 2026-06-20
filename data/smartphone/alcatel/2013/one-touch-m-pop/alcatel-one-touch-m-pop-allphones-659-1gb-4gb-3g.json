@@ -1,0 +1,45 @@
+{
+  "slug": "alcatel-one-touch-m-pop-allphones-659-1gb-4gb-3g",
+  "base_model_slug": "one-touch-m-pop",
+  "name": "alcatel One Touch M'Pop",
+  "brand": "alcatel",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1400,
+  "weight_g": 136.5,
+  "os": "Android 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:659",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Single SIM (Mini-SIM) or Dual SIM (Mini-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6575",
+  "storage_options_gb": [
+    4
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF (OT-5020W only)"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

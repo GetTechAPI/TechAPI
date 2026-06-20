@@ -1,0 +1,45 @@
+{
+  "slug": "samsung-galaxy-tab-3-lite-7-0-3g-allphones-6635-1gb-8gb-3g",
+  "base_model_slug": "galaxy-tab-3-lite-7-0-3g",
+  "name": "Samsung Galaxy Tab 3 Lite 7.0 3G",
+  "brand": "samsung",
+  "release_date": "2014-01-01",
+  "ram_gb": 1,
+  "battery_mah": 3600,
+  "weight_g": 322.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6635",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "marvell-pxa986",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

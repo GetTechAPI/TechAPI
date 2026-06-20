@@ -1,0 +1,46 @@
+{
+  "slug": "micromax-a117-canvas-magnus-allphones-592-1gb-3gb-3g",
+  "base_model_slug": "a117-canvas-magnus",
+  "name": "Micromax A117 Canvas Magnus",
+  "brand": "micromax",
+  "release_date": "2013-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2000,
+  "weight_g": 150.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:592",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 3
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Mini-SIM)"
+  },
+  "soc": "mediatek-mt6589t",
+  "storage_options_gb": [
+    3,
+    4
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-mx-4-core-allphones-1583-1gb-32gb-3g",
+  "base_model_slug": "mx-4-core",
+  "name": "Meizu MX 4-core",
+  "brand": "meizu",
+  "release_date": "2012-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1700,
+  "weight_g": 139.0,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1583",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "exynos",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "640 x 960 pixels, 3:2 ratio (~288 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

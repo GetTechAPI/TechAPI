@@ -1,0 +1,38 @@
+{
+  "slug": "nokia-7700-allphones-5420-1gb-2g",
+  "base_model_slug": "7700",
+  "name": "Nokia 7700",
+  "brand": "nokia",
+  "release_date": "2003-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1300,
+  "weight_g": 183.0,
+  "os": "Symbian, Series 90 UI, .2.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5420",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "ti-omap-1510",
+  "display": {
+    "resolution": "640 x 320 pixels, 18:9 ratio (~204 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

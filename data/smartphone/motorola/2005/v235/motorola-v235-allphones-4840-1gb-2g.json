@@ -1,0 +1,38 @@
+{
+  "slug": "motorola-v235-allphones-4840-1gb-2g",
+  "base_model_slug": "v235",
+  "name": "Motorola V235",
+  "brand": "motorola",
+  "release_date": "2005-01-01",
+  "ram_gb": 1,
+  "battery_mah": 810,
+  "weight_g": 102.0,
+  "os": "Feature phone",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4840",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "motorola-mobile-platform-2005",
+  "display": {
+    "resolution": "128 x 160 pixels"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ]
+}

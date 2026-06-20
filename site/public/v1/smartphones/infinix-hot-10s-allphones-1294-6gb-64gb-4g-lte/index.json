@@ -1,0 +1,85 @@
+{
+  "id": 23062,
+  "slug": "infinix-hot-10s-allphones-1294-6gb-64gb-4g-lte",
+  "base_model_slug": "hot-10s",
+  "name": "Infinix Hot 10s",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1195,
+    "slug": "helio-g85",
+    "name": "MediaTek Helio G85",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G52 MC2",
+    "url": "/v1/socs/helio-g85"
+  },
+  "release_date": "2021-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1294",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1640 pixels (~263 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, (wide), 1/2.0, 0.8µm, PDAF, 2 MP, f/2.4, (depth), Third, unknown camera"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 211.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, XOS 7.6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.877734",
+  "updated_at": "2026-06-20T19:05:09.877734"
+}

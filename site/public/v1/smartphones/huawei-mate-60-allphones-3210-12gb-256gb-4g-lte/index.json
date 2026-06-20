@@ -1,0 +1,86 @@
+{
+  "id": 21735,
+  "slug": "huawei-mate-60-allphones-3210-12gb-256gb-4g-lte",
+  "base_model_slug": "mate-60",
+  "name": "Huawei Mate 60",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 849,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3210",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1216 x 2688 pixels (~441 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS, 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 12 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide)"
+    }
+  ],
+  "battery_mah": 4750,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 209.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 4.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.6,
+    "performance": 7.0,
+    "camera": null,
+    "battery": 26.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.418215",
+  "updated_at": "2026-06-20T19:05:09.418215"
+}

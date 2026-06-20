@@ -1,0 +1,84 @@
+{
+  "id": 69404,
+  "slug": "sony-xperia-xa-ultra-allphones-7414-3gb-16gb-4g-lte",
+  "base_model_slug": "xperia-xa-ultra",
+  "name": "Sony Xperia XA Ultra",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1088,
+    "slug": "mediatek-mt6755-helio-p10",
+    "name": "Mediatek MT6755 Helio P10",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T860MP2",
+    "url": "/v1/socs/mediatek-mt6755-helio-p10"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7414",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "21.5 MP, f/2.2, 1/2.4\", 1/2.4\", PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 23mm (wide), 1/2.6\", OIS"
+    }
+  ],
+  "battery_mah": 2700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 202.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.812610",
+  "updated_at": "2026-06-20T19:05:25.812610"
+}

@@ -1,0 +1,73 @@
+{
+  "id": 167,
+  "slug": "alcatel-smart-tab-7-allphones-2293-1-5gb-16gb",
+  "base_model_slug": "smart-tab-7",
+  "name": "alcatel Smart Tab 7",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1119,
+    "slug": "mediatek-mt8167d",
+    "name": "Mediatek MT8167D",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "PowerVR GE8300",
+    "url": "/v1/socs/mediatek-mt8167d"
+  },
+  "release_date": "2019-09-01",
+  "msrp_usd": null,
+  "ram_gb": 1.5,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2293",
+    "memory": {
+      "ram_gb": 1.5,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "0.3 MP, f/2.4, 1/5.0\""
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.4, 1/5.0\", 1.65µm"
+    }
+  ],
+  "battery_mah": 2580,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 268.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.463563",
+  "updated_at": "2026-06-20T19:05:43.463563",
+  "url": "/v1/tablets/alcatel-smart-tab-7-allphones-2293-1-5gb-16gb"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 406,
+  "slug": "apple-ipad-mini-allphones-2541-4gb-64gb-5g",
+  "base_model_slug": "ipad-mini",
+  "name": "Apple iPad mini (2021)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 28,
+    "slug": "apple-a12-bionic",
+    "name": "Apple A12 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a12-bionic"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    64,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2541",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1488 x 2266 pixels, 3:2 ratio (~327 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.4, 122˚ (ultrawide)"
+    }
+  ],
+  "battery_mah": 5078,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 293.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iPadOS 15, upgradable to iPadOS 18.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.573565",
+  "updated_at": "2026-06-20T19:05:43.573565",
+  "url": "/v1/tablets/apple-ipad-mini-allphones-2541-4gb-64gb-5g"
+}

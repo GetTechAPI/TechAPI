@@ -1,0 +1,97 @@
+{
+  "id": 4502,
+  "slug": "apple-iphone-13-aitoolbuzz-797-4gb-128gb-5g",
+  "base_model_slug": "iphone-13",
+  "name": "Apple iPhone 13",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 38,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2021-09-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:797",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "A2633",
+      "A2482",
+      "A2631",
+      "A2634",
+      "A2635",
+      "iphone14",
+      "5"
+    ],
+    "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.1,
+    "resolution": "1170x2532 pixels",
+    "type": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0Âµm SL 3D, (depth/biometrics sensor)"
+    }
+  ],
+  "battery_mah": 3240,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 174.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 15, up to iOS 18.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/apple-iphone-13.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.4,
+    "performance": 33.1,
+    "camera": null,
+    "battery": 13.6,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/apple-iphone-13"
+  ],
+  "created_at": "2026-06-20T19:05:03.494177",
+  "updated_at": "2026-06-20T19:05:03.494177"
+}

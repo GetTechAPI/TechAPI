@@ -1,0 +1,85 @@
+{
+  "id": 85761,
+  "slug": "xiaomi-poco-f6-allphones-8441-12gb-256gb-5g",
+  "base_model_slug": "poco-f6",
+  "name": "Xiaomi Poco F6",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1781,
+    "slug": "snapdragon-8s-gen-3",
+    "name": "Snapdragon 8s Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 735",
+    "url": "/v1/socs/snapdragon-8s-gen-3"
+  },
+  "release_date": "2024-05-23",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8441",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, (wide), 1/1.95\", 0.8µm, multi-directional PDAF, OIS, 8 MP, (ultrawide), 1/4.0\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.2, (wide), 0.8µm"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 179.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 3 major Android upgrades, HyperOS",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 44.4,
+    "performance": 43.8,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:30.856356",
+  "updated_at": "2026-06-20T19:05:30.856356"
+}

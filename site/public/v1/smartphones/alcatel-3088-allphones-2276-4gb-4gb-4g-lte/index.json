@@ -1,0 +1,80 @@
+{
+  "id": 2234,
+  "slug": "alcatel-3088-allphones-2276-4gb-4gb-4g-lte",
+  "base_model_slug": "3088",
+  "name": "alcatel 3088",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 2074,
+    "slug": "spreadtrum-sc9820e",
+    "name": "Spreadtrum SC9820E",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/spreadtrum-sc9820e"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2276",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 1530,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 90.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "KaiOS 2.5.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:02.877365",
+  "updated_at": "2026-06-20T19:05:02.877365"
+}

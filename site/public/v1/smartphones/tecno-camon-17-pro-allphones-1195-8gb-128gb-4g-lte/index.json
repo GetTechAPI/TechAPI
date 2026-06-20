@@ -1,0 +1,85 @@
+{
+  "id": 72472,
+  "slug": "tecno-camon-17-pro-allphones-1195-8gb-128gb-4g-lte",
+  "base_model_slug": "camon-17-pro",
+  "name": "Tecno Camon 17 Pro",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1206,
+    "slug": "mediatek-helio-g90t-mt6785v-cc",
+    "name": "MediaTek Helio G90T MT6785V/CC",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "ARM Mali-G76MC4",
+    "url": "/v1/socs/mediatek-helio-g90t-mt6785v-cc"
+  },
+  "release_date": "2021-06-03",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1195",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2460 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.3, 119˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (depth), 2 MP, f/2.4, (monochrome)"
+    },
+    {
+      "type": "selfie",
+      "raw": "48 MP, f/2.2, (wide), 1/2.0\", 0.8µm"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 201.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, HIOS 7.6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.698899",
+  "updated_at": "2026-06-20T19:05:26.699400"
+}

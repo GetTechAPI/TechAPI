@@ -1,0 +1,79 @@
+{
+  "id": 336,
+  "slug": "apple-ipad-mini-2-allphones-2586-1gb-16gb-4g-lte",
+  "base_model_slug": "ipad-mini-2",
+  "name": "Apple iPad mini 2",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 8,
+    "slug": "apple-a7",
+    "name": "Apple A7",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6430",
+    "url": "/v1/socs/apple-a7"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2586",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "display": {
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~324 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.4, 33mm (standard), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP"
+    }
+  ],
+  "battery_mah": 6470,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 331.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 7, upgradable to iPadOS 12.5.6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.539924",
+  "updated_at": "2026-06-20T19:05:43.539924",
+  "url": "/v1/tablets/apple-ipad-mini-2-allphones-2586-1gb-16gb-4g-lte"
+}

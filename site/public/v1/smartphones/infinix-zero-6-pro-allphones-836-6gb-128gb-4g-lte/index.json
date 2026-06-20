@@ -1,0 +1,84 @@
+{
+  "id": 22874,
+  "slug": "infinix-zero-6-pro-allphones-836-6gb-128gb-4g-lte",
+  "base_model_slug": "zero-6-pro",
+  "name": "Infinix Zero 6 Pro",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1663,
+    "slug": "qualcomm-sdm636-snapdragon-636",
+    "name": "Qualcomm SDM636 Snapdragon 636",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 509",
+    "url": "/v1/socs/qualcomm-sdm636-snapdragon-636"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:836",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2246 pixels, 18.7:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, AF, 24 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide)"
+    }
+  ],
+  "battery_mah": 3650,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 178.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.8,
+    "performance": null,
+    "camera": null,
+    "battery": 9.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.825151",
+  "updated_at": "2026-06-20T19:05:09.825151"
+}

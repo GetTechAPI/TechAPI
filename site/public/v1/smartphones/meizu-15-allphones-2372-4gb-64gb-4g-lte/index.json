@@ -1,0 +1,85 @@
+{
+  "id": 31019,
+  "slug": "meizu-15-allphones-2372-4gb-64gb-4g-lte",
+  "base_model_slug": "15",
+  "name": "Meizu 15",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1664,
+    "slug": "qualcomm-sdm660-snapdragon-660",
+    "name": "Qualcomm SDM660 Snapdragon 660",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 512",
+    "url": "/v1/socs/qualcomm-sdm660-snapdragon-660"
+  },
+  "release_date": "2018-04-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2372",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 1/2.3\", 1.55 µm, dual pixel PDAF, 4-axis OIS, 20 MP, 1/2.8\", 1.0 µm, AF, portraits only"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 152.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.2 (Nougat), Flyme 7.3",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.897519",
+  "updated_at": "2026-06-20T19:05:12.897519"
+}

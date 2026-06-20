@@ -1,0 +1,85 @@
+{
+  "id": 75760,
+  "slug": "vivo-s10-allphones-7643-12gb-128gb-5g",
+  "base_model_slug": "s10",
+  "name": "vivo S10",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1227,
+    "slug": "dimensity-1100",
+    "name": "Dimensity 1100",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G77 MC9",
+    "url": "/v1/socs/dimensity-1100"
+  },
+  "release_date": "2021-07-15",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7643",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, 26mm (wide), PDAF, 8 MP, f/2.2, 120˚, 16mm (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "44 MP, f/2.0, (wide), AF, 8 MP, f/2.3, 105˚ (ultrawide)"
+    }
+  ],
+  "battery_mah": 4050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, OriginOS 1.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.4,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 20.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.735936",
+  "updated_at": "2026-06-20T19:05:27.735936"
+}

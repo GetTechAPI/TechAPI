@@ -1,0 +1,84 @@
+{
+  "id": 11175,
+  "slug": "doogee-v31gt-allphones-1772-12gb-256gb-5g",
+  "base_model_slug": "v31gt",
+  "name": "Doogee V31GT",
+  "brand": {
+    "id": 18,
+    "slug": "doogee",
+    "name": "DOOGEE",
+    "country": "CN",
+    "url": "/v1/brands/doogee"
+  },
+  "soc": {
+    "id": 1243,
+    "slug": "dimensity-1080",
+    "name": "MediaTek Dimensity 1080",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G68 MC4",
+    "url": "/v1/socs/dimensity-1080"
+  },
+  "release_date": "2023-09-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1772",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, 24 MP, f/1.8, (night vision), 2 infrared night vision lights, 8 MP, f/1.8, (wide), 256×192 pixels thermal camera"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/1.8, (wide), 1/2.8\", 0.8µm"
+    }
+  ],
+  "battery_mah": 10800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 390.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 28.0,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 50.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:05.601530",
+  "updated_at": "2026-06-20T19:05:05.601530"
+}

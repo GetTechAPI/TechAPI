@@ -1,0 +1,86 @@
+{
+  "id": 77080,
+  "slug": "vivo-iqoo-12-allphones-7969-16gb-256gb-5g",
+  "base_model_slug": "iqoo-12",
+  "name": "vivo iQOO 12",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2023-11-14",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7969",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.7, 23mm (wide), 1/1.3\", 1.2µm, multi-directional PDAF, OIS, 64 MP, f/2.6, 70mm (periscope telephoto), 1/2.0\", PDAF, OIS, 3x optical zoom, 50 MP, f/2.0, 15mm, 119˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, upgradable to Android 15, up to 4 major Android upgrades, Funtouch 15 (International), OriginOS 4 (China)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:28.161715",
+  "updated_at": "2026-06-20T19:05:28.161715"
+}

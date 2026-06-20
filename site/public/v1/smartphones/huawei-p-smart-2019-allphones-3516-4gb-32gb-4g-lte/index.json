@@ -1,0 +1,86 @@
+{
+  "id": 17939,
+  "slug": "huawei-p-smart-2019-allphones-3516-4gb-32gb-4g-lte",
+  "base_model_slug": "p-smart-2019",
+  "name": "Huawei P smart 2019",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 804,
+    "slug": "hisilicon-kirin-710",
+    "name": "Hisilicon Kirin 710",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G51 MP4",
+    "url": "/v1/socs/hisilicon-kirin-710"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3516",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~415 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, PDAF, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, or, 8 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 3400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), EMUI 9.1, Google Play Services",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.0,
+    "performance": null,
+    "camera": null,
+    "battery": 6.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:08.312086",
+  "updated_at": "2026-06-20T19:05:08.312086"
+}

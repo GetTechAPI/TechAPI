@@ -1,0 +1,74 @@
+{
+  "id": 639,
+  "slug": "asus-zenpad-s-8-0-z580c-allphones-1040-2gb-16gb",
+  "base_model_slug": "zenpad-s-8-0-z580c",
+  "name": "Asus Zenpad S 8.0 Z580C",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 939,
+    "slug": "intel-atom-z3530",
+    "name": "Intel Atom Z3530",
+    "manufacturer": {
+      "slug": "intel",
+      "name": "Intel",
+      "url": "/v1/brands/intel"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6430",
+    "url": "/v1/socs/intel-atom-z3530"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1040",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~320 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 317.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0 (Lollipop)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.682600",
+  "updated_at": "2026-06-20T19:05:43.682600",
+  "url": "/v1/tablets/asus-zenpad-s-8-0-z580c-allphones-1040-2gb-16gb"
+}

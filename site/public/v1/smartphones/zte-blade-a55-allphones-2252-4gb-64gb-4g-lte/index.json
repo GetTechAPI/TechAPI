@@ -1,0 +1,85 @@
+{
+  "id": 90007,
+  "slug": "zte-blade-a55-allphones-2252-4gb-64gb-4g-lte",
+  "base_model_slug": "blade-a55",
+  "name": "ZTE Blade A55",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 2080,
+    "slug": "unisoc-sc9863",
+    "name": "Unisoc SC9863",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/unisoc-sc9863"
+  },
+  "release_date": "2024-07-25",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2252",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF, Auxiliary lens"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14 (Go edition)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:32.080814",
+  "updated_at": "2026-06-20T19:05:32.080814"
+}

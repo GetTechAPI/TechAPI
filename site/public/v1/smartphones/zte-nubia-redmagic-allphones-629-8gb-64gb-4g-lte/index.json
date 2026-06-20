@@ -1,0 +1,85 @@
+{
+  "id": 88204,
+  "slug": "zte-nubia-redmagic-allphones-629-8gb-64gb-4g-lte",
+  "base_model_slug": "nubia-redmagic",
+  "name": "ZTE nubia RedMagic",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1625,
+    "slug": "snapdragon-835",
+    "name": "Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/snapdragon-835"
+  },
+  "release_date": "2018-04-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:629",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "24 MP, f/1.7, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 3800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 185.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), Redmagic 1.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.1,
+    "performance": 26.1,
+    "camera": null,
+    "battery": 12.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:31.643739",
+  "updated_at": "2026-06-20T19:05:31.643739"
+}

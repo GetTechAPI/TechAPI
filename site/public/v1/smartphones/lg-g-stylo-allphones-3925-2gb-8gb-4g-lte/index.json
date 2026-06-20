@@ -1,0 +1,85 @@
+{
+  "id": 28215,
+  "slug": "lg-g-stylo-allphones-3925-2gb-8gb-4g-lte",
+  "base_model_slug": "g-stylo",
+  "name": "LG G Stylo",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1557,
+    "slug": "qualcomm-msm8916-snapdragon-410",
+    "name": "Qualcomm MSM8916 Snapdragon 410",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 306",
+    "url": "/v1/socs/qualcomm-msm8916-snapdragon-410"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3925",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.4"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 165.9,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0 (Lollipop), upgradable to 6.0 (Marshmallow)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.079715",
+  "updated_at": "2026-06-20T19:05:12.079715"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 41286,
+  "slug": "nokia-g20-allphones-5723-4gb-64gb-4g-lte",
+  "base_model_slug": "g20",
+  "name": "Nokia G20",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1226,
+    "slug": "mediatek",
+    "name": "Mediatek",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek"
+  },
+  "release_date": "2021-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5723",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, (wide), PDAF, 5 MP, (ultrawide), 2 MP, (macro), 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ],
+  "battery_mah": 5050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, upgradable to Android 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.7,
+    "performance": null,
+    "camera": null,
+    "battery": 30.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:16.089125",
+  "updated_at": "2026-06-20T19:05:16.089125"
+}

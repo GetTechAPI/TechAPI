@@ -1,0 +1,85 @@
+{
+  "id": 30878,
+  "slug": "meizu-m3x-allphones-1608-4gb-32gb-4g-lte",
+  "base_model_slug": "m3x",
+  "name": "Meizu M3x",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1111,
+    "slug": "mediatek-mt6757-helio-p20",
+    "name": "Mediatek MT6757 Helio P20",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880MP2",
+    "url": "/v1/socs/mediatek-mt6757-helio-p20"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1608",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0, 1/2.9\", 1.25µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0, 1/4.0\", 1.4µm"
+    }
+  ],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 165.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6 (Marshmallow), Flyme 6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": null,
+    "battery": 3.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.852701",
+  "updated_at": "2026-06-20T19:05:12.852701"
+}

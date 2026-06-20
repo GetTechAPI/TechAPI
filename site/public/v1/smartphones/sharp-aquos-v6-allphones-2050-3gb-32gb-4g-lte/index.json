@@ -1,0 +1,84 @@
+{
+  "id": 68226,
+  "slug": "sharp-aquos-v6-allphones-2050-3gb-32gb-4g-lte",
+  "base_model_slug": "aquos-v6",
+  "name": "Sharp Aquos V6",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1262,
+    "slug": "mediatek-helio-g25-mt6762g",
+    "name": "MediaTek Helio G25 MT6762G",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/mediatek-helio-g25-mt6762g"
+  },
+  "release_date": "2022-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2050",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), 2 MP, (macro), 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.456224",
+  "updated_at": "2026-06-20T19:05:25.456224"
+}

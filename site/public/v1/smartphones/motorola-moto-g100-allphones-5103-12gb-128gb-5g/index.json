@@ -1,0 +1,85 @@
+{
+  "id": 36490,
+  "slug": "motorola-moto-g100-allphones-5103-12gb-128gb-5g",
+  "base_model_slug": "moto-g100",
+  "name": "Motorola Moto G100",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1736,
+    "slug": "snapdragon-870",
+    "name": "Snapdragon 870",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-870"
+  },
+  "release_date": "2021-05-28",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5103",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2520 pixels, 21:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.7, (wide), 1/2.0\", 0.7µm, PDAF, 16 MP, f/2.2, 117˚ (ultrawide), 1.0µm, PDAF, 2 MP, f/2.4, (depth), TOF 3D"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2, (wide), 1.0µm, 8 MP, f/2.4, 118˚ (ultrawide), 1.12µm"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 207.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, upgradable to Android 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.6,
+    "performance": 9.1,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:14.624432",
+  "updated_at": "2026-06-20T19:05:14.624432"
+}

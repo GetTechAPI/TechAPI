@@ -1,0 +1,85 @@
+{
+  "id": 31995,
+  "slug": "micromax-a114r-canvas-beat-allphones-868-1gb-2gb-3g",
+  "base_model_slug": "a114r-canvas-beat",
+  "name": "Micromax A114R Canvas Beat",
+  "brand": {
+    "id": 93,
+    "slug": "micromax",
+    "name": "Micromax",
+    "country": "IN",
+    "url": "/v1/brands/micromax"
+  },
+  "soc": {
+    "id": 762,
+    "slug": "broadcom-bcm23550",
+    "name": "Broadcom BCM23550",
+    "manufacturer": {
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "url": "/v1/brands/broadcom"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Broadcom VideoCore IV",
+    "url": "/v1/socs/broadcom-bcm23550"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    2,
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:868",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 2
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Mini-SIM)"
+  },
+  "display": {
+    "resolution": "540 x 960, 16:9 ratio (~220 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 1900,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:13.224021",
+  "updated_at": "2026-06-20T19:05:13.224021"
+}

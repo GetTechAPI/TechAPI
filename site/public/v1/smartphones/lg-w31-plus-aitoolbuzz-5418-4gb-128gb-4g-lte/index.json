@@ -1,0 +1,91 @@
+{
+  "id": 30507,
+  "slug": "lg-w31-plus-aitoolbuzz-5418-4gb-128gb-4g-lte",
+  "base_model_slug": "w31-plus",
+  "name": "LG W31+",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1123,
+    "slug": "helio-p22",
+    "name": "Helio P22",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-p22"
+  },
+  "release_date": "2020-11-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:5418",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "LMK315IM",
+      "LM-K315",
+      "LM-K315IM"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 173.6,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/lg-w31-plus.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.0,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/lg-w31-plus"
+  ],
+  "created_at": "2026-06-20T19:05:12.721351",
+  "updated_at": "2026-06-20T19:05:12.721351"
+}

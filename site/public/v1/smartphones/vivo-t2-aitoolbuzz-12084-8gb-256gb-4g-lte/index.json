@@ -1,0 +1,86 @@
+{
+  "id": 77177,
+  "slug": "vivo-t2-aitoolbuzz-12084-8gb-256gb-4g-lte",
+  "base_model_slug": "t2",
+  "name": "vivo T2",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1252,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2023-10-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:12084",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.62,
+    "resolution": "1080x2400 pixels",
+    "type": "AMOLED, 120Hz"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, (wide)"
+    }
+  ],
+  "battery_mah": 4600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, Funtouch 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/vivo-t2.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 29.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/vivo-t2"
+  ],
+  "created_at": "2026-06-20T19:05:28.191096",
+  "updated_at": "2026-06-20T19:05:28.191096"
+}

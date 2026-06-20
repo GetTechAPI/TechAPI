@@ -1,0 +1,85 @@
+{
+  "id": 72684,
+  "slug": "tecno-pova-6-neo-5g-allphones-1846-8gb-128gb-5g",
+  "base_model_slug": "pova-6-neo-5g",
+  "name": "Tecno Pova 6 Neo 5G",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1229,
+    "slug": "dimensity-810",
+    "name": "Dimensity 810",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-810"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1846",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~263 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), PDAF, Unspecified camera"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 225.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, HIOS 14.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 35.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.756167",
+  "updated_at": "2026-06-20T19:05:26.756167"
+}

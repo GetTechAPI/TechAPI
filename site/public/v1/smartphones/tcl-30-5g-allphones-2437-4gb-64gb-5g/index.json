@@ -1,0 +1,85 @@
+{
+  "id": 71993,
+  "slug": "tcl-30-5g-allphones-2437-4gb-64gb-5g",
+  "base_model_slug": "30-5g",
+  "name": "TCL 30 5G",
+  "brand": {
+    "id": 46,
+    "slug": "tcl",
+    "name": "TCL",
+    "country": "CN",
+    "url": "/v1/brands/tcl"
+  },
+  "soc": {
+    "id": 1186,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2022-02-27",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2437",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~393 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 28mm (wide), 1/2.76\", 0.64µm, PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.3, 19mm (ultrawide), 1/3\", 1.12µm"
+    }
+  ],
+  "battery_mah": 5010,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 184.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, TCL UI 4.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.1,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 30.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.548768",
+  "updated_at": "2026-06-20T19:05:26.548768"
+}

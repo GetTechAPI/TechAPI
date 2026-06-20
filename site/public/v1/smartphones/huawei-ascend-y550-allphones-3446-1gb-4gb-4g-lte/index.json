@@ -1,0 +1,84 @@
+{
+  "id": 16710,
+  "slug": "huawei-ascend-y550-allphones-3446-1gb-4gb-4g-lte",
+  "base_model_slug": "ascend-y550",
+  "name": "Huawei Ascend Y550",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1557,
+    "slug": "qualcomm-msm8916-snapdragon-410",
+    "name": "Qualcomm MSM8916 Snapdragon 410",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 306",
+    "url": "/v1/socs/qualcomm-msm8916-snapdragon-410"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3446",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~218 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 2000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 153.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat), EMUI 2.3",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:07.943180",
+  "updated_at": "2026-06-20T19:05:07.943180"
+}

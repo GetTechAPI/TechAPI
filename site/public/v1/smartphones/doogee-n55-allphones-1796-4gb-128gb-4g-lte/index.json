@@ -1,0 +1,84 @@
+{
+  "id": 11196,
+  "slug": "doogee-n55-allphones-1796-4gb-128gb-4g-lte",
+  "base_model_slug": "n55",
+  "name": "Doogee N55",
+  "brand": {
+    "id": 18,
+    "slug": "doogee",
+    "name": "DOOGEE",
+    "country": "CN",
+    "url": "/v1/brands/doogee"
+  },
+  "soc": {
+    "id": 2085,
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t606"
+  },
+  "release_date": "2024-05-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1796",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, (wide)"
+    }
+  ],
+  "battery_mah": 5150,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.1,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 32.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:05.607603",
+  "updated_at": "2026-06-20T19:05:05.607603"
+}

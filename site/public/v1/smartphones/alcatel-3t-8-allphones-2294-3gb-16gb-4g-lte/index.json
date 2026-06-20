@@ -1,0 +1,85 @@
+{
+  "id": 1993,
+  "slug": "alcatel-3t-8-allphones-2294-3gb-16gb-4g-lte",
+  "base_model_slug": "3t-8",
+  "name": "alcatel 3T 8",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1153,
+    "slug": "mediatek-mt8765",
+    "name": "Mediatek MT8765",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-mt8765"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2294",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.4, (wide), 1/5.0\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.8, (wide), 1/5.0\", 1.65µm"
+    }
+  ],
+  "battery_mah": 4080,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 279.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.2,
+    "performance": null,
+    "camera": null,
+    "battery": 16.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:02.811194",
+  "updated_at": "2026-06-20T19:05:02.811194"
+}

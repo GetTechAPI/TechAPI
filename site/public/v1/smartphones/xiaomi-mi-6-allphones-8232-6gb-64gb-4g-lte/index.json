@@ -1,0 +1,85 @@
+{
+  "id": 79240,
+  "slug": "xiaomi-mi-6-allphones-8232-6gb-64gb-4g-lte",
+  "base_model_slug": "mi-6",
+  "name": "Xiaomi Mi 6",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1658,
+    "slug": "qualcomm-msm8998-snapdragon-835",
+    "name": "Qualcomm MSM8998 Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/qualcomm-msm8998-snapdragon-835"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8232",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~428 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 27mm (wide), 1/2.9\", 1.25µm, PDAF, 4-axis OIS, 12 MP, f/2.6, 52mm (telephoto), 1.0µm, AF, 2x optical zoom"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 3350,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie), MIUI 8",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 5.3,
+    "performance": null,
+    "camera": null,
+    "battery": 5.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:28.836753",
+  "updated_at": "2026-06-20T19:05:28.836753"
+}

@@ -1,0 +1,86 @@
+{
+  "id": 50521,
+  "slug": "panasonic-t21-aitoolbuzz-8030-1gb-4gb-3g",
+  "base_model_slug": "t21",
+  "name": "Panasonic T21",
+  "brand": {
+    "id": 103,
+    "slug": "panasonic",
+    "name": "Panasonic",
+    "country": "JP",
+    "url": "/v1/brands/panasonic"
+  },
+  "soc": {
+    "id": 761,
+    "slug": "broadcom-bcm28145",
+    "name": "Broadcom BCM28145",
+    "manufacturer": {
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "url": "/v1/brands/broadcom"
+    },
+    "process_nm": 40.0,
+    "gpu_name": "Broadcom VideoCore IV",
+    "url": "/v1/socs/broadcom-bcm28145"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:8030",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM"
+  },
+  "display": {
+    "size_inch": 4.5,
+    "resolution": "720x1280 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 1700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/panasonic-t21.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/panasonic-t21"
+  ],
+  "created_at": "2026-06-20T19:05:19.315757",
+  "updated_at": "2026-06-20T19:05:19.315757"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 29235,
+  "slug": "lg-q7-allphones-4493-4gb-32gb-4g-lte",
+  "base_model_slug": "q7",
+  "name": "LG Q7",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1109,
+    "slug": "mediatek-mt6750s",
+    "name": "Mediatek MT6750S",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T860MP2",
+    "url": "/v1/socs/mediatek-mt6750s"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4493",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~442 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 1/3.1\", 1.12µm, PDAF (Q7, Q7α), 16 MP, PDAF (Q7+)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP (Q7α), 8 MP, f/1.9, 1/4.0\", 1.12µm (Q7, Q7+)"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 145.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.387887",
+  "updated_at": "2026-06-20T19:05:12.387887"
+}

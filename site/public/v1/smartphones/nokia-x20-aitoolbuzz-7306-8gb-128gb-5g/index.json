@@ -1,0 +1,90 @@
+{
+  "id": 41435,
+  "slug": "nokia-x20-aitoolbuzz-7306-8gb-128gb-5g",
+  "base_model_slug": "x20",
+  "name": "Nokia X20",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2021-04-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:7306",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "TA-1341",
+      "TA-1344"
+    ],
+    "sim": "Nano-SIMNano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400 pixels",
+    "type": "IPS LCD, 450 nits (typ)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, (wide)"
+    }
+  ],
+  "battery_mah": 4470,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 220.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, up to Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/nokia-x20.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.1,
+    "performance": null,
+    "camera": null,
+    "battery": 22.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/nokia-x20"
+  ],
+  "created_at": "2026-06-20T19:05:16.132386",
+  "updated_at": "2026-06-20T19:05:16.132386"
+}

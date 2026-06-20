@@ -1,0 +1,85 @@
+{
+  "id": 47885,
+  "slug": "oppo-a1-pro-allphones-5900-12gb-128gb-5g",
+  "base_model_slug": "a1-pro",
+  "name": "Oppo A1 Pro",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1730,
+    "slug": "snapdragon-695",
+    "name": "Snapdragon 695 5G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 619",
+    "url": "/v1/socs/snapdragon-695"
+  },
+  "release_date": "2022-11-25",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5900",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2412 pixels, 20:9 ratio (~394 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.7, 24mm (wide), 1/1.67\", 0.64µm, AF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.4, 25mm (wide)"
+    }
+  ],
+  "battery_mah": 4800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, ColorOS 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.0,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 32.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:18.546906",
+  "updated_at": "2026-06-20T19:05:18.547925"
+}

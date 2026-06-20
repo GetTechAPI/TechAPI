@@ -1,0 +1,84 @@
+{
+  "id": 73920,
+  "slug": "vivo-xplay3s-allphones-7697-3gb-32gb-4g-lte",
+  "base_model_slug": "xplay3s",
+  "name": "vivo Xplay3S",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1536,
+    "slug": "qualcomm-snapdragon-801",
+    "name": "Qualcomm Snapdragon 801",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/qualcomm-snapdragon-801"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7697",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~490 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 174.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.3 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": null,
+    "battery": 3.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.193512",
+  "updated_at": "2026-06-20T19:05:27.193512"
+}

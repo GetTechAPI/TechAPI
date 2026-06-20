@@ -1,0 +1,86 @@
+{
+  "id": 52401,
+  "slug": "realme-1-allphones-6322-6gb-32gb-4g-lte",
+  "base_model_slug": "1",
+  "name": "Realme 1",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1125,
+    "slug": "helio-p60",
+    "name": "Helio P60",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/helio-p60"
+  },
+  "release_date": "2018-05-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6322",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 3410,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie), ColorOS 6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.9,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 6.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:19.948069",
+  "updated_at": "2026-06-20T19:05:19.948069"
+}

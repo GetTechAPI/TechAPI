@@ -1,0 +1,86 @@
+{
+  "id": 37501,
+  "slug": "motorola-moto-x40-allphones-5146-12gb-128gb-5g",
+  "base_model_slug": "moto-x40",
+  "name": "Motorola Moto X40",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2022-12-22",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5146",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~393 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), 1/1.55\", 1.0µm, dual pixel PDAF, OIS, 12 MP, f/1.6, (telephoto), 1/2.93\", 1.22µm, PDAF, 2x optical zoom, 50 MP, f/2.2, 117˚ (ultrawide), 1/2.76\", 0.64µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "60 MP, f/2.2, (wide), 1/2.8\", 0.61µm"
+    }
+  ],
+  "battery_mah": 4600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, upgradable to Android 14, MYUI 6.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.0,
+    "performance": null,
+    "camera": null,
+    "battery": 24.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:14.898982",
+  "updated_at": "2026-06-20T19:05:14.898982"
+}

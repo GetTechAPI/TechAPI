@@ -1,0 +1,85 @@
+{
+  "id": 72543,
+  "slug": "tecno-pova-3-allphones-1220-6gb-64gb-4g-lte",
+  "base_model_slug": "pova-3",
+  "name": "Tecno Pova 3",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1234,
+    "slug": "helio-g88",
+    "name": "MediaTek Helio G88",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G52 MC2",
+    "url": "/v1/socs/helio-g88"
+  },
+  "release_date": "2022-06-20",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1220",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2460 pixels (~389 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, (wide), PDAF, 0.08 MP (auxiliary lens), 0.08 MP (auxiliary lens)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 7000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 230.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, HIOS",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 23.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.718020",
+  "updated_at": "2026-06-20T19:05:26.718020"
+}

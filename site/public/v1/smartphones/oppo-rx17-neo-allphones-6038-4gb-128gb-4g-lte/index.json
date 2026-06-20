@@ -1,0 +1,84 @@
+{
+  "id": 44522,
+  "slug": "oppo-rx17-neo-allphones-6038-4gb-128gb-4g-lte",
+  "base_model_slug": "rx17-neo",
+  "name": "Oppo RX17 Neo",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1664,
+    "slug": "qualcomm-sdm660-snapdragon-660",
+    "name": "Qualcomm SDM660 Snapdragon 660",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 512",
+    "url": "/v1/socs/qualcomm-sdm660-snapdragon-660"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6038",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, 1/2.8\", 1.12µm, PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.0, 1/2.8\", 0.9µm"
+    }
+  ],
+  "battery_mah": 3600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 156.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), ColorOS 5.2",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.0,
+    "performance": null,
+    "camera": null,
+    "battery": 9.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:17.053336",
+  "updated_at": "2026-06-20T19:05:17.053336"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 804,
+  "slug": "coolpad-cool1-dual-allphones-2100-4gb-32gb-4g-lte",
+  "base_model_slug": "cool1-dual",
+  "name": "Coolpad Cool1 dual",
+  "brand": {
+    "id": 17,
+    "slug": "coolpad",
+    "name": "Coolpad",
+    "country": "CN",
+    "url": "/v1/brands/coolpad"
+  },
+  "soc": {
+    "id": 1596,
+    "slug": "qualcomm-msm8976-snapdragon-652",
+    "name": "Qualcomm MSM8976 Snapdragon 652",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 510",
+    "url": "/v1/socs/qualcomm-msm8976-snapdragon-652"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2100",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, PDAF, 13 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 1/3.2\", 1.4µm"
+    }
+  ],
+  "battery_mah": 4060,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 167.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow), eUI 5.6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.754423",
+  "updated_at": "2026-06-20T19:05:43.754423",
+  "url": "/v1/tablets/coolpad-cool1-dual-allphones-2100-4gb-32gb-4g-lte"
+}

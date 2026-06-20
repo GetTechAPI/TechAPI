@@ -1,0 +1,76 @@
+{
+  "id": 1188,
+  "slug": "huawei-mediapad-t1-7-0-allphones-3448-1gb-8gb-3g",
+  "base_model_slug": "mediapad-t1-7-0",
+  "name": "Huawei MediaPad T1 7.0",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 2052,
+    "slug": "spreadtrum-sc7731g",
+    "name": "Spreadtrum SC7731G",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/spreadtrum-sc7731g"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3448",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 278.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat), EMUI 3",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.875145",
+  "updated_at": "2026-06-20T19:05:43.875145",
+  "url": "/v1/tablets/huawei-mediapad-t1-7-0-allphones-3448-1gb-8gb-3g"
+}

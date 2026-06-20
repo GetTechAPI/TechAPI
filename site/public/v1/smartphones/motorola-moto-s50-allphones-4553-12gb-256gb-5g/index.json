@@ -1,0 +1,85 @@
+{
+  "id": 38094,
+  "slug": "motorola-moto-s50-allphones-4553-12gb-256gb-5g",
+  "base_model_slug": "moto-s50",
+  "name": "Motorola Moto S50",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1247,
+    "slug": "dimensity-8100",
+    "name": "Dimensity 8100",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G610 MC6",
+    "url": "/v1/socs/dimensity-8100"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4553",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1272 x 2670 pixels, 19:9 ratio (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), 1/1.5\", 1.0µm, multi-directional PDAF, OIS, 10 MP, f/2.0, 73mm (telephoto), 1.0µm, PDAF, OIS, 3x optical zoom, 13 MP, f/2.2, 13mm, 123˚ (ultrawide), 1.12µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, (wide), 0.7µm"
+    }
+  ],
+  "battery_mah": 4310,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.5,
+    "performance": 9.3,
+    "camera": null,
+    "battery": 29.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:15.072144",
+  "updated_at": "2026-06-20T19:05:15.072144"
+}

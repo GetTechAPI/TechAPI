@@ -1,0 +1,85 @@
+{
+  "id": 40055,
+  "slug": "nokia-8-allphones-5234-6gb-64gb-4g-lte",
+  "base_model_slug": "8",
+  "name": "Nokia 8",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1625,
+    "slug": "snapdragon-835",
+    "name": "Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/snapdragon-835"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5234",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~554 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 1/3.1\", 1.12µm, PDAF, OIS, 13 MP B/W, f/2.0, 1.12µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.0, (wide), 1/3.1\", 1.12µm, PDAF"
+    }
+  ],
+  "battery_mah": 3090,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.0,
+    "performance": 24.6,
+    "camera": null,
+    "battery": 1.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:15.762900",
+  "updated_at": "2026-06-20T19:05:15.762900"
+}

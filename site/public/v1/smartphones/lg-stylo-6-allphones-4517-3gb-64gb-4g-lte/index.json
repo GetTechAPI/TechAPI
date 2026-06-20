@@ -1,0 +1,84 @@
+{
+  "id": 30457,
+  "slug": "lg-stylo-6-allphones-4517-3gb-64gb-4g-lte",
+  "base_model_slug": "stylo-6",
+  "name": "LG Stylo 6",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1124,
+    "slug": "helio-p35",
+    "name": "Helio P35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-p35"
+  },
+  "release_date": "2020-05-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4517",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2460 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), PDAF, 5 MP, 120˚, (ultrawide), 5 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, 1/3.1\", 1.12µm"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 219.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.5,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.709307",
+  "updated_at": "2026-06-20T19:05:12.709307"
+}

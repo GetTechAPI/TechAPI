@@ -1,0 +1,74 @@
+{
+  "id": 2899,
+  "slug": "xiaomi-redmi-pad-allphones-8102-6gb-64gb",
+  "base_model_slug": "redmi-pad",
+  "name": "Xiaomi Redmi Pad",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1252,
+    "slug": "helio-g99",
+    "name": "MediaTek Helio G99",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/helio-g99"
+  },
+  "release_date": "2022-10-04",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8102",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~220 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.3, 105° (ultrawide)"
+    }
+  ],
+  "battery_mah": 8000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 465.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, upgradable to Android 13, MIUI 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.341263",
+  "updated_at": "2026-06-20T19:05:44.341263",
+  "url": "/v1/tablets/xiaomi-redmi-pad-allphones-8102-6gb-64gb"
+}

@@ -1,0 +1,84 @@
+{
+  "id": 7231,
+  "slug": "asus-zenfone-7-allphones-2338-8gb-128gb-5g",
+  "base_model_slug": "zenfone-7",
+  "name": "Asus Zenfone 7",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 1714,
+    "slug": "snapdragon-865-plus",
+    "name": "Snapdragon 865+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865-plus"
+  },
+  "release_date": "2020-08-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2338",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.4, 80mm (telephoto), PDAF, 3x optical zoom, 12 MP, f/2.2, 113˚, 17mm (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Motorized flip-up main camera module"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 230.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, upgradable to Android 12, ZenUI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.7,
+    "performance": 3.4,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:04.243166",
+  "updated_at": "2026-06-20T19:05:04.243166"
+}

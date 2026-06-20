@@ -1,0 +1,84 @@
+{
+  "id": 14114,
+  "slug": "honor-x50-pro-allphones-2676-12gb-256gb-5g",
+  "base_model_slug": "x50-pro",
+  "name": "Honor X50 Pro",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1749,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-12-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2676",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1220 x 2652 pixels, 19.5:9 ratio (~431 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.8, (wide), 1/1.67\", PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide)"
+    }
+  ],
+  "battery_mah": 5800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 192.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 41.1,
+    "performance": 25.2,
+    "camera": null,
+    "battery": 57.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:07.111812",
+  "updated_at": "2026-06-20T19:05:07.111812"
+}

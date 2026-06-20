@@ -1,0 +1,81 @@
+{
+  "id": 1912,
+  "slug": "alcatel-1t-7-allphones-2274-1gb-8gb",
+  "base_model_slug": "1t-7",
+  "name": "alcatel 1T 7",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1151,
+    "slug": "mediatek-mt8321a-d",
+    "name": "Mediatek MT8321A/D",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-400",
+    "url": "/v1/socs/mediatek-mt8321a-d"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2274",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 2580,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 245.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:02.787206",
+  "updated_at": "2026-06-20T19:05:02.787206"
+}

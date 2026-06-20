@@ -1,0 +1,85 @@
+{
+  "id": 85118,
+  "slug": "xiaomi-redmi-12-allphones-8416-8gb-128gb-4g-lte",
+  "base_model_slug": "redmi-12",
+  "name": "Xiaomi Redmi 12",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1208,
+    "slug": "mediatek-helio",
+    "name": "Mediatek Helio",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/mediatek-helio"
+  },
+  "release_date": "2023-06-15",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8416",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2460 pixels (~396 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.1, (wide)"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, upgradable to Android 14, HyperOS",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.0,
+    "performance": null,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:30.665988",
+  "updated_at": "2026-06-20T19:05:30.665988"
+}

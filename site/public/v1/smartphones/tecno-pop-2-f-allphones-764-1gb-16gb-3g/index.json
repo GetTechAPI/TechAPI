@@ -1,0 +1,84 @@
+{
+  "id": 72338,
+  "slug": "tecno-pop-2-f-allphones-764-1gb-16gb-3g",
+  "base_model_slug": "pop-2-f",
+  "name": "Tecno Pop 2 F",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1168,
+    "slug": "mediatek-mt6580m",
+    "name": "Mediatek MT6580M",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-400MP2",
+    "url": "/v1/socs/mediatek-mt6580m"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:764",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "display": {
+    "resolution": "480 x 960 pixels, 18:9 ratio (~197 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 2400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 Oreo (Go edition)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.661094",
+  "updated_at": "2026-06-20T19:05:26.661094"
+}

@@ -1,0 +1,84 @@
+{
+  "id": 69078,
+  "slug": "sony-xperia-m2-dual-allphones-7438-1gb-8gb-3g",
+  "base_model_slug": "xperia-m2-dual",
+  "name": "Sony Xperia M2 dual",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1494,
+    "slug": "qualcomm-msm8226-0-snapdragon-400",
+    "name": "Qualcomm MSM8226-0 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8226-0-snapdragon-400"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7438",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~229 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 2300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 148.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.3 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.717861",
+  "updated_at": "2026-06-20T19:05:25.717861"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 89467,
+  "slug": "zte-blade-a72-5g-allphones-1465-6gb-64gb-5g",
+  "base_model_slug": "blade-a72-5g",
+  "name": "ZTE Blade A72 5G",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1186,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2022-06-10",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1465",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, (wide), AF, 2 MP (macro), 2 MP (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 211.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.2,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:31.963012",
+  "updated_at": "2026-06-20T19:05:31.963012"
+}

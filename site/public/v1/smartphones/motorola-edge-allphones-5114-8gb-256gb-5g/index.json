@@ -1,0 +1,84 @@
+{
+  "id": 37975,
+  "slug": "motorola-edge-allphones-5114-8gb-256gb-5g",
+  "base_model_slug": "edge",
+  "name": "Motorola Edge (2021)",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1765,
+    "slug": "snapdragon-7s-gen-2",
+    "name": "Snapdragon 7s Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 710",
+    "url": "/v1/socs/snapdragon-7s-gen-2"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5114",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2460 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), 1/1.52\", 0.7µm, PDAF, 8 MP, f/2.2, 119˚ (ultrawide), 1.12µm, AF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.3, (wide), 0.7µm"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 200.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, planned upgrade to Android 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:15.041159",
+  "updated_at": "2026-06-20T19:05:15.041159"
+}

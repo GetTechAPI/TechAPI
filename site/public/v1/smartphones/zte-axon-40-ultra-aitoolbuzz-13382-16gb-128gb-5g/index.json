@@ -1,0 +1,93 @@
+{
+  "id": 89417,
+  "slug": "zte-axon-40-ultra-aitoolbuzz-13382-16gb-128gb-5g",
+  "base_model_slug": "axon-40-ultra",
+  "name": "ZTE Axon 40 Ultra",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1734,
+    "slug": "snapdragon-8-gen-1",
+    "name": "Snapdragon 8 Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-gen-1"
+  },
+  "release_date": "2022-05-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:13382",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "A2023P",
+      "A2023PG"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.8,
+    "resolution": "1116x2480 pixels",
+    "type": "AMOLED, 1B colors, 120Hz, HDR10+, 1500 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 26mm (wide), 1/2.8\", 1.22µm, under display"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, up to Android 13, MyOS 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/zte-axon-40-ultra.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 30.9,
+    "performance": 16.9,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/zte-axon-40-ultra"
+  ],
+  "created_at": "2026-06-20T19:05:31.953440",
+  "updated_at": "2026-06-20T19:05:31.953440"
+}

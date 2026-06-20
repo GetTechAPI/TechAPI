@@ -1,0 +1,90 @@
+{
+  "id": 79636,
+  "slug": "xiaomi-mi-play-aitoolbuzz-12820-6gb-64gb-4g-lte",
+  "base_model_slug": "mi-play",
+  "name": "Xiaomi Mi Play",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1124,
+    "slug": "helio-p35",
+    "name": "Helio P35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-p35"
+  },
+  "release_date": "2018-12-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:12820",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "M1901F9E"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 5.84,
+    "resolution": "1080x2280 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/xiaomi-mi-play.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.8,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/xiaomi-mi-play"
+  ],
+  "created_at": "2026-06-20T19:05:28.959916",
+  "updated_at": "2026-06-20T19:05:28.959916"
+}

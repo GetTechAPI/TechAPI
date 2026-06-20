@@ -1,0 +1,84 @@
+{
+  "id": 21779,
+  "slug": "huawei-nova-11-ultra-allphones-3613-12gb-512gb-4g-lte",
+  "base_model_slug": "nova-11-ultra",
+  "name": "Huawei nova 11 Ultra",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1732,
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g"
+  },
+  "release_date": "2023-04-27",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3613",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1200 x 2652 pixels (~429 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 25mm (wide), PDAF, 8 MP, f/2.2, 112˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 52mm (telephoto), AF, 2x optical zoom, 60 MP, f/2.4, 17mm, 100˚ (ultrawide), AF"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 3.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.8,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 27.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.430783",
+  "updated_at": "2026-06-20T19:05:09.430783"
+}

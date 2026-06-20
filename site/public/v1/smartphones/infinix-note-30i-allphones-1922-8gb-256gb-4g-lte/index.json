@@ -1,0 +1,84 @@
+{
+  "id": 23317,
+  "slug": "infinix-note-30i-allphones-1922-8gb-256gb-4g-lte",
+  "base_model_slug": "note-30i",
+  "name": "Infinix Note 30i",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1195,
+    "slug": "helio-g85",
+    "name": "MediaTek Helio G85",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G52 MC2",
+    "url": "/v1/socs/helio-g85"
+  },
+  "release_date": "2023-06-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1922",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.7, (wide), 1/2.0\", PDAF, QVGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 198.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, XOS 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.952358",
+  "updated_at": "2026-06-20T19:05:09.952358"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 12218,
+  "slug": "google-pixel-xl-allphones-2631-4gb-32gb-4g-lte",
+  "base_model_slug": "pixel-xl",
+  "name": "Google Pixel XL",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 1613,
+    "slug": "snapdragon-821",
+    "name": "Snapdragon 821",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/snapdragon-821"
+  },
+  "release_date": "2016-10-20",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2631",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~534 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12.3 MP, f/2.0, 1/2.3\", 1.55µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.4, 1/3.2\", 1.4µm"
+    }
+  ],
+  "battery_mah": 3450,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1 (Nougat), upgradable to Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.3,
+    "performance": 11.8,
+    "camera": null,
+    "battery": 6.8,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:06.059046",
+  "updated_at": "2026-06-20T19:05:06.059046"
+}

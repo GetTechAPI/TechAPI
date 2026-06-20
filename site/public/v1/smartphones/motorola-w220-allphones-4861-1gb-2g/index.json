@@ -1,0 +1,74 @@
+{
+  "id": 33402,
+  "slug": "motorola-w220-allphones-4861-1gb-2g",
+  "base_model_slug": "w220",
+  "name": "Motorola W220",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 269,
+    "slug": "motorola-mobile-platform-2006",
+    "name": "Motorola mobile platform 2006",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 90.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/motorola-mobile-platform-2006"
+  },
+  "release_date": "2006-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4861",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "128 x 128 pixels, 1:1 ratio (~113 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "No"
+    }
+  ],
+  "battery_mah": 880,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 93.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:13.709791",
+  "updated_at": "2026-06-20T19:05:13.709791"
+}

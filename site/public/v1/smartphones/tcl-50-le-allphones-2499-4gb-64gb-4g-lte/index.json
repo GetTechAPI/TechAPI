@@ -1,0 +1,84 @@
+{
+  "id": 72116,
+  "slug": "tcl-50-le-allphones-2499-4gb-64gb-4g-lte",
+  "base_model_slug": "50-le",
+  "name": "TCL 50 LE",
+  "brand": {
+    "id": 46,
+    "slug": "tcl",
+    "name": "TCL",
+    "country": "CN",
+    "url": "/v1/brands/tcl"
+  },
+  "soc": {
+    "id": 1186,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2024-06-26",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2499",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), AF, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 195.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.5,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.596353",
+  "updated_at": "2026-06-20T19:05:26.596353"
+}

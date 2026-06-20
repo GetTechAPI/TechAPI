@@ -1,0 +1,78 @@
+{
+  "id": 1238,
+  "slug": "huawei-mediapad-m3-lite-8-allphones-3496-4gb-16gb-4g-lte",
+  "base_model_slug": "mediapad-m3-lite-8",
+  "name": "Huawei MediaPad M3 Lite 8",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1656,
+    "slug": "qualcomm-msm8940-snapdragon-435",
+    "name": "Qualcomm MSM8940 Snapdragon 435",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 505",
+    "url": "/v1/socs/qualcomm-msm8940-snapdragon-435"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4.0,
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3496",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~283 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 4800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 310.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat), EMUI 5.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.890711",
+  "updated_at": "2026-06-20T19:05:43.890711",
+  "url": "/v1/tablets/huawei-mediapad-m3-lite-8-allphones-3496-4gb-16gb-4g-lte"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 13744,
+  "slug": "honor-50-se-allphones-2714-12gb-128gb-5g",
+  "base_model_slug": "50-se",
+  "name": "Honor 50 SE",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1230,
+    "slug": "dimensity-900",
+    "name": "Dimensity 900",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Mali-G68 MC4",
+    "url": "/v1/socs/dimensity-900"
+  },
+  "release_date": "2021-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2714",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2388 pixels (~387 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), 1/1.52\", 0.7µm, PDAF, 8 MP, f/2.2, 120˚, 17mm (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2, (wide)"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 191.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, Magic UI 4.2",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.0,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 20.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:06.994690",
+  "updated_at": "2026-06-20T19:05:06.994690"
+}

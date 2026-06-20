@@ -1,0 +1,84 @@
+{
+  "id": 72097,
+  "slug": "tcl-ion-x-allphones-2480-3gb-32gb-4g-lte",
+  "base_model_slug": "ion-x",
+  "name": "TCL Ion X",
+  "brand": {
+    "id": 46,
+    "slug": "tcl",
+    "name": "TCL",
+    "country": "CN",
+    "url": "/v1/brands/tcl"
+  },
+  "soc": {
+    "id": 1191,
+    "slug": "helio-g25",
+    "name": "Helio G25",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-g25"
+  },
+  "release_date": "2023-01-26",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2480",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide) 1/3.06\", 1.12µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, (wide) 1/5.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 177.4,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android, TCL UI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.589781",
+  "updated_at": "2026-06-20T19:05:26.589781"
+}

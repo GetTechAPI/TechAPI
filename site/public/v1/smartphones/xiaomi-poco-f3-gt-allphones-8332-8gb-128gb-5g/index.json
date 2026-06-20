@@ -1,0 +1,85 @@
+{
+  "id": 82304,
+  "slug": "xiaomi-poco-f3-gt-allphones-8332-8gb-128gb-5g",
+  "base_model_slug": "poco-f3-gt",
+  "name": "Xiaomi Poco F3 GT",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1254,
+    "slug": "mediatek-dimensity-1200-mt6893",
+    "name": "MediaTek Dimensity 1200 MT6893",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "ARM Mali-G77MP9",
+    "url": "/v1/socs/mediatek-dimensity-1200-mt6893"
+  },
+  "release_date": "2021-07-26",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8332",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.7, 26mm (wide), 1/2.0\", 0.7µm, PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide), 1/3.06\" 1.0µm"
+    }
+  ],
+  "battery_mah": 5065,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 205.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, upgradable to Android 12, MIUI 13 for POCO",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.0,
+    "performance": null,
+    "camera": null,
+    "battery": 36.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:29.897490",
+  "updated_at": "2026-06-20T19:05:29.897490"
+}

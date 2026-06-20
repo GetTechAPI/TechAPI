@@ -1,0 +1,85 @@
+{
+  "id": 74634,
+  "slug": "vivo-iqoo-pro-5g-allphones-7663-12gb-128gb-5g",
+  "base_model_slug": "iqoo-pro-5g",
+  "name": "vivo iQOO Pro 5G",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1670,
+    "slug": "qualcomm-sm8150-snapdragon-855",
+    "name": "Qualcomm SM8150 Snapdragon 855",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/qualcomm-sm8150-snapdragon-855"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7663",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, (wide), 1/2.0\", 0.8µm, PDAF, 13 MP, f/2.2, (ultrawide), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.0, (wide), 1/2.8\", 1.28µm"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 217.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), Funtouch 9.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": null,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.393548",
+  "updated_at": "2026-06-20T19:05:27.393548"
+}

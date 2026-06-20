@@ -1,0 +1,84 @@
+{
+  "id": 27120,
+  "slug": "lg-optimus-q-lu2300-allphones-4277-3gb-3gb-3g",
+  "base_model_slug": "optimus-q-lu2300",
+  "name": "LG Optimus Q LU2300",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1631,
+    "slug": "qualcomm-qsd8250-snapdragon-s1",
+    "name": "Qualcomm QSD8250 Snapdragon S1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-qsd8250-snapdragon-s1"
+  },
+  "release_date": "2010-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    3
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4277",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 3
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 157.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.1 (Eclair), upgradable to 2.2 (Froyo)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:11.232227",
+  "updated_at": "2026-06-20T19:05:11.232227"
+}

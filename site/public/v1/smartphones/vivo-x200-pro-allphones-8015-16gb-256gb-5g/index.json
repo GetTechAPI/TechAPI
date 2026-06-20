@@ -1,0 +1,86 @@
+{
+  "id": 77633,
+  "slug": "vivo-x200-pro-allphones-8015-16gb-256gb-5g",
+  "base_model_slug": "x200-pro",
+  "name": "vivo X200 Pro",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1288,
+    "slug": "dimensity-9400",
+    "name": "MediaTek Dimensity 9400",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 3.0,
+    "gpu_name": "Immortalis-G925 MC12",
+    "url": "/v1/socs/dimensity-9400"
+  },
+  "release_date": "2024-10-14",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8015",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~452 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 23mm (wide), 1/1.28\", 1.22µm, PDAF, OIS, 200 MP, f/2.7, 85mm (periscope telephoto), 1/1.4\", 0.56µm, multi-directional PDAF, OIS, 3.7x optical zoom, macro 2.7:1, 50 MP, f/2.0, 15mm, 119˚ (ultrawide), 1/2.76\", 0.64µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 20mm (ultrawide)"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 223.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 15, up to 4 major Android upgrades, Funtouch 15 (International), OriginOS 5 (China)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 71.2,
+    "performance": 77.3,
+    "camera": null,
+    "battery": 65.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:28.317642",
+  "updated_at": "2026-06-20T19:05:28.317642"
+}

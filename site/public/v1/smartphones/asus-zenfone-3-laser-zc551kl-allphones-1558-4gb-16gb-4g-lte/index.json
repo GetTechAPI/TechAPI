@@ -1,0 +1,85 @@
+{
+  "id": 6522,
+  "slug": "asus-zenfone-3-laser-zc551kl-allphones-1558-4gb-16gb-4g-lte",
+  "base_model_slug": "zenfone-3-laser-zc551kl",
+  "name": "Asus Zenfone 3 Laser ZC551KL",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 1628,
+    "slug": "qualcomm-msm8937-snapdragon-430",
+    "name": "Qualcomm MSM8937 Snapdragon 430",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 505",
+    "url": "/v1/socs/qualcomm-msm8937-snapdragon-430"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1558",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Hybrid Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 1/3.1\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 24mm"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:04.056360",
+  "updated_at": "2026-06-20T19:05:04.056360"
+}

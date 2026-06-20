@@ -1,0 +1,76 @@
+{
+  "id": 1673,
+  "slug": "lenovo-tab-p11-pro-allphones-3633-6gb-128gb-4g-lte",
+  "base_model_slug": "tab-p11-pro",
+  "name": "Lenovo Tab P11 Pro",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1634,
+    "slug": "qualcomm-sdm730-snapdragon-730g",
+    "name": "Qualcomm SDM730 Snapdragon 730G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 618",
+    "url": "/v1/socs/qualcomm-sdm730-snapdragon-730g"
+  },
+  "release_date": "2020-08-28",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3633",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "display": {
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~263 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), AF, 5 MP, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide), 8 MP, IR TOF 3D, (biometrics sensor only)"
+    }
+  ],
+  "battery_mah": 8600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 485.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.007424",
+  "updated_at": "2026-06-20T19:05:44.007424",
+  "url": "/v1/tablets/lenovo-tab-p11-pro-allphones-3633-6gb-128gb-4g-lte"
+}

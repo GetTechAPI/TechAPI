@@ -1,0 +1,85 @@
+{
+  "id": 1318,
+  "slug": "alcatel-hero-2-allphones-978-2gb-13gb-4g-lte",
+  "base_model_slug": "hero-2",
+  "name": "alcatel Hero 2",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1052,
+    "slug": "mediatek-mt8392",
+    "name": "Mediatek MT8392",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-450MP4",
+    "url": "/v1/socs/mediatek-mt8392"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    13,
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:978",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 13
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13.1 MP, AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 3100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 1.5,
+    "performance": null,
+    "camera": null,
+    "battery": 1.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:02.634765",
+  "updated_at": "2026-06-20T19:05:02.634765"
+}

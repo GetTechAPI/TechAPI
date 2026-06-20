@@ -1,0 +1,85 @@
+{
+  "id": 37974,
+  "slug": "motorola-edge-allphones-5088-6gb-128gb-5g",
+  "base_model_slug": "edge",
+  "name": "Motorola Edge",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1765,
+    "slug": "snapdragon-7s-gen-2",
+    "name": "Snapdragon 7s Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 710",
+    "url": "/v1/socs/snapdragon-7s-gen-2"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5088",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.4, 52mm (telephoto), 1.12µm, 2x optical zoom, PDAF, 16 MP, f/2.2, 13mm (ultrawide), 1.0µm, TOF 3D, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.0, (wide), 0.9µm"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.5,
+    "performance": 1.5,
+    "camera": null,
+    "battery": 37.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:15.041159",
+  "updated_at": "2026-06-20T19:05:15.041159"
+}

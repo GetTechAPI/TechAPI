@@ -1,0 +1,84 @@
+{
+  "id": 13739,
+  "slug": "honor-50-pro-allphones-2716-12gb-256gb-5g",
+  "base_model_slug": "50-pro",
+  "name": "Honor 50 Pro",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1732,
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 6.0,
+    "gpu_name": "Adreno 642L",
+    "url": "/v1/socs/snapdragon-778g"
+  },
+  "release_date": "2021-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2716",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1236 x 2676 pixels, 19.5:9 ratio (~439 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), 1/1.52\", 0.7µm, PDAF, 8 MP, f/2.2, 120˚, 17mm (ultrawide), 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.4, 18mm, 100˚ (ultrawide), 1/2.8\", 1.25µm, 32 MP, f/2.2, 22mm (wide), 1/3.14\""
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 187.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, Magic UI 4.2, Google Play Services",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 13.0,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 20.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:06.992690",
+  "updated_at": "2026-06-20T19:05:06.992690"
+}

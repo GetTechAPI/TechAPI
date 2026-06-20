@@ -1,0 +1,78 @@
+{
+  "id": 26266,
+  "slug": "lg-c2500-allphones-4144-1gb-2g",
+  "base_model_slug": "c2500",
+  "name": "LG C2500",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 237,
+    "slug": "lg-mobile-platform-2005",
+    "name": "LG mobile platform 2005",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 90.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/lg-mobile-platform-2005"
+  },
+  "release_date": "2005-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4144",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "128 x 128 pixels, 1:1 ratio (~121 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "VGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ],
+  "battery_mah": 720,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 80.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Feature phone",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:10.913098",
+  "updated_at": "2026-06-20T19:05:10.913098"
+}

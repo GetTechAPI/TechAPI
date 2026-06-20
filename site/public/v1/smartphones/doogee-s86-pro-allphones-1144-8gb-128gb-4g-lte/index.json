@@ -1,0 +1,84 @@
+{
+  "id": 11080,
+  "slug": "doogee-s86-pro-allphones-1144-8gb-128gb-4g-lte",
+  "base_model_slug": "s86-pro",
+  "name": "Doogee S86 Pro",
+  "brand": {
+    "id": 18,
+    "slug": "doogee",
+    "name": "DOOGEE",
+    "country": "CN",
+    "url": "/v1/brands/doogee"
+  },
+  "soc": {
+    "id": 1181,
+    "slug": "mediatek-mt6771-helio-p60",
+    "name": "Mediatek MT6771 Helio P60",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/mediatek-mt6771-helio-p60"
+  },
+  "release_date": "2021-06-04",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1144",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1560 pixels, 19.5:9 ratio (~282 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.0, (wide), PDAF, 8 MP, f/2.2, 130˚, (ultrawide), 2 MP, f/2.2, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, (wide)"
+    }
+  ],
+  "battery_mah": 8500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 323.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.0,
+    "performance": null,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:05.568277",
+  "updated_at": "2026-06-20T19:05:05.568277"
+}

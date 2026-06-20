@@ -1,0 +1,85 @@
+{
+  "id": 74298,
+  "slug": "vivo-nex-dual-display-allphones-7758-10gb-128gb-4g-lte",
+  "base_model_slug": "nex-dual-display",
+  "name": "vivo NEX Dual Display",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1669,
+    "slug": "qualcomm-sdm845-snapdragon-845",
+    "name": "Qualcomm SDM845 Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/qualcomm-sdm845-snapdragon-845"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 10,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7758",
+    "memory": {
+      "ram_gb": 10,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, 4-axis OIS, 2 MP, f/1.8, 1/5.0\", 1.75µm, (depth), TOF 3D, f/1.3, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "No - uses main camera"
+    }
+  ],
+  "battery_mah": 3500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 199.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), Funtouch 4.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 7.5,
+    "performance": null,
+    "camera": null,
+    "battery": 7.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.289785",
+  "updated_at": "2026-06-20T19:05:27.289785"
+}

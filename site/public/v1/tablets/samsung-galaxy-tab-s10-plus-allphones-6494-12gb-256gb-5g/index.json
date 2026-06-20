@@ -1,0 +1,77 @@
+{
+  "id": 2606,
+  "slug": "samsung-galaxy-tab-s10-plus-allphones-6494-12gb-256gb-5g",
+  "base_model_slug": "galaxy-tab-s10-plus",
+  "name": "Samsung Galaxy Tab S10+",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1287,
+    "slug": "dimensity-9300-plus",
+    "name": "MediaTek Dimensity 9300+",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Immortalis-G720 MC12",
+    "url": "/v1/socs/dimensity-9300-plus"
+  },
+  "release_date": "2024-09-26",
+  "msrp_usd": null,
+  "ram_gb": 12.0,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6494",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1752 x 2800 pixels, 16:10 ratio (~266 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 26mm (wide), 1/3.4\", 1.0µm, AF, 8 MP, f/2.2, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.4, 120˚ (ultrawide)"
+    }
+  ],
+  "battery_mah": 10090,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 571.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, One UI 6.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.251058",
+  "updated_at": "2026-06-20T19:05:44.251058",
+  "url": "/v1/tablets/samsung-galaxy-tab-s10-plus-allphones-6494-12gb-256gb-5g"
+}

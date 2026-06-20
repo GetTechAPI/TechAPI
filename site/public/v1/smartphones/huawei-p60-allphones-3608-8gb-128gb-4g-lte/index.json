@@ -1,0 +1,86 @@
+{
+  "id": 21801,
+  "slug": "huawei-p60-allphones-3608-8gb-128gb-4g-lte",
+  "base_model_slug": "p60",
+  "name": "Huawei P60",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2023-03-31",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3608",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1220 x 2700 pixels (~444 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.4-f/4.0, 25mm (wide), PDAF, OIS, 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 13 MP, f/2.2, 13mm (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, (ultrawide)"
+    }
+  ],
+  "battery_mah": 4815,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 3.1 (China), EMUI 13.1 (Europe), no Google Play Services",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.2,
+    "performance": null,
+    "camera": null,
+    "battery": 27.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.436202",
+  "updated_at": "2026-06-20T19:05:09.436202"
+}

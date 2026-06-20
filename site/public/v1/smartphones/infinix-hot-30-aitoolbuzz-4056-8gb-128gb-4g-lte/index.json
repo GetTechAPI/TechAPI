@@ -1,0 +1,90 @@
+{
+  "id": 23258,
+  "slug": "infinix-hot-30-aitoolbuzz-4056-8gb-128gb-4g-lte",
+  "base_model_slug": "hot-30",
+  "name": "Infinix Hot 30",
+  "brand": {
+    "id": 27,
+    "slug": "infinix",
+    "name": "Infinix Mobile",
+    "country": "CN",
+    "url": "/v1/brands/infinix"
+  },
+  "soc": {
+    "id": 1234,
+    "slug": "helio-g88",
+    "name": "MediaTek Helio G88",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G52 MC2",
+    "url": "/v1/socs/helio-g88"
+  },
+  "release_date": "2023-03-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:4056",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "X6831"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1080x2460 pixels",
+    "type": "IPS LCD, 90Hz, 500 nits (typ), 600 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.5, (wide)"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 196.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, XOS 12.6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/infinix-hot-30.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.5,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/infinix-hot-30"
+  ],
+  "created_at": "2026-06-20T19:05:09.938780",
+  "updated_at": "2026-06-20T19:05:09.938780"
+}

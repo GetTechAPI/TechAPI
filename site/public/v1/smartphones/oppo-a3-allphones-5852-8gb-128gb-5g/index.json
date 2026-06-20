@@ -1,0 +1,85 @@
+{
+  "id": 44124,
+  "slug": "oppo-a3-allphones-5852-8gb-128gb-5g",
+  "base_model_slug": "a3",
+  "name": "Oppo A3",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1125,
+    "slug": "helio-p60",
+    "name": "Helio P60",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/helio-p60"
+  },
+  "release_date": "2018-04-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5852",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1604 pixels, 20:9 ratio (~264 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, Auxiliary lens"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, (wide)"
+    }
+  ],
+  "battery_mah": 5100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 187.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, ColorOS 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 17.2,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 31.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:16.940320",
+  "updated_at": "2026-06-20T19:05:16.940320"
+}

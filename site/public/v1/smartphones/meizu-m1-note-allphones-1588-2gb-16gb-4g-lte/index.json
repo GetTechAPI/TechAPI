@@ -1,0 +1,85 @@
+{
+  "id": 30756,
+  "slug": "meizu-m1-note-allphones-1588-2gb-16gb-4g-lte",
+  "base_model_slug": "m1-note",
+  "name": "Meizu M1 Note",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1066,
+    "slug": "mediatek-mt6752",
+    "name": "Mediatek MT6752",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T760MP2",
+    "url": "/v1/socs/mediatek-mt6752"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1588",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 1/3.0\", AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0"
+    }
+  ],
+  "battery_mah": 3140,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 145.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.4 (KitKat), Flyme 4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.1,
+    "performance": null,
+    "camera": null,
+    "battery": 2.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.810449",
+  "updated_at": "2026-06-20T19:05:12.810449"
+}

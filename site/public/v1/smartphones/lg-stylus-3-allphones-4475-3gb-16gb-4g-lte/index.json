@@ -1,0 +1,85 @@
+{
+  "id": 28681,
+  "slug": "lg-stylus-3-allphones-4475-3gb-16gb-4g-lte",
+  "base_model_slug": "stylus-3",
+  "name": "LG Stylus 3",
+  "brand": {
+    "id": 110,
+    "slug": "lg",
+    "name": "LG Electronics",
+    "country": "KR",
+    "url": "/v1/brands/lg"
+  },
+  "soc": {
+    "id": 1587,
+    "slug": "mediatek-mt6750-m400dkqualcomm-msm8940-snapdragon-435",
+    "name": "Mediatek MT6750 - M400DKQualcomm MSM8940 Snapdragon 435",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T860MP2 - M400DKAdreno 505 - LS777",
+    "url": "/v1/socs/mediatek-mt6750-m400dkqualcomm-msm8940-snapdragon-435"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4475",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 1/3.1\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, Stylus 3, / 8 MP, Stylo 3, M400DK"
+    }
+  ],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 149.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.0,
+    "performance": null,
+    "camera": null,
+    "battery": 3.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.238718",
+  "updated_at": "2026-06-20T19:05:12.238718"
+}

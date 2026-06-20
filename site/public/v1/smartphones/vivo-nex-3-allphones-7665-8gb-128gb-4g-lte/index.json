@@ -1,0 +1,84 @@
+{
+  "id": 74642,
+  "slug": "vivo-nex-3-allphones-7665-8gb-128gb-4g-lte",
+  "base_model_slug": "nex-3",
+  "name": "vivo NEX 3",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1670,
+    "slug": "qualcomm-sm8150-snapdragon-855",
+    "name": "Qualcomm SM8150 Snapdragon 855",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/qualcomm-sm8150-snapdragon-855"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7665",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2256 pixels (~363 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), 1/1.72\", 0.8µm, PDAF, 13 MP, f/2.5, (telephoto), PDAF, 13 MP, f/2.2, (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Motorized pop-up 16 MP, f/2.1, 26mm (wide), 1/3.06\", 1.0µm"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 217.3,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), Funtouch 9.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": null,
+    "camera": null,
+    "battery": 22.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:27.396587",
+  "updated_at": "2026-06-20T19:05:27.396587"
+}

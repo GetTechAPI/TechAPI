@@ -1,0 +1,84 @@
+{
+  "id": 8649,
+  "slug": "blackview-a85-allphones-1717-8gb-128gb-4g-lte",
+  "base_model_slug": "a85",
+  "name": "Blackview A85",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 2085,
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G57 MP1",
+    "url": "/v1/socs/unisoc-t606"
+  },
+  "release_date": "2022-11-22",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1717",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~272 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, (wide), 1/2.76\", 0.64µm, PDAF, 8 MP, 120˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide), 1/4.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 4480,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 193.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, Doke OS 3.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 12.6,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 22.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:04.736492",
+  "updated_at": "2026-06-20T19:05:04.736492"
+}

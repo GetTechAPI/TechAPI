@@ -1,0 +1,86 @@
+{
+  "id": 89916,
+  "slug": "zte-nubia-redmagic-8s-pro-allphones-2216-16gb-128gb-5g",
+  "base_model_slug": "nubia-redmagic-8s-pro",
+  "name": "ZTE nubia RedMagic 8S Pro",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1748,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2023-07-11",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2216",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1116 x 2480 pixels, 20:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 25mm (wide), 1/1.57\", 1.0µm, PDAF, 8 MP, f/2.2, 120˚, 13mm (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide), 1.12µm, under display"
+    }
+  ],
+  "battery_mah": 6000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 228.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, Redmagic OS 8",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 49.9,
+    "performance": 39.7,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:32.042949",
+  "updated_at": "2026-06-20T19:05:32.042949"
+}

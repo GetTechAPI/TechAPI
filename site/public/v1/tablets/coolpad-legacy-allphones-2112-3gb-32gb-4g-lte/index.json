@@ -1,0 +1,76 @@
+{
+  "id": 829,
+  "slug": "coolpad-legacy-allphones-2112-3gb-32gb-4g-lte",
+  "base_model_slug": "legacy",
+  "name": "Coolpad Legacy",
+  "brand": {
+    "id": 17,
+    "slug": "coolpad",
+    "name": "Coolpad",
+    "country": "CN",
+    "url": "/v1/brands/coolpad"
+  },
+  "soc": {
+    "id": 1691,
+    "slug": "qualcomm-sdm450-snapdragon-450",
+    "name": "Qualcomm SDM450 Snapdragon 450",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 506",
+    "url": "/v1/socs/qualcomm-sdm450-snapdragon-450"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2112",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~380 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, AF, 5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.760490",
+  "updated_at": "2026-06-20T19:05:43.760490",
+  "url": "/v1/tablets/coolpad-legacy-allphones-2112-3gb-32gb-4g-lte"
+}

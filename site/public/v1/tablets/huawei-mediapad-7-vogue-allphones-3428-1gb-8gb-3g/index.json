@@ -1,0 +1,76 @@
+{
+  "id": 1136,
+  "slug": "huawei-mediapad-7-vogue-allphones-3428-1gb-8gb-3g",
+  "base_model_slug": "mediapad-7-vogue",
+  "name": "Huawei MediaPad 7 Vogue",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 770,
+    "slug": "hisilicon-k3v2-hi3620",
+    "name": "HiSilicon K3V2 Hi3620",
+    "manufacturer": {
+      "slug": "hisilicon",
+      "name": "HiSilicon",
+      "url": "/v1/brands/hisilicon"
+    },
+    "process_nm": 40.0,
+    "gpu_name": "Vivante GC4000",
+    "url": "/v1/socs/hisilicon-k3v2-hi3620"
+  },
+  "release_date": "2013-07-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3428",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~170 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 4100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 335.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.1 (Jelly Bean), EMUI 1.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.863373",
+  "updated_at": "2026-06-20T19:05:43.863373",
+  "url": "/v1/tablets/huawei-mediapad-7-vogue-allphones-3428-1gb-8gb-3g"
+}

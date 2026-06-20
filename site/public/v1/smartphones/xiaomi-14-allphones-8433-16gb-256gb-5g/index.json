@@ -1,0 +1,86 @@
+{
+  "id": 84860,
+  "slug": "xiaomi-14-allphones-8433-16gb-256gb-5g",
+  "base_model_slug": "14",
+  "name": "Xiaomi 14",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1766,
+    "slug": "snapdragon-8-gen-3",
+    "name": "Snapdragon 8 Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 750",
+    "url": "/v1/socs/snapdragon-8-gen-3"
+  },
+  "release_date": "2023-01-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8433",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1200 x 2670 pixels, 20:9 ratio (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 23mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, OIS, 50 MP, f/2.0, 75mm (telephoto), PDAF (10cm - ∞), OIS, 3.2x optical zoom, 50 MP, f/2.2, 14mm, 115˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 22mm (wide), 0.7µm"
+    }
+  ],
+  "battery_mah": 4610,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 188.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, upgradable to Android 15, up to 4 major Android upgrades, HyperOS 1.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 48.2,
+    "performance": 57.2,
+    "camera": null,
+    "battery": 39.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:30.566289",
+  "updated_at": "2026-06-20T19:05:30.566289"
+}

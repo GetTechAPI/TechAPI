@@ -1,0 +1,94 @@
+{
+  "id": 41285,
+  "slug": "nokia-g20-aitoolbuzz-7214-4gb-64gb-4g-lte",
+  "base_model_slug": "g20",
+  "name": "Nokia G20",
+  "brand": {
+    "id": 67,
+    "slug": "nokia",
+    "name": "Nokia",
+    "country": "FI",
+    "url": "/v1/brands/nokia"
+  },
+  "soc": {
+    "id": 1192,
+    "slug": "helio-g35",
+    "name": "Helio G35",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GE8320",
+    "url": "/v1/socs/helio-g35"
+  },
+  "release_date": "2021-04-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:7214",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "model_numbers": [
+      "TA-1336",
+      "TA-1343",
+      "TA-1347",
+      "TA-1372",
+      "TA-1365"
+    ],
+    "sim": "Nano-SIMNano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.52,
+    "resolution": "720x1600 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ],
+  "battery_mah": 5050,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, up to Android 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/nokia-g20.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.3,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 30.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/nokia-g20"
+  ],
+  "created_at": "2026-06-20T19:05:16.089125",
+  "updated_at": "2026-06-20T19:05:16.089125"
+}

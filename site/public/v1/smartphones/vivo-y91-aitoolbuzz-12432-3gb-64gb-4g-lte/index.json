@@ -1,0 +1,86 @@
+{
+  "id": 75008,
+  "slug": "vivo-y91-aitoolbuzz-12432-3gb-64gb-4g-lte",
+  "base_model_slug": "y91",
+  "name": "vivo Y91 (Mediatek)",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1123,
+    "slug": "helio-p22",
+    "name": "Helio P22",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8320",
+    "url": "/v1/socs/helio-p22"
+  },
+  "release_date": "2019-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:12432",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIMNano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.22,
+    "resolution": "720x1520 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/1.8"
+    }
+  ],
+  "battery_mah": 4030,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 163.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1, Funtouch 4.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/vivo-y91-mediatek.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 15.4,
+    "performance": null,
+    "camera": null,
+    "battery": 15.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/vivo-y91-mediatek"
+  ],
+  "created_at": "2026-06-20T19:05:27.518153",
+  "updated_at": "2026-06-20T19:05:27.518153"
+}

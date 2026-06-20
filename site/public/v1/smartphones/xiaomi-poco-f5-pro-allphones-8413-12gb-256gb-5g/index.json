@@ -1,0 +1,85 @@
+{
+  "id": 85004,
+  "slug": "xiaomi-poco-f5-pro-allphones-8413-12gb-256gb-5g",
+  "base_model_slug": "poco-f5-pro",
+  "name": "Xiaomi Poco F5 Pro",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1749,
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 730",
+    "url": "/v1/socs/snapdragon-8-plus-gen-1"
+  },
+  "release_date": "2023-05-09",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8413",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 3200 pixels, 20:9 ratio (~526 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), 1/2.0\", 0.7µm, PDAF, OIS, 8 MP, f/2.2, 120˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide), 1/3.06\", 1.0µm"
+    }
+  ],
+  "battery_mah": 5160,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 204.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, upgradable to Android 14, MIUI for POCO",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 36.3,
+    "performance": 25.2,
+    "camera": null,
+    "battery": 47.4,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:30.622672",
+  "updated_at": "2026-06-20T19:05:30.622672"
+}

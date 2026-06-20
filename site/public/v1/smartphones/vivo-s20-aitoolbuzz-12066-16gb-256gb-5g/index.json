@@ -1,0 +1,90 @@
+{
+  "id": 77515,
+  "slug": "vivo-s20-aitoolbuzz-12066-16gb-256gb-5g",
+  "base_model_slug": "s20",
+  "name": "vivo S20",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1763,
+    "slug": "snapdragon-7-gen-3",
+    "name": "Snapdragon 7 Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 720",
+    "url": "/v1/socs/snapdragon-7-gen-3"
+  },
+  "release_date": "2024-11-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:12066",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "V2429A"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1260x2800 pixels",
+    "type": "AMOLED, 1B colors, 120Hz, 1300 nits (HBM), 5000 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.0, 22mm (wide), AF"
+    }
+  ],
+  "battery_mah": 6500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 15, OriginOS 5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/vivo-s20.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 42.5,
+    "performance": 25.0,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/vivo-s20"
+  ],
+  "created_at": "2026-06-20T19:05:28.285837",
+  "updated_at": "2026-06-20T19:05:28.285837"
+}

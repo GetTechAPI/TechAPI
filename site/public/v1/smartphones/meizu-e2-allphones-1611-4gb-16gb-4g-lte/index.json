@@ -1,0 +1,86 @@
+{
+  "id": 30977,
+  "slug": "meizu-e2-allphones-1611-4gb-16gb-4g-lte",
+  "base_model_slug": "e2",
+  "name": "Meizu E2",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1111,
+    "slug": "mediatek-mt6757-helio-p20",
+    "name": "Mediatek MT6757 Helio P20",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880MP2",
+    "url": "/v1/socs/mediatek-mt6757-helio-p20"
+  },
+  "release_date": "2017-04-20",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1611",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 1/3.2\", 1.4µm"
+    }
+  ],
+  "battery_mah": 3400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 155.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7 (Nougat), Flyme 6",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 6.0,
+    "performance": null,
+    "camera": null,
+    "battery": 6.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.884503",
+  "updated_at": "2026-06-20T19:05:12.884503"
+}

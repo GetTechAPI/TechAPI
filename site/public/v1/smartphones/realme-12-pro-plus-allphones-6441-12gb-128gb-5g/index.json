@@ -1,0 +1,86 @@
+{
+  "id": 53428,
+  "slug": "realme-12-pro-plus-allphones-6441-12gb-128gb-5g",
+  "base_model_slug": "12-pro-plus",
+  "name": "Realme 12 Pro+",
+  "brand": {
+    "id": 39,
+    "slug": "realme",
+    "name": "realme",
+    "country": "CN",
+    "url": "/v1/brands/realme"
+  },
+  "soc": {
+    "id": 1765,
+    "slug": "snapdragon-7s-gen-2",
+    "name": "Snapdragon 7s Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 710",
+    "url": "/v1/socs/snapdragon-7s-gen-2"
+  },
+  "release_date": "2024-02-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6441",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2412 pixels, 20:9 ratio (~394 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS, 64 MP, f/2.8, 71mm, (periscope telephoto), 1/2.0\", 0.7µm, PDAF, OIS, 3x optical zoom, 8 MP, f/2.2, 16mm, 112˚ (ultrawide), 1/4.0\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, 22mm (wide)"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 196.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, Realme UI 5.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.5,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:20.247089",
+  "updated_at": "2026-06-20T19:05:20.247089"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 76848,
+  "slug": "vivo-x90-pro-plus-allphones-7919-12gb-256gb-5g",
+  "base_model_slug": "x90-pro-plus",
+  "name": "vivo X90 Pro+",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2022-12-06",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7919",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 3200 pixels, 20:9 ratio (~517 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50.3 MP, f/1.8, 23mm (wide), 1.0\"-type, 1.6µm, dual pixel PDAF, OIS, 64 MP, f/3.5, 90mm (periscope telephoto), 1/2.0\", 0.7µm, PDAF, OIS, 3.5x optical zoom, 50 MP, f/1.6, 50mm (telephoto), 1/2.4\", 0.7µm, AF, 2x optical zoom, OIS, 48 MP, f/2.2, 14mm, 114˚ (ultrawide), 1/2.0\", 0.8µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, 24mm (wide), 1/2.8\", 0.8µm"
+    }
+  ],
+  "battery_mah": 4700,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 221.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 13, Funtouch (Global), OriginOS 3 (China)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 25.5,
+    "performance": null,
+    "camera": null,
+    "battery": 25.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:28.091703",
+  "updated_at": "2026-06-20T19:05:28.091703"
+}

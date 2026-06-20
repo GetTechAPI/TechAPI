@@ -1,0 +1,85 @@
+{
+  "id": 30930,
+  "slug": "meizu-pro-6-allphones-1596-4gb-32gb-4g-lte",
+  "base_model_slug": "pro-6",
+  "name": "Meizu Pro 6",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1092,
+    "slug": "mediatek-mt6797t-helio-x25",
+    "name": "Mediatek MT6797T Helio X25",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 20.0,
+    "gpu_name": "Mali-T880 MP4",
+    "url": "/v1/socs/mediatek-mt6797t-helio-x25"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1596",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~423 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "21 MP, f/2.2, 31mm (standard), 1/2.4\", PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0, 1/4.0\", 1.4µm"
+    }
+  ],
+  "battery_mah": 2560,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 160.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow), Flyme 8",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:12.871969",
+  "updated_at": "2026-06-20T19:05:12.871969"
+}

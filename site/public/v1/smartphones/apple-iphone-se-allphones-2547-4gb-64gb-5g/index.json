@@ -1,0 +1,86 @@
+{
+  "id": 3545,
+  "slug": "apple-iphone-se-allphones-2547-4gb-64gb-5g",
+  "base_model_slug": "iphone-se",
+  "name": "Apple iPhone SE (2022)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 18,
+    "slug": "apple-a9",
+    "name": "Apple A9",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "PowerVR GT7600",
+    "url": "/v1/socs/apple-a9"
+  },
+  "release_date": "2016-03-31",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2547",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8 (wide), PDAF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "7 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 2018,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 144.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 15.4, upgradable to iOS 18.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": 0.0,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:03.247299",
+  "updated_at": "2026-06-20T19:05:03.247299"
+}

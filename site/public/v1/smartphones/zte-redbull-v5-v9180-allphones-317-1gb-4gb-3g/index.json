@@ -1,0 +1,84 @@
+{
+  "id": 87332,
+  "slug": "zte-redbull-v5-v9180-allphones-317-1gb-4gb-3g",
+  "base_model_slug": "redbull-v5-v9180",
+  "name": "ZTE Redbull V5 V9180",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1503,
+    "slug": "qualcomm-msm8926-snapdragon-400",
+    "name": "Qualcomm MSM8926 Snapdragon 400",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 305",
+    "url": "/v1/socs/qualcomm-msm8926-snapdragon-400"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:317",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 4
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM"
+  },
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 2400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 165.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.3 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:31.384543",
+  "updated_at": "2026-06-20T19:05:31.384543"
+}

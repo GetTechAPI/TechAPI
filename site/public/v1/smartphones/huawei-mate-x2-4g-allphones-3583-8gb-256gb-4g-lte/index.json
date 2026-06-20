@@ -1,0 +1,85 @@
+{
+  "id": 20558,
+  "slug": "huawei-mate-x2-4g-allphones-3583-8gb-256gb-4g-lte",
+  "base_model_slug": "mate-x2-4g",
+  "name": "Huawei Mate X2 4G",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 846,
+    "slug": "kirin-9000",
+    "name": "HiSilicon Kirin 9000",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP24",
+    "url": "/v1/socs/kirin-9000"
+  },
+  "release_date": "2021-06-28",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3583",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "2200 x 2480 pixels (~414 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 23mm (wide), 1/1.28\", 1.22µm, multi-directional PDAF, OIS, 12 MP, f/2.4, 70mm (telephoto), PDAF, OIS, 3x optical zoom, 8 MP, f/4.4, 240mm (periscope telephoto), PDAF, OIS, 10x optical zoom, 16 MP, f/2.2, 17mm (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2, (wide)"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 295.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 2.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 19.1,
+    "performance": 5.6,
+    "camera": null,
+    "battery": 32.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.056926",
+  "updated_at": "2026-06-20T19:05:09.056926"
+}

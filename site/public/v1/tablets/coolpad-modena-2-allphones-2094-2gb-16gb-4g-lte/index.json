@@ -1,0 +1,76 @@
+{
+  "id": 808,
+  "slug": "coolpad-modena-2-allphones-2094-2gb-16gb-4g-lte",
+  "base_model_slug": "modena-2",
+  "name": "Coolpad Modena 2",
+  "brand": {
+    "id": 17,
+    "slug": "coolpad",
+    "name": "Coolpad",
+    "country": "CN",
+    "url": "/v1/brands/coolpad"
+  },
+  "soc": {
+    "id": 1065,
+    "slug": "mediatek-mt6735p",
+    "name": "Mediatek MT6735P",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T720MP2",
+    "url": "/v1/socs/mediatek-mt6735p"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2094",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 143.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6 (Marshmallow), Cool UI 8",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.754923",
+  "updated_at": "2026-06-20T19:05:43.754923",
+  "url": "/v1/tablets/coolpad-modena-2-allphones-2094-2gb-16gb-4g-lte"
+}

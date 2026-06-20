@@ -1,0 +1,73 @@
+{
+  "id": 1498,
+  "slug": "lenovo-ideatab-s6000f-allphones-3752-1gb-16gb",
+  "base_model_slug": "ideatab-s6000f",
+  "name": "Lenovo IdeaTab S6000F",
+  "brand": {
+    "id": 31,
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "country": "CN",
+    "url": "/v1/brands/lenovo"
+  },
+  "soc": {
+    "id": 1020,
+    "slug": "mediatek-mt8125",
+    "name": "Mediatek MT8125",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR SGX544",
+    "url": "/v1/socs/mediatek-mt8125"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3752",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "1280 x 800 pixels, 16:10 ratio (~149 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 6350,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 560.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.959495",
+  "updated_at": "2026-06-20T19:05:43.959495",
+  "url": "/v1/tablets/lenovo-ideatab-s6000f-allphones-3752-1gb-16gb"
+}

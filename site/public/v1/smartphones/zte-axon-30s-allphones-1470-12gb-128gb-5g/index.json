@@ -1,0 +1,85 @@
+{
+  "id": 89362,
+  "slug": "zte-axon-30s-allphones-1470-12gb-128gb-5g",
+  "base_model_slug": "axon-30s",
+  "name": "ZTE Axon 30S",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1741,
+    "slug": "qualcomm-snapdragon-870-5g-sm8250-ac",
+    "name": "Qualcomm Snapdragon 870 5G SM8250-AC",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Qualcomm Adreno 650",
+    "url": "/v1/socs/qualcomm-snapdragon-870-5g-sm8250-ac"
+  },
+  "release_date": "2022-09-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1470",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2460 pixels (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 25mm (wide), 1/1.73\", 0.8µm, PDAF, 8 MP, f/2.2, 120˚, 16mm (ultrawide), 5 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide), under display"
+    }
+  ],
+  "battery_mah": 4200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, MyOS 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.0,
+    "performance": null,
+    "camera": null,
+    "battery": 18.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:31.943952",
+  "updated_at": "2026-06-20T19:05:31.943952"
+}

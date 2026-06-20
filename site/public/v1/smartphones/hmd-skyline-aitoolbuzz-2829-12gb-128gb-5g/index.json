@@ -1,0 +1,90 @@
+{
+  "id": 13220,
+  "slug": "hmd-skyline-aitoolbuzz-2829-12gb-128gb-5g",
+  "base_model_slug": "skyline",
+  "name": "HMD Skyline",
+  "brand": {
+    "id": 65,
+    "slug": "hmd",
+    "name": "HMD Global",
+    "country": "FI",
+    "url": "/v1/brands/hmd"
+  },
+  "soc": {
+    "id": 1765,
+    "slug": "snapdragon-7s-gen-2",
+    "name": "Snapdragon 7s Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 710",
+    "url": "/v1/socs/snapdragon-7s-gen-2"
+  },
+  "release_date": "2024-07-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:2829",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "TA-1600"
+    ],
+    "sim": "Nano-SIM + eSIM"
+  },
+  "display": {
+    "size_inch": 6.55,
+    "resolution": "1080x2400 pixels",
+    "type": "P-OLED, 144Hz, 1000 nits (peak), HDR10"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.5, (wide), AF"
+    }
+  ],
+  "battery_mah": 4600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 209.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 14, up to 15",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/hmd-skyline.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 22.5,
+    "performance": 6.0,
+    "camera": null,
+    "battery": 39.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/hmd-skyline"
+  ],
+  "created_at": "2026-06-20T19:05:06.833273",
+  "updated_at": "2026-06-20T19:05:06.833273"
+}

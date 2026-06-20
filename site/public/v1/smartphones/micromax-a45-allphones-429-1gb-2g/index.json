@@ -1,0 +1,78 @@
+{
+  "id": 31721,
+  "slug": "micromax-a45-allphones-429-1gb-2g",
+  "base_model_slug": "a45",
+  "name": "Micromax A45",
+  "brand": {
+    "id": 93,
+    "slug": "micromax",
+    "name": "Micromax",
+    "country": "IN",
+    "url": "/v1/brands/micromax"
+  },
+  "soc": {
+    "id": 997,
+    "slug": "mediatek-mt6513",
+    "name": "Mediatek MT6513",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR SGX531",
+    "url": "/v1/socs/mediatek-mt6513"
+  },
+  "release_date": "2012-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:429",
+    "network": {
+      "cellular": "2G"
+    },
+    "sim": "Dual SIM (Mini-SIM)"
+  },
+  "display": {
+    "resolution": "320 x 480 pixels, 3:2 ratio (~165 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "No"
+    }
+  ],
+  "battery_mah": 1300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 120.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 2.3 (Gingerbread)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:13.123229",
+  "updated_at": "2026-06-20T19:05:13.123229"
+}

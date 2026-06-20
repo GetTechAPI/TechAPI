@@ -1,0 +1,84 @@
+{
+  "id": 67947,
+  "slug": "sharp-aquos-r2-allphones-2035-4gb-64gb-4g-lte",
+  "base_model_slug": "aquos-r2",
+  "name": "Sharp Aquos R2",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1669,
+    "slug": "qualcomm-sdm845-snapdragon-845",
+    "name": "Qualcomm SDM845 Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/qualcomm-sdm845-snapdragon-845"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2035",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 3040 pixels, 19:9 ratio (~561 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "22.6 MP, PDAF, 16.3 MP, PDAF (for video recording only)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16.3 MP"
+    }
+  ],
+  "battery_mah": 3130,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 181.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.0 (Oreo), upgradable to Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 1.9,
+    "performance": null,
+    "camera": null,
+    "battery": 1.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.370995",
+  "updated_at": "2026-06-20T19:05:25.370995"
+}

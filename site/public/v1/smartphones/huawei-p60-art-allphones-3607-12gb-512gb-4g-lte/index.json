@@ -1,0 +1,85 @@
+{
+  "id": 21806,
+  "slug": "huawei-p60-art-allphones-3607-12gb-512gb-4g-lte",
+  "base_model_slug": "p60-art",
+  "name": "Huawei P60 Art",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 1445,
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm"
+  },
+  "release_date": "2023-04-08",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3607",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1220 x 2700 pixels (~444 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.4-f/4.0, 25mm (wide), PDAF, OIS, 48 MP, f/2.1, 90mm (telephoto), PDAF, OIS, 3.5x optical zoom, 40 MP, f/2.2, 13mm (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, (ultrawide)"
+    }
+  ],
+  "battery_mah": 5100,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 3.1 (China), EMUI 13.1 (International)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 31.5,
+    "performance": null,
+    "camera": null,
+    "battery": 31.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.437702",
+  "updated_at": "2026-06-20T19:05:09.437702"
+}

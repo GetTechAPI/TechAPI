@@ -1,0 +1,97 @@
+{
+  "id": 5403,
+  "slug": "apple-iphone-se-aitoolbuzz-835-4gb-64gb-5g",
+  "base_model_slug": "iphone-se",
+  "name": "Apple iPhone SE (2022)",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 38,
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (5-core)",
+    "url": "/v1/socs/apple-a15-bionic"
+  },
+  "release_date": "2022-03-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:835",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "A2783",
+      "A2595",
+      "A2785",
+      "A2782",
+      "A2784",
+      "iphone14",
+      "6"
+    ],
+    "sim": "Nano-SIM + eSIM"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "750x1334 pixels",
+    "type": "Retina IPS LCD, 625 nits (typ)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "7 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 2018,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 144.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 15.4, up to iOS 18.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/apple-iphone-se-2022.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.6,
+    "performance": 33.1,
+    "camera": null,
+    "battery": 10.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/apple-iphone-se-2022"
+  ],
+  "created_at": "2026-06-20T19:05:03.717693",
+  "updated_at": "2026-06-20T19:05:03.717693"
+}

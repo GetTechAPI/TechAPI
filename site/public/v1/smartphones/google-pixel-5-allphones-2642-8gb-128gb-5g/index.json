@@ -1,0 +1,84 @@
+{
+  "id": 12455,
+  "slug": "google-pixel-5-allphones-2642-8gb-128gb-5g",
+  "base_model_slug": "pixel-5",
+  "name": "Google Pixel 5",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 1686,
+    "slug": "snapdragon-765",
+    "name": "Snapdragon 765",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 620",
+    "url": "/v1/socs/snapdragon-765"
+  },
+  "release_date": "2020-10-16",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2642",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~432 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12.2 MP, f/1.7, 27mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS, 16 MP, f/2.2, 117˚ (ultrawide), 1.0µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 24mm (wide), 1/4.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 4080,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 151.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, upgradable to Android 14",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 9.6,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 16.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:06.128493",
+  "updated_at": "2026-06-20T19:05:06.128493"
+}

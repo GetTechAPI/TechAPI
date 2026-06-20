@@ -1,0 +1,91 @@
+{
+  "id": 43502,
+  "slug": "oneplus-ace-5-aitoolbuzz-7422-16gb-256gb-5g",
+  "base_model_slug": "ace-5",
+  "name": "OnePlus Ace 5",
+  "brand": {
+    "id": 36,
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "country": "CN",
+    "url": "/v1/brands/oneplus"
+  },
+  "soc": {
+    "id": 1766,
+    "slug": "snapdragon-8-gen-3",
+    "name": "Snapdragon 8 Gen 3",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 750",
+    "url": "/v1/socs/snapdragon-8-gen-3"
+  },
+  "release_date": "2024-12-01",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:7422",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "PKG110"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.78,
+    "resolution": "1264x2780 pixels",
+    "type": "LTPO AMOLED, 1B colors, 120Hz, HDR10+, Dolby Vision, 800 nits (typ), 1600 nits (HBM), 4500 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.4, 24mm (wide), 1/3\", 1.0Âµm"
+    }
+  ],
+  "battery_mah": 6415,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 206.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 15, ColorOS 15",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/oneplus-ace-5.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 58.6,
+    "performance": 57.2,
+    "camera": null,
+    "battery": 60.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/oneplus-ace-5"
+  ],
+  "created_at": "2026-06-20T19:05:16.735036",
+  "updated_at": "2026-06-20T19:05:16.735036"
+}

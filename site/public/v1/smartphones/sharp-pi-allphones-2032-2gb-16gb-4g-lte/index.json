@@ -1,0 +1,84 @@
+{
+  "id": 68002,
+  "slug": "sharp-pi-allphones-2032-2gb-16gb-4g-lte",
+  "base_model_slug": "pi",
+  "name": "Sharp Pi",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1105,
+    "slug": "mediatek-mt6737m",
+    "name": "Mediatek MT6737M",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T720MP2",
+    "url": "/v1/socs/mediatek-mt6737m"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2032",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~282 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, AF, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.380560",
+  "updated_at": "2026-06-20T19:05:25.380560"
+}

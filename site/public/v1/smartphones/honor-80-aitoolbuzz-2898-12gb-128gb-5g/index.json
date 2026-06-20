@@ -1,0 +1,91 @@
+{
+  "id": 13882,
+  "slug": "honor-80-aitoolbuzz-2898-12gb-128gb-5g",
+  "base_model_slug": "80",
+  "name": "Honor 80",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2022-11-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:2898",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "ANN-AN00"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.67,
+    "resolution": "1080x2400 pixels",
+    "type": "OLED, 1B colors, 120Hz, 1000 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "160MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, (wide)"
+    }
+  ],
+  "battery_mah": 4800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 180.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, MagicOS 7",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/honor-80.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.0,
+    "performance": null,
+    "camera": null,
+    "battery": 27.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/honor-80"
+  ],
+  "created_at": "2026-06-20T19:05:07.040169",
+  "updated_at": "2026-06-20T19:05:07.040169"
+}

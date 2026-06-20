@@ -1,0 +1,84 @@
+{
+  "id": 12592,
+  "slug": "google-pixel-6a-allphones-2646-6gb-128gb-5g",
+  "base_model_slug": "pixel-6a",
+  "name": "Google Pixel 6a",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 765,
+    "slug": "google-tensor",
+    "name": "Google Tensor",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP20",
+    "url": "/v1/socs/google-tensor"
+  },
+  "release_date": "2022-07-28",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2646",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~429 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12.2 MP, f/1.7, 27mm, (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS, 12 MP, f/2.2, 17mm, 114˚ (ultrawide), 1.25µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 24mm (wide), 1.12µm"
+    }
+  ],
+  "battery_mah": 4410,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 178.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 12, upgradable to Android 15, up to 5 major Android upgrades",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.7,
+    "performance": 2.2,
+    "camera": null,
+    "battery": 31.2,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:06.174734",
+  "updated_at": "2026-06-20T19:05:06.174734"
+}

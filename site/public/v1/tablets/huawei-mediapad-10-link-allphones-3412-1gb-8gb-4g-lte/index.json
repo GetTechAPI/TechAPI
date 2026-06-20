@@ -1,0 +1,78 @@
+{
+  "id": 1133,
+  "slug": "huawei-mediapad-10-link-allphones-3412-1gb-8gb-4g-lte",
+  "base_model_slug": "mediapad-10-link",
+  "name": "Huawei MediaPad 10 Link",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 531,
+    "slug": "huawei-k3v2",
+    "name": "Huawei K3V2",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Vivante GC4000",
+    "url": "/v1/socs/huawei-k3v2"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1.0,
+  "storage_options_gb": [
+    8,
+    16,
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3412",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Mini-SIM - cellular model only"
+  },
+  "display": {
+    "resolution": "1280 x 800 pixels, 16:10 ratio (~149 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "3.15 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 6600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 620.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0 (Ice Cream Sandwich), upgradable to 4.1 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.862875",
+  "updated_at": "2026-06-20T19:05:43.862875",
+  "url": "/v1/tablets/huawei-mediapad-10-link-allphones-3412-1gb-8gb-4g-lte"
+}

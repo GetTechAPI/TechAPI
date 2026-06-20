@@ -1,0 +1,76 @@
+{
+  "id": 659,
+  "slug": "asus-zenpad-z10-zt500kl-allphones-1561-3gb-32gb-4g-lte",
+  "base_model_slug": "zenpad-z10-zt500kl",
+  "name": "Asus Zenpad Z10 ZT500KL",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 1617,
+    "slug": "qualcomm-msm8956-snapdragon-650",
+    "name": "Qualcomm MSM8956 Snapdragon 650",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 510",
+    "url": "/v1/socs/qualcomm-msm8956-snapdragon-650"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1561",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~264 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ],
+  "battery_mah": 7800,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 490.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0 (Marshmallow), upgradable to 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.689646",
+  "updated_at": "2026-06-20T19:05:43.689646",
+  "url": "/v1/tablets/asus-zenpad-z10-zt500kl-allphones-1561-3gb-32gb-4g-lte"
+}

@@ -1,0 +1,85 @@
+{
+  "id": 44347,
+  "slug": "oppo-find-x-allphones-6029-8gb-128gb-4g-lte",
+  "base_model_slug": "find-x",
+  "name": "Oppo Find X",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1669,
+    "slug": "qualcomm-sdm845-snapdragon-845",
+    "name": "Qualcomm SDM845 Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/qualcomm-sdm845-snapdragon-845"
+  },
+  "release_date": "2018-01-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6029",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "Motorized pop-up 16 MP, f/2.0, 23mm (wide), 1/2.6\", 1.22µm, PDAF, OIS, Motorized pop-up 20 MP, f/2.0, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "Motorized pop-up 25 MP, f/2.0, 13mm (ultrawide), Motorized pop-up SL 3D, (depth/biometrics sensor)"
+    }
+  ],
+  "battery_mah": 3730,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 186.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), upgradable to Android 10, ColorOS 7.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 10.9,
+    "performance": null,
+    "camera": null,
+    "battery": 10.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:16.997390",
+  "updated_at": "2026-06-20T19:05:16.997390"
+}

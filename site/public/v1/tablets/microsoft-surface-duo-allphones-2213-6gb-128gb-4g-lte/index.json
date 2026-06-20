@@ -1,0 +1,77 @@
+{
+  "id": 1872,
+  "slug": "microsoft-surface-duo-allphones-2213-6gb-128gb-4g-lte",
+  "base_model_slug": "surface-duo",
+  "name": "Microsoft Surface Duo",
+  "brand": {
+    "id": 167,
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "country": "US",
+    "url": "/v1/brands/microsoft"
+  },
+  "soc": {
+    "id": 1670,
+    "slug": "qualcomm-sm8150-snapdragon-855",
+    "name": "Qualcomm SM8150 Snapdragon 855",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 640",
+    "url": "/v1/socs/qualcomm-sm8150-snapdragon-855"
+  },
+  "release_date": "2020-08-12",
+  "msrp_usd": null,
+  "ram_gb": 6.0,
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2213",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "display": {
+    "resolution": "1800 x 2700 pixels, 3:2 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "11 MP, f/2.0, 23mm (wide), 1.0µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Uses main camera"
+    }
+  ],
+  "battery_mah": 3577,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 250.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, upgradable to Android 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.049243",
+  "updated_at": "2026-06-20T19:05:44.049243",
+  "url": "/v1/tablets/microsoft-surface-duo-allphones-2213-6gb-128gb-4g-lte"
+}

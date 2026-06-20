@@ -1,0 +1,74 @@
+{
+  "id": 2365,
+  "slug": "samsung-galaxy-tab-pro-12-2-allphones-6627-3gb-32gb",
+  "base_model_slug": "galaxy-tab-pro-12-2",
+  "name": "Samsung Galaxy Tab Pro 12.2",
+  "brand": {
+    "id": 113,
+    "slug": "samsung",
+    "name": "Samsung",
+    "country": "KR",
+    "url": "/v1/brands/samsung"
+  },
+  "soc": {
+    "id": 1885,
+    "slug": "exynos-5420-octa",
+    "name": "Exynos 5420 Octa",
+    "manufacturer": {
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-T628 MP6",
+    "url": "/v1/socs/exynos-5420-octa"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6627",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "2560 x 1600 pixels, 16:10 ratio (~247 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ],
+  "battery_mah": 9500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 730.2,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.4.2 (KitKat), upgradable to 5.1.1 (Lollipop), TouchWiz UI",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:44.151938",
+  "updated_at": "2026-06-20T19:05:44.151938",
+  "url": "/v1/tablets/samsung-galaxy-tab-pro-12-2-allphones-6627-3gb-32gb"
+}

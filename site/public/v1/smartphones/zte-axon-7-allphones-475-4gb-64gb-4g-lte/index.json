@@ -1,0 +1,84 @@
+{
+  "id": 87730,
+  "slug": "zte-axon-7-allphones-475-4gb-64gb-4g-lte",
+  "base_model_slug": "axon-7",
+  "name": "ZTE Axon 7",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1599,
+    "slug": "qualcomm-msm8996-snapdragon-820",
+    "name": "Qualcomm MSM8996 Snapdragon 820",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
+    "url": "/v1/socs/qualcomm-msm8996-snapdragon-820"
+  },
+  "release_date": "2016-01-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:475",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~538 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20 MP, f/1.8, 1/2.6\", 1.1µm, PDAF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 1/4.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 3250,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 175.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo), MiFavor 5.2",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 3.7,
+    "performance": null,
+    "camera": null,
+    "battery": 3.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:31.502532",
+  "updated_at": "2026-06-20T19:05:31.502532"
+}

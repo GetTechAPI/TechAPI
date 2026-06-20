@@ -1,0 +1,84 @@
+{
+  "id": 8657,
+  "slug": "blackview-bl8800-pro-allphones-1134-8gb-128gb-5g",
+  "base_model_slug": "bl8800-pro",
+  "name": "Blackview BL8800 Pro",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 1186,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2022-05-09",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1134",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 5 MP, thermal assisted camera, FLIR thermal camera (Lepton module), 2x 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ],
+  "battery_mah": 8380,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 367.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, Doke-OS 3.0",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 24.0,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:04.740535",
+  "updated_at": "2026-06-20T19:05:04.740535"
+}

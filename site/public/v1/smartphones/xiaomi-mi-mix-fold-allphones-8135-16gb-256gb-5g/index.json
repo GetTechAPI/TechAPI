@@ -1,0 +1,85 @@
+{
+  "id": 82262,
+  "slug": "xiaomi-mi-mix-fold-allphones-8135-16gb-256gb-5g",
+  "base_model_slug": "mi-mix-fold",
+  "name": "Xiaomi Mi Mix Fold",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1737,
+    "slug": "snapdragon-888-plus",
+    "name": "Snapdragon 888+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888-plus"
+  },
+  "release_date": "2021-04-16",
+  "msrp_usd": null,
+  "ram_gb": 16,
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8135",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1860 x 2480 pixels, 4:3 ratio (~387 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.8, (wide), 1/1.52\", 0.7µm, PDAF, 8 MP, 80mm (telephoto/macro), liquid lens, PDAF, 3x optical zoom, 13 MP, f/2.4, 123˚ (ultrawide), 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, (wide)"
+    }
+  ],
+  "battery_mah": 5020,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 317.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10, MIUI 12",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 27.2,
+    "performance": 14.2,
+    "camera": null,
+    "battery": 40.3,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:29.885458",
+  "updated_at": "2026-06-20T19:05:29.885458"
+}

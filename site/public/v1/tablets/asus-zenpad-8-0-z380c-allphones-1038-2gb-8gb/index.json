@@ -1,0 +1,74 @@
+{
+  "id": 626,
+  "slug": "asus-zenpad-8-0-z380c-allphones-1038-2gb-8gb",
+  "base_model_slug": "zenpad-8-0-z380c",
+  "name": "Asus Zenpad 8.0 Z380C",
+  "brand": {
+    "id": 130,
+    "slug": "asus",
+    "name": "ASUS",
+    "country": "TW",
+    "url": "/v1/brands/asus"
+  },
+  "soc": {
+    "id": 934,
+    "slug": "intel-atom-x3-c3200",
+    "name": "Intel Atom x3-C3200",
+    "manufacturer": {
+      "slug": "intel",
+      "name": "Intel",
+      "url": "/v1/brands/intel"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-450MP4",
+    "url": "/v1/socs/intel-atom-x3-c3200"
+  },
+  "release_date": "2015-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2.0,
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1038",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "sim": "No"
+  },
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF, 2 MP, no AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP,VGA"
+    }
+  ],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 350.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0 (Lollipop)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:43.679599",
+  "updated_at": "2026-06-20T19:05:43.679599",
+  "url": "/v1/tablets/asus-zenpad-8-0-z380c-allphones-1038-2gb-8gb"
+}

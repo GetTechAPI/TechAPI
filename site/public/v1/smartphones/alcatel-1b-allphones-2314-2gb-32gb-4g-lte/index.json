@@ -1,0 +1,84 @@
+{
+  "id": 2295,
+  "slug": "alcatel-1b-allphones-2314-2gb-32gb-4g-lte",
+  "base_model_slug": "1b",
+  "name": "alcatel 1B (2022)",
+  "brand": {
+    "id": 9,
+    "slug": "alcatel",
+    "name": "Alcatel Mobile",
+    "country": "CN",
+    "url": "/v1/brands/alcatel"
+  },
+  "soc": {
+    "id": 1690,
+    "slug": "qualcomm-qm215",
+    "name": "Qualcomm QM215",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 308",
+    "url": "/v1/socs/qualcomm-qm215"
+  },
+  "release_date": "2020-01-01",
+  "msrp_usd": null,
+  "ram_gb": 2,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2314",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~293 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, 25 mm (wide), 1/4.0\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, 24 mm (wide), 1/5.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 172.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11 (Go edition)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:02.889614",
+  "updated_at": "2026-06-20T19:05:02.889614"
+}

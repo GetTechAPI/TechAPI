@@ -1,0 +1,84 @@
+{
+  "id": 79233,
+  "slug": "xiaomi-mi-5c-allphones-8185-3gb-64gb-4g-lte",
+  "base_model_slug": "mi-5c",
+  "name": "Xiaomi Mi 5c",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 714,
+    "slug": "xiaomi-surge-s1",
+    "name": "Xiaomi Surge S1",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-T860MP4",
+    "url": "/v1/socs/xiaomi-surge-s1"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8185",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~428 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.2, 27mm (wide), 1.25µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 27mm (wide)"
+    }
+  ],
+  "battery_mah": 2860,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1 (Nougat), MIUI 8",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:28.834739",
+  "updated_at": "2026-06-20T19:05:28.834739"
+}

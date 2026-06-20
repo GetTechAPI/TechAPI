@@ -1,0 +1,87 @@
+{
+  "id": 24070,
+  "slug": "kyocera-torque-e6710-aitoolbuzz-4367-1gb-1gb-4g-lte",
+  "base_model_slug": "torque-e6710",
+  "name": "Kyocera Torque E6710",
+  "brand": {
+    "id": 100,
+    "slug": "kyocera",
+    "name": "Kyocera",
+    "country": "JP",
+    "url": "/v1/brands/kyocera"
+  },
+  "soc": {
+    "id": 1410,
+    "slug": "qualcomm-snapdragon",
+    "name": "Qualcomm Snapdragon",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 45.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/qualcomm-snapdragon"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    1,
+    4
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:4367",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 1
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Non-removable"
+  },
+  "display": {
+    "size_inch": 4.0,
+    "resolution": "480x800 pixels",
+    "type": "IPS LCD"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ],
+  "battery_mah": 2500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 168.5,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0.4",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/kyocera-torque-e6710.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/kyocera-torque-e6710"
+  ],
+  "created_at": "2026-06-20T19:05:10.215045",
+  "updated_at": "2026-06-20T19:05:10.215045"
+}

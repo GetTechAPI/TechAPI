@@ -1,0 +1,84 @@
+{
+  "id": 68077,
+  "slug": "sharp-aquos-r5g-allphones-2044-12gb-256gb-5g",
+  "base_model_slug": "aquos-r5g",
+  "name": "Sharp Aquos R5G",
+  "brand": {
+    "id": 105,
+    "slug": "sharp",
+    "name": "Sharp",
+    "country": "JP",
+    "url": "/v1/brands/sharp"
+  },
+  "soc": {
+    "id": 1714,
+    "slug": "snapdragon-865-plus",
+    "name": "Snapdragon 865+",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 650",
+    "url": "/v1/socs/snapdragon-865-plus"
+  },
+  "release_date": "2020-04-02",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2044",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "resolution": "1440 x 3168 pixels (~544 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.7, 26mm (wide), 1.4µm, dual pixel PDAF, OIS, 12 MP, f/2.7, 52mm (telephoto), 1.0µm, PDAF, 2x optical zoom, OIS, 48 MP, f/2.9, 19mm (ultrawide), 0.8µm, TOF 3D (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 26mm (wide), 0.7µm"
+    }
+  ],
+  "battery_mah": 3730,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 189.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 8.7,
+    "performance": 6.4,
+    "camera": null,
+    "battery": 10.9,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:25.400420",
+  "updated_at": "2026-06-20T19:05:25.400420"
+}

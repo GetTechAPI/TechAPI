@@ -1,0 +1,86 @@
+{
+  "id": 21953,
+  "slug": "huawei-nova-13-pro-allphones-3199-12gb-256gb-5g",
+  "base_model_slug": "nova-13-pro",
+  "name": "Huawei nova 13 Pro",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 849,
+    "slug": "kirin-9000s",
+    "name": "HiSilicon Kirin 9000S",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Maleoon 910",
+    "url": "/v1/socs/kirin-9000s"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3199",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1224 x 2776 pixels (~449 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-4.0, 23mm (wide), PDAF, OIS, 12 MP, f/2.4, 69mm (telephoto), PDAF, OIS, 8 MP, f/2.2, 16mm, 112˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 52mm (telephoto), AF, 2x optical zoom, 60 MP, f/2.4, 17mm, 100˚ (ultrawide), AF"
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 209.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 4.2",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.5,
+    "performance": 7.0,
+    "camera": null,
+    "battery": 30.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:09.499136",
+  "updated_at": "2026-06-20T19:05:09.499136"
+}

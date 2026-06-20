@@ -1,0 +1,84 @@
+{
+  "id": 70187,
+  "slug": "sony-xperia-pro-i-allphones-7407-12gb-512gb-5g",
+  "base_model_slug": "xperia-pro-i",
+  "name": "Sony Xperia Pro-I",
+  "brand": {
+    "id": 107,
+    "slug": "sony",
+    "name": "Sony",
+    "country": "JP",
+    "url": "/v1/brands/sony"
+  },
+  "soc": {
+    "id": 1715,
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Adreno 660",
+    "url": "/v1/socs/snapdragon-888"
+  },
+  "release_date": "2021-12-05",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    512
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7407",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1644 x 3840 pixels, 21:9 ratio (~643 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0-4.0, 24mm (wide), 1.0\"-type, 2.4µm, dual pixel PDAF, OIS (315 PDAF points, 90% frame coverage), 12 MP, f/2.4, 50mm (telephoto), 1/2.9\", PDAF, 2x optical zoom, OIS, 12 MP, f/2.2, 124˚, 16mm (ultrawide), 1/2.55\", dual pixel PDAF, 0.3 MP, TOF 3D, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 24mm (wide), 1/4.0\", 1.12µm"
+    }
+  ],
+  "battery_mah": 4500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 211.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11, upgradable to Android 13",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 20.9,
+    "performance": 9.4,
+    "camera": null,
+    "battery": 32.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.035804",
+  "updated_at": "2026-06-20T19:05:26.035804"
+}

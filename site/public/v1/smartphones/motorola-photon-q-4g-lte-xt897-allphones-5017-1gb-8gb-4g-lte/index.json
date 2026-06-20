@@ -1,0 +1,84 @@
+{
+  "id": 34167,
+  "slug": "motorola-photon-q-4g-lte-xt897-allphones-5017-1gb-8gb-4g-lte",
+  "base_model_slug": "photon-q-4g-lte-xt897",
+  "name": "Motorola Photon Q 4G LTE XT897",
+  "brand": {
+    "id": 169,
+    "slug": "motorola",
+    "name": "Motorola",
+    "country": "US",
+    "url": "/v1/brands/motorola"
+  },
+  "soc": {
+    "id": 1479,
+    "slug": "qualcomm-snapdragon-s4-msm8960",
+    "name": "Qualcomm Snapdragon S4 MSM8960",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Qualcomm Adreno 225",
+    "url": "/v1/socs/qualcomm-snapdragon-s4-msm8960"
+  },
+  "release_date": "2012-08-19",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5017",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Non-removable"
+  },
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "Yes"
+    }
+  ],
+  "battery_mah": 1785,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.1,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:13.980539",
+  "updated_at": "2026-06-20T19:05:13.980539"
+}

@@ -1,0 +1,97 @@
+{
+  "id": 4180,
+  "slug": "apple-iphone-12-mini-aitoolbuzz-794-4gb-64gb-5g",
+  "base_model_slug": "iphone-12-mini",
+  "name": "Apple iPhone 12 mini",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 37,
+    "slug": "apple-a14-bionic",
+    "name": "Apple A14 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a14-bionic"
+  },
+  "release_date": "2020-10-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:794",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "A2399",
+      "A2176",
+      "A2398",
+      "A2400",
+      "A2399",
+      "iPhone13",
+      "1"
+    ],
+    "sim": "Nano-SIM + eSIMNano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 5.4,
+    "resolution": "1080x2340 pixels",
+    "type": "Super Retina XDR OLED, HDR10, Dolby Vision, 625 nits (HBM), 1200 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.2, 23mm (wide), 1/3.6\", 1.0Ã‚Âµm SL 3D, (depth/biometrics sensor)"
+    }
+  ],
+  "battery_mah": 2227,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS 14.1, up to iOS 18.5",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/apple-iphone-12-mini.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 18.2,
+    "performance": 26.5,
+    "camera": null,
+    "battery": 10.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/apple-iphone-12-mini"
+  ],
+  "created_at": "2026-06-20T19:05:03.411108",
+  "updated_at": "2026-06-20T19:05:03.411108"
+}

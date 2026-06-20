@@ -1,0 +1,84 @@
+{
+  "id": 8633,
+  "slug": "blackview-bl5000-allphones-1119-8gb-128gb-5g",
+  "base_model_slug": "bl5000",
+  "name": "Blackview BL5000",
+  "brand": {
+    "id": 15,
+    "slug": "blackview",
+    "name": "Blackview",
+    "country": "CN",
+    "url": "/v1/brands/blackview"
+  },
+  "soc": {
+    "id": 1186,
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Mali-G57 MC2",
+    "url": "/v1/socs/dimensity-700"
+  },
+  "release_date": "2021-07-28",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1119",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2300 pixels (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, (wide), PDAF, 16 MP, 125˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ],
+  "battery_mah": 4980,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 273.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 11",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 16.4,
+    "performance": 3.0,
+    "camera": null,
+    "battery": 29.7,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:04.731916",
+  "updated_at": "2026-06-20T19:05:04.731916"
+}

@@ -1,0 +1,84 @@
+{
+  "id": 32069,
+  "slug": "micromax-canvas-win-w092-allphones-880-1gb-8gb-3g",
+  "base_model_slug": "canvas-win-w092",
+  "name": "Micromax Canvas Win W092",
+  "brand": {
+    "id": 93,
+    "slug": "micromax",
+    "name": "Micromax",
+    "country": "IN",
+    "url": "/v1/brands/micromax"
+  },
+  "soc": {
+    "id": 1568,
+    "slug": "qualcomm-snapdragon-200",
+    "name": "Qualcomm Snapdragon 200",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 302",
+    "url": "/v1/socs/qualcomm-snapdragon-200"
+  },
+  "release_date": "2014-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    8
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:880",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Dual stand-by)"
+  },
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ],
+  "battery_mah": 1500,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Microsoft Windows Phone 8.1",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 0.0,
+    "performance": null,
+    "camera": null,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:13.247804",
+  "updated_at": "2026-06-20T19:05:13.247804"
+}

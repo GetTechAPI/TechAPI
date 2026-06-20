@@ -1,0 +1,91 @@
+{
+  "id": 21898,
+  "slug": "huawei-mate-70-aitoolbuzz-3581-12gb-256gb-5g",
+  "base_model_slug": "mate-70",
+  "name": "Huawei Mate 70",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 616,
+    "slug": "0",
+    "name": "0",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Unknown mobile GPU",
+    "url": "/v1/socs/0"
+  },
+  "release_date": "2024-11-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
+    "source_key": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com:3581",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "model_numbers": [
+      "CLS-AL00"
+    ],
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "size_inch": 6.7,
+    "resolution": "1216x2688 pixels",
+    "type": "LTPO OLED, 1B colors, 120Hz, 2500 nits (peak)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide)"
+    }
+  ],
+  "battery_mah": 5300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 203.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "HarmonyOS 4.3",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/huawei-mate-70.jpg",
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 34.5,
+    "performance": null,
+    "camera": null,
+    "battery": 34.5,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://aitoolbuzz.com/mobiles/huawei-mate-70"
+  ],
+  "created_at": "2026-06-20T19:05:09.481893",
+  "updated_at": "2026-06-20T19:05:09.481893"
+}

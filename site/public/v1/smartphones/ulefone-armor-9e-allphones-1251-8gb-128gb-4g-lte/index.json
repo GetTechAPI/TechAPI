@@ -1,0 +1,84 @@
+{
+  "id": 73281,
+  "slug": "ulefone-armor-9e-allphones-1251-8gb-128gb-4g-lte",
+  "base_model_slug": "armor-9e",
+  "name": "Ulefone Armor 9E",
+  "brand": {
+    "id": 49,
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "country": "CN",
+    "url": "/v1/brands/ulefone"
+  },
+  "soc": {
+    "id": 1219,
+    "slug": "mediatek-mt6779-helio-p90",
+    "name": "Mediatek MT6779 Helio P90",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "PowerVR GM9446",
+    "url": "/v1/socs/mediatek-mt6779-helio-p90"
+  },
+  "release_date": "2020-09-08",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1251",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.4, 100˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.2, (macro), 2 MP, f/2.2, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2"
+    }
+  ],
+  "battery_mah": 6600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 324.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 10",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 45.0,
+    "performance": null,
+    "camera": null,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "created_at": "2026-06-20T19:05:26.945072",
+  "updated_at": "2026-06-20T19:05:26.945072"
+}

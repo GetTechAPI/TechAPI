@@ -1,0 +1,45 @@
+{
+  "slug": "doogee-s98-allphones-1154-8gb-256gb-4g-lte",
+  "base_model_slug": "s98",
+  "name": "Doogee S98",
+  "brand": "doogee",
+  "release_date": "2022-03-29",
+  "ram_gb": 8,
+  "battery_mah": 6000,
+  "weight_g": 320.0,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1154",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g96",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, 130˚ (ultrawide), 20 MP, f/1.8, (night vision), 2 infrared night vision lights"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

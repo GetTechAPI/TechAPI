@@ -1,0 +1,46 @@
+{
+  "slug": "realme-narzo-20-allphones-6317-4gb-64gb-4g-lte",
+  "base_model_slug": "narzo-20",
+  "name": "Realme Narzo 20",
+  "brand": "realme",
+  "release_date": "2020-09-28",
+  "ram_gb": 4,
+  "battery_mah": 6000,
+  "weight_g": 208.0,
+  "os": "Android 10, upgradable to Android 11, Realme UI 2.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6317",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g85",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, f/2.3, 119˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 26mm (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

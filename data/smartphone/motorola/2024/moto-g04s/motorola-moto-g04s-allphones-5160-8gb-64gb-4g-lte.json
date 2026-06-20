@@ -1,0 +1,47 @@
+{
+  "slug": "motorola-moto-g04s-allphones-5160-8gb-64gb-4g-lte",
+  "base_model_slug": "moto-g04s",
+  "name": "Motorola Moto G04s",
+  "brand": "motorola",
+  "release_date": "2024-05-30",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 178.8,
+  "os": "Android 14, no major Android upgrades planned",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5160",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-t606",
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 0.64µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, (wide)"
+    }
+  ]
+}

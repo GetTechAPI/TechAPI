@@ -1,0 +1,48 @@
+{
+  "slug": "apple-ipad-mini-4-allphones-2592-2gb-16gb-4g-lte",
+  "base_model_slug": "ipad-mini-4",
+  "name": "Apple iPad mini 4 (2015)",
+  "brand": "apple",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 5124,
+  "weight_g": 299.0,
+  "os": "iOS 9, upgradable to iPadOS 15.8.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2592",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "apple-a8",
+  "storage_options_gb": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1536 x 2048 pixels, 4:3 ratio (~324 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.4, 32mm (standard), 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.2 MP, f/2.2, 31mm (standard)"
+    }
+  ]
+}

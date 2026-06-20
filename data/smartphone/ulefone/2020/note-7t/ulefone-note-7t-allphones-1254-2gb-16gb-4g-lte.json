@@ -1,0 +1,45 @@
+{
+  "slug": "ulefone-note-7t-allphones-1254-2gb-16gb-4g-lte",
+  "base_model_slug": "note-7t",
+  "name": "Ulefone Note 7T",
+  "brand": "ulefone",
+  "release_date": "2020-11-12",
+  "ram_gb": 2,
+  "battery_mah": 3500,
+  "weight_g": 177.5,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1254",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM"
+  },
+  "soc": "mediatek-mt6761-helio-a22",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "600 x 1280 pixels (~232 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, (wide), 2 MP, 2 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

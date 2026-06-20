@@ -1,0 +1,45 @@
+{
+  "slug": "sharp-aquos-zero-2-allphones-2045-8gb-256gb-4g-lte",
+  "base_model_slug": "aquos-zero-2",
+  "name": "Sharp Aquos Zero 2",
+  "brand": "sharp",
+  "release_date": "2020-01-01",
+  "ram_gb": 8,
+  "battery_mah": 3130,
+  "weight_g": 141.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2045",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-sm8150-snapdragon-855",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12.2 MP, f/1.7, (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS, 20 MP, f/2.4, 125˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 23mm (wide)"
+    }
+  ]
+}

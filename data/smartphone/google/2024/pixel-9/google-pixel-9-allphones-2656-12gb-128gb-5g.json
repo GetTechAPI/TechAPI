@@ -1,0 +1,46 @@
+{
+  "slug": "google-pixel-9-allphones-2656-12gb-128gb-5g",
+  "base_model_slug": "pixel-9",
+  "name": "Google Pixel 9",
+  "brand": "google",
+  "release_date": "2024-08-22",
+  "ram_gb": 12,
+  "battery_mah": 4700,
+  "weight_g": 198.0,
+  "os": "Android 14, upgradable to Android 15, up to 7 major Android upgrades",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2656",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "tensor-g4",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2424 pixels, 20:9 ratio (~422 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.7, 25mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, OIS, 48 MP, f/1.7, 123˚ (ultrawide), 1/2.55\", dual pixel PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "10.5 MP, f/2.2, 20mm (ultrawide), 1/3.1\", 1.22µm, PDAF"
+    }
+  ]
+}

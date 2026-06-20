@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-spark-8c-allphones-1217-4gb-64gb-4g-lte",
+  "base_model_slug": "spark-8c",
+  "name": "Tecno Spark 8C",
+  "brand": "tecno",
+  "release_date": "2022-02-21",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 193.0,
+  "os": "Android 11 (Go edition), HiOS 7.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1217",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-t606",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, 27mm (wide), QVGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

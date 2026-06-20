@@ -1,0 +1,47 @@
+{
+  "slug": "infinix-hot-7-allphones-837-4gb-16gb-3g",
+  "base_model_slug": "hot-7",
+  "name": "Infinix Hot 7",
+  "brand": "infinix",
+  "release_date": "2019-01-01",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 166.0,
+  "os": "Android OS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:837",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6580",
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF, 0.3 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

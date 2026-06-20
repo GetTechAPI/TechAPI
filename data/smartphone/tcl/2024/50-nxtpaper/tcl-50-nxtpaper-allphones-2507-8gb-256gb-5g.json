@@ -1,0 +1,45 @@
+{
+  "slug": "tcl-50-nxtpaper-allphones-2507-8gb-256gb-5g",
+  "base_model_slug": "50-nxtpaper",
+  "name": "TCL 50 NxtPaper",
+  "brand": "tcl",
+  "release_date": "2024-09-28",
+  "ram_gb": 8,
+  "battery_mah": 5010,
+  "weight_g": 196.0,
+  "os": "Android 14, up to 2 major Android upgrades",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2507",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2460 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.8, (wide), 1/1.67\", 0.64µm, PDAF, 8 MP, f/2.2, 120˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

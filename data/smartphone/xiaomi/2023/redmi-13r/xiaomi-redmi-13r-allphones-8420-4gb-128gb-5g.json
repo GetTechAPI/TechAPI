@@ -1,0 +1,45 @@
+{
+  "slug": "xiaomi-redmi-13r-allphones-8420-4gb-128gb-5g",
+  "base_model_slug": "redmi-13r",
+  "name": "Xiaomi Redmi 13R",
+  "brand": "xiaomi",
+  "release_date": "2023-12-08",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 195.0,
+  "os": "Android 13, MIUI 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8420",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-6100-plus",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 28mm (wide), PDAF, 0.08 MP (auxiliary lens)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

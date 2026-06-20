@@ -1,0 +1,45 @@
+{
+  "slug": "ulefone-note-17-pro-allphones-1882-12gb-256gb-4g-lte",
+  "base_model_slug": "note-17-pro",
+  "name": "Ulefone Note 17 Pro",
+  "brand": "ulefone",
+  "release_date": "2024-01-25",
+  "ram_gb": 12,
+  "battery_mah": 5050,
+  "weight_g": 197.8,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1882",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~388 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), 0.7µm, PDAF, 5 MP, f/2.2, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, (wide), 0.7µm"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "oppo-reno13-pro-allphones-5863-16gb-256gb-5g",
+  "base_model_slug": "reno13-pro",
+  "name": "Oppo Reno13 Pro",
+  "brand": "oppo",
+  "release_date": "2025-01-01",
+  "ram_gb": 16,
+  "battery_mah": 5800,
+  "weight_g": 195.0,
+  "os": "Android 15, ColorOS 15",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5863",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM +"
+  },
+  "soc": "dimensity-8350",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1272 x 2800 pixels (~450 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS, 50 MP, f/2.8, 85mm (telephoto), PDAF, OIS, 3.5x optical zoom, 8 MP, f/2.2, 15mm, 116˚ (ultrawide), 1/4.0\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.0, 21mm (wide), AF"
+    }
+  ]
+}

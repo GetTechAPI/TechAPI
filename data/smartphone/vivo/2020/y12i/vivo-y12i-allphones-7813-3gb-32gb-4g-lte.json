@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-y12i-allphones-7813-3gb-32gb-4g-lte",
+  "base_model_slug": "y12i",
+  "name": "vivo Y12i",
+  "brand": "vivo",
+  "release_date": "2020-07-10",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 190.5,
+  "os": "Android 9.0 (Pie), Funtouch 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7813",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm439-snapdragon-439",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1544 pixels, 19.3:9 ratio (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/1.8"
+    }
+  ]
+}

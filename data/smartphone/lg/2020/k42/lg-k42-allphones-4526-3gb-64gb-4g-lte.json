@@ -1,0 +1,45 @@
+{
+  "slug": "lg-k42-allphones-4526-3gb-64gb-4g-lte",
+  "base_model_slug": "k42",
+  "name": "LG K42",
+  "brand": "lg",
+  "release_date": "2020-09-21",
+  "ram_gb": 3,
+  "battery_mah": 4000,
+  "weight_g": 182.0,
+  "os": "Android 10, upgradable to Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4526",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6762-helio-p22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~266 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, 27mm (wide), 1/3.1\", 1.12µm, PDAF, 5 MP, f/2.2, 115˚ (ultrawide), 1/5.0\", 1.12µm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-mediapad-t3-8-0-allphones-3490-3gb-16gb-4g-lte",
+  "base_model_slug": "mediapad-t3-8-0",
+  "name": "Huawei MediaPad T3 8.0",
+  "brand": "huawei",
+  "release_date": "2017-01-01",
+  "ram_gb": 3,
+  "battery_mah": 4800,
+  "weight_g": 350.0,
+  "os": "Android 7.0 (Nougat), EMUI 5.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3490",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8917-snapdragon-425",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

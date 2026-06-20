@@ -1,0 +1,47 @@
+{
+  "slug": "huawei-matepad-10-4-allphones-3557-6gb-32gb-4g-lte",
+  "base_model_slug": "matepad-10-4",
+  "name": "Huawei MatePad 10.4",
+  "brand": "huawei",
+  "release_date": "2020-04-23",
+  "ram_gb": 6,
+  "battery_mah": 7250,
+  "weight_g": 450.0,
+  "os": "Android 10, EMUI 10, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3557",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "soc": "kirin-810",
+  "storage_options_gb": [
+    32,
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

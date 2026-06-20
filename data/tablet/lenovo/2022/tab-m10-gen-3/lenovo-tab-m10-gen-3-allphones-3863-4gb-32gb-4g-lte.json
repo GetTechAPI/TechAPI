@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-tab-m10-gen-3-allphones-3863-4gb-32gb-4g-lte",
+  "base_model_slug": "tab-m10-gen-3",
+  "name": "Lenovo Tab M10 Gen 3",
+  "brand": "lenovo",
+  "release_date": "2022-09-01",
+  "ram_gb": 4,
+  "battery_mah": 5100,
+  "weight_g": 460.0,
+  "os": "Android 11, upgradable to Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3863",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

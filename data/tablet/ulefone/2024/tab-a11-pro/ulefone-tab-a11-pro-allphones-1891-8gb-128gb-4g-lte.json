@@ -1,0 +1,46 @@
+{
+  "slug": "ulefone-tab-a11-pro-allphones-1891-8gb-128gb-4g-lte",
+  "base_model_slug": "tab-a11-pro",
+  "name": "Ulefone Tab A11 Pro",
+  "brand": "ulefone",
+  "release_date": "2024-06-01",
+  "ram_gb": 8,
+  "battery_mah": 8800,
+  "weight_g": 500.5,
+  "os": "Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1891",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~206 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.2, (wide), 1.0µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

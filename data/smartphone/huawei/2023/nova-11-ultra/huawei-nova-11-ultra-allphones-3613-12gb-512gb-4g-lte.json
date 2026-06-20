@@ -1,0 +1,45 @@
+{
+  "slug": "huawei-nova-11-ultra-allphones-3613-12gb-512gb-4g-lte",
+  "base_model_slug": "nova-11-ultra",
+  "name": "Huawei nova 11 Ultra",
+  "brand": "huawei",
+  "release_date": "2023-04-27",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 188.0,
+  "os": "HarmonyOS 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3613",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-778g",
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "resolution": "1200 x 2652 pixels (~429 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 25mm (wide), PDAF, 8 MP, f/2.2, 112˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 52mm (telephoto), AF, 2x optical zoom, 60 MP, f/2.4, 17mm, 100˚ (ultrawide), AF"
+    }
+  ]
+}

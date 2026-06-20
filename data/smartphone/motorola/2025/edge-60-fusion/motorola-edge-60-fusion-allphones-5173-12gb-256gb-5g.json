@@ -1,0 +1,46 @@
+{
+  "slug": "motorola-edge-60-fusion-allphones-5173-12gb-256gb-5g",
+  "base_model_slug": "edge-60-fusion",
+  "name": "Motorola Edge 60 Fusion",
+  "brand": "motorola",
+  "release_date": "2025-04-09",
+  "ram_gb": 12,
+  "battery_mah": 5200,
+  "weight_g": 177.5,
+  "os": "Android 15, up to 3 major Android upgrades",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5173",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1220 x 2712 pixels, 20:9 ratio (~446 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, dual pixel PDAF, OIS, 13 MP, f/2.2, 120˚ (ultrawide), 1/3.0\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.2, (wide), 1/3.14\", 0.7µm"
+    }
+  ]
+}

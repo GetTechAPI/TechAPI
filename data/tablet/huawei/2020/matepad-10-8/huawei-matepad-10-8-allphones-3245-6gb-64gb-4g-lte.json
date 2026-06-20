@@ -1,0 +1,47 @@
+{
+  "slug": "huawei-matepad-10-8-allphones-3245-6gb-64gb-4g-lte",
+  "base_model_slug": "matepad-10-8",
+  "name": "Huawei MatePad 10.8",
+  "brand": "huawei",
+  "release_date": "2020-07-28",
+  "ram_gb": 6,
+  "battery_mah": 7500,
+  "weight_g": 500.0,
+  "os": "Android 10, EMUI 10.1, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3245",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "soc": "kirin-990",
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~280 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

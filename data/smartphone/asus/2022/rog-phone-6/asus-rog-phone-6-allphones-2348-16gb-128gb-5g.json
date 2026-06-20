@@ -1,0 +1,47 @@
+{
+  "slug": "asus-rog-phone-6-allphones-2348-16gb-128gb-5g",
+  "base_model_slug": "rog-phone-6",
+  "name": "Asus ROG Phone 6",
+  "brand": "asus",
+  "release_date": "2022-07-05",
+  "ram_gb": 16,
+  "battery_mah": 6000,
+  "weight_g": 239.0,
+  "os": "Android 12, upgradable to Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2348",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-8-plus-gen-1",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2448 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), 1/1.56\", 1.0µm, PDAF, 13 MP, f/2.2, (ultrawide), 5 MP, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, 28mm (wide)"
+    }
+  ]
+}

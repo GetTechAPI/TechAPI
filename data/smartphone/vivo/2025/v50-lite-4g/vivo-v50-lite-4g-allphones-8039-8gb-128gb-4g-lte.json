@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-v50-lite-4g-allphones-8039-8gb-128gb-4g-lte",
+  "base_model_slug": "v50-lite-4g",
+  "name": "vivo V50 Lite 4G",
+  "brand": "vivo",
+  "release_date": "2025-04-19",
+  "ram_gb": 8,
+  "battery_mah": 6500,
+  "weight_g": 196.0,
+  "os": "Android 15, Funtouch 15",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8039",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2392 pixels (~388 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 1/1.95\", 0.8µm, PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, (wide)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "zte-grand-x-3-allphones-459-2gb-16gb-4g-lte",
+  "base_model_slug": "grand-x-3",
+  "name": "ZTE Grand X 3",
+  "brand": "zte",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3080,
+  "weight_g": 170.1,
+  "os": "Android 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:459",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8909-snapdragon-210",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

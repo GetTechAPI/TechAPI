@@ -1,0 +1,47 @@
+{
+  "slug": "oneplus-13-allphones-5843-24gb-256gb-5g",
+  "base_model_slug": "13",
+  "name": "OnePlus 13",
+  "brand": "oneplus",
+  "release_date": "2025-01-07",
+  "ram_gb": 24,
+  "battery_mah": 6000,
+  "weight_g": 210.0,
+  "os": "Android 15, up to 4 major Android upgrades, OxygenOS 15 (International), ColorOS 15 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5843",
+    "memory": {
+      "ram_gb": 24,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM +"
+  },
+  "soc": "snapdragon-8-elite",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1440 x 3168 pixels (~510 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 23mm (wide), 1/1.43\", 1.12µm, multi-directional PDAF, OIS, 50 MP, f/2.6, 73mm (periscope telephoto), 1/1.95\", 0.8µm, 3x optical zoom, PDAF, OIS, 50 MP, f/2.0, 15mm, 120˚ (ultrawide), 1/2.75\", 0.64µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, 21mm (wide), 1/2.74\", 0.8µm"
+    }
+  ]
+}

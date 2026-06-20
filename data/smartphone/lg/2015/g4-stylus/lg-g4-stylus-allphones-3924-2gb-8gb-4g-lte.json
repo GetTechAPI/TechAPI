@@ -1,0 +1,46 @@
+{
+  "slug": "lg-g4-stylus-allphones-3924-2gb-8gb-4g-lte",
+  "base_model_slug": "g4-stylus",
+  "name": "LG G4 Stylus",
+  "brand": "lg",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 163.0,
+  "os": "Android 5.0 (Lollipop), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3924",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM - H631, H635, MS631, H542"
+  },
+  "soc": "qualcomm-msm8916-snapdragon-410",
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.4, OIS (H631, H540, H630D, MS631), 8 MP, f/2.4 (H635)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

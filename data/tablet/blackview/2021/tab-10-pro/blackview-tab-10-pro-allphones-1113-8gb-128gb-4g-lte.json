@@ -1,0 +1,44 @@
+{
+  "slug": "blackview-tab-10-pro-allphones-1113-8gb-128gb-4g-lte",
+  "base_model_slug": "tab-10-pro",
+  "name": "Blackview Tab 10 Pro",
+  "brand": "blackview",
+  "release_date": "2021-12-16",
+  "ram_gb": 8,
+  "battery_mah": 6580,
+  "weight_g": 588.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1113",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, (wide)"
+    }
+  ]
+}

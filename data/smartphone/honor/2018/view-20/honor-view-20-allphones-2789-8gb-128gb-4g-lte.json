@@ -1,0 +1,46 @@
+{
+  "slug": "honor-view-20-allphones-2789-8gb-128gb-4g-lte",
+  "base_model_slug": "view-20",
+  "name": "Honor View 20",
+  "brand": "honor",
+  "release_date": "2018-01-01",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 180.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, Magic UI 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2789",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "hisilicon-kirin-980",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2310 pixels (~398 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, (wide), 1/2.0\", 0.8µm, PDAF, TOF 3D, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.0, 27mm"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "lg-g4-pro-allphones-4091-4gb-32gb-4g-lte",
+  "base_model_slug": "g4-pro",
+  "name": "LG G4 Pro",
+  "brand": "lg",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Android 5.1 (Lollipop), LG Optimus UX UI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4091",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8996-snapdragon-820",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~506 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "27 MP, 1/2.6\", OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

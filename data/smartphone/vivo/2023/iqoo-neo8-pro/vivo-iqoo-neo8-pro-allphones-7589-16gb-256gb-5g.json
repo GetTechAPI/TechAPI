@@ -1,0 +1,47 @@
+{
+  "slug": "vivo-iqoo-neo8-pro-allphones-7589-16gb-256gb-5g",
+  "base_model_slug": "iqoo-neo8-pro",
+  "name": "vivo iQOO Neo8 Pro",
+  "brand": "vivo",
+  "release_date": "2023-05-23",
+  "ram_gb": 16,
+  "battery_mah": 5000,
+  "weight_g": 192.0,
+  "os": "Android 13, Funtouch 13 or OriginOS 3 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7589",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), 1/1.49\", 1.0µm, PDAF, OIS, 8 MP, f/2.2, 114˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide)"
+    }
+  ]
+}

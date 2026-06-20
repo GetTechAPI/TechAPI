@@ -1,0 +1,45 @@
+{
+  "slug": "motorola-moto-e5-cruise-allphones-5061-2gb-16gb-4g-lte",
+  "base_model_slug": "moto-e5-cruise",
+  "name": "Motorola Moto E5 Cruise",
+  "brand": "motorola",
+  "release_date": "2018-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2800,
+  "weight_g": 150.0,
+  "os": "Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5061",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8920-snapdragon-427",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~282 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, 1.12 µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

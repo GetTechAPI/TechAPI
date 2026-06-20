@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenfone-4-max-plus-zc554kl-allphones-1576-3gb-32gb-4g-lte",
+  "base_model_slug": "zenfone-4-max-plus-zc554kl",
+  "name": "Asus Zenfone 4 Max Plus ZC554KL",
+  "brand": "asus",
+  "release_date": "2017-01-01",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 181.0,
+  "os": "Android 7 (Nougat), ZenUI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1576",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Micro-SIM"
+  },
+  "soc": "qualcomm-msm8917-snapdragon-425",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

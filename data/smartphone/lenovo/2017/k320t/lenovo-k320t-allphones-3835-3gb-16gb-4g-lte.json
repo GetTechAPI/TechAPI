@@ -1,0 +1,46 @@
+{
+  "slug": "lenovo-k320t-allphones-3835-3gb-16gb-4g-lte",
+  "base_model_slug": "k320t",
+  "name": "Lenovo K320t",
+  "brand": "lenovo",
+  "release_date": "2017-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3000,
+  "weight_g": 153.8,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3835",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "spreadtrum",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, AF, 2 MP, f/2.2, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2"
+    }
+  ]
+}

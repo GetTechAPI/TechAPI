@@ -1,0 +1,44 @@
+{
+  "slug": "asus-zenpad-10-z300c-allphones-1540-2gb-8gb",
+  "base_model_slug": "zenpad-10-z300c",
+  "name": "Asus Zenpad 10 Z300C",
+  "brand": "asus",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 4890,
+  "weight_g": 510.0,
+  "os": "Android 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1540",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 8
+    },
+    "sim": "No"
+  },
+  "soc": "intel-atom-x3-c3200",
+  "storage_options_gb": [
+    8,
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF, 2 MP, no AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP,VGA"
+    }
+  ]
+}

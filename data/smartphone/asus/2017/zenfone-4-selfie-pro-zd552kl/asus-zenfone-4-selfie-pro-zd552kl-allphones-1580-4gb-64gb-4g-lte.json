@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenfone-4-selfie-pro-zd552kl-allphones-1580-4gb-64gb-4g-lte",
+  "base_model_slug": "zenfone-4-selfie-pro-zd552kl",
+  "name": "Asus Zenfone 4 Selfie Pro ZD552KL",
+  "brand": "asus",
+  "release_date": "2017-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 147.0,
+  "os": "Android 7 (Nougat), ZenUI 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1580",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-msm8953-snapdragon-625",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, 26mm (wide), dual pixel PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/1.8, 25mm (wide), 1/2.55\", 1.4µm, 8 MP, 12mm"
+    }
+  ]
+}

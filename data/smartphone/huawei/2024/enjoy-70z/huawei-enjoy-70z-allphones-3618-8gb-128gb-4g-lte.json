@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-enjoy-70z-allphones-3618-8gb-128gb-4g-lte",
+  "base_model_slug": "enjoy-70z",
+  "name": "Huawei Enjoy 70z",
+  "brand": "huawei",
+  "release_date": "2024-02-22",
+  "ram_gb": 8,
+  "battery_mah": 6000,
+  "weight_g": 199.0,
+  "os": "HarmonyOS 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3618",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "kirin-710a",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, (wide), AF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

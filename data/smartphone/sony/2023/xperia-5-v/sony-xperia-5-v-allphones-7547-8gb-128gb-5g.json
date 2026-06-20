@@ -1,0 +1,46 @@
+{
+  "slug": "sony-xperia-5-v-allphones-7547-8gb-128gb-5g",
+  "base_model_slug": "xperia-5-v",
+  "name": "Sony Xperia 5 V",
+  "brand": "sony",
+  "release_date": "2023-10-26",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 182.0,
+  "os": "Android 13, upgradable to Android 15",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7547",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-8-gen-2",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2520 pixels, 21:9 ratio (~449 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.9, 24mm (wide), 1/1.35\", 1.12µm, dual pixel PDAF, OIS, 12 MP, f/2.2, 16mm (ultrawide), 1/2.5\", dual pixel PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.0, 24mm (wide), 1/2.9\", 1.25µm"
+    }
+  ]
+}

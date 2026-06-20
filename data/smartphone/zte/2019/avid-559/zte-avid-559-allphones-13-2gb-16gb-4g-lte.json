@@ -1,0 +1,45 @@
+{
+  "slug": "zte-avid-559-allphones-13-2gb-16gb-4g-lte",
+  "base_model_slug": "avid-559",
+  "name": "ZTE Avid 559",
+  "brand": "zte",
+  "release_date": "2019-03-01",
+  "ram_gb": 2,
+  "battery_mah": 2200,
+  "weight_g": 145.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:13",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8909-snapdragon-210",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

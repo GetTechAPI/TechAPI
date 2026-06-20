@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenfone-go-zb690kg-allphones-1566-1gb-8gb-3g",
+  "base_model_slug": "zenfone-go-zb690kg",
+  "name": "Asus Zenfone Go ZB690KG",
+  "brand": "asus",
+  "release_date": "2016-01-01",
+  "ram_gb": 1,
+  "battery_mah": 3480,
+  "weight_g": 270.0,
+  "os": "Android 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1566",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "quad-core",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "600 x 1024 pixels, 16:9 ratio (~172 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP or 8 MP, f/2.0, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

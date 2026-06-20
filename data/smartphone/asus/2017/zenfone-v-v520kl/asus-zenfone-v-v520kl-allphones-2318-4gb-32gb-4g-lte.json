@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenfone-v-v520kl-allphones-2318-4gb-32gb-4g-lte",
+  "base_model_slug": "zenfone-v-v520kl",
+  "name": "Asus Zenfone V V520KL",
+  "brand": "asus",
+  "release_date": "2017-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 147.1,
+  "os": "Android 7 (Nougat), ZenUI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2318",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-msm8996-snapdragon-820",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "23 MP, f/2.0, 1/2.6\", 1.0µm, PDAF, 4-axis OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

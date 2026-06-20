@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-13-pro-allphones-8401-12gb-128gb-5g",
+  "base_model_slug": "13-pro",
+  "name": "Xiaomi 13 Pro",
+  "brand": "xiaomi",
+  "release_date": "2023-02-26",
+  "ram_gb": 12,
+  "battery_mah": 4820,
+  "weight_g": 210.0,
+  "os": "Android 13, upgradable to Android 14, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8401",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-8-gen-2",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1440 x 3200 pixels, 20:9 ratio (~522 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50.3 MP, f/1.9, 23mm (wide), 1.0\"-type, 1.6µm, dual pixel PDAF, OIS, 50 MP, f/2.0, 75mm (telephoto), PDAF (10cm - ∞), 3.2x optical zoom, 50 MP, f/2.2, 14mm, 115˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 22mm (wide), 1/3.14\", 0.7µm"
+    }
+  ]
+}

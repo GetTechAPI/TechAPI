@@ -1,0 +1,46 @@
+{
+  "slug": "zte-nubia-redmagic-5g-allphones-918-16gb-128gb-5g",
+  "base_model_slug": "nubia-redmagic-5g",
+  "name": "ZTE nubia RedMagic 5G",
+  "brand": "zte",
+  "release_date": "2020-03-19",
+  "ram_gb": 16,
+  "battery_mah": 4500,
+  "weight_g": 218.0,
+  "os": "Android 10, Redmagic 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:918",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-865",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~388 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.0, 13mm (ultrawide), 1.12µm, 2 MP, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide), 1.12µm"
+    }
+  ]
+}

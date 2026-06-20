@@ -1,0 +1,45 @@
+{
+  "slug": "micromax-bharat-5-pro-allphones-2000-3gb-32gb-4g-lte",
+  "base_model_slug": "bharat-5-pro",
+  "name": "Micromax Bharat 5 Pro",
+  "brand": "micromax",
+  "release_date": "2018-01-01",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 170.0,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2000",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Micro-SIM"
+  },
+  "soc": "mediatek-mt6737",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~282 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

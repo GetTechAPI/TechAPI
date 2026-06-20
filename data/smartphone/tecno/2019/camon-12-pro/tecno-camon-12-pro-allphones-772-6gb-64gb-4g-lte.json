@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-camon-12-pro-allphones-772-6gb-64gb-4g-lte",
+  "base_model_slug": "camon-12-pro",
+  "name": "Tecno Camon 12 Pro",
+  "brand": "tecno",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3500,
+  "weight_g": 161.0,
+  "os": "Android 9.0 (Pie), HIOS 5.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:772",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6762-helio-p22",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~276 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, PDAF, 8 MP, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

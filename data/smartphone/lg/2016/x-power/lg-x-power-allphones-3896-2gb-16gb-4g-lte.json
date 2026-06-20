@@ -1,0 +1,45 @@
+{
+  "slug": "lg-x-power-allphones-3896-2gb-16gb-4g-lte",
+  "base_model_slug": "x-power",
+  "name": "LG X power",
+  "brand": "lg",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 4100,
+  "weight_g": 139.0,
+  "os": "Android 6.0.1 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3896",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "mediatek-mt6735",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~277 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 1/4.0\", 1.12µm, AF, 8 MP, AF (LS755, US610, K450)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.4"
+    }
+  ]
+}

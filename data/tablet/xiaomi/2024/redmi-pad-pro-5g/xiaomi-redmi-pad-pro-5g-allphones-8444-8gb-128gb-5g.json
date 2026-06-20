@@ -1,0 +1,45 @@
+{
+  "slug": "xiaomi-redmi-pad-pro-5g-allphones-8444-8gb-128gb-5g",
+  "base_model_slug": "redmi-pad-pro-5g",
+  "name": "Xiaomi Redmi Pad Pro 5G",
+  "brand": "xiaomi",
+  "release_date": "2024-05-28",
+  "ram_gb": 8,
+  "battery_mah": 10000,
+  "weight_g": 566.0,
+  "os": "Android 14, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8444",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~249 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

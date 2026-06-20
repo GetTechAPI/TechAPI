@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-pop-3-plus-allphones-775-1gb-16gb-4g-lte",
+  "base_model_slug": "pop-3-plus",
+  "name": "Tecno Pop 3 Plus",
+  "brand": "tecno",
+  "release_date": "2019-01-01",
+  "ram_gb": 1,
+  "battery_mah": 4000,
+  "weight_g": 180.5,
+  "os": "Android 9.0 (Pie), HIOS 5.5",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:775",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6761-helio-a22",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0"
+    }
+  ]
+}

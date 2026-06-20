@@ -1,0 +1,46 @@
+{
+  "slug": "lenovo-tab3-10-allphones-3819-3gb-32gb-3g",
+  "base_model_slug": "tab3-10",
+  "name": "Lenovo Tab3 10",
+  "brand": "lenovo",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 7000,
+  "weight_g": 509.0,
+  "os": "Android 6.0.1 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3819",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "mediatek-mt8161",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1920 x 1200 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

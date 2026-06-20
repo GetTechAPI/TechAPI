@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-x8-allphones-2381-6gb-64gb-4g-lte",
+  "base_model_slug": "x8",
+  "name": "Meizu X8",
+  "brand": "meizu",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3210,
+  "weight_g": 160.0,
+  "os": "Android 8.0 (Oreo), Flyme UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2381",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm710-snapdragon-710",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2220 pixels, 18.5:9 ratio (~398 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF, 5 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm"
+    }
+  ]
+}

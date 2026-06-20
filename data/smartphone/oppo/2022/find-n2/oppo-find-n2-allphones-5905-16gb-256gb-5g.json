@@ -1,0 +1,46 @@
+{
+  "slug": "oppo-find-n2-allphones-5905-16gb-256gb-5g",
+  "base_model_slug": "find-n2",
+  "name": "Oppo Find N2",
+  "brand": "oppo",
+  "release_date": "2022-01-01",
+  "ram_gb": 16,
+  "battery_mah": 4520,
+  "weight_g": 233.0,
+  "os": "Android 13, ColorOS 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5905",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-8-plus-gen-1",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1792 x 1920 pixels (~370 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS, 32 MP, f/2.0, 47mm (telephoto), 1/2.74\", 0.8µm, 2x optical zoom, PDAF, 48 MP, f/2.2, 14mm, 115˚ (ultrawide), 1/2\", 0.8µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, 22mm (wide), 1/3.14\", Cover camera:, 32 MP, f/2.4, 22mm (wide), 1/3.14\""
+    }
+  ]
+}

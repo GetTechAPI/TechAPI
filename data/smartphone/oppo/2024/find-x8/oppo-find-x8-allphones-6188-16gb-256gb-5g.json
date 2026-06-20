@@ -1,0 +1,47 @@
+{
+  "slug": "oppo-find-x8-allphones-6188-16gb-256gb-5g",
+  "base_model_slug": "find-x8",
+  "name": "Oppo Find X8",
+  "brand": "oppo",
+  "release_date": "2024-01-01",
+  "ram_gb": 16,
+  "battery_mah": 5630,
+  "weight_g": 193.0,
+  "os": "Android 15, up to 5 major Android upgrades, ColorOS 15",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6188",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-8-gen-2",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1256 x 2760 pixels (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS, 50 MP, f/2.6, 73mm (periscope telephoto), 1/1.95\", 0.61µm, 3x optical zoom, multi-directional PDAF, OIS, 50 MP, f/2.0, 15mm, 120˚ (ultrawide), 1/2.75\", 0.64µm, multi-directional PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, 21mm (wide), 1/2.74\", 0.8µm"
+    }
+  ]
+}

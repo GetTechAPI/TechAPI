@@ -1,0 +1,45 @@
+{
+  "slug": "zte-blade-a75-allphones-2248-4gb-128gb-5g",
+  "base_model_slug": "blade-a75",
+  "name": "ZTE Blade A75",
+  "brand": "zte",
+  "release_date": "2024-07-20",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 205.5,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2248",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-t606",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~266 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, F/1.8, (wide), AF, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-nova-12-pro-allphones-3220-12gb-256gb-5g",
+  "base_model_slug": "nova-12-pro",
+  "name": "Huawei nova 12 Pro",
+  "brand": "huawei",
+  "release_date": "2023-12-26",
+  "ram_gb": 12,
+  "battery_mah": 4600,
+  "weight_g": 201.0,
+  "os": "HarmonyOS 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3220",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "kirin-9010",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1224 x 2776 pixels (~449 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-4.0, 27mm (wide), PDAF, 8 MP, f/2.2, 112˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 52mm (telephoto), AF, 2x optical zoom, 60 MP, f/2.4, 17mm, 100˚ (ultrawide), AF"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-mate-70-rs-ultimate-allphones-3205-16gb-512gb-5g",
+  "base_model_slug": "mate-70-rs-ultimate",
+  "name": "Huawei Mate 70 RS Ultimate",
+  "brand": "huawei",
+  "release_date": "2024-12-19",
+  "ram_gb": 16,
+  "battery_mah": 5700,
+  "weight_g": 251.0,
+  "os": "HarmonyOS 4.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3205",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1316 x 2832 pixels, 19.5:9 ratio (~453 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS, 48 MP, f/2.1, 93mm (periscope telephoto), PDAF, OIS, 3.5x optical zoom, 40 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide), TOF 3D, (depth/biometrics sensor)"
+    }
+  ]
+}

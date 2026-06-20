@@ -1,0 +1,47 @@
+{
+  "slug": "apple-ipad-mini-allphones-2624-8gb-128gb-5g",
+  "base_model_slug": "ipad-mini",
+  "name": "Apple iPad mini (2024)",
+  "brand": "apple",
+  "release_date": "2019-01-01",
+  "ram_gb": 8,
+  "battery_mah": 5078,
+  "weight_g": 293.0,
+  "os": "iPadOS 18, upgradable to iPadOS 18.4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2624",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "(cellular model only)"
+  },
+  "soc": "apple-a12-bionic",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1488 x 2266 pixels, 3:2 ratio (~327 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.4, 122˚ (ultrawide)"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "nokia-5-1-plus-allphones-5688-6gb-32gb-4g-lte",
+  "base_model_slug": "5-1-plus",
+  "name": "Nokia 5.1 Plus (Nokia X5)",
+  "brand": "nokia",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3060,
+  "weight_g": 160.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 10, Android One",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5688",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6771-helio-p60",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~287 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, PDAF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 26mm (wide)"
+    }
+  ]
+}

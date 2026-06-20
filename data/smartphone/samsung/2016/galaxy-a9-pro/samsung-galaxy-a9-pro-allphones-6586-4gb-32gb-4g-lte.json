@@ -1,0 +1,45 @@
+{
+  "slug": "samsung-galaxy-a9-pro-allphones-6586-4gb-32gb-4g-lte",
+  "base_model_slug": "galaxy-a9-pro",
+  "name": "Samsung Galaxy A9 Pro (2016)",
+  "brand": "samsung",
+  "release_date": "2016-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 210.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo), Experience UI 9",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6586",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8976-snapdragon-652",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.9, 1/2.8\", AF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/1.9"
+    }
+  ]
+}

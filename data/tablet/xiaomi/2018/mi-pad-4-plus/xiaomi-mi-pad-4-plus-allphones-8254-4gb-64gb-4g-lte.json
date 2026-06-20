@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-mi-pad-4-plus-allphones-8254-4gb-64gb-4g-lte",
+  "base_model_slug": "mi-pad-4-plus",
+  "name": "Xiaomi Mi Pad 4 Plus",
+  "brand": "xiaomi",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 8620,
+  "weight_g": 485.0,
+  "os": "Android 8.1 (Oreo), MIUI 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8254",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-sdm660-snapdragon-660",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~224 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0"
+    }
+  ]
+}

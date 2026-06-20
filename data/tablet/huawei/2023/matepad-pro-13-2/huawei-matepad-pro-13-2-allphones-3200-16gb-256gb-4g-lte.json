@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-matepad-pro-13-2-allphones-3200-16gb-256gb-4g-lte",
+  "base_model_slug": "matepad-pro-13-2",
+  "name": "Huawei MatePad Pro 13.2 (2025)",
+  "brand": "huawei",
+  "release_date": "2023-09-26",
+  "ram_gb": 16,
+  "battery_mah": 10100,
+  "weight_g": 580.0,
+  "os": "Harmony OS 4.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3200",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "2880 x 1920 pixels, 3:2 ratio (~262 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2"
+    }
+  ]
+}

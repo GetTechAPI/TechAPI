@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-lumia-435-allphones-2194-1gb-8gb-3g",
+  "base_model_slug": "lumia-435",
+  "name": "Microsoft Lumia 435",
+  "brand": "microsoft",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1560,
+  "weight_g": 134.1,
+  "os": "Microsoft Windows Phone 8.1, upgradable to Windows 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2194",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8210-snapdragon-200",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 800 pixels, 5:3 ratio (~233 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP, f/2.7, 36mm (standard), 1/5.0\""
+    },
+    {
+      "type": "selfie",
+      "raw": "VGA"
+    }
+  ]
+}

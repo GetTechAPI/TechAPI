@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-redmi-10-allphones-8120-6gb-64gb-4g-lte",
+  "base_model_slug": "redmi-10",
+  "name": "Xiaomi Redmi 10 (India)",
+  "brand": "xiaomi",
+  "release_date": "2022-08-01",
+  "ram_gb": 6,
+  "battery_mah": 6000,
+  "weight_g": 203.0,
+  "os": "Android 11, MIUI 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8120",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-700",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1650 pixels (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 26mm (wide), PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0"
+    }
+  ]
+}

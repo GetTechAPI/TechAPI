@@ -1,0 +1,45 @@
+{
+  "slug": "zte-blade-v40-design-allphones-1479-6gb-128gb-4g-lte",
+  "base_model_slug": "blade-v40-design",
+  "name": "ZTE Blade V40 Design",
+  "brand": "zte",
+  "release_date": "2022-01-10",
+  "ram_gb": 6,
+  "battery_mah": 4500,
+  "weight_g": 183.4,
+  "os": "Android 12, MyOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1479",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-tiger-t616",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, (wide)"
+    }
+  ]
+}

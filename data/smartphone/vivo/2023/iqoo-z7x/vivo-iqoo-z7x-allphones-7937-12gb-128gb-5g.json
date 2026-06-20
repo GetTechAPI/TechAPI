@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-iqoo-z7x-allphones-7937-12gb-128gb-5g",
+  "base_model_slug": "iqoo-z7x",
+  "name": "vivo iQOO Z7x",
+  "brand": "vivo",
+  "release_date": "2023-03-24",
+  "ram_gb": 12,
+  "battery_mah": 6000,
+  "weight_g": 205.0,
+  "os": "Android 13, Funtouch 13 (Global), Origin OS 3 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7937",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-695",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2388 pixels (~395 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide)"
+    }
+  ]
+}

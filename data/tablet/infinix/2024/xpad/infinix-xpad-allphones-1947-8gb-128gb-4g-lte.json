@@ -1,0 +1,46 @@
+{
+  "slug": "infinix-xpad-allphones-1947-8gb-128gb-4g-lte",
+  "base_model_slug": "xpad",
+  "name": "Infinix Xpad",
+  "brand": "infinix",
+  "release_date": "2024-08-12",
+  "ram_gb": 8,
+  "battery_mah": 7000,
+  "weight_g": 496.0,
+  "os": "Android 14, XOS 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1947",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1200 x 1920 pixels, 16:10 ratio (~206 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

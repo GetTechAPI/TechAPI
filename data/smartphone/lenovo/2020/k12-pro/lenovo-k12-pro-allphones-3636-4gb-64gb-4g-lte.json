@@ -1,0 +1,46 @@
+{
+  "slug": "lenovo-k12-pro-allphones-3636-4gb-64gb-4g-lte",
+  "base_model_slug": "k12-pro",
+  "name": "Lenovo K12 Pro",
+  "brand": "lenovo",
+  "release_date": "2020-12-12",
+  "ram_gb": 4,
+  "battery_mah": 6000,
+  "weight_g": 221.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3636",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-662",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1640 pixels (~263 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.97\", 0.7µm, PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2, 1.0µm"
+    }
+  ]
+}

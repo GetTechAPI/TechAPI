@@ -1,0 +1,47 @@
+{
+  "slug": "honor-90-gt-allphones-2885-24gb-256gb-5g",
+  "base_model_slug": "90-gt",
+  "name": "Honor 90 GT",
+  "brand": "honor",
+  "release_date": "2023-12-21",
+  "ram_gb": 24,
+  "battery_mah": 5000,
+  "weight_g": 185.0,
+  "os": "Android 13, MagicOS 7.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2885",
+    "memory": {
+      "ram_gb": 24,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1200 x 2664 pixels (~436 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/2, (wide), 1/1.56\", 1.0µm, PDAF, OIS, 12 MP, f/2.2, 112˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.4"
+    }
+  ]
+}

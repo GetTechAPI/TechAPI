@@ -1,0 +1,45 @@
+{
+  "slug": "doogee-blade-gt-ultra-allphones-1812-16gb-512gb-5g",
+  "base_model_slug": "blade-gt-ultra",
+  "name": "Doogee Blade GT Ultra",
+  "brand": "doogee",
+  "release_date": "2025-02-01",
+  "ram_gb": 16,
+  "battery_mah": 5500,
+  "weight_g": 260.0,
+  "os": "Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1812",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~392 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "100 MP, f/1.8, (wide), 1/1.8\", PDAF, 5 MP, f/2.2, 120˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.3, (wide), 1/2.8\""
+    }
+  ]
+}

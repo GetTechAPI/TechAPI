@@ -1,0 +1,46 @@
+{
+  "slug": "realme-12-lite-allphones-6257-8gb-128gb-4g-lte",
+  "base_model_slug": "12-lite",
+  "name": "Realme 12 Lite",
+  "brand": "realme",
+  "release_date": "2024-04-22",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 185.0,
+  "os": "Android 14, Realme UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6257",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon-685-sm6225-ad",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~392 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.8, (wide), PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.1, (wide)"
+    }
+  ]
+}

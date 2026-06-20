@@ -1,0 +1,38 @@
+{
+  "slug": "htc-rider-allphones-3035-1gb-3g",
+  "base_model_slug": "rider",
+  "name": "HTC Rider",
+  "brand": "htc",
+  "release_date": "2018-01-01",
+  "ram_gb": 1,
+  "battery_mah": 1500,
+  "weight_g": 150.0,
+  "os": "Android OS, Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3035",
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM"
+  },
+  "soc": "qualcomm-msm8660-snapdragon-s3",
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~256 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1.3 MP"
+    }
+  ]
+}

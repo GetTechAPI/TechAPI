@@ -1,0 +1,45 @@
+{
+  "slug": "asus-zenfone-2e-allphones-1043-1gb-8gb-4g-lte",
+  "base_model_slug": "zenfone-2e",
+  "name": "Asus Zenfone 2E",
+  "brand": "asus",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2500,
+  "weight_g": 155.1,
+  "os": "Android 5.0 (Lollipop), ZenUI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1043",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "intel-atom-z2560",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

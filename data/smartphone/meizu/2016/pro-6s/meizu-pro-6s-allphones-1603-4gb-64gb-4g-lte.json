@@ -1,0 +1,45 @@
+{
+  "slug": "meizu-pro-6s-allphones-1603-4gb-64gb-4g-lte",
+  "base_model_slug": "pro-6s",
+  "name": "Meizu Pro 6s",
+  "brand": "meizu",
+  "release_date": "2016-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3060,
+  "weight_g": 163.0,
+  "os": "Android 6.0 (Marshmallow), Flyme 7.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1603",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6797t-helio-x25",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0, 1/2.9\", 1.25µm, PDAF, 4-axis OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0, 1/4.0\", 1.4µm"
+    }
+  ]
+}

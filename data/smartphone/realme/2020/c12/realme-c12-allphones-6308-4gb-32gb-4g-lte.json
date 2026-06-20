@@ -1,0 +1,46 @@
+{
+  "slug": "realme-c12-allphones-6308-4gb-32gb-4g-lte",
+  "base_model_slug": "c12",
+  "name": "Realme C12",
+  "brand": "realme",
+  "release_date": "2020-08-18",
+  "ram_gb": 4,
+  "battery_mah": 6000,
+  "weight_g": 209.0,
+  "os": "Android 10, upgradable to Android 11, Realme UI 2.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6308",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g35",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1560 pixels, 19.5:9 ratio (~264 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), PDAF, 2 MP B/W, f/2.4, 2 MP, f/2.4"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0, (wide)"
+    }
+  ]
+}

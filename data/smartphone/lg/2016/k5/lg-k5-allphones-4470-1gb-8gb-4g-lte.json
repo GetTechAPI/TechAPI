@@ -1,0 +1,45 @@
+{
+  "slug": "lg-k5-allphones-4470-1gb-8gb-4g-lte",
+  "base_model_slug": "k5",
+  "name": "LG K5",
+  "brand": "lg",
+  "release_date": "2016-03-01",
+  "ram_gb": 1,
+  "battery_mah": 1900,
+  "weight_g": 128.0,
+  "os": "Android 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4470",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6582",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.8, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.8"
+    }
+  ]
+}

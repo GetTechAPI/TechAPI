@@ -1,0 +1,48 @@
+{
+  "slug": "asus-rog-phone-ii-zs660kl-allphones-2335-12gb-128gb-4g-lte",
+  "base_model_slug": "rog-phone-ii-zs660kl",
+  "name": "Asus ROG Phone II ZS660KL",
+  "brand": "asus",
+  "release_date": "2019-01-01",
+  "ram_gb": 12,
+  "battery_mah": 6000,
+  "weight_g": 240.0,
+  "os": "Android 9.0 (Pie), ROG UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2335",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sm8150-snapdragon-855",
+  "storage_options_gb": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~391 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, 13 MP, f/2.4, 11mm (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "24MP, f/2.2, 0.9µm"
+    }
+  ]
+}

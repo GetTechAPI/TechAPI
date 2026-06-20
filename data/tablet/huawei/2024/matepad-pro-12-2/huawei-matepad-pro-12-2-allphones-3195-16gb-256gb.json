@@ -1,0 +1,43 @@
+{
+  "slug": "huawei-matepad-pro-12-2-allphones-3195-16gb-256gb",
+  "base_model_slug": "matepad-pro-12-2",
+  "name": "Huawei MatePad Pro 12.2 (2024)",
+  "brand": "huawei",
+  "release_date": "2024-08-13",
+  "ram_gb": 16,
+  "battery_mah": 10100,
+  "weight_g": 508.0,
+  "os": "HarmonyOS 4.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3195",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "sim": "No"
+  },
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "2800 x 1840 pixels, 3:2 ratio (~275 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2"
+    }
+  ]
+}

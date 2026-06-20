@@ -1,0 +1,45 @@
+{
+  "slug": "zte-nubia-prague-s-allphones-460-3gb-64gb-4g-lte",
+  "base_model_slug": "nubia-prague-s",
+  "name": "ZTE nubia Prague S",
+  "brand": "zte",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 2200,
+  "weight_g": 135.0,
+  "os": "Android 5.2 (Lollipop), nubia UI 3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:460",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Micro-SIM"
+  },
+  "soc": "qualcomm-msm8939-snapdragon-615",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.4"
+    }
+  ]
+}

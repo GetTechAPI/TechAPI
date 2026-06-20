@@ -1,0 +1,45 @@
+{
+  "slug": "xiaomi-mi-9x-allphones-8192-6gb-64gb-4g-lte",
+  "base_model_slug": "mi-9x",
+  "name": "Xiaomi Mi 9X",
+  "brand": "xiaomi",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3300,
+  "weight_g": 150.0,
+  "os": "Android 9.0 (Pie), MIUI 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8192",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm675-snapdragon-675",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 27mm (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, (telephoto), PDAF, 2x optical zoom, 13 MP, (wide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

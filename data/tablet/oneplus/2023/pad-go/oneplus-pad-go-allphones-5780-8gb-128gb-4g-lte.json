@@ -1,0 +1,46 @@
+{
+  "slug": "oneplus-pad-go-allphones-5780-8gb-128gb-4g-lte",
+  "base_model_slug": "pad-go",
+  "name": "OnePlus Pad Go",
+  "brand": "oneplus",
+  "release_date": "2023-10-06",
+  "ram_gb": 8,
+  "battery_mah": 8000,
+  "weight_g": 532.0,
+  "os": "Android 13, OxygenOS 13.2",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5780",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Yes - cellular model only"
+  },
+  "soc": "helio-g99",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1720 x 2408 pixels (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

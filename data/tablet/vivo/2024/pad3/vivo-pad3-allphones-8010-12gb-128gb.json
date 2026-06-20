@@ -1,0 +1,43 @@
+{
+  "slug": "vivo-pad3-allphones-8010-12gb-128gb",
+  "base_model_slug": "pad3",
+  "name": "vivo Pad3",
+  "brand": "vivo",
+  "release_date": "2024-07-05",
+  "ram_gb": 12,
+  "battery_mah": 10000,
+  "weight_g": 589.2,
+  "os": "Android 14, OriginOS 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8010",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1968 x 2800 pixels (~283 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

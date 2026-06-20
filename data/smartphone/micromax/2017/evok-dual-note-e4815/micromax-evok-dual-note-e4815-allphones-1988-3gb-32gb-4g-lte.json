@@ -1,0 +1,45 @@
+{
+  "slug": "micromax-evok-dual-note-e4815-allphones-1988-3gb-32gb-4g-lte",
+  "base_model_slug": "evok-dual-note-e4815",
+  "name": "Micromax Evok Dual Note E4815",
+  "brand": "micromax",
+  "release_date": "2017-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3000,
+  "weight_g": 150.0,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1988",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6750t",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

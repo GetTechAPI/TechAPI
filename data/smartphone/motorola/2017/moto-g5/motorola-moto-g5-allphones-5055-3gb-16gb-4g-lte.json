@@ -1,0 +1,46 @@
+{
+  "slug": "motorola-moto-g5-allphones-5055-3gb-16gb-4g-lte",
+  "base_model_slug": "moto-g5",
+  "name": "Motorola Moto G5",
+  "brand": "motorola",
+  "release_date": "2017-01-01",
+  "ram_gb": 3,
+  "battery_mah": 2800,
+  "weight_g": 145.0,
+  "os": "Android 7.0 (Nougat), upgradable to Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5055",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8937-snapdragon-430",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

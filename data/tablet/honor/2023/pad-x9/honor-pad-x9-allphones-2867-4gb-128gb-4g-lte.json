@@ -1,0 +1,45 @@
+{
+  "slug": "honor-pad-x9-allphones-2867-4gb-128gb-4g-lte",
+  "base_model_slug": "pad-x9",
+  "name": "Honor Pad X9",
+  "brand": "honor",
+  "release_date": "2023-01-01",
+  "ram_gb": 4,
+  "battery_mah": 7250,
+  "weight_g": 495.0,
+  "os": "Android 13, MagicOS 7.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2867",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~203 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

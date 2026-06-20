@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-s19-pro-allphones-8003-16gb-256gb-5g",
+  "base_model_slug": "s19-pro",
+  "name": "vivo S19 Pro",
+  "brand": "vivo",
+  "release_date": "2024-05-28",
+  "ram_gb": 16,
+  "battery_mah": 5500,
+  "weight_g": 192.0,
+  "os": "Android 14, OriginOS 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8003",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-9200-plus",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1260 x 2800 pixels, 20:9 ratio (~453 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), 1/1.56\", PDAF, OIS, 50 MP, f/1.9, (telephoto), PDAF, OIS, 2x optical zoom, 8 MP, f/2.2, 106˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "50 MP, f/2.0, 22mm (wide), AF"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "google-pixel-8a-allphones-2654-8gb-128gb-5g",
+  "base_model_slug": "pixel-8a",
+  "name": "Google Pixel 8a",
+  "brand": "google",
+  "release_date": "2024-05-14",
+  "ram_gb": 8,
+  "battery_mah": 4492,
+  "weight_g": 188.0,
+  "os": "Android 14, upgradable to Android 15, up to 7 major Android upgrades",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2654",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "tensor-g3",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~430 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP (16 MP eff.), f/1.9, 26mm (wide), 1/1.73\", 0.8µm, dual pixel PDAF, OIS, 13 MP, f/2.2, 120˚ (ultrawide), 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.2, 20mm (ultrawide), 1.12µm"
+    }
+  ]
+}

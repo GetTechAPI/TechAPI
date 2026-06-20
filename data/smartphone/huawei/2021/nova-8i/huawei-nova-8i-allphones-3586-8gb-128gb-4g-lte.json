@@ -1,0 +1,45 @@
+{
+  "slug": "huawei-nova-8i-allphones-3586-8gb-128gb-4g-lte",
+  "base_model_slug": "nova-8i",
+  "name": "Huawei nova 8i",
+  "brand": "huawei",
+  "release_date": "2021-07-22",
+  "ram_gb": 8,
+  "battery_mah": 4300,
+  "weight_g": 190.0,
+  "os": "Android 10, EMUI 11, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3586",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-662",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2376 pixels (~391 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, 26mm (wide), PDAF, 8 MP, f/2.4, 120˚, 17mm (ultrawide), 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

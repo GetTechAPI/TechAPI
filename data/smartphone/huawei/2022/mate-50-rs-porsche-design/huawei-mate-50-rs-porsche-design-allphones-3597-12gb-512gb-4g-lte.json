@@ -1,0 +1,45 @@
+{
+  "slug": "huawei-mate-50-rs-porsche-design-allphones-3597-12gb-512gb-4g-lte",
+  "base_model_slug": "mate-50-rs-porsche-design",
+  "name": "Huawei Mate 50 RS Porsche Design",
+  "brand": "huawei",
+  "release_date": "2022-09-01",
+  "ram_gb": 12,
+  "battery_mah": 4700,
+  "weight_g": 232.0,
+  "os": "HarmonyOS 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3597",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 512
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-8-plus-gen-1",
+  "storage_options_gb": [
+    512
+  ],
+  "display": {
+    "resolution": "1212 x 2616 pixels, 19.5:9 ratio (~428 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, OIS, 48 MP, f/3.0, 90mm (periscope telephoto macro), PDAF, OIS, 3.5x optical zoom, 13 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide), TOF 3D, (depth/biometrics sensor)"
+    }
+  ]
+}

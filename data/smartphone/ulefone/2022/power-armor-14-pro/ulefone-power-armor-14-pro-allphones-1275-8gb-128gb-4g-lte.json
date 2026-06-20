@@ -1,0 +1,45 @@
+{
+  "slug": "ulefone-power-armor-14-pro-allphones-1275-8gb-128gb-4g-lte",
+  "base_model_slug": "power-armor-14-pro",
+  "name": "Ulefone Power Armor 14 Pro",
+  "brand": "ulefone",
+  "release_date": "2022-03-09",
+  "ram_gb": 8,
+  "battery_mah": 10000,
+  "weight_g": 358.2,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1275",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-helio-g85",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "20 MP, f/1.8, 26mm (wide), 1/2.78\", 1.0µm, PDAF, 2 MP, f/2.8, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.2"
+    }
+  ]
+}

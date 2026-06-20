@@ -1,0 +1,45 @@
+{
+  "slug": "coolpad-defiant-allphones-2102-1gb-8gb-4g-lte",
+  "base_model_slug": "defiant",
+  "name": "Coolpad Defiant",
+  "brand": "coolpad",
+  "release_date": "2017-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2450,
+  "weight_g": 184.3,
+  "os": "Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2102",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8917-snapdragon-425",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

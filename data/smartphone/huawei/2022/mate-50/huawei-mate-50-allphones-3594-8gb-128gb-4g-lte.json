@@ -1,0 +1,47 @@
+{
+  "slug": "huawei-mate-50-allphones-3594-8gb-128gb-4g-lte",
+  "base_model_slug": "mate-50",
+  "name": "Huawei Mate 50",
+  "brand": "huawei",
+  "release_date": "2022-09-01",
+  "ram_gb": 8,
+  "battery_mah": 4460,
+  "weight_g": 202.0,
+  "os": "EMUI 13 (International); HarmonyOS 3.0 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3594",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-8-plus-gen-1",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1224 x 2700 pixels (~442 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, 12 MP, f/3.4, 125mm (periscope telephoto), PDAF, OIS, 5x optical zoom, 13 MP, f/2.2, 13mm, 120˚ (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide)"
+    }
+  ]
+}

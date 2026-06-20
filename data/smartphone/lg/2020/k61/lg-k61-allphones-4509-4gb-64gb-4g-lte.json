@@ -1,0 +1,46 @@
+{
+  "slug": "lg-k61-allphones-4509-4gb-64gb-4g-lte",
+  "base_model_slug": "k61",
+  "name": "LG K61",
+  "brand": "lg",
+  "release_date": "2020-05-01",
+  "ram_gb": 4,
+  "battery_mah": 4000,
+  "weight_g": 191.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4509",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "helio-p35",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~394 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, f/2.2, 118˚, (ultrawide), 2 MP, f/2.4, (macro), 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP"
+    }
+  ]
+}

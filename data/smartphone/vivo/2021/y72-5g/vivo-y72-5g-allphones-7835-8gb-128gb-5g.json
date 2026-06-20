@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-y72-5g-allphones-7835-8gb-128gb-5g",
+  "base_model_slug": "y72-5g",
+  "name": "vivo Y72 5G",
+  "brand": "vivo",
+  "release_date": "2021-03-22",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 193.0,
+  "os": "Android 11, Funtouch 11.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7835",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-700",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.7X\", 0.8µm, PDAF, 8 MP, f/2.2, 120˚, 16mm (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

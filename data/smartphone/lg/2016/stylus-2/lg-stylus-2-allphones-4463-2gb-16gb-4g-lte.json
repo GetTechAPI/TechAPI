@@ -1,0 +1,45 @@
+{
+  "slug": "lg-stylus-2-allphones-4463-2gb-16gb-4g-lte",
+  "base_model_slug": "stylus-2",
+  "name": "LG Stylus 2",
+  "brand": "lg",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 142.0,
+  "os": "Android 6.0 (Marshmallow), upgradable to Android 7.0 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4463",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "qualcomm-msm8916-snapdragon-410",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~258 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

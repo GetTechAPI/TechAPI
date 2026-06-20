@@ -1,0 +1,46 @@
+{
+  "slug": "oppo-k9-pro-allphones-5909-12gb-128gb-5g",
+  "base_model_slug": "k9-pro",
+  "name": "Oppo K9 Pro",
+  "brand": "oppo",
+  "release_date": "2021-09-01",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 180.0,
+  "os": "Android 11, ColorOS 11.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5909",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-1200",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.7, 26mm (wide), PDAF, 8 MP, f/2.2, 119˚ (ultrawide), 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.4, (wide)"
+    }
+  ]
+}

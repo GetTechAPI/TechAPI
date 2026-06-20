@@ -1,0 +1,42 @@
+{
+  "slug": "xiaomi-pad-6-allphones-8409-8gb-128gb",
+  "base_model_slug": "pad-6",
+  "name": "Xiaomi Pad 6",
+  "brand": "xiaomi",
+  "release_date": "2023-04-18",
+  "ram_gb": 8,
+  "battery_mah": 8840,
+  "weight_g": 490.0,
+  "os": "Android 13, MIUI Pad 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8409",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "sim": "No"
+  },
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1800 x 2880 pixels, 16:10 ratio (~309 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 1/4.0\", 1.12µm"
+    }
+  ]
+}

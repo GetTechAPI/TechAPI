@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-u10-allphones-7670-6gb-32gb-4g-lte",
+  "base_model_slug": "u10",
+  "name": "vivo U10",
+  "brand": "vivo",
+  "release_date": "2019-09-24",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 190.5,
+  "os": "Android 9.0 (Pie), Funtouch 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7670",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-665",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1544 pixels, 19.3:9 ratio (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), PDAF, 8 MP, f/2.2, 13mm (ultrawide), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/1.8"
+    }
+  ]
+}

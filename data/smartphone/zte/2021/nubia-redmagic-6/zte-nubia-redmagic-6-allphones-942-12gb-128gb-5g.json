@@ -1,0 +1,46 @@
+{
+  "slug": "zte-nubia-redmagic-6-allphones-942-12gb-128gb-5g",
+  "base_model_slug": "nubia-redmagic-6",
+  "name": "ZTE nubia RedMagic 6",
+  "brand": "zte",
+  "release_date": "2021-03-11",
+  "ram_gb": 12,
+  "battery_mah": 5050,
+  "weight_g": 220.0,
+  "os": "Android 11, Redmagic 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:942",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-888",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~387 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.97\", 0.7µm, PDAF, 8 MP, f/2.0, 120˚, 13mm (ultrawide), 1/4.0\", 1.12µm, 2 MP, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

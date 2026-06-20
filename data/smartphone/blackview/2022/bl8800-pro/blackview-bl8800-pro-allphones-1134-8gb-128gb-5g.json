@@ -1,0 +1,45 @@
+{
+  "slug": "blackview-bl8800-pro-allphones-1134-8gb-128gb-5g",
+  "base_model_slug": "bl8800-pro",
+  "name": "Blackview BL8800 Pro",
+  "brand": "blackview",
+  "release_date": "2022-05-09",
+  "ram_gb": 8,
+  "battery_mah": 8380,
+  "weight_g": 367.0,
+  "os": "Android 11, Doke-OS 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1134",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-700",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 5 MP, thermal assisted camera, FLIR thermal camera (Lepton module), 2x 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

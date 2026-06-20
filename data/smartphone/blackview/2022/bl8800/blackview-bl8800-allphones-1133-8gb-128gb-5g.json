@@ -1,0 +1,45 @@
+{
+  "slug": "blackview-bl8800-allphones-1133-8gb-128gb-5g",
+  "base_model_slug": "bl8800",
+  "name": "Blackview BL8800",
+  "brand": "blackview",
+  "release_date": "2022-05-09",
+  "ram_gb": 8,
+  "battery_mah": 8380,
+  "weight_g": 367.0,
+  "os": "Android 11, Doke-OS 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1133",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-700",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), PDAF, 8 MP, f/2.2, 117˚ (ultrawide), 20 MP, f/1.8, (IR camera), 2 IR emitters, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide)"
+    }
+  ]
+}

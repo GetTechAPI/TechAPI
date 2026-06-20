@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-mate-40e-4g-allphones-3584-8gb-128gb-4g-lte",
+  "base_model_slug": "mate-40e-4g",
+  "name": "Huawei Mate 40E 4G",
+  "brand": "huawei",
+  "release_date": "2021-06-01",
+  "ram_gb": 8,
+  "battery_mah": 4200,
+  "weight_g": 188.0,
+  "os": "HarmonyOS 2.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3584",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2376 pixels (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, 27mm (wide), PDAF, 8 MP, f/2.4, 85mm (telephoto), PDAF, OIS, 3x optical zoom, 16 MP, f/2.2, 17mm (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.4, 18mm (ultrawide)"
+    }
+  ]
+}

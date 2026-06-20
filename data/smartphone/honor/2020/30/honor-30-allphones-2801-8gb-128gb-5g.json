@@ -1,0 +1,46 @@
+{
+  "slug": "honor-30-allphones-2801-8gb-128gb-5g",
+  "base_model_slug": "30",
+  "name": "Honor 30",
+  "brand": "honor",
+  "release_date": "2020-01-01",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 185.0,
+  "os": "Android 10, Magic UI 3, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2801",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "kirin-985",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "40 MP, f/1.8, 27mm (wide), 1/1.7\", PDAF, 8 MP, f/3.4, 125mm (Periscope telephoto), PDAF, OIS, 5x optical zoom, 8 MP, f/2.4, 17mm (ultrawide), 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

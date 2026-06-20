@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-phantom-9-allphones-762-6gb-128gb-4g-lte",
+  "base_model_slug": "phantom-9",
+  "name": "Tecno Phantom 9",
+  "brand": "tecno",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3500,
+  "weight_g": 164.4,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:762",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6765-helio-p35",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, PDAF, 8 MP, f/2.4, 13mm (ultrawide), 2 MP, f/2.8, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 26mm (wide), 1/2.8\", 0.8µm"
+    }
+  ]
+}

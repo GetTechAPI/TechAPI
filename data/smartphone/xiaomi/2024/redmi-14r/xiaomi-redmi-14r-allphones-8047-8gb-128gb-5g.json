@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-redmi-14r-allphones-8047-8gb-128gb-5g",
+  "base_model_slug": "redmi-14r",
+  "name": "Xiaomi Redmi 14R",
+  "brand": "xiaomi",
+  "release_date": "2024-09-28",
+  "ram_gb": 8,
+  "battery_mah": 5160,
+  "weight_g": 212.4,
+  "os": "Android 14, HyperOS",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8047",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "720 x 1640 pixels (~260 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, (wide), AF, 2 MP, Auxiliary lens"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

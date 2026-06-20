@@ -1,0 +1,45 @@
+{
+  "slug": "infinix-zero-8-allphones-857-8gb-128gb-4g-lte",
+  "base_model_slug": "zero-8",
+  "name": "Infinix Zero 8",
+  "brand": "infinix",
+  "release_date": "2020-01-01",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 205.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:857",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g90t",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2460 pixels (~392 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, (wide), 1/1.73\", 0.8µm, PDAF, 8 MP, f/2.3, (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (depth), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "48 MP, f/2.2, (wide), 1/2.0\", 0.8µm, 8 MP, f/2.2, (ultrawide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

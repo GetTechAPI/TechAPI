@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-15-plus-allphones-2373-6gb-64gb-4g-lte",
+  "base_model_slug": "15-plus",
+  "name": "Meizu 15 Plus",
+  "brand": "meizu",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3500,
+  "weight_g": 177.0,
+  "os": "Android 7.1.2 (Nougat), Flyme 7.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2373",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "exynos-8895",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~494 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 1/2.3\", 1.55 µm, dual pixel PDAF, 4-axis OIS, 20 MP, 1/2.8\", 1.0 µm, AF, portraits only"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide), 1/2.8\", 1.0µm"
+    }
+  ]
+}

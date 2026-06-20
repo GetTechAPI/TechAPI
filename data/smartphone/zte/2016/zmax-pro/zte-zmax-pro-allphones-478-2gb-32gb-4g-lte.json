@@ -1,0 +1,45 @@
+{
+  "slug": "zte-zmax-pro-allphones-478-2gb-32gb-4g-lte",
+  "base_model_slug": "zmax-pro",
+  "name": "ZTE Zmax Pro",
+  "brand": "zte",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 3400,
+  "weight_g": 174.9,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:478",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8952-snapdragon-617",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 20mm (ultrawide), PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

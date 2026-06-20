@@ -1,0 +1,46 @@
+{
+  "slug": "oneplus-7-pro-5g-allphones-5818-12gb-128gb-5g",
+  "base_model_slug": "7-pro-5g",
+  "name": "OnePlus 7 Pro 5G",
+  "brand": "oneplus",
+  "release_date": "2019-01-01",
+  "ram_gb": 12,
+  "battery_mah": 4000,
+  "weight_g": 206.0,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, OxygenOS 10.0.4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5818",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-855",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1440 x 3120 pixels, 19.5:9 ratio (~515 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.6, (wide), 1/2.0\", 0.8µm, PDAF, OIS, 8 MP, f/2.4, 78mm (telephoto), 3x zoom, PDAF, OIS, 16 MP, f/2.2, 13mm (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "Motorized pop-up 16 MP, f/2.0, 25mm (wide), 1/3.06\", 1.0µm"
+    }
+  ]
+}

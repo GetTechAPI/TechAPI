@@ -1,0 +1,45 @@
+{
+  "slug": "infinix-hot-12-pro-allphones-1329-8gb-128gb-4g-lte",
+  "base_model_slug": "hot-12-pro",
+  "name": "Infinix Hot 12 Pro",
+  "brand": "infinix",
+  "release_date": "2022-08-02",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 191.0,
+  "os": "Android 12, XOS 10.6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1329",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-tiger-t616",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1612 pixels, 20:9 ratio (~267 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, (wide), AF, QVGA"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP"
+    }
+  ]
+}

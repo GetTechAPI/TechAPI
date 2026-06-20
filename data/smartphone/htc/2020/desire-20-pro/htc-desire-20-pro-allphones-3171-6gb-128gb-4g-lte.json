@@ -1,0 +1,45 @@
+{
+  "slug": "htc-desire-20-pro-allphones-3171-6gb-128gb-4g-lte",
+  "base_model_slug": "desire-20-pro",
+  "name": "HTC Desire 20 Pro",
+  "brand": "htc",
+  "release_date": "2020-01-01",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 201.0,
+  "os": "Android 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3171",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sm6125-snapdragon-665",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~396 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 26mm (wide), 1/2.0\", 0.8µm, PDAF, 8 MP, f/2.2, 118˚ (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.0, (wide)"
+    }
+  ]
+}

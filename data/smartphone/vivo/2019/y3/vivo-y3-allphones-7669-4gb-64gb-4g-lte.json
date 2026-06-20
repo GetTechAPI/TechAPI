@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-y3-allphones-7669-4gb-64gb-4g-lte",
+  "base_model_slug": "y3",
+  "name": "vivo Y3 (4GB+64GB)",
+  "brand": "vivo",
+  "release_date": "2019-01-01",
+  "ram_gb": 4,
+  "battery_mah": 5000,
+  "weight_g": 190.0,
+  "os": "Android 9.0 (Pie), Funtouch 9.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7669",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6765-helio-p35",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1544 pixels, 19.3:9 ratio (~268 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), PDAF, 8 MP, f/2.2, 13mm (ultrawide), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/1.8"
+    }
+  ]
+}

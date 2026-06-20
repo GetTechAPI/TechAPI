@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-lumia-640-xl-lte-allphones-2203-1gb-8gb-4g-lte",
+  "base_model_slug": "lumia-640-xl-lte",
+  "name": "Microsoft Lumia 640 XL LTE",
+  "brand": "microsoft",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 3000,
+  "weight_g": 171.0,
+  "os": "Microsoft Windows Phone 8.1, upgradable to Microsoft Windows 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2203",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "qualcomm-msm8226-snapdragon-400",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~259 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 28mm (wide), 1/3.0\", AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-matepad-air-allphones-3208-12gb-128gb-4g-lte",
+  "base_model_slug": "matepad-air",
+  "name": "Huawei MatePad Air",
+  "brand": "huawei",
+  "release_date": "2023-07-22",
+  "ram_gb": 12,
+  "battery_mah": 8300,
+  "weight_g": 508.0,
+  "os": "HarmonyOS 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3208",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "2800 x 1840 pixels, 3:2 ratio (~291 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 105˚ (ultrawide)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "lenovo-phab2-allphones-3824-3gb-32gb-4g-lte",
+  "base_model_slug": "phab2",
+  "name": "Lenovo Phab2",
+  "brand": "lenovo",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 4050,
+  "weight_g": 225.0,
+  "os": "Android 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3824",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Hybrid Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt8735",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~229 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

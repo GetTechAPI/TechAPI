@@ -1,0 +1,45 @@
+{
+  "slug": "alcatel-pixi-3-allphones-1491-1gb-8gb-3g",
+  "base_model_slug": "pixi-3",
+  "name": "alcatel Pixi 3 (5.5)",
+  "brand": "alcatel",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2910,
+  "weight_g": 150.0,
+  "os": "Android 5.0 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1491",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Micro-SIM"
+  },
+  "soc": "mediatek-mt8127",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "540 x 960 pixels, 16:9 ratio (~200 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "motorola-moto-g53-allphones-5151-8gb-64gb-5g",
+  "base_model_slug": "moto-g53",
+  "name": "Motorola Moto G53",
+  "brand": "motorola",
+  "release_date": "2023-01-01",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 183.0,
+  "os": "Android 13, planned upgrade to Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5151",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-480-plus",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8 (wide), 1/2.76\", 0.64µm, PDAF, 2 MP, f/2.4, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm, or, 16 MP, f/2.2, (wide), 1.0µm"
+    }
+  ]
+}

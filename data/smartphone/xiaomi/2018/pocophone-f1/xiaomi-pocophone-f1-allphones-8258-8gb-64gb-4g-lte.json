@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-pocophone-f1-allphones-8258-8gb-64gb-4g-lte",
+  "base_model_slug": "pocophone-f1",
+  "name": "Xiaomi Pocophone F1",
+  "brand": "xiaomi",
+  "release_date": "2018-01-01",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 182.0,
+  "os": "Android 8.1 (Oreo), upgradable to Android 10, MIUI 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8258",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm845-snapdragon-845",
+  "storage_options_gb": [
+    64,
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2246 pixels, 18.7:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF, 5 MP, f/2.0, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide), 1/3\", 0.9µm"
+    }
+  ]
+}

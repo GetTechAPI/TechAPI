@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-mix-fold-2-allphones-8385-12gb-256gb-5g",
+  "base_model_slug": "mix-fold-2",
+  "name": "Xiaomi Mix Fold 2",
+  "brand": "xiaomi",
+  "release_date": "2022-08-26",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 262.0,
+  "os": "Android 12, MIUI Fold 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8385",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1914 x 2160 pixels (~360 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, PDAF, OIS, 8 MP, f/2.6, 45mm (telephoto), dual pixel PDAF, 2x optical zoom, 13 MP, f/2.4, 15mm, 123˚ (ultrawide), 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.4, 23mm (wide)"
+    }
+  ]
+}

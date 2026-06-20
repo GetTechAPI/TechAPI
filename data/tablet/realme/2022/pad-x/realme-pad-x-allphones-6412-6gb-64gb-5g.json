@@ -1,0 +1,46 @@
+{
+  "slug": "realme-pad-x-allphones-6412-6gb-64gb-5g",
+  "base_model_slug": "pad-x",
+  "name": "Realme Pad X",
+  "brand": "realme",
+  "release_date": "2022-01-01",
+  "ram_gb": 6,
+  "battery_mah": 8340,
+  "weight_g": 499.0,
+  "os": "Android, Realme UI 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6412",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM (cellular model only)"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1200 x 2000 pixels, 5:3 ratio (~213 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 105˚ (ultrawide)"
+    }
+  ]
+}

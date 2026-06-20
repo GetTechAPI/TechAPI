@@ -1,0 +1,45 @@
+{
+  "slug": "honor-5a-allphones-2760-2gb-16gb-4g-lte",
+  "base_model_slug": "5a",
+  "name": "Honor 5A",
+  "brand": "honor",
+  "release_date": "2016-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2200,
+  "weight_g": 140.0,
+  "os": "Android 5.1 (Lollipop), EMUI 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2760",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "mediatek-mt6735p",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 28mm (wide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP"
+    }
+  ]
+}

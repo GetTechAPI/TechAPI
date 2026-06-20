@@ -1,0 +1,46 @@
+{
+  "slug": "realme-c35-allphones-6391-6gb-64gb-4g-lte",
+  "base_model_slug": "c35",
+  "name": "Realme C35",
+  "brand": "realme",
+  "release_date": "2022-02-14",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 189.0,
+  "os": "Android 11, Realme UI 2.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6391",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-tiger-t616",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 26mm (wide), 1/2.76\", 0.64µm, PDAF, 2 MP, f/2.4, (macro), 0.3 MP, f/2.8, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 26mm (wide), 1/4.0\", 1.12µm"
+    }
+  ]
+}

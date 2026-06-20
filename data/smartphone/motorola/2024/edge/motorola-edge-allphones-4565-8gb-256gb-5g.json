@@ -1,0 +1,45 @@
+{
+  "slug": "motorola-edge-allphones-4565-8gb-256gb-5g",
+  "base_model_slug": "edge",
+  "name": "Motorola Edge (2023)",
+  "brand": "motorola",
+  "release_date": "2024-01-01",
+  "ram_gb": 8,
+  "battery_mah": 4400,
+  "weight_g": 168.0,
+  "os": "Android 13, planned upgrade to Android 14",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:4565",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-7s-gen-2",
+  "storage_options_gb": [
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.4, (wide), 1/1.5\", 1.0µm, multi-directional PDAF, OIS, 13 MP, f/2.2, 120˚ (ultrawide), 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, (wide), 0.8µm"
+    }
+  ]
+}

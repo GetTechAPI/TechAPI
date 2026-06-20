@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-matepad-t8-allphones-3565-3gb-16gb-4g-lte",
+  "base_model_slug": "matepad-t8",
+  "name": "Huawei MatePad T8",
+  "brand": "huawei",
+  "release_date": "2020-01-01",
+  "ram_gb": 3,
+  "battery_mah": 5100,
+  "weight_g": 310.0,
+  "os": "Android 10, EMUI 10, no Google Play Services",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3565",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM (cellular model only)"
+  },
+  "soc": "mediatek-mt8768",
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "display": {
+    "resolution": "800 x 1280 pixels, 16:10 ratio (~189 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, f/2.2"
+    },
+    {
+      "type": "selfie",
+      "raw": "2 MP, f/2.4"
+    }
+  ]
+}

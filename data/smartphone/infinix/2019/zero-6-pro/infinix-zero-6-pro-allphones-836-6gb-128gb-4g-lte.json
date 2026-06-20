@@ -1,0 +1,45 @@
+{
+  "slug": "infinix-zero-6-pro-allphones-836-6gb-128gb-4g-lte",
+  "base_model_slug": "zero-6-pro",
+  "name": "Infinix Zero 6 Pro",
+  "brand": "infinix",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3650,
+  "weight_g": 178.0,
+  "os": "Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:836",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm636-snapdragon-636",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2246 pixels, 18.7:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, AF, 24 MP, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "20 MP, f/2.0, (wide)"
+    }
+  ]
+}

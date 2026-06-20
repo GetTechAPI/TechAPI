@@ -1,0 +1,46 @@
+{
+  "slug": "samsung-galaxy-a23-5g-allphones-6511-8gb-64gb-5g",
+  "base_model_slug": "galaxy-a23-5g",
+  "name": "Samsung Galaxy A23 5G",
+  "brand": "samsung",
+  "release_date": "2023-01-17",
+  "ram_gb": 8,
+  "battery_mah": 5000,
+  "weight_g": 197.0,
+  "os": "Android 12, upgradable to Android 14, One UI 6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6511",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-695",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 26mm (wide), 1/2.76\", 0.64µm, PDAF, OIS, 5 MP, f/2.2, 13mm, 123˚ (ultrawide), 1/5.0\", 1.12µm, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, 25mm (wide), 1/4.0\", 1.12µm - USA, 8 MP, f/2.2, 25mm (wide), 1/4.0\", 1.12µm - International"
+    }
+  ]
+}

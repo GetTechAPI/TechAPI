@@ -1,0 +1,45 @@
+{
+  "slug": "oppo-reno-a-allphones-6042-6gb-128gb-4g-lte",
+  "base_model_slug": "reno-a",
+  "name": "Oppo Reno A",
+  "brand": "oppo",
+  "release_date": "2019-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3600,
+  "weight_g": 169.5,
+  "os": "Android 9.0 (Pie), ColorOS 6",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6042",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm710-snapdragon-710",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, 1/2.8\", 1.12µm, PDAF, 2 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "25 MP, f/2.4, 1/2.8\", 0.9µm"
+    }
+  ]
+}

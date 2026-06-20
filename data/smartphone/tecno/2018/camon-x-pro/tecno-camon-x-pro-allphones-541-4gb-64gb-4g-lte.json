@@ -1,0 +1,45 @@
+{
+  "slug": "tecno-camon-x-pro-allphones-541-4gb-64gb-4g-lte",
+  "base_model_slug": "camon-x-pro",
+  "name": "Tecno Camon X Pro",
+  "brand": "tecno",
+  "release_date": "2018-01-01",
+  "ram_gb": 4,
+  "battery_mah": 3750,
+  "weight_g": 148.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:541",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6763t-helio-p23",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "24 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm"
+    }
+  ]
+}

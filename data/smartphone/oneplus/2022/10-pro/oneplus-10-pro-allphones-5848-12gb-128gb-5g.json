@@ -1,0 +1,47 @@
+{
+  "slug": "oneplus-10-pro-allphones-5848-12gb-128gb-5g",
+  "base_model_slug": "10-pro",
+  "name": "OnePlus 10 Pro",
+  "brand": "oneplus",
+  "release_date": "2022-01-13",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 201.0,
+  "os": "Android 12, upgradable to Android 14, OxygenOS 14 (International), ColorOS (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5848",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-8-gen-1",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1440 x 3216 pixels, 20:9 ratio (~525 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.8, 23mm (wide), 1/1.43\", 1.12µm, multi-directional PDAF, OIS, 8 MP, f/2.4, 77mm (telephoto), 1.0µm, PDAF, OIS, 3.3x optical zoom, 50 MP, f/2.2, 14mm, 150˚ (ultrawide), 1/2.76\", 0.64µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.2, (wide), 1/2.74\", 0.8µm"
+    }
+  ]
+}

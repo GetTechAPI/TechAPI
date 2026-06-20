@@ -1,0 +1,46 @@
+{
+  "slug": "vivo-s7t-allphones-7830-8gb-128gb-5g",
+  "base_model_slug": "s7t",
+  "name": "vivo S7t",
+  "brand": "vivo",
+  "release_date": "2021-02-04",
+  "ram_gb": 8,
+  "battery_mah": 4000,
+  "weight_g": 169.0,
+  "os": "Android 11, OriginOS 1.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7830",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-820",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 20:9 ratio (~409 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.9, 26mm (wide), 1/1.72\", 0.8µm, PDAF, 8 MP, f/2.2, 120˚, 16mm (ultrawide), 1/4.0\", 1.12µm, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "44 MP, f/2.0, (wide), AF, 8 MP, f/2.3, 105˚ (ultrawide)"
+    }
+  ]
+}

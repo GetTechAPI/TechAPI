@@ -1,0 +1,46 @@
+{
+  "slug": "htc-10-lifestyle-allphones-3157-3gb-32gb-4g-lte",
+  "base_model_slug": "10-lifestyle",
+  "name": "HTC 10 Lifestyle",
+  "brand": "htc",
+  "release_date": "2016-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3000,
+  "weight_g": 161.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat), Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3157",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-msm8976-snapdragon-652",
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~565 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 26mm (wide), 1/2.3\", 1.55µm, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/1.8, 23mm (wide), 1/4.1\", 1.34µm, OIS, AF"
+    }
+  ]
+}

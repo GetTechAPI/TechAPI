@@ -1,0 +1,45 @@
+{
+  "slug": "htc-wildfire-e2-plus-allphones-3181-4gb-64gb-4g-lte",
+  "base_model_slug": "wildfire-e2-plus",
+  "name": "HTC Wildfire E2 Plus",
+  "brand": "htc",
+  "release_date": "2021-12-14",
+  "ram_gb": 4,
+  "battery_mah": 4600,
+  "weight_g": 210.0,
+  "os": "Android 11",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3181",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "unisoc-tiger-t610",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1640 pixels (~263 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, (wide), PDAF, 5 MP, (ultrawide), 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, (wide)"
+    }
+  ]
+}

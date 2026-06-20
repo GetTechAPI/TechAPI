@@ -1,0 +1,45 @@
+{
+  "slug": "nokia-3-v-allphones-5697-2gb-16gb-4g-lte",
+  "base_model_slug": "3-v",
+  "name": "Nokia 3 V",
+  "brand": "nokia",
+  "release_date": "2020-08-20",
+  "ram_gb": 2,
+  "battery_mah": 4000,
+  "weight_g": 188.6,
+  "os": "Android 9.0 (Pie), upgradable to Android 10, Android One",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5697",
+    "memory": {
+      "ram_gb": 2,
+      "storage_gb": 16
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-sdm429-snapdragon-429",
+  "storage_options_gb": [
+    16
+  ],
+  "display": {
+    "resolution": "720 x 1520 pixels, 19:9 ratio (~269 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.2, 1/3.1\", 1.12µm, AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2, 27mm (wide), 1/5.0\", 1.12µm"
+    }
+  ]
+}

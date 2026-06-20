@@ -1,0 +1,47 @@
+{
+  "slug": "realme-13-pro-allphones-6452-12gb-128gb-5g",
+  "base_model_slug": "13-pro",
+  "name": "Realme 13 Pro",
+  "brand": "realme",
+  "release_date": "2024-01-01",
+  "ram_gb": 12,
+  "battery_mah": 5200,
+  "weight_g": 183.5,
+  "os": "Android 14, Realme UI 5.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6452",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2412 pixels, 20:9 ratio (~394 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, 26mm (wide), 1/1.95\", 0.8µm, multi-directional PDAF, OIS, 8 MP, f/2.2, 16mm, 112˚ (ultrawide), 1/4.0\", 1.12µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.5, 22mm (wide)"
+    }
+  ]
+}

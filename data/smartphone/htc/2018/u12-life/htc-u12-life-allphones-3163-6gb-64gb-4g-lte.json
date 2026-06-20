@@ -1,0 +1,46 @@
+{
+  "slug": "htc-u12-life-allphones-3163-6gb-64gb-4g-lte",
+  "base_model_slug": "u12-life",
+  "name": "HTC U12 life",
+  "brand": "htc",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3600,
+  "weight_g": 175.0,
+  "os": "Android 8.1 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3163",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-sdm636-snapdragon-636",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.0, PDAF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "13 MP, f/2.0"
+    }
+  ]
+}

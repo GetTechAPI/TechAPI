@@ -1,0 +1,46 @@
+{
+  "slug": "xiaomi-mi-note-3-allphones-8237-6gb-64gb-4g-lte",
+  "base_model_slug": "mi-note-3",
+  "name": "Xiaomi Mi Note 3",
+  "brand": "xiaomi",
+  "release_date": "2017-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3500,
+  "weight_g": 163.0,
+  "os": "Android 7.1 (Nougat), upgradable to Android 9, MIUI 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8237",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm660-snapdragon-660",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 27mm (wide), PDAF, 4-axis OIS, 12 MP, f/2.6, 52mm (telephoto), AF, 2x optical zoom"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.5, (wide), 1/3.06\" 1.0µm"
+    }
+  ]
+}

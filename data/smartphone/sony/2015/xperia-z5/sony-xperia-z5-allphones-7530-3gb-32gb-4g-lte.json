@@ -1,0 +1,45 @@
+{
+  "slug": "sony-xperia-z5-allphones-7530-3gb-32gb-4g-lte",
+  "base_model_slug": "xperia-z5",
+  "name": "Sony Xperia Z5",
+  "brand": "sony",
+  "release_date": "2015-10-29",
+  "ram_gb": 3,
+  "battery_mah": 2900,
+  "weight_g": 154.0,
+  "os": "Android 5.1.1 (Lollipop), upgradable to 7.1.1 (Nougat)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7530",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "snapdragon-810",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~428 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "5.1 MP, f/2.4"
+    }
+  ]
+}

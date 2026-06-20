@@ -1,0 +1,45 @@
+{
+  "slug": "infinix-smart-6-plus-allphones-1328-3gb-64gb-4g-lte",
+  "base_model_slug": "smart-6-plus",
+  "name": "Infinix Smart 6 Plus (India)",
+  "brand": "infinix",
+  "release_date": "2024-03-03",
+  "ram_gb": 3,
+  "battery_mah": 5000,
+  "weight_g": 202.0,
+  "os": "Android 12 (Go edition)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1328",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "helio-g25",
+  "storage_options_gb": [
+    64
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~257 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.0, AF, 0.3 MP, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.0"
+    }
+  ]
+}

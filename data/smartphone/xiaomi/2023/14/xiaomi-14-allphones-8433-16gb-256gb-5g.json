@@ -1,0 +1,47 @@
+{
+  "slug": "xiaomi-14-allphones-8433-16gb-256gb-5g",
+  "base_model_slug": "14",
+  "name": "Xiaomi 14",
+  "brand": "xiaomi",
+  "release_date": "2023-01-01",
+  "ram_gb": 16,
+  "battery_mah": 4610,
+  "weight_g": 188.0,
+  "os": "Android 14, upgradable to Android 15, up to 4 major Android upgrades, HyperOS 1.1",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:8433",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM +"
+  },
+  "soc": "snapdragon-8-gen-3",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1200 x 2670 pixels, 20:9 ratio (~460 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 23mm (wide), 1/1.31\", 1.2µm, dual pixel PDAF, OIS, 50 MP, f/2.0, 75mm (telephoto), PDAF (10cm - ∞), OIS, 3.2x optical zoom, 50 MP, f/2.2, 14mm, 115˚ (ultrawide)"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.0, 22mm (wide), 0.7µm"
+    }
+  ]
+}

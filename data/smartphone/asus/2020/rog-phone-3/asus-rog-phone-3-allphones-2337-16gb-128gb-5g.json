@@ -1,0 +1,47 @@
+{
+  "slug": "asus-rog-phone-3-allphones-2337-16gb-128gb-5g",
+  "base_model_slug": "rog-phone-3",
+  "name": "Asus ROG Phone 3",
+  "brand": "asus",
+  "release_date": "2020-08-01",
+  "ram_gb": 16,
+  "battery_mah": 6000,
+  "weight_g": 240.0,
+  "os": "Android 10, upgradable to Android 12, ROG UI",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2337",
+    "memory": {
+      "ram_gb": 16,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-865-plus",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2340 pixels, 19.5:9 ratio (~391 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "64 MP, f/1.8, 26mm (wide), 1/1.73\", 0.8µm, PDAF, 13 MP, f/2.4, 11mm, 125˚ (ultrawide), 5 MP, f/2.0, (macro)"
+    },
+    {
+      "type": "selfie",
+      "raw": "24 MP, f/2.0, 27mm (wide), 0.9µm"
+    }
+  ]
+}

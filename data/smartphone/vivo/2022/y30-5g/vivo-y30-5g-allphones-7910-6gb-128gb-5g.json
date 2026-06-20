@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-y30-5g-allphones-7910-6gb-128gb-5g",
+  "base_model_slug": "y30-5g",
+  "name": "vivo Y30 5G",
+  "brand": "vivo",
+  "release_date": "2022-07-25",
+  "ram_gb": 6,
+  "battery_mah": 5000,
+  "weight_g": 193.0,
+  "os": "Android 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7910",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-700",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~270 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 26mm (wide), PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.0, (wide)"
+    }
+  ]
+}

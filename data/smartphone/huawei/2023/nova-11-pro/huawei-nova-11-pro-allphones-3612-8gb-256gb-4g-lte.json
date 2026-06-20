@@ -1,0 +1,46 @@
+{
+  "slug": "huawei-nova-11-pro-allphones-3612-8gb-256gb-4g-lte",
+  "base_model_slug": "nova-11-pro",
+  "name": "Huawei nova 11 Pro",
+  "brand": "huawei",
+  "release_date": "2023-04-27",
+  "ram_gb": 8,
+  "battery_mah": 4500,
+  "weight_g": 188.0,
+  "os": "HarmonyOS 3.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:3612",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM"
+  },
+  "soc": "qualcomm-snapdragon",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1200 x 2652 pixels (~429 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.9, (wide), PDAF, 8 MP, f/2.2, 112˚ (ultrawide), AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "8 MP, f/2.2, 52mm (telephoto), AF, 2x optical zoom, 60 MP, f/2.4, 17mm, 100˚ (ultrawide), AF"
+    }
+  ]
+}

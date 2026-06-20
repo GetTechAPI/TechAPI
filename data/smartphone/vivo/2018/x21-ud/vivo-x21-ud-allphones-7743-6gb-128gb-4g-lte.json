@@ -1,0 +1,45 @@
+{
+  "slug": "vivo-x21-ud-allphones-7743-6gb-128gb-4g-lte",
+  "base_model_slug": "x21-ud",
+  "name": "vivo X21 UD",
+  "brand": "vivo",
+  "release_date": "2018-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3200,
+  "weight_g": 156.2,
+  "os": "Android 8.1 (Oreo), Funtouch 4",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:7743",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sdm660-snapdragon-660",
+  "storage_options_gb": [
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 2280 pixels, 19:9 ratio (~402 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, 5 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, f/2.0, (wide), 1/2.8\", 1.28µm"
+    }
+  ]
+}

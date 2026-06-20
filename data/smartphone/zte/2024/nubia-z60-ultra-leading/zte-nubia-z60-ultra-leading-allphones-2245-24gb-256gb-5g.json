@@ -1,0 +1,47 @@
+{
+  "slug": "zte-nubia-z60-ultra-leading-allphones-2245-24gb-256gb-5g",
+  "base_model_slug": "nubia-z60-ultra-leading",
+  "name": "ZTE nubia Z60 Ultra Leading",
+  "brand": "zte",
+  "release_date": "2024-08-12",
+  "ram_gb": 24,
+  "battery_mah": 6000,
+  "weight_g": 246.0,
+  "os": "Android 14, MyOS 14 (International), MyOS 14.5 (China)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2245",
+    "memory": {
+      "ram_gb": 24,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    256,
+    512,
+    1024
+  ],
+  "display": {
+    "resolution": "1116 x 2480 pixels, 20:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.6, 35mm (standard), 1/1.56\", 1.0µm, PDAF, OIS, 64 MP, f/3.3, 85mm (periscope telephoto), 1/2.0\", PDAF, OIS, 3.3x optical zoom (vs. 26mm cam), 50 MP, f/1.8, 18mm, 100˚ (ultrawide), 1/1.55\", 1.0µm, PDAF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP, under display"
+    }
+  ]
+}

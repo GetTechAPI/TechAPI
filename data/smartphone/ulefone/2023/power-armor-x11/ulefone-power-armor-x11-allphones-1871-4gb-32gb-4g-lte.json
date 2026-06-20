@@ -1,0 +1,45 @@
+{
+  "slug": "ulefone-power-armor-x11-allphones-1871-4gb-32gb-4g-lte",
+  "base_model_slug": "power-armor-x11",
+  "name": "Ulefone Power Armor X11",
+  "brand": "ulefone",
+  "release_date": "2023-06-18",
+  "ram_gb": 4,
+  "battery_mah": 8150,
+  "weight_g": 330.0,
+  "os": "Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:1871",
+    "memory": {
+      "ram_gb": 4,
+      "storage_gb": 32
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6761-helio-a22",
+  "storage_options_gb": [
+    32
+  ],
+  "display": {
+    "resolution": "720 x 1440 pixels, 18:9 ratio (~295 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/1.8, (wide), 1.12µm, PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "5 MP, f/2.2"
+    }
+  ]
+}

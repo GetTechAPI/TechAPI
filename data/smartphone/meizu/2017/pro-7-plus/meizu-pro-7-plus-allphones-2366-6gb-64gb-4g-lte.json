@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-pro-7-plus-allphones-2366-6gb-64gb-4g-lte",
+  "base_model_slug": "pro-7-plus",
+  "name": "Meizu Pro 7 Plus",
+  "brand": "meizu",
+  "release_date": "2017-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3500,
+  "weight_g": 170.0,
+  "os": "Android 7.0 (Nougat), Flyme 7.3",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2366",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "mediatek-mt6799-helio-x30",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1440 x 2560 pixels, 16:9 ratio (~518 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0, 1/2.9\", 1.25µm, PDAF"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, 26mm (wide), 1/3.06\", 1.0µm"
+    }
+  ]
+}

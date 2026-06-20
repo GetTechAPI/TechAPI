@@ -1,0 +1,46 @@
+{
+  "slug": "oppo-a97-allphones-6138-12gb-256gb-5g",
+  "base_model_slug": "a97",
+  "name": "Oppo A97",
+  "brand": "oppo",
+  "release_date": "2022-07-01",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 188.0,
+  "os": "Android 12, ColorOS 12",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6138",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "dimensity-810",
+  "storage_options_gb": [
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1080 x 2408 pixels, 20:9 ratio (~400 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, PDAF, 2 MP, f/2.4, (depth)"
+    },
+    {
+      "type": "selfie",
+      "raw": "12 MP"
+    }
+  ]
+}

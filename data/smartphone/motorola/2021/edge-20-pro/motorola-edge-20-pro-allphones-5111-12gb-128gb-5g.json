@@ -1,0 +1,46 @@
+{
+  "slug": "motorola-edge-20-pro-allphones-5111-12gb-128gb-5g",
+  "base_model_slug": "edge-20-pro",
+  "name": "Motorola Edge 20 Pro",
+  "brand": "motorola",
+  "release_date": "2021-08-16",
+  "ram_gb": 12,
+  "battery_mah": 4500,
+  "weight_g": 190.0,
+  "os": "Android 11, planned upgrade to Android 13",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5111",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "0",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2400 pixels, 19.5:9 ratio (~385 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "108 MP, f/1.9, (wide), 1/1.52\", 0.7µm, PDAF, 8 MP, f/3.4, 126mm (periscope telephoto), 1.0µm, 5x optical zoom, PDAF, OIS, 16 MP, f/2.2, 13mm, 119˚ (ultrawide), 1.0µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.3, (wide), 0.7µm"
+    }
+  ]
+}

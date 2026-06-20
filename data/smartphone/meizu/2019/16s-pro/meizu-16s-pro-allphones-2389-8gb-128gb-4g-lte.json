@@ -1,0 +1,46 @@
+{
+  "slug": "meizu-16s-pro-allphones-2389-8gb-128gb-4g-lte",
+  "base_model_slug": "16s-pro",
+  "name": "Meizu 16s Pro",
+  "brand": "meizu",
+  "release_date": "2019-01-01",
+  "ram_gb": 8,
+  "battery_mah": 3600,
+  "weight_g": 166.0,
+  "os": "Android 9.0 (Pie), Flyme 8",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2389",
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-sm8150-snapdragon-855",
+  "storage_options_gb": [
+    128,
+    256
+  ],
+  "display": {
+    "resolution": "1080 x 2232 pixels, 18.5:9 ratio (~403 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "48 MP, f/1.7, (wide), 1/2.0\", 0.8µm, PDAF, OIS, 20MP, f/2.6, (telephoto), 1/2.8\", 1.0µm, PDAF, 16 MP, f/2.2, 16mm (ultrawide), 1/3.6\", 1.0µm"
+    },
+    {
+      "type": "selfie",
+      "raw": "20MP, f/2.2"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "realme-gt2-pro-allphones-6389-12gb-128gb-5g",
+  "base_model_slug": "gt2-pro",
+  "name": "Realme GT2 Pro",
+  "brand": "realme",
+  "release_date": "2022-01-07",
+  "ram_gb": 12,
+  "battery_mah": 5000,
+  "weight_g": 199.0,
+  "os": "Android 12, upgradable to Android 13, Realme UI 4.0",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:6389",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 128
+    },
+    "network": {
+      "cellular": "5G"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "snapdragon-8-gen-1",
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
+  "display": {
+    "resolution": "1440 x 3216 pixels, 20:9 ratio (~526 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0µm, multi-directional PDAF, OIS, 50 MP, f/2.2, 15mm, 150˚ (ultrawide), 1/2.76\", 0.64µm, 3 MP, f/3.3, 20mm (microscope), AF, 40x magnification"
+    },
+    {
+      "type": "selfie",
+      "raw": "32 MP, f/2.4, 26mm (wide), 1/2.74\", 0.8µm"
+    }
+  ]
+}

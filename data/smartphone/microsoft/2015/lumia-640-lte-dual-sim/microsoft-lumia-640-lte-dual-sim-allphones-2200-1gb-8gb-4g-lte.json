@@ -1,0 +1,45 @@
+{
+  "slug": "microsoft-lumia-640-lte-dual-sim-allphones-2200-1gb-8gb-4g-lte",
+  "base_model_slug": "lumia-640-lte-dual-sim",
+  "name": "Microsoft Lumia 640 LTE Dual SIM",
+  "brand": "microsoft",
+  "release_date": "2015-01-01",
+  "ram_gb": 1,
+  "battery_mah": 2500,
+  "weight_g": 145.0,
+  "os": "Microsoft Windows Phone 8.1, upgradable to Microsoft Windows 10",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:2200",
+    "memory": {
+      "ram_gb": 1,
+      "storage_gb": 8
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "soc": "qualcomm-msm8926-snapdragon-400",
+  "storage_options_gb": [
+    8
+  ],
+  "display": {
+    "resolution": "720 x 1280 pixels, 16:9 ratio (~294 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, f/2.2, 28mm (wide), 1/4.0\", AF"
+    },
+    {
+      "type": "selfie",
+      "raw": "1 MP"
+    }
+  ]
+}

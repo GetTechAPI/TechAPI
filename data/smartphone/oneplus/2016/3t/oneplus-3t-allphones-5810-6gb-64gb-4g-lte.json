@@ -1,0 +1,46 @@
+{
+  "slug": "oneplus-3t-allphones-5810-6gb-64gb-4g-lte",
+  "base_model_slug": "3t",
+  "name": "OnePlus 3T",
+  "brand": "oneplus",
+  "release_date": "2016-01-01",
+  "ram_gb": 6,
+  "battery_mah": 3400,
+  "weight_g": 158.0,
+  "os": "Android 6.0.1 (Marshmallow), upgradable to Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "madajaswanth/phone-dataset-8461-phones",
+    "source_key": "madajaswanth/phone-dataset-8461-phones:5810",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 64
+    },
+    "network": {
+      "cellular": "4G LTE"
+    },
+    "sim": "Nano-SIM + Nano-SIM"
+  },
+  "soc": "qualcomm-msm8996-snapdragon-821",
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "display": {
+    "resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.0, 1/2.8\", 1.12µm, PDAF, OIS"
+    },
+    {
+      "type": "selfie",
+      "raw": "16 MP, f/2.0, (wide), 1/3.06\", 1.0µm"
+    }
+  ]
+}

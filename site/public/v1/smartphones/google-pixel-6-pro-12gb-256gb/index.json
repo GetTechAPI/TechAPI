@@ -1,0 +1,79 @@
+{
+  "id": 6258,
+  "slug": "google-pixel-6-pro-12gb-256gb",
+  "base_model_slug": "pixel-6-pro",
+  "name": "Pixel 6 Pro 256GB",
+  "brand": {
+    "id": 159,
+    "slug": "google",
+    "name": "Google",
+    "country": "US",
+    "url": "/v1/brands/google"
+  },
+  "soc": {
+    "id": 765,
+    "slug": "google-tensor",
+    "name": "Google Tensor",
+    "manufacturer": {
+      "slug": "google",
+      "name": "Google",
+      "url": "/v1/brands/google"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Mali-G78 MP20",
+    "url": "/v1/socs/google-tensor"
+  },
+  "release_date": "2021-01-01",
+  "msrp_usd": null,
+  "ram_gb": 12,
+  "storage_options_gb": [
+    256
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 12,
+      "storage_gb": 256
+    }
+  },
+  "display": {
+    "size": "6.71 inches"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 50.0
+    },
+    {
+      "type": "selfie",
+      "mp": 11.1
+    }
+  ],
+  "battery_mah": 5003,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 210.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 21.3,
+    "performance": 6.7,
+    "camera": 17.1,
+    "battery": 40.1,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "created_at": "2026-06-20T17:21:51.414032",
+  "updated_at": "2026-06-20T17:21:51.414032"
+}

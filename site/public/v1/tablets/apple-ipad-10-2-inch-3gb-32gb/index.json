@@ -1,0 +1,71 @@
+{
+  "id": 185,
+  "slug": "apple-ipad-10-2-inch-3gb-32gb",
+  "base_model_slug": "ipad-10-2-inch",
+  "name": "iPad 10.2-inch 32GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 32,
+    "slug": "apple-a13-bionic",
+    "name": "Apple A13 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 7.0,
+    "gpu_name": "Apple GPU (4-core)",
+    "url": "/v1/socs/apple-a13-bionic"
+  },
+  "release_date": "2020-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3.0,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 32
+    }
+  },
+  "display": {
+    "size": "10.2 inches"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 12.0
+    }
+  ],
+  "battery_mah": 8612,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 490.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "created_at": "2026-06-20T17:22:19.751452",
+  "updated_at": "2026-06-20T17:22:19.751452",
+  "url": "/v1/tablets/apple-ipad-10-2-inch-3gb-32gb"
+}

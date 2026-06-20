@@ -1,0 +1,79 @@
+{
+  "id": 25816,
+  "slug": "poco-f6-6gb-128gb",
+  "base_model_slug": "f6",
+  "name": "F6 128GB",
+  "brand": {
+    "id": 38,
+    "slug": "poco",
+    "name": "POCO",
+    "country": "CN",
+    "url": "/v1/brands/poco"
+  },
+  "soc": {
+    "id": 1748,
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 4.0,
+    "gpu_name": "Adreno 740",
+    "url": "/v1/socs/snapdragon-8-gen-2"
+  },
+  "release_date": "2024-01-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 6,
+      "storage_gb": 128
+    }
+  },
+  "display": {
+    "size": "6.67 inches"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 64.0
+    },
+    {
+      "type": "selfie",
+      "mp": 20.0
+    }
+  ],
+  "battery_mah": 5000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 190.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 32.9,
+    "performance": 32.2,
+    "camera": 21.6,
+    "battery": 45.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "created_at": "2026-06-20T17:22:00.775204",
+  "updated_at": "2026-06-20T17:22:00.776212"
+}

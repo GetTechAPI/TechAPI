@@ -1,0 +1,79 @@
+{
+  "id": 1844,
+  "slug": "apple-iphone-x-3gb-64gb",
+  "base_model_slug": "iphone-x",
+  "name": "iPhone X 64GB",
+  "brand": {
+    "id": 149,
+    "slug": "apple",
+    "name": "Apple",
+    "country": "US",
+    "url": "/v1/brands/apple"
+  },
+  "soc": {
+    "id": 26,
+    "slug": "apple-a11-bionic",
+    "name": "Apple A11 Bionic",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Apple GPU (3-core)",
+    "url": "/v1/socs/apple-a11-bionic"
+  },
+  "release_date": "2017-01-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "memory": {
+      "ram_gb": 3,
+      "storage_gb": 64
+    }
+  },
+  "display": {
+    "size": "5.8 inches"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12.0
+    },
+    {
+      "type": "selfie",
+      "mp": 7.0
+    }
+  ],
+  "battery_mah": 2716,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 174.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "iOS",
+  "os_version": null,
+  "connectivity": {},
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "1.0.0",
+    "overall": 2.0,
+    "performance": 0.9,
+    "camera": 5.0,
+    "battery": 0.0,
+    "display": null,
+    "value": null
+  },
+  "verified": false,
+  "source_urls": [
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+  ],
+  "created_at": "2026-06-20T17:21:49.370874",
+  "updated_at": "2026-06-20T17:21:49.370874"
+}

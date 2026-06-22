@@ -111,7 +111,10 @@ def cmd_score(args: argparse.Namespace) -> int:
     if write_cache:
         ledger.replace_all(entries, SCORES_PATH)
 
-    _print_histogram(hist, scored, hard_flags, wrote_cache=write_cache)
+    if getattr(args, "format", "text") == "md":
+        _print_markdown(hist, scored, hard_flags)
+    else:
+        _print_histogram(hist, scored, hard_flags, wrote_cache=write_cache)
     return 0
 
 
@@ -144,6 +147,43 @@ def _print_histogram(hist, scored, hard_flags, wrote_cache) -> None:
             print(f"  {n:>7}  {name}")
     if wrote_cache:
         print("\ncache: wrote full Tier 0 scores to data/_verify/state/scores.jsonl")
+
+
+def _print_markdown(hist, scored, hard_flags) -> None:
+    """GitHub-flavored markdown table — readable in PR comments (mirrors the
+    TechEngineBot validation-stats style)."""
+    if scored == 0:
+        print("_No records scored._")
+        return
+    totals = Counter()
+    rows = []
+    for cat in CATEGORIES:
+        if cat not in hist:
+            continue
+        c = hist[cat]
+        tot = sum(c.values())
+        totals.update(c)
+        gpct = 100 * c["green"] / tot if tot else 0.0
+        rows.append(
+            f"| {cat} | {tot} | {c['green']} | {c['yellow']} | {c['red']} | {gpct:.1f}% |"
+        )
+    gtot = sum(totals.values()) or 1
+    print(f"**{scored} record(s) scored.**\n")
+    print("| Category | Total | 🟢 Green | 🟡 Yellow | 🔴 Red | Green % |")
+    print("| --- | ---: | ---: | ---: | ---: | ---: |")
+    for r in rows:
+        print(r)
+    print(
+        f"| **All** | **{sum(totals.values())}** | **{totals['green']}** | "
+        f"**{totals['yellow']}** | **{totals['red']}** | "
+        f"**{100*totals['green']/gtot:.1f}%** |"
+    )
+    if hard_flags:
+        print("\n**Hard violations** (forced red):\n")
+        print("| Count | Check |")
+        print("| ---: | --- |")
+        for name, n in hard_flags.most_common(10):
+            print(f"| {n} | `{name}` |")
 
 
 def cmd_report(args: argparse.Namespace) -> int:
@@ -371,6 +411,8 @@ def build_parser() -> argparse.ArgumentParser:
     sc.add_argument("--unverified-only", action="store_true", help="skip verified:true records")
     sc.add_argument("--changed", action="store_true", help="only records changed vs origin/main")
     sc.add_argument("--no-cache", action="store_true", help="do not write the scores cache")
+    sc.add_argument("--format", choices=["text", "md"], default="text",
+                    help="output format: text histogram (default) or markdown table")
     sc.set_defaults(func=cmd_score)
 
     rp = sub.add_parser("report", help="summarize latest ledger state")

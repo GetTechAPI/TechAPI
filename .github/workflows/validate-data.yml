@@ -7,15 +7,11 @@ on:
     paths:
       - "data/**"
       - "app/validate.py"
-      - "app/verify/**"
-      - "tests/verify/**"
   push:
     branches: [main]
     paths:
       - "data/**"
       - "app/validate.py"
-      - "app/verify/**"
-      - "tests/verify/**"
 
 jobs:
   self-validate:
@@ -27,28 +23,6 @@ jobs:
           python-version: "3.12"
       - name: Self-check (bundled validator)
         run: python -m app.validate
-
-  # Non-blocking existence/trust signal: scores the records changed in this PR
-  # with the Tier 0 offline verifier and prints a band histogram. Informational
-  # only — never gates the merge (continue-on-error).
-  verify-offline:
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    env:
-      PYTHONIOENCODING: utf-8
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Tier 0 verification report (changed records)
-        run: |
-          git fetch origin main --depth=1 || true
-          python -m app.verify score --changed --no-cache
-      - name: Verifier unit tests
-        run: python -m pytest tests/verify -q -m "not slow"
 
   engine-validate:
     needs: self-validate

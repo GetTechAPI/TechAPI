@@ -31,6 +31,10 @@ env/
 # Note: data/_staging/ (raw collected candidate pool) is intentionally tracked —
 # comprehensive data collection is a purpose of this repo.
 
+# Verification layer caches: full Tier 0 scores + network caches are cheap to
+# recompute. Only data/_verify/ledger.jsonl (the promotion audit trail) is tracked.
+data/_verify/state/
+
 # Testing / coverage
 .pytest_cache/
 .coverage

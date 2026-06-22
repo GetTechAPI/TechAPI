@@ -38,14 +38,10 @@ jobs:
           script: |
             const { owner, repo } = context.repo;
             const issue_number = context.issue.number;
-            // 👀 reaction so the requester sees the command was picked up.
-            try {
-              await github.rest.reactions.createForIssueComment({
-                owner, repo, comment_id: context.payload.comment.id, content: 'eyes',
-              });
-            } catch (e) {
-              core.info(`reaction skipped: ${e.message}`);
-            }
+            // No reaction here: this step runs under the relay token (a human PAT),
+            // so reacting would look like the requester reacting to themselves.
+            // The 👀 acknowledgement is added by TechEngineBot on the engine side
+            // (it holds the bot token); we just pass the comment id through.
             const pr = await github.rest.pulls.get({ owner, repo, pull_number: issue_number });
             await github.rest.repos.createDispatchEvent({
               owner: 'GetTechAPI',
@@ -54,6 +50,7 @@ jobs:
               client_payload: {
                 pr_number: String(issue_number),
                 head_sha: pr.data.head.sha,
+                comment_id: context.payload.comment.id,
                 requested_by: context.payload.comment.user.login,
               },
             });

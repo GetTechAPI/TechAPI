@@ -35,10 +35,16 @@ def _now_iso() -> str:
 
 
 def _changed_data_slugs() -> set[str]:
-    """Repo-relative data/ paths changed vs origin/main (for CI --changed)."""
+    """Repo-relative data/ paths changed vs origin/main (for CI --changed).
+
+    Direct two-tree diff (``origin/main HEAD``), NOT three-dot ``origin/main...HEAD``:
+    CI fetches main shallow (``--depth=1``), so there is no merge-base and the
+    three-dot form silently returns nothing. A direct tree diff only needs both
+    commit tips, which are always present.
+    """
     try:
         out = subprocess.run(
-            ["git", "diff", "--name-only", "origin/main...HEAD", "--", "data/"],
+            ["git", "diff", "--name-only", "origin/main", "HEAD", "--", "data/"],
             capture_output=True, text=True, check=True,
         ).stdout
     except Exception:

@@ -198,8 +198,13 @@ def _print_markdown(hist, scored, hard_flags) -> None:
     gtot = sum(totals.values()) or 1
     print(f"**{scored} record(s) scored.**\n")
 
-    # Overall distribution as a Mermaid pie (rendered by GitHub).
+    # Overall distribution as a Mermaid pie (rendered by GitHub). Mermaid colors
+    # slices pie1/pie2/pie3 in declaration order, so pin them to green/amber/red
+    # to match the labels (default palette would show black/red/blue).
     print("```mermaid")
+    print('%%{init: {"theme":"base","themeVariables":'
+          '{"pie1":"#3fb950","pie2":"#d29922","pie3":"#f85149",'
+          '"pieStrokeWidth":"0px","pieOpacity":"1"}}}%%')
     print("pie showData")
     print('    title Verification bands — all records')
     print(f'    "Green" : {totals["green"]}')

@@ -58,10 +58,12 @@ jobs:
           {
             echo 'report<<VERIFY_EOF'
             echo "### Changed records in this PR"
-            python -m app.verify score --changed --no-cache
+            echo ""
+            python -m app.verify score --changed --no-cache --format md
             echo ""
             echo "### Full-dataset baseline"
-            python -m app.verify score --no-cache
+            echo ""
+            python -m app.verify score --no-cache --format md
             echo VERIFY_EOF
           } >> "$GITHUB_OUTPUT"
 
@@ -79,12 +81,9 @@ jobs:
               marker,
               '## 🔎 Data verification — Tier 0 (offline existence/trust)',
               '',
-              'Scored by `app.verify`; posted by **TechEngineBot**. Informational only —',
-              'the structural gate (`app.validate`) is separate and authoritative for merge.',
+              'Scored by `app.verify`; posted by **TechEngineBot**. Informational only — the structural gate (`app.validate`) is separate and authoritative for merge.',
               '',
-              '```text',
               report,
-              '```',
               '',
               '<sub>green = authoritative source + complete + consistent · '
                 + 'yellow = plausible, needs confirmation · red = sparse/weak source or a hard contradiction. '

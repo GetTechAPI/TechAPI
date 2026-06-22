@@ -1,14 +1,10 @@
 name: verify-report
 
-# Run the Tier 0 offline data *verification* (existence/trust scoring) on a PR and
-# let TechEngineBot post the band analysis as a PR comment. The bot owns the
-# analysis surface: this workflow only computes the report and hands it to the bot,
-# which authors the comment via its own PAT (TECHENGINEBOT_TOKEN). It never gates a
-# merge.
-#
-# Dormant unless a bot/automation token is configured. Restricted to same-repo
-# branch PRs so fork PRs never see the token. The structural gate stays in
-# validate-data.yml; this is purely informational.
+# On every data/verifier PR, post the Tier 0 verification band report as
+# TechEngineBot. The bot's token lives in TechEngine, so we RELAY there (a comment
+# posted from TechAPI would be authored by the human relay PAT, not the bot).
+# TechEngine's techapi-verify-comment.yml runs app.verify (mode=tier0) and posts
+# the report. Informational; never gates a merge. Same-repo PRs only.
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
@@ -19,84 +15,37 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
 
 concurrency:
   group: verify-report-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  verify-report:
+  relay:
     runs-on: ubuntu-latest
     if: github.event.pull_request.head.repo.full_name == github.repository
     env:
-      PYTHONIOENCODING: utf-8
-      # Prefer TechEngineBot's PAT so the analysis comment is authored by the bot
-      # (TECHENGINEBOT_TOKEN, Issues/PR write on both repos). Fall back to
-      # ENGINE_TOKEN only so the workflow still runs if the bot token is absent.
-      BOT_TOKEN: ${{ secrets.TECHENGINEBOT_TOKEN || secrets.ENGINE_TOKEN }}
+      ENGINE_TOKEN: ${{ secrets.ENGINE_TOKEN }}
     steps:
-      - name: Dormant when no bot token is configured
-        if: env.BOT_TOKEN == ''
-        run: echo "::warning::No TECHENGINEBOT_TOKEN/ENGINE_TOKEN — TechEngineBot verify comment skipped."
+      - name: Dormant when ENGINE_TOKEN is unset
+        if: env.ENGINE_TOKEN == ''
+        run: echo "::warning::ENGINE_TOKEN not configured; cannot relay the verify report to TechEngine."
 
-      - uses: actions/checkout@v4
-        if: env.BOT_TOKEN != ''
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-python@v5
-        if: env.BOT_TOKEN != ''
-        with:
-          python-version: "3.12"
-
-      - name: Tier 0 verification (changed + full baseline)
-        if: env.BOT_TOKEN != ''
-        id: verify
-        run: |
-          git fetch origin main --depth=1 || true
-          {
-            echo 'report<<VERIFY_EOF'
-            echo "### Changed records in this PR"
-            echo ""
-            python -m app.verify score --changed --no-cache --format md
-            echo ""
-            echo "### Full-dataset baseline"
-            echo ""
-            python -m app.verify score --no-cache --format md
-            echo VERIFY_EOF
-          } >> "$GITHUB_OUTPUT"
-
-      - name: TechEngineBot posts the verification analysis
-        if: env.BOT_TOKEN != ''
+      - name: Relay Tier 0 verify report to TechEngine
+        if: env.ENGINE_TOKEN != ''
         uses: actions/github-script@v7
-        env:
-          REPORT: ${{ steps.verify.outputs.report }}
         with:
-          github-token: ${{ secrets.TECHENGINEBOT_TOKEN || secrets.ENGINE_TOKEN }}
+          github-token: ${{ secrets.ENGINE_TOKEN }}
           script: |
-            const marker = '<!-- techengine-verify-report -->';
-            const report = (process.env.REPORT || '').trim() || '(no output)';
-            const body = [
-              marker,
-              '## 🔎 Data verification — Tier 0 (offline existence/trust)',
-              '',
-              'Scored by `app.verify`; posted by **TechEngineBot**. Informational only — the structural gate (`app.validate`) is separate and authoritative for merge.',
-              '',
-              report,
-              '',
-              '<sub>green = authoritative source + complete + consistent · '
-                + 'yellow = plausible, needs confirmation · red = sparse/weak source or a hard contradiction. '
-                + 'Promotion to `verified` runs in the scheduled `verify-network` workflow.</sub>',
-            ].join('\n');
-            const { owner, repo } = context.repo;
-            const issue_number = context.payload.pull_request.number;
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              owner, repo, issue_number, per_page: 100,
+            await github.rest.repos.createDispatchEvent({
+              owner: 'GetTechAPI',
+              repo: 'TechEngine',
+              event_type: 'techapi-verify',
+              client_payload: {
+                pr_number: String(context.payload.pull_request.number),
+                head_sha: context.payload.pull_request.head.sha,
+                mode: 'tier0',
+                requested_by: context.payload.pull_request.user.login,
+              },
             });
-            const existing = comments.find((c) => c.body && c.body.includes(marker));
-            if (existing) {
-              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
-            } else {
-              await github.rest.issues.createComment({ owner, repo, issue_number, body });
-            }
+            core.info(`relayed tier0 verify report for PR #${context.payload.pull_request.number}`);

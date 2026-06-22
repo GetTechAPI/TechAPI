@@ -396,6 +396,127 @@ def cmd_promote(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_pr(args: argparse.Namespace) -> int:
+    """All-tiers verification of a PR's changed records, as one markdown report.
+
+    Tier 0 (offline score) + Tier 1 (source-URL liveness) + Tier 2 (external
+    cross-reference) + Tier 3 (promotion decision, DRY-RUN — never writes). Network
+    tiers run only over the records changed vs origin/main, capped by --max.
+    """
+    records = load_all()
+    _, _, soc_release = foreign_key_sets(records)
+    now_year = offline.now_year_today()
+
+    changed = _changed_data_slugs()
+    changed_recs = [
+        rec for cat in CATEGORIES for rec in records[cat]
+        if rec.slug and rec.path in changed
+    ]
+
+    print("## 🔎 Data verification — Tiers 0–3 (on demand)\n")
+
+    if not changed_recs:
+        print("_No data records changed in this PR. Showing the full-dataset "
+              "Tier 0 baseline only; network tiers (1–3) have nothing to check._\n")
+    else:
+        sub = changed_recs[: args.max]
+        truncated = len(changed_recs) > args.max
+        note = f" (showing first {args.max} for network tiers)" if truncated else ""
+        print(f"**{len(changed_recs)} changed data record(s)**{note}. "
+              "Tier 3 is dry-run — no `verified` flags are written.\n")
+
+        # Tier 0 — offline score of the changed records.
+        scored = [(r, offline.score_record(r, now_year, soc_release)) for r in sub]
+        print("### Tier 0 — offline score (changed)\n")
+        print("| Slug | Category | Band | Score | Flags |")
+        print("| --- | --- | :--: | ---: | --- |")
+        for r, s in scored:
+            badge = {"green": "🟢", "yellow": "🟡", "red": "🔴"}.get(s.band, s.band)
+            flags = ", ".join(f"`{f}`" for f in s.flags) or "—"
+            print(f"| {r.slug} | {r.category} | {badge} | {s.score} | {flags} |")
+        print()
+
+        # Tier 1 — source-URL liveness (network).
+        urls = sorted({u for r, _ in scored
+                       for u in r.data.get("source_urls", []) if isinstance(u, str)})
+        ts = _now_iso()
+        url_cache: dict[str, dict] = {}
+        try:
+            for res in http_check.check_urls(urls, min_interval=0.5):
+                url_cache[res.url] = http_check.result_to_entry(res, ts)
+        except Exception as exc:  # network hiccup must not sink the report
+            print(f"_Tier 1 skipped: {exc}_\n")
+        alive = sum(1 for e in url_cache.values() if e.get("alive"))
+        dead = len(url_cache) - alive
+        print("### Tier 1 — source-URL liveness (changed)\n")
+        print(f"Checked **{len(url_cache)}** unique URL(s): **{alive} alive**, **{dead} dead**.\n")
+        dead_reasons = Counter(e["reason"] for e in url_cache.values() if not e.get("alive"))
+        if dead_reasons:
+            print("| Dead reason | Count |")
+            print("| --- | ---: |")
+            for reason, n in dead_reasons.most_common(8):
+                print(f"| `{reason}` | {n} |")
+            print()
+
+        # Tier 2 — external cross-reference (network, exact-heading only).
+        fetcher = crossref.WikipediaFetcher()
+        xref: dict[str, str] = {}
+        decisions = Counter()
+        for r, _ in scored:
+            try:
+                res = crossref.crossref_record(r.data, fetcher)
+                xref[r.slug] = res.decision
+                decisions[res.decision] += 1
+            except Exception:
+                decisions["error"] += 1
+        print("### Tier 2 — external cross-reference (changed)\n")
+        if decisions:
+            print("| Decision | Count |")
+            print("| --- | ---: |")
+            for d, n in decisions.most_common():
+                print(f"| `{d}` | {n} |")
+            print()
+
+        # Tier 3 — promotion decision (DRY-RUN).
+        promote_rows = []
+        hold = 0
+        for r, s in scored:
+            urls_r = [u for u in r.data.get("source_urls", []) if isinstance(u, str)]
+            d = promote.decide(band=s.band, source_urls=urls_r,
+                               url_cache=url_cache, crossref_decision=xref.get(r.slug))
+            if d.promote:
+                promote_rows.append((r, d.reason))
+            else:
+                hold += 1
+        print("### Tier 3 — promotion (dry-run)\n")
+        print(f"**{len(promote_rows)}** record(s) would promote to `verified:true`, "
+              f"**{hold}** held.\n")
+        if promote_rows:
+            print("| Slug | Reason |")
+            print("| --- | --- |")
+            for r, reason in promote_rows:
+                print(f"| {r.slug} | `{reason}` |")
+            print()
+
+    # Full-dataset Tier 0 baseline (always).
+    hist: dict[str, Counter] = defaultdict(Counter)
+    hard_flags: Counter = Counter()
+    scored_n = 0
+    for cat in CATEGORIES:
+        for rec in records[cat]:
+            if not rec.slug:
+                continue
+            s = offline.score_record(rec, now_year, soc_release)
+            hist[rec.category][s.band] += 1
+            scored_n += 1
+            for f in s.flags:
+                if f.startswith("!"):
+                    hard_flags[f] += 1
+    print("### Full-dataset Tier 0 baseline\n")
+    _print_markdown(hist, scored_n, hard_flags)
+    return 0
+
+
 def _not_implemented(args: argparse.Namespace) -> int:
     print(f"`{args.cmd}` is a later-phase subcommand and is not implemented yet.")
     return 2
@@ -433,11 +554,15 @@ def build_parser() -> argparse.ArgumentParser:
     cr.add_argument("--recheck", action="store_true", help="ignore crossref cache")
     cr.set_defaults(func=cmd_crossref)
 
-    pr = sub.add_parser("promote", help="Tier 3: hybrid escalation + verified write-back")
-    pr.add_argument("--category", nargs="*", choices=CATEGORIES, help="limit to categories")
-    pr.add_argument("--max", type=int, default=None, help="cap number promoted")
-    pr.add_argument("--apply", action="store_true", help="actually flip verified (default: dry-run)")
-    pr.set_defaults(func=cmd_promote)
+    pm = sub.add_parser("promote", help="Tier 3: hybrid escalation + verified write-back")
+    pm.add_argument("--category", nargs="*", choices=CATEGORIES, help="limit to categories")
+    pm.add_argument("--max", type=int, default=None, help="cap number promoted")
+    pm.add_argument("--apply", action="store_true", help="actually flip verified (default: dry-run)")
+    pm.set_defaults(func=cmd_promote)
+
+    pr = sub.add_parser("pr", help="all-tiers (0-3) markdown report for a PR's changed records")
+    pr.add_argument("--max", type=int, default=40, help="cap changed records for network tiers")
+    pr.set_defaults(func=cmd_pr)
 
     return p
 

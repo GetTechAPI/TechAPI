@@ -1,0 +1,99 @@
+name: verify-report
+
+# Run the Tier 0 offline data *verification* (existence/trust scoring) on a PR and
+# let TechEngineBot post the band analysis as a PR comment. The bot owns the
+# analysis surface: this workflow only computes the report and hands it to the bot
+# (the comment is authored via the bot's token). It never gates a merge.
+#
+# Dormant unless ENGINE_TOKEN (TechEngineBot's PAT) is configured. Restricted to
+# same-repo branch PRs so fork PRs never see the token. The structural gate stays
+# in validate-data.yml; this is purely informational.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "data/**"
+      - "app/validate.py"
+      - "app/verify/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: verify-report-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  verify-report:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    env:
+      PYTHONIOENCODING: utf-8
+      ENGINE_TOKEN: ${{ secrets.ENGINE_TOKEN }}
+    steps:
+      - name: Dormant when ENGINE_TOKEN is unset
+        if: env.ENGINE_TOKEN == ''
+        run: echo "::warning::ENGINE_TOKEN not configured — TechEngineBot verify comment skipped."
+
+      - uses: actions/checkout@v4
+        if: env.ENGINE_TOKEN != ''
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        if: env.ENGINE_TOKEN != ''
+        with:
+          python-version: "3.12"
+
+      - name: Tier 0 verification (changed + full baseline)
+        if: env.ENGINE_TOKEN != ''
+        id: verify
+        run: |
+          git fetch origin main --depth=1 || true
+          {
+            echo 'report<<VERIFY_EOF'
+            echo "### Changed records in this PR"
+            python -m app.verify score --changed --no-cache
+            echo ""
+            echo "### Full-dataset baseline"
+            python -m app.verify score --no-cache
+            echo VERIFY_EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: TechEngineBot posts the verification analysis
+        if: env.ENGINE_TOKEN != ''
+        uses: actions/github-script@v7
+        env:
+          REPORT: ${{ steps.verify.outputs.report }}
+        with:
+          github-token: ${{ secrets.ENGINE_TOKEN }}
+          script: |
+            const marker = '<!-- techengine-verify-report -->';
+            const report = (process.env.REPORT || '').trim() || '(no output)';
+            const body = [
+              marker,
+              '## 🔎 Data verification — Tier 0 (offline existence/trust)',
+              '',
+              'Scored by `app.verify`; posted by **TechEngineBot**. Informational only —',
+              'the structural gate (`app.validate`) is separate and authoritative for merge.',
+              '',
+              '```text',
+              report,
+              '```',
+              '',
+              '<sub>green = authoritative source + complete + consistent · '
+                + 'yellow = plausible, needs confirmation · red = sparse/weak source or a hard contradiction. '
+                + 'Promotion to `verified` runs in the scheduled `verify-network` workflow.</sub>',
+            ].join('\n');
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number, per_page: 100,
+            });
+            const existing = comments.find((c) => c.body && c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }

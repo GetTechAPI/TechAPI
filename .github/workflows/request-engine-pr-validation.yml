@@ -17,6 +17,7 @@ on:
       - "site/package.json"
       - "site/package-lock.json"
       - "app/validate.py"
+      - "app/verify/**"
   workflow_dispatch:
     inputs:
       pr_number:

@@ -155,9 +155,30 @@ def _print_histogram(hist, scored, hard_flags, wrote_cache) -> None:
         print("\ncache: wrote full Tier 0 scores to data/_verify/state/scores.jsonl")
 
 
+def _band_bar(green: int, yellow: int, red: int, width: int = 12) -> str:
+    """Proportional colored-square bar: 🟩 green · 🟨 yellow · 🟥 red, summing to width."""
+    tot = green + yellow + red
+    if tot == 0:
+        return "—"
+    cells = {"🟩": green, "🟨": yellow, "🟥": red}
+    counts = {k: round(width * v / tot) for k, v in cells.items()}
+    # Reconcile rounding so the bar is exactly `width` wide.
+    while sum(counts.values()) > width:
+        counts[max(counts, key=counts.get)] -= 1
+    while sum(counts.values()) < width:
+        # give the slack to the largest non-zero raw bucket
+        counts[max(cells, key=cells.get)] += 1
+    # Don't let a non-zero band vanish to 0 cells.
+    for k in cells:
+        if cells[k] > 0 and counts[k] == 0:
+            counts[k] = 1
+            counts[max(counts, key=counts.get)] -= 1
+    return "🟩" * counts["🟩"] + "🟨" * counts["🟨"] + "🟥" * counts["🟥"]
+
+
 def _print_markdown(hist, scored, hard_flags) -> None:
-    """GitHub-flavored markdown table — readable in PR comments (mirrors the
-    TechEngineBot validation-stats style)."""
+    """Readable PR-comment report: a Mermaid pie of the overall band split (GitHub
+    renders it natively) + a per-category table with a proportional colored bar."""
     if scored == 0:
         print("_No records scored._")
         return
@@ -170,17 +191,29 @@ def _print_markdown(hist, scored, hard_flags) -> None:
         tot = sum(c.values())
         totals.update(c)
         gpct = 100 * c["green"] / tot if tot else 0.0
+        bar = _band_bar(c["green"], c["yellow"], c["red"])
         rows.append(
-            f"| {cat} | {tot} | {c['green']} | {c['yellow']} | {c['red']} | {gpct:.1f}% |"
+            f"| {cat} | {bar} | {tot} | {c['green']} | {c['yellow']} | {c['red']} | {gpct:.1f}% |"
         )
     gtot = sum(totals.values()) or 1
     print(f"**{scored} record(s) scored.**\n")
-    print("| Category | Total | 🟢 Green | 🟡 Yellow | 🔴 Red | Green % |")
-    print("| --- | ---: | ---: | ---: | ---: | ---: |")
+
+    # Overall distribution as a Mermaid pie (rendered by GitHub).
+    print("```mermaid")
+    print("pie showData")
+    print('    title Verification bands — all records')
+    print(f'    "Green" : {totals["green"]}')
+    print(f'    "Yellow" : {totals["yellow"]}')
+    print(f'    "Red" : {totals["red"]}')
+    print("```\n")
+
+    print("| Category | Distribution | Total | 🟢 | 🟡 | 🔴 | 🟢 % |")
+    print("| --- | :-- | ---: | ---: | ---: | ---: | ---: |")
     for r in rows:
         print(r)
     print(
-        f"| **All** | **{sum(totals.values())}** | **{totals['green']}** | "
+        f"| **All** | {_band_bar(totals['green'], totals['yellow'], totals['red'])} | "
+        f"**{sum(totals.values())}** | **{totals['green']}** | "
         f"**{totals['yellow']}** | **{totals['red']}** | "
         f"**{100*totals['green']/gtot:.1f}%** |"
     )

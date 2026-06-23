@@ -33,13 +33,25 @@ class PromotionDecision(NamedTuple):
     reason: str
 
 
-def has_live_t1(source_urls: list[str], url_cache: dict[str, dict[str, Any]]) -> bool:
-    """True if some cited URL is a Tier-1 host AND confirmed alive in the cache."""
+def has_live_authoritative_source(
+    source_urls: list[str], url_cache: dict[str, dict[str, Any]]
+) -> bool:
+    """True if some cited URL is an authoritative host (Tier 1 *or* Tier 2) AND
+    confirmed alive. The green band already requires a T1/T2 source + completeness
+    + consistency; this just adds "and that source actually resolves". Requiring a
+    *manufacturer/encyclopaedia* (T1 only) was too strict — it never promoted the
+    many green records sourced from reputable spec/benchmark DBs (gsmarena,
+    cpubenchmark, ...), so verified never moved off its floor.
+    """
     for u in source_urls:
         entry = url_cache.get(u)
-        if entry and entry.get("alive") and hosts.tier_of_host(hosts.host_of(u)) == 1:
+        if entry and entry.get("alive") and hosts.tier_of_host(hosts.host_of(u)) in (1, 2):
             return True
     return False
+
+
+# Backwards-compatible alias (older callers/tests).
+has_live_t1 = has_live_authoritative_source
 
 
 def decide(
@@ -48,8 +60,8 @@ def decide(
 ) -> PromotionDecision:
     if crossref_decision == "confirm":
         return PromotionDecision(True, "crossref-confirm")
-    if band == "green" and has_live_t1(source_urls, url_cache):
-        return PromotionDecision(True, "green+live-t1")
+    if band == "green" and has_live_authoritative_source(source_urls, url_cache):
+        return PromotionDecision(True, "green+live-source")
     return PromotionDecision(False, "needs-confirmation")
 
 

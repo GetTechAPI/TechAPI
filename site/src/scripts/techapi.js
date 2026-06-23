@@ -185,11 +185,13 @@ async function loadList(resource) {
   });
 })();
 
-function countUp(node, target) {
+function countUp(node, target, opts = {}) {
+  const { decimals = 0, suffix = "" } = opts;
   const dur = 1100, t0 = performance.now();
   (function tick(t) {
     const p = Math.min(1, (t - t0) / dur);
-    node.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))).toLocaleString();
+    const v = target * (1 - Math.pow(1 - p, 3));
+    node.textContent = (decimals ? v.toFixed(decimals) : Math.round(v).toLocaleString()) + suffix;
     if (p < 1) requestAnimationFrame(tick);
   })(performance.now());
 }
@@ -382,6 +384,57 @@ function countUp(node, target) {
     countsEl.innerHTML = '<div class="history-count"><span>Static dump</span><b>offline</b></div>';
     chartEl.innerHTML = '<div class="history-empty">Growth chart unavailable</div>';
     listEl.innerHTML = '<li><span class="history-dot"></span><span>Current static dump could not be loaded.<small>Build the public data first</small></span></li>';
+  });
+})();
+
+/* ============================================================
+   VERIFICATION — live band distribution + verified ratio
+   (from v1/verification.json, built from data/_verify/status.json)
+   ============================================================ */
+(function verification() {
+  const pctEl = document.getElementById("verify-pct");
+  if (!pctEl) return;
+  const bar = document.getElementById("verify-bar");
+  const countEl = document.getElementById("verify-count");
+  const updatedEl = document.getElementById("verify-updated");
+  const setText = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+
+  getJSON("v1/verification.json").then((d) => {
+    const t = d.totals || {};
+    const total = t.records || 0;
+    if (!total) throw new Error("empty snapshot");
+    const pct = t.verified_pct != null ? t.verified_pct : (t.verified || 0) / total * 100;
+
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        countUp(pctEl, pct, { decimals: 1, suffix: "%" });
+        obs.disconnect();
+      });
+    }, { threshold: .4 });
+    obs.observe(pctEl);
+    pctEl.textContent = pct.toFixed(1) + "%";
+
+    countEl.textContent = `${(t.verified || 0).toLocaleString()} / ${total.toLocaleString()}`;
+
+    const g = t.green || 0, y = t.yellow || 0, r = t.red || 0;
+    const sum = Math.max(1, g + y + r);
+    const seg = bar.querySelectorAll(".vb");
+    if (seg[0]) seg[0].style.width = (g / sum * 100).toFixed(2) + "%";
+    if (seg[1]) seg[1].style.width = (y / sum * 100).toFixed(2) + "%";
+    if (seg[2]) seg[2].style.width = (r / sum * 100).toFixed(2) + "%";
+    setText("verify-green", g.toLocaleString());
+    setText("verify-yellow", y.toLocaleString());
+    setText("verify-red", r.toLocaleString());
+
+    if (d.generated_at) {
+      const dt = new Date(d.generated_at);
+      if (!isNaN(dt)) updatedEl.textContent = "snapshot updated " +
+        dt.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+    }
+  }).catch(() => {
+    pctEl.textContent = "—";
+    if (countEl) countEl.textContent = "snapshot unavailable";
   });
 })();
 

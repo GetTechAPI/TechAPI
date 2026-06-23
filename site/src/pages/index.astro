@@ -54,6 +54,7 @@ const endpoints = [
         <a href="#history">History</a>
         <a href="#playground">Playground</a>
         <a href="#featured">devices</a>
+        <a href="#verification">verified</a>
         <a href="#endpoints">endpoints</a>
         <a href={`${base}docs`}>docs</a>
         <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">
@@ -243,6 +244,47 @@ const endpoints = [
           <div class="hiw-card"><div class="hiw-n">[ 01 ]</div><h3>Curated data</h3><p>Specs live as reviewed JSON files in the repo, each carrying at least one source URL.</p></div>
           <div class="hiw-card"><div class="hiw-n">[ 02 ]</div><h3>Replayed to disk</h3><p>The real API runs in-process and every response is written out — byte-for-byte identical.</p></div>
           <div class="hiw-card"><div class="hiw-n">[ 03 ]</div><h3>Served from a CDN</h3><p>No server, no cold starts. Just <code>fetch()</code> a file — exactly what this page does.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────── VERIFICATION ─────────────── -->
+    <section class="block" id="verification">
+      <div class="wrap">
+        <div class="sec-head">
+          <div>
+            <span class="kicker">05 — Verification</span>
+            <h2 style="margin-top:14px">Checked against reality, not just well-formed</h2>
+            <p class="sec-sub">Passing validation only means a record is <em>shaped</em> right. A separate verification layer scores how confident we are that it describes a real, existing device — and only then sets its <code>verified</code> flag.</p>
+          </div>
+          <span class="num">data/_verify/status.json</span>
+        </div>
+
+        <div class="verify" data-reveal>
+          <div class="verify-panel">
+            <div class="verify-headline">
+              <div class="verify-pct" id="verify-pct">—</div>
+              <div class="verify-pct-l">records verified<br /><span id="verify-count">loading…</span></div>
+            </div>
+            <div class="verify-bar" id="verify-bar" role="img" aria-label="Verification band distribution">
+              <span class="vb green" style="width:0%"></span>
+              <span class="vb yellow" style="width:0%"></span>
+              <span class="vb red" style="width:0%"></span>
+            </div>
+            <div class="verify-legend">
+              <span><i class="vdot green"></i>green <b id="verify-green">—</b></span>
+              <span><i class="vdot yellow"></i>yellow <b id="verify-yellow">—</b></span>
+              <span><i class="vdot red"></i>red <b id="verify-red">—</b></span>
+            </div>
+            <div class="verify-updated" id="verify-updated"></div>
+          </div>
+
+          <ol class="verify-tiers">
+            <li><span class="vt-n">T0</span><div><h4>Offline trust score</h4><p>Completeness, cross-field consistency and source authority score every record into a <b>green / yellow / red</b> band — deterministic, no network.</p></div></li>
+            <li><span class="vt-n">T1</span><div><h4>Source liveness</h4><p>Each record's <code>source_urls</code> are checked for reachability.</p></div></li>
+            <li><span class="vt-n">T2</span><div><h4>External cross-reference</h4><p>Claims are matched against Wikidata by exact title and release year.</p></div></li>
+            <li><span class="vt-n">T3</span><div><h4>Promotion</h4><p>A green record becomes <code>verified</code>; an external contradiction vetoes it. Accuracy stays reality-based.</p></div></li>
+          </ol>
         </div>
       </div>
     </section>

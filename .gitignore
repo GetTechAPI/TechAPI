@@ -31,8 +31,9 @@ env/
 # Note: data/_staging/ (raw collected candidate pool) is intentionally tracked —
 # comprehensive data collection is a purpose of this repo.
 
-# Build-only: regenerated from full git history on every Pages deploy (site/scripts/build-history.mjs)
+# Build-only: regenerated on every Pages deploy (site/scripts/build-*.mjs)
 site/public/v1/history.json
+site/public/v1/verification.json
 
 # Testing / coverage
 .pytest_cache/

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build:history": "node scripts/build-history.mjs",
-    "prebuild": "node scripts/build-history.mjs",
+    "build:verification": "node scripts/build-verification.mjs",
+    "prebuild": "node scripts/build-history.mjs && node scripts/build-verification.mjs",
     "build": "astro build",
     "preview": "astro preview"
   },

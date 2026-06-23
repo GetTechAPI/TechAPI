@@ -58,8 +58,17 @@ def decide(
     *, band: str, source_urls: list[str], url_cache: dict[str, dict[str, Any]],
     crossref_decision: str | None,
 ) -> PromotionDecision:
+    # Reality veto: if an authoritative external source contradicts the record's
+    # specs (e.g. release year mismatch), never promote — even a green record.
+    # Accuracy must be reality-based; that's the whole point of verification.
+    if crossref_decision == "contradict":
+        return PromotionDecision(False, "crossref-contradict")
+    # Reality confirm: external source agrees -> strongest promotion.
     if crossref_decision == "confirm":
         return PromotionDecision(True, "crossref-confirm")
+    # Heuristic fallback where reality is silent: a green record (consistent +
+    # complete + authoritative-source) whose source is live. green≈verified was
+    # validated against the human-curated set, so this is a sound proxy.
     if band == "green" and has_live_authoritative_source(source_urls, url_cache):
         return PromotionDecision(True, "green+live-source")
     return PromotionDecision(False, "needs-confirmation")

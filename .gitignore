@@ -31,9 +31,8 @@ env/
 # Note: data/_staging/ (raw collected candidate pool) is intentionally tracked —
 # comprehensive data collection is a purpose of this repo.
 
-# Verification layer caches: full Tier 0 scores + network caches are cheap to
-# recompute. Only data/_verify/ledger.jsonl (the promotion audit trail) is tracked.
-data/_verify/state/
+# Build-only: regenerated from full git history on every Pages deploy (site/scripts/build-history.mjs)
+site/public/v1/history.json
 
 # Testing / coverage
 .pytest_cache/

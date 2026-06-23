@@ -288,12 +288,41 @@ function countUp(node, target) {
     }).join("");
   }
 
-  async function loadCommitHistory(currentManifest) {
-    const commitsUrl = `https://api.github.com/repos/GetTechAPI/TechAPI/commits?path=${encodeURIComponent(dumpPath)}&per_page=8`;
+  const fmtWhen = (date) => date
+    ? date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })
+    : "recent";
+  const rowsFromCounts = (counts) => order
+    .map((key) => ({ key, count: counts?.[key] }))
+    .filter((row) => row.count != null);
+
+  // Preferred path: a single prebuilt manifest (build-history.mjs) holding the
+  // FULL dump timeline. No GitHub API, no per-commit fetches, no rate limit, and
+  // old commits stay visible (the live API path only ever showed the last 7).
+  async function pointsFromStaticHistory() {
+    const data = await getJSON("v1/history.json");
+    const points = (data.points || []).map((p) => {
+      const date = p.date ? new Date(p.date) : null;
+      return {
+        sha: String(p.sha || "").slice(0, 7),
+        dateValue: date ? date.getTime() : 0,
+        when: fmtWhen(date),
+        title: String(p.title || "Dataset sync").split("\n")[0],
+        url: p.url || "https://github.com/GetTechAPI/TechAPI",
+        rows: rowsFromCounts(p.counts),
+        total: p.total != null ? p.total : rowsFromCounts(p.counts).reduce((s, r) => s + r.count, 0),
+      };
+    }).filter((p) => p.total > 0);
+    return points.sort((a, b) => a.dateValue - b.dateValue);
+  }
+
+  // Fallback (e.g. local `astro dev` with no prebuilt history.json): the old live
+  // GitHub API replay, capped at the most recent commits.
+  async function pointsFromGitHubApi() {
+    const commitsUrl = `https://api.github.com/repos/GetTechAPI/TechAPI/commits?path=${encodeURIComponent(dumpPath)}&per_page=10`;
     const response = await fetch(commitsUrl);
     if (!response.ok) throw new Error(response.statusText);
     const commits = await response.json();
-    const items = Array.isArray(commits) ? commits.slice(0, 7) : [];
+    const items = Array.isArray(commits) ? commits.slice(0, 10) : [];
     const snapshots = await Promise.all(items.map(async (item) => {
       const sha = String(item.sha || "");
       const rawUrl = `https://raw.githubusercontent.com/GetTechAPI/TechAPI/${sha}/${dumpPath}`;
@@ -304,15 +333,19 @@ function countUp(node, target) {
       return {
         sha: sha.slice(0, 7),
         dateValue: date ? date.getTime() : 0,
-        when: date ? date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "recent",
+        when: fmtWhen(date),
         title: (item.commit?.message || "Dataset sync").split("\n")[0],
         url: item.html_url || "https://github.com/GetTechAPI/TechAPI",
         rows: countRows(manifest),
         total: totalRecords(manifest),
       };
     }));
+    return snapshots.filter(Boolean).sort((a, b) => a.dateValue - b.dateValue);
+  }
 
-    const points = snapshots.filter(Boolean).sort((a, b) => a.dateValue - b.dateValue);
+  async function loadCommitHistory(currentManifest) {
+    let points = await pointsFromStaticHistory().catch(() => null);
+    if (!points || !points.length) points = await pointsFromGitHubApi();
     if (!points.length) throw new Error("empty history");
 
     const currentTotal = totalRecords(currentManifest);

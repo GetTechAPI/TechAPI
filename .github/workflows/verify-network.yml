@@ -100,7 +100,7 @@ jobs:
       - name: Open promotion PR
         if: ${{ env.APPLY == 'true' }}
         env:
-          GH_TOKEN: ${{ secrets.TECHAPI_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.ENGINE_TOKEN || secrets.TECHAPI_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           set -e
           if git diff --quiet -- data/; then

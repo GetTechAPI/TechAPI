@@ -12,16 +12,20 @@ phases; they are declared here so ``--help`` lists the eventual surface.
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
+from pathlib import Path
 
 from . import crossref, http_check, ledger, offline, promote
 from .common import (
     CATEGORIES,
     SCORES_PATH,
+    VERIFY_DIR,
     Record,
     configure_stdout,
+    ensure_verify_dirs,
     foreign_key_sets,
     load_all,
     repo_path,
@@ -228,6 +232,68 @@ def _print_markdown(hist, scored, hard_flags) -> None:
         print("| ---: | --- |")
         for name, n in hard_flags.most_common(10):
             print(f"| {n} | `{name}` |")
+
+
+def cmd_status(args: argparse.Namespace) -> int:
+    """Aggregate the verification state into one JSON file (the synced source of
+    truth for "how much is verified"): per-category `verified` counts + Tier 0
+    bands + promotion candidates. Default output: data/_verify/status.json."""
+    records = load_all()
+    _, _, soc_release = foreign_key_sets(records)
+    now_year = offline.now_year_today()
+
+    by_category: dict[str, dict] = {}
+    tot = ver = g = y = r = 0
+    for cat in CATEGORIES:
+        ct = cv = cg = cy = cr = 0
+        for rec in records[cat]:
+            if not rec.slug:
+                continue
+            ct += 1
+            if rec.verified:
+                cv += 1
+            band = offline.score_record(rec, now_year, soc_release).band
+            cg += band == "green"
+            cy += band == "yellow"
+            cr += band == "red"
+        by_category[cat] = {
+            "total": ct,
+            "verified": cv,
+            "verified_pct": round(100 * cv / ct, 2) if ct else 0.0,
+            "green": cg,
+            "yellow": cy,
+            "red": cr,
+            # green = high-confidence band; the promotion candidate pool.
+            "promotable": cg,
+        }
+        tot += ct; ver += cv; g += cg; y += cy; r += cr
+
+    status = {
+        "generated_at": _now_iso(),
+        "schema": 1,
+        "totals": {
+            "records": tot,
+            "verified": ver,
+            "verified_pct": round(100 * ver / tot, 2) if tot else 0.0,
+            "green": g,
+            "yellow": y,
+            "red": r,
+            "promotable": g,
+        },
+        "by_category": by_category,
+    }
+    blob = json.dumps(status, indent=2, ensure_ascii=False) + "\n"
+
+    if args.stdout:
+        print(blob, end="")
+    else:
+        out = args.output or (VERIFY_DIR / "status.json")
+        ensure_verify_dirs()
+        out.write_text(blob, encoding="utf-8")
+        print(f"wrote verification status: {out}  "
+              f"({ver}/{tot} verified = {100*ver/tot:.2f}%, "
+              f"{g} green / {y} yellow / {r} red)")
+    return 0
 
 
 def cmd_report(args: argparse.Namespace) -> int:
@@ -582,6 +648,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     rp = sub.add_parser("report", help="summarize latest ledger state")
     rp.set_defaults(func=cmd_report)
+
+    st = sub.add_parser("status", help="write the aggregated verification status JSON")
+    st.add_argument("--output", type=Path, default=None,
+                    help="output path (default: data/_verify/status.json)")
+    st.add_argument("--stdout", action="store_true", help="print JSON instead of writing a file")
+    st.set_defaults(func=cmd_status)
 
     cu = sub.add_parser("check-urls", help="Tier 1: source_urls HTTP liveness")
     cu.add_argument("--category", nargs="*", choices=CATEGORIES, help="limit to categories")

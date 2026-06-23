@@ -101,7 +101,27 @@ def test_green_with_live_t1_promotes():
         band="green", source_urls=["https://en.wikipedia.org/wiki/X"],
         url_cache=cache, crossref_decision=None,
     )
-    assert d.promote and d.reason == "green+live-t1"
+    assert d.promote and d.reason == "green+live-source"
+
+
+def test_green_with_live_t2_promotes():
+    # A reputable T2 spec/benchmark DB (cpubenchmark) that is alive also promotes.
+    cache = {"https://www.cpubenchmark.net/cpu.php?id=1": {"alive": True}}
+    d = promote.decide(
+        band="green", source_urls=["https://www.cpubenchmark.net/cpu.php?id=1"],
+        url_cache=cache, crossref_decision=None,
+    )
+    assert d.promote and d.reason == "green+live-source"
+
+
+def test_green_with_only_t3_source_held():
+    # kaggle (T3) alive is NOT enough to promote even if green.
+    cache = {"https://www.kaggle.com/x": {"alive": True}}
+    d = promote.decide(
+        band="green", source_urls=["https://www.kaggle.com/x"],
+        url_cache=cache, crossref_decision=None,
+    )
+    assert not d.promote
 
 
 def test_green_without_live_source_blocked():

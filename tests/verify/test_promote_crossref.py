@@ -43,6 +43,20 @@ def test_no_candidates_is_notfound():
     assert crossref.crossref_record(rec, FakeFetcher([])).decision == crossref.NOTFOUND
 
 
+def test_exact_heading_without_year_is_ambiguous():
+    # Name matches an authoritative entity but there's no year to verify specs.
+    rec = {"slug": "x", "name": "Widget 9000", "release_date": "2018-01-01"}
+    f = FakeFetcher([Candidate("Widget 9000", "http://x", None)])
+    assert crossref.crossref_record(rec, f).decision == crossref.AMBIGUOUS
+
+
+def test_model_suffix_matches_maker_prefixed_record():
+    # Wikidata often labels without the maker prefix.
+    rec = {"slug": "x", "name": "AMD Ryzen 7 5800X", "release_date": "2020-11-05"}
+    f = FakeFetcher([Candidate("Ryzen 7 5800X", "http://x", 2020)])
+    assert crossref.crossref_record(rec, f).decision == crossref.CONFIRM
+
+
 def test_normalize_heading():
     assert crossref.normalize_heading("iPhone XR") == "iphonexr"
     assert crossref.normalize_heading("Core i9-14900K") == "corei914900k"
@@ -133,6 +147,17 @@ def test_green_without_live_source_blocked():
 def test_yellow_with_crossref_confirm_promotes():
     d = promote.decide(band="yellow", source_urls=[], url_cache={}, crossref_decision="confirm")
     assert d.promote and d.reason == "crossref-confirm"
+
+
+def test_crossref_contradict_vetoes_even_green():
+    # Reality veto: a green record with a live source is NOT promoted if an
+    # authoritative source contradicts its specs.
+    cache = {"https://en.wikipedia.org/wiki/X": {"alive": True}}
+    d = promote.decide(
+        band="green", source_urls=["https://en.wikipedia.org/wiki/X"],
+        url_cache=cache, crossref_decision="contradict",
+    )
+    assert not d.promote and d.reason == "crossref-contradict"
 
 
 def test_dead_t1_does_not_promote():

@@ -59,10 +59,29 @@ def _year_of(value: Any) -> int | None:
     return None
 
 
+def _heading_matches(rec_name: str, cand_title: str) -> bool:
+    """Exact normalized match, or the candidate is the model-name suffix of the
+    record (authoritative sources often omit the maker prefix: record 'AMD Ryzen 7
+    5800X' vs Wikidata label 'Ryzen 7 5800X'). This is NOT fuzzy matching — it
+    requires a full, contiguous suffix of >=4 chars, so it can't drift to a
+    different SKU the way Levenshtein does."""
+    r, c = normalize_heading(rec_name), normalize_heading(cand_title)
+    if not r or not c:
+        return False
+    if r == c:
+        return True
+    return len(c) >= 4 and (r.endswith(c) or c.endswith(r))
+
+
 def crossref_record(
     rec: dict[str, Any], fetcher: Fetcher, source: str = "wikidata"
 ) -> CrossrefResult:
-    """Decide confirm/ambiguous/contradict/notfound for one record."""
+    """Decide confirm/ambiguous/contradict/notfound for one record.
+
+    Reality-based: CONFIRM requires an exact-heading authoritative entity whose
+    release year agrees. A year disagreement is a CONTRADICT (reality veto — the
+    record must NOT be promoted, even if it scored green). A name match with no
+    comparable year is only AMBIGUOUS (existence, but specs unconfirmed)."""
     name = rec.get("name")
     slug = rec.get("slug") or ""
     if not isinstance(name, str) or not name.strip():
@@ -72,25 +91,78 @@ def crossref_record(
     if not candidates:
         return CrossrefResult(slug, source, NOTFOUND, False, None, 0)
 
-    target = normalize_heading(name)
-    exact = [c for c in candidates if normalize_heading(c.title) == target]
+    exact = [c for c in candidates if _heading_matches(name, c.title)]
     if not exact:
-        # Something came back, but no title matches exactly -> do not trust.
         return CrossrefResult(slug, source, AMBIGUOUS, False, candidates[0].url, 0)
 
-    cand = exact[0]
-    # Secondary gate: if both sides expose a release year, they must roughly agree.
+    # Prefer an exact match that carries a year (so we can actually confirm specs).
+    cand = next((c for c in exact if c.year is not None), exact[0])
     rec_year = _year_of(rec.get("release_date"))
-    agreements = 0
     if rec_year is not None and cand.year is not None:
         if abs(cand.year - rec_year) <= 1:
-            agreements = 1
-        else:
-            return CrossrefResult(slug, source, CONTRADICT, True, cand.url, 0)
-    return CrossrefResult(slug, source, CONFIRM, True, cand.url, agreements)
+            return CrossrefResult(slug, source, CONFIRM, True, cand.url, 1)
+        return CrossrefResult(slug, source, CONTRADICT, True, cand.url, 0)
+    # Name matches an authoritative entity but no year to verify the data against.
+    return CrossrefResult(slug, source, AMBIGUOUS, True, cand.url, 0)
 
 
 # --- concrete fetchers (network; not exercised by unit tests) --------------------
+
+
+def _wikidata_claim_year(entity: dict) -> int | None:
+    """First year from inception (P571) or publication date (P577) claims."""
+    claims = entity.get("claims", {})
+    for prop in ("P571", "P577"):
+        for claim in claims.get(prop, []):
+            try:
+                t = claim["mainsnak"]["datavalue"]["value"]["time"]  # "+2007-02-19T..."
+            except (KeyError, TypeError):
+                continue
+            digits = t.lstrip("+")[:4]
+            if digits.isdigit():
+                return int(digits)
+    return None
+
+
+class WikidataFetcher:
+    """Structured cross-reference against Wikidata: search entities by label, then
+    read their release year (P571/P577) to verify the record's data against reality.
+    Two HTTP calls per record (search + a batched entity fetch)."""
+
+    API = "https://www.wikidata.org/w/api.php"
+    UA = "TechAPI-verify/0.1 (https://github.com/GetTechAPI)"
+
+    def __init__(self, timeout: float = 10.0, limit: int = 5) -> None:
+        self.timeout = timeout
+        self.limit = limit
+
+    def _get(self, url: str) -> dict:
+        req = Request(url, headers={"User-Agent": self.UA})
+        with urlopen(req, timeout=self.timeout) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+
+    def search(self, name: str) -> list[Candidate]:
+        try:
+            data = self._get(
+                f"{self.API}?action=wbsearchentities&format=json&language=en"
+                f"&limit={self.limit}&search={quote(name)}"
+            )
+            hits = data.get("search", [])
+            if not hits:
+                return []
+            ids = "|".join(h["id"] for h in hits if h.get("id"))
+            ent = self._get(
+                f"{self.API}?action=wbgetentities&format=json&props=claims&ids={ids}"
+            ).get("entities", {})
+        except Exception:
+            return []
+        out: list[Candidate] = []
+        for h in hits:
+            qid = h.get("id")
+            label = h.get("label") or h.get("match", {}).get("text", "")
+            year = _wikidata_claim_year(ent.get(qid, {})) if qid else None
+            out.append(Candidate(title=label, url=f"https://www.wikidata.org/wiki/{qid}", year=year))
+        return out
 
 
 class WikipediaFetcher:

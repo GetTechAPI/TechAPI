@@ -31,6 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PYTHONIOENCODING: utf-8
+      # Apply (open a promotion PR) on the weekly schedule and on manual apply=true.
+      # Manual runs without apply stay dry-run for previewing.
+      APPLY: ${{ github.event_name == 'schedule' || github.event.inputs.apply == 'true' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -61,22 +64,24 @@ jobs:
         run: python -m app.verify promote
 
       - name: Tier 3 promote (apply)
-        if: ${{ github.event.inputs.apply == 'true' }}
+        if: ${{ env.APPLY == 'true' }}
         run: python -m app.verify promote --apply
 
       - name: Structural validator self-check
-        if: ${{ github.event.inputs.apply == 'true' }}
+        if: ${{ env.APPLY == 'true' }}
         run: python -m app.validate
 
       # Guard: the only tracked changes may be `verified` toggles in data/**.json
       # plus the promotion ledger. Anything else fails the run loudly.
       - name: Guard diff scope
-        if: ${{ github.event.inputs.apply == 'true' }}
+        if: ${{ env.APPLY == 'true' }}
         run: |
           python - <<'PY'
           import subprocess, sys
-          out = subprocess.run(["git", "diff", "--unified=0", "--", "data/"],
-                               capture_output=True, text=True).stdout
+          # Record files only — the promotion ledger (data/_verify/) is expected to change.
+          out = subprocess.run(
+              ["git", "diff", "--unified=0", "--", "data/", ":(exclude)data/_verify/**"],
+              capture_output=True, text=True).stdout
           bad = []
           for line in out.splitlines():
               if line.startswith(("+++", "---", "@@", "diff ", "index ")):
@@ -93,7 +98,7 @@ jobs:
           PY
 
       - name: Open promotion PR
-        if: ${{ github.event.inputs.apply == 'true' }}
+        if: ${{ env.APPLY == 'true' }}
         env:
           GH_TOKEN: ${{ secrets.TECHAPI_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
@@ -102,13 +107,13 @@ jobs:
             echo "no promotions to commit"; exit 0
           fi
           branch="verify/promote-${{ github.run_id }}"
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "TechEngineBot"
+          git config user.email "289859915+TechEngineBot@users.noreply.github.com"
           git checkout -b "$branch"
           git add data/
           git commit -m "data(verify): promote records to verified via cross-reference
 
-          Auto-promotions from the verification layer (green+live-T1 or crossref-confirm).
+          Auto-promotions from the verification layer (green+live-source or crossref-confirm).
           Each flip is verified:false->true only; see data/_verify/ledger.jsonl. Refs #1"
           git push origin "$branch"
           gh pr create --base main --head "$branch" \

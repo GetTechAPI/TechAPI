@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
+    "build:history": "node scripts/build-history.mjs",
+    "prebuild": "node scripts/build-history.mjs",
     "build": "astro build",
     "preview": "astro preview"
   },

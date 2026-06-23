@@ -24,6 +24,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # build-history.mjs walks the full git history of the public dump to
+          # rebuild the homepage growth timeline; a shallow clone hides old syncs.
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:

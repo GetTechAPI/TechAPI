@@ -406,15 +406,12 @@ def cmd_crossref(args: argparse.Namespace) -> int:
     now_year = offline.now_year_today()
     categories = tuple(args.category) if args.category else CATEGORIES
 
-    # Escalation target: yellow/red unverified frontier (greens promote via live T1).
-    targets = []
-    for rec in _ranked_unverified(records, soc_release, now_year, categories):
-        s = offline.score_record(rec, now_year, soc_release)
-        if s.band in ("yellow", "red"):
-            targets.append(rec)
-    targets = targets[: args.max]
+    # Cross-reference the whole unverified frontier, ranked by score. Greens are
+    # included on purpose: reality must be able to CONFIRM them (strongest promote)
+    # or CONTRADICT them (veto) before they are verified.
+    targets = _ranked_unverified(records, soc_release, now_year, categories)[: args.max]
 
-    fetcher = crossref.WikipediaFetcher()
+    fetcher = crossref.WikidataFetcher()
     cache = promote.load_crossref_cache()
     ts = _now_iso()
     decisions = Counter()
@@ -569,7 +566,7 @@ def cmd_pr(args: argparse.Namespace) -> int:
             print()
 
         # Tier 2 — external cross-reference (network, exact-heading only).
-        fetcher = crossref.WikipediaFetcher()
+        fetcher = crossref.WikidataFetcher()
         xref: dict[str, str] = {}
         decisions = Counter()
         for r, _ in scored:

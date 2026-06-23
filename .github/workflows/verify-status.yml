@@ -41,12 +41,14 @@ jobs:
 
       - name: Commit if changed (TechEngineBot)
         run: |
-          if git diff --quiet -- data/_verify/status.json; then
+          # Stage first so a brand-new (untracked) status.json is detected too —
+          # `git diff` alone ignores untracked files.
+          git add data/_verify/status.json
+          if git diff --cached --quiet; then
             echo "verification status unchanged"; exit 0
           fi
           # Attribute the commit to the TechEngineBot account (id 289859915).
           git config user.name "TechEngineBot"
           git config user.email "289859915+TechEngineBot@users.noreply.github.com"
-          git add data/_verify/status.json
           git commit -m "chore(verify): refresh verification status aggregate"
           git push origin HEAD:main

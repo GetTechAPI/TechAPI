@@ -1,6 +1,7 @@
 {
-  "id": 13029,
+  "id": 68610,
   "slug": "xp8-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "XP8 Dual SIM TD-LTE",
   "brand": {
     "id": 182,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sonim"
   },
   "soc": {
-    "id": 1286,
+    "id": 1644,
     "slug": "qualcomm-snapdragon-630-sdm630",
     "name": "Qualcomm Snapdragon 630 SDM630",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.5,
+    "algorithm_version": "2.0.0",
+    "overall": 30.6,
     "performance": null,
-    "camera": 5.0,
-    "battery": 28.5,
-    "display": 49.1,
-    "value": null
+    "camera": 6.3,
+    "battery": 34.0,
+    "display": 51.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.060541",
-  "updated_at": "2026-06-19T02:27:16.060541"
+  "created_at": "2026-06-24T08:54:19.426759",
+  "updated_at": "2026-06-24T08:54:19.426771"
 }

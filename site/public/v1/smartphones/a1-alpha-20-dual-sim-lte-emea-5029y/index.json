@@ -1,6 +1,7 @@
 {
-  "id": 13674,
+  "id": 71708,
   "slug": "a1-alpha-20-dual-sim-lte-emea-5029y",
+  "base_model_slug": null,
   "name": "A1 Alpha 20 Dual SIM LTE EMEA 5029Y",
   "brand": {
     "id": 46,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tcl"
   },
   "soc": {
-    "id": 936,
+    "id": 1123,
     "slug": "helio-p22",
     "name": "Helio P22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.22,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.2,
+    "algorithm_version": "2.0.0",
+    "overall": 27.8,
     "performance": null,
-    "camera": 16.5,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "camera": 17.5,
+    "battery": 29.2,
+    "display": 36.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.166140",
-  "updated_at": "2026-06-19T02:27:16.166140"
+  "created_at": "2026-06-24T08:54:20.710731",
+  "updated_at": "2026-06-24T08:54:20.710744"
 }

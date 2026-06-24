@@ -1,6 +1,7 @@
 {
-  "id": 8270,
+  "id": 41017,
   "slug": "c5-endi",
+  "base_model_slug": null,
   "name": "C5 Endi",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 936,
+    "id": 1123,
     "slug": "helio-p22",
     "name": "Helio P22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
+    "algorithm_version": "2.0.0",
+    "overall": 24.4,
     "performance": null,
-    "camera": 5.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 30.1,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.221519",
-  "updated_at": "2026-06-19T02:27:15.221519"
+  "created_at": "2026-06-24T08:54:07.365526",
+  "updated_at": "2026-06-24T08:54:07.365539"
 }

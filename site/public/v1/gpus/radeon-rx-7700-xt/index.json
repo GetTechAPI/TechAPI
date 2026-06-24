@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 35.17,
   "blender_score": 2083.57,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 83.5,
+    "graphics": {
+      "index": 83.5,
+      "percentile": 64.2,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_7000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-7700-xt.c4012",

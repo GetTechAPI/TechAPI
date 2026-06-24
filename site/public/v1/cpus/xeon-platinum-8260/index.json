@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2933 6-channel ECC",
   "msrp_usd": 4702,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 57.1,
+    "single": {
+      "index": 51.8,
+      "percentile": 71.7,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 61.4,
+      "percentile": 89.0,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=xeon-platinum-8260",
     "https://www.cpubenchmark.net/cpu.php?id=3561&cpu=Intel+Xeon+Platinum+8260"
   ],
-  "created_at": "2026-06-19T02:27:18.359606",
-  "updated_at": "2026-06-19T02:27:18.359606",
+  "created_at": "2026-06-24T08:54:41.319609",
+  "updated_at": "2026-06-24T08:54:41.319620",
   "url": "/v1/cpus/xeon-platinum-8260"
 }

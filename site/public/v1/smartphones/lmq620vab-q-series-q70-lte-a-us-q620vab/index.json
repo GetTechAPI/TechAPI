@@ -1,6 +1,7 @@
 {
-  "id": 6057,
+  "id": 30326,
   "slug": "lmq620vab-q-series-q70-lte-a-us-q620vab",
+  "base_model_slug": null,
   "name": "LMQ620VAB Q Series Q70 LTE-A US Q620VAB",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1293,
+    "id": 1651,
     "slug": "snapdragon-675",
     "name": "Snapdragon 675",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2310",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.8,
-    "performance": 0.0,
-    "camera": 11.4,
-    "battery": 15.2,
-    "display": 44.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.3,
+    "performance": 27.8,
+    "camera": 12.5,
+    "battery": 33.2,
+    "display": 47.7,
+    "value": null,
+    "perf": {
+      "index": 27.8,
+      "percentile": 27.1,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.778641",
-  "updated_at": "2026-06-19T02:27:14.778641"
+  "created_at": "2026-06-24T08:54:03.001594",
+  "updated_at": "2026-06-24T08:54:03.001607"
 }

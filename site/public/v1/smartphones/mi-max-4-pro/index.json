@@ -1,6 +1,7 @@
 {
-  "id": 15117,
+  "id": 79570,
   "slug": "mi-max-4-pro",
+  "base_model_slug": null,
   "name": "Mi Max 4 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1307,
+    "id": 1665,
     "slug": "qualcomm-sdm675-snapdragon-675",
     "name": "Qualcomm SDM675 Snapdragon 675",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.2,
     "resolution": "1080x2310",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.2,
+    "algorithm_version": "2.0.0",
+    "overall": 33.4,
     "performance": null,
-    "camera": 16.5,
-    "battery": 42.0,
+    "camera": 17.5,
+    "battery": 49.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.373298",
-  "updated_at": "2026-06-19T02:27:16.373298"
+  "created_at": "2026-06-24T08:54:23.797651",
+  "updated_at": "2026-06-24T08:54:23.797664"
 }

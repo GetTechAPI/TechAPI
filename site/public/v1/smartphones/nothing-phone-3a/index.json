@@ -1,6 +1,7 @@
 {
-  "id": 8319,
+  "id": 42013,
   "slug": "nothing-phone-3a",
+  "base_model_slug": null,
   "name": "Nothing Phone (3a)",
   "brand": {
     "id": 78,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nothing"
   },
   "soc": {
-    "id": 1373,
+    "id": 1802,
     "slug": "snapdragon-7s-gen-3",
     "name": "Snapdragon 7s Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.77,
     "resolution": "2392x1080",
@@ -83,19 +85,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/nothing-phone-3a.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 41.2,
-    "performance": 9.3,
-    "camera": 35.1,
-    "battery": 51.7,
-    "display": 68.7,
-    "value": 67.6
+    "algorithm_version": "2.0.0",
+    "overall": 56.4,
+    "performance": 59.2,
+    "camera": 36.1,
+    "battery": 63.7,
+    "display": 66.7,
+    "value": 71.8,
+    "perf": {
+      "index": 59.2,
+      "percentile": 57.9,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.gsmarena.com/nothing_phone_(3a)-13672.php",
     "https://www.phonearena.com/phones/Nothing-Phone-3a_id12640"
   ],
-  "created_at": "2026-06-19T02:27:15.228025",
-  "updated_at": "2026-06-19T02:27:15.228025"
+  "created_at": "2026-06-24T08:54:07.726481",
+  "updated_at": "2026-06-24T08:54:07.726494"
 }

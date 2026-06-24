@@ -1,6 +1,7 @@
 {
-  "id": 6031,
+  "id": 30238,
   "slug": "lmk420ym-k-series-k42-2020-td-lte-apac-k420ym",
+  "base_model_slug": null,
   "name": "LMK420YM K Series K42 2020 TD-LTE APAC K420YM",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 936,
+    "id": 1123,
     "slug": "helio-p22",
     "name": "Helio P22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.59,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
+    "algorithm_version": "2.0.0",
+    "overall": 24.1,
     "performance": null,
-    "camera": 5.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": 59.2
+    "camera": 6.6,
+    "battery": 29.2,
+    "display": 36.4,
+    "value": 60.3,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.775041",
-  "updated_at": "2026-06-19T02:27:14.775041"
+  "created_at": "2026-06-24T08:54:02.973581",
+  "updated_at": "2026-06-24T08:54:02.973593"
 }

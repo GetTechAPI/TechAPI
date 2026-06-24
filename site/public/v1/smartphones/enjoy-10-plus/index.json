@@ -1,6 +1,7 @@
 {
-  "id": 3829,
+  "id": 18298,
   "slug": "enjoy-10-plus",
+  "base_model_slug": null,
   "name": "Enjoy 10 Plus",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 707,
+    "id": 840,
     "slug": "kirin-710f",
     "name": "Kirin 710F",
     "manufacturer": {
@@ -31,6 +32,7 @@
     8,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.59,
     "resolution": "1080x2340",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.5,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 15.0,
+    "algorithm_version": "2.0.0",
+    "overall": 24.3,
+    "performance": 26.2,
+    "camera": 17.5,
+    "battery": 29.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 26.2,
+      "percentile": 34.1,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.456204",
-  "updated_at": "2026-06-19T02:27:14.456204"
+  "created_at": "2026-06-24T08:53:57.750557",
+  "updated_at": "2026-06-24T08:53:57.750570"
 }

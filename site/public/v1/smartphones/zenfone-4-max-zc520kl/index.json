@@ -1,6 +1,7 @@
 {
-  "id": 1324,
+  "id": 6649,
   "slug": "zenfone-4-max-zc520kl",
+  "base_model_slug": null,
   "name": "Zenfone 4 Max ZC520KL",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1297,
+    "id": 1655,
     "slug": "qualcomm-msm8917-snapdragon-425",
     "name": "Qualcomm MSM8917 Snapdragon 425",
     "manufacturer": {
@@ -30,6 +31,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "720x1280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.9,
+    "algorithm_version": "2.0.0",
+    "overall": 16.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 16.5,
+    "camera": 6.6,
+    "battery": 26.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.021871",
-  "updated_at": "2026-06-19T02:27:14.021871"
+  "created_at": "2026-06-24T08:53:52.658985",
+  "updated_at": "2026-06-24T08:53:52.658997"
 }

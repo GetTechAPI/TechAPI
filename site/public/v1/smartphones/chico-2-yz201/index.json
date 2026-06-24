@@ -1,6 +1,7 @@
 {
-  "id": 16004,
+  "id": 86544,
   "slug": "chico-2-yz201",
+  "base_model_slug": null,
   "name": "Chico 2 YZ201",
   "brand": {
     "id": 188,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/yezz"
   },
   "soc": {
-    "id": 480,
+    "id": 555,
     "slug": "yezz-mobile-platform-2012",
     "name": "Yezz mobile platform 2012",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 1.8,
     "resolution": "128x160",
@@ -46,18 +48,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.490369",
-  "updated_at": "2026-06-19T02:27:16.490369"
+  "created_at": "2026-06-24T08:54:26.321584",
+  "updated_at": "2026-06-24T08:54:26.321597"
 }

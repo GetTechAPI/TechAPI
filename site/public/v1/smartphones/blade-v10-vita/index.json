@@ -1,6 +1,7 @@
 {
-  "id": 16411,
+  "id": 88411,
   "slug": "blade-v10-vita",
+  "base_model_slug": null,
   "name": "Blade V10 Vita",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1556,
+    "id": 2081,
     "slug": "unisoc-sc9863a",
     "name": "Unisoc SC9863A",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.26,
     "resolution": "720x1520",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.2,
+    "algorithm_version": "2.0.0",
+    "overall": 11.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 3.0,
+    "camera": 6.6,
+    "battery": 17.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.550798",
-  "updated_at": "2026-06-19T02:27:16.550798"
+  "created_at": "2026-06-24T08:54:27.058278",
+  "updated_at": "2026-06-24T08:54:27.058295"
 }

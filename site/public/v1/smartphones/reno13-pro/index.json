@@ -1,6 +1,7 @@
 {
-  "id": 9462,
+  "id": 50190,
   "slug": "reno13-pro",
+  "base_model_slug": null,
   "name": "Reno13 Pro",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1063,
+    "id": 1308,
     "slug": "dimensity-8350",
     "name": "Dimensity 8350",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.83,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.1,
-    "performance": 25.2,
-    "camera": 17.1,
-    "battery": 57.0,
+    "algorithm_version": "2.0.0",
+    "overall": 50.3,
+    "performance": 69.1,
+    "camera": 18.1,
+    "battery": 63.8,
     "display": null,
-    "value": 47.4
+    "value": 53.8,
+    "perf": {
+      "index": 69.1,
+      "percentile": 67.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.401766",
-  "updated_at": "2026-06-19T02:27:15.401766"
+  "created_at": "2026-06-24T08:54:11.288806",
+  "updated_at": "2026-06-24T08:54:11.288818"
 }

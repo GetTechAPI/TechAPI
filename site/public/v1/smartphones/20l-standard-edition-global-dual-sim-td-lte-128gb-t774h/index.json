@@ -1,6 +1,7 @@
 {
-  "id": 13696,
+  "id": 71900,
   "slug": "20l-standard-edition-global-dual-sim-td-lte-128gb-t774h",
+  "base_model_slug": null,
   "name": "20L Standard Edition Global Dual SIM TD-LTE 128GB T774H",
   "brand": {
     "id": 46,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tcl"
   },
   "soc": {
-    "id": 1338,
+    "id": 1707,
     "slug": "snapdragon-662",
     "name": "Snapdragon 662",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.5,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.6,
-    "display": 27.0,
-    "value": 59.2
+    "algorithm_version": "2.0.0",
+    "overall": 28.6,
+    "performance": 23.6,
+    "camera": 17.5,
+    "battery": 43.5,
+    "display": 29.9,
+    "value": 63.2,
+    "perf": {
+      "index": 23.6,
+      "percentile": 20.9,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.169138",
-  "updated_at": "2026-06-19T02:27:16.169138"
+  "created_at": "2026-06-24T08:54:20.780410",
+  "updated_at": "2026-06-24T08:54:20.780423"
 }

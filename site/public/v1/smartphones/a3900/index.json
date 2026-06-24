@@ -1,6 +1,7 @@
 {
-  "id": 4895,
+  "id": 25188,
   "slug": "a3900",
+  "base_model_slug": null,
   "name": "A3900",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 884,
+    "id": 1066,
     "slug": "mediatek-mt6752",
     "name": "Mediatek MT6752",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "480x854",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 6.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 8.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.607865",
-  "updated_at": "2026-06-19T02:27:14.607865"
+  "created_at": "2026-06-24T08:54:00.389307",
+  "updated_at": "2026-06-24T08:54:00.389320"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15897,
+  "id": 85802,
   "slug": "poco-x6",
+  "base_model_slug": null,
   "name": "POCO X6",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1366,
+    "id": 1765,
     "slug": "snapdragon-7s-gen-2",
     "name": "Snapdragon 7s Gen 2",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2712x1220",
@@ -83,19 +85,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/poco-x6.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 38.6,
-    "performance": 3.0,
-    "camera": 39.6,
-    "battery": 56.4,
-    "display": 55.5,
-    "value": 69.3
+    "algorithm_version": "2.0.0",
+    "overall": 53.5,
+    "performance": 50.5,
+    "camera": 40.5,
+    "battery": 67.6,
+    "display": 55.6,
+    "value": 73.2,
+    "perf": {
+      "index": 50.5,
+      "percentile": 43.9,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/poco-x6",
     "https://en.wikipedia.org/wiki/POCO_X6"
   ],
-  "created_at": "2026-06-19T02:27:16.475362",
-  "updated_at": "2026-06-19T02:27:16.475362"
+  "created_at": "2026-06-24T08:54:26.004571",
+  "updated_at": "2026-06-24T08:54:26.004583"
 }

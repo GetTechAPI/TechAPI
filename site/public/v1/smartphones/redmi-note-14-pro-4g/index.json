@@ -1,6 +1,7 @@
 {
-  "id": 15900,
+  "id": 85893,
   "slug": "redmi-note-14-pro-4g",
+  "base_model_slug": null,
   "name": "Redmi Note 14 Pro 4G",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1342,
+    "id": 1711,
     "slug": "snapdragon-732g",
     "name": "Snapdragon 732G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.9,
-    "performance": 3.0,
-    "camera": 35.7,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 41.3,
+    "performance": 40.0,
+    "camera": 36.3,
+    "battery": 47.5,
     "display": null,
-    "value": 61.5
+    "value": 67.1,
+    "perf": {
+      "index": 40.0,
+      "percentile": 13.5,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.475362",
-  "updated_at": "2026-06-19T02:27:16.475362"
+  "created_at": "2026-06-24T08:54:26.036310",
+  "updated_at": "2026-06-24T08:54:26.036323"
 }

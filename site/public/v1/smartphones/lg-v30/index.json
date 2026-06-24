@@ -1,6 +1,7 @@
 {
-  "id": 5664,
+  "id": 28756,
   "slug": "lg-v30",
+  "base_model_slug": null,
   "name": "LG V30",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1268,
+    "id": 1625,
     "slug": "snapdragon-835",
     "name": "Snapdragon 835",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "2880x1440",
@@ -77,19 +79,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-v30.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
-    "performance": 23.1,
-    "camera": 19.3,
-    "battery": 6.9,
-    "display": 23.8,
-    "value": 40.0
+    "algorithm_version": "2.0.0",
+    "overall": 34.4,
+    "performance": 59.0,
+    "camera": 20.5,
+    "battery": 30.4,
+    "display": 27.6,
+    "value": 45.8,
+    "perf": {
+      "index": 59.0,
+      "percentile": 85.5,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/LG_V30",
     "https://www.lg.com/global/mobile-phones/lg-v30"
   ],
-  "created_at": "2026-06-19T02:27:14.727950",
-  "updated_at": "2026-06-19T02:27:14.727950"
+  "created_at": "2026-06-24T08:54:02.444893",
+  "updated_at": "2026-06-24T08:54:02.444905"
 }

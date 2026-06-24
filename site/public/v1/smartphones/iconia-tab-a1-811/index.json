@@ -1,6 +1,7 @@
 {
-  "id": 44,
+  "id": 139,
   "slug": "iconia-tab-a1-811",
+  "base_model_slug": null,
   "name": "Iconia Tab A1-811",
   "brand": {
     "id": 128,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/acer"
   },
   "soc": {
-    "id": 847,
+    "id": 1026,
     "slug": "mediatek-mt8389w",
     "name": "Mediatek MT8389W",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.9,
     "resolution": "768x1024",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.2,
+    "algorithm_version": "2.0.0",
+    "overall": 19.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 29.4,
+    "battery": 34.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.818126",
-  "updated_at": "2026-06-19T02:27:13.818126"
+  "created_at": "2026-06-24T08:53:50.126914",
+  "updated_at": "2026-06-24T08:53:50.126926"
 }

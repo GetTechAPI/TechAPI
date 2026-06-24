@@ -1,6 +1,7 @@
 {
-  "id": 8073,
+  "id": 39951,
   "slug": "n1",
+  "base_model_slug": null,
   "name": "N1",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 781,
+    "id": 942,
     "slug": "intel-atom-z3580",
     "name": "Intel Atom Z3580",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.9,
     "resolution": "1536x2048",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.8,
+    "algorithm_version": "2.0.0",
+    "overall": 21.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 34.5,
+    "battery": 38.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.191037",
-  "updated_at": "2026-06-19T02:27:15.191037"
+  "created_at": "2026-06-24T08:54:06.988704",
+  "updated_at": "2026-06-24T08:54:06.988716"
 }

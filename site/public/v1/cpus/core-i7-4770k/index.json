@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel HD Graphics 4600",
   "memory_support": "DDR3-1600 dual-channel",
   "msrp_usd": 339,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 33.3,
+    "single": {
+      "index": 45.8,
+      "percentile": 69.0,
+      "tier": "B",
+      "era": "2010-2013",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 23.0,
+      "percentile": 50.7,
+      "tier": "C",
+      "era": "2010-2013",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Haswell_(microarchitecture)",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Core-i7-4770K",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.235535",
-  "updated_at": "2026-06-19T02:27:18.235535",
+  "created_at": "2026-06-24T08:54:41.111862",
+  "updated_at": "2026-06-24T08:54:41.111873",
   "url": "/v1/cpus/core-i7-4770k"
 }

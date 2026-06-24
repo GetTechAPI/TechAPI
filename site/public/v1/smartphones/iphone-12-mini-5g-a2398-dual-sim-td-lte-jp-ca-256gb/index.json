@@ -1,6 +1,7 @@
 {
-  "id": 960,
+  "id": 4189,
   "slug": "iphone-12-mini-5g-a2398-dual-sim-td-lte-jp-ca-256gb",
+  "base_model_slug": null,
   "name": "iPhone 12 Mini 5G A2398 Dual SIM TD-LTE JP CA 256GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 24,
+    "id": 37,
     "slug": "apple-a14-bionic",
     "name": "Apple A14 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.42,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.4,
-    "performance": 26.5,
-    "camera": 5.1,
-    "battery": 11.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 34.7,
+    "performance": 67.1,
+    "camera": 6.3,
+    "battery": 28.6,
+    "display": 36.8,
+    "value": null,
+    "perf": {
+      "index": 67.1,
+      "percentile": 93.2,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.960604",
-  "updated_at": "2026-06-19T02:27:13.960604"
+  "created_at": "2026-06-24T08:53:51.729164",
+  "updated_at": "2026-06-24T08:53:51.729177"
 }

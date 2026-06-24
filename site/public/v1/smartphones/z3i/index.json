@@ -1,6 +1,7 @@
 {
-  "id": 14311,
+  "id": 74581,
   "slug": "z3i",
+  "base_model_slug": null,
   "name": "Z3i",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 993,
+    "id": 1181,
     "slug": "mediatek-mt6771-helio-p60",
     "name": "Mediatek MT6771 Helio P60",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 5.5,
+    "algorithm_version": "2.0.0",
+    "overall": 14.9,
     "performance": null,
-    "camera": 6.3,
-    "battery": 4.7,
+    "camera": 7.5,
+    "battery": 22.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.257684",
-  "updated_at": "2026-06-19T02:27:16.257684"
+  "created_at": "2026-06-24T08:54:21.850020",
+  "updated_at": "2026-06-24T08:54:21.850033"
 }

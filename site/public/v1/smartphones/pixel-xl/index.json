@@ -1,6 +1,7 @@
 {
-  "id": 2705,
+  "id": 12222,
   "slug": "pixel-xl",
+  "base_model_slug": null,
   "name": "Pixel XL",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 1256,
+    "id": 1613,
     "slug": "snapdragon-821",
     "name": "Snapdragon 821",
     "manufacturer": {
@@ -29,6 +30,7 @@
     32,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "2560x1440",
@@ -71,19 +73,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-xl.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.9,
-    "performance": 11.8,
-    "camera": 5.1,
-    "battery": 7.3,
-    "display": 23.4,
-    "value": 37.9
+    "algorithm_version": "2.0.0",
+    "overall": 25.8,
+    "performance": 51.0,
+    "camera": 6.3,
+    "battery": 21.7,
+    "display": 24.3,
+    "value": 42.6,
+    "perf": {
+      "index": 51.0,
+      "percentile": 73.4,
+      "tier": "B",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Pixel_(1st_generation)",
     "https://store.google.com/product/pixel_xl_specs"
   ],
-  "created_at": "2026-06-19T02:27:14.242657",
-  "updated_at": "2026-06-19T02:27:14.242657"
+  "created_at": "2026-06-24T08:53:54.965155",
+  "updated_at": "2026-06-24T08:53:54.965167"
 }

@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 2.138,
   "blender_score": 209.22,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 36.3,
+    "graphics": {
+      "index": 36.3,
+      "percentile": 12.7,
+      "tier": "E",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_10_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-1050-ti.c2885",

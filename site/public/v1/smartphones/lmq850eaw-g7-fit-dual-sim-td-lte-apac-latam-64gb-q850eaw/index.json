@@ -1,6 +1,7 @@
 {
-  "id": 5749,
+  "id": 29069,
   "slug": "lmq850eaw-g7-fit-dual-sim-td-lte-apac-latam-64gb-q850eaw",
+  "base_model_slug": null,
   "name": "LMQ850EAW G7 Fit Dual SIM TD-LTE APAC LATAM 64GB Q850EAW",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1256,
+    "id": 1613,
     "slug": "snapdragon-821",
     "name": "Snapdragon 821",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "1440x3120",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.9,
-    "performance": 11.8,
-    "camera": 6.4,
-    "battery": 0.0,
-    "display": 61.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 33.9,
+    "performance": 51.0,
+    "camera": 7.6,
+    "battery": 15.0,
+    "display": 61.9,
+    "value": null,
+    "perf": {
+      "index": 51.0,
+      "percentile": 67.3,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.739521",
-  "updated_at": "2026-06-19T02:27:14.739521"
+  "created_at": "2026-06-24T08:54:02.553714",
+  "updated_at": "2026-06-24T08:54:02.553727"
 }

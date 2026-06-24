@@ -1,6 +1,7 @@
 {
-  "id": 58,
+  "id": 184,
   "slug": "iconia-one-7-b1-730",
+  "base_model_slug": null,
   "name": "Iconia One 7 B1-730",
   "brand": {
     "id": 128,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/acer"
   },
   "soc": {
-    "id": 768,
+    "id": 922,
     "slug": "intel-atom-z2560",
     "name": "Intel Atom Z2560",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "800x1280",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.8,
+    "algorithm_version": "2.0.0",
+    "overall": 13.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 10.5,
+    "battery": 22.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.820125",
-  "updated_at": "2026-06-19T02:27:13.820125"
+  "created_at": "2026-06-24T08:53:50.145554",
+  "updated_at": "2026-06-24T08:53:50.145567"
 }

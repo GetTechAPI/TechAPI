@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 60,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 30.4,
+    "single": {
+      "index": 41.2,
+      "percentile": 55.8,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 21.5,
+      "percentile": 43.9,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5200%2B&id=84"
   ],
-  "created_at": "2026-06-19T02:27:18.035406",
-  "updated_at": "2026-06-19T02:27:18.035406",
+  "created_at": "2026-06-24T08:54:40.689638",
+  "updated_at": "2026-06-24T08:54:40.689649",
   "url": "/v1/cpus/amd-athlon-64-x2-dual-core-5200-plus"
 }

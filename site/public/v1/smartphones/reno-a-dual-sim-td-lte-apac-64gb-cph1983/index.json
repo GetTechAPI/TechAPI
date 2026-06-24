@@ -1,6 +1,7 @@
 {
-  "id": 8917,
+  "id": 45238,
   "slug": "reno-a-dual-sim-td-lte-apac-64gb-cph1983",
+  "base_model_slug": null,
   "name": "Reno A Dual SIM TD-LTE APAC 64GB CPH1983",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1294,
+    "id": 1652,
     "slug": "snapdragon-710",
     "name": "Snapdragon 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.38,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.6,
-    "performance": 21.5,
-    "camera": 6.3,
-    "battery": 9.0,
-    "display": 45.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.9,
+    "performance": 58.7,
+    "camera": 7.5,
+    "battery": 29.3,
+    "display": 48.2,
+    "value": null,
+    "perf": {
+      "index": 58.7,
+      "percentile": 84.6,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.321534",
-  "updated_at": "2026-06-19T02:27:15.321534"
+  "created_at": "2026-06-24T08:54:08.913102",
+  "updated_at": "2026-06-24T08:54:08.913114"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 3746,
+  "id": 17887,
   "slug": "nova-3",
+  "base_model_slug": null,
   "name": "nova 3",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 691,
+    "id": 799,
     "slug": "hisilicon-kirin-970",
     "name": "Hisilicon Kirin 970",
     "manufacturer": {
@@ -30,6 +31,7 @@
     6,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 8.8,
+    "algorithm_version": "2.0.0",
+    "overall": 19.1,
     "performance": null,
-    "camera": 6.3,
-    "battery": 11.2,
+    "camera": 7.5,
+    "battery": 30.8,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.446186",
-  "updated_at": "2026-06-19T02:27:14.446186"
+  "created_at": "2026-06-24T08:53:57.587010",
+  "updated_at": "2026-06-24T08:53:57.587022"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 18128,
+  "id": 10385,
   "slug": "coolpad-quattro-4g-5860e",
+  "base_model_slug": null,
   "name": "Coolpad Quattro 4G 5860E",
   "brand": {
     "id": 17,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/coolpad"
   },
   "soc": {
-    "id": 1140,
+    "id": 1425,
     "slug": "qualcomm-msm7627t",
     "name": "Qualcomm MSM7627T",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Adreno 200",
     "url": "/v1/socs/qualcomm-msm7627t"
   },
   "release_date": "2012-09-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     1
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.98,
     "resolution": "480x800",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 18.5,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 2.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=3735"
   ],
-  "created_at": "2026-06-19T09:44:27.966140",
-  "updated_at": "2026-06-19T09:44:27.966140"
+  "created_at": "2026-06-24T08:53:54.166511",
+  "updated_at": "2026-06-24T08:53:54.166524"
 }

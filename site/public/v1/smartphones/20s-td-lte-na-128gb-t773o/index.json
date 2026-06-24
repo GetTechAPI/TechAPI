@@ -1,6 +1,7 @@
 {
-  "id": 13697,
+  "id": 71907,
   "slug": "20s-td-lte-na-128gb-t773o",
+  "base_model_slug": null,
   "name": "20S TD-LTE NA 128GB T773O",
   "brand": {
     "id": 46,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tcl"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.8,
-    "performance": 0.0,
-    "camera": 21.5,
-    "battery": 30.6,
-    "display": 27.0,
-    "value": 53.8
+    "algorithm_version": "2.0.0",
+    "overall": 29.6,
+    "performance": 22.8,
+    "camera": 22.4,
+    "battery": 43.5,
+    "display": 29.9,
+    "value": 55.5,
+    "perf": {
+      "index": 22.8,
+      "percentile": 18.5,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.169138",
-  "updated_at": "2026-06-19T02:27:16.169138"
+  "created_at": "2026-06-24T08:54:20.783444",
+  "updated_at": "2026-06-24T08:54:20.783457"
 }

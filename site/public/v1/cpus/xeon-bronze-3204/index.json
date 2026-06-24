@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2933 6-channel ECC",
   "msrp_usd": 213,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 12.2,
+    "single": {
+      "index": 13.9,
+      "percentile": 0.6,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 10.8,
+      "percentile": 6.4,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=xeon-bronze-3204",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Bronze+3204"
   ],
-  "created_at": "2026-06-19T02:27:18.358680",
-  "updated_at": "2026-06-19T02:27:18.358680",
+  "created_at": "2026-06-24T08:54:41.317915",
+  "updated_at": "2026-06-24T08:54:41.317926",
   "url": "/v1/cpus/xeon-bronze-3204"
 }

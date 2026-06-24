@@ -1,6 +1,7 @@
 {
-  "id": 15541,
+  "id": 81500,
   "slug": "redmi-k30-pro",
+  "base_model_slug": null,
   "name": "Redmi K30 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.1,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 28.9,
-    "display": 27.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.0,
+    "performance": 52.5,
+    "camera": 22.4,
+    "battery": 51.4,
+    "display": 29.9,
+    "value": null,
+    "perf": {
+      "index": 52.5,
+      "percentile": 66.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.430339",
-  "updated_at": "2026-06-19T02:27:16.430339"
+  "created_at": "2026-06-24T08:54:24.459516",
+  "updated_at": "2026-06-24T08:54:24.459528"
 }

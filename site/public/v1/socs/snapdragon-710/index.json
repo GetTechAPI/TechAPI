@@ -1,5 +1,5 @@
 {
-  "id": 1294,
+  "id": 1652,
   "slug": "snapdragon-710",
   "name": "Snapdragon 710",
   "manufacturer": {
@@ -24,13 +24,31 @@
   "gpu_clock_mhz": 750,
   "npu_tops": null,
   "modem": "Snapdragon X15 LTE",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 68.0,
+    "cpu": {
+      "index": 79.5,
+      "percentile": 90.9,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 41.0,
+      "percentile": 65.5,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Qualcomm_Snapdragon",
     "https://www.qualcomm.com/products/snapdragon-710-mobile-platform",
     "https://nanoreview.net/en/soc/qualcomm-snapdragon-710"
   ],
-  "created_at": "2026-06-19T02:27:12.602851",
-  "updated_at": "2026-06-19T02:27:12.602851",
+  "created_at": "2026-06-24T08:53:43.903324",
+  "updated_at": "2026-06-24T08:53:43.903335",
   "url": "/v1/socs/snapdragon-710"
 }

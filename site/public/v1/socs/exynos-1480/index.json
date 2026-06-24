@@ -1,5 +1,5 @@
 {
-  "id": 1478,
+  "id": 1959,
   "slug": "exynos-1480",
   "name": "Samsung Exynos 1480",
   "manufacturer": {
@@ -24,13 +24,31 @@
   "gpu_clock_mhz": 1300,
   "npu_tops": null,
   "modem": "Samsung Exynos Modem 5300",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 60.1,
+    "cpu": {
+      "index": 61.8,
+      "percentile": 15.6,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 56.1,
+      "percentile": 12.5,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1480/",
     "https://en.wikipedia.org/wiki/Samsung_Exynos_1480",
     "https://nanoreview.net/en/soc/samsung-exynos-1480"
   ],
-  "created_at": "2026-06-19T02:27:12.612845",
-  "updated_at": "2026-06-19T02:27:12.612845",
+  "created_at": "2026-06-24T08:53:43.947271",
+  "updated_at": "2026-06-24T08:53:43.947287",
   "url": "/v1/socs/exynos-1480"
 }

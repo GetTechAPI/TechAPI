@@ -1,6 +1,7 @@
 {
-  "id": 16770,
+  "id": 1244,
   "slug": "alcatel-one-touch-idol-pop-fit-ot-4002x",
+  "base_model_slug": null,
   "name": "Alcatel One Touch Idol Pop Fit OT-4002X",
   "brand": {
     "id": 9,
@@ -10,16 +11,16 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 1595,
+    "id": 345,
     "slug": "n-a",
-    "name": "Unknown mobile SoC",
+    "name": "N/A",
     "manufacturer": {
       "slug": "arm",
       "name": "Arm",
       "url": "/v1/brands/arm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 45.0,
+    "gpu_name": "N/A",
     "url": "/v1/socs/n-a"
   },
   "release_date": "2014-03-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 2.8,
     "resolution": "240x320",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5894"
   ],
-  "created_at": "2026-06-19T09:44:27.599689",
-  "updated_at": "2026-06-19T09:44:27.599689"
+  "created_at": "2026-06-24T08:53:50.634481",
+  "updated_at": "2026-06-24T08:53:50.634494"
 }

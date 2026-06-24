@@ -1,6 +1,7 @@
 {
-  "id": 1123,
+  "id": 5742,
   "slug": "iphone-17e",
+  "base_model_slug": null,
   "name": "iPhone 17e",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 31,
+    "id": 56,
     "slug": "apple-a19",
     "name": "Apple A19",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "2532x1170",
@@ -72,19 +74,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-17e.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 41.0,
-    "performance": 74.1,
-    "camera": 24.5,
-    "battery": 42.9,
-    "display": 22.4,
-    "value": 59.0
+    "algorithm_version": "2.0.0",
+    "overall": 49.1,
+    "performance": 84.7,
+    "camera": 25.5,
+    "battery": 57.3,
+    "display": 28.8,
+    "value": 60.3,
+    "perf": {
+      "index": 84.7,
+      "percentile": 87.9,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/IPhone_17e",
     "https://www.apple.com/iphone-17e/specs/"
   ],
-  "created_at": "2026-06-19T02:27:13.983655",
-  "updated_at": "2026-06-19T02:27:13.983655"
+  "created_at": "2026-06-24T08:53:52.283087",
+  "updated_at": "2026-06-24T08:53:52.283100"
 }

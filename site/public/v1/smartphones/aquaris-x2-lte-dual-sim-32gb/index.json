@@ -1,6 +1,7 @@
 {
-  "id": 2095,
+  "id": 9740,
   "slug": "aquaris-x2-lte-dual-sim-32gb",
+  "base_model_slug": null,
   "name": "Aquaris X2 LTE Dual SIM 32GB",
   "brand": {
     "id": 63,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/bq"
   },
   "soc": {
-    "id": 1266,
+    "id": 1623,
     "slug": "snapdragon-636",
     "name": "Snapdragon 636",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.65,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.6,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 1.5,
-    "display": 47.7,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 22.7,
+    "performance": 18.1,
+    "camera": 6.3,
+    "battery": 16.0,
+    "display": 50.2,
+    "value": null,
+    "perf": {
+      "index": 18.1,
+      "percentile": 14.1,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.143326",
-  "updated_at": "2026-06-19T02:27:14.143326"
+  "created_at": "2026-06-24T08:53:53.882236",
+  "updated_at": "2026-06-24T08:53:53.882249"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 12607,
+  "id": 64942,
   "slug": "sm-a3360-galaxy-a33-5g-2022-premium-edition-dual-sim-td-lte-cn-hk-128gb",
+  "base_model_slug": null,
   "name": "SM-A3360 Galaxy A33 5G 2022 Premium Edition Dual SIM TD-LTE CN HK 128GB",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1474,
+    "id": 1950,
     "slug": "exynos-1280",
     "name": "Samsung Exynos 1280",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.38,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.6,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 41.9,
-    "display": 41.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 41.0,
+    "performance": 47.9,
+    "camera": 17.5,
+    "battery": 57.2,
+    "display": 41.4,
+    "value": null,
+    "perf": {
+      "index": 47.9,
+      "percentile": 54.8,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.992452",
-  "updated_at": "2026-06-19T02:27:15.992452"
+  "created_at": "2026-06-24T08:54:17.267756",
+  "updated_at": "2026-06-24T08:54:17.267768"
 }

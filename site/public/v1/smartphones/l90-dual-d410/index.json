@@ -1,6 +1,7 @@
 {
-  "id": 5583,
+  "id": 28029,
   "slug": "l90-dual-d410",
+  "base_model_slug": null,
   "name": "L90 Dual D410",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1163,
+    "id": 1458,
     "slug": "qualcomm-msm8226-snapdragon-400",
     "name": "Qualcomm MSM8226 Snapdragon 400",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "540x960",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 7.7,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 10.4,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.718002",
-  "updated_at": "2026-06-19T02:27:14.718002"
+  "created_at": "2026-06-24T08:54:02.111418",
+  "updated_at": "2026-06-24T08:54:02.111431"
 }

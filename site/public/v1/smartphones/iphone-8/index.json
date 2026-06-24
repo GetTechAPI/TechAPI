@@ -1,6 +1,7 @@
 {
-  "id": 844,
+  "id": 3581,
   "slug": "iphone-8",
+  "base_model_slug": null,
   "name": "iPhone 8",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 16,
+    "id": 26,
     "slug": "apple-a11-bionic",
     "name": "Apple A11 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "1334x750",
@@ -72,19 +74,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-8.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.6,
-    "performance": 0.9,
-    "camera": 13.0,
-    "battery": 2.0,
-    "display": 2.6,
-    "value": 36.9
+    "algorithm_version": "2.0.0",
+    "overall": 20.9,
+    "performance": 44.5,
+    "camera": 14.3,
+    "battery": 15.2,
+    "display": 9.6,
+    "value": 42.7,
+    "perf": {
+      "index": 44.5,
+      "percentile": 53.4,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/IPhone_8",
     "https://support.apple.com/iphone-8"
   ],
-  "created_at": "2026-06-19T02:27:13.945590",
-  "updated_at": "2026-06-19T02:27:13.945590"
+  "created_at": "2026-06-24T08:53:51.515175",
+  "updated_at": "2026-06-24T08:53:51.515187"
 }

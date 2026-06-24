@@ -1,6 +1,7 @@
 {
-  "id": 15225,
+  "id": 80083,
   "slug": "mi-9-se-dual-sim-td-lte-cn-m1903f2a-128gb",
+  "base_model_slug": null,
   "name": "Mi 9 SE Dual SIM TD-LTE CN M1903F2A 128GB",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1322,
+    "id": 1683,
     "slug": "snapdragon-712",
     "name": "Snapdragon 712",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.97,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.9,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 1.6,
-    "display": 48.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 31.1,
+    "performance": 30.2,
+    "camera": 17.5,
+    "battery": 26.3,
+    "display": 50.6,
+    "value": null,
+    "perf": {
+      "index": 30.2,
+      "percentile": 37.5,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.388304",
-  "updated_at": "2026-06-19T02:27:16.388304"
+  "created_at": "2026-06-24T08:54:23.974239",
+  "updated_at": "2026-06-24T08:54:23.974252"
 }

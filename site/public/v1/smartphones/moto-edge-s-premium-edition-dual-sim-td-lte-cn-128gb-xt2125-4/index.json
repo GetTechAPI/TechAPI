@@ -1,6 +1,7 @@
 {
-  "id": 7395,
+  "id": 36352,
   "slug": "moto-edge-s-premium-edition-dual-sim-td-lte-cn-128gb-xt2125-4",
+  "base_model_slug": null,
   "name": "Moto Edge S Premium Edition Dual SIM TD-LTE CN 128GB XT2125-4",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.69,
     "resolution": "1080x2520",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.9,
-    "performance": 6.1,
-    "camera": 21.7,
-    "battery": 31.0,
-    "display": 41.0,
-    "value": 12.4
+    "algorithm_version": "2.0.0",
+    "overall": 43.1,
+    "performance": 56.4,
+    "camera": 22.6,
+    "battery": 52.2,
+    "display": 41.2,
+    "value": 21.6,
+    "perf": {
+      "index": 56.4,
+      "percentile": 75.9,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.059838",
-  "updated_at": "2026-06-19T02:27:15.059838"
+  "created_at": "2026-06-24T08:54:05.454947",
+  "updated_at": "2026-06-24T08:54:05.454959"
 }

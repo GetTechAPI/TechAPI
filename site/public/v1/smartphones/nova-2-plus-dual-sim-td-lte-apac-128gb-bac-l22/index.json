@@ -1,6 +1,7 @@
 {
-  "id": 3607,
+  "id": 17313,
   "slug": "nova-2-plus-dual-sim-td-lte-apac-128gb-bac-l22",
+  "base_model_slug": null,
   "name": "Nova 2 Plus Dual SIM TD-LTE APAC 128GB BAC-L22",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 703,
+    "id": 836,
     "slug": "kirin-659",
     "name": "Kirin 659",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.47,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 5.1,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 20.8,
+    "performance": 10.6,
+    "camera": 6.2,
+    "battery": 18.4,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 10.6,
+      "percentile": 7.7,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.427124",
-  "updated_at": "2026-06-19T02:27:14.427124"
+  "created_at": "2026-06-24T08:53:57.391873",
+  "updated_at": "2026-06-24T08:53:57.391886"
 }

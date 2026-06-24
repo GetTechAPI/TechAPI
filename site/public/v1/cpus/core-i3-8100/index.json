@@ -24,13 +24,31 @@
   "integrated_graphics": "Intel UHD Graphics 630",
   "memory_support": "DDR4-2400",
   "msrp_usd": 117,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 29.8,
+    "single": {
+      "index": 50.6,
+      "percentile": 60.7,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 12.8,
+      "percentile": 8.1,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/126688/intel-core-i3-8100-processor-6m-cache-3-60-ghz.html",
     "https://en.wikipedia.org/wiki/Coffee_Lake",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8100"
   ],
-  "created_at": "2026-06-19T02:27:18.323947",
-  "updated_at": "2026-06-19T02:27:18.323947",
+  "created_at": "2026-06-24T08:54:41.236143",
+  "updated_at": "2026-06-24T08:54:41.236154",
   "url": "/v1/cpus/core-i3-8100"
 }

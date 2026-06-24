@@ -1,6 +1,7 @@
 {
-  "id": 5114,
+  "id": 26225,
   "slug": "l3100",
+  "base_model_slug": null,
   "name": "L3100",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 158,
+    "id": 205,
     "slug": "lg-mobile-platform-2004",
     "name": "LG mobile platform 2004",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "128x160",
     "type": "TFT, 65K colors"
@@ -43,18 +45,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.638889",
-  "updated_at": "2026-06-19T02:27:14.638889"
+  "created_at": "2026-06-24T08:54:00.794325",
+  "updated_at": "2026-06-24T08:54:00.794338"
 }

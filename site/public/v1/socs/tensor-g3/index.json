@@ -1,5 +1,5 @@
 {
-  "id": 671,
+  "id": 767,
   "slug": "tensor-g3",
   "name": "Google Tensor G3",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 890,
   "npu_tops": null,
   "modem": "Samsung Exynos 5400",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 71.3,
+    "cpu": {
+      "index": 72.8,
+      "percentile": 70.0,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 67.9,
+      "percentile": 66.7,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://store.google.com/us/category/phones",
     "https://en.wikipedia.org/wiki/Google_Tensor_G3"
   ],
-  "created_at": "2026-06-19T02:27:12.564343",
-  "updated_at": "2026-06-19T02:27:12.564343",
+  "created_at": "2026-06-24T08:53:43.744759",
+  "updated_at": "2026-06-24T08:53:43.744770",
   "url": "/v1/socs/tensor-g3"
 }

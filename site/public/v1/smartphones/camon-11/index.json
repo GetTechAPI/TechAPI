@@ -1,6 +1,7 @@
 {
-  "id": 13730,
+  "id": 72231,
   "slug": "camon-11",
+  "base_model_slug": null,
   "name": "Camon 11",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 1019,
+    "id": 1212,
     "slug": "mediatek-mt6761-helio-a22",
     "name": "Mediatek MT6761 Helio A22",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "720x1500",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 8.2,
+    "algorithm_version": "2.0.0",
+    "overall": 16.6,
     "performance": null,
-    "camera": 5.3,
-    "battery": 11.2,
+    "camera": 6.6,
+    "battery": 26.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.173133",
-  "updated_at": "2026-06-19T02:27:16.173133"
+  "created_at": "2026-06-24T08:54:20.917209",
+  "updated_at": "2026-06-24T08:54:20.917221"
 }

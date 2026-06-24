@@ -1,6 +1,7 @@
 {
-  "id": 13167,
+  "id": 69515,
   "slug": "xperia-x-premium",
+  "base_model_slug": null,
   "name": "Xperia X Premium",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1249,
+    "id": 1599,
     "slug": "qualcomm-msm8996-snapdragon-820",
     "name": "Qualcomm MSM8996 Snapdragon 820",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "2160x3840",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.2,
+    "algorithm_version": "2.0.0",
+    "overall": 4.8,
     "performance": null,
-    "camera": 8.5,
+    "camera": 9.7,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.080058",
-  "updated_at": "2026-06-19T02:27:16.080058"
+  "created_at": "2026-06-24T08:54:19.792994",
+  "updated_at": "2026-06-24T08:54:19.793006"
 }

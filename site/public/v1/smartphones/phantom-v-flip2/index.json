@@ -1,6 +1,7 @@
 {
-  "id": 13802,
+  "id": 72653,
   "slug": "phantom-v-flip2",
+  "base_model_slug": null,
   "name": "Phantom V Flip2",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 1046,
+    "id": 1246,
     "slug": "dimensity-8050",
     "name": "MediaTek Dimensity 8050",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.9,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.2,
-    "performance": 4.1,
-    "camera": 17.1,
-    "battery": 24.5,
+    "algorithm_version": "2.0.0",
+    "overall": 39.2,
+    "performance": 54.9,
+    "camera": 18.1,
+    "battery": 44.7,
     "display": null,
-    "value": 30.7
+    "value": 41.0,
+    "perf": {
+      "index": 54.9,
+      "percentile": 49.8,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.183138",
-  "updated_at": "2026-06-19T02:27:16.183138"
+  "created_at": "2026-06-24T08:54:21.071847",
+  "updated_at": "2026-06-24T08:54:21.071861"
 }

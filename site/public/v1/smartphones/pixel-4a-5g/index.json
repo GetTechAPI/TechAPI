@@ -1,6 +1,7 @@
 {
-  "id": 2743,
+  "id": 12439,
   "slug": "pixel-4a-5g",
+  "base_model_slug": null,
   "name": "Google Pixel 4a (5G)",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 1326,
+    "id": 1687,
     "slug": "snapdragon-765g",
     "name": "Snapdragon 765G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "2340x1080",
@@ -77,19 +79,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-4a-5g.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.2,
-    "performance": 1.5,
-    "camera": 18.1,
-    "battery": 13.9,
-    "display": 11.3,
-    "value": 48.0
+    "algorithm_version": "2.0.0",
+    "overall": 28.8,
+    "performance": 41.0,
+    "camera": 19.3,
+    "battery": 40.7,
+    "display": 14.3,
+    "value": 53.7,
+    "perf": {
+      "index": 41.0,
+      "percentile": 53.6,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_4a_5g_specs",
     "https://en.wikipedia.org/wiki/Pixel_4a"
   ],
-  "created_at": "2026-06-19T02:27:14.248668",
-  "updated_at": "2026-06-19T02:27:14.248668"
+  "created_at": "2026-06-24T08:53:55.038805",
+  "updated_at": "2026-06-24T08:53:55.038817"
 }

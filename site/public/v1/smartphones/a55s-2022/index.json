@@ -1,6 +1,7 @@
 {
-  "id": 9252,
+  "id": 46950,
   "slug": "a55s-2022",
+  "base_model_slug": null,
   "name": "A55s 2022",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1348,
+    "id": 1728,
     "slug": "snapdragon-480",
     "name": "Snapdragon 480",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.2,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 15.0,
-    "display": 40.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.2,
+    "performance": 32.0,
+    "camera": 6.6,
+    "battery": 37.5,
+    "display": 40.8,
+    "value": null,
+    "perf": {
+      "index": 32.0,
+      "percentile": 30.3,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.369629",
-  "updated_at": "2026-06-19T02:27:15.369629"
+  "created_at": "2026-06-24T08:54:10.097430",
+  "updated_at": "2026-06-24T08:54:10.097443"
 }

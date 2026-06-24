@@ -1,6 +1,7 @@
 {
-  "id": 3370,
+  "id": 15858,
   "slug": "desire-19-global-dual-sim-td-lte-64gb",
+  "base_model_slug": null,
   "name": "Desire 19+ Global Dual SIM TD-LTE 64GB",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.2,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 12.7,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 20.2,
+    "performance": 9.1,
+    "camera": 6.6,
+    "battery": 28.5,
+    "display": 36.8,
+    "value": null,
+    "perf": {
+      "index": 9.1,
+      "percentile": 6.1,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.393011",
-  "updated_at": "2026-06-19T02:27:14.393011"
+  "created_at": "2026-06-24T08:53:56.797846",
+  "updated_at": "2026-06-24T08:53:56.797858"
 }

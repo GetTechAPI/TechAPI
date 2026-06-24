@@ -1,6 +1,7 @@
 {
-  "id": 16469,
+  "id": 88692,
   "slug": "blade-20-5g-dual-sim-td-lte-cn-128gb-8012n",
+  "base_model_slug": null,
   "name": "Blade 20 5G Dual SIM TD-LTE CN 128GB 8012N",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 999,
+    "id": 1187,
     "slug": "dimensity-720",
     "name": "Dimensity 720",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.4,
-    "performance": 1.5,
-    "camera": 6.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": 14.9
+    "algorithm_version": "2.0.0",
+    "overall": 29.8,
+    "performance": 35.5,
+    "camera": 7.5,
+    "battery": 39.6,
+    "display": 36.6,
+    "value": 22.1,
+    "perf": {
+      "index": 35.5,
+      "percentile": 34.6,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.557799",
-  "updated_at": "2026-06-19T02:27:16.557799"
+  "created_at": "2026-06-24T08:54:27.157127",
+  "updated_at": "2026-06-24T08:54:27.157140"
 }

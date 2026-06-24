@@ -1,6 +1,7 @@
 {
-  "id": 14733,
+  "id": 75984,
   "slug": "vivo-y52s-t1-version-5g-dual-sim-td-lte-cn-256gb-v2054a",
+  "base_model_slug": null,
   "name": "vivo Y52s t1 version 5G Dual SIM TD-LTE CN 256GB V2054A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1348,
+    "id": 1728,
     "slug": "snapdragon-480",
     "name": "Snapdragon 480",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": "1080x2408",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 30.6,
-    "display": 40.1,
-    "value": 11.3
+    "algorithm_version": "2.0.0",
+    "overall": 35.6,
+    "performance": 34.7,
+    "camera": 17.5,
+    "battery": 49.8,
+    "display": 40.4,
+    "value": 17.8,
+    "perf": {
+      "index": 34.7,
+      "percentile": 33.7,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.315695",
-  "updated_at": "2026-06-19T02:27:16.315695"
+  "created_at": "2026-06-24T08:54:22.397872",
+  "updated_at": "2026-06-24T08:54:22.397885"
 }

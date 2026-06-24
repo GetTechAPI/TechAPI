@@ -24,6 +24,24 @@
   "integrated_graphics": "AMD Radeon RX Vega 8 (8CU)",
   "memory_support": "DDR4-3200 / LPDDR4X-4266",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 47.0,
+    "single": {
+      "index": 57.2,
+      "percentile": 30.8,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 38.6,
+      "percentile": 39.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-ryzen-9-4900h",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+4900H",
     "https://technical.city/en/cpu/Ryzen-9-4900H"
   ],
-  "created_at": "2026-06-19T02:27:18.132502",
-  "updated_at": "2026-06-19T02:27:18.132502",
+  "created_at": "2026-06-24T08:54:40.874458",
+  "updated_at": "2026-06-24T08:54:40.874469",
   "url": "/v1/cpus/ryzen-9-4900h"
 }

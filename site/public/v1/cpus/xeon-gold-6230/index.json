@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2933 6-channel ECC",
   "msrp_usd": 1894,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 54.3,
+    "single": {
+      "index": 51.2,
+      "percentile": 64.7,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 56.8,
+      "percentile": 82.1,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=xeon-gold-6230",
     "https://www.cpubenchmark.net/cpu.php?id=3468&cpu=Intel+Xeon+Gold+6230"
   ],
-  "created_at": "2026-06-19T02:27:18.358680",
-  "updated_at": "2026-06-19T02:27:18.358680",
+  "created_at": "2026-06-24T08:54:41.318677",
+  "updated_at": "2026-06-24T08:54:41.318688",
   "url": "/v1/cpus/xeon-gold-6230"
 }

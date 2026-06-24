@@ -1,6 +1,7 @@
 {
-  "id": 8049,
+  "id": 39833,
   "slug": "lumia-2520",
+  "base_model_slug": null,
   "name": "Lumia 2520",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1171,
+    "id": 1466,
     "slug": "qualcomm-msm8974-snapdragon-800",
     "name": "Qualcomm MSM8974 Snapdragon 800",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "1080x1920",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 25.0,
     "performance": null,
     "camera": 5.0,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.186045",
-  "updated_at": "2026-06-19T02:27:15.186045"
+  "created_at": "2026-06-24T08:54:06.940632",
+  "updated_at": "2026-06-24T08:54:06.940645"
 }

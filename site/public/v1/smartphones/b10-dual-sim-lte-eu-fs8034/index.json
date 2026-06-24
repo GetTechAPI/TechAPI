@@ -1,6 +1,7 @@
 {
-  "id": 12874,
+  "id": 68000,
   "slug": "b10-dual-sim-lte-eu-fs8034",
+  "base_model_slug": null,
   "name": "B10 Dual SIM LTE EU FS8034",
   "brand": {
     "id": 105,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 923,
+    "id": 1110,
     "slug": "mediatek-mt6750t",
     "name": "Mediatek MT6750T",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.71,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
+    "algorithm_version": "2.0.0",
+    "overall": 23.1,
     "performance": null,
-    "camera": 5.2,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.5,
+    "battery": 25.0,
+    "display": 37.7,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.033025",
-  "updated_at": "2026-06-19T02:27:16.033025"
+  "created_at": "2026-06-24T08:54:19.154584",
+  "updated_at": "2026-06-24T08:54:19.154597"
 }

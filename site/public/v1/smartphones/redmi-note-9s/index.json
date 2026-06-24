@@ -1,6 +1,7 @@
 {
-  "id": 15571,
+  "id": 81689,
   "slug": "redmi-note-9s",
+  "base_model_slug": null,
   "name": "Redmi Note 9S",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1341,
+    "id": 1710,
     "slug": "snapdragon-720g",
     "name": "Snapdragon 720G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.0,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 30.9,
-    "display": 27.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 33.6,
+    "performance": 37.1,
+    "camera": 17.5,
+    "battery": 50.0,
+    "display": 29.9,
+    "value": null,
+    "perf": {
+      "index": 37.1,
+      "percentile": 41.2,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.434339",
-  "updated_at": "2026-06-19T02:27:16.434339"
+  "created_at": "2026-06-24T08:54:24.524975",
+  "updated_at": "2026-06-24T08:54:24.524986"
 }

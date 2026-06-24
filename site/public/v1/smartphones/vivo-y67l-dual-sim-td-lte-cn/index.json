@@ -1,6 +1,7 @@
 {
-  "id": 14136,
+  "id": 74132,
   "slug": "vivo-y67l-dual-sim-td-lte-cn",
+  "base_model_slug": null,
   "name": "Vivo Y67L Dual SIM TD-LTE CN",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 959,
+    "id": 1146,
     "slug": "mediatek-mt6750",
     "name": "Mediatek MT6750",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.4,
+    "algorithm_version": "2.0.0",
+    "overall": 19.3,
     "performance": null,
-    "camera": 5.2,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.5,
+    "battery": 15.0,
+    "display": 36.5,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.236171",
-  "updated_at": "2026-06-19T02:27:16.236171"
+  "created_at": "2026-06-24T08:54:21.682172",
+  "updated_at": "2026-06-24T08:54:21.682185"
 }

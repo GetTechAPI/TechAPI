@@ -1,6 +1,7 @@
 {
-  "id": 15887,
+  "id": 85493,
   "slug": "xiaomi-13-pro",
+  "base_model_slug": null,
   "name": "Xiaomi 13 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1361,
+    "id": 1748,
     "slug": "snapdragon-8-gen-2",
     "name": "Snapdragon 8 Gen 2",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.73,
     "resolution": "3200x1440",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-13-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 55.8,
-    "performance": 36.7,
-    "camera": 35.1,
-    "battery": 72.3,
-    "display": 79.0,
-    "value": 39.5
+    "algorithm_version": "2.0.0",
+    "overall": 67.5,
+    "performance": 74.5,
+    "camera": 36.1,
+    "battery": 84.0,
+    "display": 75.6,
+    "value": 44.5,
+    "perf": {
+      "index": 74.5,
+      "percentile": 94.7,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/xiaomi-13-pro",
     "https://en.wikipedia.org/wiki/Xiaomi_13_Pro"
   ],
-  "created_at": "2026-06-19T02:27:16.474362",
-  "updated_at": "2026-06-19T02:27:16.474362"
+  "created_at": "2026-06-24T08:54:25.872483",
+  "updated_at": "2026-06-24T08:54:25.872496"
 }

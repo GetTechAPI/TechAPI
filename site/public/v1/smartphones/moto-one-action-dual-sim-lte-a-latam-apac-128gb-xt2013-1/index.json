@@ -1,6 +1,7 @@
 {
-  "id": 7249,
+  "id": 35394,
   "slug": "moto-one-action-dual-sim-lte-a-latam-apac-128gb-xt2013-1",
+  "base_model_slug": null,
   "name": "Moto One Action Dual SIM LTE-A LATAM APAC 128GB XT2013-1",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1462,
+    "id": 1929,
     "slug": "exynos-9609",
     "name": "Exynos 9609",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.2,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 7.5,
-    "display": 48.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 27.4,
+    "performance": 23.2,
+    "camera": 6.3,
+    "battery": 29.2,
+    "display": 50.9,
+    "value": null,
+    "perf": {
+      "index": 23.2,
+      "percentile": 27.8,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.039834",
-  "updated_at": "2026-06-19T02:27:15.039834"
+  "created_at": "2026-06-24T08:54:05.118344",
+  "updated_at": "2026-06-24T08:54:05.118357"
 }

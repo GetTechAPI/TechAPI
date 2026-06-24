@@ -1,6 +1,7 @@
 {
-  "id": 3764,
+  "id": 17948,
   "slug": "p-smart-lte-emea-ine-lx1-128gb-nova-3i",
+  "base_model_slug": null,
   "name": "P Smart+ LTE EMEA INE-LX1 128GB / Nova 3i",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 705,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.3,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 5.1,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 25.3,
+    "performance": 22.6,
+    "camera": 7.5,
+    "battery": 22.6,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 22.6,
+      "percentile": 25.6,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.449191",
-  "updated_at": "2026-06-19T02:27:14.449191"
+  "created_at": "2026-06-24T08:53:57.608748",
+  "updated_at": "2026-06-24T08:53:57.608761"
 }

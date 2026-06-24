@@ -327,6 +327,48 @@
         }
       }
     },
+    "/v1/socs/{slug}/score": {
+      "get": {
+        "tags": [
+          "socs"
+        ],
+        "summary": "Get a SoC's scores",
+        "operationId": "get_soc_score_v1_socs__slug__score_get",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Slug"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SoCScoreRead"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/socs/{slug}/smartphones": {
       "get": {
         "tags": [
@@ -1164,6 +1206,48 @@
         }
       }
     },
+    "/v1/gpus/{slug}/score": {
+      "get": {
+        "tags": [
+          "gpus"
+        ],
+        "summary": "Get a discrete GPU's scores",
+        "operationId": "get_gpu_score_v1_gpus__slug__score_get",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Slug"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GPUScoreRead"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/cpus": {
       "get": {
         "tags": [
@@ -1261,6 +1345,48 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/CPURead"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/cpus/{slug}/score": {
+      "get": {
+        "tags": [
+          "cpus"
+        ],
+        "summary": "Get a CPU's scores",
+        "operationId": "get_cpu_score_v1_cpus__slug__score_get",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Slug"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CPUScoreRead"
                 }
               }
             }
@@ -1594,6 +1720,9 @@
             ],
             "title": "Msrp Usd"
           },
+          "score": {
+            "$ref": "#/components/schemas/CPUScoreRead"
+          },
           "verified": {
             "type": "boolean",
             "title": "Verified"
@@ -1631,6 +1760,7 @@
           "architecture",
           "cores",
           "threads",
+          "score",
           "verified",
           "source_urls",
           "created_at",
@@ -1639,6 +1769,39 @@
         ],
         "title": "CPURead",
         "description": "Full CPU detail response."
+      },
+      "CPUScoreRead": {
+        "properties": {
+          "algorithm_version": {
+            "type": "string",
+            "title": "Algorithm Version"
+          },
+          "overall": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overall"
+          },
+          "single": {
+            "$ref": "#/components/schemas/HybridRead"
+          },
+          "multi": {
+            "$ref": "#/components/schemas/HybridRead"
+          }
+        },
+        "type": "object",
+        "required": [
+          "algorithm_version",
+          "single",
+          "multi"
+        ],
+        "title": "CPUScoreRead",
+        "description": "Computed CPU scores (§8): single/multi compute axes."
       },
       "GPURead": {
         "properties": {
@@ -1782,6 +1945,9 @@
             ],
             "title": "Blender Score"
           },
+          "score": {
+            "$ref": "#/components/schemas/GPUScoreRead"
+          },
           "verified": {
             "type": "boolean",
             "title": "Verified"
@@ -1813,12 +1979,42 @@
           "boost_clock_mhz",
           "tdp_w",
           "pcie_version",
+          "score",
           "verified",
           "source_urls",
           "url"
         ],
         "title": "GPURead",
         "description": "Full discrete GPU detail response."
+      },
+      "GPUScoreRead": {
+        "properties": {
+          "algorithm_version": {
+            "type": "string",
+            "title": "Algorithm Version"
+          },
+          "overall": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overall"
+          },
+          "graphics": {
+            "$ref": "#/components/schemas/HybridRead"
+          }
+        },
+        "type": "object",
+        "required": [
+          "algorithm_version",
+          "graphics"
+        ],
+        "title": "GPUScoreRead",
+        "description": "Computed GPU scores (§8): a single graphics compute axis."
       },
       "HTTPValidationError": {
         "properties": {
@@ -1832,6 +2028,68 @@
         },
         "type": "object",
         "title": "HTTPValidationError"
+      },
+      "HybridRead": {
+        "properties": {
+          "index": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Index"
+          },
+          "percentile": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Percentile"
+          },
+          "tier": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Tier"
+          },
+          "era": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Era"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source"
+          }
+        },
+        "type": "object",
+        "title": "HybridRead",
+        "description": "One compute axis (§8): absolute index + within-era standing + provenance.\n\n``source`` is the benchmark NAME the index came from (never the raw value, ADR-006)."
       },
       "ManufacturerRef": {
         "properties": {
@@ -2214,6 +2472,16 @@
               }
             ],
             "title": "Value"
+          },
+          "perf": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/HybridRead"
+              },
+              {
+                "type": "null"
+              }
+            ]
           }
         },
         "type": "object",
@@ -2550,6 +2818,9 @@
             ],
             "title": "Modem"
           },
+          "score": {
+            "$ref": "#/components/schemas/SoCScoreRead"
+          },
           "verified": {
             "type": "boolean",
             "title": "Verified"
@@ -2586,6 +2857,7 @@
           "process_nm",
           "cpu_config",
           "gpu_name",
+          "score",
           "verified",
           "source_urls",
           "created_at",
@@ -2594,6 +2866,39 @@
         ],
         "title": "SoCRead",
         "description": "Full SoC detail response."
+      },
+      "SoCScoreRead": {
+        "properties": {
+          "algorithm_version": {
+            "type": "string",
+            "title": "Algorithm Version"
+          },
+          "overall": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overall"
+          },
+          "cpu": {
+            "$ref": "#/components/schemas/HybridRead"
+          },
+          "system": {
+            "$ref": "#/components/schemas/HybridRead"
+          }
+        },
+        "type": "object",
+        "required": [
+          "algorithm_version",
+          "cpu",
+          "system"
+        ],
+        "title": "SoCScoreRead",
+        "description": "Computed SoC scores (§8): a blended CPU axis + a system (AnTuTu) axis."
       },
       "SoCSummary": {
         "properties": {

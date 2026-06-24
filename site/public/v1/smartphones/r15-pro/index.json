@@ -1,6 +1,7 @@
 {
-  "id": 8715,
+  "id": 44439,
   "slug": "r15-pro",
+  "base_model_slug": null,
   "name": "R15 Pro",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1306,
+    "id": 1664,
     "slug": "qualcomm-sdm660-snapdragon-660",
     "name": "Qualcomm SDM660 Snapdragon 660",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.28,
     "resolution": "1080x2280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 6.3,
+    "algorithm_version": "2.0.0",
+    "overall": 13.4,
     "performance": null,
-    "camera": 6.3,
-    "battery": 6.4,
+    "camera": 7.5,
+    "battery": 19.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.294008",
-  "updated_at": "2026-06-19T02:27:15.294008"
+  "created_at": "2026-06-24T08:54:08.642222",
+  "updated_at": "2026-06-24T08:54:08.642235"
 }

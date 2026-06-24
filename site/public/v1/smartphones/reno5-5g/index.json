@@ -1,6 +1,7 @@
 {
-  "id": 9214,
+  "id": 46760,
   "slug": "reno5-5g",
+  "base_model_slug": null,
   "name": "Reno5 5G",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1326,
+    "id": 1687,
     "slug": "snapdragon-765g",
     "name": "Snapdragon 765G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.7,
-    "performance": 6.0,
-    "camera": 21.6,
-    "battery": 19.5,
+    "algorithm_version": "2.0.0",
+    "overall": 36.7,
+    "performance": 45.1,
+    "camera": 22.5,
+    "battery": 42.6,
     "display": null,
-    "value": 57.9
+    "value": 64.8,
+    "perf": {
+      "index": 45.1,
+      "percentile": 57.7,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.363628",
-  "updated_at": "2026-06-19T02:27:15.363628"
+  "created_at": "2026-06-24T08:54:10.032492",
+  "updated_at": "2026-06-24T08:54:10.032505"
 }

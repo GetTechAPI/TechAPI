@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 24.6,
+    "single": {
+      "index": 32.5,
+      "percentile": 33.6,
+      "tier": "D",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 18.2,
+      "percentile": 32.5,
+      "tier": "D",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+4000%2B&id=78"
   ],
-  "created_at": "2026-06-19T02:27:18.035406",
-  "updated_at": "2026-06-19T02:27:18.035406",
+  "created_at": "2026-06-24T08:54:40.688507",
+  "updated_at": "2026-06-24T08:54:40.688518",
   "url": "/v1/cpus/amd-athlon-64-x2-dual-core-4000-plus"
 }

@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 8-channel ECC",
   "msrp_usd": 650,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 34.4,
+    "single": {
+      "index": 28.7,
+      "percentile": 2.9,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 39.0,
+      "percentile": 45.1,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-7281",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7281"
   ],
-  "created_at": "2026-06-19T02:27:18.113552",
-  "updated_at": "2026-06-19T02:27:18.113552",
+  "created_at": "2026-06-24T08:54:40.835615",
+  "updated_at": "2026-06-24T08:54:40.835626",
   "url": "/v1/cpus/epyc-7281"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 2390,
+  "id": 10749,
   "slug": "homtom-ht20-dual-sim-lte-p237",
+  "base_model_slug": null,
   "name": "HOMTOM HT20 Dual SIM LTE P237",
   "brand": {
     "id": 18,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/doogee"
   },
   "soc": {
-    "id": 1017,
+    "id": 1210,
     "slug": "mediatek-mt6737",
     "name": "Mediatek MT6737",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.3,
+    "algorithm_version": "2.0.0",
+    "overall": 22.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 7.5,
-    "display": 36.2,
-    "value": null
+    "camera": 6.6,
+    "battery": 20.0,
+    "display": 40.3,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.192856",
-  "updated_at": "2026-06-19T02:27:14.192856"
+  "created_at": "2026-06-24T08:53:54.330459",
+  "updated_at": "2026-06-24T08:53:54.330472"
 }

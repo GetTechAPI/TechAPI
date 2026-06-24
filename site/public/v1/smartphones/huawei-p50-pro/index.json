@@ -1,6 +1,7 @@
 {
-  "id": 4231,
+  "id": 20537,
   "slug": "huawei-p50-pro",
+  "base_model_slug": null,
   "name": "Huawei P50 Pro",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 713,
+    "id": 846,
     "slug": "kirin-9000",
     "name": "HiSilicon Kirin 9000",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": "2700x1228",
@@ -92,19 +94,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-p50-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 34.0,
-    "performance": 5.6,
-    "camera": 40.1,
-    "battery": 50.1,
-    "display": 40.0,
-    "value": 38.2
+    "algorithm_version": "2.0.0",
+    "overall": 51.9,
+    "performance": 56.1,
+    "camera": 41.1,
+    "battery": 68.0,
+    "display": 42.5,
+    "value": 45.6,
+    "perf": {
+      "index": 56.1,
+      "percentile": 74.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://consumer.huawei.com/en/phones/p50-pro/",
     "https://en.wikipedia.org/wiki/Huawei_P50_Pro"
   ],
-  "created_at": "2026-06-19T02:27:14.509196",
-  "updated_at": "2026-06-19T02:27:14.509196"
+  "created_at": "2026-06-24T08:53:58.546526",
+  "updated_at": "2026-06-24T08:53:58.546539"
 }

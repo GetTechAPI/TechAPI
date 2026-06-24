@@ -1,6 +1,7 @@
 {
-  "id": 23261,
+  "id": 41363,
   "slug": "nokia-c20-2021-standard-edition-global-td-lte-16gb-hmd-cosmo",
+  "base_model_slug": null,
   "name": "Nokia C20 2021 Standard Edition Global TD-LTE 16GB (HMD Cosmo)",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1556,
+    "id": 2081,
     "slug": "unisoc-sc9863a",
     "name": "Unisoc SC9863A",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 25.8,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 15.0,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=20981"
   ],
-  "created_at": "2026-06-19T09:44:29.457910",
-  "updated_at": "2026-06-19T09:44:29.457910"
+  "created_at": "2026-06-24T08:54:07.488074",
+  "updated_at": "2026-06-24T08:54:07.488087"
 }

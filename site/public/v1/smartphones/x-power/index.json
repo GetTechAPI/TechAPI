@@ -1,6 +1,7 @@
 {
-  "id": 5649,
+  "id": 28712,
   "slug": "x-power",
+  "base_model_slug": null,
   "name": "X power",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 897,
+    "id": 1084,
     "slug": "mediatek-mt6735",
     "name": "Mediatek MT6735",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.3,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.9,
+    "algorithm_version": "2.0.0",
+    "overall": 16.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 16.5,
+    "camera": 6.6,
+    "battery": 26.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.725007",
-  "updated_at": "2026-06-19T02:27:14.725007"
+  "created_at": "2026-06-24T08:54:02.429519",
+  "updated_at": "2026-06-24T08:54:02.429531"
 }

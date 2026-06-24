@@ -1,6 +1,7 @@
 {
-  "id": 8712,
+  "id": 44434,
   "slug": "r15-pro-dual-sim-td-lte-jp-version-2-cph1833",
+  "base_model_slug": null,
   "name": "R15 Pro Dual SIM TD-LTE JP Version 2 CPH1833",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.28,
     "resolution": "1080x2280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.4,
-    "performance": 19.5,
-    "camera": 6.3,
-    "battery": 6.4,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.8,
+    "performance": 56.2,
+    "camera": 7.5,
+    "battery": 19.3,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 56.2,
+      "percentile": 81.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.293008",
-  "updated_at": "2026-06-19T02:27:15.293008"
+  "created_at": "2026-06-24T08:54:08.640304",
+  "updated_at": "2026-06-24T08:54:08.640317"
 }

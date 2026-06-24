@@ -1,6 +1,7 @@
 {
-  "id": 14661,
+  "id": 75887,
   "slug": "vivo-iqoo-neo5-5g-premium-edition-dual-sim-td-lte-cn-256gb-v2055a",
+  "base_model_slug": null,
   "name": "Vivo iQOO Neo5 5G Premium Edition Dual SIM TD-LTE CN 256GB V2055A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.62,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.1,
-    "performance": 9.1,
-    "camera": 16.5,
-    "battery": 30.7,
-    "display": 52.3,
-    "value": 13.6
+    "algorithm_version": "2.0.0",
+    "overall": 45.3,
+    "performance": 59.2,
+    "camera": 17.5,
+    "battery": 54.2,
+    "display": 50.2,
+    "value": 22.6,
+    "perf": {
+      "index": 59.2,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.304684",
-  "updated_at": "2026-06-19T02:27:16.304684"
+  "created_at": "2026-06-24T08:54:22.366044",
+  "updated_at": "2026-06-24T08:54:22.366057"
 }

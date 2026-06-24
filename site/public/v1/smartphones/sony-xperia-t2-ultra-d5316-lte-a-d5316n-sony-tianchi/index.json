@@ -1,6 +1,7 @@
 {
-  "id": 28412,
+  "id": 68996,
   "slug": "sony-xperia-t2-ultra-d5316-lte-a-d5316n-sony-tianchi",
+  "base_model_slug": null,
   "name": "Sony Xperia T2 Ultra D5316 LTE-A / D5316N (Sony Tianchi)",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1860,
+    "id": 1518,
     "slug": "qualcomm-snapdragon-400-msm8928",
     "name": "Qualcomm Snapdragon 400 MSM8928",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 305",
     "url": "/v1/socs/qualcomm-snapdragon-400-msm8928"
   },
   "release_date": "2014-05-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "720x1280",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 25.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 15.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5975"
   ],
-  "created_at": "2026-06-19T09:44:30.798333",
-  "updated_at": "2026-06-19T09:44:30.798333"
+  "created_at": "2026-06-24T08:54:19.591367",
+  "updated_at": "2026-06-24T08:54:19.591379"
 }

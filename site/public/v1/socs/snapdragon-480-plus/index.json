@@ -1,5 +1,5 @@
 {
-  "id": 1347,
+  "id": 1727,
   "slug": "snapdragon-480-plus",
   "name": "Snapdragon 480 Plus",
   "manufacturer": {
@@ -24,11 +24,29 @@
   "gpu_clock_mhz": null,
   "npu_tops": null,
   "modem": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 38.1,
+    "cpu": {
+      "index": 39.2,
+      "percentile": 31.0,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 35.4,
+      "percentile": 46.6,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/alanjo/smartphone-processors-ranking"
   ],
-  "created_at": "2026-06-19T02:27:12.605852",
-  "updated_at": "2026-06-19T02:27:12.605852",
+  "created_at": "2026-06-24T08:53:43.913750",
+  "updated_at": "2026-06-24T08:53:43.913761",
   "url": "/v1/socs/snapdragon-480-plus"
 }

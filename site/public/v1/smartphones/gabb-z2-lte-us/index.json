@@ -1,6 +1,7 @@
 {
-  "id": 16481,
+  "id": 88787,
   "slug": "gabb-z2-lte-us",
+  "base_model_slug": null,
   "name": "Gabb Z2 LTE US",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 935,
+    "id": 1122,
     "slug": "helio-a22",
     "name": "Helio A22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.45,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 19.9,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": 56.6
+    "battery": 15.8,
+    "display": 38.9,
+    "value": 60.0,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.558799",
-  "updated_at": "2026-06-19T02:27:16.558799"
+  "created_at": "2026-06-24T08:54:27.189917",
+  "updated_at": "2026-06-24T08:54:27.189930"
 }

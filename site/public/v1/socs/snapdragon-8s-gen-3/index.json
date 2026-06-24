@@ -1,5 +1,5 @@
 {
-  "id": 1371,
+  "id": 1781,
   "slug": "snapdragon-8s-gen-3",
   "name": "Snapdragon 8s Gen 3",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 680,
   "npu_tops": 30.0,
   "modem": "Snapdragon X70 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 83.0,
+    "cpu": {
+      "index": 83.4,
+      "percentile": 50.0,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 81.9,
+      "percentile": 50.0,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-8s-gen-3-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_8s_Gen_3"
   ],
-  "created_at": "2026-06-19T02:27:12.606845",
-  "updated_at": "2026-06-19T02:27:12.606845",
+  "created_at": "2026-06-24T08:53:43.921079",
+  "updated_at": "2026-06-24T08:53:43.921089",
   "url": "/v1/socs/snapdragon-8s-gen-3"
 }

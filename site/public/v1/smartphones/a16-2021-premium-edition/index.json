@@ -1,6 +1,7 @@
 {
-  "id": 9223,
+  "id": 46796,
   "slug": "a16-2021-premium-edition",
+  "base_model_slug": null,
   "name": "A16 2021 Premium Edition",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1004,
+    "id": 1192,
     "slug": "helio-g35",
     "name": "Helio G35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.2,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 30.0,
-    "display": 17.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 19.9,
+    "performance": 14.8,
+    "camera": 6.6,
+    "battery": 39.2,
+    "display": 19.1,
+    "value": null,
+    "perf": {
+      "index": 14.8,
+      "percentile": 13.0,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.364629",
-  "updated_at": "2026-06-19T02:27:15.364629"
+  "created_at": "2026-06-24T08:54:10.044756",
+  "updated_at": "2026-06-24T08:54:10.044769"
 }

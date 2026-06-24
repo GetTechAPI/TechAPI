@@ -1,6 +1,7 @@
 {
-  "id": 14526,
+  "id": 75068,
   "slug": "z5x",
+  "base_model_slug": null,
   "name": "Z5x",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1308,
+    "id": 1666,
     "slug": "qualcomm-sdm710-snapdragon-710",
     "name": "Qualcomm SDM710 Snapdragon 710",
     "manufacturer": {
@@ -32,6 +33,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.1,
+    "algorithm_version": "2.0.0",
+    "overall": 25.4,
     "performance": null,
-    "camera": 6.3,
-    "battery": 30.0,
+    "camera": 7.5,
+    "battery": 43.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.287211",
-  "updated_at": "2026-06-19T02:27:16.287211"
+  "created_at": "2026-06-24T08:54:22.031361",
+  "updated_at": "2026-06-24T08:54:22.031375"
 }

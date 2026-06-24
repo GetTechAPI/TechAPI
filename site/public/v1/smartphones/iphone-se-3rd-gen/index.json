@@ -1,6 +1,7 @@
 {
-  "id": 1103,
+  "id": 5416,
   "slug": "iphone-se-3rd-gen",
+  "base_model_slug": null,
   "name": "iPhone SE (3rd generation)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 25,
+    "id": 38,
     "slug": "apple-a15-bionic",
     "name": "Apple A15 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "1334x750",
@@ -73,19 +75,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-se-3rd-gen.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.3,
-    "performance": 33.1,
-    "camera": 13.0,
-    "battery": 12.4,
-    "display": 2.6,
-    "value": 52.7
+    "algorithm_version": "2.0.0",
+    "overall": 30.4,
+    "performance": 69.8,
+    "camera": 14.3,
+    "battery": 27.9,
+    "display": 9.6,
+    "value": 57.0,
+    "perf": {
+      "index": 69.8,
+      "percentile": 87.9,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-se/specs/",
     "https://en.wikipedia.org/wiki/IPhone_SE_(3rd_generation)"
   ],
-  "created_at": "2026-06-19T02:27:13.980657",
-  "updated_at": "2026-06-19T02:27:13.980657"
+  "created_at": "2026-06-24T08:53:52.149897",
+  "updated_at": "2026-06-24T08:53:52.149909"
 }

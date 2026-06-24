@@ -1,6 +1,7 @@
 {
-  "id": 2737,
+  "id": 12403,
   "slug": "pixel-4",
+  "base_model_slug": null,
   "name": "Pixel 4",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "2280x1080",
@@ -78,19 +80,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-4.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.3,
-    "performance": 1.5,
-    "camera": 18.1,
-    "battery": 2.8,
-    "display": 26.9,
-    "value": 37.0
+    "algorithm_version": "2.0.0",
+    "overall": 31.1,
+    "performance": 46.1,
+    "camera": 19.3,
+    "battery": 32.0,
+    "display": 27.2,
+    "value": 44.2,
+    "perf": {
+      "index": 46.1,
+      "percentile": 58.2,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Pixel_4",
     "https://store.google.com/product/pixel_4_specs"
   ],
-  "created_at": "2026-06-19T02:27:14.247661",
-  "updated_at": "2026-06-19T02:27:14.247661"
+  "created_at": "2026-06-24T08:53:55.026083",
+  "updated_at": "2026-06-24T08:53:55.026097"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 8366,
+  "id": 42235,
   "slug": "oneplus-3",
+  "base_model_slug": null,
   "name": "OnePlus 3",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1255,
+    "id": 1612,
     "slug": "snapdragon-820",
     "name": "Snapdragon 820",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1920x1080",
@@ -71,19 +73,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-3.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 9.0,
-    "performance": 10.5,
-    "camera": 14.3,
-    "battery": 1.0,
-    "display": 10.1,
-    "value": 50.7
+    "algorithm_version": "2.0.0",
+    "overall": 24.5,
+    "performance": 51.5,
+    "camera": 15.5,
+    "battery": 17.6,
+    "display": 13.3,
+    "value": 55.1,
+    "perf": {
+      "index": 51.5,
+      "percentile": 77.0,
+      "tier": "B",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/OnePlus_3",
     "https://www.oneplus.com/oneplus-3/specs"
   ],
-  "created_at": "2026-06-19T02:27:15.236030",
-  "updated_at": "2026-06-19T02:27:15.236030"
+  "created_at": "2026-06-24T08:54:07.835146",
+  "updated_at": "2026-06-24T08:54:07.835159"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 861,
+  "id": 3652,
   "slug": "iphone-xr-a2106-td-lte-jp-64gb",
+  "base_model_slug": null,
   "name": "iPhone XR A2106 TD-LTE JP 64GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 18,
+    "id": 28,
     "slug": "apple-a12-bionic",
     "name": "Apple A12 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "828x1792",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.8,
-    "performance": 4.7,
-    "camera": 5.1,
-    "battery": 0.0,
-    "display": 37.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.7,
+    "performance": 54.3,
+    "camera": 6.3,
+    "battery": 29.0,
+    "display": 41.3,
+    "value": null,
+    "perf": {
+      "index": 54.3,
+      "percentile": 71.5,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.948600",
-  "updated_at": "2026-06-19T02:27:13.948600"
+  "created_at": "2026-06-24T08:53:51.538549",
+  "updated_at": "2026-06-24T08:53:51.538561"
 }

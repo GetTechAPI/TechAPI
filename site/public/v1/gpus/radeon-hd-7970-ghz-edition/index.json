@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 4.301,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 64.0,
+    "graphics": {
+      "index": 64.0,
+      "percentile": 94.5,
+      "tier": "A",
+      "era": "2010-2013",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_HD_7000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-hd-7970-ghz-edition.c1860",

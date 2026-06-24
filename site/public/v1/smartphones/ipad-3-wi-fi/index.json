@@ -1,6 +1,7 @@
 {
-  "id": 801,
+  "id": 3343,
   "slug": "ipad-3-wi-fi",
+  "base_model_slug": null,
   "name": "iPad 3 Wi-Fi",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 3,
+    "id": 4,
     "slug": "apple-a5x",
     "name": "Apple A5X",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 9.7,
     "resolution": "1536x2048",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 25.0,
     "performance": null,
     "camera": 5.0,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.939593",
-  "updated_at": "2026-06-19T02:27:13.939593"
+  "created_at": "2026-06-24T08:53:51.417808",
+  "updated_at": "2026-06-24T08:53:51.417821"
 }

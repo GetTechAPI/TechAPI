@@ -1,6 +1,7 @@
 {
-  "id": 13205,
+  "id": 69727,
   "slug": "xperia-1-professional-edition-global-dual-sim-td-lte-j9150",
+  "base_model_slug": null,
   "name": "Xperia 1 Professional Edition Global Dual SIM TD-LTE J9150",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1644x3840",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.1,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 5.0,
+    "algorithm_version": "2.0.0",
+    "overall": 37.6,
+    "performance": 46.1,
+    "camera": 6.3,
+    "battery": 32.9,
     "display": 65.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 46.1,
+      "percentile": 58.2,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.085056",
-  "updated_at": "2026-06-19T02:27:16.085056"
+  "created_at": "2026-06-24T08:54:19.865248",
+  "updated_at": "2026-06-24T08:54:19.865285"
 }

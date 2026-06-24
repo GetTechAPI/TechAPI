@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 107,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 32.3,
+    "single": {
+      "index": 44.3,
+      "percentile": 67.3,
+      "tier": "B",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 22.4,
+      "percentile": 49.1,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5600%2B&id=86"
   ],
-  "created_at": "2026-06-19T02:27:18.035406",
-  "updated_at": "2026-06-19T02:27:18.035406",
+  "created_at": "2026-06-24T08:54:40.690005",
+  "updated_at": "2026-06-24T08:54:40.690016",
   "url": "/v1/cpus/amd-athlon-64-x2-dual-core-5600-plus"
 }

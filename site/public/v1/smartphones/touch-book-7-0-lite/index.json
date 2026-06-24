@@ -1,6 +1,7 @@
 {
-  "id": 1801,
+  "id": 8809,
   "slug": "touch-book-7-0-lite",
+  "base_model_slug": null,
   "name": "Touch Book 7.0 Lite",
   "brand": {
     "id": 151,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blu"
   },
   "soc": {
-    "id": 426,
+    "id": 497,
     "slug": "1-2-ghz-cortex-a8",
     "name": "1.2 GHz Cortex-A8",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "480x800",
@@ -49,18 +51,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 15.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.104023",
-  "updated_at": "2026-06-19T02:27:14.104023"
+  "created_at": "2026-06-24T08:53:53.535903",
+  "updated_at": "2026-06-24T08:53:53.535915"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 8834,
+  "id": 17347,
   "slug": "huawei-p10-plus-6gb-64gb-4g-lte",
   "base_model_slug": "p10-plus",
   "name": "Huawei P10 Plus",
@@ -20,7 +20,7 @@
       "url": "/v1/brands/hisilicon"
     },
     "process_nm": 16.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-G71 MP8",
     "url": "/v1/socs/hisilicon-kirin-960"
   },
   "release_date": "2017-01-01",
@@ -63,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.2,
+    "algorithm_version": "2.0.0",
+    "overall": 22.5,
     "performance": null,
     "camera": null,
-    "battery": 11.2,
+    "battery": 22.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
   ],
-  "created_at": "2026-06-20T13:09:13.269706",
-  "updated_at": "2026-06-20T13:09:13.269706"
+  "created_at": "2026-06-24T08:53:57.404543",
+  "updated_at": "2026-06-24T08:53:57.404557"
 }

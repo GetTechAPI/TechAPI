@@ -1,6 +1,7 @@
 {
-  "id": 3371,
+  "id": 15879,
   "slug": "desire-19",
+  "base_model_slug": null,
   "name": "Desire 19+",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "720x1520",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.6,
-    "performance": 1.5,
-    "camera": 5.3,
-    "battery": 12.7,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 20.6,
+    "performance": 10.4,
+    "camera": 6.6,
+    "battery": 28.5,
+    "display": 36.8,
+    "value": null,
+    "perf": {
+      "index": 10.4,
+      "percentile": 6.7,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.393011",
-  "updated_at": "2026-06-19T02:27:14.393011"
+  "created_at": "2026-06-24T08:53:56.804861",
+  "updated_at": "2026-06-24T08:53:56.804873"
 }

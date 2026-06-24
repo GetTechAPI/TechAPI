@@ -1,6 +1,7 @@
 {
-  "id": 3691,
+  "id": 17632,
   "slug": "honor-magic-2-premium-edition-dual-sim-td-lte-cn-128gb-tny-al00",
+  "base_model_slug": null,
   "name": "Honor Magic 2 Premium Edition Dual SIM TD-LTE CN 128GB TNY-AL00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 706,
+    "id": 839,
     "slug": "kirin-980",
     "name": "Kirin 980",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.39,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 28.8,
-    "performance": 56.0,
-    "camera": 6.3,
-    "battery": 7.5,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 41.4,
+    "performance": 75.3,
+    "camera": 7.5,
+    "battery": 34.6,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 75.3,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.439188",
-  "updated_at": "2026-06-19T02:27:14.439188"
+  "created_at": "2026-06-24T08:53:57.500303",
+  "updated_at": "2026-06-24T08:53:57.500316"
 }

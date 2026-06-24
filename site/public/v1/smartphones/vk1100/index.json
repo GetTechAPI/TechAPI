@@ -1,6 +1,7 @@
 {
-  "id": 14804,
+  "id": 77966,
   "slug": "vk1100",
+  "base_model_slug": null,
   "name": "VK1100",
   "brand": {
     "id": 115,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vk-mobile"
   },
   "soc": {
-    "id": 233,
+    "id": 283,
     "slug": "vk-mobile-mobile-platform-2006",
     "name": "VK Mobile mobile platform 2006",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "128x143",
     "type": "CSTN, 65K colors"
@@ -43,18 +45,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.326744",
-  "updated_at": "2026-06-19T02:27:16.326744"
+  "created_at": "2026-06-24T08:54:23.175171",
+  "updated_at": "2026-06-24T08:54:23.175183"
 }

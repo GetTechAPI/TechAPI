@@ -1,6 +1,7 @@
 {
-  "id": 16155,
+  "id": 86998,
   "slug": "n880e",
+  "base_model_slug": null,
   "name": "N880E",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1139,
+    "id": 1423,
     "slug": "qualcomm-msm7627a-snapdragon-s1",
     "name": "Qualcomm MSM7627A Snapdragon S1",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.0,
     "resolution": "480x800",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 3.2,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 1.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.514883",
-  "updated_at": "2026-06-19T02:27:16.514883"
+  "created_at": "2026-06-24T08:54:26.506232",
+  "updated_at": "2026-06-24T08:54:26.506245"
 }

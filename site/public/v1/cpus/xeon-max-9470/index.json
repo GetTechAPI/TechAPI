@@ -24,12 +24,30 @@
   "integrated_graphics": null,
   "memory_support": "64GB HBM2e on-package + DDR5-4800 octa-channel ECC",
   "msrp_usd": 11590,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 75.7,
+    "single": {
+      "index": 70.3,
+      "percentile": 26.2,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 80.2,
+      "percentile": 83.5,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/232595/intel-xeon-cpu-max-9470-processor-105m-cache-2-00-ghz.html",
     "https://en.wikipedia.org/wiki/Sapphire_Rapids#Xeon_Max"
   ],
-  "created_at": "2026-06-19T02:27:18.397343",
-  "updated_at": "2026-06-19T02:27:18.397343",
+  "created_at": "2026-06-24T08:54:41.412951",
+  "updated_at": "2026-06-24T08:54:41.412962",
   "url": "/v1/cpus/xeon-max-9470"
 }

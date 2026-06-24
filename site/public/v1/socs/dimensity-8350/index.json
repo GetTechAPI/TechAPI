@@ -1,5 +1,5 @@
 {
-  "id": 1063,
+  "id": 1308,
   "slug": "dimensity-8350",
   "name": "Dimensity 8350",
   "manufacturer": {
@@ -25,13 +25,31 @@
   "gpu_clock_mhz": 1400,
   "npu_tops": null,
   "modem": "MediaTek 5G integrated",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 72.9,
+    "cpu": {
+      "index": 70.6,
+      "percentile": 31.2,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 78.3,
+      "percentile": 43.8,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/MediaTek_Dimensity",
     "https://www.mediatek.com/products/smartphones/dimensity-8350",
     "https://nanoreview.net/en/soc/mediatek-dimensity-8350"
   ],
-  "created_at": "2026-06-19T02:27:12.588338",
-  "updated_at": "2026-06-19T02:27:12.588338",
+  "created_at": "2026-06-24T08:53:43.854168",
+  "updated_at": "2026-06-24T08:53:43.854179",
   "url": "/v1/socs/dimensity-8350"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 9362,
+  "id": 47718,
   "slug": "reno-6-pro-5g-2021-global-dual-sim-td-lte-256gb-cph2247",
+  "base_model_slug": null,
   "name": "Reno 6 Pro 5G 2021 Global Dual SIM TD-LTE 256GB CPH2247",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.7,
-    "performance": 9.1,
-    "camera": 17.2,
-    "battery": 32.0,
-    "display": 40.5,
-    "value": 43.1
+    "algorithm_version": "2.0.0",
+    "overall": 43.3,
+    "performance": 59.2,
+    "camera": 18.2,
+    "battery": 55.0,
+    "display": 40.8,
+    "value": 50.2,
+    "perf": {
+      "index": 59.2,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.387248",
-  "updated_at": "2026-06-19T02:27:15.387248"
+  "created_at": "2026-06-24T08:54:10.376381",
+  "updated_at": "2026-06-24T08:54:10.376394"
 }

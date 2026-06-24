@@ -1,6 +1,7 @@
 {
-  "id": 943,
+  "id": 4053,
   "slug": "iphone-8-plus-a1898-td-lte-jp-128gb",
+  "base_model_slug": null,
   "name": "iPhone 8 Plus A1898 TD-LTE JP 128GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 16,
+    "id": 26,
     "slug": "apple-a11-bionic",
     "name": "Apple A11 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.47,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.8,
-    "performance": 0.9,
-    "camera": 5.1,
-    "battery": 0.0,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.9,
+    "performance": 45.1,
+    "camera": 6.3,
+    "battery": 20.1,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 45.1,
+      "percentile": 54.9,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.957594",
-  "updated_at": "2026-06-19T02:27:13.957594"
+  "created_at": "2026-06-24T08:53:51.674565",
+  "updated_at": "2026-06-24T08:53:51.674578"
 }

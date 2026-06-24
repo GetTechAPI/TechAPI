@@ -24,6 +24,24 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 6-channel ECC",
   "msrp_usd": 2612,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 49.9,
+    "single": {
+      "index": 43.3,
+      "percentile": 26.6,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 55.3,
+      "percentile": 76.3,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Gold+6138",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.334879",
-  "updated_at": "2026-06-19T02:27:18.334879",
+  "created_at": "2026-06-24T08:54:41.263190",
+  "updated_at": "2026-06-24T08:54:41.263204",
   "url": "/v1/cpus/xeon-gold-6138"
 }

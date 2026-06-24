@@ -1,6 +1,7 @@
 {
-  "id": 12591,
+  "id": 63943,
   "slug": "galaxy-a04",
+  "base_model_slug": null,
   "name": "Galaxy A04",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1469,
+    "id": 1938,
     "slug": "exynos-850",
     "name": "Exynos 850",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -62,19 +64,26 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.7,
-    "performance": 0.0,
-    "camera": 17.1,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 25.6,
+    "performance": 11.3,
+    "camera": 18.1,
+    "battery": 47.5,
     "display": null,
-    "value": 57.9
+    "value": 62.8,
+    "perf": {
+      "index": 11.3,
+      "percentile": 4.3,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025",
     "https://www.kaggle.com/datasets/devgondaliya007/smartphone-specifications-dataset"
   ],
-  "created_at": "2026-06-19T02:27:15.903893",
-  "updated_at": "2026-06-19T02:27:15.903893"
+  "created_at": "2026-06-24T08:54:16.892551",
+  "updated_at": "2026-06-24T08:54:16.892564"
 }

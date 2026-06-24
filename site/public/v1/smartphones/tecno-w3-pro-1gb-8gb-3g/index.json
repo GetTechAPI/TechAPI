@@ -1,5 +1,5 @@
 {
-  "id": 31791,
+  "id": 72296,
   "slug": "tecno-w3-pro-1gb-8gb-3g",
   "base_model_slug": "w3-pro",
   "name": "Tecno W3 Pro",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 1166,
+    "id": 1167,
     "slug": "mediatek-mt6580",
     "name": "Mediatek MT6580",
     "manufacturer": {
@@ -20,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2018-01-23",
@@ -72,19 +72,26 @@
   "image_url": "https://www.mobiledokan.com/media/tecno-w3-pro-gold_1.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.2,
+    "algorithm_version": "2.0.0",
+    "overall": 21.2,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 10.0,
     "display": 32.5,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
     "https://www.mobiledokan.com/mobile/tecno-w3-pro"
   ],
-  "created_at": "2026-06-20T12:07:22.194988",
-  "updated_at": "2026-06-20T12:07:22.194988"
+  "created_at": "2026-06-24T08:54:20.940087",
+  "updated_at": "2026-06-24T08:54:20.940100"
 }

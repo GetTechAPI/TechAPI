@@ -1,6 +1,7 @@
 {
-  "id": 13878,
+  "id": 72930,
   "slug": "excite-pure",
+  "base_model_slug": null,
   "name": "Excite Pure",
   "brand": {
     "id": 108,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/toshiba"
   },
   "soc": {
-    "id": 1075,
+    "id": 1345,
     "slug": "nvidia-tegra-3",
     "name": "Nvidia Tegra 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "1280x800",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.196663",
-  "updated_at": "2026-06-19T02:27:16.196663"
+  "created_at": "2026-06-24T08:54:21.198729",
+  "updated_at": "2026-06-24T08:54:21.198742"
 }

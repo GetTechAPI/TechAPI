@@ -1,6 +1,7 @@
 {
-  "id": 743,
+  "id": 3163,
   "slug": "fire-phone",
+  "base_model_slug": null,
   "name": "Fire Phone",
   "brand": {
     "id": 146,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/amazon"
   },
   "soc": {
-    "id": 1203,
+    "id": 1530,
     "slug": "qualcomm-snapdragon-800",
     "name": "Qualcomm Snapdragon 800",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "720x1280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.6,
+    "algorithm_version": "2.0.0",
+    "overall": 7.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
+    "camera": 6.6,
+    "battery": 9.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.929189",
-  "updated_at": "2026-06-19T02:27:13.929189"
+  "created_at": "2026-06-24T08:53:51.326466",
+  "updated_at": "2026-06-24T08:53:51.326479"
 }

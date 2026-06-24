@@ -1,6 +1,7 @@
 {
-  "id": 15598,
+  "id": 81976,
   "slug": "mi-10s-5g-standard-edition-dual-sim-td-lte-cn-128gb-m2102j2sc",
+  "base_model_slug": null,
   "name": "Mi 10S 5G Standard Edition Dual SIM TD-LTE CN 128GB M2102J2SC",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.6,
-    "performance": 6.1,
-    "camera": 35.8,
-    "battery": 30.1,
-    "display": 38.6,
-    "value": 13.8
+    "algorithm_version": "2.0.0",
+    "overall": 46.0,
+    "performance": 56.4,
+    "camera": 36.4,
+    "battery": 52.2,
+    "display": 39.2,
+    "value": 23.0,
+    "perf": {
+      "index": 56.4,
+      "percentile": 75.9,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.437339",
-  "updated_at": "2026-06-19T02:27:16.437339"
+  "created_at": "2026-06-24T08:54:24.643048",
+  "updated_at": "2026-06-24T08:54:24.643061"
 }

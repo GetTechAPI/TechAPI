@@ -1,6 +1,7 @@
 {
-  "id": 10413,
+  "id": 53391,
   "slug": "realme-gt-3",
+  "base_model_slug": null,
   "name": "Realme GT 3",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.74,
     "resolution": "2772x1240",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/realme-gt-3.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 45.5,
-    "performance": 28.2,
-    "camera": 35.1,
-    "battery": 59.0,
-    "display": 59.6,
-    "value": 59.4
+    "algorithm_version": "2.0.0",
+    "overall": 59.6,
+    "performance": 72.0,
+    "camera": 36.1,
+    "battery": 71.8,
+    "display": 58.6,
+    "value": 63.8,
+    "perf": {
+      "index": 72.0,
+      "percentile": 91.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Realme_GT_3",
     "https://www.realme.com/global/realme-gt3/specs"
   ],
-  "created_at": "2026-06-19T02:27:15.557941",
-  "updated_at": "2026-06-19T02:27:15.557941"
+  "created_at": "2026-06-24T08:54:12.679470",
+  "updated_at": "2026-06-24T08:54:12.679483"
 }

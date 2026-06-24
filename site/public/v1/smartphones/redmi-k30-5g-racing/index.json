@@ -1,6 +1,7 @@
 {
-  "id": 15531,
+  "id": 81473,
   "slug": "redmi-k30-5g-racing",
+  "base_model_slug": null,
   "name": "Redmi K30 5G Racing",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1333,
+    "id": 1694,
     "slug": "qualcomm-sdm768-snapdragon-768g",
     "name": "Qualcomm SDM768 Snapdragon 768G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.1,
+    "algorithm_version": "2.0.0",
+    "overall": 33.5,
     "performance": null,
-    "camera": 21.6,
-    "battery": 22.5,
+    "camera": 22.5,
+    "battery": 44.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.429341",
-  "updated_at": "2026-06-19T02:27:16.429341"
+  "created_at": "2026-06-24T08:54:24.450144",
+  "updated_at": "2026-06-24T08:54:24.450156"
 }

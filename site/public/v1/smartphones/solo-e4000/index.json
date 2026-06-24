@@ -1,6 +1,7 @@
 {
-  "id": 4639,
+  "id": 24034,
   "slug": "solo-e4000",
+  "base_model_slug": null,
   "name": "Solo E4000",
   "brand": {
     "id": 100,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/kyocera"
   },
   "soc": {
-    "id": 285,
+    "id": 341,
     "slug": "kyocera-mobile-platform-2008",
     "name": "Kyocera mobile platform 2008",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "240x320",
     "type": "TFT, 65K colors"
@@ -52,18 +54,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.571331",
-  "updated_at": "2026-06-19T02:27:14.571331"
+  "created_at": "2026-06-24T08:53:59.928970",
+  "updated_at": "2026-06-24T08:53:59.928984"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1003,
+  "id": 4370,
   "slug": "iphone-12-uw-5g-a2172-dual-sim-td-lte-us-64gb",
+  "base_model_slug": null,
   "name": "iPhone 12 UW 5G A2172 Dual SIM TD-LTE US 64GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 24,
+    "id": 37,
     "slug": "apple-a14-bionic",
     "name": "Apple A14 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.06,
     "resolution": "1170x2532",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.0,
-    "performance": 26.5,
-    "camera": 5.1,
-    "battery": 11.0,
-    "display": 33.5,
-    "value": 40.3
+    "algorithm_version": "2.0.0",
+    "overall": 35.9,
+    "performance": 67.1,
+    "camera": 6.3,
+    "battery": 34.5,
+    "display": 35.5,
+    "value": 46.5,
+    "perf": {
+      "index": 67.1,
+      "percentile": 93.2,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.967648",
-  "updated_at": "2026-06-19T02:27:13.967648"
+  "created_at": "2026-06-24T08:53:51.787105",
+  "updated_at": "2026-06-24T08:53:51.787118"
 }

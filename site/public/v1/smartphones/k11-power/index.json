@@ -1,6 +1,7 @@
 {
-  "id": 5039,
+  "id": 25859,
   "slug": "k11-power",
+  "base_model_slug": null,
   "name": "K11 Power",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.8,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 30.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 23.3,
+    "performance": 9.1,
+    "camera": 7.5,
+    "battery": 40.0,
+    "display": 36.7,
+    "value": null,
+    "perf": {
+      "index": 9.1,
+      "percentile": 7.9,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.625869",
-  "updated_at": "2026-06-19T02:27:14.625869"
+  "created_at": "2026-06-24T08:54:00.646977",
+  "updated_at": "2026-06-24T08:54:00.646989"
 }

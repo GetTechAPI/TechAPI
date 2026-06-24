@@ -1,6 +1,7 @@
 {
-  "id": 2771,
+  "id": 12684,
   "slug": "pixel-7",
+  "base_model_slug": null,
   "name": "Pixel 7",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 670,
+    "id": 766,
     "slug": "tensor-g2",
     "name": "Google Tensor G2",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "2400x1080",
@@ -78,19 +80,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-7.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.7,
-    "performance": 7.6,
-    "camera": 30.1,
-    "battery": 35.3,
-    "display": 33.7,
-    "value": 51.9
+    "algorithm_version": "2.0.0",
+    "overall": 45.2,
+    "performance": 58.0,
+    "camera": 31.1,
+    "battery": 53.9,
+    "display": 37.7,
+    "value": 58.4,
+    "perf": {
+      "index": 58.0,
+      "percentile": 69.4,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/us/product/pixel_7_specs",
     "https://en.wikipedia.org/wiki/Pixel_7"
   ],
-  "created_at": "2026-06-19T02:27:14.251668",
-  "updated_at": "2026-06-19T02:27:14.251668"
+  "created_at": "2026-06-24T08:53:55.123798",
+  "updated_at": "2026-06-24T08:53:55.123810"
 }

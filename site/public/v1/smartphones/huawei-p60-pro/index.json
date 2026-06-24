@@ -1,6 +1,7 @@
 {
-  "id": 4276,
+  "id": 21729,
   "slug": "huawei-p60-pro",
+  "base_model_slug": null,
   "name": "Huawei P60 Pro",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2700x1220",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-p60-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 47.2,
-    "performance": 22.2,
-    "camera": 34.5,
-    "battery": 66.1,
-    "display": 66.1,
-    "value": 46.7
+    "algorithm_version": "2.0.0",
+    "overall": 61.3,
+    "performance": 66.6,
+    "camera": 35.5,
+    "battery": 78.4,
+    "display": 64.6,
+    "value": 52.1,
+    "perf": {
+      "index": 66.6,
+      "percentile": 83.6,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://consumer.huawei.com/en/phones/p60-pro/specs/",
     "https://en.wikipedia.org/wiki/Huawei_P60_Pro"
   ],
-  "created_at": "2026-06-19T02:27:14.514200",
-  "updated_at": "2026-06-19T02:27:14.514200"
+  "created_at": "2026-06-24T08:53:58.977012",
+  "updated_at": "2026-06-24T08:53:58.977025"
 }

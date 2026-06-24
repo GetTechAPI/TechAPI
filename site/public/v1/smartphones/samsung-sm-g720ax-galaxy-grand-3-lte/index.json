@@ -1,6 +1,7 @@
 {
-  "id": 25940,
+  "id": 57985,
   "slug": "samsung-sm-g720ax-galaxy-grand-3-lte",
+  "base_model_slug": null,
   "name": "Samsung SM-G720AX Galaxy Grand 3 LTE",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1863,
+    "id": 1521,
     "slug": "qualcomm-snapdragon-410-msm8916",
     "name": "Qualcomm Snapdragon 410 MSM8916",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 306",
     "url": "/v1/socs/qualcomm-snapdragon-410-msm8916"
   },
   "release_date": "2015-02-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.25,
     "resolution": "720x1280",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 20.8,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 4.0,
+    "display": 37.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=7518"
   ],
-  "created_at": "2026-06-19T09:44:30.125938",
-  "updated_at": "2026-06-19T09:44:30.125938"
+  "created_at": "2026-06-24T08:54:14.756572",
+  "updated_at": "2026-06-24T08:54:14.756585"
 }

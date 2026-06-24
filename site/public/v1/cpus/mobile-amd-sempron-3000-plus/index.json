@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 4.6,
+    "single": {
+      "index": 5.6,
+      "percentile": 5.3,
+      "tier": "E",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 3.8,
+      "percentile": 7.9,
+      "tier": "E",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Mobile+AMD+Sempron+3000%2B"
   ],
-  "created_at": "2026-06-19T02:27:18.037405",
-  "updated_at": "2026-06-19T02:27:18.037405",
+  "created_at": "2026-06-24T08:54:40.693595",
+  "updated_at": "2026-06-24T08:54:40.693607",
   "url": "/v1/cpus/mobile-amd-sempron-3000-plus"
 }

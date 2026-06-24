@@ -1,6 +1,7 @@
 {
-  "id": 15342,
+  "id": 80588,
   "slug": "redmi-note-7-dual-sim-td-lte-apac-latam-64gb-m1901f7h",
+  "base_model_slug": null,
   "name": "Redmi Note 7 Dual SIM TD-LTE APAC LATAM 64GB M1901F7H",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.9,
-    "performance": 18.0,
-    "camera": 16.5,
-    "battery": 15.0,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.7,
+    "performance": 54.8,
+    "camera": 17.5,
+    "battery": 25.9,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 54.8,
+      "percentile": 73.8,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.404817",
-  "updated_at": "2026-06-19T02:27:16.404817"
+  "created_at": "2026-06-24T08:54:24.148130",
+  "updated_at": "2026-06-24T08:54:24.148142"
 }

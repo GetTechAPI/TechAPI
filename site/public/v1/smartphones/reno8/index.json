@@ -1,6 +1,7 @@
 {
-  "id": 9429,
+  "id": 49377,
   "slug": "reno8",
+  "base_model_slug": null,
   "name": "Reno8",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1044,
+    "id": 1244,
     "slug": "dimensity-1300",
     "name": "MediaTek Dimensity 1300",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.3,
-    "performance": 7.3,
-    "camera": 17.2,
-    "battery": 39.9,
-    "display": 40.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 44.3,
+    "performance": 58.1,
+    "camera": 18.2,
+    "battery": 59.7,
+    "display": 41.1,
+    "value": null,
+    "perf": {
+      "index": 58.1,
+      "percentile": 70.0,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.397760",
-  "updated_at": "2026-06-19T02:27:15.397760"
+  "created_at": "2026-06-24T08:54:10.965697",
+  "updated_at": "2026-06-24T08:54:10.965710"
 }

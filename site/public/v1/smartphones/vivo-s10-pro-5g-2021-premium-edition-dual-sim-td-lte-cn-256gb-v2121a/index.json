@@ -1,6 +1,7 @@
 {
-  "id": 14671,
+  "id": 75916,
   "slug": "vivo-s10-pro-5g-2021-premium-edition-dual-sim-td-lte-cn-256gb-v2121a",
+  "base_model_slug": null,
   "name": "Vivo S10 Pro 5G 2021 Premium Edition Dual SIM TD-LTE CN 256GB V2121A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1034,
+    "id": 1227,
     "slug": "dimensity-1100",
     "name": "Dimensity 1100",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.44,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.2,
-    "performance": 6.0,
-    "camera": 35.7,
-    "battery": 26.3,
-    "display": 40.9,
-    "value": 13.6
+    "algorithm_version": "2.0.0",
+    "overall": 44.3,
+    "performance": 50.8,
+    "camera": 36.3,
+    "battery": 49.0,
+    "display": 41.1,
+    "value": 22.1,
+    "perf": {
+      "index": 50.8,
+      "percentile": 62.1,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.305683",
-  "updated_at": "2026-06-19T02:27:16.305683"
+  "created_at": "2026-06-24T08:54:22.375310",
+  "updated_at": "2026-06-24T08:54:22.375322"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 2938,
+  "id": 13665,
   "slug": "9c",
+  "base_model_slug": null,
   "name": "9C",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 711,
+    "id": 844,
     "slug": "kirin-710a",
     "name": "Kirin 710A",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.39,
     "resolution": "720x1560",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.5,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 15.0,
+    "algorithm_version": "2.0.0",
+    "overall": 22.7,
+    "performance": 21.4,
+    "camera": 17.5,
+    "battery": 29.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 21.4,
+      "percentile": 16.6,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.331973",
-  "updated_at": "2026-06-19T02:27:14.331973"
+  "created_at": "2026-06-24T08:53:55.923966",
+  "updated_at": "2026-06-24T08:53:55.923979"
 }

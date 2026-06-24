@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 6.0,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 68.1,
+    "graphics": {
+      "index": 68.1,
+      "percentile": 37.3,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.mthreads.com/product/MTTS60",
     "https://www.techpowerup.com/gpu-specs/mtt-s60.c4019",

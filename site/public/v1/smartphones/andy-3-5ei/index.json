@@ -1,6 +1,7 @@
 {
-  "id": 16027,
+  "id": 86582,
   "slug": "andy-3-5ei",
+  "base_model_slug": null,
   "name": "Andy 3.5EI",
   "brand": {
     "id": 188,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/yezz"
   },
   "soc": {
-    "id": 851,
+    "id": 1030,
     "slug": "mediatek-mt6572",
     "name": "Mediatek MT6572",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.5,
     "resolution": "320x480",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.493368",
-  "updated_at": "2026-06-19T02:27:16.493368"
+  "created_at": "2026-06-24T08:54:26.335924",
+  "updated_at": "2026-06-24T08:54:26.335937"
 }

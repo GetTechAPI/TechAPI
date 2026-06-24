@@ -1,6 +1,7 @@
 {
-  "id": 824,
+  "id": 3503,
   "slug": "iphone-6s-plus",
+  "base_model_slug": null,
   "name": "iPhone 6s Plus",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 10,
+    "id": 18,
     "slug": "apple-a9",
     "name": "Apple A9",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1920x1080",
@@ -73,19 +75,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-6s-plus.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 5.8,
-    "performance": 0.0,
-    "camera": 13.0,
-    "battery": 0.0,
-    "display": 10.1,
-    "value": 35.6
+    "algorithm_version": "2.0.0",
+    "overall": 18.0,
+    "performance": 31.0,
+    "camera": 14.3,
+    "battery": 12.5,
+    "display": 14.3,
+    "value": 39.4,
+    "perf": {
+      "index": 31.0,
+      "percentile": 20.9,
+      "tier": "D",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/IPhone_6s",
     "https://support.apple.com/iphone-6s-plus"
   ],
-  "created_at": "2026-06-19T02:27:13.942594",
-  "updated_at": "2026-06-19T02:27:13.942594"
+  "created_at": "2026-06-24T08:53:51.485959",
+  "updated_at": "2026-06-24T08:53:51.485971"
 }

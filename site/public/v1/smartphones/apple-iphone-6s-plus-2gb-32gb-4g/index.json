@@ -1,5 +1,5 @@
 {
-  "id": 1662,
+  "id": 3497,
   "slug": "apple-iphone-6s-plus-2gb-32gb-4g",
   "base_model_slug": "iphone-6s-plus",
   "name": "Apple iPhone 6S Plus (32GB ROM)",
@@ -19,8 +19,8 @@
       "name": "Apple",
       "url": "/v1/brands/apple"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 16.0,
+    "gpu_name": "PowerVR GT7600",
     "url": "/v1/socs/apple-a9-apl1022-s8003"
   },
   "release_date": "2015-09-25",
@@ -71,19 +71,26 @@
   "image_url": "https://www.mobiledokan.com/media/apple-iphone-6s-plus-rose-gold-image_1.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 12.5,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 12.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
     "https://www.mobiledokan.com/mobile/apple-iphone-6s-plus-32gb-rom"
   ],
-  "created_at": "2026-06-20T12:07:15.226584",
-  "updated_at": "2026-06-20T12:07:15.226584"
+  "created_at": "2026-06-24T08:53:51.483980",
+  "updated_at": "2026-06-24T08:53:51.483993"
 }

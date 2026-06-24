@@ -1,6 +1,7 @@
 {
-  "id": 5709,
+  "id": 28904,
   "slug": "lg-v40-thinq",
+  "base_model_slug": null,
   "name": "LG V40 ThinQ",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "3120x1440",
@@ -89,19 +91,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-v40-thinq.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.6,
-    "performance": 1.5,
-    "camera": 23.0,
-    "battery": 6.3,
-    "display": 23.7,
-    "value": 33.7
+    "algorithm_version": "2.0.0",
+    "overall": 30.1,
+    "performance": 39.0,
+    "camera": 24.3,
+    "battery": 29.9,
+    "display": 27.3,
+    "value": 40.0,
+    "perf": {
+      "index": 39.0,
+      "percentile": 46.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/LG_V40_ThinQ",
     "https://www.lg.com/global/mobile-phones/lg-v40-thinq"
   ],
-  "created_at": "2026-06-19T02:27:14.735014",
-  "updated_at": "2026-06-19T02:27:14.735014"
+  "created_at": "2026-06-24T08:54:02.500237",
+  "updated_at": "2026-06-24T08:54:02.500250"
 }

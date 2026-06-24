@@ -1,6 +1,7 @@
 {
-  "id": 15733,
+  "id": 82756,
   "slug": "redmi-note-10-lite-standard-edition",
+  "base_model_slug": null,
   "name": "Redmi Note 10 Lite Standard Edition",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1341,
+    "id": 1710,
     "slug": "snapdragon-720g",
     "name": "Snapdragon 720G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.6,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.9,
-    "display": 27.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 33.3,
+    "performance": 35.8,
+    "camera": 17.5,
+    "battery": 50.0,
+    "display": 29.9,
+    "value": null,
+    "perf": {
+      "index": 35.8,
+      "percentile": 35.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.454853",
-  "updated_at": "2026-06-19T02:27:16.454853"
+  "created_at": "2026-06-24T08:54:24.901855",
+  "updated_at": "2026-06-24T08:54:24.901867"
 }

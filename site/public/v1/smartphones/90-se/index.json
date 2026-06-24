@@ -1,6 +1,7 @@
 {
-  "id": 3030,
+  "id": 14037,
   "slug": "90-se",
+  "base_model_slug": null,
   "name": "90 SE",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 1037,
+    "id": 1230,
     "slug": "dimensity-900",
     "name": "Dimensity 900",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": 399,
   "ram_gb": 8,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": null,
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.9,
-    "performance": 3.0,
-    "camera": 21.6,
-    "battery": 29.0,
+    "algorithm_version": "2.0.0",
+    "overall": 37.8,
+    "performance": 43.1,
+    "camera": 22.5,
+    "battery": 47.7,
     "display": null,
-    "value": 55.2
+    "value": 61.8,
+    "perf": {
+      "index": 43.1,
+      "percentile": 39.0,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.344491",
-  "updated_at": "2026-06-19T02:27:14.344491"
+  "created_at": "2026-06-24T08:53:56.065184",
+  "updated_at": "2026-06-24T08:53:56.065196"
 }

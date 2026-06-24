@@ -1,6 +1,7 @@
 {
-  "id": 12459,
+  "id": 63455,
   "slug": "sm-f7110-galaxy-z-flip-3-5g-td-lte-cn-hk-tw-256gb",
+  "base_model_slug": null,
   "name": "SM-F7110 Galaxy Z Flip 3 5G TD-LTE CN HK TW 256GB",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "1080x2640",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.2,
-    "performance": 6.4,
-    "camera": 5.0,
-    "battery": 14.5,
-    "display": 55.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 38.6,
+    "performance": 57.2,
+    "camera": 6.3,
+    "battery": 38.5,
+    "display": 52.5,
+    "value": null,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.887383",
-  "updated_at": "2026-06-19T02:27:15.887383"
+  "created_at": "2026-06-24T08:54:16.733307",
+  "updated_at": "2026-06-24T08:54:16.733320"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 13229,
+  "id": 69855,
   "slug": "xperia-ace-lte-a-jp-so-02l",
+  "base_model_slug": null,
   "name": "Xperia Ace LTE-A JP SO-02L",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1265,
+    "id": 1622,
     "slug": "snapdragon-630",
     "name": "Snapdragon 630",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.6,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 0.0,
-    "display": 53.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 21.2,
+    "performance": 11.7,
+    "camera": 6.3,
+    "battery": 12.0,
+    "display": 55.0,
+    "value": null,
+    "perf": {
+      "index": 11.7,
+      "percentile": 9.6,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.088056",
-  "updated_at": "2026-06-19T02:27:16.088056"
+  "created_at": "2026-06-24T08:54:19.908089",
+  "updated_at": "2026-06-24T08:54:19.908101"
 }

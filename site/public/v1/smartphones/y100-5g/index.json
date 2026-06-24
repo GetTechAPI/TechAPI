@@ -1,6 +1,7 @@
 {
-  "id": 14777,
+  "id": 77661,
   "slug": "y100-5g",
+  "base_model_slug": null,
   "name": "Y100 5G",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1037,
+    "id": 1230,
     "slug": "dimensity-900",
     "name": "Dimensity 900",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.38,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.4,
-    "performance": 3.0,
-    "camera": 21.6,
-    "battery": 27.5,
+    "algorithm_version": "2.0.0",
+    "overall": 37.4,
+    "performance": 43.1,
+    "camera": 22.5,
+    "battery": 46.7,
     "display": null,
-    "value": 58.7
+    "value": 65.2,
+    "perf": {
+      "index": 43.1,
+      "percentile": 25.2,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.320694",
-  "updated_at": "2026-06-19T02:27:16.320694"
+  "created_at": "2026-06-24T08:54:23.053233",
+  "updated_at": "2026-06-24T08:54:23.053245"
 }

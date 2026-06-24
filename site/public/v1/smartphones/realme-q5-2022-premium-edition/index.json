@@ -1,6 +1,7 @@
 {
-  "id": 10406,
+  "id": 53225,
   "slug": "realme-q5-2022-premium-edition",
+  "base_model_slug": null,
   "name": "Realme Q5 2022 Premium Edition",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": "1080x2412",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.1,
-    "performance": 3.0,
-    "camera": 17.2,
-    "battery": 43.6,
-    "display": 52.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 43.5,
+    "performance": 44.4,
+    "camera": 18.1,
+    "battery": 61.2,
+    "display": 50.4,
+    "value": null,
+    "perf": {
+      "index": 44.4,
+      "percentile": 46.4,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.556942",
-  "updated_at": "2026-06-19T02:27:15.556942"
+  "created_at": "2026-06-24T08:54:12.618225",
+  "updated_at": "2026-06-24T08:54:12.618238"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15093,
+  "id": 79452,
   "slug": "mi-8-pro-global-dual-sim-td-lte-m1807e8a",
+  "base_model_slug": null,
   "name": "Mi 8 Pro Global Dual SIM TD-LTE M1807E8A",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.21,
     "resolution": "1080x2248",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
-    "performance": 3.0,
-    "camera": 5.0,
-    "battery": 0.0,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.5,
+    "performance": 40.4,
+    "camera": 6.3,
+    "battery": 23.3,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 40.4,
+      "percentile": 50.7,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.370309",
-  "updated_at": "2026-06-19T02:27:16.370309"
+  "created_at": "2026-06-24T08:54:23.757759",
+  "updated_at": "2026-06-24T08:54:23.757772"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 7515,
+  "id": 37758,
   "slug": "moto-g14-2023",
+  "base_model_slug": null,
   "name": "Moto G14 2023",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1557,
+    "id": 2082,
     "slug": "tiger-t616",
     "name": "Unisoc Tiger T616",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.8,
-    "performance": 0.0,
-    "camera": 17.2,
-    "battery": 30.0,
-    "display": 28.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 28.9,
+    "performance": 25.8,
+    "camera": 18.2,
+    "battery": 40.9,
+    "display": 30.8,
+    "value": null,
+    "perf": {
+      "index": 25.8,
+      "percentile": 12.2,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.075347",
-  "updated_at": "2026-06-19T02:27:15.075347"
+  "created_at": "2026-06-24T08:54:05.967251",
+  "updated_at": "2026-06-24T08:54:05.967287"
 }

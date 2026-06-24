@@ -1,6 +1,7 @@
 {
-  "id": 12747,
+  "id": 66038,
   "slug": "galaxy-z-flip-5",
+  "base_model_slug": null,
   "name": "Galaxy Z Flip5",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1361,
+    "id": 1748,
     "slug": "snapdragon-8-gen-2",
     "name": "Snapdragon 8 Gen 2",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "2640x1080",
@@ -77,19 +79,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-z-flip-5.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.7,
-    "performance": 33.7,
-    "camera": 18.0,
-    "battery": 30.4,
-    "display": 52.6,
-    "value": 40.0
+    "algorithm_version": "2.0.0",
+    "overall": 48.4,
+    "performance": 71.7,
+    "camera": 19.3,
+    "battery": 49.3,
+    "display": 53.1,
+    "value": 45.6,
+    "perf": {
+      "index": 71.7,
+      "percentile": 89.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.samsung.com/global/galaxy/galaxy-z-flip5/specs/",
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip5"
   ],
-  "created_at": "2026-06-19T02:27:16.010958",
-  "updated_at": "2026-06-19T02:27:16.010958"
+  "created_at": "2026-06-24T08:54:17.627493",
+  "updated_at": "2026-06-24T08:54:17.627506"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 14722,
+  "id": 75973,
   "slug": "vivo-y21s-2021-standard-edition-dual-sim-td-lte-vn-sg-v3-v2110",
+  "base_model_slug": null,
   "name": "Vivo Y21s 2021 Standard Edition Dual SIM TD-LTE VN SG V3 V2110",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1006,
+    "id": 1194,
     "slug": "helio-g80",
     "name": "Helio G80",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": "1080x2408",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.6,
-    "performance": 3.0,
-    "camera": 17.2,
-    "battery": 30.6,
-    "display": 27.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.3,
+    "performance": 27.4,
+    "camera": 18.1,
+    "battery": 41.4,
+    "display": 30.4,
+    "value": null,
+    "perf": {
+      "index": 27.4,
+      "percentile": 27.0,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.313699",
-  "updated_at": "2026-06-19T02:27:16.313699"
+  "created_at": "2026-06-24T08:54:22.393990",
+  "updated_at": "2026-06-24T08:54:22.394003"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15889,
+  "id": 85495,
   "slug": "xiaomi-13t-pro",
+  "base_model_slug": null,
   "name": "Xiaomi 13T Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1056,
+    "id": 1269,
     "slug": "dimensity-9200-plus",
     "name": "MediaTek Dimensity 9200+",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2712x1220",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-13t-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 53.5,
-    "performance": 35.6,
-    "camera": 35.1,
-    "battery": 65.0,
-    "display": 78.2,
-    "value": 53.7
+    "algorithm_version": "2.0.0",
+    "overall": 65.1,
+    "performance": 74.0,
+    "camera": 36.1,
+    "battery": 75.8,
+    "display": 74.4,
+    "value": 57.6,
+    "perf": {
+      "index": 74.0,
+      "percentile": 93.2,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/xiaomi-13t-pro",
     "https://en.wikipedia.org/wiki/Xiaomi_13T_Pro"
   ],
-  "created_at": "2026-06-19T02:27:16.474362",
-  "updated_at": "2026-06-19T02:27:16.474362"
+  "created_at": "2026-06-24T08:54:25.873060",
+  "updated_at": "2026-06-24T08:54:25.873072"
 }

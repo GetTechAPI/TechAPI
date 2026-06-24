@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 35.021,
   "blender_score": 6604.89,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 96.1,
+    "graphics": {
+      "index": 96.1,
+      "percentile": 68.5,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/laptops/50-series/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-5080-mobile.c4232",

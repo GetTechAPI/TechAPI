@@ -1,6 +1,7 @@
 {
-  "id": 9368,
+  "id": 47729,
   "slug": "reno-6",
+  "base_model_slug": null,
   "name": "Reno 6",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1037,
+    "id": 1230,
     "slug": "dimensity-900",
     "name": "Dimensity 900",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.7,
-    "performance": 6.0,
-    "camera": 21.5,
-    "battery": 14.5,
-    "display": 40.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.7,
+    "performance": 45.8,
+    "camera": 22.4,
+    "battery": 33.6,
+    "display": 41.1,
+    "value": null,
+    "perf": {
+      "index": 45.8,
+      "percentile": 58.3,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.388248",
-  "updated_at": "2026-06-19T02:27:15.388248"
+  "created_at": "2026-06-24T08:54:10.380672",
+  "updated_at": "2026-06-24T08:54:10.380685"
 }

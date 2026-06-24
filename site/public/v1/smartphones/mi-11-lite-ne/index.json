@@ -1,6 +1,7 @@
 {
-  "id": 15607,
+  "id": 82088,
   "slug": "mi-11-lite-ne",
+  "base_model_slug": null,
   "name": "Mi 11 Lite NE",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1352,
+    "id": 1732,
     "slug": "snapdragon-778g",
     "name": "Snapdragon 778G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.55,
     "resolution": "1080x2400",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.0,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 27.2,
-    "display": 40.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 40.7,
+    "performance": 50.9,
+    "camera": 22.4,
+    "battery": 49.0,
+    "display": 40.5,
+    "value": null,
+    "perf": {
+      "index": 50.9,
+      "percentile": 62.7,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.438339",
-  "updated_at": "2026-06-19T02:27:16.438339"
+  "created_at": "2026-06-24T08:54:24.679346",
+  "updated_at": "2026-06-24T08:54:24.679359"
 }

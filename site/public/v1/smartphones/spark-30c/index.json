@@ -1,6 +1,7 @@
 {
-  "id": 13817,
+  "id": 72737,
   "slug": "spark-30c",
+  "base_model_slug": null,
   "name": "Spark 30C",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 1007,
+    "id": 1195,
     "slug": "helio-g85",
     "name": "MediaTek Helio G85",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.7,
-    "performance": 0.0,
-    "camera": 17.1,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 28.1,
+    "performance": 26.9,
+    "camera": 18.1,
+    "battery": 39.2,
     "display": null,
-    "value": 57.9
+    "value": 64.0,
+    "perf": {
+      "index": 26.9,
+      "percentile": 8.1,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.185138",
-  "updated_at": "2026-06-19T02:27:16.185138"
+  "created_at": "2026-06-24T08:54:21.101223",
+  "updated_at": "2026-06-24T08:54:21.101237"
 }

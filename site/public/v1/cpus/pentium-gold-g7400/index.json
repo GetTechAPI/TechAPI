@@ -24,13 +24,31 @@
   "integrated_graphics": "Intel UHD Graphics 710",
   "memory_support": "DDR5-4800 / DDR4-3200",
   "msrp_usd": 64,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 36.9,
+    "single": {
+      "index": 66.0,
+      "percentile": 12.2,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 13.1,
+      "percentile": 3.0,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/134591/intel-pentium-gold-g7400-processor-6m-cache-3-70-ghz.html",
     "https://en.wikipedia.org/wiki/Alder_Lake",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G7400"
   ],
-  "created_at": "2026-06-19T02:27:18.390818",
-  "updated_at": "2026-06-19T02:27:18.390818",
+  "created_at": "2026-06-24T08:54:41.396522",
+  "updated_at": "2026-06-24T08:54:41.396533",
   "url": "/v1/cpus/pentium-gold-g7400"
 }

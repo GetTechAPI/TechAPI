@@ -1,6 +1,7 @@
 {
-  "id": 10411,
+  "id": 53331,
   "slug": "gt-6t",
+  "base_model_slug": null,
   "name": "GT 6T",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1369,
+    "id": 1779,
     "slug": "snapdragon-7-plus-gen-3",
     "name": "Snapdragon 7+ Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 34.4,
-    "performance": 33.5,
-    "camera": 17.1,
-    "battery": 52.5,
+    "algorithm_version": "2.0.0",
+    "overall": 50.2,
+    "performance": 71.7,
+    "camera": 18.1,
+    "battery": 60.8,
     "display": null,
-    "value": 64.9
+    "value": 69.4,
+    "perf": {
+      "index": 71.7,
+      "percentile": 89.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.556942",
-  "updated_at": "2026-06-19T02:27:15.556942"
+  "created_at": "2026-06-24T08:54:12.657682",
+  "updated_at": "2026-06-24T08:54:12.657695"
 }

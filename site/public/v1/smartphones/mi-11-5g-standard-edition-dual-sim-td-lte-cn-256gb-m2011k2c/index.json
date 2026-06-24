@@ -1,6 +1,7 @@
 {
-  "id": 15606,
+  "id": 82016,
   "slug": "mi-11-5g-standard-edition-dual-sim-td-lte-cn-256gb-m2011k2c",
+  "base_model_slug": null,
   "name": "Mi 11 5G Standard Edition Dual SIM TD-LTE CN 256GB M2011K2C",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.81,
     "resolution": "1440x3200",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 37.0,
-    "performance": 6.4,
-    "camera": 35.8,
-    "battery": 41.6,
-    "display": 64.0,
-    "value": 18.5
+    "algorithm_version": "2.0.0",
+    "overall": 53.1,
+    "performance": 57.2,
+    "camera": 36.4,
+    "battery": 58.5,
+    "display": 60.2,
+    "value": 26.6,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.438339",
-  "updated_at": "2026-06-19T02:27:16.438339"
+  "created_at": "2026-06-24T08:54:24.655939",
+  "updated_at": "2026-06-24T08:54:24.655952"
 }

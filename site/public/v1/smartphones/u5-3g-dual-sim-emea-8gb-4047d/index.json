@@ -1,5 +1,5 @@
 {
-  "id": 861,
+  "id": 1828,
   "slug": "u5-3g-dual-sim-emea-8gb-4047d",
   "base_model_slug": "u5-4047d",
   "name": "U5 3G Dual SIM EMEA 8GB 4047D",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 1166,
+    "id": 1167,
     "slug": "mediatek-mt6580",
     "name": "Mediatek MT6580",
     "manufacturer": {
@@ -20,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2017-06-01",
@@ -73,18 +73,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 15.2,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 5.5,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-20T11:17:52.354160",
-  "updated_at": "2026-06-20T11:17:52.354160"
+  "created_at": "2026-06-24T08:53:50.861249",
+  "updated_at": "2026-06-24T08:53:50.861293"
 }

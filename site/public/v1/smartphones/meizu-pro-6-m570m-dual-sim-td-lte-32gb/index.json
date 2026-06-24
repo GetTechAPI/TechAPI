@@ -1,6 +1,7 @@
 {
-  "id": 21769,
+  "id": 30911,
   "slug": "meizu-pro-6-m570m-dual-sim-td-lte-32gb",
+  "base_model_slug": null,
   "name": "Meizu Pro 6 M570M Dual SIM TD-LTE 32GB",
   "brand": {
     "id": 33,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/meizu"
   },
   "soc": {
-    "id": 1742,
+    "id": 1080,
     "slug": "mediatek-helio-x25-mt6797",
     "name": "Mediatek Helio X25 MT6797",
     "manufacturer": {
@@ -18,8 +19,8 @@
       "name": "MediaTek",
       "url": "/v1/brands/mediatek"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 20.0,
+    "gpu_name": "Mali-T880 MP4",
     "url": "/v1/socs/mediatek-helio-x25-mt6797"
   },
   "release_date": "2016-05-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.1,
+    "algorithm_version": "2.0.0",
+    "overall": 32.7,
     "performance": null,
     "camera": null,
-    "battery": 0.8,
-    "display": 47.4,
-    "value": null
+    "battery": 15.5,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=10080"
   ],
-  "created_at": "2026-06-19T09:44:29.031492",
-  "updated_at": "2026-06-19T09:44:29.031492"
+  "created_at": "2026-06-24T08:54:03.249723",
+  "updated_at": "2026-06-24T08:54:03.249735"
 }

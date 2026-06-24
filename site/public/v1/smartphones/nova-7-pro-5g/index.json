@@ -1,6 +1,7 @@
 {
-  "id": 4143,
+  "id": 19864,
   "slug": "nova-7-pro-5g",
+  "base_model_slug": null,
   "name": "nova 7 Pro 5G",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 698,
+    "id": 809,
     "slug": "kirin-985-5g",
     "name": "Kirin 985 5G",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.57,
     "resolution": "1080x2340",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
+    "algorithm_version": "2.0.0",
+    "overall": 31.1,
     "performance": null,
-    "camera": 21.6,
-    "battery": 15.0,
+    "camera": 22.5,
+    "battery": 39.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.498196",
-  "updated_at": "2026-06-19T02:27:14.498196"
+  "created_at": "2026-06-24T08:53:58.306217",
+  "updated_at": "2026-06-24T08:53:58.306230"
 }

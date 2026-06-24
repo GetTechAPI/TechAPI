@@ -1,6 +1,7 @@
 {
-  "id": 26108,
+  "id": 58352,
   "slug": "samsung-sm-a5100-galaxy-a5-2016-duos-td-lte-cn",
+  "base_model_slug": null,
   "name": "Samsung SM-A5100 Galaxy A5 2016 Duos TD-LTE CN",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1889,
+    "id": 1577,
     "slug": "qualcomm-snapdragon-616-msm8939v2",
     "name": "Qualcomm Snapdragon 616 MSM8939V2",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 405",
     "url": "/v1/socs/qualcomm-snapdragon-616-msm8939v2"
   },
   "release_date": "2016-01-11",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.6,
+    "algorithm_version": "2.0.0",
+    "overall": 31.9,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 47.3,
-    "value": null
+    "battery": 14.0,
+    "display": 49.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=9466"
   ],
-  "created_at": "2026-06-19T09:44:30.161933",
-  "updated_at": "2026-06-19T09:44:30.161933"
+  "created_at": "2026-06-24T08:54:14.910803",
+  "updated_at": "2026-06-24T08:54:14.910817"
 }

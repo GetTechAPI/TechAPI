@@ -1,5 +1,5 @@
 {
-  "id": 1348,
+  "id": 1728,
   "slug": "snapdragon-480",
   "name": "Snapdragon 480",
   "manufacturer": {
@@ -24,11 +24,29 @@
   "gpu_clock_mhz": null,
   "npu_tops": null,
   "modem": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 36.6,
+    "cpu": {
+      "index": 39.5,
+      "percentile": 32.8,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 29.9,
+      "percentile": 31.0,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/alanjo/smartphone-processors-ranking"
   ],
-  "created_at": "2026-06-19T02:27:12.605852",
-  "updated_at": "2026-06-19T02:27:12.605852",
+  "created_at": "2026-06-24T08:53:43.913864",
+  "updated_at": "2026-06-24T08:53:43.913875",
   "url": "/v1/socs/snapdragon-480"
 }

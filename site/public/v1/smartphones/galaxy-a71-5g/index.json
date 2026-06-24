@@ -1,6 +1,7 @@
 {
-  "id": 12102,
+  "id": 60828,
   "slug": "galaxy-a71-5g",
+  "base_model_slug": null,
   "name": "Galaxy A71 5G",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1464,
+    "id": 1931,
     "slug": "exynos-980",
     "name": "Exynos 980",
     "manufacturer": {
@@ -30,6 +31,7 @@
     8,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "1080x2400",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.7,
-    "performance": 3.0,
-    "camera": 21.6,
-    "battery": 22.5,
+    "algorithm_version": "2.0.0",
+    "overall": 35.3,
+    "performance": 40.8,
+    "camera": 22.5,
+    "battery": 42.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 40.8,
+      "percentile": 52.7,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.840857",
-  "updated_at": "2026-06-19T02:27:15.840857"
+  "created_at": "2026-06-24T08:54:15.772630",
+  "updated_at": "2026-06-24T08:54:15.772642"
 }

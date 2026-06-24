@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 10.07,
   "blender_score": 2279.51,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 73.2,
+    "graphics": {
+      "index": 73.2,
+      "percentile": 80.7,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-2080.c3243",

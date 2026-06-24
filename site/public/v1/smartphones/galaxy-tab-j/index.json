@@ -1,6 +1,7 @@
 {
-  "id": 11603,
+  "id": 58340,
   "slug": "galaxy-tab-j",
+  "base_model_slug": null,
   "name": "Galaxy Tab J",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1535,
+    "id": 2059,
     "slug": "spreadtrum-sc8830",
     "name": "Spreadtrum SC8830",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "800x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 15.0,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.774319",
-  "updated_at": "2026-06-19T02:27:15.774319"
+  "created_at": "2026-06-24T08:54:14.905224",
+  "updated_at": "2026-06-24T08:54:14.905236"
 }

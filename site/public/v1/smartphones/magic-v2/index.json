@@ -1,6 +1,7 @@
 {
-  "id": 3052,
+  "id": 14195,
   "slug": "magic-v2",
+  "base_model_slug": null,
   "name": "Magic V2",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 1361,
+    "id": 1748,
     "slug": "snapdragon-8-gen-2",
     "name": "Snapdragon 8 Gen 2",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": 1899,
   "ram_gb": 12,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 7.92,
     "resolution": null,
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.9,
-    "performance": 36.7,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 49.5,
+    "performance": 74.5,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 16.4
+    "value": 24.8,
+    "perf": {
+      "index": 74.5,
+      "percentile": 71.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.347497",
-  "updated_at": "2026-06-19T02:27:14.347497"
+  "created_at": "2026-06-24T08:53:56.122159",
+  "updated_at": "2026-06-24T08:53:56.122173"
 }

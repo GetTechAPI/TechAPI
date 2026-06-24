@@ -1,6 +1,7 @@
 {
-  "id": 13092,
+  "id": 69016,
   "slug": "sony-xperia-z2",
+  "base_model_slug": null,
   "name": "Sony Xperia Z2",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1208,
+    "id": 1545,
     "slug": "snapdragon-801",
     "name": "Snapdragon 801",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1920x1080",
@@ -71,19 +73,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/sony-xperia-z2.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 5.9,
-    "performance": 0.5,
-    "camera": 7.8,
-    "battery": 3.0,
-    "display": 12.4,
-    "value": 37.6
+    "algorithm_version": "2.0.0",
+    "overall": 20.2,
+    "performance": 37.3,
+    "camera": 9.0,
+    "battery": 17.9,
+    "display": 16.8,
+    "value": 42.2,
+    "perf": {
+      "index": 37.3,
+      "percentile": 43.3,
+      "tier": "C",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Sony_Xperia_Z2",
     "https://www.sony.com/electronics/mobile-phones/xperia-z2"
   ],
-  "created_at": "2026-06-19T02:27:16.070050",
-  "updated_at": "2026-06-19T02:27:16.070050"
+  "created_at": "2026-06-24T08:54:19.600584",
+  "updated_at": "2026-06-24T08:54:19.600597"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15883,
+  "id": 85454,
   "slug": "redmi-note-12r",
+  "base_model_slug": null,
   "name": "Redmi Note 12R",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1363,
+    "id": 1762,
     "slug": "snapdragon-4-gen-2",
     "name": "Snapdragon 4 Gen 2",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.79,
     "resolution": "1080x2460",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.4,
-    "performance": 3.0,
-    "camera": 17.2,
-    "battery": 45.6,
-    "display": 39.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.6,
+    "performance": 42.1,
+    "camera": 18.1,
+    "battery": 58.1,
+    "display": 40.0,
+    "value": null,
+    "perf": {
+      "index": 42.1,
+      "percentile": 35.2,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.473362",
-  "updated_at": "2026-06-19T02:27:16.473362"
+  "created_at": "2026-06-24T08:54:25.859424",
+  "updated_at": "2026-06-24T08:54:25.859437"
 }

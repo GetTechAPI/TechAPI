@@ -1,6 +1,7 @@
 {
-  "id": 4388,
+  "id": 22383,
   "slug": "gprime-extreme",
+  "base_model_slug": null,
   "name": "Gprime Extreme",
   "brand": {
     "id": 162,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/icemobile"
   },
   "soc": {
-    "id": 859,
+    "id": 1038,
     "slug": "mediatek-mt6589",
     "name": "Mediatek MT6589",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "720x1280",
@@ -57,18 +59,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 3.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 1.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.534290",
-  "updated_at": "2026-06-19T02:27:14.534290"
+  "created_at": "2026-06-24T08:53:59.285885",
+  "updated_at": "2026-06-24T08:53:59.285898"
 }

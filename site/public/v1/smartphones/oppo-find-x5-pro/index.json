@@ -1,6 +1,7 @@
 {
-  "id": 9420,
+  "id": 48462,
   "slug": "oppo-find-x5-pro",
+  "base_model_slug": null,
   "name": "OPPO Find X5 Pro",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "3216x1440",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oppo-find-x5-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 47.7,
-    "performance": 13.9,
-    "camera": 35.1,
-    "battery": 67.4,
-    "display": 74.5,
-    "value": 37.4
+    "algorithm_version": "2.0.0",
+    "overall": 62.5,
+    "performance": 63.0,
+    "camera": 36.1,
+    "battery": 78.9,
+    "display": 71.8,
+    "value": 43.8,
+    "perf": {
+      "index": 63.0,
+      "percentile": 80.0,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.oppo.com/en/smartphones/series-find-x/find-x5-pro/specs/",
     "https://en.wikipedia.org/wiki/Oppo_Find_X5_Pro"
   ],
-  "created_at": "2026-06-19T02:27:15.395767",
-  "updated_at": "2026-06-19T02:27:15.395767"
+  "created_at": "2026-06-24T08:54:10.639143",
+  "updated_at": "2026-06-24T08:54:10.639156"
 }

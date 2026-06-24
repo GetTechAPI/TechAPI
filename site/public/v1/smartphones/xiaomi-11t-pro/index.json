@@ -1,6 +1,7 @@
 {
-  "id": 15768,
+  "id": 83025,
   "slug": "xiaomi-11t-pro",
+  "base_model_slug": null,
   "name": "Xiaomi 11T Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2400x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-11t-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 38.2,
-    "performance": 9.4,
-    "camera": 45.7,
-    "battery": 60.0,
-    "display": 37.7,
-    "value": 55.7
+    "algorithm_version": "2.0.0",
+    "overall": 55.1,
+    "performance": 60.0,
+    "camera": 46.3,
+    "battery": 73.8,
+    "display": 40.5,
+    "value": 61.5,
+    "perf": {
+      "index": 60.0,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/xiaomi-11t-pro",
     "https://en.wikipedia.org/wiki/Xiaomi_11T_series"
   ],
-  "created_at": "2026-06-19T02:27:16.458852",
-  "updated_at": "2026-06-19T02:27:16.458852"
+  "created_at": "2026-06-24T08:54:24.991974",
+  "updated_at": "2026-06-24T08:54:24.991986"
 }

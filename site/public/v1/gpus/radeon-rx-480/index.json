@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 5.834,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 49.7,
+    "graphics": {
+      "index": 49.7,
+      "percentile": 40.5,
+      "tier": "C",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_400_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-480.c2848",

@@ -1,6 +1,7 @@
 {
-  "id": 15904,
+  "id": 85913,
   "slug": "xiaomi-14t-pro",
+  "base_model_slug": null,
   "name": "Xiaomi 14T Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1061,
+    "id": 1287,
     "slug": "dimensity-9300-plus",
     "name": "MediaTek Dimensity 9300+",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2712x1220",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-14t-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 63.2,
-    "performance": 58.1,
-    "camera": 35.1,
-    "battery": 75.0,
-    "display": 84.6,
-    "value": 62.4
+    "algorithm_version": "2.0.0",
+    "overall": 70.9,
+    "performance": 82.0,
+    "camera": 36.1,
+    "battery": 85.8,
+    "display": 79.8,
+    "value": 64.1,
+    "perf": {
+      "index": 82.0,
+      "percentile": 82.2,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_14T",
     "https://www.mi.com/global/product/xiaomi-14t-pro/specs"
   ],
-  "created_at": "2026-06-19T02:27:16.476362",
-  "updated_at": "2026-06-19T02:27:16.476362"
+  "created_at": "2026-06-24T08:54:26.043297",
+  "updated_at": "2026-06-24T08:54:26.043310"
 }

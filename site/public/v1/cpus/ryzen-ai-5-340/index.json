@@ -24,6 +24,24 @@
   "integrated_graphics": "AMD Radeon 840M (RDNA 3.5, 4CU)",
   "memory_support": "LPDDR5X-7500 / DDR5-5600",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 60.8,
+    "single": {
+      "index": 86.6,
+      "percentile": 36.9,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 39.6,
+      "percentile": 13.8,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-ryzen-ai-5-340",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Ryzen-AI-5-340",
     "https://www.topcpu.net/en/cpu-r/"
   ],
-  "created_at": "2026-06-19T02:27:18.150033",
-  "updated_at": "2026-06-19T02:27:18.150033",
+  "created_at": "2026-06-24T08:54:40.917363",
+  "updated_at": "2026-06-24T08:54:40.917374",
   "url": "/v1/cpus/ryzen-ai-5-340"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 2902,
+  "id": 13497,
   "slug": "10i",
+  "base_model_slug": null,
   "name": "10i",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 696,
+    "id": 804,
     "slug": "hisilicon-kirin-710",
     "name": "Hisilicon Kirin 710",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.21,
     "resolution": "1080x2340",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.4,
+    "algorithm_version": "2.0.0",
+    "overall": 16.6,
     "performance": null,
-    "camera": 8.8,
-    "battery": 6.0,
+    "camera": 10.0,
+    "battery": 23.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.325457",
-  "updated_at": "2026-06-19T02:27:14.325457"
+  "created_at": "2026-06-24T08:53:55.858637",
+  "updated_at": "2026-06-24T08:53:55.858651"
 }

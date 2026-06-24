@@ -1,6 +1,7 @@
 {
-  "id": 9418,
+  "id": 48370,
   "slug": "k10",
+  "base_model_slug": null,
   "name": "K10",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1045,
+    "id": 1245,
     "slug": "dimensity-8000",
     "name": "Dimensity 8000",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.59,
     "resolution": "1080x2412",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 41.3,
+    "algorithm_version": "2.0.0",
+    "overall": 45.8,
     "performance": null,
-    "camera": 21.5,
-    "battery": 49.9,
-    "display": 52.6,
-    "value": null
+    "camera": 22.4,
+    "battery": 64.5,
+    "display": 50.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2022-2023",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.394755",
-  "updated_at": "2026-06-19T02:27:15.394755"
+  "created_at": "2026-06-24T08:54:10.596735",
+  "updated_at": "2026-06-24T08:54:10.596746"
 }

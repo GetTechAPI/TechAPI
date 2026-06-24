@@ -1,6 +1,7 @@
 {
-  "id": 8517,
+  "id": 42918,
   "slug": "nord-2-5g-top-edition-global-dual-sim-td-lte-256gb-dn2103",
+  "base_model_slug": null,
   "name": "Nord 2 5G Top Edition Global Dual SIM TD-LTE 256GB DN2103",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1035,
+    "id": 1228,
     "slug": "dimensity-1200",
     "name": "MediaTek Dimensity 1200",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.5,
-    "performance": 6.9,
-    "camera": 17.2,
-    "battery": 37.0,
-    "display": 40.9,
-    "value": 53.5
+    "algorithm_version": "2.0.0",
+    "overall": 43.4,
+    "performance": 57.1,
+    "camera": 18.2,
+    "battery": 57.1,
+    "display": 41.1,
+    "value": 59.6,
+    "perf": {
+      "index": 57.1,
+      "percentile": 78.1,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.261554",
-  "updated_at": "2026-06-19T02:27:15.261554"
+  "created_at": "2026-06-24T08:54:08.073391",
+  "updated_at": "2026-06-24T08:54:08.073404"
 }

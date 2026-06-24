@@ -1,5 +1,5 @@
 {
-  "id": 708,
+  "id": 841,
   "slug": "kirin-810",
   "name": "Kirin 810",
   "manufacturer": {
@@ -24,11 +24,29 @@
   "gpu_clock_mhz": null,
   "npu_tops": null,
   "modem": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 42.1,
+    "cpu": {
+      "index": 44.1,
+      "percentile": 56.4,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 37.4,
+      "percentile": 61.8,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/alanjo/smartphone-processors-ranking"
   ],
-  "created_at": "2026-06-19T02:27:12.566338",
-  "updated_at": "2026-06-19T02:27:12.566338",
+  "created_at": "2026-06-24T08:53:43.755212",
+  "updated_at": "2026-06-24T08:53:43.755223",
   "url": "/v1/socs/kirin-810"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 7349,
+  "id": 35932,
   "slug": "moto-g9-power-2020-global-dual-sim-td-lte-128gb-xt2091-3",
+  "base_model_slug": null,
   "name": "Moto G9 Power 2020 Global Dual SIM TD-LTE 128GB XT2091-3",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1338,
+    "id": 1707,
     "slug": "snapdragon-662",
     "name": "Snapdragon 662",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.8,
     "resolution": "720x1640",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.6,
-    "performance": 0.0,
-    "camera": 21.5,
-    "battery": 46.0,
-    "display": 35.0,
-    "value": 62.8
+    "algorithm_version": "2.0.0",
+    "overall": 34.0,
+    "performance": 23.6,
+    "camera": 22.4,
+    "battery": 53.9,
+    "display": 36.1,
+    "value": 67.0,
+    "perf": {
+      "index": 23.6,
+      "percentile": 20.9,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.052837",
-  "updated_at": "2026-06-19T02:27:15.052837"
+  "created_at": "2026-06-24T08:54:05.301185",
+  "updated_at": "2026-06-24T08:54:05.301198"
 }

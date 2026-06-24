@@ -1,6 +1,7 @@
 {
-  "id": 3941,
+  "id": 18750,
   "slug": "mate-x-global-dual-sim-5g-td-lte-512gb-tah-n29",
+  "base_model_slug": null,
   "name": "Mate X Global Dual SIM 5G TD-LTE 512GB TAH-N29",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 706,
+    "id": 839,
     "slug": "kirin-980",
     "name": "Kirin 980",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.99,
     "resolution": "2480x2200",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 36.6,
-    "performance": 56.0,
-    "camera": 13.9,
-    "battery": 30.1,
-    "display": 46.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 48.2,
+    "performance": 75.3,
+    "camera": 15.0,
+    "battery": 53.3,
+    "display": 49.1,
+    "value": null,
+    "perf": {
+      "index": 75.3,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.471729",
-  "updated_at": "2026-06-19T02:27:14.471729"
+  "created_at": "2026-06-24T08:53:57.912014",
+  "updated_at": "2026-06-24T08:53:57.912027"
 }

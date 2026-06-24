@@ -1,6 +1,7 @@
 {
-  "id": 10320,
+  "id": 52732,
   "slug": "realme-c15-2020-premium-edition",
+  "base_model_slug": null,
   "name": "Realme C15 2020 Premium Edition",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1004,
+    "id": 1192,
     "slug": "helio-g35",
     "name": "Helio G35",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.5,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 45.6,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 27.4,
+    "performance": 14.8,
+    "camera": 6.6,
+    "battery": 51.4,
+    "display": 36.7,
+    "value": null,
+    "perf": {
+      "index": 14.8,
+      "percentile": 13.0,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.545937",
-  "updated_at": "2026-06-19T02:27:15.545937"
+  "created_at": "2026-06-24T08:54:12.434279",
+  "updated_at": "2026-06-24T08:54:12.434295"
 }

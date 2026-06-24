@@ -1,6 +1,7 @@
 {
-  "id": 10047,
+  "id": 51779,
   "slug": "m5",
+  "base_model_slug": null,
   "name": "M5",
   "brand": {
     "id": 38,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/poco"
   },
   "soc": {
-    "id": 1052,
+    "id": 1252,
     "slug": "helio-g99",
     "name": "MediaTek Helio G99",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.4,
-    "performance": 0.0,
-    "camera": 17.1,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 37.5,
+    "performance": 42.7,
+    "camera": 18.1,
+    "battery": 51.7,
     "display": null,
-    "value": 58.7
+    "value": 68.8,
+    "perf": {
+      "index": 42.7,
+      "percentile": 35.8,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.506888",
-  "updated_at": "2026-06-19T02:27:15.506888"
+  "created_at": "2026-06-24T08:54:12.031037",
+  "updated_at": "2026-06-24T08:54:12.031050"
 }

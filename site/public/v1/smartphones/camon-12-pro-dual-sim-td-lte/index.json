@@ -1,6 +1,7 @@
 {
-  "id": 13757,
+  "id": 72311,
   "slug": "camon-12-pro-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "Camon 12 Pro Dual SIM TD-LTE",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 974,
+    "id": 1162,
     "slug": "mediatek-helio-p22-mt6762",
     "name": "MediaTek Helio P22 MT6762",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.3,
+    "algorithm_version": "2.0.0",
+    "overall": 22.6,
     "performance": null,
-    "camera": 6.3,
-    "battery": 7.5,
-    "display": 35.0,
-    "value": null
+    "camera": 7.5,
+    "battery": 24.2,
+    "display": 36.1,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.176133",
-  "updated_at": "2026-06-19T02:27:16.176133"
+  "created_at": "2026-06-24T08:54:20.945720",
+  "updated_at": "2026-06-24T08:54:20.945734"
 }

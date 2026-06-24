@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 8-channel ECC",
   "msrp_usd": 2445,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 58.3,
+    "single": {
+      "index": 58.8,
+      "percentile": 35.8,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 57.9,
+      "percentile": 75.8,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=xeon-gold-6354",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Gold+6354"
   ],
-  "created_at": "2026-06-19T02:27:18.383844",
-  "updated_at": "2026-06-19T02:27:18.383844",
+  "created_at": "2026-06-24T08:54:41.377631",
+  "updated_at": "2026-06-24T08:54:41.377642",
   "url": "/v1/cpus/xeon-gold-6354"
 }

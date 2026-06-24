@@ -1,6 +1,7 @@
 {
-  "id": 9419,
+  "id": 48384,
   "slug": "k10x",
+  "base_model_slug": null,
   "name": "K10x",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.59,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.9,
-    "performance": 3.0,
-    "camera": 21.6,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 39.5,
+    "performance": 44.4,
+    "camera": 22.5,
+    "battery": 51.7,
     "display": null,
-    "value": 60.0
+    "value": 69.8,
+    "perf": {
+      "index": 44.4,
+      "percentile": 46.4,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.395767",
-  "updated_at": "2026-06-19T02:27:15.395767"
+  "created_at": "2026-06-24T08:54:10.601337",
+  "updated_at": "2026-06-24T08:54:10.601353"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15802,
+  "id": 83947,
   "slug": "redmi-10",
+  "base_model_slug": null,
   "name": "Redmi 10",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 998,
+    "id": 1186,
     "slug": "dimensity-700",
     "name": "Dimensity 700",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": "1080x2048",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.1,
-    "performance": 1.5,
-    "camera": 17.2,
-    "battery": 30.6,
-    "display": 35.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.5,
+    "performance": 35.9,
+    "camera": 18.2,
+    "battery": 51.8,
+    "display": 36.2,
+    "value": null,
+    "perf": {
+      "index": 35.9,
+      "percentile": 21.3,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.464361",
-  "updated_at": "2026-06-19T02:27:16.464361"
+  "created_at": "2026-06-24T08:54:25.323069",
+  "updated_at": "2026-06-24T08:54:25.323082"
 }

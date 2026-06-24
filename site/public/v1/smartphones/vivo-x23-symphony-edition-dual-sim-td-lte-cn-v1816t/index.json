@@ -1,6 +1,7 @@
 {
-  "id": 14225,
+  "id": 74383,
   "slug": "vivo-x23-symphony-edition-dual-sim-td-lte-cn-v1816t",
+  "base_model_slug": null,
   "name": "Vivo X23 Symphony Edition Dual SIM TD-LTE CN V1816T",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.41,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.3,
-    "performance": 19.5,
-    "camera": 5.1,
-    "battery": 7.5,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.6,
+    "performance": 56.2,
+    "camera": 6.3,
+    "battery": 20.0,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 56.2,
+      "percentile": 81.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.247685",
-  "updated_at": "2026-06-19T02:27:16.247685"
+  "created_at": "2026-06-24T08:54:21.776722",
+  "updated_at": "2026-06-24T08:54:21.776736"
 }

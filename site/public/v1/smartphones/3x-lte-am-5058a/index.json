@@ -1,6 +1,7 @@
 {
-  "id": 512,
+  "id": 2042,
   "slug": "3x-lte-am-5058a",
+  "base_model_slug": null,
   "name": "3x LTE AM 5058A",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 982,
+    "id": 1170,
     "slug": "mediatek-mt6739",
     "name": "Mediatek MT6739",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.4,
+    "algorithm_version": "2.0.0",
+    "overall": 19.7,
     "performance": null,
-    "camera": 5.2,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.5,
+    "battery": 15.0,
+    "display": 37.7,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.898667",
-  "updated_at": "2026-06-19T02:27:13.898667"
+  "created_at": "2026-06-24T08:53:50.933768",
+  "updated_at": "2026-06-24T08:53:50.933782"
 }

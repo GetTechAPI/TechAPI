@@ -1,6 +1,7 @@
 {
-  "id": 15754,
+  "id": 82961,
   "slug": "redmi-note-11",
+  "base_model_slug": null,
   "name": "Redmi Note 11",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1041,
+    "id": 1234,
     "slug": "helio-g88",
     "name": "MediaTek Helio G88",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.8,
-    "performance": 3.0,
-    "camera": 17.2,
-    "battery": 30.6,
-    "display": 40.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.8,
+    "performance": 30.8,
+    "camera": 18.2,
+    "battery": 41.4,
+    "display": 40.8,
+    "value": null,
+    "perf": {
+      "index": 30.8,
+      "percentile": 28.4,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.457852",
-  "updated_at": "2026-06-19T02:27:16.457852"
+  "created_at": "2026-06-24T08:54:24.970451",
+  "updated_at": "2026-06-24T08:54:24.970463"
 }

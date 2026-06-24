@@ -1,6 +1,7 @@
 {
-  "id": 7319,
+  "id": 35768,
   "slug": "moto-g-power-2020-td-lte-us-64gb-xt2041-7-g8-power",
+  "base_model_slug": null,
   "name": "Moto G Power 2020 TD-LTE US 64GB XT2041-7 / G8 Power",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2300",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.2,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 30.0,
-    "display": 44.7,
-    "value": 60.1
+    "algorithm_version": "2.0.0",
+    "overall": 30.0,
+    "performance": 22.8,
+    "camera": 7.5,
+    "battery": 42.1,
+    "display": 47.6,
+    "value": 63.2,
+    "perf": {
+      "index": 22.8,
+      "percentile": 18.5,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.048838",
-  "updated_at": "2026-06-19T02:27:15.048838"
+  "created_at": "2026-06-24T08:54:05.245321",
+  "updated_at": "2026-06-24T08:54:05.245334"
 }

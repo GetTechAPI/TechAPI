@@ -1,6 +1,7 @@
 {
-  "id": 13762,
+  "id": 72334,
   "slug": "phantom-9-dual-sim-td-lte-128gb-ab7",
+  "base_model_slug": null,
   "name": "Phantom 9 Dual SIM TD-LTE 128GB AB7",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.39,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.1,
-    "performance": 1.5,
-    "camera": 6.3,
-    "battery": 7.5,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 22.6,
+    "performance": 10.4,
+    "camera": 7.5,
+    "battery": 24.2,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 10.4,
+      "percentile": 6.7,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.177134",
-  "updated_at": "2026-06-19T02:27:16.177134"
+  "created_at": "2026-06-24T08:54:20.954112",
+  "updated_at": "2026-06-24T08:54:20.954125"
 }

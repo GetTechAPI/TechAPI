@@ -1,6 +1,7 @@
 {
-  "id": 15722,
+  "id": 82674,
   "slug": "redmi-note-10-4g-premium-edition-dual-sim-td-lte-in-128gb-m2101k7ai",
+  "base_model_slug": null,
   "name": "Redmi Note 10 4G Premium Edition Dual SIM TD-LTE IN 128GB M2101K7AI",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1339,
+    "id": 1708,
     "slug": "snapdragon-678",
     "name": "Snapdragon 678",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.3,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 33.4,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.2,
+    "performance": 32.7,
+    "camera": 17.5,
+    "battery": 46.1,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 32.7,
+      "percentile": 30.4,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.453854",
-  "updated_at": "2026-06-19T02:27:16.453854"
+  "created_at": "2026-06-24T08:54:24.874039",
+  "updated_at": "2026-06-24T08:54:24.874052"
 }

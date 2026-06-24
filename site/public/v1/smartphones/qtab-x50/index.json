@@ -1,6 +1,7 @@
 {
-  "id": 10192,
+  "id": 52142,
   "slug": "qtab-x50",
+  "base_model_slug": null,
   "name": "QTab X50",
   "brand": {
     "id": 119,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/qmobile"
   },
   "soc": {
-    "id": 847,
+    "id": 1026,
     "slug": "mediatek-mt8389w",
     "name": "Mediatek MT8389W",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "768x1024",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
+    "algorithm_version": "2.0.0",
+    "overall": 17.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 22.5,
+    "battery": 30.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.526895",
-  "updated_at": "2026-06-19T02:27:15.526895"
+  "created_at": "2026-06-24T08:54:12.187333",
+  "updated_at": "2026-06-24T08:54:12.187346"
 }

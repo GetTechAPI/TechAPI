@@ -1,6 +1,7 @@
 {
-  "id": 13875,
+  "id": 72924,
   "slug": "excite-13-at335",
+  "base_model_slug": null,
   "name": "Excite 13 AT335",
   "brand": {
     "id": 108,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/toshiba"
   },
   "soc": {
-    "id": 1075,
+    "id": 1345,
     "slug": "nvidia-tegra-3",
     "name": "Nvidia Tegra 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 13.3,
     "resolution": "1600x900",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.196663",
-  "updated_at": "2026-06-19T02:27:16.196663"
+  "created_at": "2026-06-24T08:54:21.195687",
+  "updated_at": "2026-06-24T08:54:21.195700"
 }

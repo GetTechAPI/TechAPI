@@ -1,6 +1,7 @@
 {
-  "id": 15267,
+  "id": 80293,
   "slug": "mi-note-10-pro",
+  "base_model_slug": null,
   "name": "Mi Note 10 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1324,
+    "id": 1685,
     "slug": "snapdragon-730g",
     "name": "Snapdragon 730G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.47,
     "resolution": "1080x2340",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 30.1,
-    "performance": 3.0,
-    "camera": 35.8,
-    "battery": 36.7,
-    "display": 44.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 44.9,
+    "performance": 40.9,
+    "camera": 36.4,
+    "battery": 54.5,
+    "display": 47.7,
+    "value": null,
+    "perf": {
+      "index": 40.9,
+      "percentile": 51.8,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.393305",
-  "updated_at": "2026-06-19T02:27:16.393305"
+  "created_at": "2026-06-24T08:54:24.046332",
+  "updated_at": "2026-06-24T08:54:24.046346"
 }

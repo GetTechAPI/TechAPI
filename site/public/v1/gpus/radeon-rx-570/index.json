@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 5.095,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 48.0,
+    "graphics": {
+      "index": 48.0,
+      "percentile": 14.3,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_500_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-570.c2939",

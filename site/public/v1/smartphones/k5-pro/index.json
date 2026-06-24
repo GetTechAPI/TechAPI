@@ -1,6 +1,7 @@
 {
-  "id": 4984,
+  "id": 25666,
   "slug": "k5-pro",
+  "base_model_slug": null,
   "name": "K5 Pro",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1305,
+    "id": 1663,
     "slug": "qualcomm-sdm636-snapdragon-636",
     "name": "Qualcomm SDM636 Snapdragon 636",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.99,
     "resolution": "1080x2160",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.1,
+    "algorithm_version": "2.0.0",
+    "overall": 16.5,
     "performance": null,
-    "camera": 6.3,
-    "battery": 15.8,
+    "camera": 7.5,
+    "battery": 25.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.618869",
-  "updated_at": "2026-06-19T02:27:14.618869"
+  "created_at": "2026-06-24T08:54:00.577018",
+  "updated_at": "2026-06-24T08:54:00.577031"
 }

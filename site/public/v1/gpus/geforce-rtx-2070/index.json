@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 7.465,
   "blender_score": 2106.65,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 68.5,
+    "graphics": {
+      "index": 68.5,
+      "percentile": 71.7,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-2070.c3244",

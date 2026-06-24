@@ -1,6 +1,7 @@
 {
-  "id": 2777,
+  "id": 12816,
   "slug": "pixel-9-pro-fold",
+  "base_model_slug": null,
   "name": "Google Pixel 9 Pro Fold",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 672,
+    "id": 768,
     "slug": "tensor-g4",
     "name": "Google Tensor G4",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "2076x2152",
@@ -90,19 +92,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-9-pro-fold.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 44.6,
-    "performance": 26.1,
-    "camera": 39.5,
-    "battery": 49.7,
-    "display": 63.2,
-    "value": 22.3
+    "algorithm_version": "2.0.0",
+    "overall": 59.2,
+    "performance": 70.9,
+    "camera": 40.5,
+    "battery": 63.5,
+    "display": 62.1,
+    "value": 29.6,
+    "perf": {
+      "index": 70.9,
+      "percentile": 68.9,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_9_pro_fold_specs",
     "https://en.wikipedia.org/wiki/Pixel_9"
   ],
-  "created_at": "2026-06-19T02:27:14.252668",
-  "updated_at": "2026-06-19T02:27:14.252668"
+  "created_at": "2026-06-24T08:53:55.176883",
+  "updated_at": "2026-06-24T08:53:55.176895"
 }

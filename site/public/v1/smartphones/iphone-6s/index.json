@@ -1,6 +1,7 @@
 {
-  "id": 825,
+  "id": 3504,
   "slug": "iphone-6s",
+  "base_model_slug": null,
   "name": "iPhone 6s",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 10,
+    "id": 18,
     "slug": "apple-a9",
     "name": "Apple A9",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "1334x750",
@@ -73,19 +75,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-6s.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 1.9,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 0.0,
-    "display": 2.6,
-    "value": 37.6
+    "algorithm_version": "2.0.0",
+    "overall": 11.8,
+    "performance": 31.0,
+    "camera": 6.3,
+    "battery": 2.2,
+    "display": 7.8,
+    "value": 39.9,
+    "perf": {
+      "index": 31.0,
+      "percentile": 20.9,
+      "tier": "D",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/IPhone_6s",
     "https://support.apple.com/iphone-6s"
   ],
-  "created_at": "2026-06-19T02:27:13.942594",
-  "updated_at": "2026-06-19T02:27:13.942594"
+  "created_at": "2026-06-24T08:53:51.486245",
+  "updated_at": "2026-06-24T08:53:51.486278"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1109,
+  "id": 5485,
   "slug": "iphone-se",
+  "base_model_slug": null,
   "name": "iPhone SE",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 25,
+    "id": 38,
     "slug": "apple-a15-bionic",
     "name": "Apple A15 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "750x1334",
@@ -66,18 +68,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.3,
-    "performance": 33.1,
-    "camera": 5.1,
-    "battery": 11.0,
-    "display": 20.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 31.6,
+    "performance": 69.8,
+    "camera": 6.3,
+    "battery": 26.5,
+    "display": 23.9,
+    "value": null,
+    "perf": {
+      "index": 69.8,
+      "percentile": 87.9,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.981655",
-  "updated_at": "2026-06-19T02:27:13.981655"
+  "created_at": "2026-06-24T08:53:52.172110",
+  "updated_at": "2026-06-24T08:53:52.172123"
 }

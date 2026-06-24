@@ -1,6 +1,7 @@
 {
-  "id": 919,
+  "id": 3942,
   "slug": "iphone-11-pro-a2217-dual-sim-td-lte-cn-256gb",
+  "base_model_slug": null,
   "name": "iPhone 11 Pro A2217 Dual SIM TD-LTE CN 256GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 21,
+    "id": 32,
     "slug": "apple-a13-bionic",
     "name": "Apple A13 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.79,
     "resolution": "1125x2436",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.2,
-    "performance": 16.7,
-    "camera": 5.1,
-    "battery": 1.3,
-    "display": 33.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 34.2,
+    "performance": 62.5,
+    "camera": 6.3,
+    "battery": 32.3,
+    "display": 35.8,
+    "value": null,
+    "perf": {
+      "index": 62.5,
+      "percentile": 95.7,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.955602",
-  "updated_at": "2026-06-19T02:27:13.955602"
+  "created_at": "2026-06-24T08:53:51.637898",
+  "updated_at": "2026-06-24T08:53:51.637910"
 }

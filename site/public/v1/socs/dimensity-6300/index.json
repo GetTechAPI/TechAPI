@@ -1,5 +1,5 @@
 {
-  "id": 1058,
+  "id": 1284,
   "slug": "dimensity-6300",
   "name": "MediaTek Dimensity 6300",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 950,
   "npu_tops": null,
   "modem": "MediaTek M60 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 47.1,
+    "cpu": {
+      "index": 49.3,
+      "percentile": 3.1,
+      "tier": "F",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 41.9,
+      "percentile": 3.1,
+      "tier": "F",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.mediatek.com/products/smartphones-2/dimensity-6300",
     "https://en.wikipedia.org/wiki/MediaTek_Dimensity_6300"
   ],
-  "created_at": "2026-06-19T02:27:12.587337",
-  "updated_at": "2026-06-19T02:27:12.587337",
+  "created_at": "2026-06-24T08:53:43.850830",
+  "updated_at": "2026-06-24T08:53:43.850841",
   "url": "/v1/socs/dimensity-6300"
 }

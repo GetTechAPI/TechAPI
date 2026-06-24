@@ -1,6 +1,7 @@
 {
-  "id": 15338,
+  "id": 80552,
   "slug": "redmi-k30-standard-edition",
+  "base_model_slug": null,
   "name": "Redmi K30 Standard Edition",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1324,
+    "id": 1685,
     "slug": "snapdragon-730g",
     "name": "Snapdragon 730G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.0,
-    "performance": 1.5,
-    "camera": 21.7,
-    "battery": 24.8,
-    "display": 52.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.6,
+    "performance": 39.5,
+    "camera": 22.6,
+    "battery": 46.3,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": 39.5,
+      "percentile": 47.7,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.404817",
-  "updated_at": "2026-06-19T02:27:16.404817"
+  "created_at": "2026-06-24T08:54:24.135600",
+  "updated_at": "2026-06-24T08:54:24.135612"
 }

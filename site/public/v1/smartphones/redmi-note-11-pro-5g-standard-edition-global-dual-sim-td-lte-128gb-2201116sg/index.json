@@ -1,6 +1,7 @@
 {
-  "id": 15838,
+  "id": 84311,
   "slug": "redmi-note-11-pro-5g-standard-edition-global-dual-sim-td-lte-128gb-2201116sg",
+  "base_model_slug": null,
   "name": "Redmi Note 11 Pro 5G Standard Edition Global Dual SIM TD-LTE 128GB 2201116SG",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.5,
-    "performance": 1.5,
-    "camera": 35.7,
-    "battery": 44.9,
-    "display": 52.0,
-    "value": 64.8
+    "algorithm_version": "2.0.0",
+    "overall": 47.9,
+    "performance": 43.0,
+    "camera": 36.3,
+    "battery": 62.5,
+    "display": 49.9,
+    "value": 68.7,
+    "perf": {
+      "index": 43.0,
+      "percentile": 37.7,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.468362",
-  "updated_at": "2026-06-19T02:27:16.468362"
+  "created_at": "2026-06-24T08:54:25.444678",
+  "updated_at": "2026-06-24T08:54:25.444690"
 }

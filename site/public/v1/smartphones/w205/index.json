@@ -1,6 +1,7 @@
 {
-  "id": 6833,
+  "id": 33462,
   "slug": "w205",
+  "base_model_slug": null,
   "name": "W205",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 255,
+    "id": 306,
     "slug": "motorola-mobile-platform-2007",
     "name": "Motorola mobile platform 2007",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "128x128",
     "type": "CSTN, 65K colors"
@@ -43,18 +45,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.905013",
-  "updated_at": "2026-06-19T02:27:14.905013"
+  "created_at": "2026-06-24T08:54:04.343690",
+  "updated_at": "2026-06-24T08:54:04.343703"
 }

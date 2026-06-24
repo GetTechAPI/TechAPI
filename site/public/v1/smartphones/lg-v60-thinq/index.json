@@ -1,6 +1,7 @@
 {
-  "id": 5977,
+  "id": 30038,
   "slug": "lg-v60-thinq",
+  "base_model_slug": null,
   "name": "LG V60 ThinQ 5G",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.8,
     "resolution": "2460x1080",
@@ -77,19 +79,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-v60-thinq.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.2,
-    "performance": 3.0,
-    "camera": 34.6,
-    "battery": 33.7,
-    "display": 9.5,
-    "value": 35.1
+    "algorithm_version": "2.0.0",
+    "overall": 39.2,
+    "performance": 52.5,
+    "camera": 35.5,
+    "battery": 54.9,
+    "display": 14.1,
+    "value": 42.8,
+    "perf": {
+      "index": 52.5,
+      "percentile": 66.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/LG_V60_ThinQ",
     "https://www.lg.com/global/mobile-phones/lg-v60-thinq-5g"
   ],
-  "created_at": "2026-06-19T02:27:14.769041",
-  "updated_at": "2026-06-19T02:27:14.769041"
+  "created_at": "2026-06-24T08:54:02.908599",
+  "updated_at": "2026-06-24T08:54:02.908611"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 11868,
+  "id": 59712,
   "slug": "galaxy-tab-a-10-1-2019",
+  "base_model_slug": null,
   "name": "Galaxy Tab A 10.1 (2019)",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1460,
+    "id": 1927,
     "slug": "exynos-7904",
     "name": "Exynos 7904",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "1200x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.7,
-    "performance": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 21.7,
+    "performance": 15.1,
     "camera": 5.0,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 15.1,
+      "percentile": 10.4,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.810835",
-  "updated_at": "2026-06-19T02:27:15.810835"
+  "created_at": "2026-06-24T08:54:15.399170",
+  "updated_at": "2026-06-24T08:54:15.399183"
 }

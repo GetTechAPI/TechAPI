@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 12.29,
   "blender_score": 1876.1,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 72.7,
+    "graphics": {
+      "index": 72.7,
+      "percentile": 30.7,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.intel.com/content/www/us/en/products/sku/232196/intel-arc-a580-graphics-8gb/specifications.html",
     "https://www.techpowerup.com/gpu-specs/intel-arc-a580.c3953",

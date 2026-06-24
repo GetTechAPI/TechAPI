@@ -1,6 +1,7 @@
 {
-  "id": 16403,
+  "id": 88376,
   "slug": "blade-a7-2019-dual-sim-td-lte-cn-32gb-a7000",
+  "base_model_slug": null,
   "name": "Blade A7 2019 Dual SIM TD-LTE CN 32GB A7000",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 946,
+    "id": 1133,
     "slug": "mediatek-helio-p60-mt6771",
     "name": "MediaTek Helio P60 MT6771",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "720x1560",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
+    "algorithm_version": "2.0.0",
+    "overall": 16.5,
     "performance": null,
-    "camera": 6.4,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "camera": 7.6,
+    "battery": 4.2,
+    "display": 37.7,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.549799",
-  "updated_at": "2026-06-19T02:27:16.549799"
+  "created_at": "2026-06-24T08:54:27.046110",
+  "updated_at": "2026-06-24T08:54:27.046122"
 }

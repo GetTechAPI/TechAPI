@@ -1,6 +1,7 @@
 {
-  "id": 5034,
+  "id": 25839,
   "slug": "z6-youth",
+  "base_model_slug": null,
   "name": "Z6 Youth",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1308,
+    "id": 1666,
     "slug": "qualcomm-sdm710-snapdragon-710",
     "name": "Qualcomm SDM710 Snapdragon 710",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.1,
+    "algorithm_version": "2.0.0",
+    "overall": 20.6,
     "performance": null,
-    "camera": 6.3,
-    "battery": 15.8,
+    "camera": 7.5,
+    "battery": 33.8,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.624869",
-  "updated_at": "2026-06-19T02:27:14.624869"
+  "created_at": "2026-06-24T08:54:00.640234",
+  "updated_at": "2026-06-24T08:54:00.640246"
 }

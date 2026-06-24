@@ -1,6 +1,7 @@
 {
-  "id": 16364,
+  "id": 88215,
   "slug": "nubia-v18",
+  "base_model_slug": null,
   "name": "nubia V18",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1272,
+    "id": 1629,
     "slug": "qualcomm-msm8953-snapdragon-625",
     "name": "Qualcomm MSM8953 Snapdragon 625",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.01,
     "resolution": "1080x2160",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.2,
+    "algorithm_version": "2.0.0",
+    "overall": 15.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 15.0,
+    "camera": 6.6,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.542803",
-  "updated_at": "2026-06-19T02:27:16.542803"
+  "created_at": "2026-06-24T08:54:26.989226",
+  "updated_at": "2026-06-24T08:54:26.989239"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 1368,
+  "id": 1778,
   "slug": "snapdragon-6-gen-3",
   "name": "Snapdragon 6 Gen 3",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 900,
   "npu_tops": 15.0,
   "modem": "Snapdragon X62 5G",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 60.8,
+    "cpu": {
+      "index": 61.8,
+      "percentile": 15.6,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 58.5,
+      "percentile": 15.6,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-6-gen-3-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_6_Gen_3"
   ],
-  "created_at": "2026-06-19T02:27:12.606845",
-  "updated_at": "2026-06-19T02:27:12.606845",
+  "created_at": "2026-06-24T08:53:43.920727",
+  "updated_at": "2026-06-24T08:53:43.920738",
   "url": "/v1/socs/snapdragon-6-gen-3"
 }

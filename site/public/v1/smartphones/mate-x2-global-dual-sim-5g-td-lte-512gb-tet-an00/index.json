@@ -1,6 +1,7 @@
 {
-  "id": 4235,
+  "id": 20560,
   "slug": "mate-x2-global-dual-sim-5g-td-lte-512gb-tet-an00",
+  "base_model_slug": null,
   "name": "Mate X2 Global Dual SIM 5G TD-LTE 512GB TET-AN00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 713,
+    "id": 846,
     "slug": "kirin-9000",
     "name": "HiSilicon Kirin 9000",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.99,
     "resolution": "2480x2200",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.1,
-    "performance": 5.6,
-    "camera": 17.2,
-    "battery": 40.1,
-    "display": 41.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 43.4,
+    "performance": 56.1,
+    "camera": 18.2,
+    "battery": 57.5,
+    "display": 41.6,
+    "value": null,
+    "perf": {
+      "index": 56.1,
+      "percentile": 74.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.509196",
-  "updated_at": "2026-06-19T02:27:14.509196"
+  "created_at": "2026-06-24T08:53:58.554958",
+  "updated_at": "2026-06-24T08:53:58.554970"
 }

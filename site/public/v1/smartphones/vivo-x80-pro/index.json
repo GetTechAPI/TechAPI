@@ -1,6 +1,7 @@
 {
-  "id": 14754,
+  "id": 76810,
   "slug": "vivo-x80-pro",
+  "base_model_slug": null,
   "name": "vivo X80 Pro",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "3200x1440",
@@ -92,19 +94,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x80-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 44.9,
-    "performance": 13.9,
-    "camera": 40.1,
-    "battery": 62.9,
-    "display": 62.6,
-    "value": 41.7
+    "algorithm_version": "2.0.0",
+    "overall": 60.4,
+    "performance": 63.0,
+    "camera": 41.1,
+    "battery": 75.9,
+    "display": 61.7,
+    "value": 48.1,
+    "perf": {
+      "index": 63.0,
+      "percentile": 80.0,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.vivo.com/en/products/x80pro",
     "https://en.wikipedia.org/wiki/Vivo_X80_Pro"
   ],
-  "created_at": "2026-06-19T02:27:16.317695",
-  "updated_at": "2026-06-19T02:27:16.317695"
+  "created_at": "2026-06-24T08:54:22.722518",
+  "updated_at": "2026-06-24T08:54:22.722530"
 }

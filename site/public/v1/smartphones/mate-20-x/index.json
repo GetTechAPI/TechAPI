@@ -1,6 +1,7 @@
 {
-  "id": 3729,
+  "id": 17808,
   "slug": "mate-20-x",
+  "base_model_slug": null,
   "name": "Mate 20 X",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 692,
+    "id": 800,
     "slug": "hisilicon-kirin-980",
     "name": "HiSilicon Kirin 980",
     "manufacturer": {
@@ -31,6 +32,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.2,
     "resolution": "1080x2244",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.9,
+    "algorithm_version": "2.0.0",
+    "overall": 32.3,
     "performance": null,
-    "camera": 13.9,
-    "battery": 30.0,
+    "camera": 15.0,
+    "battery": 49.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.443185",
-  "updated_at": "2026-06-19T02:27:14.443185"
+  "created_at": "2026-06-24T08:53:57.560483",
+  "updated_at": "2026-06-24T08:53:57.560496"
 }

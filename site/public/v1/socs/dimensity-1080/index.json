@@ -1,5 +1,5 @@
 {
-  "id": 1043,
+  "id": 1243,
   "slug": "dimensity-1080",
   "name": "MediaTek Dimensity 1080",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 800,
   "npu_tops": 4.5,
   "modem": "MediaTek M80 5G",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 55.4,
+    "cpu": {
+      "index": 57.4,
+      "percentile": 26.7,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 50.6,
+      "percentile": 20.0,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.mediatek.com/products/smartphones-2/dimensity-1080",
     "https://en.wikipedia.org/wiki/MediaTek_Dimensity_1080"
   ],
-  "created_at": "2026-06-19T02:27:12.587337",
-  "updated_at": "2026-06-19T02:27:12.587337",
+  "created_at": "2026-06-24T08:53:43.845230",
+  "updated_at": "2026-06-24T08:53:43.845241",
   "url": "/v1/socs/dimensity-1080"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1343,
+  "id": 6745,
   "slug": "rog-phone-global-dual-sim-td-lte-version-a-zs600kl-512gb",
+  "base_model_slug": null,
   "name": "ROG Phone Global Dual SIM TD-LTE Version A ZS600KL 512GB",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2160",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.8,
-    "performance": 3.0,
-    "camera": 5.1,
-    "battery": 15.0,
-    "display": 40.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.1,
+    "performance": 40.4,
+    "camera": 6.3,
+    "battery": 33.3,
+    "display": 40.5,
+    "value": null,
+    "perf": {
+      "index": 40.4,
+      "percentile": 50.7,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.025871",
-  "updated_at": "2026-06-19T02:27:14.025871"
+  "created_at": "2026-06-24T08:53:52.696090",
+  "updated_at": "2026-06-24T08:53:52.696102"
 }

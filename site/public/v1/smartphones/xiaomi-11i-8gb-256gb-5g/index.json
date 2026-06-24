@@ -1,5 +1,5 @@
 {
-  "id": 38836,
+  "id": 83224,
   "slug": "xiaomi-11i-8gb-256gb-5g",
   "base_model_slug": "11i",
   "name": "Xiaomi 11i",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1231,
+    "id": 1232,
     "slug": "dimensity-920",
     "name": "Dimensity 920",
     "manufacturer": {
@@ -64,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.2,
-    "performance": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 50.1,
+    "performance": 47.0,
     "camera": null,
-    "battery": 37.4,
+    "battery": 53.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 47.0,
+      "percentile": 52.0,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:21.125275",
-  "updated_at": "2026-06-20T12:45:21.125275"
+  "created_at": "2026-06-24T08:54:25.085169",
+  "updated_at": "2026-06-24T08:54:25.085182"
 }

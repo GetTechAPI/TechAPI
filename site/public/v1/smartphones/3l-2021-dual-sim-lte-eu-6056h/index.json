@@ -1,6 +1,7 @@
 {
-  "id": 568,
+  "id": 2504,
   "slug": "3l-2021-dual-sim-lte-eu-6056h",
+  "base_model_slug": null,
   "name": "3L 2021 Dual SIM LTE EU 6056H",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 1002,
+    "id": 1190,
     "slug": "helio-a25",
     "name": "Helio A25",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.2,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 15.0,
-    "display": 17.5,
-    "value": 56.1
+    "algorithm_version": "2.0.0",
+    "overall": 18.4,
+    "performance": 6.9,
+    "camera": 17.5,
+    "battery": 30.1,
+    "display": 19.1,
+    "value": 59.2,
+    "perf": {
+      "index": 6.9,
+      "percentile": 3.5,
+      "tier": "F",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.905668",
-  "updated_at": "2026-06-19T02:27:13.905668"
+  "created_at": "2026-06-24T08:53:51.090686",
+  "updated_at": "2026-06-24T08:53:51.090698"
 }

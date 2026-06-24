@@ -1,6 +1,7 @@
 {
-  "id": 14881,
+  "id": 78181,
   "slug": "tab-prime-7",
+  "base_model_slug": null,
   "name": "Tab Prime 7",
   "brand": {
     "id": 83,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vodafone"
   },
   "soc": {
-    "id": 1271,
+    "id": 1628,
     "slug": "qualcomm-msm8937-snapdragon-430",
     "name": "Qualcomm MSM8937 Snapdragon 430",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "1200x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.7,
+    "algorithm_version": "2.0.0",
+    "overall": 24.1,
     "performance": null,
     "camera": 5.0,
-    "battery": 42.4,
+    "battery": 43.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.340779",
-  "updated_at": "2026-06-19T02:27:16.340779"
+  "created_at": "2026-06-24T08:54:23.285545",
+  "updated_at": "2026-06-24T08:54:23.285557"
 }

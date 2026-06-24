@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 48.74,
   "blender_score": 8388.31,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 95.4,
+    "graphics": {
+      "index": 95.4,
+      "percentile": 88.1,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-4080.c3888",

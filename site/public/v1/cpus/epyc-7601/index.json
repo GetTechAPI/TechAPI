@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 octa-channel ECC",
   "msrp_usd": 4200,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 46.1,
+    "single": {
+      "index": 37.9,
+      "percentile": 13.9,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 52.8,
+      "percentile": 69.9,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/processors/server/epyc/7001-series/amd-epyc-7601.html",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7601"
   ],
-  "created_at": "2026-06-19T02:27:18.114558",
-  "updated_at": "2026-06-19T02:27:18.114558",
+  "created_at": "2026-06-24T08:54:40.837481",
+  "updated_at": "2026-06-24T08:54:40.837491",
   "url": "/v1/cpus/epyc-7601"
 }

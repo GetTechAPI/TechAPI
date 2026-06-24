@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 8.141,
   "blender_score": 1501.58,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 56.8,
+    "graphics": {
+      "index": 56.8,
+      "percentile": 36.9,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/data-center/tesla-t4/",
     "https://www.techpowerup.com/gpu-specs/tesla-t4.c3316",

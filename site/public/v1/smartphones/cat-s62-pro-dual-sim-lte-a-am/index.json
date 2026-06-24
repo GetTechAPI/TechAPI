@@ -1,6 +1,7 @@
 {
-  "id": 2126,
+  "id": 9910,
   "slug": "cat-s62-pro-dual-sim-lte-a-am",
+  "base_model_slug": null,
   "name": "CAT S62 Pro Dual SIM LTE-A AM",
   "brand": {
     "id": 153,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/caterpillar"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.9,
-    "performance": 19.5,
-    "camera": 5.0,
-    "battery": 15.6,
-    "display": 47.4,
-    "value": 47.5
+    "algorithm_version": "2.0.0",
+    "overall": 34.9,
+    "performance": 56.2,
+    "camera": 6.3,
+    "battery": 27.3,
+    "display": 49.9,
+    "value": 51.4,
+    "perf": {
+      "index": 56.2,
+      "percentile": 74.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.148332",
-  "updated_at": "2026-06-19T02:27:14.148332"
+  "created_at": "2026-06-24T08:53:53.954737",
+  "updated_at": "2026-06-24T08:53:53.954750"
 }

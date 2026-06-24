@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 14.75,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 79.1,
+    "graphics": {
+      "index": 79.1,
+      "percentile": 48.9,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.mthreads.com/product/MTTS80",
     "https://www.techpowerup.com/gpu-specs/mtt-s80.c4031",

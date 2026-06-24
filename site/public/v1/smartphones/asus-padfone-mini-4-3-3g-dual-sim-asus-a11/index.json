@@ -1,6 +1,7 @@
 {
-  "id": 17695,
+  "id": 6165,
   "slug": "asus-padfone-mini-4-3-3g-dual-sim-asus-a11",
+  "base_model_slug": null,
   "name": "Asus Padfone Mini 4.3 3G Dual SIM (Asus A11)",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1841,
+    "id": 1469,
     "slug": "qualcomm-snapdragon-400-msm8226",
     "name": "Qualcomm Snapdragon 400 MSM8226",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 305",
     "url": "/v1/socs/qualcomm-snapdragon-400-msm8226"
   },
   "release_date": "2014-02-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.29,
     "resolution": "540x960",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 17.8,
     "performance": null,
     "camera": null,
     "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "display": 35.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5466"
   ],
-  "created_at": "2026-06-19T09:44:27.848768",
-  "updated_at": "2026-06-19T09:44:27.848768"
+  "created_at": "2026-06-24T08:53:52.467370",
+  "updated_at": "2026-06-24T08:53:52.467382"
 }

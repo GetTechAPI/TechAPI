@@ -1,6 +1,7 @@
 {
-  "id": 446,
+  "id": 1662,
   "slug": "one-touch-pixi-4-5-0-3g-latam-5010g",
+  "base_model_slug": null,
   "name": "One Touch Pixi 4 5.0 3G LATAM 5010G",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 979,
+    "id": 1167,
     "slug": "mediatek-mt6580",
     "name": "Mediatek MT6580",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2016-06-08",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "480x854",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 5.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.889721",
-  "updated_at": "2026-06-19T02:27:13.889721"
+  "created_at": "2026-06-24T08:53:50.802402",
+  "updated_at": "2026-06-24T08:53:50.802414"
 }

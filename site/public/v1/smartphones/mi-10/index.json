@@ -1,6 +1,7 @@
 {
-  "id": 15439,
+  "id": 80986,
   "slug": "mi-10",
+  "base_model_slug": null,
   "name": "Mi 10",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2340",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.1,
-    "performance": 6.0,
-    "camera": 35.8,
-    "battery": 36.2,
-    "display": 38.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 47.1,
+    "performance": 55.2,
+    "camera": 36.4,
+    "battery": 57.8,
+    "display": 39.2,
+    "value": null,
+    "perf": {
+      "index": 55.2,
+      "percentile": 73.4,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.417830",
-  "updated_at": "2026-06-19T02:27:16.417830"
+  "created_at": "2026-06-24T08:54:24.283438",
+  "updated_at": "2026-06-24T08:54:24.283450"
 }

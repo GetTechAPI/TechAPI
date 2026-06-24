@@ -1,6 +1,7 @@
 {
-  "id": 10363,
+  "id": 52987,
   "slug": "realme-gt-master-explorer-edition",
+  "base_model_slug": null,
   "name": "Realme GT Master Explorer Edition",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.55,
     "resolution": "1080x2400",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.4,
-    "performance": 9.1,
-    "camera": 17.2,
-    "battery": 30.5,
-    "display": 52.7,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 45.5,
+    "performance": 59.2,
+    "camera": 18.2,
+    "battery": 54.0,
+    "display": 50.5,
+    "value": null,
+    "perf": {
+      "index": 59.2,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.550951",
-  "updated_at": "2026-06-19T02:27:15.550951"
+  "created_at": "2026-06-24T08:54:12.530090",
+  "updated_at": "2026-06-24T08:54:12.530103"
 }

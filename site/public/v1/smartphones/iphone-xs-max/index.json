@@ -1,6 +1,7 @@
 {
-  "id": 891,
+  "id": 3787,
   "slug": "iphone-xs-max",
+  "base_model_slug": null,
   "name": "iPhone XS Max",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 18,
+    "id": 28,
     "slug": "apple-a12-bionic",
     "name": "Apple A12 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "2688x1242",
@@ -79,19 +81,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-xs-max.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.8,
-    "performance": 4.7,
-    "camera": 18.0,
-    "battery": 4.7,
-    "display": 15.8,
-    "value": 24.6
+    "algorithm_version": "2.0.0",
+    "overall": 32.6,
+    "performance": 55.0,
+    "camera": 19.3,
+    "battery": 35.1,
+    "display": 20.9,
+    "value": 34.2,
+    "perf": {
+      "index": 55.0,
+      "percentile": 78.0,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/IPhone_XS",
     "https://support.apple.com/iphone-xs-max"
   ],
-  "created_at": "2026-06-19T02:27:13.951604",
-  "updated_at": "2026-06-19T02:27:13.951604"
+  "created_at": "2026-06-24T08:53:51.582696",
+  "updated_at": "2026-06-24T08:53:51.582709"
 }

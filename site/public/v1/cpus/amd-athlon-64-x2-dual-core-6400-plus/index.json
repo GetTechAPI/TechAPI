@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 250,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 34.3,
+    "single": {
+      "index": 48.0,
+      "percentile": 83.2,
+      "tier": "A",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 23.1,
+      "percentile": 52.6,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+6400%2B&id=89"
   ],
-  "created_at": "2026-06-19T02:27:18.036405",
-  "updated_at": "2026-06-19T02:27:18.036405",
+  "created_at": "2026-06-24T08:54:40.690399",
+  "updated_at": "2026-06-24T08:54:40.690410",
   "url": "/v1/cpus/amd-athlon-64-x2-dual-core-6400-plus"
 }

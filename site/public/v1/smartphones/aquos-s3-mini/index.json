@@ -1,6 +1,7 @@
 {
-  "id": 12867,
+  "id": 67980,
   "slug": "aquos-s3-mini",
+  "base_model_slug": null,
   "name": "Aquos S3 mini",
   "brand": {
     "id": 105,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 1275,
+    "id": 1632,
     "slug": "qualcomm-sdm630-snapdragon-630",
     "name": "Qualcomm SDM630 Snapdragon 630",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x2040",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.3,
+    "algorithm_version": "2.0.0",
+    "overall": 11.3,
     "performance": null,
-    "camera": 6.3,
-    "battery": 0.3,
+    "camera": 7.5,
+    "battery": 15.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.032024",
-  "updated_at": "2026-06-19T02:27:16.032024"
+  "created_at": "2026-06-24T08:54:19.147759",
+  "updated_at": "2026-06-24T08:54:19.147772"
 }

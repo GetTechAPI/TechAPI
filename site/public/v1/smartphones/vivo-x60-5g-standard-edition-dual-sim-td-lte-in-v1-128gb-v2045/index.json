@@ -1,6 +1,7 @@
 {
-  "id": 14685,
+  "id": 75936,
   "slug": "vivo-x60-5g-standard-edition-dual-sim-td-lte-in-v1-128gb-v2045",
+  "base_model_slug": null,
   "name": "Vivo X60 5G Standard Edition Dual SIM TD-LTE IN V1 128GB V2045",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": "1080x2376",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.4,
-    "performance": 6.1,
-    "camera": 16.5,
-    "battery": 22.9,
-    "display": 52.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 42.9,
+    "performance": 56.4,
+    "camera": 17.5,
+    "battery": 47.4,
+    "display": 50.2,
+    "value": null,
+    "perf": {
+      "index": 56.4,
+      "percentile": 75.9,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.307684",
-  "updated_at": "2026-06-19T02:27:16.307684"
+  "created_at": "2026-06-24T08:54:22.381928",
+  "updated_at": "2026-06-24T08:54:22.381941"
 }

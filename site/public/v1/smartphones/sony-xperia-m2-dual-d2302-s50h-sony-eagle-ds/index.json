@@ -1,6 +1,7 @@
 {
-  "id": 28407,
+  "id": 68991,
   "slug": "sony-xperia-m2-dual-d2302-s50h-sony-eagle-ds",
+  "base_model_slug": null,
   "name": "Sony Xperia M2 dual D2302 S50h (Sony Eagle DS)",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1841,
+    "id": 1469,
     "slug": "qualcomm-snapdragon-400-msm8226",
     "name": "Qualcomm Snapdragon 400 MSM8226",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 305",
     "url": "/v1/socs/qualcomm-snapdragon-400-msm8226"
   },
   "release_date": "2014-04-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.8,
     "resolution": "540x960",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 21.5,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 8.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5850"
   ],
-  "created_at": "2026-06-19T09:44:30.797333",
-  "updated_at": "2026-06-19T09:44:30.797333"
+  "created_at": "2026-06-24T08:54:19.589070",
+  "updated_at": "2026-06-24T08:54:19.589083"
 }

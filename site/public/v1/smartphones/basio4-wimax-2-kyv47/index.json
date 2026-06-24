@@ -1,6 +1,7 @@
 {
-  "id": 4665,
+  "id": 24143,
   "slug": "basio4-wimax-2-kyv47",
+  "base_model_slug": null,
   "name": "BASIO4 WiMAX 2+ KYV47",
   "brand": {
     "id": 100,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/kyocera"
   },
   "soc": {
-    "id": 935,
+    "id": 1122,
     "slug": "helio-a22",
     "name": "Helio A22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.6,
     "resolution": "720x1480",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.9,
+    "algorithm_version": "2.0.0",
+    "overall": 22.5,
     "performance": null,
-    "camera": 5.3,
-    "battery": 4.5,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 22.2,
+    "display": 38.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.575330",
-  "updated_at": "2026-06-19T02:27:14.575330"
+  "created_at": "2026-06-24T08:53:59.975652",
+  "updated_at": "2026-06-24T08:53:59.975666"
 }

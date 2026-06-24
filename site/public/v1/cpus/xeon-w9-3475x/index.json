@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 octa-channel ECC",
   "msrp_usd": 3739,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 78.3,
+    "single": {
+      "index": 83.6,
+      "percentile": 66.5,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 73.9,
+      "percentile": 76.8,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/233500/intel-xeon-w93475x-processor-82-5m-cache-2-20-ghz.html",
     "https://en.wikipedia.org/wiki/Sapphire_Rapids",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+w9-3475X"
   ],
-  "created_at": "2026-06-19T02:27:18.398336",
-  "updated_at": "2026-06-19T02:27:18.398336",
+  "created_at": "2026-06-24T08:54:41.415170",
+  "updated_at": "2026-06-24T08:54:41.415181",
   "url": "/v1/cpus/xeon-w9-3475x"
 }

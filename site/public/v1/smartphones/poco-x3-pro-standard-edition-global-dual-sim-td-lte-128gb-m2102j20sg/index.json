@@ -1,6 +1,7 @@
 {
-  "id": 15669,
+  "id": 82425,
   "slug": "poco-x3-pro-standard-edition-global-dual-sim-td-lte-128gb-m2102j20sg",
+  "base_model_slug": null,
   "name": "Poco X3 Pro Standard Edition Global Dual SIM TD-LTE 128GB M2102J20SG",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1355,
+    "id": 1735,
     "slug": "snapdragon-860",
     "name": "Snapdragon 860",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.4,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 35.8,
-    "display": 52.0,
-    "value": 61.3
+    "algorithm_version": "2.0.0",
+    "overall": 42.5,
+    "performance": 46.4,
+    "camera": 17.5,
+    "battery": 56.0,
+    "display": 49.9,
+    "value": 66.0,
+    "perf": {
+      "index": 46.4,
+      "percentile": 58.6,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.446853",
-  "updated_at": "2026-06-19T02:27:16.446853"
+  "created_at": "2026-06-24T08:54:24.790824",
+  "updated_at": "2026-06-24T08:54:24.790835"
 }

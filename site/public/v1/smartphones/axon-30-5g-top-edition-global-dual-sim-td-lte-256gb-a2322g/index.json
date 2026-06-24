@@ -1,6 +1,7 @@
 {
-  "id": 16509,
+  "id": 88989,
   "slug": "axon-30-5g-top-edition-global-dual-sim-td-lte-256gb-a2322g",
+  "base_model_slug": null,
   "name": "Axon 30 5G Top Edition Global Dual SIM TD-LTE 256GB A2322G",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.92,
     "resolution": "1080x2460",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.4,
-    "performance": 9.1,
-    "camera": 21.7,
-    "battery": 27.5,
-    "display": 51.3,
-    "value": 52.2
+    "algorithm_version": "2.0.0",
+    "overall": 45.8,
+    "performance": 59.2,
+    "camera": 22.6,
+    "battery": 52.0,
+    "display": 49.3,
+    "value": 58.6,
+    "perf": {
+      "index": 59.2,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.562309",
-  "updated_at": "2026-06-19T02:27:16.562309"
+  "created_at": "2026-06-24T08:54:27.265293",
+  "updated_at": "2026-06-24T08:54:27.265308"
 }

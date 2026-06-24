@@ -1,6 +1,7 @@
 {
-  "id": 10423,
+  "id": 53566,
   "slug": "gt-7",
+  "base_model_slug": null,
   "name": "GT 7",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1361,
+    "id": 1748,
     "slug": "snapdragon-8-gen-2",
     "name": "Snapdragon 8 Gen 2",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.8,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.9,
-    "performance": 36.7,
-    "camera": 17.1,
-    "battery": 48.0,
+    "algorithm_version": "2.0.0",
+    "overall": 50.1,
+    "performance": 74.5,
+    "camera": 18.1,
+    "battery": 57.8,
     "display": null,
-    "value": 61.5
+    "value": 66.5,
+    "perf": {
+      "index": 74.5,
+      "percentile": 71.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.558942",
-  "updated_at": "2026-06-19T02:27:15.558942"
+  "created_at": "2026-06-24T08:54:12.742284",
+  "updated_at": "2026-06-24T08:54:12.742300"
 }

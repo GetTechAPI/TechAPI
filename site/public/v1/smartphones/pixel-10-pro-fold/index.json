@@ -1,6 +1,7 @@
 {
-  "id": 2781,
+  "id": 12867,
   "slug": "pixel-10-pro-fold",
+  "base_model_slug": null,
   "name": "Pixel 10 Pro Fold",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 673,
+    "id": 769,
     "slug": "tensor-g5",
     "name": "Google Tensor G5",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "2152x2076",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-10-pro-fold.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 50.5,
-    "performance": 44.2,
-    "camera": 34.5,
-    "battery": 56.1,
-    "display": 67.3,
-    "value": 25.2
+    "algorithm_version": "2.0.0",
+    "overall": 61.3,
+    "performance": 78.8,
+    "camera": 35.5,
+    "battery": 65.4,
+    "display": 65.5,
+    "value": 30.6,
+    "perf": {
+      "index": 78.8,
+      "percentile": 76.3,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_10_pro_fold_specs",
     "https://en.wikipedia.org/wiki/Pixel_10_Pro_Fold"
   ],
-  "created_at": "2026-06-19T02:27:14.252668",
-  "updated_at": "2026-06-19T02:27:14.252668"
+  "created_at": "2026-06-24T08:53:55.199794",
+  "updated_at": "2026-06-24T08:53:55.199807"
 }

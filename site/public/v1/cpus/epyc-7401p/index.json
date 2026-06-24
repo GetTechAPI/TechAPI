@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 8-channel ECC",
   "msrp_usd": 1075,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 41.8,
+    "single": {
+      "index": 33.4,
+      "percentile": 9.2,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 48.7,
+      "percentile": 61.3,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-7401p",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7401P"
   ],
-  "created_at": "2026-06-19T02:27:18.113552",
-  "updated_at": "2026-06-19T02:27:18.113552",
+  "created_at": "2026-06-24T08:54:40.836552",
+  "updated_at": "2026-06-24T08:54:40.836562",
   "url": "/v1/cpus/epyc-7401p"
 }

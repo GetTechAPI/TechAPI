@@ -1,5 +1,5 @@
 {
-  "id": 14099,
+  "id": 33721,
   "slug": "motorola-defy",
   "base_model_slug": "defy",
   "name": "Motorola DEFY",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1987,
+    "id": 2009,
     "slug": "ti-omap-3610",
     "name": "TI OMAP 3610",
     "manufacturer": {
@@ -64,18 +64,25 @@
   "image_url": "http://cdn2.gsmarena.com/vv/bigpic/motorola-defy.jpg",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 0.4,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 0.4,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
   ],
-  "created_at": "2026-06-20T11:42:20.571984",
-  "updated_at": "2026-06-20T11:42:20.571984"
+  "created_at": "2026-06-24T08:54:04.468992",
+  "updated_at": "2026-06-24T08:54:04.469005"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1292,
+  "id": 6466,
   "slug": "zenpad-s-8-0-z580ca",
+  "base_model_slug": null,
   "name": "Zenpad S 8.0 Z580CA",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 779,
+    "id": 940,
     "slug": "intel-atom-z3560-or-z3580",
     "name": "Intel Atom Z3560 or Z3580",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "1536x2048",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 9.7,
+    "algorithm_version": "2.0.0",
+    "overall": 14.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 14.3,
+    "battery": 24.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.016872",
-  "updated_at": "2026-06-19T02:27:14.016872"
+  "created_at": "2026-06-24T08:53:52.588541",
+  "updated_at": "2026-06-24T08:53:52.588553"
 }

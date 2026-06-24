@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 11.76,
   "blender_score": 724.73,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 65.7,
+    "graphics": {
+      "index": 65.7,
+      "percentile": 86.5,
+      "tier": "A",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Nvidia_Tesla",
     "https://www.techpowerup.com/gpu-specs/tesla-p40.c2878",

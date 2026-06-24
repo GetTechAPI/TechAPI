@@ -1,6 +1,7 @@
 {
-  "id": 7248,
+  "id": 35389,
   "slug": "moto-g8-plus",
+  "base_model_slug": null,
   "name": "Moto G8 Plus",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1331,
+    "id": 1692,
     "slug": "qualcomm-sdm665-snapdragon-665",
     "name": "Qualcomm SDM665 Snapdragon 665",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.8,
+    "algorithm_version": "2.0.0",
+    "overall": 24.4,
     "performance": null,
-    "camera": 16.5,
-    "battery": 15.0,
+    "camera": 17.5,
+    "battery": 31.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.039834",
-  "updated_at": "2026-06-19T02:27:15.039834"
+  "created_at": "2026-06-24T08:54:05.116788",
+  "updated_at": "2026-06-24T08:54:05.116801"
 }

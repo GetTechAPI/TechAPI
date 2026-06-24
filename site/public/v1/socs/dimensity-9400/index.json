@@ -1,5 +1,5 @@
 {
-  "id": 1062,
+  "id": 1288,
   "slug": "dimensity-9400",
   "name": "MediaTek Dimensity 9400",
   "manufacturer": {
@@ -25,13 +25,31 @@
   "gpu_clock_mhz": 1612,
   "npu_tops": 50.0,
   "modem": "MediaTek 5G (sub-6/mmWave)",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 93.7,
+    "cpu": {
+      "index": 93.0,
+      "percentile": 71.9,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 95.4,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.mediatek.com/products/smartphones-2/mediatek-dimensity-9400",
     "https://en.wikipedia.org/wiki/MediaTek_Dimensity",
     "https://nanoreview.net/en/soc/mediatek-dimensity-9400"
   ],
-  "created_at": "2026-06-19T02:27:12.588338",
-  "updated_at": "2026-06-19T02:27:12.588338",
+  "created_at": "2026-06-24T08:53:43.851320",
+  "updated_at": "2026-06-24T08:53:43.851332",
   "url": "/v1/socs/dimensity-9400"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 14656,
+  "id": 75879,
   "slug": "vivo-iqoo-8-5g-premium-edition-dual-sim-td-lte-cn-256gb-v2136a",
+  "base_model_slug": null,
   "name": "vivo iQOO 8 5G Premium Edition Dual SIM TD-LTE CN 256GB V2136A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": "1080x2376",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.1,
-    "performance": 9.4,
-    "camera": 16.5,
-    "battery": 50.2,
-    "display": 52.3,
-    "value": 16.1
+    "algorithm_version": "2.0.0",
+    "overall": 48.7,
+    "performance": 60.0,
+    "camera": 17.5,
+    "battery": 67.2,
+    "display": 50.2,
+    "value": 24.4,
+    "perf": {
+      "index": 60.0,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.304684",
-  "updated_at": "2026-06-19T02:27:16.304684"
+  "created_at": "2026-06-24T08:54:22.362974",
+  "updated_at": "2026-06-24T08:54:22.362987"
 }

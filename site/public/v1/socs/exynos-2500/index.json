@@ -1,5 +1,5 @@
 {
-  "id": 1482,
+  "id": 1965,
   "slug": "exynos-2500",
   "name": "Exynos 2500",
   "manufacturer": {
@@ -26,13 +26,31 @@
   "gpu_clock_mhz": 999,
   "npu_tops": 59.0,
   "modem": "Shannon 5163",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 89.1,
+    "cpu": {
+      "index": 88.5,
+      "percentile": 65.6,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 90.6,
+      "percentile": 71.9,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Samsung_Exynos",
     "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/",
     "https://nanoreview.net/en/soc/samsung-exynos-2500"
   ],
-  "created_at": "2026-06-19T02:27:12.613849",
-  "updated_at": "2026-06-19T02:27:12.613849",
+  "created_at": "2026-06-24T08:53:43.948046",
+  "updated_at": "2026-06-24T08:53:43.948057",
   "url": "/v1/socs/exynos-2500"
 }

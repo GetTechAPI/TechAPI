@@ -1,6 +1,7 @@
 {
-  "id": 3329,
+  "id": 15681,
   "slug": "htc-u11",
+  "base_model_slug": null,
   "name": "HTC U11",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1268,
+    "id": 1625,
     "slug": "snapdragon-835",
     "name": "Snapdragon 835",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "2560x1440",
@@ -72,19 +74,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/htc-u11.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.0,
-    "performance": 23.1,
-    "camera": 13.0,
-    "battery": 0.6,
-    "display": 23.4,
-    "value": 44.1
+    "algorithm_version": "2.0.0",
+    "overall": 31.8,
+    "performance": 59.0,
+    "camera": 14.3,
+    "battery": 25.6,
+    "display": 28.4,
+    "value": 49.9,
+    "perf": {
+      "index": 59.0,
+      "percentile": 85.5,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/HTC_U11",
     "https://www.htc.com/us/smartphones/htc-u11/"
   ],
-  "created_at": "2026-06-19T02:27:14.387011",
-  "updated_at": "2026-06-19T02:27:14.387011"
+  "created_at": "2026-06-24T08:53:56.735365",
+  "updated_at": "2026-06-24T08:53:56.735377"
 }

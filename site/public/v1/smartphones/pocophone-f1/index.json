@@ -1,6 +1,7 @@
 {
-  "id": 15140,
+  "id": 79652,
   "slug": "pocophone-f1",
+  "base_model_slug": null,
   "name": "Pocophone F1",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1311,
+    "id": 1669,
     "slug": "qualcomm-sdm845-snapdragon-845",
     "name": "Qualcomm SDM845 Snapdragon 845",
     "manufacturer": {
@@ -31,6 +32,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.18,
     "resolution": "1080x2246",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 19.8,
     "performance": null,
-    "camera": 5.0,
-    "battery": 15.0,
+    "camera": 6.3,
+    "battery": 33.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.376298",
-  "updated_at": "2026-06-19T02:27:16.376298"
+  "created_at": "2026-06-24T08:54:23.827026",
+  "updated_at": "2026-06-24T08:54:23.827038"
 }

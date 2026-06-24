@@ -1,6 +1,7 @@
 {
-  "id": 2467,
+  "id": 11350,
   "slug": "power-max-p600s",
+  "base_model_slug": null,
   "name": "Power Max P600S",
   "brand": {
     "id": 157,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/energizer"
   },
   "soc": {
-    "id": 926,
+    "id": 1113,
     "slug": "mediatek-mt6757cd-helio-p25",
     "name": "Mediatek MT6757CD Helio P25",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.9,
     "resolution": "1080x2160",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.9,
+    "algorithm_version": "2.0.0",
+    "overall": 18.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 22.5,
+    "camera": 6.6,
+    "battery": 30.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.205066",
-  "updated_at": "2026-06-19T02:27:14.205066"
+  "created_at": "2026-06-24T08:53:54.554897",
+  "updated_at": "2026-06-24T08:53:54.554909"
 }

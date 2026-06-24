@@ -1,6 +1,7 @@
 {
-  "id": 12106,
+  "id": 60867,
   "slug": "galaxy-m11",
+  "base_model_slug": null,
   "name": "Galaxy M11",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1330,
+    "id": 1691,
     "slug": "qualcomm-sdm450-snapdragon-450",
     "name": "Qualcomm SDM450 Snapdragon 450",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "720x1560",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.6,
+    "algorithm_version": "2.0.0",
+    "overall": 20.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 30.0,
+    "camera": 6.6,
+    "battery": 35.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.841861",
-  "updated_at": "2026-06-19T02:27:15.841861"
+  "created_at": "2026-06-24T08:54:15.787795",
+  "updated_at": "2026-06-24T08:54:15.787808"
 }

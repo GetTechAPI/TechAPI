@@ -1,6 +1,7 @@
 {
-  "id": 2036,
+  "id": 9471,
   "slug": "x-link",
+  "base_model_slug": null,
   "name": "X Link",
   "brand": {
     "id": 151,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blu"
   },
   "soc": {
-    "id": 948,
+    "id": 1135,
     "slug": "mediatek-mt2502",
     "name": "Mediatek MT2502",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 1.1,
     "resolution": "240x240",
@@ -46,18 +48,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.135811",
-  "updated_at": "2026-06-19T02:27:14.135811"
+  "created_at": "2026-06-24T08:53:53.772374",
+  "updated_at": "2026-06-24T08:53:53.772387"
 }

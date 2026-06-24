@@ -1,6 +1,7 @@
 {
-  "id": 3027,
+  "id": 13971,
   "slug": "x40",
+  "base_model_slug": null,
   "name": "X40",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": 299,
   "ram_gb": 6,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": null,
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
-    "performance": 1.5,
-    "camera": 17.1,
-    "battery": 36.5,
+    "algorithm_version": "2.0.0",
+    "overall": 37.9,
+    "performance": 43.0,
+    "camera": 18.1,
+    "battery": 52.7,
     "display": null,
-    "value": 59.2
+    "value": 65.4,
+    "perf": {
+      "index": 43.0,
+      "percentile": 37.7,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.343484",
-  "updated_at": "2026-06-19T02:27:14.343484"
+  "created_at": "2026-06-24T08:53:56.040871",
+  "updated_at": "2026-06-24T08:53:56.040883"
 }

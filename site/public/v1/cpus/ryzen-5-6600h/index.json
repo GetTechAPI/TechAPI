@@ -24,6 +24,24 @@
   "integrated_graphics": "AMD Radeon 660M (RDNA 2, 6CU)",
   "memory_support": "DDR5-4800 / LPDDR5-6400",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 50.7,
+    "single": {
+      "index": 69.0,
+      "percentile": 20.1,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 35.8,
+      "percentile": 12.2,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-ryzen-5-6600h",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+6600H",
     "https://technical.city/en/cpu/Ryzen-5-6600H"
   ],
-  "created_at": "2026-06-19T02:27:18.142701",
-  "updated_at": "2026-06-19T02:27:18.142701",
+  "created_at": "2026-06-24T08:54:40.898368",
+  "updated_at": "2026-06-24T08:54:40.898379",
   "url": "/v1/cpus/ryzen-5-6600h"
 }

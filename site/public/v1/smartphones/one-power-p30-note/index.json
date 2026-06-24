@@ -1,6 +1,7 @@
 {
-  "id": 7181,
+  "id": 35068,
   "slug": "one-power-p30-note",
+  "base_model_slug": null,
   "name": "One Power (P30 Note)",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1305,
+    "id": 1663,
     "slug": "qualcomm-sdm636-snapdragon-636",
     "name": "Qualcomm SDM636 Snapdragon 636",
     "manufacturer": {
@@ -32,6 +33,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "1080x2246",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.1,
+    "algorithm_version": "2.0.0",
+    "overall": 21.2,
     "performance": null,
-    "camera": 6.3,
-    "battery": 30.0,
+    "camera": 7.5,
+    "battery": 35.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.961720",
-  "updated_at": "2026-06-19T02:27:14.961720"
+  "created_at": "2026-06-24T08:54:05.008622",
+  "updated_at": "2026-06-24T08:54:05.008634"
 }

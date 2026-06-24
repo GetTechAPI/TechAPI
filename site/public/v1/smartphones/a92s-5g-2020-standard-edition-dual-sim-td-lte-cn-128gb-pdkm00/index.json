@@ -1,6 +1,7 @@
 {
-  "id": 9040,
+  "id": 45808,
   "slug": "a92s-5g-2020-standard-edition-dual-sim-td-lte-cn-128gb-pdkm00",
+  "base_model_slug": null,
   "name": "A92s 5G 2020 Standard Edition Dual SIM TD-LTE CN 128GB PDKM00",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 969,
+    "id": 1156,
     "slug": "dimensity-800",
     "name": "Dimensity 800",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.57,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.6,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 15.6,
-    "display": 52.6,
-    "value": 10.8
+    "algorithm_version": "2.0.0",
+    "overall": 36.4,
+    "performance": 35.7,
+    "camera": 17.5,
+    "battery": 41.9,
+    "display": 50.4,
+    "value": 18.2,
+    "perf": {
+      "index": 35.7,
+      "percentile": 35.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.338045",
-  "updated_at": "2026-06-19T02:27:15.338045"
+  "created_at": "2026-06-24T08:54:09.677990",
+  "updated_at": "2026-06-24T08:54:09.678002"
 }

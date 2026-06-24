@@ -1,6 +1,7 @@
 {
-  "id": 7387,
+  "id": 36324,
   "slug": "moto-edge-20-lite-5g-2021-td-lte-latam-128gb-xt2139-1",
+  "base_model_slug": null,
   "name": "Moto Edge 20 Lite 5G 2021 TD-LTE LATAM 128GB XT2139-1",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 999,
+    "id": 1187,
     "slug": "dimensity-720",
     "name": "Dimensity 720",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.4,
-    "performance": 1.5,
-    "camera": 35.8,
-    "battery": 32.9,
-    "display": 39.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 41.4,
+    "performance": 35.5,
+    "camera": 36.4,
+    "battery": 53.9,
+    "display": 39.9,
+    "value": null,
+    "perf": {
+      "index": 35.5,
+      "percentile": 34.6,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.058838",
-  "updated_at": "2026-06-19T02:27:15.058838"
+  "created_at": "2026-06-24T08:54:05.446018",
+  "updated_at": "2026-06-24T08:54:05.446031"
 }

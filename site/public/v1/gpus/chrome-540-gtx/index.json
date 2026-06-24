@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 2.0",
   "fp32_tflops": 0.04,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 6.8,
+    "graphics": {
+      "index": 6.8,
+      "percentile": 18.6,
+      "tier": "E",
+      "era": "2006-2009",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/S3_Chrome",
     "https://www.techpowerup.com/gpu-specs/chrome-540-gtx.c1110"

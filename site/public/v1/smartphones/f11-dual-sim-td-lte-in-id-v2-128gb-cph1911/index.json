@@ -1,6 +1,7 @@
 {
-  "id": 8801,
+  "id": 44802,
   "slug": "f11-dual-sim-td-lte-in-id-v2-128gb-cph1911",
+  "base_model_slug": null,
   "name": "F11 Dual SIM TD-LTE IN ID V2 128GB CPH1911",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 939,
+    "id": 1126,
     "slug": "helio-p70",
     "name": "Helio P70",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.3,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 16.3,
-    "display": 44.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.7,
+    "performance": 22.0,
+    "camera": 17.5,
+    "battery": 32.0,
+    "display": 47.4,
+    "value": null,
+    "perf": {
+      "index": 22.0,
+      "percentile": 23.3,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.306528",
-  "updated_at": "2026-06-19T02:27:15.306528"
+  "created_at": "2026-06-24T08:54:08.765980",
+  "updated_at": "2026-06-24T08:54:08.765993"
 }

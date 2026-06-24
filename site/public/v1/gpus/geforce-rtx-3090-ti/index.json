@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 40.0,
   "blender_score": 5552.78,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 89.3,
+    "graphics": {
+      "index": 89.3,
+      "percentile": 79.0,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_30_series",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-3090-ti.c3829",

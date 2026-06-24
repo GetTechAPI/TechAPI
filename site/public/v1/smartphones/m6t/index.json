@@ -1,6 +1,7 @@
 {
-  "id": 6247,
+  "id": 31203,
   "slug": "m6t",
+  "base_model_slug": null,
   "name": "M6T",
   "brand": {
     "id": 33,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/meizu"
   },
   "soc": {
-    "id": 959,
+    "id": 1146,
     "slug": "mediatek-mt6750",
     "name": "Mediatek MT6750",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "720x1440",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.9,
+    "algorithm_version": "2.0.0",
+    "overall": 12.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 4.5,
+    "camera": 6.6,
+    "battery": 18.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.805854",
-  "updated_at": "2026-06-19T02:27:14.805854"
+  "created_at": "2026-06-24T08:54:03.358996",
+  "updated_at": "2026-06-24T08:54:03.359009"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 8328,
+  "id": 42071,
   "slug": "xda-iii",
+  "base_model_slug": null,
   "name": "XDA IIi",
   "brand": {
     "id": 79,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/o2"
   },
   "soc": {
-    "id": 730,
+    "id": 871,
     "slug": "intel-xscale-pxa272-520-mhz",
     "name": "Intel Xscale PXA272 520 MHz",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 3.5,
     "resolution": "240x320",
@@ -53,18 +55,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.230030",
-  "updated_at": "2026-06-19T02:27:15.230030"
+  "created_at": "2026-06-24T08:54:07.753253",
+  "updated_at": "2026-06-24T08:54:07.753292"
 }

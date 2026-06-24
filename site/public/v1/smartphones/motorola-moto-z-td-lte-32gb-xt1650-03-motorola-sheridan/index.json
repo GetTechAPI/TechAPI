@@ -1,6 +1,7 @@
 {
-  "id": 22318,
+  "id": 34592,
   "slug": "motorola-moto-z-td-lte-32gb-xt1650-03-motorola-sheridan",
+  "base_model_slug": null,
   "name": "Motorola Moto Z TD-LTE 32GB XT1650-03 (Motorola Sheridan)",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1898,
+    "id": 1605,
     "slug": "qualcomm-snapdragon-820-msm8996-lite",
     "name": "Qualcomm Snapdragon 820 MSM8996 Lite",
     "manufacturer": {
@@ -18,8 +19,8 @@
       "name": "Qualcomm",
       "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
     "url": "/v1/socs/qualcomm-snapdragon-820-msm8996-lite"
   },
   "release_date": "2016-09-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.47,
     "resolution": "1440x2560",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.4,
+    "algorithm_version": "2.0.0",
+    "overall": 35.3,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 58.7,
-    "value": null
+    "battery": 11.0,
+    "display": 59.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=10269"
   ],
-  "created_at": "2026-06-19T09:44:29.142823",
-  "updated_at": "2026-06-19T09:44:29.142823"
+  "created_at": "2026-06-24T08:54:04.843882",
+  "updated_at": "2026-06-24T08:54:04.843897"
 }

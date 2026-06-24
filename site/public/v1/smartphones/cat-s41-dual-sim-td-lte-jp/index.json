@@ -1,6 +1,7 @@
 {
-  "id": 2118,
+  "id": 9856,
   "slug": "cat-s41-dual-sim-td-lte-jp",
+  "base_model_slug": null,
   "name": "CAT S41 Dual SIM TD-LTE JP",
   "brand": {
     "id": 153,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/caterpillar"
   },
   "soc": {
-    "id": 943,
+    "id": 1130,
     "slug": "mediatek-helio-p20-mt6757",
     "name": "MediaTek Helio P20 MT6757",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 28.1,
+    "algorithm_version": "2.0.0",
+    "overall": 31.0,
     "performance": null,
-    "camera": 5.3,
-    "battery": 30.0,
-    "display": 49.1,
-    "value": null
+    "camera": 6.6,
+    "battery": 35.0,
+    "display": 51.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.147333",
-  "updated_at": "2026-06-19T02:27:14.147333"
+  "created_at": "2026-06-24T08:53:53.936425",
+  "updated_at": "2026-06-24T08:53:53.936438"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 1173,
+  "id": 2991,
   "slug": "young-a10-plus-dual-sim",
   "base_model_slug": "young",
   "name": "Young A10 Plus Dual SIM",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/allview"
   },
   "soc": {
-    "id": 1166,
+    "id": 1167,
     "slug": "mediatek-mt6580",
     "name": "Mediatek MT6580",
     "manufacturer": {
@@ -20,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2018-11-01",
@@ -73,18 +73,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 15.7,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 7.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-20T11:17:52.416686",
-  "updated_at": "2026-06-20T11:17:52.416686"
+  "created_at": "2026-06-24T08:53:51.267025",
+  "updated_at": "2026-06-24T08:53:51.267037"
 }

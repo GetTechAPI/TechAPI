@@ -1,6 +1,7 @@
 {
-  "id": 8834,
+  "id": 44933,
   "slug": "realme-3-pro-global-dual-sim-td-lte-128gb-rmx1853",
+  "base_model_slug": null,
   "name": "Realme 3 Pro Global Dual SIM TD-LTE 128GB RMX1853",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1294,
+    "id": 1652,
     "slug": "snapdragon-710",
     "name": "Snapdragon 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 21.5,
-    "camera": 6.4,
-    "battery": 16.6,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 37.8,
+    "performance": 58.7,
+    "camera": 7.6,
+    "battery": 36.4,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 58.7,
+      "percentile": 84.6,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.310528",
-  "updated_at": "2026-06-19T02:27:15.310528"
+  "created_at": "2026-06-24T08:54:08.811847",
+  "updated_at": "2026-06-24T08:54:08.811859"
 }

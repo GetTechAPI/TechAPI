@@ -1,6 +1,7 @@
 {
-  "id": 16393,
+  "id": 88340,
   "slug": "blade-10-prime",
+  "base_model_slug": null,
   "name": "Blade 10 Prime",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 993,
+    "id": 1181,
     "slug": "mediatek-mt6771-helio-p60",
     "name": "Mediatek MT6771 Helio P60",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.7,
+    "algorithm_version": "2.0.0",
+    "overall": 14.3,
     "performance": null,
-    "camera": 6.3,
-    "battery": 3.0,
+    "camera": 7.5,
+    "battery": 21.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.548800",
-  "updated_at": "2026-06-19T02:27:16.548800"
+  "created_at": "2026-06-24T08:54:27.032919",
+  "updated_at": "2026-06-24T08:54:27.032931"
 }

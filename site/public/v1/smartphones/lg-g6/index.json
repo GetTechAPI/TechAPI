@@ -1,6 +1,7 @@
 {
-  "id": 5663,
+  "id": 28755,
   "slug": "lg-g6",
+  "base_model_slug": null,
   "name": "LG G6",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1256,
+    "id": 1613,
     "slug": "snapdragon-821",
     "name": "Snapdragon 821",
     "manufacturer": {
@@ -30,6 +31,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "2880x1440",
@@ -78,19 +80,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-g6.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.8,
-    "performance": 11.8,
-    "camera": 18.3,
-    "battery": 6.9,
-    "display": 26.4,
-    "value": 41.4
+    "algorithm_version": "2.0.0",
+    "overall": 30.5,
+    "performance": 51.0,
+    "camera": 19.6,
+    "battery": 22.1,
+    "display": 29.3,
+    "value": 46.4,
+    "perf": {
+      "index": 51.0,
+      "percentile": 67.3,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/LG_G6",
     "https://www.lg.com/global/mobile-phones/lg-g6"
   ],
-  "created_at": "2026-06-19T02:27:14.727950",
-  "updated_at": "2026-06-19T02:27:14.727950"
+  "created_at": "2026-06-24T08:54:02.444605",
+  "updated_at": "2026-06-24T08:54:02.444617"
 }

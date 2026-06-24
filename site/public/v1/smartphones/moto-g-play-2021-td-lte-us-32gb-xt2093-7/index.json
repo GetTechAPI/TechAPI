@@ -1,6 +1,7 @@
 {
-  "id": 7418,
+  "id": 36413,
   "slug": "moto-g-play-2021-td-lte-us-32gb-xt2093-7",
+  "base_model_slug": null,
   "name": "Moto G Play 2021 TD-LTE US 32GB XT2093-7",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1337,
+    "id": 1706,
     "slug": "snapdragon-460",
     "name": "Snapdragon 460",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.6,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 30.0,
-    "display": 35.0,
-    "value": 58.8
+    "algorithm_version": "2.0.0",
+    "overall": 25.7,
+    "performance": 17.2,
+    "camera": 6.6,
+    "battery": 42.1,
+    "display": 36.7,
+    "value": 62.9,
+    "perf": {
+      "index": 17.2,
+      "percentile": 14.0,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.063348",
-  "updated_at": "2026-06-19T02:27:15.063348"
+  "created_at": "2026-06-24T08:54:05.479378",
+  "updated_at": "2026-06-24T08:54:05.479392"
 }

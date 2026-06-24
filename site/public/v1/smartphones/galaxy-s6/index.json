@@ -1,6 +1,7 @@
 {
-  "id": 11546,
+  "id": 57871,
   "slug": "galaxy-s6",
+  "base_model_slug": null,
   "name": "Galaxy S6",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1436,
+    "id": 1896,
     "slug": "exynos-7420",
     "name": "Exynos 7420",
     "manufacturer": {
@@ -30,6 +31,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.1,
     "resolution": "2560x1440",
@@ -72,19 +74,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s6.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.9,
-    "performance": 16.0,
-    "camera": 14.3,
-    "battery": 1.8,
-    "display": 27.7,
-    "value": 42.7
+    "algorithm_version": "2.0.0",
+    "overall": 29.9,
+    "performance": 56.7,
+    "camera": 15.5,
+    "battery": 14.0,
+    "display": 33.2,
+    "value": 47.7,
+    "perf": {
+      "index": 56.7,
+      "percentile": 99.6,
+      "tier": "S",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_S6",
     "https://www.samsung.com/global/galaxy/galaxy-s6/"
   ],
-  "created_at": "2026-06-19T02:27:15.766320",
-  "updated_at": "2026-06-19T02:27:15.766320"
+  "created_at": "2026-06-24T08:54:14.704057",
+  "updated_at": "2026-06-24T08:54:14.704070"
 }

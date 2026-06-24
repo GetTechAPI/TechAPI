@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 2.688,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 42.5,
+    "graphics": {
+      "index": 42.5,
+      "percentile": 1.7,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.intel.com/content/www/us/en/products/sku/228341/intel-arc-a310-graphics-4gb/specifications.html",
     "https://www.techpowerup.com/gpu-specs/intel-arc-a310.c3850",

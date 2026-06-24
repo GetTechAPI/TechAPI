@@ -1,6 +1,7 @@
 {
-  "id": 5901,
+  "id": 29560,
   "slug": "lmv405eb-v40-thinq-td-lte-emea",
+  "base_model_slug": null,
   "name": "LMV405EB V40 ThinQ TD-LTE EMEA",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 6,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 6.38,
     "resolution": "1440x3120",
@@ -57,18 +59,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 4.5,
-    "display": 58.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.9,
+    "performance": 39.0,
+    "camera": 6.3,
+    "battery": 26.3,
+    "display": 59.8,
+    "value": null,
+    "perf": {
+      "index": 39.0,
+      "percentile": 46.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.758526",
-  "updated_at": "2026-06-19T02:27:14.758526"
+  "created_at": "2026-06-24T08:54:02.727202",
+  "updated_at": "2026-06-24T08:54:02.727215"
 }

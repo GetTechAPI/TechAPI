@@ -1,6 +1,7 @@
 {
-  "id": 15279,
+  "id": 80344,
   "slug": "redmi-7",
+  "base_model_slug": null,
   "name": "Redmi 7",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1304,
+    "id": 1662,
     "slug": "qualcomm-sdm632-snapdragon-632",
     "name": "Qualcomm SDM632 Snapdragon 632",
     "manufacturer": {
@@ -33,6 +34,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.26,
     "resolution": "720x1520",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.7,
     "performance": null,
-    "camera": 5.0,
-    "battery": 15.0,
+    "camera": 6.3,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.395823",
-  "updated_at": "2026-06-19T02:27:16.395823"
+  "created_at": "2026-06-24T08:54:24.063678",
+  "updated_at": "2026-06-24T08:54:24.063690"
 }

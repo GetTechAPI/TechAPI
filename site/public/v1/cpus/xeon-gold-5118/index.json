@@ -24,6 +24,24 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 6-channel ECC",
   "msrp_usd": 1273,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 43.5,
+    "single": {
+      "index": 42.0,
+      "percentile": 22.0,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 44.8,
+      "percentile": 54.9,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Gold+5118",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.334879",
-  "updated_at": "2026-06-19T02:27:18.334879",
+  "created_at": "2026-06-24T08:54:41.262364",
+  "updated_at": "2026-06-24T08:54:41.262375",
   "url": "/v1/cpus/xeon-gold-5118"
 }

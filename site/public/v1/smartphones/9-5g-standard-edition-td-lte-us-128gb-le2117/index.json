@@ -1,6 +1,7 @@
 {
-  "id": 8490,
+  "id": 42808,
   "slug": "9-5g-standard-edition-td-lte-us-128gb-le2117",
+  "base_model_slug": null,
   "name": "9 5G Standard Edition TD-LTE US 128GB LE2117",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.55,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.4,
-    "performance": 6.4,
-    "camera": 16.5,
-    "battery": 42.0,
-    "display": 52.7,
-    "value": 48.2
+    "algorithm_version": "2.0.0",
+    "overall": 46.1,
+    "performance": 57.2,
+    "camera": 17.5,
+    "battery": 59.2,
+    "display": 50.5,
+    "value": 54.1,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.257565",
-  "updated_at": "2026-06-19T02:27:15.257565"
+  "created_at": "2026-06-24T08:54:08.037519",
+  "updated_at": "2026-06-24T08:54:08.037531"
 }

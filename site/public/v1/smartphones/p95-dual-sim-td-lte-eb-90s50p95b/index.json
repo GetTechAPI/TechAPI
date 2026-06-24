@@ -1,6 +1,7 @@
 {
-  "id": 9623,
+  "id": 50803,
   "slug": "p95-dual-sim-td-lte-eb-90s50p95b",
+  "base_model_slug": null,
   "name": "P95 Dual SIM TD-LTE EB-90S50P95B",
   "brand": {
     "id": 103,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/panasonic"
   },
   "soc": {
-    "id": 1206,
+    "id": 1543,
     "slug": "snapdragon-210",
     "name": "Snapdragon 210",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 17.3,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 8.0,
+    "display": 38.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.429289",
-  "updated_at": "2026-06-19T02:27:15.429289"
+  "created_at": "2026-06-24T08:54:11.562935",
+  "updated_at": "2026-06-24T08:54:11.562948"
 }

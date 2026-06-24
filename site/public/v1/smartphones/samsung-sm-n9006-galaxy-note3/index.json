@@ -1,6 +1,7 @@
 {
-  "id": 25605,
+  "id": 57210,
   "slug": "samsung-sm-n9006-galaxy-note3",
+  "base_model_slug": null,
   "name": "Samsung SM-N9006 Galaxy Note3",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1844,
+    "id": 1472,
     "slug": "qualcomm-snapdragon-800-msm8274ab-v2",
     "name": "Qualcomm Snapdragon 800 MSM8274AB V2",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 330",
     "url": "/v1/socs/qualcomm-snapdragon-800-msm8274ab-v2"
   },
   "release_date": "2013-10-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.68,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.4,
+    "algorithm_version": "2.0.0",
+    "overall": 31.9,
     "performance": null,
     "camera": null,
-    "battery": 3.0,
-    "display": 43.8,
-    "value": null
+    "battery": 17.0,
+    "display": 46.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5030"
   ],
-  "created_at": "2026-06-19T09:44:30.006821",
-  "updated_at": "2026-06-19T09:44:30.006821"
+  "created_at": "2026-06-24T08:54:14.423804",
+  "updated_at": "2026-06-24T08:54:14.423817"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1115,
+  "id": 5662,
   "slug": "iphone-16-pro-max",
+  "base_model_slug": null,
   "name": "iPhone 16 Pro Max",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 28,
+    "id": 48,
     "slug": "apple-a18-pro",
     "name": "Apple A18 Pro",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.9,
     "resolution": "2868x1320",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-16-pro-max.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 54.0,
-    "performance": 68.7,
-    "camera": 34.5,
-    "battery": 52.6,
-    "display": 60.1,
-    "value": 42.4
+    "algorithm_version": "2.0.0",
+    "overall": 60.4,
+    "performance": 82.9,
+    "camera": 35.5,
+    "battery": 63.6,
+    "display": 59.5,
+    "value": 44.5,
+    "perf": {
+      "index": 82.9,
+      "percentile": 83.2,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-16-pro/specs/",
     "https://en.wikipedia.org/wiki/IPhone_16_Pro"
   ],
-  "created_at": "2026-06-19T02:27:13.982655",
-  "updated_at": "2026-06-19T02:27:13.982655"
+  "created_at": "2026-06-24T08:53:52.246178",
+  "updated_at": "2026-06-24T08:53:52.246191"
 }

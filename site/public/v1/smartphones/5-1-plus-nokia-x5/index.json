@@ -1,6 +1,7 @@
 {
-  "id": 8132,
+  "id": 40264,
   "slug": "5-1-plus-nokia-x5",
+  "base_model_slug": null,
   "name": "5.1 Plus (Nokia X5)",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 993,
+    "id": 1181,
     "slug": "mediatek-mt6771-helio-p60",
     "name": "Mediatek MT6771 Helio P60",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.86,
     "resolution": "720x1520",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.1,
+    "algorithm_version": "2.0.0",
+    "overall": 13.2,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.9,
+    "camera": 6.6,
+    "battery": 19.8,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.201508",
-  "updated_at": "2026-06-19T02:27:15.201508"
+  "created_at": "2026-06-24T08:54:07.103933",
+  "updated_at": "2026-06-24T08:54:07.103945"
 }

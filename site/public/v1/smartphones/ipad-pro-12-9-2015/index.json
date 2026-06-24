@@ -1,6 +1,7 @@
 {
-  "id": 823,
+  "id": 3486,
   "slug": "ipad-pro-12-9-2015",
+  "base_model_slug": null,
   "name": "iPad Pro 12.9 (2015)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 12,
+    "id": 22,
     "slug": "apple-a9x",
     "name": "Apple A9X",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 12.9,
     "resolution": "2048x2732",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.941594",
-  "updated_at": "2026-06-19T02:27:13.941594"
+  "created_at": "2026-06-24T08:53:51.479937",
+  "updated_at": "2026-06-24T08:53:51.479949"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 1324,
+  "id": 1685,
   "slug": "snapdragon-730g",
   "name": "Snapdragon 730G",
   "manufacturer": {
@@ -24,13 +24,31 @@
   "gpu_clock_mhz": 825,
   "npu_tops": null,
   "modem": "Snapdragon X15 LTE",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 43.0,
+    "cpu": {
+      "index": 40.7,
+      "percentile": 50.9,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 48.2,
+      "percentile": 85.5,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Qualcomm_Snapdragon",
     "https://www.qualcomm.com/products/snapdragon-730g-mobile-platform",
     "https://nanoreview.net/en/soc/qualcomm-snapdragon-730g"
   ],
-  "created_at": "2026-06-19T02:27:12.603859",
-  "updated_at": "2026-06-19T02:27:12.603859",
+  "created_at": "2026-06-24T08:53:43.908032",
+  "updated_at": "2026-06-24T08:53:43.908043",
   "url": "/v1/socs/snapdragon-730g"
 }

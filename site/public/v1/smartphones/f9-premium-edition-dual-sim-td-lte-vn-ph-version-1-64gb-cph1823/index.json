@@ -1,6 +1,7 @@
 {
-  "id": 8687,
+  "id": 44328,
   "slug": "f9-premium-edition-dual-sim-td-lte-vn-ph-version-1-64gb-cph1823",
+  "base_model_slug": null,
   "name": "F9 Premium Edition Dual SIM TD-LTE VN PH Version 1 64GB CPH1823",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 938,
+    "id": 1125,
     "slug": "helio-p60",
     "name": "Helio P60",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.3,
-    "performance": 1.5,
-    "camera": 6.4,
-    "battery": 7.5,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 25.3,
+    "performance": 20.9,
+    "camera": 7.6,
+    "battery": 24.2,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 20.9,
+      "percentile": 22.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.290007",
-  "updated_at": "2026-06-19T02:27:15.290007"
+  "created_at": "2026-06-24T08:54:08.604127",
+  "updated_at": "2026-06-24T08:54:08.604140"
 }

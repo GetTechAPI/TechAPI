@@ -1,6 +1,7 @@
 {
-  "id": 3950,
+  "id": 18780,
   "slug": "nova-4e-premium-edition-dual-sim-td-lte-apac-128gb-mar-lx2-p30-lite-mar-l22",
+  "base_model_slug": null,
   "name": "Nova 4e Premium Edition Dual SIM TD-LTE APAC 128GB MAR-LX2 / P30 Lite MAR-L22",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 705,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.15,
     "resolution": "1080x2312",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.6,
-    "performance": 1.5,
-    "camera": 8.8,
-    "battery": 5.7,
-    "display": 46.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 26.9,
+    "performance": 23.9,
+    "camera": 9.9,
+    "battery": 24.8,
+    "display": 49.1,
+    "value": null,
+    "perf": {
+      "index": 23.9,
+      "percentile": 30.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.472729",
-  "updated_at": "2026-06-19T02:27:14.472729"
+  "created_at": "2026-06-24T08:53:57.922900",
+  "updated_at": "2026-06-24T08:53:57.922913"
 }

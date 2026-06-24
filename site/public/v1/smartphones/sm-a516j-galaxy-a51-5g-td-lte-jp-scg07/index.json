@@ -1,6 +1,7 @@
 {
-  "id": 12194,
+  "id": 61670,
   "slug": "sm-a516j-galaxy-a51-5g-td-lte-jp-scg07",
+  "base_model_slug": null,
   "name": "SM-A516J Galaxy A51 5G TD-LTE JP SCG07",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1325,
+    "id": 1686,
     "slug": "snapdragon-765",
     "name": "Snapdragon 765",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.46,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.6,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 22.5,
-    "display": 45.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 37.4,
+    "performance": 37.3,
+    "camera": 17.5,
+    "battery": 46.3,
+    "display": 48.5,
+    "value": null,
+    "perf": {
+      "index": 37.3,
+      "percentile": 43.8,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.852867",
-  "updated_at": "2026-06-19T02:27:15.852867"
+  "created_at": "2026-06-24T08:54:16.099692",
+  "updated_at": "2026-06-24T08:54:16.099706"
 }

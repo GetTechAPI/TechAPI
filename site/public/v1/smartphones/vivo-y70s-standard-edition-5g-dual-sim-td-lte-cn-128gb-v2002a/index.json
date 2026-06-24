@@ -1,6 +1,7 @@
 {
-  "id": 14633,
+  "id": 75391,
   "slug": "vivo-y70s-standard-edition-5g-dual-sim-td-lte-cn-128gb-v2002a",
+  "base_model_slug": null,
   "name": "Vivo Y70S Standard Edition 5G Dual SIM TD-LTE CN 128GB V2002A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1470,
+    "id": 1939,
     "slug": "exynos-880",
     "name": "Exynos 880",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.0,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 23.1,
-    "display": 27.0,
-    "value": 8.5
+    "algorithm_version": "2.0.0",
+    "overall": 32.3,
+    "performance": 37.0,
+    "camera": 17.5,
+    "battery": 44.8,
+    "display": 29.9,
+    "value": 16.1,
+    "perf": {
+      "index": 37.0,
+      "percentile": 40.7,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.301678",
-  "updated_at": "2026-06-19T02:27:16.301678"
+  "created_at": "2026-06-24T08:54:22.161187",
+  "updated_at": "2026-06-24T08:54:22.161199"
 }

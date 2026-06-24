@@ -1,6 +1,7 @@
 {
-  "id": 15686,
+  "id": 82512,
   "slug": "redmi-10-prime-2021-standard-edition-dual-sim-td-lte-in-64gb-21061119bi",
+  "base_model_slug": null,
   "name": "Redmi 10 Prime 2021 Standard Edition Dual SIM TD-LTE IN 64GB 21061119BI",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1041,
+    "id": 1234,
     "slug": "helio-g88",
     "name": "MediaTek Helio G88",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "2560x1600",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.3,
-    "performance": 0.0,
-    "camera": 17.2,
-    "battery": 45.6,
-    "display": 46.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.9,
+    "performance": 28.0,
+    "camera": 18.2,
+    "battery": 51.4,
+    "display": 45.9,
+    "value": null,
+    "perf": {
+      "index": 28.0,
+      "percentile": 27.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.448853",
-  "updated_at": "2026-06-19T02:27:16.448853"
+  "created_at": "2026-06-24T08:54:24.819333",
+  "updated_at": "2026-06-24T08:54:24.819346"
 }

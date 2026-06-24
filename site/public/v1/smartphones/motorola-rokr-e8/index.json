@@ -1,6 +1,7 @@
 {
-  "id": 22027,
+  "id": 33545,
   "slug": "motorola-rokr-e8",
+  "base_model_slug": null,
   "name": "Motorola ROKR E8",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1698,
+    "id": 902,
     "slug": "intel-xscale-pxa270",
     "name": "Intel XScale PXA270",
     "manufacturer": {
@@ -18,7 +19,7 @@
       "name": "Intel",
       "url": "/v1/brands/intel"
     },
-    "process_nm": 90.0,
+    "process_nm": 45.0,
     "gpu_name": "N/A",
     "url": "/v1/socs/intel-xscale-pxa270"
   },
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     2
   ],
+  "variant": {},
   "display": {
     "size_inch": 1.97,
     "resolution": "320x240",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=1267"
   ],
-  "created_at": "2026-06-19T09:44:29.081242",
-  "updated_at": "2026-06-19T09:44:29.081242"
+  "created_at": "2026-06-24T08:54:04.384813",
+  "updated_at": "2026-06-24T08:54:04.384826"
 }

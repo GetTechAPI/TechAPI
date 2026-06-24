@@ -1,6 +1,7 @@
 {
-  "id": 8555,
+  "id": 43395,
   "slug": "ace-2",
+  "base_model_slug": null,
   "name": "Ace 2",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.74,
     "resolution": "1240x2772",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 41.4,
-    "performance": 29.7,
-    "camera": 17.2,
-    "battery": 61.2,
-    "display": 57.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 54.7,
+    "performance": 73.4,
+    "camera": 18.1,
+    "battery": 72.4,
+    "display": 54.7,
+    "value": null,
+    "perf": {
+      "index": 73.4,
+      "percentile": 92.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.272025",
-  "updated_at": "2026-06-19T02:27:15.272025"
+  "created_at": "2026-06-24T08:54:08.243873",
+  "updated_at": "2026-06-24T08:54:08.243886"
 }

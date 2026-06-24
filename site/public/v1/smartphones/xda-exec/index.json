@@ -1,6 +1,7 @@
 {
-  "id": 8333,
+  "id": 42090,
   "slug": "xda-exec",
+  "base_model_slug": null,
   "name": "XDA Exec",
   "brand": {
     "id": 79,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/o2"
   },
   "soc": {
-    "id": 751,
+    "id": 892,
     "slug": "intel-bulverde-520-mhz",
     "name": "Intel Bulverde 520 MHz",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 3.6,
     "resolution": "640x480",
@@ -53,18 +55,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 3.1,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 1.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.231030",
-  "updated_at": "2026-06-19T02:27:15.231030"
+  "created_at": "2026-06-24T08:54:07.764592",
+  "updated_at": "2026-06-24T08:54:07.764604"
 }

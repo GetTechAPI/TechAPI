@@ -1,6 +1,7 @@
 {
-  "id": 8369,
+  "id": 42254,
   "slug": "5t",
+  "base_model_slug": null,
   "name": "5T",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1300,
+    "id": 1658,
     "slug": "qualcomm-msm8998-snapdragon-835",
     "name": "Qualcomm MSM8998 Snapdragon 835",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.01,
     "resolution": "1080x2160",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 5.4,
+    "algorithm_version": "2.0.0",
+    "overall": 16.9,
     "performance": null,
-    "camera": 6.3,
-    "battery": 4.5,
+    "camera": 7.5,
+    "battery": 26.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.237030",
-  "updated_at": "2026-06-19T02:27:15.237030"
+  "created_at": "2026-06-24T08:54:07.842161",
+  "updated_at": "2026-06-24T08:54:07.842173"
 }

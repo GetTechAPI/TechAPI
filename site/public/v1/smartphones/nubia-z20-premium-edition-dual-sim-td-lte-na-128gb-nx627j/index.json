@@ -1,6 +1,7 @@
 {
-  "id": 16427,
+  "id": 88505,
   "slug": "nubia-z20-premium-edition-dual-sim-td-lte-na-128gb-nx627j",
+  "base_model_slug": null,
   "name": "Nubia Z20 Premium Edition Dual SIM TD-LTE NA 128GB NX627J",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1327,
+    "id": 1688,
     "slug": "snapdragon-855-plus",
     "name": "Snapdragon 855+",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.42,
     "resolution": "1080x2340",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.5,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 17.3,
-    "display": 45.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.4,
+    "performance": 48.6,
+    "camera": 17.5,
+    "battery": 43.4,
+    "display": 47.9,
+    "value": null,
+    "perf": {
+      "index": 48.6,
+      "percentile": 63.8,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.552799",
-  "updated_at": "2026-06-19T02:27:16.552799"
+  "created_at": "2026-06-24T08:54:27.090398",
+  "updated_at": "2026-06-24T08:54:27.090411"
 }

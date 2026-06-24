@@ -1,6 +1,7 @@
 {
-  "id": 21366,
+  "id": 28357,
   "slug": "lg-h650k-class-4g-lte",
+  "base_model_slug": null,
   "name": "LG H650K Class 4G LTE",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1863,
+    "id": 1521,
     "slug": "qualcomm-snapdragon-410-msm8916",
     "name": "Qualcomm Snapdragon 410 MSM8916",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 306",
     "url": "/v1/socs/qualcomm-snapdragon-410-msm8916"
   },
   "release_date": "2015-11-26",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "720x1280",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 22.1,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 5.5,
+    "display": 38.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=9278"
   ],
-  "created_at": "2026-06-19T09:44:28.959485",
-  "updated_at": "2026-06-19T09:44:28.959485"
+  "created_at": "2026-06-24T08:54:02.264074",
+  "updated_at": "2026-06-24T08:54:02.264087"
 }

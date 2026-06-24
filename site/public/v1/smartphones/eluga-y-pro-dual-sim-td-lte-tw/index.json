@@ -1,6 +1,7 @@
 {
-  "id": 9613,
+  "id": 50773,
   "slug": "eluga-y-pro-dual-sim-td-lte-tw",
+  "base_model_slug": null,
   "name": "Eluga Y Pro Dual SIM TD-LTE TW",
   "brand": {
     "id": 103,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/panasonic"
   },
   "soc": {
-    "id": 913,
+    "id": 1100,
     "slug": "helio-p23",
     "name": "Helio P23",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.85,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.3,
-    "performance": 0.0,
-    "camera": 6.4,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 17.1,
+    "performance": 7.6,
+    "camera": 7.6,
+    "battery": 15.0,
+    "display": 38.2,
+    "value": null,
+    "perf": {
+      "index": 7.6,
+      "percentile": 3.5,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.426772",
-  "updated_at": "2026-06-19T02:27:15.426772"
+  "created_at": "2026-06-24T08:54:11.552113",
+  "updated_at": "2026-06-24T08:54:11.552126"
 }

@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 30,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 28.5,
+    "single": {
+      "index": 38.3,
+      "percentile": 43.4,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 20.4,
+      "percentile": 40.4,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+5800%2B&id=87"
   ],
-  "created_at": "2026-06-19T02:27:18.038417",
-  "updated_at": "2026-06-19T02:27:18.038417",
+  "created_at": "2026-06-24T08:54:40.697114",
+  "updated_at": "2026-06-24T08:54:40.697125",
   "url": "/v1/cpus/amd-athlon-64-x2-dual-core-5800-plus"
 }

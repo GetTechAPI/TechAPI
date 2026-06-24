@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 30.29,
   "blender_score": 3446.99,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 86.0,
+    "graphics": {
+      "index": 86.0,
+      "percentile": 71.6,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/data-center/l4/",
     "https://www.techpowerup.com/gpu-specs/l4.c4091",

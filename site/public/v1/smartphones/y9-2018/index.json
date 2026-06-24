@@ -1,6 +1,7 @@
 {
-  "id": 3819,
+  "id": 18259,
   "slug": "y9-2018",
+  "base_model_slug": null,
   "name": "Y9 (2018)",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 688,
+    "id": 796,
     "slug": "hisilicon-kirin-659",
     "name": "HiSilicon Kirin 659",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.93,
     "resolution": "1080x2160",
@@ -58,18 +60,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.7,
+    "algorithm_version": "2.0.0",
+    "overall": 16.2,
     "performance": null,
-    "camera": 6.3,
-    "battery": 15.0,
+    "camera": 7.5,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.455193",
-  "updated_at": "2026-06-19T02:27:14.455193"
+  "created_at": "2026-06-24T08:53:57.737046",
+  "updated_at": "2026-06-24T08:53:57.737059"
 }

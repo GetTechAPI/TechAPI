@@ -1,5 +1,5 @@
 {
-  "id": 970,
+  "id": 1157,
   "slug": "helio-g90",
   "name": "Helio G90",
   "manufacturer": {
@@ -24,11 +24,29 @@
   "gpu_clock_mhz": null,
   "npu_tops": null,
   "modem": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 37.9,
+    "cpu": {
+      "index": 39.1,
+      "percentile": 47.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 35.0,
+      "percentile": 52.7,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/alanjo/smartphone-processors-ranking"
   ],
-  "created_at": "2026-06-19T02:27:12.582337",
-  "updated_at": "2026-06-19T02:27:12.582337",
+  "created_at": "2026-06-24T08:53:43.833237",
+  "updated_at": "2026-06-24T08:53:43.833248",
   "url": "/v1/socs/helio-g90"
 }

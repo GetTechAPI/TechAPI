@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 22.63,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 84.3,
+    "graphics": {
+      "index": 84.3,
+      "percentile": 67.6,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/accelerators/instinct/mi200/mi210.html",
     "https://www.techpowerup.com/gpu-specs/radeon-instinct-mi210.c3857",

@@ -1,6 +1,7 @@
 {
-  "id": 15915,
+  "id": 86202,
   "slug": "xiaomi-17",
+  "base_model_slug": null,
   "name": "Xiaomi 17",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1375,
+    "id": 1804,
     "slug": "snapdragon-8-elite-gen-5",
     "name": "Snapdragon 8 Elite Gen 5",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "2670x1220",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-17.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 73.3,
-    "performance": 91.0,
-    "camera": 35.1,
-    "battery": 91.2,
-    "display": 76.0,
-    "value": 71.2
+    "algorithm_version": "2.0.0",
+    "overall": 73.8,
+    "performance": 91.8,
+    "camera": 36.1,
+    "battery": 94.4,
+    "display": 73.0,
+    "value": 69.0,
+    "perf": {
+      "index": 91.8,
+      "percentile": 98.2,
+      "tier": "S",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_17",
     "https://www.mi.com/global/product/xiaomi-17/specs"
   ],
-  "created_at": "2026-06-19T02:27:16.478363",
-  "updated_at": "2026-06-19T02:27:16.478363"
+  "created_at": "2026-06-24T08:54:26.165967",
+  "updated_at": "2026-06-24T08:54:26.165980"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 9128,
+  "id": 46458,
   "slug": "realme-c17-2020-dual-sim-td-lte-v2-my-256gb-rmx2101",
+  "base_model_slug": null,
   "name": "Realme C17 2020 Dual SIM TD-LTE V2 MY 256GB RMX2101",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1337,
+    "id": 1706,
     "slug": "snapdragon-460",
     "name": "Snapdragon 460",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.9,
-    "performance": 1.5,
-    "camera": 5.3,
-    "battery": 30.6,
-    "display": 30.0,
-    "value": 35.4
+    "algorithm_version": "2.0.0",
+    "overall": 24.6,
+    "performance": 19.3,
+    "camera": 6.6,
+    "battery": 43.5,
+    "display": 29.2,
+    "value": 37.4,
+    "perf": {
+      "index": 19.3,
+      "percentile": 15.6,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.350489",
-  "updated_at": "2026-06-19T02:27:15.350489"
+  "created_at": "2026-06-24T08:54:09.930319",
+  "updated_at": "2026-06-24T08:54:09.930332"
 }

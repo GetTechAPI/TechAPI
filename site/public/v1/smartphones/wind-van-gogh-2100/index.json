@@ -1,6 +1,7 @@
 {
-  "id": 15003,
+  "id": 78843,
   "slug": "wind-van-gogh-2100",
+  "base_model_slug": null,
   "name": "Wind Van Gogh 2100",
   "brand": {
     "id": 73,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/wnd"
   },
   "soc": {
-    "id": 269,
+    "id": 323,
     "slug": "wnd-mobile-platform-2007",
     "name": "WND mobile platform 2007",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 1.8,
     "resolution": "176x220",
@@ -52,18 +54,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.357790",
-  "updated_at": "2026-06-19T02:27:16.357790"
+  "created_at": "2026-06-24T08:54:23.520683",
+  "updated_at": "2026-06-24T08:54:23.520695"
 }

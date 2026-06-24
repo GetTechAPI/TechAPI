@@ -1,6 +1,7 @@
 {
-  "id": 4942,
+  "id": 25524,
   "slug": "tab3-10",
+  "base_model_slug": null,
   "name": "Tab3 10",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 931,
+    "id": 1118,
     "slug": "mediatek-mt8161",
     "name": "Mediatek MT8161",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "1920x1200",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 25.0,
     "performance": null,
     "camera": 5.0,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.613869",
-  "updated_at": "2026-06-19T02:27:14.613869"
+  "created_at": "2026-06-24T08:54:00.524144",
+  "updated_at": "2026-06-24T08:54:00.524157"
 }

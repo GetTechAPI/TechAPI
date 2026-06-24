@@ -1,6 +1,7 @@
 {
-  "id": 13661,
+  "id": 71598,
   "slug": "10-plus-standard-edition-global-dual-sim-td-lte-256gb-t782h",
+  "base_model_slug": null,
   "name": "10 Plus Standard Edition Global Dual SIM TD-LTE 256GB T782H",
   "brand": {
     "id": 46,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tcl"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.47,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.3,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 22.5,
-    "display": 44.8,
-    "value": 60.6
+    "algorithm_version": "2.0.0",
+    "overall": 31.4,
+    "performance": 24.2,
+    "camera": 17.5,
+    "battery": 36.3,
+    "display": 47.7,
+    "value": 63.2,
+    "perf": {
+      "index": 24.2,
+      "percentile": 22.1,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.164132",
-  "updated_at": "2026-06-19T02:27:16.164132"
+  "created_at": "2026-06-24T08:54:20.672983",
+  "updated_at": "2026-06-24T08:54:20.672995"
 }

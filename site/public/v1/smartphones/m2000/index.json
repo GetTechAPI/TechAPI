@@ -1,6 +1,7 @@
 {
-  "id": 2807,
+  "id": 12914,
   "slug": "m2000",
+  "base_model_slug": null,
   "name": "M2000",
   "brand": {
     "id": 21,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/haier"
   },
   "soc": {
-    "id": 185,
+    "id": 235,
     "slug": "haier-mobile-platform-2005",
     "name": "Haier mobile platform 2005",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 1.8,
     "resolution": "128x160",
@@ -44,18 +46,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.257669",
-  "updated_at": "2026-06-19T02:27:14.257669"
+  "created_at": "2026-06-24T08:53:55.224842",
+  "updated_at": "2026-06-24T08:53:55.224854"
 }

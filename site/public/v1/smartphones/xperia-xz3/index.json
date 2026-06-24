@@ -1,6 +1,7 @@
 {
-  "id": 13201,
+  "id": 69691,
   "slug": "xperia-xz3",
+  "base_model_slug": null,
   "name": "Xperia XZ3",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1311,
+    "id": 1669,
     "slug": "qualcomm-sdm845-snapdragon-845",
     "name": "Qualcomm SDM845 Snapdragon 845",
     "manufacturer": {
@@ -30,6 +31,7 @@
     6,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1440x2880",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 5.8,
+    "algorithm_version": "2.0.0",
+    "overall": 17.4,
     "performance": null,
-    "camera": 7.2,
-    "battery": 4.5,
+    "camera": 8.4,
+    "battery": 26.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.084056",
-  "updated_at": "2026-06-19T02:27:16.084056"
+  "created_at": "2026-06-24T08:54:19.852972",
+  "updated_at": "2026-06-24T08:54:19.852985"
 }

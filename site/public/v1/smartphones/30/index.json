@@ -1,6 +1,7 @@
 {
-  "id": 2932,
+  "id": 13631,
   "slug": "30",
+  "base_model_slug": null,
   "name": "30",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 715,
+    "id": 848,
     "slug": "kirin-985",
     "name": "Kirin 985",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": 449,
   "ram_gb": 8,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 6.53
   },
@@ -51,18 +53,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.6,
-    "performance": 3.0,
-    "camera": 13.9,
-    "battery": 15.0,
+    "algorithm_version": "2.0.0",
+    "overall": 33.4,
+    "performance": 45.5,
+    "camera": 15.0,
+    "battery": 39.6,
     "display": null,
-    "value": 49.5
+    "value": 57.8,
+    "perf": {
+      "index": 45.5,
+      "percentile": 58.0,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.330971",
-  "updated_at": "2026-06-19T02:27:14.330971"
+  "created_at": "2026-06-24T08:53:55.910791",
+  "updated_at": "2026-06-24T08:53:55.910803"
 }

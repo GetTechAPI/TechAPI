@@ -1,6 +1,7 @@
 {
-  "id": 13180,
+  "id": 69589,
   "slug": "xperia-xa2",
+  "base_model_slug": null,
   "name": "Xperia XA2",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1275,
+    "id": 1632,
     "slug": "qualcomm-sdm630-snapdragon-630",
     "name": "Qualcomm SDM630 Snapdragon 630",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1080x1920",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 6.5,
+    "algorithm_version": "2.0.0",
+    "overall": 13.8,
     "performance": null,
-    "camera": 8.5,
-    "battery": 4.5,
+    "camera": 9.7,
+    "battery": 18.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.082056",
-  "updated_at": "2026-06-19T02:27:16.082056"
+  "created_at": "2026-06-24T08:54:19.818473",
+  "updated_at": "2026-06-24T08:54:19.818485"
 }

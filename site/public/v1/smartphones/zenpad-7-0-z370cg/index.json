@@ -1,6 +1,7 @@
 {
-  "id": 1286,
+  "id": 6460,
   "slug": "zenpad-7-0-z370cg",
+  "base_model_slug": null,
   "name": "Zenpad 7.0 Z370CG",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 774,
+    "id": 935,
     "slug": "intel-atom-x3-c3230",
     "name": "Intel Atom x3-C3230",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "800x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 6.2,
+    "algorithm_version": "2.0.0",
+    "overall": 12.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 7.5,
+    "battery": 20.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.015871",
-  "updated_at": "2026-06-19T02:27:14.015871"
+  "created_at": "2026-06-24T08:53:52.586652",
+  "updated_at": "2026-06-24T08:53:52.586665"
 }

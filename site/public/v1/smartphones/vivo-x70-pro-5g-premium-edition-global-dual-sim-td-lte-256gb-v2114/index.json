@@ -1,6 +1,7 @@
 {
-  "id": 14703,
+  "id": 75954,
   "slug": "vivo-x70-pro-5g-premium-edition-global-dual-sim-td-lte-256gb-v2114",
+  "base_model_slug": null,
   "name": "Vivo X70 Pro+ 5G Premium Edition Global Dual SIM TD-LTE 256GB V2114",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1357,
+    "id": 1737,
     "slug": "snapdragon-888-plus",
     "name": "Snapdragon 888+",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "1440x3200",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.2,
-    "performance": 11.2,
-    "camera": 17.2,
-    "battery": 40.1,
-    "display": 64.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 49.3,
+    "performance": 61.2,
+    "camera": 18.1,
+    "battery": 57.5,
+    "display": 60.5,
+    "value": null,
+    "perf": {
+      "index": 61.2,
+      "percentile": 88.3,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.310694",
-  "updated_at": "2026-06-19T02:27:16.310694"
+  "created_at": "2026-06-24T08:54:22.387967",
+  "updated_at": "2026-06-24T08:54:22.387980"
 }

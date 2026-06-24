@@ -1,6 +1,7 @@
 {
-  "id": 8380,
+  "id": 42330,
   "slug": "6t-mclaren-edition",
+  "base_model_slug": null,
   "name": "6T McLaren Edition",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.41
   },
@@ -53,18 +55,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.5,
-    "performance": 4.5,
-    "camera": 7.6,
-    "battery": 10.5,
+    "algorithm_version": "2.0.0",
+    "overall": 26.9,
+    "performance": 41.8,
+    "camera": 8.7,
+    "battery": 30.3,
     "display": null,
-    "value": 34.5
+    "value": 42.0,
+    "perf": {
+      "index": 41.8,
+      "percentile": 52.5,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.238030",
-  "updated_at": "2026-06-19T02:27:15.238030"
+  "created_at": "2026-06-24T08:54:07.871670",
+  "updated_at": "2026-06-24T08:54:07.871683"
 }

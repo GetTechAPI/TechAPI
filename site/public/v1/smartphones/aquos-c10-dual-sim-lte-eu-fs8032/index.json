@@ -1,6 +1,7 @@
 {
-  "id": 12856,
+  "id": 67929,
   "slug": "aquos-c10-dual-sim-lte-eu-fs8032",
+  "base_model_slug": null,
   "name": "Aquos C10 Dual SIM LTE EU FS8032",
   "brand": {
     "id": 105,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 1265,
+    "id": 1622,
     "slug": "snapdragon-630",
     "name": "Snapdragon 630",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x2040",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.0,
-    "performance": 0.0,
-    "camera": 5.1,
-    "battery": 0.0,
-    "display": 47.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 19.9,
+    "performance": 11.7,
+    "camera": 6.3,
+    "battery": 12.0,
+    "display": 49.6,
+    "value": null,
+    "perf": {
+      "index": 11.7,
+      "percentile": 9.6,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.031025",
-  "updated_at": "2026-06-19T02:27:16.031025"
+  "created_at": "2026-06-24T08:54:19.127898",
+  "updated_at": "2026-06-24T08:54:19.127910"
 }

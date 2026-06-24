@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 8-channel ECC",
   "msrp_usd": 1550,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 45.1,
+    "single": {
+      "index": 43.9,
+      "percentile": 30.1,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 46.0,
+      "percentile": 56.6,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-7371",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7371"
   ],
-  "created_at": "2026-06-19T02:27:18.118563",
-  "updated_at": "2026-06-19T02:27:18.118563",
+  "created_at": "2026-06-24T08:54:40.847025",
+  "updated_at": "2026-06-24T08:54:40.847036",
   "url": "/v1/cpus/epyc-7371"
 }

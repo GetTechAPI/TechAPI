@@ -1,6 +1,7 @@
 {
-  "id": 14645,
+  "id": 75540,
   "slug": "z5x-2020",
+  "base_model_slug": null,
   "name": "Z5x (2020)",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1309,
+    "id": 1667,
     "slug": "qualcomm-sdm712-snapdragon-712",
     "name": "Qualcomm SDM712 Snapdragon 712",
     "manufacturer": {
@@ -32,6 +33,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.1,
+    "algorithm_version": "2.0.0",
+    "overall": 25.4,
     "performance": null,
-    "camera": 6.3,
-    "battery": 30.0,
+    "camera": 7.5,
+    "battery": 43.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.302682",
-  "updated_at": "2026-06-19T02:27:16.302682"
+  "created_at": "2026-06-24T08:54:22.219102",
+  "updated_at": "2026-06-24T08:54:22.219115"
 }

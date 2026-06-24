@@ -1,6 +1,7 @@
 {
-  "id": 839,
+  "id": 3562,
   "slug": "ipad-pro-10-5-2017",
+  "base_model_slug": null,
   "name": "iPad Pro 10.5 (2017)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 15,
+    "id": 25,
     "slug": "apple-a10x-fusion",
     "name": "Apple A10X Fusion",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/apple"
     },
     "process_nm": 10.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Apple GPU (12-core)",
     "url": "/v1/socs/apple-a10x-fusion"
   },
   "release_date": "2017-01-01",
@@ -29,6 +30,7 @@
     4,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.5,
     "resolution": "1668x2224",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.0,
+    "algorithm_version": "2.0.0",
+    "overall": 29.8,
     "performance": null,
-    "camera": 5.0,
-    "battery": 45.0,
+    "camera": 6.3,
+    "battery": 53.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.944591",
-  "updated_at": "2026-06-19T02:27:13.944591"
+  "created_at": "2026-06-24T08:53:51.508491",
+  "updated_at": "2026-06-24T08:53:51.508504"
 }

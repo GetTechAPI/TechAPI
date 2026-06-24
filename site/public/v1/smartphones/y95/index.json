@@ -1,6 +1,7 @@
 {
-  "id": 14306,
+  "id": 74550,
   "slug": "y95",
+  "base_model_slug": null,
   "name": "Y95",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1290,
+    "id": 1648,
     "slug": "snapdragon-439",
     "name": "Snapdragon 439",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.22,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 6.9,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 15.4,
+    "algorithm_version": "2.0.0",
+    "overall": 14.6,
+    "performance": 7.7,
+    "camera": 6.6,
+    "battery": 29.5,
     "display": null,
-    "value": 53.5
+    "value": 57.3,
+    "perf": {
+      "index": 7.7,
+      "percentile": 4.2,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.256684",
-  "updated_at": "2026-06-19T02:27:16.256684"
+  "created_at": "2026-06-24T08:54:21.838046",
+  "updated_at": "2026-06-24T08:54:21.838060"
 }

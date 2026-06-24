@@ -24,13 +24,31 @@
   "integrated_graphics": "Intel UHD 770",
   "memory_support": "DDR5-4800 / DDR4-3200",
   "msrp_usd": 739,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 72.2,
+    "single": {
+      "index": 89.1,
+      "percentile": 81.1,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 58.3,
+      "percentile": 45.1,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/225916/intel-core-i9-12900ks-processor-30m-cache-up-to-5-50-ghz.html",
     "https://en.wikipedia.org/wiki/List_of_Intel_processors#Alder_Lake",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i9-12900KS"
   ],
-  "created_at": "2026-06-19T02:27:18.385831",
-  "updated_at": "2026-06-19T02:27:18.385831",
+  "created_at": "2026-06-24T08:54:41.382639",
+  "updated_at": "2026-06-24T08:54:41.382650",
   "url": "/v1/cpus/core-i9-12900ks"
 }

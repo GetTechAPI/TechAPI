@@ -1,6 +1,7 @@
 {
-  "id": 12024,
+  "id": 60444,
   "slug": "sm-g975f-ds-galaxy-s10-performance-edition-ceramic-global-dual-sim-td-lte-1tb",
+  "base_model_slug": null,
   "name": "SM-G975F/DS Galaxy S10+ Performance Edition Ceramic Global Dual SIM TD-LTE 1TB",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1465,
+    "id": 1932,
     "slug": "exynos-9820",
     "name": "Samsung Exynos 9820",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.44,
     "resolution": "1440x3040",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.6,
-    "performance": 6.0,
-    "camera": 5.1,
-    "battery": 17.9,
-    "display": 57.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 40.0,
+    "performance": 53.6,
+    "camera": 6.3,
+    "battery": 41.5,
+    "display": 58.4,
+    "value": null,
+    "perf": {
+      "index": 53.6,
+      "percentile": 69.4,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.832355",
-  "updated_at": "2026-06-19T02:27:15.832355"
+  "created_at": "2026-06-24T08:54:15.643776",
+  "updated_at": "2026-06-24T08:54:15.643789"
 }

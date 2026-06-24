@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-6400 quad-channel ECC",
   "msrp_usd": 4999,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 95.7,
+    "single": {
+      "index": 99.2,
+      "percentile": 93.1,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 92.8,
+      "percentile": 84.6,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/processors/workstations/ryzen-threadripper/9000-series/amd-ryzen-threadripper-9980x.html",
     "https://en.wikipedia.org/wiki/Zen_5",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+9980X"
   ],
-  "created_at": "2026-06-19T02:27:18.153541",
-  "updated_at": "2026-06-19T02:27:18.153541",
+  "created_at": "2026-06-24T08:54:40.926234",
+  "updated_at": "2026-06-24T08:54:40.926245",
   "url": "/v1/cpus/ryzen-threadripper-9980x"
 }

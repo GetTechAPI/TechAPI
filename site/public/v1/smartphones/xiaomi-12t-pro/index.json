@@ -1,6 +1,7 @@
 {
-  "id": 15863,
+  "id": 84608,
   "slug": "xiaomi-12t-pro",
+  "base_model_slug": null,
   "name": "Xiaomi 12T Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2712x1220",
@@ -83,19 +85,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-12t-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 56.1,
-    "performance": 25.2,
+    "algorithm_version": "2.0.0",
+    "overall": 69.9,
+    "performance": 69.3,
     "camera": 83.0,
-    "battery": 65.0,
-    "display": 51.2,
-    "value": 57.0
+    "battery": 75.8,
+    "display": 51.5,
+    "value": 61.8,
+    "perf": {
+      "index": 69.3,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/xiaomi-12t-pro",
     "https://en.wikipedia.org/wiki/Xiaomi_12T_series"
   ],
-  "created_at": "2026-06-19T02:27:16.471362",
-  "updated_at": "2026-06-19T02:27:16.471362"
+  "created_at": "2026-06-24T08:54:25.543544",
+  "updated_at": "2026-06-24T08:54:25.543556"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 2857,
+  "id": 13161,
   "slug": "a5-dual-sim-td-lte-cn-64gb-hlte202n",
+  "base_model_slug": null,
   "name": "A5 Dual SIM TD-LTE CN 64GB HLTE202N",
   "brand": {
     "id": 22,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/hisense"
   },
   "soc": {
-    "id": 1290,
+    "id": 1648,
     "slug": "snapdragon-439",
     "name": "Snapdragon 439",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.84,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 20.4,
+    "performance": 7.7,
+    "camera": 6.6,
+    "battery": 30.1,
+    "display": 37.2,
+    "value": null,
+    "perf": {
+      "index": 7.7,
+      "percentile": 4.2,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.267178",
-  "updated_at": "2026-06-19T02:27:14.267178"
+  "created_at": "2026-06-24T08:53:55.320781",
+  "updated_at": "2026-06-24T08:53:55.320794"
 }

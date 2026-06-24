@@ -1,6 +1,7 @@
 {
-  "id": 14690,
+  "id": 75941,
   "slug": "vivo-x60-pro-5g-premium-edition-dual-sim-td-lte-cn-256gb-v2056a",
+  "base_model_slug": null,
   "name": "Vivo X60 Pro+ 5G Premium Edition Dual SIM TD-LTE CN 256GB V2056A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": "1080x2376",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 28.6,
-    "performance": 9.4,
-    "camera": 17.2,
-    "battery": 35.6,
-    "display": 52.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 45.7,
+    "performance": 60.0,
+    "camera": 18.1,
+    "battery": 54.5,
+    "display": 50.2,
+    "value": null,
+    "perf": {
+      "index": 60.0,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.308683",
-  "updated_at": "2026-06-19T02:27:16.308683"
+  "created_at": "2026-06-24T08:54:22.383518",
+  "updated_at": "2026-06-24T08:54:22.383531"
 }

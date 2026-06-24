@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 7.119,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 53.1,
+    "graphics": {
+      "index": 53.1,
+      "percentile": 30.7,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_500_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-590.c3241",

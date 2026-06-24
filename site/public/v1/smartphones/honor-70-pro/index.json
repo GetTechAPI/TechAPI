@@ -1,6 +1,7 @@
 {
-  "id": 3003,
+  "id": 13901,
   "slug": "honor-70-pro",
+  "base_model_slug": null,
   "name": "Honor 70 Pro+",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 1038,
+    "id": 1231,
     "slug": "dimensity-9000",
     "name": "Dimensity 9000",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "1200x2652",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 36.1,
-    "performance": 17.1,
-    "camera": 18.4,
-    "battery": 53.7,
-    "display": 55.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 51.1,
+    "performance": 64.9,
+    "camera": 19.3,
+    "battery": 67.4,
+    "display": 52.8,
+    "value": null,
+    "perf": {
+      "index": 64.9,
+      "percentile": 81.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.340486",
-  "updated_at": "2026-06-19T02:27:14.340486"
+  "created_at": "2026-06-24T08:53:56.015563",
+  "updated_at": "2026-06-24T08:53:56.015576"
 }

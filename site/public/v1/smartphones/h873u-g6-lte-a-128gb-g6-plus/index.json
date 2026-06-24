@@ -1,6 +1,7 @@
 {
-  "id": 5656,
+  "id": 28734,
   "slug": "h873u-g6-lte-a-128gb-g6-plus",
+  "base_model_slug": null,
   "name": "H873U G6+ LTE-A 128GB / G6 Plus",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1256,
+    "id": 1613,
     "slug": "snapdragon-821",
     "name": "Snapdragon 821",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "1440x2880",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.8,
-    "performance": 11.8,
-    "camera": 5.3,
-    "battery": 4.5,
-    "display": 61.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 34.4,
+    "performance": 51.0,
+    "camera": 6.6,
+    "battery": 18.0,
+    "display": 61.9,
+    "value": null,
+    "perf": {
+      "index": 51.0,
+      "percentile": 67.3,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.726952",
-  "updated_at": "2026-06-19T02:27:14.726952"
+  "created_at": "2026-06-24T08:54:02.437521",
+  "updated_at": "2026-06-24T08:54:02.437534"
 }

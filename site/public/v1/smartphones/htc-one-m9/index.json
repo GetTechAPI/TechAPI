@@ -1,6 +1,7 @@
 {
-  "id": 3302,
+  "id": 15494,
   "slug": "htc-one-m9",
+  "base_model_slug": null,
   "name": "HTC One M9",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1234,
+    "id": 1584,
     "slug": "snapdragon-810",
     "name": "Snapdragon 810",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1920x1080",
@@ -72,19 +74,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/htc-one-m9.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.4,
-    "performance": 8.0,
-    "camera": 7.6,
-    "battery": 0.0,
-    "display": 14.1,
-    "value": 40.3
+    "algorithm_version": "2.0.0",
+    "overall": 23.2,
+    "performance": 52.6,
+    "camera": 8.7,
+    "battery": 14.1,
+    "display": 17.5,
+    "value": 45.6,
+    "perf": {
+      "index": 52.6,
+      "percentile": 90.8,
+      "tier": "A",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/HTC_One_M9",
     "https://www.htc.com/us/smartphones/htc-one-m9/"
   ],
-  "created_at": "2026-06-19T02:27:14.384011",
-  "updated_at": "2026-06-19T02:27:14.384011"
+  "created_at": "2026-06-24T08:53:56.663551",
+  "updated_at": "2026-06-24T08:53:56.663563"
 }

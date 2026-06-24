@@ -1,6 +1,7 @@
 {
-  "id": 5680,
+  "id": 28811,
   "slug": "x-power2",
+  "base_model_slug": null,
   "name": "X power2",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1257,
+    "id": 1614,
     "slug": "mediatek-mt6750qualcomm-msm8917-snapdragon-425",
     "name": "Mediatek MT6750Qualcomm MSM8917 Snapdragon 425",
     "manufacturer": {
@@ -30,6 +31,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.9,
+    "algorithm_version": "2.0.0",
+    "overall": 18.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 22.5,
+    "camera": 6.6,
+    "battery": 30.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.731015",
-  "updated_at": "2026-06-19T02:27:14.731015"
+  "created_at": "2026-06-24T08:54:02.465194",
+  "updated_at": "2026-06-24T08:54:02.465206"
 }

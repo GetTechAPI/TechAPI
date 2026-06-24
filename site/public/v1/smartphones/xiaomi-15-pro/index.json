@@ -1,6 +1,7 @@
 {
-  "id": 15906,
+  "id": 85915,
   "slug": "xiaomi-15-pro",
+  "base_model_slug": null,
   "name": "Xiaomi 15 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1370,
+    "id": 1780,
     "slug": "snapdragon-8-elite",
     "name": "Snapdragon 8 Elite",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.73,
     "resolution": "3200x1440",
@@ -87,19 +89,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-15-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 72.6,
-    "performance": 83.9,
-    "camera": 35.1,
-    "battery": 89.3,
-    "display": 82.2,
-    "value": 65.2
+    "algorithm_version": "2.0.0",
+    "overall": 74.0,
+    "performance": 88.9,
+    "camera": 36.1,
+    "battery": 92.7,
+    "display": 78.3,
+    "value": 63.8,
+    "perf": {
+      "index": 88.9,
+      "percentile": 92.0,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_15",
     "https://www.mi.com/global/product/xiaomi-15-pro/specs"
   ],
-  "created_at": "2026-06-19T02:27:16.476362",
-  "updated_at": "2026-06-19T02:27:16.476362"
+  "created_at": "2026-06-24T08:54:26.043872",
+  "updated_at": "2026-06-24T08:54:26.043884"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 13260,
+  "id": 70027,
   "slug": "xperia-l4-dual-sim-td-lte-emea-xq-ad52",
+  "base_model_slug": null,
   "name": "Xperia L4 Dual SIM TD-LTE EMEA XQ-AD52",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 936,
+    "id": 1123,
     "slug": "helio-p22",
     "name": "Helio P22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "720x1680",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.3,
+    "algorithm_version": "2.0.0",
+    "overall": 23.5,
     "performance": null,
-    "camera": 5.3,
-    "battery": 8.7,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 25.0,
+    "display": 38.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.092057",
-  "updated_at": "2026-06-19T02:27:16.092057"
+  "created_at": "2026-06-24T08:54:19.968748",
+  "updated_at": "2026-06-24T08:54:19.968761"
 }

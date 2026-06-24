@@ -1,6 +1,7 @@
 {
-  "id": 12164,
+  "id": 61480,
   "slug": "sm-a217n-galaxy-a21s-2020-standard-edition-td-lte-kr-32gb",
+  "base_model_slug": null,
   "name": "SM-A217N Galaxy A21s 2020 Standard Edition TD-LTE KR 32GB",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1469,
+    "id": 1938,
     "slug": "exynos-850",
     "name": "Exynos 850",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.55,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.4,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 28.5,
+    "performance": 10.7,
+    "camera": 17.5,
+    "battery": 49.2,
+    "display": 36.5,
+    "value": null,
+    "perf": {
+      "index": 10.7,
+      "percentile": 8.5,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.848867",
-  "updated_at": "2026-06-19T02:27:15.848867"
+  "created_at": "2026-06-24T08:54:16.038724",
+  "updated_at": "2026-06-24T08:54:16.038736"
 }

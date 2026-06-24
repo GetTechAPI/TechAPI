@@ -1,6 +1,7 @@
 {
-  "id": 15886,
+  "id": 85488,
   "slug": "redmi-note-13-pro",
+  "base_model_slug": null,
   "name": "Redmi Note 13 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1366,
+    "id": 1765,
     "slug": "snapdragon-7s-gen-2",
     "name": "Snapdragon 7s Gen 2",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2712x1220",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/redmi-note-13-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 49.5,
-    "performance": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 64.2,
+    "performance": 50.5,
     "camera": 83.0,
-    "battery": 56.4,
-    "display": 55.5,
-    "value": 74.8
+    "battery": 67.6,
+    "display": 55.6,
+    "value": 78.6,
+    "perf": {
+      "index": 50.5,
+      "percentile": 57.8,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/redmi-note-13-pro",
     "https://en.wikipedia.org/wiki/Redmi_Note_13"
   ],
-  "created_at": "2026-06-19T02:27:16.474362",
-  "updated_at": "2026-06-19T02:27:16.474362"
+  "created_at": "2026-06-24T08:54:25.870398",
+  "updated_at": "2026-06-24T08:54:25.870411"
 }

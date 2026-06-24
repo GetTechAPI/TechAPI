@@ -1,6 +1,7 @@
 {
-  "id": 8545,
+  "id": 43242,
   "slug": "nord-ce-2",
+  "base_model_slug": null,
   "name": "Nord CE 2",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1037,
+    "id": 1230,
     "slug": "dimensity-900",
     "name": "Dimensity 900",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.6,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 37.0,
-    "display": 40.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 40.9,
+    "performance": 43.1,
+    "camera": 22.4,
+    "battery": 57.1,
+    "display": 41.1,
+    "value": null,
+    "perf": {
+      "index": 43.1,
+      "percentile": 39.0,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.270007",
-  "updated_at": "2026-06-19T02:27:15.270007"
+  "created_at": "2026-06-24T08:54:08.186299",
+  "updated_at": "2026-06-24T08:54:08.186312"
 }

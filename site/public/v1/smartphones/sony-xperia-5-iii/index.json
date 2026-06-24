@@ -1,6 +1,7 @@
 {
-  "id": 13264,
+  "id": 70059,
   "slug": "sony-xperia-5-iii",
+  "base_model_slug": null,
   "name": "Sony Xperia 5 III",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "2520x1080",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/sony-xperia-5-iii.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.7,
-    "performance": 6.4,
-    "camera": 23.0,
-    "battery": 37.6,
-    "display": 39.9,
-    "value": 36.5
+    "algorithm_version": "2.0.0",
+    "overall": 44.5,
+    "performance": 57.2,
+    "camera": 24.3,
+    "battery": 55.3,
+    "display": 41.1,
+    "value": 43.7,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Sony_Xperia_5_III",
     "https://www.sony.com/electronics/mobile-phones/xperia-5-iii"
   ],
-  "created_at": "2026-06-19T02:27:16.092057",
-  "updated_at": "2026-06-19T02:27:16.092057"
+  "created_at": "2026-06-24T08:54:19.981750",
+  "updated_at": "2026-06-24T08:54:19.981762"
 }

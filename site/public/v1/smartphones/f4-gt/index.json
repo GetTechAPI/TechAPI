@@ -1,6 +1,7 @@
 {
-  "id": 10044,
+  "id": 51774,
   "slug": "f4-gt",
+  "base_model_slug": null,
   "name": "F4 GT",
   "brand": {
     "id": 38,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/poco"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.3,
-    "performance": 10.9,
-    "camera": 21.6,
-    "battery": 40.5,
+    "algorithm_version": "2.0.0",
+    "overall": 45.2,
+    "performance": 60.3,
+    "camera": 22.5,
+    "battery": 52.8,
     "display": null,
-    "value": 54.5
+    "value": 61.9,
+    "perf": {
+      "index": 60.3,
+      "percentile": 75.3,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.506888",
-  "updated_at": "2026-06-19T02:27:15.506888"
+  "created_at": "2026-06-24T08:54:12.029479",
+  "updated_at": "2026-06-24T08:54:12.029492"
 }

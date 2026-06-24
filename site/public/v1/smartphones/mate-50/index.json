@@ -1,6 +1,7 @@
 {
-  "id": 4263,
+  "id": 21232,
   "slug": "mate-50",
+  "base_model_slug": null,
   "name": "Mate 50",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.69,
     "resolution": "1224x2700",
@@ -66,18 +68,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.6,
-    "performance": 22.2,
-    "camera": 17.2,
-    "battery": 46.6,
-    "display": 44.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 47.4,
+    "performance": 66.6,
+    "camera": 18.2,
+    "battery": 61.0,
+    "display": 44.0,
+    "value": null,
+    "perf": {
+      "index": 66.6,
+      "percentile": 83.6,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.512195",
-  "updated_at": "2026-06-19T02:27:14.512195"
+  "created_at": "2026-06-24T08:53:58.799130",
+  "updated_at": "2026-06-24T08:53:58.799143"
 }

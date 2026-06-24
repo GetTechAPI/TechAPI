@@ -1,6 +1,7 @@
 {
-  "id": 14775,
+  "id": 77640,
   "slug": "x200-pro",
+  "base_model_slug": null,
   "name": "X200 Pro",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1062,
+    "id": 1288,
     "slug": "dimensity-9400",
     "name": "MediaTek Dimensity 9400",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 69.1,
-    "performance": 77.3,
+    "algorithm_version": "2.0.0",
+    "overall": 74.0,
+    "performance": 89.2,
     "camera": 65.0,
-    "battery": 65.0,
+    "battery": 67.9,
     "display": null,
-    "value": 49.9
+    "value": 51.3,
+    "perf": {
+      "index": 89.2,
+      "percentile": 93.2,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.320694",
-  "updated_at": "2026-06-19T02:27:16.320694"
+  "created_at": "2026-06-24T08:54:23.045527",
+  "updated_at": "2026-06-24T08:54:23.045540"
 }

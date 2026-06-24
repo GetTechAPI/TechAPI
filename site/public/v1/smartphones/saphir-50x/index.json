@@ -1,6 +1,7 @@
 {
-  "id": 1163,
+  "id": 5941,
   "slug": "saphir-50x",
+  "base_model_slug": null,
   "name": "Saphir 50X",
   "brand": {
     "id": 68,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/archos"
   },
   "soc": {
-    "id": 954,
+    "id": 1141,
     "slug": "mediatek-mt6737vwt",
     "name": "Mediatek MT6737VWT",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 15.0,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.988655",
-  "updated_at": "2026-06-19T02:27:13.988655"
+  "created_at": "2026-06-24T08:53:52.368901",
+  "updated_at": "2026-06-24T08:53:52.368913"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 20350,
+  "id": 22313,
   "slug": "ibm-workpad-22x",
+  "base_model_slug": null,
   "name": "IBM WorkPad 22X",
   "brand": {
     "id": 161,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/ibm"
   },
   "soc": {
-    "id": 1597,
+    "id": 130,
     "slug": "motorola-dragonball-mc68328",
     "name": "Motorola DragonBall MC68328",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 3.35,
     "resolution": "160x160",
@@ -45,18 +47,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=1139"
   ],
-  "created_at": "2026-06-19T09:44:28.642724",
-  "updated_at": "2026-06-19T09:44:28.642724"
+  "created_at": "2026-06-24T08:53:59.247247",
+  "updated_at": "2026-06-24T08:53:59.247286"
 }

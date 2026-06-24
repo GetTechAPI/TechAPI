@@ -1,6 +1,7 @@
 {
-  "id": 12247,
+  "id": 61848,
   "slug": "sm-g715u-galaxy-xcover-pro-2020-dual-sim-td-lte-us-sm-g715a",
+  "base_model_slug": null,
   "name": "SM-G715U Galaxy XCover Pro 2020 Dual SIM TD-LTE US / SM-G715A",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1463,
+    "id": 1930,
     "slug": "exynos-9611",
     "name": "Exynos 9611",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.1,
-    "performance": 17.7,
-    "camera": 9.1,
-    "battery": 15.8,
-    "display": 45.9,
-    "value": 53.0
+    "algorithm_version": "2.0.0",
+    "overall": 37.4,
+    "performance": 55.0,
+    "camera": 10.3,
+    "battery": 35.6,
+    "display": 48.6,
+    "value": 57.7,
+    "perf": {
+      "index": 55.0,
+      "percentile": 70.0,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.858867",
-  "updated_at": "2026-06-19T02:27:15.858867"
+  "created_at": "2026-06-24T08:54:16.157591",
+  "updated_at": "2026-06-24T08:54:16.157603"
 }

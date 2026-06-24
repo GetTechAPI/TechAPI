@@ -1,6 +1,7 @@
 {
-  "id": 13186,
+  "id": 69628,
   "slug": "xperia-xz2-premium-dual-sim-td-lte-h8166",
+  "base_model_slug": null,
   "name": "Xperia XZ2 Premium Dual SIM TD-LTE H8166",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.79,
     "resolution": "2160x3840",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.5,
-    "performance": 1.5,
-    "camera": 7.3,
-    "battery": 8.1,
+    "algorithm_version": "2.0.0",
+    "overall": 35.3,
+    "performance": 39.0,
+    "camera": 8.5,
+    "battery": 28.7,
     "display": 65.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 39.0,
+      "percentile": 46.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.083056",
-  "updated_at": "2026-06-19T02:27:16.083056"
+  "created_at": "2026-06-24T08:54:19.832055",
+  "updated_at": "2026-06-24T08:54:19.832067"
 }

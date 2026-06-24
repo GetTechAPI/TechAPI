@@ -1,6 +1,7 @@
 {
-  "id": 15270,
+  "id": 80306,
   "slug": "redmi-7-dual-sim-td-lte-apac-64gb-m1810f6lh",
+  "base_model_slug": null,
   "name": "Redmi 7 Dual SIM TD-LTE APAC 64GB M1810F6LH",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1291,
+    "id": 1649,
     "slug": "snapdragon-632",
     "name": "Snapdragon 632",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.26,
     "resolution": "1520x720",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
-    "performance": 0.0,
-    "camera": 5.1,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 21.1,
+    "performance": 15.8,
+    "camera": 6.3,
+    "battery": 25.9,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": 15.8,
+      "percentile": 11.3,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.394810",
-  "updated_at": "2026-06-19T02:27:16.394810"
+  "created_at": "2026-06-24T08:54:24.051286",
+  "updated_at": "2026-06-24T08:54:24.051302"
 }

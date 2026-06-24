@@ -1,6 +1,7 @@
 {
-  "id": 530,
+  "id": 2149,
   "slug": "1s-2019-dual-sim-lte-emea-5024d",
+  "base_model_slug": null,
   "name": "1S 2019 Dual SIM LTE EMEA 5024D",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 1556,
+    "id": 2081,
     "slug": "unisoc-sc9863a",
     "name": "Unisoc SC9863A",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.7,
+    "algorithm_version": "2.0.0",
+    "overall": 20.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.9,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 15.6,
+    "display": 38.7,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.900667",
-  "updated_at": "2026-06-19T02:27:13.900667"
+  "created_at": "2026-06-24T08:53:50.970520",
+  "updated_at": "2026-06-24T08:53:50.970533"
 }

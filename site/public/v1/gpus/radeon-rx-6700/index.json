@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 11.29,
   "blender_score": 1296.41,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 73.4,
+    "graphics": {
+      "index": 73.4,
+      "percentile": 35.2,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-6700.c3941",

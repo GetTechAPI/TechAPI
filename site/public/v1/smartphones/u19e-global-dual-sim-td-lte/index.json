@@ -1,6 +1,7 @@
 {
-  "id": 3376,
+  "id": 15924,
   "slug": "u19e-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "U19e Global Dual SIM TD-LTE",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1294,
+    "id": 1652,
     "slug": "snapdragon-710",
     "name": "Snapdragon 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.4,
-    "performance": 21.5,
-    "camera": 5.1,
-    "battery": 14.0,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.4,
+    "performance": 58.7,
+    "camera": 6.3,
+    "battery": 32.6,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 58.7,
+      "percentile": 84.6,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.393011",
-  "updated_at": "2026-06-19T02:27:14.393011"
+  "created_at": "2026-06-24T08:53:56.820812",
+  "updated_at": "2026-06-24T08:53:56.820825"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 9153,
+  "id": 46519,
   "slug": "realme-v3-5g-2020-standard-edition-dual-sim-td-lte-cn-128gb-rmx2200",
+  "base_model_slug": null,
   "name": "Realme V3 5G 2020 Standard Edition Dual SIM TD-LTE CN 128GB RMX2200",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 999,
+    "id": 1187,
     "slug": "dimensity-720",
     "name": "Dimensity 720",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.1,
-    "performance": 1.5,
-    "camera": 5.3,
-    "battery": 30.6,
-    "display": 35.0,
-    "value": 16.8
+    "algorithm_version": "2.0.0",
+    "overall": 32.6,
+    "performance": 35.5,
+    "camera": 6.6,
+    "battery": 51.8,
+    "display": 36.7,
+    "value": 23.5,
+    "perf": {
+      "index": 35.5,
+      "percentile": 34.6,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.354547",
-  "updated_at": "2026-06-19T02:27:15.354547"
+  "created_at": "2026-06-24T08:54:09.949598",
+  "updated_at": "2026-06-24T08:54:09.949610"
 }

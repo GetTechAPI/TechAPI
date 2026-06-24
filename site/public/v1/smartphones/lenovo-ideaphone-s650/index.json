@@ -1,6 +1,7 @@
 {
-  "id": 20694,
+  "id": 24897,
   "slug": "lenovo-ideaphone-s650",
+  "base_model_slug": null,
   "name": "Lenovo IdeaPhone S650",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 835,
+    "id": 1013,
     "slug": "mediatek-mt6582",
     "name": "Mediatek MT6582",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "540x960",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 20.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 5.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5497"
   ],
-  "created_at": "2026-06-19T09:44:28.705995",
-  "updated_at": "2026-06-19T09:44:28.705995"
+  "created_at": "2026-06-24T08:54:00.274893",
+  "updated_at": "2026-06-24T08:54:00.274907"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15862,
+  "id": 84607,
   "slug": "xiaomi-12s-ultra",
+  "base_model_slug": null,
   "name": "Xiaomi 12S Ultra",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.73,
     "resolution": "3200x1440",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-12s-ultra.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 45.3,
-    "performance": 25.2,
-    "camera": 35.1,
-    "battery": 62.8,
-    "display": 58.2,
-    "value": 38.0
+    "algorithm_version": "2.0.0",
+    "overall": 59.6,
+    "performance": 69.3,
+    "camera": 36.1,
+    "battery": 75.2,
+    "display": 58.0,
+    "value": 44.1,
+    "perf": {
+      "index": 69.3,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/xiaomi-12s-ultra",
     "https://en.wikipedia.org/wiki/Xiaomi_12S_series"
   ],
-  "created_at": "2026-06-19T02:27:16.471362",
-  "updated_at": "2026-06-19T02:27:16.471362"
+  "created_at": "2026-06-24T08:54:25.543219",
+  "updated_at": "2026-06-24T08:54:25.543232"
 }

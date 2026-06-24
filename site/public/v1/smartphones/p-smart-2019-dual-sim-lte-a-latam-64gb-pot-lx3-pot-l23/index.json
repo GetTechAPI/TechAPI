@@ -1,6 +1,7 @@
 {
-  "id": 3992,
+  "id": 18935,
   "slug": "p-smart-2019-dual-sim-lte-a-latam-64gb-pot-lx3-pot-l23",
+  "base_model_slug": null,
   "name": "P Smart 2019 Dual SIM LTE-A LATAM 64GB POT-LX3 / POT-L23",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 705,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.21,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.4,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 6.0,
-    "display": 46.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 25.2,
+    "performance": 21.9,
+    "camera": 6.6,
+    "battery": 23.2,
+    "display": 49.1,
+    "value": null,
+    "perf": {
+      "index": 21.9,
+      "percentile": 22.6,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.477735",
-  "updated_at": "2026-06-19T02:27:14.477735"
+  "created_at": "2026-06-24T08:53:57.975337",
+  "updated_at": "2026-06-24T08:53:57.975351"
 }

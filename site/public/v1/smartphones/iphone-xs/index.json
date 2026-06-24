@@ -1,6 +1,7 @@
 {
-  "id": 892,
+  "id": 3788,
   "slug": "iphone-xs",
+  "base_model_slug": null,
   "name": "iPhone XS",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 18,
+    "id": 28,
     "slug": "apple-a12-bionic",
     "name": "Apple A12 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.8,
     "resolution": "2436x1125",
@@ -79,19 +81,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-xs.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.1,
-    "performance": 4.7,
-    "camera": 18.0,
-    "battery": 2.0,
-    "display": 15.8,
-    "value": 28.2
+    "algorithm_version": "2.0.0",
+    "overall": 31.2,
+    "performance": 55.0,
+    "camera": 19.3,
+    "battery": 29.8,
+    "display": 20.9,
+    "value": 37.0,
+    "perf": {
+      "index": 55.0,
+      "percentile": 78.0,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-xs/specs/",
     "https://en.wikipedia.org/wiki/IPhone_XS"
   ],
-  "created_at": "2026-06-19T02:27:13.951604",
-  "updated_at": "2026-06-19T02:27:13.951604"
+  "created_at": "2026-06-24T08:53:51.583040",
+  "updated_at": "2026-06-24T08:53:51.583054"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 25,
+  "id": 38,
   "slug": "apple-a15-bionic",
   "name": "Apple A15 Bionic",
   "manufacturer": {
@@ -24,13 +24,31 @@
   "gpu_clock_mhz": 1338,
   "npu_tops": 15.8,
   "modem": "Apple Modem (5G)",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 80.7,
+    "cpu": {
+      "index": 82.4,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 76.6,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-13-pro/chip/",
     "https://en.wikipedia.org/wiki/Apple_A15_Bionic",
     "https://nanoreview.net/en/soc/apple-a15-bionic"
   ],
-  "created_at": "2026-06-19T02:27:12.523780",
-  "updated_at": "2026-06-19T02:27:12.523780",
+  "created_at": "2026-06-24T08:53:43.636990",
+  "updated_at": "2026-06-24T08:53:43.637002",
   "url": "/v1/socs/apple-a15-bionic"
 }

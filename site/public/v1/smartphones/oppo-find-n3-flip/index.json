@@ -1,6 +1,7 @@
 {
-  "id": 9442,
+  "id": 49586,
   "slug": "oppo-find-n3-flip",
+  "base_model_slug": null,
   "name": "Oppo Find N3 Flip",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1050,
+    "id": 1250,
     "slug": "dimensity-9200",
     "name": "MediaTek Dimensity 9200",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.8,
     "resolution": "2520x1080",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oppo-find-n3-flip.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 38.9,
-    "performance": 31.9,
-    "camera": 35.1,
-    "battery": 40.0,
-    "display": 48.5,
-    "value": 34.9
+    "algorithm_version": "2.0.0",
+    "overall": 53.5,
+    "performance": 72.4,
+    "camera": 36.1,
+    "battery": 55.6,
+    "display": 49.7,
+    "value": 41.0,
+    "perf": {
+      "index": 72.4,
+      "percentile": 92.3,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Oppo_Find_N3_Flip",
     "https://www.oppo.com/en/smartphones/series-find-n/find-n3-flip/specs/"
   ],
-  "created_at": "2026-06-19T02:27:15.399766",
-  "updated_at": "2026-06-19T02:27:15.399766"
+  "created_at": "2026-06-24T08:54:11.041868",
+  "updated_at": "2026-06-24T08:54:11.041881"
 }

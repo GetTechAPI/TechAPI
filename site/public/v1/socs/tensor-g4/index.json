@@ -1,5 +1,5 @@
 {
-  "id": 672,
+  "id": 768,
   "slug": "tensor-g4",
   "name": "Google Tensor G4",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 940,
   "npu_tops": null,
   "modem": "Samsung Exynos Modem 5300",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 72.2,
+    "cpu": {
+      "index": 73.5,
+      "percentile": 37.5,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 69.2,
+      "percentile": 25.0,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_9_specs",
     "https://en.wikipedia.org/wiki/Google_Tensor"
   ],
-  "created_at": "2026-06-19T02:27:12.564343",
-  "updated_at": "2026-06-19T02:27:12.564343",
+  "created_at": "2026-06-24T08:53:43.744870",
+  "updated_at": "2026-06-24T08:53:43.744881",
   "url": "/v1/socs/tensor-g4"
 }

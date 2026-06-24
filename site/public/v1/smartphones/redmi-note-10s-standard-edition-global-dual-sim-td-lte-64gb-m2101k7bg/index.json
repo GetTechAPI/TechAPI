@@ -1,6 +1,7 @@
 {
-  "id": 15742,
+  "id": 82901,
   "slug": "redmi-note-10s-standard-edition-global-dual-sim-td-lte-64gb-m2101k7bg",
+  "base_model_slug": null,
   "name": "Redmi Note 10S Standard Edition Global Dual SIM TD-LTE 64GB M2101K7BG",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1008,
+    "id": 1196,
     "slug": "helio-g95",
     "name": "Helio G95",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.6,
-    "performance": 1.5,
-    "camera": 21.7,
-    "battery": 33.4,
-    "display": 45.9,
-    "value": 62.8
+    "algorithm_version": "2.0.0",
+    "overall": 37.4,
+    "performance": 34.5,
+    "camera": 22.6,
+    "battery": 44.0,
+    "display": 48.6,
+    "value": 67.7,
+    "perf": {
+      "index": 34.5,
+      "percentile": 33.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.456852",
-  "updated_at": "2026-06-19T02:27:16.456852"
+  "created_at": "2026-06-24T08:54:24.949622",
+  "updated_at": "2026-06-24T08:54:24.949634"
 }

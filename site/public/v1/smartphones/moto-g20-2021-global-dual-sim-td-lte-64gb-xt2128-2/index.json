@@ -1,6 +1,7 @@
 {
-  "id": 7447,
+  "id": 36538,
   "slug": "moto-g20-2021-global-dual-sim-td-lte-64gb-xt2128-2",
+  "base_model_slug": null,
   "name": "Moto G20 2021 Global Dual SIM TD-LTE 64GB XT2128-2",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1558,
+    "id": 2083,
     "slug": "tiger-t700",
     "name": "Unisoc Tiger T700",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.1,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.0,
-    "display": 30.0,
-    "value": 59.5
+    "algorithm_version": "2.0.0",
+    "overall": 27.7,
+    "performance": 24.2,
+    "camera": 17.5,
+    "battery": 40.0,
+    "display": 29.2,
+    "value": 63.9,
+    "perf": {
+      "index": 24.2,
+      "percentile": 22.1,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.066348",
-  "updated_at": "2026-06-19T02:27:15.066348"
+  "created_at": "2026-06-24T08:54:05.527982",
+  "updated_at": "2026-06-24T08:54:05.527994"
 }

@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 12-channel ECC",
   "msrp_usd": 4850,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 80.9,
+    "single": {
+      "index": 86.9,
+      "percentile": 73.8,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 76.0,
+      "percentile": 80.5,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-9374f",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+9374F"
   ],
-  "created_at": "2026-06-19T02:27:18.145109",
-  "updated_at": "2026-06-19T02:27:18.145109",
+  "created_at": "2026-06-24T08:54:40.904445",
+  "updated_at": "2026-06-24T08:54:40.904456",
   "url": "/v1/cpus/epyc-9374f"
 }

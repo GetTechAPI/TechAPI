@@ -1,6 +1,7 @@
 {
-  "id": 9582,
+  "id": 50679,
   "slug": "eluga-a3",
+  "base_model_slug": null,
   "name": "Eluga A3",
   "brand": {
     "id": 103,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/panasonic"
   },
   "soc": {
-    "id": 1017,
+    "id": 1210,
     "slug": "mediatek-mt6737",
     "name": "Mediatek MT6737",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.2,
+    "algorithm_version": "2.0.0",
+    "overall": 15.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 15.0,
+    "camera": 6.6,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.423771",
-  "updated_at": "2026-06-19T02:27:15.423771"
+  "created_at": "2026-06-24T08:54:11.519884",
+  "updated_at": "2026-06-24T08:54:11.519897"
 }

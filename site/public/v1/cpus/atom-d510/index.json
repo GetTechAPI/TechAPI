@@ -24,13 +24,31 @@
   "integrated_graphics": "Intel GMA 3150",
   "memory_support": "DDR2-800",
   "msrp_usd": 63,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 5.6,
+    "single": {
+      "index": 0.0,
+      "percentile": 9.9,
+      "tier": "E",
+      "era": "2010-2013",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 10.1,
+      "percentile": 14.1,
+      "tier": "E",
+      "era": "2010-2013",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Intel_Atom",
     "https://ark.intel.com/content/www/us/en/ark/products/43098/intel-atom-processor-d510-1m-cache-1-66-ghz.html",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+D510"
   ],
-  "created_at": "2026-06-19T02:27:18.201250",
-  "updated_at": "2026-06-19T02:27:18.201250",
+  "created_at": "2026-06-24T08:54:41.037907",
+  "updated_at": "2026-06-24T08:54:41.037918",
   "url": "/v1/cpus/atom-d510"
 }

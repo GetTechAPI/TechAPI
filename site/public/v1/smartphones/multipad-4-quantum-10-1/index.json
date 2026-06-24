@@ -1,6 +1,7 @@
 {
-  "id": 10114,
+  "id": 51939,
   "slug": "multipad-4-quantum-10-1",
+  "base_model_slug": null,
   "name": "Multipad 4 Quantum 10.1",
   "brand": {
     "id": 56,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/prestigio"
   },
   "soc": {
-    "id": 573,
+    "id": 651,
     "slug": "rockchip-rk3188",
     "name": "Rockchip RK3188",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "800x1280",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 25.0,
     "performance": null,
     "camera": 5.0,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.515894",
-  "updated_at": "2026-06-19T02:27:15.515894"
+  "created_at": "2026-06-24T08:54:12.097396",
+  "updated_at": "2026-06-24T08:54:12.097409"
 }

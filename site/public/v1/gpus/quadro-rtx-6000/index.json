@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 16.31,
   "blender_score": 2705.76,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 78.3,
+    "graphics": {
+      "index": 78.3,
+      "percentile": 91.0,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Nvidia_Quadro#Quadro_RTX_series",
     "https://www.techpowerup.com/gpu-specs/quadro-rtx-6000.c3307",

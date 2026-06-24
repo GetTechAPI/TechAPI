@@ -1,6 +1,7 @@
 {
-  "id": 9057,
+  "id": 45856,
   "slug": "f17-2020-standard-edition-dual-sim-td-lte-v1-in-128gb-cph2095",
+  "base_model_slug": null,
   "name": "F17 2020 Standard Edition Dual SIM TD-LTE V1 IN 128GB CPH2095",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1338,
+    "id": 1707,
     "slug": "snapdragon-662",
     "name": "Snapdragon 662",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.44,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.0,
-    "performance": 1.5,
-    "camera": 6.3,
-    "battery": 15.8,
-    "display": 28.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 24.3,
+    "performance": 25.0,
+    "camera": 7.5,
+    "battery": 33.7,
+    "display": 31.1,
+    "value": null,
+    "perf": {
+      "index": 25.0,
+      "percentile": 24.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.340557",
-  "updated_at": "2026-06-19T02:27:15.340557"
+  "created_at": "2026-06-24T08:54:09.695049",
+  "updated_at": "2026-06-24T08:54:09.695062"
 }

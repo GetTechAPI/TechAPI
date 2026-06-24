@@ -1,6 +1,7 @@
 {
-  "id": 15453,
+  "id": 81092,
   "slug": "mi-note-10-lite-global-dual-sim-td-lte-64gb-m2002f4lg",
+  "base_model_slug": null,
   "name": "Mi Note 10 Lite Global Dual SIM TD-LTE 64GB M2002F4LG",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1323,
+    "id": 1684,
     "slug": "snapdragon-730",
     "name": "Snapdragon 730",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.47,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.2,
-    "performance": 1.5,
-    "camera": 21.7,
-    "battery": 36.7,
-    "display": 44.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 40.9,
+    "performance": 38.9,
+    "camera": 22.6,
+    "battery": 54.5,
+    "display": 47.7,
+    "value": null,
+    "perf": {
+      "index": 38.9,
+      "percentile": 48.1,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.419830",
-  "updated_at": "2026-06-19T02:27:16.419830"
+  "created_at": "2026-06-24T08:54:24.318051",
+  "updated_at": "2026-06-24T08:54:24.318064"
 }

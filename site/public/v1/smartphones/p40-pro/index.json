@@ -1,6 +1,7 @@
 {
-  "id": 4175,
+  "id": 20147,
   "slug": "p40-pro",
+  "base_model_slug": null,
   "name": "P40 Pro+",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 710,
+    "id": 843,
     "slug": "kirin-990-5g",
     "name": "HiSilicon Kirin 990 5G",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": "1200x2640",
@@ -58,18 +60,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 9.1,
-    "performance": 3.0,
-    "camera": 6.4,
-    "battery": 18.0,
+    "algorithm_version": "2.0.0",
+    "overall": 32.5,
+    "performance": 48.5,
+    "camera": 7.5,
+    "battery": 41.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 48.5,
+      "percentile": 60.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.502195",
-  "updated_at": "2026-06-19T02:27:14.502195"
+  "created_at": "2026-06-24T08:53:58.402514",
+  "updated_at": "2026-06-24T08:53:58.402526"
 }

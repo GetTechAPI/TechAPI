@@ -1,6 +1,7 @@
 {
-  "id": 4705,
+  "id": 24289,
   "slug": "iris-x1",
+  "base_model_slug": null,
   "name": "Iris X1",
   "brand": {
     "id": 92,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lava"
   },
   "soc": {
-    "id": 667,
+    "id": 762,
     "slug": "broadcom-bcm23550",
     "name": "Broadcom BCM23550",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.5,
     "resolution": "480x854",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 5.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 6.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.580336",
-  "updated_at": "2026-06-19T02:27:14.580336"
+  "created_at": "2026-06-24T08:54:00.033701",
+  "updated_at": "2026-06-24T08:54:00.033715"
 }

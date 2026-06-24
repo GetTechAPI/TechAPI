@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel HD Graphics 2500",
   "memory_support": "DDR3-1600 dual-channel",
   "msrp_usd": 184,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 24.4,
+    "single": {
+      "index": 35.7,
+      "percentile": 45.1,
+      "tier": "C",
+      "era": "2010-2013",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 15.2,
+      "percentile": 29.6,
+      "tier": "D",
+      "era": "2010-2013",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/List_of_Intel_Core_processors",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Core-i5-3470",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.221306",
-  "updated_at": "2026-06-19T02:27:18.221306",
+  "created_at": "2026-06-24T08:54:41.083954",
+  "updated_at": "2026-06-24T08:54:41.083964",
   "url": "/v1/cpus/core-i5-3470"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 1436,
+  "id": 1896,
   "slug": "exynos-7420",
   "name": "Exynos 7420",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 770,
   "npu_tops": null,
   "modem": "Shannon 333 LTE",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 71.1,
+    "cpu": {
+      "index": 71.1,
+      "percentile": 85.7,
+      "tier": "A",
+      "era": "2014-2016",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Exynos_7420",
     "https://semiconductor.samsung.com/processor/mobile-processor/exynos-7-series-7420/"
   ],
-  "created_at": "2026-06-19T02:27:12.610844",
-  "updated_at": "2026-06-19T02:27:12.610844",
+  "created_at": "2026-06-24T08:53:43.938498",
+  "updated_at": "2026-06-24T08:53:43.938509",
   "url": "/v1/socs/exynos-7420"
 }

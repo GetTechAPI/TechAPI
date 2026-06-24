@@ -1,6 +1,7 @@
 {
-  "id": 7106,
+  "id": 34747,
   "slug": "moto-e5-play-lte-us-16gb-xt1921-2-moto-e5-cruise",
+  "base_model_slug": null,
   "name": "Moto E5 Play LTE US 16GB XT1921-2 / Moto E5 Cruise",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1263,
+    "id": 1620,
     "slug": "snapdragon-427",
     "name": "Snapdragon 427",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 18.6,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 13.0,
+    "display": 37.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.952214",
-  "updated_at": "2026-06-19T02:27:14.952214"
+  "created_at": "2026-06-24T08:54:04.899795",
+  "updated_at": "2026-06-24T08:54:04.899807"
 }

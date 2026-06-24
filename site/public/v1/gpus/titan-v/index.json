@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 14.9,
   "blender_score": 1744.73,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 77.4,
+    "graphics": {
+      "index": 77.4,
+      "percentile": 88.5,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Volta_(microarchitecture)",
     "https://www.techpowerup.com/gpu-specs/titan-v.c3051",

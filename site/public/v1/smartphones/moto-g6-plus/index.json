@@ -1,6 +1,7 @@
 {
-  "id": 7152,
+  "id": 34941,
   "slug": "moto-g6-plus",
+  "base_model_slug": null,
   "name": "Moto G6 Plus",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1275,
+    "id": 1632,
     "slug": "qualcomm-sdm630-snapdragon-630",
     "name": "Qualcomm SDM630 Snapdragon 630",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.9,
     "resolution": "1080x2160",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.0,
+    "algorithm_version": "2.0.0",
+    "overall": 11.7,
     "performance": null,
-    "camera": 5.0,
-    "battery": 3.0,
+    "camera": 6.3,
+    "battery": 17.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.957214",
-  "updated_at": "2026-06-19T02:27:14.957214"
+  "created_at": "2026-06-24T08:54:04.964739",
+  "updated_at": "2026-06-24T08:54:04.964751"
 }

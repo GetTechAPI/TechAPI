@@ -1,5 +1,5 @@
 {
-  "id": 1209,
+  "id": 1546,
   "slug": "snapdragon-805",
   "name": "Snapdragon 805",
   "manufacturer": {
@@ -23,12 +23,30 @@
   "gpu_clock_mhz": 600,
   "npu_tops": null,
   "modem": "External modem",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 60.6,
+    "cpu": {
+      "index": 60.6,
+      "percentile": 64.3,
+      "tier": "B",
+      "era": "2014-2016",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Qualcomm_Snapdragon",
     "https://www.qualcomm.com/products/snapdragon-805-mobile-platform"
   ],
-  "created_at": "2026-06-19T02:27:12.597850",
-  "updated_at": "2026-06-19T02:27:12.597850",
+  "created_at": "2026-06-24T08:53:43.888569",
+  "updated_at": "2026-06-24T08:53:43.888580",
   "url": "/v1/socs/snapdragon-805"
 }

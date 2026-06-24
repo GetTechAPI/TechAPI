@@ -1,6 +1,7 @@
 {
-  "id": 14641,
+  "id": 75451,
   "slug": "y12s",
+  "base_model_slug": null,
   "name": "Y12s",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.51,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.8,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 18.3,
+    "performance": 9.1,
+    "camera": 6.6,
+    "battery": 39.2,
     "display": null,
-    "value": 55.9
+    "value": 59.1,
+    "perf": {
+      "index": 9.1,
+      "percentile": 7.9,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.301678",
-  "updated_at": "2026-06-19T02:27:16.301678"
+  "created_at": "2026-06-24T08:54:22.184560",
+  "updated_at": "2026-06-24T08:54:22.184572"
 }

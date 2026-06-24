@@ -1,6 +1,7 @@
 {
-  "id": 890,
+  "id": 3786,
   "slug": "iphone-xs-max-a2104-dual-sim-td-lte-cn-64gb",
+  "base_model_slug": null,
   "name": "iPhone Xs Max A2104 Dual SIM TD-LTE CN 64GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 18,
+    "id": 28,
     "slug": "apple-a12-bionic",
     "name": "Apple A12 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1242x2688",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.8,
-    "performance": 4.7,
-    "camera": 5.1,
-    "battery": 2.7,
-    "display": 50.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.4,
+    "performance": 55.0,
+    "camera": 6.3,
+    "battery": 31.4,
+    "display": 52.7,
+    "value": null,
+    "perf": {
+      "index": 55.0,
+      "percentile": 78.0,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.951604",
-  "updated_at": "2026-06-19T02:27:13.951604"
+  "created_at": "2026-06-24T08:53:51.582398",
+  "updated_at": "2026-06-24T08:53:51.582412"
 }

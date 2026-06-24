@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 8-channel ECC",
   "msrp_usd": 1350,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 48.7,
+    "single": {
+      "index": 43.9,
+      "percentile": 30.1,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 52.6,
+      "percentile": 69.4,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-7352",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7352"
   ],
-  "created_at": "2026-06-19T02:27:18.126233",
-  "updated_at": "2026-06-19T02:27:18.126233",
+  "created_at": "2026-06-24T08:54:40.860325",
+  "updated_at": "2026-06-24T08:54:40.860337",
   "url": "/v1/cpus/epyc-7352"
 }

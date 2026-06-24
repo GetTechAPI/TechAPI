@@ -1,6 +1,7 @@
 {
-  "id": 4964,
+  "id": 25609,
   "slug": "tab-4-8-plus",
+  "base_model_slug": null,
   "name": "Tab 4 8 Plus",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1272,
+    "id": 1629,
     "slug": "qualcomm-msm8953-snapdragon-625",
     "name": "Qualcomm MSM8953 Snapdragon 625",
     "manufacturer": {
@@ -31,6 +32,7 @@
     16,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "1200x1920",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.4,
+    "algorithm_version": "2.0.0",
+    "overall": 19.2,
     "performance": null,
     "camera": 5.0,
-    "battery": 27.8,
+    "battery": 33.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.616870",
-  "updated_at": "2026-06-19T02:27:14.616870"
+  "created_at": "2026-06-24T08:54:00.555787",
+  "updated_at": "2026-06-24T08:54:00.555799"
 }

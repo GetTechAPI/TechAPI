@@ -1,6 +1,7 @@
 {
-  "id": 3741,
+  "id": 17864,
   "slug": "nova-3-dual-sim-lte-a-emea-par-lx1m-par-l21m",
+  "base_model_slug": null,
   "name": "Nova 3 Dual SIM LTE-A EMEA PAR-LX1M / PAR-L21M",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 704,
+    "id": 837,
     "slug": "kirin-970",
     "name": "Kirin 970",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 24.5,
-    "camera": 8.8,
-    "battery": 11.2,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 37.4,
+    "performance": 60.1,
+    "camera": 9.9,
+    "battery": 30.8,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 60.1,
+      "percentile": 87.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.445184",
-  "updated_at": "2026-06-19T02:27:14.445184"
+  "created_at": "2026-06-24T08:53:57.579576",
+  "updated_at": "2026-06-24T08:53:57.579590"
 }

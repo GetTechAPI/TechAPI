@@ -1,6 +1,7 @@
 {
-  "id": 4277,
+  "id": 21748,
   "slug": "mate-60-pro",
+  "base_model_slug": null,
   "name": "Mate 60 Pro",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 716,
+    "id": 849,
     "slug": "kirin-9000s",
     "name": "HiSilicon Kirin 9000S",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": 1299,
   "ram_gb": 12,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 6.82,
     "resolution": null,
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.0,
-    "performance": 7.0,
-    "camera": 17.1,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 41.2,
+    "performance": 55.8,
+    "camera": 18.1,
+    "battery": 49.6,
     "display": null,
-    "value": 20.6
+    "value": 31.4,
+    "perf": {
+      "index": 55.8,
+      "percentile": 64.5,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.514200",
-  "updated_at": "2026-06-19T02:27:14.514200"
+  "created_at": "2026-06-24T08:53:58.984428",
+  "updated_at": "2026-06-24T08:53:58.984441"
 }

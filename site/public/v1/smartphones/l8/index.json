@@ -1,6 +1,7 @@
 {
-  "id": 2834,
+  "id": 13013,
   "slug": "l8",
+  "base_model_slug": null,
   "name": "L8",
   "brand": {
     "id": 21,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/haier"
   },
   "soc": {
-    "id": 1330,
+    "id": 1691,
     "slug": "qualcomm-sdm450-snapdragon-450",
     "name": "Qualcomm SDM450 Snapdragon 450",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.99,
     "resolution": "1080x2160",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.7,
     "performance": null,
-    "camera": 5.0,
-    "battery": 15.0,
+    "camera": 6.3,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.263178",
-  "updated_at": "2026-06-19T02:27:14.263178"
+  "created_at": "2026-06-24T08:53:55.267558",
+  "updated_at": "2026-06-24T08:53:55.267571"
 }

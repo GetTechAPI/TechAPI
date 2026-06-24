@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 45.25,
   "blender_score": 2818.45,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 74.1,
+    "graphics": {
+      "index": 74.1,
+      "percentile": 35.8,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_Pro",
     "https://www.techpowerup.com/gpu-specs/radeon-pro-w7800.c4147",

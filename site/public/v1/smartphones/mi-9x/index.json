@@ -1,6 +1,7 @@
 {
-  "id": 15104,
+  "id": 79482,
   "slug": "mi-9x",
+  "base_model_slug": null,
   "name": "Mi 9X",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1307,
+    "id": 1665,
     "slug": "qualcomm-sdm675-snapdragon-675",
     "name": "Qualcomm SDM675 Snapdragon 675",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.39,
     "resolution": "1080x2340",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.5,
+    "algorithm_version": "2.0.0",
+    "overall": 20.9,
     "performance": null,
-    "camera": 16.5,
-    "battery": 4.5,
+    "camera": 17.5,
+    "battery": 24.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.371304",
-  "updated_at": "2026-06-19T02:27:16.372324"
+  "created_at": "2026-06-24T08:54:23.767806",
+  "updated_at": "2026-06-24T08:54:23.767818"
 }

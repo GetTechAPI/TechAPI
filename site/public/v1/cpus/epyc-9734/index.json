@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 12-channel ECC",
   "msrp_usd": 9600,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 84.3,
+    "single": {
+      "index": 70.3,
+      "percentile": 26.2,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 95.7,
+      "percentile": 98.8,
+      "tier": "S",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-9734",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+9734"
   ],
-  "created_at": "2026-06-19T02:27:18.148374",
-  "updated_at": "2026-06-19T02:27:18.148374",
+  "created_at": "2026-06-24T08:54:40.911682",
+  "updated_at": "2026-06-24T08:54:40.911693",
   "url": "/v1/cpus/epyc-9734"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 550,
+  "id": 2279,
   "slug": "3x-2019-lte-am-5048a",
+  "base_model_slug": null,
   "name": "3x 2019 LTE AM 5048A",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 913,
+    "id": 1100,
     "slug": "helio-p23",
     "name": "Helio P23",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.1,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 19.2,
+    "performance": 7.6,
+    "camera": 7.5,
+    "battery": 25.0,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": 7.6,
+      "percentile": 3.5,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.902667",
-  "updated_at": "2026-06-19T02:27:13.902667"
+  "created_at": "2026-06-24T08:53:51.013431",
+  "updated_at": "2026-06-24T08:53:51.013443"
 }

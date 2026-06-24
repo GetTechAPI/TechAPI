@@ -1,6 +1,7 @@
 {
-  "id": 3020,
+  "id": 13917,
   "slug": "honor-x8",
+  "base_model_slug": null,
   "name": "Honor X8",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 1347,
+    "id": 1727,
     "slug": "snapdragon-480-plus",
     "name": "Snapdragon 480 Plus",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.7,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 31.4,
-    "display": 17.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.5,
+    "performance": 34.9,
+    "camera": 17.5,
+    "battery": 50.5,
+    "display": 19.2,
+    "value": null,
+    "perf": {
+      "index": 34.9,
+      "percentile": 18.7,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.342486",
-  "updated_at": "2026-06-19T02:27:14.342486"
+  "created_at": "2026-06-24T08:53:56.020692",
+  "updated_at": "2026-06-24T08:53:56.020705"
 }

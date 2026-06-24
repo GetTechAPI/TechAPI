@@ -1,6 +1,7 @@
 {
-  "id": 15171,
+  "id": 79799,
   "slug": "redmi-note-5-premium-edition-global-dual-sim-td-lte-64gb-meg7s-m1803e7sg",
+  "base_model_slug": null,
   "name": "Redmi Note 5 Premium Edition Global Dual SIM TD-LTE 64GB MEG7S / M1803E7SG",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1266,
+    "id": 1623,
     "slug": "snapdragon-636",
     "name": "Snapdragon 636",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.99,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.7,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 15.0,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 24.9,
+    "performance": 20.2,
+    "camera": 6.3,
+    "battery": 25.0,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 20.2,
+      "percentile": 20.7,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.381304",
-  "updated_at": "2026-06-19T02:27:16.381304"
+  "created_at": "2026-06-24T08:54:23.877246",
+  "updated_at": "2026-06-24T08:54:23.877281"
 }

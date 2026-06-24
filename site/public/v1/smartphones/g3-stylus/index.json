@@ -1,6 +1,7 @@
 {
-  "id": 5562,
+  "id": 27950,
   "slug": "g3-stylus",
+  "base_model_slug": null,
   "name": "G3 Stylus",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 835,
+    "id": 1013,
     "slug": "mediatek-mt6582",
     "name": "Mediatek MT6582",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "540x960",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.6,
+    "algorithm_version": "2.0.0",
+    "overall": 10.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
+    "camera": 6.6,
+    "battery": 15.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.714943",
-  "updated_at": "2026-06-19T02:27:14.714943"
+  "created_at": "2026-06-24T08:54:02.079281",
+  "updated_at": "2026-06-24T08:54:02.079298"
 }

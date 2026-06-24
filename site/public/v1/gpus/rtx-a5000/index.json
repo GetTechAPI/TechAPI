@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 27.77,
   "blender_score": 4390.48,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 79.8,
+    "graphics": {
+      "index": 79.8,
+      "percentile": 75.2,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/design-visualization/rtx-a5000/",
     "https://www.techpowerup.com/gpu-specs/rtx-a5000.c3748",

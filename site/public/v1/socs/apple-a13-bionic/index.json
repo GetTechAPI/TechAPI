@@ -1,5 +1,5 @@
 {
-  "id": 21,
+  "id": 32,
   "slug": "apple-a13-bionic",
   "name": "Apple A13 Bionic",
   "manufacturer": {
@@ -24,13 +24,31 @@
   "gpu_clock_mhz": 1230,
   "npu_tops": 5.0,
   "modem": "Intel XMM 7660",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 71.8,
+    "cpu": {
+      "index": 72.9,
+      "percentile": 83.6,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 69.3,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-11/chip/",
     "https://en.wikipedia.org/wiki/Apple_A13_Bionic",
     "https://nanoreview.net/en/soc/apple-a13-bionic"
   ],
-  "created_at": "2026-06-19T02:27:12.523780",
-  "updated_at": "2026-06-19T02:27:12.523780",
+  "created_at": "2026-06-24T08:53:43.636161",
+  "updated_at": "2026-06-24T08:53:43.636172",
   "url": "/v1/socs/apple-a13-bionic"
 }

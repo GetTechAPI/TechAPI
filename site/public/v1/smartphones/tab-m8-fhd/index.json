@@ -1,6 +1,7 @@
 {
-  "id": 5018,
+  "id": 25790,
   "slug": "tab-m8-fhd",
+  "base_model_slug": null,
   "name": "Tab M8 (FHD)",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 987,
+    "id": 1175,
     "slug": "mediatek-mt6762-helio-p22t",
     "name": "Mediatek MT6762 Helio P22T",
     "manufacturer": {
@@ -31,6 +32,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "1200x1920",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
+    "algorithm_version": "2.0.0",
+    "overall": 23.4,
     "performance": null,
-    "camera": 5.3,
-    "battery": 31.5,
+    "camera": 6.6,
+    "battery": 40.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.622869",
-  "updated_at": "2026-06-19T02:27:14.622869"
+  "created_at": "2026-06-24T08:54:00.623173",
+  "updated_at": "2026-06-24T08:54:00.623186"
 }

@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 12-channel ECC",
   "msrp_usd": 2730,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 77.7,
+    "single": {
+      "index": 82.9,
+      "percentile": 62.2,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 73.5,
+      "percentile": 75.0,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-9354p",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+9354P"
   ],
-  "created_at": "2026-06-19T02:27:18.145109",
-  "updated_at": "2026-06-19T02:27:18.145109",
+  "created_at": "2026-06-24T08:54:40.904234",
+  "updated_at": "2026-06-24T08:54:40.904245",
   "url": "/v1/cpus/epyc-9354p"
 }

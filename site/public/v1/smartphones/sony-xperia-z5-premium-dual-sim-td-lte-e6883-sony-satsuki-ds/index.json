@@ -1,6 +1,7 @@
 {
-  "id": 28495,
+  "id": 69201,
   "slug": "sony-xperia-z5-premium-dual-sim-td-lte-e6883-sony-satsuki-ds",
+  "base_model_slug": null,
   "name": "Sony Xperia Z5 Premium Dual SIM TD-LTE E6883 (Sony Satsuki DS)",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1893,
+    "id": 1581,
     "slug": "qualcomm-snapdragon-810-msm8994-v2-1",
     "name": "Qualcomm Snapdragon 810 MSM8994 V2 1",
     "manufacturer": {
@@ -18,8 +19,8 @@
       "name": "Qualcomm",
       "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 20.0,
+    "gpu_name": "Adreno 430",
     "url": "/v1/socs/qualcomm-snapdragon-810-msm8994-v2-1"
   },
   "release_date": "2015-11-22",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.47,
     "resolution": "2160x3840",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 35.7,
+    "algorithm_version": "2.0.0",
+    "overall": 42.1,
     "performance": null,
     "camera": null,
-    "battery": 6.4,
+    "battery": 19.3,
     "display": 65.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=8858"
   ],
-  "created_at": "2026-06-19T09:44:30.815333",
-  "updated_at": "2026-06-19T09:44:30.815333"
+  "created_at": "2026-06-24T08:54:19.675644",
+  "updated_at": "2026-06-24T08:54:19.675657"
 }

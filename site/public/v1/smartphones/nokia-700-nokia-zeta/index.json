@@ -1,6 +1,7 @@
 {
-  "id": 23099,
+  "id": 39656,
   "slug": "nokia-700-nokia-zeta",
+  "base_model_slug": null,
   "name": "Nokia 700 (Nokia Zeta)",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1627,
+    "id": 333,
     "slug": "arm-1136jf-s",
     "name": "ARM 1136JF-S",
     "manufacturer": {
@@ -18,7 +19,7 @@
       "name": "Arm",
       "url": "/v1/brands/arm"
     },
-    "process_nm": 28.0,
+    "process_nm": 45.0,
     "gpu_name": "N/A",
     "url": "/v1/socs/arm-1136jf-s"
   },
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     2
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.19,
     "resolution": "360x640",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=2991"
   ],
-  "created_at": "2026-06-19T09:44:29.422432",
-  "updated_at": "2026-06-19T09:44:29.422432"
+  "created_at": "2026-06-24T08:54:06.860392",
+  "updated_at": "2026-06-24T08:54:06.860405"
 }

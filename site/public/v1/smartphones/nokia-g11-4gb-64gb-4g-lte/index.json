@@ -1,5 +1,5 @@
 {
-  "id": 19463,
+  "id": 41610,
   "slug": "nokia-g11-4gb-64gb-4g-lte",
   "base_model_slug": "g11",
   "name": "Nokia G11",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 2063,
+    "id": 2085,
     "slug": "unisoc-t606",
     "name": "Unisoc T606",
     "manufacturer": {
@@ -64,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.3,
-    "performance": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 30.2,
+    "performance": 20.6,
     "camera": null,
-    "battery": 30.7,
+    "battery": 39.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 20.6,
+      "percentile": 9.5,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:15.053332",
-  "updated_at": "2026-06-20T12:45:15.053332"
+  "created_at": "2026-06-24T08:54:07.575000",
+  "updated_at": "2026-06-24T08:54:07.575013"
 }

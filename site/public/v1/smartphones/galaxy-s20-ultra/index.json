@@ -1,6 +1,7 @@
 {
-  "id": 12118,
+  "id": 60992,
   "slug": "galaxy-s20-ultra",
+  "base_model_slug": null,
   "name": "Galaxy S20 Ultra",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.9,
     "resolution": "3200x1440",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s20-ultra.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 38.5,
-    "performance": 6.0,
-    "camera": 53.7,
-    "battery": 38.7,
-    "display": 55.6,
-    "value": 27.0
+    "algorithm_version": "2.0.0",
+    "overall": 56.2,
+    "performance": 55.2,
+    "camera": 54.3,
+    "battery": 59.5,
+    "display": 55.8,
+    "value": 35.3,
+    "perf": {
+      "index": 55.2,
+      "percentile": 73.4,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.samsung.com/global/galaxy/galaxy-s20-ultra/specs/",
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_S20"
   ],
-  "created_at": "2026-06-19T02:27:15.842861",
-  "updated_at": "2026-06-19T02:27:15.842861"
+  "created_at": "2026-06-24T08:54:15.834572",
+  "updated_at": "2026-06-24T08:54:15.834585"
 }

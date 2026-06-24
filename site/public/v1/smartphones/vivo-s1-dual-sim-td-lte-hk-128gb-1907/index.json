@@ -1,6 +1,7 @@
 {
-  "id": 14371,
+  "id": 74779,
   "slug": "vivo-s1-dual-sim-td-lte-hk-128gb-1907",
+  "base_model_slug": null,
   "name": "Vivo S1 Dual SIM TD-LTE HK 128GB 1907",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 972,
+    "id": 1159,
     "slug": "helio-p65",
     "name": "Helio P65",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.38,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.1,
-    "performance": 1.5,
-    "camera": 6.3,
-    "battery": 23.1,
-    "display": 45.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.2,
+    "performance": 24.6,
+    "camera": 7.5,
+    "battery": 36.4,
+    "display": 48.2,
+    "value": null,
+    "perf": {
+      "index": 24.6,
+      "percentile": 31.9,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.267207",
-  "updated_at": "2026-06-19T02:27:16.267207"
+  "created_at": "2026-06-24T08:54:21.926605",
+  "updated_at": "2026-06-24T08:54:21.926617"
 }

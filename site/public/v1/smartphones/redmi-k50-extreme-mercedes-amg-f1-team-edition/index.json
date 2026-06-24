@@ -1,6 +1,7 @@
 {
-  "id": 15813,
+  "id": 84155,
   "slug": "redmi-k50-extreme-mercedes-amg-f1-team-edition",
+  "base_model_slug": null,
   "name": "Redmi K50 Extreme Mercedes-AMG F1 Team Edition",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1220x2712",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 45.8,
-    "performance": 25.2,
-    "camera": 35.7,
-    "battery": 65.0,
-    "display": 57.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 58.9,
+    "performance": 69.3,
+    "camera": 36.3,
+    "battery": 75.8,
+    "display": 54.3,
+    "value": null,
+    "perf": {
+      "index": 69.3,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.465363",
-  "updated_at": "2026-06-19T02:27:16.465363"
+  "created_at": "2026-06-24T08:54:25.392599",
+  "updated_at": "2026-06-24T08:54:25.392612"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 9388,
+  "id": 47839,
   "slug": "reno6-5g",
+  "base_model_slug": null,
   "name": "Reno6 5G",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1037,
+    "id": 1230,
     "slug": "dimensity-900",
     "name": "Dimensity 900",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.4,
-    "performance": 6.0,
-    "camera": 21.6,
-    "battery": 24.5,
+    "algorithm_version": "2.0.0",
+    "overall": 37.7,
+    "performance": 45.8,
+    "camera": 22.5,
+    "battery": 44.7,
     "display": null,
-    "value": 56.8
+    "value": 63.6,
+    "perf": {
+      "index": 45.8,
+      "percentile": 58.3,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.390248",
-  "updated_at": "2026-06-19T02:27:15.390248"
+  "created_at": "2026-06-24T08:54:10.417912",
+  "updated_at": "2026-06-24T08:54:10.417925"
 }

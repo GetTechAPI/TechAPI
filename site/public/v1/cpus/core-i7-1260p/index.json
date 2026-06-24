@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel Iris Xe Graphics (96EU)",
   "memory_support": "LPDDR5-5200 / DDR5-4800",
   "msrp_usd": 482,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 55.6,
+    "single": {
+      "index": 79.0,
+      "percentile": 49.4,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 36.5,
+      "percentile": 13.4,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Alder_Lake",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-1260P",
     "https://technical.city/en/cpu/Core-i7-1260P"
   ],
-  "created_at": "2026-06-19T02:27:18.384849",
-  "updated_at": "2026-06-19T02:27:18.384849",
+  "created_at": "2026-06-24T08:54:41.380842",
+  "updated_at": "2026-06-24T08:54:41.380853",
   "url": "/v1/cpus/core-i7-1260p"
 }

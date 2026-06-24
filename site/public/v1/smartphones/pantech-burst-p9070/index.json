@@ -1,6 +1,7 @@
 {
-  "id": 24888,
+  "id": 50971,
   "slug": "pantech-burst-p9070",
+  "base_model_slug": null,
   "name": "Pantech Burst P9070",
   "brand": {
     "id": 112,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/pantech"
   },
   "soc": {
-    "id": 1831,
+    "id": 1439,
     "slug": "qualcomm-snapdragon-s3-apq8060",
     "name": "Qualcomm Snapdragon S3 APQ8060",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.98,
     "resolution": "480x800",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 18.2,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 1.5,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=3315"
   ],
-  "created_at": "2026-06-19T09:44:29.838530",
-  "updated_at": "2026-06-19T09:44:29.838530"
+  "created_at": "2026-06-24T08:54:11.651671",
+  "updated_at": "2026-06-24T08:54:11.651683"
 }

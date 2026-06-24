@@ -1,5 +1,5 @@
 {
-  "id": 710,
+  "id": 843,
   "slug": "kirin-990-5g",
   "name": "HiSilicon Kirin 990 5G",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 750,
   "npu_tops": null,
   "modem": "Balong 5000 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 53.0,
+    "cpu": {
+      "index": 56.4,
+      "percentile": 78.2,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 45.1,
+      "percentile": 76.4,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://consumer.huawei.com/en/phones/mate30-pro/",
     "https://en.wikipedia.org/wiki/HiSilicon_Kirin_990"
   ],
-  "created_at": "2026-06-19T02:27:12.566338",
-  "updated_at": "2026-06-19T02:27:12.566338",
+  "created_at": "2026-06-24T08:53:43.755473",
+  "updated_at": "2026-06-24T08:53:43.755484",
   "url": "/v1/socs/kirin-990-5g"
 }

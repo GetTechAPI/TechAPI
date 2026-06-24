@@ -1,6 +1,7 @@
 {
-  "id": 10433,
+  "id": 53669,
   "slug": "p1-5g",
+  "base_model_slug": null,
   "name": "P1 5G",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1053,
+    "id": 1266,
     "slug": "dimensity-6100-plus",
     "name": "Dimensity 6100+",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
-    "performance": 3.0,
-    "camera": 17.1,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 37.8,
+    "performance": 43.5,
+    "camera": 18.1,
+    "battery": 51.7,
     "display": null,
-    "value": 59.2
+    "value": 68.9,
+    "perf": {
+      "index": 43.5,
+      "percentile": 26.4,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.559942",
-  "updated_at": "2026-06-19T02:27:15.559942"
+  "created_at": "2026-06-24T08:54:12.777405",
+  "updated_at": "2026-06-24T08:54:12.777417"
 }

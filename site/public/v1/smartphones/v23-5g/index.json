@@ -1,6 +1,7 @@
 {
-  "id": 14752,
+  "id": 76581,
   "slug": "v23-5g",
+  "base_model_slug": null,
   "name": "V23 5G",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1039,
+    "id": 1232,
     "slug": "dimensity-920",
     "name": "Dimensity 920",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.44,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.9,
-    "performance": 3.0,
-    "camera": 21.6,
-    "battery": 23.0,
+    "algorithm_version": "2.0.0",
+    "overall": 37.7,
+    "performance": 47.0,
+    "camera": 22.5,
+    "battery": 43.7,
     "display": null,
-    "value": 50.3
+    "value": 58.1,
+    "perf": {
+      "index": 47.0,
+      "percentile": 52.0,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.317695",
-  "updated_at": "2026-06-19T02:27:16.317695"
+  "created_at": "2026-06-24T08:54:22.646209",
+  "updated_at": "2026-06-24T08:54:22.646222"
 }

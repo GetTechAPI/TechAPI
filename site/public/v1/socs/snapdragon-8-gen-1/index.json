@@ -1,5 +1,5 @@
 {
-  "id": 1354,
+  "id": 1734,
   "slug": "snapdragon-8-gen-1",
   "name": "Snapdragon 8 Gen 1",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 818,
   "npu_tops": 26.0,
   "modem": "Snapdragon X65 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 66.1,
+    "cpu": {
+      "index": 66.0,
+      "percentile": 94.8,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 66.5,
+      "percentile": 94.8,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-8-gen-1-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_8_Gen_1"
   ],
-  "created_at": "2026-06-19T02:27:12.605852",
-  "updated_at": "2026-06-19T02:27:12.605852",
+  "created_at": "2026-06-24T08:53:43.914579",
+  "updated_at": "2026-06-24T08:53:43.914590",
   "url": "/v1/socs/snapdragon-8-gen-1"
 }

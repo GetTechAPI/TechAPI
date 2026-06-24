@@ -24,13 +24,31 @@
   "integrated_graphics": "AMD Radeon Vega 3 (3CU)",
   "memory_support": "DDR4-2667",
   "msrp_usd": 55,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 16.7,
+    "single": {
+      "index": 37.1,
+      "percentile": 12.7,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 0.0,
+      "percentile": 0.6,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-athlon-200ge",
     "https://en.wikipedia.org/wiki/Zen_(first_generation)",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+200GE"
   ],
-  "created_at": "2026-06-19T02:27:18.116565",
-  "updated_at": "2026-06-19T02:27:18.116565",
+  "created_at": "2026-06-24T08:54:40.844242",
+  "updated_at": "2026-06-24T08:54:40.844253",
   "url": "/v1/cpus/athlon-200ge"
 }

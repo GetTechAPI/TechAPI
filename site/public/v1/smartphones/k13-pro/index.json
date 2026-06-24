@@ -1,6 +1,7 @@
 {
-  "id": 5059,
+  "id": 25995,
   "slug": "k13-pro",
+  "base_model_slug": null,
   "name": "K13 Pro",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1338,
+    "id": 1707,
     "slug": "snapdragon-662",
     "name": "Snapdragon 662",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.8,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.7,
-    "performance": 1.5,
-    "camera": 21.6,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 29.6,
+    "performance": 25.0,
+    "camera": 22.5,
+    "battery": 41.3,
     "display": null,
-    "value": 58.9
+    "value": 63.0,
+    "perf": {
+      "index": 25.0,
+      "percentile": 24.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.628375",
-  "updated_at": "2026-06-19T02:27:14.628375"
+  "created_at": "2026-06-24T08:54:00.695519",
+  "updated_at": "2026-06-24T08:54:00.695532"
 }

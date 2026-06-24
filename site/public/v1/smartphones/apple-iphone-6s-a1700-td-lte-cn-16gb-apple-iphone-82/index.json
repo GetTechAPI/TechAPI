@@ -1,6 +1,7 @@
 {
-  "id": 17141,
+  "id": 3468,
   "slug": "apple-iphone-6s-a1700-td-lte-cn-16gb-apple-iphone-82",
+  "base_model_slug": null,
   "name": "Apple iPhone 6s A1700 TD-LTE CN 16GB (Apple iPhone 8,2)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 1567,
+    "id": 16,
     "slug": "apple-a9-apl0898-s8000",
     "name": "Apple A9 APL0898 S8000",
     "manufacturer": {
@@ -18,8 +19,8 @@
       "name": "Apple",
       "url": "/v1/brands/apple"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 14.0,
+    "gpu_name": "PowerVR GT7600",
     "url": "/v1/socs/apple-a9-apl0898-s8000"
   },
   "release_date": "2015-09-26",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "750x1334",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.8,
+    "algorithm_version": "2.0.0",
+    "overall": 21.8,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 37.5,
-    "value": null
+    "battery": 2.2,
+    "display": 41.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=8930"
   ],
-  "created_at": "2026-06-19T09:44:27.709628",
-  "updated_at": "2026-06-19T09:44:27.709628"
+  "created_at": "2026-06-24T08:53:51.471890",
+  "updated_at": "2026-06-24T08:53:51.471901"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1368,
+  "id": 6855,
   "slug": "zenfone-ares-dual-sim-global-td-lte-128gb-zs572kl",
+  "base_model_slug": null,
   "name": "ZenFone Ares Dual SIM Global TD-LTE 128GB ZS572KL",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1256,
+    "id": 1613,
     "slug": "snapdragon-821",
     "name": "Snapdragon 821",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.71,
     "resolution": "1440x2560",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.1,
-    "performance": 14.8,
-    "camera": 8.4,
-    "battery": 4.5,
-    "display": 56.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 34.8,
+    "performance": 53.7,
+    "camera": 9.6,
+    "battery": 18.0,
+    "display": 57.7,
+    "value": null,
+    "perf": {
+      "index": 53.7,
+      "percentile": 69.4,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.031381",
-  "updated_at": "2026-06-19T02:27:14.031381"
+  "created_at": "2026-06-24T08:53:52.734501",
+  "updated_at": "2026-06-24T08:53:52.734515"
 }

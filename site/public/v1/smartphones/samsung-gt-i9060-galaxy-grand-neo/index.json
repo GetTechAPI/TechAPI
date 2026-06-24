@@ -1,6 +1,7 @@
 {
-  "id": 25635,
+  "id": 57492,
   "slug": "samsung-gt-i9060-galaxy-grand-neo",
+  "base_model_slug": null,
   "name": "Samsung GT-i9060 Galaxy Grand Neo",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 667,
+    "id": 762,
     "slug": "broadcom-bcm23550",
     "name": "Broadcom BCM23550",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.01,
     "resolution": "480x800",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 20.5,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 6.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5430"
   ],
-  "created_at": "2026-06-19T09:44:30.012640",
-  "updated_at": "2026-06-19T09:44:30.012640"
+  "created_at": "2026-06-24T08:54:14.535153",
+  "updated_at": "2026-06-24T08:54:14.535165"
 }

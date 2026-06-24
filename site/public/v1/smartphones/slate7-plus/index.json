@@ -1,6 +1,7 @@
 {
-  "id": 3088,
+  "id": 14392,
   "slug": "slate7-plus",
+  "base_model_slug": null,
   "name": "Slate7 Plus",
   "brand": {
     "id": 160,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/hp"
   },
   "soc": {
-    "id": 1075,
+    "id": 1345,
     "slug": "nvidia-tegra-3",
     "name": "Nvidia Tegra 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "800x1280",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 15.0,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.354498",
-  "updated_at": "2026-06-19T02:27:14.354498"
+  "created_at": "2026-06-24T08:53:56.200841",
+  "updated_at": "2026-06-24T08:53:56.200853"
 }

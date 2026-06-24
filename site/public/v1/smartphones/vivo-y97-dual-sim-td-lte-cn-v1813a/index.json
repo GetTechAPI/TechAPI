@@ -1,6 +1,7 @@
 {
-  "id": 14275,
+  "id": 74433,
   "slug": "vivo-y97-dual-sim-td-lte-cn-v1813a",
+  "base_model_slug": null,
   "name": "Vivo Y97 Dual SIM TD-LTE CN V1813A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 938,
+    "id": 1125,
     "slug": "helio-p60",
     "name": "Helio P60",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.2,
-    "performance": 0.0,
-    "camera": 6.4,
-    "battery": 5.3,
-    "display": 45.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 24.9,
+    "performance": 19.5,
+    "camera": 7.6,
+    "battery": 24.6,
+    "display": 47.9,
+    "value": null,
+    "perf": {
+      "index": 19.5,
+      "percentile": 18.9,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.253684",
-  "updated_at": "2026-06-19T02:27:16.253684"
+  "created_at": "2026-06-24T08:54:21.793336",
+  "updated_at": "2026-06-24T08:54:21.793349"
 }

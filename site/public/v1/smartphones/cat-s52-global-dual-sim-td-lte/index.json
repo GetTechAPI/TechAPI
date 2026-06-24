@@ -1,6 +1,7 @@
 {
-  "id": 2123,
+  "id": 9883,
   "slug": "cat-s52-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "Cat S52 Global Dual SIM TD-LTE",
   "brand": {
     "id": 153,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/caterpillar"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.65,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.4,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 1.5,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 18.4,
+    "performance": 9.1,
+    "camera": 6.3,
+    "battery": 20.2,
+    "display": 38.0,
+    "value": null,
+    "perf": {
+      "index": 9.1,
+      "percentile": 6.1,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.148332",
-  "updated_at": "2026-06-19T02:27:14.148332"
+  "created_at": "2026-06-24T08:53:53.945736",
+  "updated_at": "2026-06-24T08:53:53.945749"
 }

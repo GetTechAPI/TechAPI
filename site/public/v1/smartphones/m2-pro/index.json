@@ -1,6 +1,7 @@
 {
-  "id": 10024,
+  "id": 51745,
   "slug": "m2-pro",
+  "base_model_slug": null,
   "name": "M2 Pro",
   "brand": {
     "id": 38,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/poco"
   },
   "soc": {
-    "id": 1341,
+    "id": 1710,
     "slug": "snapdragon-720g",
     "name": "Snapdragon 720G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.5,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 33.6,
+    "performance": 35.8,
+    "camera": 17.5,
+    "battery": 47.5,
     "display": null,
-    "value": 57.8
+    "value": 66.8,
+    "perf": {
+      "index": 35.8,
+      "percentile": 35.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.504888",
-  "updated_at": "2026-06-19T02:27:15.504888"
+  "created_at": "2026-06-24T08:54:12.020065",
+  "updated_at": "2026-06-24T08:54:12.020078"
 }

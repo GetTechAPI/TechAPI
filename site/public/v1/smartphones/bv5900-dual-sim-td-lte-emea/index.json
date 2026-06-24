@@ -1,6 +1,7 @@
 {
-  "id": 1737,
+  "id": 8558,
   "slug": "bv5900-dual-sim-td-lte-emea",
+  "base_model_slug": null,
   "name": "BV5900 Dual SIM TD-LTE EMEA",
   "brand": {
     "id": 15,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blackview"
   },
   "soc": {
-    "id": 973,
+    "id": 1161,
     "slug": "mediatek-helio-a22-mt6761",
     "name": "MediaTek Helio A22 MT6761",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.3,
+    "algorithm_version": "2.0.0",
+    "overall": 30.2,
     "performance": null,
-    "camera": 5.3,
-    "battery": 38.7,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 45.0,
+    "display": 38.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.091412",
-  "updated_at": "2026-06-19T02:27:14.091412"
+  "created_at": "2026-06-24T08:53:53.417162",
+  "updated_at": "2026-06-24T08:53:53.417175"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 10066,
+  "id": 51802,
   "slug": "poco-c55-top-edition",
+  "base_model_slug": null,
   "name": "Poco C55 Top Edition",
   "brand": {
     "id": 38,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/poco"
   },
   "soc": {
-    "id": 1007,
+    "id": 1195,
     "slug": "helio-g85",
     "name": "MediaTek Helio G85",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.71,
     "resolution": "720x1650",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.6,
-    "performance": 1.5,
-    "camera": 17.2,
-    "battery": 30.0,
-    "display": 17.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 26.3,
+    "performance": 28.2,
+    "camera": 18.1,
+    "battery": 40.0,
+    "display": 19.0,
+    "value": null,
+    "perf": {
+      "index": 28.2,
+      "percentile": 13.8,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.509899",
-  "updated_at": "2026-06-19T02:27:15.509899"
+  "created_at": "2026-06-24T08:54:12.038461",
+  "updated_at": "2026-06-24T08:54:12.038473"
 }

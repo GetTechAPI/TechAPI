@@ -24,6 +24,24 @@
   "integrated_graphics": "AMD Radeon 680M (RDNA 2, 12CU)",
   "memory_support": "DDR5-4800 / LPDDR5-6400",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 55.3,
+    "single": {
+      "index": 71.2,
+      "percentile": 31.1,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 42.3,
+      "percentile": 19.5,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-ryzen-7-7735hs",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Ryzen-7-7735HS",
     "https://www.topcpu.net/en/cpu-r/"
   ],
-  "created_at": "2026-06-19T02:27:18.147408",
-  "updated_at": "2026-06-19T02:27:18.147408",
+  "created_at": "2026-06-24T08:54:40.909248",
+  "updated_at": "2026-06-24T08:54:40.909278",
   "url": "/v1/cpus/ryzen-7-7735hs"
 }

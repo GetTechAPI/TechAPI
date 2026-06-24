@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 74.45,
   "blender_score": 4124.48,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 98.9,
+    "graphics": {
+      "index": 98.9,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/data-center/dgx-b200/",
     "https://www.techpowerup.com/gpu-specs/b200-sxm-192-gb.c4210",

@@ -1,6 +1,7 @@
 {
-  "id": 16410,
+  "id": 88404,
   "slug": "blade-max-view",
+  "base_model_slug": null,
   "name": "Blade Max View",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1298,
+    "id": 1656,
     "slug": "qualcomm-msm8940-snapdragon-435",
     "name": "Qualcomm MSM8940 Snapdragon 435",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2160",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.7,
+    "algorithm_version": "2.0.0",
+    "overall": 16.2,
     "performance": null,
-    "camera": 6.3,
-    "battery": 15.0,
+    "camera": 7.5,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.550798",
-  "updated_at": "2026-06-19T02:27:16.550798"
+  "created_at": "2026-06-24T08:54:27.055834",
+  "updated_at": "2026-06-24T08:54:27.055846"
 }

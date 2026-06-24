@@ -1,6 +1,7 @@
 {
-  "id": 7439,
+  "id": 36487,
   "slug": "moto-g10-power-2021-dual-sim-td-lte-in-64gb-xt2127-4",
+  "base_model_slug": null,
   "name": "Moto G10 Power 2021 Dual SIM TD-LTE IN 64GB XT2127-4",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1337,
+    "id": 1706,
     "slug": "snapdragon-460",
     "name": "Snapdragon 460",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.1,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 45.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.8,
+    "performance": 17.9,
+    "camera": 17.5,
+    "battery": 51.2,
+    "display": 36.7,
+    "value": null,
+    "perf": {
+      "index": 17.9,
+      "percentile": 15.3,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.065349",
-  "updated_at": "2026-06-19T02:27:15.065349"
+  "created_at": "2026-06-24T08:54:05.503840",
+  "updated_at": "2026-06-24T08:54:05.503853"
 }

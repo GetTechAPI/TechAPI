@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 34.28,
   "blender_score": 2374.22,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 89.6,
+    "graphics": {
+      "index": 89.6,
+      "percentile": 53.3,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_9000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-9070-gre.c4308",

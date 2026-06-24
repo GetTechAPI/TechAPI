@@ -1,6 +1,7 @@
 {
-  "id": 13863,
+  "id": 72878,
   "slug": "g450",
+  "base_model_slug": null,
   "name": "G450",
   "brand": {
     "id": 108,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/toshiba"
   },
   "soc": {
-    "id": 1090,
+    "id": 1367,
     "slug": "qualcomm-msm6280",
     "name": "Qualcomm MSM6280",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "type": "Monochrome graphics"
   },
@@ -44,18 +46,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.193141",
-  "updated_at": "2026-06-19T02:27:16.193141"
+  "created_at": "2026-06-24T08:54:21.172596",
+  "updated_at": "2026-06-24T08:54:21.172609"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 8741,
+  "id": 44531,
   "slug": "rx17-neo",
+  "base_model_slug": null,
   "name": "RX17 Neo",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1306,
+    "id": 1664,
     "slug": "qualcomm-sdm660-snapdragon-660",
     "name": "Qualcomm SDM660 Snapdragon 660",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.41,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.7,
+    "algorithm_version": "2.0.0",
+    "overall": 14.2,
     "performance": null,
-    "camera": 6.3,
-    "battery": 9.0,
+    "camera": 7.5,
+    "battery": 21.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.298528",
-  "updated_at": "2026-06-19T02:27:15.298528"
+  "created_at": "2026-06-24T08:54:08.673229",
+  "updated_at": "2026-06-24T08:54:08.673241"
 }

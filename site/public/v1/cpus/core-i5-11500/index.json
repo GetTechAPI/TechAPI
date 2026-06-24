@@ -24,13 +24,31 @@
   "integrated_graphics": "Intel UHD Graphics 750",
   "memory_support": "DDR4-3200 dual-channel",
   "msrp_usd": 192,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 51.5,
+    "single": {
+      "index": 68.2,
+      "percentile": 76.7,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 37.8,
+      "percentile": 34.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/List_of_Intel_Core_processors",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=core-i5-11500",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-11500"
   ],
-  "created_at": "2026-06-19T02:27:18.371805",
-  "updated_at": "2026-06-19T02:27:18.371805",
+  "created_at": "2026-06-24T08:54:41.347350",
+  "updated_at": "2026-06-24T08:54:41.347361",
   "url": "/v1/cpus/core-i5-11500"
 }

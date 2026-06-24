@@ -1,6 +1,7 @@
 {
-  "id": 3346,
+  "id": 15782,
   "slug": "exodus-1-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "Exodus 1 Global Dual SIM TD-LTE",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1440x2880",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.2,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 7.5,
-    "display": 58.7,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 33.3,
+    "performance": 39.0,
+    "camera": 6.3,
+    "battery": 28.3,
+    "display": 59.6,
+    "value": null,
+    "perf": {
+      "index": 39.0,
+      "percentile": 46.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.390011",
-  "updated_at": "2026-06-19T02:27:14.390011"
+  "created_at": "2026-06-24T08:53:56.770872",
+  "updated_at": "2026-06-24T08:53:56.770885"
 }

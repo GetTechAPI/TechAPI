@@ -1,6 +1,7 @@
 {
-  "id": 1931,
+  "id": 9178,
   "slug": "pure-xr",
+  "base_model_slug": null,
   "name": "Pure XR",
   "brand": {
     "id": 151,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blu"
   },
   "soc": {
-    "id": 901,
+    "id": 1088,
     "slug": "mediatek-mt6755-helio-p10",
     "name": "Mediatek MT6755 Helio P10",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.1,
+    "algorithm_version": "2.0.0",
+    "overall": 11.2,
     "performance": null,
-    "camera": 6.3,
-    "battery": 0.0,
+    "camera": 7.5,
+    "battery": 15.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.121027",
-  "updated_at": "2026-06-19T02:27:14.121027"
+  "created_at": "2026-06-24T08:53:53.672105",
+  "updated_at": "2026-06-24T08:53:53.672117"
 }

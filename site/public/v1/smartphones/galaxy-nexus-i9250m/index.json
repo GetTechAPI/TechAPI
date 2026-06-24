@@ -1,6 +1,7 @@
 {
-  "id": 11303,
+  "id": 56550,
   "slug": "galaxy-nexus-i9250m",
+  "base_model_slug": null,
   "name": "Galaxy Nexus I9250M",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1508,
+    "id": 2022,
     "slug": "ti-omap-4460",
     "name": "TI OMAP 4460",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     1
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.65,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 3.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 2.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.732296",
-  "updated_at": "2026-06-19T02:27:15.732296"
+  "created_at": "2026-06-24T08:54:14.139531",
+  "updated_at": "2026-06-24T08:54:14.139544"
 }

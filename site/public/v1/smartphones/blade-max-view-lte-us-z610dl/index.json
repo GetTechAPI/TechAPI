@@ -1,6 +1,7 @@
 {
-  "id": 16343,
+  "id": 88130,
   "slug": "blade-max-view-lte-us-z610dl",
+  "base_model_slug": null,
   "name": "Blade Max View LTE US Z610DL",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1253,
+    "id": 1610,
     "slug": "snapdragon-435",
     "name": "Snapdragon 435",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.2,
+    "algorithm_version": "2.0.0",
+    "overall": 26.8,
     "performance": null,
-    "camera": 6.3,
-    "battery": 15.0,
-    "display": 45.2,
-    "value": null
+    "camera": 7.5,
+    "battery": 25.0,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.539285",
-  "updated_at": "2026-06-19T02:27:16.539285"
+  "created_at": "2026-06-24T08:54:26.960019",
+  "updated_at": "2026-06-24T08:54:26.960032"
 }

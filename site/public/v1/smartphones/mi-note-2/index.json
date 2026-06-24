@@ -1,6 +1,7 @@
 {
-  "id": 15038,
+  "id": 79129,
   "slug": "mi-note-2",
+  "base_model_slug": null,
   "name": "Mi Note 2",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1299,
+    "id": 1657,
     "slug": "qualcomm-msm8996-snapdragon-821",
     "name": "Qualcomm MSM8996 Snapdragon 821",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "1080x1920",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.2,
+    "algorithm_version": "2.0.0",
+    "overall": 17.6,
     "performance": null,
-    "camera": 8.4,
-    "battery": 16.1,
+    "camera": 9.6,
+    "battery": 25.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.362299",
-  "updated_at": "2026-06-19T02:27:16.362299"
+  "created_at": "2026-06-24T08:54:23.636874",
+  "updated_at": "2026-06-24T08:54:23.636887"
 }

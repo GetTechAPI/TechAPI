@@ -1,6 +1,7 @@
 {
-  "id": 16527,
+  "id": 89187,
   "slug": "nubia-red-magic-6-pro-5g-premium-edition-global-dual-sim-td-lte-256gb-nx669j-p",
+  "base_model_slug": null,
   "name": "Nubia Red Magic 6 Pro 5G Premium Edition Global Dual SIM TD-LTE 256GB NX669J-P",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.8,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 39.0,
-    "performance": 12.4,
-    "camera": 21.7,
-    "battery": 60.7,
-    "display": 61.2,
-    "value": 54.1
+    "algorithm_version": "2.0.0",
+    "overall": 56.0,
+    "performance": 62.7,
+    "camera": 22.6,
+    "battery": 74.3,
+    "display": 64.2,
+    "value": 60.2,
+    "perf": {
+      "index": 62.7,
+      "percentile": 90.0,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.565310",
-  "updated_at": "2026-06-19T02:27:16.565310"
+  "created_at": "2026-06-24T08:54:27.332376",
+  "updated_at": "2026-06-24T08:54:27.332388"
 }

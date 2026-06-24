@@ -1,6 +1,7 @@
 {
-  "id": 16521,
+  "id": 89150,
   "slug": "blade-x1-5g-lte-a-us-z6750m-z6750vs",
+  "base_model_slug": null,
   "name": "Blade X1 5G LTE-A US Z6750M / Z6750VS",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1325,
+    "id": 1686,
     "slug": "snapdragon-765",
     "name": "Snapdragon 765",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.1,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 15.0,
-    "display": 27.2,
-    "value": 55.2
+    "algorithm_version": "2.0.0",
+    "overall": 31.1,
+    "performance": 37.3,
+    "camera": 17.5,
+    "battery": 39.6,
+    "display": 30.1,
+    "value": 59.8,
+    "perf": {
+      "index": 37.3,
+      "percentile": 43.8,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.564310",
-  "updated_at": "2026-06-19T02:27:16.564310"
+  "created_at": "2026-06-24T08:54:27.320482",
+  "updated_at": "2026-06-24T08:54:27.320494"
 }

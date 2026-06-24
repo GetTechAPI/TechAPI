@@ -1,6 +1,7 @@
 {
-  "id": 8140,
+  "id": 40311,
   "slug": "6-2018-global-dual-sim-td-lte-64gb-6-1",
+  "base_model_slug": null,
   "name": "6 2018 Global Dual SIM TD-LTE 64GB / 6.1",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1265,
+    "id": 1622,
     "slug": "snapdragon-630",
     "name": "Snapdragon 630",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.9,
-    "performance": 0.0,
-    "camera": 6.4,
-    "battery": 0.0,
-    "display": 45.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 20.6,
+    "performance": 11.7,
+    "camera": 7.6,
+    "battery": 15.0,
+    "display": 47.9,
+    "value": null,
+    "perf": {
+      "index": 11.7,
+      "percentile": 9.6,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.202507",
-  "updated_at": "2026-06-19T02:27:15.202507"
+  "created_at": "2026-06-24T08:54:07.119791",
+  "updated_at": "2026-06-24T08:54:07.119803"
 }

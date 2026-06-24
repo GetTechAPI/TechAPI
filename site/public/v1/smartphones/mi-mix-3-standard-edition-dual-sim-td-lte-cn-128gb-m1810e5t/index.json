@@ -1,6 +1,7 @@
 {
-  "id": 15130,
+  "id": 79621,
   "slug": "mi-mix-3-standard-edition-dual-sim-td-lte-cn-128gb-m1810e5t",
+  "base_model_slug": null,
   "name": "Mi Mix 3 Standard Edition Dual SIM TD-LTE CN 128GB M1810E5T",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.39,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.7,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 3.0,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.7,
+    "performance": 39.0,
+    "camera": 6.3,
+    "battery": 25.3,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 39.0,
+      "percentile": 46.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.375299",
-  "updated_at": "2026-06-19T02:27:16.375299"
+  "created_at": "2026-06-24T08:54:23.816293",
+  "updated_at": "2026-06-24T08:54:23.816308"
 }

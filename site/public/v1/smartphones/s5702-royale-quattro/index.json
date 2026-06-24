@@ -1,6 +1,7 @@
 {
-  "id": 14109,
+  "id": 73908,
   "slug": "s5702-royale-quattro",
+  "base_model_slug": null,
   "name": "s5702 Royale Quattro",
   "brand": {
     "id": 186,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/verykool"
   },
   "soc": {
-    "id": 979,
+    "id": 1167,
     "slug": "mediatek-mt6580",
     "name": "Mediatek MT6580",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2018-01-01",
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "720x1440",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.2,
+    "algorithm_version": "2.0.0",
+    "overall": 11.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 3.0,
+    "camera": 6.6,
+    "battery": 17.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.233171",
-  "updated_at": "2026-06-19T02:27:16.233171"
+  "created_at": "2026-06-24T08:54:21.590057",
+  "updated_at": "2026-06-24T08:54:21.590069"
 }

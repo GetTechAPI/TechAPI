@@ -289,7 +289,6 @@ function countUp(node, target, opts = {}) {
     const ys = (t) => VH - PAD - ((t - minTotal) / range) * (VH - 2 * PAD);
     const line = points.map((p, i) => `${i ? "L" : "M"}${xs(i).toFixed(1)} ${ys(p.total).toFixed(1)}`).join(" ");
     const area = `${line} L${xs(points.length - 1).toFixed(1)} ${VH} L${xs(0).toFixed(1)} ${VH} Z`;
-    const last = points[points.length - 1];
     chartEl.innerHTML = `<svg class="history-svg" viewBox="0 0 ${VW} ${VH}" preserveAspectRatio="none" aria-label="Dataset growth curve">
         <defs><linearGradient id="histfill" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="var(--accent)" stop-opacity=".34"></stop>
@@ -297,9 +296,7 @@ function countUp(node, target, opts = {}) {
         </linearGradient></defs>
         <path d="${area}" fill="url(#histfill)"></path>
         <path d="${line}" fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"></path>
-      </svg>
-      <span class="history-cap history-cap-lo">${esc(points[0].when)} · ${minTotal.toLocaleString()}</span>
-      <span class="history-cap history-cap-hi">${esc(last.when)} · ${last.total.toLocaleString()}</span>`;
+      </svg>`;
 
     // Show every sync (newest first), growth-first. The list scrolls (CSS
     // max-height) so the full history stays reachable without a giant section.
@@ -318,6 +315,47 @@ function countUp(node, target, opts = {}) {
         <small>${esc(changes)}${tag ? ` · ${esc(tag)}` : ""}</small>
       </span></li>`;
     }).join("");
+
+    // Hover the curve: snap to the nearest sync and show its date + total + delta.
+    const hover = document.createElement("div");
+    hover.className = "history-hover";
+    hover.hidden = true;
+    hover.innerHTML = `<span class="hh-line"></span><span class="hh-dot"></span><div class="hh-tip"></div>`;
+    chartEl.appendChild(hover);
+    const hLine = hover.querySelector(".hh-line");
+    const hDot = hover.querySelector(".hh-dot");
+    const hTip = hover.querySelector(".hh-tip");
+
+    function moveHover(clientX) {
+      const rect = chartEl.getBoundingClientRect();
+      if (!rect.width) return;
+      const relX = Math.min(1, Math.max(0, (clientX - rect.left) / rect.width));
+      const i = Math.round(relX * (points.length - 1));
+      const p = points[i];
+      const px = (xs(i) / VW) * rect.width;
+      const py = (ys(p.total) / VH) * rect.height;
+      hover.hidden = false;
+      hLine.style.left = px + "px";
+      hDot.style.left = px + "px";
+      hDot.style.top = py + "px";
+      const chg = p.changes && p.changes.length
+        ? p.changes.map((row) => `${shortLabel[row.key]} ${formatDelta(row.delta)}`).join(", ")
+        : "";
+      hTip.innerHTML = `<b>${esc(p.when)}</b>` +
+        `<span>${p.total.toLocaleString()} records</span>` +
+        `<span class="hh-delta${p.delta < 0 ? " is-negative" : ""}">${p.baseline ? "baseline" : esc(formatDelta(p.delta))}</span>` +
+        (chg ? `<span class="hh-chg">${esc(chg)}</span>` : "");
+      const tipW = hTip.offsetWidth || 150;
+      let tx = px + 14;
+      if (tx + tipW > rect.width) tx = px - tipW - 14;
+      hTip.style.left = Math.max(4, tx) + "px";
+      hTip.style.top = Math.min(rect.height - (hTip.offsetHeight || 70) - 4, Math.max(4, py - 24)) + "px";
+    }
+    chartEl.onmousemove = (e) => moveHover(e.clientX);
+    chartEl.onmouseleave = () => { hover.hidden = true; };
+    chartEl.ontouchstart = chartEl.ontouchmove = (e) => {
+      if (e.touches[0]) moveHover(e.touches[0].clientX);
+    };
   }
 
   const fmtWhen = (date) => date

@@ -70,8 +70,8 @@ async function loadList(resource) {
   if (!cmdEl) return;
 
   const DEMOS = [
-    { resource: "smartphones", slug: "galaxy-s25-ultra" },
-    { resource: "socs", slug: "snapdragon-8-elite" },
+    { resource: "smartphones", slug: "galaxy-s26-ultra" },
+    { resource: "socs", slug: "snapdragon-8-elite-gen-5" },
     { resource: "gpus", slug: "geforce-rtx-5090" },
   ];
   const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -556,15 +556,15 @@ document.getElementById("pg-copy")?.addEventListener("click", (e) => {
   const b = e.currentTarget, p = b.textContent; b.textContent = "Copied ✓"; setTimeout(() => (b.textContent = p), 1200);
 });
 if (resSel) populateSlugs("smartphones").then((items) => {
-  slugIn.value = (items[0] && items[0].slug) || "galaxy-s25-ultra";
+  slugIn.value = (items[0] && items[0].slug) || "galaxy-s26-ultra";
   run("smartphones", slugIn.value);
 });
 
 /* ============================================================
    FEATURED DEVICES
    ============================================================ */
-const PREFERRED = ["galaxy-s25-ultra", "iphone-16-pro-max", "pixel-9-pro",
-  "oneplus-13", "xiaomi-15-ultra", "galaxy-z-fold-6"];
+const PREFERRED = ["galaxy-s26-ultra", "iphone-17-pro-max", "pixel-10-pro",
+  "oneplus-14", "xiaomi-15-ultra", "galaxy-z-fold-7"];
 
 function bar(label, v) {
   const w = v == null ? 0 : Math.round(v);

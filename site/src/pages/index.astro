@@ -7,12 +7,12 @@ const ghUrl = "https://github.com/GetTechAPI/TechAPI";
 
 const endpoints = [
   { label: "/v1/smartphones", desc: "List all phones", href: `${base}v1/smartphones/index.json` },
-  { label: "/v1/smartphones/{slug}", desc: "Phone detail + scores", href: `${base}v1/smartphones/galaxy-s25-ultra/index.json` },
-  { label: "/v1/smartphones/{slug}/score", desc: "Computed scores", href: `${base}v1/smartphones/galaxy-s25-ultra/score/index.json` },
+  { label: "/v1/smartphones/{slug}", desc: "Phone detail + scores", href: `${base}v1/smartphones/galaxy-s26-ultra/index.json` },
+  { label: "/v1/smartphones/{slug}/score", desc: "Computed scores", href: `${base}v1/smartphones/galaxy-s26-ultra/score/index.json` },
   { label: "/v1/tablets", desc: "List all tablets", href: `${base}v1/tablets/index.json` },
   { label: "/v1/watches", desc: "List all watches", href: `${base}v1/watches/index.json` },
   { label: "/v1/pdas", desc: "List all PDAs", href: `${base}v1/pdas/index.json` },
-  { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${base}v1/socs/snapdragon-8-elite/index.json` },
+  { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${base}v1/socs/snapdragon-8-elite-gen-5/index.json` },
   { label: "/v1/gpus/{slug}", desc: "Discrete GPU detail", href: `${base}v1/gpus/geforce-rtx-5090/index.json` },
   { label: "/v1/cpus/{slug}", desc: "Desktop / laptop CPU", href: `${base}v1/cpus/core-i9-14900k/index.json` },
   { label: "/v1/brands", desc: "All brands", href: `${base}v1/brands/index.json` },
@@ -170,7 +170,7 @@ const endpoints = [
             </div>
             <div class="field grow">
               <label for="pg-slug">Slug</label>
-              <input id="pg-slug" list="pg-slugs" autocomplete="off" spellcheck="false" placeholder="galaxy-s25-ultra" />
+              <input id="pg-slug" list="pg-slugs" autocomplete="off" spellcheck="false" placeholder="galaxy-s26-ultra" />
               <datalist id="pg-slugs"></datalist>
             </div>
             <div class="field btns">
@@ -180,7 +180,7 @@ const endpoints = [
           </div>
           <div class="pg-reqline">
             <span class="method">GET</span>
-            <code id="pg-url">/v1/smartphones/galaxy-s25-ultra</code>
+            <code id="pg-url">/v1/smartphones/galaxy-s26-ultra</code>
             <span class="spacer"></span>
             <span id="pg-status" class="status"></span>
             <button id="pg-copy" class="copy">Copy curl</button>

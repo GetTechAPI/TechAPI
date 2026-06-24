@@ -252,14 +252,17 @@ code, .mono { font-family: var(--mono); }
    ============================================================ */
 .history {
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
+  grid-template-columns: 1fr 1.15fr;
   gap: 16px;
+  align-items: start;
 }
 .history-panel {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--surface);
-  padding: 22px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
 }
 .history-label {
   font-family: var(--mono);
@@ -279,7 +282,7 @@ code, .mono { font-family: var(--mono); }
 .history-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  gap: 9px;
   margin-top: 22px;
 }
 .history-count {
@@ -287,14 +290,14 @@ code, .mono { font-family: var(--mono); }
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 10px 12px;
+  padding: 13px 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface-2);
   font-family: var(--mono);
 }
-.history-count span { color: var(--muted); font-size: 12px; }
-.history-count b { color: var(--fg); font-size: 13px; }
+.history-count span { color: var(--muted); font-size: 12.5px; }
+.history-count b { color: var(--fg); font-size: 15px; }
 .history-list {
   list-style: none;
   margin: 20px 0 0;
@@ -312,71 +315,39 @@ code, .mono { font-family: var(--mono); }
 .history-list::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 4px; }
 .history-list::-webkit-scrollbar-track { background: transparent; }
 .history-chart {
-  min-height: 210px;
+  position: relative;
+  height: 168px;
   margin-top: 18px;
-  padding: 16px 12px 12px;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(62px, 1fr);
-  align-items: end;
-  gap: 10px;
-  overflow-x: auto;
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  overflow: hidden;
   background:
-    linear-gradient(to top, var(--border) 1px, transparent 1px) 0 25% / 100% 25%,
+    linear-gradient(to top, var(--grid-line) 1px, transparent 1px) 0 0 / 100% 25%,
     var(--surface-2);
 }
+.history-svg { display: block; width: 100%; height: 100%; }
+.history-cap {
+  position: absolute;
+  bottom: 8px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--muted);
+  background: color-mix(in srgb, var(--surface-2) 72%, transparent);
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+.history-cap-lo { left: 9px; }
+.history-cap-hi { right: 9px; color: var(--accent-text); }
 .history-empty {
-  align-self: center;
-  justify-self: center;
-  grid-column: 1 / -1;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 0 16px;
   font-family: var(--mono);
   color: var(--muted);
   font-size: 12px;
-}
-.history-bar {
-  min-width: 0;
-  height: 178px;
-  display: grid;
-  grid-template-rows: 1fr auto auto;
-  gap: 6px;
-  color: var(--fg);
-}
-.history-bar-fill {
-  align-self: end;
-  min-height: 10px;
-  height: var(--h);
-  border: 1px solid color-mix(in srgb, var(--accent) 60%, var(--border));
-  border-radius: 4px 4px 2px 2px;
-  background:
-    linear-gradient(180deg, color-mix(in srgb, var(--accent) 92%, white 8%), var(--accent-deep));
-  box-shadow: 0 0 26px -12px var(--accent);
-  transition: filter .16s, transform .16s;
-}
-.history-bar:hover .history-bar-fill {
-  filter: brightness(1.08);
-  transform: translateY(-2px);
-}
-.history-bar-total,
-.history-bar-delta {
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-family: var(--mono);
-  text-align: center;
-}
-.history-bar-total {
-  font-size: 11px;
-  font-weight: 700;
-}
-.history-bar-delta {
-  font-size: 10px;
-  color: var(--accent-text);
-}
-.history-bar-delta.is-negative {
-  color: var(--err);
 }
 .history-list li {
   display: grid;

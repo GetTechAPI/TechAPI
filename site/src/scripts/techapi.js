@@ -282,16 +282,24 @@ function countUp(node, target, opts = {}) {
     const maxTotal = Math.max(...points.map((point) => point.total));
     const minTotal = Math.min(...points.map((point) => point.total));
     const range = Math.max(1, maxTotal - minTotal);
-    chartEl.innerHTML = points.map((point) => {
-      const pct = 18 + ((point.total - minTotal) / range) * 82;
-      const deltaText = formatDelta(point.delta, point.baseline);
-      const deltaClass = point.delta < 0 ? " is-negative" : "";
-      return `<a class="history-bar" href="${esc(point.url)}" target="_blank" rel="noopener" style="--h:${pct.toFixed(1)}%" title="${esc(point.title)}">
-        <span class="history-bar-fill"></span>
-        <span class="history-bar-total">${point.total.toLocaleString()}</span>
-        <span class="history-bar-delta${deltaClass}">${esc(deltaText)}</span>
-      </a>`;
-    }).join("");
+    // Growth curve: every sync as a point on an area chart scaled to the panel
+    // width, so the whole timeline fits with nothing clipped or scrolled.
+    const VW = 1000, VH = 150, PAD = 6;
+    const xs = (i) => PAD + (points.length < 2 ? 0 : (i / (points.length - 1)) * (VW - 2 * PAD));
+    const ys = (t) => VH - PAD - ((t - minTotal) / range) * (VH - 2 * PAD);
+    const line = points.map((p, i) => `${i ? "L" : "M"}${xs(i).toFixed(1)} ${ys(p.total).toFixed(1)}`).join(" ");
+    const area = `${line} L${xs(points.length - 1).toFixed(1)} ${VH} L${xs(0).toFixed(1)} ${VH} Z`;
+    const last = points[points.length - 1];
+    chartEl.innerHTML = `<svg class="history-svg" viewBox="0 0 ${VW} ${VH}" preserveAspectRatio="none" aria-label="Dataset growth curve">
+        <defs><linearGradient id="histfill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="var(--accent)" stop-opacity=".34"></stop>
+          <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"></stop>
+        </linearGradient></defs>
+        <path d="${area}" fill="url(#histfill)"></path>
+        <path d="${line}" fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"></path>
+      </svg>
+      <span class="history-cap history-cap-lo">${esc(points[0].when)} · ${minTotal.toLocaleString()}</span>
+      <span class="history-cap history-cap-hi">${esc(last.when)} · ${last.total.toLocaleString()}</span>`;
 
     // Show every sync (newest first), growth-first. The list scrolls (CSS
     // max-height) so the full history stays reachable without a giant section.

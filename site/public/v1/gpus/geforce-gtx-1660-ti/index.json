@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 5.437,
   "blender_score": 742.15,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 59.9,
+    "graphics": {
+      "index": 59.9,
+      "percentile": 44.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/gtx-1660-ti/",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-1660-ti.c3364",

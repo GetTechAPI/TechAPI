@@ -1,6 +1,7 @@
 {
-  "id": 12902,
+  "id": 68084,
   "slug": "aquos-r5g-5g-td-lte-jp-sh-rm14",
+  "base_model_slug": null,
   "name": "Aquos R5G 5G TD-LTE JP SH-RM14",
   "brand": {
     "id": 105,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1440x3168",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.0,
-    "performance": 6.0,
-    "camera": 5.1,
-    "battery": 10.9,
-    "display": 66.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 40.1,
+    "performance": 55.2,
+    "camera": 6.3,
+    "battery": 36.9,
+    "display": 61.9,
+    "value": null,
+    "perf": {
+      "index": 55.2,
+      "percentile": 73.4,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.037025",
-  "updated_at": "2026-06-19T02:27:16.037025"
+  "created_at": "2026-06-24T08:54:19.185497",
+  "updated_at": "2026-06-24T08:54:19.185509"
 }

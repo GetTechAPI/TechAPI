@@ -1,6 +1,7 @@
 {
-  "id": 22140,
+  "id": 33994,
   "slug": "motorola-xprt-mb612",
+  "base_model_slug": null,
   "name": "Motorola XPRT MB612",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 2046,
+    "id": 2014,
     "slug": "texas-instruments-omap-3620",
     "name": "Texas Instruments OMAP 3620",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     2
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.11,
     "resolution": "320x480",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 19.3,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 3.6,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=2888"
   ],
-  "created_at": "2026-06-19T09:44:29.104693",
-  "updated_at": "2026-06-19T09:44:29.104693"
+  "created_at": "2026-06-24T08:54:04.595471",
+  "updated_at": "2026-06-24T08:54:04.595499"
 }

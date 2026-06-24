@@ -1,6 +1,7 @@
 {
-  "id": 13903,
+  "id": 73088,
   "slug": "armor-3wt",
+  "base_model_slug": null,
   "name": "Armor 3WT",
   "brand": {
     "id": 49,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/ulefone"
   },
   "soc": {
-    "id": 994,
+    "id": 1182,
     "slug": "mediatek-mt6771-helio-p70",
     "name": "Mediatek MT6771 Helio P70",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "1080x2160",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.4,
+    "algorithm_version": "2.0.0",
+    "overall": 29.2,
     "performance": null,
-    "camera": 7.9,
-    "battery": 45.0,
+    "camera": 9.1,
+    "battery": 49.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.200656",
-  "updated_at": "2026-06-19T02:27:16.200656"
+  "created_at": "2026-06-24T08:54:21.254457",
+  "updated_at": "2026-06-24T08:54:21.254470"
 }

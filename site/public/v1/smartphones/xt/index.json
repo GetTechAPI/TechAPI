@@ -1,6 +1,7 @@
 {
-  "id": 10294,
+  "id": 52556,
   "slug": "xt",
+  "base_model_slug": null,
   "name": "XT",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1309,
+    "id": 1667,
     "slug": "qualcomm-sdm712-snapdragon-712",
     "name": "Qualcomm SDM712 Snapdragon 712",
     "manufacturer": {
@@ -32,6 +33,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2340",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
+    "algorithm_version": "2.0.0",
+    "overall": 27.9,
     "performance": null,
-    "camera": 21.6,
-    "battery": 15.0,
+    "camera": 22.5,
+    "battery": 33.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.541940",
-  "updated_at": "2026-06-19T02:27:15.541940"
+  "created_at": "2026-06-24T08:54:12.368600",
+  "updated_at": "2026-06-24T08:54:12.368612"
 }

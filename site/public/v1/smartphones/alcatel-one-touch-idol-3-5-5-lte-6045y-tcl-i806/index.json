@@ -1,6 +1,7 @@
 {
-  "id": 16835,
+  "id": 1429,
   "slug": "alcatel-one-touch-idol-3-5-5-lte-6045y-tcl-i806",
+  "base_model_slug": null,
   "name": "Alcatel One Touch Idol 3 5.5 LTE 6045Y (TCL i806)",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 1865,
+    "id": 1524,
     "slug": "qualcomm-snapdragon-615-msm8939",
     "name": "Qualcomm Snapdragon 615 MSM8939",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 405",
     "url": "/v1/socs/qualcomm-snapdragon-615-msm8939"
   },
   "release_date": "2015-08-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
+    "algorithm_version": "2.0.0",
+    "overall": 31.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 45.1,
-    "value": null
+    "battery": 14.1,
+    "display": 47.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=8723"
   ],
-  "created_at": "2026-06-19T09:44:27.612114",
-  "updated_at": "2026-06-19T09:44:27.612114"
+  "created_at": "2026-06-24T08:53:50.709324",
+  "updated_at": "2026-06-24T08:53:50.709338"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15656,
+  "id": 82313,
   "slug": "poco-f3",
+  "base_model_slug": null,
   "name": "POCO F3",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2400x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/poco-f3.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.3,
-    "performance": 6.1,
-    "camera": 26.5,
-    "battery": 26.2,
-    "display": 42.4,
-    "value": 62.6
+    "algorithm_version": "2.0.0",
+    "overall": 44.5,
+    "performance": 56.4,
+    "camera": 27.5,
+    "battery": 49.6,
+    "display": 44.5,
+    "value": 68.7,
+    "perf": {
+      "index": 56.4,
+      "percentile": 75.9,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/poco-f3",
     "https://en.wikipedia.org/wiki/POCO_F3"
   ],
-  "created_at": "2026-06-19T02:27:16.444848",
-  "updated_at": "2026-06-19T02:27:16.444848"
+  "created_at": "2026-06-24T08:54:24.753893",
+  "updated_at": "2026-06-24T08:54:24.753906"
 }

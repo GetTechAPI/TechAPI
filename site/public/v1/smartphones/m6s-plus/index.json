@@ -1,6 +1,7 @@
 {
-  "id": 2691,
+  "id": 12141,
   "slug": "m6s-plus",
+  "base_model_slug": null,
   "name": "M6s Plus",
   "brand": {
     "id": 19,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/gionee"
   },
   "soc": {
-    "id": 1261,
+    "id": 1618,
     "slug": "qualcomm-msm8976-pro-snapdragon-653",
     "name": "Qualcomm MSM8976 Pro Snapdragon 653",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.0,
+    "algorithm_version": "2.0.0",
+    "overall": 25.6,
     "performance": null,
-    "camera": 5.0,
+    "camera": 6.3,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.240656",
-  "updated_at": "2026-06-19T02:27:14.240656"
+  "created_at": "2026-06-24T08:53:54.928051",
+  "updated_at": "2026-06-24T08:53:54.928064"
 }

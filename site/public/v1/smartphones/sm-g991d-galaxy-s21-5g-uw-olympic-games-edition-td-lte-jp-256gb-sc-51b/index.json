@@ -1,6 +1,7 @@
 {
-  "id": 12510,
+  "id": 63626,
   "slug": "sm-g991d-galaxy-s21-5g-uw-olympic-games-edition-td-lte-jp-256gb-sc-51b",
+  "base_model_slug": null,
   "name": "SM-G991D Galaxy S21 5G UW Olympic Games Edition TD-LTE JP 256GB SC-51B",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.24,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.3,
-    "performance": 6.4,
-    "camera": 5.1,
-    "battery": 26.9,
-    "display": 54.7,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 40.7,
+    "performance": 57.2,
+    "camera": 6.3,
+    "battery": 47.2,
+    "display": 52.2,
+    "value": null,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.893383",
-  "updated_at": "2026-06-19T02:27:15.893383"
+  "created_at": "2026-06-24T08:54:16.789184",
+  "updated_at": "2026-06-24T08:54:16.789197"
 }

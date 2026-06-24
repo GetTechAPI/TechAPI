@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 12-channel ECC",
   "msrp_usd": 1083,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 66.6,
+    "single": {
+      "index": 79.0,
+      "percentile": 49.4,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 56.4,
+      "percentile": 43.3,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-9124",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+9124"
   ],
-  "created_at": "2026-06-19T02:27:18.143613",
-  "updated_at": "2026-06-19T02:27:18.143613",
+  "created_at": "2026-06-24T08:54:40.902944",
+  "updated_at": "2026-06-24T08:54:40.902955",
   "url": "/v1/cpus/epyc-9124"
 }

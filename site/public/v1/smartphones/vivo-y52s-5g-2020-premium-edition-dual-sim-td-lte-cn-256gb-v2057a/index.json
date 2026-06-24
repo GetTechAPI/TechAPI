@@ -1,6 +1,7 @@
 {
-  "id": 14731,
+  "id": 75982,
   "slug": "vivo-y52s-5g-2020-premium-edition-dual-sim-td-lte-cn-256gb-v2057a",
+  "base_model_slug": null,
   "name": "Vivo Y52s 5G 2020 Premium Edition Dual SIM TD-LTE CN 256GB V2057A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 999,
+    "id": 1187,
     "slug": "dimensity-720",
     "name": "Dimensity 720",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": "1080x2408",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 30.6,
-    "display": 40.1,
-    "value": 11.3
+    "algorithm_version": "2.0.0",
+    "overall": 36.6,
+    "performance": 36.9,
+    "camera": 17.5,
+    "battery": 51.8,
+    "display": 40.4,
+    "value": 18.3,
+    "perf": {
+      "index": 36.9,
+      "percentile": 38.9,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.314695",
-  "updated_at": "2026-06-19T02:27:16.314695"
+  "created_at": "2026-06-24T08:54:22.397225",
+  "updated_at": "2026-06-24T08:54:22.397237"
 }

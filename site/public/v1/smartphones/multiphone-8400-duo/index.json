@@ -1,6 +1,7 @@
 {
-  "id": 10159,
+  "id": 52036,
   "slug": "multiphone-8400-duo",
+  "base_model_slug": null,
   "name": "MultiPhone 8400 Duo",
   "brand": {
     "id": 56,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/prestigio"
   },
   "soc": {
-    "id": 1239,
+    "id": 1589,
     "slug": "qualcomm-msm8212-snapdragon-200",
     "name": "Qualcomm MSM8212 Snapdragon 200",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.0,
     "resolution": "480x800",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 5.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 5.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.521898",
-  "updated_at": "2026-06-19T02:27:15.521898"
+  "created_at": "2026-06-24T08:54:12.138355",
+  "updated_at": "2026-06-24T08:54:12.138369"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 9161,
+  "id": 46545,
   "slug": "realme-x3-superzoom-global-dual-sim-td-lte-v1-128gb-rmx2086",
+  "base_model_slug": null,
   "name": "Realme X3 SuperZoom Global Dual SIM TD-LTE V1 128GB RMX2086",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1327,
+    "id": 1688,
     "slug": "snapdragon-855-plus",
     "name": "Snapdragon 855+",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.5,
-    "performance": 3.0,
-    "camera": 21.7,
-    "battery": 20.9,
-    "display": 52.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 41.9,
+    "performance": 48.6,
+    "camera": 22.6,
+    "battery": 45.9,
+    "display": 50.3,
+    "value": null,
+    "perf": {
+      "index": 48.6,
+      "percentile": 60.7,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.354547",
-  "updated_at": "2026-06-19T02:27:15.354547"
+  "created_at": "2026-06-24T08:54:09.957838",
+  "updated_at": "2026-06-24T08:54:09.957851"
 }

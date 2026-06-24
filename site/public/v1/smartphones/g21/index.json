@@ -1,6 +1,7 @@
 {
-  "id": 8308,
+  "id": 41715,
   "slug": "g21",
+  "base_model_slug": null,
   "name": "G21",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1559,
+    "id": 2085,
     "slug": "unisoc-t606",
     "name": "Unisoc T606",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.4,
-    "performance": 1.5,
-    "camera": 17.1,
-    "battery": 30.7,
+    "algorithm_version": "2.0.0",
+    "overall": 26.6,
+    "performance": 22.0,
+    "camera": 18.1,
+    "battery": 39.7,
     "display": null,
-    "value": 58.2
+    "value": 63.3,
+    "perf": {
+      "index": 22.0,
+      "percentile": 10.1,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.226520",
-  "updated_at": "2026-06-19T02:27:15.226520"
+  "created_at": "2026-06-24T08:54:07.610108",
+  "updated_at": "2026-06-24T08:54:07.610121"
 }

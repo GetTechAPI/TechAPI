@@ -1,6 +1,7 @@
 {
-  "id": 12589,
+  "id": 63908,
   "slug": "sm-m625f-ds-galaxy-m62-2021-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "SM-M625F/DS Galaxy M62 2021 Global Dual SIM TD-LTE",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1466,
+    "id": 1933,
     "slug": "exynos-9825",
     "name": "Samsung Exynos 9825",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 28.5,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 45.0,
-    "display": 44.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 45.4,
+    "performance": 52.1,
+    "camera": 22.4,
+    "battery": 59.6,
+    "display": 47.3,
+    "value": null,
+    "perf": {
+      "index": 52.1,
+      "percentile": 63.7,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.903893",
-  "updated_at": "2026-06-19T02:27:15.903893"
+  "created_at": "2026-06-24T08:54:16.880592",
+  "updated_at": "2026-06-24T08:54:16.880605"
 }

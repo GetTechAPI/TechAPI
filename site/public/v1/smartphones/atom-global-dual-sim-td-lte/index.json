@@ -1,6 +1,7 @@
 {
-  "id": 13933,
+  "id": 73480,
   "slug": "atom-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "Atom Global Dual SIM TD-LTE",
   "brand": {
     "id": 50,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/unihertz"
   },
   "soc": {
-    "id": 913,
+    "id": 1100,
     "slug": "helio-p23",
     "name": "Helio P23",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 2.45,
     "resolution": "240x432",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.3,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 13.8,
+    "performance": 7.6,
+    "camera": 7.5,
+    "battery": 5.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 7.6,
+      "percentile": 3.5,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.203656",
-  "updated_at": "2026-06-19T02:27:16.203656"
+  "created_at": "2026-06-24T08:54:21.413366",
+  "updated_at": "2026-06-24T08:54:21.413379"
 }

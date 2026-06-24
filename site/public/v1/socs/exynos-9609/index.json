@@ -1,5 +1,5 @@
 {
-  "id": 1462,
+  "id": 1929,
   "slug": "exynos-9609",
   "name": "Exynos 9609",
   "manufacturer": {
@@ -24,11 +24,29 @@
   "gpu_clock_mhz": null,
   "npu_tops": null,
   "modem": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 26.4,
+    "cpu": {
+      "index": 28.6,
+      "percentile": 23.6,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 21.2,
+      "percentile": 34.5,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/alanjo/smartphone-processors-ranking"
   ],
-  "created_at": "2026-06-19T02:27:12.612845",
-  "updated_at": "2026-06-19T02:27:12.612845",
+  "created_at": "2026-06-24T08:53:43.943139",
+  "updated_at": "2026-06-24T08:53:43.943150",
   "url": "/v1/socs/exynos-9609"
 }

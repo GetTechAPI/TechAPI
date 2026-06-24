@@ -1,6 +1,7 @@
 {
-  "id": 16406,
+  "id": 88390,
   "slug": "blade-a7-prime",
+  "base_model_slug": null,
   "name": "Blade A7 Prime",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1019,
+    "id": 1212,
     "slug": "mediatek-mt6761-helio-a22",
     "name": "Mediatek MT6761 Helio A22",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "720x1560",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.7,
+    "algorithm_version": "2.0.0",
+    "overall": 14.3,
     "performance": null,
-    "camera": 6.3,
-    "battery": 3.0,
+    "camera": 7.5,
+    "battery": 21.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.549799",
-  "updated_at": "2026-06-19T02:27:16.549799"
+  "created_at": "2026-06-24T08:54:27.050674",
+  "updated_at": "2026-06-24T08:54:27.050687"
 }

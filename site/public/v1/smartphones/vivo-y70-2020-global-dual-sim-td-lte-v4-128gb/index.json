@@ -1,6 +1,7 @@
 {
-  "id": 14630,
+  "id": 75388,
   "slug": "vivo-y70-2020-global-dual-sim-td-lte-v4-128gb",
+  "base_model_slug": null,
   "name": "Vivo Y70 2020 Global Dual SIM TD-LTE V4 128GB",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.44,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.3,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 19.9,
-    "display": 45.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.2,
+    "performance": 25.6,
+    "camera": 17.5,
+    "battery": 37.1,
+    "display": 48.5,
+    "value": null,
+    "perf": {
+      "index": 25.6,
+      "percentile": 24.9,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.301175",
-  "updated_at": "2026-06-19T02:27:16.301175"
+  "created_at": "2026-06-24T08:54:22.160253",
+  "updated_at": "2026-06-24T08:54:22.160292"
 }

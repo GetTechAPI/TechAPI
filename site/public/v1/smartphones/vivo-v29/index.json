@@ -1,6 +1,7 @@
 {
-  "id": 14762,
+  "id": 77273,
   "slug": "vivo-v29",
+  "base_model_slug": null,
   "name": "vivo V29",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1352,
+    "id": 1732,
     "slug": "snapdragon-778g",
     "name": "Snapdragon 778G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "2400x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-v29.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 30.6,
-    "performance": 3.0,
-    "camera": 35.1,
-    "battery": 34.5,
-    "display": 49.7,
-    "value": 59.5
+    "algorithm_version": "2.0.0",
+    "overall": 48.0,
+    "performance": 50.9,
+    "camera": 36.1,
+    "battery": 54.5,
+    "display": 50.6,
+    "value": 65.1,
+    "perf": {
+      "index": 50.9,
+      "percentile": 59.8,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.vivo.com/en/products/v29",
     "https://en.wikipedia.org/wiki/Vivo_V29"
   ],
-  "created_at": "2026-06-19T02:27:16.318695",
-  "updated_at": "2026-06-19T02:27:16.318695"
+  "created_at": "2026-06-24T08:54:22.908769",
+  "updated_at": "2026-06-24T08:54:22.908781"
 }

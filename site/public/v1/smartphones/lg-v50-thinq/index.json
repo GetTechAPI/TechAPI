@@ -1,6 +1,7 @@
 {
-  "id": 5872,
+  "id": 29468,
   "slug": "lg-v50-thinq",
+  "base_model_slug": null,
   "name": "LG V50 ThinQ 5G",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "3120x1440",
@@ -88,19 +90,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/lg-v50-thinq.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.7,
-    "performance": 1.5,
-    "camera": 23.0,
-    "battery": 18.7,
-    "display": 23.7,
-    "value": 25.6
+    "algorithm_version": "2.0.0",
+    "overall": 35.6,
+    "performance": 46.1,
+    "camera": 24.3,
+    "battery": 44.9,
+    "display": 27.3,
+    "value": 33.9,
+    "perf": {
+      "index": 46.1,
+      "percentile": 58.2,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/LG_V50_ThinQ",
     "https://www.lg.com/global/mobile-phones/lg-v50-thinq-5g"
   ],
-  "created_at": "2026-06-19T02:27:14.754527",
-  "updated_at": "2026-06-19T02:27:14.754527"
+  "created_at": "2026-06-24T08:54:02.695995",
+  "updated_at": "2026-06-24T08:54:02.696007"
 }

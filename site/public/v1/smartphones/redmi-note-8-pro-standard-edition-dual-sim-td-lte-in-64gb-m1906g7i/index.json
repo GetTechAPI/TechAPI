@@ -1,6 +1,7 @@
 {
-  "id": 15375,
+  "id": 80728,
   "slug": "redmi-note-8-pro-standard-edition-dual-sim-td-lte-in-64gb-m1906g7i",
+  "base_model_slug": null,
   "name": "Redmi Note 8 Pro Standard Edition Dual SIM TD-LTE IN 64GB M1906G7I",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 970,
+    "id": 1157,
     "slug": "helio-g90",
     "name": "Helio G90",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
-    "performance": 1.5,
-    "camera": 21.7,
-    "battery": 23.1,
-    "display": 27.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.9,
+    "performance": 34.7,
+    "camera": 22.6,
+    "battery": 36.4,
+    "display": 29.9,
+    "value": null,
+    "perf": {
+      "index": 34.7,
+      "percentile": 39.7,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.408815",
-  "updated_at": "2026-06-19T02:27:16.408815"
+  "created_at": "2026-06-24T08:54:24.195595",
+  "updated_at": "2026-06-24T08:54:24.195608"
 }

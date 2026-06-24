@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel HD Graphics 2500",
   "memory_support": "DDR3-1600 dual-channel",
   "msrp_usd": 174,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 23.1,
+    "single": {
+      "index": 33.4,
+      "percentile": 38.0,
+      "tier": "D",
+      "era": "2010-2013",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 14.6,
+      "percentile": 26.8,
+      "tier": "D",
+      "era": "2010-2013",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/List_of_Intel_Core_processors",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-3450",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.221306",
-  "updated_at": "2026-06-19T02:27:18.221306",
+  "created_at": "2026-06-24T08:54:41.083773",
+  "updated_at": "2026-06-24T08:54:41.083784",
   "url": "/v1/cpus/core-i5-3450"
 }

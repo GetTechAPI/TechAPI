@@ -1,5 +1,5 @@
 {
-  "id": 1459,
+  "id": 1926,
   "slug": "exynos-7884b",
   "name": "Exynos 7884B",
   "manufacturer": {
@@ -24,11 +24,29 @@
   "gpu_clock_mhz": null,
   "npu_tops": null,
   "modem": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 13.0,
+    "cpu": {
+      "index": 18.4,
+      "percentile": 12.7,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 0.5,
+      "percentile": 5.5,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/alanjo/smartphone-processors-ranking"
   ],
-  "created_at": "2026-06-19T02:27:12.611845",
-  "updated_at": "2026-06-19T02:27:12.611845",
+  "created_at": "2026-06-24T08:53:43.942745",
+  "updated_at": "2026-06-24T08:53:43.942757",
   "url": "/v1/socs/exynos-7884b"
 }

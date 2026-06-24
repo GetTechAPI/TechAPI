@@ -1,6 +1,7 @@
 {
-  "id": 14473,
+  "id": 74881,
   "slug": "vivo-y5s-2019-standard-edition-dual-sim-td-lte-cn-128gb-v1934a",
+  "base_model_slug": null,
   "name": "Vivo Y5s 2019 Standard Edition Dual SIM TD-LTE CN 128GB V1934A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 972,
+    "id": 1159,
     "slug": "helio-p65",
     "name": "Helio P65",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.4,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 30.6,
-    "display": 44.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.9,
+    "performance": 23.2,
+    "camera": 7.5,
+    "battery": 41.4,
+    "display": 47.4,
+    "value": null,
+    "perf": {
+      "index": 23.2,
+      "percentile": 27.8,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.281213",
-  "updated_at": "2026-06-19T02:27:16.281213"
+  "created_at": "2026-06-24T08:54:21.960531",
+  "updated_at": "2026-06-24T08:54:21.960543"
 }

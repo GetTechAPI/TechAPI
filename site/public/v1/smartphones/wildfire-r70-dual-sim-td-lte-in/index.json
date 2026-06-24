@@ -1,6 +1,7 @@
 {
-  "id": 3395,
+  "id": 16052,
   "slug": "wildfire-r70-dual-sim-td-lte-in",
+  "base_model_slug": null,
   "name": "Wildfire R70 Dual SIM TD-LTE IN",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 913,
+    "id": 1100,
     "slug": "helio-p23",
     "name": "Helio P23",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "720x1560",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.1,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 18.9,
+    "performance": 6.3,
+    "camera": 7.5,
+    "battery": 25.9,
+    "display": 36.1,
+    "value": null,
+    "perf": {
+      "index": 6.3,
+      "percentile": 2.7,
+      "tier": "F",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.396118",
-  "updated_at": "2026-06-19T02:27:14.396118"
+  "created_at": "2026-06-24T08:53:56.866520",
+  "updated_at": "2026-06-24T08:53:56.866533"
 }

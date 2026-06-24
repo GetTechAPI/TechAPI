@@ -1,5 +1,5 @@
 {
-  "id": 1370,
+  "id": 1780,
   "slug": "snapdragon-8-elite",
   "name": "Snapdragon 8 Elite",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 1100,
   "npu_tops": 45.0,
   "modem": "Snapdragon X80 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 96.7,
+    "cpu": {
+      "index": 97.3,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 95.4,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-8-elite-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_8_Elite"
   ],
-  "created_at": "2026-06-19T02:27:12.606845",
-  "updated_at": "2026-06-19T02:27:12.606845",
+  "created_at": "2026-06-24T08:53:43.920966",
+  "updated_at": "2026-06-24T08:53:43.920977",
   "url": "/v1/socs/snapdragon-8-elite"
 }

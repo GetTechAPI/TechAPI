@@ -1,6 +1,7 @@
 {
-  "id": 20829,
+  "id": 25487,
   "slug": "lenovo-lemon-3-dual-sim-td-lte-k32c30",
+  "base_model_slug": null,
   "name": "Lenovo Lemon 3 Dual SIM TD-LTE K32c30",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1889,
+    "id": 1577,
     "slug": "qualcomm-snapdragon-616-msm8939v2",
     "name": "Qualcomm Snapdragon 616 MSM8939V2",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 405",
     "url": "/v1/socs/qualcomm-snapdragon-616-msm8939v2"
   },
   "release_date": "2016-01-16",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.6,
+    "algorithm_version": "2.0.0",
+    "overall": 31.9,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 49.1,
-    "value": null
+    "battery": 12.5,
+    "display": 51.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=9543"
   ],
-  "created_at": "2026-06-19T09:44:28.730511",
-  "updated_at": "2026-06-19T09:44:28.730511"
+  "created_at": "2026-06-24T08:54:00.508724",
+  "updated_at": "2026-06-24T08:54:00.508737"
 }

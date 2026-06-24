@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 90,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 11.4,
+    "single": {
+      "index": 13.5,
+      "percentile": 12.4,
+      "tier": "E",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 9.6,
+      "percentile": 15.8,
+      "tier": "E",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+3700%2B"
   ],
-  "created_at": "2026-06-19T02:27:18.035406",
-  "updated_at": "2026-06-19T02:27:18.035406",
+  "created_at": "2026-06-24T08:54:40.687906",
+  "updated_at": "2026-06-24T08:54:40.687917",
   "url": "/v1/cpus/amd-athlon-64-3700-plus"
 }

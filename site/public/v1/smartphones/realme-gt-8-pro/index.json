@@ -1,6 +1,7 @@
 {
-  "id": 10442,
+  "id": 53831,
   "slug": "realme-gt-8-pro",
+  "base_model_slug": null,
   "name": "Realme GT 8 Pro",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1375,
+    "id": 1804,
     "slug": "snapdragon-8-elite-gen-5",
     "name": "Snapdragon 8 Elite Gen 5",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.79,
     "resolution": "2780x1264",
@@ -87,19 +89,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/realme-gt-8-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 77.3,
-    "performance": 94.0,
-    "camera": 35.1,
-    "battery": 95.0,
-    "display": 85.0,
-    "value": 69.5
+    "algorithm_version": "2.0.0",
+    "overall": 77.2,
+    "performance": 94.5,
+    "camera": 36.1,
+    "battery": 97.9,
+    "display": 80.1,
+    "value": 67.2,
+    "perf": {
+      "index": 94.5,
+      "percentile": 99.2,
+      "tier": "S",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.realme.com/global/realme-gt-8-pro",
     "https://www.gsmarena.com/realme_gt8_pro_5g_(china)-14245.php"
   ],
-  "created_at": "2026-06-19T02:27:15.561446",
-  "updated_at": "2026-06-19T02:27:15.561446"
+  "created_at": "2026-06-24T08:54:12.836788",
+  "updated_at": "2026-06-24T08:54:12.836802"
 }

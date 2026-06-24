@@ -1,6 +1,7 @@
 {
-  "id": 16381,
+  "id": 88283,
   "slug": "axon-10-pro-5g-a2020n2-dual-sim-td-lte-cn-256gb",
+  "base_model_slug": null,
   "name": "Axon 10 Pro 5G A2020N2 Dual SIM TD-LTE CN 256GB",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.47,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.0,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 15.6,
-    "display": 44.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 38.6,
+    "performance": 47.5,
+    "camera": 17.5,
+    "battery": 41.9,
+    "display": 47.7,
+    "value": null,
+    "perf": {
+      "index": 47.5,
+      "percentile": 61.5,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.546800",
-  "updated_at": "2026-06-19T02:27:16.546800"
+  "created_at": "2026-06-24T08:54:27.014300",
+  "updated_at": "2026-06-24T08:54:27.014313"
 }

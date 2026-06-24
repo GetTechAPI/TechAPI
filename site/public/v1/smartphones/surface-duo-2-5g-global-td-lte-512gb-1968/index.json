@@ -1,6 +1,7 @@
 {
-  "id": 6621,
+  "id": 32817,
   "slug": "surface-duo-2-5g-global-td-lte-512gb-1968",
+  "base_model_slug": null,
   "name": "Surface Duo 2 5G Global TD-LTE 512GB 1968",
   "brand": {
     "id": 167,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/microsoft"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.8,
     "resolution": "1344x1892",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.2,
-    "performance": 6.4,
-    "camera": 5.0,
-    "battery": 33.3,
-    "display": 40.0,
-    "value": 11.0
+    "algorithm_version": "2.0.0",
+    "overall": 38.8,
+    "performance": 57.2,
+    "camera": 6.3,
+    "battery": 51.4,
+    "display": 40.4,
+    "value": 19.8,
+    "perf": {
+      "index": 57.2,
+      "percentile": 68.3,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.861410",
-  "updated_at": "2026-06-19T02:27:14.861410"
+  "created_at": "2026-06-24T08:54:04.015797",
+  "updated_at": "2026-06-24T08:54:04.015810"
 }

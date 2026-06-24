@@ -1,6 +1,7 @@
 {
-  "id": 8426,
+  "id": 42521,
   "slug": "oneplus-7",
+  "base_model_slug": null,
   "name": "OnePlus 7",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.41,
     "resolution": "2340x1080",
@@ -77,19 +79,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-7.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.2,
-    "performance": 1.5,
-    "camera": 29.5,
-    "battery": 11.4,
-    "display": 10.2,
-    "value": 50.2
+    "algorithm_version": "2.0.0",
+    "overall": 32.9,
+    "performance": 46.1,
+    "camera": 30.5,
+    "battery": 39.2,
+    "display": 15.7,
+    "value": 57.0,
+    "perf": {
+      "index": 46.1,
+      "percentile": 58.2,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/OnePlus_7",
     "https://www.oneplus.com/oneplus-7/specs"
   ],
-  "created_at": "2026-06-19T02:27:15.248552",
-  "updated_at": "2026-06-19T02:27:15.248552"
+  "created_at": "2026-06-24T08:54:07.936819",
+  "updated_at": "2026-06-24T08:54:07.936832"
 }

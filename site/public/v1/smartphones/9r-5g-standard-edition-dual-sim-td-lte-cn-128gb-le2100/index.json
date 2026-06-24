@@ -1,6 +1,7 @@
 {
-  "id": 8504,
+  "id": 42866,
   "slug": "9r-5g-standard-edition-dual-sim-td-lte-cn-128gb-le2100",
+  "base_model_slug": null,
   "name": "9R 5G Standard Edition Dual SIM TD-LTE CN 128GB LE2100",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.55,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.8,
-    "performance": 6.1,
-    "camera": 16.5,
-    "battery": 32.0,
-    "display": 52.7,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 44.9,
+    "performance": 56.4,
+    "camera": 17.5,
+    "battery": 55.0,
+    "display": 50.5,
+    "value": null,
+    "perf": {
+      "index": 56.4,
+      "percentile": 75.9,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.258558",
-  "updated_at": "2026-06-19T02:27:15.258558"
+  "created_at": "2026-06-24T08:54:08.056447",
+  "updated_at": "2026-06-24T08:54:08.056460"
 }

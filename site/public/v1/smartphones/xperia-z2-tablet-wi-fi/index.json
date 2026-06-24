@@ -1,6 +1,7 @@
 {
-  "id": 13109,
+  "id": 69121,
   "slug": "xperia-z2-tablet-wi-fi",
+  "base_model_slug": null,
   "name": "Xperia Z2 Tablet Wi-Fi",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1181,
+    "id": 1490,
     "slug": "qualcomm-apq8074ab-snapdragon-801",
     "name": "Qualcomm APQ8074AB Snapdragon 801",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "1200x1920",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.0,
+    "algorithm_version": "2.0.0",
+    "overall": 25.1,
     "performance": null,
-    "camera": 5.0,
+    "camera": 5.1,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.072050",
-  "updated_at": "2026-06-19T02:27:16.072050"
+  "created_at": "2026-06-24T08:54:19.641217",
+  "updated_at": "2026-06-24T08:54:19.641229"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 4119,
+  "id": 19736,
   "slug": "mate-40-5g-global-dual-sim-td-lte-256gb-oce-an10",
+  "base_model_slug": null,
   "name": "Mate 40 5G Global Dual SIM TD-LTE 256GB OCE-AN10",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 714,
+    "id": 847,
     "slug": "kirin-9000e",
     "name": "Kirin 9000E",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2376",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.2,
-    "performance": 6.8,
-    "camera": 17.2,
-    "battery": 32.8,
-    "display": 40.2,
-    "value": 39.0
+    "algorithm_version": "2.0.0",
+    "overall": 41.8,
+    "performance": 56.5,
+    "camera": 18.2,
+    "battery": 51.8,
+    "display": 40.5,
+    "value": 46.0,
+    "perf": {
+      "index": 56.5,
+      "percentile": 77.0,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.493744",
-  "updated_at": "2026-06-19T02:27:14.493744"
+  "created_at": "2026-06-24T08:53:58.262934",
+  "updated_at": "2026-06-24T08:53:58.262946"
 }

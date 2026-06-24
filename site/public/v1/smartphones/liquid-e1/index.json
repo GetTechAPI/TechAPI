@@ -1,6 +1,7 @@
 {
-  "id": 49,
+  "id": 149,
   "slug": "liquid-e1",
+  "base_model_slug": null,
   "name": "Liquid E1",
   "brand": {
     "id": 128,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/acer"
   },
   "soc": {
-    "id": 823,
+    "id": 1001,
     "slug": "mediatek-mt6577",
     "name": "Mediatek MT6577",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.5,
     "resolution": "540x960",
@@ -57,18 +59,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 3.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 2.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.819126",
-  "updated_at": "2026-06-19T02:27:13.819126"
+  "created_at": "2026-06-24T08:53:50.131502",
+  "updated_at": "2026-06-24T08:53:50.131515"
 }

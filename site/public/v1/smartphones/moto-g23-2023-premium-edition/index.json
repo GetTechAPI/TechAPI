@@ -1,6 +1,7 @@
 {
-  "id": 7516,
+  "id": 37776,
   "slug": "moto-g23-2023-premium-edition",
+  "base_model_slug": null,
   "name": "Moto G23 2023 Premium Edition",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1007,
+    "id": 1195,
     "slug": "helio-g85",
     "name": "MediaTek Helio G85",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.8,
-    "performance": 3.0,
-    "camera": 17.2,
-    "battery": 32.9,
-    "display": 30.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.1,
+    "performance": 29.6,
+    "camera": 18.1,
+    "battery": 43.5,
+    "display": 29.2,
+    "value": null,
+    "perf": {
+      "index": 29.6,
+      "percentile": 14.6,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.075347",
-  "updated_at": "2026-06-19T02:27:15.075347"
+  "created_at": "2026-06-24T08:54:05.973330",
+  "updated_at": "2026-06-24T08:54:05.973343"
 }

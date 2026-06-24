@@ -1,6 +1,7 @@
 {
-  "id": 3767,
+  "id": 18001,
   "slug": "p20-global-td-lte-eml-l09-eml-l09c",
+  "base_model_slug": null,
   "name": "P20 Global TD-LTE EML-L09 / EML-L09C",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 704,
+    "id": 837,
     "slug": "kirin-970",
     "name": "Kirin 970",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.79,
     "resolution": "1080x2244",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.9,
-    "performance": 24.5,
-    "camera": 5.0,
-    "battery": 6.0,
-    "display": 48.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.0,
+    "performance": 60.1,
+    "camera": 6.1,
+    "battery": 27.3,
+    "display": 50.4,
+    "value": null,
+    "perf": {
+      "index": 60.1,
+      "percentile": 87.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.449191",
-  "updated_at": "2026-06-19T02:27:14.449191"
+  "created_at": "2026-06-24T08:53:57.629828",
+  "updated_at": "2026-06-24T08:53:57.629841"
 }

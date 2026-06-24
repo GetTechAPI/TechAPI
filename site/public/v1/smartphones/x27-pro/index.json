@@ -1,6 +1,7 @@
 {
-  "id": 14505,
+  "id": 74923,
   "slug": "x27-pro",
+  "base_model_slug": null,
   "name": "X27 Pro",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1294,
+    "id": 1652,
     "slug": "snapdragon-710",
     "name": "Snapdragon 710",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.39,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.2,
-    "performance": 23.0,
-    "camera": 16.5,
-    "battery": 15.0,
+    "algorithm_version": "2.0.0",
+    "overall": 37.0,
+    "performance": 60.1,
+    "camera": 17.5,
+    "battery": 33.3,
     "display": null,
-    "value": 51.5
+    "value": 57.8,
+    "perf": {
+      "index": 60.1,
+      "percentile": 87.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.285212",
-  "updated_at": "2026-06-19T02:27:16.285212"
+  "created_at": "2026-06-24T08:54:21.975330",
+  "updated_at": "2026-06-24T08:54:21.975343"
 }

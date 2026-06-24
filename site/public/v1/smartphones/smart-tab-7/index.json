@@ -1,6 +1,7 @@
 {
-  "id": 4606,
+  "id": 23934,
   "slug": "smart-tab-7",
+  "base_model_slug": null,
   "name": "Smart Tab 7",
   "brand": {
     "id": 91,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/karbonn"
   },
   "soc": {
-    "id": 478,
+    "id": 553,
     "slug": "vivante-gc860",
     "name": "Vivante GC860",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     1
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "480x800",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.8,
+    "algorithm_version": "2.0.0",
+    "overall": 13.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 10.5,
+    "battery": 22.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.567331",
-  "updated_at": "2026-06-19T02:27:14.567331"
+  "created_at": "2026-06-24T08:53:59.881530",
+  "updated_at": "2026-06-24T08:53:59.881543"
 }

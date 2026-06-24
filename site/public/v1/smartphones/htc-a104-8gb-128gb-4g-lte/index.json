@@ -1,5 +1,5 @@
 {
-  "id": 7743,
+  "id": 16100,
   "slug": "htc-a104-8gb-128gb-4g-lte",
   "base_model_slug": "a104",
   "name": "HTC A104",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 2063,
+    "id": 2085,
     "slug": "unisoc-t606",
     "name": "Unisoc T606",
     "manufacturer": {
@@ -63,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.0,
-    "performance": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 36.2,
+    "performance": 23.3,
     "camera": null,
-    "battery": 45.0,
+    "battery": 49.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 23.3,
+      "percentile": 11.4,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:11.072724",
-  "updated_at": "2026-06-20T12:45:11.072724"
+  "created_at": "2026-06-24T08:53:56.883811",
+  "updated_at": "2026-06-24T08:53:56.883824"
 }

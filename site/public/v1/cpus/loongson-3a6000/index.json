@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 dual-channel",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 27.5,
+    "single": {
+      "index": 42.6,
+      "percentile": 1.8,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 15.2,
+      "percentile": 3.7,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Loongson",
     "https://www.loongson.cn/EN/product/cpu_3a6000.html",
     "https://www.cpubenchmark.net/cpu.php?cpu=Loongson-3A6000&id=6975"
   ],
-  "created_at": "2026-06-19T02:27:18.402336",
-  "updated_at": "2026-06-19T02:27:18.402336",
+  "created_at": "2026-06-24T08:54:41.424399",
+  "updated_at": "2026-06-24T08:54:41.424413",
   "url": "/v1/cpus/loongson-3a6000"
 }

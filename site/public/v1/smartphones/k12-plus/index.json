@@ -1,6 +1,7 @@
 {
-  "id": 9454,
+  "id": 49912,
   "slug": "k12-plus",
+  "base_model_slug": null,
   "name": "K12 Plus",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1364,
+    "id": 1763,
     "slug": "snapdragon-7-gen-3",
     "name": "Snapdragon 7 Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.0,
-    "performance": 22.0,
-    "camera": 17.1,
-    "battery": 60.0,
+    "algorithm_version": "2.0.0",
+    "overall": 50.5,
+    "performance": 67.6,
+    "camera": 18.1,
+    "battery": 65.8,
     "display": null,
-    "value": 51.1
+    "value": 57.5,
+    "perf": {
+      "index": 67.6,
+      "percentile": 66.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.400765",
-  "updated_at": "2026-06-19T02:27:15.400765"
+  "created_at": "2026-06-24T08:54:11.172754",
+  "updated_at": "2026-06-24T08:54:11.172767"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 13962,
+  "id": 73547,
   "slug": "constellation-2006",
+  "base_model_slug": null,
   "name": "Constellation 2006",
   "brand": {
     "id": 82,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vertu"
   },
   "soc": {
-    "id": 232,
+    "id": 282,
     "slug": "vertu-mobile-platform-2006",
     "name": "Vertu mobile platform 2006",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "type": "TFT, 256K colors"
   },
@@ -45,18 +47,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.207656",
-  "updated_at": "2026-06-19T02:27:16.207656"
+  "created_at": "2026-06-24T08:54:21.445422",
+  "updated_at": "2026-06-24T08:54:21.445435"
 }

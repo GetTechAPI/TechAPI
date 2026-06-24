@@ -1,6 +1,7 @@
 {
-  "id": 15574,
+  "id": 81725,
   "slug": "xiaomi-mi-10-ultra",
+  "base_model_slug": null,
   "name": "Xiaomi Mi 10 Ultra",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2340x1080",
@@ -93,19 +95,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-mi-10-ultra.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.1,
-    "performance": 3.0,
-    "camera": 39.5,
-    "battery": 52.5,
-    "display": 33.6,
-    "value": 46.8
+    "algorithm_version": "2.0.0",
+    "overall": 51.1,
+    "performance": 52.5,
+    "camera": 40.5,
+    "battery": 74.6,
+    "display": 37.0,
+    "value": 54.1,
+    "perf": {
+      "index": 52.5,
+      "percentile": 66.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_Mi_10",
     "https://www.mi.com/global/mi-10-ultra/specs/"
   ],
-  "created_at": "2026-06-19T02:27:16.435339",
-  "updated_at": "2026-06-19T02:27:16.435339"
+  "created_at": "2026-06-24T08:54:24.542811",
+  "updated_at": "2026-06-24T08:54:24.542824"
 }

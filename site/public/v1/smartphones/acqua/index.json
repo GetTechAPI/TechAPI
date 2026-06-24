@@ -1,6 +1,7 @@
 {
-  "id": 4374,
+  "id": 22354,
   "slug": "acqua",
+  "base_model_slug": null,
   "name": "Acqua",
   "brand": {
     "id": 162,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/icemobile"
   },
   "soc": {
-    "id": 460,
+    "id": 533,
     "slug": "icemobile-mobile-platform-2012",
     "name": "Icemobile mobile platform 2012",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     2
   ],
+  "variant": {},
   "display": {
     "size_inch": 1.77,
     "resolution": "128x160",
@@ -54,18 +56,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.0,
+    "algorithm_version": "2.0.0",
+    "overall": 13.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 9.0,
+    "battery": 21.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.532291",
-  "updated_at": "2026-06-19T02:27:14.532291"
+  "created_at": "2026-06-24T08:53:59.270633",
+  "updated_at": "2026-06-24T08:53:59.270646"
 }

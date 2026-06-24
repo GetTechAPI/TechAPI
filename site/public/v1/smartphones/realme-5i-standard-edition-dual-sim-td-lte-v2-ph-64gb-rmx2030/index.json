@@ -1,6 +1,7 @@
 {
-  "id": 9086,
+  "id": 46212,
   "slug": "realme-5i-standard-edition-dual-sim-td-lte-v2-ph-64gb-rmx2030",
+  "base_model_slug": null,
   "name": "Realme 5i Standard Edition Dual SIM TD-LTE V2 PH 64GB RMX2030",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.1,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 30.0,
-    "display": 17.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 22.4,
+    "performance": 22.1,
+    "camera": 6.3,
+    "battery": 42.1,
+    "display": 19.2,
+    "value": null,
+    "perf": {
+      "index": 22.1,
+      "percentile": 16.8,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.344556",
-  "updated_at": "2026-06-19T02:27:15.344556"
+  "created_at": "2026-06-24T08:54:09.849495",
+  "updated_at": "2026-06-24T08:54:09.849507"
 }

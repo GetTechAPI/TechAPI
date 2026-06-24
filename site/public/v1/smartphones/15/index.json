@@ -1,6 +1,7 @@
 {
-  "id": 15893,
+  "id": 85734,
   "slug": "15",
+  "base_model_slug": null,
   "name": "15",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1370,
+    "id": 1780,
     "slug": "snapdragon-8-elite",
     "name": "Snapdragon 8 Elite",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.36
   },
@@ -54,18 +56,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 53.3,
-    "performance": 86.9,
-    "camera": 17.1,
-    "battery": 56.0,
+    "algorithm_version": "2.0.0",
+    "overall": 57.2,
+    "performance": 91.6,
+    "camera": 18.1,
+    "battery": 61.9,
     "display": null,
-    "value": 61.3
+    "value": 60.8,
+    "perf": {
+      "index": 91.6,
+      "percentile": 97.3,
+      "tier": "S",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.475362",
-  "updated_at": "2026-06-19T02:27:16.475362"
+  "created_at": "2026-06-24T08:54:25.980143",
+  "updated_at": "2026-06-24T08:54:25.980156"
 }

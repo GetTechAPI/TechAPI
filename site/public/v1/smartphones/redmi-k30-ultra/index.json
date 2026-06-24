@@ -1,6 +1,7 @@
 {
-  "id": 15545,
+  "id": 81512,
   "slug": "redmi-k30-ultra",
+  "base_model_slug": null,
   "name": "Redmi K30 Ultra",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 997,
+    "id": 1185,
     "slug": "dimensity-1000-plus",
     "name": "Dimensity 1000 Plus",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.6,
-    "performance": 3.0,
-    "camera": 21.7,
-    "battery": 25.9,
-    "display": 52.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 43.0,
+    "performance": 49.9,
+    "camera": 22.6,
+    "battery": 49.5,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": 49.9,
+      "percentile": 61.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.431340",
-  "updated_at": "2026-06-19T02:27:16.431340"
+  "created_at": "2026-06-24T08:54:24.463989",
+  "updated_at": "2026-06-24T08:54:24.464002"
 }

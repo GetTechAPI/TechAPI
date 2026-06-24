@@ -1,6 +1,7 @@
 {
-  "id": 20915,
+  "id": 26907,
   "slug": "lg-gw550",
+  "base_model_slug": null,
   "name": "LG GW550",
   "brand": {
     "id": 110,
@@ -10,22 +11,23 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1595,
+    "id": 345,
     "slug": "n-a",
-    "name": "Unknown mobile SoC",
+    "name": "N/A",
     "manufacturer": {
       "slug": "arm",
       "name": "Arm",
       "url": "/v1/brands/arm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 45.0,
+    "gpu_name": "N/A",
     "url": "/v1/socs/n-a"
   },
   "release_date": "2009-12-01",
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 2.4,
     "resolution": "320x240",
@@ -45,18 +47,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=1945"
   ],
-  "created_at": "2026-06-19T09:44:28.747050",
-  "updated_at": "2026-06-19T09:44:28.747050"
+  "created_at": "2026-06-24T08:54:01.121704",
+  "updated_at": "2026-06-24T08:54:01.121716"
 }

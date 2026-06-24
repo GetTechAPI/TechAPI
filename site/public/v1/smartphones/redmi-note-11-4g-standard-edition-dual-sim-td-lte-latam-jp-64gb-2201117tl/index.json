@@ -1,6 +1,7 @@
 {
-  "id": 15823,
+  "id": 84221,
   "slug": "redmi-note-11-4g-standard-edition-dual-sim-td-lte-latam-jp-64gb-2201117tl",
+  "base_model_slug": null,
   "name": "Redmi Note 11 4G Standard Edition Dual SIM TD-LTE LATAM JP 64GB 2201117TL",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1349,
+    "id": 1729,
     "slug": "snapdragon-680",
     "name": "Snapdragon 680 4G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.1,
-    "performance": 0.0,
-    "camera": 17.2,
-    "battery": 38.4,
-    "display": 40.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 37.9,
+    "performance": 35.8,
+    "camera": 18.1,
+    "battery": 56.5,
+    "display": 41.1,
+    "value": null,
+    "perf": {
+      "index": 35.8,
+      "percentile": 19.6,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.467362",
-  "updated_at": "2026-06-19T02:27:16.467362"
+  "created_at": "2026-06-24T08:54:25.414977",
+  "updated_at": "2026-06-24T08:54:25.414990"
 }

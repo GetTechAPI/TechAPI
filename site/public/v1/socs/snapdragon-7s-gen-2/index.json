@@ -1,5 +1,5 @@
 {
-  "id": 1366,
+  "id": 1765,
   "slug": "snapdragon-7s-gen-2",
   "name": "Snapdragon 7s Gen 2",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 560,
   "npu_tops": 15.0,
   "modem": "Snapdragon X62 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 54.8,
+    "cpu": {
+      "index": 55.8,
+      "percentile": 20.0,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 52.5,
+      "percentile": 30.0,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-7-series-mobile-platforms/snapdragon-7s-gen-2-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_7s_Gen_2"
   ],
-  "created_at": "2026-06-19T02:27:12.606845",
-  "updated_at": "2026-06-19T02:27:12.606845",
+  "created_at": "2026-06-24T08:53:43.918863",
+  "updated_at": "2026-06-24T08:53:43.918874",
   "url": "/v1/socs/snapdragon-7s-gen-2"
 }

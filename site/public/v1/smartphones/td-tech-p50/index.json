@@ -1,6 +1,7 @@
 {
-  "id": 4271,
+  "id": 21542,
   "slug": "td-tech-p50",
+  "base_model_slug": null,
   "name": "TD Tech P50",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1224x2700",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.4,
-    "performance": 6.4,
-    "camera": 17.2,
-    "battery": 36.2,
-    "display": 45.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 44.0,
+    "performance": 57.2,
+    "camera": 18.2,
+    "battery": 55.4,
+    "display": 45.2,
+    "value": null,
+    "perf": {
+      "index": 57.2,
+      "percentile": 68.3,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.513195",
-  "updated_at": "2026-06-19T02:27:14.513195"
+  "created_at": "2026-06-24T08:53:58.900936",
+  "updated_at": "2026-06-24T08:53:58.900949"
 }

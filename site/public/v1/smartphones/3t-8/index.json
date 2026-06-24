@@ -1,6 +1,7 @@
 {
-  "id": 506,
+  "id": 1994,
   "slug": "3t-8",
+  "base_model_slug": null,
   "name": "3T 8",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 966,
+    "id": 1153,
     "slug": "mediatek-mt8765",
     "name": "Mediatek MT8765",
     "manufacturer": {
@@ -32,6 +33,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "800x1280",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.6,
+    "algorithm_version": "2.0.0",
+    "overall": 15.4,
     "performance": null,
     "camera": 5.0,
-    "battery": 16.2,
+    "battery": 25.8,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.897667",
-  "updated_at": "2026-06-19T02:27:13.897667"
+  "created_at": "2026-06-24T08:53:50.916362",
+  "updated_at": "2026-06-24T08:53:50.916375"
 }

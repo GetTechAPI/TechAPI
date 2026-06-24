@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-5200 octa-channel ECC",
   "msrp_usd": 2649,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 81.5,
+    "single": {
+      "index": 90.7,
+      "percentile": 87.2,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 73.9,
+      "percentile": 76.8,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/processors/workstations/ryzen-threadripper/7000-series/amd-ryzen-threadripper-pro-7965wx.html",
     "https://en.wikipedia.org/wiki/Zen_4",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+Threadripper+PRO+7965WX"
   ],
-  "created_at": "2026-06-19T02:27:18.148374",
-  "updated_at": "2026-06-19T02:27:18.148374",
+  "created_at": "2026-06-24T08:54:40.912791",
+  "updated_at": "2026-06-24T08:54:40.912802",
   "url": "/v1/cpus/ryzen-threadripper-pro-7965wx"
 }

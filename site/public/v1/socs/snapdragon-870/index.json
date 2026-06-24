@@ -1,5 +1,5 @@
 {
-  "id": 1356,
+  "id": 1736,
   "slug": "snapdragon-870",
   "name": "Snapdragon 870",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 587,
   "npu_tops": 15.0,
   "modem": "Snapdragon X55 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 61.9,
+    "cpu": {
+      "index": 63.6,
+      "percentile": 89.7,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 58.1,
+      "percentile": 87.9,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-870-5g-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_870"
   ],
-  "created_at": "2026-06-19T02:27:12.605852",
-  "updated_at": "2026-06-19T02:27:12.605852",
+  "created_at": "2026-06-24T08:53:43.914865",
+  "updated_at": "2026-06-24T08:53:43.914876",
   "url": "/v1/socs/snapdragon-870"
 }

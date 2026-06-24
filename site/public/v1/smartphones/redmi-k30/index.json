@@ -1,6 +1,7 @@
 {
-  "id": 15546,
+  "id": 81513,
   "slug": "redmi-k30",
+  "base_model_slug": null,
   "name": "Redmi K30",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1326,
+    "id": 1687,
     "slug": "snapdragon-765g",
     "name": "Snapdragon 765G",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -66,18 +68,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.5,
-    "performance": 3.0,
-    "camera": 21.7,
-    "battery": 25.4,
-    "display": 52.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 41.0,
+    "performance": 42.4,
+    "camera": 22.6,
+    "battery": 48.9,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": 42.4,
+      "percentile": 55.7,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.431340",
-  "updated_at": "2026-06-19T02:27:16.431340"
+  "created_at": "2026-06-24T08:54:24.464304",
+  "updated_at": "2026-06-24T08:54:24.464317"
 }

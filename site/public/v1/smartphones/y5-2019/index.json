@@ -1,6 +1,7 @@
 {
-  "id": 4032,
+  "id": 19154,
   "slug": "y5-2019",
+  "base_model_slug": null,
   "name": "Y5 2019",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 935,
+    "id": 1122,
     "slug": "helio-a22",
     "name": "Helio A22",
     "manufacturer": {
@@ -29,6 +30,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.71,
     "resolution": "720x1520",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.5,
+    "algorithm_version": "2.0.0",
+    "overall": 21.6,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.3,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 19.4,
+    "display": 38.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.482736",
-  "updated_at": "2026-06-19T02:27:14.482736"
+  "created_at": "2026-06-24T08:53:58.048681",
+  "updated_at": "2026-06-24T08:53:58.048694"
 }

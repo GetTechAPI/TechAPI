@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 8-channel ECC",
   "msrp_usd": 4025,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 58.8,
+    "single": {
+      "index": 45.8,
+      "percentile": 37.0,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 69.4,
+      "percentile": 96.0,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-7552",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7552"
   ],
-  "created_at": "2026-06-19T02:27:18.127443",
-  "updated_at": "2026-06-19T02:27:18.127443",
+  "created_at": "2026-06-24T08:54:40.861802",
+  "updated_at": "2026-06-24T08:54:40.861813",
   "url": "/v1/cpus/epyc-7552"
 }

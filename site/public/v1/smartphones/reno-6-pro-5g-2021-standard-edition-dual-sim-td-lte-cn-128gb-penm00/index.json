@@ -1,6 +1,7 @@
 {
-  "id": 9365,
+  "id": 47722,
   "slug": "reno-6-pro-5g-2021-standard-edition-dual-sim-td-lte-cn-128gb-penm00",
+  "base_model_slug": null,
   "name": "Reno 6 Pro+ 5G 2021 Standard Edition Dual SIM TD-LTE CN 128GB PENM00",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.9,
-    "performance": 6.1,
-    "camera": 17.2,
-    "battery": 32.0,
-    "display": 40.5,
-    "value": 11.9
+    "algorithm_version": "2.0.0",
+    "overall": 42.6,
+    "performance": 56.4,
+    "camera": 18.2,
+    "battery": 55.0,
+    "display": 40.8,
+    "value": 21.3,
+    "perf": {
+      "index": 56.4,
+      "percentile": 75.9,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.388248",
-  "updated_at": "2026-06-19T02:27:15.388248"
+  "created_at": "2026-06-24T08:54:10.378242",
+  "updated_at": "2026-06-24T08:54:10.378276"
 }

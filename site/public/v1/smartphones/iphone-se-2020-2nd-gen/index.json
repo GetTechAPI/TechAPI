@@ -1,6 +1,7 @@
 {
-  "id": 1015,
+  "id": 4424,
   "slug": "iphone-se-2020-2nd-gen",
+  "base_model_slug": null,
   "name": "iPhone SE 2020 2nd gen",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 21,
+    "id": 32,
     "slug": "apple-a13-bionic",
     "name": "Apple A13 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "750x1334",
@@ -66,18 +68,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.6,
-    "performance": 16.7,
-    "camera": 5.1,
-    "battery": 0.6,
-    "display": 20.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 28.0,
+    "performance": 61.8,
+    "camera": 6.3,
+    "battery": 20.0,
+    "display": 23.9,
+    "value": null,
+    "perf": {
+      "index": 61.8,
+      "percentile": 89.3,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.968648",
-  "updated_at": "2026-06-19T02:27:13.968648"
+  "created_at": "2026-06-24T08:53:51.805024",
+  "updated_at": "2026-06-24T08:53:51.805037"
 }

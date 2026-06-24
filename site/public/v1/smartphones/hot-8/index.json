@@ -1,6 +1,7 @@
 {
-  "id": 4444,
+  "id": 22699,
   "slug": "hot-8",
+  "base_model_slug": null,
   "name": "Hot 8",
   "brand": {
     "id": 27,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/infinix"
   },
   "soc": {
-    "id": 1019,
+    "id": 1212,
     "slug": "mediatek-mt6761-helio-a22",
     "name": "Mediatek MT6761 Helio A22",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.6,
+    "algorithm_version": "2.0.0",
+    "overall": 22.9,
     "performance": null,
-    "camera": 5.3,
-    "battery": 30.0,
+    "camera": 6.6,
+    "battery": 39.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.542801",
-  "updated_at": "2026-06-19T02:27:14.542801"
+  "created_at": "2026-06-24T08:53:59.401672",
+  "updated_at": "2026-06-24T08:53:59.401685"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 15903,
+  "id": 85912,
   "slug": "xiaomi-14",
+  "base_model_slug": null,
   "name": "Xiaomi 14",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1367,
+    "id": 1766,
     "slug": "snapdragon-8-gen-3",
     "name": "Snapdragon 8 Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.36,
     "resolution": "2670x1200",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-14.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 57.2,
-    "performance": 54.2,
-    "camera": 35.1,
-    "battery": 63.4,
-    "display": 76.0,
-    "value": 55.5
+    "algorithm_version": "2.0.0",
+    "overall": 66.7,
+    "performance": 80.8,
+    "camera": 36.1,
+    "battery": 76.7,
+    "display": 73.0,
+    "value": 58.4,
+    "perf": {
+      "index": 80.8,
+      "percentile": 79.9,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/xiaomi14-global",
     "https://en.wikipedia.org/wiki/Xiaomi_14"
   ],
-  "created_at": "2026-06-19T02:27:16.476362",
-  "updated_at": "2026-06-19T02:27:16.476362"
+  "created_at": "2026-06-24T08:54:26.042992",
+  "updated_at": "2026-06-24T08:54:26.043005"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 14418,
+  "id": 74826,
   "slug": "vivo-v17-pro-dual-sim-td-lte-tw-sg-128gb-1910",
+  "base_model_slug": null,
   "name": "Vivo V17 Pro Dual SIM TD-LTE TW SG 128GB 1910",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1293,
+    "id": 1651,
     "slug": "snapdragon-675",
     "name": "Snapdragon 675",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.44,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.6,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 17.1,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.8,
+    "performance": 30.6,
+    "camera": 17.5,
+    "battery": 34.5,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 30.6,
+      "percentile": 38.8,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.273205",
-  "updated_at": "2026-06-19T02:27:16.273205"
+  "created_at": "2026-06-24T08:54:21.942122",
+  "updated_at": "2026-06-24T08:54:21.942133"
 }

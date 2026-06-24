@@ -1,6 +1,7 @@
 {
-  "id": 14903,
+  "id": 78267,
   "slug": "highway-4g",
+  "base_model_slug": null,
   "name": "Highway 4G",
   "brand": {
     "id": 72,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/wiko"
   },
   "soc": {
-    "id": 1081,
+    "id": 1354,
     "slug": "nvidia-sl460n",
     "name": "Nvidia SL460N",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.1,
+    "algorithm_version": "2.0.0",
+    "overall": 8.0,
     "performance": null,
-    "camera": 6.3,
-    "battery": 0.0,
+    "camera": 7.5,
+    "battery": 8.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.344786",
-  "updated_at": "2026-06-19T02:27:16.344786"
+  "created_at": "2026-06-24T08:54:23.320364",
+  "updated_at": "2026-06-24T08:54:23.320376"
 }

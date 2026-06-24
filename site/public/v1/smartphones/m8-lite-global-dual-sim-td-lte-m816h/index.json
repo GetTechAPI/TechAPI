@@ -1,6 +1,7 @@
 {
-  "id": 6286,
+  "id": 31376,
   "slug": "m8-lite-global-dual-sim-td-lte-m816h",
+  "base_model_slug": null,
   "name": "M8 Lite Global Dual SIM TD-LTE M816H",
   "brand": {
     "id": 33,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/meizu"
   },
   "soc": {
-    "id": 982,
+    "id": 1170,
     "slug": "mediatek-mt6739",
     "name": "Mediatek MT6739",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.4,
+    "algorithm_version": "2.0.0",
+    "overall": 20.4,
     "performance": null,
-    "camera": 5.3,
-    "battery": 3.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 17.0,
+    "display": 37.7,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.810855",
-  "updated_at": "2026-06-19T02:27:14.810855"
+  "created_at": "2026-06-24T08:54:03.421609",
+  "updated_at": "2026-06-24T08:54:03.421621"
 }

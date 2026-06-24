@@ -1,6 +1,7 @@
 {
-  "id": 15800,
+  "id": 83943,
   "slug": "redmi-10-prime-2022-premium-edition",
+  "base_model_slug": null,
   "name": "Redmi 10 Prime 2022 Premium Edition",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1041,
+    "id": 1234,
     "slug": "helio-g88",
     "name": "MediaTek Helio G88",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "2560x1600",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.7,
-    "performance": 1.5,
-    "camera": 17.2,
-    "battery": 45.6,
-    "display": 46.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.2,
+    "performance": 29.4,
+    "camera": 18.2,
+    "battery": 51.4,
+    "display": 45.9,
+    "value": null,
+    "perf": {
+      "index": 29.4,
+      "percentile": 14.4,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.464361",
-  "updated_at": "2026-06-19T02:27:16.464361"
+  "created_at": "2026-06-24T08:54:25.321876",
+  "updated_at": "2026-06-24T08:54:25.321888"
 }

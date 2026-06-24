@@ -1,6 +1,7 @@
 {
-  "id": 10440,
+  "id": 53720,
   "slug": "14-pro-5g",
+  "base_model_slug": null,
   "name": "14 Pro+ 5G",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1373,
+    "id": 1802,
     "slug": "snapdragon-7s-gen-3",
     "name": "Snapdragon 7s Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.83,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.8,
-    "performance": 12.3,
-    "camera": 17.1,
-    "battery": 60.0,
+    "algorithm_version": "2.0.0",
+    "overall": 48.6,
+    "performance": 61.9,
+    "camera": 18.1,
+    "battery": 65.8,
     "display": null,
-    "value": 63.4
+    "value": 69.3,
+    "perf": {
+      "index": 61.9,
+      "percentile": 60.5,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.559942",
-  "updated_at": "2026-06-19T02:27:15.559942"
+  "created_at": "2026-06-24T08:54:12.795170",
+  "updated_at": "2026-06-24T08:54:12.795183"
 }

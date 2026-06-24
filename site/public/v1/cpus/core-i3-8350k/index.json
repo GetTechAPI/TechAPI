@@ -24,13 +24,31 @@
   "integrated_graphics": "Intel UHD Graphics 630",
   "memory_support": "DDR4-2400",
   "msrp_usd": 168,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 34.1,
+    "single": {
+      "index": 57.2,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 15.2,
+      "percentile": 11.6,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/126689/intel-core-i3-8350k-processor-8m-cache-4-00-ghz.html",
     "https://en.wikipedia.org/wiki/Coffee_Lake",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-8350K"
   ],
-  "created_at": "2026-06-19T02:27:18.323947",
-  "updated_at": "2026-06-19T02:27:18.323947",
+  "created_at": "2026-06-24T08:54:41.236365",
+  "updated_at": "2026-06-24T08:54:41.236376",
   "url": "/v1/cpus/core-i3-8350k"
 }

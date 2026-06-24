@@ -1,6 +1,7 @@
 {
-  "id": 8571,
+  "id": 43541,
   "slug": "oneplus-12r",
+  "base_model_slug": null,
   "name": "OnePlus 12R",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1361,
+    "id": 1748,
     "slug": "snapdragon-8-gen-2",
     "name": "Snapdragon 8 Gen 2",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "2780x1264",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-12r.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 54.6,
-    "performance": 39.7,
-    "camera": 35.1,
-    "battery": 68.7,
-    "display": 75.0,
-    "value": 69.7
+    "algorithm_version": "2.0.0",
+    "overall": 65.7,
+    "performance": 77.2,
+    "camera": 36.1,
+    "battery": 77.4,
+    "display": 72.1,
+    "value": 72.2,
+    "perf": {
+      "index": 77.2,
+      "percentile": 75.3,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.oneplus.com/global/oneplus-12r/specs",
     "https://en.wikipedia.org/wiki/OnePlus_12R"
   ],
-  "created_at": "2026-06-19T02:27:15.274007",
-  "updated_at": "2026-06-19T02:27:15.274007"
+  "created_at": "2026-06-24T08:54:08.300853",
+  "updated_at": "2026-06-24T08:54:08.300865"
 }

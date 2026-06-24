@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 45.343,
   "blender_score": 7891.09,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 96.8,
+    "graphics": {
+      "index": 96.8,
+      "percentile": 72.8,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/laptops/50-series/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-5090-mobile.c4233",

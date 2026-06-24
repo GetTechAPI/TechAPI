@@ -1,6 +1,7 @@
 {
-  "id": 10435,
+  "id": 53694,
   "slug": "p2-pro-5g",
+  "base_model_slug": null,
   "name": "P2 Pro 5G",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1369,
+    "id": 1779,
     "slug": "snapdragon-7-plus-gen-3",
     "name": "Snapdragon 7+ Gen 3",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": null,
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 36.4,
-    "performance": 39.5,
-    "camera": 17.1,
-    "battery": 52.5,
+    "algorithm_version": "2.0.0",
+    "overall": 52.0,
+    "performance": 77.1,
+    "camera": 18.1,
+    "battery": 60.8,
     "display": null,
-    "value": 66.7
+    "value": 71.0,
+    "perf": {
+      "index": 77.1,
+      "percentile": 73.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.559942",
-  "updated_at": "2026-06-19T02:27:15.559942"
+  "created_at": "2026-06-24T08:54:12.786226",
+  "updated_at": "2026-06-24T08:54:12.786240"
 }

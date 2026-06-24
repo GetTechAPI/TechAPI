@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 2.332,
   "blender_score": 173.81,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 29.0,
+    "graphics": {
+      "index": 29.0,
+      "percentile": 4.2,
+      "tier": "F",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_10_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-1050.c2875",

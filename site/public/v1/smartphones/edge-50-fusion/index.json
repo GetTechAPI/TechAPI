@@ -1,6 +1,7 @@
 {
-  "id": 7528,
+  "id": 37989,
   "slug": "edge-50-fusion",
+  "base_model_slug": null,
   "name": "Edge 50 Fusion",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1360,
+    "id": 1747,
     "slug": "snapdragon-7-gen-1",
     "name": "Snapdragon 7 Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.0,
-    "performance": 6.9,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 43.7,
+    "performance": 57.3,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 53.9
+    "value": 61.1,
+    "perf": {
+      "index": 57.3,
+      "percentile": 55.7,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.077349",
-  "updated_at": "2026-06-19T02:27:15.077349"
+  "created_at": "2026-06-24T08:54:06.059406",
+  "updated_at": "2026-06-24T08:54:06.059419"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 13247,
+  "id": 69970,
   "slug": "xperia-10-ii-global-dual-sim-td-lte-sony-xq-au52-xperia-10-mk-2",
+  "base_model_slug": null,
   "name": "Xperia 10 II Global Dual SIM TD-LTE Sony XQ-AU52 / Xperia 10 Mk. 2",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.2,
-    "performance": 0.0,
-    "camera": 5.1,
-    "battery": 9.0,
-    "display": 50.7,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 27.3,
+    "performance": 22.8,
+    "camera": 6.3,
+    "battery": 27.3,
+    "display": 52.7,
+    "value": null,
+    "perf": {
+      "index": 22.8,
+      "percentile": 18.5,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.090056",
-  "updated_at": "2026-06-19T02:27:16.090056"
+  "created_at": "2026-06-24T08:54:19.949364",
+  "updated_at": "2026-06-24T08:54:19.949377"
 }

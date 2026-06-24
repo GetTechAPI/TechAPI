@@ -1,6 +1,7 @@
 {
-  "id": 11913,
+  "id": 59955,
   "slug": "sm-a260f-ds-galaxy-a2-core-2019-global-dual-sim-td-lte-galaxy-gio",
+  "base_model_slug": null,
   "name": "SM-A260F/DS Galaxy A2 Core 2019 Global Dual SIM TD-LTE / Galaxy Gio",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1447,
+    "id": 1913,
     "slug": "samsung-exynos-7-octa-7870",
     "name": "Samsung Exynos 7 Octa 7870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.98,
     "resolution": "540x960",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 17.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 11.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.817840",
-  "updated_at": "2026-06-19T02:27:15.817840"
+  "created_at": "2026-06-24T08:54:15.484660",
+  "updated_at": "2026-06-24T08:54:15.484673"
 }

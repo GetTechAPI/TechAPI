@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 5.027,
   "blender_score": 679.73,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 56.3,
+    "graphics": {
+      "index": 56.3,
+      "percentile": 35.7,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_16_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-1660.c3365",

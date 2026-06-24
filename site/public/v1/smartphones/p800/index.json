@@ -1,6 +1,7 @@
 {
-  "id": 13315,
+  "id": 70463,
   "slug": "p800",
+  "base_model_slug": null,
   "name": "P800",
   "brand": {
     "id": 106,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony-ericsson"
   },
   "soc": {
-    "id": 100,
+    "id": 141,
     "slug": "32-bit-philips-nexperia-pnx4000-156-mhz",
     "name": "32-bit Philips Nexperia PNX4000 156 MHz",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 2.9,
     "resolution": "208x320",
@@ -46,18 +48,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.099575",
-  "updated_at": "2026-06-19T02:27:16.099575"
+  "created_at": "2026-06-24T08:54:20.125667",
+  "updated_at": "2026-06-24T08:54:20.125679"
 }

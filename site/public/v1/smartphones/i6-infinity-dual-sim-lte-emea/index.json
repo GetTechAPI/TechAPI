@@ -1,6 +1,7 @@
 {
-  "id": 2839,
+  "id": 13047,
   "slug": "i6-infinity-dual-sim-lte-emea",
+  "base_model_slug": null,
   "name": "i6 Infinity Dual SIM LTE EMEA",
   "brand": {
     "id": 21,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/haier"
   },
   "soc": {
-    "id": 1556,
+    "id": 2081,
     "slug": "unisoc-sc9863a",
     "name": "Unisoc SC9863A",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "600x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.4,
+    "algorithm_version": "2.0.0",
+    "overall": 18.9,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
+    "camera": 6.6,
+    "battery": 15.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.264179",
-  "updated_at": "2026-06-19T02:27:14.264179"
+  "created_at": "2026-06-24T08:53:55.278529",
+  "updated_at": "2026-06-24T08:53:55.278542"
 }

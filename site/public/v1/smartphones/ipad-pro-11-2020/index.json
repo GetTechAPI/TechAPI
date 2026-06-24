@@ -1,6 +1,7 @@
 {
-  "id": 948,
+  "id": 4117,
   "slug": "ipad-pro-11-2020",
+  "base_model_slug": null,
   "name": "iPad Pro 11 (2020)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 23,
+    "id": 34,
     "slug": "apple-a12z-bionic",
     "name": "Apple A12Z Bionic",
     "manufacturer": {
@@ -32,6 +33,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 11.0,
     "resolution": "1668x2388",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 10.4,
     "performance": null,
-    "camera": 5.0,
-    "battery": 0.0,
+    "camera": 6.3,
+    "battery": 14.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.958594",
-  "updated_at": "2026-06-19T02:27:13.958594"
+  "created_at": "2026-06-24T08:53:51.704559",
+  "updated_at": "2026-06-24T08:53:51.704573"
 }

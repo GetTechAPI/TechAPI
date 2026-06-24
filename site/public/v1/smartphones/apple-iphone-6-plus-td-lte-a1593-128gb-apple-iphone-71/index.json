@@ -1,6 +1,7 @@
 {
-  "id": 17123,
+  "id": 3428,
   "slug": "apple-iphone-6-plus-td-lte-a1593-128gb-apple-iphone-71",
+  "base_model_slug": null,
   "name": "Apple iPhone 6 Plus TD-LTE A1593 128GB (Apple iPhone 7,1)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 1566,
+    "id": 12,
     "slug": "apple-a8-apl1011-t7000",
     "name": "Apple A8 APL1011 T7000",
     "manufacturer": {
@@ -18,8 +19,8 @@
       "name": "Apple",
       "url": "/v1/brands/apple"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 20.0,
+    "gpu_name": "PowerVR GX6450",
     "url": "/v1/socs/apple-a8-apl1011-t7000"
   },
   "release_date": "2014-10-17",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.51,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.5,
+    "algorithm_version": "2.0.0",
+    "overall": 31.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 45.0,
-    "value": null
+    "battery": 14.1,
+    "display": 47.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=6789"
   ],
-  "created_at": "2026-06-19T09:44:27.705790",
-  "updated_at": "2026-06-19T09:44:27.705790"
+  "created_at": "2026-06-24T08:53:51.454235",
+  "updated_at": "2026-06-24T08:53:51.454248"
 }

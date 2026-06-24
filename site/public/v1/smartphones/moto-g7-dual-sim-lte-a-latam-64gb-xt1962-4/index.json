@@ -1,6 +1,7 @@
 {
-  "id": 7209,
+  "id": 35194,
   "slug": "moto-g7-dual-sim-lte-a-latam-64gb-xt1962-4",
+  "base_model_slug": null,
   "name": "Moto G7 Dual SIM LTE-A LATAM 64GB XT1962-4",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1291,
+    "id": 1649,
     "slug": "snapdragon-632",
     "name": "Snapdragon 632",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.24,
     "resolution": "1080x2270",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.6,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 0.0,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 21.5,
+    "performance": 16.5,
+    "camera": 6.3,
+    "battery": 15.0,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 16.5,
+      "percentile": 13.4,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.034325",
-  "updated_at": "2026-06-19T02:27:15.034325"
+  "created_at": "2026-06-24T08:54:05.051740",
+  "updated_at": "2026-06-24T08:54:05.051752"
 }

@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 2.0",
   "fp32_tflops": 0.289,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 64.2,
+    "graphics": {
+      "index": 64.2,
+      "percentile": 97.3,
+      "tier": "S",
+      "era": "2006-2009",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_200_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-280.c211",

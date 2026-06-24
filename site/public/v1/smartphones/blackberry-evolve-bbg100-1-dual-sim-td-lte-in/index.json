@@ -1,6 +1,7 @@
 {
-  "id": 1692,
+  "id": 8329,
   "slug": "blackberry-evolve-bbg100-1-dual-sim-td-lte-in",
+  "base_model_slug": null,
   "name": "BlackBerry Evolve BBG100-1 Dual SIM TD-LTE IN",
   "brand": {
     "id": 6,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blackberry"
   },
   "soc": {
-    "id": 1264,
+    "id": 1621,
     "slug": "snapdragon-450",
     "name": "Snapdragon 450",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.99,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.9,
+    "algorithm_version": "2.0.0",
+    "overall": 26.6,
     "performance": null,
-    "camera": 5.4,
-    "battery": 15.0,
-    "display": 45.3,
-    "value": null
+    "camera": 6.6,
+    "battery": 25.0,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.085413",
-  "updated_at": "2026-06-19T02:27:14.085413"
+  "created_at": "2026-06-24T08:53:53.330285",
+  "updated_at": "2026-06-24T08:53:53.330301"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 7161,
+  "id": 34984,
   "slug": "moto-z3-play-dual-sim-lte-a-latam-128gb-xt1929-5",
+  "base_model_slug": null,
   "name": "Moto Z3 Play Dual SIM LTE-A LATAM 128GB XT1929-5",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1266,
+    "id": 1623,
     "slug": "snapdragon-636",
     "name": "Snapdragon 636",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.01,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.0,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 0.0,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 22.4,
+    "performance": 20.2,
+    "camera": 6.3,
+    "battery": 15.0,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 20.2,
+      "percentile": 20.7,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.958213",
-  "updated_at": "2026-06-19T02:27:14.958213"
+  "created_at": "2026-06-24T08:54:04.979731",
+  "updated_at": "2026-06-24T08:54:04.979744"
 }

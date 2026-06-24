@@ -1,6 +1,7 @@
 {
-  "id": 11618,
+  "id": 58501,
   "slug": "galaxy-a3-2017",
+  "base_model_slug": null,
   "name": "Galaxy A3 (2017)",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1456,
+    "id": 1923,
     "slug": "exynos-7870-octa",
     "name": "Exynos 7870 Octa",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "720x1280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.6,
+    "algorithm_version": "2.0.0",
+    "overall": 7.5,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
+    "camera": 6.6,
+    "battery": 8.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.776319",
-  "updated_at": "2026-06-19T02:27:15.776319"
+  "created_at": "2026-06-24T08:54:14.976244",
+  "updated_at": "2026-06-24T08:54:14.976277"
 }

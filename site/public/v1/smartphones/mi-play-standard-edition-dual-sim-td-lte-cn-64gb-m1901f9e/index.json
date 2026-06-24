@@ -1,6 +1,7 @@
 {
-  "id": 15136,
+  "id": 79640,
   "slug": "mi-play-standard-edition-dual-sim-td-lte-cn-64gb-m1901f9e",
+  "base_model_slug": null,
   "name": "Mi Play Standard Edition Dual SIM TD-LTE CN 64GB M1901F9E",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.84,
     "resolution": "1080x2280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 0.0,
-    "display": 48.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 21.3,
+    "performance": 9.1,
+    "camera": 6.3,
+    "battery": 19.2,
+    "display": 50.6,
+    "value": null,
+    "perf": {
+      "index": 9.1,
+      "percentile": 6.1,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.375299",
-  "updated_at": "2026-06-19T02:27:16.375299"
+  "created_at": "2026-06-24T08:54:23.822873",
+  "updated_at": "2026-06-24T08:54:23.822886"
 }

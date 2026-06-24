@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 195,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 35.2,
+    "single": {
+      "index": 41.6,
+      "percentile": 59.3,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 29.9,
+      "percentile": 76.3,
+      "tier": "B",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Phenom_(processor)",
     "https://www.spec.org/cpu2006/results/",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8750+Triple-Core&id=225"
   ],
-  "created_at": "2026-06-19T02:27:18.037405",
-  "updated_at": "2026-06-19T02:27:18.037405",
+  "created_at": "2026-06-24T08:54:40.694303",
+  "updated_at": "2026-06-24T08:54:40.694315",
   "url": "/v1/cpus/phenom-x3-8750"
 }

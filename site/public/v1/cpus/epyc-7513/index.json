@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 8-channel ECC",
   "msrp_usd": 2840,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 67.5,
+    "single": {
+      "index": 65.0,
+      "percentile": 65.8,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 69.5,
+      "percentile": 90.8,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/epyc-7513",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7513"
   ],
-  "created_at": "2026-06-19T02:27:18.138362",
-  "updated_at": "2026-06-19T02:27:18.138362",
+  "created_at": "2026-06-24T08:54:40.889109",
+  "updated_at": "2026-06-24T08:54:40.889119",
   "url": "/v1/cpus/epyc-7513"
 }

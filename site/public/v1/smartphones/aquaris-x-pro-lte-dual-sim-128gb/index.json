@@ -1,6 +1,7 @@
 {
-  "id": 2090,
+  "id": 9723,
   "slug": "aquaris-x-pro-lte-dual-sim-128gb",
+  "base_model_slug": null,
   "name": "Aquaris X Pro LTE Dual SIM 128GB",
   "brand": {
     "id": 63,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/bq"
   },
   "soc": {
-    "id": 1285,
+    "id": 1643,
     "slug": "qualcomm-snapdragon-626-msm8953-pro",
     "name": "Qualcomm Snapdragon 626 MSM8953 Pro",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.0,
+    "algorithm_version": "2.0.0",
+    "overall": 24.1,
     "performance": null,
-    "camera": 5.0,
-    "battery": 1.5,
-    "display": 47.4,
-    "value": null
+    "camera": 6.3,
+    "battery": 16.0,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.142332",
-  "updated_at": "2026-06-19T02:27:14.142332"
+  "created_at": "2026-06-24T08:53:53.875190",
+  "updated_at": "2026-06-24T08:53:53.875202"
 }

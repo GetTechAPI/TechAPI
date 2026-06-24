@@ -1,6 +1,7 @@
 {
-  "id": 7383,
+  "id": 36306,
   "slug": "moto-edge-20-fusion-5g-standard-edition-2021-global-dual-sim-td-lte-128gb-xt2139-2",
+  "base_model_slug": null,
   "name": "Moto Edge 20 Fusion 5G Standard Edition 2021 Global Dual SIM TD-LTE 128GB XT2139-2",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 969,
+    "id": 1156,
     "slug": "dimensity-800",
     "name": "Dimensity 800",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.4,
-    "performance": 1.5,
-    "camera": 35.8,
-    "battery": 32.9,
-    "display": 39.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 41.5,
+    "performance": 35.7,
+    "camera": 36.4,
+    "battery": 53.9,
+    "display": 39.9,
+    "value": null,
+    "perf": {
+      "index": 35.7,
+      "percentile": 35.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.057838",
-  "updated_at": "2026-06-19T02:27:15.057838"
+  "created_at": "2026-06-24T08:54:05.440042",
+  "updated_at": "2026-06-24T08:54:05.440055"
 }

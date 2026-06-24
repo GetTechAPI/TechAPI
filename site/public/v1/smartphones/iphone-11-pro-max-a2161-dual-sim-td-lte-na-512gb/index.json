@@ -1,6 +1,7 @@
 {
-  "id": 923,
+  "id": 3965,
   "slug": "iphone-11-pro-max-a2161-dual-sim-td-lte-na-512gb",
+  "base_model_slug": null,
   "name": "iPhone 11 Pro Max A2161 Dual SIM TD-LTE NA 512GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 21,
+    "id": 32,
     "slug": "apple-a13-bionic",
     "name": "Apple A13 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1242x2688",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
-    "performance": 16.7,
-    "camera": 5.1,
-    "battery": 15.1,
-    "display": 33.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.4,
+    "performance": 62.5,
+    "camera": 6.3,
+    "battery": 41.5,
+    "display": 35.2,
+    "value": null,
+    "perf": {
+      "index": 62.5,
+      "percentile": 95.7,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.955602",
-  "updated_at": "2026-06-19T02:27:13.955602"
+  "created_at": "2026-06-24T08:53:51.646220",
+  "updated_at": "2026-06-24T08:53:51.646232"
 }

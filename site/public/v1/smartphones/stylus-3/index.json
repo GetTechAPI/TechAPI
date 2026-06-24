@@ -1,6 +1,7 @@
 {
-  "id": 5643,
+  "id": 28684,
   "slug": "stylus-3",
+  "base_model_slug": null,
   "name": "Stylus 3",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1237,
+    "id": 1587,
     "slug": "mediatek-mt6750-m400dkqualcomm-msm8940-snapdragon-435",
     "name": "Mediatek MT6750 - M400DKQualcomm MSM8940 Snapdragon 435",
     "manufacturer": {
@@ -30,6 +31,7 @@
     3,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "720x1280",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.2,
+    "algorithm_version": "2.0.0",
+    "overall": 11.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 3.0,
+    "camera": 6.6,
+    "battery": 17.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.725007",
-  "updated_at": "2026-06-19T02:27:14.725007"
+  "created_at": "2026-06-24T08:54:02.419319",
+  "updated_at": "2026-06-24T08:54:02.419331"
 }

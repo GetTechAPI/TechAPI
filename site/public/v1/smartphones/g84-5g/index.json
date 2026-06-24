@@ -1,6 +1,7 @@
 {
-  "id": 7512,
+  "id": 37638,
   "slug": "g84-5g",
+  "base_model_slug": null,
   "name": "G84 5G",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.4,
-    "performance": 6.0,
-    "camera": 17.1,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 39.0,
+    "performance": 47.1,
+    "camera": 18.1,
+    "battery": 51.7,
     "display": null,
-    "value": 59.7
+    "value": 66.0,
+    "perf": {
+      "index": 47.1,
+      "percentile": 53.6,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.074348",
-  "updated_at": "2026-06-19T02:27:15.074348"
+  "created_at": "2026-06-24T08:54:05.927205",
+  "updated_at": "2026-06-24T08:54:05.927217"
 }

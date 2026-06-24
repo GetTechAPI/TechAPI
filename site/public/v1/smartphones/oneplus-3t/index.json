@@ -1,6 +1,7 @@
 {
-  "id": 8367,
+  "id": 42236,
   "slug": "oneplus-3t",
+  "base_model_slug": null,
   "name": "OnePlus 3T",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1256,
+    "id": 1613,
     "slug": "snapdragon-821",
     "name": "Snapdragon 821",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1920x1080",
@@ -72,19 +74,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/oneplus-3t.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.2,
-    "performance": 13.3,
-    "camera": 14.3,
-    "battery": 6.9,
-    "display": 10.1,
-    "value": 50.2
+    "algorithm_version": "2.0.0",
+    "overall": 25.7,
+    "performance": 52.4,
+    "camera": 15.5,
+    "battery": 21.6,
+    "display": 13.3,
+    "value": 54.3,
+    "perf": {
+      "index": 52.4,
+      "percentile": 80.9,
+      "tier": "A",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/OnePlus_3T",
     "https://www.oneplus.com/oneplus-3t/specs"
   ],
-  "created_at": "2026-06-19T02:27:15.236030",
-  "updated_at": "2026-06-19T02:27:15.236030"
+  "created_at": "2026-06-24T08:54:07.835464",
+  "updated_at": "2026-06-24T08:54:07.835476"
 }

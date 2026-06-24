@@ -1,6 +1,7 @@
 {
-  "id": 3611,
+  "id": 17327,
   "slug": "nova-2s",
+  "base_model_slug": null,
   "name": "nova 2s",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 689,
+    "id": 797,
     "slug": "hisilicon-kirin-960",
     "name": "HiSilicon Kirin 960",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/hisilicon"
     },
     "process_nm": 16.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-G71 MP8",
     "url": "/v1/socs/hisilicon-kirin-960"
   },
   "release_date": "2017-01-01",
@@ -30,6 +31,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2160",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 5.7,
+    "algorithm_version": "2.0.0",
+    "overall": 12.9,
     "performance": null,
-    "camera": 6.3,
-    "battery": 5.1,
+    "camera": 7.5,
+    "battery": 18.4,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.427124",
-  "updated_at": "2026-06-19T02:27:14.427124"
+  "created_at": "2026-06-24T08:53:57.397027",
+  "updated_at": "2026-06-24T08:53:57.397040"
 }

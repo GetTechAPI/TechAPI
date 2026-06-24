@@ -1,6 +1,7 @@
 {
-  "id": 13525,
+  "id": 70978,
   "slug": "mi-720",
+  "base_model_slug": null,
   "name": "Mi-720",
   "brand": {
     "id": 94,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/spice"
   },
   "soc": {
-    "id": 387,
+    "id": 456,
     "slug": "800-mhz-scorpion",
     "name": "800 MHz Scorpion",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "480x800",
@@ -53,18 +55,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.5,
+    "algorithm_version": "2.0.0",
+    "overall": 16.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 18.0,
+    "battery": 27.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.142603",
-  "updated_at": "2026-06-19T02:27:16.142603"
+  "created_at": "2026-06-24T08:54:20.383552",
+  "updated_at": "2026-06-24T08:54:20.383564"
 }

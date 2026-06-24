@@ -24,12 +24,30 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-6400 12-channel ECC",
   "msrp_usd": 2618,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 80.9,
+    "single": {
+      "index": 93.9,
+      "percentile": 70.8,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 70.3,
+      "percentile": 70.8,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9265.html",
     "https://en.wikipedia.org/wiki/Zen_5"
   ],
-  "created_at": "2026-06-19T02:27:18.150033",
-  "updated_at": "2026-06-19T02:27:18.150033",
+  "created_at": "2026-06-24T08:54:40.918839",
+  "updated_at": "2026-06-24T08:54:40.918849",
   "url": "/v1/cpus/epyc-9265"
 }

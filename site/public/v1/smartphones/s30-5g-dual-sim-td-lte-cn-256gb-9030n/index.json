@@ -1,6 +1,7 @@
 {
-  "id": 16541,
+  "id": 89272,
   "slug": "s30-5g-dual-sim-td-lte-cn-256gb-9030n",
+  "base_model_slug": null,
   "name": "S30 5G Dual SIM TD-LTE CN 256GB 9030N",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 999,
+    "id": 1187,
     "slug": "dimensity-720",
     "name": "Dimensity 720",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.4,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 17.8,
-    "display": 39.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.8,
+    "performance": 36.9,
+    "camera": 22.4,
+    "battery": 43.9,
+    "display": 39.9,
+    "value": null,
+    "perf": {
+      "index": 36.9,
+      "percentile": 38.9,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.567309",
-  "updated_at": "2026-06-19T02:27:16.567309"
+  "created_at": "2026-06-24T08:54:27.360735",
+  "updated_at": "2026-06-24T08:54:27.360748"
 }

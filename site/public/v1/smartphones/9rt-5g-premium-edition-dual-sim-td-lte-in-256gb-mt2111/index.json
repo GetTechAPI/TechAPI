@@ -1,6 +1,7 @@
 {
-  "id": 8538,
+  "id": 43117,
   "slug": "9rt-5g-premium-edition-dual-sim-td-lte-in-256gb-mt2111",
+  "base_model_slug": null,
   "name": "9RT 5G Premium Edition Dual SIM TD-LTE IN 256GB MT2111",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.62,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 30.2,
-    "performance": 9.4,
-    "camera": 17.2,
-    "battery": 42.0,
-    "display": 52.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 46.9,
+    "performance": 60.0,
+    "camera": 18.2,
+    "battery": 59.2,
+    "display": 50.2,
+    "value": null,
+    "perf": {
+      "index": 60.0,
+      "percentile": 73.1,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.269007",
-  "updated_at": "2026-06-19T02:27:15.269007"
+  "created_at": "2026-06-24T08:54:08.144679",
+  "updated_at": "2026-06-24T08:54:08.144692"
 }

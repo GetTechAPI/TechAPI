@@ -1,6 +1,7 @@
 {
-  "id": 1112,
+  "id": 5572,
   "slug": "iphone-15-pro",
+  "base_model_slug": null,
   "name": "iPhone 15 Pro",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 27,
+    "id": 46,
     "slug": "apple-a17-pro",
     "name": "Apple A17 Pro",
     "manufacturer": {
@@ -31,6 +32,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "2556x1179",
@@ -87,19 +89,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-15-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 43.6,
-    "performance": 50.5,
-    "camera": 34.5,
-    "battery": 29.4,
-    "display": 60.1,
-    "value": 44.9
+    "algorithm_version": "2.0.0",
+    "overall": 55.0,
+    "performance": 77.3,
+    "camera": 35.5,
+    "battery": 47.5,
+    "display": 59.5,
+    "value": 49.0,
+    "perf": {
+      "index": 77.3,
+      "percentile": 98.1,
+      "tier": "S",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-15-pro/specs/",
     "https://en.wikipedia.org/wiki/IPhone_15_Pro"
   ],
-  "created_at": "2026-06-19T02:27:13.981655",
-  "updated_at": "2026-06-19T02:27:13.981655"
+  "created_at": "2026-06-24T08:53:52.208789",
+  "updated_at": "2026-06-24T08:53:52.208802"
 }

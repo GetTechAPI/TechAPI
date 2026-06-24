@@ -1,6 +1,7 @@
 {
-  "id": 15425,
+  "id": 80955,
   "slug": "mi-10-pro-5g",
+  "base_model_slug": null,
   "name": "Mi 10 Pro 5G",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1336,
+    "id": 1697,
     "slug": "qualcomm-sm8250-snapdragon-865",
     "name": "Qualcomm SM8250 Snapdragon 865",
     "manufacturer": {
@@ -31,6 +32,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2340",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.1,
+    "algorithm_version": "2.0.0",
+    "overall": 40.5,
     "performance": null,
-    "camera": 35.7,
-    "battery": 22.5,
+    "camera": 36.3,
+    "battery": 44.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.414821",
-  "updated_at": "2026-06-19T02:27:16.414821"
+  "created_at": "2026-06-24T08:54:24.273016",
+  "updated_at": "2026-06-24T08:54:24.273029"
 }

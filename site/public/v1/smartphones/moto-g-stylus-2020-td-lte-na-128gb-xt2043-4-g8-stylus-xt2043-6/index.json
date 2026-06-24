@@ -1,6 +1,7 @@
 {
-  "id": 7323,
+  "id": 35791,
   "slug": "moto-g-stylus-2020-td-lte-na-128gb-xt2043-4-g8-stylus-xt2043-6",
+  "base_model_slug": null,
   "name": "Moto G Stylus 2020 TD-LTE NA 128GB XT2043-4 / G8 Stylus XT2043-6",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2300",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.1,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 15.0,
-    "display": 44.7,
-    "value": 59.5
+    "algorithm_version": "2.0.0",
+    "overall": 30.0,
+    "performance": 22.8,
+    "camera": 17.5,
+    "battery": 32.1,
+    "display": 47.6,
+    "value": 61.5,
+    "perf": {
+      "index": 22.8,
+      "percentile": 18.5,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.049837",
-  "updated_at": "2026-06-19T02:27:15.049837"
+  "created_at": "2026-06-24T08:54:05.253080",
+  "updated_at": "2026-06-24T08:54:05.253092"
 }

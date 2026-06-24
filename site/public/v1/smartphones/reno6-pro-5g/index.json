@@ -1,6 +1,7 @@
 {
-  "id": 9389,
+  "id": 47850,
   "slug": "reno6-pro-5g",
+  "base_model_slug": null,
   "name": "Reno6 Pro 5G",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1035,
+    "id": 1228,
     "slug": "dimensity-1200",
     "name": "MediaTek Dimensity 1200",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.55,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.7,
-    "performance": 6.9,
-    "camera": 21.6,
-    "battery": 27.5,
+    "algorithm_version": "2.0.0",
+    "overall": 42.1,
+    "performance": 57.1,
+    "camera": 22.5,
+    "battery": 46.7,
     "display": null,
-    "value": 53.6
+    "value": 62.2,
+    "perf": {
+      "index": 57.1,
+      "percentile": 78.1,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.391248",
-  "updated_at": "2026-06-19T02:27:15.391248"
+  "created_at": "2026-06-24T08:54:10.421688",
+  "updated_at": "2026-06-24T08:54:10.421700"
 }

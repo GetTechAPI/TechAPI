@@ -1,6 +1,7 @@
 {
-  "id": 10409,
+  "id": 53310,
   "slug": "c55",
+  "base_model_slug": null,
   "name": "C55",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1041,
+    "id": 1234,
     "slug": "helio-g88",
     "name": "MediaTek Helio G88",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.72,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.2,
-    "performance": 3.0,
-    "camera": 21.6,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 30.8,
+    "performance": 30.8,
+    "camera": 22.5,
+    "battery": 39.2,
     "display": null,
-    "value": 59.1
+    "value": 65.4,
+    "perf": {
+      "index": 30.8,
+      "percentile": 15.3,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.556942",
-  "updated_at": "2026-06-19T02:27:15.556942"
+  "created_at": "2026-06-24T08:54:12.650185",
+  "updated_at": "2026-06-24T08:54:12.650197"
 }

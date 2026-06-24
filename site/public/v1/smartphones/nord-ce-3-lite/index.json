@@ -1,6 +1,7 @@
 {
-  "id": 8557,
+  "id": 43416,
   "slug": "nord-ce-3-lite",
+  "base_model_slug": null,
   "name": "Nord CE 3 Lite",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.72
   },
@@ -53,18 +55,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.6,
-    "performance": 3.0,
-    "camera": 35.7,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 44.1,
+    "performance": 44.4,
+    "camera": 36.3,
+    "battery": 51.7,
     "display": null,
-    "value": 62.3
+    "value": 68.5,
+    "perf": {
+      "index": 44.4,
+      "percentile": 46.4,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.272025",
-  "updated_at": "2026-06-19T02:27:15.272025"
+  "created_at": "2026-06-24T08:54:08.251467",
+  "updated_at": "2026-06-24T08:54:08.251479"
 }

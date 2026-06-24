@@ -1,6 +1,7 @@
 {
-  "id": 18876,
+  "id": 14847,
   "slug": "htc-desire-vc-t328d",
+  "base_model_slug": null,
   "name": "HTC Desire VC T328d",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1828,
+    "id": 1424,
     "slug": "qualcomm-msm7627a",
     "name": "Qualcomm MSM7627A",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 200",
     "url": "/v1/socs/qualcomm-msm7627a"
   },
   "release_date": "2012-04-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.02,
     "resolution": "480x800",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 18.2,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 1.5,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=3473"
   ],
-  "created_at": "2026-06-19T09:44:28.300897",
-  "updated_at": "2026-06-19T09:44:28.300897"
+  "created_at": "2026-06-24T08:53:56.402819",
+  "updated_at": "2026-06-24T08:53:56.402832"
 }

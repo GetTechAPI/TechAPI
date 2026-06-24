@@ -1,6 +1,7 @@
 {
-  "id": 9042,
+  "id": 45811,
   "slug": "a92s",
+  "base_model_slug": null,
   "name": "A92s",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 969,
+    "id": 1156,
     "slug": "dimensity-800",
     "name": "Dimensity 800",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.57,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.9,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 15.6,
-    "display": 52.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.7,
+    "performance": 37.0,
+    "camera": 17.5,
+    "battery": 41.9,
+    "display": 50.4,
+    "value": null,
+    "perf": {
+      "index": 37.0,
+      "percentile": 40.7,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.339551",
-  "updated_at": "2026-06-19T02:27:15.339551"
+  "created_at": "2026-06-24T08:54:09.678917",
+  "updated_at": "2026-06-24T08:54:09.678929"
 }

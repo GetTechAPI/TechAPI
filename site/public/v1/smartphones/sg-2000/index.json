@@ -1,6 +1,7 @@
 {
-  "id": 12783,
+  "id": 67661,
   "slug": "sg-2000",
+  "base_model_slug": null,
   "name": "SG-2000",
   "brand": {
     "id": 114,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sewon"
   },
   "soc": {
-    "id": 112,
+    "id": 157,
     "slug": "sewon-mobile-platform-2002",
     "name": "Sewon mobile platform 2002",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "128x128",
     "type": "Grayscale graphics, 4 shades"
@@ -43,18 +45,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.015963",
-  "updated_at": "2026-06-19T02:27:16.015963"
+  "created_at": "2026-06-24T08:54:18.991450",
+  "updated_at": "2026-06-24T08:54:18.991465"
 }

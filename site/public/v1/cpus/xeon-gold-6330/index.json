@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 8-channel ECC",
   "msrp_usd": 1894,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 58.1,
+    "single": {
+      "index": 51.2,
+      "percentile": 7.5,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 63.7,
+      "percentile": 83.3,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=xeon-gold-6330",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Gold+6330"
   ],
-  "created_at": "2026-06-19T02:27:18.383844",
-  "updated_at": "2026-06-19T02:27:18.383844",
+  "created_at": "2026-06-24T08:54:41.376678",
+  "updated_at": "2026-06-24T08:54:41.376689",
   "url": "/v1/cpus/xeon-gold-6330"
 }

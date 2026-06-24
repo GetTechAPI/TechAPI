@@ -1,6 +1,7 @@
 {
-  "id": 5822,
+  "id": 29303,
   "slug": "v35-thinq",
+  "base_model_slug": null,
   "name": "V35 ThinQ",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1311,
+    "id": 1669,
     "slug": "qualcomm-sdm845-snapdragon-845",
     "name": "Qualcomm SDM845 Snapdragon 845",
     "manufacturer": {
@@ -30,6 +31,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1440x2880",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 5.4,
+    "algorithm_version": "2.0.0",
+    "overall": 16.9,
     "performance": null,
-    "camera": 6.3,
-    "battery": 4.5,
+    "camera": 7.5,
+    "battery": 26.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.748527",
-  "updated_at": "2026-06-19T02:27:14.748527"
+  "created_at": "2026-06-24T08:54:02.632875",
+  "updated_at": "2026-06-24T08:54:02.632888"
 }

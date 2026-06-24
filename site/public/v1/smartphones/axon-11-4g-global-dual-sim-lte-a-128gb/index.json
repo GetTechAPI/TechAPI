@@ -1,6 +1,7 @@
 {
-  "id": 16457,
+  "id": 88635,
   "slug": "axon-11-4g-global-dual-sim-lte-a-128gb",
+  "base_model_slug": null,
   "name": "Axon 11 4G Global Dual SIM LTE-A 128GB",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 939,
+    "id": 1126,
     "slug": "helio-p70",
     "name": "Helio P70",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.47,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.4,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 15.0,
-    "display": 44.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.4,
+    "performance": 23.3,
+    "camera": 17.5,
+    "battery": 29.2,
+    "display": 47.7,
+    "value": null,
+    "perf": {
+      "index": 23.3,
+      "percentile": 18.8,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.555798",
-  "updated_at": "2026-06-19T02:27:16.555798"
+  "created_at": "2026-06-24T08:54:27.137437",
+  "updated_at": "2026-06-24T08:54:27.137449"
 }

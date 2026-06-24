@@ -1,6 +1,7 @@
 {
-  "id": 3696,
+  "id": 17644,
   "slug": "honor-note-10-standard-edition-dual-sim-td-lte-cn-rvl-al09-128gb",
+  "base_model_slug": null,
   "name": "Honor Note 10 Standard Edition Dual SIM TD-LTE CN RVL-AL09 128GB",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 704,
+    "id": 837,
     "slug": "kirin-970",
     "name": "Kirin 970",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.95,
     "resolution": "1080x2220",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.7,
-    "performance": 26.0,
-    "camera": 6.3,
-    "battery": 30.0,
-    "display": 40.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.1,
+    "performance": 61.5,
+    "camera": 7.5,
+    "battery": 43.3,
+    "display": 44.0,
+    "value": null,
+    "perf": {
+      "index": 61.5,
+      "percentile": 90.0,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.439188",
-  "updated_at": "2026-06-19T02:27:14.439188"
+  "created_at": "2026-06-24T08:53:57.504459",
+  "updated_at": "2026-06-24T08:53:57.504472"
 }

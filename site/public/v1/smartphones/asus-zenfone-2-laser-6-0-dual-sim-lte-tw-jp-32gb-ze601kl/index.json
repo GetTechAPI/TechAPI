@@ -1,6 +1,7 @@
 {
-  "id": 17758,
+  "id": 6305,
   "slug": "asus-zenfone-2-laser-6-0-dual-sim-lte-tw-jp-32gb-ze601kl",
+  "base_model_slug": null,
   "name": "Asus ZenFone 2 Laser 6.0 Dual SIM LTE TW JP 32GB ZE601KL",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1889,
+    "id": 1577,
     "slug": "qualcomm-snapdragon-616-msm8939v2",
     "name": "Qualcomm Snapdragon 616 MSM8939V2",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 405",
     "url": "/v1/socs/qualcomm-snapdragon-616-msm8939v2"
   },
   "release_date": "2015-11-09",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.98,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.9,
+    "algorithm_version": "2.0.0",
+    "overall": 30.1,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 41.8,
-    "value": null
+    "battery": 15.0,
+    "display": 45.1,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=9162"
   ],
-  "created_at": "2026-06-19T09:44:27.864358",
-  "updated_at": "2026-06-19T09:44:27.864358"
+  "created_at": "2026-06-24T08:53:52.526375",
+  "updated_at": "2026-06-24T08:53:52.526388"
 }

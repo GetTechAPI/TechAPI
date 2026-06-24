@@ -1,5 +1,5 @@
 {
-  "id": 10237,
+  "id": 21794,
   "slug": "huawei-nova-y91-8gb-256gb-4g-lte",
   "base_model_slug": "nova-y91",
   "name": "Huawei nova Y91",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1716,
+    "id": 1729,
     "slug": "snapdragon-680",
     "name": "Snapdragon 680 4G",
     "manufacturer": {
@@ -64,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.5,
-    "performance": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 50.1,
+    "performance": 38.5,
     "camera": null,
-    "battery": 50.0,
+    "battery": 61.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 38.5,
+      "percentile": 31.2,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:11.990445",
-  "updated_at": "2026-06-20T12:45:11.990445"
+  "created_at": "2026-06-24T08:53:59.002569",
+  "updated_at": "2026-06-24T08:53:59.002583"
 }

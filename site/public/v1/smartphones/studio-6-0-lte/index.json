@@ -1,6 +1,7 @@
 {
-  "id": 1859,
+  "id": 8981,
   "slug": "studio-6-0-lte",
+  "base_model_slug": null,
   "name": "Studio 6.0 LTE",
   "brand": {
     "id": 151,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blu"
   },
   "soc": {
-    "id": 1243,
+    "id": 1593,
     "slug": "qualcomm-msm8928-snapdragon-400",
     "name": "Qualcomm MSM8928 Snapdragon 400",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.2,
+    "algorithm_version": "2.0.0",
+    "overall": 11.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 3.0,
+    "camera": 6.6,
+    "battery": 17.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.112023",
-  "updated_at": "2026-06-19T02:27:14.112023"
+  "created_at": "2026-06-24T08:53:53.602009",
+  "updated_at": "2026-06-24T08:53:53.602022"
 }

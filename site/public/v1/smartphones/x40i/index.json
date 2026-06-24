@@ -1,6 +1,7 @@
 {
-  "id": 3028,
+  "id": 13977,
   "slug": "x40i",
+  "base_model_slug": null,
   "name": "X40i",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 998,
+    "id": 1186,
     "slug": "dimensity-700",
     "name": "Dimensity 700",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": 279,
   "ram_gb": 6,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": null,
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.2,
-    "performance": 1.5,
-    "camera": 17.1,
-    "battery": 15.0,
+    "algorithm_version": "2.0.0",
+    "overall": 31.2,
+    "performance": 35.9,
+    "camera": 18.1,
+    "battery": 39.6,
     "display": null,
-    "value": 55.6
+    "value": 62.8,
+    "perf": {
+      "index": 35.9,
+      "percentile": 21.3,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.343484",
-  "updated_at": "2026-06-19T02:27:14.343484"
+  "created_at": "2026-06-24T08:53:56.043593",
+  "updated_at": "2026-06-24T08:53:56.043606"
 }

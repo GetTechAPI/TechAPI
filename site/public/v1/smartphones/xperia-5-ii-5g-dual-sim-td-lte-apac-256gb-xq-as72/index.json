@@ -1,6 +1,7 @@
 {
-  "id": 13253,
+  "id": 69995,
   "slug": "xperia-5-ii-5g-dual-sim-td-lte-apac-256gb-xq-as72",
+  "base_model_slug": null,
   "name": "Xperia 5 II 5G Dual SIM TD-LTE APAC 256GB XQ-AS72",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "1080x2520",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.4,
-    "performance": 3.0,
-    "camera": 5.1,
-    "battery": 16.1,
-    "display": 57.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.0,
+    "performance": 52.5,
+    "camera": 6.3,
+    "battery": 42.4,
+    "display": 54.6,
+    "value": null,
+    "perf": {
+      "index": 52.5,
+      "percentile": 66.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.091056",
-  "updated_at": "2026-06-19T02:27:16.091056"
+  "created_at": "2026-06-24T08:54:19.957753",
+  "updated_at": "2026-06-24T08:54:19.957766"
 }

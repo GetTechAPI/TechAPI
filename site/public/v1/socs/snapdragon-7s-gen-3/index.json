@@ -1,5 +1,5 @@
 {
-  "id": 1373,
+  "id": 1802,
   "slug": "snapdragon-7s-gen-3",
   "name": "Snapdragon 7s Gen 3",
   "manufacturer": {
@@ -25,13 +25,31 @@
   "gpu_clock_mhz": 1050,
   "npu_tops": null,
   "modem": "Snapdragon X62 5G",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 64.5,
+    "cpu": {
+      "index": 63.2,
+      "percentile": 18.8,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 67.6,
+      "percentile": 21.9,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-7-series-mobile-platforms/snapdragon-7s-gen-3-mobile-platform",
     "https://www.gsmarena.com/nothing_phone_(3a)-13672.php",
     "https://nanoreview.net/en/soc/qualcomm-snapdragon-7s-gen-3"
   ],
-  "created_at": "2026-06-19T02:27:12.606845",
-  "updated_at": "2026-06-19T02:27:12.606845",
+  "created_at": "2026-06-24T08:53:43.924107",
+  "updated_at": "2026-06-24T08:53:43.924118",
   "url": "/v1/socs/snapdragon-7s-gen-3"
 }

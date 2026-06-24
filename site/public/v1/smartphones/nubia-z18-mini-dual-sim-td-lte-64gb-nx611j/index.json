@@ -1,6 +1,7 @@
 {
-  "id": 16372,
+  "id": 88247,
   "slug": "nubia-z18-mini-dual-sim-td-lte-64gb-nx611j",
+  "base_model_slug": null,
   "name": "Nubia Z18 mini Dual SIM TD-LTE 64GB NX611J",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.6,
-    "performance": 19.5,
-    "camera": 8.8,
-    "battery": 6.8,
-    "display": 47.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 33.9,
+    "performance": 56.2,
+    "camera": 9.9,
+    "battery": 19.5,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": 56.2,
+      "percentile": 81.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.544794",
-  "updated_at": "2026-06-19T02:27:16.544794"
+  "created_at": "2026-06-24T08:54:27.000885",
+  "updated_at": "2026-06-24T08:54:27.000897"
 }

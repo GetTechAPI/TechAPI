@@ -1,6 +1,7 @@
 {
-  "id": 1065,
+  "id": 4811,
   "slug": "iphone-13-pro-max-5g-a2641-dual-sim-td-lte-jp-ca-mx-512gb",
+  "base_model_slug": null,
   "name": "iPhone 13 Pro Max 5G A2641 Dual SIM TD-LTE JP CA MX 512GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 25,
+    "id": 38,
     "slug": "apple-a15-bionic",
     "name": "Apple A15 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.68,
     "resolution": "1284x2778",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.3,
-    "performance": 34.6,
-    "camera": 5.1,
-    "battery": 31.3,
-    "display": 58.3,
-    "value": 16.1
+    "algorithm_version": "2.0.0",
+    "overall": 45.7,
+    "performance": 71.2,
+    "camera": 6.3,
+    "battery": 49.9,
+    "display": 55.3,
+    "value": 22.9,
+    "perf": {
+      "index": 71.2,
+      "percentile": 99.9,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.974647",
-  "updated_at": "2026-06-19T02:27:13.974647"
+  "created_at": "2026-06-24T08:53:51.940882",
+  "updated_at": "2026-06-24T08:53:51.940894"
 }

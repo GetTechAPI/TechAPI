@@ -1,6 +1,7 @@
 {
-  "id": 12734,
+  "id": 65799,
   "slug": "galaxy-a15",
+  "base_model_slug": null,
   "name": "Galaxy A15 5G",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1053,
+    "id": 1266,
     "slug": "dimensity-6100-plus",
     "name": "Dimensity 6100+",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "2340x1080",
@@ -83,19 +85,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-a15.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.5,
-    "performance": 0.0,
-    "camera": 27.1,
-    "battery": 36.9,
-    "display": 22.1,
-    "value": 60.8
+    "algorithm_version": "2.0.0",
+    "overall": 38.0,
+    "performance": 40.8,
+    "camera": 28.1,
+    "battery": 55.2,
+    "display": 27.9,
+    "value": 69.0,
+    "perf": {
+      "index": 40.8,
+      "percentile": 34.3,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_A15",
     "https://www.samsung.com/global/galaxy/galaxy-a15/specs/"
   ],
-  "created_at": "2026-06-19T02:27:16.008958",
-  "updated_at": "2026-06-19T02:27:16.008958"
+  "created_at": "2026-06-24T08:54:17.545218",
+  "updated_at": "2026-06-24T08:54:17.545231"
 }

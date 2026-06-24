@@ -1,5 +1,5 @@
 {
-  "id": 1234,
+  "id": 1584,
   "slug": "snapdragon-810",
   "name": "Snapdragon 810",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 600,
   "npu_tops": null,
   "modem": "Snapdragon X10 LTE (Cat 9)",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 65.8,
+    "cpu": {
+      "index": 65.8,
+      "percentile": 71.4,
+      "tier": "B",
+      "era": "2014-2016",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Qualcomm_Snapdragon",
     "https://www.qualcomm.com/products/snapdragon-810-mobile-platform"
   ],
-  "created_at": "2026-06-19T02:27:12.598850",
-  "updated_at": "2026-06-19T02:27:12.598850",
+  "created_at": "2026-06-24T08:53:43.893953",
+  "updated_at": "2026-06-24T08:53:43.893963",
   "url": "/v1/socs/snapdragon-810"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 19180,
+  "id": 16450,
   "slug": "huawei-ascend-p1-td-huawei-t9200",
+  "base_model_slug": null,
   "name": "Huawei Ascend P1 TD (Huawei T9200)",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 2049,
+    "id": 2020,
     "slug": "texas-instruments-omap-4460",
     "name": "Texas Instruments OMAP 4460",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.29,
     "resolution": "540x960",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 18.7,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 1.7,
+    "display": 35.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=3627"
   ],
-  "created_at": "2026-06-19T09:44:28.422667",
-  "updated_at": "2026-06-19T09:44:28.422667"
+  "created_at": "2026-06-24T08:53:57.038488",
+  "updated_at": "2026-06-24T08:53:57.038502"
 }

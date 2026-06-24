@@ -1,6 +1,7 @@
 {
-  "id": 473,
+  "id": 1771,
   "slug": "flash-2017",
+  "base_model_slug": null,
   "name": "Flash (2017)",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 927,
+    "id": 1114,
     "slug": "mediatek-mt6797-helio-x20",
     "name": "Mediatek MT6797 Helio X20",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.4,
+    "algorithm_version": "2.0.0",
+    "overall": 11.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 1.5,
+    "camera": 6.6,
+    "battery": 16.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.892723",
-  "updated_at": "2026-06-19T02:27:13.892723"
+  "created_at": "2026-06-24T08:53:50.840634",
+  "updated_at": "2026-06-24T08:53:50.840646"
 }

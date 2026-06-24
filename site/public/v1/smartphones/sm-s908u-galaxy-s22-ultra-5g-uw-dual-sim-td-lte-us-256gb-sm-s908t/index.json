@@ -1,6 +1,7 @@
 {
-  "id": 12718,
+  "id": 65702,
   "slug": "sm-s908u-galaxy-s22-ultra-5g-uw-dual-sim-td-lte-us-256gb-sm-s908t",
+  "base_model_slug": null,
   "name": "SM-S908U Galaxy S22 Ultra 5G UW Dual SIM TD-LTE US 256GB / SM-S908T",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.81,
     "resolution": "1440x3088",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 40.7,
-    "performance": 13.9,
-    "camera": 35.7,
-    "battery": 50.7,
-    "display": 62.5,
-    "value": 31.9
+    "algorithm_version": "2.0.0",
+    "overall": 55.2,
+    "performance": 63.0,
+    "camera": 36.3,
+    "battery": 62.8,
+    "display": 58.9,
+    "value": 38.3,
+    "perf": {
+      "index": 63.0,
+      "percentile": 80.0,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.006957",
-  "updated_at": "2026-06-19T02:27:16.006957"
+  "created_at": "2026-06-24T08:54:17.511793",
+  "updated_at": "2026-06-24T08:54:17.511806"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 8744,
+  "id": 44554,
   "slug": "a11-2019-premium-edition-dual-sim-td-lte-cn-256gb-pchm10",
+  "base_model_slug": null,
   "name": "A11 2019 Premium Edition Dual SIM TD-LTE CN 256GB PCHM10",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.9,
-    "performance": 1.5,
-    "camera": 5.0,
-    "battery": 30.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 27.3,
+    "performance": 24.2,
+    "camera": 6.3,
+    "battery": 42.1,
+    "display": 36.7,
+    "value": null,
+    "perf": {
+      "index": 24.2,
+      "percentile": 31.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.298528",
-  "updated_at": "2026-06-19T02:27:15.298528"
+  "created_at": "2026-06-24T08:54:08.681567",
+  "updated_at": "2026-06-24T08:54:08.681580"
 }

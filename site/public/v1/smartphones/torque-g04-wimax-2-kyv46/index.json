@@ -1,6 +1,7 @@
 {
-  "id": 4662,
+  "id": 24137,
   "slug": "torque-g04-wimax-2-kyv46",
+  "base_model_slug": null,
   "name": "Torque G04 WiMAX 2+ KYV46",
   "brand": {
     "id": 100,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/kyocera"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.0,
-    "performance": 18.0,
-    "camera": 8.8,
-    "battery": 0.0,
-    "display": 49.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.6,
+    "performance": 54.8,
+    "camera": 9.9,
+    "battery": 14.4,
+    "display": 51.4,
+    "value": null,
+    "perf": {
+      "index": 54.8,
+      "percentile": 73.8,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.574331",
-  "updated_at": "2026-06-19T02:27:14.574331"
+  "created_at": "2026-06-24T08:53:59.973416",
+  "updated_at": "2026-06-24T08:53:59.973430"
 }

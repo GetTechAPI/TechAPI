@@ -1,5 +1,5 @@
 {
-  "id": 18,
+  "id": 28,
   "slug": "apple-a12-bionic",
   "name": "Apple A12 Bionic",
   "manufacturer": {
@@ -24,13 +24,31 @@
   "gpu_clock_mhz": 1125,
   "npu_tops": 5.0,
   "modem": "Intel XMM 7560",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 62.7,
+    "cpu": {
+      "index": 62.5,
+      "percentile": 81.8,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 63.3,
+      "percentile": 98.2,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-xs/chip/",
     "https://en.wikipedia.org/wiki/Apple_A12_Bionic",
     "https://nanoreview.net/en/soc/apple-a12-bionic"
   ],
-  "created_at": "2026-06-19T02:27:12.523780",
-  "updated_at": "2026-06-19T02:27:12.523780",
+  "created_at": "2026-06-24T08:53:43.635612",
+  "updated_at": "2026-06-24T08:53:43.635622",
   "url": "/v1/socs/apple-a12-bionic"
 }

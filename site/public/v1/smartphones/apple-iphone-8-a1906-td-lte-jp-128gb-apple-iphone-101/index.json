@@ -1,6 +1,7 @@
 {
-  "id": 17190,
+  "id": 3812,
   "slug": "apple-iphone-8-a1906-td-lte-jp-128gb-apple-iphone-101",
+  "base_model_slug": null,
   "name": "Apple iPhone 8 A1906 TD-LTE JP 128GB (Apple iPhone 10,1)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 1570,
+    "id": 31,
     "slug": "apple-a11-bionic-apl1w72-t8015",
     "name": "Apple A11 Bionic APL1W72 T8015",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/apple"
     },
     "process_nm": 10.0,
-    "gpu_name": "N/A",
+    "gpu_name": "Apple GPU (3-core)",
     "url": "/v1/socs/apple-a11-bionic-apl1w72-t8015"
   },
   "release_date": "2019-09-12",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "750x1334",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.8,
+    "algorithm_version": "2.0.0",
+    "overall": 26.4,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 37.5,
-    "value": null
+    "battery": 11.5,
+    "display": 41.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=17909"
   ],
-  "created_at": "2026-06-19T09:44:27.720290",
-  "updated_at": "2026-06-19T09:44:27.720290"
+  "created_at": "2026-06-24T08:53:51.594670",
+  "updated_at": "2026-06-24T08:53:51.594683"
 }

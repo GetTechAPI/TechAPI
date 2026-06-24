@@ -1,6 +1,7 @@
 {
-  "id": 3050,
+  "id": 14185,
   "slug": "honor-magic-v3",
+  "base_model_slug": null,
   "name": "Honor Magic V3",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 1367,
+    "id": 1766,
     "slug": "snapdragon-8-gen-3",
     "name": "Snapdragon 8 Gen 3",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.92,
     "resolution": "2344x2156",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/honor-magic-v3.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 57.4,
-    "performance": 57.2,
-    "camera": 35.1,
-    "battery": 67.0,
-    "display": 70.2,
-    "value": 28.7
+    "algorithm_version": "2.0.0",
+    "overall": 66.4,
+    "performance": 83.5,
+    "camera": 36.1,
+    "battery": 77.9,
+    "display": 68.0,
+    "value": 33.2,
+    "perf": {
+      "index": 83.5,
+      "percentile": 86.6,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Honor_Magic_V3",
     "https://www.honor.com/global/phones/honor-magic-v3/specs/"
   ],
-  "created_at": "2026-06-19T02:27:14.347497",
-  "updated_at": "2026-06-19T02:27:14.347497"
+  "created_at": "2026-06-24T08:53:56.118284",
+  "updated_at": "2026-06-24T08:53:56.118300"
 }

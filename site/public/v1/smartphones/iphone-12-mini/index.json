@@ -1,6 +1,7 @@
 {
-  "id": 972,
+  "id": 4237,
   "slug": "iphone-12-mini",
+  "base_model_slug": null,
   "name": "iPhone 12 mini",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 24,
+    "id": 37,
     "slug": "apple-a14-bionic",
     "name": "Apple A14 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.4,
     "resolution": "2340x1080",
@@ -78,19 +80,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-12-mini.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.0,
-    "performance": 26.5,
-    "camera": 18.0,
-    "battery": 14.0,
-    "display": 17.6,
-    "value": 44.1
+    "algorithm_version": "2.0.0",
+    "overall": 35.1,
+    "performance": 67.1,
+    "camera": 19.3,
+    "battery": 31.6,
+    "display": 22.4,
+    "value": 49.8,
+    "perf": {
+      "index": 67.1,
+      "percentile": 93.2,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-12/specs/",
     "https://en.wikipedia.org/wiki/iPhone_12"
   ],
-  "created_at": "2026-06-19T02:27:13.962654",
-  "updated_at": "2026-06-19T02:27:13.962654"
+  "created_at": "2026-06-24T08:53:51.744440",
+  "updated_at": "2026-06-24T08:53:51.744452"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 420,
+  "id": 1540,
   "slug": "pixi-3-5-5-lte",
+  "base_model_slug": null,
   "name": "Pixi 3 (5.5) LTE",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 570,
+    "id": 648,
     "slug": "quad-core",
     "name": "Quad-core",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 9.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 13.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.886722",
-  "updated_at": "2026-06-19T02:27:13.886722"
+  "created_at": "2026-06-24T08:53:50.755128",
+  "updated_at": "2026-06-24T08:53:50.755140"
 }

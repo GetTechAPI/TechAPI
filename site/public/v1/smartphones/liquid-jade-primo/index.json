@@ -1,6 +1,7 @@
 {
-  "id": 77,
+  "id": 246,
   "slug": "liquid-jade-primo",
+  "base_model_slug": null,
   "name": "Liquid Jade Primo",
   "brand": {
     "id": 128,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/acer"
   },
   "soc": {
-    "id": 1247,
+    "id": 1597,
     "slug": "qualcomm-msm8992-snapdragon-808",
     "name": "Qualcomm MSM8992 Snapdragon 808",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.0,
+    "algorithm_version": "2.0.0",
+    "overall": 11.4,
     "performance": null,
-    "camera": 7.9,
-    "battery": 0.0,
+    "camera": 9.1,
+    "battery": 13.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.823124",
-  "updated_at": "2026-06-19T02:27:13.823124"
+  "created_at": "2026-06-24T08:53:50.169389",
+  "updated_at": "2026-06-24T08:53:50.169402"
 }

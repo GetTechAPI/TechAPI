@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 1.0",
   "fp32_tflops": 0.147,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 55.2,
+    "graphics": {
+      "index": 55.2,
+      "percentile": 93.8,
+      "tier": "A",
+      "era": "2006-2009",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_8_series",
     "https://www.techpowerup.com/gpu-specs/geforce-8800-gtx.c187",

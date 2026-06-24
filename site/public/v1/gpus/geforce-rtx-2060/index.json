@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 7.181,
   "blender_score": 1558.44,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 65.5,
+    "graphics": {
+      "index": 65.5,
+      "percentile": 58.6,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2060/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-2060.c3304",

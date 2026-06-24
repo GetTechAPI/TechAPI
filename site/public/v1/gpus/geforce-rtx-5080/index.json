@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 56.28,
   "blender_score": 9138.43,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 99.2,
+    "graphics": {
+      "index": 99.2,
+      "percentile": 82.6,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-5080.c4217",

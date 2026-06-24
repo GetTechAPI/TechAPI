@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-6400 / MRDIMM-8800 12-channel ECC",
   "msrp_usd": 19500,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 92.9,
+    "single": {
+      "index": 84.3,
+      "percentile": 28.5,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 100.0,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.intel.com/content/www/us/en/products/details/processors/xeon/6.html",
     "https://en.wikipedia.org/wiki/Granite_Rapids",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+6781P"
   ],
-  "created_at": "2026-06-19T02:27:18.402336",
-  "updated_at": "2026-06-19T02:27:18.402336",
+  "created_at": "2026-06-24T08:54:41.423551",
+  "updated_at": "2026-06-24T08:54:41.423562",
   "url": "/v1/cpus/xeon-6781p"
 }

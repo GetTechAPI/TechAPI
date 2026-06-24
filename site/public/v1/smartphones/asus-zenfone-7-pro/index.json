@@ -1,6 +1,7 @@
 {
-  "id": 1429,
+  "id": 7180,
   "slug": "asus-zenfone-7-pro",
+  "base_model_slug": null,
   "name": "ASUS ZenFone 7 Pro",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1345,
+    "id": 1714,
     "slug": "snapdragon-865-plus",
     "name": "Snapdragon 865+",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2400x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/asus-zenfone-7-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.5,
-    "performance": 3.4,
-    "camera": 39.6,
-    "battery": 32.9,
-    "display": 22.0,
-    "value": 43.0
+    "algorithm_version": "2.0.0",
+    "overall": 43.7,
+    "performance": 53.8,
+    "camera": 40.5,
+    "battery": 53.9,
+    "display": 26.5,
+    "value": 50.4,
+    "perf": {
+      "index": 53.8,
+      "percentile": 68.2,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Asus_Zenfone_7",
     "https://www.asus.com/phone/zenfone-7-pro/"
   ],
-  "created_at": "2026-06-19T02:27:14.039890",
-  "updated_at": "2026-06-19T02:27:14.039890"
+  "created_at": "2026-06-24T08:53:52.847637",
+  "updated_at": "2026-06-24T08:53:52.847649"
 }

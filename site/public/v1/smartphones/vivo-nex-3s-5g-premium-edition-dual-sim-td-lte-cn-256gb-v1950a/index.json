@@ -1,6 +1,7 @@
 {
-  "id": 14561,
+  "id": 75319,
   "slug": "vivo-nex-3s-5g-premium-edition-dual-sim-td-lte-cn-256gb-v1950a",
+  "base_model_slug": null,
   "name": "Vivo Nex 3S 5G Premium Edition Dual SIM TD-LTE CN 256GB V1950A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.89,
     "resolution": "1080x2256",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.2,
-    "performance": 6.0,
-    "camera": 21.7,
-    "battery": 28.0,
-    "display": 41.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 43.5,
+    "performance": 55.2,
+    "camera": 22.6,
+    "battery": 51.4,
+    "display": 44.7,
+    "value": null,
+    "perf": {
+      "index": 55.2,
+      "percentile": 73.4,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.292212",
-  "updated_at": "2026-06-19T02:27:16.292212"
+  "created_at": "2026-06-24T08:54:22.137033",
+  "updated_at": "2026-06-24T08:54:22.137046"
 }

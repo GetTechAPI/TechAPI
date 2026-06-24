@@ -1,6 +1,7 @@
 {
-  "id": 20499,
+  "id": 24103,
   "slug": "kyocera-durascout-e6782-lte",
+  "base_model_slug": null,
   "name": "Kyocera DuraScout E6782 LTE",
   "brand": {
     "id": 100,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/kyocera"
   },
   "soc": {
-    "id": 1860,
+    "id": 1518,
     "slug": "qualcomm-snapdragon-400-msm8928",
     "name": "Qualcomm Snapdragon 400 MSM8928",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 305",
     "url": "/v1/socs/qualcomm-snapdragon-400-msm8928"
   },
   "release_date": "2015-02-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.5,
     "resolution": "720x1280",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.6,
+    "algorithm_version": "2.0.0",
+    "overall": 28.8,
     "performance": null,
     "camera": null,
-    "battery": 1.5,
-    "display": 37.6,
-    "value": null
+    "battery": 16.0,
+    "display": 41.5,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=7715"
   ],
-  "created_at": "2026-06-19T09:44:28.669050",
-  "updated_at": "2026-06-19T09:44:28.669050"
+  "created_at": "2026-06-24T08:53:59.959061",
+  "updated_at": "2026-06-24T08:53:59.959074"
 }

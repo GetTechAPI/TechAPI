@@ -1,6 +1,7 @@
 {
-  "id": 14757,
+  "id": 76830,
   "slug": "x80",
+  "base_model_slug": null,
   "name": "X80",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1038,
+    "id": 1231,
     "slug": "dimensity-9000",
     "name": "Dimensity 9000",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.9,
-    "performance": 17.1,
-    "camera": 17.1,
-    "battery": 40.5,
+    "algorithm_version": "2.0.0",
+    "overall": 45.3,
+    "performance": 64.9,
+    "camera": 18.1,
+    "battery": 52.8,
     "display": null,
-    "value": 39.4
+    "value": 47.7,
+    "perf": {
+      "index": 64.9,
+      "percentile": 81.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.318695",
-  "updated_at": "2026-06-19T02:27:16.318695"
+  "created_at": "2026-06-24T08:54:22.730027",
+  "updated_at": "2026-06-24T08:54:22.730039"
 }

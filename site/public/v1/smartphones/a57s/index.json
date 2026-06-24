@@ -1,6 +1,7 @@
 {
-  "id": 9399,
+  "id": 48058,
   "slug": "a57s",
+  "base_model_slug": null,
   "name": "A57s",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1004,
+    "id": 1192,
     "slug": "helio-g35",
     "name": "Helio G35",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": "720x1612",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.0,
-    "performance": 0.0,
-    "camera": 17.2,
-    "battery": 33.4,
-    "display": 17.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 24.0,
+    "performance": 14.8,
+    "camera": 18.1,
+    "battery": 44.0,
+    "display": 19.1,
+    "value": null,
+    "perf": {
+      "index": 14.8,
+      "percentile": 6.2,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.392249",
-  "updated_at": "2026-06-19T02:27:15.392249"
+  "created_at": "2026-06-24T08:54:10.492808",
+  "updated_at": "2026-06-24T08:54:10.492820"
 }

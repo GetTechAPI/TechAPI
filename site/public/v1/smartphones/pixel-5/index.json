@@ -1,6 +1,7 @@
 {
-  "id": 2750,
+  "id": 12469,
   "slug": "pixel-5",
+  "base_model_slug": null,
   "name": "Google Pixel 5",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 1326,
+    "id": 1687,
     "slug": "snapdragon-765g",
     "name": "Snapdragon 765G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "2340x1080",
@@ -77,19 +79,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-5.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.5,
-    "performance": 3.0,
-    "camera": 18.1,
-    "battery": 19.2,
-    "display": 25.7,
-    "value": 42.9
+    "algorithm_version": "2.0.0",
+    "overall": 33.2,
+    "performance": 42.4,
+    "camera": 19.3,
+    "battery": 45.0,
+    "display": 26.0,
+    "value": 48.8,
+    "perf": {
+      "index": 42.4,
+      "percentile": 55.7,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_5_specs",
     "https://en.wikipedia.org/wiki/Pixel_5"
   ],
-  "created_at": "2026-06-19T02:27:14.249662",
-  "updated_at": "2026-06-19T02:27:14.249662"
+  "created_at": "2026-06-24T08:53:55.048695",
+  "updated_at": "2026-06-24T08:53:55.048708"
 }

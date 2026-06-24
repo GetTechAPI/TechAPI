@@ -1,6 +1,7 @@
 {
-  "id": 8634,
+  "id": 44088,
   "slug": "f5-youth",
+  "base_model_slug": null,
   "name": "F5 Youth",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 963,
+    "id": 1150,
     "slug": "mediatek-mt6763t-helio-p23",
     "name": "Mediatek MT6763T Helio P23",
     "manufacturer": {
@@ -30,6 +31,7 @@
     4,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2160",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.2,
+    "algorithm_version": "2.0.0",
+    "overall": 11.8,
     "performance": null,
-    "camera": 5.3,
-    "battery": 3.0,
+    "camera": 6.6,
+    "battery": 17.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.284007",
-  "updated_at": "2026-06-19T02:27:15.284007"
+  "created_at": "2026-06-24T08:54:08.518497",
+  "updated_at": "2026-06-24T08:54:08.518510"
 }

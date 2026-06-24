@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 36.83,
   "blender_score": 6246.91,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 87.0,
+    "graphics": {
+      "index": 87.0,
+      "percentile": 44.6,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000-family/",
     "https://www.techpowerup.com/gpu-specs/rtx-pro-4000-blackwell.c4297",

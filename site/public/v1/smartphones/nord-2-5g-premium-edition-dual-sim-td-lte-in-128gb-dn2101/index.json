@@ -1,6 +1,7 @@
 {
-  "id": 8513,
+  "id": 42896,
   "slug": "nord-2-5g-premium-edition-dual-sim-td-lte-in-128gb-dn2101",
+  "base_model_slug": null,
   "name": "Nord 2 5G Premium Edition Dual SIM TD-LTE IN 128GB DN2101",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1035,
+    "id": 1228,
     "slug": "dimensity-1200",
     "name": "MediaTek Dimensity 1200",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.8,
-    "performance": 3.9,
-    "camera": 17.2,
-    "battery": 37.0,
-    "display": 40.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 42.7,
+    "performance": 54.4,
+    "camera": 18.2,
+    "battery": 57.1,
+    "display": 41.1,
+    "value": null,
+    "perf": {
+      "index": 54.4,
+      "percentile": 69.0,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.260561",
-  "updated_at": "2026-06-19T02:27:15.260561"
+  "created_at": "2026-06-24T08:54:08.066279",
+  "updated_at": "2026-06-24T08:54:08.066296"
 }

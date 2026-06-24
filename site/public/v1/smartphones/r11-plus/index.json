@@ -1,6 +1,7 @@
 {
-  "id": 8636,
+  "id": 44100,
   "slug": "r11-plus",
+  "base_model_slug": null,
   "name": "R11 Plus",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1306,
+    "id": 1664,
     "slug": "qualcomm-sdm660-snapdragon-660",
     "name": "Qualcomm SDM660 Snapdragon 660",
     "manufacturer": {
@@ -29,6 +30,7 @@
     6,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x1920",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.7,
+    "algorithm_version": "2.0.0",
+    "overall": 16.2,
     "performance": null,
-    "camera": 6.3,
-    "battery": 15.0,
+    "camera": 7.5,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.284007",
-  "updated_at": "2026-06-19T02:27:15.284007"
+  "created_at": "2026-06-24T08:54:08.523151",
+  "updated_at": "2026-06-24T08:54:08.523163"
 }

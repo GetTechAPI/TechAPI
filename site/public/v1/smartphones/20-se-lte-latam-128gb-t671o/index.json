@@ -1,6 +1,7 @@
 {
-  "id": 13686,
+  "id": 71819,
   "slug": "20-se-lte-latam-128gb-t671o",
+  "base_model_slug": null,
   "name": "20 SE LTE LATAM 128GB T671O",
   "brand": {
     "id": 46,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tcl"
   },
   "soc": {
-    "id": 1337,
+    "id": 1706,
     "slug": "snapdragon-460",
     "name": "Snapdragon 460",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.82,
     "resolution": "720x1640",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.5,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.6,
-    "display": 35.0,
-    "value": 60.2
+    "algorithm_version": "2.0.0",
+    "overall": 28.8,
+    "performance": 17.9,
+    "camera": 17.5,
+    "battery": 43.5,
+    "display": 36.1,
+    "value": 61.9,
+    "perf": {
+      "index": 17.9,
+      "percentile": 15.3,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.168141",
-  "updated_at": "2026-06-19T02:27:16.168141"
+  "created_at": "2026-06-24T08:54:20.751063",
+  "updated_at": "2026-06-24T08:54:20.751076"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 673,
+  "id": 769,
   "slug": "tensor-g5",
   "name": "Google Tensor G5",
   "manufacturer": {
@@ -25,13 +25,31 @@
   "gpu_clock_mhz": 1100,
   "npu_tops": null,
   "modem": "Samsung Exynos 5400",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 81.7,
+    "cpu": {
+      "index": 83.5,
+      "percentile": 53.1,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 77.6,
+      "percentile": 37.5,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Google_Tensor",
     "https://en.wikipedia.org/wiki/Pixel_10",
     "https://nanoreview.net/en/soc/google-tensor-g5"
   ],
-  "created_at": "2026-06-19T02:27:12.564343",
-  "updated_at": "2026-06-19T02:27:12.564343",
+  "created_at": "2026-06-24T08:53:43.744982",
+  "updated_at": "2026-06-24T08:53:43.744993",
   "url": "/v1/socs/tensor-g5"
 }

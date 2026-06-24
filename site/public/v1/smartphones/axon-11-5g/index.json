@@ -1,6 +1,7 @@
 {
-  "id": 16464,
+  "id": 88656,
   "slug": "axon-11-5g",
+  "base_model_slug": null,
   "name": "Axon 11 5G",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1332,
+    "id": 1693,
     "slug": "qualcomm-sdm765-snapdragon-765g",
     "name": "Qualcomm SDM765 Snapdragon 765G",
     "manufacturer": {
@@ -31,6 +32,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.47,
     "resolution": "1080x2340",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
+    "algorithm_version": "2.0.0",
+    "overall": 31.1,
     "performance": null,
-    "camera": 21.6,
-    "battery": 15.0,
+    "camera": 22.5,
+    "battery": 39.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.556798",
-  "updated_at": "2026-06-19T02:27:16.556798"
+  "created_at": "2026-06-24T08:54:27.144460",
+  "updated_at": "2026-06-24T08:54:27.144474"
 }

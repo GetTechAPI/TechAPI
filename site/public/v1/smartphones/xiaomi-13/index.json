@@ -1,6 +1,7 @@
 {
-  "id": 15888,
+  "id": 85494,
   "slug": "xiaomi-13",
+  "base_model_slug": null,
   "name": "Xiaomi 13",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1361,
+    "id": 1748,
     "slug": "snapdragon-8-gen-2",
     "name": "Snapdragon 8 Gen 2",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.36,
     "resolution": "2400x1080",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-13.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 45.0,
-    "performance": 33.7,
-    "camera": 35.1,
-    "battery": 57.4,
-    "display": 53.8,
-    "value": 49.5
+    "algorithm_version": "2.0.0",
+    "overall": 58.4,
+    "performance": 71.7,
+    "camera": 36.1,
+    "battery": 71.6,
+    "display": 54.2,
+    "value": 54.2,
+    "perf": {
+      "index": 71.7,
+      "percentile": 89.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/xiaomi-13",
     "https://en.wikipedia.org/wiki/Xiaomi_13"
   ],
-  "created_at": "2026-06-19T02:27:16.474362",
-  "updated_at": "2026-06-19T02:27:16.474362"
+  "created_at": "2026-06-24T08:54:25.872776",
+  "updated_at": "2026-06-24T08:54:25.872788"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 10378,
+  "id": 53002,
   "slug": "realme-x7-max",
+  "base_model_slug": null,
   "name": "Realme X7 Max",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1035,
+    "id": 1228,
     "slug": "dimensity-1200",
     "name": "MediaTek Dimensity 1200",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.8,
-    "performance": 6.9,
-    "camera": 21.7,
-    "battery": 37.0,
-    "display": 53.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 47.0,
+    "performance": 57.1,
+    "camera": 22.6,
+    "battery": 57.1,
+    "display": 51.1,
+    "value": null,
+    "perf": {
+      "index": 57.1,
+      "percentile": 78.1,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.552948",
-  "updated_at": "2026-06-19T02:27:15.552948"
+  "created_at": "2026-06-24T08:54:12.534585",
+  "updated_at": "2026-06-24T08:54:12.534597"
 }

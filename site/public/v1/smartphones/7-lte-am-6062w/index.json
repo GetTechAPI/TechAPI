@@ -1,6 +1,7 @@
 {
-  "id": 519,
+  "id": 2080,
   "slug": "7-lte-am-6062w",
+  "base_model_slug": null,
   "name": "7 LTE AM 6062W",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 913,
+    "id": 1100,
     "slug": "helio-p23",
     "name": "Helio P23",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2180",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.4,
-    "performance": 0.0,
-    "camera": 5.1,
-    "battery": 15.0,
-    "display": 45.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 21.5,
+    "performance": 6.3,
+    "camera": 6.3,
+    "battery": 25.0,
+    "display": 48.3,
+    "value": null,
+    "perf": {
+      "index": 6.3,
+      "percentile": 0.7,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.899668",
-  "updated_at": "2026-06-19T02:27:13.899668"
+  "created_at": "2026-06-24T08:53:50.946654",
+  "updated_at": "2026-06-24T08:53:50.946667"
 }

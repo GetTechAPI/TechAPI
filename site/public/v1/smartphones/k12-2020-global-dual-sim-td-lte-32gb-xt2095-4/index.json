@@ -1,6 +1,7 @@
 {
-  "id": 5054,
+  "id": 25951,
   "slug": "k12-2020-global-dual-sim-td-lte-32gb-xt2095-4",
+  "base_model_slug": null,
   "name": "K12 2020 Global Dual SIM TD-LTE 32GB XT2095-4",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1003,
+    "id": 1191,
     "slug": "helio-g25",
     "name": "Helio G25",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.6,
+    "algorithm_version": "2.0.0",
+    "overall": 21.1,
     "performance": 0.0,
-    "camera": 16.5,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": 58.3
+    "camera": 17.5,
+    "battery": 30.1,
+    "display": 36.7,
+    "value": 60.5,
+    "perf": {
+      "index": 0.0,
+      "percentile": 0.7,
+      "tier": "F",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.626870",
-  "updated_at": "2026-06-19T02:27:14.626870"
+  "created_at": "2026-06-24T08:54:00.680460",
+  "updated_at": "2026-06-24T08:54:00.680483"
 }

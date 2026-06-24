@@ -1,6 +1,7 @@
 {
-  "id": 15852,
+  "id": 84420,
   "slug": "redmi-note-11s-4g-standard-edition-global-dual-sim-td-lte-128gb-2201117sg",
+  "base_model_slug": null,
   "name": "Redmi Note 11S 4G Standard Edition Global Dual SIM TD-LTE 128GB 2201117SG",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1042,
+    "id": 1235,
     "slug": "helio-g96",
     "name": "Helio G96",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.9,
-    "performance": 1.5,
-    "camera": 35.7,
-    "battery": 33.4,
-    "display": 40.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.4,
+    "performance": 36.2,
+    "camera": 36.3,
+    "battery": 44.0,
+    "display": 41.1,
+    "value": null,
+    "perf": {
+      "index": 36.2,
+      "percentile": 22.0,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.470363",
-  "updated_at": "2026-06-19T02:27:16.470363"
+  "created_at": "2026-06-24T08:54:25.480995",
+  "updated_at": "2026-06-24T08:54:25.481007"
 }

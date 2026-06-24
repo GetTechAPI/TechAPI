@@ -1,6 +1,7 @@
 {
-  "id": 25219,
+  "id": 56354,
   "slug": "samsung-gt-i9100g-galaxy-s-ii",
+  "base_model_slug": null,
   "name": "Samsung GT-i9100G Galaxy S II",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 2048,
+    "id": 2024,
     "slug": "texas-instruments-omap-4430",
     "name": "Texas Instruments OMAP 4430",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/texas-instruments"
     },
     "process_nm": 45.0,
-    "gpu_name": "PowerVR SGX540",
+    "gpu_name": "N/A",
     "url": "/v1/socs/texas-instruments-omap-4430"
   },
   "release_date": "2011-10-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.27,
     "resolution": "480x800",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 18.2,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 1.5,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=6461"
   ],
-  "created_at": "2026-06-19T09:44:29.924813",
-  "updated_at": "2026-06-19T09:44:29.924813"
+  "created_at": "2026-06-24T08:54:14.050230",
+  "updated_at": "2026-06-24T08:54:14.050243"
 }

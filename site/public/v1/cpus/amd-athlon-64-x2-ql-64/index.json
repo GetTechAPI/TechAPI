@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 22.9,
+    "single": {
+      "index": 30.8,
+      "percentile": 31.0,
+      "tier": "D",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 16.5,
+      "percentile": 25.4,
+      "tier": "D",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+QL-64"
   ],
-  "created_at": "2026-06-19T02:27:18.038417",
-  "updated_at": "2026-06-19T02:27:18.038417",
+  "created_at": "2026-06-24T08:54:40.697871",
+  "updated_at": "2026-06-24T08:54:40.697883",
   "url": "/v1/cpus/amd-athlon-64-x2-ql-64"
 }

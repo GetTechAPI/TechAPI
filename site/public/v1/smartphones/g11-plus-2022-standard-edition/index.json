@@ -1,6 +1,7 @@
 {
-  "id": 8304,
+  "id": 41661,
   "slug": "g11-plus-2022-standard-edition",
+  "base_model_slug": null,
   "name": "G11 Plus 2022 Standard Edition",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1559,
+    "id": 2085,
     "slug": "unisoc-t606",
     "name": "Unisoc T606",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.3,
-    "performance": 0.0,
-    "camera": 17.2,
-    "battery": 30.0,
-    "display": 30.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 26.8,
+    "performance": 19.9,
+    "camera": 18.2,
+    "battery": 40.0,
+    "display": 29.1,
+    "value": null,
+    "perf": {
+      "index": 19.9,
+      "percentile": 7.1,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.226520",
-  "updated_at": "2026-06-19T02:27:15.226520"
+  "created_at": "2026-06-24T08:54:07.592344",
+  "updated_at": "2026-06-24T08:54:07.592357"
 }

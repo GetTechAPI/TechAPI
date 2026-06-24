@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 2.15,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 29.3,
+    "graphics": {
+      "index": 29.3,
+      "percentile": 5.1,
+      "tier": "E",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_400_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-460.c2865",

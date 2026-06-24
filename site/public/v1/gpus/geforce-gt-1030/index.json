@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 1.127,
   "blender_score": 55.23,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 17.9,
+    "graphics": {
+      "index": 17.9,
+      "percentile": 0.4,
+      "tier": "F",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_10_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gt-1030.c2954",

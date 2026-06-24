@@ -24,6 +24,24 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 8-channel ECC",
   "msrp_usd": 8800,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 74.3,
+    "single": {
+      "index": 64.1,
+      "percentile": 7.3,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 82.7,
+      "percentile": 88.4,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/epyc-7773x",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7773X",
     "https://www.topcpu.net/en/cpu-r/"
   ],
-  "created_at": "2026-06-19T02:27:18.143613",
-  "updated_at": "2026-06-19T02:27:18.143613",
+  "created_at": "2026-06-24T08:54:40.902763",
+  "updated_at": "2026-06-24T08:54:40.902774",
   "url": "/v1/cpus/epyc-7773x"
 }

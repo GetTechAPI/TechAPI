@@ -1,6 +1,7 @@
 {
-  "id": 5072,
+  "id": 26052,
   "slug": "legion-phone-duel-2-5g-standard-edition-global-dual-sim-td-lte-256gb-l70081",
+  "base_model_slug": null,
   "name": "Legion Phone Duel 2 5G Standard Edition Global Dual SIM TD-LTE 256GB L70081",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.92,
     "resolution": "1080x2460",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 37.4,
-    "performance": 9.4,
-    "camera": 21.7,
-    "battery": 57.0,
-    "display": 61.3,
-    "value": 53.3
+    "algorithm_version": "2.0.0",
+    "overall": 52.3,
+    "performance": 60.0,
+    "camera": 22.6,
+    "battery": 69.2,
+    "display": 57.3,
+    "value": 58.4,
+    "perf": {
+      "index": 60.0,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.630379",
-  "updated_at": "2026-06-19T02:27:14.630379"
+  "created_at": "2026-06-24T08:54:00.713857",
+  "updated_at": "2026-06-24T08:54:00.713869"
 }

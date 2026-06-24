@@ -1,6 +1,7 @@
 {
-  "id": 7386,
+  "id": 36319,
   "slug": "moto-edge-20-lite-5g-2021-global-dual-sim-td-lte-128gb-xt2139-1",
+  "base_model_slug": null,
   "name": "Moto Edge 20 Lite 5G 2021 Global Dual SIM TD-LTE 128GB XT2139-1",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 999,
+    "id": 1187,
     "slug": "dimensity-720",
     "name": "Dimensity 720",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.8,
-    "performance": 3.0,
-    "camera": 35.8,
-    "battery": 32.9,
-    "display": 39.5,
-    "value": 63.9
+    "algorithm_version": "2.0.0",
+    "overall": 41.8,
+    "performance": 36.9,
+    "camera": 36.4,
+    "battery": 53.9,
+    "display": 39.9,
+    "value": 67.3,
+    "perf": {
+      "index": 36.9,
+      "percentile": 38.9,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.058838",
-  "updated_at": "2026-06-19T02:27:15.058838"
+  "created_at": "2026-06-24T08:54:05.444489",
+  "updated_at": "2026-06-24T08:54:05.444502"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 2079,
+  "id": 9671,
   "slug": "aquaris-m5-5",
+  "base_model_slug": null,
   "name": "Aquaris M5.5",
   "brand": {
     "id": 63,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/bq"
   },
   "soc": {
-    "id": 1223,
+    "id": 1562,
     "slug": "qualcomm-msm8939-snapdragon-615",
     "name": "Qualcomm MSM8939 Snapdragon 615",
     "manufacturer": {
@@ -30,6 +31,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x1920",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.3,
+    "algorithm_version": "2.0.0",
+    "overall": 13.9,
     "performance": null,
-    "camera": 5.3,
-    "battery": 9.3,
+    "camera": 6.6,
+    "battery": 21.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.141329",
-  "updated_at": "2026-06-19T02:27:14.141329"
+  "created_at": "2026-06-24T08:53:53.852477",
+  "updated_at": "2026-06-24T08:53:53.852490"
 }

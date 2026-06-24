@@ -1,6 +1,7 @@
 {
-  "id": 15922,
+  "id": 86328,
   "slug": "play-tegra-note",
+  "base_model_slug": null,
   "name": "Play Tegra Note",
   "brand": {
     "id": 95,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xolo"
   },
   "soc": {
-    "id": 1080,
+    "id": 1353,
     "slug": "nvidia-tegra-4",
     "name": "Nvidia Tegra 4",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "1280x800",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.8,
+    "algorithm_version": "2.0.0",
+    "overall": 15.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 16.5,
+    "battery": 26.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.479363",
-  "updated_at": "2026-06-19T02:27:16.479363"
+  "created_at": "2026-06-24T08:54:26.224424",
+  "updated_at": "2026-06-24T08:54:26.224437"
 }

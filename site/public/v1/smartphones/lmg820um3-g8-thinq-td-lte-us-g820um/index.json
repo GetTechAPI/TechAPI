@@ -1,6 +1,7 @@
 {
-  "id": 5882,
+  "id": 29502,
   "slug": "lmg820um3-g8-thinq-td-lte-us-g820um",
+  "base_model_slug": null,
   "name": "LMG820UM3 G8 ThinQ TD-LTE US G820UM",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "1440x3120",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.2,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 8.7,
-    "display": 61.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 37.9,
+    "performance": 46.1,
+    "camera": 6.3,
+    "battery": 37.3,
+    "display": 62.0,
+    "value": null,
+    "perf": {
+      "index": 46.1,
+      "percentile": 58.2,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.755526",
-  "updated_at": "2026-06-19T02:27:14.755526"
+  "created_at": "2026-06-24T08:54:02.707150",
+  "updated_at": "2026-06-24T08:54:02.707162"
 }

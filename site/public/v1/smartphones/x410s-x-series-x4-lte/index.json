@@ -1,6 +1,7 @@
 {
-  "id": 5850,
+  "id": 29368,
   "slug": "x410s-x-series-x4-lte",
+  "base_model_slug": null,
   "name": "X410S X Series X4 LTE",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1251,
+    "id": 1608,
     "slug": "snapdragon-425",
     "name": "Snapdragon 425",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.3,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 19.1,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 15.0,
+    "display": 37.3,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.752527",
-  "updated_at": "2026-06-19T02:27:14.752527"
+  "created_at": "2026-06-24T08:54:02.655064",
+  "updated_at": "2026-06-24T08:54:02.655076"
 }

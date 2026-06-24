@@ -1,6 +1,7 @@
 {
-  "id": 6735,
+  "id": 33133,
   "slug": "a768i",
+  "base_model_slug": null,
   "name": "A768i",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 148,
+    "id": 194,
     "slug": "206-mhz",
     "name": "206 MHz",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "240x320",
     "type": "TFT resistive touchscreen, 65K colors"
@@ -46,18 +48,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.884669",
-  "updated_at": "2026-06-19T02:27:14.884669"
+  "created_at": "2026-06-24T08:54:04.180113",
+  "updated_at": "2026-06-24T08:54:04.180126"
 }

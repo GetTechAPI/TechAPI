@@ -1,6 +1,7 @@
 {
-  "id": 9261,
+  "id": 46992,
   "slug": "a93-2021-5g-dual-sim-td-lte-cn-128gb-pehm00",
+  "base_model_slug": null,
   "name": "A93 2021 5G Dual SIM TD-LTE CN 128GB PEHM00",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1348,
+    "id": 1728,
     "slug": "snapdragon-480",
     "name": "Snapdragon 480",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 30.6,
-    "display": 40.5,
-    "value": 11.3
+    "algorithm_version": "2.0.0",
+    "overall": 35.7,
+    "performance": 34.7,
+    "camera": 17.5,
+    "battery": 49.8,
+    "display": 40.8,
+    "value": 17.9,
+    "perf": {
+      "index": 34.7,
+      "percentile": 33.7,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.371628",
-  "updated_at": "2026-06-19T02:27:15.371628"
+  "created_at": "2026-06-24T08:54:10.111682",
+  "updated_at": "2026-06-24T08:54:10.111694"
 }

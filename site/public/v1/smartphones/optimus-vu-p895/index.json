@@ -1,6 +1,7 @@
 {
-  "id": 5492,
+  "id": 27589,
   "slug": "optimus-vu-p895",
+  "base_model_slug": null,
   "name": "Optimus Vu P895",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1075,
+    "id": 1345,
     "slug": "nvidia-tegra-3",
     "name": "Nvidia Tegra 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "768x1024",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 5.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 6.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.705935",
-  "updated_at": "2026-06-19T02:27:14.705935"
+  "created_at": "2026-06-24T08:54:01.424200",
+  "updated_at": "2026-06-24T08:54:01.424212"
 }

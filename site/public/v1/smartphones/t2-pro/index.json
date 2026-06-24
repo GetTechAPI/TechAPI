@@ -1,6 +1,7 @@
 {
-  "id": 13899,
+  "id": 73062,
   "slug": "t2-pro",
+  "base_model_slug": null,
   "name": "T2 Pro",
   "brand": {
     "id": 49,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/ulefone"
   },
   "soc": {
-    "id": 994,
+    "id": 1182,
     "slug": "mediatek-mt6771-helio-p70",
     "name": "Mediatek MT6771 Helio P70",
     "manufacturer": {
@@ -29,6 +30,7 @@
     8,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "1080x2258",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.9,
+    "algorithm_version": "2.0.0",
+    "overall": 24.2,
     "performance": null,
-    "camera": 7.9,
-    "battery": 30.0,
+    "camera": 9.1,
+    "battery": 39.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.199659",
-  "updated_at": "2026-06-19T02:27:16.199659"
+  "created_at": "2026-06-24T08:54:21.245424",
+  "updated_at": "2026-06-24T08:54:21.245437"
 }

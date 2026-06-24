@@ -1,6 +1,7 @@
 {
-  "id": 1453,
+  "id": 7341,
   "slug": "rog-phone-5-5g-premium-edition-global-dual-sim-td-lte-version-a-d-256gb-zs673ks",
+  "base_model_slug": null,
   "name": "ROG Phone 5 5G Premium Edition Global Dual SIM TD-LTE Version A D 256GB ZS673KS",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "1080x2448",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 40.1,
-    "performance": 12.4,
-    "camera": 21.6,
-    "battery": 64.5,
-    "display": 62.0,
-    "value": 43.2
+    "algorithm_version": "2.0.0",
+    "overall": 54.3,
+    "performance": 62.7,
+    "camera": 22.5,
+    "battery": 74.2,
+    "display": 57.9,
+    "value": 48.6,
+    "perf": {
+      "index": 62.7,
+      "percentile": 90.0,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.043892",
-  "updated_at": "2026-06-19T02:27:14.043892"
+  "created_at": "2026-06-24T08:53:52.906759",
+  "updated_at": "2026-06-24T08:53:52.906772"
 }

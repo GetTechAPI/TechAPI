@@ -1,6 +1,7 @@
 {
-  "id": 3331,
+  "id": 15693,
   "slug": "u-play",
+  "base_model_slug": null,
   "name": "U Play",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 901,
+    "id": 1088,
     "slug": "mediatek-mt6755-helio-p10",
     "name": "Mediatek MT6755 Helio P10",
     "manufacturer": {
@@ -30,6 +31,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1080x1920",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.1,
+    "algorithm_version": "2.0.0",
+    "overall": 8.8,
     "performance": null,
-    "camera": 6.3,
-    "battery": 0.0,
+    "camera": 7.5,
+    "battery": 10.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.387011",
-  "updated_at": "2026-06-19T02:27:14.387011"
+  "created_at": "2026-06-24T08:53:56.739865",
+  "updated_at": "2026-06-24T08:53:56.739878"
 }

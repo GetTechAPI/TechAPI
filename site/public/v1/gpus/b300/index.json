@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 76.99,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 99.3,
+    "graphics": {
+      "index": 99.3,
+      "percentile": 84.8,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/data-center/hgx/",
     "https://www.techpowerup.com/gpu-specs/b300-sxm-288-gb.c4317",

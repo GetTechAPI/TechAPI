@@ -1,6 +1,7 @@
 {
-  "id": 1731,
+  "id": 8493,
   "slug": "p10000-pro-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "P10000 Pro Global Dual SIM TD-LTE",
   "brand": {
     "id": 15,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blackview"
   },
   "soc": {
-    "id": 915,
+    "id": 1102,
     "slug": "mediatek-helio-p23-mt6763",
     "name": "MediaTek Helio P23 MT6763",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.2,
+    "algorithm_version": "2.0.0",
+    "overall": 33.5,
     "performance": null,
-    "camera": 6.4,
+    "camera": 7.6,
     "battery": 45.0,
-    "display": 45.2,
-    "value": null
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.090412",
-  "updated_at": "2026-06-19T02:27:14.090412"
+  "created_at": "2026-06-24T08:53:53.394868",
+  "updated_at": "2026-06-24T08:53:53.394882"
 }

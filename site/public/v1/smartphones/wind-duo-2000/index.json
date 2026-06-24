@@ -1,6 +1,7 @@
 {
-  "id": 14999,
+  "id": 78835,
   "slug": "wind-duo-2000",
+  "base_model_slug": null,
   "name": "Wind DUO 2000",
   "brand": {
     "id": 73,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/wnd"
   },
   "soc": {
-    "id": 269,
+    "id": 323,
     "slug": "wnd-mobile-platform-2007",
     "name": "WND mobile platform 2007",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 1.5,
     "resolution": "128x160",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 1.6,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 1.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.356789",
-  "updated_at": "2026-06-19T02:27:16.356789"
+  "created_at": "2026-06-24T08:54:23.516762",
+  "updated_at": "2026-06-24T08:54:23.516775"
 }

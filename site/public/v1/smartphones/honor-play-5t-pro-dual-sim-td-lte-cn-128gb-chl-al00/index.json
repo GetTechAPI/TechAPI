@@ -1,6 +1,7 @@
 {
-  "id": 4218,
+  "id": 20405,
   "slug": "honor-play-5t-pro-dual-sim-td-lte-cn-128gb-chl-al00",
+  "base_model_slug": null,
   "name": "Honor Play 5T Pro Dual SIM TD-LTE CN 128GB CHL-AL00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1006,
+    "id": 1194,
     "slug": "helio-g80",
     "name": "Helio G80",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.4,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 16.3,
-    "display": 44.9,
-    "value": 14.6
+    "algorithm_version": "2.0.0",
+    "overall": 32.5,
+    "performance": 27.4,
+    "camera": 22.4,
+    "battery": 32.2,
+    "display": 47.8,
+    "value": 19.9,
+    "perf": {
+      "index": 27.4,
+      "percentile": 27.0,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.507195",
-  "updated_at": "2026-06-19T02:27:14.507195"
+  "created_at": "2026-06-24T08:53:58.489408",
+  "updated_at": "2026-06-24T08:53:58.489420"
 }

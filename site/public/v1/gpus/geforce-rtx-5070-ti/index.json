@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 43.94,
   "blender_score": 7587.95,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 95.1,
+    "graphics": {
+      "index": 95.1,
+      "percentile": 65.2,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-5070-ti.c4218",

@@ -1,6 +1,7 @@
 {
-  "id": 19001,
+  "id": 15290,
   "slug": "htc-desire-816-td-lte-d816t-htc-a5",
+  "base_model_slug": null,
   "name": "HTC Desire 816 TD-LTE D816t (HTC A5)",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1860,
+    "id": 1518,
     "slug": "qualcomm-snapdragon-400-msm8928",
     "name": "Qualcomm Snapdragon 400 MSM8928",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 305",
     "url": "/v1/socs/qualcomm-snapdragon-400-msm8928"
   },
   "release_date": "2014-03-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.51,
     "resolution": "720x1280",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 23.7,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 11.0,
+    "display": 36.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=6224"
   ],
-  "created_at": "2026-06-19T09:44:28.329147",
-  "updated_at": "2026-06-19T09:44:28.329147"
+  "created_at": "2026-06-24T08:53:56.579466",
+  "updated_at": "2026-06-24T08:53:56.579479"
 }

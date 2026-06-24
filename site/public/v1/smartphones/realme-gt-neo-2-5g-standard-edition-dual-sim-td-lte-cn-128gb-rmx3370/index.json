@@ -1,6 +1,7 @@
 {
-  "id": 9330,
+  "id": 47610,
   "slug": "realme-gt-neo-2-5g-standard-edition-dual-sim-td-lte-cn-128gb-rmx3370",
+  "base_model_slug": null,
   "name": "Realme GT Neo 2 5G Standard Edition Dual SIM TD-LTE CN 128GB RMX3370",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.62,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.8,
-    "performance": 6.1,
-    "camera": 21.5,
-    "battery": 39.5,
-    "display": 52.3,
-    "value": 14.9
+    "algorithm_version": "2.0.0",
+    "overall": 47.2,
+    "performance": 56.4,
+    "camera": 22.4,
+    "battery": 60.0,
+    "display": 50.2,
+    "value": 23.6,
+    "perf": {
+      "index": 56.4,
+      "percentile": 75.9,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.383243",
-  "updated_at": "2026-06-19T02:27:15.383243"
+  "created_at": "2026-06-24T08:54:10.340787",
+  "updated_at": "2026-06-24T08:54:10.340800"
 }

@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 500,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 24.6,
+    "single": {
+      "index": 26.1,
+      "percentile": 22.1,
+      "tier": "D",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 23.4,
+      "percentile": 54.4,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+FX-74"
   ],
-  "created_at": "2026-06-19T02:27:18.038417",
-  "updated_at": "2026-06-19T02:27:18.038417",
+  "created_at": "2026-06-24T08:54:40.696931",
+  "updated_at": "2026-06-24T08:54:40.696942",
   "url": "/v1/cpus/amd-athlon-64-fx-74"
 }

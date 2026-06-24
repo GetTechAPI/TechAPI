@@ -1,6 +1,7 @@
 {
-  "id": 19165,
+  "id": 16435,
   "slug": "huawei-ascend-g300c-huawei-c8810",
+  "base_model_slug": null,
   "name": "Huawei Ascend G300C (Huawei C8810)",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1140,
+    "id": 1425,
     "slug": "qualcomm-msm7627t",
     "name": "Qualcomm MSM7627T",
     "manufacturer": {
@@ -19,13 +20,14 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Adreno 200",
     "url": "/v1/socs/qualcomm-msm7627t"
   },
   "release_date": "2012-03-01",
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 4.02,
     "resolution": "480x800",
@@ -45,18 +47,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=3333"
   ],
-  "created_at": "2026-06-19T09:44:28.418347",
-  "updated_at": "2026-06-19T09:44:28.418347"
+  "created_at": "2026-06-24T08:53:57.031473",
+  "updated_at": "2026-06-24T08:53:57.031486"
 }

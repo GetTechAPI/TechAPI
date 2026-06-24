@@ -1,6 +1,7 @@
 {
-  "id": 491,
+  "id": 1907,
   "slug": "1c-dual-sim-3g-eu",
+  "base_model_slug": null,
   "name": "1C Dual SIM 3G EU",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 979,
+    "id": 1167,
     "slug": "mediatek-mt6580",
     "name": "Mediatek MT6580",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2018-07-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.3,
     "resolution": "480x960",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 16.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 9.6,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.895662",
-  "updated_at": "2026-06-19T02:27:13.895662"
+  "created_at": "2026-06-24T08:53:50.886863",
+  "updated_at": "2026-06-24T08:53:50.886875"
 }

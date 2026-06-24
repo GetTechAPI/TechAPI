@@ -1,6 +1,7 @@
 {
-  "id": 8967,
+  "id": 45415,
   "slug": "reno3",
+  "base_model_slug": null,
   "name": "Reno3",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 967,
+    "id": 1154,
     "slug": "dimensity-1000",
     "name": "Dimensity 1000",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2400",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.9,
-    "performance": 6.0,
-    "camera": 21.7,
-    "battery": 18.3,
-    "display": 53.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 41.7,
+    "performance": 48.7,
+    "camera": 22.6,
+    "battery": 44.2,
+    "display": 51.3,
+    "value": null,
+    "perf": {
+      "index": 48.7,
+      "percentile": 63.9,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.329052",
-  "updated_at": "2026-06-19T02:27:15.329052"
+  "created_at": "2026-06-24T08:54:08.973753",
+  "updated_at": "2026-06-24T08:54:08.973765"
 }

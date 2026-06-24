@@ -24,6 +24,24 @@
   "integrated_graphics": "AMD Radeon 890M (RDNA 3.5, 16CU)",
   "memory_support": "LPDDR5X-7500 / DDR5-5600",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 70.1,
+    "single": {
+      "index": 90.7,
+      "percentile": 52.3,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 53.3,
+      "percentile": 37.7,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-ryzen-ai-9-hx-375",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Ryzen-AI-9-HX-375",
     "https://www.topcpu.net/en/cpu-r/"
   ],
-  "created_at": "2026-06-19T02:27:18.150033",
-  "updated_at": "2026-06-19T02:27:18.150033",
+  "created_at": "2026-06-24T08:54:40.918080",
+  "updated_at": "2026-06-24T08:54:40.918091",
   "url": "/v1/cpus/ryzen-ai-9-hx-375"
 }

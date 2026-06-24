@@ -1,6 +1,7 @@
 {
-  "id": 15871,
+  "id": 85098,
   "slug": "poco-x5-pro",
+  "base_model_slug": null,
   "name": "POCO X5 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1352,
+    "id": 1732,
     "slug": "snapdragon-778g",
     "name": "Snapdragon 778G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2400x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/poco-x5-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.4,
-    "performance": 3.0,
-    "camera": 45.7,
-    "battery": 44.9,
-    "display": 36.1,
-    "value": 66.2
+    "algorithm_version": "2.0.0",
+    "overall": 49.7,
+    "performance": 50.9,
+    "camera": 46.3,
+    "battery": 62.5,
+    "display": 39.1,
+    "value": 71.3,
+    "perf": {
+      "index": 50.9,
+      "percentile": 59.8,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/poco-x5-pro",
     "https://en.wikipedia.org/wiki/POCO_X5_series"
   ],
-  "created_at": "2026-06-19T02:27:16.472362",
-  "updated_at": "2026-06-19T02:27:16.472362"
+  "created_at": "2026-06-24T08:54:25.739877",
+  "updated_at": "2026-06-24T08:54:25.739890"
 }

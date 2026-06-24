@@ -1,6 +1,7 @@
 {
-  "id": 5712,
+  "id": 28924,
   "slug": "lmg710em-g7-thinq-td-lte-emea-latam",
+  "base_model_slug": null,
   "name": "LMG710EM G7 ThinQ TD-LTE EMEA LATAM",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "1440x3120",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.9,
-    "performance": 0.0,
-    "camera": 6.4,
-    "battery": 0.0,
-    "display": 61.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.6,
+    "performance": 37.7,
+    "camera": 7.6,
+    "battery": 23.3,
+    "display": 61.9,
+    "value": null,
+    "perf": {
+      "index": 37.7,
+      "percentile": 41.6,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.735014",
-  "updated_at": "2026-06-19T02:27:14.735014"
+  "created_at": "2026-06-24T08:54:02.507120",
+  "updated_at": "2026-06-24T08:54:02.507133"
 }

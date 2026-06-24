@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 2.0",
   "fp32_tflops": 0.48,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 24.1,
+    "graphics": {
+      "index": 24.1,
+      "percentile": 49.5,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_HD_4000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-hd-4670.c220",

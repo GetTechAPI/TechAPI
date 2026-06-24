@@ -1,6 +1,7 @@
 {
-  "id": 12598,
+  "id": 64160,
   "slug": "galaxy-s22",
+  "base_model_slug": null,
   "name": "Galaxy S22",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "2340x1080",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s22.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 30.4,
-    "performance": 10.9,
-    "camera": 35.1,
-    "battery": 30.4,
-    "display": 45.4,
-    "value": 46.0
+    "algorithm_version": "2.0.0",
+    "overall": 48.2,
+    "performance": 60.3,
+    "camera": 36.1,
+    "battery": 49.3,
+    "display": 47.1,
+    "value": 52.7,
+    "perf": {
+      "index": 60.3,
+      "percentile": 75.3,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.samsung.com/global/galaxy/galaxy-s22/specs/",
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_S22"
   ],
-  "created_at": "2026-06-19T02:27:15.904892",
-  "updated_at": "2026-06-19T02:27:15.904892"
+  "created_at": "2026-06-24T08:54:16.967107",
+  "updated_at": "2026-06-24T08:54:16.967119"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 9447,
+  "id": 49763,
   "slug": "reno10-pro-5g",
+  "base_model_slug": null,
   "name": "Reno10 Pro 5G",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1352,
+    "id": 1732,
     "slug": "snapdragon-778g",
     "name": "Snapdragon 778G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
-    "performance": 9.0,
-    "camera": 17.1,
-    "battery": 29.0,
+    "algorithm_version": "2.0.0",
+    "overall": 40.7,
+    "performance": 56.4,
+    "camera": 18.1,
+    "battery": 47.7,
     "display": null,
-    "value": 47.7
+    "value": 56.1,
+    "perf": {
+      "index": 56.4,
+      "percentile": 66.6,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.399766",
-  "updated_at": "2026-06-19T02:27:15.399766"
+  "created_at": "2026-06-24T08:54:11.118971",
+  "updated_at": "2026-06-24T08:54:11.118984"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 4434,
+  "id": 22640,
   "slug": "smart-2-hd",
+  "base_model_slug": null,
   "name": "Smart 2 HD",
   "brand": {
     "id": 27,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/infinix"
   },
   "soc": {
-    "id": 979,
+    "id": 1167,
     "slug": "mediatek-mt6580",
     "name": "Mediatek MT6580",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2018-01-01",
@@ -29,6 +30,7 @@
     1,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "720x1440",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 6.2,
+    "algorithm_version": "2.0.0",
+    "overall": 12.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 7.5,
+    "battery": 20.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.541807",
-  "updated_at": "2026-06-19T02:27:14.541807"
+  "created_at": "2026-06-24T08:53:59.381800",
+  "updated_at": "2026-06-24T08:53:59.381812"
 }

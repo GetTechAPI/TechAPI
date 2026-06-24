@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 1.828,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 33.6,
+    "graphics": {
+      "index": 33.6,
+      "percentile": 0.6,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-1630.c3905",
     "https://www.nvidia.com/en-us/geforce/graphics-cards/16-series/",

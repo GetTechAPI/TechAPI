@@ -1,6 +1,7 @@
 {
-  "id": 6885,
+  "id": 33659,
   "slug": "mt710-zhiling",
+  "base_model_slug": null,
   "name": "MT710 ZHILING",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 800,
+    "id": 970,
     "slug": "624-mhz-marvell-pxa310",
     "name": "624 MHz Marvell PXA310",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.7,
     "resolution": "480x854",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.915018",
-  "updated_at": "2026-06-19T02:27:14.915018"
+  "created_at": "2026-06-24T08:54:04.440653",
+  "updated_at": "2026-06-24T08:54:04.440666"
 }

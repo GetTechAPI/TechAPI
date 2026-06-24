@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel UHD Graphics (24EU)",
   "memory_support": "DDR5-4800 / DDR4-3200 / LPDDR5-4800",
   "msrp_usd": 128,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 23.4,
+    "single": {
+      "index": 42.6,
+      "percentile": 1.8,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 7.7,
+      "percentile": 1.2,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz.html",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?id=5157&cpu=Intel+Processor+N100",
     "https://technical.city/en/cpu/Processor-N100"
   ],
-  "created_at": "2026-06-19T02:27:18.395326",
-  "updated_at": "2026-06-19T02:27:18.395326",
+  "created_at": "2026-06-24T08:54:41.408593",
+  "updated_at": "2026-06-24T08:54:41.408604",
   "url": "/v1/cpus/processor-n100"
 }

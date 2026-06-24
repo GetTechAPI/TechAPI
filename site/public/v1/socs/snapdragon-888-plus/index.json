@@ -1,5 +1,5 @@
 {
-  "id": 1357,
+  "id": 1737,
   "slug": "snapdragon-888-plus",
   "name": "Snapdragon 888+",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 840,
   "npu_tops": 32.0,
   "modem": "Snapdragon X60 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 64.1,
+    "cpu": {
+      "index": 64.4,
+      "percentile": 93.1,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 63.4,
+      "percentile": 93.1,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-888-plus-5g-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_888"
   ],
-  "created_at": "2026-06-19T02:27:12.605852",
-  "updated_at": "2026-06-19T02:27:12.605852",
+  "created_at": "2026-06-24T08:53:43.914981",
+  "updated_at": "2026-06-24T08:53:43.914992",
   "url": "/v1/socs/snapdragon-888-plus"
 }

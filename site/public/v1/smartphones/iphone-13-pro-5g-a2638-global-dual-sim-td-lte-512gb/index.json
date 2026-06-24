@@ -1,6 +1,7 @@
 {
-  "id": 1053,
+  "id": 4740,
   "slug": "iphone-13-pro-5g-a2638-global-dual-sim-td-lte-512gb",
+  "base_model_slug": null,
   "name": "iPhone 13 Pro 5G A2638 Global Dual SIM TD-LTE 512GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 25,
+    "id": 38,
     "slug": "apple-a15-bionic",
     "name": "Apple A15 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "1170x2532",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.6,
-    "performance": 34.6,
-    "camera": 5.1,
-    "battery": 12.4,
-    "display": 58.2,
-    "value": 17.7
+    "algorithm_version": "2.0.0",
+    "overall": 42.5,
+    "performance": 71.2,
+    "camera": 6.3,
+    "battery": 37.3,
+    "display": 55.2,
+    "value": 24.9,
+    "perf": {
+      "index": 71.2,
+      "percentile": 99.9,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.973648",
-  "updated_at": "2026-06-19T02:27:13.973648"
+  "created_at": "2026-06-24T08:53:51.918046",
+  "updated_at": "2026-06-24T08:53:51.918058"
 }

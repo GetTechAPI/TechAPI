@@ -1,6 +1,7 @@
 {
-  "id": 4284,
+  "id": 21922,
   "slug": "mate-xt",
+  "base_model_slug": null,
   "name": "Mate XT",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 717,
+    "id": 850,
     "slug": "kirin-9010",
     "name": "HiSilicon Kirin 9010",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.92,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
-    "performance": 7.7,
-    "camera": 17.1,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 41.5,
+    "performance": 56.9,
+    "camera": 18.1,
+    "battery": 49.6,
     "display": null,
-    "value": 9.2
+    "value": 20.8,
+    "perf": {
+      "index": 56.9,
+      "percentile": 54.5,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.515200",
-  "updated_at": "2026-06-19T02:27:14.515200"
+  "created_at": "2026-06-24T08:53:59.058053",
+  "updated_at": "2026-06-24T08:53:59.058065"
 }

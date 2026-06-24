@@ -1,6 +1,7 @@
 {
-  "id": 3698,
+  "id": 17656,
   "slug": "honor-play-global-dual-sim-td-lte-cor-l29",
+  "base_model_slug": null,
   "name": "Honor Play Global Dual SIM TD-LTE COR-L29",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 704,
+    "id": 837,
     "slug": "kirin-970",
     "name": "Kirin 970",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.0,
-    "performance": 24.5,
-    "camera": 6.3,
-    "battery": 11.2,
-    "display": 45.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.8,
+    "performance": 60.1,
+    "camera": 7.5,
+    "battery": 30.8,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": 60.1,
+      "percentile": 87.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.439188",
-  "updated_at": "2026-06-19T02:27:14.439188"
+  "created_at": "2026-06-24T08:53:57.508065",
+  "updated_at": "2026-06-24T08:53:57.508077"
 }

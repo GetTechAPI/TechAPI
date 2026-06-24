@@ -1,6 +1,7 @@
 {
-  "id": 3679,
+  "id": 17600,
   "slug": "honor-9i-2018-dual-sim-td-lte-cn-64gb-lld-al20-honor-9n",
+  "base_model_slug": null,
   "name": "Honor 9i 2018 Dual SIM TD-LTE CN 64GB LLD-AL20 / Honor 9N",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 703,
+    "id": 836,
     "slug": "kirin-659",
     "name": "Kirin 659",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.84,
     "resolution": "1080x2280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.4,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 0.0,
-    "display": 48.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 20.7,
+    "performance": 10.6,
+    "camera": 6.6,
+    "battery": 15.0,
+    "display": 50.6,
+    "value": null,
+    "perf": {
+      "index": 10.6,
+      "percentile": 7.7,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.437667",
-  "updated_at": "2026-06-19T02:27:14.437667"
+  "created_at": "2026-06-24T08:53:57.490064",
+  "updated_at": "2026-06-24T08:53:57.490076"
 }

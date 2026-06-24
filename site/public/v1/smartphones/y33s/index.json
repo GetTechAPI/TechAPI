@@ -1,6 +1,7 @@
 {
-  "id": 14748,
+  "id": 76117,
   "slug": "y33s",
+  "base_model_slug": null,
   "name": "Y33s",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1006,
+    "id": 1194,
     "slug": "helio-g80",
     "name": "Helio G80",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.7,
-    "performance": 3.0,
-    "camera": 17.1,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 28.2,
+    "performance": 27.4,
+    "camera": 18.1,
+    "battery": 39.2,
     "display": null,
-    "value": 58.4
+    "value": 62.7,
+    "perf": {
+      "index": 27.4,
+      "percentile": 27.0,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.317695",
-  "updated_at": "2026-06-19T02:27:16.317695"
+  "created_at": "2026-06-24T08:54:22.448738",
+  "updated_at": "2026-06-24T08:54:22.448751"
 }

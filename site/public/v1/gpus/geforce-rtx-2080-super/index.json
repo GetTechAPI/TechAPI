@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 11.15,
   "blender_score": 2288.18,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 74.3,
+    "graphics": {
+      "index": 74.3,
+      "percentile": 82.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080-super/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-2080-super.c3479",

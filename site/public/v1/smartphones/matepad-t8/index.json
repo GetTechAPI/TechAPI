@@ -1,6 +1,7 @@
 {
-  "id": 4132,
+  "id": 19823,
   "slug": "matepad-t8",
+  "base_model_slug": null,
   "name": "MatePad T8",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1032,
+    "id": 1225,
     "slug": "mediatek-mt8768",
     "name": "Mediatek MT8768",
     "manufacturer": {
@@ -30,6 +31,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "800x1280",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.2,
+    "algorithm_version": "2.0.0",
+    "overall": 27.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 31.5,
+    "battery": 50.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.496197",
-  "updated_at": "2026-06-19T02:27:14.496197"
+  "created_at": "2026-06-24T08:53:58.292615",
+  "updated_at": "2026-06-24T08:53:58.292628"
 }

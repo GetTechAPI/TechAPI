@@ -1,6 +1,7 @@
 {
-  "id": 6280,
+  "id": 31344,
   "slug": "16xs-dual-sim-td-lte-cn-128gb-m926q",
+  "base_model_slug": null,
   "name": "16Xs Dual SIM TD-LTE CN 128GB M926Q",
   "brand": {
     "id": 33,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/meizu"
   },
   "soc": {
-    "id": 1293,
+    "id": 1651,
     "slug": "snapdragon-675",
     "name": "Snapdragon 675",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "1080x2232",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.6,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 15.6,
-    "display": 45.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 32.0,
+    "performance": 29.2,
+    "camera": 17.5,
+    "battery": 33.5,
+    "display": 47.9,
+    "value": null,
+    "perf": {
+      "index": 29.2,
+      "percentile": 36.5,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.809854",
-  "updated_at": "2026-06-19T02:27:14.809854"
+  "created_at": "2026-06-24T08:54:03.411019",
+  "updated_at": "2026-06-24T08:54:03.411032"
 }

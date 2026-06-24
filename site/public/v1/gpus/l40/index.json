@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 90.52,
   "blender_score": 9278.3,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 96.5,
+    "graphics": {
+      "index": 96.5,
+      "percentile": 90.3,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/data-center/l40/",
     "https://www.techpowerup.com/gpu-specs/l40.c3959",

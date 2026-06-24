@@ -1,6 +1,7 @@
 {
-  "id": 9415,
+  "id": 48331,
   "slug": "find-x5-pro",
+  "base_model_slug": null,
   "name": "Find X5 Pro",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.3,
-    "performance": 16.9,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 46.6,
+    "performance": 65.8,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 40.1
+    "value": 48.4,
+    "perf": {
+      "index": 65.8,
+      "percentile": 82.4,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.393250",
-  "updated_at": "2026-06-19T02:27:15.393250"
+  "created_at": "2026-06-24T08:54:10.583166",
+  "updated_at": "2026-06-24T08:54:10.583177"
 }

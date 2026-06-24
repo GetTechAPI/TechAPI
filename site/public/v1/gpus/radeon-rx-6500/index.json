@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 5.356,
   "blender_score": 328.68,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 83.1,
+    "graphics": {
+      "index": 83.1,
+      "percentile": 63.6,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-6500.c3884",

@@ -1,6 +1,7 @@
 {
-  "id": 413,
+  "id": 1524,
   "slug": "one-touch-pixi-3-3-5-latam-ot-4023a",
+  "base_model_slug": null,
   "name": "One Touch Pixi 3 3.5 LATAM OT-4023A",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 854,
+    "id": 1033,
     "slug": "mediatek-mt6572m",
     "name": "Mediatek MT6572M",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.5,
     "resolution": "320x480",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 13.3,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.885722",
-  "updated_at": "2026-06-19T02:27:13.885722"
+  "created_at": "2026-06-24T08:53:50.749804",
+  "updated_at": "2026-06-24T08:53:50.749817"
 }

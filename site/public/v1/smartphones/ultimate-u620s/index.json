@@ -1,6 +1,7 @@
 {
-  "id": 2487,
+  "id": 11390,
   "slug": "ultimate-u620s",
+  "base_model_slug": null,
   "name": "Ultimate U620S",
   "brand": {
     "id": 157,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/energizer"
   },
   "soc": {
-    "id": 1023,
+    "id": 1216,
     "slug": "mediatek-mt6765-helio-p35",
     "name": "Mediatek MT6765 Helio P35",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "720x1520",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.7,
+    "algorithm_version": "2.0.0",
+    "overall": 18.4,
     "performance": null,
-    "camera": 6.3,
-    "battery": 15.0,
+    "camera": 7.5,
+    "battery": 29.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.208065",
-  "updated_at": "2026-06-19T02:27:14.208065"
+  "created_at": "2026-06-24T08:53:54.574727",
+  "updated_at": "2026-06-24T08:53:54.574739"
 }

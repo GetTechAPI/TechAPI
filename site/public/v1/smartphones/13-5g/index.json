@@ -1,6 +1,7 @@
 {
-  "id": 10416,
+  "id": 53453,
   "slug": "13-5g",
+  "base_model_slug": null,
   "name": "13+ 5G",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1054,
+    "id": 1267,
     "slug": "dimensity-7200",
     "name": "MediaTek Dimensity 7200",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 5.8,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 43.6,
+    "performance": 56.8,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 61.3
+    "value": 70.0,
+    "perf": {
+      "index": 56.8,
+      "percentile": 53.6,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.557941",
-  "updated_at": "2026-06-19T02:27:15.557941"
+  "created_at": "2026-06-24T08:54:12.701946",
+  "updated_at": "2026-06-24T08:54:12.701959"
 }

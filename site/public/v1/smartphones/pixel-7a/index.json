@@ -1,6 +1,7 @@
 {
-  "id": 2772,
+  "id": 12730,
   "slug": "pixel-7a",
+  "base_model_slug": null,
   "name": "Pixel 7a",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 670,
+    "id": 766,
     "slug": "tensor-g2",
     "name": "Google Tensor G2",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "2400x1080",
@@ -77,19 +79,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-7a.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.9,
-    "performance": 7.6,
-    "camera": 34.6,
-    "battery": 32.8,
-    "display": 28.6,
-    "value": 55.3
+    "algorithm_version": "2.0.0",
+    "overall": 44.5,
+    "performance": 58.0,
+    "camera": 35.5,
+    "battery": 51.3,
+    "display": 33.4,
+    "value": 61.5,
+    "perf": {
+      "index": 58.0,
+      "percentile": 69.4,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/us/product/pixel_7a_specs",
     "https://en.wikipedia.org/wiki/Pixel_7a"
   ],
-  "created_at": "2026-06-19T02:27:14.251668",
-  "updated_at": "2026-06-19T02:27:14.251668"
+  "created_at": "2026-06-24T08:53:55.141967",
+  "updated_at": "2026-06-24T08:53:55.141980"
 }

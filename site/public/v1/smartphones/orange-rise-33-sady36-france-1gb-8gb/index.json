@@ -1,5 +1,5 @@
 {
-  "id": 38459,
+  "id": 50305,
   "slug": "orange-rise-33-sady36-france-1gb-8gb",
   "base_model_slug": "rise-33",
   "name": "Rise 33",
@@ -20,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2017-03-01",
@@ -69,18 +69,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 3.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 2.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-20T18:00:16.671205",
-  "updated_at": "2026-06-20T18:00:16.671205"
+  "created_at": "2026-06-24T08:54:11.346127",
+  "updated_at": "2026-06-24T08:54:11.346140"
 }

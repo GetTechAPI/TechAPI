@@ -1,6 +1,7 @@
 {
-  "id": 3701,
+  "id": 17667,
   "slug": "honor-v10-premium-edition-dual-sim-td-lte-cn-bkl-al20-128gb",
+  "base_model_slug": null,
   "name": "Honor V10 Premium Edition Dual SIM TD-LTE CN BKL-AL20 128GB",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 704,
+    "id": 837,
     "slug": "kirin-970",
     "name": "Kirin 970",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.99,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.2,
-    "performance": 27.5,
-    "camera": 5.0,
-    "battery": 11.2,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 37.0,
+    "performance": 62.8,
+    "camera": 6.2,
+    "battery": 30.8,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 62.8,
+      "percentile": 96.1,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.440188",
-  "updated_at": "2026-06-19T02:27:14.440188"
+  "created_at": "2026-06-24T08:53:57.511804",
+  "updated_at": "2026-06-24T08:53:57.511816"
 }

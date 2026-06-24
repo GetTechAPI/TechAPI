@@ -1,5 +1,5 @@
 {
-  "id": 7702,
+  "id": 16845,
   "slug": "huawei-g7-plus-3gb-32gb-4g",
   "base_model_slug": "g7-plus",
   "name": "Huawei G7 Plus",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1511,
+    "id": 1524,
     "slug": "qualcomm-snapdragon-615-msm8939",
     "name": "Qualcomm Snapdragon 615 MSM8939",
     "manufacturer": {
@@ -20,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 405",
     "url": "/v1/socs/qualcomm-snapdragon-615-msm8939"
   },
   "release_date": "2015-10-01",
@@ -71,19 +71,26 @@
   "image_url": "https://www.mobiledokan.com/media/huawei-g7-plus.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 15.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
     "https://www.mobiledokan.com/mobile/huawei-g7-plus"
   ],
-  "created_at": "2026-06-20T12:07:16.631326",
-  "updated_at": "2026-06-20T12:07:16.631326"
+  "created_at": "2026-06-24T08:53:57.202376",
+  "updated_at": "2026-06-24T08:53:57.202389"
 }

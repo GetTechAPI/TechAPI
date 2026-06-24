@@ -1,6 +1,7 @@
 {
-  "id": 7343,
+  "id": 35895,
   "slug": "moto-g9-play-2020-lte-a-latam-64gb-xt2083-1",
+  "base_model_slug": null,
   "name": "Moto G9 Play 2020 LTE-A LATAM 64GB XT2083-1",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1338,
+    "id": 1707,
     "slug": "snapdragon-662",
     "name": "Snapdragon 662",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.4,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.2,
+    "performance": 23.6,
+    "camera": 17.5,
+    "battery": 43.0,
+    "display": 36.7,
+    "value": null,
+    "perf": {
+      "index": 23.6,
+      "percentile": 20.9,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.051838",
-  "updated_at": "2026-06-19T02:27:15.051838"
+  "created_at": "2026-06-24T08:54:05.288603",
+  "updated_at": "2026-06-24T08:54:05.288616"
 }

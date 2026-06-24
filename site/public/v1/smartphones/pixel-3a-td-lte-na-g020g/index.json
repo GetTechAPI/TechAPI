@@ -1,6 +1,7 @@
 {
-  "id": 2719,
+  "id": 12314,
   "slug": "pixel-3a-td-lte-na-g020g",
+  "base_model_slug": null,
   "name": "Pixel 3a TD-LTE NA G020G",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 1292,
+    "id": 1650,
     "slug": "snapdragon-670",
     "name": "Snapdragon 670",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.6,
     "resolution": "1080x2220",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.7,
-    "performance": 0.0,
-    "camera": 5.1,
-    "battery": 0.6,
-    "display": 49.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 26.9,
+    "performance": 24.2,
+    "camera": 6.3,
+    "battery": 25.6,
+    "display": 51.4,
+    "value": null,
+    "perf": {
+      "index": 24.2,
+      "percentile": 31.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.244656",
-  "updated_at": "2026-06-19T02:27:14.244656"
+  "created_at": "2026-06-24T08:53:54.996627",
+  "updated_at": "2026-06-24T08:53:54.996639"
 }

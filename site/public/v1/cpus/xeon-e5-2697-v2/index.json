@@ -24,6 +24,24 @@
   "integrated_graphics": null,
   "memory_support": "DDR3-1866 quad-channel ECC",
   "msrp_usd": 2614,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 41.4,
+    "single": {
+      "index": 39.3,
+      "percentile": 56.3,
+      "tier": "C",
+      "era": "2010-2013",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 43.1,
+      "percentile": 90.1,
+      "tier": "A",
+      "era": "2010-2013",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture)",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Xeon-E5-2697-v2",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.246065",
-  "updated_at": "2026-06-19T02:27:18.246065",
+  "created_at": "2026-06-24T08:54:41.141820",
+  "updated_at": "2026-06-24T08:54:41.141831",
   "url": "/v1/cpus/xeon-e5-2697-v2"
 }

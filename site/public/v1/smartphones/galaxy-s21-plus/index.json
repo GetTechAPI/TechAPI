@@ -1,6 +1,7 @@
 {
-  "id": 12382,
+  "id": 62641,
   "slug": "galaxy-s21-plus",
+  "base_model_slug": null,
   "name": "Galaxy S21+",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1473,
+    "id": 1946,
     "slug": "exynos-2100",
     "name": "Samsung Exynos 2100",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "2400x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s21-plus.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.9,
-    "performance": 4.5,
-    "camera": 23.0,
-    "battery": 41.9,
-    "display": 42.2,
-    "value": 37.0
+    "algorithm_version": "2.0.0",
+    "overall": 45.7,
+    "performance": 55.9,
+    "camera": 24.3,
+    "battery": 58.2,
+    "display": 44.4,
+    "value": 44.3,
+    "perf": {
+      "index": 55.9,
+      "percentile": 73.8,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_S21",
     "https://www.samsung.com/global/galaxy/galaxy-s21-5g/"
   ],
-  "created_at": "2026-06-19T02:27:15.876377",
-  "updated_at": "2026-06-19T02:27:15.876377"
+  "created_at": "2026-06-24T08:54:16.426065",
+  "updated_at": "2026-06-24T08:54:16.426078"
 }

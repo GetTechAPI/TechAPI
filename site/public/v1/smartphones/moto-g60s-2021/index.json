@@ -1,6 +1,7 @@
 {
-  "id": 7478,
+  "id": 36758,
   "slug": "moto-g60s-2021",
+  "base_model_slug": null,
   "name": "Moto G60s 2021",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1008,
+    "id": 1196,
     "slug": "helio-g95",
     "name": "Helio G95",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "1080x2460",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 28.0,
-    "performance": 1.5,
-    "camera": 21.7,
-    "battery": 36.7,
-    "display": 52.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 38.5,
+    "performance": 34.5,
+    "camera": 22.6,
+    "battery": 47.0,
+    "display": 50.0,
+    "value": null,
+    "perf": {
+      "index": 34.5,
+      "percentile": 33.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.071350",
-  "updated_at": "2026-06-19T02:27:15.071350"
+  "created_at": "2026-06-24T08:54:05.601979",
+  "updated_at": "2026-06-24T08:54:05.601992"
 }

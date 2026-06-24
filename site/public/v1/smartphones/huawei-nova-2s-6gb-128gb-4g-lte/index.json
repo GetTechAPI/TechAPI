@@ -1,5 +1,5 @@
 {
-  "id": 8569,
+  "id": 17323,
   "slug": "huawei-nova-2s-6gb-128gb-4g-lte",
   "base_model_slug": "nova-2s",
   "name": "Huawei nova 2s",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 834,
+    "id": 835,
     "slug": "kirin-960",
     "name": "Kirin 960",
     "manufacturer": {
@@ -64,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.3,
-    "performance": 1.5,
+    "algorithm_version": "2.0.0",
+    "overall": 23.9,
+    "performance": 29.4,
     "camera": null,
-    "battery": 5.1,
+    "battery": 18.4,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 29.4,
+      "percentile": 36.8,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:11.322455",
-  "updated_at": "2026-06-20T12:45:11.322455"
+  "created_at": "2026-06-24T08:53:57.395118",
+  "updated_at": "2026-06-24T08:53:57.395131"
 }

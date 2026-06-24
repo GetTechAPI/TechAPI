@@ -1,6 +1,7 @@
 {
-  "id": 13761,
+  "id": 72329,
   "slug": "camon-iace2x",
+  "base_model_slug": null,
   "name": "Camon iACE2X",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 1019,
+    "id": 1212,
     "slug": "mediatek-mt6761-helio-a22",
     "name": "Mediatek MT6761 Helio A22",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1440",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 13.1,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.8,
+    "camera": 6.6,
+    "battery": 19.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.177134",
-  "updated_at": "2026-06-19T02:27:16.177134"
+  "created_at": "2026-06-24T08:54:20.951985",
+  "updated_at": "2026-06-24T08:54:20.951997"
 }

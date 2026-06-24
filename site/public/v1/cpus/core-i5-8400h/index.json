@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel UHD Graphics 630",
   "memory_support": "DDR4-2666",
   "msrp_usd": 250,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 32.5,
+    "single": {
+      "index": 49.5,
+      "percentile": 54.9,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 18.5,
+      "percentile": 16.8,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/134900/intel-core-i5-8400h-processor-8m-cache-up-to-4-20-ghz.html",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-8400H",
     "https://technical.city/en/cpu/Core-i5-8400H"
   ],
-  "created_at": "2026-06-19T02:27:18.335875",
-  "updated_at": "2026-06-19T02:27:18.336610",
+  "created_at": "2026-06-24T08:54:41.265300",
+  "updated_at": "2026-06-24T08:54:41.265312",
   "url": "/v1/cpus/core-i5-8400h"
 }

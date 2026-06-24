@@ -1,6 +1,7 @@
 {
-  "id": 11667,
+  "id": 58775,
   "slug": "galaxy-j6",
+  "base_model_slug": null,
   "name": "Galaxy J6+",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1251,
+    "id": 1608,
     "slug": "snapdragon-425",
     "name": "Snapdragon 425",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0
   },
@@ -53,18 +55,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.9,
+    "algorithm_version": "2.0.0",
+    "overall": 12.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 4.5,
+    "camera": 6.6,
+    "battery": 18.0,
     "display": null,
-    "value": 52.5
+    "value": 56.1,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.784325",
-  "updated_at": "2026-06-19T02:27:15.784325"
+  "created_at": "2026-06-24T08:54:15.077433",
+  "updated_at": "2026-06-24T08:54:15.077445"
 }

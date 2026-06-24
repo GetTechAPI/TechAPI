@@ -1,6 +1,7 @@
 {
-  "id": 2768,
+  "id": 12571,
   "slug": "pixel-6",
+  "base_model_slug": null,
   "name": "Pixel 6",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 669,
+    "id": 765,
     "slug": "google-tensor",
     "name": "Google Tensor",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "2400x1080",
@@ -78,19 +80,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-6.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.7,
-    "performance": 3.7,
-    "camera": 30.1,
-    "battery": 41.3,
-    "display": 23.6,
-    "value": 50.9
+    "algorithm_version": "2.0.0",
+    "overall": 43.3,
+    "performance": 54.5,
+    "camera": 31.1,
+    "battery": 58.4,
+    "display": 29.2,
+    "value": 57.4,
+    "perf": {
+      "index": 54.5,
+      "percentile": 69.2,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/us/product/pixel_6_specs",
     "https://en.wikipedia.org/wiki/Pixel_6"
   ],
-  "created_at": "2026-06-19T02:27:14.251668",
-  "updated_at": "2026-06-19T02:27:14.251668"
+  "created_at": "2026-06-24T08:53:55.084241",
+  "updated_at": "2026-06-24T08:53:55.084253"
 }

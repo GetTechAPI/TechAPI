@@ -1,6 +1,7 @@
 {
-  "id": 896,
+  "id": 3819,
   "slug": "ipad-air-2019",
+  "base_model_slug": null,
   "name": "iPad Air (2019)",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 18,
+    "id": 28,
     "slug": "apple-a12-bionic",
     "name": "Apple A12 Bionic",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.5,
     "resolution": "1668x2224",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.2,
-    "performance": 4.7,
+    "algorithm_version": "2.0.0",
+    "overall": 24.6,
+    "performance": 54.3,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 14.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 54.3,
+      "percentile": 71.5,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.952600",
-  "updated_at": "2026-06-19T02:27:13.952600"
+  "created_at": "2026-06-24T08:53:51.597555",
+  "updated_at": "2026-06-24T08:53:51.597568"
 }

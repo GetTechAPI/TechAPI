@@ -1,6 +1,7 @@
 {
-  "id": 13772,
+  "id": 72367,
   "slug": "spark-4-lite",
+  "base_model_slug": null,
   "name": "Spark 4 Lite",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 1019,
+    "id": 1212,
     "slug": "mediatek-mt6761-helio-a22",
     "name": "Mediatek MT6761 Helio A22",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 17.1,
     "performance": null,
     "camera": 5.0,
-    "battery": 15.0,
+    "battery": 29.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.178134",
-  "updated_at": "2026-06-19T02:27:16.178134"
+  "created_at": "2026-06-24T08:54:20.965246",
+  "updated_at": "2026-06-24T08:54:20.965281"
 }

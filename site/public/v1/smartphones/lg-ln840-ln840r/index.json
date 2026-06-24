@@ -1,6 +1,7 @@
 {
-  "id": 20905,
+  "id": 26727,
   "slug": "lg-ln840-ln840r",
+  "base_model_slug": null,
   "name": "LG LN840 / LN840R",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1970,
+    "id": 1843,
     "slug": "samsung-s3c2443",
     "name": "Samsung S3C2443",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     2
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.29,
     "resolution": "480x272",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=1430"
   ],
-  "created_at": "2026-06-19T09:44:28.744805",
-  "updated_at": "2026-06-19T09:44:28.744805"
+  "created_at": "2026-06-24T08:54:01.037814",
+  "updated_at": "2026-06-24T08:54:01.037827"
 }

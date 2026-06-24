@@ -24,13 +24,31 @@
   "integrated_graphics": "Intel UHD Graphics 610",
   "memory_support": "DDR4-2666",
   "msrp_usd": 64,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 26.0,
+    "single": {
+      "index": 48.3,
+      "percentile": 5.0,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 7.7,
+      "percentile": 2.5,
+      "tier": "F",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/199326/intel-pentium-gold-g6400-processor-4m-cache-4-00-ghz.html",
     "https://en.wikipedia.org/wiki/Comet_Lake",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+Gold+G6400"
   ],
-  "created_at": "2026-06-19T02:27:18.367825",
-  "updated_at": "2026-06-19T02:27:18.367825",
+  "created_at": "2026-06-24T08:54:41.337619",
+  "updated_at": "2026-06-24T08:54:41.337631",
   "url": "/v1/cpus/pentium-gold-g6400"
 }

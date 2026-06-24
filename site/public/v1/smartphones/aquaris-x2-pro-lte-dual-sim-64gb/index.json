@@ -1,6 +1,7 @@
 {
-  "id": 2098,
+  "id": 9763,
   "slug": "aquaris-x2-pro-lte-dual-sim-64gb",
+  "base_model_slug": null,
   "name": "Aquaris X2 Pro LTE Dual SIM 64GB",
   "brand": {
     "id": 63,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/bq"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.65,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.1,
-    "performance": 18.0,
-    "camera": 5.0,
-    "battery": 1.5,
-    "display": 47.7,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 31.8,
+    "performance": 54.8,
+    "camera": 6.3,
+    "battery": 16.0,
+    "display": 50.2,
+    "value": null,
+    "perf": {
+      "index": 54.8,
+      "percentile": 73.8,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.144327",
-  "updated_at": "2026-06-19T02:27:14.144327"
+  "created_at": "2026-06-24T08:53:53.889911",
+  "updated_at": "2026-06-24T08:53:53.889923"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 6091,
+  "id": 30447,
   "slug": "q61",
+  "base_model_slug": null,
   "name": "Q61",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1023,
+    "id": 1216,
     "slug": "mediatek-mt6765-helio-p35",
     "name": "Mediatek MT6765 Helio P35",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.8,
+    "algorithm_version": "2.0.0",
+    "overall": 23.4,
     "performance": null,
-    "camera": 16.5,
-    "battery": 15.0,
+    "camera": 17.5,
+    "battery": 29.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.783220",
-  "updated_at": "2026-06-19T02:27:14.783220"
+  "created_at": "2026-06-24T08:54:03.042444",
+  "updated_at": "2026-06-24T08:54:03.042457"
 }

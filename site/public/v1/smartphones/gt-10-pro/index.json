@@ -1,6 +1,7 @@
 {
-  "id": 4503,
+  "id": 23252,
   "slug": "gt-10-pro",
+  "base_model_slug": null,
   "name": "GT 10 Pro",
   "brand": {
     "id": 27,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/infinix"
   },
   "soc": {
-    "id": 1046,
+    "id": 1246,
     "slug": "dimensity-8050",
     "name": "MediaTek Dimensity 8050",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.9,
-    "performance": 4.1,
-    "camera": 35.7,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 47.6,
+    "performance": 54.9,
+    "camera": 36.3,
+    "battery": 51.7,
     "display": null,
-    "value": 58.7
+    "value": 66.7,
+    "perf": {
+      "index": 54.9,
+      "percentile": 63.0,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.549811",
-  "updated_at": "2026-06-19T02:27:14.549811"
+  "created_at": "2026-06-24T08:53:59.601521",
+  "updated_at": "2026-06-24T08:53:59.601534"
 }

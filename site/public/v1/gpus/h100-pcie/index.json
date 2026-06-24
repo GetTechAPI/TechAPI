@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 62.08,
   "blender_score": 5447.87,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 96.6,
+    "graphics": {
+      "index": 96.6,
+      "percentile": 91.5,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "fp32_tflops"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/data-center/h100/",
     "https://www.techpowerup.com/gpu-specs/h100-pcie-80-gb.c3899",

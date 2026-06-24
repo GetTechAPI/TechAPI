@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 12.74,
   "blender_score": 2153.81,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 67.6,
+    "graphics": {
+      "index": 67.6,
+      "percentile": 33.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_30_series",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-3060.c3682",

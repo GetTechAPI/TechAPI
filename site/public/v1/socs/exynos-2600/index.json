@@ -1,5 +1,5 @@
 {
-  "id": 1483,
+  "id": 1975,
   "slug": "exynos-2600",
   "name": "Exynos 2600",
   "manufacturer": {
@@ -25,13 +25,31 @@
   "gpu_clock_mhz": 980,
   "npu_tops": null,
   "modem": "Shannon 5G integrated",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 99.0,
+    "cpu": {
+      "index": 98.6,
+      "percentile": 93.8,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 100.0,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Samsung_Exynos",
     "https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/",
     "https://nanoreview.net/en/soc/samsung-exynos-2600"
   ],
-  "created_at": "2026-06-19T02:27:12.613849",
-  "updated_at": "2026-06-19T02:27:12.613849",
+  "created_at": "2026-06-24T08:53:43.949504",
+  "updated_at": "2026-06-24T08:53:43.949515",
   "url": "/v1/socs/exynos-2600"
 }

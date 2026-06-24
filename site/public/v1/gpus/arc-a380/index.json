@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 4.198,
   "blender_score": 520.25,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 50.3,
+    "graphics": {
+      "index": 50.3,
+      "percentile": 3.4,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.intel.com/content/www/us/en/products/sku/227959/intel-arc-a380-graphics/specifications.html",
     "https://www.techpowerup.com/gpu-specs/intel-arc-a380.c3838",

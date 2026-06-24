@@ -1,6 +1,7 @@
 {
-  "id": 28510,
+  "id": 69355,
   "slug": "sony-xperia-x-performance-td-lte-so-04h-sony-dora-ss",
+  "base_model_slug": null,
   "name": "Sony Xperia X Performance TD-LTE SO-04H (Sony Dora SS)",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1899,
+    "id": 1606,
     "slug": "qualcomm-snapdragon-820-msm8996",
     "name": "Qualcomm Snapdragon 820 MSM8996",
     "manufacturer": {
@@ -18,8 +19,8 @@
       "name": "Qualcomm",
       "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 530",
     "url": "/v1/socs/qualcomm-snapdragon-820-msm8996"
   },
   "release_date": "2016-06-24",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.6,
+    "algorithm_version": "2.0.0",
+    "overall": 31.7,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 49.1,
-    "value": null
+    "battery": 12.0,
+    "display": 51.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=10142"
   ],
-  "created_at": "2026-06-19T09:44:30.818334",
-  "updated_at": "2026-06-19T09:44:30.818334"
+  "created_at": "2026-06-24T08:54:19.734466",
+  "updated_at": "2026-06-24T08:54:19.734478"
 }

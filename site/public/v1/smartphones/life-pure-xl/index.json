@@ -1,6 +1,7 @@
 {
-  "id": 1844,
+  "id": 8946,
   "slug": "life-pure-xl",
+  "base_model_slug": null,
   "name": "Life Pure XL",
   "brand": {
     "id": 151,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blu"
   },
   "soc": {
-    "id": 1189,
+    "id": 1498,
     "slug": "qualcomm-msm8274ab-snapdragon-800",
     "name": "Qualcomm MSM8274AB Snapdragon 800",
     "manufacturer": {
@@ -31,6 +32,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x1920",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.1,
+    "algorithm_version": "2.0.0",
+    "overall": 8.8,
     "performance": null,
-    "camera": 6.3,
-    "battery": 0.0,
+    "camera": 7.5,
+    "battery": 10.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.110023",
-  "updated_at": "2026-06-19T02:27:14.110023"
+  "created_at": "2026-06-24T08:53:53.589928",
+  "updated_at": "2026-06-24T08:53:53.589940"
 }

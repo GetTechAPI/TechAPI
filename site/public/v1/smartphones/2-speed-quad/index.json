@@ -1,6 +1,7 @@
 {
-  "id": 580,
+  "id": 2553,
   "slug": "2-speed-quad",
+  "base_model_slug": null,
   "name": "2 Speed Quad",
   "brand": {
     "id": 120,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/allview"
   },
   "soc": {
-    "id": 521,
+    "id": 598,
     "slug": "quad-core-1-0-ghz-cortex-a7",
     "name": "Quad-core 1.0 GHz Cortex-A7",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 8.0,
     "resolution": "768x1024",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.0,
+    "algorithm_version": "2.0.0",
+    "overall": 17.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 21.0,
+    "battery": 29.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.907668",
-  "updated_at": "2026-06-19T02:27:13.907668"
+  "created_at": "2026-06-24T08:53:51.110588",
+  "updated_at": "2026-06-24T08:53:51.110601"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 1056,
+  "id": 1269,
   "slug": "dimensity-9200-plus",
   "name": "MediaTek Dimensity 9200+",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 1350,
   "npu_tops": 22.0,
   "modem": "MediaTek M80 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 79.3,
+    "cpu": {
+      "index": 80.6,
+      "percentile": 86.7,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 76.3,
+      "percentile": 83.3,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.mediatek.com/products/smartphones-2/dimensity-9200-plus",
     "https://en.wikipedia.org/wiki/MediaTek_Dimensity_9200"
   ],
-  "created_at": "2026-06-19T02:27:12.587337",
-  "updated_at": "2026-06-19T02:27:12.587337",
+  "created_at": "2026-06-24T08:53:43.848702",
+  "updated_at": "2026-06-24T08:53:43.848713",
   "url": "/v1/socs/dimensity-9200-plus"
 }

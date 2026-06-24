@@ -1,6 +1,7 @@
 {
-  "id": 4993,
+  "id": 25705,
   "slug": "s5-pro-td-lte-dual-sim-paeg0005cn",
+  "base_model_slug": null,
   "name": "S5 Pro TD-LTE Dual SIM PAEG0005CN",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1266,
+    "id": 1623,
     "slug": "snapdragon-636",
     "name": "Snapdragon 636",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.2,
     "resolution": "1080x2246",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.5,
-    "performance": 1.5,
-    "camera": 7.6,
-    "battery": 7.5,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 24.2,
+    "performance": 20.2,
+    "camera": 8.8,
+    "battery": 20.0,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 20.2,
+      "percentile": 20.7,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.619870",
-  "updated_at": "2026-06-19T02:27:14.619870"
+  "created_at": "2026-06-24T08:54:00.592222",
+  "updated_at": "2026-06-24T08:54:00.592236"
 }

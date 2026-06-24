@@ -1,6 +1,7 @@
 {
-  "id": 19062,
+  "id": 15473,
   "slug": "htc-one-e9-one-e9-plus-dual-sim-td-lte-e9pt-htc-a55",
+  "base_model_slug": null,
   "name": "HTC One E9+ / One E9 Plus Dual SIM TD-LTE E9pt (HTC A55)",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1737,
+    "id": 1053,
     "slug": "mediatek-helio-x10-mt6795m",
     "name": "Mediatek Helio X10 MT6795M",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "PowerVR G6200",
     "url": "/v1/socs/mediatek-helio-x10-mt6795m"
   },
   "release_date": "2015-05-01",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1440x2560",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.2,
+    "algorithm_version": "2.0.0",
+    "overall": 36.1,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 58.4,
-    "value": null
+    "battery": 13.0,
+    "display": 59.3,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=7900"
   ],
-  "created_at": "2026-06-19T09:44:28.341217",
-  "updated_at": "2026-06-19T09:44:28.341217"
+  "created_at": "2026-06-24T08:53:56.653943",
+  "updated_at": "2026-06-24T08:53:56.653955"
 }

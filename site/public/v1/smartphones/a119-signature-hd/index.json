@@ -1,6 +1,7 @@
 {
-  "id": 2211,
+  "id": 10137,
   "slug": "a119-signature-hd",
+  "base_model_slug": null,
   "name": "A119 Signature HD",
   "brand": {
     "id": 88,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/celkon"
   },
   "soc": {
-    "id": 834,
+    "id": 1012,
     "slug": "mediatek-mt6577h",
     "name": "Mediatek MT6577H",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 6.2,
     "performance": null,
-    "camera": 5.0,
-    "battery": 0.0,
+    "camera": 6.3,
+    "battery": 6.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.165848",
-  "updated_at": "2026-06-19T02:27:14.165848"
+  "created_at": "2026-06-24T08:53:54.056717",
+  "updated_at": "2026-06-24T08:53:54.056729"
 }

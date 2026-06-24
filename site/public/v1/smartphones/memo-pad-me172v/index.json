@@ -1,6 +1,7 @@
 {
-  "id": 1226,
+  "id": 6142,
   "slug": "memo-pad-me172v",
+  "base_model_slug": null,
   "name": "Memo Pad ME172V",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 535,
+    "id": 612,
     "slug": "via-wm8950",
     "name": "VIA WM8950",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "600x1024",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.0,
+    "algorithm_version": "2.0.0",
+    "overall": 16.4,
     "performance": null,
     "camera": 5.0,
-    "battery": 19.0,
+    "battery": 27.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.000863",
-  "updated_at": "2026-06-19T02:27:14.000863"
+  "created_at": "2026-06-24T08:53:52.457064",
+  "updated_at": "2026-06-24T08:53:52.457077"
 }

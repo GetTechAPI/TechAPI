@@ -1,6 +1,7 @@
 {
-  "id": 24939,
+  "id": 51449,
   "slug": "philips-i928",
+  "base_model_slug": null,
   "name": "Philips I928",
   "brand": {
     "id": 118,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/philips"
   },
   "soc": {
-    "id": 861,
+    "id": 1040,
     "slug": "mediatek-mt6592",
     "name": "Mediatek MT6592",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.98,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.9,
+    "algorithm_version": "2.0.0",
+    "overall": 22.6,
     "performance": null,
     "camera": null,
     "battery": 0.0,
-    "display": 41.8,
-    "value": null
+    "display": 45.1,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=6062"
   ],
-  "created_at": "2026-06-19T09:44:29.849354",
-  "updated_at": "2026-06-19T09:44:29.849903"
+  "created_at": "2026-06-24T08:54:11.884409",
+  "updated_at": "2026-06-24T08:54:11.884422"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 10585,
+  "id": 54182,
   "slug": "t400",
+  "base_model_slug": null,
   "name": "T400",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1382,
+    "id": 1814,
     "slug": "samsung-mobile-platform-2002",
     "name": "Samsung mobile platform 2002",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "128x144",
     "type": "TFT, 65K colors"
@@ -43,18 +45,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "pre-2006",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.595977",
-  "updated_at": "2026-06-19T02:27:15.595977"
+  "created_at": "2026-06-24T08:54:13.029028",
+  "updated_at": "2026-06-24T08:54:13.029041"
 }

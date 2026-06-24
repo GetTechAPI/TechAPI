@@ -1,6 +1,7 @@
 {
-  "id": 29039,
+  "id": 73481,
   "slug": "unihertz-atom-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "Unihertz Atom Global Dual SIM TD-LTE",
   "brand": {
     "id": 50,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/unihertz"
   },
   "soc": {
-    "id": 915,
+    "id": 1102,
     "slug": "mediatek-helio-p23-mt6763",
     "name": "MediaTek Helio P23 MT6763",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 2.45,
     "resolution": "240x432",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 20.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 5.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=16520"
   ],
-  "created_at": "2026-06-19T09:44:30.946073",
-  "updated_at": "2026-06-19T09:44:30.946073"
+  "created_at": "2026-06-24T08:54:21.413806",
+  "updated_at": "2026-06-24T08:54:21.413819"
 }

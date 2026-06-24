@@ -1,6 +1,7 @@
 {
-  "id": 10060,
+  "id": 51794,
   "slug": "f5",
+  "base_model_slug": null,
   "name": "F5",
   "brand": {
     "id": 38,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/poco"
   },
   "soc": {
-    "id": 1365,
+    "id": 1764,
     "slug": "snapdragon-7-plus-gen-2",
     "name": "Snapdragon 7+ Gen 2",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.0,
-    "performance": 8.4,
-    "camera": 21.6,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 45.5,
+    "performance": 58.3,
+    "camera": 22.5,
+    "battery": 55.8,
     "display": null,
-    "value": 60.6
+    "value": 67.5,
+    "perf": {
+      "index": 58.3,
+      "percentile": 70.1,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.508888",
-  "updated_at": "2026-06-19T02:27:15.508888"
+  "created_at": "2026-06-24T08:54:12.036008",
+  "updated_at": "2026-06-24T08:54:12.036020"
 }

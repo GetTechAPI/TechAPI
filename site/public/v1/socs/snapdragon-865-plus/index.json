@@ -1,5 +1,5 @@
 {
-  "id": 1345,
+  "id": 1714,
   "slug": "snapdragon-865-plus",
   "name": "Snapdragon 865+",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 645,
   "npu_tops": 15.0,
   "modem": "Snapdragon X55 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 58.7,
+    "cpu": {
+      "index": 59.8,
+      "percentile": 79.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 56.1,
+      "percentile": 79.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-865-plus-5g-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_865"
   ],
-  "created_at": "2026-06-19T02:27:12.605852",
-  "updated_at": "2026-06-19T02:27:12.605852",
+  "created_at": "2026-06-24T08:53:43.911906",
+  "updated_at": "2026-06-24T08:53:43.911916",
   "url": "/v1/socs/snapdragon-865-plus"
 }

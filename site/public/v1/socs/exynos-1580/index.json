@@ -1,5 +1,5 @@
 {
-  "id": 1479,
+  "id": 1960,
   "slug": "exynos-1580",
   "name": "Exynos 1580",
   "manufacturer": {
@@ -25,13 +25,31 @@
   "gpu_clock_mhz": 1300,
   "npu_tops": 14.7,
   "modem": "Shannon 5G integrated",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 69.7,
+    "cpu": {
+      "index": 68.3,
+      "percentile": 25.0,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 73.0,
+      "percentile": 28.1,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Samsung_Exynos",
     "https://semiconductor.samsung.com/processor/mobile-processor/exynos-1580/",
     "https://nanoreview.net/en/soc/samsung-exynos-1580"
   ],
-  "created_at": "2026-06-19T02:27:12.613849",
-  "updated_at": "2026-06-19T02:27:12.613849",
+  "created_at": "2026-06-24T08:53:43.947404",
+  "updated_at": "2026-06-24T08:53:43.947415",
   "url": "/v1/socs/exynos-1580"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 986,
+  "id": 4330,
   "slug": "iphone-12-pro-max-5g-a2411-global-dual-sim-td-lte-256gb",
+  "base_model_slug": null,
   "name": "iPhone 12 Pro Max 5G A2411 Global Dual SIM TD-LTE 256GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 24,
+    "id": 37,
     "slug": "apple-a14-bionic",
     "name": "Apple A14 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.68,
     "resolution": "1284x2778",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.9,
-    "performance": 28.0,
-    "camera": 5.1,
-    "battery": 21.3,
-    "display": 33.3,
-    "value": 26.4
+    "algorithm_version": "2.0.0",
+    "overall": 38.3,
+    "performance": 68.4,
+    "camera": 6.3,
+    "battery": 43.2,
+    "display": 35.3,
+    "value": 33.5,
+    "perf": {
+      "index": 68.4,
+      "percentile": 95.4,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.965648",
-  "updated_at": "2026-06-19T02:27:13.965648"
+  "created_at": "2026-06-24T08:53:51.774600",
+  "updated_at": "2026-06-24T08:53:51.774613"
 }

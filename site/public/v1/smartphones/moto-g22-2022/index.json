@@ -1,6 +1,7 @@
 {
-  "id": 7498,
+  "id": 37258,
   "slug": "moto-g22-2022",
+  "base_model_slug": null,
   "name": "Moto g22 2022",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1040,
+    "id": 1233,
     "slug": "helio-g37",
     "name": "Helio G37",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.7,
+    "algorithm_version": "2.0.0",
+    "overall": 29.4,
     "performance": null,
-    "camera": 17.2,
-    "battery": 30.0,
-    "display": 30.0,
-    "value": null
+    "camera": 18.2,
+    "battery": 40.9,
+    "display": 29.2,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2022-2023",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.073347",
-  "updated_at": "2026-06-19T02:27:15.073347"
+  "created_at": "2026-06-24T08:54:05.786382",
+  "updated_at": "2026-06-24T08:54:05.786395"
 }

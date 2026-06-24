@@ -1,6 +1,7 @@
 {
-  "id": 15466,
+  "id": 81166,
   "slug": "poco-x2",
+  "base_model_slug": null,
   "name": "Poco X2",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1277,
+    "id": 1634,
     "slug": "qualcomm-sdm730-snapdragon-730g",
     "name": "Qualcomm SDM730 Snapdragon 730G",
     "manufacturer": {
@@ -32,6 +33,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.1,
+    "algorithm_version": "2.0.0",
+    "overall": 32.5,
     "performance": null,
-    "camera": 21.6,
-    "battery": 22.5,
+    "camera": 22.5,
+    "battery": 42.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.420829",
-  "updated_at": "2026-06-19T02:27:16.420829"
+  "created_at": "2026-06-24T08:54:24.343971",
+  "updated_at": "2026-06-24T08:54:24.343984"
 }

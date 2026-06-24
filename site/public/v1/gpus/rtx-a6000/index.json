@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 38.71,
   "blender_score": 5144.84,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 84.4,
+    "graphics": {
+      "index": 84.4,
+      "percentile": 90.1,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/design-visualization/rtx-a6000/",
     "https://www.techpowerup.com/gpu-specs/rtx-a6000.c3686",

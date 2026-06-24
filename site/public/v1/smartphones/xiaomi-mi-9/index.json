@@ -1,6 +1,7 @@
 {
-  "id": 15388,
+  "id": 80791,
   "slug": "xiaomi-mi-9",
+  "base_model_slug": null,
   "name": "Xiaomi Mi 9",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.39,
     "resolution": "2340x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-mi-9.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.3,
-    "performance": 1.5,
-    "camera": 26.5,
-    "battery": 10.8,
-    "display": 10.3,
-    "value": 50.5
+    "algorithm_version": "2.0.0",
+    "overall": 32.5,
+    "performance": 46.1,
+    "camera": 27.5,
+    "battery": 40.4,
+    "display": 15.8,
+    "value": 57.5,
+    "perf": {
+      "index": 46.1,
+      "percentile": 58.2,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_Mi_9",
     "https://www.mi.com/global/mi9/specs/"
   ],
-  "created_at": "2026-06-19T02:27:16.409816",
-  "updated_at": "2026-06-19T02:27:16.409816"
+  "created_at": "2026-06-24T08:54:24.217113",
+  "updated_at": "2026-06-24T08:54:24.217125"
 }

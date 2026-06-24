@@ -1,6 +1,7 @@
 {
-  "id": 6468,
+  "id": 32047,
   "slug": "a99-canvas-xpress",
+  "base_model_slug": null,
   "name": "A99 Canvas Xpress",
   "brand": {
     "id": 93,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/micromax"
   },
   "soc": {
-    "id": 858,
+    "id": 1037,
     "slug": "mediatek-mt6582v-x",
     "name": "Mediatek MT6582V/X",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.5,
     "resolution": "480x854",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 4.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 4.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.841895",
-  "updated_at": "2026-06-19T02:27:14.841895"
+  "created_at": "2026-06-24T08:54:03.716871",
+  "updated_at": "2026-06-24T08:54:03.716885"
 }

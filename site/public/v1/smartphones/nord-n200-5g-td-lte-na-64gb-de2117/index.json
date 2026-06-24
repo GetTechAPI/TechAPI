@@ -1,6 +1,7 @@
 {
-  "id": 8525,
+  "id": 42970,
   "slug": "nord-n200-5g-td-lte-na-64gb-de2117",
+  "base_model_slug": null,
   "name": "Nord N200 5G TD-LTE NA 64GB DE2117",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1348,
+    "id": 1728,
     "slug": "snapdragon-480",
     "name": "Snapdragon 480",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.49,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.1,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 30.6,
-    "display": 40.6,
-    "value": 59.5
+    "algorithm_version": "2.0.0",
+    "overall": 32.3,
+    "performance": 32.0,
+    "camera": 6.6,
+    "battery": 49.8,
+    "display": 40.9,
+    "value": 64.7,
+    "perf": {
+      "index": 32.0,
+      "percentile": 30.3,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.267007",
-  "updated_at": "2026-06-19T02:27:15.267007"
+  "created_at": "2026-06-24T08:54:08.090925",
+  "updated_at": "2026-06-24T08:54:08.090938"
 }

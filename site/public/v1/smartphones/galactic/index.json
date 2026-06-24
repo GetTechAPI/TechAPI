@@ -1,6 +1,7 @@
 {
-  "id": 9926,
+  "id": 51517,
   "slug": "galactic",
+  "base_model_slug": null,
   "name": "Galactic",
   "brand": {
     "id": 175,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/plum"
   },
   "soc": {
-    "id": 378,
+    "id": 447,
     "slug": "208-mhz-mtk-6235",
     "name": "208 MHz MTK 6235",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     1
   ],
+  "variant": {},
   "display": {
     "size_inch": 2.55,
     "resolution": "320x240",
@@ -50,18 +52,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.488349",
-  "updated_at": "2026-06-19T02:27:15.488349"
+  "created_at": "2026-06-24T08:54:11.911942",
+  "updated_at": "2026-06-24T08:54:11.911955"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 12859,
+  "id": 67944,
   "slug": "aquos-d10",
+  "base_model_slug": null,
   "name": "Aquos D10",
   "brand": {
     "id": 105,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 1275,
+    "id": 1632,
     "slug": "qualcomm-sdm630-snapdragon-630",
     "name": "Qualcomm SDM630 Snapdragon 630",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.99,
     "resolution": "1080x2160",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 10.2,
     "performance": null,
-    "camera": 5.0,
-    "battery": 0.0,
+    "camera": 6.3,
+    "battery": 14.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.031025",
-  "updated_at": "2026-06-19T02:27:16.031025"
+  "created_at": "2026-06-24T08:54:19.133393",
+  "updated_at": "2026-06-24T08:54:19.133405"
 }

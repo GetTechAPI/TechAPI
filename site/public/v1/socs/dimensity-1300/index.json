@@ -1,5 +1,5 @@
 {
-  "id": 1044,
+  "id": 1244,
   "slug": "dimensity-1300",
   "name": "MediaTek Dimensity 1300",
   "manufacturer": {
@@ -25,12 +25,30 @@
   "gpu_clock_mhz": 836,
   "npu_tops": 4.5,
   "modem": "MediaTek M70 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 60.5,
+    "cpu": {
+      "index": 61.1,
+      "percentile": 40.0,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 59.2,
+      "percentile": 43.3,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.mediatek.com/products/smartphones-2/dimensity-1300",
     "https://en.wikipedia.org/wiki/MediaTek_Dimensity_1300"
   ],
-  "created_at": "2026-06-19T02:27:12.587337",
-  "updated_at": "2026-06-19T02:27:12.587337",
+  "created_at": "2026-06-24T08:53:43.845380",
+  "updated_at": "2026-06-24T08:53:43.845391",
   "url": "/v1/socs/dimensity-1300"
 }

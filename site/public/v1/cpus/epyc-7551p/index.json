@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 8-channel ECC",
   "msrp_usd": 2100,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 45.4,
+    "single": {
+      "index": 34.2,
+      "percentile": 10.4,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 54.6,
+      "percentile": 75.1,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/cpu/amd-epyc-7551p",
     "https://en.wikipedia.org/wiki/Epyc",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+7551P"
   ],
-  "created_at": "2026-06-19T02:27:18.114558",
-  "updated_at": "2026-06-19T02:27:18.114558",
+  "created_at": "2026-06-24T08:54:40.837297",
+  "updated_at": "2026-06-24T08:54:40.837308",
   "url": "/v1/cpus/epyc-7551p"
 }

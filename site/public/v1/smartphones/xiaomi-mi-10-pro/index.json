@@ -1,6 +1,7 @@
 {
-  "id": 15573,
+  "id": 81721,
   "slug": "xiaomi-mi-10-pro",
+  "base_model_slug": null,
   "name": "Xiaomi Mi 10 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2340x1080",
@@ -92,19 +94,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-mi-10-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 29.5,
-    "performance": 3.0,
-    "camera": 58.7,
-    "battery": 35.2,
-    "display": 21.1,
-    "value": 37.9
+    "algorithm_version": "2.0.0",
+    "overall": 49.3,
+    "performance": 52.5,
+    "camera": 59.3,
+    "battery": 58.4,
+    "display": 27.1,
+    "value": 46.1,
+    "perf": {
+      "index": 52.5,
+      "percentile": 66.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_Mi_10",
     "https://www.mi.com/global/mi-10-pro/specs/"
   ],
-  "created_at": "2026-06-19T02:27:16.434339",
-  "updated_at": "2026-06-19T02:27:16.434339"
+  "created_at": "2026-06-24T08:54:24.540750",
+  "updated_at": "2026-06-24T08:54:24.540762"
 }

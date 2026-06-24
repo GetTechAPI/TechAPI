@@ -1,5 +1,5 @@
 {
-  "id": 16962,
+  "id": 35521,
   "slug": "motorola-one-vision-4gb-128gb-4g-lte",
   "base_model_slug": "one-vision",
   "name": "Motorola One Vision",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1907,
+    "id": 1929,
     "slug": "exynos-9609",
     "name": "Exynos 9609",
     "manufacturer": {
@@ -63,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.8,
-    "performance": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 25.8,
+    "performance": 23.2,
     "camera": null,
-    "battery": 7.5,
+    "battery": 28.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 23.2,
+      "percentile": 27.8,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:14.012142",
-  "updated_at": "2026-06-20T12:45:14.012142"
+  "created_at": "2026-06-24T08:54:05.162332",
+  "updated_at": "2026-06-24T08:54:05.162345"
 }

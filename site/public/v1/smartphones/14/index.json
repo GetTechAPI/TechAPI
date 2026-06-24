@@ -1,6 +1,7 @@
 {
-  "id": 15865,
+  "id": 84868,
   "slug": "14",
+  "base_model_slug": null,
   "name": "14",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1367,
+    "id": 1766,
     "slug": "snapdragon-8-gen-3",
     "name": "Snapdragon 8 Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.36
   },
@@ -54,18 +56,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 36.8,
-    "performance": 54.2,
-    "camera": 17.1,
-    "battery": 39.2,
+    "algorithm_version": "2.0.0",
+    "overall": 50.3,
+    "performance": 80.8,
+    "camera": 18.1,
+    "battery": 51.9,
     "display": null,
-    "value": 53.0
+    "value": 57.4,
+    "perf": {
+      "index": 80.8,
+      "percentile": 98.6,
+      "tier": "S",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.472362",
-  "updated_at": "2026-06-19T02:27:16.472362"
+  "created_at": "2026-06-24T08:54:25.663453",
+  "updated_at": "2026-06-24T08:54:25.663466"
 }

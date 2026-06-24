@@ -1,6 +1,7 @@
 {
-  "id": 16246,
+  "id": 87531,
   "slug": "blade-v220-lte-emea-avea-intouch-4",
+  "base_model_slug": null,
   "name": "Blade V220 LTE EMEA / Avea inTouch 4",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1207,
+    "id": 1544,
     "slug": "snapdragon-410",
     "name": "Snapdragon 410",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.4,
+    "algorithm_version": "2.0.0",
+    "overall": 17.1,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 6.0,
+    "display": 38.8,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.526892",
-  "updated_at": "2026-06-19T02:27:16.526892"
+  "created_at": "2026-06-24T08:54:26.724539",
+  "updated_at": "2026-06-24T08:54:26.724551"
 }

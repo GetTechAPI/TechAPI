@@ -1,6 +1,7 @@
 {
-  "id": 6264,
+  "id": 31285,
   "slug": "x8-standard-edition-dual-sim-td-lte-cn-64gb-m852q",
+  "base_model_slug": null,
   "name": "X8 Standard Edition Dual SIM TD-LTE CN 64GB M852Q",
   "brand": {
     "id": 33,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/meizu"
   },
   "soc": {
-    "id": 1294,
+    "id": 1652,
     "slug": "snapdragon-710",
     "name": "Snapdragon 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.15,
     "resolution": "1080x2220",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
-    "performance": 20.0,
-    "camera": 5.1,
-    "battery": 3.1,
-    "display": 45.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 34.2,
+    "performance": 57.3,
+    "camera": 6.3,
+    "battery": 25.4,
+    "display": 47.9,
+    "value": null,
+    "perf": {
+      "index": 57.3,
+      "percentile": 82.3,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.807854",
-  "updated_at": "2026-06-19T02:27:14.807854"
+  "created_at": "2026-06-24T08:54:03.389437",
+  "updated_at": "2026-06-24T08:54:03.389450"
 }

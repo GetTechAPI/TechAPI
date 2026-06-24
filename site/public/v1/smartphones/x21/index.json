@@ -1,6 +1,7 @@
 {
-  "id": 14289,
+  "id": 74461,
   "slug": "x21",
+  "base_model_slug": null,
   "name": "X21",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1267,
+    "id": 1624,
     "slug": "snapdragon-660",
     "name": "Snapdragon 660",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.28,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 9.2,
-    "performance": 19.5,
-    "camera": 5.0,
-    "battery": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 26.5,
+    "performance": 56.2,
+    "camera": 6.3,
+    "battery": 17.0,
     "display": null,
-    "value": 52.7
+    "value": 58.0,
+    "perf": {
+      "index": 56.2,
+      "percentile": 81.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.255684",
-  "updated_at": "2026-06-19T02:27:16.255684"
+  "created_at": "2026-06-24T08:54:21.803185",
+  "updated_at": "2026-06-24T08:54:21.803198"
 }

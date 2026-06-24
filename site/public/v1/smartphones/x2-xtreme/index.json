@@ -1,6 +1,7 @@
 {
-  "id": 659,
+  "id": 2771,
   "slug": "x2-xtreme",
+  "base_model_slug": null,
   "name": "X2 Xtreme",
   "brand": {
     "id": 120,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/allview"
   },
   "soc": {
-    "id": 887,
+    "id": 1069,
     "slug": "mediatek-mt6795-helio-x10",
     "name": "Mediatek MT6795 Helio X10",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.0,
     "resolution": "1440x2560",
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 8.2,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
-    "camera": 8.8,
-    "battery": 7.5,
+    "camera": 10.0,
+    "battery": 20.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.917672",
-  "updated_at": "2026-06-19T02:27:13.917672"
+  "created_at": "2026-06-24T08:53:51.191377",
+  "updated_at": "2026-06-24T08:53:51.191390"
 }

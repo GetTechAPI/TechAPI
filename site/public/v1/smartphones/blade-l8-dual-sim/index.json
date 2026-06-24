@@ -1,6 +1,7 @@
 {
-  "id": 16408,
+  "id": 88398,
   "slug": "blade-l8-dual-sim",
+  "base_model_slug": null,
   "name": "Blade L8 Dual SIM",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1548,
+    "id": 2073,
     "slug": "spreadtrum-sc7731e",
     "name": "Spreadtrum SC7731E",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "480x960",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 5.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.550798",
-  "updated_at": "2026-06-19T02:27:16.550798"
+  "created_at": "2026-06-24T08:54:27.053703",
+  "updated_at": "2026-06-24T08:54:27.053716"
 }

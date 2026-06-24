@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 2.634,
   "blender_score": 147.83,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 27.3,
+    "graphics": {
+      "index": 27.3,
+      "percentile": 20.9,
+      "tier": "D",
+      "era": "2010-2013",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_600_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-660-ti.c1864",

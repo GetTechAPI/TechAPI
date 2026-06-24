@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 22.06,
   "blender_score": 3940.6,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 77.9,
+    "graphics": {
+      "index": 77.9,
+      "percentile": 44.9,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_40_series",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-4060-ti.c3953",

@@ -1,6 +1,7 @@
 {
-  "id": 14576,
+  "id": 75334,
   "slug": "vivo-x50-4g-dual-sim-td-lte-v1-in-128gb-2004",
+  "base_model_slug": null,
   "name": "Vivo X50 4G Dual SIM TD-LTE V1 IN 128GB 2004",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1323,
+    "id": 1684,
     "slug": "snapdragon-730",
     "name": "Snapdragon 730",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": "1080x2376",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.2,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 21.4,
-    "display": 39.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.6,
+    "performance": 40.3,
+    "camera": 17.5,
+    "battery": 44.4,
+    "display": 40.2,
+    "value": null,
+    "perf": {
+      "index": 40.3,
+      "percentile": 51.8,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.293212",
-  "updated_at": "2026-06-19T02:27:16.293212"
+  "created_at": "2026-06-24T08:54:22.141726",
+  "updated_at": "2026-06-24T08:54:22.141738"
 }

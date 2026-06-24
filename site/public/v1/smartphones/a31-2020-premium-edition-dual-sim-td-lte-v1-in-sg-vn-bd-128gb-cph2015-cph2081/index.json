@@ -1,6 +1,7 @@
 {
-  "id": 8986,
+  "id": 45527,
   "slug": "a31-2020-premium-edition-dual-sim-td-lte-v1-in-sg-vn-bd-128gb-cph2015-cph2081",
+  "base_model_slug": null,
   "name": "A31 2020 Premium Edition Dual SIM TD-LTE V1 IN SG VN BD 128GB CPH2015 / CPH2081",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.0,
-    "performance": 1.5,
-    "camera": 5.2,
-    "battery": 18.4,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 21.2,
+    "performance": 10.4,
+    "camera": 6.4,
+    "battery": 31.5,
+    "display": 36.7,
+    "value": null,
+    "perf": {
+      "index": 10.4,
+      "percentile": 8.4,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.331044",
-  "updated_at": "2026-06-19T02:27:15.331044"
+  "created_at": "2026-06-24T08:54:09.582587",
+  "updated_at": "2026-06-24T08:54:09.582599"
 }

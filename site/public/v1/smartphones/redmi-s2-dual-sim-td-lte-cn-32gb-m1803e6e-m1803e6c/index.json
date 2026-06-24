@@ -1,6 +1,7 @@
 {
-  "id": 15189,
+  "id": 79902,
   "slug": "redmi-s2-dual-sim-td-lte-cn-32gb-m1803e6e-m1803e6c",
+  "base_model_slug": null,
   "name": "Redmi S2 Dual SIM TD-LTE CN 32GB M1803E6E / M1803E6C",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1254,
+    "id": 1611,
     "slug": "snapdragon-625",
     "name": "Snapdragon 625",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.99,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
+    "algorithm_version": "2.0.0",
+    "overall": 19.6,
     "performance": null,
-    "camera": 5.1,
-    "battery": 1.2,
-    "display": 35.0,
-    "value": null
+    "camera": 6.3,
+    "battery": 15.8,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.383304",
-  "updated_at": "2026-06-19T02:27:16.383304"
+  "created_at": "2026-06-24T08:54:23.912688",
+  "updated_at": "2026-06-24T08:54:23.912701"
 }

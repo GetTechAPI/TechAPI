@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 10.6,
   "blender_score": 1050.49,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 69.9,
+    "graphics": {
+      "index": 69.9,
+      "percentile": 41.6,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-6600-xt.c3774",

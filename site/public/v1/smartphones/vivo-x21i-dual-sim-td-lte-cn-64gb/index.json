@@ -1,6 +1,7 @@
 {
-  "id": 14219,
+  "id": 74377,
   "slug": "vivo-x21i-dual-sim-td-lte-cn-64gb",
+  "base_model_slug": null,
   "name": "Vivo X21i Dual SIM TD-LTE CN 64GB",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 938,
+    "id": 1125,
     "slug": "helio-p60",
     "name": "Helio P60",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.28,
     "resolution": "1080x2280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.9,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 3.7,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 24.2,
+    "performance": 20.9,
+    "camera": 6.3,
+    "battery": 21.6,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 20.9,
+      "percentile": 22.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.246685",
-  "updated_at": "2026-06-19T02:27:16.246685"
+  "created_at": "2026-06-24T08:54:21.774488",
+  "updated_at": "2026-06-24T08:54:21.774500"
 }

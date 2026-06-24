@@ -1,6 +1,7 @@
 {
-  "id": 7402,
+  "id": 36364,
   "slug": "moto-edge-s-pro",
+  "base_model_slug": null,
   "name": "Moto Edge S Pro",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.69,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.1,
-    "performance": 9.1,
-    "camera": 35.8,
-    "battery": 25.7,
-    "display": 61.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 50.6,
+    "performance": 59.2,
+    "camera": 36.4,
+    "battery": 49.1,
+    "display": 57.8,
+    "value": null,
+    "perf": {
+      "index": 59.2,
+      "percentile": 84.4,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.059838",
-  "updated_at": "2026-06-19T02:27:15.059838"
+  "created_at": "2026-06-24T08:54:05.459150",
+  "updated_at": "2026-06-24T08:54:05.459162"
 }

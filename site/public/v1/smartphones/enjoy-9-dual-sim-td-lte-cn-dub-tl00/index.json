@@ -1,6 +1,7 @@
 {
-  "id": 3642,
+  "id": 17465,
   "slug": "enjoy-9-dual-sim-td-lte-cn-dub-tl00",
+  "base_model_slug": null,
   "name": "Enjoy 9 Dual SIM TD-LTE CN DUB-TL00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1264,
+    "id": 1621,
     "slug": "snapdragon-450",
     "name": "Snapdragon 450",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.26,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
+    "algorithm_version": "2.0.0",
+    "overall": 22.7,
     "performance": null,
-    "camera": 5.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 25.0,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.432668",
-  "updated_at": "2026-06-19T02:27:14.432668"
+  "created_at": "2026-06-24T08:53:57.446390",
+  "updated_at": "2026-06-24T08:53:57.446403"
 }

@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 8-channel ECC",
   "msrp_usd": 1300,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 56.2,
+    "single": {
+      "index": 57.2,
+      "percentile": 30.8,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 55.3,
+      "percentile": 71.7,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=xeon-gold-6326",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Gold+6326"
   ],
-  "created_at": "2026-06-19T02:27:18.383844",
-  "updated_at": "2026-06-19T02:27:18.383844",
+  "created_at": "2026-06-24T08:54:41.376483",
+  "updated_at": "2026-06-24T08:54:41.376498",
   "url": "/v1/cpus/xeon-gold-6326"
 }

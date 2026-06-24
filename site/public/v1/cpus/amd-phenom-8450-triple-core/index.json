@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 31.1,
+    "single": {
+      "index": 36.5,
+      "percentile": 41.6,
+      "tier": "C",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 26.6,
+      "percentile": 68.4,
+      "tier": "B",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8450+Triple-Core"
   ],
-  "created_at": "2026-06-19T02:27:18.036405",
-  "updated_at": "2026-06-19T02:27:18.036405",
+  "created_at": "2026-06-24T08:54:40.690584",
+  "updated_at": "2026-06-24T08:54:40.690595",
   "url": "/v1/cpus/amd-phenom-8450-triple-core"
 }

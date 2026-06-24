@@ -1,6 +1,7 @@
 {
-  "id": 14329,
+  "id": 74627,
   "slug": "iqoo-neo",
+  "base_model_slug": null,
   "name": "iQOO Neo",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1311,
+    "id": 1669,
     "slug": "qualcomm-sdm845-snapdragon-845",
     "name": "Qualcomm SDM845 Snapdragon 845",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.38,
     "resolution": "1080x2340",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
+    "algorithm_version": "2.0.0",
+    "overall": 22.3,
     "performance": null,
-    "camera": 5.0,
-    "battery": 22.5,
+    "camera": 6.3,
+    "battery": 38.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.260694",
-  "updated_at": "2026-06-19T02:27:16.260694"
+  "created_at": "2026-06-24T08:54:21.867934",
+  "updated_at": "2026-06-24T08:54:21.867949"
 }

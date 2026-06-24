@@ -1,6 +1,7 @@
 {
-  "id": 5057,
+  "id": 25980,
   "slug": "k13-note",
+  "base_model_slug": null,
   "name": "K13 Note",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1337,
+    "id": 1706,
     "slug": "snapdragon-460",
     "name": "Snapdragon 460",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.5,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 25.6,
+    "performance": 17.9,
+    "camera": 17.5,
+    "battery": 41.3,
     "display": null,
-    "value": 57.8
+    "value": 62.8,
+    "perf": {
+      "index": 17.9,
+      "percentile": 15.3,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.628375",
-  "updated_at": "2026-06-19T02:27:14.628375"
+  "created_at": "2026-06-24T08:54:00.690349",
+  "updated_at": "2026-06-24T08:54:00.690362"
 }

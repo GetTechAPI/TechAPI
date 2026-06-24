@@ -1,6 +1,7 @@
 {
-  "id": 15748,
+  "id": 82931,
   "slug": "redmi-note-11-4g-standard-edition-dual-sim-td-lte-cn-128gb-21121119sc",
+  "base_model_slug": null,
   "name": "Redmi Note 11 4G Standard Edition Dual SIM TD-LTE CN 128GB 21121119SC",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1041,
+    "id": 1234,
     "slug": "helio-g88",
     "name": "MediaTek Helio G88",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.1,
-    "performance": 0.0,
-    "camera": 17.2,
-    "battery": 30.6,
-    "display": 40.5,
-    "value": 34.2
+    "algorithm_version": "2.0.0",
+    "overall": 32.1,
+    "performance": 28.0,
+    "camera": 18.2,
+    "battery": 41.4,
+    "display": 40.8,
+    "value": 37.5,
+    "perf": {
+      "index": 28.0,
+      "percentile": 27.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.456852",
-  "updated_at": "2026-06-19T02:27:16.456852"
+  "created_at": "2026-06-24T08:54:24.960224",
+  "updated_at": "2026-06-24T08:54:24.960237"
 }

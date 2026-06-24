@@ -1,6 +1,7 @@
 {
-  "id": 19071,
+  "id": 15482,
   "slug": "htc-one-m9-dual-sim-td-lte-m9e",
+  "base_model_slug": null,
   "name": "HTC One M9 Dual SIM TD-LTE M9e",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1738,
+    "id": 1054,
     "slug": "mediatek-helio-x10-mt6795t",
     "name": "Mediatek Helio X10 MT6795T",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "PowerVR G6200",
     "url": "/v1/socs/mediatek-helio-x10-mt6795t"
   },
   "release_date": "2015-10-29",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 24.6,
+    "algorithm_version": "2.0.0",
+    "overall": 32.4,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
-    "display": 49.1,
-    "value": null
+    "battery": 13.4,
+    "display": 51.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=9200"
   ],
-  "created_at": "2026-06-19T09:44:28.343165",
-  "updated_at": "2026-06-19T09:44:28.343165"
+  "created_at": "2026-06-24T08:53:56.658410",
+  "updated_at": "2026-06-24T08:53:56.658423"
 }

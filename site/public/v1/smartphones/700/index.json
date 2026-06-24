@@ -1,6 +1,7 @@
 {
-  "id": 7969,
+  "id": 39610,
   "slug": "700",
+  "base_model_slug": null,
   "name": "700",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 369,
+    "id": 438,
     "slug": "1-0-ghz-arm11",
     "name": "1.0 GHz ARM11",
     "manufacturer": {
@@ -29,6 +30,7 @@
     1,
     2
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.2,
     "resolution": "360x640",
@@ -57,18 +59,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.170411",
-  "updated_at": "2026-06-19T02:27:15.170411"
+  "created_at": "2026-06-24T08:54:06.841302",
+  "updated_at": "2026-06-24T08:54:06.841315"
 }

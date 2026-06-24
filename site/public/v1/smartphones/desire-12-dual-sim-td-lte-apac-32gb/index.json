@@ -1,6 +1,7 @@
 {
-  "id": 3337,
+  "id": 15731,
   "slug": "desire-12-dual-sim-td-lte-apac-32gb",
+  "base_model_slug": null,
   "name": "Desire 12+ Dual SIM TD-LTE APAC 32GB",
   "brand": {
     "id": 134,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/htc"
   },
   "soc": {
-    "id": 1264,
+    "id": 1621,
     "slug": "snapdragon-450",
     "name": "Snapdragon 450",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.98,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.4,
+    "algorithm_version": "2.0.0",
+    "overall": 19.3,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 14.7,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.388010",
-  "updated_at": "2026-06-19T02:27:14.388010"
+  "created_at": "2026-06-24T08:53:56.753505",
+  "updated_at": "2026-06-24T08:53:56.753517"
 }

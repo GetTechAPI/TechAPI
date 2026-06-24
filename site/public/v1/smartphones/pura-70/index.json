@@ -1,6 +1,7 @@
 {
-  "id": 4291,
+  "id": 21978,
   "slug": "pura-70",
+  "base_model_slug": null,
   "name": "Pura 70",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 717,
+    "id": 850,
     "slug": "kirin-9010",
     "name": "HiSilicon Kirin 9010",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": 999,
   "ram_gb": 12,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 6.8,
     "resolution": null,
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.8,
-    "performance": 7.7,
-    "camera": 17.1,
-    "battery": 28.5,
+    "algorithm_version": "2.0.0",
+    "overall": 41.2,
+    "performance": 56.9,
+    "camera": 18.1,
+    "battery": 48.6,
     "display": null,
-    "value": 32.0
+    "value": 42.0,
+    "perf": {
+      "index": 56.9,
+      "percentile": 54.5,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:14.516200",
-  "updated_at": "2026-06-19T02:27:14.516200"
+  "created_at": "2026-06-24T08:53:59.078283",
+  "updated_at": "2026-06-24T08:53:59.078299"
 }

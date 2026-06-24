@@ -1,6 +1,7 @@
 {
-  "id": 15462,
+  "id": 81138,
   "slug": "poco-m3-premium-edition-dual-sim-td-lte-in-64gb-m2010j19ci",
+  "base_model_slug": null,
   "name": "Poco M3 Premium Edition Dual SIM TD-LTE IN 64GB M2010J19CI",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1338,
+    "id": 1707,
     "slug": "snapdragon-662",
     "name": "Snapdragon 662",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 45.6,
-    "display": 27.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 31.5,
+    "performance": 25.0,
+    "camera": 17.5,
+    "battery": 53.5,
+    "display": 29.9,
+    "value": null,
+    "perf": {
+      "index": 25.0,
+      "percentile": 24.5,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.420829",
-  "updated_at": "2026-06-19T02:27:16.420829"
+  "created_at": "2026-06-24T08:54:24.334517",
+  "updated_at": "2026-06-24T08:54:24.334530"
 }

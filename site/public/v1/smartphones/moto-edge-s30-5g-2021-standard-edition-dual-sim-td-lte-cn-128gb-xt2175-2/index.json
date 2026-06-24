@@ -1,6 +1,7 @@
 {
-  "id": 7407,
+  "id": 36374,
   "slug": "moto-edge-s30-5g-2021-standard-edition-dual-sim-td-lte-cn-128gb-xt2175-2",
+  "base_model_slug": null,
   "name": "Moto Edge S30 5G 2021 Standard Edition Dual SIM TD-LTE CN 128GB XT2175-2",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1357,
+    "id": 1737,
     "slug": "snapdragon-888-plus",
     "name": "Snapdragon 888+",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "1080x2460",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 37.4,
-    "performance": 8.2,
-    "camera": 35.7,
-    "battery": 43.4,
-    "display": 62.1,
-    "value": 18.7
+    "algorithm_version": "2.0.0",
+    "overall": 52.9,
+    "performance": 58.5,
+    "camera": 36.3,
+    "battery": 58.6,
+    "display": 58.0,
+    "value": 26.4,
+    "perf": {
+      "index": 58.5,
+      "percentile": 82.9,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.061343",
-  "updated_at": "2026-06-19T02:27:15.061343"
+  "created_at": "2026-06-24T08:54:05.462373",
+  "updated_at": "2026-06-24T08:54:05.462385"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 8273,
+  "id": 41066,
   "slug": "1-4-2021-standard-edition-dual-sim-lte-latam-16gb",
+  "base_model_slug": null,
   "name": "1.4 2021 Standard Edition Dual SIM LTE LATAM 16GB",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1320,
+    "id": 1681,
     "slug": "snapdragon-215",
     "name": "Snapdragon 215",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.52,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.3,
+    "algorithm_version": "2.0.0",
+    "overall": 22.2,
     "performance": null,
     "camera": 5.0,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "battery": 25.0,
+    "display": 36.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.221519",
-  "updated_at": "2026-06-19T02:27:15.221519"
+  "created_at": "2026-06-24T08:54:07.385855",
+  "updated_at": "2026-06-24T08:54:07.385867"
 }

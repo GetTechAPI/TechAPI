@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-6400 12-channel ECC",
   "msrp_usd": 7592,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 92.8,
+    "single": {
+      "index": 98.7,
+      "percentile": 89.2,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 87.9,
+      "percentile": 80.8,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9475f.html",
     "https://en.wikipedia.org/wiki/Zen_5",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+9475F"
   ],
-  "created_at": "2026-06-19T02:27:18.151639",
-  "updated_at": "2026-06-19T02:27:18.151639",
+  "created_at": "2026-06-24T08:54:40.920324",
+  "updated_at": "2026-06-24T08:54:40.920335",
   "url": "/v1/cpus/epyc-9475f"
 }

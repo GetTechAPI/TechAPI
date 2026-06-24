@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 9.526,
   "blender_score": 1113.08,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 62.5,
+    "graphics": {
+      "index": 62.5,
+      "percentile": 77.6,
+      "tier": "B",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/data-center/tesla-p100/",
     "https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-16-gb.c2888",

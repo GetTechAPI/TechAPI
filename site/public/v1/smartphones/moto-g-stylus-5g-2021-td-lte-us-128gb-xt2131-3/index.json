@@ -1,6 +1,7 @@
 {
-  "id": 7433,
+  "id": 36457,
   "slug": "moto-g-stylus-5g-2021-td-lte-us-128gb-xt2131-3",
+  "base_model_slug": null,
   "name": "Moto G Stylus 5G 2021 TD-LTE US 128GB XT2131-3",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1348,
+    "id": 1728,
     "slug": "snapdragon-480",
     "name": "Snapdragon 480",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.79,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.6,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.0,
-    "display": 43.8,
-    "value": 61.3
+    "algorithm_version": "2.0.0",
+    "overall": 36.2,
+    "performance": 32.0,
+    "camera": 17.5,
+    "battery": 48.4,
+    "display": 46.8,
+    "value": 66.3,
+    "perf": {
+      "index": 32.0,
+      "percentile": 30.3,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.065349",
-  "updated_at": "2026-06-19T02:27:15.065349"
+  "created_at": "2026-06-24T08:54:05.493965",
+  "updated_at": "2026-06-24T08:54:05.493979"
 }

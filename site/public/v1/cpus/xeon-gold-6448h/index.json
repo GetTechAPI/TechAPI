@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 octa-channel ECC",
   "msrp_usd": 4090,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 69.3,
+    "single": {
+      "index": 69.0,
+      "percentile": 20.1,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 69.5,
+      "percentile": 67.7,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/231742/intel-xeon-gold-6448h-processor-60m-cache-2-40-ghz.html",
     "https://en.wikipedia.org/wiki/Sapphire_Rapids",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Gold+6448H"
   ],
-  "created_at": "2026-06-19T02:27:18.396337",
-  "updated_at": "2026-06-19T02:27:18.396337",
+  "created_at": "2026-06-24T08:54:41.410913",
+  "updated_at": "2026-06-24T08:54:41.410923",
   "url": "/v1/cpus/xeon-gold-6448h"
 }

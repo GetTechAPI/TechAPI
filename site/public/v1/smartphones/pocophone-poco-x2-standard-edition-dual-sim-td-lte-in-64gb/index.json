@@ -1,6 +1,7 @@
 {
-  "id": 15478,
+  "id": 81239,
   "slug": "pocophone-poco-x2-standard-edition-dual-sim-td-lte-in-64gb",
+  "base_model_slug": null,
   "name": "Pocophone Poco X2 Standard Edition Dual SIM TD-LTE IN 64GB",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1323,
+    "id": 1684,
     "slug": "snapdragon-730",
     "name": "Snapdragon 730",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.0,
-    "performance": 1.5,
-    "camera": 21.7,
-    "battery": 24.8,
-    "display": 52.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 39.4,
+    "performance": 38.9,
+    "camera": 22.6,
+    "battery": 46.3,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": 38.9,
+      "percentile": 48.1,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.421829",
-  "updated_at": "2026-06-19T02:27:16.421829"
+  "created_at": "2026-06-24T08:54:24.368456",
+  "updated_at": "2026-06-24T08:54:24.368469"
 }

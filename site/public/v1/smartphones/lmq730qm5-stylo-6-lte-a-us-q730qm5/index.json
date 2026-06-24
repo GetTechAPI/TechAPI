@@ -1,6 +1,7 @@
 {
-  "id": 6069,
+  "id": 30383,
   "slug": "lmq730qm5-stylo-6-lte-a-us-q730qm5",
+  "base_model_slug": null,
   "name": "LMQ730QM5 Stylo 6 LTE-A US Q730QM5",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 937,
+    "id": 1124,
     "slug": "helio-p35",
     "name": "Helio P35",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.79,
     "resolution": "1080x2460",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.2,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 15.0,
-    "display": 44.6,
-    "value": 58.1
+    "algorithm_version": "2.0.0",
+    "overall": 22.9,
+    "performance": 8.4,
+    "camera": 6.6,
+    "battery": 29.2,
+    "display": 47.5,
+    "value": 57.9,
+    "perf": {
+      "index": 8.4,
+      "percentile": 5.4,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.780173",
-  "updated_at": "2026-06-19T02:27:14.780173"
+  "created_at": "2026-06-24T08:54:03.020486",
+  "updated_at": "2026-06-24T08:54:03.020499"
 }

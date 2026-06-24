@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 20.74,
   "blender_score": 2406.13,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 86.4,
+    "graphics": {
+      "index": 86.4,
+      "percentile": 92.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-6800-xt.c3682",

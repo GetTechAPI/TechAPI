@@ -1,6 +1,7 @@
 {
-  "id": 481,
+  "id": 1806,
   "slug": "u3-2018-4g-dual-sim-td-lte-emea-4055u",
+  "base_model_slug": null,
   "name": "U3 2018 4G Dual SIM TD-LTE EMEA 4055U",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 1017,
+    "id": 1210,
     "slug": "mediatek-mt6737",
     "name": "Mediatek MT6737",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.0,
     "resolution": "480x800",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 13.9,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 1.8,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.894130",
-  "updated_at": "2026-06-19T02:27:13.894130"
+  "created_at": "2026-06-24T08:53:50.853361",
+  "updated_at": "2026-06-24T08:53:50.853374"
 }

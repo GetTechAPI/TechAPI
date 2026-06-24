@@ -1,6 +1,7 @@
 {
-  "id": 7026,
+  "id": 34173,
   "slug": "razr-hd-xt925",
+  "base_model_slug": null,
   "name": "RAZR HD XT925",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 457,
+    "id": 530,
     "slug": "dual-core-1-5-ghz",
     "name": "Dual-core 1.5 GHz",
     "manufacturer": {
@@ -30,6 +31,7 @@
     12,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "720x1280",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 7.7,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 10.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.939203",
-  "updated_at": "2026-06-19T02:27:14.939203"
+  "created_at": "2026-06-24T08:54:04.671161",
+  "updated_at": "2026-06-24T08:54:04.671174"
 }

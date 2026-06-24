@@ -1,6 +1,7 @@
 {
-  "id": 8110,
+  "id": 40152,
   "slug": "3-1-dual-sim-td-lte-in-16gb",
+  "base_model_slug": null,
   "name": "3.1 Dual SIM TD-LTE IN 16GB",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 959,
+    "id": 1146,
     "slug": "mediatek-mt6750",
     "name": "Mediatek MT6750",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
+    "algorithm_version": "2.0.0",
+    "overall": 20.5,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
-    "display": 36.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 14.9,
+    "display": 40.1,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.198508",
-  "updated_at": "2026-06-19T02:27:15.198508"
+  "created_at": "2026-06-24T08:54:07.067123",
+  "updated_at": "2026-06-24T08:54:07.067135"
 }

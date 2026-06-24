@@ -1,6 +1,7 @@
 {
-  "id": 2362,
+  "id": 10611,
   "slug": "legacy-s-td-lte-us-3648a",
+  "base_model_slug": null,
   "name": "Legacy S TD-LTE US 3648A",
   "brand": {
     "id": 17,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/coolpad"
   },
   "soc": {
-    "id": 935,
+    "id": 1122,
     "slug": "helio-a22",
     "name": "Helio A22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.45,
     "resolution": "720x1440",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 19.2,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
-    "display": 35.0,
-    "value": null
+    "battery": 13.7,
+    "display": 38.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.188860",
-  "updated_at": "2026-06-19T02:27:14.188860"
+  "created_at": "2026-06-24T08:53:54.266351",
+  "updated_at": "2026-06-24T08:53:54.266365"
 }

@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 6.175,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 50.9,
+    "graphics": {
+      "index": 50.9,
+      "percentile": 27.9,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_500_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-580.c2984",

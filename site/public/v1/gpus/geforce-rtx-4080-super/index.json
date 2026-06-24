@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 52.22,
   "blender_score": 8409.36,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 95.5,
+    "graphics": {
+      "index": 95.5,
+      "percentile": 67.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_40_series",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-4080-super.c4028",

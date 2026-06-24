@@ -1,6 +1,7 @@
 {
-  "id": 3898,
+  "id": 18526,
   "slug": "honor-play-8-dual-sim-td-lte-cn-32gb-ksa-tl00",
+  "base_model_slug": null,
   "name": "Honor Play 8 Dual SIM TD-LTE CN 32GB KSA-TL00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 935,
+    "id": 1122,
     "slug": "helio-a22",
     "name": "Helio A22",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.71,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.6,
+    "algorithm_version": "2.0.0",
+    "overall": 21.6,
     "performance": null,
-    "camera": 5.4,
-    "battery": 0.3,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 19.4,
+    "display": 38.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.466731",
-  "updated_at": "2026-06-19T02:27:14.466731"
+  "created_at": "2026-06-24T08:53:57.824491",
+  "updated_at": "2026-06-24T08:53:57.824505"
 }

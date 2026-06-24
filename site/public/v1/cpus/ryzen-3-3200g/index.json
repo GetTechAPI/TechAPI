@@ -24,6 +24,24 @@
   "integrated_graphics": "AMD Radeon Vega 8 (8CU)",
   "memory_support": "DDR4-2933",
   "msrp_usd": 99,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 26.6,
+    "single": {
+      "index": 45.8,
+      "percentile": 37.0,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 10.8,
+      "percentile": 6.4,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-ryzen-3-3200g",
@@ -31,7 +49,7 @@
     "https://browser.geekbench.com/processors/amd-ryzen-3-3200g",
     "https://www.cpubenchmark.net/cpu.php?id=3497&cpu=AMD+Ryzen+3+3200G"
   ],
-  "created_at": "2026-06-19T02:27:18.123918",
-  "updated_at": "2026-06-19T02:27:18.123918",
+  "created_at": "2026-06-24T08:54:40.854778",
+  "updated_at": "2026-06-24T08:54:40.854789",
   "url": "/v1/cpus/ryzen-3-3200g"
 }

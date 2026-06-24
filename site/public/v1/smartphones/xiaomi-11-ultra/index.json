@@ -1,6 +1,7 @@
 {
-  "id": 15767,
+  "id": 83024,
   "slug": "xiaomi-11-ultra",
+  "base_model_slug": null,
   "name": "Xiaomi Mi 11 Ultra",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.81,
     "resolution": "3200x1440",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-11-ultra.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 41.3,
-    "performance": 9.4,
-    "camera": 35.1,
-    "battery": 59.9,
-    "display": 60.8,
-    "value": 36.0
+    "algorithm_version": "2.0.0",
+    "overall": 57.7,
+    "performance": 60.0,
+    "camera": 36.1,
+    "battery": 74.5,
+    "display": 60.2,
+    "value": 43.2,
+    "perf": {
+      "index": 60.0,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.mi.com/global/product/mi-11-ultra",
     "https://en.wikipedia.org/wiki/Xiaomi_Mi_11_series"
   ],
-  "created_at": "2026-06-19T02:27:16.458852",
-  "updated_at": "2026-06-19T02:27:16.458852"
+  "created_at": "2026-06-24T08:54:24.991689",
+  "updated_at": "2026-06-24T08:54:24.991702"
 }

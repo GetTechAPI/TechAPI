@@ -1,6 +1,7 @@
 {
-  "id": 935,
+  "id": 4010,
   "slug": "iphone-11-pro",
+  "base_model_slug": null,
   "name": "iPhone 11 Pro",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 21,
+    "id": 32,
     "slug": "apple-a13-bionic",
     "name": "Apple A13 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.8,
     "resolution": "2436x1125",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-11-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.9,
-    "performance": 16.7,
-    "camera": 23.0,
-    "battery": 4.3,
-    "display": 15.8,
-    "value": 30.6
+    "algorithm_version": "2.0.0",
+    "overall": 36.3,
+    "performance": 62.5,
+    "camera": 24.3,
+    "battery": 35.3,
+    "display": 23.2,
+    "value": 39.6,
+    "perf": {
+      "index": 62.5,
+      "percentile": 95.7,
+      "tier": "S",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-11-pro/specs/",
     "https://en.wikipedia.org/wiki/IPhone_11_Pro"
   ],
-  "created_at": "2026-06-19T02:27:13.956595",
-  "updated_at": "2026-06-19T02:27:13.957594"
+  "created_at": "2026-06-24T08:53:51.660659",
+  "updated_at": "2026-06-24T08:53:51.660672"
 }

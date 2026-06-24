@@ -1,6 +1,7 @@
 {
-  "id": 5076,
+  "id": 26106,
   "slug": "legion-y90",
+  "base_model_slug": null,
   "name": "Legion Y90",
   "brand": {
     "id": 31,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lenovo"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     640
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.92,
     "resolution": "1080x2460",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 41.4,
-    "performance": 18.4,
-    "camera": 21.7,
-    "battery": 64.1,
-    "display": 61.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 54.9,
+    "performance": 67.1,
+    "camera": 22.6,
+    "battery": 72.8,
+    "display": 57.3,
+    "value": null,
+    "perf": {
+      "index": 67.1,
+      "percentile": 84.0,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.630379",
-  "updated_at": "2026-06-19T02:27:14.630379"
+  "created_at": "2026-06-24T08:54:00.733828",
+  "updated_at": "2026-06-24T08:54:00.733840"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 2365,
+  "id": 10619,
   "slug": "legacy-5g",
+  "base_model_slug": null,
   "name": "Legacy 5G",
   "brand": {
     "id": 17,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/coolpad"
   },
   "soc": {
-    "id": 1332,
+    "id": 1693,
     "slug": "qualcomm-sdm765-snapdragon-765g",
     "name": "Qualcomm SDM765 Snapdragon 765G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     4,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.8,
+    "algorithm_version": "2.0.0",
+    "overall": 28.6,
     "performance": null,
-    "camera": 16.5,
-    "battery": 15.0,
+    "camera": 17.5,
+    "battery": 39.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.189860",
-  "updated_at": "2026-06-19T02:27:14.189860"
+  "created_at": "2026-06-24T08:53:54.269503",
+  "updated_at": "2026-06-24T08:53:54.269515"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 12905,
+  "id": 68090,
   "slug": "aquos-sense3-basic-wimax-2-shv48",
+  "base_model_slug": null,
   "name": "Aquos Sense3 basic WiMAX 2+ SHV48",
   "brand": {
     "id": 105,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 1265,
+    "id": 1622,
     "slug": "snapdragon-630",
     "name": "Snapdragon 630",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.2,
-    "performance": 0.0,
-    "camera": 5.0,
-    "battery": 15.0,
-    "display": 48.9,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 23.4,
+    "performance": 11.0,
+    "camera": 6.3,
+    "battery": 25.0,
+    "display": 51.2,
+    "value": null,
+    "perf": {
+      "index": 11.0,
+      "percentile": 8.5,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.037025",
-  "updated_at": "2026-06-19T02:27:16.037025"
+  "created_at": "2026-06-24T08:54:19.187762",
+  "updated_at": "2026-06-24T08:54:19.187774"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 1007,
+  "id": 1195,
   "slug": "helio-g85",
   "name": "MediaTek Helio G85",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 1000,
   "npu_tops": null,
   "modem": "LTE Cat-7",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 30.8,
+    "cpu": {
+      "index": 35.0,
+      "percentile": 24.1,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 21.0,
+      "percentile": 17.2,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.mediatek.com/products/smartphones-2/helio-g85",
     "https://en.wikipedia.org/wiki/MediaTek_Helio_G85"
   ],
-  "created_at": "2026-06-19T02:27:12.584337",
-  "updated_at": "2026-06-19T02:27:12.584337",
+  "created_at": "2026-06-24T08:53:43.838502",
+  "updated_at": "2026-06-24T08:53:43.838513",
   "url": "/v1/socs/helio-g85"
 }

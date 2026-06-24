@@ -1,6 +1,7 @@
 {
-  "id": 20411,
+  "id": 23531,
   "slug": "intel-yolo",
+  "base_model_slug": null,
   "name": "Intel Yolo",
   "brand": {
     "id": 163,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/intel"
   },
   "soc": {
-    "id": 1700,
+    "id": 906,
     "slug": "intel-atom-2nd-gen-z2420",
     "name": "Intel Atom 2nd Gen Z2420",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.5,
     "resolution": "320x480",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=4154"
   ],
-  "created_at": "2026-06-19T09:44:28.654209",
-  "updated_at": "2026-06-19T09:44:28.654209"
+  "created_at": "2026-06-24T08:53:59.713444",
+  "updated_at": "2026-06-24T08:53:59.713457"
 }

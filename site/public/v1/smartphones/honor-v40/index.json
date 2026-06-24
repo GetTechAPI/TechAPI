@@ -1,6 +1,7 @@
 {
-  "id": 2983,
+  "id": 13776,
   "slug": "honor-v40",
+  "base_model_slug": null,
   "name": "Honor V40",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 997,
+    "id": 1185,
     "slug": "dimensity-1000-plus",
     "name": "Dimensity 1000 Plus",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.72,
     "resolution": "1236x2676",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 25.3,
-    "performance": 3.0,
-    "camera": 17.2,
-    "battery": 24.7,
-    "display": 56.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 43.0,
+    "performance": 49.9,
+    "camera": 18.2,
+    "battery": 50.2,
+    "display": 53.7,
+    "value": null,
+    "perf": {
+      "index": 49.9,
+      "percentile": 61.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.337476",
-  "updated_at": "2026-06-19T02:27:14.337476"
+  "created_at": "2026-06-24T08:53:55.965794",
+  "updated_at": "2026-06-24T08:53:55.965806"
 }

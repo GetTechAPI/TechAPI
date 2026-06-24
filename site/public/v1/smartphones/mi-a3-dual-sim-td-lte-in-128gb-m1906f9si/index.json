@@ -1,6 +1,7 @@
 {
-  "id": 15241,
+  "id": 80171,
   "slug": "mi-a3-dual-sim-td-lte-in-128gb-m1906f9si",
+  "base_model_slug": null,
   "name": "Mi A3 Dual SIM TD-LTE IN 128GB M1906F9SI",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1321,
+    "id": 1682,
     "slug": "snapdragon-665",
     "name": "Snapdragon 665",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "720x1560",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.1,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 15.4,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 27.9,
+    "performance": 24.2,
+    "camera": 17.5,
+    "battery": 32.4,
+    "display": 37.7,
+    "value": null,
+    "perf": {
+      "index": 24.2,
+      "percentile": 31.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.390303",
-  "updated_at": "2026-06-19T02:27:16.390303"
+  "created_at": "2026-06-24T08:54:24.004638",
+  "updated_at": "2026-06-24T08:54:24.004651"
 }

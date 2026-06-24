@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 octa-channel ECC",
   "msrp_usd": 2612,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 59.1,
+    "single": {
+      "index": 56.2,
+      "percentile": 28.3,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 61.4,
+      "percentile": 80.0,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/212284/intel-xeon-gold-6338-processor-48m-cache-2-00-ghz.html",
     "https://en.wikipedia.org/wiki/Ice_Lake_(microprocessor)",
     "https://www.cpubenchmark.net/cpu.php?id=4592&cpu=Intel+Xeon+Gold+6338+%28Ice+Lake-SP%29"
   ],
-  "created_at": "2026-06-19T02:27:18.383844",
-  "updated_at": "2026-06-19T02:27:18.383844",
+  "created_at": "2026-06-24T08:54:41.376861",
+  "updated_at": "2026-06-24T08:54:41.376872",
   "url": "/v1/cpus/xeon-gold-6338"
 }

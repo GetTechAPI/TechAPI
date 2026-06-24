@@ -1,6 +1,7 @@
 {
-  "id": 11853,
+  "id": 59621,
   "slug": "galaxy-fold",
+  "base_model_slug": null,
   "name": "Galaxy Fold",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 7.3,
     "resolution": "2152x1536",
@@ -88,19 +90,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-fold.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.4,
-    "performance": 6.0,
-    "camera": 23.0,
-    "battery": 22.5,
-    "display": 6.2,
-    "value": 7.2
+    "algorithm_version": "2.0.0",
+    "overall": 32.8,
+    "performance": 50.2,
+    "camera": 24.3,
+    "battery": 46.9,
+    "display": 9.9,
+    "value": 16.4,
+    "perf": {
+      "index": 50.2,
+      "percentile": 66.0,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fold",
     "https://www.samsung.com/global/galaxy/galaxy-fold/"
   ],
-  "created_at": "2026-06-19T02:27:15.808834",
-  "updated_at": "2026-06-19T02:27:15.808834"
+  "created_at": "2026-06-24T08:54:15.365677",
+  "updated_at": "2026-06-24T08:54:15.365690"
 }

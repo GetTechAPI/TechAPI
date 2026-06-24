@@ -1,6 +1,7 @@
 {
-  "id": 2401,
+  "id": 10837,
   "slug": "homtom-h10-dual-sim-lte-p271",
+  "base_model_slug": null,
   "name": "HOMTOM H10 Dual SIM LTE P271",
   "brand": {
     "id": 18,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/doogee"
   },
   "soc": {
-    "id": 923,
+    "id": 1110,
     "slug": "mediatek-mt6750t",
     "name": "Mediatek MT6750T",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1512",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.4,
+    "algorithm_version": "2.0.0",
+    "overall": 22.4,
     "performance": null,
-    "camera": 6.3,
-    "battery": 7.5,
-    "display": 35.4,
-    "value": null
+    "camera": 7.5,
+    "battery": 20.0,
+    "display": 39.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.194855",
-  "updated_at": "2026-06-19T02:27:14.194855"
+  "created_at": "2026-06-24T08:53:54.359638",
+  "updated_at": "2026-06-24T08:53:54.359650"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 10371,
+  "id": 52995,
   "slug": "realme-narzo-30",
+  "base_model_slug": null,
   "name": "Realme Narzo 30",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 998,
+    "id": 1186,
     "slug": "dimensity-700",
     "name": "Dimensity 700",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.3,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 30.6,
-    "display": 40.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.5,
+    "performance": 35.9,
+    "camera": 17.5,
+    "battery": 51.8,
+    "display": 40.8,
+    "value": null,
+    "perf": {
+      "index": 35.9,
+      "percentile": 37.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.551946",
-  "updated_at": "2026-06-19T02:27:15.551946"
+  "created_at": "2026-06-24T08:54:12.532521",
+  "updated_at": "2026-06-24T08:54:12.532534"
 }

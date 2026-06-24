@@ -1,6 +1,7 @@
 {
-  "id": 1019,
+  "id": 4524,
   "slug": "iphone-13-5g-a2631-dual-sim-td-lte-jp-ca-mx-512gb",
+  "base_model_slug": null,
   "name": "iPhone 13 5G A2631 Dual SIM TD-LTE JP CA MX 512GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 25,
+    "id": 38,
     "slug": "apple-a15-bionic",
     "name": "Apple A15 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.06,
     "resolution": "1170x2532",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.8,
-    "performance": 33.1,
-    "camera": 5.1,
-    "battery": 14.4,
-    "display": 58.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 42.5,
+    "performance": 69.8,
+    "camera": 6.3,
+    "battery": 38.6,
+    "display": 55.5,
+    "value": null,
+    "perf": {
+      "index": 69.8,
+      "percentile": 98.7,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.969647",
-  "updated_at": "2026-06-19T02:27:13.969647"
+  "created_at": "2026-06-24T08:53:51.848085",
+  "updated_at": "2026-06-24T08:53:51.848097"
 }

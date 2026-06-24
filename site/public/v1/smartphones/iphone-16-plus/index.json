@@ -1,6 +1,7 @@
 {
-  "id": 1114,
+  "id": 5642,
   "slug": "iphone-16-plus",
+  "base_model_slug": null,
   "name": "iPhone 16 Plus",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 29,
+    "id": 49,
     "slug": "apple-a18",
     "name": "Apple A18",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "2796x1290",
@@ -79,19 +81,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-16-plus.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 44.7,
-    "performance": 61.9,
-    "camera": 29.5,
-    "battery": 52.4,
-    "display": 35.1,
-    "value": 49.3
+    "algorithm_version": "2.0.0",
+    "overall": 53.6,
+    "performance": 81.0,
+    "camera": 30.5,
+    "battery": 63.5,
+    "display": 39.5,
+    "value": 51.9,
+    "perf": {
+      "index": 81.0,
+      "percentile": 81.2,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-16/specs/",
     "https://en.wikipedia.org/wiki/IPhone_16"
   ],
-  "created_at": "2026-06-19T02:27:13.981655",
-  "updated_at": "2026-06-19T02:27:13.981655"
+  "created_at": "2026-06-24T08:53:52.239371",
+  "updated_at": "2026-06-24T08:53:52.239384"
 }

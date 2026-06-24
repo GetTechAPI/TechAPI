@@ -1,6 +1,7 @@
 {
-  "id": 7540,
+  "id": 38103,
   "slug": "motorola-edge-50-pro",
+  "base_model_slug": null,
   "name": "Motorola Edge 50 Pro",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1364,
+    "id": 1763,
     "slug": "snapdragon-7-gen-3",
     "name": "Snapdragon 7 Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2400x1080",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/motorola-edge-50-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 45.3,
-    "performance": 22.0,
-    "camera": 35.1,
-    "battery": 60.5,
-    "display": 63.5,
-    "value": 63.0
+    "algorithm_version": "2.0.0",
+    "overall": 59.8,
+    "performance": 67.6,
+    "camera": 36.1,
+    "battery": 73.8,
+    "display": 61.9,
+    "value": 67.4,
+    "perf": {
+      "index": 67.6,
+      "percentile": 66.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.motorola.com/us/smartphones-motorola-edge-50-pro/p",
     "https://en.wikipedia.org/wiki/Motorola_Edge_50_Pro"
   ],
-  "created_at": "2026-06-19T02:27:15.078348",
-  "updated_at": "2026-06-19T02:27:15.078348"
+  "created_at": "2026-06-24T08:54:06.098917",
+  "updated_at": "2026-06-24T08:54:06.098929"
 }

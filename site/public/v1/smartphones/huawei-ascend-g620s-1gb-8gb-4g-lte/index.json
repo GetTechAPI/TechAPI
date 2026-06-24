@@ -1,5 +1,5 @@
 {
-  "id": 8077,
+  "id": 16633,
   "slug": "huawei-ascend-g620s-1gb-8gb-4g-lte",
   "base_model_slug": "ascend-g620s",
   "name": "Huawei Ascend G620s",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1544,
+    "id": 1557,
     "slug": "qualcomm-msm8916-snapdragon-410",
     "name": "Qualcomm MSM8916 Snapdragon 410",
     "manufacturer": {
@@ -63,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 5.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 5.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:11.172785",
-  "updated_at": "2026-06-20T12:45:11.172785"
+  "created_at": "2026-06-24T08:53:57.114875",
+  "updated_at": "2026-06-24T08:53:57.114887"
 }

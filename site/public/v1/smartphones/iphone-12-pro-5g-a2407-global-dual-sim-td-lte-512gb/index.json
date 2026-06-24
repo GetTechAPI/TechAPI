@@ -1,6 +1,7 @@
 {
-  "id": 978,
+  "id": 4283,
   "slug": "iphone-12-pro-5g-a2407-global-dual-sim-td-lte-512gb",
+  "base_model_slug": null,
   "name": "iPhone 12 Pro 5G A2407 Global Dual SIM TD-LTE 512GB",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 24,
+    "id": 37,
     "slug": "apple-a14-bionic",
     "name": "Apple A14 Bionic",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.06,
     "resolution": "1170x2532",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.4,
-    "performance": 28.0,
-    "camera": 5.1,
-    "battery": 11.0,
-    "display": 33.5,
-    "value": 21.3
+    "algorithm_version": "2.0.0",
+    "overall": 36.2,
+    "performance": 68.4,
+    "camera": 6.3,
+    "battery": 34.5,
+    "display": 35.5,
+    "value": 28.9,
+    "perf": {
+      "index": 68.4,
+      "percentile": 95.4,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.963649",
-  "updated_at": "2026-06-19T02:27:13.963649"
+  "created_at": "2026-06-24T08:53:51.759244",
+  "updated_at": "2026-06-24T08:53:51.759278"
 }

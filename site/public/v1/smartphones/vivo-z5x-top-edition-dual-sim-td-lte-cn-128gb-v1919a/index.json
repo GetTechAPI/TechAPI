@@ -1,6 +1,7 @@
 {
-  "id": 14504,
+  "id": 74912,
   "slug": "vivo-z5x-top-edition-dual-sim-td-lte-cn-128gb-v1919a",
+  "base_model_slug": null,
   "name": "Vivo Z5x Top Edition Dual SIM TD-LTE CN 128GB V1919A",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1294,
+    "id": 1652,
     "slug": "snapdragon-710",
     "name": "Snapdragon 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.1,
-    "performance": 23.0,
-    "camera": 6.3,
-    "battery": 30.6,
-    "display": 44.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 40.1,
+    "performance": 60.1,
+    "camera": 7.5,
+    "battery": 45.6,
+    "display": 47.4,
+    "value": null,
+    "perf": {
+      "index": 60.1,
+      "percentile": 87.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.285212",
-  "updated_at": "2026-06-19T02:27:16.285212"
+  "created_at": "2026-06-24T08:54:21.970644",
+  "updated_at": "2026-06-24T08:54:21.970656"
 }

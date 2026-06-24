@@ -1,6 +1,7 @@
 {
-  "id": 1232,
+  "id": 6151,
   "slug": "transformer-pad-tf701t",
+  "base_model_slug": null,
   "name": "Transformer Pad TF701T",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1079,
+    "id": 1352,
     "slug": "nvidia-tegra-4-t40x",
     "name": "Nvidia Tegra 4 T40X",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "2560x1600",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.001868",
-  "updated_at": "2026-06-19T02:27:14.001868"
+  "created_at": "2026-06-24T08:53:52.460730",
+  "updated_at": "2026-06-24T08:53:52.460745"
 }

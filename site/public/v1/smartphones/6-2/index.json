@@ -1,6 +1,7 @@
 {
-  "id": 8221,
+  "id": 40689,
   "slug": "6-2",
+  "base_model_slug": null,
   "name": "6.2",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1305,
+    "id": 1663,
     "slug": "qualcomm-sdm636-snapdragon-636",
     "name": "Qualcomm SDM636 Snapdragon 636",
     "manufacturer": {
@@ -32,6 +33,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2280",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 6.9,
+    "algorithm_version": "2.0.0",
+    "overall": 13.8,
     "performance": null,
-    "camera": 6.3,
-    "battery": 7.5,
+    "camera": 7.5,
+    "battery": 20.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.214514",
-  "updated_at": "2026-06-19T02:27:15.214514"
+  "created_at": "2026-06-24T08:54:07.248837",
+  "updated_at": "2026-06-24T08:54:07.248849"
 }

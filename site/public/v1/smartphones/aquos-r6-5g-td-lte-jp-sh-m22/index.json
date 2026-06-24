@@ -1,6 +1,7 @@
 {
-  "id": 12914,
+  "id": 68149,
   "slug": "aquos-r6-5g-td-lte-jp-sh-m22",
+  "base_model_slug": null,
   "name": "Aquos R6 5G TD-LTE JP SH-M22",
   "brand": {
     "id": 105,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.57,
     "resolution": "1260x2730",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 31.3,
-    "performance": 9.4,
-    "camera": 7.6,
-    "battery": 40.0,
-    "display": 68.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 48.2,
+    "performance": 60.0,
+    "camera": 8.8,
+    "battery": 53.8,
+    "display": 70.2,
+    "value": null,
+    "perf": {
+      "index": 60.0,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.038024",
-  "updated_at": "2026-06-19T02:27:16.038024"
+  "created_at": "2026-06-24T08:54:19.210244",
+  "updated_at": "2026-06-24T08:54:19.210279"
 }

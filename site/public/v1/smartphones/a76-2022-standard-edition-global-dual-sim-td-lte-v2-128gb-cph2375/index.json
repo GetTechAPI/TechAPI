@@ -1,6 +1,7 @@
 {
-  "id": 9405,
+  "id": 48102,
   "slug": "a76-2022-standard-edition-global-dual-sim-td-lte-v2-128gb-cph2375",
+  "base_model_slug": null,
   "name": "A76 2022 Standard Edition Global Dual SIM TD-LTE V2 128GB CPH2375",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1349,
+    "id": 1729,
     "slug": "snapdragon-680",
     "name": "Snapdragon 680 4G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": "720x1612",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 38.4,
-    "display": 30.0,
-    "value": 59.2
+    "algorithm_version": "2.0.0",
+    "overall": 32.0,
+    "performance": 35.8,
+    "camera": 6.6,
+    "battery": 56.5,
+    "display": 29.1,
+    "value": 64.2,
+    "perf": {
+      "index": 35.8,
+      "percentile": 19.6,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.393250",
-  "updated_at": "2026-06-19T02:27:15.393250"
+  "created_at": "2026-06-24T08:54:10.507661",
+  "updated_at": "2026-06-24T08:54:10.507673"
 }

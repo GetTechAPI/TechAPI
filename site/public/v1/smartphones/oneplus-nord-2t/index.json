@@ -1,6 +1,7 @@
 {
-  "id": 8550,
+  "id": 43301,
   "slug": "oneplus-nord-2t",
+  "base_model_slug": null,
   "name": "OnePlus Nord 2T",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1044,
+    "id": 1244,
     "slug": "dimensity-1300",
     "name": "MediaTek Dimensity 1300",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.43,
     "resolution": "1080x2400",
@@ -61,19 +63,26 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.6,
-    "performance": 4.3,
-    "camera": 17.1,
-    "battery": 39.9,
-    "display": 45.0,
-    "value": 59.5
+    "algorithm_version": "2.0.0",
+    "overall": 43.9,
+    "performance": 55.4,
+    "camera": 18.1,
+    "battery": 59.7,
+    "display": 42.5,
+    "value": 64.8,
+    "perf": {
+      "index": 55.4,
+      "percentile": 63.8,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025",
     "https://www.kaggle.com/datasets/devgondaliya007/smartphone-specifications-dataset"
   ],
-  "created_at": "2026-06-19T02:27:15.271007",
-  "updated_at": "2026-06-19T02:27:15.271007"
+  "created_at": "2026-06-24T08:54:08.211591",
+  "updated_at": "2026-06-24T08:54:08.211603"
 }

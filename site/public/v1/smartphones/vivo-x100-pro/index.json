@@ -1,6 +1,7 @@
 {
-  "id": 14763,
+  "id": 77274,
   "slug": "vivo-x100-pro",
+  "base_model_slug": null,
   "name": "vivo X100 Pro",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1057,
+    "id": 1270,
     "slug": "dimensity-9300",
     "name": "MediaTek Dimensity 9300",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "2800x1260",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x100-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 61.0,
-    "performance": 56.3,
-    "camera": 35.1,
-    "battery": 77.2,
-    "display": 75.2,
-    "value": 49.8
+    "algorithm_version": "2.0.0",
+    "overall": 69.5,
+    "performance": 83.2,
+    "camera": 36.1,
+    "battery": 86.4,
+    "display": 72.3,
+    "value": 52.6,
+    "perf": {
+      "index": 83.2,
+      "percentile": 99.2,
+      "tier": "S",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.vivo.com/en/products/x100pro",
     "https://en.wikipedia.org/wiki/Vivo_X100_Pro"
   ],
-  "created_at": "2026-06-19T02:27:16.318695",
-  "updated_at": "2026-06-19T02:27:16.318695"
+  "created_at": "2026-06-24T08:54:22.909050",
+  "updated_at": "2026-06-24T08:54:22.909062"
 }

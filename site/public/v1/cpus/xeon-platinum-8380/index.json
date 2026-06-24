@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-3200 octa-channel ECC",
   "msrp_usd": 8099,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 61.9,
+    "single": {
+      "index": 57.2,
+      "percentile": 30.8,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 65.8,
+      "percentile": 86.7,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/212287/intel-xeon-platinum-8380-processor-60m-cache-2-30-ghz.html",
     "https://en.wikipedia.org/wiki/Ice_Lake_(microprocessor)",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Platinum+8380"
   ],
-  "created_at": "2026-06-19T02:27:18.383844",
-  "updated_at": "2026-06-19T02:27:18.383844",
+  "created_at": "2026-06-24T08:54:41.378186",
+  "updated_at": "2026-06-24T08:54:41.378198",
   "url": "/v1/cpus/xeon-platinum-8380"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 8789,
+  "id": 18002,
   "slug": "huawei-p20-lite-4gb-128gb-4g-lte",
   "base_model_slug": "p20-lite",
   "name": "Huawei P20 lite",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 835,
+    "id": 836,
     "slug": "kirin-659",
     "name": "Kirin 659",
     "manufacturer": {
@@ -65,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
-    "performance": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 12.8,
+    "performance": 10.6,
     "camera": null,
-    "battery": 0.0,
+    "battery": 15.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 10.6,
+      "percentile": 7.7,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:11.378368",
-  "updated_at": "2026-06-20T12:45:11.378368"
+  "created_at": "2026-06-24T08:53:57.630231",
+  "updated_at": "2026-06-24T08:53:57.630244"
 }

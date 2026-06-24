@@ -1,6 +1,7 @@
 {
-  "id": 14110,
+  "id": 73916,
   "slug": "vivo-y17-hspa",
+  "base_model_slug": null,
   "name": "Vivo Y17 HSPA",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 835,
+    "id": 1013,
     "slug": "mediatek-mt6582",
     "name": "Mediatek MT6582",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.69,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
+    "algorithm_version": "2.0.0",
+    "overall": 16.8,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
-    "display": 36.3,
-    "value": null
+    "battery": 5.0,
+    "display": 40.4,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.233171",
-  "updated_at": "2026-06-19T02:27:16.233171"
+  "created_at": "2026-06-24T08:54:21.594129",
+  "updated_at": "2026-06-24T08:54:21.594143"
 }

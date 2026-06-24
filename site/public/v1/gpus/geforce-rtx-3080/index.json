@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 30.64,
   "blender_score": 4529.17,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 85.6,
+    "graphics": {
+      "index": 85.6,
+      "percentile": 91.9,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-3080.c3621",

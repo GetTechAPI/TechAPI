@@ -1,6 +1,7 @@
 {
-  "id": 25345,
+  "id": 56743,
   "slug": "samsung-gt-s5300-galaxy-pocket",
+  "base_model_slug": null,
   "name": "Samsung GT-S5300 Galaxy Pocket",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 663,
+    "id": 754,
     "slug": "broadcom-bcm21553",
     "name": "Broadcom BCM21553",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.19,
     "resolution": "240x320",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=3425"
   ],
-  "created_at": "2026-06-19T09:44:29.947841",
-  "updated_at": "2026-06-19T09:44:29.947841"
+  "created_at": "2026-06-24T08:54:14.216796",
+  "updated_at": "2026-06-24T08:54:14.216809"
 }

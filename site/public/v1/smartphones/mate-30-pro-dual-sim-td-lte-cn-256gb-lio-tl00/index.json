@@ -1,6 +1,7 @@
 {
-  "id": 3931,
+  "id": 18715,
   "slug": "mate-30-pro-dual-sim-td-lte-cn-256gb-lio-tl00",
+  "base_model_slug": null,
   "name": "Mate 30 Pro Dual SIM TD-LTE CN 256GB LIO-TL00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 695,
+    "id": 803,
     "slug": "hisilicon-honor-kirin990",
     "name": "HiSilicon Honor KIRIN990",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1176x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 27.4,
+    "algorithm_version": "2.0.0",
+    "overall": 36.1,
     "performance": null,
-    "camera": 13.9,
-    "battery": 22.5,
-    "display": 45.9,
-    "value": null
+    "camera": 15.0,
+    "battery": 44.6,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.470730",
-  "updated_at": "2026-06-19T02:27:14.470730"
+  "created_at": "2026-06-24T08:53:57.900468",
+  "updated_at": "2026-06-24T08:53:57.900481"
 }

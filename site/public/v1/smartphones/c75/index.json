@@ -1,6 +1,7 @@
 {
-  "id": 10421,
+  "id": 53545,
   "slug": "c75",
+  "base_model_slug": null,
   "name": "C75",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1007,
+    "id": 1195,
     "slug": "helio-g85",
     "name": "MediaTek Helio G85",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.7,
-    "performance": 3.0,
-    "camera": 17.1,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 29.0,
+    "performance": 29.6,
+    "camera": 18.1,
+    "battery": 39.2,
     "display": null,
-    "value": 58.4
+    "value": 64.5,
+    "perf": {
+      "index": 29.6,
+      "percentile": 9.6,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.558942",
-  "updated_at": "2026-06-19T02:27:15.558942"
+  "created_at": "2026-06-24T08:54:12.735119",
+  "updated_at": "2026-06-24T08:54:12.735132"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 13712,
+  "id": 72195,
   "slug": "camon-x-pro-td-lte-dual-sim",
+  "base_model_slug": null,
   "name": "Camon X Pro TD-LTE Dual SIM",
   "brand": {
     "id": 47,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/tecno"
   },
   "soc": {
-    "id": 915,
+    "id": 1102,
     "slug": "mediatek-helio-p23-mt6763",
     "name": "MediaTek Helio P23 MT6763",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.98,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.0,
+    "algorithm_version": "2.0.0",
+    "overall": 26.1,
     "performance": null,
-    "camera": 6.4,
-    "battery": 11.2,
-    "display": 45.4,
-    "value": null
+    "camera": 7.6,
+    "battery": 22.5,
+    "display": 48.2,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.171134",
-  "updated_at": "2026-06-19T02:27:16.171134"
+  "created_at": "2026-06-24T08:54:20.904490",
+  "updated_at": "2026-06-24T08:54:20.904502"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 5292,
+  "id": 26794,
   "slug": "gc900-viewty-smart",
+  "base_model_slug": null,
   "name": "GC900 Viewty Smart",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 313,
+    "id": 376,
     "slug": "lg-mobile-platform-2009",
     "name": "LG mobile platform 2009",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     2
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.0,
     "resolution": "480x800",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.672412",
-  "updated_at": "2026-06-19T02:27:14.672412"
+  "created_at": "2026-06-24T08:54:01.069928",
+  "updated_at": "2026-06-24T08:54:01.069940"
 }

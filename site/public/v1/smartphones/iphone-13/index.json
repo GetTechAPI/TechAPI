@@ -1,6 +1,7 @@
 {
-  "id": 1094,
+  "id": 4911,
   "slug": "iphone-13",
+  "base_model_slug": null,
   "name": "iPhone 13",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 25,
+    "id": 38,
     "slug": "apple-a15-bionic",
     "name": "Apple A15 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "2532x1170",
@@ -79,19 +81,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-13.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.2,
-    "performance": 33.1,
-    "camera": 18.0,
-    "battery": 17.6,
-    "display": 16.0,
-    "value": 41.4
+    "algorithm_version": "2.0.0",
+    "overall": 38.6,
+    "performance": 69.8,
+    "camera": 19.3,
+    "battery": 41.8,
+    "display": 23.4,
+    "value": 47.9,
+    "perf": {
+      "index": 69.8,
+      "percentile": 98.7,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-13/specs/",
     "https://en.wikipedia.org/wiki/IPhone_13"
   ],
-  "created_at": "2026-06-19T02:27:13.979650",
-  "updated_at": "2026-06-19T02:27:13.979650"
+  "created_at": "2026-06-24T08:53:51.972895",
+  "updated_at": "2026-06-24T08:53:51.972908"
 }

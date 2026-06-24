@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 10.79,
   "blender_score": 1064.8,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 70.6,
+    "graphics": {
+      "index": 70.6,
+      "percentile": 25.6,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-6650-xt.c3814",

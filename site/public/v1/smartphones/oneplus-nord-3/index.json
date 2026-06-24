@@ -1,6 +1,7 @@
 {
-  "id": 8566,
+  "id": 43465,
   "slug": "oneplus-nord-3",
+  "base_model_slug": null,
   "name": "OnePlus Nord 3",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1038,
+    "id": 1231,
     "slug": "dimensity-9000",
     "name": "Dimensity 9000",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.74,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.4,
-    "performance": 17.1,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 46.3,
+    "performance": 64.9,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 55.5
+    "value": 62.4,
+    "perf": {
+      "index": 64.9,
+      "percentile": 81.8,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.274007",
-  "updated_at": "2026-06-19T02:27:15.274007"
+  "created_at": "2026-06-24T08:54:08.272417",
+  "updated_at": "2026-06-24T08:54:08.272430"
 }

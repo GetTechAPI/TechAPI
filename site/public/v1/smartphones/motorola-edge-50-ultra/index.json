@@ -1,6 +1,7 @@
 {
-  "id": 7541,
+  "id": 38104,
   "slug": "motorola-edge-50-ultra",
+  "base_model_slug": null,
   "name": "Motorola Edge 50 Ultra",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1371,
+    "id": 1781,
     "slug": "snapdragon-8s-gen-3",
     "name": "Snapdragon 8s Gen 3",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "2712x1220",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/motorola-edge-50-ultra.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 55.8,
-    "performance": 43.8,
-    "camera": 35.1,
-    "battery": 67.5,
-    "display": 76.7,
-    "value": 54.8
+    "algorithm_version": "2.0.0",
+    "overall": 66.8,
+    "performance": 77.2,
+    "camera": 36.1,
+    "battery": 80.8,
+    "display": 73.1,
+    "value": 58.5,
+    "perf": {
+      "index": 77.2,
+      "percentile": 75.3,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.motorola.com/us/smartphones/edge-50-ultra",
     "https://en.wikipedia.org/wiki/Motorola_Edge_50_Ultra"
   ],
-  "created_at": "2026-06-19T02:27:15.079348",
-  "updated_at": "2026-06-19T02:27:15.079348"
+  "created_at": "2026-06-24T08:54:06.099207",
+  "updated_at": "2026-06-24T08:54:06.099219"
 }

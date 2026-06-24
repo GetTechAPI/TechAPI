@@ -1,6 +1,7 @@
 {
-  "id": 7011,
+  "id": 34092,
   "slug": "droid-razr-maxx-hd",
+  "base_model_slug": null,
   "name": "DROID RAZR MAXX HD",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1146,
+    "id": 1431,
     "slug": "qualcomm-msm8960-snapdragon-s4-plus",
     "name": "Qualcomm MSM8960 Snapdragon S4 Plus",
     "manufacturer": {
@@ -30,6 +31,7 @@
     26,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "720x1280",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.8,
+    "algorithm_version": "2.0.0",
+    "overall": 11.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 4.5,
+    "battery": 18.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.937700",
-  "updated_at": "2026-06-19T02:27:14.937700"
+  "created_at": "2026-06-24T08:54:04.633874",
+  "updated_at": "2026-06-24T08:54:04.633887"
 }

@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 1.389,
   "blender_score": 97.45,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 21.7,
+    "graphics": {
+      "index": 21.7,
+      "percentile": 1.3,
+      "tier": "F",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_700_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-750-ti.c2543",

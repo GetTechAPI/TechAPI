@@ -1,5 +1,5 @@
 {
-  "id": 9078,
+  "id": 18767,
   "slug": "huawei-nova-4e-8gb-128gb-4g-lte",
   "base_model_slug": "nova-4e",
   "name": "Huawei nova 4e",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 837,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -63,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 4.0,
-    "performance": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 24.0,
+    "performance": 25.3,
     "camera": null,
-    "battery": 5.1,
+    "battery": 22.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 25.3,
+      "percentile": 33.1,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:11.459127",
-  "updated_at": "2026-06-20T12:45:11.459127"
+  "created_at": "2026-06-24T08:53:57.918372",
+  "updated_at": "2026-06-24T08:53:57.918385"
 }

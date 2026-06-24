@@ -1,6 +1,7 @@
 {
-  "id": 8541,
+  "id": 43157,
   "slug": "ace-racing",
+  "base_model_slug": null,
   "name": "Ace Racing",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1047,
+    "id": 1247,
     "slug": "dimensity-8100",
     "name": "Dimensity 8100",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.59,
     "resolution": "1080x2412",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.3,
-    "performance": 9.3,
-    "camera": 21.5,
-    "battery": 49.9,
-    "display": 52.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 49.0,
+    "performance": 58.8,
+    "camera": 22.4,
+    "battery": 64.5,
+    "display": 50.4,
+    "value": null,
+    "perf": {
+      "index": 58.8,
+      "percentile": 71.9,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.270007",
-  "updated_at": "2026-06-19T02:27:15.270007"
+  "created_at": "2026-06-24T08:54:08.158070",
+  "updated_at": "2026-06-24T08:54:08.158082"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 3781,
+  "id": 18075,
   "slug": "p20-pro",
+  "base_model_slug": null,
   "name": "P20 Pro",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 691,
+    "id": 799,
     "slug": "hisilicon-kirin-970",
     "name": "Hisilicon Kirin 970",
     "manufacturer": {
@@ -30,6 +31,7 @@
     8,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": "1080x2240",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 14.4,
+    "algorithm_version": "2.0.0",
+    "overall": 24.1,
     "performance": null,
-    "camera": 13.9,
-    "battery": 15.0,
+    "camera": 15.0,
+    "battery": 33.3,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.451196",
-  "updated_at": "2026-06-19T02:27:14.451196"
+  "created_at": "2026-06-24T08:53:57.664834",
+  "updated_at": "2026-06-24T08:53:57.664848"
 }

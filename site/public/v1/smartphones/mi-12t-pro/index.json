@@ -1,6 +1,7 @@
 {
-  "id": 15784,
+  "id": 83532,
   "slug": "mi-12t-pro",
+  "base_model_slug": null,
   "name": "Mi 12T Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1362,
+    "id": 1749,
     "slug": "snapdragon-8-plus-gen-1",
     "name": "Snapdragon 8+ Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1220x2712",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 53.1,
-    "performance": 25.2,
+    "algorithm_version": "2.0.0",
+    "overall": 66.1,
+    "performance": 69.3,
     "camera": 65.0,
-    "battery": 65.0,
-    "display": 57.1,
-    "value": null
+    "battery": 75.8,
+    "display": 54.3,
+    "value": null,
+    "perf": {
+      "index": 69.3,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.461357",
-  "updated_at": "2026-06-19T02:27:16.461357"
+  "created_at": "2026-06-24T08:54:25.186083",
+  "updated_at": "2026-06-24T08:54:25.186096"
 }

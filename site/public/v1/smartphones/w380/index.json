@@ -1,6 +1,7 @@
 {
-  "id": 6840,
+  "id": 33483,
   "slug": "w380",
+  "base_model_slug": null,
   "name": "W380",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 255,
+    "id": 306,
     "slug": "motorola-mobile-platform-2007",
     "name": "Motorola mobile platform 2007",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "resolution": "128x160",
     "type": "TFT, 65K colors"
@@ -45,18 +47,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.907013",
-  "updated_at": "2026-06-19T02:27:14.907013"
+  "created_at": "2026-06-24T08:54:04.355003",
+  "updated_at": "2026-06-24T08:54:04.355016"
 }

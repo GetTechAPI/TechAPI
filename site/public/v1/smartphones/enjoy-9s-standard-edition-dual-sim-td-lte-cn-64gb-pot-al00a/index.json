@@ -1,6 +1,7 @@
 {
-  "id": 3847,
+  "id": 18344,
   "slug": "enjoy-9s-standard-edition-dual-sim-td-lte-cn-64gb-pot-al00a",
+  "base_model_slug": null,
   "name": "Enjoy 9S Standard Edition Dual SIM TD-LTE CN 64GB POT-AL00a",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 705,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.21,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.3,
-    "performance": 0.0,
-    "camera": 8.8,
-    "battery": 6.0,
-    "display": 46.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 26.4,
+    "performance": 22.6,
+    "camera": 9.9,
+    "battery": 24.0,
+    "display": 49.1,
+    "value": null,
+    "perf": {
+      "index": 22.6,
+      "percentile": 25.6,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.458196",
-  "updated_at": "2026-06-19T02:27:14.458196"
+  "created_at": "2026-06-24T08:53:57.766111",
+  "updated_at": "2026-06-24T08:53:57.766123"
 }

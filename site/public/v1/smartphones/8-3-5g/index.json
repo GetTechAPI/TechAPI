@@ -1,6 +1,7 @@
 {
-  "id": 8263,
+  "id": 40972,
   "slug": "8-3-5g",
+  "base_model_slug": null,
   "name": "8.3 5G",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1332,
+    "id": 1693,
     "slug": "qualcomm-sdm765-snapdragon-765g",
     "name": "Qualcomm SDM765 Snapdragon 765G",
     "manufacturer": {
@@ -31,6 +32,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.81,
     "resolution": "1080x2400",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.1,
+    "algorithm_version": "2.0.0",
+    "overall": 33.5,
     "performance": null,
-    "camera": 21.6,
-    "battery": 22.5,
+    "camera": 22.5,
+    "battery": 44.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:15.220520",
-  "updated_at": "2026-06-19T02:27:15.220520"
+  "created_at": "2026-06-24T08:54:07.348463",
+  "updated_at": "2026-06-24T08:54:07.348476"
 }

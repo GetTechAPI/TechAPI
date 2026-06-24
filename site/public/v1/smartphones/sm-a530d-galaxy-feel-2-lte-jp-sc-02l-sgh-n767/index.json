@@ -1,6 +1,7 @@
 {
-  "id": 11689,
+  "id": 58858,
   "slug": "sm-a530d-galaxy-feel-2-lte-jp-sc-02l-sgh-n767",
+  "base_model_slug": null,
   "name": "SM-A530D Galaxy Feel 2 LTE JP SC-02L / SGH-N767",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1449,
+    "id": 1915,
     "slug": "exynos-7885",
     "name": "Exynos 7885",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.59,
     "resolution": "1080x2220",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.9,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 0.0,
-    "display": 49.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 23.1,
+    "performance": 18.6,
+    "camera": 7.5,
+    "battery": 15.0,
+    "display": 51.5,
+    "value": null,
+    "perf": {
+      "index": 18.6,
+      "percentile": 14.8,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.787324",
-  "updated_at": "2026-06-19T02:27:15.787324"
+  "created_at": "2026-06-24T08:54:15.111016",
+  "updated_at": "2026-06-24T08:54:15.111028"
 }

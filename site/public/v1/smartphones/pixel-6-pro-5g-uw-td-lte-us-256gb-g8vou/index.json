@@ -1,6 +1,7 @@
 {
-  "id": 2766,
+  "id": 12569,
   "slug": "pixel-6-pro-5g-uw-td-lte-us-256gb-g8vou",
+  "base_model_slug": null,
   "name": "Pixel 6 Pro 5G UW TD-LTE US 256GB G8VOU",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 669,
+    "id": 765,
     "slug": "google-tensor",
     "name": "Google Tensor",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.69,
     "resolution": "1440x3120",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.6,
-    "performance": 6.7,
-    "camera": 17.2,
-    "battery": 42.9,
-    "display": 63.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 48.4,
+    "performance": 57.2,
+    "camera": 18.2,
+    "battery": 58.1,
+    "display": 60.0,
+    "value": null,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.251668",
-  "updated_at": "2026-06-19T02:27:14.251668"
+  "created_at": "2026-06-24T08:53:55.083654",
+  "updated_at": "2026-06-24T08:53:55.083667"
 }

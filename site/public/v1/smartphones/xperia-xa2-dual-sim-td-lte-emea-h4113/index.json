@@ -1,6 +1,7 @@
 {
-  "id": 13169,
+  "id": 69532,
   "slug": "xperia-xa2-dual-sim-td-lte-emea-h4113",
+  "base_model_slug": null,
   "name": "Xperia XA2 Dual SIM TD-LTE EMEA H4113",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1265,
+    "id": 1622,
     "slug": "snapdragon-630",
     "name": "Snapdragon 630",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1080x1920",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 15.1,
-    "performance": 0.0,
-    "camera": 8.5,
-    "battery": 4.5,
-    "display": 47.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 22.1,
+    "performance": 11.0,
+    "camera": 9.7,
+    "battery": 18.0,
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": 11.0,
+      "percentile": 8.2,
+      "tier": "E",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.080058",
-  "updated_at": "2026-06-19T02:27:16.080058"
+  "created_at": "2026-06-24T08:54:19.798801",
+  "updated_at": "2026-06-24T08:54:19.798813"
 }

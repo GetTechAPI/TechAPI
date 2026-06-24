@@ -1,6 +1,7 @@
 {
-  "id": 2204,
+  "id": 10124,
   "slug": "ct-2",
+  "base_model_slug": null,
   "name": "CT 2",
   "brand": {
     "id": 88,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/celkon"
   },
   "soc": {
-    "id": 370,
+    "id": 439,
     "slug": "1-0-ghz-cortex-a8",
     "name": "1.0 GHz Cortex-A8",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 7.0,
     "resolution": "480x800",
@@ -48,18 +50,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 15.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.163844",
-  "updated_at": "2026-06-19T02:27:14.163844"
+  "created_at": "2026-06-24T08:53:54.051234",
+  "updated_at": "2026-06-24T08:53:54.051246"
 }

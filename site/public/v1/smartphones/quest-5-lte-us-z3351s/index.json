@@ -1,5 +1,5 @@
 {
-  "id": 33676,
+  "id": 88882,
   "slug": "quest-5-lte-us-z3351s",
   "base_model_slug": "quest-5",
   "name": "Quest 5 LTE US Z3351S",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1169,
+    "id": 1170,
     "slug": "mediatek-mt6739",
     "name": "Mediatek MT6739",
     "manufacturer": {
@@ -75,18 +75,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 5.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-20T11:18:00.801969",
-  "updated_at": "2026-06-20T11:18:00.801969"
+  "created_at": "2026-06-24T08:54:27.221491",
+  "updated_at": "2026-06-24T08:54:27.221503"
 }

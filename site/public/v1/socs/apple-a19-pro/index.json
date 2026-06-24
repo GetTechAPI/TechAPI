@@ -1,5 +1,5 @@
 {
-  "id": 30,
+  "id": 55,
   "slug": "apple-a19-pro",
   "name": "Apple A19 Pro",
   "manufacturer": {
@@ -24,13 +24,31 @@
   "gpu_clock_mhz": 1620,
   "npu_tops": null,
   "modem": "Qualcomm Snapdragon X80",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 98.2,
+    "cpu": {
+      "index": 100.0,
+      "percentile": 100.0,
+      "tier": "S",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 93.9,
+      "percentile": 78.1,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Apple_A19",
     "https://www.apple.com/iphone-17-pro/specs/",
     "https://nanoreview.net/en/soc/apple-a19-pro"
   ],
-  "created_at": "2026-06-19T02:27:12.523780",
-  "updated_at": "2026-06-19T02:27:12.523780",
+  "created_at": "2026-06-24T08:53:43.639366",
+  "updated_at": "2026-06-24T08:53:43.639379",
   "url": "/v1/socs/apple-a19-pro"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 8899,
+  "id": 45151,
   "slug": "realme-xt-premium-edition-dual-sim-td-lte-v2-ru-128gb-rmx1921",
+  "base_model_slug": null,
   "name": "Realme XT Premium Edition Dual SIM TD-LTE V2 RU 128GB RMX1921",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1322,
+    "id": 1683,
     "slug": "snapdragon-712",
     "name": "Snapdragon 712",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.4,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 15.9,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 34.5,
+    "performance": 31.6,
+    "camera": 22.4,
+    "battery": 35.9,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 31.6,
+      "percentile": 39.3,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.319535",
-  "updated_at": "2026-06-19T02:27:15.319535"
+  "created_at": "2026-06-24T08:54:08.882033",
+  "updated_at": "2026-06-24T08:54:08.882045"
 }

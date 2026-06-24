@@ -1,6 +1,7 @@
 {
-  "id": 13309,
+  "id": 70424,
   "slug": "xperia-10-v",
+  "base_model_slug": null,
   "name": "Xperia 10 V",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.1,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.7,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 37.4,
+    "performance": 43.0,
+    "camera": 17.5,
+    "battery": 51.7,
     "display": null,
-    "value": 47.4
+    "value": 54.5,
+    "perf": {
+      "index": 43.0,
+      "percentile": 37.7,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.099575",
-  "updated_at": "2026-06-19T02:27:16.099575"
+  "created_at": "2026-06-24T08:54:20.110036",
+  "updated_at": "2026-06-24T08:54:20.110050"
 }

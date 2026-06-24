@@ -1,6 +1,7 @@
 {
-  "id": 8492,
+  "id": 42820,
   "slug": "9-pro-5g-premium-edition-dual-sim-td-lte-in-256gb-le2121",
+  "base_model_slug": null,
   "name": "9 Pro 5G Premium Edition Dual SIM TD-LTE IN 256GB LE2121",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.69,
     "resolution": "1440x3216",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.2,
-    "performance": 9.4,
-    "camera": 16.5,
-    "battery": 42.0,
-    "display": 65.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 49.5,
+    "performance": 60.0,
+    "camera": 17.5,
+    "battery": 59.2,
+    "display": 61.2,
+    "value": null,
+    "perf": {
+      "index": 60.0,
+      "percentile": 87.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.257565",
-  "updated_at": "2026-06-19T02:27:15.257565"
+  "created_at": "2026-06-24T08:54:08.041336",
+  "updated_at": "2026-06-24T08:54:08.041349"
 }

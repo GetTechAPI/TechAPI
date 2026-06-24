@@ -1,6 +1,7 @@
 {
-  "id": 10407,
+  "id": 53226,
   "slug": "realme-q5-pro",
+  "base_model_slug": null,
   "name": "Realme Q5 Pro",
   "brand": {
     "id": 39,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/realme"
   },
   "soc": {
-    "id": 1356,
+    "id": 1736,
     "slug": "snapdragon-870",
     "name": "Snapdragon 870",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.62,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 30.6,
-    "performance": 6.1,
-    "camera": 21.5,
-    "battery": 42.4,
-    "display": 52.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 47.9,
+    "performance": 56.4,
+    "camera": 22.4,
+    "battery": 62.6,
+    "display": 50.2,
+    "value": null,
+    "perf": {
+      "index": 56.4,
+      "percentile": 66.6,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.556942",
-  "updated_at": "2026-06-19T02:27:15.556942"
+  "created_at": "2026-06-24T08:54:12.618544",
+  "updated_at": "2026-06-24T08:54:12.618556"
 }

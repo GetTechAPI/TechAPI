@@ -1,6 +1,7 @@
 {
-  "id": 560,
+  "id": 2381,
   "slug": "1v-2020-global-dual-sim-td-lte-5007u",
+  "base_model_slug": null,
   "name": "1V 2020 Global Dual SIM TD-LTE 5007U",
   "brand": {
     "id": 9,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/alcatel"
   },
   "soc": {
-    "id": 1002,
+    "id": 1190,
     "slug": "helio-a25",
     "name": "Helio A25",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.22,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.8,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 15.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 19.5,
+    "performance": 5.5,
+    "camera": 6.6,
+    "battery": 29.2,
+    "display": 36.8,
+    "value": null,
+    "perf": {
+      "index": 5.5,
+      "percentile": 2.0,
+      "tier": "F",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.904670",
-  "updated_at": "2026-06-19T02:27:13.904670"
+  "created_at": "2026-06-24T08:53:51.048612",
+  "updated_at": "2026-06-24T08:53:51.048624"
 }

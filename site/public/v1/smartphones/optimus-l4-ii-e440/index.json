@@ -1,6 +1,7 @@
 {
-  "id": 5527,
+  "id": 27818,
   "slug": "optimus-l4-ii-e440",
+  "base_model_slug": null,
   "name": "Optimus L4 II E440",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 822,
+    "id": 1000,
     "slug": "mediatek-mt6575",
     "name": "Mediatek MT6575",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.8,
     "resolution": "320x480",
@@ -55,18 +57,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.5,
+    "algorithm_version": "2.0.0",
+    "overall": 3.5,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 2.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.709932",
-  "updated_at": "2026-06-19T02:27:14.709932"
+  "created_at": "2026-06-24T08:54:02.029844",
+  "updated_at": "2026-06-24T08:54:02.029856"
 }

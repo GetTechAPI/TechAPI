@@ -1,6 +1,7 @@
 {
-  "id": 14528,
+  "id": 75197,
   "slug": "iqoo-neo3-5g",
+  "base_model_slug": null,
   "name": "iQOO Neo3 5G",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1336,
+    "id": 1697,
     "slug": "qualcomm-sm8250-snapdragon-865",
     "name": "Qualcomm SM8250 Snapdragon 865",
     "manufacturer": {
@@ -32,6 +33,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.57,
     "resolution": "1080x2408",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.5,
+    "algorithm_version": "2.0.0",
+    "overall": 31.1,
     "performance": null,
-    "camera": 16.5,
-    "battery": 22.5,
+    "camera": 17.5,
+    "battery": 44.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.288212",
-  "updated_at": "2026-06-19T02:27:16.288212"
+  "created_at": "2026-06-24T08:54:22.090549",
+  "updated_at": "2026-06-24T08:54:22.090562"
 }

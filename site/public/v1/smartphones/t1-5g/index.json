@@ -1,6 +1,7 @@
 {
-  "id": 14751,
+  "id": 76551,
   "slug": "t1-5g",
+  "base_model_slug": null,
   "name": "T1 5G",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1350,
+    "id": 1730,
     "slug": "snapdragon-695",
     "name": "Snapdragon 695 5G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.58,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
-    "performance": 3.0,
-    "camera": 17.1,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 38.1,
+    "performance": 44.4,
+    "camera": 18.1,
+    "battery": 51.7,
     "display": null,
-    "value": 59.2
+    "value": 66.6,
+    "perf": {
+      "index": 44.4,
+      "percentile": 46.4,
+      "tier": "C",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.317695",
-  "updated_at": "2026-06-19T02:27:16.317695"
+  "created_at": "2026-06-24T08:54:22.635015",
+  "updated_at": "2026-06-24T08:54:22.635027"
 }

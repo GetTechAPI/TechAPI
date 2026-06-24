@@ -1,5 +1,5 @@
 {
-  "id": 21406,
+  "id": 52370,
   "slug": "qtek-a9100",
   "base_model_slug": "a9100",
   "name": "Qtek A9100",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/qtek"
   },
   "soc": {
-    "id": 1978,
+    "id": 2000,
     "slug": "ti-omap-850",
     "name": "TI OMAP 850",
     "manufacturer": {
@@ -62,18 +62,25 @@
   "image_url": "http://cdn2.gsmarena.com/vv/bigpic/qtek-a9100.jpg",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
   ],
-  "created_at": "2026-06-20T11:42:22.151086",
-  "updated_at": "2026-06-20T11:42:22.151086"
+  "created_at": "2026-06-24T08:54:12.295745",
+  "updated_at": "2026-06-24T08:54:12.295758"
 }

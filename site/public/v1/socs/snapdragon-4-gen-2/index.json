@@ -1,5 +1,5 @@
 {
-  "id": 1363,
+  "id": 1762,
   "slug": "snapdragon-4-gen-2",
   "name": "Snapdragon 4 Gen 2",
   "manufacturer": {
@@ -24,12 +24,30 @@
   "gpu_clock_mhz": 780,
   "npu_tops": null,
   "modem": "Snapdragon X35 5G",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 45.1,
+    "cpu": {
+      "index": 48.0,
+      "percentile": 6.7,
+      "tier": "E",
+      "era": "2022-2023",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 38.3,
+      "percentile": 3.3,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-4-series-mobile-platforms/snapdragon-4-gen-2-mobile-platform",
     "https://en.wikipedia.org/wiki/Snapdragon_4_Gen_2"
   ],
-  "created_at": "2026-06-19T02:27:12.606845",
-  "updated_at": "2026-06-19T02:27:12.606845",
+  "created_at": "2026-06-24T08:53:43.918513",
+  "updated_at": "2026-06-24T08:53:43.918525",
   "url": "/v1/socs/snapdragon-4-gen-2"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 3861,
+  "id": 18403,
   "slug": "honor-20-youth-premium-edition-dual-sim-td-lte-cn-128gb-lra-al00",
+  "base_model_slug": null,
   "name": "Honor 20 Youth Premium Edition Dual SIM TD-LTE CN 128GB LRA-AL00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 705,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.2,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 15.9,
-    "display": 46.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.6,
+    "performance": 23.9,
+    "camera": 17.5,
+    "battery": 31.8,
+    "display": 49.4,
+    "value": null,
+    "perf": {
+      "index": 23.9,
+      "percentile": 30.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.460210",
-  "updated_at": "2026-06-19T02:27:14.460210"
+  "created_at": "2026-06-24T08:53:57.784825",
+  "updated_at": "2026-06-24T08:53:57.784838"
 }

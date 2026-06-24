@@ -1,6 +1,7 @@
 {
-  "id": 8563,
+  "id": 43446,
   "slug": "oneplus-13-pro",
+  "base_model_slug": null,
   "name": "OnePlus 13 Pro",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1361,
+    "id": 1748,
     "slug": "snapdragon-8-gen-2",
     "name": "Snapdragon 8 Gen 2",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.9,
-    "performance": 36.7,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 49.5,
+    "performance": 74.5,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 43.4
+    "value": 49.8,
+    "perf": {
+      "index": 74.5,
+      "percentile": 94.7,
+      "tier": "A",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.273008",
-  "updated_at": "2026-06-19T02:27:15.273008"
+  "created_at": "2026-06-24T08:54:08.263536",
+  "updated_at": "2026-06-24T08:54:08.263548"
 }

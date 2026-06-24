@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel HD Graphics 530",
   "memory_support": "DDR4-2133 / DDR3L-1600 dual-channel",
   "msrp_usd": 242,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 29.4,
+    "single": {
+      "index": 48.9,
+      "percentile": 65.0,
+      "tier": "B",
+      "era": "2014-2016",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 13.4,
+      "percentile": 20.0,
+      "tier": "D",
+      "era": "2014-2016",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Skylake_(microarchitecture)",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Core-i5-6600K",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.301748",
-  "updated_at": "2026-06-19T02:27:18.301748",
+  "created_at": "2026-06-24T08:54:41.181882",
+  "updated_at": "2026-06-24T08:54:41.181899",
   "url": "/v1/cpus/core-i5-6600k"
 }

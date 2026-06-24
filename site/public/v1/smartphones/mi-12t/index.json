@@ -1,6 +1,7 @@
 {
-  "id": 15785,
+  "id": 83533,
   "slug": "mi-12t",
+  "base_model_slug": null,
   "name": "Mi 12T",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1047,
+    "id": 1247,
     "slug": "dimensity-8100",
     "name": "Dimensity 8100",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1220x2712",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 39.8,
-    "performance": 6.3,
-    "camera": 35.7,
-    "battery": 60.0,
-    "display": 57.1,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 55.1,
+    "performance": 56.1,
+    "camera": 36.3,
+    "battery": 73.8,
+    "display": 54.3,
+    "value": null,
+    "perf": {
+      "index": 56.1,
+      "percentile": 65.8,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.461357",
-  "updated_at": "2026-06-19T02:27:16.461357"
+  "created_at": "2026-06-24T08:54:25.186411",
+  "updated_at": "2026-06-24T08:54:25.186423"
 }

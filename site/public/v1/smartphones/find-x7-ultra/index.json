@@ -1,6 +1,7 @@
 {
-  "id": 9450,
+  "id": 49885,
   "slug": "find-x7-ultra",
+  "base_model_slug": null,
   "name": "Find X7 Ultra",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1367,
+    "id": 1766,
     "slug": "snapdragon-8-gen-3",
     "name": "Snapdragon 8 Gen 3",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.82,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 39.8,
-    "performance": 57.2,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 52.5,
+    "performance": 83.5,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 35.3
+    "value": 40.5,
+    "perf": {
+      "index": 83.5,
+      "percentile": 86.6,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.400765",
-  "updated_at": "2026-06-19T02:27:15.400765"
+  "created_at": "2026-06-24T08:54:11.163123",
+  "updated_at": "2026-06-24T08:54:11.163135"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1739,
+  "id": 8568,
   "slug": "bv9100-global-dual-sim-td-lte",
+  "base_model_slug": null,
   "name": "BV9100 Global Dual SIM TD-LTE",
   "brand": {
     "id": 15,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blackview"
   },
   "soc": {
-    "id": 975,
+    "id": 1163,
     "slug": "mediatek-helio-p35-mt6765",
     "name": "MediaTek Helio P35 MT6765",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.4,
+    "algorithm_version": "2.0.0",
+    "overall": 35.1,
     "performance": null,
-    "camera": 6.4,
-    "battery": 45.0,
-    "display": 45.9,
-    "value": null
+    "camera": 7.6,
+    "battery": 49.2,
+    "display": 48.6,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.091412",
-  "updated_at": "2026-06-19T02:27:14.091412"
+  "created_at": "2026-06-24T08:53:53.423019",
+  "updated_at": "2026-06-24T08:53:53.423033"
 }

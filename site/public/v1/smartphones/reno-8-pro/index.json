@@ -1,6 +1,7 @@
 {
-  "id": 9424,
+  "id": 49241,
   "slug": "reno-8-pro",
+  "base_model_slug": null,
   "name": "Reno 8 Pro",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1360,
+    "id": 1747,
     "slug": "snapdragon-7-gen-1",
     "name": "Snapdragon 7 Gen 1",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.62,
     "resolution": "1080x2400",
@@ -65,18 +67,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 31.6,
-    "performance": 6.9,
-    "camera": 17.2,
-    "battery": 49.9,
-    "display": 52.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 47.4,
+    "performance": 57.3,
+    "camera": 18.1,
+    "battery": 63.9,
+    "display": 50.2,
+    "value": null,
+    "perf": {
+      "index": 57.3,
+      "percentile": 68.6,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.395767",
-  "updated_at": "2026-06-19T02:27:15.395767"
+  "created_at": "2026-06-24T08:54:10.919308",
+  "updated_at": "2026-06-24T08:54:10.919321"
 }

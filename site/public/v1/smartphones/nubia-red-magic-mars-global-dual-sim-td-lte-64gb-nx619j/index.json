@@ -1,6 +1,7 @@
 {
-  "id": 16360,
+  "id": 88199,
   "slug": "nubia-red-magic-mars-global-dual-sim-td-lte-64gb-nx619j",
+  "base_model_slug": null,
   "name": "Nubia Red Magic Mars Global Dual SIM TD-LTE 64GB NX619J",
   "brand": {
     "id": 55,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 1269,
+    "id": 1626,
     "slug": "snapdragon-845",
     "name": "Snapdragon 845",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.98,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.3,
-    "performance": 1.5,
-    "camera": 6.3,
-    "battery": 12.0,
-    "display": 45.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 31.5,
+    "performance": 39.0,
+    "camera": 7.5,
+    "battery": 31.3,
+    "display": 48.2,
+    "value": null,
+    "perf": {
+      "index": 39.0,
+      "percentile": 46.3,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.542803",
-  "updated_at": "2026-06-19T02:27:16.542803"
+  "created_at": "2026-06-24T08:54:26.983679",
+  "updated_at": "2026-06-24T08:54:26.983692"
 }

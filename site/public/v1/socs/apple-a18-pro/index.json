@@ -1,5 +1,5 @@
 {
-  "id": 28,
+  "id": 48,
   "slug": "apple-a18-pro",
   "name": "Apple A18 Pro",
   "manufacturer": {
@@ -23,13 +23,31 @@
   "gpu_clock_mhz": 1490,
   "npu_tops": 35.0,
   "modem": "Qualcomm Snapdragon X75",
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 93.1,
+    "cpu": {
+      "index": 96.4,
+      "percentile": 81.2,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 85.4,
+      "percentile": 59.4,
+      "tier": "C",
+      "era": "2024-2026",
+      "source": "antutu_score"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-16-pro/specs/",
     "https://en.wikipedia.org/wiki/Apple_A18",
     "https://nanoreview.net/en/soc/apple-a18-pro"
   ],
-  "created_at": "2026-06-19T02:27:12.523780",
-  "updated_at": "2026-06-19T02:27:12.523780",
+  "created_at": "2026-06-24T08:53:43.638392",
+  "updated_at": "2026-06-24T08:53:43.638404",
   "url": "/v1/socs/apple-a18-pro"
 }

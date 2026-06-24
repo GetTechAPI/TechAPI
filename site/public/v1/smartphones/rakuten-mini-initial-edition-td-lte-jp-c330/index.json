@@ -1,6 +1,7 @@
 {
-  "id": 14994,
+  "id": 78679,
   "slug": "rakuten-mini-initial-edition-td-lte-jp-c330",
+  "base_model_slug": null,
   "name": "Rakuten Mini Initial Edition TD-LTE JP C330",
   "brand": {
     "id": 72,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/wiko"
   },
   "soc": {
-    "id": 1290,
+    "id": 1648,
     "slug": "snapdragon-439",
     "name": "Snapdragon 439",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 3.58,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.1,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 0.0,
-    "display": 46.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 16.9,
+    "performance": 7.0,
+    "camera": 7.5,
+    "battery": 4.2,
+    "display": 48.7,
+    "value": null,
+    "perf": {
+      "index": 7.0,
+      "percentile": 3.9,
+      "tier": "F",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.355790",
-  "updated_at": "2026-06-19T02:27:16.355790"
+  "created_at": "2026-06-24T08:54:23.460746",
+  "updated_at": "2026-06-24T08:54:23.460758"
 }

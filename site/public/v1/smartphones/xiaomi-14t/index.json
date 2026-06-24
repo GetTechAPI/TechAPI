@@ -1,6 +1,7 @@
 {
-  "id": 15905,
+  "id": 85914,
   "slug": "xiaomi-14t",
+  "base_model_slug": null,
   "name": "Xiaomi 14T",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1055,
+    "id": 1268,
     "slug": "dimensity-8300",
     "name": "MediaTek Dimensity 8300",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "2712x1220",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/xiaomi-14t.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 49.7,
-    "performance": 24.2,
-    "camera": 35.1,
-    "battery": 54.9,
-    "display": 84.6,
-    "value": 61.5
+    "algorithm_version": "2.0.0",
+    "overall": 62.8,
+    "performance": 68.8,
+    "camera": 36.1,
+    "battery": 66.6,
+    "display": 79.8,
+    "value": 65.3,
+    "perf": {
+      "index": 68.8,
+      "percentile": 66.8,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_14T",
     "https://www.mi.com/global/product/xiaomi-14t/specs"
   ],
-  "created_at": "2026-06-19T02:27:16.476362",
-  "updated_at": "2026-06-19T02:27:16.476362"
+  "created_at": "2026-06-24T08:54:26.043595",
+  "updated_at": "2026-06-24T08:54:26.043607"
 }

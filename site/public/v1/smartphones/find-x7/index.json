@@ -1,6 +1,7 @@
 {
-  "id": 9451,
+  "id": 49886,
   "slug": "find-x7",
+  "base_model_slug": null,
   "name": "Find X7",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1057,
+    "id": 1270,
     "slug": "dimensity-9300",
     "name": "MediaTek Dimensity 9300",
     "manufacturer": {
@@ -29,6 +30,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 39.5,
-    "performance": 56.3,
-    "camera": 17.1,
-    "battery": 45.0,
+    "algorithm_version": "2.0.0",
+    "overall": 52.4,
+    "performance": 83.2,
+    "camera": 18.1,
+    "battery": 55.8,
     "display": null,
-    "value": 39.0
+    "value": 44.1,
+    "perf": {
+      "index": 83.2,
+      "percentile": 83.5,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.400765",
-  "updated_at": "2026-06-19T02:27:15.400765"
+  "created_at": "2026-06-24T08:54:11.163460",
+  "updated_at": "2026-06-24T08:54:11.163473"
 }

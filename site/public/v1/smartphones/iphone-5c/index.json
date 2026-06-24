@@ -1,6 +1,7 @@
 {
-  "id": 809,
+  "id": 3395,
   "slug": "iphone-5c",
+  "base_model_slug": null,
   "name": "iPhone 5c",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 4,
+    "id": 5,
     "slug": "apple-a6",
     "name": "Apple A6",
     "manufacturer": {
@@ -30,6 +31,7 @@
     16,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.0,
     "resolution": "1136x640",
@@ -72,19 +74,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-5c.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 1.9,
-    "performance": 0.0,
+    "algorithm_version": "2.0.0",
+    "overall": 4.6,
+    "performance": 5.5,
     "camera": 5.0,
-    "battery": 0.0,
-    "display": 2.6,
-    "value": 41.4
+    "battery": 0.1,
+    "display": 7.8,
+    "value": 39.8,
+    "perf": {
+      "index": 5.5,
+      "percentile": 28.3,
+      "tier": "D",
+      "era": "2010-2013",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/IPhone_5c",
     "https://support.apple.com/iphone-5c"
   ],
-  "created_at": "2026-06-19T02:27:13.940593",
-  "updated_at": "2026-06-19T02:27:13.940593"
+  "created_at": "2026-06-24T08:53:51.439655",
+  "updated_at": "2026-06-24T08:53:51.439667"
 }

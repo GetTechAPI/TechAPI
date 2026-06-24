@@ -1,6 +1,7 @@
 {
-  "id": 5957,
+  "id": 29826,
   "slug": "q927l-q9-one-td-lte-kr",
+  "base_model_slug": null,
   "name": "Q927L Q9 One TD-LTE KR",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1268,
+    "id": 1625,
     "slug": "snapdragon-835",
     "name": "Snapdragon 835",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.09,
     "resolution": "1440x3120",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.7,
-    "performance": 23.1,
-    "camera": 6.4,
-    "battery": 0.0,
-    "display": 61.4,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 38.0,
+    "performance": 59.0,
+    "camera": 7.6,
+    "battery": 23.3,
+    "display": 61.9,
+    "value": null,
+    "perf": {
+      "index": 59.0,
+      "percentile": 85.5,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.767041",
-  "updated_at": "2026-06-19T02:27:14.767041"
+  "created_at": "2026-06-24T08:54:02.818046",
+  "updated_at": "2026-06-24T08:54:02.818058"
 }

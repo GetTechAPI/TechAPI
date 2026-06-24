@@ -1,6 +1,7 @@
 {
-  "id": 2770,
+  "id": 12683,
   "slug": "pixel-7-pro",
+  "base_model_slug": null,
   "name": "Pixel 7 Pro",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 670,
+    "id": 766,
     "slug": "tensor-g2",
     "name": "Google Tensor G2",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "3120x1440",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-7-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 37.3,
-    "performance": 10.6,
-    "camera": 35.1,
-    "battery": 46.1,
+    "algorithm_version": "2.0.0",
+    "overall": 53.9,
+    "performance": 60.8,
+    "camera": 36.1,
+    "battery": 61.5,
     "display": 57.3,
-    "value": 45.6
+    "value": 52.0,
+    "perf": {
+      "index": 60.8,
+      "percentile": 75.6,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_7_pro_specs",
     "https://en.wikipedia.org/wiki/Pixel_7"
   ],
-  "created_at": "2026-06-19T02:27:14.251668",
-  "updated_at": "2026-06-19T02:27:14.251668"
+  "created_at": "2026-06-24T08:53:55.123511",
+  "updated_at": "2026-06-24T08:53:55.123524"
 }

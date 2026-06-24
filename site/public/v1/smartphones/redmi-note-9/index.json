@@ -1,6 +1,7 @@
 {
-  "id": 15570,
+  "id": 81664,
   "slug": "redmi-note-9",
+  "base_model_slug": null,
   "name": "Redmi Note 9",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1007,
+    "id": 1195,
     "slug": "helio-g85",
     "name": "MediaTek Helio G85",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.53,
     "resolution": "1080x2340",
@@ -66,18 +68,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.4,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 30.9,
-    "display": 27.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.6,
+    "performance": 29.6,
+    "camera": 17.5,
+    "battery": 41.6,
+    "display": 29.9,
+    "value": null,
+    "perf": {
+      "index": 29.6,
+      "percentile": 28.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.434339",
-  "updated_at": "2026-06-19T02:27:16.434339"
+  "created_at": "2026-06-24T08:54:24.516662",
+  "updated_at": "2026-06-24T08:54:24.516674"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 7274,
+  "id": 35533,
   "slug": "p50-dual-sim-td-lte-cn-128gb-xt1970-5",
+  "base_model_slug": null,
   "name": "P50 Dual SIM TD-LTE CN 128GB XT1970-5",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1462,
+    "id": 1929,
     "slug": "exynos-9609",
     "name": "Exynos 9609",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.3,
     "resolution": "1080x2520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.5,
-    "performance": 1.5,
-    "camera": 16.5,
-    "battery": 7.5,
-    "display": 48.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 30.8,
+    "performance": 24.6,
+    "camera": 17.5,
+    "battery": 30.0,
+    "display": 50.9,
+    "value": null,
+    "perf": {
+      "index": 24.6,
+      "percentile": 31.9,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.042832",
-  "updated_at": "2026-06-19T02:27:15.042832"
+  "created_at": "2026-06-24T08:54:05.166290",
+  "updated_at": "2026-06-24T08:54:05.166304"
 }

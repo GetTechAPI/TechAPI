@@ -1,6 +1,7 @@
 {
-  "id": 1122,
+  "id": 5740,
   "slug": "iphone-air",
+  "base_model_slug": null,
   "name": "iPhone Air",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 30,
+    "id": 55,
     "slug": "apple-a19-pro",
     "name": "Apple A19 Pro",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "2736x1260",
@@ -73,19 +75,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-air.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 53.4,
-    "performance": 85.1,
-    "camera": 24.5,
-    "battery": 28.2,
-    "display": 76.0,
-    "value": 49.8
+    "algorithm_version": "2.0.0",
+    "overall": 58.9,
+    "performance": 90.0,
+    "camera": 25.5,
+    "battery": 47.0,
+    "display": 73.0,
+    "value": 50.9,
+    "perf": {
+      "index": 90.0,
+      "percentile": 94.3,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-air/specs/",
     "https://en.wikipedia.org/wiki/IPhone_Air"
   ],
-  "created_at": "2026-06-19T02:27:13.983655",
-  "updated_at": "2026-06-19T02:27:13.983655"
+  "created_at": "2026-06-24T08:53:52.282373",
+  "updated_at": "2026-06-24T08:53:52.282387"
 }

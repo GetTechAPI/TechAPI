@@ -1,6 +1,7 @@
 {
-  "id": 3998,
+  "id": 18975,
   "slug": "p20-lite-2019",
+  "base_model_slug": null,
   "name": "P20 lite (2019)",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 705,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -30,6 +31,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2310",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.1,
-    "performance": 0.0,
-    "camera": 6.3,
-    "battery": 15.0,
+    "algorithm_version": "2.0.0",
+    "overall": 19.8,
+    "performance": 22.6,
+    "camera": 7.5,
+    "battery": 29.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 22.6,
+      "percentile": 25.6,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.478729",
-  "updated_at": "2026-06-19T02:27:14.478729"
+  "created_at": "2026-06-24T08:53:57.988897",
+  "updated_at": "2026-06-24T08:53:57.988909"
 }

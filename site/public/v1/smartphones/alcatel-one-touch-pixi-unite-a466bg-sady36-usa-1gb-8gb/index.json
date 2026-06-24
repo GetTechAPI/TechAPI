@@ -1,5 +1,5 @@
 {
-  "id": 973,
+  "id": 1668,
   "slug": "alcatel-one-touch-pixi-unite-a466bg-sady36-usa-1gb-8gb",
   "base_model_slug": "one-touch-pixi-unite-a466bg",
   "name": "One Touch Pixi Unite A466BG",
@@ -20,7 +20,7 @@
       "url": "/v1/brands/mediatek"
     },
     "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
+    "gpu_name": "Mali-400 MP2",
     "url": "/v1/socs/mediatek-mt6580"
   },
   "release_date": "2016-01-08",
@@ -65,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 2.5,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-20T18:00:03.731146",
-  "updated_at": "2026-06-20T18:00:03.731146"
+  "created_at": "2026-06-24T08:53:50.804189",
+  "updated_at": "2026-06-24T08:53:50.804202"
 }

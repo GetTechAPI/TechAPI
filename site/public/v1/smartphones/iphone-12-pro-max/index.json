@@ -1,6 +1,7 @@
 {
-  "id": 995,
+  "id": 4356,
   "slug": "iphone-12-pro-max",
+  "base_model_slug": null,
   "name": "iPhone 12 Pro Max",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 24,
+    "id": 37,
     "slug": "apple-a14-bionic",
     "name": "Apple A14 Bionic",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "2778x1284",
@@ -85,19 +87,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/iphone-12-pro-max.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 22.8,
-    "performance": 28.0,
-    "camera": 23.0,
-    "battery": 24.3,
-    "display": 15.8,
-    "value": 30.6
+    "algorithm_version": "2.0.0",
+    "overall": 40.5,
+    "performance": 68.4,
+    "camera": 24.3,
+    "battery": 46.2,
+    "display": 23.2,
+    "value": 38.1,
+    "perf": {
+      "index": 68.4,
+      "percentile": 95.4,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.apple.com/iphone-12-pro/specs/",
     "https://en.wikipedia.org/wiki/IPhone_12_Pro_Max"
   ],
-  "created_at": "2026-06-19T02:27:13.966648",
-  "updated_at": "2026-06-19T02:27:13.966648"
+  "created_at": "2026-06-24T08:53:51.782861",
+  "updated_at": "2026-06-24T08:53:51.782873"
 }

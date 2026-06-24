@@ -1,6 +1,7 @@
 {
-  "id": 4471,
+  "id": 22925,
   "slug": "hot-9-dual-sim-td-lte-apac-64gb-x655d",
+  "base_model_slug": null,
   "name": "Hot 9 Dual SIM TD-LTE APAC 64GB X655D",
   "brand": {
     "id": 27,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/infinix"
   },
   "soc": {
-    "id": 1002,
+    "id": 1190,
     "slug": "helio-a25",
     "name": "Helio A25",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": "720x1600",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.6,
-    "performance": 0.0,
-    "camera": 5.4,
-    "battery": 30.0,
-    "display": 35.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 22.5,
+    "performance": 6.9,
+    "camera": 6.7,
+    "battery": 40.0,
+    "display": 36.4,
+    "value": null,
+    "perf": {
+      "index": 6.9,
+      "percentile": 3.5,
+      "tier": "F",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.545807",
-  "updated_at": "2026-06-19T02:27:14.545807"
+  "created_at": "2026-06-24T08:53:59.480912",
+  "updated_at": "2026-06-24T08:53:59.480925"
 }

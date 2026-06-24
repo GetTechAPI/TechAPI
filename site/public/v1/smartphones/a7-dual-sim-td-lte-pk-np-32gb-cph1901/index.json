@@ -1,6 +1,7 @@
 {
-  "id": 8657,
+  "id": 44202,
   "slug": "a7-dual-sim-td-lte-pk-np-32gb-cph1901",
+  "base_model_slug": null,
   "name": "A7 Dual SIM TD-LTE PK NP 32GB CPH1901",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1264,
+    "id": 1621,
     "slug": "snapdragon-450",
     "name": "Snapdragon 450",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.18,
     "resolution": "720x1520",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.6,
+    "algorithm_version": "2.0.0",
+    "overall": 23.6,
     "performance": null,
-    "camera": 5.3,
-    "battery": 18.4,
-    "display": 35.0,
-    "value": null
+    "camera": 6.6,
+    "battery": 27.3,
+    "display": 36.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.287008",
-  "updated_at": "2026-06-19T02:27:15.287008"
+  "created_at": "2026-06-24T08:54:08.560412",
+  "updated_at": "2026-06-24T08:54:08.560424"
 }

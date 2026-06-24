@@ -24,6 +24,24 @@
   "integrated_graphics": null,
   "memory_support": "DDR4-2666 hex-channel ECC",
   "msrp_usd": 2999,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 54.9,
+    "single": {
+      "index": 51.8,
+      "percentile": 71.7,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 57.5,
+      "percentile": 83.2,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/189123/intel-xeon-w3175x-processor-38-5m-cache-3-10-ghz.html",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+W-3175X",
     "https://www.topcpu.net/en/cpu-r/"
   ],
-  "created_at": "2026-06-19T02:27:18.360276",
-  "updated_at": "2026-06-19T02:27:18.360276",
+  "created_at": "2026-06-24T08:54:41.320727",
+  "updated_at": "2026-06-24T08:54:41.320738",
   "url": "/v1/cpus/xeon-w-3175x"
 }

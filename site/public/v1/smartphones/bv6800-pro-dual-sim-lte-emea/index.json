@@ -1,6 +1,7 @@
 {
-  "id": 1724,
+  "id": 8438,
   "slug": "bv6800-pro-dual-sim-lte-emea",
+  "base_model_slug": null,
   "name": "BV6800 Pro Dual SIM LTE EMEA",
   "brand": {
     "id": 15,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blackview"
   },
   "soc": {
-    "id": 923,
+    "id": 1110,
     "slug": "mediatek-mt6750t",
     "name": "Mediatek MT6750T",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.7,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.9,
+    "algorithm_version": "2.0.0",
+    "overall": 34.1,
     "performance": null,
-    "camera": 6.3,
+    "camera": 7.5,
     "battery": 45.0,
-    "display": 47.4,
-    "value": null
+    "display": 49.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.090412",
-  "updated_at": "2026-06-19T02:27:14.090412"
+  "created_at": "2026-06-24T08:53:53.374630",
+  "updated_at": "2026-06-24T08:53:53.374688"
 }

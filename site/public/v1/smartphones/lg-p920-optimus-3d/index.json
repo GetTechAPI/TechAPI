@@ -1,6 +1,7 @@
 {
-  "id": 20974,
+  "id": 27263,
   "slug": "lg-p920-optimus-3d",
+  "base_model_slug": null,
   "name": "LG P920 Optimus 3D",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 2048,
+    "id": 2024,
     "slug": "texas-instruments-omap-4430",
     "name": "Texas Instruments OMAP 4430",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/texas-instruments"
     },
     "process_nm": 45.0,
-    "gpu_name": "PowerVR SGX540",
+    "gpu_name": "N/A",
     "url": "/v1/socs/texas-instruments-omap-4430"
   },
   "release_date": "2011-06-27",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     8
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.29,
     "resolution": "480x800",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 17.5,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=2791"
   ],
-  "created_at": "2026-06-19T09:44:28.849032",
-  "updated_at": "2026-06-19T09:44:28.849032"
+  "created_at": "2026-06-24T08:54:01.290764",
+  "updated_at": "2026-06-24T08:54:01.290776"
 }

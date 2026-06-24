@@ -1,6 +1,7 @@
 {
-  "id": 4272,
+  "id": 21676,
   "slug": "huawei-mate-60-pro",
+  "base_model_slug": null,
   "name": "Huawei Mate 60 Pro",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 716,
+    "id": 849,
     "slug": "kirin-9000s",
     "name": "HiSilicon Kirin 9000S",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.82,
     "resolution": "2720x1260",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/huawei-mate-60-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 40.4,
-    "performance": 7.0,
-    "camera": 35.1,
-    "battery": 53.9,
-    "display": 65.6,
-    "value": 35.6
+    "algorithm_version": "2.0.0",
+    "overall": 57.5,
+    "performance": 55.8,
+    "camera": 36.1,
+    "battery": 74.0,
+    "display": 64.2,
+    "value": 43.0,
+    "perf": {
+      "index": 55.8,
+      "percentile": 64.5,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://consumer.huawei.com/en/phones/mate60pro/specs/",
     "https://en.wikipedia.org/wiki/Huawei_Mate_60_Pro"
   ],
-  "created_at": "2026-06-19T02:27:14.514200",
-  "updated_at": "2026-06-19T02:27:14.514200"
+  "created_at": "2026-06-24T08:53:58.952563",
+  "updated_at": "2026-06-24T08:53:58.952576"
 }

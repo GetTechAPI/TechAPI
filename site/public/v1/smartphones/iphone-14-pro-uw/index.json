@@ -1,6 +1,7 @@
 {
-  "id": 1099,
+  "id": 5392,
   "slug": "iphone-14-pro-uw",
+  "base_model_slug": null,
   "name": "iPhone 14 Pro UW",
   "brand": {
     "id": 149,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/apple"
   },
   "soc": {
-    "id": 26,
+    "id": 43,
     "slug": "apple-a16-bionic",
     "name": "Apple A16 Bionic",
     "manufacturer": {
@@ -32,6 +33,7 @@
     1000,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.12,
     "resolution": "1179x2556",
@@ -68,18 +70,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 34.8,
-    "performance": 45.2,
-    "camera": 16.5,
-    "battery": 19.0,
-    "display": 58.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 47.1,
+    "performance": 75.0,
+    "camera": 17.5,
+    "battery": 40.4,
+    "display": 55.5,
+    "value": null,
+    "perf": {
+      "index": 75.0,
+      "percentile": 95.6,
+      "tier": "S",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:13.979650",
-  "updated_at": "2026-06-19T02:27:13.979650"
+  "created_at": "2026-06-24T08:53:52.142334",
+  "updated_at": "2026-06-24T08:53:52.142347"
 }

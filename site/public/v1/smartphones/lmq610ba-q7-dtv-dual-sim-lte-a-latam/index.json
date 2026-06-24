@@ -1,6 +1,7 @@
 {
-  "id": 5719,
+  "id": 28944,
   "slug": "lmq610ba-q7-dtv-dual-sim-lte-a-latam",
+  "base_model_slug": null,
   "name": "LMQ610BA Q7+ DTV Dual SIM LTE-A LATAM",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 922,
+    "id": 1109,
     "slug": "mediatek-mt6750s",
     "name": "Mediatek MT6750S",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1080x2160",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
+    "algorithm_version": "2.0.0",
+    "overall": 24.6,
     "performance": null,
-    "camera": 6.3,
-    "battery": 0.0,
-    "display": 48.9,
-    "value": null
+    "camera": 7.5,
+    "battery": 15.0,
+    "display": 51.2,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.736015",
-  "updated_at": "2026-06-19T02:27:14.736015"
+  "created_at": "2026-06-24T08:54:02.513585",
+  "updated_at": "2026-06-24T08:54:02.513598"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 14753,
+  "id": 76603,
   "slug": "v25-pro",
+  "base_model_slug": null,
   "name": "V25 Pro",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1044,
+    "id": 1244,
     "slug": "dimensity-1300",
     "name": "MediaTek Dimensity 1300",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.5,
-    "performance": 4.3,
-    "camera": 21.6,
-    "battery": 32.5,
+    "algorithm_version": "2.0.0",
+    "overall": 42.6,
+    "performance": 55.4,
+    "camera": 22.5,
+    "battery": 50.0,
     "display": null,
-    "value": 48.2
+    "value": 57.0,
+    "perf": {
+      "index": 55.4,
+      "percentile": 63.8,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:16.317695",
-  "updated_at": "2026-06-19T02:27:16.317695"
+  "created_at": "2026-06-24T08:54:22.655252",
+  "updated_at": "2026-06-24T08:54:22.655291"
 }

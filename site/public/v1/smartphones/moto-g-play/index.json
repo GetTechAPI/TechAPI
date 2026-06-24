@@ -1,6 +1,7 @@
 {
-  "id": 7495,
+  "id": 37193,
   "slug": "moto-g-play",
+  "base_model_slug": null,
   "name": "Moto G Play",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1003,
+    "id": 1191,
     "slug": "helio-g25",
     "name": "Helio G25",
     "manufacturer": {
@@ -29,6 +30,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.8,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.7,
+    "performance": 1.4,
+    "camera": 6.6,
+    "battery": 39.2,
     "display": null,
-    "value": 55.9
+    "value": 57.9,
+    "perf": {
+      "index": 1.4,
+      "percentile": 1.5,
+      "tier": "F",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.073347",
-  "updated_at": "2026-06-19T02:27:15.073347"
+  "created_at": "2026-06-24T08:54:05.764970",
+  "updated_at": "2026-06-24T08:54:05.764982"
 }

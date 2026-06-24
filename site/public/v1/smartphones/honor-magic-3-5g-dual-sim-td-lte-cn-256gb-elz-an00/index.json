@@ -1,6 +1,7 @@
 {
-  "id": 4210,
+  "id": 20376,
   "slug": "honor-magic-3-5g-dual-sim-td-lte-cn-256gb-elz-an00",
+  "base_model_slug": null,
   "name": "Honor Magic 3 5G Dual SIM TD-LTE CN 256GB ELZ-AN00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1346,
+    "id": 1715,
     "slug": "snapdragon-888",
     "name": "Snapdragon 888",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.76,
     "resolution": "1344x2772",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 31.4,
-    "performance": 6.4,
-    "camera": 17.2,
-    "battery": 43.7,
-    "display": 58.1,
-    "value": 15.7
+    "algorithm_version": "2.0.0",
+    "overall": 47.8,
+    "performance": 57.2,
+    "camera": 18.2,
+    "battery": 60.4,
+    "display": 55.2,
+    "value": 23.9,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.506195",
-  "updated_at": "2026-06-19T02:27:14.506195"
+  "created_at": "2026-06-24T08:53:58.480104",
+  "updated_at": "2026-06-24T08:53:58.480117"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 2767,
+  "id": 12570,
   "slug": "pixel-6-pro",
+  "base_model_slug": null,
   "name": "Pixel 6 Pro",
   "brand": {
     "id": 159,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 669,
+    "id": 765,
     "slug": "google-tensor",
     "name": "Google Tensor",
     "manufacturer": {
@@ -30,6 +31,7 @@
     256,
     512
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": "3120x1440",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/pixel-6-pro.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 34.7,
-    "performance": 6.7,
-    "camera": 35.1,
-    "battery": 47.5,
-    "display": 49.4,
-    "value": 44.3
+    "algorithm_version": "2.0.0",
+    "overall": 51.6,
+    "performance": 57.2,
+    "camera": 36.1,
+    "battery": 62.7,
+    "display": 50.5,
+    "value": 50.9,
+    "perf": {
+      "index": 57.2,
+      "percentile": 81.5,
+      "tier": "A",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://store.google.com/us/product/pixel_6_pro_specs",
     "https://en.wikipedia.org/wiki/Pixel_6_Pro"
   ],
-  "created_at": "2026-06-19T02:27:14.251668",
-  "updated_at": "2026-06-19T02:27:14.251668"
+  "created_at": "2026-06-24T08:53:55.083952",
+  "updated_at": "2026-06-24T08:53:55.083964"
 }

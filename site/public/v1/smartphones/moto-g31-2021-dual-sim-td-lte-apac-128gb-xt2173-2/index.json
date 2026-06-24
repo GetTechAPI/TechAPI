@@ -1,6 +1,7 @@
 {
-  "id": 7457,
+  "id": 36613,
   "slug": "moto-g31-2021-dual-sim-td-lte-apac-128gb-xt2173-2",
+  "base_model_slug": null,
   "name": "Moto G31 2021 Dual SIM TD-LTE APAC 128GB XT2173-2",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1007,
+    "id": 1195,
     "slug": "helio-g85",
     "name": "MediaTek Helio G85",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.6,
-    "performance": 1.5,
-    "camera": 17.2,
-    "battery": 31.0,
-    "display": 28.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 29.9,
+    "performance": 28.2,
+    "camera": 18.2,
+    "battery": 41.8,
+    "display": 31.3,
+    "value": null,
+    "perf": {
+      "index": 28.2,
+      "percentile": 27.6,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.067348",
-  "updated_at": "2026-06-19T02:27:15.067348"
+  "created_at": "2026-06-24T08:54:05.552976",
+  "updated_at": "2026-06-24T08:54:05.552989"
 }

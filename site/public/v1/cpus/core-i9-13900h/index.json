@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel Iris Xe Graphics (96EU)",
   "memory_support": "DDR5-5200 / LPDDR5-6400",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 65.9,
+    "single": {
+      "index": 85.3,
+      "percentile": 69.5,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 50.0,
+      "percentile": 34.1,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/232132/intel-core-i9-13900h-processor-24m-cache-up-to-5-40-ghz.html",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Core-i9-13900H",
     "https://www.topcpu.net/en/cpu-r/"
   ],
-  "created_at": "2026-06-19T02:27:18.395326",
-  "updated_at": "2026-06-19T02:27:18.395326",
+  "created_at": "2026-06-24T08:54:41.406916",
+  "updated_at": "2026-06-24T08:54:41.406927",
   "url": "/v1/cpus/core-i9-13900h"
 }

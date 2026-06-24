@@ -1,6 +1,7 @@
 {
-  "id": 1738,
+  "id": 8567,
   "slug": "bv6100-dual-sim-td-lte-emea",
+  "base_model_slug": null,
   "name": "BV6100 Dual SIM TD-LTE EMEA",
   "brand": {
     "id": 15,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/blackview"
   },
   "soc": {
-    "id": 973,
+    "id": 1161,
     "slug": "mediatek-helio-a22-mt6761",
     "name": "MediaTek Helio A22 MT6761",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.88,
     "resolution": "640x1352",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 26.2,
+    "algorithm_version": "2.0.0",
+    "overall": 28.3,
     "performance": null,
     "camera": 5.0,
-    "battery": 38.7,
+    "battery": 45.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.091412",
-  "updated_at": "2026-06-19T02:27:14.091412"
+  "created_at": "2026-06-24T08:53:53.422122",
+  "updated_at": "2026-06-24T08:53:53.422137"
 }

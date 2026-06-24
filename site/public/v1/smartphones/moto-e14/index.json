@@ -1,6 +1,7 @@
 {
-  "id": 7535,
+  "id": 38020,
   "slug": "moto-e14",
+  "base_model_slug": null,
   "name": "Moto E14",
   "brand": {
     "id": 169,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 1559,
+    "id": 2085,
     "slug": "unisoc-t606",
     "name": "Unisoc T606",
     "manufacturer": {
@@ -29,6 +30,7 @@
     64,
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 11.8,
-    "performance": 0.0,
-    "camera": 5.3,
-    "battery": 30.0,
+    "algorithm_version": "2.0.0",
+    "overall": 22.1,
+    "performance": 20.6,
+    "camera": 6.6,
+    "battery": 39.2,
     "display": null,
-    "value": 55.9
+    "value": 61.0,
+    "perf": {
+      "index": 20.6,
+      "percentile": 3.6,
+      "tier": "F",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.078348",
-  "updated_at": "2026-06-19T02:27:15.078348"
+  "created_at": "2026-06-24T08:54:06.069774",
+  "updated_at": "2026-06-24T08:54:06.069787"
 }

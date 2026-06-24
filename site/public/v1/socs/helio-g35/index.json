@@ -1,5 +1,5 @@
 {
-  "id": 1004,
+  "id": 1192,
   "slug": "helio-g35",
   "name": "Helio G35",
   "manufacturer": {
@@ -23,13 +23,31 @@
   "gpu_clock_mhz": 680,
   "npu_tops": null,
   "modem": "MediaTek LTE Cat 7",
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 16.1,
+    "cpu": {
+      "index": 14.6,
+      "percentile": 6.9,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "geekbench"
+    },
+    "system": {
+      "index": 19.7,
+      "percentile": 12.1,
+      "tier": "E",
+      "era": "2020-2021",
+      "source": "antutu_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/MediaTek_Helio",
     "https://www.mediatek.com/products/smartphones/mediatek-helio-g35",
     "https://nanoreview.net/en/soc/mediatek-helio-g35"
   ],
-  "created_at": "2026-06-19T02:27:12.584337",
-  "updated_at": "2026-06-19T02:27:12.584337",
+  "created_at": "2026-06-24T08:53:43.838124",
+  "updated_at": "2026-06-24T08:53:43.838134",
   "url": "/v1/socs/helio-g35"
 }

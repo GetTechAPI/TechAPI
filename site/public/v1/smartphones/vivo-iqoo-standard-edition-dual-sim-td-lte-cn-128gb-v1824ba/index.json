@@ -1,6 +1,7 @@
 {
-  "id": 14358,
+  "id": 74766,
   "slug": "vivo-iqoo-standard-edition-dual-sim-td-lte-cn-128gb-v1824ba",
+  "base_model_slug": null,
   "name": "Vivo iQOO Standard Edition Dual SIM TD-LTE CN 128GB V1824BA",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1295,
+    "id": 1653,
     "slug": "snapdragon-855",
     "name": "Snapdragon 855",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.41,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.0,
-    "performance": 1.5,
-    "camera": 5.1,
-    "battery": 16.3,
-    "display": 45.2,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.8,
+    "performance": 46.1,
+    "camera": 6.3,
+    "battery": 42.6,
+    "display": 48.0,
+    "value": null,
+    "perf": {
+      "index": 46.1,
+      "percentile": 58.2,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.266207",
-  "updated_at": "2026-06-19T02:27:16.266207"
+  "created_at": "2026-06-24T08:54:21.922531",
+  "updated_at": "2026-06-24T08:54:21.922544"
 }

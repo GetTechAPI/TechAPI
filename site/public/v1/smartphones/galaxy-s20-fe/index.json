@@ -1,6 +1,7 @@
 {
-  "id": 12115,
+  "id": 60972,
   "slug": "galaxy-s20-fe",
+  "base_model_slug": null,
   "name": "Galaxy S20 FE",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1328,
+    "id": 1689,
     "slug": "snapdragon-865",
     "name": "Snapdragon 865",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "2400x1080",
@@ -84,19 +86,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/galaxy-s20-fe.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.9,
-    "performance": 1.5,
-    "camera": 23.0,
-    "battery": 27.4,
-    "display": 35.7,
-    "value": 45.6
+    "algorithm_version": "2.0.0",
+    "overall": 41.3,
+    "performance": 51.1,
+    "camera": 24.3,
+    "battery": 51.1,
+    "display": 38.8,
+    "value": 52.9,
+    "perf": {
+      "index": 51.1,
+      "percentile": 63.2,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": true,
   "source_urls": [
     "https://www.samsung.com/global/galaxy/galaxy-s20-fe/specs/",
     "https://en.wikipedia.org/wiki/Samsung_Galaxy_S20_FE"
   ],
-  "created_at": "2026-06-19T02:27:15.841861",
-  "updated_at": "2026-06-19T02:27:15.841861"
+  "created_at": "2026-06-24T08:54:15.827303",
+  "updated_at": "2026-06-24T08:54:15.827316"
 }

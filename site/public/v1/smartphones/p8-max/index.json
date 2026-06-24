@@ -1,6 +1,7 @@
 {
-  "id": 2695,
+  "id": 12153,
   "slug": "p8-max",
+  "base_model_slug": null,
   "name": "P8 Max",
   "brand": {
     "id": 19,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/gionee"
   },
   "soc": {
-    "id": 920,
+    "id": 1107,
     "slug": "mediatek-mt6737t",
     "name": "Mediatek MT6737T",
     "manufacturer": {
@@ -29,6 +30,7 @@
     3,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 3.8,
+    "algorithm_version": "2.0.0",
+    "overall": 11.6,
     "performance": null,
-    "camera": 5.3,
-    "battery": 2.2,
+    "camera": 6.6,
+    "battery": 16.5,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.241657",
-  "updated_at": "2026-06-19T02:27:14.241657"
+  "created_at": "2026-06-24T08:53:54.933641",
+  "updated_at": "2026-06-24T08:53:54.933655"
 }

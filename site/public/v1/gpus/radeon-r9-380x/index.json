@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 3.973,
   "blender_score": null,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 42.2,
+    "graphics": {
+      "index": 42.2,
+      "percentile": 23.2,
+      "tier": "D",
+      "era": "2014-2016",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_Rx_300_series",
     "https://www.techpowerup.com/gpu-specs/radeon-r9-380x.c2755",

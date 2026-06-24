@@ -1,6 +1,7 @@
 {
-  "id": 8551,
+  "id": 43309,
   "slug": "oneplus-nord-ce-2-lite",
+  "base_model_slug": null,
   "name": "OnePlus Nord CE 2 Lite",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1037,
+    "id": 1230,
     "slug": "dimensity-900",
     "name": "Dimensity 900",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.59,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.4,
-    "performance": 1.5,
-    "camera": 21.6,
-    "battery": 35.0,
+    "algorithm_version": "2.0.0",
+    "overall": 38.6,
+    "performance": 41.7,
+    "camera": 22.5,
+    "battery": 51.7,
     "display": null,
-    "value": 59.7
+    "value": 67.5,
+    "perf": {
+      "index": 41.7,
+      "percentile": 34.6,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.271007",
-  "updated_at": "2026-06-19T02:27:15.271007"
+  "created_at": "2026-06-24T08:54:08.215448",
+  "updated_at": "2026-06-24T08:54:08.215461"
 }

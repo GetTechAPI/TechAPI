@@ -1,6 +1,7 @@
 {
-  "id": 13354,
+  "id": 70547,
   "slug": "m608",
+  "base_model_slug": null,
   "name": "M608",
   "brand": {
     "id": 106,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony-ericsson"
   },
   "soc": {
-    "id": 239,
+    "id": 289,
     "slug": "32-bit-philips-nexperia-pnx4008-208-mhz",
     "name": "32-bit Philips Nexperia PNX4008 208 MHz",
     "manufacturer": {
@@ -26,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1,
   "storage_options_gb": [],
+  "variant": {},
   "display": {
     "size_inch": 2.6,
     "resolution": "240x320",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 0.0,
     "performance": null,
     "camera": null,
     "battery": 0.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2006-2009",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.107575",
-  "updated_at": "2026-06-19T02:27:16.108575"
+  "created_at": "2026-06-24T08:54:20.168747",
+  "updated_at": "2026-06-24T08:54:20.168760"
 }

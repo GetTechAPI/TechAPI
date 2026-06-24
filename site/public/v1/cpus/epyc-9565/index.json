@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-6400 12-channel ECC",
   "msrp_usd": 10486,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 93.8,
+    "single": {
+      "index": 93.4,
+      "percentile": 65.4,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 94.2,
+      "percentile": 86.2,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9565.html",
     "https://en.wikipedia.org/wiki/Zen_5",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+EPYC+9565"
   ],
-  "created_at": "2026-06-19T02:27:18.151639",
-  "updated_at": "2026-06-19T02:27:18.151639",
+  "created_at": "2026-06-24T08:54:40.921047",
+  "updated_at": "2026-06-24T08:54:40.921058",
   "url": "/v1/cpus/epyc-9565"
 }

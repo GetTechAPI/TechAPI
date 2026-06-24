@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 8-channel ECC",
   "msrp_usd": 3583,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 71.9,
+    "single": {
+      "index": 71.2,
+      "percentile": 31.1,
+      "tier": "D",
+      "era": "2022-2023",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 72.5,
+      "percentile": 73.2,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xeon",
     "https://ark.intel.com/content/www/us/en/ark/search.html?_charset_=UTF-8&q=xeon-gold-6448y",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Gold+6448Y"
   ],
-  "created_at": "2026-06-19T02:27:18.396337",
-  "updated_at": "2026-06-19T02:27:18.396337",
+  "created_at": "2026-06-24T08:54:41.411094",
+  "updated_at": "2026-06-24T08:54:41.411105",
   "url": "/v1/cpus/xeon-gold-6448y"
 }

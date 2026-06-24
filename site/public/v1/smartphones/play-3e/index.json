@@ -1,6 +1,7 @@
 {
-  "id": 2926,
+  "id": 13585,
   "slug": "play-3e",
+  "base_model_slug": null,
   "name": "Play 3e",
   "brand": {
     "id": 24,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/honor"
   },
   "soc": {
-    "id": 1022,
+    "id": 1215,
     "slug": "mediatek-mt6762r-helio-p22",
     "name": "Mediatek MT6762R Helio P22",
     "manufacturer": {
@@ -31,6 +32,7 @@
     32,
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.71,
     "resolution": "720x1520",
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.8,
+    "algorithm_version": "2.0.0",
+    "overall": 13.0,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.3,
+    "camera": 6.6,
+    "battery": 19.4,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.329972",
-  "updated_at": "2026-06-19T02:27:14.329972"
+  "created_at": "2026-06-24T08:53:55.892057",
+  "updated_at": "2026-06-24T08:53:55.892070"
 }

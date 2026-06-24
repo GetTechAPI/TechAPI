@@ -1,6 +1,7 @@
 {
-  "id": 3629,
+  "id": 17433,
   "slug": "y7",
+  "base_model_slug": null,
   "name": "Y7",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1298,
+    "id": 1656,
     "slug": "qualcomm-msm8940-snapdragon-435",
     "name": "Qualcomm MSM8940 Snapdragon 435",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "720x1280",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 10.0,
+    "algorithm_version": "2.0.0",
+    "overall": 15.7,
     "performance": null,
-    "camera": 5.0,
-    "battery": 15.0,
+    "camera": 6.3,
+    "battery": 25.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.431669",
-  "updated_at": "2026-06-19T02:27:14.431669"
+  "created_at": "2026-06-24T08:53:57.435452",
+  "updated_at": "2026-06-24T08:53:57.435465"
 }

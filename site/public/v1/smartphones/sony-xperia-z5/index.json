@@ -1,6 +1,7 @@
 {
-  "id": 13115,
+  "id": 69209,
   "slug": "sony-xperia-z5",
+  "base_model_slug": null,
   "name": "Sony Xperia Z5",
   "brand": {
     "id": 107,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/sony"
   },
   "soc": {
-    "id": 1234,
+    "id": 1584,
     "slug": "snapdragon-810",
     "name": "Snapdragon 810",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.2,
     "resolution": "1920x1080",
@@ -71,19 +73,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/sony-xperia-z5.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 7.5,
-    "performance": 8.0,
-    "camera": 8.5,
-    "battery": 0.6,
-    "display": 12.8,
-    "value": 38.4
+    "algorithm_version": "2.0.0",
+    "overall": 24.1,
+    "performance": 52.6,
+    "camera": 9.7,
+    "battery": 16.3,
+    "display": 18.0,
+    "value": 44.2,
+    "perf": {
+      "index": 52.6,
+      "percentile": 90.8,
+      "tier": "A",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Sony_Xperia_Z5",
     "https://www.sony.com/electronics/mobile-phones/xperia-z5"
   ],
-  "created_at": "2026-06-19T02:27:16.073050",
-  "updated_at": "2026-06-19T02:27:16.073050"
+  "created_at": "2026-06-24T08:54:19.679602",
+  "updated_at": "2026-06-24T08:54:19.679616"
 }

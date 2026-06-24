@@ -24,6 +24,24 @@
   "integrated_graphics": "AMD Radeon RX Vega 8 (8CU)",
   "memory_support": "DDR4-3200 / LPDDR4X-4266",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 52.4,
+    "single": {
+      "index": 66.9,
+      "percentile": 73.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 40.5,
+      "percentile": 45.0,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://www.amd.com/en/products/apu/amd-ryzen-9-5900hs",
@@ -31,7 +49,7 @@
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+5900HS",
     "https://technical.city/en/cpu/Ryzen-9-5900HS"
   ],
-  "created_at": "2026-06-19T02:27:18.137505",
-  "updated_at": "2026-06-19T02:27:18.137505",
+  "created_at": "2026-06-24T08:54:40.884872",
+  "updated_at": "2026-06-24T08:54:40.884884",
   "url": "/v1/cpus/ryzen-9-5900hs"
 }

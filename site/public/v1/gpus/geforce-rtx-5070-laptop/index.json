@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 5.0",
   "fp32_tflops": 21.289,
   "blender_score": 4014.39,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 92.7,
+    "graphics": {
+      "index": 92.7,
+      "percentile": 60.9,
+      "tier": "B",
+      "era": "2024-2026",
+      "source": "passmark_g3d_mark"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://www.nvidia.com/en-us/geforce/laptops/50-series/",
     "https://www.techpowerup.com/gpu-specs/geforce-rtx-5070-mobile.c4230",

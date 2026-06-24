@@ -1,6 +1,7 @@
 {
-  "id": 9430,
+  "id": 49395,
   "slug": "reno9-5g",
+  "base_model_slug": null,
   "name": "Reno9 5G",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1352,
+    "id": 1732,
     "slug": "snapdragon-778g",
     "name": "Snapdragon 778G",
     "manufacturer": {
@@ -29,6 +30,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.7,
     "resolution": null,
@@ -62,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.4,
-    "performance": 6.0,
-    "camera": 21.6,
-    "battery": 27.5,
+    "algorithm_version": "2.0.0",
+    "overall": 41.0,
+    "performance": 53.7,
+    "camera": 22.5,
+    "battery": 46.7,
     "display": null,
-    "value": 53.5
+    "value": 61.6,
+    "perf": {
+      "index": 53.7,
+      "percentile": 61.7,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.397760",
-  "updated_at": "2026-06-19T02:27:15.397760"
+  "created_at": "2026-06-24T08:54:10.971724",
+  "updated_at": "2026-06-24T08:54:10.971736"
 }

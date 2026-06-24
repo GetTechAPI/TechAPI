@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel Arc Graphics 140V (8 Xe2 cores)",
   "memory_support": "LPDDR5X-8533 on-package (32GB)",
   "msrp_usd": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 57.4,
+    "single": {
+      "index": 84.3,
+      "percentile": 28.5,
+      "tier": "D",
+      "era": "2024-2026",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 35.4,
+      "percentile": 6.9,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://ark.intel.com/content/www/us/en/ark/products/240949/intel-core-ultra-7-268v.html",
@@ -33,7 +51,7 @@
     "https://www.notebookcheck.net/Mobile-Processors-Benchmark-List.2436.0.html",
     "https://www.topcpu.net/en/cpu-r/"
   ],
-  "created_at": "2026-06-19T02:27:18.400349",
-  "updated_at": "2026-06-19T02:27:18.400349",
+  "created_at": "2026-06-24T08:54:41.419087",
+  "updated_at": "2026-06-24T08:54:41.419098",
   "url": "/v1/cpus/core-ultra-7-268v"
 }

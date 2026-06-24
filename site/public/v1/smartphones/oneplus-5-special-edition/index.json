@@ -1,6 +1,7 @@
 {
-  "id": 8370,
+  "id": 42255,
   "slug": "oneplus-5-special-edition",
+  "base_model_slug": null,
   "name": "OnePlus 5 Special Edition",
   "brand": {
     "id": 36,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oneplus"
   },
   "soc": {
-    "id": 1268,
+    "id": 1625,
     "slug": "snapdragon-835",
     "name": "Snapdragon 835",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": null,
@@ -61,18 +63,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 12.7,
-    "performance": 26.1,
-    "camera": 7.6,
-    "battery": 4.5,
+    "algorithm_version": "2.0.0",
+    "overall": 32.2,
+    "performance": 61.7,
+    "camera": 8.7,
+    "battery": 26.3,
     "display": null,
-    "value": 44.9
+    "value": 51.9,
+    "perf": {
+      "index": 61.7,
+      "percentile": 90.5,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
   ],
-  "created_at": "2026-06-19T02:27:15.237030",
-  "updated_at": "2026-06-19T02:27:15.237030"
+  "created_at": "2026-06-24T08:54:07.842494",
+  "updated_at": "2026-06-24T08:54:07.842507"
 }

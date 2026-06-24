@@ -1,6 +1,7 @@
 {
-  "id": 21720,
+  "id": 30765,
   "slug": "meizu-mx4-pro-m462-td-lte-64gb",
+  "base_model_slug": null,
   "name": "Meizu MX4 Pro M462 TD-LTE 64GB",
   "brand": {
     "id": 33,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/meizu"
   },
   "soc": {
-    "id": 1993,
+    "id": 1893,
     "slug": "samsung-exynos-5-octa-5430",
     "name": "Samsung Exynos 5 Octa 5430",
     "manufacturer": {
@@ -18,8 +19,8 @@
       "name": "Samsung",
       "url": "/v1/brands/samsung"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 20.0,
+    "gpu_name": "Mali-T628 MP6",
     "url": "/v1/socs/samsung-exynos-5-octa-5430"
   },
   "release_date": "2014-12-06",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "1536x2560",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.3,
+    "algorithm_version": "2.0.0",
+    "overall": 39.3,
     "performance": null,
     "camera": null,
-    "battery": 5.3,
-    "display": 59.3,
-    "value": null
+    "battery": 18.5,
+    "display": 60.1,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=7159"
   ],
-  "created_at": "2026-06-19T09:44:29.023015",
-  "updated_at": "2026-06-19T09:44:29.023015"
+  "created_at": "2026-06-24T08:54:03.186363",
+  "updated_at": "2026-06-24T08:54:03.186376"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 12682,
+  "id": 65537,
   "slug": "sm-s906e-ds-galaxy-s22-5g-global-dual-sim-td-lte-128gb",
+  "base_model_slug": null,
   "name": "SM-S906E/DS Galaxy S22+ 5G Global Dual SIM TD-LTE 128GB",
   "brand": {
     "id": 113,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1354,
+    "id": 1734,
     "slug": "snapdragon-8-gen-1",
     "name": "Snapdragon 8 Gen 1",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.56,
     "resolution": "1080x2340",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 32.6,
-    "performance": 10.9,
-    "camera": 17.2,
-    "battery": 50.7,
-    "display": 51.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 47.8,
+    "performance": 60.3,
+    "camera": 18.2,
+    "battery": 62.8,
+    "display": 49.8,
+    "value": null,
+    "perf": {
+      "index": 60.3,
+      "percentile": 75.3,
+      "tier": "B",
+      "era": "2022-2023",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.002957",
-  "updated_at": "2026-06-19T02:27:16.002957"
+  "created_at": "2026-06-24T08:54:17.458478",
+  "updated_at": "2026-06-24T08:54:17.458490"
 }

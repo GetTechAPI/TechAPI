@@ -24,11 +24,30 @@
   "integrated_graphics": null,
   "memory_support": null,
   "msrp_usd": 30,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 6.2,
+    "single": {
+      "index": 11.1,
+      "percentile": 9.7,
+      "tier": "E",
+      "era": "2006-2009",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 2.2,
+      "percentile": 4.4,
+      "tier": "F",
+      "era": "2006-2009",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+2800%2B"
   ],
-  "created_at": "2026-06-19T02:27:18.036405",
-  "updated_at": "2026-06-19T02:27:18.036405",
+  "created_at": "2026-06-24T08:54:40.692469",
+  "updated_at": "2026-06-24T08:54:40.692481",
   "url": "/v1/cpus/amd-sempron-2800-plus"
 }

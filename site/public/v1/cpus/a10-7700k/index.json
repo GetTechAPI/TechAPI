@@ -24,6 +24,24 @@
   "integrated_graphics": "Radeon R7 Graphics",
   "memory_support": "DDR3-2133 dual-channel",
   "msrp_usd": 152,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 48.2,
+    "single": {
+      "index": 56.4,
+      "percentile": 80.0,
+      "tier": "A",
+      "era": "2014-2016",
+      "source": "passmark_single"
+    },
+    "multi": {
+      "index": 41.5,
+      "percentile": 72.5,
+      "tier": "B",
+      "era": "2014-2016",
+      "source": "passmark_cpu_mark"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/AMD_Accelerated_Processing_Unit",
@@ -32,7 +50,7 @@
     "https://en.wikipedia.org/wiki/List_of_AMD_accelerated_processing_units",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7700K+APU&id=2146"
   ],
-  "created_at": "2026-06-19T02:27:18.082438",
-  "updated_at": "2026-06-19T02:27:18.082438",
+  "created_at": "2026-06-24T08:54:40.793063",
+  "updated_at": "2026-06-24T08:54:40.793074",
   "url": "/v1/cpus/a10-7700k"
 }

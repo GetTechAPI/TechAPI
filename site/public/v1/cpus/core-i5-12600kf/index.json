@@ -24,13 +24,31 @@
   "integrated_graphics": null,
   "memory_support": "DDR5-4800 / DDR4-3200",
   "msrp_usd": 264,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 64.8,
+    "single": {
+      "index": 84.3,
+      "percentile": 98.3,
+      "tier": "S",
+      "era": "2020-2021",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 48.8,
+      "percentile": 63.3,
+      "tier": "B",
+      "era": "2020-2021",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/List_of_Intel_processors",
     "https://en.wikipedia.org/wiki/Alder_Lake",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-12600KF"
   ],
-  "created_at": "2026-06-19T02:27:18.371805",
-  "updated_at": "2026-06-19T02:27:18.371805",
+  "created_at": "2026-06-24T08:54:41.348074",
+  "updated_at": "2026-06-24T08:54:41.348085",
   "url": "/v1/cpus/core-i5-12600kf"
 }

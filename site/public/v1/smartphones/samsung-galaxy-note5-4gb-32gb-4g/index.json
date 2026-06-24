@@ -1,5 +1,5 @@
 {
-  "id": 25300,
+  "id": 57798,
   "slug": "samsung-galaxy-note5-4gb-32gb-4g",
   "base_model_slug": "galaxy-note5",
   "name": "Samsung Galaxy Note5",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/samsung"
   },
   "soc": {
-    "id": 1876,
+    "id": 1898,
     "slug": "samsung-exynos-7-octa-7420",
     "name": "Samsung Exynos 7 Octa 7420",
     "manufacturer": {
@@ -19,8 +19,8 @@
       "name": "Samsung",
       "url": "/v1/brands/samsung"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "process_nm": 14.0,
+    "gpu_name": "Mali-T760 MP8",
     "url": "/v1/socs/samsung-exynos-7-octa-7420"
   },
   "release_date": "2015-08-13",
@@ -72,19 +72,26 @@
   "image_url": "https://www.mobiledokan.com/media/samsung-galaxy-note5-blue-color-official-image.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.2,
+    "algorithm_version": "2.0.0",
+    "overall": 24.6,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 16.7,
     "display": 32.5,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
     "https://www.mobiledokan.com/mobile/samsung-galaxy-note5"
   ],
-  "created_at": "2026-06-20T12:07:20.648305",
-  "updated_at": "2026-06-20T12:07:20.648305"
+  "created_at": "2026-06-24T08:54:14.675722",
+  "updated_at": "2026-06-24T08:54:14.675735"
 }

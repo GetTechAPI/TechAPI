@@ -1,6 +1,7 @@
 {
-  "id": 631,
+  "id": 2675,
   "slug": "wi10n-pro",
+  "base_model_slug": null,
   "name": "Wi10N PRO",
   "brand": {
     "id": 120,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/allview"
   },
   "soc": {
-    "id": 784,
+    "id": 945,
     "slug": "intel-atom-z3735f",
     "name": "Intel Atom Z3735F",
     "manufacturer": {
@@ -29,6 +30,7 @@
     2,
     32
   ],
+  "variant": {},
   "display": {
     "size_inch": 10.1,
     "resolution": "1280x800",
@@ -56,18 +58,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
+    "algorithm_version": "2.0.0",
     "overall": 25.0,
     "performance": null,
     "camera": 5.0,
     "battery": 45.0,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:13.913673",
-  "updated_at": "2026-06-19T02:27:13.913673"
+  "created_at": "2026-06-24T08:53:51.156400",
+  "updated_at": "2026-06-24T08:53:51.156412"
 }

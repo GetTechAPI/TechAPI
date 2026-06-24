@@ -1,6 +1,7 @@
 {
-  "id": 8722,
+  "id": 44461,
   "slug": "r17-premium-edition-dual-sim-td-lte-cn-pagm00",
+  "base_model_slug": null,
   "name": "R17 Premium Edition Dual SIM TD-LTE CN PAGM00",
   "brand": {
     "id": 37,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/oppo"
   },
   "soc": {
-    "id": 1292,
+    "id": 1650,
     "slug": "snapdragon-670",
     "name": "Snapdragon 670",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.4,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.0,
-    "performance": 3.0,
-    "camera": 6.3,
-    "battery": 9.4,
-    "display": 45.3,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 28.6,
+    "performance": 27.0,
+    "camera": 7.5,
+    "battery": 31.8,
+    "display": 48.1,
+    "value": null,
+    "perf": {
+      "index": 27.0,
+      "percentile": 34.3,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.295523",
-  "updated_at": "2026-06-19T02:27:15.295523"
+  "created_at": "2026-06-24T08:54:08.650000",
+  "updated_at": "2026-06-24T08:54:08.650013"
 }

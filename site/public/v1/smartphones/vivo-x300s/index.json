@@ -1,6 +1,7 @@
 {
-  "id": 14782,
+  "id": 77914,
   "slug": "vivo-x300s",
+  "base_model_slug": null,
   "name": "Vivo X300s",
   "brand": {
     "id": 52,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/vivo"
   },
   "soc": {
-    "id": 1065,
+    "id": 1310,
     "slug": "dimensity-9500",
     "name": "Dimensity 9500",
     "manufacturer": {
@@ -30,6 +31,7 @@
     512,
     1024
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "2800x1260",
@@ -86,19 +88,26 @@
   "image_url": "https://cdn.jsdelivr.net/gh/GetTechAPI/images/smartphones/vivo-x300s.webp",
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 85.7,
-    "performance": 86.4,
+    "algorithm_version": "2.0.0",
+    "overall": 86.2,
+    "performance": 89.9,
     "camera": 83.0,
-    "battery": 87.3,
-    "display": 86.0,
-    "value": 73.7
+    "battery": 90.7,
+    "display": 81.0,
+    "value": 71.7,
+    "perf": {
+      "index": 89.9,
+      "percentile": 93.9,
+      "tier": "A",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.vivo.com/global/product/x300s/specs",
     "https://www.gsmarena.com/vivo_x300s_5g-14557.php"
   ],
-  "created_at": "2026-06-19T02:27:16.321694",
-  "updated_at": "2026-06-19T02:27:16.321694"
+  "created_at": "2026-06-24T08:54:23.146376",
+  "updated_at": "2026-06-24T08:54:23.146389"
 }

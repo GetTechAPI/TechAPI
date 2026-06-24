@@ -1,6 +1,7 @@
 {
-  "id": 15457,
+  "id": 81110,
   "slug": "poco-f2-pro",
+  "base_model_slug": null,
   "name": "Poco F2 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1336,
+    "id": 1697,
     "slug": "qualcomm-sm8250-snapdragon-865",
     "name": "Qualcomm SM8250 Snapdragon 865",
     "manufacturer": {
@@ -31,6 +32,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -63,18 +65,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 23.6,
+    "algorithm_version": "2.0.0",
+    "overall": 34.5,
     "performance": null,
-    "camera": 21.6,
-    "battery": 25.5,
+    "camera": 22.5,
+    "battery": 46.6,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2020-2021",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:16.419830",
-  "updated_at": "2026-06-19T02:27:16.419830"
+  "created_at": "2026-06-24T08:54:24.324239",
+  "updated_at": "2026-06-24T08:54:24.324251"
 }

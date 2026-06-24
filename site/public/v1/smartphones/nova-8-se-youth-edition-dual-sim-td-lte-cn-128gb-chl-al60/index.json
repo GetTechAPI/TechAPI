@@ -1,6 +1,7 @@
 {
-  "id": 4241,
+  "id": 20592,
   "slug": "nova-8-se-youth-edition-dual-sim-td-lte-cn-128gb-chl-al60",
+  "base_model_slug": null,
   "name": "Nova 8 SE Youth Edition Dual SIM TD-LTE CN 128GB CHL-AL60",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 711,
+    "id": 844,
     "slug": "kirin-710a",
     "name": "Kirin 710A",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     128
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.6,
     "resolution": "1080x2400",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.0,
-    "performance": 3.0,
-    "camera": 16.5,
-    "battery": 19.7,
-    "display": 44.9,
-    "value": 10.5
+    "algorithm_version": "2.0.0",
+    "overall": 31.2,
+    "performance": 24.2,
+    "camera": 17.5,
+    "battery": 35.3,
+    "display": 47.8,
+    "value": 15.6,
+    "perf": {
+      "index": 24.2,
+      "percentile": 22.1,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.510195",
-  "updated_at": "2026-06-19T02:27:14.510195"
+  "created_at": "2026-06-24T08:53:58.566777",
+  "updated_at": "2026-06-24T08:53:58.566789"
 }

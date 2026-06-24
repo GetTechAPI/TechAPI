@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 3.0",
   "fp32_tflops": 1.981,
   "blender_score": 131.75,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 20.1,
+    "graphics": {
+      "index": 20.1,
+      "percentile": 12.5,
+      "tier": "E",
+      "era": "2010-2013",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/GeForce_600_series",
     "https://www.techpowerup.com/gpu-specs/geforce-gtx-660.c1825",

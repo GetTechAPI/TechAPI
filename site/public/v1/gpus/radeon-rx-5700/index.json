@@ -24,7 +24,18 @@
   "pcie_version": "PCIe 4.0",
   "fp32_tflops": 7.949,
   "blender_score": 850.33,
-  "verified": false,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 66.5,
+    "graphics": {
+      "index": 66.5,
+      "percentile": 63.5,
+      "tier": "B",
+      "era": "2017-2019",
+      "source": "timespy_score"
+    }
+  },
+  "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Radeon_RX_5000_series",
     "https://www.techpowerup.com/gpu-specs/radeon-rx-5700.c3340",

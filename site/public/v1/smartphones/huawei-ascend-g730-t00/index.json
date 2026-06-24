@@ -1,6 +1,7 @@
 {
-  "id": 19218,
+  "id": 16579,
   "slug": "huawei-ascend-g730-t00",
+  "base_model_slug": null,
   "name": "Huawei Ascend G730-T00",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 835,
+    "id": 1013,
     "slug": "mediatek-mt6582",
     "name": "Mediatek MT6582",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     4
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.5,
     "resolution": "540x960",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 17.5,
+    "algorithm_version": "2.0.0",
+    "overall": 21.5,
     "performance": null,
     "camera": null,
-    "battery": 0.0,
+    "battery": 8.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=5363"
   ],
-  "created_at": "2026-06-19T09:44:28.431359",
-  "updated_at": "2026-06-19T09:44:28.431359"
+  "created_at": "2026-06-24T08:53:57.091418",
+  "updated_at": "2026-06-24T08:53:57.091431"
 }

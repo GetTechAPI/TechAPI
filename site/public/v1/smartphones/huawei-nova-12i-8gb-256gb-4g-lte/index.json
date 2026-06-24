@@ -1,5 +1,5 @@
 {
-  "id": 10336,
+  "id": 21938,
   "slug": "huawei-nova-12i-8gb-256gb-4g-lte",
   "base_model_slug": "nova-12i",
   "name": "Huawei nova 12i",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 1716,
+    "id": 1729,
     "slug": "snapdragon-680",
     "name": "Snapdragon 680 4G",
     "manufacturer": {
@@ -64,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 19.0,
-    "performance": 3.0,
+    "algorithm_version": "2.0.0",
+    "overall": 45.1,
+    "performance": 38.5,
     "camera": null,
-    "battery": 35.0,
+    "battery": 51.7,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 38.5,
+      "percentile": 12.4,
+      "tier": "E",
+      "era": "2024-2026",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:12.014981",
-  "updated_at": "2026-06-20T12:45:12.014981"
+  "created_at": "2026-06-24T08:53:59.064105",
+  "updated_at": "2026-06-24T08:53:59.064117"
 }

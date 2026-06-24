@@ -1,6 +1,7 @@
 {
-  "id": 15569,
+  "id": 81663,
   "slug": "redmi-note-9-pro",
+  "base_model_slug": null,
   "name": "Redmi Note 9 Pro",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1341,
+    "id": 1710,
     "slug": "snapdragon-720g",
     "name": "Snapdragon 720G",
     "manufacturer": {
@@ -30,6 +31,7 @@
     128,
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.67,
     "resolution": "1080x2400",
@@ -66,18 +68,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.1,
-    "performance": 3.0,
-    "camera": 21.5,
-    "battery": 33.1,
-    "display": 27.0,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.7,
+    "performance": 38.5,
+    "camera": 22.4,
+    "battery": 52.0,
+    "display": 29.9,
+    "value": null,
+    "perf": {
+      "index": 38.5,
+      "percentile": 45.9,
+      "tier": "C",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.434339",
-  "updated_at": "2026-06-19T02:27:16.434339"
+  "created_at": "2026-06-24T08:54:24.516367",
+  "updated_at": "2026-06-24T08:54:24.516379"
 }

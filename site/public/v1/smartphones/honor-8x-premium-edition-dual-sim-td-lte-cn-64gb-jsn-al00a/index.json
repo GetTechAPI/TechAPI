@@ -1,6 +1,7 @@
 {
-  "id": 3675,
+  "id": 17588,
   "slug": "honor-8x-premium-edition-dual-sim-td-lte-cn-64gb-jsn-al00a",
+  "base_model_slug": null,
   "name": "Honor 8X Premium Edition Dual SIM TD-LTE CN 64GB JSN-AL00a",
   "brand": {
     "id": 25,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 705,
+    "id": 838,
     "slug": "kirin-710",
     "name": "Kirin 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2340",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 16.2,
-    "performance": 1.5,
-    "camera": 7.5,
-    "battery": 11.2,
-    "display": 44.6,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 26.9,
+    "performance": 23.9,
+    "camera": 8.7,
+    "battery": 27.5,
+    "display": 47.5,
+    "value": null,
+    "perf": {
+      "index": 23.9,
+      "percentile": 30.2,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.436667",
-  "updated_at": "2026-06-19T02:27:14.436667"
+  "created_at": "2026-06-24T08:53:57.485857",
+  "updated_at": "2026-06-24T08:53:57.485870"
 }

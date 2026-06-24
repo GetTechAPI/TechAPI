@@ -1,6 +1,7 @@
 {
-  "id": 29951,
+  "id": 79221,
   "slug": "xiaomi-mi-max-dual-sim-td-lte-16gb-2016001-xiaomi-hydrogen",
+  "base_model_slug": null,
   "name": "Xiaomi Mi Max Dual SIM TD-LTE 16GB 2016001 (Xiaomi Hydrogen)",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 1895,
+    "id": 1602,
     "slug": "qualcomm-snapdragon-618-msm8956-snapdragon-650",
     "name": "Qualcomm Snapdragon 618 MSM8956 Snapdragon 650",
     "manufacturer": {
@@ -19,7 +20,7 @@
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown",
+    "gpu_name": "Adreno 510",
     "url": "/v1/socs/qualcomm-snapdragon-618-msm8956-snapdragon-650"
   },
   "release_date": "2016-07-03",
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.44,
     "resolution": "1080x1920",
@@ -47,18 +49,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 33.5,
+    "algorithm_version": "2.0.0",
+    "overall": 38.2,
     "performance": null,
     "camera": null,
-    "battery": 27.8,
-    "display": 39.2,
-    "value": null
+    "battery": 33.5,
+    "display": 42.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://phonedb.net/index.php?m=device&id=10408"
   ],
-  "created_at": "2026-06-19T09:44:31.205966",
-  "updated_at": "2026-06-19T09:44:31.205966"
+  "created_at": "2026-06-24T08:54:23.672754",
+  "updated_at": "2026-06-24T08:54:23.672767"
 }

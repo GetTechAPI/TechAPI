@@ -1,6 +1,7 @@
 {
-  "id": 15745,
+  "id": 82912,
   "slug": "redmi-note-10t-5g-standard-edition-dual-sim-td-lte-in-64gb-m2103k19i",
+  "base_model_slug": null,
   "name": "Redmi Note 10T 5G Standard Edition Dual SIM TD-LTE IN 64GB M2103K19I",
   "brand": {
     "id": 53,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/xiaomi"
   },
   "soc": {
-    "id": 998,
+    "id": 1186,
     "slug": "dimensity-700",
     "name": "Dimensity 700",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.5,
     "resolution": "1080x2400",
@@ -60,18 +62,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 21.9,
-    "performance": 0.0,
-    "camera": 16.5,
-    "battery": 30.6,
-    "display": 40.5,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 36.1,
+    "performance": 34.5,
+    "camera": 17.5,
+    "battery": 51.8,
+    "display": 40.8,
+    "value": null,
+    "perf": {
+      "index": 34.5,
+      "percentile": 33.2,
+      "tier": "D",
+      "era": "2020-2021",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:16.456852",
-  "updated_at": "2026-06-19T02:27:16.456852"
+  "created_at": "2026-06-24T08:54:24.953605",
+  "updated_at": "2026-06-24T08:54:24.953618"
 }

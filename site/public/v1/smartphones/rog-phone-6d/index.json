@@ -1,6 +1,7 @@
 {
-  "id": 1490,
+  "id": 7685,
   "slug": "rog-phone-6d",
+  "base_model_slug": null,
   "name": "ROG Phone 6D",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1049,
+    "id": 1249,
     "slug": "dimensity-9000-plus",
     "name": "Dimensity 9000+",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     256
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.78,
     "resolution": "1080x2448",
@@ -64,18 +66,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 49.6,
+    "algorithm_version": "2.0.0",
+    "overall": 53.1,
     "performance": null,
-    "camera": 17.2,
-    "battery": 69.5,
-    "display": 62.0,
-    "value": null
+    "camera": 18.2,
+    "battery": 76.3,
+    "display": 64.9,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2022-2023",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.048896",
-  "updated_at": "2026-06-19T02:27:14.048896"
+  "created_at": "2026-06-24T08:53:53.023844",
+  "updated_at": "2026-06-24T08:53:53.023856"
 }

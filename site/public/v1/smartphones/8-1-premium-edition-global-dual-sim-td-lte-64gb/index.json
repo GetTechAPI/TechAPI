@@ -1,6 +1,7 @@
 {
-  "id": 8228,
+  "id": 40736,
   "slug": "8-1-premium-edition-global-dual-sim-td-lte-64gb",
+  "base_model_slug": null,
   "name": "8.1 Premium Edition Global Dual SIM TD-LTE 64GB",
   "brand": {
     "id": 67,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 1294,
+    "id": 1652,
     "slug": "snapdragon-710",
     "name": "Snapdragon 710",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     64
   ],
+  "variant": {},
   "display": {
     "size_inch": 6.18,
     "resolution": "1080x2280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 20.0,
-    "performance": 21.5,
-    "camera": 5.1,
-    "battery": 7.5,
-    "display": 45.8,
-    "value": null
+    "algorithm_version": "2.0.0",
+    "overall": 35.5,
+    "performance": 58.7,
+    "camera": 6.3,
+    "battery": 28.3,
+    "display": 48.5,
+    "value": null,
+    "perf": {
+      "index": 58.7,
+      "percentile": 84.6,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:15.215514",
-  "updated_at": "2026-06-19T02:27:15.215514"
+  "created_at": "2026-06-24T08:54:07.265242",
+  "updated_at": "2026-06-24T08:54:07.265278"
 }

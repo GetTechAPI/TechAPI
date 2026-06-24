@@ -1,6 +1,7 @@
 {
-  "id": 5660,
+  "id": 28750,
   "slug": "l158vl-rebel-3-lte",
+  "base_model_slug": null,
   "name": "L158VL Rebel 3 LTE",
   "brand": {
     "id": 110,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/lg"
   },
   "soc": {
-    "id": 1206,
+    "id": 1543,
     "slug": "snapdragon-210",
     "name": "Snapdragon 210",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     16
   ],
+  "variant": {},
   "display": {
     "size_inch": 5.0,
     "resolution": "480x854",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 13.3,
+    "algorithm_version": "2.0.0",
+    "overall": 16.7,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 10.0,
     "display": 35.0,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
   ],
-  "created_at": "2026-06-19T02:27:14.726952",
-  "updated_at": "2026-06-19T02:27:14.726952"
+  "created_at": "2026-06-24T08:54:02.443039",
+  "updated_at": "2026-06-24T08:54:02.443051"
 }

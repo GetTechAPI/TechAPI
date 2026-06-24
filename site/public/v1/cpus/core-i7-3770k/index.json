@@ -24,6 +24,24 @@
   "integrated_graphics": "Intel HD Graphics 4000",
   "memory_support": "DDR3-1600 dual-channel",
   "msrp_usd": 332,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 30.0,
+    "single": {
+      "index": 40.6,
+      "percentile": 62.0,
+      "tier": "B",
+      "era": "2010-2013",
+      "source": "cinebench_r23_single"
+    },
+    "multi": {
+      "index": 21.3,
+      "percentile": 43.7,
+      "tier": "C",
+      "era": "2010-2013",
+      "source": "cinebench_r23_multi"
+    }
+  },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture)",
@@ -32,7 +50,7 @@
     "https://technical.city/en/cpu/Core-i7-3770K",
     "https://www.spec.org/cpu2006/results/"
   ],
-  "created_at": "2026-06-19T02:27:18.221306",
-  "updated_at": "2026-06-19T02:27:18.221306",
+  "created_at": "2026-06-24T08:54:41.084878",
+  "updated_at": "2026-06-24T08:54:41.084889",
   "url": "/v1/cpus/core-i7-3770k"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 8750,
+  "id": 17843,
   "slug": "huawei-nova-3-6gb-128gb-4g-lte",
   "base_model_slug": "nova-3",
   "name": "Huawei nova 3",
@@ -11,7 +11,7 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 836,
+    "id": 837,
     "slug": "kirin-970",
     "name": "Kirin 970",
     "manufacturer": {
@@ -64,18 +64,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 18.6,
-    "performance": 26.0,
+    "algorithm_version": "2.0.0",
+    "overall": 46.1,
+    "performance": 61.5,
     "camera": null,
-    "battery": 11.2,
+    "battery": 30.8,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": 61.5,
+      "percentile": 90.0,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
-  "created_at": "2026-06-20T12:45:11.368237",
-  "updated_at": "2026-06-20T12:45:11.368237"
+  "created_at": "2026-06-24T08:53:57.572464",
+  "updated_at": "2026-06-24T08:53:57.572477"
 }

@@ -1,6 +1,7 @@
 {
-  "id": 1243,
+  "id": 6197,
   "slug": "padfone-e",
+  "base_model_slug": null,
   "name": "PadFone E",
   "brand": {
     "id": 130,
@@ -10,7 +11,7 @@
     "url": "/v1/brands/asus"
   },
   "soc": {
-    "id": 1231,
+    "id": 1572,
     "slug": "qualcomm-snapdragon-400",
     "name": "Qualcomm Snapdragon 400",
     "manufacturer": {
@@ -28,6 +29,7 @@
   "storage_options_gb": [
     1
   ],
+  "variant": {},
   "display": {
     "size_inch": 4.7,
     "resolution": "720x1280",
@@ -59,18 +61,25 @@
   "image_url": null,
   "images": [],
   "score": {
-    "algorithm_version": "1.0.0",
-    "overall": 2.6,
+    "algorithm_version": "2.0.0",
+    "overall": 4.9,
     "performance": null,
-    "camera": 5.3,
-    "battery": 0.0,
+    "camera": 6.6,
+    "battery": 3.2,
     "display": null,
-    "value": null
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-19T02:27:14.003868",
-  "updated_at": "2026-06-19T02:27:14.003868"
+  "created_at": "2026-06-24T08:53:52.481004",
+  "updated_at": "2026-06-24T08:53:52.481017"
 }

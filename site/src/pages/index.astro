@@ -4,6 +4,7 @@ import "../styles/techapi.css";
 const raw = import.meta.env.BASE_URL;
 const base = raw.endsWith("/") ? raw : raw + "/";
 const ghUrl = "https://github.com/GetTechAPI/TechAPI";
+const engineUrl = "https://github.com/GetTechAPI/TechEngine";
 
 const endpoints = [
   { label: "/v1/smartphones", desc: "List all phones", href: `${base}v1/smartphones/index.json` },
@@ -318,6 +319,7 @@ const endpoints = [
         </div>
       </div>
       <p class="foot-warn">⚠ Curated, growing dataset — not yet an exhaustive catalog of every device.</p>
+      <p class="foot-engine">Validated, scored &amp; served by <a href={engineUrl} target="_blank" rel="noopener"><span class="mark">T</span>TechEngine</a> — the open data + scoring engine.</p>
     </div>
   </footer>
 

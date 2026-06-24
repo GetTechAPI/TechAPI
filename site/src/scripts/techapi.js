@@ -88,7 +88,10 @@ async function loadList(resource) {
       let v = obj[k];
       if (v && typeof v === "object" && v.name) v = v.name;       // {name,slug} → name
       if (k === "display" && v) v = { size_inch: v.size_inch, refresh_hz: v.refresh_hz };
-      if (k === "score" && v) v = { overall: v.overall, performance: v.performance, camera: v.camera, cpu: v.cpu, gpu: v.gpu };
+      if (k === "score" && v) {
+        const ax = v.perf || v.multi || v.graphics || v.cpu || {};
+        v = { overall: v.overall, tier: ax.tier, index: ax.index, source: ax.source };
+      }
       out[k] = v;
     }
     return out;
@@ -563,8 +566,6 @@ if (resSel) populateSlugs("smartphones").then((items) => {
 /* ============================================================
    FEATURED DEVICES
    ============================================================ */
-const PREFERRED = ["galaxy-s26-ultra", "iphone-17-pro-max", "pixel-10-pro",
-  "oneplus-14", "xiaomi-15-ultra", "galaxy-z-fold-7"];
 
 function bar(label, v) {
   const w = v == null ? 0 : Math.round(v);
@@ -572,54 +573,103 @@ function bar(label, v) {
     <span class="sb-track"><span class="sb-fill" data-w="${w}"></span></span>
     <span class="sb-v">${v == null ? "—" : v}</span></div>`;
 }
-function deviceCard(d) {
+
+// Per-category card shape: spec chips, score bars (label + value), subtitle, and the
+// primary axis whose hybrid tier/era/source is surfaced as a badge + provenance line.
+const withUnit = (v, suffix = "") => (v == null ? null : `${v}${suffix}`);
+const CARD = {
+  smartphones: {
+    sub: (d) => d.soc?.name || "",
+    specs: (d) => [withUnit(d.ram_gb, "GB"), withUnit(d.battery_mah, "mAh"),
+      d.display?.size_inch ? `${d.display.size_inch}"` : null, withUnit(d.display?.refresh_hz, "Hz")],
+    bars: (sc) => [["Perf", sc.performance], ["Cam", sc.camera], ["Batt", sc.battery], ["Disp", sc.display]],
+    axis: (sc) => sc.perf,
+  },
+  cpus: {
+    sub: (d) => d.architecture || d.segment || "",
+    specs: (d) => [d.cores ? `${d.cores}C/${d.threads}T` : null, withUnit(d.boost_clock_ghz, "GHz"),
+      withUnit(d.tdp_w, "W"), d.process_node],
+    bars: (sc) => [["Single", sc.single?.index], ["Multi", sc.multi?.index]],
+    axis: (sc) => sc.multi,
+  },
+  gpus: {
+    sub: (d) => d.architecture || "",
+    specs: (d) => [withUnit(d.memory_gb, "GB"), d.memory_type, withUnit(d.tdp_w, "W"), withUnit(d.boost_clock_mhz, "MHz")],
+    bars: (sc) => [["Graphics", sc.graphics?.index]],
+    axis: (sc) => sc.graphics,
+  },
+  socs: {
+    sub: (d) => d.gpu_name || "",
+    specs: (d) => [withUnit(d.process_nm, "nm"), d.gpu_name, withUnit(d.gpu_cores, " GPU"), withUnit(d.npu_tops, " TOPS")],
+    bars: (sc) => [["CPU", sc.cpu?.index], ["System", sc.system?.index]],
+    axis: (sc) => sc.cpu,
+  },
+};
+const prettyBench = (s) => s ? s.replace(/_/g, " ").replace(/\b(cpu|gpu|g3d|fp32|r23|r15|r10|r11 5|2024)\b/gi,
+  (m) => m.toUpperCase()).replace(/\bcinebench\b/i, "Cinebench").replace(/\bgeekbench\b/i, "Geekbench")
+  .replace(/\bpassmark\b/i, "PassMark").replace(/\bantutu score\b/i, "AnTuTu").replace(/\btimespy\b/i, "Time Spy") : "";
+
+function deviceCard(d, category = "smartphones") {
+  const cfg = CARD[category] || CARD.smartphones;
   const sc = d.score || {};
   const overall = sc.overall == null ? "—" : Math.round(sc.overall);
-  const initial = (d.brand?.name || d.name || "?").charAt(0).toUpperCase();
-  const specs = [
-    d.ram_gb ? `${d.ram_gb}GB` : null,
-    d.battery_mah ? `${d.battery_mah}mAh` : null,
-    d.display?.size_inch ? `${d.display.size_inch}"` : null,
-    d.display?.refresh_hz ? `${d.display.refresh_hz}Hz` : null,
-  ].filter(Boolean);
+  const brandName = d.brand?.name || d.manufacturer?.name || "";
+  const initial = (brandName || d.name || "?").charAt(0).toUpperCase();
+  const specs = cfg.specs(d).filter(Boolean);
+  const axis = cfg.axis(sc) || {};
+  const tier = axis.tier ? `<span class="tier tier-${esc(axis.tier)}">${esc(axis.tier)}</span>` : "";
+  const era = axis.era ? `<span class="chip chip-era">${esc(axis.era)}</span>` : "";
+  const src = axis.source ? `<div class="card-src">via ${esc(prettyBench(axis.source))}</div>` : "";
   const el = document.createElement("article");
   el.className = "card"; el.dataset.slug = d.slug;
   el.innerHTML = `
     <div class="card-top">
       <div class="thumb"><span class="thumb-fallback">${esc(initial)}</span></div>
       <div class="card-id">
-        <div class="card-brand">${esc(d.brand?.name || "")}</div>
+        <div class="card-brand">${esc(brandName)}</div>
         <div class="card-name">${esc(d.name)}</div>
-        <div class="card-soc">${esc(d.soc?.name || "")}</div>
+        <div class="card-soc">${esc(cfg.sub(d))}</div>
       </div>
       <div class="ring" style="--p:${sc.overall || 0}"><b>${overall}</b><i>score</i></div>
     </div>
-    <div class="chips">${specs.map((s) => `<span class="chip">${esc(s)}</span>`).join("")}</div>
-    <div class="bars">${bar("Perf", sc.performance)}${bar("Cam", sc.camera)}${bar("Batt", sc.battery)}${bar("Disp", sc.display)}</div>`;
+    <div class="chips">${tier}${era}${specs.map((s) => `<span class="chip">${esc(s)}</span>`).join("")}</div>
+    <div class="bars">${cfg.bars(sc).map(([l, v]) => bar(l, v)).join("")}</div>${src}`;
   if (d.image_url) {
     const img = new Image();
     img.src = d.image_url; img.alt = d.name; img.loading = "lazy"; img.className = "thumb-img";
     img.onload = () => el.querySelector(".thumb").appendChild(img);
   }
   el.addEventListener("click", () => {
-    resSel.value = "smartphones"; slugIn.value = d.slug; run("smartphones", d.slug);
+    resSel.value = category; slugIn.value = d.slug; run(category, d.slug);
     document.getElementById("playground").scrollIntoView({ behavior: "smooth" });
   });
   return el;
 }
 
+// A cross-category showcase so the scoring is visible across phones + CPU + GPU + SoC.
+const FEATURED = [
+  { cat: "smartphones", slug: "galaxy-s26-ultra" },
+  { cat: "cpus", slug: "core-i9-14900k" },
+  { cat: "gpus", slug: "geforce-rtx-5090" },
+  { cat: "smartphones", slug: "iphone-17-pro-max" },
+  { cat: "socs", slug: "snapdragon-8-elite" },
+  { cat: "cpus", slug: "ryzen-9-7950x" },
+];
 (async function featured() {
   const cards = document.getElementById("cards");
   if (!cards) return;
   try {
-    const items = await loadList("smartphones");
-    const have = new Set(items.map((i) => i.slug));
-    let slugs = PREFERRED.filter((s) => have.has(s));
-    for (const it of items) { if (slugs.length >= 6) break; if (!slugs.includes(it.slug)) slugs.push(it.slug); }
-    const details = await Promise.all(slugs.slice(0, 6).map((s) =>
-      getJSON(`v1/smartphones/${s}/index.json`).catch(() => null)));
+    let picks = await Promise.all(FEATURED.map((f) =>
+      getJSON(`v1/${f.cat}/${f.slug}/index.json`).then((d) => ({ d, cat: f.cat })).catch(() => null)));
+    picks = picks.filter(Boolean);
+    if (!picks.length) {  // fallback: first few phones if the curated slugs are absent
+      const items = await loadList("smartphones");
+      const details = await Promise.all(items.slice(0, 6).map((it) =>
+        getJSON(`v1/smartphones/${it.slug}/index.json`).then((d) => ({ d, cat: "smartphones" })).catch(() => null)));
+      picks = details.filter(Boolean);
+    }
     cards.innerHTML = "";
-    details.filter(Boolean).forEach((d) => cards.appendChild(deviceCard(d)));
+    picks.forEach(({ d, cat }) => cards.appendChild(deviceCard(d, cat)));
     if (!cards.children.length) cards.innerHTML = '<p class="muted">Build the dataset to see featured devices.</p>';
     const obs = new IntersectionObserver((es) => es.forEach((e) => {
       if (!e.isIntersecting) return;

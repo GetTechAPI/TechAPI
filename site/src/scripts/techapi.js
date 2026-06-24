@@ -293,12 +293,9 @@ function countUp(node, target, opts = {}) {
       </a>`;
     }).join("");
 
-    // The chart already shows every sync; the list is the recent detail — cap it
-    // so the section stays compact, with a link to the full commit history.
-    const LIST_MAX = 8;
-    const recent = points.slice().reverse();
-    const shown = recent.slice(0, LIST_MAX);
-    const rows = shown.map((point) => {
+    // Show every sync (newest first), growth-first. The list scrolls (CSS
+    // max-height) so the full history stays reachable without a giant section.
+    listEl.innerHTML = points.slice().reverse().map((point) => {
       const changes = point.changes.length
         ? point.changes.map((row) => `${shortLabel[row.key]} ${formatDelta(row.delta)}`).join(", ")
         : (point.baseline ? "baseline snapshot" : `total ${formatDelta(point.delta)}`);
@@ -312,14 +309,7 @@ function countUp(node, target, opts = {}) {
         </a>
         <small>${esc(changes)}${tag ? ` · ${esc(tag)}` : ""}</small>
       </span></li>`;
-    });
-    const hidden = recent.length - shown.length;
-    if (hidden > 0) {
-      rows.push(`<li class="history-more"><span class="history-dot is-faint"></span><span>
-        <a href="https://github.com/GetTechAPI/TechAPI/commits/main/site/public/v1/index.json" target="_blank" rel="noopener">${hidden} earlier ${hidden === 1 ? "sync" : "syncs"} →</a>
-      </span></li>`);
-    }
-    listEl.innerHTML = rows.join("");
+    }).join("");
   }
 
   const fmtWhen = (date) => date

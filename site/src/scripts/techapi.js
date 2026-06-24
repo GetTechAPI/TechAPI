@@ -263,6 +263,20 @@ function countUp(node, target, opts = {}) {
     return "no change";
   }
 
+  // Most dump commits share one boilerplate title ("chore(site): refresh public
+  // dump for X import"). The timeline is about growth, not commit messages, so we
+  // strip the conventional-commit prefix and the dump-refresh boilerplate and keep
+  // only the distinctive bit (e.g. "GSMArena Kaggle"), or "" when there is none.
+  function shortTitle(raw) {
+    let t = String(raw || "").trim();
+    if (/^revert\b/i.test(t)) return "reverted";
+    t = t.replace(/^[a-z]+(\([^)]*\))?:\s*/i, "");           // drop "chore(site): "
+    const m = t.match(/\bdump\s+(?:for|after)\s+(.+?)(?:\s+imports?)?\s*$/i);
+    if (m) return m[1].trim();
+    if (/\b(refresh|regenerate|update)\b.*\bdump\b/i.test(t)) return ""; // pure boilerplate
+    return t;                                                // genuinely distinctive
+  }
+
   function renderHistory(points) {
     if (!points.length) throw new Error("empty history");
     const maxTotal = Math.max(...points.map((point) => point.total));
@@ -279,15 +293,33 @@ function countUp(node, target, opts = {}) {
       </a>`;
     }).join("");
 
-    listEl.innerHTML = points.slice().reverse().map((point) => {
+    // The chart already shows every sync; the list is the recent detail — cap it
+    // so the section stays compact, with a link to the full commit history.
+    const LIST_MAX = 8;
+    const recent = points.slice().reverse();
+    const shown = recent.slice(0, LIST_MAX);
+    const rows = shown.map((point) => {
       const changes = point.changes.length
         ? point.changes.map((row) => `${shortLabel[row.key]} ${formatDelta(row.delta)}`).join(", ")
         : (point.baseline ? "baseline snapshot" : `total ${formatDelta(point.delta)}`);
-      return `<li><span class="history-dot"></span><span>
-        <a href="${esc(point.url)}" target="_blank" rel="noopener">${esc(point.title)}</a>
-        <small>${esc(point.when)} - ${esc(point.sha)} - ${esc(changes)}</small>
+      const tag = shortTitle(point.title);
+      const delta = point.baseline ? "baseline" : formatDelta(point.delta);
+      return `<li><span class="history-dot"></span><span class="history-item">
+        <a class="history-head" href="${esc(point.url)}" target="_blank" rel="noopener">
+          <span class="history-when">${esc(point.when)}</span>
+          <b class="history-recs">${point.total.toLocaleString()}</b>
+          <span class="history-delta${point.delta < 0 ? " is-negative" : ""}">${esc(delta)}</span>
+        </a>
+        <small>${esc(changes)}${tag ? ` · ${esc(tag)}` : ""}</small>
       </span></li>`;
-    }).join("");
+    });
+    const hidden = recent.length - shown.length;
+    if (hidden > 0) {
+      rows.push(`<li class="history-more"><span class="history-dot is-faint"></span><span>
+        <a href="https://github.com/GetTechAPI/TechAPI/commits/main/site/public/v1/index.json" target="_blank" rel="noopener">${hidden} earlier ${hidden === 1 ? "sync" : "syncs"} →</a>
+      </span></li>`);
+    }
+    listEl.innerHTML = rows.join("");
   }
 
   const fmtWhen = (date) => date

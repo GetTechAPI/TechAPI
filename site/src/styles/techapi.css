@@ -326,18 +326,29 @@ code, .mono { font-family: var(--mono); }
     var(--surface-2);
 }
 .history-svg { display: block; width: 100%; height: 100%; }
-.history-cap {
-  position: absolute;
-  bottom: 8px;
-  font-family: var(--mono);
-  font-size: 10.5px;
-  color: var(--muted);
-  background: color-mix(in srgb, var(--surface-2) 72%, transparent);
-  padding: 1px 6px;
-  border-radius: 3px;
+.history-hover { position: absolute; inset: 0; pointer-events: none; z-index: 2; }
+.hh-line {
+  position: absolute; top: 0; bottom: 0; width: 1px;
+  background: color-mix(in srgb, var(--accent) 55%, transparent);
+  transform: translateX(-0.5px);
 }
-.history-cap-lo { left: 9px; }
-.history-cap-hi { right: 9px; color: var(--accent-text); }
+.hh-dot {
+  position: absolute; width: 10px; height: 10px; border-radius: 50%;
+  background: var(--accent); border: 2px solid var(--surface-2);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.hh-tip {
+  position: absolute; min-width: 130px; display: grid; gap: 2px;
+  padding: 8px 10px; border: 1px solid var(--border-strong); border-radius: 6px;
+  background: var(--surface); box-shadow: var(--code-shadow);
+  font-family: var(--mono); font-size: 11.5px; white-space: nowrap; line-height: 1.35;
+}
+.hh-tip b { font-size: 12.5px; color: var(--fg); }
+.hh-tip span { color: var(--muted); }
+.hh-tip .hh-delta { color: var(--accent-text); font-weight: 600; }
+.hh-tip .hh-delta.is-negative { color: var(--err); }
+.hh-tip .hh-chg { color: var(--faint); font-size: 10.5px; }
 .history-empty {
   position: absolute;
   inset: 0;

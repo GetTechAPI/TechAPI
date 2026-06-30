@@ -1,0 +1,50 @@
+{
+  "slug": "samsung-p1000-galaxy-tab-scrapegsma-8403",
+  "base_model_slug": "p1000-galaxy-tab",
+  "name": "Samsung P1000 Galaxy Tab",
+  "brand": "samsung",
+  "release_date": "2010-09-01",
+  "ram_gb": 0.5,
+  "battery_mah": 4000,
+  "weight_g": 380.0,
+  "os": "Android 2.2 (Froyo), upgradable to 2.3 (Gingerbread); TouchWiz UI",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 8403,
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM",
+    "model_numbers": [
+      "GT-P1000"
+    ]
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2010, September. Released 2010, October",
+    "launch_status": "Discontinued",
+    "memory_internal": "16/32 GB, 512 MB RAM",
+    "platform_chipset": "Hummingbird",
+    "platform_cpu": "1.0 GHz Cortex-A8",
+    "platform_gpu": "PowerVR SGX540",
+    "misc_models": "GT-P1000"
+  },
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600x1024",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "gps": "Yes, with A-GPS"
+  }
+}

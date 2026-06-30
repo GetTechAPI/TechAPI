@@ -1,0 +1,53 @@
+{
+  "slug": "huawei-mediapad-scrapegsma-4287",
+  "base_model_slug": "mediapad",
+  "name": "Huawei MediaPad",
+  "brand": "huawei",
+  "release_date": "2011-01-01",
+  "ram_gb": 1.0,
+  "battery_mah": 4100,
+  "weight_g": 390.0,
+  "os": "Android 3.2 (Honeycomb), upgradable to 4.0 (Ice Cream Sandwich)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 4287,
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Mini-SIM",
+    "model_numbers": [
+      "S7-301u",
+      "S7-302u",
+      "S7-303u"
+    ]
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2011, Q3",
+    "launch_status": "Discontinued",
+    "memory_internal": "8 GB, 1 GB RAM",
+    "platform_chipset": "Qualcomm MSM8260 Snapdragon S3",
+    "platform_cpu": "Dual-core 1.2 GHz Scorpion",
+    "platform_gpu": "Adreno 220",
+    "misc_models": "S7-301u, S7-302u, S7-303u"
+  },
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "800x1280",
+    "type": "IPS LCD capacitive touchscreen, 256K colors"
+  },
+  "storage_options_gb": [
+    1,
+    8
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "2.1, A2DP, EDR",
+    "gps": "Yes, with A-GPS"
+  }
+}

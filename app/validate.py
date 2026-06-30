@@ -148,6 +148,18 @@ def _check_source_urls(name: str, record: dict[str, Any], errors: list[str]) -> 
         errors.append(f"{name}: source_urls must be a non-empty list of http(s) URL strings")
 
 
+def _check_storage_options_gb(name: str, record: dict[str, Any], errors: list[str]) -> None:
+    values = record.get("storage_options_gb")
+    if values is None:
+        return
+    if not isinstance(values, list):
+        errors.append(f"{name}: storage_options_gb must be a list of integer GB values")
+        return
+    bad = [value for value in values if not isinstance(value, int) or value < 1]
+    if bad:
+        errors.append(f"{name}: storage_options_gb contains invalid integer GB values {bad}")
+
+
 def _check_variant_path(
     fname: str,
     rec: dict[str, Any],
@@ -285,6 +297,7 @@ def validate() -> list[str]:
                 errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
             if rec.get("soc") is not None and rec.get("soc") not in soc_slugs:
                 errors.append(f"{fname}: soc '{rec.get('soc')}' not a known SoC")
+            _check_storage_options_gb(fname, rec, errors)
             _check_variant_path(fname, rec, category, errors)
 
     for fname, rec in gpus:

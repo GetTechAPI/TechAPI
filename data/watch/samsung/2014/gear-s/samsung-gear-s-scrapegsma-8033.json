@@ -1,0 +1,57 @@
+{
+  "slug": "samsung-gear-s-scrapegsma-8033",
+  "base_model_slug": "gear-s",
+  "name": "Samsung Gear S",
+  "brand": "samsung",
+  "release_date": "2014-08-01",
+  "ram_gb": 0.5,
+  "battery_mah": 300,
+  "weight_g": 67.0,
+  "os": "Tizen-based wearable platform",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 8033,
+    "network": {
+      "cellular": "3G"
+    },
+    "sim": "Nano-SIM",
+    "model_numbers": [
+      "SM-R750",
+      "SM-R750A",
+      "SM-R750B",
+      "SM-R750C",
+      "SM-R750P",
+      "SM-R750R4",
+      "SM-R750T",
+      "SM-R750V"
+    ]
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2014, August",
+    "launch_status": "Available. Released 2014, October",
+    "memory_internal": "4 GB, 512 MB RAM",
+    "platform_chipset": "Qualcomm MSM8928 Snapdragon 400 (28 nm)",
+    "platform_cpu": "Dual-core 1.0 GHz Cortex-A7",
+    "platform_gpu": "Adreno 305",
+    "misc_models": "SM-R750, SM-R750A, SM-R750B, SM-R750C, SM-R750P, SM-R750R4, SM-R750T, SM-R750V, SM-R750W, SM-N910A, SM-N910V, SM-N915P, SM-N910T"
+  },
+  "display": {
+    "size_inch": 2.0,
+    "resolution": "360x480",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    4
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "bluetooth": "4.1, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS"
+  }
+}

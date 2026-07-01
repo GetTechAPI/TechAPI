@@ -1,0 +1,53 @@
+{
+  "slug": "htc-flyer-scrapegsma-3995",
+  "base_model_slug": "flyer",
+  "name": "HTC Flyer",
+  "brand": "htc",
+  "release_date": "2011-02-01",
+  "ram_gb": 1,
+  "battery_mah": 4000,
+  "weight_g": 420.8,
+  "os": "Android 2.3.3 (Gingerbread), upgradable to 3.2 (Honeycomb); Sense UI",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "qualcomm-msm8255t-snapdragon-s2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 3995,
+    "sim": "Mini-SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2011, February. Released 2011, May",
+    "launch_status": "Discontinued",
+    "memory_internal": "16/32 GB, 1 GB RAM",
+    "platform_chipset": "Qualcomm MSM8255T Snapdragon S2",
+    "platform_cpu": "1.5 GHz Scorpion",
+    "platform_gpu": "Adreno 205",
+    "misc_models": ""
+  },
+  "display": {
+    "size_inch": 7.0,
+    "resolution": "600x1024",
+    "type": "LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, DLNA, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "gps": "Yes, with A-GPS",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF"
+    }
+  ]
+}

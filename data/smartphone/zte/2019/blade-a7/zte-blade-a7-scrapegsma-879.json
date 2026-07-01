@@ -1,0 +1,53 @@
+{
+  "slug": "zte-blade-a7-scrapegsma-879",
+  "base_model_slug": "blade-a7",
+  "name": "ZTE Blade A7",
+  "brand": "zte",
+  "release_date": "2019-05-01",
+  "ram_gb": 3,
+  "battery_mah": 3200,
+  "weight_g": 146.0,
+  "os": "Android 9.0 (Pie), MiFavor 9.0",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "helio-p60",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 879,
+    "sim": "Dual SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM / CDMA / HSPA / LTE",
+    "launch_announced": "2019, May",
+    "launch_status": "Available. Released 2019, May",
+    "memory_internal": "32GB 2GB RAM, 64GB 3GB RAM",
+    "platform_chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+    "platform_cpu": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+    "platform_gpu": "Mali-G72 MP3",
+    "misc_models": "A7000"
+  },
+  "display": {
+    "size_inch": 6.01,
+    "resolution": "720x1560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS, BDS",
+    "usb": "microUSB 2.0, USB On-The-Go"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "16 MP, f/2.0, AF"
+    }
+  ]
+}

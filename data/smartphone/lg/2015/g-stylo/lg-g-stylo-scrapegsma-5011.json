@@ -1,0 +1,54 @@
+{
+  "slug": "lg-g-stylo-scrapegsma-5011",
+  "base_model_slug": "g-stylo",
+  "name": "LG G Stylo",
+  "brand": "lg",
+  "release_date": "2015-05-01",
+  "ram_gb": 2,
+  "battery_mah": 3000,
+  "weight_g": 165.9,
+  "os": "Android 5.0 (Lollipop), upgradable to 6.0 (Marshmallow)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "snapdragon-410",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 5011,
+    "sim": "Micro-SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM / CDMA / HSPA / EVDO / LTE",
+    "launch_announced": "2015, May",
+    "launch_status": "Available. Released 2015, May",
+    "memory_internal": "8 GB, 1 GB RAM or 16 GB, 2 GB RAM",
+    "platform_chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+    "platform_cpu": "Quad-core 1.2 GHz Cortex-A53",
+    "platform_gpu": "Adreno 306",
+    "misc_models": "LGMS631, LGLS770, H634"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "720x1280",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    8,
+    16
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, WiFi Direct, hotspot",
+    "bluetooth": "4.1, A2DP",
+    "gps": "Yes, with A-GPS",
+    "nfc": "Yes (operator dependent)",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, laser AF, f/2.4"
+    }
+  ]
+}

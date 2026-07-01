@@ -1,0 +1,54 @@
+{
+  "slug": "meizu-mx2-scrapegsma-5601",
+  "base_model_slug": "mx2",
+  "name": "Meizu MX2",
+  "brand": "meizu",
+  "release_date": "2012-11-01",
+  "ram_gb": 2,
+  "battery_mah": 1800,
+  "weight_g": 142.0,
+  "os": "Android 4.1.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "exynos-4412",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 5601,
+    "sim": "Micro-SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2012, November. Released 2012, December",
+    "launch_status": "Discontinued",
+    "memory_internal": "16/32/64 GB, 2 GB RAM",
+    "platform_chipset": "Exynos 4412 Quad (32 nm)",
+    "platform_cpu": "Quad-core 1.6 GHz Cortex-A9",
+    "platform_gpu": "Mali-400MP4",
+    "misc_models": ""
+  },
+  "display": {
+    "size_inch": 4.4,
+    "resolution": "800x1280",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "usb": "microUSB 2.0 (MHL TV-out), USB Host"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF, f/2.4"
+    }
+  ]
+}

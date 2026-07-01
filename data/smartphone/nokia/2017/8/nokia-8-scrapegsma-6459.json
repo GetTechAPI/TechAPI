@@ -1,0 +1,54 @@
+{
+  "slug": "nokia-8-scrapegsma-6459",
+  "base_model_slug": "8",
+  "name": "Nokia 8",
+  "brand": "nokia",
+  "release_date": "2017-09-01",
+  "ram_gb": 6,
+  "battery_mah": 3090,
+  "weight_g": 160.0,
+  "os": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "snapdragon-835",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 6459,
+    "sim": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2017, September",
+    "launch_status": "Available. Released 2017, October",
+    "memory_internal": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+    "platform_chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+    "platform_cpu": "Octa-core (4x2.5 GHz Kryo & 4x1.8 GHz Kryo)",
+    "platform_gpu": "Adreno 540",
+    "misc_models": "TA-1004, TA-1012, TA-1052"
+  },
+  "display": {
+    "size_inch": 5.3,
+    "resolution": "1440x2560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "nfc": "Yes",
+    "usb": "3.1, Type-C 1.0 reversible connector"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 1.12µm, PDAF & laser AF, OIS  13 MP B/W, f/2.0, 1.12µm, PDAF & laser AF"
+    }
+  ]
+}

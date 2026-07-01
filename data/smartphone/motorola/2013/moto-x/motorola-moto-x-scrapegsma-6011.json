@@ -1,0 +1,55 @@
+{
+  "slug": "motorola-moto-x-scrapegsma-6011",
+  "base_model_slug": "moto-x",
+  "name": "Motorola Moto X",
+  "brand": "motorola",
+  "release_date": "2013-08-01",
+  "ram_gb": 2,
+  "battery_mah": 2200,
+  "weight_g": 130.0,
+  "os": "Android 4.2.2 (Jelly Bean), upgradable to 5.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "qualcomm-msm8960dt-snapdragon-s4-pro",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 6011,
+    "sim": "Nano-SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2013, August",
+    "launch_status": "Available. Released 2013, August",
+    "memory_internal": "16/32/64 GB, 2 GB RAM",
+    "platform_chipset": "Qualcomm MSM8960DT Snapdragon S4 Pro",
+    "platform_cpu": "Dual-core 1.7 GHz Krait 300",
+    "platform_gpu": "Adreno 320",
+    "misc_models": "XT1058, XT1053, XT1052, XT1056, XT1060, XT1055"
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "720x1280",
+    "type": "AMOLED capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    16,
+    32,
+    64
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE, aptX",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, USB Host"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "10 MP, f/2.4, 30mm (standard), 1/2.6\", 1.4µm, AF"
+    }
+  ]
+}

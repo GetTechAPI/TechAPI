@@ -1,0 +1,54 @@
+{
+  "slug": "sony-xperia-p-scrapegsma-9242",
+  "base_model_slug": "xperia-p",
+  "name": "Sony Xperia P",
+  "brand": "sony",
+  "release_date": "2012-02-01",
+  "ram_gb": 1,
+  "battery_mah": 1305,
+  "weight_g": 120.0,
+  "os": "Android 2.3 (Gingerbread), upgradable to 4.1 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "novathor-u8500",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 9242,
+    "sim": "Micro-SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2012, February. Released 2012, May",
+    "launch_status": "Discontinued",
+    "memory_internal": "16 GB (13 GB user available), 1 GB RAM",
+    "platform_chipset": "NovaThor U8500",
+    "platform_cpu": "Dual-core 1.0 GHz Cortex-A9",
+    "platform_gpu": "Mali-400",
+    "misc_models": ""
+  },
+  "display": {
+    "size_inch": 4.0,
+    "resolution": "540x960",
+    "type": "LED-backlit LCD, capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    13,
+    16
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot, DLNA",
+    "bluetooth": "2.1, A2DP, EDR",
+    "gps": "Yes, with A-GPS",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, USB Host"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    }
+  ]
+}

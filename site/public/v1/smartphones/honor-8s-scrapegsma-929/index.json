@@ -1,0 +1,88 @@
+{
+  "id": 13916,
+  "slug": "honor-8s-scrapegsma-929",
+  "base_model_slug": "8s",
+  "name": "Honor 8S",
+  "brand": {
+    "id": 24,
+    "slug": "honor",
+    "name": "HONOR",
+    "country": "CN",
+    "url": "/v1/brands/honor"
+  },
+  "soc": {
+    "id": 1122,
+    "slug": "helio-a22",
+    "name": "Helio A22",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "IMG PowerVR GE8300",
+    "url": "/v1/socs/helio-a22"
+  },
+  "release_date": "2019-04-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 929,
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 5.71,
+    "resolution": "720x1520",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, PDAF"
+    }
+  ],
+  "battery_mah": 3020,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 146.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie), EMUI 9",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 19.4,
+    "performance": null,
+    "camera": null,
+    "battery": 19.4,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:32:57.428267",
+  "updated_at": "2026-07-01T02:32:57.428267"
+}

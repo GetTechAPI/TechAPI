@@ -1,0 +1,88 @@
+{
+  "id": 32094,
+  "slug": "meizu-pro-7-scrapegsma-5571",
+  "base_model_slug": "pro-7",
+  "name": "Meizu Pro 7",
+  "brand": {
+    "id": 33,
+    "slug": "meizu",
+    "name": "Meizu",
+    "country": "CN",
+    "url": "/v1/brands/meizu"
+  },
+  "soc": {
+    "id": 1112,
+    "slug": "mediatek-mt6757-helio-p25",
+    "name": "Mediatek MT6757 Helio P25",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 16.0,
+    "gpu_name": "Mali-T880MP2",
+    "url": "/v1/socs/mediatek-mt6757-helio-p25"
+  },
+  "release_date": "2017-07-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 5571,
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080x1920",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.0, 1/2.9\", 1.25µm, PDAF"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 163.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat); Flyme 6",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n or a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "usb": "Type-C 1.0 reversible connector"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:01.113147",
+  "updated_at": "2026-07-01T02:33:01.113147"
+}

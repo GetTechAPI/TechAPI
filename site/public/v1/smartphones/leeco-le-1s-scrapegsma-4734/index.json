@@ -1,0 +1,87 @@
+{
+  "id": 25499,
+  "slug": "leeco-le-1s-scrapegsma-4734",
+  "base_model_slug": "le-1s",
+  "name": "LeEco Le 1s",
+  "brand": {
+    "id": 30,
+    "slug": "leeco",
+    "name": "LeEco",
+    "country": "CN",
+    "url": "/v1/brands/leeco"
+  },
+  "soc": {
+    "id": 1078,
+    "slug": "mediatek-helio-x10-mt6795",
+    "name": "MediaTek Helio X10 MT6795",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR G6200",
+    "url": "/v1/socs/mediatek-helio-x10-mt6795"
+  },
+  "release_date": "2016-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 4734,
+    "sim": "Dual SIM (Micro-SIM/Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1080x1920",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 5.0 (Lollipop) - LeEco Le 1sAndroid 6.0 (Marshmallow) - LeEco Le 1s Eco",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "usb": "Type-C 1.0 reversible connector (MHL2 TV-out)"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 15.0,
+    "performance": null,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2014-2016",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:32:59.695441",
+  "updated_at": "2026-07-01T02:32:59.695441"
+}

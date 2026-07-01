@@ -1,0 +1,83 @@
+{
+  "id": 82113,
+  "slug": "xiaomi-redmi-s2-redmi-y2-scrapegsma-10181",
+  "base_model_slug": "redmi-s2-redmi-y2",
+  "name": "Xiaomi Redmi S2 (Redmi Y2)",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 1611,
+    "slug": "snapdragon-625",
+    "name": "Snapdragon 625",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Qualcomm Adreno 506",
+    "url": "/v1/socs/snapdragon-625"
+  },
+  "release_date": "2018-05-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 10181,
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 5.99,
+    "resolution": "720x1440",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 3080,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 170.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), planned upgrade to Android 9.0 (Pie); MIUI 10",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 15.8,
+    "performance": null,
+    "camera": null,
+    "battery": 15.8,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:11.718125",
+  "updated_at": "2026-07-01T02:33:11.718125"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 18537,
+  "slug": "huawei-nova-3i-scrapegsma-4111",
+  "base_model_slug": "nova-3i",
+  "name": "Huawei nova 3i",
+  "brand": {
+    "id": 25,
+    "slug": "huawei",
+    "name": "Huawei",
+    "country": "CN",
+    "url": "/v1/brands/huawei"
+  },
+  "soc": {
+    "id": 838,
+    "slug": "kirin-710",
+    "name": "Kirin 710",
+    "manufacturer": {
+      "slug": "huawei",
+      "name": "Huawei",
+      "url": "/v1/brands/huawei"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G51 MP4",
+    "url": "/v1/socs/kirin-710"
+  },
+  "release_date": "2018-07-01",
+  "msrp_usd": null,
+  "ram_gb": 4,
+  "storage_options_gb": [
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 4111,
+    "sim": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.3,
+    "resolution": "1080x2340",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 3340,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 169.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); EMUI 9.0",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE, EDR, aptX HD",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "usb": "microUSB 2.0, USB On-The-Go"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 22.6,
+    "performance": 22.6,
+    "camera": null,
+    "battery": 22.6,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": 22.6,
+      "percentile": 25.9,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:32:58.155976",
+  "updated_at": "2026-07-01T02:32:58.155976"
+}

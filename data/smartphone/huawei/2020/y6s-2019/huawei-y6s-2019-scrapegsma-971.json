@@ -1,0 +1,54 @@
+{
+  "slug": "huawei-y6s-2019-scrapegsma-971",
+  "base_model_slug": "y6s-2019",
+  "name": "Huawei Y6s (2019)",
+  "brand": "huawei",
+  "release_date": "2020-01-01",
+  "ram_gb": 3,
+  "battery_mah": 3020,
+  "weight_g": 150.0,
+  "os": "Android 9.0 (Pie), EMUI 9.1",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "helio-p35",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 971,
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2020, January 30",
+    "launch_status": "Available. Released 2020, May",
+    "memory_internal": "32GB 3GB RAM, 64GB 3GB RAM",
+    "platform_chipset": "Mediatek MT6765 Helio P35 (12nm)",
+    "platform_cpu": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+    "platform_gpu": "PowerVR GE8320",
+    "misc_models": "JAT-LX3, JAT-L29, JAT-LX1, JAT-L41"
+  },
+  "display": {
+    "size_inch": 6.09,
+    "resolution": "720x1560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "nfc": "Yes (JAT-LX1 NFC only)",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/1.8, PDAF"
+    }
+  ]
+}

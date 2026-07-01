@@ -1,0 +1,54 @@
+{
+  "slug": "honor-6-scrapegsma-3777",
+  "base_model_slug": "6",
+  "name": "Honor 6",
+  "brand": "honor",
+  "release_date": "2014-06-01",
+  "ram_gb": 3,
+  "battery_mah": 3100,
+  "weight_g": 130.0,
+  "os": "Android 4.4.2 (KitKat), upgradable to 6.0 (Marshmallow); EMUI 3.1",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "hisilicon-kirin-920",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 3777,
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2014, June",
+    "launch_status": "Available. Released 2014, August",
+    "memory_internal": "16/32 GB, 3 GB RAM",
+    "platform_chipset": "HiSilicon Kirin 920 (28 nm)",
+    "platform_cpu": "Octa-core (4x1.7 GHz Cortex-A15 & 4x1.3 GHz Cortex-A7)",
+    "platform_gpu": "Mali-T624MP4",
+    "misc_models": "H60-L02, H60-L01, H60-L12, H60-L04"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "1080x1920",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    16,
+    32
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band, hotspot/ DLNA (market dependent)",
+    "bluetooth": "4.0, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "nfc": "Yes (market/operator dependent)",
+    "usb": "microUSB 2.0, USB Host"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 28mm (wide), AF"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "samsung-galaxy-note-fe-scrapegsma-7896",
+  "base_model_slug": "galaxy-note-fe",
+  "name": "Samsung Galaxy Note FE",
+  "brand": "samsung",
+  "release_date": "2017-07-01",
+  "ram_gb": 4,
+  "battery_mah": 3200,
+  "weight_g": 167.0,
+  "os": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie); One UI",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "exynos-8890",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 7896,
+    "sim": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2017, July",
+    "launch_status": "Available. Released 2017, July",
+    "memory_internal": "64 GB, 4 GB RAM",
+    "platform_chipset": "Exynos 8890 Octa (14 nm)",
+    "platform_cpu": "Octa-core (4x2.3 GHz Mongoose & 4x1.6 GHz Cortex-A53)",
+    "platform_gpu": "Mali-T880 MP12",
+    "misc_models": "SM-N935F"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "1440x2560",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    64
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, EDR, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+    "nfc": "Yes",
+    "usb": "3.1, Type-C 1.0 reversible connector"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/1.7, 26mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF"
+    }
+  ]
+}

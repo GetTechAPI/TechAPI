@@ -1,0 +1,53 @@
+{
+  "slug": "samsung-galaxy-j3-2017-scrapegsma-7901",
+  "base_model_slug": "galaxy-j3-2017",
+  "name": "Samsung Galaxy J3 (2017)",
+  "brand": "samsung",
+  "release_date": "2017-06-01",
+  "ram_gb": 2,
+  "battery_mah": 2400,
+  "weight_g": 142.0,
+  "os": "Android 7.0 (Nougat), upgradable to Android 8.0 (Oreo)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "exynos-7570-quad",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 7901,
+    "sim": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2017, June",
+    "launch_status": "Available. Released 2017, July",
+    "memory_internal": "16 GB, 2 GB RAM",
+    "platform_chipset": "Exynos 7570 Quad (14 nm)",
+    "platform_cpu": "Quad-core 1.4 GHz Cortex-A53",
+    "platform_gpu": "Mali-T720 MP2",
+    "misc_models": "SM-J330F, J330F, J330G, SM-J330G, SM-J330FN, SM-J3308, SM-J327F, SM-S337TL"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "720x1280",
+    "type": "PLS capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "nfc": "Yes (optional)",
+    "usb": "microUSB 2.0, USB On-The-Go"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF, f/1.9"
+    }
+  ]
+}

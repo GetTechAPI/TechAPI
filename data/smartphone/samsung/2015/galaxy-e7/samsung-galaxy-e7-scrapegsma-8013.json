@@ -1,0 +1,53 @@
+{
+  "slug": "samsung-galaxy-e7-scrapegsma-8013",
+  "base_model_slug": "galaxy-e7",
+  "name": "Samsung Galaxy E7",
+  "brand": "samsung",
+  "release_date": "2015-01-01",
+  "ram_gb": 2,
+  "battery_mah": 2950,
+  "weight_g": 141.0,
+  "os": "Android 4.4.4 (KitKat), upgradable to 5.1.1 (Lollipop)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "snapdragon-410",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 8013,
+    "sim": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2015, January",
+    "launch_status": "Available. Released 2015, February",
+    "memory_internal": "16 GB, 2 GB RAM",
+    "platform_chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
+    "platform_cpu": "Quad-core 1.2 GHz Cortex-A53",
+    "platform_gpu": "Adreno 306",
+    "misc_models": "SM-E7000, SM-E7009, SM-E700F, SM-E700F, SM-E700H, SM-E700H/DD, SM-E700H, SM-E700M, SM-E700M"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "720x1280",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "nfc": "Yes (LTE model)",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.1, 27mm (wide), AF"
+    }
+  ]
+}

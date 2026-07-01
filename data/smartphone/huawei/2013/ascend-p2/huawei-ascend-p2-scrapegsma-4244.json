@@ -1,0 +1,53 @@
+{
+  "slug": "huawei-ascend-p2-scrapegsma-4244",
+  "base_model_slug": "ascend-p2",
+  "name": "Huawei Ascend P2",
+  "brand": "huawei",
+  "release_date": "2013-02-01",
+  "ram_gb": 1,
+  "battery_mah": 2420,
+  "weight_g": 122.0,
+  "os": "Android 4.1.2 (Jelly Bean); EMUI 1.6",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "huawei-k3v2",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 4244,
+    "sim": "Micro-SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2013, February. Released 2013, April",
+    "launch_status": "Discontinued",
+    "memory_internal": "16 GB, 1 GB RAM",
+    "platform_chipset": "Huawei K3V2",
+    "platform_cpu": "Quad-core 1.5 GHz Cortex-A9",
+    "platform_gpu": "Vivante GC4000",
+    "misc_models": ""
+  },
+  "display": {
+    "size_inch": 4.7,
+    "resolution": "720x1280",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    16
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, dual band, DLNA, hotspot",
+    "bluetooth": "4.0, A2DP, EDR, LE",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    }
+  ]
+}

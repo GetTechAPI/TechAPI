@@ -1,0 +1,53 @@
+{
+  "slug": "samsung-galaxy-core-i8260-scrapegsma-8140",
+  "base_model_slug": "galaxy-core-i8260",
+  "name": "Samsung Galaxy Core I8260",
+  "brand": "samsung",
+  "release_date": "2013-05-01",
+  "ram_gb": 1,
+  "battery_mah": 1800,
+  "weight_g": 124.0,
+  "os": "Android 4.1.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "qualcomm-msm8225-snapdragon-s4-play",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 8140,
+    "sim": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2013, May",
+    "launch_status": "Available. Released 2013, June",
+    "memory_internal": "8 GB (4.5 GB user available), 1 GB RAM",
+    "platform_chipset": "Qualcomm MSM8225 Snapdragon S4 Play",
+    "platform_cpu": "Dual-core 1.2 GHz Cortex-A5",
+    "platform_gpu": "Adreno 203",
+    "misc_models": "GT-I8260, GT-I8262"
+  },
+  "display": {
+    "size_inch": 4.3,
+    "resolution": "480x800",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    5,
+    8
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "3.0, A2DP",
+    "gps": "Yes, with A-GPS",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "5 MP, AF, f/2.6"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "huawei-p10-lite-scrapegsma-4154",
+  "base_model_slug": "p10-lite",
+  "name": "Huawei P10 Lite",
+  "brand": "huawei",
+  "release_date": "2017-02-01",
+  "ram_gb": 4,
+  "battery_mah": 3000,
+  "weight_g": 146.0,
+  "os": "Android 7.0 (Nougat), upgradable to Android 8.0 (Oreo); EMUI 8",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "hisilicon-kirin-658",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 4154,
+    "sim": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2017, February",
+    "launch_status": "Available. Released 2017, March",
+    "memory_internal": "64 GB, 4 GB RAM (Hong Kong only) or 32 GB, 3/4 GB",
+    "platform_chipset": "HiSilicon Kirin 658 (16 nm)",
+    "platform_cpu": "Octa-core (4x2.1 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)",
+    "platform_gpu": "Mali-T830 MP2",
+    "misc_models": "WAS-LX1, WAS-LX2, WAS-LX3, WAS-LX1A, WAS-LX2J, WAS-L03T, WAS-AL00, WAS-TL10"
+  },
+  "display": {
+    "size_inch": 5.2,
+    "resolution": "1080x1920",
+    "type": "LTPS IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    3,
+    4,
+    32,
+    64
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot (Western Europe, Korea)Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot (ROW)",
+    "bluetooth": "4.1, A2DP, EDR, LE",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "nfc": "Yes (WAS-LX1A, WAS-LX1)",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.2, 1/2.8\", 1.25µm, PDAF"
+    }
+  ]
+}

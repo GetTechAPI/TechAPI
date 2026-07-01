@@ -1,0 +1,87 @@
+{
+  "id": 81396,
+  "slug": "xiaomi-mi-5c-scrapegsma-10198",
+  "base_model_slug": "mi-5c",
+  "name": "Xiaomi Mi 5c",
+  "brand": {
+    "id": 53,
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "country": "CN",
+    "url": "/v1/brands/xiaomi"
+  },
+  "soc": {
+    "id": 714,
+    "slug": "xiaomi-surge-s1",
+    "name": "Xiaomi Surge S1",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Mali-T860MP4",
+    "url": "/v1/socs/xiaomi-surge-s1"
+  },
+  "release_date": "2017-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 10198,
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 5.15,
+    "resolution": "1080x1920",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "12 MP, f/2.2, 27mm (wide), 1.25µm, PDAF"
+    }
+  ],
+  "battery_mah": 2860,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 135.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1 (Nougat); MIUI 8",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.1, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "usb": "Type-C 1.0 reversible connector"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 13.6,
+    "performance": null,
+    "camera": null,
+    "battery": 13.6,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:11.619939",
+  "updated_at": "2026-07-01T02:33:11.619939"
+}

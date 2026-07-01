@@ -1,0 +1,83 @@
+{
+  "id": 76489,
+  "slug": "vivo-x21i-scrapegsma-9915",
+  "base_model_slug": "x21i",
+  "name": "vivo X21i",
+  "brand": {
+    "id": 52,
+    "slug": "vivo",
+    "name": "vivo",
+    "country": "CN",
+    "url": "/v1/brands/vivo"
+  },
+  "soc": {
+    "id": 1125,
+    "slug": "helio-p60",
+    "name": "Helio P60",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 12.0,
+    "gpu_name": "Mali-G72 MP3",
+    "url": "/v1/socs/helio-p60"
+  },
+  "release_date": "2018-05-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 9915,
+    "sim": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.28,
+    "resolution": "1080x2280",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 3425,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 159.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo); Funtouch 4",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "usb": "microUSB 2.0, USB On-The-Go"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 22.1,
+    "performance": 20.9,
+    "camera": null,
+    "battery": 23.4,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": 20.9,
+      "percentile": 22.5,
+      "tier": "D",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:10.832923",
+  "updated_at": "2026-07-01T02:33:10.832923"
+}

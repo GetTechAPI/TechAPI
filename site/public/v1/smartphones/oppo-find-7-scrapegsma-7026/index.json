@@ -1,0 +1,88 @@
+{
+  "id": 45048,
+  "slug": "oppo-find-7-scrapegsma-7026",
+  "base_model_slug": "find-7",
+  "name": "Oppo Find 7",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1545,
+    "slug": "snapdragon-801",
+    "name": "Snapdragon 801",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Adreno 330",
+    "url": "/v1/socs/snapdragon-801"
+  },
+  "release_date": "2014-03-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 7026,
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "size_inch": 5.5,
+    "resolution": "1440x2560",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, f/2.0, 1/3\", AF"
+    }
+  ],
+  "battery_mah": 3000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 171.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.3 (Jelly Bean); ColorOS",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, WiFi Direct, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "gps": "Yes, with A-GPS",
+    "nfc": "Yes",
+    "usb": "microUSB 2.0, USB Host"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 26.1,
+    "performance": 37.3,
+    "camera": null,
+    "battery": 15.0,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": 37.3,
+      "percentile": 39.7,
+      "tier": "D",
+      "era": "2014-2016",
+      "source": "geekbench"
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:04.416853",
+  "updated_at": "2026-07-01T02:33:04.416853"
+}

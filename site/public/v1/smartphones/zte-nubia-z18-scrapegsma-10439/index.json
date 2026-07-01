@@ -1,0 +1,83 @@
+{
+  "id": 90598,
+  "slug": "zte-nubia-z18-scrapegsma-10439",
+  "base_model_slug": "nubia-z18",
+  "name": "ZTE nubia Z18",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 1626,
+    "slug": "snapdragon-845",
+    "name": "Snapdragon 845",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/snapdragon-845"
+  },
+  "release_date": "2018-09-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64,
+    128
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 10439,
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 5.99,
+    "resolution": "1080x2160",
+    "type": "LTPS IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 3450,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 172.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo); nubia UI 6",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS, BDS",
+    "usb": "Type-C 1.0 reversible connector, USB On-The-Go"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 34.1,
+    "performance": 40.4,
+    "camera": null,
+    "battery": 27.8,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": 40.4,
+      "percentile": 51.7,
+      "tier": "C",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:13.510388",
+  "updated_at": "2026-07-01T02:33:13.510388"
+}

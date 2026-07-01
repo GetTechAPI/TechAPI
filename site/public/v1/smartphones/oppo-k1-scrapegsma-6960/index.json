@@ -1,0 +1,82 @@
+{
+  "id": 45801,
+  "slug": "oppo-k1-scrapegsma-6960",
+  "base_model_slug": "k1",
+  "name": "Oppo K1",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 1624,
+    "slug": "snapdragon-660",
+    "name": "Snapdragon 660",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 14.0,
+    "gpu_name": "Adreno 512",
+    "url": "/v1/socs/snapdragon-660"
+  },
+  "release_date": "2018-10-01",
+  "msrp_usd": null,
+  "ram_gb": 6,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 6960,
+    "sim": "Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.4,
+    "resolution": "1080x2340",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 3600,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 156.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 8.1 (Oreo); ColorOS 5.2",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 а/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "5.0, A2DP, LE",
+    "gps": "Yes, with A-GPS",
+    "usb": "microUSB 2.0, USB On-The-Go"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 38.6,
+    "performance": 56.2,
+    "camera": null,
+    "battery": 21.0,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": 56.2,
+      "percentile": 81.4,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:04.540820",
+  "updated_at": "2026-07-01T02:33:04.540820"
+}

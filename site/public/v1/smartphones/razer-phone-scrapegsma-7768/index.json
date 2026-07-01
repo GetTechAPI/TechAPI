@@ -1,0 +1,83 @@
+{
+  "id": 53908,
+  "slug": "razer-phone-scrapegsma-7768",
+  "base_model_slug": "phone",
+  "name": "Razer Phone",
+  "brand": {
+    "id": 125,
+    "slug": "razer",
+    "name": "Razer",
+    "country": "SG",
+    "url": "/v1/brands/razer"
+  },
+  "soc": {
+    "id": 1625,
+    "slug": "snapdragon-835",
+    "name": "Snapdragon 835",
+    "manufacturer": {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
+    },
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 540",
+    "url": "/v1/socs/snapdragon-835"
+  },
+  "release_date": "2017-11-01",
+  "msrp_usd": null,
+  "ram_gb": 8,
+  "storage_options_gb": [
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 7768,
+    "sim": "Nano-SIM"
+  },
+  "display": {
+    "size_inch": 5.7,
+    "resolution": "1440x2560",
+    "type": "IGZO IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 4000,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 197.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.1.1 (Nougat), upgradable to Android 8.1 (Oreo)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS",
+    "nfc": "Yes",
+    "usb": "Type-C 1.0 reversible connector"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 47.5,
+    "performance": 61.7,
+    "camera": null,
+    "battery": 33.3,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": 61.7,
+      "percentile": 91.0,
+      "tier": "A",
+      "era": "2017-2019",
+      "source": "geekbench"
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:06.169424",
+  "updated_at": "2026-07-01T02:33:06.169424"
+}

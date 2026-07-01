@@ -1,0 +1,87 @@
+{
+  "id": 44990,
+  "slug": "oppo-u705t-ulike-2-scrapegsma-7033",
+  "base_model_slug": "u705t-ulike-2",
+  "name": "Oppo U705T Ulike 2",
+  "brand": {
+    "id": 37,
+    "slug": "oppo",
+    "name": "OPPO",
+    "country": "CN",
+    "url": "/v1/brands/oppo"
+  },
+  "soc": {
+    "id": 998,
+    "slug": "mediatek-mt6517",
+    "name": "Mediatek MT6517",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR SGX531u",
+    "url": "/v1/socs/mediatek-mt6517"
+  },
+  "release_date": "2012-11-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 7033,
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "size_inch": 4.5,
+    "resolution": "540x960",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "8 MP, AF"
+    }
+  ],
+  "battery_mah": 2020,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 113.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP",
+    "gps": "Yes, with A-GPS",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 5.2,
+    "performance": null,
+    "camera": null,
+    "battery": 5.2,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-01T02:33:04.400199",
+  "updated_at": "2026-07-01T02:33:04.400199"
+}

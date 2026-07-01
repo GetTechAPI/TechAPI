@@ -1,0 +1,48 @@
+{
+  "slug": "mitac-mio-a501-scrapegsma-5911",
+  "base_model_slug": "mio-a501",
+  "name": "Mitac MIO A501",
+  "brand": "mitac",
+  "release_date": "2007-01-01",
+  "ram_gb": 0.062,
+  "battery_mah": 1050,
+  "weight_g": 135.0,
+  "os": "Windows Mobile 5 AKU3.3",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 5911,
+    "sim": "Mini-SIM"
+  },
+  "raw_source": {
+    "network_technology": "GSM",
+    "launch_announced": "2007, Q4",
+    "launch_status": "Cancelled",
+    "memory_internal": "256 MB, 64 MB RAM",
+    "platform_chipset": "TI OMAP 850",
+    "platform_cpu": "200 MHz ARM926EJ-S",
+    "platform_gpu": "",
+    "misc_models": ""
+  },
+  "display": {
+    "size_inch": 2.7,
+    "resolution": "240x320",
+    "type": "TFT resistive touchscreen, 256K colors"
+  },
+  "connectivity": {
+    "wlan": "No",
+    "bluetooth": "2.0, A2DP",
+    "gps": "Yes, SiRF Star III chipset",
+    "usb": "1.1"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "2 MP"
+    }
+  ]
+}

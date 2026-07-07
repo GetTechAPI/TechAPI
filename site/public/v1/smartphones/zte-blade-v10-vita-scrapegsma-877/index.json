@@ -1,0 +1,84 @@
+{
+  "id": 91628,
+  "slug": "zte-blade-v10-vita-scrapegsma-877",
+  "base_model_slug": "blade-v10-vita",
+  "name": "ZTE Blade V10 Vita",
+  "brand": {
+    "id": 55,
+    "slug": "zte",
+    "name": "ZTE",
+    "country": "CN",
+    "url": "/v1/brands/zte"
+  },
+  "soc": {
+    "id": 2081,
+    "slug": "unisoc-sc9863a",
+    "name": "Unisoc SC9863A",
+    "manufacturer": {
+      "slug": "unisoc",
+      "name": "UNISOC",
+      "url": "/v1/brands/unisoc"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "IMG8322",
+    "url": "/v1/socs/unisoc-sc9863a"
+  },
+  "release_date": "2019-02-01",
+  "msrp_usd": null,
+  "ram_gb": 3,
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 877,
+    "sim": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "display": {
+    "size_inch": 6.26,
+    "resolution": "720x1520",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [],
+  "battery_mah": 3200,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 150.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 9.0 (Pie)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "nfc": "Yes (64/3GB model only)",
+    "usb": "microUSB 2.0, USB On-The-Go"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 17.0,
+    "performance": null,
+    "camera": null,
+    "battery": 17.0,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-07T08:24:43.728653",
+  "updated_at": "2026-07-07T08:24:43.728653"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 5964,
+  "slug": "archos-50-oxygen-scrapegsma-2446",
+  "base_model_slug": "50-oxygen",
+  "name": "Archos 50 Oxygen",
+  "brand": {
+    "id": 68,
+    "slug": "archos",
+    "name": "Archos",
+    "country": "FR",
+    "url": "/v1/brands/archos"
+  },
+  "soc": {
+    "id": 1016,
+    "slug": "mediatek-mt6589t",
+    "name": "Mediatek MT6589T",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "PowerVR SGX544MP2",
+    "url": "/v1/socs/mediatek-mt6589t"
+  },
+  "release_date": "2013-01-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 2446,
+    "sim": "Micro-SIM"
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "1080x1920",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13.4 MP, AF"
+    }
+  ],
+  "battery_mah": 2300,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 130.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot, Wi-Fi Direct, DLNA",
+    "bluetooth": "4.0, A2DP, EDR",
+    "gps": "Yes, with A-GPS",
+    "usb": "microUSB 2.0 (MHL TV-out), USB Host"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 8.0,
+    "performance": null,
+    "camera": null,
+    "battery": 8.0,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2010-2013",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-07T08:24:19.834963",
+  "updated_at": "2026-07-07T08:24:19.834963"
+}

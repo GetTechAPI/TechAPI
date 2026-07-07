@@ -1,0 +1,87 @@
+{
+  "id": 74895,
+  "slug": "tecno-pop-1-pro-scrapegsma-9626",
+  "base_model_slug": "pop-1-pro",
+  "name": "TECNO Pop 1 Pro",
+  "brand": {
+    "id": 47,
+    "slug": "tecno",
+    "name": "Tecno Mobile",
+    "country": "CN",
+    "url": "/v1/brands/tecno"
+  },
+  "soc": {
+    "id": 1139,
+    "slug": "mediatek-mt6580w",
+    "name": "Mediatek MT6580W",
+    "manufacturer": {
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-400MP2",
+    "url": "/v1/socs/mediatek-mt6580w"
+  },
+  "release_date": "2018-06-01",
+  "msrp_usd": null,
+  "ram_gb": 1,
+  "storage_options_gb": [
+    16
+  ],
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 9626,
+    "sim": "Dual SIM"
+  },
+  "display": {
+    "size_inch": 5.45,
+    "resolution": "480x960",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    }
+  ],
+  "battery_mah": 2400,
+  "charging_wired_w": null,
+  "charging_wireless_w": null,
+  "weight_g": 140.0,
+  "dimensions": {},
+  "ip_rating": null,
+  "os": "Android 7.0 (Nougat)",
+  "os_version": null,
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, hotspot",
+    "bluetooth": "4.0, A2DP, LE",
+    "gps": "Yes, with A-GPS",
+    "usb": "microUSB 2.0"
+  },
+  "image_url": null,
+  "images": [],
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": 9.0,
+    "performance": null,
+    "camera": null,
+    "battery": 9.0,
+    "display": null,
+    "value": null,
+    "perf": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2017-2019",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "created_at": "2026-07-07T08:24:38.370079",
+  "updated_at": "2026-07-07T08:24:38.370079"
+}

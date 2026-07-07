@@ -1,0 +1,48 @@
+{
+  "slug": "zte-blade-v10-vita-scrapegsma-877",
+  "base_model_slug": "blade-v10-vita",
+  "name": "ZTE Blade V10 Vita",
+  "brand": "zte",
+  "release_date": "2019-02-01",
+  "ram_gb": 3,
+  "battery_mah": 3200,
+  "weight_g": 150.0,
+  "os": "Android 9.0 (Pie)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "unisoc-sc9863a",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 877,
+    "sim": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA / LTE",
+    "launch_announced": "2019, February",
+    "launch_status": "Available. Released 2019, March",
+    "memory_internal": "32GB 2GB RAM, 64GB 3GB RAM",
+    "platform_chipset": "Unisoc SC9863A (28nm)",
+    "platform_cpu": "Octa-core (4x1.6 GHz Cortex-A55 & 4x1.2 GHz Cortex-A55)",
+    "platform_gpu": "IMG8322",
+    "misc_models": ""
+  },
+  "display": {
+    "size_inch": 6.26,
+    "resolution": "720x1520",
+    "type": "IPS LCD capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    32,
+    64
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+    "bluetooth": "4.2, A2DP, LE",
+    "gps": "Yes, with A-GPS, GLONASS",
+    "nfc": "Yes (64/3GB model only)",
+    "usb": "microUSB 2.0, USB On-The-Go"
+  }
+}

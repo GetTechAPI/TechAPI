@@ -1,0 +1,52 @@
+{
+  "slug": "philips-w8560-scrapegsma-7288",
+  "base_model_slug": "w8560",
+  "name": "Philips W8560",
+  "brand": "philips",
+  "release_date": "2013-09-01",
+  "ram_gb": 2,
+  "battery_mah": 3300,
+  "weight_g": 158.0,
+  "os": "Android 4.2 (Jelly Bean)",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/cigarplug/scrape-gsma"
+  ],
+  "soc": "mediatek-mt6589",
+  "variant": {
+    "region": "global",
+    "source_dataset": "cigarplug/scrape-gsma",
+    "source_row": 7288,
+    "sim": "Dual SIM (Mini-SIM, dual stand-by)"
+  },
+  "raw_source": {
+    "network_technology": "GSM / HSPA",
+    "launch_announced": "2013, September. Released 2013, October",
+    "launch_status": "Discontinued",
+    "memory_internal": "32 GB, 2 GB RAM",
+    "platform_chipset": "Mediatek MT6589 (28 nm)",
+    "platform_cpu": "Quad-core 1.5 GHz Cortex-A7",
+    "platform_gpu": "PowerVR SGX544",
+    "misc_models": ""
+  },
+  "display": {
+    "size_inch": 5.0,
+    "resolution": "1080x1920",
+    "type": "TFT capacitive touchscreen, 16M colors"
+  },
+  "storage_options_gb": [
+    32
+  ],
+  "connectivity": {
+    "wlan": "Wi-Fi 802.11 b/g",
+    "bluetooth": "4.0, A2DP, LE",
+    "gps": "Yes, with A-GPS",
+    "usb": "microUSB 2.0"
+  },
+  "cameras": [
+    {
+      "type": "main",
+      "raw": "13 MP, AF"
+    }
+  ]
+}

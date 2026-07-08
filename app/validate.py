@@ -94,6 +94,17 @@ LAPTOP_REQUIRED = {
     "verified",
 }
 
+MONITOR_REQUIRED = {
+    "slug",
+    "name",
+    "brand",
+    "release_date",
+    "size_inch",
+    "resolution",
+    "source_urls",
+    "verified",
+}
+
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
@@ -217,6 +228,7 @@ def validate() -> list[str]:
     gpus = _load("gpu")
     cpus = _load("cpu")
     laptops = _load("laptop")
+    monitors = _load("monitor")
 
     brand_slugs = {rec["slug"] for _, rec in brands if "slug" in rec}
     soc_slugs = {rec["slug"] for _, rec in socs if "slug" in rec}
@@ -233,6 +245,7 @@ def validate() -> list[str]:
         ("gpu", gpus),
         ("cpu", cpus),
         ("laptop", laptops),
+        ("monitor", monitors),
     ):
         _check_unique_slugs(category, records, errors)
 
@@ -365,6 +378,24 @@ def validate() -> list[str]:
         if rec.get("gpu") is not None and rec.get("gpu") not in gpu_slugs:
             errors.append(f"{fname}: gpu '{rec.get('gpu')}' not a known GPU")
         _check_variant_path(fname, rec, "laptop", errors, allow_flat=True)
+
+    for fname, rec in monitors:
+        _check_required(fname, rec, MONITOR_REQUIRED, errors)
+        _check_source_urls(fname, rec, errors)
+        _check_slug(fname, rec.get("slug"), errors)
+        if "release_date" in rec:
+            _check_date(fname, rec["release_date"], errors)
+        _check_range(fname, "size_inch", rec.get("size_inch"), 5, 120, errors)
+        _check_range(fname, "refresh_hz", rec.get("refresh_hz"), 24, 1000, errors)
+        if rec.get("ppi") is not None:
+            _check_range(fname, "ppi", rec.get("ppi"), 20, 1000, errors)
+        if rec.get("rating") is not None:
+            _check_range(fname, "rating", rec.get("rating"), 0, 5, errors)
+        if "msrp_usd" in rec:
+            _check_range(fname, "msrp_usd", rec["msrp_usd"], 10, 50000, errors)
+        if rec.get("brand") not in brand_slugs:
+            errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
+        _check_variant_path(fname, rec, "monitor", errors, allow_flat=True)
 
     return errors
 

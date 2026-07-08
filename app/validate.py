@@ -83,6 +83,17 @@ CPU_REQUIRED = {
     "threads",
 }
 
+LAPTOP_REQUIRED = {
+    "slug",
+    "name",
+    "brand",
+    "release_date",
+    "ram_gb",
+    "os",
+    "source_urls",
+    "verified",
+}
+
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
@@ -205,9 +216,12 @@ def validate() -> list[str]:
     pdas = _load("pda")
     gpus = _load("gpu")
     cpus = _load("cpu")
+    laptops = _load("laptop")
 
     brand_slugs = {rec["slug"] for _, rec in brands if "slug" in rec}
     soc_slugs = {rec["slug"] for _, rec in socs if "slug" in rec}
+    cpu_slugs = {rec["slug"] for _, rec in cpus if "slug" in rec}
+    gpu_slugs = {rec["slug"] for _, rec in gpus if "slug" in rec}
 
     for category, records in (
         ("brand", brands),
@@ -218,6 +232,7 @@ def validate() -> list[str]:
         ("pda", pdas),
         ("gpu", gpus),
         ("cpu", cpus),
+        ("laptop", laptops),
     ):
         _check_unique_slugs(category, records, errors)
 
@@ -329,6 +344,27 @@ def validate() -> list[str]:
             errors.append(f"{fname}: segment '{seg}' not in {sorted(valid_segments)}")
         if rec.get("manufacturer") not in brand_slugs:
             errors.append(f"{fname}: manufacturer '{rec.get('manufacturer')}' not a known brand")
+
+    for fname, rec in laptops:
+        _check_required(fname, rec, LAPTOP_REQUIRED, errors)
+        _check_source_urls(fname, rec, errors)
+        _check_slug(fname, rec.get("slug"), errors)
+        if "release_date" in rec:
+            _check_date(fname, rec["release_date"], errors)
+        _check_range(fname, "ram_gb", rec.get("ram_gb"), 1, 256, errors)
+        if rec.get("storage_gb") is not None:
+            _check_range(fname, "storage_gb", rec.get("storage_gb"), 1, 65536, errors)
+        if rec.get("weight_g") is not None:
+            _check_range(fname, "weight_g", rec.get("weight_g"), 300, 6000, errors)
+        if "msrp_usd" in rec:
+            _check_range(fname, "msrp_usd", rec["msrp_usd"], 50, 50000, errors)
+        if rec.get("brand") not in brand_slugs:
+            errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
+        if rec.get("cpu") is not None and rec.get("cpu") not in cpu_slugs:
+            errors.append(f"{fname}: cpu '{rec.get('cpu')}' not a known CPU")
+        if rec.get("gpu") is not None and rec.get("gpu") not in gpu_slugs:
+            errors.append(f"{fname}: gpu '{rec.get('gpu')}' not a known GPU")
+        _check_variant_path(fname, rec, "laptop", errors, allow_flat=True)
 
     return errors
 

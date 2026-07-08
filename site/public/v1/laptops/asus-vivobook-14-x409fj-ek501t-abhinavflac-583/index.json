@@ -1,5 +1,5 @@
 {
-  "id": 138,
+  "id": 360,
   "slug": "asus-vivobook-14-x409fj-ek501t-abhinavflac-583",
   "base_model_slug": "asus-vivobook-14-x409fj-ek501t",
   "name": "Asus VivoBook 14 X409FJ-EK501T",
@@ -10,8 +10,16 @@
     "country": "TW",
     "url": "/v1/brands/asus"
   },
-  "cpu": null,
-  "gpu": null,
+  "cpu": {
+    "slug": "intel-core-i5-8265u",
+    "name": "Intel Core i5-8265U",
+    "url": "/v1/cpus/intel-core-i5-8265u"
+  },
+  "gpu": {
+    "slug": "geforce-mx230",
+    "name": "GeForce MX230",
+    "url": "/v1/gpus/geforce-mx230"
+  },
   "release_date": "2022-01-01",
   "msrp_usd": 693,
   "device_category": "Thin & Light",
@@ -36,7 +44,7 @@
   "source_urls": [
     "https://github.com/abhinavflac/laptops-specs-dataset"
   ],
-  "created_at": "2026-07-08T02:20:50.988965",
-  "updated_at": "2026-07-08T02:20:50.988965",
+  "created_at": "2026-07-08T06:29:42.032885",
+  "updated_at": "2026-07-08T06:29:42.032885",
   "url": "/v1/laptops/asus-vivobook-14-x409fj-ek501t-abhinavflac-583"
 }

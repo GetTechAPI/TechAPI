@@ -1,5 +1,5 @@
 {
-  "id": 634,
+  "id": 1500,
   "slug": "lenovo-thinkpad-t15g-abhinavflac-701",
   "base_model_slug": "lenovo-thinkpad-t15g",
   "name": "Lenovo ThinkPad T15g 20YSS01J00",
@@ -10,8 +10,16 @@
     "country": "CN",
     "url": "/v1/brands/lenovo"
   },
-  "cpu": null,
-  "gpu": null,
+  "cpu": {
+    "slug": "intel-core-i9-11950h",
+    "name": "Intel Core i9-11950H",
+    "url": "/v1/cpus/intel-core-i9-11950h"
+  },
+  "gpu": {
+    "slug": "geforce-rtx-3070",
+    "name": "GeForce RTX 3070",
+    "url": "/v1/gpus/geforce-rtx-3070"
+  },
   "release_date": "2021-01-01",
   "msrp_usd": 1470,
   "device_category": "Business",
@@ -36,7 +44,7 @@
   "source_urls": [
     "https://github.com/abhinavflac/laptops-specs-dataset"
   ],
-  "created_at": "2026-07-08T02:20:51.028680",
-  "updated_at": "2026-07-08T02:20:51.028680",
+  "created_at": "2026-07-08T06:29:42.174459",
+  "updated_at": "2026-07-08T06:29:42.174459",
   "url": "/v1/laptops/lenovo-thinkpad-t15g-abhinavflac-701"
 }

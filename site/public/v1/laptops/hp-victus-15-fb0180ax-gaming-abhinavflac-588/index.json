@@ -1,5 +1,5 @@
 {
-  "id": 396,
+  "id": 1034,
   "slug": "hp-victus-15-fb0180ax-gaming-abhinavflac-588",
   "base_model_slug": "hp-victus-15-fb0180ax-gaming",
   "name": "HP Victus ‎15-fb0180AX Gaming",
@@ -10,8 +10,16 @@
     "country": "US",
     "url": "/v1/brands/hp"
   },
-  "cpu": null,
-  "gpu": null,
+  "cpu": {
+    "slug": "ryzen-5-5600h",
+    "name": "AMD Ryzen 5 5600H",
+    "url": "/v1/cpus/ryzen-5-5600h"
+  },
+  "gpu": {
+    "slug": "geforce-rtx-3050",
+    "name": "GeForce RTX 3050",
+    "url": "/v1/gpus/geforce-rtx-3050"
+  },
   "release_date": "2021-01-01",
   "msrp_usd": 759,
   "device_category": "Gaming",
@@ -36,7 +44,7 @@
   "source_urls": [
     "https://github.com/abhinavflac/laptops-specs-dataset"
   ],
-  "created_at": "2026-07-08T02:20:51.009967",
-  "updated_at": "2026-07-08T02:20:51.009967",
+  "created_at": "2026-07-08T06:29:42.115969",
+  "updated_at": "2026-07-08T06:29:42.115969",
   "url": "/v1/laptops/hp-victus-15-fb0180ax-gaming-abhinavflac-588"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 384,
+  "id": 1022,
   "slug": "hp-omen-16-ap0165ax-gaming-abhinavflac-279",
   "base_model_slug": "hp-omen-16-ap0165ax-gaming",
   "name": "HP Omen 16-ap0165AX Gaming",
@@ -10,8 +10,16 @@
     "country": "US",
     "url": "/v1/brands/hp"
   },
-  "cpu": null,
-  "gpu": null,
+  "cpu": {
+    "slug": "k6-2-350",
+    "name": "AMD K6-2 350",
+    "url": "/v1/cpus/k6-2-350"
+  },
+  "gpu": {
+    "slug": "geforce-rtx-5050",
+    "name": "GeForce RTX 5050",
+    "url": "/v1/gpus/geforce-rtx-5050"
+  },
   "release_date": "2019-01-01",
   "msrp_usd": 1675,
   "device_category": "Gaming",
@@ -36,7 +44,7 @@
   "source_urls": [
     "https://github.com/abhinavflac/laptops-specs-dataset"
   ],
-  "created_at": "2026-07-08T02:20:51.008965",
-  "updated_at": "2026-07-08T02:20:51.008965",
+  "created_at": "2026-07-08T06:29:42.114959",
+  "updated_at": "2026-07-08T06:29:42.114959",
   "url": "/v1/laptops/hp-omen-16-ap0165ax-gaming-abhinavflac-279"
 }

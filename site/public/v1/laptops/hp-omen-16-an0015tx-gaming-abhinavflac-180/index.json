@@ -1,5 +1,5 @@
 {
-  "id": 577,
+  "id": 1215,
   "slug": "hp-omen-16-an0015tx-gaming-abhinavflac-180",
   "base_model_slug": "hp-omen-16-an0015tx-gaming",
   "name": "HP Omen 16-an0015TX Gaming",
@@ -10,8 +10,16 @@
     "country": "US",
     "url": "/v1/brands/hp"
   },
-  "cpu": null,
-  "gpu": null,
+  "cpu": {
+    "slug": "core-ultra-7-255h",
+    "name": "Intel Core Ultra 7 255H",
+    "url": "/v1/cpus/core-ultra-7-255h"
+  },
+  "gpu": {
+    "slug": "geforce-rtx-5060",
+    "name": "GeForce RTX 5060",
+    "url": "/v1/gpus/geforce-rtx-5060"
+  },
   "release_date": "2024-01-01",
   "msrp_usd": 2032,
   "device_category": "Gaming",
@@ -36,7 +44,7 @@
   "source_urls": [
     "https://github.com/abhinavflac/laptops-specs-dataset"
   ],
-  "created_at": "2026-07-08T02:20:51.024466",
-  "updated_at": "2026-07-08T02:20:51.024466",
+  "created_at": "2026-07-08T06:29:42.127479",
+  "updated_at": "2026-07-08T06:29:42.127479",
   "url": "/v1/laptops/hp-omen-16-an0015tx-gaming-abhinavflac-180"
 }

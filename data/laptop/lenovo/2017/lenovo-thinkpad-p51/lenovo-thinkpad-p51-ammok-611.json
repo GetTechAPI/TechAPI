@@ -3,25 +3,27 @@
   "base_model_slug": "lenovo-thinkpad-p51",
   "name": "Lenovo Thinkpad P51",
   "brand": "lenovo",
+  "cpu": "intel-xeon-e3-1535m-v5",
+  "gpu": "quadro-k2200",
   "release_date": "2017-01-01",
-  "ram_gb": 32,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "Intel Xeon E3-1535M v6 3.1GHz",
   "gpu_name": "Nvidia Quadro M2200M",
   "gpu_type": "Dedicated",
+  "ram_gb": 32,
   "storage_gb": 1024,
-  "weight_g": 2500.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "3840x2160",
     "panel": "IPS Panel 4K Ultra HD"
   },
+  "weight_g": 2500.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 611

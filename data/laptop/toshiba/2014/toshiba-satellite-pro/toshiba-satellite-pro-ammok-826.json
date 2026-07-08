@@ -3,24 +3,25 @@
   "base_model_slug": "toshiba-satellite-pro",
   "name": "Toshiba Satellite Pro",
   "brand": "toshiba",
+  "cpu": "intel-pentium-4405u",
   "release_date": "2014-01-01",
-  "ram_gb": 4,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "Intel Pentium Dual Core 4405U 2.1GHz",
   "gpu_name": "Intel HD Graphics 510",
   "gpu_type": "Integrated",
+  "ram_gb": 4,
   "storage_gb": 128,
-  "weight_g": 1750.0,
-  "os_version": "10",
   "display": {
     "size_inch": 14.0,
     "resolution": "1366x768"
   },
+  "weight_g": 1750.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 826

@@ -3,23 +3,25 @@
   "base_model_slug": "asus-rog-zephyrus-g14-2025",
   "name": "Asus ROG Zephyrus G14 (2025) GA403UM-QS007WS Gaming",
   "brand": "asus",
+  "cpu": "amd-opteron-270",
+  "gpu": "geforce-rtx-5060",
   "release_date": "2023-01-01",
-  "ram_gb": 16,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://github.com/abhinavflac/laptops-specs-dataset"
-  ],
   "msrp_usd": 2169,
   "device_category": "Gaming",
   "cpu_name": "AMD Ryzen 9 270",
   "gpu_name": "NVIDIA GeForce RTX RTX 5060",
   "gpu_type": "Dedicated",
+  "ram_gb": 16,
   "storage_gb": 1024,
   "display": {
     "size_inch": 14.0,
     "resolution": "2880x1800"
   },
+  "os": "Windows",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/abhinavflac/laptops-specs-dataset"
+  ],
   "variant": {
     "source_dataset": "abhinavflac/laptops-specs-dataset",
     "source_row": 427

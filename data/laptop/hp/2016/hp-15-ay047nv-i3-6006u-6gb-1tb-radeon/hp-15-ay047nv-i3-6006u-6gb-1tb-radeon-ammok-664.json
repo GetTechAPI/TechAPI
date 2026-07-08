@@ -3,24 +3,25 @@
   "base_model_slug": "hp-15-ay047nv-i3-6006u-6gb-1tb-radeon",
   "name": "HP 15-ay047nv (i3-6006U/6GB/1TB/Radeon",
   "brand": "hp",
+  "cpu": "intel-core-i3-6006u",
   "release_date": "2016-01-01",
-  "ram_gb": 6,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "Intel Core i3 6006U 2GHz",
   "gpu_name": "AMD Radeon R5 M430",
   "gpu_type": "Dedicated",
+  "ram_gb": 6,
   "storage_gb": 1024,
-  "weight_g": 2040.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1920x1080"
   },
+  "weight_g": 2040.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 664

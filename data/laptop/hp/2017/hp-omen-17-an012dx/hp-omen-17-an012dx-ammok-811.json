@@ -3,25 +3,27 @@
   "base_model_slug": "hp-omen-17-an012dx",
   "name": "HP Omen 17-an012dx",
   "brand": "hp",
+  "cpu": "core-i7-7700hq",
+  "gpu": "radeon-rx-580",
   "release_date": "2017-01-01",
-  "ram_gb": 12,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Gaming",
   "cpu_name": "Intel Core i7 7700HQ 2.8GHz",
   "gpu_name": "AMD Radeon RX 580",
   "gpu_type": "Dedicated",
+  "ram_gb": 12,
   "storage_gb": 1024,
-  "weight_g": 3740.0,
-  "os_version": "10",
   "display": {
     "size_inch": 17.3,
     "resolution": "1920x1080",
     "panel": "IPS Panel Full HD"
   },
+  "weight_g": 3740.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 811

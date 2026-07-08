@@ -3,23 +3,24 @@
   "base_model_slug": "dell-vostro-3568",
   "name": "Dell Vostro 3568",
   "brand": "dell",
+  "cpu": "intel-core-i3-6006u",
   "release_date": "2016-01-01",
+  "device_category": "Notebook",
+  "cpu_name": "Intel Core i3 6006U 2.0GHz",
+  "gpu_name": "AMD Radeon R5 M420X",
+  "gpu_type": "Dedicated",
   "ram_gb": 4,
+  "storage_gb": 1024,
+  "display": {
+    "size_inch": 15.6,
+    "resolution": "1366x768"
+  },
+  "weight_g": 2180.0,
   "os": "Linux",
   "verified": false,
   "source_urls": [
     "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
   ],
-  "device_category": "Notebook",
-  "cpu_name": "Intel Core i3 6006U 2.0GHz",
-  "gpu_name": "AMD Radeon R5 M420X",
-  "gpu_type": "Dedicated",
-  "storage_gb": 1024,
-  "weight_g": 2180.0,
-  "display": {
-    "size_inch": 15.6,
-    "resolution": "1366x768"
-  },
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 887

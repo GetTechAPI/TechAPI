@@ -3,25 +3,26 @@
   "base_model_slug": "lenovo-ideapad-320-15isk",
   "name": "Lenovo IdeaPad 320-15ISK",
   "brand": "lenovo",
+  "cpu": "intel-core-i3-6006u",
   "release_date": "2016-01-01",
-  "ram_gb": 4,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "Intel Core i3 6006U 2GHz",
   "gpu_name": "Intel HD Graphics 520",
   "gpu_type": "Integrated",
+  "ram_gb": 4,
   "storage_gb": 500,
-  "weight_g": 2200.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 2200.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 409

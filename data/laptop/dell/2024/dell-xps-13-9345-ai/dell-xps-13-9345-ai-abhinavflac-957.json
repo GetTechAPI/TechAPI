@@ -3,23 +3,24 @@
   "base_model_slug": "dell-xps-13-9345-ai",
   "name": "Dell XPS 13 9345 AI",
   "brand": "dell",
+  "cpu": "cobalt-100",
   "release_date": "2024-01-01",
-  "ram_gb": 16,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://github.com/abhinavflac/laptops-specs-dataset"
-  ],
   "msrp_usd": 1747,
   "device_category": "Thin & Light",
   "cpu_name": "Snapdragon Snapdragon X Plus X1E-80-100",
   "gpu_name": "Qualcomm Adreno Adreno GPU",
   "gpu_type": "Integrated",
+  "ram_gb": 16,
   "storage_gb": 512,
   "display": {
     "size_inch": 13.0,
     "resolution": "1920x1200"
   },
+  "os": "Windows",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/abhinavflac/laptops-specs-dataset"
+  ],
   "variant": {
     "source_dataset": "abhinavflac/laptops-specs-dataset",
     "source_row": 957

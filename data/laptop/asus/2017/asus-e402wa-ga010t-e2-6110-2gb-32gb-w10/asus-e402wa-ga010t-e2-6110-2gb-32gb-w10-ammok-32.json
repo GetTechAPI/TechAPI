@@ -3,24 +3,25 @@
   "base_model_slug": "asus-e402wa-ga010t-e2-6110-2gb-32gb-w10",
   "name": "Asus E402WA-GA010T (E2-6110/2GB/32GB/W10)",
   "brand": "asus",
+  "cpu": "amd-e2-6110-apu",
   "release_date": "2017-01-01",
-  "ram_gb": 2,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "AMD E-Series E2-6110 1.5GHz",
   "gpu_name": "AMD Radeon R2",
   "gpu_type": "Dedicated",
+  "ram_gb": 2,
   "storage_gb": 32,
-  "weight_g": 1650.0,
-  "os_version": "10",
   "display": {
     "size_inch": 14.0,
     "resolution": "1366x768"
   },
+  "weight_g": 1650.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 32

@@ -3,25 +3,27 @@
   "base_model_slug": "dell-precision-7720",
   "name": "Dell Precision 7720",
   "brand": "dell",
+  "cpu": "intel-core-i7-7820hq",
+  "gpu": "quadro-k1200",
   "release_date": "2017-01-01",
-  "ram_gb": 16,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Workstation",
   "cpu_name": "Intel Core i7 7820HQ 2.9GHz",
   "gpu_name": "Nvidia Quadro M1200",
   "gpu_type": "Dedicated",
+  "ram_gb": 16,
   "storage_gb": 256,
-  "weight_g": 3420.0,
-  "os_version": "10",
   "display": {
     "size_inch": 17.3,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 3420.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 298

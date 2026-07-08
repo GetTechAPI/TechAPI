@@ -3,23 +3,25 @@
   "base_model_slug": "msi-venturepro-a15-a3hweg-011in",
   "name": "MSI VenturePro A15 A3HWEG-011IN",
   "brand": "msi",
+  "cpu": "k6-2-350",
+  "gpu": "geforce-rtx-5050",
   "release_date": "2019-01-01",
-  "ram_gb": 16,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://github.com/abhinavflac/laptops-specs-dataset"
-  ],
   "msrp_usd": 1506,
   "device_category": "General",
   "cpu_name": "AMD Ryzen 7 350",
   "gpu_name": "NVIDIA GeForce RTX RTX 5050",
   "gpu_type": "Dedicated",
+  "ram_gb": 16,
   "storage_gb": 1024,
   "display": {
     "size_inch": 16.0,
     "resolution": "1920x1080"
   },
+  "os": "Windows",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/abhinavflac/laptops-specs-dataset"
+  ],
   "variant": {
     "source_dataset": "abhinavflac/laptops-specs-dataset",
     "source_row": 15

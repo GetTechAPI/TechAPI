@@ -3,24 +3,25 @@
   "base_model_slug": "dell-latitude-3380",
   "name": "Dell Latitude 3380",
   "brand": "dell",
+  "cpu": "intel-core-i3-6006u",
   "release_date": "2016-01-01",
-  "ram_gb": 4,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "Intel Core i3 6006U 2GHz",
   "gpu_name": "Intel HD Graphics 520",
   "gpu_type": "Integrated",
+  "ram_gb": 4,
   "storage_gb": 128,
-  "weight_g": 1650.0,
-  "os_version": "10",
   "display": {
     "size_inch": 13.3,
     "resolution": "1366x768"
   },
+  "weight_g": 1650.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 417

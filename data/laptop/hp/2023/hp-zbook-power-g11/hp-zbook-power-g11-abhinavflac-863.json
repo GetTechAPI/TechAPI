@@ -3,23 +3,25 @@
   "base_model_slug": "hp-zbook-power-g11",
   "name": "HP ZBook Power G11 A8WM4PT",
   "brand": "hp",
+  "cpu": "core-ultra-9-185h",
+  "gpu": "rtx-a2000",
   "release_date": "2023-01-01",
-  "ram_gb": 32,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://github.com/abhinavflac/laptops-specs-dataset"
-  ],
   "msrp_usd": 2928,
   "device_category": "General",
   "cpu_name": "Intel Core Ultra 9 185H",
   "gpu_name": "NVIDIA GeForce RTX RTX 2000 Ada",
   "gpu_type": "Dedicated",
+  "ram_gb": 32,
   "storage_gb": 1024,
   "display": {
     "size_inch": 16.0,
     "resolution": "1920x1200"
   },
+  "os": "Windows",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/abhinavflac/laptops-specs-dataset"
+  ],
   "variant": {
     "source_dataset": "abhinavflac/laptops-specs-dataset",
     "source_row": 863

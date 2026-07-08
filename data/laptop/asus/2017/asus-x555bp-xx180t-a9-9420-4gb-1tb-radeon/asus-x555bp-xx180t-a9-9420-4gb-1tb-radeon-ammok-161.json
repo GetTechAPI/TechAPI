@@ -3,24 +3,25 @@
   "base_model_slug": "asus-x555bp-xx180t-a9-9420-4gb-1tb-radeon",
   "name": "Asus X555BP-XX180T (A9-9420/4GB/1TB/Radeon",
   "brand": "asus",
+  "cpu": "amd-a9-9420",
   "release_date": "2017-01-01",
-  "ram_gb": 4,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "AMD A9-Series 9420 3GHz",
   "gpu_name": "AMD Radeon R5 M420",
   "gpu_type": "Dedicated",
+  "ram_gb": 4,
   "storage_gb": 1024,
-  "weight_g": 2030.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1366x768"
   },
+  "weight_g": 2030.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 161

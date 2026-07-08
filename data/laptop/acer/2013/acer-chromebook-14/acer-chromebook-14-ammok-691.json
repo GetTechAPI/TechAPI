@@ -3,23 +3,24 @@
   "base_model_slug": "acer-chromebook-14",
   "name": "Acer Chromebook 14",
   "brand": "acer",
+  "cpu": "intel-celeron-3855u",
   "release_date": "2013-01-01",
+  "device_category": "Notebook",
+  "cpu_name": "Intel Celeron Dual Core 3855U 1.6GHz",
+  "gpu_name": "Intel HD Graphics 510",
+  "gpu_type": "Integrated",
   "ram_gb": 4,
+  "storage_gb": 32,
+  "display": {
+    "size_inch": 14.0,
+    "resolution": "1366x768"
+  },
+  "weight_g": 1450.0,
   "os": "Chrome OS",
   "verified": false,
   "source_urls": [
     "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
   ],
-  "device_category": "Notebook",
-  "cpu_name": "Intel Celeron Dual Core 3855U 1.6GHz",
-  "gpu_name": "Intel HD Graphics 510",
-  "gpu_type": "Integrated",
-  "storage_gb": 32,
-  "weight_g": 1450.0,
-  "display": {
-    "size_inch": 14.0,
-    "resolution": "1366x768"
-  },
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 691

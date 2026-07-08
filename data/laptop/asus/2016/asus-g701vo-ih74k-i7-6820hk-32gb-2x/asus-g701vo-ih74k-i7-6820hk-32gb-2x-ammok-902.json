@@ -3,25 +3,27 @@
   "base_model_slug": "asus-g701vo-ih74k-i7-6820hk-32gb-2x",
   "name": "Asus G701VO-IH74K (i7-6820HK/32GB/2x",
   "brand": "asus",
+  "cpu": "intel-core-i7-6820hk",
+  "gpu": "geforce-gtx-980",
   "release_date": "2016-01-01",
-  "ram_gb": 32,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Gaming",
   "cpu_name": "Intel Core i7 6820HK 2.7GHz",
   "gpu_name": "Nvidia GeForce GTX 980M",
   "gpu_type": "Dedicated",
+  "ram_gb": 32,
   "storage_gb": 256,
-  "weight_g": 3580.0,
-  "os_version": "10",
   "display": {
     "size_inch": 17.3,
     "resolution": "1920x1080",
     "panel": "IPS Panel Full HD"
   },
+  "weight_g": 3580.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 902

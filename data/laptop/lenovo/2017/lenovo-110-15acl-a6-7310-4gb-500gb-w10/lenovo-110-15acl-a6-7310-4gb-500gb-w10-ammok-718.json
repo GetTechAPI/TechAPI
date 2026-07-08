@@ -3,24 +3,25 @@
   "base_model_slug": "lenovo-110-15acl-a6-7310-4gb-500gb-w10",
   "name": "Lenovo 110-15ACL (A6-7310/4GB/500GB/W10)",
   "brand": "lenovo",
+  "cpu": "amd-a6-7310-apu",
   "release_date": "2017-01-01",
-  "ram_gb": 4,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "AMD A6-Series 7310 2GHz",
   "gpu_name": "AMD Radeon R4",
   "gpu_type": "Dedicated",
+  "ram_gb": 4,
   "storage_gb": 500,
-  "weight_g": 2190.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1366x768"
   },
+  "weight_g": 2190.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 718

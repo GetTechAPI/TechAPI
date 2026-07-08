@@ -3,24 +3,25 @@
   "base_model_slug": "lenovo-ideapad-110-15isk",
   "name": "Lenovo IdeaPad 110-15ISK",
   "brand": "lenovo",
+  "cpu": "intel-core-i3-6100u",
   "release_date": "2016-01-01",
-  "ram_gb": 8,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "Intel Core i3 6100U 2.3GHz",
   "gpu_name": "Intel HD Graphics 520",
   "gpu_type": "Integrated",
+  "ram_gb": 8,
   "storage_gb": 1024,
-  "weight_g": 2290.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1366x768"
   },
+  "weight_g": 2290.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 596

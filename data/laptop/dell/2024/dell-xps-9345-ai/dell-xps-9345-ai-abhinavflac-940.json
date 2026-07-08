@@ -3,23 +3,24 @@
   "base_model_slug": "dell-xps-9345-ai",
   "name": "Dell XPS 9345 AI",
   "brand": "dell",
+  "cpu": "cobalt-100",
   "release_date": "2024-01-01",
-  "ram_gb": 32,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://github.com/abhinavflac/laptops-specs-dataset"
-  ],
   "msrp_usd": 2163,
   "device_category": "Thin & Light",
   "cpu_name": "Snapdragon Snapdragon X Elite X1E-80-100",
   "gpu_name": "Qualcomm Adreno Adreno GPU",
   "gpu_type": "Integrated",
+  "ram_gb": 32,
   "storage_gb": 1024,
   "display": {
     "size_inch": 13.0,
     "resolution": "2880x1800"
   },
+  "os": "Windows",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/abhinavflac/laptops-specs-dataset"
+  ],
   "variant": {
     "source_dataset": "abhinavflac/laptops-specs-dataset",
     "source_row": 940

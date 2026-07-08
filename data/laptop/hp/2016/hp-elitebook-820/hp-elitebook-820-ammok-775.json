@@ -3,24 +3,25 @@
   "base_model_slug": "hp-elitebook-820",
   "name": "HP EliteBook 820",
   "brand": "hp",
+  "cpu": "intel-core-i5-6200u",
   "release_date": "2016-01-01",
-  "ram_gb": 4,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Ultrabook",
   "cpu_name": "Intel Core i5 6200U 2.3GHz",
   "gpu_name": "Intel HD Graphics 520",
   "gpu_type": "Integrated",
+  "ram_gb": 4,
   "storage_gb": 256,
-  "weight_g": 1260.0,
-  "os_version": "10",
   "display": {
     "size_inch": 12.5,
     "resolution": "1366x768"
   },
+  "weight_g": 1260.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 775

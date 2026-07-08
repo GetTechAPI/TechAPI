@@ -3,25 +3,27 @@
   "base_model_slug": "lenovo-thinkpad-p51",
   "name": "Lenovo ThinkPad P51",
   "brand": "lenovo",
+  "cpu": "core-i7-7700hq",
+  "gpu": "quadro-k1200",
   "release_date": "2017-01-01",
-  "ram_gb": 8,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Workstation",
   "cpu_name": "Intel Core i7 7700HQ 2.8GHz",
   "gpu_name": "Nvidia Quadro M1200",
   "gpu_type": "Dedicated",
+  "ram_gb": 8,
   "storage_gb": 512,
-  "weight_g": 2670.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 2670.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 411

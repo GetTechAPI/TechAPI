@@ -3,24 +3,25 @@
   "base_model_slug": "lenovo-ideapad-320-15ast",
   "name": "Lenovo IdeaPad 320-15AST",
   "brand": "lenovo",
+  "cpu": "amd-a6-9220",
   "release_date": "2017-01-01",
-  "ram_gb": 8,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "AMD A6-Series 9220 2.5GHz",
   "gpu_name": "AMD Radeon R4",
   "gpu_type": "Dedicated",
+  "ram_gb": 8,
   "storage_gb": 1024,
-  "weight_g": 2800.0,
-  "os_version": "10",
   "display": {
     "size_inch": 17.3,
     "resolution": "1600x900"
   },
+  "weight_g": 2800.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 441

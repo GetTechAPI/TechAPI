@@ -3,23 +3,25 @@
   "base_model_slug": "dell-xps-14-9440-ai",
   "name": "Dell XPS 14 9440 AI",
   "brand": "dell",
+  "cpu": "core-ultra-7-155h",
+  "gpu": "geforce-rtx-4060",
   "release_date": "2023-01-01",
-  "ram_gb": 32,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://github.com/abhinavflac/laptops-specs-dataset"
-  ],
   "msrp_usd": 4235,
   "device_category": "General",
   "cpu_name": "Intel Core Ultra 7 155H",
   "gpu_name": "NVIDIA GeForce RTX RTX 4060",
   "gpu_type": "Dedicated",
+  "ram_gb": 32,
   "storage_gb": 1024,
   "display": {
     "size_inch": 14.0,
     "resolution": "3200x2000"
   },
+  "os": "Windows",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/abhinavflac/laptops-specs-dataset"
+  ],
   "variant": {
     "source_dataset": "abhinavflac/laptops-specs-dataset",
     "source_row": 564

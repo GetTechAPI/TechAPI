@@ -3,25 +3,27 @@
   "base_model_slug": "acer-aspire-f5-573g-510l",
   "name": "Acer Aspire F5-573G-510L",
   "brand": "acer",
+  "cpu": "intel-core-i5-7200u",
+  "gpu": "geforce-gtx-950",
   "release_date": "2017-01-01",
-  "ram_gb": 12,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "Intel Core i5 7200U 2.5GHz",
   "gpu_name": "Nvidia GeForce GTX 950M",
   "gpu_type": "Dedicated",
+  "ram_gb": 12,
   "storage_gb": 1024,
-  "weight_g": 2400.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 2400.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 963

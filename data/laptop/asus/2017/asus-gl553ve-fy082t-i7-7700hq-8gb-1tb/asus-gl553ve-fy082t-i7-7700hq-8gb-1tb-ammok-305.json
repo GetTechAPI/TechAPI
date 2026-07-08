@@ -3,25 +3,27 @@
   "base_model_slug": "asus-gl553ve-fy082t-i7-7700hq-8gb-1tb",
   "name": "Asus GL553VE-FY082T (i7-7700HQ/8GB/1TB",
   "brand": "asus",
+  "cpu": "core-i7-7700hq",
+  "gpu": "geforce-gtx-1050",
   "release_date": "2017-01-01",
-  "ram_gb": 8,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Gaming",
   "cpu_name": "Intel Core i7 7700HQ 2.8GHz",
   "gpu_name": "Nvidia GeForce GTX 1050 Ti",
   "gpu_type": "Dedicated",
+  "ram_gb": 8,
   "storage_gb": 1024,
-  "weight_g": 2500.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 2500.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 305

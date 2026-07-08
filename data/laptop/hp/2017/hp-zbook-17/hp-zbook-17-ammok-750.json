@@ -3,25 +3,27 @@
   "base_model_slug": "hp-zbook-17",
   "name": "HP Zbook 17",
   "brand": "hp",
+  "cpu": "intel-xeon-e3-1535m-v5",
+  "gpu": "quadro-2000",
   "release_date": "2017-01-01",
-  "ram_gb": 16,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Workstation",
   "cpu_name": "Intel Xeon E3-1535M v5 2.9GHz",
   "gpu_name": "Nvidia Quadro M2000M",
   "gpu_type": "Dedicated",
+  "ram_gb": 16,
   "storage_gb": 256,
-  "weight_g": 3000.0,
-  "os_version": "7",
   "display": {
     "size_inch": 17.3,
     "resolution": "1920x1080",
     "panel": "IPS Panel Full HD"
   },
+  "weight_g": 3000.0,
+  "os": "Windows",
+  "os_version": "7",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 750

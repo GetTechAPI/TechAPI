@@ -3,24 +3,25 @@
   "base_model_slug": "dell-latitude-5480",
   "name": "Dell Latitude 5480",
   "brand": "dell",
+  "cpu": "intel-core-i7-7600u",
   "release_date": "2017-01-01",
-  "ram_gb": 8,
-  "os": "Linux",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Ultrabook",
   "cpu_name": "Intel Core i7 7600U 2.8GHz",
   "gpu_name": "Intel HD Graphics 620",
   "gpu_type": "Integrated",
+  "ram_gb": 8,
   "storage_gb": 256,
-  "weight_g": 1600.0,
   "display": {
     "size_inch": 14.0,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 1600.0,
+  "os": "Linux",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 428

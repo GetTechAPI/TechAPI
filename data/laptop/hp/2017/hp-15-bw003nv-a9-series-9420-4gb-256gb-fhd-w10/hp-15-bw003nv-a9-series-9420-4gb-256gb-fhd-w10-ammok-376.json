@@ -3,25 +3,26 @@
   "base_model_slug": "hp-15-bw003nv-a9-series-9420-4gb-256gb-fhd-w10",
   "name": "HP 15-bw003nv (A9-Series-9420/4GB/256GB/FHD/W10)",
   "brand": "hp",
+  "cpu": "amd-a9-9420",
   "release_date": "2017-01-01",
-  "ram_gb": 4,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Notebook",
   "cpu_name": "AMD A9-Series 9420 3GHz",
   "gpu_name": "AMD Radeon R5",
   "gpu_type": "Dedicated",
+  "ram_gb": 4,
   "storage_gb": 256,
-  "weight_g": 1910.0,
-  "os_version": "10",
   "display": {
     "size_inch": 15.6,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 1910.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 376

@@ -3,23 +3,25 @@
   "base_model_slug": "hp-zbook-firefly-16-g11",
   "name": "HP ZBook Firefly 16 G11",
   "brand": "hp",
+  "cpu": "core-ultra-5-125h",
+  "gpu": "rtx-a500",
   "release_date": "2023-01-01",
-  "ram_gb": 16,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://github.com/abhinavflac/laptops-specs-dataset"
-  ],
   "msrp_usd": 1108,
   "device_category": "General",
   "cpu_name": "Intel Core Ultra 5 125H",
   "gpu_name": "NVIDIA GeForce RTX RTX A500",
   "gpu_type": "Dedicated",
+  "ram_gb": 16,
   "storage_gb": 1024,
   "display": {
     "size_inch": 16.0,
     "resolution": "1920x1200"
   },
+  "os": "Windows",
+  "verified": false,
+  "source_urls": [
+    "https://github.com/abhinavflac/laptops-specs-dataset"
+  ],
   "variant": {
     "source_dataset": "abhinavflac/laptops-specs-dataset",
     "source_row": 119

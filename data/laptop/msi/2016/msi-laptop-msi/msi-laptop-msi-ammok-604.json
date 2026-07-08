@@ -3,25 +3,27 @@
   "base_model_slug": "msi-laptop-msi",
   "name": "MSI Laptop MSI",
   "brand": "msi",
+  "cpu": "intel-core-i7-6820hk",
+  "gpu": "geforce-gtx-970",
   "release_date": "2016-01-01",
-  "ram_gb": 16,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Gaming",
   "cpu_name": "Intel Core i7 6820HK 2.7GHz",
   "gpu_name": "Nvidia GeForce GTX 970M",
   "gpu_type": "Dedicated",
+  "ram_gb": 16,
   "storage_gb": 1024,
-  "weight_g": 4140.0,
-  "os_version": "10",
   "display": {
     "size_inch": 17.3,
     "resolution": "1920x1080",
     "panel": "Full HD"
   },
+  "weight_g": 4140.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 604

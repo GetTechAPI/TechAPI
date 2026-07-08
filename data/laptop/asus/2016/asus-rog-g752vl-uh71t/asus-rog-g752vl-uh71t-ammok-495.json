@@ -3,25 +3,26 @@
   "base_model_slug": "asus-rog-g752vl-uh71t",
   "name": "Asus Rog G752VL-UH71T",
   "brand": "asus",
+  "cpu": "core-i7-6700hq",
   "release_date": "2016-01-01",
-  "ram_gb": 24,
-  "os": "Windows",
-  "verified": false,
-  "source_urls": [
-    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
-  ],
   "device_category": "Gaming",
   "cpu_name": "Intel Core i7 6700HQ 2.6GHz",
   "gpu_name": "Nvidia GeForce GTX 965M",
   "gpu_type": "Dedicated",
+  "ram_gb": 24,
   "storage_gb": 1024,
-  "weight_g": 4330.0,
-  "os_version": "10",
   "display": {
     "size_inch": 17.3,
     "resolution": "1920x1080",
     "panel": "IPS Panel Full HD / Touchscreen"
   },
+  "weight_g": 4330.0,
+  "os": "Windows",
+  "os_version": "10",
+  "verified": false,
+  "source_urls": [
+    "https://huggingface.co/datasets/Ammok/laptop_price_prediction"
+  ],
   "variant": {
     "source_dataset": "Ammok/laptop_price_prediction",
     "source_row": 495

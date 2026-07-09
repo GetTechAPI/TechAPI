@@ -6,27 +6,55 @@
   "release_date": "2024-05-15",
   "msrp_usd": 999,
   "ram_gb": 8,
-  "storage_options_gb": [256],
+  "storage_options_gb": [
+    256
+  ],
   "variant": {
     "region": "global",
-    "model_numbers": ["A2836"],
-    "memory": {"ram_gb": 8, "storage_gb": 256},
-    "network": {"cellular": "none", "carrier": "wifi-only"},
+    "model_numbers": [
+      "A2836"
+    ],
+    "memory": {
+      "ram_gb": 8,
+      "storage_gb": 256
+    },
+    "network": {
+      "cellular": "none",
+      "carrier": "wifi-only"
+    },
     "sim": "none"
   },
   "display": {
     "size_inch": 11.0,
     "resolution": "2420x1668",
     "refresh_hz": 120,
-    "type": "Ultra Retina XDR OLED"
+    "type": "Ultra Retina XDR OLED",
+    "ppi": 267
   },
-  "cameras": [{"type": "main", "mp": 12}, {"type": "selfie", "mp": 12}],
+  "cameras": [
+    {
+      "type": "main",
+      "mp": 12
+    },
+    {
+      "type": "selfie",
+      "mp": 12
+    }
+  ],
   "battery_mah": 8160,
   "weight_g": 444,
-  "dimensions": {"height_mm": 249.7, "width_mm": 177.5, "depth_mm": 5.3},
+  "dimensions": {
+    "height_mm": 249.7,
+    "width_mm": 177.5,
+    "depth_mm": 5.3
+  },
   "os": "iPadOS",
   "os_version": "17.5",
-  "connectivity": {"wifi": "Wi-Fi 6E", "bluetooth": "5.3", "usb": "USB-C"},
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "usb": "USB-C"
+  },
   "verified": true,
   "source_urls": [
     "https://support.apple.com/en-us/119891"

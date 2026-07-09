@@ -1,10 +1,10 @@
 {
-  "id": 24755,
+  "id": 25999,
   "slug": "ideapad-k1",
   "base_model_slug": null,
   "name": "IdeaPad K1",
   "brand": {
-    "id": 31,
+    "id": 36,
     "slug": "lenovo",
     "name": "Lenovo",
     "country": "CN",
@@ -34,7 +34,8 @@
   "display": {
     "size_inch": 10.1,
     "resolution": "800x1280",
-    "type": "TFT capacitive touchscreen, 16M colors"
+    "type": "TFT capacitive touchscreen, 16M colors",
+    "ppi": 149
   },
   "cameras": [
     {
@@ -63,11 +64,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 25.0,
+    "overall": 28.3,
     "performance": null,
     "camera": 5.0,
     "battery": 45.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -81,6 +82,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:00.216115",
-  "updated_at": "2026-06-24T08:54:00.216128"
+  "created_at": "2026-07-09T02:45:36.081898",
+  "updated_at": "2026-07-09T02:45:36.081898"
 }

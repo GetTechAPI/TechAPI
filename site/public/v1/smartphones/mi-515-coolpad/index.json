@@ -1,10 +1,10 @@
 {
-  "id": 71077,
+  "id": 73715,
   "slug": "mi-515-coolpad",
   "base_model_slug": null,
   "name": "Mi-515 Coolpad",
   "brand": {
-    "id": 94,
+    "id": 101,
     "slug": "spice",
     "name": "Spice",
     "country": "IN",
@@ -34,7 +34,8 @@
   "display": {
     "size_inch": 5.0,
     "resolution": "540x960",
-    "type": "IPS LCD capacitive touchscreen"
+    "type": "IPS LCD capacitive touchscreen",
+    "ppi": 220
   },
   "cameras": [
     {
@@ -59,11 +60,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 5.0,
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
     "battery": 5.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -77,6 +78,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:20.434429",
-  "updated_at": "2026-06-24T08:54:20.434442"
+  "created_at": "2026-07-09T02:45:49.565314",
+  "updated_at": "2026-07-09T02:45:49.565314"
 }

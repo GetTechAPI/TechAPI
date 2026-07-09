@@ -1,10 +1,10 @@
 {
-  "id": 60995,
+  "id": 63516,
   "slug": "galaxy-tab-s6-lite",
   "base_model_slug": null,
   "name": "Galaxy Tab S6 Lite",
   "brand": {
-    "id": 113,
+    "id": 120,
     "slug": "samsung",
     "name": "Samsung",
     "country": "KR",
@@ -35,7 +35,8 @@
   "display": {
     "size_inch": 10.4,
     "resolution": "1200x2000",
-    "type": "TFT capacitive touchscreen, 16M colors"
+    "type": "TFT capacitive touchscreen, 16M colors",
+    "ppi": 224
   },
   "cameras": [
     {
@@ -64,15 +65,15 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 37.8,
+    "overall": 37.1,
     "performance": 55.0,
     "camera": 5.0,
     "battery": 53.3,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": 55.0,
-      "percentile": 70.0,
+      "percentile": 70.7,
       "tier": "B",
       "era": "2020-2021",
       "source": "geekbench"
@@ -82,6 +83,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:15.835507",
-  "updated_at": "2026-06-24T08:54:15.835519"
+  "created_at": "2026-07-09T02:45:47.479778",
+  "updated_at": "2026-07-09T02:45:47.479778"
 }

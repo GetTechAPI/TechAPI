@@ -1,10 +1,10 @@
 {
-  "id": 51355,
+  "id": 53490,
   "slug": "d822",
   "base_model_slug": null,
   "name": "D822",
   "brand": {
-    "id": 118,
+    "id": 125,
     "slug": "philips",
     "name": "Philips",
     "country": "NL",
@@ -31,7 +31,8 @@
   "display": {
     "size_inch": 3.5,
     "resolution": "320x480",
-    "type": "TFT capacitive touchscreen, 256K colors"
+    "type": "TFT capacitive touchscreen, 256K colors",
+    "ppi": 165
   },
   "cameras": [
     {
@@ -56,11 +57,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 5.0,
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
     "battery": 5.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -74,6 +75,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:11.843793",
-  "updated_at": "2026-06-24T08:54:11.843806"
+  "created_at": "2026-07-09T02:45:43.708642",
+  "updated_at": "2026-07-09T02:45:43.708642"
 }

@@ -1,10 +1,10 @@
 {
-  "id": 6215,
+  "id": 6467,
   "slug": "transformer-pad-tf103c",
   "base_model_slug": null,
   "name": "Transformer Pad TF103C",
   "brand": {
-    "id": 130,
+    "id": 139,
     "slug": "asus",
     "name": "ASUS",
     "country": "TW",
@@ -34,7 +34,8 @@
   "display": {
     "size_inch": 10.1,
     "resolution": "800x1280",
-    "type": "IPS LCD capacitive touchscreen, 16M colors"
+    "type": "IPS LCD capacitive touchscreen, 16M colors",
+    "ppi": 149
   },
   "cameras": [
     {
@@ -59,11 +60,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 20.0,
+    "overall": 25.0,
     "performance": null,
     "camera": 5.0,
     "battery": 35.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -77,6 +78,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:52.487899",
-  "updated_at": "2026-06-24T08:53:52.487912"
+  "created_at": "2026-07-09T02:45:30.125940",
+  "updated_at": "2026-07-09T02:45:30.125940"
 }

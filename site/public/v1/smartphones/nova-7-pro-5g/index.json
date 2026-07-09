@@ -1,10 +1,10 @@
 {
-  "id": 19864,
+  "id": 20960,
   "slug": "nova-7-pro-5g",
   "base_model_slug": null,
   "name": "nova 7 Pro 5G",
   "brand": {
-    "id": 25,
+    "id": 27,
     "slug": "huawei",
     "name": "Huawei",
     "country": "CN",
@@ -35,7 +35,8 @@
   "display": {
     "size_inch": 6.57,
     "resolution": "1080x2340",
-    "type": "OLED capacitive touchscreen, 16M colors"
+    "type": "OLED capacitive touchscreen, 16M colors",
+    "ppi": 392
   },
   "cameras": [
     {
@@ -65,11 +66,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 31.1,
+    "overall": 36.4,
     "performance": null,
     "camera": 22.5,
     "battery": 39.6,
-    "display": null,
+    "display": 47.2,
     "value": null,
     "perf": {
       "index": null,
@@ -83,6 +84,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:58.306217",
-  "updated_at": "2026-06-24T08:53:58.306230"
+  "created_at": "2026-07-09T02:45:34.113688",
+  "updated_at": "2026-07-09T02:45:34.113688"
 }

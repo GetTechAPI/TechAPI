@@ -1,10 +1,10 @@
 {
-  "id": 52347,
+  "id": 54561,
   "slug": "9000",
   "base_model_slug": null,
   "name": "9000",
   "brand": {
-    "id": 140,
+    "id": 149,
     "slug": "qtek",
     "name": "Qtek",
     "country": "TW",
@@ -31,7 +31,8 @@
   "display": {
     "size_inch": 3.6,
     "resolution": "640x480",
-    "type": "TFT resistive touchscreen, 65K colors"
+    "type": "TFT resistive touchscreen, 65K colors",
+    "ppi": 222
   },
   "cameras": [
     {
@@ -56,11 +57,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 3.1,
+    "overall": 13.7,
     "performance": null,
     "camera": 5.0,
     "battery": 1.2,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -74,6 +75,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:12.283698",
-  "updated_at": "2026-06-24T08:54:12.283712"
+  "created_at": "2026-07-09T02:45:43.950778",
+  "updated_at": "2026-07-09T02:45:43.950778"
 }

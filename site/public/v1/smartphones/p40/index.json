@@ -1,10 +1,10 @@
 {
-  "id": 20149,
+  "id": 21269,
   "slug": "p40",
   "base_model_slug": null,
   "name": "P40",
   "brand": {
-    "id": 25,
+    "id": 27,
     "slug": "huawei",
     "name": "Huawei",
     "country": "CN",
@@ -36,7 +36,8 @@
   "display": {
     "size_inch": 6.1,
     "resolution": "1080x2340",
-    "type": "OLED capacitive touchscreen, 16M colors"
+    "type": "OLED capacitive touchscreen, 16M colors",
+    "ppi": 422
   },
   "cameras": [
     {
@@ -66,15 +67,15 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 34.7,
+    "overall": 38.5,
     "performance": 48.5,
     "camera": 18.1,
     "battery": 37.6,
-    "display": null,
+    "display": 49.7,
     "value": null,
     "perf": {
       "index": 48.5,
-      "percentile": 60.3,
+      "percentile": 61.0,
       "tier": "B",
       "era": "2020-2021",
       "source": "geekbench"
@@ -84,6 +85,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:58.403110",
-  "updated_at": "2026-06-24T08:53:58.403122"
+  "created_at": "2026-07-09T02:45:34.155913",
+  "updated_at": "2026-07-09T02:45:34.155913"
 }

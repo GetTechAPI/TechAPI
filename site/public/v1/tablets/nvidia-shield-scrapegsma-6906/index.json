@@ -4,7 +4,7 @@
   "base_model_slug": "shield",
   "name": "Nvidia Shield",
   "brand": {
-    "id": 172,
+    "id": 185,
     "slug": "nvidia",
     "name": "NVIDIA",
     "country": "US",
@@ -26,7 +26,8 @@
   "display": {
     "size_inch": 8.0,
     "resolution": "1920x1200",
-    "type": "Capacitive touchscreen, 16M colors"
+    "type": "Capacitive touchscreen, 16M colors",
+    "ppi": 283
   },
   "cameras": [
     {
@@ -41,7 +42,7 @@
   "dimensions": {},
   "ip_rating": null,
   "os": "Android 4.4.2 (KitKat), upgradable to 7.0 (Nougat)",
-  "os_version": null,
+  "os_version": "4.4.2",
   "connectivity": {
     "wlan": "Wi-Fi 802.11 a/b/g/n, dual-band",
     "bluetooth": "4.0, A2DP, LE",
@@ -54,7 +55,7 @@
   "source_urls": [
     "https://github.com/cigarplug/scrape-gsma"
   ],
-  "created_at": "2026-07-01T02:33:48.829804",
-  "updated_at": "2026-07-01T02:33:48.829804",
+  "created_at": "2026-07-09T03:39:28.433846",
+  "updated_at": "2026-07-09T03:39:28.433846",
   "url": "/v1/tablets/nvidia-shield-scrapegsma-6906"
 }

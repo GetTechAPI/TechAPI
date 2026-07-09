@@ -1,10 +1,10 @@
 {
-  "id": 11374,
+  "id": 11961,
   "slug": "hardcase-h280s",
   "base_model_slug": null,
   "name": "Hardcase H280S",
   "brand": {
-    "id": 157,
+    "id": 169,
     "slug": "energizer",
     "name": "Energizer",
     "country": "US",
@@ -31,7 +31,8 @@
   "display": {
     "size_inch": 2.8,
     "resolution": "240x320",
-    "type": "TFT, 256K colors"
+    "type": "TFT, 256K colors",
+    "ppi": 143
   },
   "cameras": [
     {
@@ -60,11 +61,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 5.0,
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
     "battery": 5.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -78,6 +79,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:54.567523",
-  "updated_at": "2026-06-24T08:53:54.567536"
+  "created_at": "2026-07-09T02:45:32.235233",
+  "updated_at": "2026-07-09T02:45:32.235233"
 }

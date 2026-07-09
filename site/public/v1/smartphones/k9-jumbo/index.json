@@ -1,10 +1,10 @@
 {
-  "id": 23923,
+  "id": 25122,
   "slug": "k9-jumbo",
   "base_model_slug": null,
   "name": "K9 Jumbo",
   "brand": {
-    "id": 91,
+    "id": 98,
     "slug": "karbonn",
     "name": "Karbonn",
     "country": "IN",
@@ -31,7 +31,8 @@
   "display": {
     "size_inch": 2.4,
     "resolution": "240x320",
-    "type": "TFT, 256K colors"
+    "type": "TFT, 256K colors",
+    "ppi": 167
   },
   "cameras": [
     {
@@ -55,11 +56,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 4.0,
+    "overall": 14.3,
     "performance": null,
     "camera": 5.0,
     "battery": 3.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -73,6 +74,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:59.875958",
-  "updated_at": "2026-06-24T08:53:59.875971"
+  "created_at": "2026-07-09T02:45:35.793921",
+  "updated_at": "2026-07-09T02:45:35.793921"
 }

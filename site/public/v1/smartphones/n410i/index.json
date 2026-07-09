@@ -1,10 +1,10 @@
 {
-  "id": 38433,
+  "id": 40282,
   "slug": "n410i",
   "base_model_slug": null,
   "name": "N410i",
   "brand": {
-    "id": 102,
+    "id": 109,
     "slug": "nec",
     "name": "NEC",
     "country": "JP",
@@ -31,7 +31,8 @@
   "display": {
     "size_inch": 2.2,
     "resolution": "240x320",
-    "type": "TFT, 65K colors"
+    "type": "TFT, 65K colors",
+    "ppi": 182
   },
   "cameras": [
     {
@@ -54,11 +55,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 2.5,
+    "overall": 13.3,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -72,6 +73,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:06.251820",
-  "updated_at": "2026-06-24T08:54:06.251832"
+  "created_at": "2026-07-09T02:45:39.349604",
+  "updated_at": "2026-07-09T02:45:39.349604"
 }

@@ -1,5 +1,5 @@
 {
-  "id": 934,
+  "id": 969,
   "slug": "ot-918d",
   "base_model_slug": null,
   "name": "OT-918D",
@@ -31,7 +31,8 @@
   "display": {
     "size_inch": 3.2,
     "resolution": "320x480",
-    "type": "TFT capacitive touchscreen, 256K colors"
+    "type": "TFT capacitive touchscreen, 256K colors",
+    "ppi": 180
   },
   "cameras": [
     {
@@ -56,11 +57,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 2.5,
+    "overall": 13.3,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -74,6 +75,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:50.499061",
-  "updated_at": "2026-06-24T08:53:50.499074"
+  "created_at": "2026-07-09T02:45:28.701165",
+  "updated_at": "2026-07-09T02:45:28.701165"
 }

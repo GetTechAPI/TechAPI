@@ -1,10 +1,10 @@
 {
-  "id": 3306,
+  "id": 3505,
   "slug": "iphone-4",
   "base_model_slug": null,
   "name": "iPhone 4",
   "brand": {
-    "id": 149,
+    "id": 160,
     "slug": "apple",
     "name": "Apple",
     "country": "US",
@@ -33,7 +33,8 @@
   "display": {
     "size_inch": 3.5,
     "resolution": "640x960",
-    "type": "IPS LCD capacitive touchscreen, 16M colors"
+    "type": "IPS LCD capacitive touchscreen, 16M colors",
+    "ppi": 330
   },
   "cameras": [
     {
@@ -58,11 +59,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 2.5,
+    "overall": 15.6,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
-    "display": null,
+    "display": 41.9,
     "value": null,
     "perf": {
       "index": null,
@@ -76,6 +77,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:51.401586",
-  "updated_at": "2026-06-24T08:53:51.401601"
+  "created_at": "2026-07-09T02:45:29.279155",
+  "updated_at": "2026-07-09T02:45:29.279155"
 }

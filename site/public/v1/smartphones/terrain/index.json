@@ -1,10 +1,10 @@
 {
-  "id": 38518,
+  "id": 40368,
   "slug": "terrain",
   "base_model_slug": null,
   "name": "Terrain",
   "brand": {
-    "id": 102,
+    "id": 109,
     "slug": "nec",
     "name": "NEC",
     "country": "JP",
@@ -34,7 +34,8 @@
   "display": {
     "size_inch": 3.1,
     "resolution": "640x480",
-    "type": "TFT capacitive touchscreen, 16M colors"
+    "type": "TFT capacitive touchscreen, 16M colors",
+    "ppi": 258
   },
   "cameras": [
     {
@@ -60,11 +61,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 4.5,
+    "overall": 14.9,
     "performance": null,
     "camera": 5.0,
     "battery": 4.0,
-    "display": null,
+    "display": 35.7,
     "value": null,
     "perf": {
       "index": null,
@@ -78,6 +79,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:06.295402",
-  "updated_at": "2026-06-24T08:54:06.295414"
+  "created_at": "2026-07-09T02:45:39.408013",
+  "updated_at": "2026-07-09T02:45:39.408013"
 }

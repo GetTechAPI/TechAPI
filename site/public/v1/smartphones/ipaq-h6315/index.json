@@ -1,10 +1,10 @@
 {
-  "id": 14335,
+  "id": 15124,
   "slug": "ipaq-h6315",
   "base_model_slug": null,
   "name": "iPAQ h6315",
   "brand": {
-    "id": 160,
+    "id": 172,
     "slug": "hp",
     "name": "HP",
     "country": "US",
@@ -31,7 +31,8 @@
   "display": {
     "size_inch": 3.5,
     "resolution": "240x320",
-    "type": "TFT resistive touchscreen, 65K colors"
+    "type": "TFT resistive touchscreen, 65K colors",
+    "ppi": 114
   },
   "cameras": [],
   "battery_mah": 1800,
@@ -51,11 +52,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 3.0,
+    "overall": 19.0,
     "performance": null,
     "camera": null,
     "battery": 3.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -69,6 +70,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:56.173015",
-  "updated_at": "2026-06-24T08:53:56.173029"
+  "created_at": "2026-07-09T02:45:32.935915",
+  "updated_at": "2026-07-09T02:45:32.935915"
 }

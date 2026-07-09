@@ -1,10 +1,10 @@
 {
-  "id": 3232,
+  "id": 3359,
   "slug": "amazon-fire-phone-scrapegsma-2300",
   "base_model_slug": "fire-phone",
   "name": "Amazon Fire Phone",
   "brand": {
-    "id": 146,
+    "id": 157,
     "slug": "amazon",
     "name": "Amazon",
     "country": "US",
@@ -39,7 +39,8 @@
   "display": {
     "size_inch": 4.7,
     "resolution": "720x1280",
-    "type": "IPS LCD capacitive touchscreen, 16M colors"
+    "type": "IPS LCD capacitive touchscreen, 16M colors",
+    "ppi": 312
   },
   "cameras": [
     {
@@ -66,15 +67,15 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 26.9,
+    "overall": 31.3,
     "performance": 44.7,
     "camera": null,
     "battery": 9.0,
-    "display": null,
+    "display": 40.3,
     "value": null,
     "perf": {
       "index": 44.7,
-      "percentile": 44.5,
+      "percentile": 45.4,
       "tier": "C",
       "era": "2014-2016",
       "source": "geekbench"
@@ -84,6 +85,6 @@
   "source_urls": [
     "https://github.com/cigarplug/scrape-gsma"
   ],
-  "created_at": "2026-07-01T02:32:55.424799",
-  "updated_at": "2026-07-01T02:32:55.424799"
+  "created_at": "2026-07-09T02:45:29.252150",
+  "updated_at": "2026-07-09T02:45:29.252150"
 }

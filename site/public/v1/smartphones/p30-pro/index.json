@@ -1,10 +1,10 @@
 {
-  "id": 19119,
+  "id": 20194,
   "slug": "p30-pro",
   "base_model_slug": null,
   "name": "P30 Pro",
   "brand": {
-    "id": 25,
+    "id": 27,
     "slug": "huawei",
     "name": "Huawei",
     "country": "CN",
@@ -36,7 +36,8 @@
   "display": {
     "size_inch": 6.47,
     "resolution": "1080x2340",
-    "type": "OLED capacitive touchscreen, 16M colors"
+    "type": "OLED capacitive touchscreen, 16M colors",
+    "ppi": 398
   },
   "cameras": [
     {
@@ -66,11 +67,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 28.3,
+    "overall": 34.8,
     "performance": null,
     "camera": 15.0,
     "battery": 41.6,
-    "display": null,
+    "display": 47.7,
     "value": null,
     "perf": {
       "index": null,
@@ -84,6 +85,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:58.037238",
-  "updated_at": "2026-06-24T08:53:58.037251"
+  "created_at": "2026-07-09T02:45:33.998794",
+  "updated_at": "2026-07-09T02:45:33.998794"
 }

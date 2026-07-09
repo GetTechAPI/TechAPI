@@ -1,10 +1,10 @@
 {
-  "id": 87170,
+  "id": 90331,
   "slug": "v81",
   "base_model_slug": null,
   "name": "V81",
   "brand": {
-    "id": 55,
+    "id": 61,
     "slug": "zte",
     "name": "ZTE",
     "country": "CN",
@@ -34,7 +34,8 @@
   "display": {
     "size_inch": 8.0,
     "resolution": "768x1024",
-    "type": "TFT capacitive touchscreen, 16M colors"
+    "type": "TFT capacitive touchscreen, 16M colors",
+    "ppi": 160
   },
   "cameras": [
     {
@@ -59,11 +60,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 13.5,
+    "overall": 20.7,
     "performance": null,
     "camera": 5.0,
     "battery": 22.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -77,6 +78,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:26.574754",
-  "updated_at": "2026-06-24T08:54:26.574766"
+  "created_at": "2026-07-09T02:45:54.441639",
+  "updated_at": "2026-07-09T02:45:54.441639"
 }

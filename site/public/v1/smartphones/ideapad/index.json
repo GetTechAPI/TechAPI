@@ -1,10 +1,10 @@
 {
-  "id": 25629,
+  "id": 26978,
   "slug": "ideapad",
   "base_model_slug": null,
   "name": "ideapad",
   "brand": {
-    "id": 31,
+    "id": 36,
     "slug": "lenovo",
     "name": "Lenovo",
     "country": "CN",
@@ -34,7 +34,8 @@
   "display": {
     "size_inch": 8.0,
     "resolution": "800x1280",
-    "type": "IPS LCD capacitive touchscreen, 16M colors"
+    "type": "IPS LCD capacitive touchscreen, 16M colors",
+    "ppi": 189
   },
   "cameras": [
     {
@@ -59,11 +60,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 2.5,
+    "overall": 13.3,
     "performance": null,
     "camera": 5.0,
     "battery": 0.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -77,6 +78,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:54:00.562998",
-  "updated_at": "2026-06-24T08:54:00.563010"
+  "created_at": "2026-07-09T02:45:36.342158",
+  "updated_at": "2026-07-09T02:45:36.342158"
 }

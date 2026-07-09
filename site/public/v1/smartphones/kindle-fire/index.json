@@ -1,10 +1,10 @@
 {
-  "id": 3145,
+  "id": 3343,
   "slug": "kindle-fire",
   "base_model_slug": null,
   "name": "Kindle Fire",
   "brand": {
-    "id": 146,
+    "id": 157,
     "slug": "amazon",
     "name": "Amazon",
     "country": "US",
@@ -33,7 +33,8 @@
   "display": {
     "size_inch": 7.0,
     "resolution": "600x1024",
-    "type": "IPS LCD capacitive touchscreen, 16M colors"
+    "type": "IPS LCD capacitive touchscreen, 16M colors",
+    "ppi": 170
   },
   "cameras": [],
   "battery_mah": 4400,
@@ -52,11 +53,11 @@
   "images": [],
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 29.0,
+    "overall": 32.0,
     "performance": null,
     "camera": null,
     "battery": 29.0,
-    "display": null,
+    "display": 35.0,
     "value": null,
     "perf": {
       "index": null,
@@ -70,6 +71,6 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-24T08:53:51.319327",
-  "updated_at": "2026-06-24T08:53:51.319340"
+  "created_at": "2026-07-09T02:45:29.249146",
+  "updated_at": "2026-07-09T02:45:29.249146"
 }

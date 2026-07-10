@@ -1857,6 +1857,120 @@
           }
         }
       }
+    },
+    "/v1/software": {
+      "get": {
+        "tags": [
+          "software"
+        ],
+        "summary": "List software",
+        "operationId": "list_software_v1_software_get",
+        "parameters": [
+          {
+            "name": "sort",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Sort"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 100,
+              "minimum": 1,
+              "default": 20,
+              "title": "Limit"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0,
+              "title": "Offset"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_ResourceRef_"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/software/{slug}": {
+      "get": {
+        "tags": [
+          "software"
+        ],
+        "summary": "Get a software product",
+        "operationId": "get_software_v1_software__slug__get",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Slug"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SoftwareRead"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -3988,6 +4102,120 @@
         ],
         "title": "SoCSummary",
         "description": "SoC reference embedded in a smartphone detail (appendix C)."
+      },
+      "SoftwareRead": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "slug": {
+            "type": "string",
+            "title": "Slug"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "release_date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Date"
+          },
+          "developers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Developers"
+          },
+          "publishers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Publishers"
+          },
+          "operating_systems": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Operating Systems"
+          },
+          "programming_languages": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Programming Languages"
+          },
+          "licenses": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Licenses"
+          },
+          "genres": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Genres"
+          },
+          "verified": {
+            "type": "boolean",
+            "title": "Verified"
+          },
+          "source_urls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Source Urls"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "slug",
+          "name",
+          "developers",
+          "publishers",
+          "operating_systems",
+          "programming_languages",
+          "licenses",
+          "genres",
+          "verified",
+          "source_urls",
+          "created_at",
+          "updated_at",
+          "url"
+        ],
+        "title": "SoftwareRead",
+        "description": "Full software detail response."
       },
       "ValidationError": {
         "properties": {

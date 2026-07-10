@@ -112,6 +112,13 @@ GAME_REQUIRED = {
     "verified",
 }
 
+SOFTWARE_REQUIRED = {
+    "slug",
+    "name",
+    "source_urls",
+    "verified",
+}
+
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
@@ -237,6 +244,7 @@ def validate() -> list[str]:
     laptops = _load("laptop")
     monitors = _load("monitor")
     games = _load("game")
+    software = _load("software")
 
     brand_slugs = {rec["slug"] for _, rec in brands if "slug" in rec}
     soc_slugs = {rec["slug"] for _, rec in socs if "slug" in rec}
@@ -255,6 +263,7 @@ def validate() -> list[str]:
         ("laptop", laptops),
         ("monitor", monitors),
         ("game", games),
+        ("software", software),
     ):
         _check_unique_slugs(category, records, errors)
 
@@ -416,6 +425,13 @@ def validate() -> list[str]:
             _check_range(fname, "rating", rec.get("rating"), 0, 5, errors)
         if rec.get("metacritic") is not None:
             _check_range(fname, "metacritic", rec.get("metacritic"), 0, 100, errors)
+
+    for fname, rec in software:
+        _check_required(fname, rec, SOFTWARE_REQUIRED, errors)
+        _check_source_urls(fname, rec, errors)
+        _check_slug(fname, rec.get("slug"), errors)
+        if rec.get("release_date") is not None:
+            _check_date(fname, rec["release_date"], errors)
 
     return errors
 

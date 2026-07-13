@@ -16,6 +16,8 @@ on:
 jobs:
   self-validate:
     runs-on: ubuntu-latest
+    outputs:
+      validation_scope: ${{ steps.scope.outputs.scope }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -55,6 +57,7 @@ jobs:
 
   engine-validate:
     needs: self-validate
+    if: needs.self-validate.outputs.validation_scope == 'full'
     uses: GetTechAPI/TechEngine/.github/workflows/validate-data.yml@main
     with:
       data-ref: ${{ github.event.pull_request.head.sha || github.sha }}

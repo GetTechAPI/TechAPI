@@ -20,16 +20,38 @@ jobs:
       - uses: actions/checkout@v4
         with:
           # The committed Pages dump contains over a million generated files.
-          # Validation only needs records and the bundled validator.
+          # Start with the validator and its tests. Data is added only when
+          # the pull request actually changes a record.
           sparse-checkout: |
+            .github
             app
-            data
+            tests
           sparse-checkout-cone-mode: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Select validation scope
+        id: scope
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            echo "scope=full" >> "$GITHUB_OUTPUT"
+          elif gh api --paginate "repos/${GITHUB_REPOSITORY}/pulls/${{ github.event.pull_request.number }}/files" --jq '.[].filename' | grep -q '^data/'; then
+            echo "scope=full" >> "$GITHUB_OUTPUT"
+          else
+            echo "scope=tests" >> "$GITHUB_OUTPUT"
+          fi
       - name: Self-check (bundled validator)
-        run: python -m app.validate
+        shell: bash
+        run: |
+          if [[ "${{ steps.scope.outputs.scope }}" == "full" ]]; then
+            git sparse-checkout add data
+            python -m app.validate
+          else
+            python -m unittest discover -s tests -v
+          fi
 
   engine-validate:
     needs: self-validate

@@ -390,7 +390,6 @@ def validate() -> list[str]:
     cpus = _load("cpu")
     laptops = _load("laptop")
     monitors = _load("monitor")
-    games = _load("game")
     software = _load("software")
 
     brand_slugs = {rec["slug"] for _, rec in brands if "slug" in rec}
@@ -409,7 +408,6 @@ def validate() -> list[str]:
         ("cpu", cpus),
         ("laptop", laptops),
         ("monitor", monitors),
-        ("game", games),
         ("software", software),
     ):
         _check_unique_slugs(category, records, errors)
@@ -562,9 +560,6 @@ def validate() -> list[str]:
             errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
         _check_variant_path(fname, rec, "monitor", errors, allow_flat=True)
 
-    for fname, rec in games:
-        _validate_game_record(fname, rec, errors)
-
     for fname, rec in software:
         _check_required(fname, rec, SOFTWARE_REQUIRED, errors)
         _check_source_urls(fname, rec, errors)
@@ -572,6 +567,9 @@ def validate() -> list[str]:
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
 
+    # Game data is import-scale. Keep the default validator bounded by
+    # streaming game records after the smaller cross-category checks.
+    errors.extend(validate_games())
     return errors
 
 

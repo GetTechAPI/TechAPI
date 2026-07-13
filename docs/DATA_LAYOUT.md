@@ -24,14 +24,14 @@ them only prevents routine Git polling from scanning millions of files.
 For a focused data import, temporarily add only the family you need:
 
 ```
-git sparse-checkout add --cone data/cpu
+git sparse-checkout add data/cpu
 ```
 
 For a full game import, add `data/game` for the duration of the import, then
 return to the small default checkout:
 
 ```
-git sparse-checkout add --cone data/game
+git sparse-checkout add data/game
 git sparse-checkout set --cone .github app docs TechEngine
 ```
 

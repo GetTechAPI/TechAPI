@@ -6,6 +6,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from app import validate as validator
 
@@ -47,7 +48,7 @@ class GameValidationTests(unittest.TestCase):
                 "name": " ",
                 "verified": "yes",
                 "source_urls": ["https://example.com/hades"],
-                "platforms": ["PC", "pc"],
+                "platforms": ["PC", 4],
                 "rating_count": -1,
                 "playtime_hours": -1,
                 "esrb_rating": "Unknown",
@@ -56,7 +57,7 @@ class GameValidationTests(unittest.TestCase):
         )
         self.assertTrue(any("name must be a non-empty string" in error for error in errors))
         self.assertTrue(any("verified must be a boolean" in error for error in errors))
-        self.assertTrue(any("platforms contains duplicate values" in error for error in errors))
+        self.assertTrue(any("platforms must be a list of non-empty strings" in error for error in errors))
         self.assertTrue(any("rating_count=-1 out of range" in error for error in errors))
         self.assertTrue(any("playtime_hours=-1 out of range" in error for error in errors))
         self.assertTrue(any("esrb_rating 'Unknown'" in error for error in errors))
@@ -73,6 +74,23 @@ class GameValidationTests(unittest.TestCase):
             shard="ga",
         )
         self.assertTrue(any("belongs in 'ha'" in error for error in errors))
+
+    def test_default_validation_streams_games_instead_of_loading_them(self) -> None:
+        loaded_categories: list[str] = []
+
+        def load_without_games(category: str):
+            loaded_categories.append(category)
+            self.assertNotEqual(category, "game")
+            return []
+
+        with (
+            mock.patch.object(validator, "_load", side_effect=load_without_games),
+            mock.patch.object(validator, "validate_games", return_value=[] ) as streamed_games,
+        ):
+            self.assertEqual(validator.validate(), [])
+
+        self.assertNotIn("game", loaded_categories)
+        streamed_games.assert_called_once_with()
 
 
 if __name__ == "__main__":

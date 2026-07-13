@@ -1,50 +1,47 @@
 # TechAPI
 
-> **Curated, open dataset for consumer electronics specs.** Free, share-alike, machine-readable.
+> Curated, open dataset for consumer electronics specifications and game metadata.
 
 [![validate-data](https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml/badge.svg)](https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml)
-&nbsp;Data: **CC-BY-SA 4.0**
+Data: **CC-BY-SA 4.0**
 
-This repo holds the curated **dataset** and the **public site** (Astro intro +
-playground). The API server, ingestion crawlers, coverage checks, and the
-static-dump generator live in
-[**TechEngine**](https://github.com/GetTechAPI/TechEngine).
+This repository owns the versioned dataset and the public Astro site. The API
+server, ingestion crawlers, coverage checks, and static-dump generator live in
+[TechEngine](https://github.com/GetTechAPI/TechEngine), included here as the
+`TechEngine` submodule.
 
 ## Layout
 
 ```text
-data/brand/<country>/<slug>.json                       # e.g. data/brand/kr/samsung.json
-data/soc/<manufacturer>/<year>/<slug>.json             # data/soc/qualcomm/2024/snapdragon-8-elite.json
-data/smartphone/<brand>/<year>/<slug>.json             # data/smartphone/samsung/2025/galaxy-s25.json
-data/gpu/<manufacturer>/<year>/<segment>/<slug>.json   # data/gpu/nvidia/2025/consumer/geforce-rtx-5090.json
-data/cpu/<manufacturer>/<year>/<segment>/<slug>.json   # data/cpu/intel/2023/consumer/core-i9-14900k.json
+data/brand/<country>/<slug>.json
+data/cpu/<manufacturer>/<year>/<segment>/<slug>.json
+data/gpu/<manufacturer>/<year>/<segment>/<slug>.json
+data/smartphone/<brand>/<year>/<slug>.json
+data/game/<slug[:2]>/<slug>.json
+site/                       # Astro Pages site
+site/public/v1/             # committed static API dump from TechEngine
+app/validate.py             # stdlib-only, fast repository self-check
 ```
 
-All paths use singular folder names. Slugs are kebab-case and unique within each category.
+The game directory is sharded by normalized slug rather than genre or import
+batch. See [the data layout guide](docs/DATA_LAYOUT.md) before adding or moving
+game records.
 
-The Astro site lives under `site/` and is the deploy target for GitHub Pages. It
-consumes the static JSON dump produced by TechEngine's `weekly-refresh` workflow.
-
-## Self-Check
-
-A lightweight bundled validator lives at `app/validate.py`. It runs on every PR via
-[`validate-data.yml`](.github/workflows/validate-data.yml) and is also chained into
-the heavier TechEngine validation workflow as a downstream job.
+## Local workflow
 
 ```bash
 python -m app.validate
+cd site && npm ci && npm run build
 ```
 
-The validator uses only the Python standard library; no install step required.
+Use TechEngine for ingest, API, and dump generation. Do not change its code or
+submodule pointer as part of a data-only change. The committed
+`site/public/v1/` dump is deployed by GitHub Pages; its contents must remain in
+the repository even when it is too large to browse comfortably locally.
 
-## Contributing
-
-Open a PR with the new/updated JSON file. The PR template walks through what to
-include. The validator must pass. All records (`brand`, `soc`, `smartphone`,
-`gpu`, and `cpu`) must include `source_urls` with at least one canonical
-reference (vendor product page, Wikipedia infobox, datasheet).
+For a focused workflow and the boundary between this repository and TechEngine,
+see [docs/LOCAL_WORKFLOW.md](docs/LOCAL_WORKFLOW.md).
 
 ## License
 
-Data is licensed **CC-BY-SA 4.0**; attribute "Data from TechAPI" and share alike.
-The bundled validator code is [MIT](LICENSE).
+Data is licensed **CC-BY-SA 4.0**. The bundled validator is [MIT](LICENSE).

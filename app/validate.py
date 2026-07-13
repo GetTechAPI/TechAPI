@@ -7,7 +7,9 @@ exits non-zero on the first failure set (used by CI ``validate-data.yml``).
 
 from __future__ import annotations
 
+import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -112,6 +114,29 @@ GAME_REQUIRED = {
     "verified",
 }
 
+GAME_LIST_FIELDS = (
+    "platforms",
+    "genres",
+    "stores",
+    "developers",
+    "publishers",
+    "tags",
+)
+
+GAME_ESRB_RATINGS = {
+    "Everyone",
+    "Everyone 10+",
+    "Teen",
+    "Mature",
+    "Adults Only",
+    "Rating Pending",
+}
+
+
+def _game_shard(slug: str) -> str:
+    """Return the stable on-disk shard for a game slug."""
+    return slug[:2]
+
 SOFTWARE_REQUIRED = {
     "slug",
     "name",
@@ -157,6 +182,37 @@ def _check_range(
 def _check_date(name: str, value: object, errors: list[str]) -> None:
     if not isinstance(value, str) or not DATE_RE.match(value):
         errors.append(f"{name}: release_date '{value}' must be ISO 8601 YYYY-MM-DD (§14.2)")
+
+
+def _check_title(name: str, value: object, errors: list[str]) -> None:
+    if not isinstance(value, str) or not value.strip():
+        errors.append(f"{name}: name must be a non-empty string")
+
+
+def _check_bool(name: str, field: str, value: object, errors: list[str]) -> None:
+    if not isinstance(value, bool):
+        errors.append(f"{name}: {field} must be a boolean")
+
+
+def _check_string_list(name: str, field: str, value: object, errors: list[str]) -> None:
+    """Validate optional game classification lists without constraining vocabulary."""
+    if value is None:
+        return
+    if not isinstance(value, list) or not all(
+        isinstance(item, str) and item.strip() for item in value
+    ):
+        errors.append(f"{name}: {field} must be a list of non-empty strings")
+        return
+    normalized = [item.casefold() for item in value]
+    if len(set(normalized)) != len(normalized):
+        errors.append(f"{name}: {field} contains duplicate values")
+
+
+def _check_optional_url(name: str, field: str, value: object, errors: list[str]) -> None:
+    if value is not None and (
+        not isinstance(value, str) or not value.startswith(("http://", "https://"))
+    ):
+        errors.append(f"{name}: {field} must be an http(s) URL when present")
 
 
 def _check_unique_slugs(
@@ -228,6 +284,83 @@ def _check_variant_path(
         )
     if filename != f"{rec.get('slug')}.json":
         errors.append(f"{fname}: filename must match slug '{rec.get('slug')}'")
+
+
+def _check_game_path(fname: str, rec: dict[str, Any], errors: list[str]) -> None:
+    """Keep imports in the documented ``game/<shard>/<slug>.json`` layout."""
+    parts = Path(fname).parts
+    slug = rec.get("slug")
+    if not isinstance(slug, str):
+        return
+    if len(parts) != 3:
+        errors.append(f"{fname}: game records must live at 'game/<shard>/<slug>.json'")
+        return
+    _, shard, filename = parts
+    expected_shard = _game_shard(slug)
+    if shard != expected_shard:
+        errors.append(
+            f"{fname}: lives in shard '{shard}' but slug '{slug}' belongs in '{expected_shard}'"
+        )
+    if filename != f"{slug}.json":
+        errors.append(f"{fname}: filename must match slug '{slug}'")
+
+
+def _validate_game_record(fname: str, rec: dict[str, Any], errors: list[str]) -> None:
+    _check_required(fname, rec, GAME_REQUIRED, errors)
+    _check_source_urls(fname, rec, errors)
+    _check_slug(fname, rec.get("slug"), errors)
+    _check_title(fname, rec.get("name"), errors)
+    _check_bool(fname, "verified", rec.get("verified"), errors)
+    if rec.get("release_date") is not None:
+        _check_date(fname, rec["release_date"], errors)
+    if rec.get("rating") is not None:
+        _check_range(fname, "rating", rec.get("rating"), 0, 5, errors)
+    if rec.get("rating_count") is not None:
+        _check_range(fname, "rating_count", rec.get("rating_count"), 0, 2_000_000_000, errors)
+    if rec.get("metacritic") is not None:
+        _check_range(fname, "metacritic", rec.get("metacritic"), 0, 100, errors)
+    if rec.get("playtime_hours") is not None:
+        _check_range(fname, "playtime_hours", rec.get("playtime_hours"), 0, 100_000, errors)
+    for field in GAME_LIST_FIELDS:
+        _check_string_list(fname, field, rec.get(field), errors)
+    esrb_rating = rec.get("esrb_rating")
+    if esrb_rating is not None and esrb_rating not in GAME_ESRB_RATINGS:
+        errors.append(f"{fname}: esrb_rating '{esrb_rating}' not in {sorted(GAME_ESRB_RATINGS)}")
+    _check_optional_url(fname, "background_image", rec.get("background_image"), errors)
+    _check_game_path(fname, rec, errors)
+
+
+def validate_games(data_dir: Path | None = None) -> list[str]:
+    """Stream game records so the import-scale dataset is not retained in memory."""
+    errors: list[str] = []
+    root = (data_dir or DATA_DIR) / "game"
+    if not root.exists():
+        return errors
+
+    seen: dict[str, str] = {}
+    for directory, directories, filenames in os.walk(root):
+        directories.sort()
+        for filename in sorted(filenames):
+            if not filename.endswith(".json"):
+                continue
+            path = Path(directory) / filename
+            fname = str(path.relative_to(data_dir or DATA_DIR))
+            try:
+                rec = json.loads(path.read_text(encoding="utf-8-sig"))
+            except (OSError, json.JSONDecodeError) as exc:
+                errors.append(f"{fname}: invalid JSON ({exc})")
+                continue
+            if not isinstance(rec, dict):
+                errors.append(f"{fname}: game record must be a JSON object")
+                continue
+            slug = rec.get("slug")
+            if isinstance(slug, str):
+                if slug in seen:
+                    errors.append(f"{fname}: duplicate game slug '{slug}' (also in {seen[slug]})")
+                else:
+                    seen[slug] = fname
+            _validate_game_record(fname, rec, errors)
+    return errors
 
 
 def validate() -> list[str]:
@@ -416,15 +549,7 @@ def validate() -> list[str]:
         _check_variant_path(fname, rec, "monitor", errors, allow_flat=True)
 
     for fname, rec in games:
-        _check_required(fname, rec, GAME_REQUIRED, errors)
-        _check_source_urls(fname, rec, errors)
-        _check_slug(fname, rec.get("slug"), errors)
-        if rec.get("release_date") is not None:
-            _check_date(fname, rec["release_date"], errors)
-        if rec.get("rating") is not None:
-            _check_range(fname, "rating", rec.get("rating"), 0, 5, errors)
-        if rec.get("metacritic") is not None:
-            _check_range(fname, "metacritic", rec.get("metacritic"), 0, 100, errors)
+        _validate_game_record(fname, rec, errors)
 
     for fname, rec in software:
         _check_required(fname, rec, SOFTWARE_REQUIRED, errors)
@@ -436,12 +561,20 @@ def validate() -> list[str]:
     return errors
 
 
-def run() -> int:
+def run(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Validate TechAPI record data")
+    parser.add_argument(
+        "--category",
+        choices=("all", "game"),
+        default="all",
+        help="validate all records (default) or stream the game dataset only",
+    )
+    args = parser.parse_args(argv)
     try:
         sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[union-attr]
     except Exception:
         pass
-    errors = validate()
+    errors = validate_games() if args.category == "game" else validate()
     if errors:
         print(f"❌ Data validation failed ({len(errors)} issue(s)):")
         for err in errors:

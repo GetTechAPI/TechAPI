@@ -31,3 +31,23 @@ Before an import:
   are ignored.
 - `.claude/archive/` contains local historical work notes and is ignored.
 - Python caches (`.pytest_cache`, `.mypy_cache`, `.ruff_cache`) are disposable.
+
+## Large-repository guardrail
+
+The default sparse checkout intentionally leaves `data/` and `site/` out of
+the working tree. Do not copy a large shard or generated dump back under this
+repository just for local inspection: that makes Git expand the sparse index
+on routine status checks.
+
+If Git reports that the sparse index is expanding, preserve the local artifact
+in a sibling folder outside the repository, then reapply the documented
+checkout:
+
+```
+git sparse-checkout reapply --sparse-index
+git config core.fsmonitor true
+git fsmonitor--daemon start
+```
+
+This keeps normal `git status` work proportional to changed files. Never use
+`assume-unchanged` or `skip-worktree` to mask an import or generated dump.

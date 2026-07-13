@@ -194,7 +194,14 @@ def _check_bool(name: str, field: str, value: object, errors: list[str]) -> None
         errors.append(f"{name}: {field} must be a boolean")
 
 
-def _check_string_list(name: str, field: str, value: object, errors: list[str]) -> None:
+def _check_string_list(
+    name: str,
+    field: str,
+    value: object,
+    errors: list[str],
+    *,
+    allow_case_duplicates: bool = False,
+) -> None:
     """Validate optional game classification lists without constraining vocabulary."""
     if value is None:
         return
@@ -203,9 +210,10 @@ def _check_string_list(name: str, field: str, value: object, errors: list[str]) 
     ):
         errors.append(f"{name}: {field} must be a list of non-empty strings")
         return
-    normalized = [item.casefold() for item in value]
-    if len(set(normalized)) != len(normalized):
-        errors.append(f"{name}: {field} contains duplicate values")
+    if not allow_case_duplicates:
+        normalized = [item.casefold() for item in value]
+        if len(set(normalized)) != len(normalized):
+            errors.append(f"{name}: {field} contains duplicate values")
 
 
 def _check_optional_url(name: str, field: str, value: object, errors: list[str]) -> None:
@@ -322,7 +330,13 @@ def _validate_game_record(fname: str, rec: dict[str, Any], errors: list[str]) ->
     if rec.get("playtime_hours") is not None:
         _check_range(fname, "playtime_hours", rec.get("playtime_hours"), 0, 100_000, errors)
     for field in GAME_LIST_FIELDS:
-        _check_string_list(fname, field, rec.get(field), errors)
+        _check_string_list(
+            fname,
+            field,
+            rec.get(field),
+            errors,
+            allow_case_duplicates=field in {"developers", "publishers"},
+        )
     esrb_rating = rec.get("esrb_rating")
     if esrb_rating is not None and esrb_rating not in GAME_ESRB_RATINGS:
         errors.append(f"{fname}: esrb_rating '{esrb_rating}' not in {sorted(GAME_ESRB_RATINGS)}")

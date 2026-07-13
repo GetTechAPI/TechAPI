@@ -18,6 +18,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # The committed Pages dump contains over a million generated files.
+          # Validation only needs records and the bundled validator.
+          filter: blob:none
+          sparse-checkout: |
+            app
+            data
+          sparse-checkout-cone-mode: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

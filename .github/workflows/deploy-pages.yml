@@ -60,3 +60,7 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # The game dump contains nearly one million static records. Pages can
+          # remain in syncing_files beyond the action's 10-minute default.
+          timeout: 1800000

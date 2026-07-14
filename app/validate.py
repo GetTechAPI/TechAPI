@@ -1,7 +1,7 @@
 """Validate seed JSON against the schema and conventions (§9.3, §15.3).
 
 Checks: required fields, slug convention (§14.1), value ranges/units (§14.3),
-and foreign-key integrity by slug. Run with ``python -m scripts.validate``;
+and foreign-key integrity by slug. Run with ``python -m app.validate``;
 exits non-zero on the first failure set (used by CI ``validate-data.yml``).
 """
 

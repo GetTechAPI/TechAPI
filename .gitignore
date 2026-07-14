@@ -28,9 +28,6 @@ env/
 # Local tooling/editor config (kept out of the public repo)
 .claude/
 
-# Note: data/_staging/ (raw collected candidate pool) is intentionally tracked —
-# comprehensive data collection is a purpose of this repo.
-
 # Build-only: regenerated on every Pages deploy (site/scripts/build-*.mjs)
 site/public/v1/history.json
 site/public/v1/verification.json

@@ -11,6 +11,8 @@ const endpoints = [
   { label: "/v1/smartphones/{slug}", desc: "Phone detail + scores", href: `${base}v1/smartphones/galaxy-s26-ultra/index.json` },
   { label: "/v1/smartphones/{slug}/score", desc: "Computed scores", href: `${base}v1/smartphones/galaxy-s26-ultra/score/index.json` },
   { label: "/v1/tablets", desc: "List all tablets", href: `${base}v1/tablets/index.json` },
+  { label: "/v1/laptops", desc: "List all laptops", href: `${base}v1/laptops/index.json` },
+  { label: "/v1/monitors", desc: "List all monitors", href: `${base}v1/monitors/index.json` },
   { label: "/v1/watches", desc: "List all watches", href: `${base}v1/watches/index.json` },
   { label: "/v1/pdas", desc: "List all PDAs", href: `${base}v1/pdas/index.json` },
   { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${base}v1/socs/snapdragon-8-elite-gen-5/index.json` },
@@ -161,8 +163,11 @@ const endpoints = [
               <select id="pg-resource">
                 <option value="smartphones">smartphones</option>
                 <option value="tablets">tablets</option>
+                <option value="laptops">laptops</option>
+                <option value="monitors">monitors</option>
                 <option value="watches">watches</option>
                 <option value="pdas">pdas</option>
+                <option value="software">software</option>
                 <option value="socs">socs</option>
                 <option value="gpus">gpus</option>
                 <option value="cpus">cpus</option>

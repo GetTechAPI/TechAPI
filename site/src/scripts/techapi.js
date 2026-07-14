@@ -151,10 +151,14 @@ async function loadList(resource) {
 (function stats() {
   const el = document.getElementById("stats");
   if (!el) return;
-  const order = ["smartphones", "tablets", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
+  const order = ["games", "software", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
   const label = {
+    games: "games",
+    software: "software",
     smartphones: "phones",
+    laptops: "laptops",
     tablets: "tablets",
+    monitors: "monitors",
     watches: "watches",
     pdas: "pdas",
     socs: "socs",
@@ -164,25 +168,20 @@ async function loadList(resource) {
   };
   getJSON("v1/index.json").then((m) => {
     el.innerHTML = "";
-    for (const k of order) {
+    const keys = [
+      ...order.filter((key) => m.collections?.[key]?.count != null),
+      ...Object.keys(m.collections || {}).filter((key) => !order.includes(key) && m.collections[key]?.count != null),
+    ];
+    for (const k of keys) {
       const col = m.collections?.[k];
       const total = col?.count;
       if (total == null) continue;
-      // "scored / total" when the dump exposes a benchmarked count; else plain total.
-      const scored = col.scored ?? col.benchmarked ?? col.with_scores ?? null;
-      const num = scored == null ? total : scored;
-      const den = scored == null ? "" : `<span class="den">/${total.toLocaleString()}</span>`;
       el.insertAdjacentHTML("beforeend",
-        `<div class="stat"><div class="n"><span class="num" data-n="${num}">0</span>${den}</div><div class="l">${label[k]}</div></div>`);
+        `<div class="stat"><div class="n"><span class="num" data-n="${total}">0</span></div><div class="l">${label[k] || k}</div></div>`);
     }
-    const obs = new IntersectionObserver((entries) => {
-      entries.forEach((e) => {
-        if (!e.isIntersecting) return;
-        el.querySelectorAll(".num").forEach((n) => countUp(n, +n.dataset.n));
-        obs.disconnect();
-      });
-    }, { threshold: .4 });
-    obs.observe(el);
+    // The hero is already in view at first paint. Animate immediately so the
+    // counters do not remain at zero when IntersectionObserver is delayed.
+    el.querySelectorAll(".num").forEach((n) => countUp(n, +n.dataset.n));
   }).catch(() => {
     el.innerHTML = '<div class="stat"><div class="n">—</div><div class="l">build data first</div></div>';
   });
@@ -209,10 +208,14 @@ function countUp(node, target, opts = {}) {
   const listEl = document.getElementById("history-list");
   if (!totalEl || !countsEl || !chartEl || !listEl) return;
 
-  const order = ["smartphones", "tablets", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
+  const order = ["games", "software", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
   const label = {
+    games: "Games",
+    software: "Software",
     smartphones: "Phones",
+    laptops: "Laptops",
     tablets: "Tablets",
+    monitors: "Monitors",
     watches: "Watches",
     pdas: "PDAs",
     socs: "SoCs",
@@ -221,8 +224,12 @@ function countUp(node, target, opts = {}) {
     brands: "Brands",
   };
   const shortLabel = {
+    games: "games",
+    software: "software",
     smartphones: "phones",
+    laptops: "laptops",
     tablets: "tablets",
+    monitors: "monitors",
     watches: "watches",
     pdas: "pdas",
     socs: "socs",
@@ -231,9 +238,14 @@ function countUp(node, target, opts = {}) {
     brands: "brands",
   };
   const dumpPath = "site/public/v1/index.json";
-  const countRows = (manifest) => order
-    .map((key) => ({ key, count: manifest.collections?.[key]?.count }))
-    .filter((row) => row.count != null);
+  const countRows = (manifest) => {
+    const collections = manifest.collections || {};
+    const keys = [
+      ...order.filter((key) => collections[key]?.count != null),
+      ...Object.keys(collections).filter((key) => !order.includes(key) && collections[key]?.count != null),
+    ];
+    return keys.map((key) => ({ key, count: collections[key].count }));
+  };
   const totalRecords = (manifest) => countRows(manifest).reduce((sum, row) => sum + row.count, 0);
   const sumByKey = (rows) => rows.reduce((out, row) => {
     out[row.key] = row.count;

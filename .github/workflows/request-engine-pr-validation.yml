@@ -1,21 +1,13 @@
 name: request-engine-pr-validation
 
-# Ask TechEngine to validate TechAPI PRs and report the result back as PR
-# comments. Data changes get engine data checks; homepage changes get the
-# TechAPI site build check without moving PR ownership away from the human
-# author.
+# Ask TechEngine to validate TechAPI data and validator PRs. Homepage-only
+# changes are built and deployed by TechAPI itself; dispatching them to the
+# engine adds an unrelated checkout/cache dependency to a site review.
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
     paths:
       - "data/**"
-      - "site/public/v1/**"
-      - "site/public/openapi.json"
-      - "site/src/**"
-      - "site/public/**"
-      - "site/astro.config.*"
-      - "site/package.json"
-      - "site/package-lock.json"
       - "app/validate.py"
       - "app/verify/**"
   workflow_dispatch:

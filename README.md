@@ -1,9 +1,18 @@
-# TechAPI
+<p align="center">
+  <img src="site/public/techapi-mark.png" alt="TechAPI" width="120">
+</p>
 
-> **Curated, open dataset for consumer electronics specs.** Free, share-alike, machine-readable.
+<h1 align="center">TechAPI</h1>
 
-[![validate-data](https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml/badge.svg)](https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml)
-&nbsp;Data: **CC-BY-SA 4.0**
+<p align="center">
+  <strong>Curated, open dataset for consumer electronics specs.</strong><br>
+  Free, share-alike, machine-readable.
+</p>
+
+<p align="center">
+  <a href="https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml"><img src="https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml/badge.svg" alt="validate-data"></a>
+  &nbsp;Data: <strong>CC-BY-SA 4.0</strong>
+</p>
 
 This repo holds the curated **dataset** and the **public site** (Astro intro +
 playground). The API server, ingestion crawlers, coverage checks, and the

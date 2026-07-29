@@ -11,14 +11,14 @@
   "segment": "server",
   "architecture": "Xeon",
   "socket": "FCLGA1151-2",
-  "process_node": null,
+  "process_node": "14 nm",
   "cores": 6,
   "threads": 12,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 3.5,
   "boost_clock_ghz": 4.5,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 12.0,
   "tdp_w": 80,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Coffee_Lake-based)"
   ],
-  "created_at": "2026-06-24T08:54:41.281980",
-  "updated_at": "2026-06-24T08:54:41.281992",
+  "created_at": "2026-07-29T06:03:41.031098",
+  "updated_at": "2026-07-29T06:03:41.031098",
   "url": "/v1/cpus/intel-xeon-e-2146g"
 }

@@ -11,14 +11,14 @@
   "segment": "server",
   "architecture": "Xeon",
   "socket": "FCLGA2011-3",
-  "process_node": null,
+  "process_node": "22 nm",
   "cores": 6,
   "threads": 12,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.9,
   "boost_clock_ghz": 3.2,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 30.0,
   "tdp_w": 135,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Haswell-based)"
   ],
-  "created_at": "2026-06-24T08:54:41.284929",
-  "updated_at": "2026-06-24T08:54:41.284939",
+  "created_at": "2026-07-29T06:03:41.032306",
+  "updated_at": "2026-07-29T06:03:41.032306",
   "url": "/v1/cpus/intel-xeon-e5-4655-v3"
 }

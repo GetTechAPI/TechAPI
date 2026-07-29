@@ -11,14 +11,14 @@
   "segment": "server",
   "architecture": "Xeon",
   "socket": "LGA2011",
-  "process_node": null,
+  "process_node": "22 nm",
   "cores": 12,
   "threads": 24,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.5,
   "boost_clock_ghz": 3.3,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 30.0,
   "tdp_w": null,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Ivy_Bridge-based)"
   ],
-  "created_at": "2026-06-24T08:54:41.140356",
-  "updated_at": "2026-06-24T08:54:41.140368",
+  "created_at": "2026-07-29T06:03:40.978441",
+  "updated_at": "2026-07-29T06:03:40.978441",
   "url": "/v1/cpus/intel-xeon-e5-2696-v2"
 }

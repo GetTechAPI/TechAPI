@@ -11,14 +11,14 @@
   "segment": "server",
   "architecture": "Xeon",
   "socket": "LGA 2011",
-  "process_node": null,
+  "process_node": "22 nm",
   "cores": 10,
   "threads": 20,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.2,
   "boost_clock_ghz": 2.7,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 20.0,
   "tdp_w": 95,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Ivy_Bridge-based)"
   ],
-  "created_at": "2026-06-24T08:54:41.208550",
-  "updated_at": "2026-06-24T08:54:41.208561",
+  "created_at": "2026-07-29T06:03:41.002501",
+  "updated_at": "2026-07-29T06:03:41.002501",
   "url": "/v1/cpus/intel-xeon-e5-4640-v2"
 }

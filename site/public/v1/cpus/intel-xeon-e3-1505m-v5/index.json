@@ -11,14 +11,14 @@
   "segment": "server",
   "architecture": "Xeon",
   "socket": "FCBGA1440",
-  "process_node": null,
+  "process_node": "14 nm",
   "cores": 4,
   "threads": 8,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.8,
   "boost_clock_ghz": 3.7,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 8.0,
   "tdp_w": 45,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Skylake-based)"
   ],
-  "created_at": "2026-06-24T08:54:41.202865",
-  "updated_at": "2026-06-24T08:54:41.202876",
+  "created_at": "2026-07-29T06:03:41.001501",
+  "updated_at": "2026-07-29T06:03:41.001501",
   "url": "/v1/cpus/intel-xeon-e3-1505m-v5"
 }

@@ -11,14 +11,14 @@
   "segment": "desktop",
   "architecture": "Core",
   "socket": "FCLGA1151-2",
-  "process_node": null,
+  "process_node": "14 nm",
   "cores": 8,
   "threads": 8,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 3.6,
   "boost_clock_ghz": 4.9,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 12.0,
   "tdp_w": 95,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_desktop_processors"
   ],
-  "created_at": "2026-06-24T08:54:41.303019",
-  "updated_at": "2026-06-24T08:54:41.303031",
+  "created_at": "2026-07-29T04:27:41.583091",
+  "updated_at": "2026-07-29T04:27:41.583091",
   "url": "/v1/cpus/intel-core-i7-9700kf"
 }

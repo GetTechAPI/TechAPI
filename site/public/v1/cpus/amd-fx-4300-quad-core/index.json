@@ -11,14 +11,14 @@
   "segment": "desktop",
   "architecture": "FX",
   "socket": "AM3+",
-  "process_node": null,
+  "process_node": "32 nm",
   "cores": 2,
   "threads": 4,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 3.8,
   "boost_clock_ghz": 4.0,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 4.0,
   "tdp_w": 95,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_AMD_FX_processors"
   ],
-  "created_at": "2026-06-24T08:54:40.773825",
-  "updated_at": "2026-06-24T08:54:40.773835",
+  "created_at": "2026-07-29T07:37:35.991063",
+  "updated_at": "2026-07-29T07:37:35.991063",
   "url": "/v1/cpus/amd-fx-4300-quad-core"
 }

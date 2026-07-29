@@ -11,14 +11,14 @@
   "segment": "desktop",
   "architecture": "Pentium",
   "socket": "FCLGA1200",
-  "process_node": null,
+  "process_node": "14 nm",
   "cores": 2,
   "threads": 4,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 4.3,
   "boost_clock_ghz": null,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 4.0,
   "tdp_w": 58,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Pentium_processors"
   ],
-  "created_at": "2026-06-24T08:54:41.365211",
-  "updated_at": "2026-06-24T08:54:41.365222",
+  "created_at": "2026-07-29T06:39:36.227281",
+  "updated_at": "2026-07-29T06:39:36.227281",
   "url": "/v1/cpus/intel-pentium-gold-g6605"
 }

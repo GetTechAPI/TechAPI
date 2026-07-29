@@ -6,14 +6,14 @@
   "segment": "server",
   "architecture": "Xeon",
   "socket": "FCLGA3647",
-  "process_node": null,
+  "process_node": "14 nm",
   "cores": 14,
   "threads": 28,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.2,
   "boost_clock_ghz": 3.2,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 19.25,
   "tdp_w": 105,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -40,6 +40,7 @@
   "msrp_usd": 1727,
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Skylake-based)"
   ]
 }

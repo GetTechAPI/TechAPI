@@ -11,14 +11,14 @@
   "segment": "desktop",
   "architecture": "Core",
   "socket": "LGA1156",
-  "process_node": null,
+  "process_node": "45 nm",
   "cores": 4,
   "threads": 8,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.8,
   "boost_clock_ghz": 3.46,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 8.0,
   "tdp_w": 95,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_desktop_processors"
   ],
-  "created_at": "2026-06-24T08:54:40.995240",
-  "updated_at": "2026-06-24T08:54:40.995251",
+  "created_at": "2026-07-29T04:27:41.372629",
+  "updated_at": "2026-07-29T04:27:41.372629",
   "url": "/v1/cpus/intel-core-i7-860"
 }

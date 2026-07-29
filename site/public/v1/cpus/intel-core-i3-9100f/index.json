@@ -11,14 +11,14 @@
   "segment": "desktop",
   "architecture": "Core",
   "socket": "FCLGA1151-2",
-  "process_node": null,
+  "process_node": "14 nm",
   "cores": 4,
   "threads": 4,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 3.6,
   "boost_clock_ghz": 4.2,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 6.0,
   "tdp_w": 65,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -44,9 +44,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_desktop_processors"
   ],
-  "created_at": "2026-06-24T08:54:41.296880",
-  "updated_at": "2026-06-24T08:54:41.296891",
+  "created_at": "2026-07-29T04:27:41.571059",
+  "updated_at": "2026-07-29T04:27:41.571059",
   "url": "/v1/cpus/intel-core-i3-9100f"
 }

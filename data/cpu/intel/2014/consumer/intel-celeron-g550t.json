@@ -6,14 +6,14 @@
   "segment": "desktop",
   "architecture": "Celeron",
   "socket": "LGA1155",
-  "process_node": null,
+  "process_node": "32 nm",
   "cores": 2,
   "threads": 2,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.2,
   "boost_clock_ghz": null,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 2.0,
   "tdp_w": 35,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -40,6 +40,7 @@
   "msrp_usd": null,
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_microprocessors"
   ]
 }

@@ -6,14 +6,14 @@
   "segment": "server",
   "architecture": "Opteron",
   "socket": "Socket C32",
-  "process_node": null,
+  "process_node": "32 nm",
   "cores": 6,
   "threads": 6,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 3.0,
   "boost_clock_ghz": 3.7,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 8.0,
   "tdp_w": 65,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -40,6 +40,7 @@
   "msrp_usd": 37,
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_AMD_Opteron_processors"
   ]
 }

@@ -8,7 +8,7 @@ on:
       - "data/**"
       - "app/validate.py"
   push:
-    branches: [main]
+    branches: [main, develop]
     paths:
       - "data/**"
       - "app/validate.py"

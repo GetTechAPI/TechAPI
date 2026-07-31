@@ -18,6 +18,8 @@ const endpoints = [
   { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${base}v1/socs/snapdragon-8-elite-gen-5/index.json` },
   { label: "/v1/gpus/{slug}", desc: "Discrete GPU detail", href: `${base}v1/gpus/geforce-rtx-5090/index.json` },
   { label: "/v1/cpus/{slug}", desc: "Desktop / laptop CPU", href: `${base}v1/cpus/core-i9-14900k/index.json` },
+  { label: "/v1/software", desc: "List all software", href: `${base}v1/software/index.json` },
+  { label: "/v1/websites", desc: "List all websites", href: `${base}v1/websites/index.json` },
   { label: "/v1/brands", desc: "All brands", href: `${base}v1/brands/index.json` },
 ];
 ---
@@ -39,7 +41,7 @@ const endpoints = [
     })();
   </script>
   <title>TechAPI — open data for consumer electronics specs</title>
-  <meta name="description" content="A free, open, static dataset of smartphone, SoC, GPU and CPU specs with computed scores. No key, no server — just fetch JSON." />
+  <meta name="description" content="A free, open, static dataset of smartphone, laptop, SoC, GPU and CPU specs — plus games, software and websites — with computed scores. No key, no server — just fetch JSON." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -168,6 +170,7 @@ const endpoints = [
                 <option value="watches">watches</option>
                 <option value="pdas">pdas</option>
                 <option value="software">software</option>
+                <option value="websites">websites</option>
                 <option value="socs">socs</option>
                 <option value="gpus">gpus</option>
                 <option value="cpus">cpus</option>

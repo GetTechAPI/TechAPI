@@ -275,6 +275,13 @@ const endpoints = [
               <div class="verify-pct" id="verify-pct">—</div>
               <div class="verify-pct-l">records verified<br /><span id="verify-count">loading…</span></div>
             </div>
+            <!-- Most smartphone records are regional/RAM variants of one phone,
+                 and no source documents an individual SKU — so the same
+                 verifications are also shown per product. -->
+            <div class="verify-headline verify-models">
+              <div class="verify-pct" id="verify-models-pct">—</div>
+              <div class="verify-pct-l">models verified<br /><span id="verify-models-count">loading…</span></div>
+            </div>
             <div class="verify-bar" id="verify-bar" role="img" aria-label="Verification band distribution">
               <span class="vb green" style="width:0%"></span>
               <span class="vb yellow" style="width:0%"></span>

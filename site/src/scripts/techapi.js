@@ -500,6 +500,20 @@ function countUp(node, target, opts = {}) {
 
     countEl.textContent = `${(t.verified || 0).toLocaleString()} / ${total.toLocaleString()}`;
 
+    // Same verifications counted per product. Older snapshots predate the
+    // field, so the block only appears once the numbers are actually there.
+    const mTotal = t.models || 0;
+    const mPctEl = document.getElementById("verify-models-pct");
+    if (mPctEl && mTotal) {
+      const mPct = t.verified_models_pct != null
+        ? t.verified_models_pct : (t.verified_models || 0) / mTotal * 100;
+      mPctEl.textContent = mPct.toFixed(1) + "%";
+      setText("verify-models-count",
+        `${(t.verified_models || 0).toLocaleString()} / ${mTotal.toLocaleString()}`);
+    } else if (mPctEl) {
+      mPctEl.closest(".verify-models")?.remove();
+    }
+
     const g = t.green || 0, y = t.yellow || 0, r = t.red || 0;
     const sum = Math.max(1, g + y + r);
     const seg = bar.querySelectorAll(".vb");

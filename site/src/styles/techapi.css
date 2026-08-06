@@ -509,6 +509,10 @@ section.block { padding: 76px 0; border-top: 1px solid var(--border); }
 .verify-pct { font-family: var(--mono); font-size: clamp(40px, 6vw, 60px); font-weight: 700; line-height: 1; letter-spacing: -.03em; color: var(--vg); }
 .verify-pct-l { color: var(--muted); font-size: 13px; line-height: 1.5; }
 .verify-pct-l span { color: var(--fg-2); font-family: var(--mono); }
+/* The per-product figure is the same verifications seen another way, so it sits
+   under the headline as a secondary reading rather than competing with it. */
+.verify-models { margin-top: 14px; }
+.verify-models .verify-pct { font-size: clamp(24px, 3.4vw, 34px); color: var(--fg-2); }
 .verify-bar { display: flex; height: 14px; margin-top: 24px; border-radius: 4px; overflow: hidden; background: var(--surface-3); border: 1px solid var(--border); }
 .verify-bar .vb { height: 100%; transition: width .9s cubic-bezier(.2,.7,.2,1); }
 .verify-bar .vb.green { background: var(--vg); }

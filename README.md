@@ -46,12 +46,26 @@ python -m app.validate
 
 The validator uses only the Python standard library; no install step required.
 
+## Branching
+
+This repo follows git-flow:
+
+| Branch | Role |
+| --- | --- |
+| `main` | Released state. Publishing the site and notifying TechEngine both fire on a push here, so it only moves through a release PR. |
+| `develop` | Integration. Every data, feature and fix branch targets this. |
+| `feat/*`, `data/*`, `fix/*`, `chore/*` | Short-lived work branches, cut from `develop`. |
+
+A release is a PR from `develop` to `main`; merging it deploys the site and tells
+TechEngine to pick up the new data. Automation follows the same rule — the
+submodule bump and the verified-promotion bot both land on `develop`.
+
 ## Contributing
 
-Open a PR with the new/updated JSON file. The PR template walks through what to
-include. The validator must pass. All records (`brand`, `soc`, `smartphone`,
-`gpu`, and `cpu`) must include `source_urls` with at least one canonical
-reference (vendor product page, Wikipedia infobox, datasheet).
+Open a PR **against `develop`** with the new/updated JSON file. The PR template
+walks through what to include. The validator must pass. All records (`brand`,
+`soc`, `smartphone`, `gpu`, and `cpu`) must include `source_urls` with at least
+one canonical reference (vendor product page, Wikipedia infobox, datasheet).
 
 ## License
 

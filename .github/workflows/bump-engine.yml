@@ -38,8 +38,13 @@ jobs:
           # committed to.
           git fetch origin develop
           git checkout -B develop origin/develop
-          git submodule update --init --recursive TechEngine
-          git submodule update --remote --recursive TechEngine
+          # NOT --recursive. TechEngine carries TechAPI back as a submodule, so
+          # recursing follows that cycle — TechEngine/TechAPI/TechEngine/… — and
+          # each level re-fetches the million-file data tree until the runner
+          # reports "No space left on device". The gitlink being bumped is at
+          # this repo's top level; there is nothing below it to update.
+          git submodule update --init TechEngine
+          git submodule update --remote TechEngine
           if git diff --quiet -- TechEngine; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "Submodule already up to date — nothing to do."

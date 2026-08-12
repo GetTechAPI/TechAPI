@@ -26,27 +26,28 @@
   "msrp_usd": 58,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 38.1,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 46.7,
+      "percentile": 77.7,
+      "tier": "B",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 31.0,
+      "percentile": 76.3,
+      "tier": "B",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X3+425"
   ],
-  "created_at": "2026-06-24T08:54:40.701984",
-  "updated_at": "2026-06-24T08:54:40.701995",
+  "created_at": "2026-08-12T03:33:38.106993",
+  "updated_at": "2026-08-12T03:33:38.106993",
   "url": "/v1/cpus/amd-athlon-ii-x3-425"
 }

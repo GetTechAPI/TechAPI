@@ -26,27 +26,28 @@
   "msrp_usd": 38,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 34.5,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 47.1,
+      "percentile": 78.7,
+      "tier": "B",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 24.2,
+      "percentile": 52.5,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+240e"
   ],
-  "created_at": "2026-06-24T08:54:40.701436",
-  "updated_at": "2026-06-24T08:54:40.701447",
+  "created_at": "2026-08-12T03:33:38.106993",
+  "updated_at": "2026-08-12T03:33:38.106993",
   "url": "/v1/cpus/amd-athlon-ii-x2-240e"
 }

@@ -26,28 +26,29 @@
   "msrp_usd": 54,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 39.2,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 44.9,
+      "percentile": 69.5,
+      "tier": "B",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 34.5,
+      "percentile": 88.9,
+      "tier": "A",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_AMD_Phenom_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Phenom_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+905e"
   ],
-  "created_at": "2026-07-29T07:37:35.969043",
-  "updated_at": "2026-07-29T07:37:35.969043",
+  "created_at": "2026-08-12T03:33:38.110018",
+  "updated_at": "2026-08-12T03:33:38.110018",
   "url": "/v1/cpus/amd-phenom-ii-x4-905e"
 }

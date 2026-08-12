@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 24.7,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 33.2,
+      "percentile": 33.0,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 17.8,
+      "percentile": 30.3,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X2+Dual+Core+BE-2400&id=203"
   ],
-  "created_at": "2026-06-24T08:54:40.703923",
-  "updated_at": "2026-06-24T08:54:40.703935",
+  "created_at": "2026-08-12T03:33:38.106993",
+  "updated_at": "2026-08-12T03:33:38.106993",
   "url": "/v1/cpus/amd-athlon-x2-dual-core-be-2400"
 }

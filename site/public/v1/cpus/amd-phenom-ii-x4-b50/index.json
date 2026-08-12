@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 44.5,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 52.9,
+      "percentile": 97.0,
+      "tier": "S",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 37.6,
+      "percentile": 98.5,
+      "tier": "S",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+II+X4+B50"
   ],
-  "created_at": "2026-06-24T08:54:40.711667",
-  "updated_at": "2026-06-24T08:54:40.711678",
+  "created_at": "2026-08-12T03:33:38.110018",
+  "updated_at": "2026-08-12T03:33:38.110018",
   "url": "/v1/cpus/amd-phenom-ii-x4-b50"
 }

@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 31.2,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 36.6,
+      "percentile": 41.6,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 26.7,
+      "percentile": 64.1,
+      "tier": "B",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+8450e+Triple-Core"
   ],
-  "created_at": "2026-06-24T08:54:40.705784",
-  "updated_at": "2026-06-24T08:54:40.705796",
+  "created_at": "2026-08-12T03:33:38.108498",
+  "updated_at": "2026-08-12T03:33:38.108498",
   "url": "/v1/cpus/amd-phenom-8450e-triple-core"
 }

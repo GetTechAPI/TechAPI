@@ -26,28 +26,29 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 12.0,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 17.8,
+      "percentile": 16.8,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 7.2,
+      "percentile": 14.6,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_AMD_Sempron_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Sempron_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Sempron+3600%2B"
   ],
-  "created_at": "2026-07-29T07:37:35.971041",
-  "updated_at": "2026-07-29T07:37:35.971041",
+  "created_at": "2026-08-12T03:33:38.111015",
+  "updated_at": "2026-08-12T03:33:38.111015",
   "url": "/v1/cpus/amd-sempron-3600-plus"
 }

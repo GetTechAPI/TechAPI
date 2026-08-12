@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 9.2,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 10.9,
+      "percentile": 10.2,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 7.9,
+      "percentile": 15.7,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+X2+Dual+Core+L310&id=204"
   ],
-  "created_at": "2026-06-24T08:54:40.704105",
-  "updated_at": "2026-06-24T08:54:40.704116",
+  "created_at": "2026-08-12T03:33:38.106993",
+  "updated_at": "2026-08-12T03:33:38.106993",
   "url": "/v1/cpus/amd-athlon-x2-dual-core-l310"
 }

@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 13.3,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 16.7,
+      "percentile": 15.2,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 10.6,
+      "percentile": 19.2,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+LE-1620"
   ],
-  "created_at": "2026-06-24T08:54:40.702915",
-  "updated_at": "2026-06-24T08:54:40.702926",
+  "created_at": "2026-08-12T03:33:38.106993",
+  "updated_at": "2026-08-12T03:33:38.106993",
   "url": "/v1/cpus/amd-athlon-le-1620"
 }

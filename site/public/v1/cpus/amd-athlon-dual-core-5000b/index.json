@@ -26,27 +26,28 @@
   "msrp_usd": 95,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 30.4,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 41.5,
+      "percentile": 56.9,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 21.4,
+      "percentile": 40.4,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Dual+Core+5000B&id=107"
   ],
-  "created_at": "2026-06-24T08:54:40.700116",
-  "updated_at": "2026-06-24T08:54:40.700127",
+  "created_at": "2026-08-12T03:33:38.105993",
+  "updated_at": "2026-08-12T03:33:38.105993",
   "url": "/v1/cpus/amd-athlon-dual-core-5000b"
 }

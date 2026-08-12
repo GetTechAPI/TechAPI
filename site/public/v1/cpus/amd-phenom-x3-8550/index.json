@@ -26,28 +26,29 @@
   "msrp_usd": 30,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 31.3,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 38.0,
+      "percentile": 42.1,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 25.9,
+      "percentile": 59.6,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_AMD_Phenom_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Phenom_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Phenom+X3+8550"
   ],
-  "created_at": "2026-07-29T07:37:35.970042",
-  "updated_at": "2026-07-29T07:37:35.970042",
+  "created_at": "2026-08-12T03:33:38.111015",
+  "updated_at": "2026-08-12T03:33:38.111015",
   "url": "/v1/cpus/amd-phenom-x3-8550"
 }

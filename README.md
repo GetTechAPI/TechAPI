@@ -62,12 +62,14 @@ submodule bump and the verified-promotion bot both land on `develop`.
 
 ## Contributing
 
-Open a PR **against `develop`** with the new/updated JSON file. The PR template
-walks through what to include. The validator must pass. All records (`brand`,
-`soc`, `smartphone`, `gpu`, and `cpu`) must include `source_urls` with at least
-one canonical reference (vendor product page, Wikipedia infobox, datasheet).
+Open a PR **against `develop`** with the new/updated JSON file — that is also
+the default branch, so a PR from a fork targets it automatically. The PR
+template walks through what to include, and the validator must pass. Every
+record, in every category, must include `source_urls` with at least one
+canonical reference (vendor product page, Wikipedia infobox, datasheet).
 
 ## License
 
-Data is licensed **CC-BY-SA 4.0**; attribute "Data from TechAPI" and share alike.
+Data is licensed **CC-BY-SA 4.0**; attribute "Data from TechAPI" and share alike
+(see [`data/LICENSE.md`](data/LICENSE.md)).
 The bundled validator code is [MIT](LICENSE).

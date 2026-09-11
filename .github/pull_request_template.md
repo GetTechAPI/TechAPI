@@ -10,6 +10,7 @@
 
 ## Checklist
 
+- [ ] The PR targets `develop` (`main` only moves through release PRs)
 - [ ] `python -m app.validate` passes locally
 - [ ] Files live at the correct `data/<category>/<...>/<slug>.json` path
 - [ ] Slugs are kebab-case and unique within the category

@@ -444,6 +444,20 @@ function countUp(node, target, opts = {}) {
     if (!points || !points.length) points = await pointsFromGitHubApi();
     if (!points.length) throw new Error("empty history");
 
+    // Add each satellite's count as of every point's date (its own history.json).
+    const es = await fetch("https://gettechapi.github.io/cpu-engineering-samples/history.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((d) => (d.points || []).map((p) => ({ t: new Date(p.date).getTime(), count: p.count })))
+      .catch(() => []);
+    if (es.length) {
+      for (const point of points) {
+        const asOf = es.filter((p) => p.t <= point.dateValue).pop();
+        if (!asOf) continue;
+        point.rows = [...point.rows, { key: "cpu_es", count: asOf.count }];
+        point.total += asOf.count;
+      }
+    }
+
     const currentTotal = totalRecords(currentManifest);
     const latest = points[points.length - 1];
     if (latest.total !== currentTotal) {

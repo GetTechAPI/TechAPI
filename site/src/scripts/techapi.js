@@ -182,6 +182,15 @@ async function loadList(resource) {
     // The hero is already in view at first paint. Animate immediately so the
     // counters do not remain at zero when IntersectionObserver is delayed.
     el.querySelectorAll(".num").forEach((n) => countUp(n, +n.dataset.n));
+    // Satellite data repos publish their own catalog; count them alongside.
+    fetch("https://gettechapi.github.io/cpu-engineering-samples/catalog.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((list) => {
+        el.insertAdjacentHTML("beforeend",
+          `<div class="stat"><div class="n"><span class="num">0</span></div><div class="l">cpu eng. samples</div></div>`);
+        countUp(el.lastElementChild.querySelector(".num"), list.length);
+      })
+      .catch(() => {});
   }).catch(() => {
     el.innerHTML = '<div class="stat"><div class="n">—</div><div class="l">build data first</div></div>';
   });

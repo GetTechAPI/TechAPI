@@ -40,9 +40,16 @@ jobs:
               pull_number: issue_number,
               per_page: 100,
             });
-            for await (const { data } of fileIterator) {
-              files.push(...data);
-              if (files.length >= FILE_SCAN_LIMIT) break;
+            // GitHub refuses the file list for very large PRs (dump refreshes:
+            // 422 "diff is taking too long to generate"); label from what we got.
+            try {
+              for await (const { data } of fileIterator) {
+                files.push(...data);
+                if (files.length >= FILE_SCAN_LIMIT) break;
+              }
+            } catch (error) {
+              if (error.status !== 422) throw error;
+              core.warning(`PR file list unavailable (${error.message}); path labels skipped`);
             }
             const filesWereCapped = (pr.changed_files || files.length) > files.length;
 

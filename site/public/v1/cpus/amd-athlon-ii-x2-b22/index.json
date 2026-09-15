@@ -26,27 +26,28 @@
   "msrp_usd": 26,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 35.4,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 48.0,
+      "percentile": 70.0,
+      "tier": "B",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 25.0,
+      "percentile": 52.0,
+      "tier": "C",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+B22"
   ],
-  "created_at": "2026-06-24T08:54:40.736594",
-  "updated_at": "2026-06-24T08:54:40.736605",
+  "created_at": "2026-09-15T03:14:56.124796",
+  "updated_at": "2026-09-15T03:14:56.124803",
   "url": "/v1/cpus/amd-athlon-ii-x2-b22"
 }

@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 21.7,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 29.0,
+      "percentile": 27.0,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 15.7,
+      "percentile": 28.0,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+4450e"
   ],
-  "created_at": "2026-06-24T08:54:40.736410",
-  "updated_at": "2026-06-24T08:54:40.736421",
+  "created_at": "2026-09-15T03:14:56.124678",
+  "updated_at": "2026-09-15T03:14:56.124685",
   "url": "/v1/cpus/amd-athlon-ii-x2-4450e"
 }

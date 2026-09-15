@@ -26,27 +26,28 @@
   "msrp_usd": 135,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 23.1,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 23.3,
+      "percentile": 29.3,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 23.0,
+      "percentile": 59.1,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Opteron+290"
   ],
-  "created_at": "2026-06-24T08:54:40.733249",
-  "updated_at": "2026-06-24T08:54:40.733278",
+  "created_at": "2026-09-15T03:14:56.122694",
+  "updated_at": "2026-09-15T03:14:56.122702",
   "url": "/v1/cpus/amd-opteron-290"
 }

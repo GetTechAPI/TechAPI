@@ -26,27 +26,28 @@
   "msrp_usd": 68,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 25.6,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 35.2,
+      "percentile": 38.0,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 17.8,
+      "percentile": 33.0,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X2+270u"
   ],
-  "created_at": "2026-06-24T08:54:40.736197",
-  "updated_at": "2026-06-24T08:54:40.736208",
+  "created_at": "2026-09-15T03:14:56.124557",
+  "updated_at": "2026-09-15T03:14:56.124564",
   "url": "/v1/cpus/amd-athlon-ii-x2-270u"
 }

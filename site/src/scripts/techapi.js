@@ -231,6 +231,7 @@ function countUp(node, target, opts = {}) {
     gpus: "GPUs",
     cpus: "CPUs",
     brands: "Brands",
+    cpu_es: "CPU eng. samples",
   };
   const shortLabel = {
     games: "games",
@@ -245,6 +246,7 @@ function countUp(node, target, opts = {}) {
     gpus: "gpus",
     cpus: "cpus",
     brands: "brands",
+    cpu_es: "cpu eng. samples",
   };
   const dumpPath = "site/public/v1/index.json";
   const countRows = (manifest) => {
@@ -465,7 +467,19 @@ function countUp(node, target, opts = {}) {
     renderHistory(points);
   }
 
-  getJSON("v1/index.json").then((manifest) => {
+  // Satellite repos are not in the dump; fold their current count into the
+  // latest snapshot so the total and the newest point include them.
+  // ponytail: current count only, no back-history until satellites publish one.
+  const withSatellites = (manifest) =>
+    fetch("https://gettechapi.github.io/cpu-engineering-samples/catalog.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((list) => {
+        manifest.collections = { ...manifest.collections, cpu_es: { count: list.length } };
+        return manifest;
+      })
+      .catch(() => manifest);
+
+  getJSON("v1/index.json").then(withSatellites).then((manifest) => {
     renderSnapshot(manifest);
     return loadCommitHistory(manifest).catch(() => {
       chartEl.innerHTML = '<div class="history-empty">Growth chart unavailable</div>';

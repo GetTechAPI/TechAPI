@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 12.7,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 20.4,
+      "percentile": 26.6,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 6.4,
+      "percentile": 18.2,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Turion+64+Mobile+ML-34"
   ],
-  "created_at": "2026-06-24T08:54:40.715788",
-  "updated_at": "2026-06-24T08:54:40.715799",
+  "created_at": "2026-09-15T03:14:56.111197",
+  "updated_at": "2026-09-15T03:14:56.111205",
   "url": "/v1/cpus/amd-turion-64-mobile-ml-34"
 }

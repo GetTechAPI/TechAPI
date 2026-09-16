@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 16.3,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 18.9,
+      "percentile": 17.0,
+      "tier": "E",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 14.1,
+      "percentile": 22.0,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+64+X2+Dual+Core+3400%2B&id=75"
   ],
-  "created_at": "2026-06-24T08:54:40.733641",
-  "updated_at": "2026-06-24T08:54:40.733652",
+  "created_at": "2026-09-15T03:14:56.122952",
+  "updated_at": "2026-09-15T03:14:56.122959",
   "url": "/v1/cpus/amd-athlon-64-x2-dual-core-3400-plus"
 }

@@ -26,27 +26,28 @@
   "msrp_usd": 30,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 23.9,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 32.0,
+      "percentile": 40.3,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 17.2,
+      "percentile": 37.1,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Turion+Dual-Core+RM-72&id=437"
   ],
-  "created_at": "2026-06-24T08:54:40.719149",
-  "updated_at": "2026-06-24T08:54:40.719161",
+  "created_at": "2026-09-15T03:14:56.113380",
+  "updated_at": "2026-09-15T03:14:56.113387",
   "url": "/v1/cpus/amd-turion-dual-core-rm-72"
 }

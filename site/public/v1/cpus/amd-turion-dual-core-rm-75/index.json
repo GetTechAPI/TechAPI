@@ -26,27 +26,28 @@
   "msrp_usd": 21,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 16.0,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 14.2,
+      "percentile": 17.9,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 17.4,
+      "percentile": 38.8,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Turion+Dual-Core+RM-75&id=438"
   ],
-  "created_at": "2026-06-24T08:54:40.719352",
-  "updated_at": "2026-06-24T08:54:40.719364",
+  "created_at": "2026-09-15T03:14:56.113500",
+  "updated_at": "2026-09-15T03:14:56.113516",
   "url": "/v1/cpus/amd-turion-dual-core-rm-75"
 }

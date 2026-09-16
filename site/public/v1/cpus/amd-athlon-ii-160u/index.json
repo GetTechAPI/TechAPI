@@ -26,27 +26,28 @@
   "msrp_usd": 30,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 18.7,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 31.6,
+      "percentile": 31.0,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 8.1,
+      "percentile": 10.0,
+      "tier": "E",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+160u"
   ],
-  "created_at": "2026-06-24T08:54:40.734004",
-  "updated_at": "2026-06-24T08:54:40.734015",
+  "created_at": "2026-09-15T03:14:56.123198",
+  "updated_at": "2026-09-15T03:14:56.123205",
   "url": "/v1/cpus/amd-athlon-ii-160u"
 }

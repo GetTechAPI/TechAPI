@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 24.5,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 32.9,
+      "percentile": 44.1,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 17.7,
+      "percentile": 40.2,
+      "tier": "C",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?id=510&cpu=Athlon+Dual+Core+4050e"
   ],
-  "created_at": "2026-06-24T08:54:40.723161",
-  "updated_at": "2026-06-24T08:54:40.723175",
+  "created_at": "2026-09-15T03:14:56.116019",
+  "updated_at": "2026-09-15T03:14:56.116027",
   "url": "/v1/cpus/athlon-dual-core-4050e"
 }

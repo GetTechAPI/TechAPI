@@ -122,8 +122,8 @@ code, .mono { font-family: var(--mono); }
 .brand { display: flex; align-items: center; gap: 11px; font-family: var(--mono); font-weight: 700; font-size: 17px; letter-spacing: -.01em; }
 .brand .brand-mark {
   width: 30px; height: 30px; flex: none;
-  object-fit: cover; border-radius: 6px;
-  box-shadow: 0 0 14px color-mix(in srgb, var(--accent) 35%, transparent);
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 35%, transparent));
 }
 .brand .cursor {
   width: 9px; height: 17px; background: var(--accent);

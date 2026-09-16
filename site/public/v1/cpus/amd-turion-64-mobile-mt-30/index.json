@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 1.3,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 0.0,
+      "percentile": 3.1,
+      "tier": "F",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 2.4,
+      "percentile": 8.9,
+      "tier": "E",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Turion+64+Mobile+MT-30"
   ],
-  "created_at": "2026-06-24T08:54:40.716728",
-  "updated_at": "2026-06-24T08:54:40.716739",
+  "created_at": "2026-09-15T03:14:56.111808",
+  "updated_at": "2026-09-15T03:14:56.111815",
   "url": "/v1/cpus/amd-turion-64-mobile-mt-30"
 }

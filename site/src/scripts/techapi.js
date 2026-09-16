@@ -182,6 +182,15 @@ async function loadList(resource) {
     // The hero is already in view at first paint. Animate immediately so the
     // counters do not remain at zero when IntersectionObserver is delayed.
     el.querySelectorAll(".num").forEach((n) => countUp(n, +n.dataset.n));
+    // Satellite data repos publish their own catalog; count them alongside.
+    fetch("https://gettechapi.github.io/cpu-engineering-samples/catalog.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((list) => {
+        el.insertAdjacentHTML("beforeend",
+          `<div class="stat"><div class="n"><span class="num">0</span></div><div class="l">cpu eng. samples</div></div>`);
+        countUp(el.lastElementChild.querySelector(".num"), list.length);
+      })
+      .catch(() => {});
   }).catch(() => {
     el.innerHTML = '<div class="stat"><div class="n">—</div><div class="l">build data first</div></div>';
   });
@@ -222,6 +231,7 @@ function countUp(node, target, opts = {}) {
     gpus: "GPUs",
     cpus: "CPUs",
     brands: "Brands",
+    cpu_es: "CPU eng. samples",
   };
   const shortLabel = {
     games: "games",
@@ -236,6 +246,7 @@ function countUp(node, target, opts = {}) {
     gpus: "gpus",
     cpus: "cpus",
     brands: "brands",
+    cpu_es: "cpu eng. samples",
   };
   const dumpPath = "site/public/v1/index.json";
   const countRows = (manifest) => {
@@ -433,6 +444,20 @@ function countUp(node, target, opts = {}) {
     if (!points || !points.length) points = await pointsFromGitHubApi();
     if (!points.length) throw new Error("empty history");
 
+    // Add each satellite's count as of every point's date (its own history.json).
+    const es = await fetch("https://gettechapi.github.io/cpu-engineering-samples/history.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((d) => (d.points || []).map((p) => ({ t: new Date(p.date).getTime(), count: p.count })))
+      .catch(() => []);
+    if (es.length) {
+      for (const point of points) {
+        const asOf = es.filter((p) => p.t <= point.dateValue).pop();
+        if (!asOf) continue;
+        point.rows = [...point.rows, { key: "cpu_es", count: asOf.count }];
+        point.total += asOf.count;
+      }
+    }
+
     const currentTotal = totalRecords(currentManifest);
     const latest = points[points.length - 1];
     if (latest.total !== currentTotal) {
@@ -456,7 +481,19 @@ function countUp(node, target, opts = {}) {
     renderHistory(points);
   }
 
-  getJSON("v1/index.json").then((manifest) => {
+  // Satellite repos are not in the dump; fold their current count into the
+  // latest snapshot so the total and the newest point include them.
+  // ponytail: current count only, no back-history until satellites publish one.
+  const withSatellites = (manifest) =>
+    fetch("https://gettechapi.github.io/cpu-engineering-samples/catalog.json")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((list) => {
+        manifest.collections = { ...manifest.collections, cpu_es: { count: list.length } };
+        return manifest;
+      })
+      .catch(() => manifest);
+
+  getJSON("v1/index.json").then(withSatellites).then((manifest) => {
     renderSnapshot(manifest);
     return loadCommitHistory(manifest).catch(() => {
       chartEl.innerHTML = '<div class="history-empty">Growth chart unavailable</div>';

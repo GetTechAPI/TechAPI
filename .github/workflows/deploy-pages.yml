@@ -21,6 +21,9 @@ concurrency:
 
 jobs:
   build:
+    # Org-only: this job publishes the site or talks to TechEngine. In a fork
+    # it can only fail (no secrets, no Pages), so it does not run there.
+    if: github.repository == 'GetTechAPI/TechAPI'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

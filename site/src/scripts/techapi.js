@@ -51,6 +51,31 @@ async function getJSON(path) {
   return r.json();
 }
 
+/* ============================================================
+   SATELLITE DATA REPOS
+   Categories too large (or too differently sourced) to live in TechAPI keep
+   their own repository, but still count on this page. Each publishes
+   `summary.json` ({count}) and `history.json` ({points:[{date,count}]}).
+   Counts come from summary.json, never from a record listing: game-catalog
+   alone is ~1M records, hundreds of MB nobody should download to read a
+   `.length`.
+   ============================================================ */
+const SATELLITES = [
+  { key: "games", label: "games", base: "https://gettechapi.github.io/game-catalog/" },
+  { key: "cpu_es", label: "cpu eng. samples", base: "https://gettechapi.github.io/cpu-engineering-samples/" },
+];
+
+const satelliteJSON = (sat, file) =>
+  fetch(sat.base + file).then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))));
+
+// One entry per satellite that answered; an unreachable one is simply absent.
+const satelliteCounts = () =>
+  Promise.all(SATELLITES.map((sat) =>
+    satelliteJSON(sat, "summary.json")
+      .then((d) => (typeof d.count === "number" ? { sat, count: d.count } : null))
+      .catch(() => null)))
+    .then((rows) => rows.filter(Boolean));
+
 const listCache = {};
 async function loadList(resource) {
   if (!listCache[resource]) {
@@ -182,15 +207,14 @@ async function loadList(resource) {
     // The hero is already in view at first paint. Animate immediately so the
     // counters do not remain at zero when IntersectionObserver is delayed.
     el.querySelectorAll(".num").forEach((n) => countUp(n, +n.dataset.n));
-    // Satellite data repos publish their own catalog; count them alongside.
-    fetch("https://gettechapi.github.io/cpu-engineering-samples/catalog.json")
-      .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then((list) => {
+    // Satellites are not in the dump manifest; count them alongside it.
+    satelliteCounts().then((rows) => {
+      for (const { sat, count } of rows) {
         el.insertAdjacentHTML("beforeend",
-          `<div class="stat"><div class="n"><span class="num">0</span></div><div class="l">cpu eng. samples</div></div>`);
-        countUp(el.lastElementChild.querySelector(".num"), list.length);
-      })
-      .catch(() => {});
+          `<div class="stat"><div class="n"><span class="num">0</span></div><div class="l">${sat.label}</div></div>`);
+        countUp(el.lastElementChild.querySelector(".num"), count);
+      }
+    });
   }).catch(() => {
     el.innerHTML = '<div class="stat"><div class="n">—</div><div class="l">build data first</div></div>';
   });
@@ -445,15 +469,21 @@ function countUp(node, target, opts = {}) {
     if (!points.length) throw new Error("empty history");
 
     // Add each satellite's count as of every point's date (its own history.json).
-    const es = await fetch("https://gettechapi.github.io/cpu-engineering-samples/history.json")
-      .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then((d) => (d.points || []).map((p) => ({ t: new Date(p.date).getTime(), count: p.count })))
-      .catch(() => []);
-    if (es.length) {
+    const histories = await Promise.all(SATELLITES.map((sat) =>
+      satelliteJSON(sat, "history.json")
+        .then((d) => ({
+          sat,
+          points: (d.points || [])
+            .map((p) => ({ t: new Date(p.date).getTime(), count: p.count }))
+            .sort((a, b) => a.t - b.t),
+        }))
+        .catch(() => null)));
+    for (const history of histories) {
+      if (!history || !history.points.length) continue;
       for (const point of points) {
-        const asOf = es.filter((p) => p.t <= point.dateValue).pop();
+        const asOf = history.points.filter((p) => p.t <= point.dateValue).pop();
         if (!asOf) continue;
-        point.rows = [...point.rows, { key: "cpu_es", count: asOf.count }];
+        point.rows = [...point.rows, { key: history.sat.key, count: asOf.count }];
         point.total += asOf.count;
       }
     }
@@ -481,17 +511,15 @@ function countUp(node, target, opts = {}) {
     renderHistory(points);
   }
 
-  // Satellite repos are not in the dump; fold their current count into the
-  // latest snapshot so the total and the newest point include them.
-  // ponytail: current count only, no back-history until satellites publish one.
+  // Satellite repos are not in the dump; fold their current counts into the
+  // snapshot so the total and the newest point include them.
   const withSatellites = (manifest) =>
-    fetch("https://gettechapi.github.io/cpu-engineering-samples/catalog.json")
-      .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then((list) => {
-        manifest.collections = { ...manifest.collections, cpu_es: { count: list.length } };
-        return manifest;
-      })
-      .catch(() => manifest);
+    satelliteCounts().then((rows) => {
+      const collections = { ...manifest.collections };
+      for (const { sat, count } of rows) collections[sat.key] = { count };
+      manifest.collections = collections;
+      return manifest;
+    }).catch(() => manifest);
 
   getJSON("v1/index.json").then(withSatellites).then((manifest) => {
     renderSnapshot(manifest);

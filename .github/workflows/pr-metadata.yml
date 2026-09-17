@@ -40,15 +40,17 @@ jobs:
               pull_number: issue_number,
               per_page: 100,
             });
-            // GitHub refuses the file list for very large PRs (dump refreshes:
-            // 422 "diff is taking too long to generate"); label from what we got.
+            // GitHub cannot produce the file list for very large PRs (dump
+            // refreshes): 422 "diff is taking too long to generate", or a plain
+            // 504 when it gives up later. Label from whatever arrived.
+            const NO_FILE_LIST = new Set([422, 502, 503, 504]);
             try {
               for await (const { data } of fileIterator) {
                 files.push(...data);
                 if (files.length >= FILE_SCAN_LIMIT) break;
               }
             } catch (error) {
-              if (error.status !== 422) throw error;
+              if (!NO_FILE_LIST.has(error.status)) throw error;
               core.warning(`PR file list unavailable (${error.message}); path labels skipped`);
             }
             const filesWereCapped = (pr.changed_files || files.length) > files.length;

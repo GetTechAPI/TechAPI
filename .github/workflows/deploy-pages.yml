@@ -48,18 +48,6 @@ jobs:
         run: |
           mkdir -p _site
           cp -r site/dist/. _site/
-          # Games remain versioned static source data in this repository, but
-          # publishing nearly one million per-record files exceeds the fixed
-          # GitHub Pages deployment window. Keep the public homepage artifact
-          # to the collections it can serve reliably.
-          rm -rf _site/v1/games
-          node <<'NODE'
-          const fs = require("fs");
-          const path = "_site/v1/index.json";
-          const manifest = JSON.parse(fs.readFileSync(path, "utf8"));
-          delete manifest.collections?.games;
-          fs.writeFileSync(path, JSON.stringify(manifest, null, 2) + "\n");
-          NODE
           touch _site/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3

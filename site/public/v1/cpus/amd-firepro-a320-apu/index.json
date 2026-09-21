@@ -26,25 +26,26 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 42.1,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 50.1,
+      "percentile": 56.4,
+      "tier": "C",
       "era": "2014-2016",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 35.5,
+      "percentile": 55.4,
+      "tier": "C",
       "era": "2014-2016",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+FirePro+A320+APU"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-06-17T16:07:24",

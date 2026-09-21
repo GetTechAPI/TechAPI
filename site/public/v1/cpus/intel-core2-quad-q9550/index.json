@@ -26,25 +26,26 @@
   "msrp_usd": 30,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 43.2,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 50.7,
+      "percentile": 91.2,
+      "tier": "A",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 37.0,
+      "percentile": 93.2,
+      "tier": "A",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Quad+Q9550"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-06-17T16:07:24",

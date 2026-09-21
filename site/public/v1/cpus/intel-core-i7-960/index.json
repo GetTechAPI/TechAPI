@@ -26,26 +26,28 @@
   "msrp_usd": 23,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 49.1,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 57.4,
+      "percentile": 98.7,
+      "tier": "S",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 42.4,
+      "percentile": 99.6,
+      "tier": "S",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Core_desktop_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_desktop_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-960",
+    "https://technical.city/en/cpu/Core-i7-960"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-07-31T18:11:34",

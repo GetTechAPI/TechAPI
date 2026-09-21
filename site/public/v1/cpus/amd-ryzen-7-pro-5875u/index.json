@@ -26,25 +26,26 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 73.5,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 82.1,
+      "percentile": 61.0,
+      "tier": "B",
       "era": "2022-2023",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 66.5,
+      "percentile": 61.5,
+      "tier": "B",
       "era": "2022-2023",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+7+PRO+5875U"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-06-17T16:07:24",

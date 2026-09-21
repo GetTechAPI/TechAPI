@@ -26,26 +26,27 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 42.8,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 50.3,
+      "percentile": 59.5,
+      "tier": "C",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 36.6,
+      "percentile": 66.1,
+      "tier": "B",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_AMD_Athlon_II_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Athlon_II_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+II+X4+641"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-07-31T18:11:34",

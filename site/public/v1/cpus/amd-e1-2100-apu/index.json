@@ -26,25 +26,26 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 6.7,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 2.6,
+      "percentile": 4.4,
+      "tier": "F",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 10.1,
+      "percentile": 7.6,
+      "tier": "E",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+E1-2100+APU"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-06-17T16:07:24",

@@ -26,25 +26,26 @@
   "msrp_usd": 49,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 35.1,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 47.7,
+      "percentile": 83.4,
+      "tier": "A",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 24.7,
+      "percentile": 69.0,
+      "tier": "B",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+E7400"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-06-17T16:07:24",

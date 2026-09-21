@@ -26,26 +26,28 @@
   "msrp_usd": 130,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 33.9,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 42.6,
+      "percentile": 41.9,
+      "tier": "C",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 26.7,
+      "percentile": 38.1,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i5-430M",
+    "https://technical.city/en/cpu/Core-i5-430M"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-07-31T18:11:34",

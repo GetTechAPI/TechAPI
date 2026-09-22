@@ -1,8 +1,11 @@
 // TechAPI — homepage interactions (Astro client script)
-// Real static-JSON fetch against import.meta.env.BASE_URL (static JSON dump).
-const raw = import.meta.env.BASE_URL;
+// Real static-JSON fetch against import.meta.env.BASE_URL (static JSON dump),
+// or PUBLIC_API_BASE_URL when set (e.g. a Vercel preview reading main's live data).
+const raw = import.meta.env.PUBLIC_API_BASE_URL || import.meta.env.BASE_URL;
 const base = raw.endsWith("/") ? raw : raw + "/";
-const absUrl = (path) => new URL(path.replace(/^\//, ""), location.origin + base).href;
+// base may be relative ("/TechAPI/") or absolute (PUBLIC_API_BASE_URL) — resolve against origin either way.
+const baseUrl = new URL(base, location.origin);
+const absUrl = (path) => new URL(path.replace(/^\//, ""), baseUrl).href;
 const esc = (s) => String(s)
   .replace(/&/g, "&amp;")
   .replace(/</g, "&lt;")

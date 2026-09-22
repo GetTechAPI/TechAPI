@@ -26,25 +26,26 @@
   "msrp_usd": 851,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 17.9,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 27.6,
+      "percentile": 39.9,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 9.9,
+      "percentile": 32.3,
+      "tier": "D",
       "era": "2006-2009",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+3.60GHz"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-06-17T16:07:24",

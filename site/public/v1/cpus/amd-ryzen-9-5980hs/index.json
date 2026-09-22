@@ -26,25 +26,27 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 55.8,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 72.7,
+      "percentile": 77.9,
+      "tier": "B",
       "era": "2020-2021",
-      "source": null
+      "source": "cinebench_r23_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 42.0,
+      "percentile": 44.7,
+      "tier": "C",
       "era": "2020-2021",
-      "source": null
+      "source": "cinebench_r23_multi"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.topcpu.net/en/cpu-r/",
+    "https://technical.city/en/cpu/Ryzen-9-5980HS"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-06-17T16:07:24",

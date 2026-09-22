@@ -26,26 +26,27 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 22.5,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 25.2,
+      "percentile": 15.4,
+      "tier": "E",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 20.2,
+      "percentile": 21.8,
+      "tier": "D",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i3-2357M"
   ],
   "created_at": "2026-06-17T16:07:24",
   "updated_at": "2026-07-31T18:11:34",

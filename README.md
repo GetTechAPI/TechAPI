@@ -32,7 +32,8 @@ data/cpu/<manufacturer>/<year>/<segment>/<slug>.json   # data/cpu/intel/2023/con
 All paths use singular folder names. Slugs are kebab-case and unique within each category.
 
 The Astro site lives under `site/` and is the deploy target for GitHub Pages. It
-consumes the static JSON dump produced by TechEngine's `weekly-refresh` workflow.
+consumes the static JSON dump produced by TechEngine's `weekly-refresh` (rescrapes,
+then dumps) and `dump-refresh` (re-dumps current data without a rescrape) workflows.
 
 ## Self-Check
 

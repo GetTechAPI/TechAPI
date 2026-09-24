@@ -3,24 +3,28 @@ import "../styles/techapi.css";
 
 const raw = import.meta.env.BASE_URL;
 const base = raw.endsWith("/") ? raw : raw + "/";
+// Data links only: PUBLIC_API_BASE_URL (e.g. a Vercel preview reading main's live data)
+// takes over just these, while site nav/assets below keep using `base`.
+const apiRaw = import.meta.env.PUBLIC_API_BASE_URL || raw;
+const apiBase = apiRaw.endsWith("/") ? apiRaw : apiRaw + "/";
 const ghUrl = "https://github.com/GetTechAPI/TechAPI";
 const engineUrl = "https://github.com/GetTechAPI/TechEngine";
 
 const endpoints = [
-  { label: "/v1/smartphones", desc: "List all phones", href: `${base}v1/smartphones/index.json` },
-  { label: "/v1/smartphones/{slug}", desc: "Phone detail + scores", href: `${base}v1/smartphones/galaxy-s26-ultra/index.json` },
-  { label: "/v1/smartphones/{slug}/score", desc: "Computed scores", href: `${base}v1/smartphones/galaxy-s26-ultra/score/index.json` },
-  { label: "/v1/tablets", desc: "List all tablets", href: `${base}v1/tablets/index.json` },
-  { label: "/v1/laptops", desc: "List all laptops", href: `${base}v1/laptops/index.json` },
-  { label: "/v1/monitors", desc: "List all monitors", href: `${base}v1/monitors/index.json` },
-  { label: "/v1/watches", desc: "List all watches", href: `${base}v1/watches/index.json` },
-  { label: "/v1/pdas", desc: "List all PDAs", href: `${base}v1/pdas/index.json` },
-  { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${base}v1/socs/snapdragon-8-elite-gen-5/index.json` },
-  { label: "/v1/gpus/{slug}", desc: "Discrete GPU detail", href: `${base}v1/gpus/geforce-rtx-5090/index.json` },
-  { label: "/v1/cpus/{slug}", desc: "Desktop / laptop CPU", href: `${base}v1/cpus/core-i9-14900k/index.json` },
-  { label: "/v1/software", desc: "List all software", href: `${base}v1/software/index.json` },
-  { label: "/v1/websites", desc: "List all websites", href: `${base}v1/websites/index.json` },
-  { label: "/v1/brands", desc: "All brands", href: `${base}v1/brands/index.json` },
+  { label: "/v1/smartphones", desc: "List all phones", href: `${apiBase}v1/smartphones/index.json` },
+  { label: "/v1/smartphones/{slug}", desc: "Phone detail + scores", href: `${apiBase}v1/smartphones/galaxy-s26-ultra/index.json` },
+  { label: "/v1/smartphones/{slug}/score", desc: "Computed scores", href: `${apiBase}v1/smartphones/galaxy-s26-ultra/score/index.json` },
+  { label: "/v1/tablets", desc: "List all tablets", href: `${apiBase}v1/tablets/index.json` },
+  { label: "/v1/laptops", desc: "List all laptops", href: `${apiBase}v1/laptops/index.json` },
+  { label: "/v1/monitors", desc: "List all monitors", href: `${apiBase}v1/monitors/index.json` },
+  { label: "/v1/watches", desc: "List all watches", href: `${apiBase}v1/watches/index.json` },
+  { label: "/v1/pdas", desc: "List all PDAs", href: `${apiBase}v1/pdas/index.json` },
+  { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${apiBase}v1/socs/snapdragon-8-elite-gen-5/index.json` },
+  { label: "/v1/gpus/{slug}", desc: "Discrete GPU detail", href: `${apiBase}v1/gpus/geforce-rtx-5090/index.json` },
+  { label: "/v1/cpus/{slug}", desc: "Desktop / laptop CPU", href: `${apiBase}v1/cpus/core-i9-14900k/index.json` },
+  { label: "/v1/software", desc: "List all software", href: `${apiBase}v1/software/index.json` },
+  { label: "/v1/websites", desc: "List all websites", href: `${apiBase}v1/websites/index.json` },
+  { label: "/v1/brands", desc: "All brands", href: `${apiBase}v1/brands/index.json` },
 ];
 ---
 
@@ -41,7 +45,7 @@ const endpoints = [
     })();
   </script>
   <title>TechAPI — open data for consumer electronics specs</title>
-  <meta name="description" content="A free, open, static dataset of smartphone, laptop, SoC, GPU and CPU specs — plus games, software and websites — with computed scores. No key, no server — just fetch JSON." />
+  <meta name="description" content="A free, open, static dataset of smartphone, tablet, laptop, SoC, GPU and CPU specs — plus software and websites — with computed scores. No key, no server — just fetch JSON." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />

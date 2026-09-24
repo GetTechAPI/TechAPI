@@ -3632,6 +3632,30 @@
             "title": "Images",
             "default": []
           },
+          "model_3d": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model 3D"
+          },
+          "body": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Body"
+          },
           "score": {
             "$ref": "#/components/schemas/ScoreRead"
           },

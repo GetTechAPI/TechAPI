@@ -1,20 +1,20 @@
 {
-  "slug": "intel-xeon-platinum-8151",
-  "name": "Intel Xeon Platinum 8151",
+  "slug": "intel-xeon-e5-2648l",
+  "name": "Intel Xeon E5-2648L",
   "manufacturer": "intel",
-  "release_date": "2019-05-01",
+  "release_date": "2012-03-06",
   "segment": "server",
   "architecture": "Xeon",
-  "socket": null,
-  "process_node": null,
-  "cores": 12,
-  "threads": 4,
+  "socket": "LGA 2011",
+  "process_node": "32 nm",
+  "cores": 8,
+  "threads": 16,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": 3.4,
-  "boost_clock_ghz": null,
-  "l3_cache_mb": null,
-  "tdp_w": null,
+  "base_clock_ghz": 1.8,
+  "boost_clock_ghz": 2.1,
+  "l3_cache_mb": 20.0,
+  "tdp_w": 70,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
@@ -38,9 +38,9 @@
   "whetstone_mflops": null,
   "superpi_1m_sec": null,
   "msrp_usd": null,
-  "verified": false,
+  "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Skylake-based)"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Sandy_Bridge-based)"
   ]
 }

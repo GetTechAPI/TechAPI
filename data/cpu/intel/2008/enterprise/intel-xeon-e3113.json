@@ -1,20 +1,20 @@
 {
-  "slug": "intel-xeon-platinum-8151",
-  "name": "Intel Xeon Platinum 8151",
+  "slug": "intel-xeon-e3113",
+  "name": "Intel Xeon E3113",
   "manufacturer": "intel",
-  "release_date": "2019-05-01",
+  "release_date": "2008-09-08",
   "segment": "server",
   "architecture": "Xeon",
-  "socket": null,
+  "socket": "LGA775",
   "process_node": null,
-  "cores": 12,
-  "threads": 4,
+  "cores": 2,
+  "threads": 2,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": 3.4,
+  "base_clock_ghz": 3.0,
   "boost_clock_ghz": null,
   "l3_cache_mb": null,
-  "tdp_w": null,
+  "tdp_w": 65,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
@@ -41,6 +41,6 @@
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Skylake-based)"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Core-based)"
   ]
 }

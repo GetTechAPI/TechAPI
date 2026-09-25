@@ -10,7 +10,19 @@
     "country": "US",
     "url": "/v1/brands/apple"
   },
-  "soc": null,
+  "soc": {
+    "id": 29943401676933,
+    "slug": "apple-m2",
+    "name": "Apple M2",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple M2 GPU",
+    "url": "/v1/socs/apple-m2"
+  },
   "release_date": "2022-10-18",
   "msrp_usd": null,
   "ram_gb": 16.0,
@@ -61,6 +73,6 @@
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
   "created_at": "2026-06-20T22:03:58",
-  "updated_at": "2026-07-09T13:49:23",
+  "updated_at": "2026-09-25T15:27:48",
   "url": "/v1/tablets/apple-ipad-pro-12-9-2022-16gb-512gb-5g"
 }

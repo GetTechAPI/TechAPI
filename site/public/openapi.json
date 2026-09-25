@@ -3632,6 +3632,28 @@
             "title": "Images",
             "default": []
           },
+          "image_license": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Image License"
+          },
+          "image_attribution": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Image Attribution"
+          },
           "model_3d": {
             "anyOf": [
               {

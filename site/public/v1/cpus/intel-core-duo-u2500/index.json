@@ -7,7 +7,7 @@
     "name": "Intel",
     "url": "/v1/brands/intel"
   },
-  "release_date": "2009-02-01",
+  "release_date": "2006-06-01",
   "segment": "laptop",
   "architecture": "Intel CPU",
   "socket": "BGA479",
@@ -29,14 +29,14 @@
     "overall": 3.5,
     "single": {
       "index": 6.7,
-      "percentile": 13.9,
+      "percentile": 14.0,
       "tier": "E",
       "era": "2006-2009",
       "source": "passmark_single"
     },
     "multi": {
       "index": 0.9,
-      "percentile": 15.0,
+      "percentile": 14.9,
       "tier": "E",
       "era": "2006-2009",
       "source": "passmark_cpu_mark"
@@ -46,9 +46,10 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Duo+U2500",
-    "https://technical.city/en/cpu/Core-Duo-U2500"
+    "https://technical.city/en/cpu/Core-Duo-U2500",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-23T22:24:43",
+  "created_at": "2026-09-25T15:37:10",
+  "updated_at": "2026-09-25T15:37:10",
   "url": "/v1/cpus/intel-core-duo-u2500"
 }

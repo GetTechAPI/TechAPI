@@ -7,7 +7,7 @@
     "name": "Intel",
     "url": "/v1/brands/intel"
   },
-  "release_date": "2010-05-01",
+  "release_date": "2006-09-26",
   "segment": "server",
   "architecture": "Xeon",
   "socket": "LGA775",
@@ -29,25 +29,26 @@
     "overall": 33.3,
     "single": {
       "index": 44.5,
-      "percentile": 45.6,
-      "tier": "C",
-      "era": "2010-2013",
+      "percentile": 74.5,
+      "tier": "B",
+      "era": "2006-2009",
       "source": "passmark_single"
     },
     "multi": {
       "index": 24.2,
-      "percentile": 30.3,
-      "tier": "D",
-      "era": "2010-2013",
+      "percentile": 67.5,
+      "tier": "B",
+      "era": "2006-2009",
       "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+3070"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+3070",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Core-based)"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-22T10:47:29",
+  "created_at": "2026-09-25T15:37:10",
+  "updated_at": "2026-09-25T15:37:10",
   "url": "/v1/cpus/intel-xeon-3070"
 }

@@ -10,7 +10,19 @@
     "country": "US",
     "url": "/v1/brands/apple"
   },
-  "soc": null,
+  "soc": {
+    "id": 118919081737599,
+    "slug": "apple-m1",
+    "name": "Apple M1",
+    "manufacturer": {
+      "slug": "apple",
+      "name": "Apple",
+      "url": "/v1/brands/apple"
+    },
+    "process_nm": 5.0,
+    "gpu_name": "Apple M1 GPU",
+    "url": "/v1/socs/apple-m1"
+  },
   "release_date": "2021-04-20",
   "msrp_usd": null,
   "ram_gb": 16.0,
@@ -61,6 +73,6 @@
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
   ],
   "created_at": "2026-06-20T22:03:58",
-  "updated_at": "2026-07-09T13:49:23",
+  "updated_at": "2026-09-25T15:27:48",
   "url": "/v1/tablets/apple-ipad-pro-12-9-2021-16gb-512gb-5g"
 }

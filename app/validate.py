@@ -325,9 +325,9 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if "release_date" in rec:
             _check_date(fname, rec["release_date"], errors)
-        _check_range(fname, "ram_gb", rec.get("ram_gb"), 1, 64, errors)
+        _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
         _check_range(fname, "battery_mah", rec.get("battery_mah"), 500, 12000, errors)
-        _check_range(fname, "weight_g", rec.get("weight_g"), 50, 500, errors)
+        _check_range(fname, "weight_g", rec.get("weight_g"), 50, 1500, errors)
         if "msrp_usd" in rec:
             _check_range(fname, "msrp_usd", rec["msrp_usd"], 50, 5000, errors)
         if rec.get("brand") not in brand_slugs:

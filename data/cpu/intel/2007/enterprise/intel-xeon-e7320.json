@@ -1,20 +1,20 @@
 {
-  "slug": "intel-xeon-platinum-8151",
-  "name": "Intel Xeon Platinum 8151",
+  "slug": "intel-xeon-e7320",
+  "name": "Intel Xeon E7320",
   "manufacturer": "intel",
-  "release_date": "2019-05-01",
+  "release_date": "2007-09-06",
   "segment": "server",
   "architecture": "Xeon",
-  "socket": null,
+  "socket": "604",
   "process_node": null,
-  "cores": 12,
+  "cores": 4,
   "threads": 4,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": 3.4,
+  "base_clock_ghz": 2.13,
   "boost_clock_ghz": null,
   "l3_cache_mb": null,
-  "tdp_w": null,
+  "tdp_w": 80,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
@@ -41,6 +41,6 @@
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Skylake-based)"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Core-based)"
   ]
 }

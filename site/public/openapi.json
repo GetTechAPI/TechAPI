@@ -3519,7 +3519,14 @@
             "title": "Msrp Usd"
           },
           "ram_gb": {
-            "type": "integer",
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "number"
+              }
+            ],
             "title": "Ram Gb"
           },
           "storage_options_gb": {

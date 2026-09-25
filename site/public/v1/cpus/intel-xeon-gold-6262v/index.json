@@ -7,13 +7,13 @@
     "name": "Intel",
     "url": "/v1/brands/intel"
   },
-  "release_date": "2022-11-01",
+  "release_date": "2019-05-01",
   "segment": "server",
   "architecture": "Xeon",
   "socket": "FCLGA3647",
   "process_node": null,
-  "cores": 3,
-  "threads": 6,
+  "cores": 24,
+  "threads": 48,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 1.9,
@@ -31,22 +31,24 @@
       "index": null,
       "percentile": null,
       "tier": null,
-      "era": "2022-2023",
+      "era": "2017-2019",
       "source": null
     },
     "multi": {
       "index": null,
       "percentile": null,
       "tier": null,
-      "era": "2022-2023",
+      "era": "2017-2019",
       "source": null
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Cascade_Lake-based)",
+    "https://www.intel.com/content/www/us/en/products/sku/193972/intel-xeon-gold-6262v-processor-33m-cache-1-90-ghz/specifications.html"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-06-17T16:07:24",
+  "created_at": "2026-09-25T15:37:10",
+  "updated_at": "2026-09-25T15:37:10",
   "url": "/v1/cpus/intel-xeon-gold-6262v"
 }

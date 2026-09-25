@@ -1,0 +1,52 @@
+{
+  "id": 165456920238204,
+  "slug": "apple-m4",
+  "name": "Apple M4",
+  "manufacturer": {
+    "slug": "apple",
+    "name": "Apple",
+    "url": "/v1/brands/apple"
+  },
+  "release_date": "2024-05-15",
+  "process_nm": 3.0,
+  "transistors_billion": 28.0,
+  "cpu_config": {
+    "performance": 4,
+    "efficiency": 6,
+    "architecture": "4x performance + 6x efficiency",
+    "clocks_ghz": [
+      4.4,
+      2.85
+    ]
+  },
+  "gpu_name": "Apple M4 GPU",
+  "gpu_cores": 10,
+  "gpu_clock_mhz": 1470,
+  "npu_tops": 38.0,
+  "modem": null,
+  "score": {
+    "algorithm_version": "2.0.0",
+    "overall": null,
+    "cpu": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2024-2026",
+      "source": null
+    },
+    "system": {
+      "index": null,
+      "percentile": null,
+      "tier": null,
+      "era": "2024-2026",
+      "source": null
+    }
+  },
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Apple_silicon#Comparison_of_M-series_processors"
+  ],
+  "created_at": "2026-09-25T15:22:17",
+  "updated_at": "2026-09-25T15:22:17",
+  "url": "/v1/socs/apple-m4"
+}

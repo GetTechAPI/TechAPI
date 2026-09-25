@@ -1,20 +1,20 @@
 {
-  "slug": "intel-core-duo-t2700",
-  "name": "Intel Core Duo T2700",
+  "slug": "intel-core-solo-u1400",
+  "name": "Intel Core Solo U1400",
   "manufacturer": "intel",
-  "release_date": "2009-02-01",
+  "release_date": "2006-04-01",
   "segment": "laptop",
   "architecture": "Intel CPU",
-  "socket": "BGA479",
+  "socket": "PBGA479",
   "process_node": null,
-  "cores": 2,
-  "threads": 2,
+  "cores": 1,
+  "threads": 1,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": 2.33,
+  "base_clock_ghz": 1.2,
   "boost_clock_ghz": null,
   "l3_cache_mb": null,
-  "tdp_w": 31,
+  "tdp_w": 6,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
@@ -30,8 +30,8 @@
   "cinebench_r11_5_multi": null,
   "cinebench_r10_single": null,
   "cinebench_r10_multi": null,
-  "passmark_single": 652,
-  "passmark_cpu_mark": 498,
+  "passmark_single": 365,
+  "passmark_cpu_mark": 130,
   "specint2006": null,
   "specfp2006": null,
   "dhrystone_mips": null,
@@ -41,6 +41,7 @@
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Duo+T2700"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+Solo+U1400",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors"
   ]
 }

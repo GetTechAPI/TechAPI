@@ -1,20 +1,20 @@
 {
-  "slug": "intel-celeron-2000e",
-  "name": "Intel Celeron 2000E",
+  "slug": "intel-celeron-j4115",
+  "name": "Intel Celeron J4115",
   "manufacturer": "intel",
-  "release_date": "2017-01-01",
-  "segment": "laptop",
+  "release_date": "2017-10-01",
+  "segment": "desktop",
   "architecture": "Celeron",
-  "socket": "FCBGA1364",
-  "process_node": "22 nm",
-  "cores": 2,
-  "threads": 2,
+  "socket": null,
+  "process_node": "14 nm",
+  "cores": 4,
+  "threads": 4,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": 2.2,
-  "boost_clock_ghz": null,
-  "l3_cache_mb": 2.0,
-  "tdp_w": 37,
+  "base_clock_ghz": 1.8,
+  "boost_clock_ghz": 2.5,
+  "l3_cache_mb": null,
+  "tdp_w": null,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
@@ -41,6 +41,7 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_microprocessors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_microprocessors",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_processors"
   ]
 }

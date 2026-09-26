@@ -40,6 +40,8 @@ jobs:
       PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
       HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.head_sha }}
       HEAD_REF: ${{ github.event.pull_request.head.ref || '' }}
+      BASE_REF: ${{ github.event.pull_request.base.ref || '' }}
+      BASE_SHA: ${{ github.event.pull_request.base.sha || '' }}
       PR_URL: ${{ github.event.pull_request.html_url || '' }}
     steps:
       - name: Skip when ENGINE_TOKEN is unset
@@ -60,6 +62,8 @@ jobs:
                 pr_number: process.env.PR_NUMBER,
                 head_sha: process.env.HEAD_SHA,
                 head_ref: process.env.HEAD_REF,
+                base_ref: process.env.BASE_REF,
+                base_sha: process.env.BASE_SHA,
                 pr_url: process.env.PR_URL,
                 requested_by: context.actor
               }

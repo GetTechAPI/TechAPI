@@ -2,7 +2,7 @@
 
 ## What & why
 
-<!-- What does this change and why? Use "Closes #123" for GitHub Development linking. Auto-close is disabled for the long-running tracking issues. -->
+<!-- What does this change and why? Link the workstream tracker with "Closes #N": #295 new records, #296 data accuracy, #297 engine/bot/CI, #19 site, #1 releases and dumps. pr-metadata adds it automatically if missing. Auto-close is disabled for tracking issues. -->
 
 ## Source
 

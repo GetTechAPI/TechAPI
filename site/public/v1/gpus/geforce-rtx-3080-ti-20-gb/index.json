@@ -23,22 +23,26 @@
   "tdp_w": 350,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 34.1,
-  "blender_score": null,
+  "blender_score": 5315.52,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 89.3,
+    "overall": 86.8,
     "graphics": {
-      "index": 89.3,
-      "percentile": 79.0,
+      "index": 86.8,
+      "percentile": 76.6,
       "tier": "B",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-rtx-3080-ti-20-gb"
 }

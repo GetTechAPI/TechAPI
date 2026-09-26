@@ -23,22 +23,26 @@
   "tdp_w": 50,
   "pcie_version": "PCIe 3.0 x16",
   "fp32_tflops": 0.783,
-  "blender_score": null,
+  "blender_score": 67.86,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 43.1,
+    "overall": 1.0,
     "graphics": {
-      "index": 43.1,
-      "percentile": 60.8,
-      "tier": "B",
+      "index": 1.0,
+      "percentile": 6.9,
+      "tier": "E",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gt-755m"
 }

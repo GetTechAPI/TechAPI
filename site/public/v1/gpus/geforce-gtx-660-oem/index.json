@@ -26,19 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 54.9,
+    "overall": 20.1,
     "graphics": {
-      "index": 54.9,
-      "percentile": 82.5,
-      "tier": "A",
+      "index": 20.1,
+      "percentile": 13.4,
+      "tier": "E",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-660-oem"
 }

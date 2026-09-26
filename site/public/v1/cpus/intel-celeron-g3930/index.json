@@ -26,28 +26,30 @@
   "msrp_usd": 30,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 48.9,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 64.5,
+      "percentile": 72.4,
+      "tier": "B",
       "era": "2017-2019",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 36.1,
+      "percentile": 39.8,
+      "tier": "D",
       "era": "2017-2019",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_microprocessors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_microprocessors",
+    "https://www.topcpu.net/en/cpu-r/",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-07-31T18:11:34",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/intel-celeron-g3930"
 }

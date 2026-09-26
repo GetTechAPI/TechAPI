@@ -26,28 +26,29 @@
   "msrp_usd": 419,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 91.4,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 91.7,
+      "percentile": 97.0,
+      "tier": "S",
       "era": "2014-2016",
-      "source": null
+      "source": "specint2006"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 91.1,
+      "percentile": 98.2,
+      "tier": "S",
       "era": "2014-2016",
-      "source": null
+      "source": "specfp2006"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Broadwell-based)"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Broadwell-based)",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-07-31T18:11:34",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/intel-xeon-e5-2690-v4"
 }

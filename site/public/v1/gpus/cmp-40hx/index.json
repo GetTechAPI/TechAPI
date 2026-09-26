@@ -23,21 +23,23 @@
   "tdp_w": 185,
   "pcie_version": "PCIe 1.0 x4",
   "fp32_tflops": 7.603,
-  "blender_score": null,
+  "blender_score": 1164.31,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 71.0,
+    "overall": 85.6,
     "graphics": {
-      "index": 71.0,
-      "percentile": 45.3,
-      "tier": "C",
+      "index": 85.6,
+      "percentile": 86.9,
+      "tier": "A",
       "era": "2020-2021",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/cmp-40hx"
 }

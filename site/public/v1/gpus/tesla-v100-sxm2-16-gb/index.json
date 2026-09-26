@@ -23,21 +23,24 @@
   "tdp_w": 250,
   "pcie_version": "PCIe 3.0 x16",
   "fp32_tflops": 15.67,
-  "blender_score": null,
+  "blender_score": 2101.97,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 79.8,
+    "overall": 87.1,
     "graphics": {
-      "index": 79.8,
-      "percentile": 96.7,
+      "index": 87.1,
+      "percentile": 95.1,
       "tier": "S",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/tesla-v100-sxm2-16-gb"
 }

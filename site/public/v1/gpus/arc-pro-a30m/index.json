@@ -26,18 +26,19 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 63.4,
+    "overall": 80.7,
     "graphics": {
-      "index": 63.4,
-      "percentile": 13.1,
-      "tier": "E",
+      "index": 80.7,
+      "percentile": 60.0,
+      "tier": "B",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/arc-pro-a30m"
 }

@@ -23,22 +23,26 @@
   "tdp_w": 160,
   "pcie_version": "PCIe 5.0 x16",
   "fp32_tflops": 25.64,
-  "blender_score": null,
+  "blender_score": 1615.0,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 85.8,
+    "overall": 82.8,
     "graphics": {
-      "index": 85.8,
-      "percentile": 40.2,
-      "tier": "C",
+      "index": 82.8,
+      "percentile": 34.9,
+      "tier": "D",
       "era": "2024-2026",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_9000_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_9000_series",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/radeon-rx-9060-xt-16-gb"
 }

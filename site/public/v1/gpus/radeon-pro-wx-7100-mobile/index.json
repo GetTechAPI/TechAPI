@@ -26,18 +26,19 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 67.5,
+    "overall": 45.8,
     "graphics": {
-      "index": 67.5,
-      "percentile": 68.0,
-      "tier": "B",
+      "index": 45.8,
+      "percentile": 25.6,
+      "tier": "D",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy"
   ],
   "url": "/v1/gpus/radeon-pro-wx-7100-mobile"
 }

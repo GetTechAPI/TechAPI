@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 17.5,
+    "overall": 40.8,
     "graphics": {
-      "index": 17.5,
-      "percentile": 6.2,
-      "tier": "E",
+      "index": 40.8,
+      "percentile": 37.1,
+      "tier": "D",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/firepro-2270"
 }

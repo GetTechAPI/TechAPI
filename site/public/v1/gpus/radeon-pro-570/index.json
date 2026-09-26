@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 63.0,
+    "overall": 81.0,
     "graphics": {
-      "index": 63.0,
-      "percentile": 50.4,
-      "tier": "C",
+      "index": 81.0,
+      "percentile": 92.3,
+      "tier": "A",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_Pro_500_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_Pro_500_series",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/radeon-pro-570"
 }

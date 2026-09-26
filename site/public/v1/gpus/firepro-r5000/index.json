@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 49.0,
+    "overall": 71.8,
     "graphics": {
-      "index": 49.0,
-      "percentile": 73.4,
-      "tier": "B",
+      "index": 71.8,
+      "percentile": 91.4,
+      "tier": "A",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#FirePro_Remote_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#FirePro_Remote_series",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/firepro-r5000"
 }

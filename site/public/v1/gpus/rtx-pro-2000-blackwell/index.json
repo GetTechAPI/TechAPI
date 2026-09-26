@@ -23,22 +23,26 @@
   "tdp_w": 70,
   "pcie_version": "PCIe 5.0 x8",
   "fp32_tflops": 17.03,
-  "blender_score": null,
+  "blender_score": 3609.05,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 80.8,
+    "overall": 72.4,
     "graphics": {
-      "index": 80.8,
-      "percentile": 26.1,
-      "tier": "D",
+      "index": 72.4,
+      "percentile": 14.5,
+      "tier": "E",
       "era": "2024-2026",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/rtx-pro-2000-blackwell"
 }

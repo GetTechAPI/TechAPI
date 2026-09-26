@@ -23,22 +23,26 @@
   "tdp_w": 250,
   "pcie_version": "PCIe 3.0 x16",
   "fp32_tflops": 6.691,
-  "blender_score": null,
+  "blender_score": 523.51,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 69.4,
+    "overall": 56.1,
     "graphics": {
-      "index": 69.4,
-      "percentile": 91.1,
-      "tier": "A",
+      "index": 56.1,
+      "percentile": 57.0,
+      "tier": "C",
       "era": "2014-2016",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-titan-x"
 }

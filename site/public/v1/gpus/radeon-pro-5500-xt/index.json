@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 66.8,
+    "overall": 83.3,
     "graphics": {
-      "index": 66.8,
-      "percentile": 32.3,
-      "tier": "D",
+      "index": 83.3,
+      "percentile": 81.9,
+      "tier": "A",
       "era": "2020-2021",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_Pro_5000_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_Pro_5000_series",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/radeon-pro-5500-xt"
 }

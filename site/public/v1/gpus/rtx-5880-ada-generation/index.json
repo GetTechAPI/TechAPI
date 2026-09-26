@@ -23,22 +23,24 @@
   "tdp_w": 285,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 69.27,
-  "blender_score": null,
+  "blender_score": 10949.43,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 98.0,
+    "overall": 95.6,
     "graphics": {
-      "index": 98.0,
-      "percentile": 78.3,
+      "index": 95.6,
+      "percentile": 67.5,
       "tier": "B",
       "era": "2024-2026",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/rtx-5880-ada-generation"
 }

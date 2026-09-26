@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 72.0,
+    "overall": 54.1,
     "graphics": {
-      "index": 72.0,
-      "percentile": 9.8,
-      "tier": "E",
+      "index": 54.1,
+      "percentile": 3.6,
+      "tier": "F",
       "era": "2024-2026",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy"
   ],
   "url": "/v1/gpus/rtx-500-mobile-ada-generation"
 }

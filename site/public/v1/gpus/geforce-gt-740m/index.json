@@ -26,19 +26,22 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 41.5,
+    "overall": 0.0,
     "graphics": {
-      "index": 41.5,
-      "percentile": 53.6,
-      "tier": "C",
+      "index": 0.0,
+      "percentile": 6.7,
+      "tier": "E",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gt-740m"
 }

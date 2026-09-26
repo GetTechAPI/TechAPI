@@ -26,18 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 66.9,
+    "overall": 38.9,
     "graphics": {
-      "index": 66.9,
-      "percentile": 19.9,
-      "tier": "E",
+      "index": 38.9,
+      "percentile": 1.7,
+      "tier": "F",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy"
   ],
   "url": "/v1/gpus/rtx-a500-embedded"
 }

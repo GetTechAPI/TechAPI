@@ -29,15 +29,15 @@
     "overall": 44.6,
     "single": {
       "index": 56.4,
-      "percentile": 79.4,
+      "percentile": 71.1,
       "tier": "B",
       "era": "2010-2013",
       "source": "passmark_single"
     },
     "multi": {
       "index": 34.9,
-      "percentile": 61.7,
-      "tier": "B",
+      "percentile": 53.1,
+      "tier": "C",
       "era": "2010-2013",
       "source": "passmark_cpu_mark"
     }
@@ -45,9 +45,10 @@
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-610E"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-610E",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-22T10:47:29",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/intel-core-i7-610e"
 }

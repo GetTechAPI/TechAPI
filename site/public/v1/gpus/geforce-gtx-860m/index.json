@@ -23,22 +23,25 @@
   "tdp_w": 75,
   "pcie_version": "MXM-B (3.0)",
   "fp32_tflops": 1.306,
-  "blender_score": null,
+  "blender_score": 108.75,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 49.4,
+    "overall": 19.2,
     "graphics": {
-      "index": 49.4,
-      "percentile": 39.7,
-      "tier": "D",
+      "index": 19.2,
+      "percentile": 8.5,
+      "tier": "E",
       "era": "2014-2016",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy"
   ],
   "url": "/v1/gpus/geforce-gtx-860m"
 }

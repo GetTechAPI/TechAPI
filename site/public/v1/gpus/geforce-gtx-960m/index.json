@@ -23,22 +23,26 @@
   "tdp_w": 75,
   "pcie_version": "MXM-B (3.0)",
   "fp32_tflops": 1.505,
-  "blender_score": null,
+  "blender_score": 143.06,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 51.1,
+    "overall": 20.7,
     "graphics": {
-      "index": 51.1,
-      "percentile": 46.8,
-      "tier": "C",
+      "index": 20.7,
+      "percentile": 10.2,
+      "tier": "E",
       "era": "2014-2016",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-960m"
 }

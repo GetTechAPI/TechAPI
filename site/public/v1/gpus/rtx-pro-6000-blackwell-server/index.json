@@ -23,21 +23,23 @@
   "tdp_w": 600,
   "pcie_version": "PCIe 5.0 x16",
   "fp32_tflops": 126.0,
-  "blender_score": null,
+  "blender_score": 15509.13,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 100.0,
+    "overall": 97.9,
     "graphics": {
-      "index": 100.0,
-      "percentile": 100.0,
-      "tier": "S",
+      "index": 97.9,
+      "percentile": 79.5,
+      "tier": "B",
       "era": "2024-2026",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/rtx-pro-6000-blackwell-server"
 }

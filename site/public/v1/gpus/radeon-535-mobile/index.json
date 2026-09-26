@@ -26,18 +26,19 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 42.7,
+    "overall": 0.0,
     "graphics": {
-      "index": 42.7,
-      "percentile": 5.7,
-      "tier": "E",
+      "index": 0.0,
+      "percentile": 0.8,
+      "tier": "F",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy"
   ],
   "url": "/v1/gpus/radeon-535-mobile"
 }

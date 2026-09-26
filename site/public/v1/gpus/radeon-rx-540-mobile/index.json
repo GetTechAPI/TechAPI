@@ -26,18 +26,19 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 47.0,
+    "overall": 16.2,
     "graphics": {
-      "index": 47.0,
-      "percentile": 12.7,
-      "tier": "E",
+      "index": 16.2,
+      "percentile": 3.7,
+      "tier": "F",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy"
   ],
   "url": "/v1/gpus/radeon-rx-540-mobile"
 }

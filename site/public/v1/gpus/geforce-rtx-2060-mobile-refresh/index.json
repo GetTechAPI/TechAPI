@@ -26,18 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 68.0,
+    "overall": 59.6,
     "graphics": {
-      "index": 68.0,
-      "percentile": 69.3,
-      "tier": "B",
+      "index": 59.6,
+      "percentile": 52.0,
+      "tier": "C",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-rtx-2060-mobile-refresh"
 }

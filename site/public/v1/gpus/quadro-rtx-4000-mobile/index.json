@@ -26,19 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 71.6,
+    "overall": 62.7,
     "graphics": {
-      "index": 71.6,
-      "percentile": 77.5,
-      "tier": "B",
+      "index": 62.7,
+      "percentile": 56.5,
+      "tier": "C",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/quadro-rtx-4000-mobile"
 }

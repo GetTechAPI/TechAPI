@@ -29,15 +29,15 @@
     "overall": 49.0,
     "single": {
       "index": 58.1,
-      "percentile": 81.0,
-      "tier": "A",
+      "percentile": 48.1,
+      "tier": "C",
       "era": "2014-2016",
       "source": "passmark_single"
     },
     "multi": {
       "index": 41.6,
-      "percentile": 77.9,
-      "tier": "B",
+      "percentile": 47.1,
+      "tier": "C",
       "era": "2014-2016",
       "source": "passmark_cpu_mark"
     }
@@ -45,9 +45,10 @@
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-8750"
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-8750",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-22T10:47:29",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/amd-a10-8750"
 }

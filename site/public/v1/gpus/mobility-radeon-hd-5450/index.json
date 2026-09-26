@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 18.5,
+    "overall": 45.2,
     "graphics": {
-      "index": 18.5,
-      "percentile": 10.4,
-      "tier": "E",
+      "index": 45.2,
+      "percentile": 44.2,
+      "tier": "C",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Mobility_Radeon_HD_5000_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Mobility_Radeon_HD_5000_series",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/mobility-radeon-hd-5450"
 }

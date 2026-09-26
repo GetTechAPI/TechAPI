@@ -23,22 +23,24 @@
   "tdp_w": 55,
   "pcie_version": "PCIe 3.0 x16",
   "fp32_tflops": 1.104,
-  "blender_score": null,
+  "blender_score": 61.72,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 47.4,
+    "overall": 67.4,
     "graphics": {
-      "index": 47.4,
-      "percentile": 70.0,
-      "tier": "B",
+      "index": 67.4,
+      "percentile": 85.3,
+      "tier": "A",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/geforce-gtx-760m"
 }

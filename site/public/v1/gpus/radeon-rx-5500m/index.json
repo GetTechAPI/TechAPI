@@ -23,22 +23,26 @@
   "tdp_w": 85,
   "pcie_version": "PCIe 4.0 x8",
   "fp32_tflops": 4.632,
-  "blender_score": null,
+  "blender_score": 348.51,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 64.9,
+    "overall": 50.7,
     "graphics": {
-      "index": 64.9,
-      "percentile": 57.4,
+      "index": 50.7,
+      "percentile": 40.7,
       "tier": "C",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_5000M_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_5000M_series",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/radeon-rx-5500m"
 }

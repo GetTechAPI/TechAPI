@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 29.5,
+    "overall": 52.0,
     "graphics": {
-      "index": 29.5,
-      "percentile": 24.9,
-      "tier": "D",
+      "index": 52.0,
+      "percentile": 57.3,
+      "tier": "C",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_HD_7000M_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_HD_7000M_series",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/radeon-hd-7470m"
 }

@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 8.7,
+    "overall": 39.0,
     "graphics": {
-      "index": 8.7,
-      "percentile": 2.5,
-      "tier": "F",
+      "index": 39.0,
+      "percentile": 31.7,
+      "tier": "D",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/quadro-fx-380m"
 }

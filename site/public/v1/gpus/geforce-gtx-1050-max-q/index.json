@@ -26,18 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 50.8,
+    "overall": 34.8,
     "graphics": {
-      "index": 50.8,
-      "percentile": 27.0,
-      "tier": "D",
+      "index": 34.8,
+      "percentile": 14.2,
+      "tier": "E",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-1050-max-q"
 }

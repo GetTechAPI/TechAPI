@@ -23,22 +23,26 @@
   "tdp_w": 33,
   "pcie_version": "PCIe 3.0 x8",
   "fp32_tflops": 0.422,
-  "blender_score": null,
+  "blender_score": 45.55,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 35.6,
+    "overall": 0.0,
     "graphics": {
-      "index": 35.6,
-      "percentile": 11.4,
+      "index": 0.0,
+      "percentile": 5.1,
       "tier": "E",
       "era": "2014-2016",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_900M_(9xxM)_series"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_900M_(9xxM)_series",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-930m"
 }

@@ -23,22 +23,24 @@
   "tdp_w": 100,
   "pcie_version": "MXM-B (3.0)",
   "fp32_tflops": 1.627,
-  "blender_score": null,
+  "blender_score": 122.02,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 52.1,
+    "overall": 72.3,
     "graphics": {
-      "index": 52.1,
-      "percentile": 78.5,
-      "tier": "B",
+      "index": 72.3,
+      "percentile": 92.5,
+      "tier": "A",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/quadro-k4100m"
 }

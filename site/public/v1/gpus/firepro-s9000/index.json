@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 60.5,
+    "overall": 78.6,
     "graphics": {
-      "index": 60.5,
-      "percentile": 91.1,
-      "tier": "A",
+      "index": 78.6,
+      "percentile": 99.1,
+      "tier": "S",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#FirePro_Server_series_(S000x%2FSxx_000)"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#FirePro_Server_series_(S000x%2FSxx_000)",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/firepro-s9000"
 }

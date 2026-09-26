@@ -29,15 +29,15 @@
     "overall": 56.1,
     "single": {
       "index": 59.5,
-      "percentile": 87.5,
-      "tier": "A",
+      "percentile": 79.6,
+      "tier": "B",
       "era": "2010-2013",
       "source": "passmark_single"
     },
     "multi": {
       "index": 53.3,
-      "percentile": 98.6,
-      "tier": "S",
+      "percentile": 86.1,
+      "tier": "A",
       "era": "2010-2013",
       "source": "passmark_cpu_mark"
     }
@@ -46,9 +46,10 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Nehalem-based)",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+X5680"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+X5680",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-22T10:47:29",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/intel-xeon-x5680"
 }

@@ -26,19 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 64.2,
+    "overall": 46.1,
     "graphics": {
-      "index": 64.2,
-      "percentile": 54.1,
-      "tier": "C",
+      "index": 46.1,
+      "percentile": 26.4,
+      "tier": "D",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_500_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_500_series",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/radeon-rx-560-xt"
 }

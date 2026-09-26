@@ -26,18 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 82.1,
+    "overall": 75.1,
     "graphics": {
-      "index": 82.1,
-      "percentile": 79.5,
+      "index": 75.1,
+      "percentile": 60.6,
       "tier": "B",
       "era": "2020-2021",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-rtx-3080-mobile"
 }

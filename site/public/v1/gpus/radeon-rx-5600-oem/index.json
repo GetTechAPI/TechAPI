@@ -23,21 +23,23 @@
   "tdp_w": 125,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 6.39,
-  "blender_score": null,
+  "blender_score": 516.43,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 68.8,
+    "overall": 88.1,
     "graphics": {
-      "index": 68.8,
-      "percentile": 39.1,
-      "tier": "D",
+      "index": 88.1,
+      "percentile": 92.5,
+      "tier": "A",
       "era": "2020-2021",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/radeon-rx-5600-oem"
 }

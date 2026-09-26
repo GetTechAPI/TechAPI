@@ -23,13 +23,13 @@
   "tdp_w": 250,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 19.49,
-  "blender_score": null,
+  "blender_score": 4193.59,
   "score": {
     "algorithm_version": "2.0.0",
     "overall": 82.5,
     "graphics": {
       "index": 82.5,
-      "percentile": 85.7,
+      "percentile": 80.6,
       "tier": "A",
       "era": "2020-2021",
       "source": "fp32_tflops"
@@ -37,7 +37,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/a100-pcie-40-gb"
 }

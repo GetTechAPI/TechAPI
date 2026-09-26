@@ -26,19 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 54.8,
+    "overall": 74.1,
     "graphics": {
-      "index": 54.8,
-      "percentile": 81.9,
-      "tier": "A",
+      "index": 74.1,
+      "percentile": 95.7,
+      "tier": "S",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-680m"
 }

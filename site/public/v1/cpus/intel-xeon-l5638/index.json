@@ -29,15 +29,15 @@
     "overall": 41.3,
     "single": {
       "index": 38.3,
-      "percentile": 31.7,
+      "percentile": 27.5,
       "tier": "D",
       "era": "2010-2013",
       "source": "passmark_single"
     },
     "multi": {
       "index": 43.8,
-      "percentile": 81.8,
-      "tier": "A",
+      "percentile": 70.6,
+      "tier": "B",
       "era": "2010-2013",
       "source": "passmark_cpu_mark"
     }
@@ -46,9 +46,10 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Nehalem-based)",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+L5638"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+L5638",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-22T10:47:29",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/intel-xeon-l5638"
 }

@@ -23,22 +23,25 @@
   "tdp_w": 122,
   "pcie_version": "PCIe 2.0 x16",
   "fp32_tflops": 2.169,
-  "blender_score": null,
+  "blender_score": 139.28,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 55.6,
+    "overall": 76.2,
     "graphics": {
-      "index": 55.6,
-      "percentile": 83.6,
-      "tier": "A",
+      "index": 76.2,
+      "percentile": 97.0,
+      "tier": "S",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/quadro-k5000"
 }

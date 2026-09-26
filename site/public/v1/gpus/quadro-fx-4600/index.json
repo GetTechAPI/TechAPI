@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 28.2,
+    "overall": 51.7,
     "graphics": {
-      "index": 28.2,
-      "percentile": 57.7,
-      "tier": "C",
+      "index": 51.7,
+      "percentile": 78.7,
+      "tier": "B",
       "era": "2006-2009",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/Quadro#Quadro_FX_(with_CUDA_and_OpenCL%2C_but_no_Vulkan)"
+    "https://en.wikipedia.org/wiki/Quadro#Quadro_FX_(with_CUDA_and_OpenCL%2C_but_no_Vulkan)",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/quadro-fx-4600"
 }

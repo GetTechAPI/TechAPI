@@ -26,18 +26,19 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 61.5,
+    "overall": 77.2,
     "graphics": {
-      "index": 61.5,
-      "percentile": 92.8,
-      "tier": "A",
+      "index": 77.2,
+      "percentile": 97.8,
+      "tier": "S",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/tesla-k20m"
 }

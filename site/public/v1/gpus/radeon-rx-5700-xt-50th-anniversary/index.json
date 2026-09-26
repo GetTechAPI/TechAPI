@@ -26,18 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 74.5,
+    "overall": 68.8,
     "graphics": {
-      "index": 74.5,
-      "percentile": 82.8,
-      "tier": "A",
+      "index": 68.8,
+      "percentile": 71.5,
+      "tier": "B",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/radeon-rx-5700-xt-50th-anniversary"
 }

@@ -23,22 +23,26 @@
   "tdp_w": 10,
   "pcie_version": "PCIe 3.0 x4",
   "fp32_tflops": 1.224,
-  "blender_score": null,
+  "blender_score": 59.33,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 48.6,
+    "overall": 17.3,
     "graphics": {
-      "index": 48.6,
-      "percentile": 5.0,
-      "tier": "E",
+      "index": 17.3,
+      "percentile": 1.9,
+      "tier": "F",
       "era": "2020-2021",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_MX_series"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_MX_series",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-mx330"
 }

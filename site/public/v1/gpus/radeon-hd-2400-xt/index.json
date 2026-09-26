@@ -26,19 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 10.0,
+    "overall": 38.9,
     "graphics": {
-      "index": 10.0,
-      "percentile": 25.8,
-      "tier": "D",
+      "index": 38.9,
+      "percentile": 47.0,
+      "tier": "C",
       "era": "2006-2009",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_HD_2000_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_HD_2000_series",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/radeon-hd-2400-xt"
 }

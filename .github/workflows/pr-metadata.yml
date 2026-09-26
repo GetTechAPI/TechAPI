@@ -130,14 +130,28 @@ jobs:
             }
             core.exportVariable('TRIAGE_PRIORITY', priority);
 
-            const trackingIssuesByLabel = new Map([
-              ['data', 1],
-              ['site', 19],
-            ]);
+            // Workstream trackers (2026-09-27): #1 roadmap/releases, #295 new
+            // records, #296 data accuracy, #297 engine/bot/automation, #19 site.
+            const TRACKERS = { roadmap: 1, collection: 295, accuracy: 296, automation: 297, site: 19 };
+            const onlyDump = files.length > 0 && files.every((file) =>
+              file.filename.startsWith('site/public/v1/') || file.filename === 'site/public/openapi.json');
             const trackingIssues = [];
-            for (const [label, issueNumber] of trackingIssuesByLabel) {
-              if (labels.has(label)) trackingIssues.push(issueNumber);
+            if (pr.base.ref === 'main' || title.startsWith('chore(dump') || onlyDump) {
+              trackingIssues.push(TRACKERS.roadmap);
+            } else {
+              if (labels.has('data')) {
+                trackingIssues.push(labels.has('bug') || title.startsWith('fix')
+                  ? TRACKERS.accuracy : TRACKERS.collection);
+              }
+              if (labels.has('site')) trackingIssues.push(TRACKERS.site);
+              if (!trackingIssues.length && (labels.has('ci') || labels.has('app'))) {
+                trackingIssues.push(TRACKERS.automation);
+              }
             }
+            // Respect a tracker the author already linked by hand.
+            const anyTracker = new RegExp(
+              `\\b(?:close[sd]?|fix(?:e[sd])?|resolve[sd]?)\\s+#(?:${Object.values(TRACKERS).join('|')})\\b`, 'i');
+            if (anyTracker.test(pr.body || '')) trackingIssues.length = 0;
             if (trackingIssues.length) {
               let body = pr.body || '';
               let updatedBody = body;
@@ -171,6 +185,10 @@ jobs:
                 ['pda', { added: 0, modified: 0, deleted: 0 }],
                 ['gpu', { added: 0, modified: 0, deleted: 0 }],
                 ['cpu', { added: 0, modified: 0, deleted: 0 }],
+                ['laptop', { added: 0, modified: 0, deleted: 0 }],
+                ['monitor', { added: 0, modified: 0, deleted: 0 }],
+                ['software', { added: 0, modified: 0, deleted: 0 }],
+                ['website', { added: 0, modified: 0, deleted: 0 }],
               ]);
               for (const file of files) {
                 const top = file.filename.split('/')[0] || '(root)';
@@ -229,7 +247,10 @@ jobs:
                 '- The tracker issue remains open even when the PR uses `Closes #...` for GitHub Development linking.',
               ].join('\n');
 
-              for (const issueNumber of trackingIssues) {
+              // One tracker comment per release, not per PR (2026-09-27): regular PRs
+              // show up through the Closes link in the tracker's Development panel.
+              const commentTargets = pr.base.ref === 'main' ? trackingIssues : [];
+              for (const issueNumber of commentTargets) {
                 const comments = await github.paginate(github.rest.issues.listComments, {
                   owner,
                   repo,

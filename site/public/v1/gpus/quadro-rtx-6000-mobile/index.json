@@ -22,22 +22,23 @@
   "boost_clock_mhz": 1455,
   "tdp_w": 200,
   "pcie_version": "PCIe 3.0",
-  "fp32_tflops": null,
+  "fp32_tflops": 13.41,
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 77.9,
     "graphics": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 77.9,
+      "percentile": 86.2,
+      "tier": "A",
       "era": "2017-2019",
-      "source": null
+      "source": "fp32_tflops"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/quadro-rtx-6000-mobile"
 }

@@ -26,18 +26,20 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 68.1,
+    "overall": 86.8,
     "graphics": {
-      "index": 68.1,
-      "percentile": 22.2,
-      "tier": "D",
+      "index": 86.8,
+      "percentile": 76.6,
+      "tier": "B",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/rtx-a2000-embedded"
 }

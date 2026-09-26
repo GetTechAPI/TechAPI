@@ -23,22 +23,26 @@
   "tdp_w": 250,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 65.28,
-  "blender_score": null,
+  "blender_score": 5677.13,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 97.3,
+    "overall": 79.0,
     "graphics": {
-      "index": 97.3,
-      "percentile": 92.6,
-      "tier": "A",
+      "index": 79.0,
+      "percentile": 54.3,
+      "tier": "C",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/rtx-5000-ada-generation"
 }

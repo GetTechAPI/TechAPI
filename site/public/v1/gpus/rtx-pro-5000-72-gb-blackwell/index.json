@@ -23,21 +23,25 @@
   "tdp_w": 300,
   "pcie_version": "PCIe 5.0 x16",
   "fp32_tflops": 66.94,
-  "blender_score": null,
+  "blender_score": 10852.1,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 97.6,
+    "overall": 99.3,
     "graphics": {
-      "index": 97.6,
-      "percentile": 77.2,
-      "tier": "B",
+      "index": 99.3,
+      "percentile": 86.7,
+      "tier": "A",
       "era": "2024-2026",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/rtx-pro-5000-72-gb-blackwell"
 }

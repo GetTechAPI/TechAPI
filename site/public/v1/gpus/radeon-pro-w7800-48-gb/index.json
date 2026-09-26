@@ -23,21 +23,25 @@
   "tdp_w": 281,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 45.25,
-  "blender_score": null,
+  "blender_score": 2818.45,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 92.8,
+    "overall": 74.1,
     "graphics": {
-      "index": 92.8,
-      "percentile": 83.0,
-      "tier": "A",
+      "index": 74.1,
+      "percentile": 42.9,
+      "tier": "C",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/radeon-pro-w7800-48-gb"
 }

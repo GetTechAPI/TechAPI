@@ -26,27 +26,28 @@
   "msrp_usd": 812,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 11.9,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 4.7,
+      "percentile": 2.8,
+      "tier": "F",
       "era": "2014-2016",
-      "source": null
+      "source": "specint2006"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 17.8,
+      "percentile": 8.8,
+      "tier": "E",
       "era": "2014-2016",
-      "source": null
+      "source": "specfp2006"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-06-17T16:07:24",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/amd-opteron-8356"
 }

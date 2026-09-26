@@ -29,15 +29,15 @@
     "overall": 48.2,
     "single": {
       "index": 56.4,
-      "percentile": 71.8,
-      "tier": "B",
+      "percentile": 43.0,
+      "tier": "C",
       "era": "2014-2016",
       "source": "passmark_single"
     },
     "multi": {
       "index": 41.5,
-      "percentile": 75.4,
-      "tier": "B",
+      "percentile": 46.0,
+      "tier": "C",
       "era": "2014-2016",
       "source": "passmark_cpu_mark"
     }
@@ -45,9 +45,10 @@
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7700K+APU"
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A10-7700K+APU",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-22T10:47:29",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/amd-a10-7700k-apu"
 }

@@ -26,19 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 67.3,
+    "overall": 53.6,
     "graphics": {
-      "index": 67.3,
-      "percentile": 66.0,
-      "tier": "B",
+      "index": 53.6,
+      "percentile": 44.3,
+      "tier": "C",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_10_series"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_10_series",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-1070-max-q"
 }

@@ -23,21 +23,25 @@
   "tdp_w": 75,
   "pcie_version": "PCIe 1.0 x1",
   "fp32_tflops": 2.352,
-  "blender_score": null,
+  "blender_score": 186.3,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 56.6,
+    "overall": 34.2,
     "graphics": {
-      "index": 56.6,
-      "percentile": 36.5,
-      "tier": "D",
+      "index": 34.2,
+      "percentile": 13.0,
+      "tier": "E",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/p106-090"
 }

@@ -26,19 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 57.5,
+    "overall": 39.7,
     "graphics": {
-      "index": 57.5,
-      "percentile": 13.0,
+      "index": 39.7,
+      "percentile": 7.5,
       "tier": "E",
       "era": "2020-2021",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#Quadro_RTX_x000_%2F_Tx00_%2F_Tx000_series"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#Quadro_RTX_x000_%2F_Tx00_%2F_Tx000_series",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/t600-mobile"
 }

@@ -23,22 +23,24 @@
   "tdp_w": 80,
   "pcie_version": "PCIe 2.0 x16",
   "fp32_tflops": 1.244,
-  "blender_score": null,
+  "blender_score": 87.1,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 48.8,
+    "overall": 72.1,
     "graphics": {
-      "index": 48.8,
-      "percentile": 72.3,
-      "tier": "B",
+      "index": 72.1,
+      "percentile": 92.2,
+      "tier": "A",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/quadro-k4000"
 }

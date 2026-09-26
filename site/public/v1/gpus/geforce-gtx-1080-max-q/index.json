@@ -26,19 +26,21 @@
   "blender_score": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 69.9,
+    "overall": 58.7,
     "graphics": {
-      "index": 69.9,
-      "percentile": 74.6,
-      "tier": "B",
+      "index": 58.7,
+      "percentile": 50.4,
+      "tier": "C",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_10_series"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_10_series",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-1080-max-q"
 }

@@ -26,29 +26,30 @@
   "msrp_usd": 1779,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 51.5,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 47.8,
+      "percentile": 46.8,
+      "tier": "C",
       "era": "2010-2013",
-      "source": null
+      "source": "specint2006"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 54.6,
+      "percentile": 87.3,
+      "tier": "A",
       "era": "2010-2013",
-      "source": null
+      "source": "specfp2006"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Nehalem-based)",
-    "https://www.intel.com/content/www/us/en/products/sku/53674/intel-xeon-processor-e72830-24m-cache-2-13-ghz-6-40-gts-intel-qpi/specifications.html"
+    "https://www.intel.com/content/www/us/en/products/sku/53674/intel-xeon-processor-e72830-24m-cache-2-13-ghz-6-40-gts-intel-qpi/specifications.html",
+    "https://www.spec.org/cpu2006/results/"
   ],
   "created_at": "2026-09-25T15:37:10",
-  "updated_at": "2026-09-25T15:37:10",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/intel-xeon-e7-2830"
 }

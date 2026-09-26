@@ -23,21 +23,23 @@
   "tdp_w": 300,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 91.61,
-  "blender_score": null,
+  "blender_score": 7848.06,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 100.0,
+    "overall": 93.8,
     "graphics": {
-      "index": 100.0,
-      "percentile": 100.0,
-      "tier": "S",
+      "index": 93.8,
+      "percentile": 85.7,
+      "tier": "A",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php"
   ],
   "url": "/v1/gpus/l40s"
 }

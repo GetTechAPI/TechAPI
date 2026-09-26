@@ -23,22 +23,25 @@
   "tdp_w": 130,
   "pcie_version": "PCIe 4.0 x8",
   "fp32_tflops": 8.087,
-  "blender_score": null,
+  "blender_score": 1469.03,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 71.7,
+    "overall": 87.7,
     "graphics": {
-      "index": 71.7,
-      "percentile": 26.7,
-      "tier": "D",
+      "index": 87.7,
+      "percentile": 78.9,
+      "tier": "B",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "passmark_g3d_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-rtx-3050-oem"
 }

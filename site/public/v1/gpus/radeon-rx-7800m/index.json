@@ -23,22 +23,26 @@
   "tdp_w": 180,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 35.87,
-  "blender_score": null,
+  "blender_score": 1935.77,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 89.9,
+    "overall": 77.7,
     "graphics": {
-      "index": 89.9,
-      "percentile": 54.3,
-      "tier": "C",
+      "index": 77.7,
+      "percentile": 22.9,
+      "tier": "D",
       "era": "2024-2026",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_7000M_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_7000M_series",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/radeon-rx-7800m"
 }

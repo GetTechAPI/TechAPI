@@ -23,21 +23,25 @@
   "tdp_w": 75,
   "pcie_version": "PCIe 4.0 x16",
   "fp32_tflops": 15.77,
-  "blender_score": null,
+  "blender_score": 949.49,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 79.9,
+    "overall": 68.6,
     "graphics": {
-      "index": 79.9,
-      "percentile": 51.7,
-      "tier": "C",
+      "index": 68.6,
+      "percentile": 31.4,
+      "tier": "D",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/radeon-rx-7600s"
 }

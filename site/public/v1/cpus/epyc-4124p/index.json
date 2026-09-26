@@ -26,27 +26,28 @@
   "msrp_usd": 149,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 65.8,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 93.1,
+      "percentile": 69.7,
+      "tier": "B",
       "era": "2024-2026",
-      "source": null
+      "source": "geekbench_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 43.4,
+      "percentile": 24.7,
+      "tier": "D",
       "era": "2024-2026",
-      "source": null
+      "source": "geekbench_multi"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_AMD_Epyc_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Epyc_processors",
+    "https://www.topcpu.net/en/cpu-r/"
   ],
   "created_at": "2026-09-25T14:49:49",
-  "updated_at": "2026-09-25T14:49:49",
+  "updated_at": "2026-09-26T22:06:24",
   "url": "/v1/cpus/epyc-4124p"
 }

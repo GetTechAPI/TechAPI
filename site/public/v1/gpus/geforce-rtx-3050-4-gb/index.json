@@ -23,21 +23,25 @@
   "tdp_w": 90,
   "pcie_version": "PCIe 4.0 x8",
   "fp32_tflops": 7.127,
-  "blender_score": null,
+  "blender_score": 1344.74,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 70.2,
+    "overall": 53.5,
     "graphics": {
-      "index": 70.2,
-      "percentile": 25.0,
-      "tier": "D",
+      "index": 53.5,
+      "percentile": 12.0,
+      "tier": "E",
       "era": "2022-2023",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026"
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-rtx-3050-4-gb"
 }

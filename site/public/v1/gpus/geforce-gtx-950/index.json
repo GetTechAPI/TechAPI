@@ -23,22 +23,26 @@
   "tdp_w": 90,
   "pcie_version": "PCIe 3.0 x16",
   "fp32_tflops": 1.825,
-  "blender_score": null,
+  "blender_score": 113.96,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 53.5,
+    "overall": 31.2,
     "graphics": {
-      "index": 53.5,
-      "percentile": 52.7,
-      "tier": "C",
+      "index": 31.2,
+      "percentile": 17.4,
+      "tier": "E",
       "era": "2014-2016",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/geforce-gtx-950"
 }

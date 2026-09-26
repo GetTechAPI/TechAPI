@@ -23,22 +23,26 @@
   "tdp_w": 225,
   "pcie_version": "PCIe 3.0 x16",
   "fp32_tflops": 5.196,
-  "blender_score": null,
+  "blender_score": 174.71,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 66.3,
+    "overall": 40.5,
     "graphics": {
-      "index": 66.3,
-      "percentile": 96.2,
-      "tier": "S",
+      "index": 40.5,
+      "percentile": 36.6,
+      "tier": "D",
       "era": "2010-2013",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/quadro-k6000"
 }

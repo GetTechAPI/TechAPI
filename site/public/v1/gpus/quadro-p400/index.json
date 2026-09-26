@@ -23,22 +23,26 @@
   "tdp_w": 30,
   "pcie_version": "PCIe 3.0 x16",
   "fp32_tflops": 0.641,
-  "blender_score": null,
+  "blender_score": 40.79,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 40.7,
+    "overall": 4.2,
     "graphics": {
-      "index": 40.7,
-      "percentile": 2.9,
+      "index": 4.2,
+      "percentile": 1.6,
       "tier": "F",
       "era": "2017-2019",
-      "source": "fp32_tflops"
+      "source": "timespy_score"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
-    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units"
+    "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+    "https://opendata.blender.org/snapshots/opendata-latest.zip",
+    "https://www.videocardbenchmark.net/gpu_list.php",
+    "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+    "https://www.topcpu.net/en/gpu-r/"
   ],
   "url": "/v1/gpus/quadro-p400"
 }

@@ -44,6 +44,8 @@ jobs:
               client_payload: {
                 pr_number: String(context.payload.pull_request.number),
                 head_sha: context.payload.pull_request.head.sha,
+                base_ref: context.payload.pull_request.base.ref,
+                base_sha: context.payload.pull_request.base.sha,
                 mode: 'tier0',
                 requested_by: context.payload.pull_request.user.login,
               },

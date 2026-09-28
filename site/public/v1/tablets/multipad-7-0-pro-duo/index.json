@@ -27,7 +27,6 @@
   "msrp_usd": null,
   "ram_gb": 1.0,
   "storage_options_gb": [
-    1,
     8
   ],
   "variant": {
@@ -52,6 +51,10 @@
     {
       "type": "main",
       "mp": 2.0
+    },
+    {
+      "type": "main",
+      "raw": "2 MP"
     }
   ],
   "battery_mah": 4100,
@@ -60,19 +63,25 @@
   "weight_g": 356.0,
   "dimensions": {},
   "ip_rating": null,
-  "os": "Android",
-  "os_version": null,
+  "os": "Android 4.0 (Ice Cream Sandwich)",
+  "os_version": "4.0",
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
-    "usb": "miniUSB 2.0, USB Host"
+    "usb": "miniUSB 2.0, USB Host",
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "No",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
+    "gps": "No"
   },
-  "image_url": null,
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/prestigio-multipad-70-pro-duo.jpg",
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
   ],
   "created_at": "2026-06-20T19:44:07",
-  "updated_at": "2026-07-09T13:04:36",
+  "updated_at": "2026-09-29T04:54:56",
   "url": "/v1/tablets/multipad-7-0-pro-duo"
 }

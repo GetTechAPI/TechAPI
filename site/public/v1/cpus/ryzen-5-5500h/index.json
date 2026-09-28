@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 70.2,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 81.9,
+      "percentile": 65.6,
+      "tier": "B",
       "era": "2022-2023",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 60.7,
+      "percentile": 63.9,
+      "tier": "B",
       "era": "2022-2023",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+5500H"
   ],
   "created_at": "2026-09-25T14:55:53",
-  "updated_at": "2026-09-27T06:35:41",
+  "updated_at": "2026-09-29T02:44:28",
   "url": "/v1/cpus/ryzen-5-5500h"
 }

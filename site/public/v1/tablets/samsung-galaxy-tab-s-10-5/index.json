@@ -27,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 3.0,
   "storage_options_gb": [
+    16,
     32
   ],
   "variant": {
@@ -44,6 +45,14 @@
     {
       "type": "main",
       "raw": "8 MP| autofocus| LED flash| "
+    },
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.1
     }
   ],
   "battery_mah": 7900,
@@ -60,15 +69,17 @@
     "bluetooth": "4.0| A2DP| LE",
     "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| hotspot",
     "usb": "microUSB 2.0 (MHL 2.1)| USB Host",
-    "gps": "Yes GLONASS BDS"
+    "gps": "Yes GLONASS BDS",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
   },
   "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s-105.jpg",
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "created_at": "2026-06-20T20:59:10",
-  "updated_at": "2026-07-09T13:04:36",
+  "updated_at": "2026-09-29T04:54:56",
   "url": "/v1/tablets/samsung-galaxy-tab-s-10-5"
 }

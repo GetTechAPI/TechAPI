@@ -27,6 +27,7 @@
   "msrp_usd": null,
   "ram_gb": 1.0,
   "storage_options_gb": [
+    8,
     16
   ],
   "variant": {
@@ -44,6 +45,14 @@
     {
       "type": "main",
       "raw": "3.15 MP"
+    },
+    {
+      "type": "main",
+      "mp": 3.15
+    },
+    {
+      "type": "selfie",
+      "mp": 1.3
     }
   ],
   "battery_mah": 4000,
@@ -60,15 +69,17 @@
     "bluetooth": "3.0| A2DP",
     "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| DLNA| hotspot",
     "usb": "2.0 (TV-out)",
-    "gps": "Yes with A-GPS GLONASS"
+    "gps": "Yes with A-GPS GLONASS",
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot"
   },
   "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-3-70-3g.jpg",
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "created_at": "2026-06-20T20:59:10",
-  "updated_at": "2026-07-09T13:04:36",
+  "updated_at": "2026-09-29T04:54:56",
   "url": "/v1/tablets/samsung-galaxy-tab-3-7-0"
 }

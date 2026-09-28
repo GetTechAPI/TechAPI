@@ -23,9 +23,9 @@
     "gpu_name": "Adreno 304",
     "url": "/v1/socs/qualcomm-msm8909w-snapdragon-wear-2100"
   },
-  "release_date": "2016-01-01",
+  "release_date": "2016-08-01",
   "msrp_usd": null,
-  "ram_gb": 1.0,
+  "ram_gb": 0.5,
   "storage_options_gb": [
     4
   ],
@@ -34,7 +34,7 @@
     "source_category": "smartphone-reclassified",
     "source_slug": "zenwatch-3-wi503q",
     "memory": {
-      "ram_gb": 1,
+      "ram_gb": 0.5,
       "storage_gb": 4
     },
     "model_numbers": [
@@ -48,16 +48,16 @@
     "size_inch": 1.39,
     "resolution": "400x400",
     "type": "AMOLED capacitive touchscreen, 16M colors",
-    "ppi": 407
+    "ppi": 287
   },
   "cameras": [],
-  "battery_mah": 1500,
+  "battery_mah": 341,
   "charging_wired_w": null,
   "charging_wireless_w": null,
-  "weight_g": 150.0,
+  "weight_g": 48.0,
   "dimensions": {},
   "ip_rating": null,
-  "os": "Android",
+  "os": "Android Wear OS 2.1",
   "os_version": null,
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n",
@@ -67,9 +67,11 @@
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "created_at": "2026-06-20T19:44:07",
-  "updated_at": "2026-07-09T13:04:36",
+  "updated_at": "2026-09-29T04:54:56",
   "url": "/v1/watches/zenwatch-3-wi503q"
 }

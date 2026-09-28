@@ -1,20 +1,20 @@
 {
-  "slug": "intel-core2-duo-u7600",
-  "name": "Intel Core2 Duo U7600",
+  "slug": "intel-core2-duo-t5600",
+  "name": "Intel Core2 Duo T5600",
   "manufacturer": "intel",
-  "release_date": "2009-02-01",
+  "release_date": "2006-08-01",
   "segment": "laptop",
   "architecture": "Core 2",
-  "socket": "BGA479",
+  "socket": "PGA478",
   "process_node": null,
   "cores": 2,
   "threads": 2,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": 1.2,
+  "base_clock_ghz": 1.83,
   "boost_clock_ghz": null,
   "l3_cache_mb": null,
-  "tdp_w": 10,
+  "tdp_w": 34,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
@@ -30,8 +30,8 @@
   "cinebench_r11_5_multi": null,
   "cinebench_r10_single": null,
   "cinebench_r10_multi": null,
-  "passmark_single": 429,
-  "passmark_cpu_mark": 347,
+  "passmark_single": 686,
+  "passmark_cpu_mark": 681,
   "specint2006": null,
   "specfp2006": null,
   "dhrystone_mips": null,
@@ -41,6 +41,7 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+U7600"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+T5600",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors"
   ]
 }

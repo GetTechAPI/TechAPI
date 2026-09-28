@@ -3,15 +3,16 @@
   "name": "Watch Edition 42mm (1st gen)",
   "brand": "apple",
   "soc": "apple-s1",
-  "release_date": "2014-01-01",
+  "release_date": "2014-09-01",
   "ram_gb": 0.5,
-  "battery_mah": 1500,
+  "battery_mah": 250,
   "weight_g": 69.0,
-  "os": "Feature phone",
+  "os": "watchOS 1.0, upgradable to 4.3.2",
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
-    "https://en.wikipedia.org/wiki/Apple_Watch"
+    "https://en.wikipedia.org/wiki/Apple_Watch",
+    "https://github.com/sarangzambare/smartdevices_pricing"
   ],
   "storage_options_gb": [
     8
@@ -47,5 +48,61 @@
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2014, September",
+    "lte": "0",
+    "cpu": "520 MHz Cortex-A7",
+    "ram": "8 GB, 512 MB RAM",
+    "internal": "8 GB, 512 MB RAM",
+    "camera": "No",
+    "front_camera": "",
+    "bluetooth": "4.0, LE",
+    "price": "About 13000 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "apple-watch-edition-42mm-1st-gen",
+      "base_model_slug": "apple-watch-edition-42mm-1st-gen",
+      "name": "Apple Watch Edition 42mm (1st gen)",
+      "brand": "apple",
+      "release_date": "2014-09-01",
+      "ram_gb": 0.5,
+      "battery_mah": 250,
+      "weight_g": 69.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2014, September",
+        "lte": "0",
+        "cpu": "520 MHz Cortex-A7",
+        "ram": "8 GB, 512 MB RAM",
+        "internal": "8 GB, 512 MB RAM",
+        "camera": "No",
+        "front_camera": "",
+        "bluetooth": "4.0, LE",
+        "price": "About 13000 EUR"
+      },
+      "display": {
+        "size_inch": 1.65,
+        "resolution": "390x312",
+        "type": "AMOLED capacitive touchscreen, 16M colors",
+        "ppi": 303
+      },
+      "storage_options_gb": [
+        8
+      ],
+      "connectivity": {
+        "bluetooth": "4.0, LE"
+      }
+    }
+  ]
 }

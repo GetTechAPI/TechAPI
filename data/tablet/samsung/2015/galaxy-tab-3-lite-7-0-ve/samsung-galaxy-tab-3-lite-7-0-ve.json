@@ -23,7 +23,8 @@
     "bluetooth": "4.0| LE",
     "wlan": "Wi-Fi 802.11 b/g/n| Wi-Fi Direct| hotspot",
     "usb": "microUSB 2.0",
-    "gps": "Yes with GLONASS"
+    "gps": "Yes with GLONASS",
+    "wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,7 +33,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "spreadtrum-sc8830",
   "raw_price": "About 120 EUR",
@@ -41,7 +43,77 @@
     {
       "type": "main",
       "raw": "2 MP"
+    },
+    {
+      "type": "main",
+      "mp": 2.0
     }
   ],
-  "os_version": "4.4.4"
+  "os_version": "4.4.4",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2015, March",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Spreadtrum SC8830",
+    "platform_cpu": "Quad-core 1.3 GHz",
+    "platform_gpu": "Mali-400MP"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "galaxy-tab-3-lite-7-0-ve",
+      "name": "Galaxy Tab 3 Lite 7.0 VE",
+      "brand": "samsung",
+      "soc": "spreadtrum-sc8830",
+      "release_date": "2015-01-01",
+      "ram_gb": 1,
+      "battery_mah": 3600,
+      "weight_g": 310.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        8
+      ],
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "600x1024",
+        "type": "TFT capacitive touchscreen, 16M colors",
+        "ppi": 170
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+        "bluetooth": "4.0, LE",
+        "usb": "microUSB 2.0"
+      },
+      "raw_price": "About 120 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Available. Released 2015, March",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": "Spreadtrum SC8830",
+        "platform_cpu": "Quad-core 1.3 GHz",
+        "platform_gpu": "Mali-400MP"
+      },
+      "base_model_slug": "galaxy-tab-3-lite-7-0-ve",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "galaxy-tab-3-lite-7-0-ve",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 8
+        },
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

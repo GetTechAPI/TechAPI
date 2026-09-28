@@ -6,6 +6,7 @@
   "release_date": "2013-04-01",
   "ram_gb": 1,
   "storage_options_gb": [
+    8,
     16
   ],
   "battery_mah": 4960,
@@ -23,7 +24,8 @@
     "bluetooth": "4.0| A2DP",
     "wlan": "Wi-Fi 802.11 b/g/n",
     "usb": "microUSB 2.0",
-    "gps": "Yes"
+    "gps": "Yes",
+    "wifi": "Wi-Fi 802.11 b/g/n"
   },
   "variant": {
     "region": "global",
@@ -32,7 +34,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "mediatek-mt8125",
   "raw_price": "About 120 EUR",
@@ -41,7 +44,77 @@
     {
       "type": "main",
       "raw": "5 MP| autofocus"
+    },
+    {
+      "type": "main",
+      "mp": 5.0
     }
   ],
-  "os_version": "4.2.2"
+  "os_version": "4.2.2",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Mediatek MT8125 (28 nm)",
+    "platform_cpu": "Quad-core 1.2 GHz",
+    "platform_gpu": "PowerVR SGX544"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "iconia-tab-a1-810",
+      "name": "Iconia Tab A1-810",
+      "brand": "acer",
+      "soc": "mediatek-mt8125",
+      "release_date": "2013-01-01",
+      "ram_gb": 1,
+      "battery_mah": 4960,
+      "weight_g": 410.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        16
+      ],
+      "display": {
+        "size_inch": 7.9,
+        "resolution": "768x1024",
+        "type": "LED-backlit IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 162
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 5.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n",
+        "bluetooth": "4.0, A2DP",
+        "usb": "microUSB 2.0"
+      },
+      "raw_price": "About 120 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": "Mediatek MT8125 (28 nm)",
+        "platform_cpu": "Quad-core 1.2 GHz",
+        "platform_gpu": "PowerVR SGX544"
+      },
+      "base_model_slug": "iconia-tab-a1-810",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "iconia-tab-a1-810",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 16
+        },
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

@@ -6,6 +6,7 @@
   "release_date": "2014-01-01",
   "ram_gb": 2,
   "storage_options_gb": [
+    16,
     32
   ],
   "battery_mah": 4800,
@@ -23,7 +24,8 @@
     "bluetooth": "4.0| A2DP| LE",
     "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| hotspot",
     "usb": "microUSB 2.0 (MHL TV-out)| USB Host",
-    "gps": "Yes with GLONASS"
+    "gps": "Yes with GLONASS",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,7 +34,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "qualcomm-snapdragon-800",
   "raw_price": "About 290 EUR",
@@ -41,7 +44,85 @@
     {
       "type": "main",
       "raw": "8 MP| autofocus| LED flash| "
+    },
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
     }
   ],
-  "os_version": "4.4"
+  "os_version": "4.4",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2014, February",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Qualcomm Snapdragon 800 (28 nm)",
+    "platform_cpu": "Quad-core 2.3 GHz Krait 400",
+    "platform_gpu": "Adreno 330"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "galaxy-tab-pro-8-4",
+      "name": "Galaxy Tab Pro 8.4",
+      "brand": "samsung",
+      "soc": "qualcomm-snapdragon-800",
+      "release_date": "2014-01-01",
+      "ram_gb": 2,
+      "battery_mah": 4800,
+      "weight_g": 331.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        2,
+        32
+      ],
+      "display": {
+        "size_inch": 8.4,
+        "resolution": "1600x2560",
+        "type": "Super clear LCD capacitive touchscreen, 16M colors",
+        "ppi": 359
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 8.0
+        },
+        {
+          "type": "selfie",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "bluetooth": "4.0, A2DP, LE",
+        "usb": "microUSB 2.0 (MHL TV-out), USB Host"
+      },
+      "raw_price": "About 290 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Available. Released 2014, February",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": "Qualcomm Snapdragon 800 (28 nm)",
+        "platform_cpu": "Quad-core 2.3 GHz Krait 400",
+        "platform_gpu": "Adreno 330"
+      },
+      "base_model_slug": "galaxy-tab-pro-8-4",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "galaxy-tab-pro-8-4",
+        "memory": {
+          "ram_gb": 2,
+          "storage_gb": 32
+        },
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

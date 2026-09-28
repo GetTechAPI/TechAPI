@@ -7,13 +7,13 @@
   "ram_gb": 1,
   "battery_mah": 4400,
   "weight_g": 360.0,
-  "os": "Android",
+  "os": "Android 4.1 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
   ],
   "storage_options_gb": [
-    1,
     16
   ],
   "display": {
@@ -26,11 +26,20 @@
     {
       "type": "main",
       "mp": 5.0
+    },
+    {
+      "type": "main",
+      "raw": "5 MP"
     }
   ],
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n",
-    "usb": "microUSB 2.0, USB Host"
+    "usb": "microUSB 2.0, USB Host",
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "bluetooth": "No",
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "gps": "No"
   },
   "raw_gsmarena": {
     "launch_status": "Discontinued",
@@ -51,5 +60,54 @@
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/prestigio-multipad-80-prime-duo2.jpg",
+  "os_version": "4.1",
+  "raw_merged_records": [
+    {
+      "slug": "prestigio-multipad-2-prime-duo-8-0",
+      "base_model_slug": "multipad-2-prime-duo-8-0",
+      "name": "Prestigio MultiPad 2 Prime Duo 8.0",
+      "brand": "prestigio",
+      "release_date": "2013-01-01",
+      "ram_gb": 1,
+      "storage_options_gb": [
+        16
+      ],
+      "battery_mah": 4400,
+      "weight_g": 360.0,
+      "os": "Android 4.1 (Jelly Bean)",
+      "display": {
+        "size_inch": 8.0,
+        "resolution": "768 x 1024 pixels (~160 ppi pixel density)",
+        "type": "LED-backlit IPS LCD capacitive touchscreen",
+        "ppi": 160
+      },
+      "connectivity": {
+        "network": "No cellular connectivity",
+        "sim": "No",
+        "bluetooth": "No",
+        "wlan": "Wi-Fi 802.11 b/g/n",
+        "usb": "microUSB 2.0| USB Host",
+        "gps": "No"
+      },
+      "variant": {
+        "region": "global",
+        "source_category": "gsmarena-kaggle",
+        "source_dataset": "arwinneil/gsmarena-phone-dataset"
+      },
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+      ],
+      "image_url": "http://cdn2.gsmarena.com/vv/bigpic/prestigio-multipad-80-prime-duo2.jpg",
+      "cameras": [
+        {
+          "type": "main",
+          "raw": "5 MP"
+        }
+      ],
+      "os_version": "4.1"
+    }
+  ]
 }

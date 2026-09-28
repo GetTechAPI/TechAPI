@@ -4,19 +4,21 @@
   "brand": "huawei",
   "soc": "huawei-mobile-platform-2018",
   "release_date": "2018-01-01",
-  "ram_gb": 1,
-  "battery_mah": 1500,
-  "weight_g": 150.0,
+  "ram_gb": 0.016,
+  "battery_mah": 178,
+  "weight_g": 32.5,
   "os": "Feature phone",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "display": {
     "size_inch": 1.2,
     "resolution": "390x390",
     "type": "OLED capacitive touchscreen, 16M colors",
-    "ppi": 460
+    "ppi": 326
   },
   "connectivity": {
     "bluetooth": "4.2, LE",

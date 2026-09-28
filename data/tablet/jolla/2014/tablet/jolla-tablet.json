@@ -6,6 +6,7 @@
   "release_date": "2014-11-01",
   "ram_gb": 2,
   "storage_options_gb": [
+    32,
     64
   ],
   "battery_mah": 4450,
@@ -23,7 +24,8 @@
     "bluetooth": "3.0",
     "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band",
     "usb": "microUSB 2.0| USB Host",
-    "gps": "A-GPS GLONASS"
+    "gps": "A-GPS GLONASS",
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band"
   },
   "variant": {
     "region": "global",
@@ -32,7 +34,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "intel-atom-z3735f",
   "raw_price": "About 170 EUR",
@@ -41,7 +44,85 @@
     {
       "type": "main",
       "raw": "5 MP| autofocus"
+    },
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
     }
   ],
-  "os_version": "2.0"
+  "os_version": "2.0",
+  "raw_gsmarena": {
+    "launch_status": "Cancelled",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Intel Atom Z3735F",
+    "platform_cpu": "Quad-core 1.8 GHz",
+    "platform_gpu": null
+  },
+  "raw_merged_records": [
+    {
+      "slug": "tablet",
+      "name": "Tablet",
+      "brand": "jolla",
+      "soc": "intel-atom-z3735f",
+      "release_date": "2014-01-01",
+      "ram_gb": 2,
+      "battery_mah": 4450,
+      "weight_g": 384.0,
+      "os": "Feature phone",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        2,
+        64
+      ],
+      "display": {
+        "size_inch": 7.85,
+        "resolution": "1536x2048",
+        "type": "IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 326
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 5.0
+        },
+        {
+          "type": "selfie",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
+        "bluetooth": "3.0",
+        "usb": "microUSB 2.0, USB Host"
+      },
+      "raw_price": "About 170 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Cancelled",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": "Intel Atom Z3735F",
+        "platform_cpu": "Quad-core 1.8 GHz",
+        "platform_gpu": null
+      },
+      "base_model_slug": "tablet",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "tablet",
+        "memory": {
+          "ram_gb": 2,
+          "storage_gb": 64
+        },
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

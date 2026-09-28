@@ -23,7 +23,8 @@
     "bluetooth": "No",
     "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
     "usb": "microUSB 2.0| USB Host",
-    "gps": "No"
+    "gps": "No",
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,7 +33,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "image_url": "http://cdn2.gsmarena.com/vv/bigpic/prestigio-multipad-80-hd.jpg",
   "cameras": [
@@ -41,5 +43,64 @@
       "raw": "VGA"
     }
   ],
-  "os_version": "4.2"
+  "os_version": "4.2",
+  "soc": "dual-core-1-5-ghz-cortex-a9",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": null,
+    "platform_cpu": "Dual-core 1.5 GHz Cortex-A9",
+    "platform_gpu": "Mali-400MP"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "multipad-8-0-hd",
+      "name": "MultiPad 8.0 HD",
+      "brand": "prestigio",
+      "soc": "dual-core-1-5-ghz-cortex-a9",
+      "release_date": "2013-01-01",
+      "ram_gb": 1,
+      "battery_mah": 5000,
+      "weight_g": 460.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        8
+      ],
+      "display": {
+        "size_inch": 8.0,
+        "resolution": "768x1280",
+        "type": "TFT capacitive touchscreen",
+        "ppi": 187
+      },
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
+        "usb": "microUSB 2.0, USB Host"
+      },
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": null,
+        "platform_cpu": "Dual-core 1.5 GHz Cortex-A9",
+        "platform_gpu": "Mali-400MP"
+      },
+      "base_model_slug": "multipad-8-0-hd",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "multipad-8-0-hd",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 8
+        },
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

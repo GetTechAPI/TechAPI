@@ -26,29 +26,30 @@
   "msrp_usd": 86,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 31.2,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 38.6,
+      "percentile": 21.8,
+      "tier": "D",
       "era": "2014-2016",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 25.1,
+      "percentile": 15.9,
+      "tier": "E",
       "era": "2014-2016",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_microprocessors",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+2002E"
   ],
-  "created_at": "2026-09-25T15:37:10",
-  "updated_at": "2026-09-25T15:37:10",
+  "created_at": "2026-09-25T06:37:10Z",
+  "updated_at": "2026-09-25T06:37:10Z",
   "url": "/v1/cpus/intel-celeron-2002e"
 }

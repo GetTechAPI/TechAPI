@@ -1,18 +1,18 @@
 {
   "algorithm_version": "2.0.0",
-  "overall": 71.8,
+  "overall": 54.5,
   "single": {
-    "index": 77.4,
-    "percentile": 97.5,
-    "tier": "S",
-    "era": "2010-2013",
-    "source": "specint2006"
-  },
-  "multi": {
-    "index": 67.3,
-    "percentile": 93.9,
+    "index": 68.6,
+    "percentile": 94.5,
     "tier": "A",
     "era": "2010-2013",
-    "source": "specfp2006"
+    "source": "passmark_single"
+  },
+  "multi": {
+    "index": 42.9,
+    "percentile": 71.1,
+    "tier": "B",
+    "era": "2010-2013",
+    "source": "passmark_cpu_mark"
   }
 }

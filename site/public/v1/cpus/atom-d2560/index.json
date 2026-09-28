@@ -26,28 +26,29 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 8.7,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 5.9,
+      "percentile": 4.3,
+      "tier": "F",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 11.0,
+      "percentile": 7.2,
+      "tier": "E",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/List_of_Intel_Atom_processors",
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+D2560"
   ],
-  "created_at": "2026-09-22T19:02:33",
-  "updated_at": "2026-09-28T19:05:35",
+  "created_at": "2026-09-22T10:02:33Z",
+  "updated_at": "2026-09-28T18:42:48Z",
   "url": "/v1/cpus/atom-d2560"
 }

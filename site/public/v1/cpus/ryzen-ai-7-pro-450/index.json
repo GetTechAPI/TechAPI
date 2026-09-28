@@ -26,27 +26,29 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 82.3,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 93.7,
+      "percentile": 72.4,
+      "tier": "B",
       "era": "2024-2026",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 72.9,
+      "percentile": 70.6,
+      "tier": "B",
       "era": "2024-2026",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors",
+    "https://www.cpubenchmark.net/cpu.php?id=7123&cpu=AMD+Ryzen+AI+7+%28+%29+PRO+450",
+    "https://technical.city/en/cpu/Ryzen-AI-7-PRO-450"
   ],
-  "created_at": "2026-09-25T14:55:53",
-  "updated_at": "2026-09-27T06:35:41",
+  "created_at": "2026-09-25T05:55:53Z",
+  "updated_at": "2026-09-26T21:35:41Z",
   "url": "/v1/cpus/ryzen-ai-7-pro-450"
 }

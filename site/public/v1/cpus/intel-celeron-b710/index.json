@@ -26,29 +26,30 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 0.0,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 0.0,
+      "percentile": 2.6,
+      "tier": "F",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 0.0,
+      "percentile": 2.3,
+      "tier": "F",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_microprocessors",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+B710"
   ],
-  "created_at": "2026-09-25T15:37:10",
-  "updated_at": "2026-09-25T15:37:10",
+  "created_at": "2026-09-25T06:37:10Z",
+  "updated_at": "2026-09-25T06:37:10Z",
   "url": "/v1/cpus/intel-celeron-b710"
 }

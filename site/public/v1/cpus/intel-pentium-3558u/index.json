@@ -26,28 +26,29 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 32.6,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 42.0,
+      "percentile": 24.4,
+      "tier": "D",
       "era": "2014-2016",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 24.9,
+      "percentile": 15.6,
+      "tier": "E",
       "era": "2014-2016",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Pentium_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Pentium_processors",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Pentium+3558U"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-07-31T18:11:34",
+  "created_at": "2026-06-17T07:07:24Z",
+  "updated_at": "2026-07-31T09:11:34Z",
   "url": "/v1/cpus/intel-pentium-3558u"
 }

@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 31.9,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 29.4,
+      "percentile": 3.3,
+      "tier": "F",
       "era": "2017-2019",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 34.0,
+      "percentile": 29.7,
+      "tier": "D",
       "era": "2017-2019",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+E3900"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-06-17T16:07:24",
+  "created_at": "2026-06-17T07:07:24Z",
+  "updated_at": "2026-06-17T07:07:24Z",
   "url": "/v1/cpus/intel-atom-e3900"
 }

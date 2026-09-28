@@ -26,28 +26,29 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 66.2,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 68.2,
+      "percentile": 74.0,
+      "tier": "B",
       "era": "2017-2019",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 64.5,
+      "percentile": 89.2,
+      "tier": "A",
       "era": "2017-2019",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Skylake-based)"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Xeon_processors_(Skylake-based)",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+Silver+4123"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-07-31T18:11:34",
+  "created_at": "2026-06-17T07:07:24Z",
+  "updated_at": "2026-07-31T09:11:34Z",
   "url": "/v1/cpus/intel-xeon-silver-4123"
 }

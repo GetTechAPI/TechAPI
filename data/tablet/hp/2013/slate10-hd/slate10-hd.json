@@ -3,17 +3,18 @@
   "name": "Slate10 HD",
   "brand": "hp",
   "soc": "marvell-pxa986",
-  "release_date": "2013-01-01",
+  "release_date": "2013-12-01",
   "ram_gb": 1,
   "battery_mah": 7000,
-  "weight_g": 150.0,
-  "os": "Android",
+  "weight_g": 626.0,
+  "os": "Android 4.2.2 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "storage_options_gb": [
-    1,
     16
   ],
   "display": {
@@ -57,5 +58,61 @@
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2013, December. Released 2013, December",
+    "lte": "0",
+    "cpu": "Dual-core 1.2 GHz",
+    "ram": "16 GB, 1 GB RAM",
+    "internal": "16 GB, 1 GB RAM",
+    "camera": "5 MP, AF",
+    "front_camera": "2 MP",
+    "bluetooth": "3.0",
+    "price": "About 220 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "hp-slate10-hd",
+      "base_model_slug": "hp-slate10-hd",
+      "name": "HP Slate10 HD",
+      "brand": "hp",
+      "release_date": "2013-12-01",
+      "ram_gb": 1.0,
+      "battery_mah": 7000,
+      "weight_g": 626.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2013, December. Released 2013, December",
+        "lte": "0",
+        "cpu": "Dual-core 1.2 GHz",
+        "ram": "16 GB, 1 GB RAM",
+        "internal": "16 GB, 1 GB RAM",
+        "camera": "5 MP, AF",
+        "front_camera": "2 MP",
+        "bluetooth": "3.0",
+        "price": "About 220 EUR"
+      },
+      "display": {
+        "size_inch": 10.0,
+        "resolution": "800x1280",
+        "type": "Capacitive touchscreen, 16M colors",
+        "ppi": 151
+      },
+      "storage_options_gb": [
+        16
+      ],
+      "connectivity": {
+        "bluetooth": "3.0"
+      }
+    }
+  ]
 }

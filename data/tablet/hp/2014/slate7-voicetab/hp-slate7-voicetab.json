@@ -23,7 +23,8 @@
     "bluetooth": "3.0| EDR",
     "wlan": "Yes",
     "usb": "microUSB 2.0",
-    "gps": "Yes with A-GPS"
+    "gps": "Yes with A-GPS",
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,7 +33,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "marvell-pxa1088",
   "raw_price": "About 180 EUR",
@@ -41,7 +43,85 @@
     {
       "type": "main",
       "raw": "5 MP| autofocus| LED flash"
+    },
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
     }
   ],
-  "os_version": "4.2.2"
+  "os_version": "4.2.2",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2014, February",
+    "network_technology": "GSM / HSPA",
+    "platform_chipset": "Marvell PXA1088",
+    "platform_cpu": "Quad-core 1.2 GHz",
+    "platform_gpu": null
+  },
+  "raw_merged_records": [
+    {
+      "slug": "slate7-voicetab",
+      "name": "Slate7 VoiceTab",
+      "brand": "hp",
+      "soc": "marvell-pxa1088",
+      "release_date": "2014-01-01",
+      "ram_gb": 1,
+      "battery_mah": 4100,
+      "weight_g": 325.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        16
+      ],
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "800x1280",
+        "type": "IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 216
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 5.0
+        },
+        {
+          "type": "selfie",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
+        "bluetooth": "3.0, EDR",
+        "usb": "microUSB 2.0"
+      },
+      "raw_price": "About 180 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Available. Released 2014, February",
+        "network_technology": "GSM / HSPA",
+        "platform_chipset": "Marvell PXA1088",
+        "platform_cpu": "Quad-core 1.2 GHz",
+        "platform_gpu": null
+      },
+      "base_model_slug": "slate7-voicetab",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "slate7-voicetab",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 16
+        },
+        "network": {
+          "cellular": "2G"
+        }
+      }
+    }
+  ]
 }

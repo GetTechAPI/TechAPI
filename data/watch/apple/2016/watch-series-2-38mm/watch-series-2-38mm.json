@@ -3,15 +3,16 @@
   "name": "Watch Series 2 38mm",
   "brand": "apple",
   "soc": "apple-s2",
-  "release_date": "2016-01-01",
+  "release_date": "2016-09-01",
   "ram_gb": 0.5,
-  "battery_mah": 1500,
-  "weight_g": 150.0,
-  "os": "Feature phone",
+  "battery_mah": 273,
+  "weight_g": 41.9,
+  "os": "watchOS 3.0, upgradable to 5.1.3",
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
-    "https://en.wikipedia.org/wiki/Apple_Watch"
+    "https://en.wikipedia.org/wiki/Apple_Watch",
+    "https://github.com/sarangzambare/smartdevices_pricing"
   ],
   "storage_options_gb": [
     8
@@ -47,5 +48,61 @@
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2016, September. Released 2016, December",
+    "lte": "0",
+    "cpu": "Dual-core 780 MHz Cortex-A7",
+    "ram": "8 GB, 512 MB RAM",
+    "internal": "8 GB, 512 MB RAM",
+    "camera": "No",
+    "front_camera": "",
+    "bluetooth": "4.0, A2DP",
+    "price": "About 650 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "apple-watch-series-2-38mm",
+      "base_model_slug": "apple-watch-series-2-38mm",
+      "name": "Apple Watch Series 2 38mm",
+      "brand": "apple",
+      "release_date": "2016-09-01",
+      "ram_gb": 0.5,
+      "battery_mah": 273,
+      "weight_g": 41.9,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2016, September. Released 2016, December",
+        "lte": "0",
+        "cpu": "Dual-core 780 MHz Cortex-A7",
+        "ram": "8 GB, 512 MB RAM",
+        "internal": "8 GB, 512 MB RAM",
+        "camera": "No",
+        "front_camera": "",
+        "bluetooth": "4.0, A2DP",
+        "price": "About 650 EUR"
+      },
+      "display": {
+        "size_inch": 1.5,
+        "resolution": "340x272",
+        "type": "AMOLED capacitive touchscreen, 16M colors",
+        "ppi": 290
+      },
+      "storage_options_gb": [
+        8
+      ],
+      "connectivity": {
+        "bluetooth": "4.0, A2DP"
+      }
+    }
+  ]
 }

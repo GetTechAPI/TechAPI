@@ -7,13 +7,15 @@
   "ram_gb": 2,
   "battery_mah": 5900,
   "weight_g": 350.0,
-  "os": "Android",
+  "os": "Android 4.4.4 (KitKat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "storage_options_gb": [
-    2,
+    16,
     32
   ],
   "display": {
@@ -58,5 +60,61 @@
     "network": {
       "cellular": "2G"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2015, January",
+    "lte": "0",
+    "cpu": "Quad-core 2.3 GHz Krait 400",
+    "ram": "16/32 GB, 2 GB RAM",
+    "internal": "16/32 GB, 2 GB RAM",
+    "camera": "8 MP, AF",
+    "front_camera": "2 MP",
+    "bluetooth": "4.0, A2DP, LE",
+    "price": "About 390 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "hp-pro-slate-8",
+      "base_model_slug": "hp-pro-slate-8",
+      "name": "HP Pro Slate 8",
+      "brand": "hp",
+      "release_date": "2015-01-01",
+      "ram_gb": 2.0,
+      "battery_mah": 5900,
+      "weight_g": 350.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2015, January",
+        "lte": "0",
+        "cpu": "Quad-core 2.3 GHz Krait 400",
+        "ram": "16/32 GB, 2 GB RAM",
+        "internal": "16/32 GB, 2 GB RAM",
+        "camera": "8 MP, AF",
+        "front_camera": "2 MP",
+        "bluetooth": "4.0, A2DP, LE",
+        "price": "About 390 EUR"
+      },
+      "display": {
+        "size_inch": 7.86,
+        "resolution": "1536x2048",
+        "type": "IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 326
+      },
+      "storage_options_gb": [
+        32
+      ],
+      "connectivity": {
+        "bluetooth": "4.0, A2DP, LE"
+      }
+    }
+  ]
 }

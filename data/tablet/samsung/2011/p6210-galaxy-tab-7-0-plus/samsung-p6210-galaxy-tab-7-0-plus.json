@@ -6,6 +6,7 @@
   "release_date": "2011-01-01",
   "ram_gb": 1,
   "storage_options_gb": [
+    16,
     32
   ],
   "battery_mah": 4000,
@@ -23,7 +24,8 @@
     "bluetooth": "3.0| A2DP",
     "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| DLNA| hotspot",
     "usb": "2.0 (TV-out)",
-    "gps": "Yes"
+    "gps": "Yes",
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,7 +34,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "exynos-4210",
   "raw_price": "About 260 EUR",
@@ -41,7 +44,88 @@
     {
       "type": "main",
       "raw": "3.15 MP| autofocus| LED flash"
+    },
+    {
+      "type": "main",
+      "mp": 3.15
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
     }
   ],
-  "os_version": "3.2"
+  "os_version": "3.2",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Exynos 4210",
+    "platform_cpu": "Dual-core 1.2 GHz Cortex-A9",
+    "platform_gpu": "Mali-400MP4"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "p6210-galaxy-tab-7-0-plus",
+      "name": "P6210 Galaxy Tab 7.0 Plus",
+      "brand": "samsung",
+      "soc": "exynos-4210",
+      "release_date": "2011-01-01",
+      "ram_gb": 1,
+      "battery_mah": 4000,
+      "weight_g": 345.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        32
+      ],
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "600x1024",
+        "type": "PLS LCD capacitive touchscreen, 16M colors",
+        "ppi": 170
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 3.15
+        },
+        {
+          "type": "selfie",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "bluetooth": "3.0, A2DP",
+        "usb": "2.0 (TV-out)"
+      },
+      "raw_price": "About 260 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": "Exynos 4210",
+        "platform_cpu": "Dual-core 1.2 GHz Cortex-A9",
+        "platform_gpu": "Mali-400MP4"
+      },
+      "base_model_slug": "p6210-galaxy-tab-7-0-plus",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "p6210-galaxy-tab-7-0-plus",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 32
+        },
+        "model_numbers": [
+          "P6210-GALAXY-TAB-7-0-PLUS"
+        ],
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

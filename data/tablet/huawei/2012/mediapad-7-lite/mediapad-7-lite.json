@@ -3,17 +3,17 @@
   "name": "MediaPad 7 Lite",
   "brand": "huawei",
   "soc": "1-2-ghz-cortex-a8",
-  "release_date": "2012-01-01",
+  "release_date": "2012-07-01",
   "ram_gb": 1,
   "battery_mah": 4100,
   "weight_g": 370.0,
-  "os": "Android",
+  "os": "Android 4.0.4 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
   ],
   "storage_options_gb": [
-    1,
     8
   ],
   "display": {
@@ -26,12 +26,20 @@
     {
       "type": "main",
       "mp": 3.15
+    },
+    {
+      "type": "main",
+      "raw": "3.15 MP"
     }
   ],
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n, hotspot, DLNA",
     "bluetooth": "3.0, A2DP, EDR",
-    "usb": "microUSB 2.0, USB Host"
+    "usb": "microUSB 2.0, USB Host",
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "wlan": "Wi-Fi 802.11 b/g/n| hotspot| DLNA",
+    "gps": "Yes with A-GPS"
   },
   "raw_price": "About 150 EUR",
   "raw_gsmarena": {
@@ -53,5 +61,55 @@
     "network": {
       "cellular": "2G"
     }
-  }
+  },
+  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/huawei-mediapad-7-lite.jpg",
+  "os_version": "4.0.4",
+  "raw_merged_records": [
+    {
+      "slug": "huawei-mediapad-7-lite",
+      "base_model_slug": "mediapad-7-lite",
+      "name": "Huawei MediaPad 7 Lite",
+      "brand": "huawei",
+      "release_date": "2012-07-01",
+      "ram_gb": 1,
+      "storage_options_gb": [
+        8
+      ],
+      "battery_mah": 4100,
+      "weight_g": 370.0,
+      "os": "Android 4.0.4 (Ice Cream Sandwich)",
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "600 x 1024 pixels (~170 ppi pixel density)",
+        "type": "IPS LCD capacitive touchscreen  16M colors",
+        "ppi": 170
+      },
+      "connectivity": {
+        "network": "GSM / HSPA",
+        "sim": "Mini-SIM",
+        "bluetooth": "3.0| A2DP| EDR",
+        "wlan": "Wi-Fi 802.11 b/g/n| hotspot| DLNA",
+        "usb": "microUSB 2.0| USB Host",
+        "gps": "Yes with A-GPS"
+      },
+      "variant": {
+        "region": "global",
+        "source_category": "gsmarena-kaggle",
+        "source_dataset": "arwinneil/gsmarena-phone-dataset"
+      },
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+      ],
+      "raw_price": "About 150 EUR",
+      "image_url": "http://cdn2.gsmarena.com/vv/bigpic/huawei-mediapad-7-lite.jpg",
+      "cameras": [
+        {
+          "type": "main",
+          "raw": "3.15 MP"
+        }
+      ],
+      "os_version": "4.0.4"
+    }
+  ]
 }

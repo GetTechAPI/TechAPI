@@ -23,7 +23,8 @@
     "bluetooth": "4.0| EDR",
     "wlan": "Wi-Fi 802.11 b/g/n| hotspot (3G)",
     "usb": "microUSB 2.0",
-    "gps": "Yes with A-GPS"
+    "gps": "Yes with A-GPS",
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot (3G)Wi-Fi 802.11 a/b/g/n, dual-band, hotspot (LTE)"
   },
   "variant": {
     "region": "global",
@@ -32,7 +33,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "hisilicon-kirin-910",
   "raw_price": "About 300 EUR",
@@ -41,7 +43,85 @@
     {
       "type": "main",
       "raw": "5 MP| autofocus"
+    },
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 1.0
     }
   ],
-  "os_version": "4.2.2"
+  "os_version": "4.2.2",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2014, May",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "HiSilicon Kirin 910 (28 nm)",
+    "platform_cpu": "Quad-core 1.6 GHz Cortex-A9",
+    "platform_gpu": "Mali-450MP4"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "mediapad-m1",
+      "name": "MediaPad M1",
+      "brand": "huawei",
+      "soc": "hisilicon-kirin-910",
+      "release_date": "2014-01-01",
+      "ram_gb": 1,
+      "battery_mah": 4800,
+      "weight_g": 329.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        8
+      ],
+      "display": {
+        "size_inch": 8.0,
+        "resolution": "800x1280",
+        "type": "IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 189
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 5.0
+        },
+        {
+          "type": "selfie",
+          "mp": 1.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n, hotspot (3G)Wi-Fi 802.11 a/b/g/n, dual-band, hotspot (LTE)",
+        "bluetooth": "4.0, EDR",
+        "usb": "microUSB 2.0"
+      },
+      "raw_price": "About 300 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Available. Released 2014, May",
+        "network_technology": "GSM / HSPA / LTE",
+        "platform_chipset": "HiSilicon Kirin 910 (28 nm)",
+        "platform_cpu": "Quad-core 1.6 GHz Cortex-A9",
+        "platform_gpu": "Mali-450MP4"
+      },
+      "base_model_slug": "mediapad-m1",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "mediapad-m1",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 8
+        },
+        "network": {
+          "cellular": "4G LTE"
+        }
+      }
+    }
+  ]
 }

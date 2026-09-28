@@ -6,6 +6,7 @@
   "release_date": "2013-01-01",
   "ram_gb": 1,
   "storage_options_gb": [
+    8,
     16
   ],
   "battery_mah": 2710,
@@ -23,7 +24,8 @@
     "bluetooth": "4.0| A2DP",
     "wlan": "Wi-Fi 802.11 b/g/n",
     "usb": "microUSB 2.0",
-    "gps": "Yes"
+    "gps": "Yes",
+    "wifi": "Wi-Fi 802.11 b/g/n"
   },
   "variant": {
     "region": "global",
@@ -32,7 +34,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "mediatek-mt8317",
   "raw_price": "About 100 EUR",
@@ -43,5 +46,67 @@
       "raw": "VGA"
     }
   ],
-  "os_version": "4.1"
+  "os_version": "4.1",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Mediatek MT8317",
+    "platform_cpu": "Dual-core 1.2 GHz Cortex-A9",
+    "platform_gpu": "SGX531u"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "iconia-tab-b1-a71",
+      "name": "Iconia Tab B1-A71",
+      "brand": "acer",
+      "soc": "mediatek-mt8317",
+      "release_date": "2013-01-01",
+      "ram_gb": 1,
+      "battery_mah": 2710,
+      "weight_g": 320.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        16
+      ],
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "600x1024",
+        "type": "TFT capacitive touchscreen, 256K colors",
+        "ppi": 170
+      },
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n",
+        "bluetooth": "4.0, A2DP",
+        "usb": "microUSB 2.0"
+      },
+      "raw_price": "About 100 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": "Mediatek MT8317",
+        "platform_cpu": "Dual-core 1.2 GHz Cortex-A9",
+        "platform_gpu": "SGX531u"
+      },
+      "base_model_slug": "iconia-tab-b1-a71",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "iconia-tab-b1-a71",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 16
+        },
+        "model_numbers": [
+          "A71"
+        ],
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

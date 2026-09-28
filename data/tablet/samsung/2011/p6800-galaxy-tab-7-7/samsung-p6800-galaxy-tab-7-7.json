@@ -6,6 +6,8 @@
   "release_date": "2011-09-01",
   "ram_gb": 1,
   "storage_options_gb": [
+    16,
+    32,
     64
   ],
   "battery_mah": 5100,
@@ -23,7 +25,8 @@
     "bluetooth": "3.0| A2DP",
     "wlan": "Wi-Fi 802.11 a/b/g/n| dual-band| Wi-Fi Direct| hotspot",
     "usb": "2.0 (TV-out)| USB Host",
-    "gps": "Yes with A-GPS"
+    "gps": "Yes with A-GPS",
+    "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,7 +35,8 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "exynos",
   "raw_price": "About 280 EUR",
@@ -41,7 +45,88 @@
     {
       "type": "main",
       "raw": "3.15 MP| autofocus| LED flash| "
+    },
+    {
+      "type": "main",
+      "mp": 3.15
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
     }
   ],
-  "os_version": "3.2"
+  "os_version": "3.2",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / HSPA",
+    "platform_chipset": "Exynos",
+    "platform_cpu": "Dual-core 1.4 GHz Cortex-A9",
+    "platform_gpu": "Mali-400"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "p6800-galaxy-tab-7-7",
+      "name": "P6800 Galaxy Tab 7.7",
+      "brand": "samsung",
+      "soc": "exynos",
+      "release_date": "2011-01-01",
+      "ram_gb": 1,
+      "battery_mah": 5100,
+      "weight_g": 340.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        64
+      ],
+      "display": {
+        "size_inch": 7.7,
+        "resolution": "800x1280",
+        "type": "Super AMOLED Plus capacitive touchscreen, 16M colors",
+        "ppi": 196
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 3.15
+        },
+        {
+          "type": "selfie",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+        "bluetooth": "3.0, A2DP",
+        "usb": "2.0 (TV-out), USB Host"
+      },
+      "raw_price": "About 280 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "GSM / HSPA",
+        "platform_chipset": "Exynos",
+        "platform_cpu": "Dual-core 1.4 GHz Cortex-A9",
+        "platform_gpu": "Mali-400"
+      },
+      "base_model_slug": "p6800-galaxy-tab-7-7",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "p6800-galaxy-tab-7-7",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 64
+        },
+        "model_numbers": [
+          "P6800-GALAXY-TAB-7-7"
+        ],
+        "network": {
+          "cellular": "2G"
+        }
+      }
+    }
+  ]
 }

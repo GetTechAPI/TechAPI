@@ -3,17 +3,18 @@
   "name": "Iconia Tab 7 A1-713HD",
   "brand": "acer",
   "soc": "quad-core",
-  "release_date": "2014-01-01",
+  "release_date": "2014-04-01",
   "ram_gb": 1,
   "battery_mah": 3400,
   "weight_g": 298.0,
-  "os": "Android",
+  "os": "Android 4.4.2 (KitKat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "storage_options_gb": [
-    1,
     16
   ],
   "display": {
@@ -53,5 +54,61 @@
     "network": {
       "cellular": "2G"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2014, April",
+    "lte": "0",
+    "cpu": "Quad-core",
+    "ram": "16 GB, 1 GB RAM",
+    "internal": "16 GB, 1 GB RAM",
+    "camera": "5 MP",
+    "front_camera": "Yes",
+    "bluetooth": "4.0, A2DP",
+    "price": "About 150 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "acer-iconia-tab-7-a1-713hd",
+      "base_model_slug": "acer-iconia-tab-7-a1-713hd",
+      "name": "Acer Iconia Tab 7 A1-713HD",
+      "brand": "acer",
+      "release_date": "2014-04-01",
+      "ram_gb": 1.0,
+      "battery_mah": 3400,
+      "weight_g": 298.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2014, April",
+        "lte": "0",
+        "cpu": "Quad-core",
+        "ram": "16 GB, 1 GB RAM",
+        "internal": "16 GB, 1 GB RAM",
+        "camera": "5 MP",
+        "front_camera": "Yes",
+        "bluetooth": "4.0, A2DP",
+        "price": "About 150 EUR"
+      },
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "800x1280",
+        "type": "IPS LCD capacitive touchscreen",
+        "ppi": 216
+      },
+      "storage_options_gb": [
+        16
+      ],
+      "connectivity": {
+        "bluetooth": "4.0, A2DP"
+      }
+    }
+  ]
 }

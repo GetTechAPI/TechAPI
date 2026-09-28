@@ -7,7 +7,7 @@
     "name": "Intel",
     "url": "/v1/brands/intel"
   },
-  "release_date": "2009-03-01",
+  "release_date": "2003-01-14",
   "segment": "laptop",
   "architecture": "Celeron",
   "socket": null,
@@ -19,7 +19,7 @@
   "base_clock_ghz": 2.0,
   "boost_clock_ghz": null,
   "l3_cache_mb": null,
-  "tdp_w": null,
+  "tdp_w": 32,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
@@ -31,23 +31,24 @@
       "index": 0.0,
       "percentile": 8.3,
       "tier": "E",
-      "era": "2006-2009",
+      "era": "pre-2006",
       "source": "passmark_single"
     },
     "multi": {
       "index": 0.0,
-      "percentile": 13.4,
-      "tier": "E",
-      "era": "2006-2009",
+      "percentile": 26.1,
+      "tier": "D",
+      "era": "pre-2006",
       "source": "passmark_cpu_mark"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Mobile+Intel+Celeron+2.00GHz"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Mobile+Intel+Celeron+2.00GHz",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Celeron_processors"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-22T10:47:29",
+  "created_at": "2026-09-29T04:47:53",
+  "updated_at": "2026-09-29T04:47:53",
   "url": "/v1/cpus/mobile-intel-celeron-2-00ghz"
 }

@@ -2983,7 +2983,14 @@
             "title": "Cameras"
           },
           "battery_mah": {
-            "type": "integer",
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Battery Mah"
           },
           "charging_wired_w": {
@@ -3009,7 +3016,14 @@
             "title": "Charging Wireless W"
           },
           "weight_g": {
-            "type": "number",
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Weight G"
           },
           "dimensions": {
@@ -3104,8 +3118,6 @@
           "variant",
           "display",
           "cameras",
-          "battery_mah",
-          "weight_g",
           "dimensions",
           "os",
           "connectivity",

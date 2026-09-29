@@ -22,14 +22,14 @@
   "boost_clock_mhz": 1530,
   "tdp_w": 300,
   "pcie_version": "PCIe 3.0",
-  "fp32_tflops": 16.35,
+  "fp32_tflops": 15.7,
   "blender_score": 2123.86,
   "score": {
     "algorithm_version": "2.0.0",
     "overall": 87.1,
     "graphics": {
       "index": 87.1,
-      "percentile": 95.1,
+      "percentile": 95.5,
       "tier": "S",
       "era": "2017-2019",
       "source": "passmark_g3d_mark"
@@ -41,7 +41,9 @@
     "https://www.techpowerup.com/gpu-specs/tesla-v100-sxm2-32-gb.c3185",
     "https://opendata.blender.org/snapshots/opendata-latest.zip",
     "https://www.videocardbenchmark.net/gpu_list.php",
-    "https://www.topcpu.net/en/gpu-r/"
+    "https://www.topcpu.net/en/gpu-r/",
+    "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+    "https://images.nvidia.com/content/technologies/volta/pdf/tesla-volta-v100-datasheet-letter-fnl-web.pdf"
   ],
   "url": "/v1/gpus/v100-sxm2-32gb"
 }

@@ -2,7 +2,7 @@
   "id": 115197878643534,
   "slug": "d908",
   "base_model_slug": "d908",
-  "name": "D908",
+  "name": "Philips D908",
   "brand": {
     "id": 160310532162201,
     "slug": "philips",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/philips"
   },
   "soc": {
-    "id": 11050146979264,
-    "slug": "philips-mobile-platform-2009",
-    "name": "Philips mobile platform 2009",
+    "id": 44799860907192,
+    "slug": "qualcomm-msm7627",
+    "name": "Qualcomm MSM7627",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
     "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/philips-mobile-platform-2009"
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7627"
   },
   "release_date": "2009-01-01",
   "msrp_usd": null,
@@ -77,8 +77,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2173"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:29:21"
+  "updated_at": "2026-09-29T19:09:01"
 }

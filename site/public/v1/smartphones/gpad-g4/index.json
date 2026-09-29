@@ -2,7 +2,7 @@
   "id": 52549065294970,
   "slug": "gpad-g4",
   "base_model_slug": "gpad-g4",
-  "name": "Gpad G4",
+  "name": "GiONEE GPAD G4",
   "brand": {
     "id": 46982400252705,
     "slug": "gionee",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/gionee"
   },
   "soc": {
-    "id": 204936245923359,
-    "slug": "quad-core-1-5-ghz-cortex-a7",
-    "name": "Quad-core 1.5 GHz Cortex-A7",
+    "id": 222266722288314,
+    "slug": "mediatek-mt6589t-turbo",
+    "name": "MediaTek MT6589T Turbo",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "mediatek",
+      "name": "MediaTek",
+      "url": "/v1/brands/mediatek"
     },
     "process_nm": 28.0,
-    "gpu_name": "PowerVR Series 5XT",
-    "url": "/v1/socs/quad-core-1-5-ghz-cortex-a7"
+    "gpu_name": "PowerVR SGX544MP",
+    "url": "/v1/socs/mediatek-mt6589t-turbo"
   },
   "release_date": "2014-01-01",
   "msrp_usd": null,
@@ -50,7 +50,7 @@
   "battery_mah": 3200,
   "charging_wired_w": null,
   "charging_wireless_w": null,
-  "weight_g": 150.0,
+  "weight_g": 128.7,
   "dimensions": {},
   "ip_rating": null,
   "os": "Android",
@@ -84,8 +84,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=6143"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:11:59"
+  "updated_at": "2026-09-29T19:09:01"
 }

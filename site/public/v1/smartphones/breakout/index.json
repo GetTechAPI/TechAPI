@@ -2,7 +2,7 @@
   "id": 98367805900883,
   "slug": "breakout",
   "base_model_slug": "breakout",
-  "name": "Breakout",
+  "name": "Pantech Breakout",
   "brand": {
     "id": 120935773691167,
     "slug": "pantech",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/pantech"
   },
   "soc": {
-    "id": 261926499558358,
-    "slug": "1-0-ghz",
-    "name": "1.0 GHz",
+    "id": 79886039678207,
+    "slug": "qualcomm-adreno-220",
+    "name": "Qualcomm Adreno 220",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/1-0-ghz"
+    "process_nm": 45.0,
+    "gpu_name": "Qualcomm Adreno 220",
+    "url": "/v1/socs/qualcomm-adreno-220"
   },
   "release_date": "2011-01-01",
   "msrp_usd": null,
@@ -79,8 +79,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=3125"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:28:54"
+  "updated_at": "2026-09-29T19:09:01"
 }

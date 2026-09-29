@@ -2,7 +2,7 @@
   "id": 236442324060753,
   "slug": "mini-3ix",
   "base_model_slug": "mini-3ix",
-  "name": "Mini 3iX",
+  "name": "Dell Mini 3iX",
   "brand": {
     "id": 129105102145608,
     "slug": "dell",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/dell"
   },
   "soc": {
-    "id": 62935256063124,
-    "slug": "dell-mobile-platform-2009",
-    "name": "Dell mobile platform 2009",
+    "id": 63275072358953,
+    "slug": "marvell-pxa935",
+    "name": "Marvell PXA935",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "marvell",
+      "name": "Marvell Technology",
+      "url": "/v1/brands/marvell"
     },
     "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/dell-mobile-platform-2009"
+    "gpu_name": "N/A",
+    "url": "/v1/socs/marvell-pxa935"
   },
   "release_date": "2009-01-01",
   "msrp_usd": null,
@@ -40,7 +40,7 @@
       "mp": 3.15
     }
   ],
-  "battery_mah": 1000,
+  "battery_mah": 950,
   "charging_wired_w": null,
   "charging_wireless_w": null,
   "weight_g": 108.0,
@@ -77,8 +77,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2078"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:09:45"
+  "updated_at": "2026-09-29T19:09:01"
 }

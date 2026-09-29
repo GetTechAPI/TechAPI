@@ -2,7 +2,7 @@
   "id": 2272651015748,
   "slug": "702t",
   "base_model_slug": "702t",
-  "name": "702T",
+  "name": "Nokia 702T",
   "brand": {
     "id": 57035952782426,
     "slug": "nokia",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 31519848032538,
-    "slug": "680-mhz-arm-11",
-    "name": "680 MHz ARM 11",
+    "id": 268164693108375,
+    "slug": "samsung-k5w4g2gaca-al54-asic",
+    "name": "Samsung K5W4G2GACA-AL54 ASIC",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "samsung",
+      "name": "Samsung",
+      "url": "/v1/brands/samsung"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/680-mhz-arm-11"
+    "process_nm": 28.0,
+    "gpu_name": "Broadcom BCM2727",
+    "url": "/v1/socs/samsung-k5w4g2gaca-al54-asic"
   },
   "release_date": "2011-01-01",
   "msrp_usd": null,
@@ -80,8 +80,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2955"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:24:53"
+  "updated_at": "2026-09-29T19:09:01"
 }

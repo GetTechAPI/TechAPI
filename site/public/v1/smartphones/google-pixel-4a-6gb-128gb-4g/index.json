@@ -11,17 +11,17 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 202487400673529,
-    "slug": "0",
-    "name": "0",
+    "id": 17672257956714,
+    "slug": "snapdragon-730g",
+    "name": "Snapdragon 730G",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/0"
+    "process_nm": 8.0,
+    "gpu_name": "Adreno 618",
+    "url": "/v1/socs/snapdragon-730g"
   },
   "release_date": "2020-08-20",
   "msrp_usd": null,
@@ -79,25 +79,26 @@
   "body": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 27.2,
-    "performance": null,
+    "overall": 35.5,
+    "performance": 39.5,
     "camera": null,
-    "battery": 18.6,
+    "battery": 31.1,
     "display": 34.1,
     "value": null,
     "perf": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 39.5,
+      "percentile": 49.1,
+      "tier": "C",
       "era": "2020-2021",
-      "source": null
+      "source": "geekbench"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
-    "https://www.mobiledokan.com/mobile/google-pixel-4a"
+    "https://www.mobiledokan.com/mobile/google-pixel-4a",
+    "https://en.wikipedia.org/wiki/Pixel_4a"
   ],
   "created_at": "2026-06-20T21:34:07",
-  "updated_at": "2026-07-09T12:20:47"
+  "updated_at": "2026-09-30T03:17:43"
 }

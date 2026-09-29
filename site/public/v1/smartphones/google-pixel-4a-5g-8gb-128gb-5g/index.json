@@ -11,17 +11,17 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 263503568479194,
-    "slug": "qualcomm-snapdragon",
-    "name": "Qualcomm Snapdragon",
+    "id": 79185021594904,
+    "slug": "snapdragon-765g",
+    "name": "Snapdragon 765G",
     "manufacturer": {
       "slug": "qualcomm",
       "name": "Qualcomm",
       "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/qualcomm-snapdragon"
+    "process_nm": 7.0,
+    "gpu_name": "Adreno 620",
+    "url": "/v1/socs/snapdragon-765g"
   },
   "release_date": "2020-11-05",
   "msrp_usd": null,
@@ -79,25 +79,26 @@
   "body": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 29.2,
-    "performance": null,
+    "overall": 38.4,
+    "performance": 42.4,
     "camera": null,
-    "battery": 26.1,
+    "battery": 40.7,
     "display": 31.7,
     "value": null,
     "perf": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 42.4,
+      "percentile": 56.3,
+      "tier": "C",
       "era": "2020-2021",
-      "source": null
+      "source": "geekbench"
     }
   },
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
-    "https://www.mobiledokan.com/mobile/google-pixel-4a-5g-8gb-ram"
+    "https://www.mobiledokan.com/mobile/google-pixel-4a-5g-8gb-ram",
+    "https://en.wikipedia.org/wiki/Pixel_4a"
   ],
   "created_at": "2026-06-20T21:34:07",
-  "updated_at": "2026-07-09T12:20:47"
+  "updated_at": "2026-09-30T03:17:43"
 }

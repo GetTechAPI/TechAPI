@@ -2,7 +2,7 @@
   "id": 192956419742778,
   "slug": "aquos-sh8298u",
   "base_model_slug": "aquos-sh8298u",
-  "name": "Aquos SH8298U",
+  "name": "Sharp Aquos SH8298U",
   "brand": {
     "id": 62256094239082,
     "slug": "sharp",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/sharp"
   },
   "soc": {
-    "id": 58120497505037,
-    "slug": "1-4-ghz-scorpion",
-    "name": "1.4 GHz Scorpion",
+    "id": 202068909110797,
+    "slug": "qualcomm-snapdragon-s2-msm8255t",
+    "name": "Qualcomm Snapdragon S2 MSM8255T",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
     "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/1-4-ghz-scorpion"
+    "gpu_name": "Qualcomm Adreno 205",
+    "url": "/v1/socs/qualcomm-snapdragon-s2-msm8255t"
   },
   "release_date": "2011-01-01",
   "msrp_usd": null,
@@ -45,7 +45,7 @@
   "battery_mah": 1240,
   "charging_wired_w": null,
   "charging_wireless_w": null,
-  "weight_g": 150.0,
+  "weight_g": 139.0,
   "dimensions": {},
   "ip_rating": null,
   "os": "Android",
@@ -79,8 +79,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=3187"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:36:39"
+  "updated_at": "2026-09-29T19:09:01"
 }

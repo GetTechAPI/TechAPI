@@ -2,7 +2,7 @@
   "id": 64883616265009,
   "slug": "u8300",
   "base_model_slug": "u8300",
-  "name": "U8300",
+  "name": "Huawei U8300",
   "brand": {
     "id": 87007967959863,
     "slug": "huawei",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/huawei"
   },
   "soc": {
-    "id": 231928198106679,
-    "slug": "huawei-mobile-platform-2010",
-    "name": "Huawei mobile platform 2010",
+    "id": 41132318975109,
+    "slug": "qualcomm-msm7225",
+    "name": "Qualcomm MSM7225",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/huawei-mobile-platform-2010"
+    "process_nm": 65.0,
+    "gpu_name": "N/A",
+    "url": "/v1/socs/qualcomm-msm7225"
   },
   "release_date": "2010-01-01",
   "msrp_usd": null,
@@ -77,8 +77,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2257"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:14:11"
+  "updated_at": "2026-09-29T19:09:01"
 }

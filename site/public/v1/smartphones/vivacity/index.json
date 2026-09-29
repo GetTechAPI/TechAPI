@@ -2,7 +2,7 @@
   "id": 64515065717431,
   "slug": "vivacity",
   "base_model_slug": "vivacity",
-  "name": "Vivacity",
+  "name": "T-Mobile Vivacity",
   "brand": {
     "id": 179652491158436,
     "slug": "t-mobile",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/t-mobile"
   },
   "soc": {
-    "id": 178579243141828,
-    "slug": "t-mobile-mobile-platform-2011",
-    "name": "T-Mobile mobile platform 2011",
+    "id": 85310524960100,
+    "slug": "qualcomm-msm7227t",
+    "name": "Qualcomm MSM7227T",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/t-mobile-mobile-platform-2011"
+    "process_nm": 65.0,
+    "gpu_name": "Qualcomm Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7227t"
   },
   "release_date": "2011-01-01",
   "msrp_usd": null,
@@ -40,7 +40,7 @@
       "mp": 5.0
     }
   ],
-  "battery_mah": 1500,
+  "battery_mah": 1100,
   "charging_wired_w": null,
   "charging_wireless_w": null,
   "weight_g": 118.0,
@@ -77,8 +77,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=3227"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:38:27"
+  "updated_at": "2026-09-29T19:09:01"
 }

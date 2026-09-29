@@ -2,7 +2,7 @@
   "id": 72738543526445,
   "slug": "a760",
   "base_model_slug": "a760",
-  "name": "A760",
+  "name": "Motorola A760",
   "brand": {
     "id": 220063225842437,
     "slug": "motorola",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 102719905819213,
-    "slug": "206-mhz",
-    "name": "206 MHz",
+    "id": 173419635670504,
+    "slug": "intel-xscale-pxa262",
+    "name": "Intel XScale PXA262",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "intel",
+      "name": "Intel",
+      "url": "/v1/brands/intel"
     },
     "process_nm": 90.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/206-mhz"
+    "gpu_name": "N/A",
+    "url": "/v1/socs/intel-xscale-pxa262"
   },
   "release_date": "2003-01-01",
   "msrp_usd": null,
@@ -69,8 +69,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=1255"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:22:37"
+  "updated_at": "2026-09-29T19:09:01"
 }

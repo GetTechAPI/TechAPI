@@ -2,7 +2,7 @@
   "id": 125933456901856,
   "slug": "pre-2",
   "base_model_slug": "pre-2",
-  "name": "Pre 2",
+  "name": "Palm Pre 2",
   "brand": {
     "id": 204722354540155,
     "slug": "palm",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/palm"
   },
   "soc": {
-    "id": 261926499558358,
-    "slug": "1-0-ghz",
-    "name": "1.0 GHz",
+    "id": 49577143084010,
+    "slug": "texas-instruments-omap-3630",
+    "name": "Texas Instruments OMAP 3630",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/1-0-ghz"
+    "process_nm": 45.0,
+    "gpu_name": "PowerVR SGX530",
+    "url": "/v1/socs/texas-instruments-omap-3630"
   },
   "release_date": "2010-01-01",
   "msrp_usd": null,
@@ -79,8 +79,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2647"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:28:28"
+  "updated_at": "2026-09-29T19:09:01"
 }

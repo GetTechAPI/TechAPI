@@ -2,7 +2,7 @@
   "id": 112369318078910,
   "slug": "t21",
   "base_model_slug": null,
-  "name": "T21",
+  "name": "Panasonic T21",
   "brand": {
     "id": 119615813062167,
     "slug": "panasonic",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/panasonic"
   },
   "soc": {
-    "id": 126639302143463,
-    "slug": "dual-core-1-2-ghz",
-    "name": "Dual-core 1.2 GHz",
+    "id": 215180960501597,
+    "slug": "broadcom-bcm28145",
+    "name": "Broadcom BCM28145",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "url": "/v1/brands/broadcom"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/dual-core-1-2-ghz"
+    "process_nm": 40.0,
+    "gpu_name": "Broadcom VideoCore IV",
+    "url": "/v1/socs/broadcom-bcm28145"
   },
   "release_date": "2013-01-01",
   "msrp_usd": null,
@@ -84,8 +84,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=6205"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-07-09T12:20:47"
+  "updated_at": "2026-09-29T19:09:01"
 }

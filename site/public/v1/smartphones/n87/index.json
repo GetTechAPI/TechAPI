@@ -2,7 +2,7 @@
   "id": 86202546743735,
   "slug": "n87",
   "base_model_slug": "n87",
-  "name": "N87",
+  "name": "Nokia N87",
   "brand": {
     "id": 57035952782426,
     "slug": "nokia",
@@ -11,17 +11,17 @@
     "url": "/v1/brands/nokia"
   },
   "soc": {
-    "id": 30989263880171,
-    "slug": "nokia-mobile-platform-2018",
-    "name": "Nokia mobile platform 2018",
+    "id": 33704128727909,
+    "slug": "arm-cortex-a8",
+    "name": "ARM Cortex-A8",
     "manufacturer": {
       "slug": "arm",
       "name": "Arm",
       "url": "/v1/brands/arm"
     },
-    "process_nm": 14.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/nokia-mobile-platform-2018"
+    "process_nm": 65.0,
+    "gpu_name": "Qualcomm Adreno 205",
+    "url": "/v1/socs/arm-cortex-a8"
   },
   "release_date": "2018-01-01",
   "msrp_usd": null,
@@ -74,8 +74,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2235"
   ],
   "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:25:06"
+  "updated_at": "2026-09-29T19:09:01"
 }

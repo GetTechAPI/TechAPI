@@ -2,7 +2,7 @@
   "id": 103751929362140,
   "slug": "nord-n200",
   "base_model_slug": "nord-n200",
-  "name": "Nord N200",
+  "name": "OnePlus Nord N200",
   "brand": {
     "id": 177071101421440,
     "slug": "oneplus",
@@ -31,7 +31,11 @@
   ],
   "variant": {},
   "display": {
-    "size_inch": 6.49
+    "size_inch": 6.49,
+    "resolution": "1080x2400",
+    "refresh_hz": 90,
+    "type": "Punch Hole",
+    "ppi": 406
   },
   "cameras": [
     {
@@ -44,14 +48,19 @@
     }
   ],
   "battery_mah": 5000,
-  "charging_wired_w": null,
+  "charging_wired_w": 18.0,
   "charging_wireless_w": null,
   "weight_g": 189.0,
   "dimensions": {},
   "ip_rating": null,
   "os": "Android",
   "os_version": null,
-  "connectivity": {},
+  "connectivity": {
+    "wifi": null,
+    "bluetooth": null,
+    "nfc": null,
+    "usb": null
+  },
   "image_url": null,
   "images": [],
   "image_license": null,
@@ -60,12 +69,12 @@
   "body": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 27.7,
+    "overall": 31.4,
     "performance": 32.0,
     "camera": 6.6,
-    "battery": 47.5,
-    "display": null,
-    "value": 63.9,
+    "battery": 49.8,
+    "display": 40.9,
+    "value": 65.7,
     "perf": {
       "index": 32.0,
       "percentile": 30.9,
@@ -76,8 +85,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025",
+    "https://www.kaggle.com/datasets/devgondaliya007/smartphone-specifications-dataset"
   ],
   "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:26:12"
+  "updated_at": "2026-09-29T16:46:25"
 }

@@ -1,0 +1,83 @@
+name: dump-develop
+
+# Keeps site/public/v1 in sync with data/ AFTER a data change lands on develop,
+# so data PRs no longer carry a dump commit (the ~33 min step that every rebase
+# invalidated). Runs the TechEngine dump from the pinned submodule, restricted
+# to the collections the pushed data can affect (app.dump --changed-since), and
+# commits the result back to develop. The commit touches only site/public, which
+# this workflow's own path filter ignores, so it cannot loop.
+on:
+  push:
+    branches: [develop]
+    paths:
+      - "data/**"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Regenerate every collection"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dump-develop
+  cancel-in-progress: false
+
+jobs:
+  dump:
+    if: github.repository == 'GetTechAPI/TechAPI'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      BEFORE: ${{ github.event.before }}
+      FULL: ${{ inputs.full }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # created_at/updated_at come from each record's git history.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # NOT --recursive: TechEngine carries TechAPI back as a submodule.
+      - name: Init TechEngine submodule
+        run: git submodule update --init TechEngine
+
+      - name: Install TechEngine
+        working-directory: TechEngine
+        run: pip install -e .
+
+      - name: Generate dump
+        working-directory: TechEngine
+        env:
+          TECHAPI_DATA_DIR: ${{ github.workspace }}/data
+        run: |
+          OUT="${GITHUB_WORKSPACE}/site/public"
+          # An older pinned engine has no --changed-since: fall back to a full dump.
+          python -m app.dump --help | grep -q -- --changed-since || FULL=true
+          if [ "$FULL" = "true" ] || [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            python -m app.validate
+            python -m app.dump --output "$OUT"
+          else
+            python -m app.dump --changed-since "$BEFORE" --output "$OUT"
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git add site/public
+          if git diff --cached --quiet; then
+            echo "dump already up to date"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(dump): refresh public dump for ${GITHUB_SHA::7}"
+          # Other merges may have landed while this ran.
+          for i in 1 2 3; do
+            git pull --rebase origin develop && git push origin HEAD:develop && exit 0
+            sleep 5
+          done
+          echo "::error::could not push dump refresh"; exit 1

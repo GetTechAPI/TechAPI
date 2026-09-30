@@ -15,6 +15,9 @@ on:
 
 jobs:
   self-validate:
+    # Full scan of every record: only on pushes. PRs are covered by the scoped
+    # engine-validate below (changed records + their FK targets).
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,6 +29,8 @@ jobs:
 
   engine-validate:
     needs: self-validate
+    # self-validate is skipped on PRs; a skipped need must not skip this job.
+    if: ${{ !cancelled() && (needs.self-validate.result == 'success' || needs.self-validate.result == 'skipped') }}
     uses: GetTechAPI/TechEngine/.github/workflows/validate-data.yml@main
     with:
       data-ref: ${{ github.event.pull_request.head.sha || github.sha }}

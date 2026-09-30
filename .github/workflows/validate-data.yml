@@ -29,3 +29,5 @@ jobs:
     uses: GetTechAPI/TechEngine/.github/workflows/validate-data.yml@main
     with:
       data-ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      # PRs validate only the changed records; pushes to main/develop stay full.
+      base-sha: ${{ github.event.pull_request.base.sha || '' }}

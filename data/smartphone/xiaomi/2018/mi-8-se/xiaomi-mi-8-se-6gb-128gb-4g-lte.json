@@ -9,7 +9,8 @@
   "os": "Android 8.1 (Oreo), MIUI 9.5",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-8-se",
   "variant": {
@@ -120,5 +121,12 @@
     "height_mm": 147.3,
     "width_mm": 73.1,
     "depth_mm": 7.5
-  }
+  },
+  "model_numbers": [
+    "MI 8 SE",
+    "sirius"
+  ],
+  "codenames": [
+    "sirius"
+  ]
 }

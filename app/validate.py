@@ -17,7 +17,10 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
-BRAND_REQUIRED = {"slug", "name", "country", "categories", "source_urls"}
+# country is optional: many device makers have no sourced country, and it is
+# never guessed. A brand without one lives under brand/unknown/.
+BRAND_REQUIRED = {"slug", "name", "categories", "source_urls"}
+BRAND_UNKNOWN_COUNTRY_DIR = "unknown"
 BRAND_CATEGORIES = {
     "smartphone-oem",
     "soc-designer",
@@ -39,8 +42,6 @@ PHONE_REQUIRED = {
     "soc",
     "release_date",
     "ram_gb",
-    "battery_mah",
-    "weight_g",
     "os",
 }
 
@@ -50,8 +51,6 @@ MOBILE_DEVICE_REQUIRED = {
     "brand",
     "release_date",
     "ram_gb",
-    "battery_mah",
-    "weight_g",
     "os",
     "source_urls",
     "verified",
@@ -126,6 +125,20 @@ WEBSITE_REQUIRED = {
     "verified",
 }
 
+DEVICE_CATALOG_REQUIRED = {
+    "slug",
+    "name",
+    "brand",
+    "source_urls",
+    "verified",
+}
+FORM_FACTORS = {"phone", "tablet", "watch", "tv", "other"}
+# Categories a catalog entry can be promoted to (``promoted_to`` = "<category>/<slug>").
+PROMOTION_TARGETS = {"smartphone", "tablet", "watch", "pda"}
+DATE_PRECISIONS = {"day", "month", "year", "year_estimated"}
+RELEASE_YEAR_SOURCES = {"model_code", "record"}
+RESOLUTION_RE = re.compile(r"^[1-9]\d{1,4}x[1-9]\d{1,4}$")
+
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
@@ -164,6 +177,32 @@ def _check_range(
 def _check_date(name: str, value: object, errors: list[str]) -> None:
     if not isinstance(value, str) or not DATE_RE.match(value):
         errors.append(f"{name}: release_date '{value}' must be ISO 8601 YYYY-MM-DD (§14.2)")
+
+
+def _check_string_list(
+    name: str, record: dict[str, Any], field: str, errors: list[str]
+) -> None:
+    """Optional list field: unique, non-empty strings (absent = [])."""
+    if field not in record:
+        return
+    value = record[field]
+    if not isinstance(value, list) or not all(
+        isinstance(item, str) and item.strip() for item in value
+    ):
+        errors.append(f"{name}: {field} must be a list of non-empty strings")
+    elif len(set(value)) != len(value):
+        errors.append(f"{name}: {field} contains duplicates")
+
+
+def _check_identity_fields(name: str, record: dict[str, Any], errors: list[str]) -> None:
+    """model_numbers / codenames / release_date_precision on device records."""
+    _check_string_list(name, record, "model_numbers", errors)
+    _check_string_list(name, record, "codenames", errors)
+    precision = record.get("release_date_precision")
+    if precision is not None and precision not in DATE_PRECISIONS:
+        errors.append(
+            f"{name}: release_date_precision '{precision}' not in {sorted(DATE_PRECISIONS)}"
+        )
 
 
 def _check_unique_slugs(
@@ -253,6 +292,7 @@ def validate() -> list[str]:
     games = _load("game")
     software = _load("software")
     websites = _load("website")
+    catalog = _load("device_catalog")
 
     brand_slugs = {rec["slug"] for _, rec in brands if "slug" in rec}
     soc_slugs = {rec["slug"] for _, rec in socs if "slug" in rec}
@@ -273,6 +313,7 @@ def validate() -> list[str]:
         ("game", games),
         ("software", software),
         ("website", websites),
+        ("device_catalog", catalog),
     ):
         _check_unique_slugs(category, records, errors)
 
@@ -296,17 +337,18 @@ def validate() -> list[str]:
                 )
             if len(set(cats)) != len(cats):
                 errors.append(f"{fname}: categories contains duplicates")
-        # Path convention: brand/<country_lower>/<slug>.json
+        # Path convention: brand/<country_lower or "unknown">/<slug>.json
         parts = Path(fname).parts
+        folder = country.lower() if isinstance(country, str) else BRAND_UNKNOWN_COUNTRY_DIR
         if len(parts) != 3:
             errors.append(
                 f"{fname}: must live at 'brand/<country_lower>/<slug>.json' "
                 f"(got {len(parts) - 1} subpath components)"
             )
-        elif isinstance(country, str) and parts[1] != country.lower():
+        elif parts[1] != folder:
             errors.append(
-                f"{fname}: lives in '{parts[1]}/' but country='{country}' "
-                f"(expected '{country.lower()}/')"
+                f"{fname}: lives in '{parts[1]}/' but country={country!r} "
+                f"(expected '{folder}/')"
             )
 
     for fname, rec in socs:
@@ -326,6 +368,7 @@ def validate() -> list[str]:
         if "release_date" in rec:
             _check_date(fname, rec["release_date"], errors)
         _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
+        _check_identity_fields(fname, rec, errors)
         _check_range(fname, "battery_mah", rec.get("battery_mah"), 500, 12000, errors)
         _check_range(fname, "weight_g", rec.get("weight_g"), 50, 1500, errors)
         if "msrp_usd" in rec:
@@ -344,6 +387,7 @@ def validate() -> list[str]:
             if "release_date" in rec:
                 _check_date(fname, rec["release_date"], errors)
             _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
+            _check_identity_fields(fname, rec, errors)
             _check_range(fname, "battery_mah", rec.get("battery_mah"), 50, 20000, errors)
             _check_range(fname, "weight_g", rec.get("weight_g"), 10, 2000, errors)
             if "msrp_usd" in rec:
@@ -448,6 +492,80 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("launch_date") is not None:
             _check_date(fname, rec["launch_date"], errors)
+
+    for fname, rec in catalog:
+        _check_required(fname, rec, DEVICE_CATALOG_REQUIRED, errors)
+        _check_source_urls(fname, rec, errors)
+        _check_slug(fname, rec.get("slug"), errors)
+        if rec.get("base_model_slug") is not None:
+            _check_slug(fname, rec["base_model_slug"], errors)
+        if "verified" in rec and not isinstance(rec["verified"], bool):
+            errors.append(f"{fname}: verified must be a boolean")
+        for field in ("model_numbers", "codenames", "marketing_names"):
+            _check_string_list(fname, rec, field, errors)
+        for field in ("form_factor", "device_type_guess"):
+            value = rec.get(field)
+            if value is not None and value not in FORM_FACTORS:
+                errors.append(f"{fname}: {field} '{value}' not in {sorted(FORM_FACTORS)}")
+        for field, lo, hi in (
+            ("android_sdk_min", 1, 99),
+            ("android_sdk_max", 1, 99),
+            ("screen_density_dpi", 50, 1500),
+            ("release_year", 1990, 2100),
+        ):
+            value = rec.get(field)
+            if value is not None and (isinstance(value, bool) or not isinstance(value, int)):
+                errors.append(f"{fname}: {field} must be an integer")
+            else:
+                _check_range(fname, field, value, lo, hi, errors)
+        sdk_min, sdk_max = rec.get("android_sdk_min"), rec.get("android_sdk_max")
+        if isinstance(sdk_min, int) and isinstance(sdk_max, int) and sdk_max < sdk_min:
+            errors.append(f"{fname}: android_sdk_max={sdk_max} < android_sdk_min={sdk_min}")
+        if isinstance(rec.get("ram_gb"), bool):
+            errors.append(f"{fname}: ram_gb must be a number")
+        else:
+            _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
+        for field in ("soc_raw", "gpu_raw"):
+            value = rec.get(field)
+            if value is not None and not (isinstance(value, str) and value.strip()):
+                errors.append(f"{fname}: {field} must be a non-empty string")
+        resolution = rec.get("screen_resolution")
+        if resolution is not None and not (
+            isinstance(resolution, str) and RESOLUTION_RE.match(resolution)
+        ):
+            errors.append(f"{fname}: screen_resolution '{resolution}' must look like '1080x2400'")
+        year_source = rec.get("release_year_source")
+        if year_source is not None and year_source not in RELEASE_YEAR_SOURCES:
+            errors.append(
+                f"{fname}: release_year_source '{year_source}' "
+                f"not in {sorted(RELEASE_YEAR_SOURCES)}"
+            )
+        if (rec.get("release_year") is None) != (year_source is None):
+            errors.append(f"{fname}: release_year and release_year_source must be set together")
+        if rec.get("soc") is not None and rec.get("soc") not in soc_slugs:
+            errors.append(f"{fname}: soc '{rec.get('soc')}' not a known SoC")
+        promoted = rec.get("promoted_to")
+        if promoted is not None:
+            target, _, target_slug = str(promoted).partition("/")
+            if target not in PROMOTION_TARGETS or not SLUG_RE.match(target_slug):
+                errors.append(
+                    f"{fname}: promoted_to '{promoted}' must be '<category>/<slug>' "
+                    f"with category in {sorted(PROMOTION_TARGETS)}"
+                )
+        if rec.get("brand") not in brand_slugs:
+            errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
+        # No year folder: a catalog entry's release date is unknown by definition.
+        parts = Path(fname).parts
+        if len(parts) != 3:
+            errors.append(f"{fname}: device_catalog entries must live at "
+                          "'device_catalog/<brand>/<slug>.json'")
+        else:
+            if parts[1] != rec.get("brand"):
+                errors.append(
+                    f"{fname}: lives in brand '{parts[1]}' but brand='{rec.get('brand')}'"
+                )
+            if parts[2] != f"{rec.get('slug')}.json":
+                errors.append(f"{fname}: filename must match slug '{rec.get('slug')}'")
 
     return errors
 

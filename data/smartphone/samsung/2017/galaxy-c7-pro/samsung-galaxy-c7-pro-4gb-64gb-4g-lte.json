@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-c7-pro",
   "variant": {
@@ -113,5 +114,14 @@
     "height_mm": 156.5,
     "width_mm": 77.2,
     "depth_mm": 7.0
-  }
+  },
+  "model_numbers": [
+    "SM-C7010",
+    "SM-C7018",
+    "SM-C701F"
+  ],
+  "codenames": [
+    "c7prolte",
+    "c7proltechn"
+  ]
 }

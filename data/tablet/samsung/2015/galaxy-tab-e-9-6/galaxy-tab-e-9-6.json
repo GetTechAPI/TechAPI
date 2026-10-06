@@ -10,7 +10,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     2,
@@ -57,5 +58,20 @@
     "network": {
       "cellular": "2G"
     }
-  }
+  },
+  "model_numbers": [
+    "SM-T560",
+    "SM-T560NU",
+    "SM-T561",
+    "SM-T561Y",
+    "SM-T562",
+    "SM-T567V"
+  ],
+  "codenames": [
+    "gtel3g",
+    "gtelltevzw",
+    "gtelwifi",
+    "gtelwifichn",
+    "gtelwifiue"
+  ]
 }

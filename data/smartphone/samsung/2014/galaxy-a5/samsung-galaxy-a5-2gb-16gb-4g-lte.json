@@ -9,7 +9,8 @@
   "os": "Android 4.4.4 (KitKat), upgradable to 7.0 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-a5",
   "variant": {
@@ -120,5 +121,20 @@
     "height_mm": 139.3,
     "width_mm": 69.7,
     "depth_mm": 6.7
-  }
+  },
+  "model_numbers": [
+    "SM-A520F",
+    "SM-A520K",
+    "SM-A520L",
+    "SM-A520S",
+    "SM-A520W",
+    "SM-A520X"
+  ],
+  "codenames": [
+    "a5y17lte",
+    "a5y17ltecan",
+    "a5y17ltektt",
+    "a5y17ltelgt",
+    "a5y17lteskt"
+  ]
 }

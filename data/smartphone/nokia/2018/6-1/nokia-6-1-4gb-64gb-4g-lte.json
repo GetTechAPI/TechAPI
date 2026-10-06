@@ -9,7 +9,8 @@
   "os": "Android 8.1 (Oreo), upgradable to Android 10, Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "6-1",
   "variant": {
@@ -124,5 +125,12 @@
     "height_mm": 148.8,
     "width_mm": 75.8,
     "depth_mm": 8.2
-  }
+  },
+  "model_numbers": [
+    "Nokia 6.1"
+  ],
+  "codenames": [
+    "PL2",
+    "PL2_sprout"
+  ]
 }

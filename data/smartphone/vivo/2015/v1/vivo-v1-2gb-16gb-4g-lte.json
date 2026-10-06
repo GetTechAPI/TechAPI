@@ -9,7 +9,8 @@
   "os": "Android 5.0 (Lollipop), Funtouch 2.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v1",
   "variant": {
@@ -112,5 +113,11 @@
     "height_mm": 143.3,
     "width_mm": 71.0,
     "depth_mm": 6.8
-  }
+  },
+  "model_numbers": [
+    "vivo V1"
+  ],
+  "codenames": [
+    "V1"
+  ]
 }

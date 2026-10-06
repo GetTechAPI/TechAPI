@@ -9,7 +9,8 @@
   "os": "Android v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g11",
   "variant": {
@@ -166,5 +167,12 @@
     "Technical.OS": "Android v11"
   },
   "soc": "unisoc-t606",
-  "os_version": "11"
+  "os_version": "11",
+  "model_numbers": [
+    "Nokia G11"
+  ],
+  "codenames": [
+    "SCTA_sprout",
+    "SCT_sprout"
+  ]
 }

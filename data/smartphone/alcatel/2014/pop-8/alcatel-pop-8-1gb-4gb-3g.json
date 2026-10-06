@@ -9,7 +9,8 @@
   "os": "Android 4.2 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pop-8",
   "variant": {
@@ -100,5 +101,11 @@
     "height_mm": 209.0,
     "width_mm": 123.0,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "P350X"
+  ],
+  "codenames": [
+    "POP8_LTE"
+  ]
 }

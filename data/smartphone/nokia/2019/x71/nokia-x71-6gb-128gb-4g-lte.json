@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "x71",
   "variant": {
@@ -111,5 +112,11 @@
     "height_mm": 157.2,
     "width_mm": 76.5,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "Nokia X71"
+  ],
+  "codenames": [
+    "TAS"
+  ]
 }

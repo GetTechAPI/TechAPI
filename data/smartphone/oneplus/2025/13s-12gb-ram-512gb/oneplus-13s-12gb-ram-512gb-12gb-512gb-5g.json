@@ -9,7 +9,8 @@
   "os": "Android v15",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "13s-12gb-ram-512gb",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v15"
   },
   "soc": "snapdragon-8-elite",
-  "os_version": "15"
+  "os_version": "15",
+  "model_numbers": [
+    "CPH2723"
+  ],
+  "codenames": [
+    "OP612BL1"
+  ]
 }

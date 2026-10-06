@@ -9,7 +9,8 @@
   "os": "Android v15",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "13r-16gb-ram-512gb",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v15"
   },
   "soc": "qualcomm-snapdragon-8-gen3",
-  "os_version": "15"
+  "os_version": "15",
+  "model_numbers": [
+    "CPH2645",
+    "CPH2647",
+    "CPH2691"
+  ],
+  "codenames": [
+    "OP5D3BL1"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to 7.0 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "moto-g4",
   "variant": {
@@ -122,5 +123,19 @@
     "height_mm": 153.0,
     "width_mm": 76.6,
     "depth_mm": 9.8
-  }
+  },
+  "model_numbers": [
+    "Moto G (4)",
+    "Moto G (5) Plus",
+    "Moto G (5S) Plus"
+  ],
+  "codenames": [
+    "athene",
+    "athene_f",
+    "athene_t",
+    "potter_n",
+    "sanders",
+    "sanders_n",
+    "sanders_nt"
+  ]
 }

@@ -10,7 +10,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -42,5 +43,15 @@
       "raw": "32 MP, f/2.3, (wide), 0.7µm"
     }
   ],
-  "os_version": "11"
+  "os_version": "11",
+  "model_numbers": [
+    "motorola",
+    "motorola edge 20",
+    "motorola edge 20 fusion",
+    "motorola edge plus"
+  ],
+  "codenames": [
+    "berlin",
+    "kyoto"
+  ]
 }

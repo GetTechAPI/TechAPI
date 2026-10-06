@@ -9,7 +9,8 @@
   "os": "Android 2.3 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "droid-4-xt894",
   "variant": {
@@ -110,5 +111,11 @@
     "height_mm": 127.0,
     "width_mm": 67.3,
     "depth_mm": 12.7
-  }
+  },
+  "model_numbers": [
+    "DROID4"
+  ],
+  "codenames": [
+    "cdma_maserati"
+  ]
 }

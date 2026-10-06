@@ -7,7 +7,9 @@
   "release_date": "2023-04-04",
   "msrp_usd": 799,
   "ram_gb": 12,
-  "storage_options_gb": [256],
+  "storage_options_gb": [
+    256
+  ],
   "display": {
     "size_inch": 6.67,
     "resolution": "2400x1080",
@@ -17,24 +19,72 @@
     "ppi": 394
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.8, "ois": true, "sensor": "Sony IMX893"},
-    {"type": "ultrawide", "mp": 50, "aperture": 2.2, "ois": false},
-    {"type": "telephoto", "mp": 12, "aperture": 1.6, "ois": true, "optical_zoom": 2},
-    {"type": "selfie", "mp": 60, "aperture": 2.2}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX893"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 1.6,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 60,
+      "aperture": 2.2
+    }
   ],
   "battery_mah": 4600,
   "charging_wired_w": 125,
   "charging_wireless_w": 15,
   "weight_g": 199.0,
-  "dimensions": {"height_mm": 161.2, "width_mm": 74.0, "depth_mm": 8.59},
+  "dimensions": {
+    "height_mm": 161.2,
+    "width_mm": 74.0,
+    "depth_mm": 8.59
+  },
   "ip_rating": "IP68",
   "os": "Android",
   "os_version": "13",
-  "connectivity": {"wifi": "Wi-Fi 6E", "bluetooth": "5.3", "nfc": true, "usb": "USB-C 3.2"},
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://www.motorola.com/us/smartphones-motorola-edge-series/motorola-edge-40-pro/p",
-    "https://en.wikipedia.org/wiki/Motorola_Edge_40_Pro"
+    "https://en.wikipedia.org/wiki/Motorola_Edge_40_Pro",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "XT2427-4",
+    "moto g 5G (2022)",
+    "moto g85 5G",
+    "motorola edge 30 pro",
+    "motorola edge 40",
+    "motorola edge 40 pro",
+    "motorola edge 50 pro",
+    "motorola edge 50 ultra"
+  ],
+  "codenames": [
+    "ctwo",
+    "eqe",
+    "lyriq",
+    "malmo",
+    "rtwo"
   ]
 }

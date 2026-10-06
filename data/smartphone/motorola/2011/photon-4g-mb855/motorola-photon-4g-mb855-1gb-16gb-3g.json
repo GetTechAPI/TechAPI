@@ -9,7 +9,8 @@
   "os": "Android 2.3 (Gingerbread), not upgradable to 4.1 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "photon-4g-mb855",
   "variant": {
@@ -108,5 +109,13 @@
     "height_mm": 126.9,
     "width_mm": 66.9,
     "depth_mm": 12.2
-  }
+  },
+  "model_numbers": [
+    "ISW11M",
+    "MB855",
+    "Motorola Electrify"
+  ],
+  "codenames": [
+    "sunfire"
+  ]
 }

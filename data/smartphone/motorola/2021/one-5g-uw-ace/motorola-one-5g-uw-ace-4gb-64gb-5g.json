@@ -9,7 +9,8 @@
   "os": "Android v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "one-5g-uw-ace",
   "variant": {
@@ -166,5 +167,12 @@
     "Technical.OS": "Android v11"
   },
   "soc": "snapdragon-750g",
-  "os_version": "11"
+  "os_version": "11",
+  "model_numbers": [
+    "motorola one 5G UW ace",
+    "motorola one 5G ace"
+  ],
+  "codenames": [
+    "kievv"
+  ]
 }

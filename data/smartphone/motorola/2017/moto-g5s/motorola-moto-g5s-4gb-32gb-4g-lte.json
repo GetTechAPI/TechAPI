@@ -9,7 +9,8 @@
   "os": "Android 7.1 (Nougat), upgradable to Android 8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "moto-g5s",
   "variant": {
@@ -116,5 +117,14 @@
     "height_mm": 150.0,
     "width_mm": 73.5,
     "depth_mm": 9.5
-  }
+  },
+  "model_numbers": [
+    "Moto G (5S)",
+    "XT1799-1",
+    "XT1799-2"
+  ],
+  "codenames": [
+    "montana",
+    "montana_n"
+  ]
 }

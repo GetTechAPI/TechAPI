@@ -9,7 +9,8 @@
   "os": "Android 7.1 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-4-10",
   "variant": {
@@ -109,5 +110,19 @@
     "height_mm": 247.0,
     "width_mm": 171.0,
     "depth_mm": 8.3
-  }
+  },
+  "model_numbers": [
+    "Lenovo TB-X304F",
+    "Lenovo TB-X304L",
+    "Lenovo TB-X304N",
+    "Lenovo TB-X304X",
+    "TB-X304F",
+    "TB-X304N"
+  ],
+  "codenames": [
+    "X304F",
+    "X304L",
+    "X304N",
+    "X304X"
+  ]
 }

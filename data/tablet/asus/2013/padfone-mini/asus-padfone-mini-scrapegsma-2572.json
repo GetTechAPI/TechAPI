@@ -11,7 +11,8 @@
   "verified": false,
   "source_urls": [
     "https://github.com/cigarplug/scrape-gsma",
-    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -46,5 +47,13 @@
     "bluetooth": "4.0, A2DP",
     "gps": "Yes, with A-GPS, GLONASS"
   },
-  "os_version": "4.3"
+  "os_version": "4.3",
+  "model_numbers": [
+    "ASUS_T00E",
+    "PadFone T00C"
+  ],
+  "codenames": [
+    "ASUS-T00C",
+    "ASUS_T00E"
+  ]
 }

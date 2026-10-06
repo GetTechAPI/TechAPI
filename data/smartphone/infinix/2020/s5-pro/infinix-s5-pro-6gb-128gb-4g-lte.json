@@ -9,7 +9,8 @@
   "os": "Android 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "s5-pro",
   "variant": {
@@ -117,5 +118,15 @@
     "height_mm": 162.5,
     "width_mm": 76.9,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "Infinix X660",
+    "Infinix X660B",
+    "Infinix X660C"
+  ],
+  "codenames": [
+    "Infinix-X660",
+    "Infinix-X660B",
+    "Infinix-X660C"
+  ]
 }

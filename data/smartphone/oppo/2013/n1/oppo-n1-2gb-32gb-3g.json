@@ -9,7 +9,8 @@
   "os": "Android 4.2 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "n1",
   "variant": {
@@ -113,5 +114,13 @@
     "height_mm": 170.7,
     "width_mm": 82.6,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "N1",
+    "S70A"
+  ],
+  "codenames": [
+    "N1",
+    "songni"
+  ]
 }

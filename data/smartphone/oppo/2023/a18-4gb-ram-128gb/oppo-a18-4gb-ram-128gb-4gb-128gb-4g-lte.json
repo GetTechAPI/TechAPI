@@ -9,7 +9,8 @@
   "os": "Android v13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "a18-4gb-ram-128gb",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v13"
   },
   "soc": "mediatek-helio-g85",
-  "os_version": "13"
+  "os_version": "13",
+  "model_numbers": [
+    "CPH2591"
+  ],
+  "codenames": [
+    "OP575DL1"
+  ]
 }

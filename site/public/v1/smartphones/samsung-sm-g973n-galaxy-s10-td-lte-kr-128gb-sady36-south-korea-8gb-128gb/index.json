@@ -24,7 +24,26 @@
     "url": "/v1/socs/0"
   },
   "release_date": "2019-03-06",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "SC-03L",
+    "SCV41",
+    "SM-G9730",
+    "SM-G9738",
+    "SM-G973C",
+    "SM-G973F",
+    "SM-G973N",
+    "SM-G973U",
+    "SM-G973U1",
+    "SM-G973W"
+  ],
+  "codenames": [
+    "SC-03L",
+    "SCV41",
+    "beyond1",
+    "beyond1q"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     128
@@ -91,8 +110,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "created_at": "2026-06-20T18:51:21Z",
-  "updated_at": "2026-07-09T03:20:47Z"
+  "updated_at": "2026-10-06T02:16:40Z"
 }

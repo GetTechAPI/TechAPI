@@ -24,7 +24,24 @@
     "url": "/v1/socs/0"
   },
   "release_date": "2020-08-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "SC-53A",
+    "SCG06",
+    "SM-N9860",
+    "SM-N986B",
+    "SM-N986N",
+    "SM-N986U",
+    "SM-N986U1",
+    "SM-N986W"
+  ],
+  "codenames": [
+    "SC-53A",
+    "SCG06",
+    "c2q",
+    "c2s"
+  ],
   "ram_gb": 12,
   "storage_options_gb": [
     512
@@ -92,8 +109,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "created_at": "2026-06-20T18:51:21Z",
-  "updated_at": "2026-07-09T03:20:47Z"
+  "updated_at": "2026-10-06T02:16:40Z"
 }

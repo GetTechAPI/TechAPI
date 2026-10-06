@@ -24,7 +24,17 @@
     "url": "/v1/socs/helio-a25"
   },
   "release_date": "2021-04-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "6125A",
+    "6125D",
+    "6125F",
+    "6125H_RU"
+  ],
+  "codenames": [
+    "HONG_KONG"
+  ],
   "ram_gb": 3,
   "storage_options_gb": [
     64
@@ -83,8 +93,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "created_at": "2026-06-19T02:15:44Z",
-  "updated_at": "2026-09-24T22:38:41Z"
+  "updated_at": "2026-10-06T02:16:40Z"
 }

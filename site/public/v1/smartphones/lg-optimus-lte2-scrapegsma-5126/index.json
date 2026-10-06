@@ -24,7 +24,19 @@
     "url": "/v1/socs/qualcomm-msm8960-snapdragon-s4-plus"
   },
   "release_date": "2012-05-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "LG-F160K",
+    "LG-F160L",
+    "LG-F160LV",
+    "LG-F160S"
+  ],
+  "codenames": [
+    "d1lkt",
+    "d1lsk",
+    "d1lu"
+  ],
   "ram_gb": 2,
   "storage_options_gb": [
     16
@@ -86,8 +98,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "created_at": "2026-07-01T03:16:36Z",
-  "updated_at": "2026-07-09T03:20:47Z"
+  "updated_at": "2026-10-06T02:16:40Z"
 }

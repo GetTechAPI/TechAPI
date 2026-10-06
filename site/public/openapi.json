@@ -1971,6 +1971,168 @@
           }
         }
       }
+    },
+    "/v1/device-catalog": {
+      "get": {
+        "tags": [
+          "device-catalog"
+        ],
+        "summary": "List device catalog entries",
+        "operationId": "list_device_catalog_v1_device_catalog_get",
+        "parameters": [
+          {
+            "name": "brand",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Brand"
+            }
+          },
+          {
+            "name": "form_factor",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Form Factor"
+            }
+          },
+          {
+            "name": "base_model_slug",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Base Model Slug"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Sort"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 100,
+              "minimum": 1,
+              "default": 20,
+              "title": "Limit"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0,
+              "title": "Offset"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Page_ResourceRef_"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/device-catalog/{slug}": {
+      "get": {
+        "tags": [
+          "device-catalog"
+        ],
+        "summary": "Get a device catalog entry",
+        "operationId": "get_device_catalog_entry_v1_device_catalog__slug__get",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Slug"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DeviceCatalogRead"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -2370,6 +2532,241 @@
         ],
         "title": "CPUScoreRead",
         "description": "Computed CPU scores (§8): single/multi compute axes."
+      },
+      "DeviceCatalogRead": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "slug": {
+            "type": "string",
+            "title": "Slug"
+          },
+          "base_model_slug": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Base Model Slug"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "brand": {
+            "$ref": "#/components/schemas/BrandSummary"
+          },
+          "soc": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SoCSummary"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "model_numbers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Model Numbers"
+          },
+          "codenames": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Codenames"
+          },
+          "marketing_names": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Marketing Names"
+          },
+          "form_factor": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Form Factor"
+          },
+          "device_type_guess": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Device Type Guess"
+          },
+          "ram_gb": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ram Gb"
+          },
+          "soc_raw": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Soc Raw"
+          },
+          "gpu_raw": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gpu Raw"
+          },
+          "screen_resolution": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Screen Resolution"
+          },
+          "screen_density_dpi": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Screen Density Dpi"
+          },
+          "android_sdk_min": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Android Sdk Min"
+          },
+          "android_sdk_max": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Android Sdk Max"
+          },
+          "release_year": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Year"
+          },
+          "release_year_source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Year Source"
+          },
+          "promoted_to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Promoted To"
+          },
+          "verified": {
+            "type": "boolean",
+            "title": "Verified"
+          },
+          "source_urls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Source Urls"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Updated At"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "slug",
+          "name",
+          "brand",
+          "model_numbers",
+          "codenames",
+          "marketing_names",
+          "verified",
+          "source_urls",
+          "created_at",
+          "updated_at",
+          "url"
+        ],
+        "title": "DeviceCatalogRead",
+        "description": "Full device catalog detail response."
       },
       "GPURead": {
         "properties": {
@@ -2942,6 +3339,17 @@
             "format": "date",
             "title": "Release Date"
           },
+          "release_date_precision": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Date Precision"
+          },
           "msrp_usd": {
             "anyOf": [
               {
@@ -2952,6 +3360,20 @@
               }
             ],
             "title": "Msrp Usd"
+          },
+          "model_numbers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Model Numbers"
+          },
+          "codenames": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Codenames"
           },
           "ram_gb": {
             "type": "number",
@@ -3519,6 +3941,17 @@
             "format": "date",
             "title": "Release Date"
           },
+          "release_date_precision": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Date Precision"
+          },
           "msrp_usd": {
             "anyOf": [
               {
@@ -3529,6 +3962,22 @@
               }
             ],
             "title": "Msrp Usd"
+          },
+          "model_numbers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Model Numbers",
+            "default": []
+          },
+          "codenames": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Codenames",
+            "default": []
           },
           "ram_gb": {
             "anyOf": [
@@ -3567,7 +4016,14 @@
             "title": "Cameras"
           },
           "battery_mah": {
-            "type": "integer",
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Battery Mah"
           },
           "charging_wired_w": {
@@ -3593,7 +4049,14 @@
             "title": "Charging Wireless W"
           },
           "weight_g": {
-            "type": "number",
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
             "title": "Weight G"
           },
           "dimensions": {
@@ -3735,8 +4198,6 @@
           "variant",
           "display",
           "cameras",
-          "battery_mah",
-          "weight_g",
           "dimensions",
           "os",
           "connectivity",

@@ -24,7 +24,18 @@
     "url": "/v1/socs/hisilicon-kirin-659"
   },
   "release_date": "2018-09-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "BAH2-L09",
+    "BAH2-W19",
+    "JDN2-L09",
+    "JDN2-W09"
+  ],
+  "codenames": [
+    "HWBAH2",
+    "HWJDN2"
+  ],
   "ram_gb": 4.0,
   "storage_options_gb": [
     32,
@@ -77,9 +88,10 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
     "https://github.com/sarangzambare/smartdevices_pricing",
-    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "created_at": "2026-06-20T10:44:07Z",
-  "updated_at": "2026-09-28T21:15:12Z",
+  "updated_at": "2026-10-06T02:16:40Z",
   "url": "/v1/tablets/mediapad-m5-lite"
 }

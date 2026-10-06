@@ -9,7 +9,8 @@
   "os": "Android 11 (Go edition)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "c30",
   "variant": {
@@ -112,5 +113,12 @@
     "height_mm": 177.7,
     "width_mm": 79.1,
     "depth_mm": 9.9
-  }
+  },
+  "model_numbers": [
+    "Nokia C30"
+  ],
+  "codenames": [
+    "MNI",
+    "MNR"
+  ]
 }

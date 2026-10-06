@@ -9,7 +9,8 @@
   "os": "Android v7.1.1 (Nougat), upgradable to v8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "6",
   "variant": {
@@ -166,5 +167,19 @@
     "Technical.OS": "Android v7.1.1 (Nougat), upgradable to v8.0 (Oreo)"
   },
   "soc": "snapdragon-430",
-  "os_version": "7.1.1"
+  "os_version": "7.1.1",
+  "model_numbers": [
+    "TA-1000",
+    "TA-1003",
+    "TA-1021",
+    "TA-1025",
+    "TA-1033",
+    "TA-1039",
+    "TA-1054"
+  ],
+  "codenames": [
+    "D1C",
+    "PL2",
+    "PLE"
+  ]
 }

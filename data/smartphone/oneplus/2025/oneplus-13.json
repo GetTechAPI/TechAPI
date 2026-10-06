@@ -7,7 +7,10 @@
   "release_date": "2025-01-07",
   "msrp_usd": 899,
   "ram_gb": 12,
-  "storage_options_gb": [256, 512],
+  "storage_options_gb": [
+    256,
+    512
+  ],
   "display": {
     "size_inch": 6.82,
     "resolution": "3168x1440",
@@ -17,24 +20,65 @@
     "ppi": 510
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.6, "ois": true, "sensor": "Sony LYT-808"},
-    {"type": "ultrawide", "mp": 50, "aperture": 2.0, "ois": false},
-    {"type": "telephoto", "mp": 50, "aperture": 2.6, "ois": true, "optical_zoom": 3},
-    {"type": "selfie", "mp": 32, "aperture": 2.4}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.6,
+      "ois": true,
+      "sensor": "Sony LYT-808"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 2.6,
+      "ois": true,
+      "optical_zoom": 3
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.4
+    }
   ],
   "battery_mah": 6000,
   "charging_wired_w": 100,
   "charging_wireless_w": 50,
   "weight_g": 210.0,
-  "dimensions": {"height_mm": 162.9, "width_mm": 76.5, "depth_mm": 8.5},
+  "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 76.5,
+    "depth_mm": 8.5
+  },
   "ip_rating": "IP69",
   "os": "Android",
   "os_version": "15",
-  "connectivity": {"wifi": "Wi-Fi 7", "bluetooth": "5.4", "nfc": true, "usb": "USB-C 3.2"},
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://www.oneplus.com/global/oneplus-13/specs",
-    "https://en.wikipedia.org/wiki/OnePlus_13"
+    "https://en.wikipedia.org/wiki/OnePlus_13",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "CPH2649",
+    "CPH2653",
+    "CPH2655",
+    "PJZ110"
+  ],
+  "codenames": [
+    "OP5D0DL1",
+    "OP5D55L1"
   ]
 }

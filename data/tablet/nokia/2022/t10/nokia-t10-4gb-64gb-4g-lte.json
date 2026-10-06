@@ -9,7 +9,8 @@
   "os": "Android 12, upgradable to Android 13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "t10",
   "variant": {
@@ -113,5 +114,11 @@
     "height_mm": 208.0,
     "width_mm": 123.2,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "Nokia T10"
+  ],
+  "codenames": [
+    "PGN"
+  ]
 }

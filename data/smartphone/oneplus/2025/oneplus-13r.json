@@ -7,7 +7,11 @@
   "release_date": "2025-01-07",
   "msrp_usd": 599,
   "ram_gb": 12,
-  "storage_options_gb": [128, 256, 512],
+  "storage_options_gb": [
+    128,
+    256,
+    512
+  ],
   "display": {
     "size_inch": 6.78,
     "resolution": "2780x1264",
@@ -17,26 +21,65 @@
     "ppi": 450
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.8, "ois": true, "sensor": "Sony IMX906"},
-    {"type": "ultrawide", "mp": 8, "aperture": 2.2, "ois": false},
-    {"type": "telephoto", "mp": 2, "aperture": 2.4, "ois": false, "optical_zoom": 2},
-    {"type": "selfie", "mp": 16, "aperture": 2.4}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.8,
+      "ois": true,
+      "sensor": "Sony IMX906"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 8,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 2,
+      "aperture": 2.4,
+      "ois": false,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 16,
+      "aperture": 2.4
+    }
   ],
   "battery_mah": 6000,
   "charging_wired_w": 80,
   "charging_wireless_w": 0,
   "weight_g": 210.0,
-  "dimensions": {"height_mm": 162.9, "width_mm": 75.0, "depth_mm": 8.5},
+  "dimensions": {
+    "height_mm": 162.9,
+    "width_mm": 75.0,
+    "depth_mm": 8.5
+  },
   "ip_rating": "IP65",
   "os": "Android",
   "os_version": "15",
-  "connectivity": {"wifi": "Wi-Fi 7", "bluetooth": "5.4", "nfc": true, "usb": "USB-C 2.0"},
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/OnePlus_13R_front.jpg",
   "image_license": "CC-BY-SA-4.0",
   "image_attribution": "Maksdroider",
   "verified": true,
   "source_urls": [
     "https://www.oneplus.com/global/oneplus-13r/specs",
-    "https://en.wikipedia.org/wiki/OnePlus_13R"
+    "https://en.wikipedia.org/wiki/OnePlus_13R",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "CPH2645",
+    "CPH2647",
+    "CPH2691"
+  ],
+  "codenames": [
+    "OP5D3BL1"
   ]
 }

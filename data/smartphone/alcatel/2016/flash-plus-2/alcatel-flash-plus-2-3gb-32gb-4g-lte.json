@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "flash-plus-2",
   "variant": {
@@ -113,5 +114,11 @@
     "height_mm": 152.6,
     "width_mm": 76.4,
     "depth_mm": 8.2
-  }
+  },
+  "model_numbers": [
+    "FL02"
+  ],
+  "codenames": [
+    "shine_plus"
+  ]
 }

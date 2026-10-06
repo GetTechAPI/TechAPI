@@ -9,7 +9,8 @@
   "os": "Android 4.4.2 (KitKat), upgradable to 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "xperia-z3-tablet-compact",
   "variant": {
@@ -122,5 +123,17 @@
     "height_mm": 213.4,
     "width_mm": 123.6,
     "depth_mm": 6.4
-  }
+  },
+  "model_numbers": [
+    "SGP611",
+    "SGP612",
+    "SGP621",
+    "SGP641"
+  ],
+  "codenames": [
+    "SGP611",
+    "SGP612",
+    "SGP621",
+    "SGP641"
+  ]
 }

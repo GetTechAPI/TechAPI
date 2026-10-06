@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "k40s",
   "variant": {
@@ -107,5 +108,11 @@
     "height_mm": 156.3,
     "width_mm": 73.9,
     "depth_mm": 8.6
-  }
+  },
+  "model_numbers": [
+    "LM-X430"
+  ],
+  "codenames": [
+    "mmh55lm"
+  ]
 }

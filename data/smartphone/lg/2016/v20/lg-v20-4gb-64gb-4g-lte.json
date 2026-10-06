@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v20",
   "variant": {
@@ -121,5 +122,22 @@
     "height_mm": 159.7,
     "width_mm": 78.1,
     "depth_mm": 7.6
-  }
+  },
+  "model_numbers": [
+    "LG-F800K",
+    "LG-F800L",
+    "LG-F800S",
+    "LG-H910",
+    "LG-H910PR",
+    "LG-H915",
+    "LG-H918",
+    "LG-H990",
+    "LG-LS997",
+    "LG-US996",
+    "LGV34",
+    "VS995"
+  ],
+  "codenames": [
+    "elsa"
+  ]
 }

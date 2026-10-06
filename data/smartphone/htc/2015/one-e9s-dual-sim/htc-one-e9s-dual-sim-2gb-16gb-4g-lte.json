@@ -9,7 +9,8 @@
   "os": "Android 5 (Lollipop), Sense UI 7",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "one-e9s-dual-sim",
   "variant": {
@@ -107,5 +108,13 @@
     "height_mm": 157.7,
     "width_mm": 79.7,
     "depth_mm": 7.6
-  }
+  },
+  "model_numbers": [
+    "HTC D826sw",
+    "HTC One E9s dual sim",
+    "HTC_E9sx"
+  ],
+  "codenames": [
+    "htc_a50aml"
+  ]
 }

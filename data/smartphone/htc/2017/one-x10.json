@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     3,
@@ -45,5 +46,17 @@
     "platform_chipset": "Mediatek MT6755 Helio P10 (28 nm)",
     "platform_cpu": "Octa-core (4x1.8 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53)",
     "platform_gpu": "Mali-T860MP2"
-  }
+  },
+  "model_numbers": [
+    "HTC 2PXH1",
+    "HTC 2PXH2",
+    "HTC 2PXH3",
+    "HTC One X10",
+    "HTC_X10u"
+  ],
+  "codenames": [
+    "htc_e66_dtwl",
+    "htc_e66_dugl",
+    "htc_e66_uhl"
+  ]
 }

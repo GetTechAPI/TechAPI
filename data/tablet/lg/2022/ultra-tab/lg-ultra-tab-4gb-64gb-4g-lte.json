@@ -10,7 +10,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
-    "https://en.wikipedia.org/wiki/LG_Ultra_Tab"
+    "https://en.wikipedia.org/wiki/LG_Ultra_Tab",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "ultra-tab",
   "variant": {
@@ -107,5 +108,14 @@
     "height_mm": 247.6,
     "width_mm": 157.3,
     "depth_mm": 7.1
-  }
+  },
+  "model_numbers": [
+    "10A20S",
+    "10A30Q",
+    "10AWM20S"
+  ],
+  "codenames": [
+    "jettalt",
+    "solemiolt"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android v7.1 (Nougat), upgradable to v8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v30",
   "variant": {
@@ -166,5 +167,22 @@
     "Technical.OS": "Android v7.1 (Nougat), upgradable to v8.0 (Oreo)"
   },
   "soc": "snapdragon-835",
-  "os_version": "7.1"
+  "os_version": "7.1",
+  "model_numbers": [
+    "LG-AS998",
+    "LG-H930",
+    "LG-H931",
+    "LG-H932",
+    "LG-H932PR",
+    "LG-H933",
+    "LG-LS998",
+    "LG-US998",
+    "LGM-V300K",
+    "LGM-V300L",
+    "LGM-V300S",
+    "VS996"
+  ],
+  "codenames": [
+    "joan"
+  ]
 }

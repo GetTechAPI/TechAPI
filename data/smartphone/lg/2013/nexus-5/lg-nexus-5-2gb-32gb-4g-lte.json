@@ -9,7 +9,8 @@
   "os": "Android 4.4 (Ice Cream Sandwich), upgradable to 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "nexus-5",
   "variant": {
@@ -122,5 +123,11 @@
     "height_mm": 137.9,
     "width_mm": 69.2,
     "depth_mm": 8.6
-  }
+  },
+  "model_numbers": [
+    "Nexus 5"
+  ],
+  "codenames": [
+    "hammerhead"
+  ]
 }

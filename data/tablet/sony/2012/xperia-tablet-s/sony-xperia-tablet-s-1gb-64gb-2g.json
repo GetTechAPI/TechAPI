@@ -13,7 +13,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
-    "https://en.wikipedia.org/wiki/Sony_Xperia_Tablet_S"
+    "https://en.wikipedia.org/wiki/Sony_Xperia_Tablet_S",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "xperia-tablet-s",
   "variant": {
@@ -115,5 +116,12 @@
     "height_mm": 239.8,
     "width_mm": 174.4,
     "depth_mm": 8.8
-  }
+  },
+  "model_numbers": [
+    "SGPT12",
+    "SGPT13"
+  ],
+  "codenames": [
+    "txs03"
+  ]
 }

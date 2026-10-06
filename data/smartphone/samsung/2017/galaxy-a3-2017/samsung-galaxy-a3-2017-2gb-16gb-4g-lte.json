@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-a3-2017",
   "variant": {
@@ -120,5 +121,14 @@
     "height_mm": 135.4,
     "width_mm": 66.2,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "SM-A320F",
+    "SM-A320FL",
+    "SM-A320X",
+    "SM-A320Y"
+  ],
+  "codenames": [
+    "a3y17lte"
+  ]
 }

@@ -10,7 +10,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
-    "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S10"
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S10",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-s10-ultra",
   "variant": {
@@ -116,5 +117,15 @@
     "height_mm": 326.4,
     "width_mm": 208.6,
     "depth_mm": 5.4
-  }
+  },
+  "model_numbers": [
+    "SM-X920",
+    "SM-X926B",
+    "SM-X926C",
+    "SM-X926N"
+  ],
+  "codenames": [
+    "gts10u",
+    "gts10uwifi"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-active-pro",
   "variant": {
@@ -109,5 +110,15 @@
     "height_mm": 243.5,
     "width_mm": 170.2,
     "depth_mm": 9.9
-  }
+  },
+  "model_numbers": [
+    "SM-T540",
+    "SM-T545",
+    "SM-T547",
+    "SM-T547U"
+  ],
+  "codenames": [
+    "gtactivexl",
+    "gtactivexlwifi"
+  ]
 }

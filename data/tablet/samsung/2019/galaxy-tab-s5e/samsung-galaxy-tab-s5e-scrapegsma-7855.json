@@ -10,7 +10,8 @@
   "os": "Android 9.0 (Pie); One UI",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -50,5 +51,21 @@
     "bluetooth": "5.0, A2DP, LE",
     "gps": "Yes, with A-GPS, GLONASS, BDS, GALILEO"
   },
-  "os_version": "9.0"
+  "os_version": "9.0",
+  "model_numbers": [
+    "SM-T720",
+    "SM-T725",
+    "SM-T725C",
+    "SM-T725N",
+    "SM-T727",
+    "SM-T727A",
+    "SM-T727R4",
+    "SM-T727U",
+    "SM-T727V"
+  ],
+  "codenames": [
+    "gts4lv",
+    "gts4lvwifi",
+    "gts4lvwifichn"
+  ]
 }

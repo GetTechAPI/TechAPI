@@ -9,7 +9,8 @@
   "os": "Android 13, up to 4 major Android upgrades, One UI 6",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-s9",
   "variant": {
@@ -114,5 +115,14 @@
     "height_mm": 254.3,
     "width_mm": 165.8,
     "depth_mm": 5.9
-  }
+  },
+  "model_numbers": [
+    "SM-X710",
+    "SM-X716B",
+    "SM-X716N"
+  ],
+  "codenames": [
+    "gts9",
+    "gts9wifi"
+  ]
 }

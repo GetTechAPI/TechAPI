@@ -9,7 +9,8 @@
   "os": "Android 13, up to 4 major Android upgrades, One UI 6",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-s9-fe",
   "variant": {
@@ -112,5 +113,16 @@
     "height_mm": 285.4,
     "width_mm": 185.4,
     "depth_mm": 6.5
-  }
+  },
+  "model_numbers": [
+    "SM-X510",
+    "SM-X516B",
+    "SM-X516C",
+    "SM-X516N",
+    "SM-X518U"
+  ],
+  "codenames": [
+    "gts9fe",
+    "gts9fewifi"
+  ]
 }

@@ -10,7 +10,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "qualcomm-snapdragon-626-msm8953-pro",
   "variant": {
@@ -51,5 +52,14 @@
       "raw": "16 MP, AF, f/1.9"
     }
   ],
-  "os_version": "6.0.1"
+  "os_version": "6.0.1",
+  "model_numbers": [
+    "SM-C7010",
+    "SM-C7018",
+    "SM-C701F"
+  ],
+  "codenames": [
+    "c7prolte",
+    "c7proltechn"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), One UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-s8-active",
   "variant": {
@@ -121,5 +122,13 @@
     "height_mm": 151.9,
     "width_mm": 74.9,
     "depth_mm": 9.9
-  }
+  },
+  "model_numbers": [
+    "SM-G892A",
+    "SM-G892U"
+  ],
+  "codenames": [
+    "cruiserlteatt",
+    "cruiserltesq"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-a5-2017",
   "variant": {
@@ -124,5 +125,20 @@
     "height_mm": 146.1,
     "width_mm": 71.4,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "SM-A520F",
+    "SM-A520K",
+    "SM-A520L",
+    "SM-A520S",
+    "SM-A520W",
+    "SM-A520X"
+  ],
+  "codenames": [
+    "a5y17lte",
+    "a5y17ltecan",
+    "a5y17ltektt",
+    "a5y17ltelgt",
+    "a5y17lteskt"
+  ]
 }

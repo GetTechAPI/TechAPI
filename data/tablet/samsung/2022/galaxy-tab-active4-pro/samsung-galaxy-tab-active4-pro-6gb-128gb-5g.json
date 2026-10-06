@@ -9,7 +9,8 @@
   "os": "Android 12, upgradable to Android 13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-active4-pro",
   "variant": {
@@ -110,5 +111,14 @@
     "height_mm": 242.9,
     "width_mm": 170.2,
     "depth_mm": 10.2
-  }
+  },
+  "model_numbers": [
+    "SM-T636B",
+    "SM-T636N",
+    "SM-T638B",
+    "SM-T638U"
+  ],
+  "codenames": [
+    "gtact4pro"
+  ]
 }

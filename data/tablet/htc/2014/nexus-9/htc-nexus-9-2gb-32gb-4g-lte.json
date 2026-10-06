@@ -9,7 +9,8 @@
   "os": "Android 5.0 (Lollipop), upgradable to 7.1.1 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "nexus-9",
   "variant": {
@@ -114,5 +115,12 @@
     "height_mm": 228.2,
     "width_mm": 153.7,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "Nexus 9"
+  ],
+  "codenames": [
+    "flounder",
+    "flounder_lte"
+  ]
 }

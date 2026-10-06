@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     3,
@@ -48,5 +49,13 @@
     "platform_chipset": "Mediatek MT6750S (28 nm) - Q7, Q7αQualcomm SDM450 Snapdragon 450 (14 nm) - Q7+",
     "platform_cpu": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53) - Q7, Q7αOcta-core 1.8 GHz Cortex-A53 - Q7+",
     "platform_gpu": "Mali-T860MP2 - Q7, Q7αAdreno 506 - Q7+"
-  }
+  },
+  "model_numbers": [
+    "LM-Q610.FG",
+    "LM-Q610.FGN",
+    "LM-Q617.FGN"
+  ],
+  "codenames": [
+    "mcv5a"
+  ]
 }

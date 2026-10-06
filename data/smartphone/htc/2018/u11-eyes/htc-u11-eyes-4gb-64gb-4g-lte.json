@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), Sense UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "u11-eyes",
   "variant": {
@@ -110,5 +111,16 @@
     "height_mm": 157.9,
     "width_mm": 75.0,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "HTC 2Q4R1",
+    "HTC 2Q4R100",
+    "HTC 2Q4R300",
+    "HTC 2Q4R400",
+    "HTC U11 EYEs"
+  ],
+  "codenames": [
+    "htc_haydtwl",
+    "htc_haydugl"
+  ]
 }

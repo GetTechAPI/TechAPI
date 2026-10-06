@@ -9,7 +9,8 @@
   "os": "Android v12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "wildfire-e3-lite",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v12"
   },
   "soc": "unisoc-sc9863a",
-  "os_version": "12"
+  "os_version": "12",
+  "model_numbers": [
+    "Wildfire E3",
+    "Wildfire E3 lite"
+  ],
+  "codenames": [
+    "Wildfire_E3",
+    "Wildfire_E3_lite"
+  ]
 }

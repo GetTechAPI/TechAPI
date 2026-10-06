@@ -9,7 +9,8 @@
   "os": "Android 7.1.1 (Nougat), upgradable to Android 8.0 (Oreo), LG UI 5.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "q6",
   "variant": {
@@ -118,5 +119,17 @@
     "height_mm": 142.5,
     "width_mm": 69.3,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "LG-M700",
+    "LG-M703",
+    "LG-US700",
+    "LGM-X600K",
+    "LGM-X600L",
+    "LGM-X600S"
+  ],
+  "codenames": [
+    "mh",
+    "mhn"
+  ]
 }

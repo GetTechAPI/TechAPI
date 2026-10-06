@@ -9,7 +9,8 @@
   "os": "Android 2.3 (Gingerbread), upgradable to 4.0 (Ice Cream Sandwich), Sense UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "evo-3d",
   "variant": {
@@ -114,5 +115,12 @@
     "height_mm": 126.0,
     "width_mm": 65.0,
     "depth_mm": 12.1
-  }
+  },
+  "model_numbers": [
+    "HTCEVOV4G",
+    "PG86100"
+  ],
+  "codenames": [
+    "shooter"
+  ]
 }

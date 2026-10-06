@@ -9,7 +9,8 @@
   "os": "Android 5.1.1 (Lollipop), upgradаble to 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "zero",
   "variant": {
@@ -110,5 +111,11 @@
     "height_mm": 142.0,
     "width_mm": 71.8,
     "depth_mm": 7.4
-  }
+  },
+  "model_numbers": [
+    "LG-H650"
+  ],
+  "codenames": [
+    "c100"
+  ]
 }

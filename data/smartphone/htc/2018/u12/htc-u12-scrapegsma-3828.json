@@ -10,7 +10,8 @@
   "os": "Android 8.0 (Oreo), planned upgrade to Android 9.0 (Pie); Sense UI",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "snapdragon-845",
   "variant": {
@@ -46,5 +47,19 @@
     "nfc": "Yes",
     "usb": "3.1, Type-C 1.0 reversible connector"
   },
-  "os_version": "8.0"
+  "os_version": "8.0",
+  "model_numbers": [
+    "HTC 2Q551",
+    "HTC 2Q551+",
+    "HTC 2Q55100",
+    "HTC 2Q552",
+    "HTC 2Q55300",
+    "HTC U12+"
+  ],
+  "codenames": [
+    "htc_imedtwl",
+    "htc_imedugl",
+    "htc_imeuhl",
+    "htc_imeuhljp"
+  ]
 }

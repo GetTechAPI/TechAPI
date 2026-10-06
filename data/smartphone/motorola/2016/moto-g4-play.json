@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     2,
@@ -46,5 +47,21 @@
     "platform_chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm)",
     "platform_cpu": "Quad-core 1.2 GHz Cortex-A53",
     "platform_gpu": "Adreno 306"
-  }
+  },
+  "model_numbers": [
+    "Moto G (4)",
+    "Moto G (5) Plus",
+    "Moto G (5S) Plus",
+    "Moto G Play"
+  ],
+  "codenames": [
+    "athene",
+    "athene_f",
+    "athene_t",
+    "harpia_n",
+    "potter_n",
+    "sanders",
+    "sanders_n",
+    "sanders_nt"
+  ]
 }

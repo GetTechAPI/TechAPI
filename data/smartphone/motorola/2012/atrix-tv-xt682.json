@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     1
@@ -40,5 +41,24 @@
     "platform_chipset": "Qualcomm MSM7227A-AA Snapdragon S1",
     "platform_cpu": "1.0 GHz Cortex-A5",
     "platform_gpu": "Adreno 200"
-  }
+  },
+  "model_numbers": [
+    "Motorola MOT-XT681",
+    "XT611",
+    "XT615",
+    "XT626",
+    "XT627",
+    "XT682",
+    "XT685",
+    "XT687"
+  ],
+  "codenames": [
+    "XT611",
+    "XT615",
+    "XT682",
+    "ironmax_umts",
+    "ironmaxct_cdma",
+    "ironmaxtv_umts",
+    "umts_irock"
+  ]
 }

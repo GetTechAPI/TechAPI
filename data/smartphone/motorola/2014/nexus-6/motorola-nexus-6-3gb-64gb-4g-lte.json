@@ -9,7 +9,8 @@
   "os": "Android 5.0 (Lollipop), upgradable to 7.1.1 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "nexus-6",
   "variant": {
@@ -121,5 +122,11 @@
     "height_mm": 159.3,
     "width_mm": 83.0,
     "depth_mm": 10.1
-  }
+  },
+  "model_numbers": [
+    "Nexus 6"
+  ],
+  "codenames": [
+    "shamu"
+  ]
 }

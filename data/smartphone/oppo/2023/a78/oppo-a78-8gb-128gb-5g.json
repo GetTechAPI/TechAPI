@@ -9,7 +9,8 @@
   "os": "Android 12, upgradable to Android 14, ColorOS 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "a78",
   "variant": {
@@ -111,5 +112,11 @@
     "height_mm": 163.8,
     "width_mm": 75.1,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "CPH2565"
+  ],
+  "codenames": [
+    "OP5745L1"
+  ]
 }

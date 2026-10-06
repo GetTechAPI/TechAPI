@@ -1,0 +1,54 @@
+{
+  "id": 82811803839043,
+  "slug": "toshiba-at7-a",
+  "base_model_slug": null,
+  "name": "AT7-A",
+  "brand": {
+    "id": 16951796634165,
+    "slug": "toshiba",
+    "name": "Toshiba",
+    "country": "JP",
+    "url": "/v1/brands/toshiba"
+  },
+  "soc": {
+    "id": 1205751938952,
+    "slug": "rockchip-rk3188",
+    "name": "Rockchip RK3188",
+    "manufacturer": {
+      "slug": "arm",
+      "name": "Arm",
+      "url": "/v1/brands/arm"
+    },
+    "process_nm": 28.0,
+    "gpu_name": "Mali-400",
+    "url": "/v1/socs/rockchip-rk3188"
+  },
+  "model_numbers": [
+    "AT374",
+    "AT7-A"
+  ],
+  "codenames": [
+    "tost7t"
+  ],
+  "marketing_names": [],
+  "form_factor": "tablet",
+  "device_type_guess": null,
+  "ram_gb": 1.5,
+  "soc_raw": "Rockchip RK3188",
+  "gpu_raw": "ARM Mali 400 (533 MHz)",
+  "screen_resolution": "600x1024",
+  "screen_density_dpi": 160,
+  "android_sdk_min": 17,
+  "android_sdk_max": 17,
+  "release_year": null,
+  "release_year_source": null,
+  "promoted_to": null,
+  "verified": false,
+  "source_urls": [
+    "https://storage.googleapis.com/play_public/supported_devices.csv",
+    "https://play.google.com/console/about/devicecatalog/"
+  ],
+  "created_at": "2026-10-06T02:27:31Z",
+  "updated_at": "2026-10-06T02:27:31Z",
+  "url": "/v1/device-catalog/toshiba-at7-a"
+}

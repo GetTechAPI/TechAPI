@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 10, MIUI 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-9-lite",
   "variant": {
@@ -124,5 +125,13 @@
     "height_mm": 156.8,
     "width_mm": 74.5,
     "depth_mm": 8.7
-  }
+  },
+  "model_numbers": [
+    "MI CC 9",
+    "Mi 9 Lite",
+    "Pyxis"
+  ],
+  "codenames": [
+    "pyxis"
+  ]
 }

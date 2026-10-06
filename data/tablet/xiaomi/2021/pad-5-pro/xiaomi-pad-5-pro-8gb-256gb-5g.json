@@ -9,7 +9,8 @@
   "os": "Android 11, upgradable to Android 13, MIUI 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pad-5-pro",
   "variant": {
@@ -111,5 +112,15 @@
     "height_mm": 254.7,
     "width_mm": 166.3,
     "depth_mm": 6.9
-  }
+  },
+  "model_numbers": [
+    "22081281AC",
+    "M2105K81AC",
+    "M2105K81C"
+  ],
+  "codenames": [
+    "dagu",
+    "elish",
+    "enuma"
+  ]
 }

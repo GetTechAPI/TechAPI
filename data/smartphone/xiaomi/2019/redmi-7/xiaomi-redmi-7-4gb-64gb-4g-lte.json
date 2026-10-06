@@ -9,7 +9,8 @@
   "os": "Android 9.0 Pie, upgradable to Android 10, MIUI 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "redmi-7",
   "variant": {
@@ -120,5 +121,13 @@
     "height_mm": 158.7,
     "width_mm": 75.6,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "ONC",
+    "Redmi 7",
+    "Redmi Y3"
+  ],
+  "codenames": [
+    "onc"
+  ]
 }

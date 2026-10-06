@@ -9,7 +9,8 @@
   "os": "Android 7.1 (Nougat), upgradable to Android 9, MIUI 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-note-3",
   "variant": {
@@ -114,5 +115,15 @@
     "height_mm": 152.6,
     "width_mm": 74.0,
     "depth_mm": 7.6
-  }
+  },
+  "model_numbers": [
+    "Mi Note 3",
+    "Redmi Note 3"
+  ],
+  "codenames": [
+    "hennessy",
+    "jason",
+    "kate",
+    "kenzo"
+  ]
 }

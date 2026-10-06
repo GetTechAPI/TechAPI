@@ -9,7 +9,8 @@
   "os": "Android v9.0 (Pie), upgradable to v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-9",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v9.0 (Pie), upgradable to v11"
   },
   "soc": "snapdragon-855-plus",
-  "os_version": "9.0"
+  "os_version": "9.0",
+  "model_numbers": [
+    "MI 9"
+  ],
+  "codenames": [
+    "cepheus"
+  ]
 }

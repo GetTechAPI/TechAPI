@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 11, MIUI 12.5",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-9t-pro",
   "variant": {
@@ -122,5 +123,13 @@
     "height_mm": 156.7,
     "width_mm": 74.3,
     "depth_mm": 8.8
-  }
+  },
+  "model_numbers": [
+    "Mi 9T Pro",
+    "Redmi K20 Pro",
+    "Redmi K20 Pro Premium Edition"
+  ],
+  "codenames": [
+    "raphael"
+  ]
 }

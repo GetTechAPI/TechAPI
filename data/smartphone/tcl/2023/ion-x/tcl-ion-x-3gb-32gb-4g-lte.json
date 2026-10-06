@@ -9,7 +9,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "ion-x",
   "variant": {
@@ -165,5 +166,13 @@
     "Technical.NPU": "",
     "Technical.OS": "Android"
   },
-  "soc": "helio-g25"
+  "soc": "helio-g25",
+  "model_numbers": [
+    "T430W",
+    "T430WS"
+  ],
+  "codenames": [
+    "Bora_NA_OM",
+    "Bora_TMO"
+  ]
 }

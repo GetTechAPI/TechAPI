@@ -9,7 +9,8 @@
   "os": "Android 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-10l-gen-3",
   "variant": {
@@ -108,5 +109,12 @@
     "height_mm": 241.2,
     "width_mm": 156.6,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "8193A",
+    "8194A"
+  ],
+  "codenames": [
+    "Freyr_Pro_4G_U"
+  ]
 }

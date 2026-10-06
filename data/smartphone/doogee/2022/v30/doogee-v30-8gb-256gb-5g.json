@@ -9,7 +9,8 @@
   "os": "Android 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v30",
   "variant": {
@@ -110,5 +111,11 @@
     "height_mm": 178.4,
     "width_mm": 83.1,
     "depth_mm": 18.3
-  }
+  },
+  "model_numbers": [
+    "V30"
+  ],
+  "codenames": [
+    "M23"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android v10, upgradable to v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "c15",
   "variant": {
@@ -166,5 +167,15 @@
     "Technical.OS": "Android v10, upgradable to v11"
   },
   "soc": "helio-g35",
-  "os_version": "10"
+  "os_version": "10",
+  "model_numbers": [
+    "RMX2180",
+    "RMX2181",
+    "RMX2183"
+  ],
+  "codenames": [
+    "RMX2180",
+    "RMX2181",
+    "RMX2183"
+  ]
 }

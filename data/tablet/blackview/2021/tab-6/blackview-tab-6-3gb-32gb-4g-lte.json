@@ -9,7 +9,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-6",
   "variant": {
@@ -106,5 +107,12 @@
     "height_mm": 207.6,
     "width_mm": 124.0,
     "depth_mm": 9.5
-  }
+  },
+  "model_numbers": [
+    "Tab 6"
+  ],
+  "codenames": [
+    "Tab6_EEA",
+    "Tab6_NEU"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "t10s",
   "variant": {
@@ -102,5 +103,11 @@
     128
   ],
   "soc": "unisoc-t606",
-  "os_version": "13"
+  "os_version": "13",
+  "model_numbers": [
+    "T10S"
+  ],
+  "codenames": [
+    "P1D"
+  ]
 }

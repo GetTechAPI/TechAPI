@@ -9,7 +9,8 @@
   "os": "Android 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "t30-max",
   "variant": {
@@ -108,5 +109,11 @@
     "height_mm": 285.1,
     "width_mm": 185.4,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "T30 Max"
+  ],
+  "codenames": [
+    "P3T"
+  ]
 }

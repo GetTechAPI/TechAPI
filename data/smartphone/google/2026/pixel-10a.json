@@ -7,7 +7,10 @@
   "release_date": "2026-03-05",
   "msrp_usd": 499,
   "ram_gb": 8,
-  "storage_options_gb": [128, 256],
+  "storage_options_gb": [
+    128,
+    256
+  ],
   "display": {
     "size_inch": 6.3,
     "resolution": "2424x1080",
@@ -17,23 +20,53 @@
     "ppi": 422
   },
   "cameras": [
-    {"type": "main", "mp": 48, "aperture": 1.7, "ois": true},
-    {"type": "ultrawide", "mp": 13, "aperture": 2.2, "ois": false},
-    {"type": "selfie", "mp": 13, "aperture": 2.2}
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.7,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.2
+    }
   ],
   "battery_mah": 5100,
   "charging_wired_w": 30,
   "charging_wireless_w": 10,
   "weight_g": 183.0,
-  "dimensions": {"height_mm": 153.9, "width_mm": 73.0, "depth_mm": 9.0},
+  "dimensions": {
+    "height_mm": 153.9,
+    "width_mm": 73.0,
+    "depth_mm": 9.0
+  },
   "ip_rating": "IP68",
   "os": "Android",
   "os_version": "16",
-  "connectivity": {"wifi": "Wi-Fi 6E", "bluetooth": "5.3", "nfc": true, "usb": "USB-C 3.2"},
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Pixel_10a",
-    "https://store.google.com/product/pixel_10a_specs"
+    "https://store.google.com/product/pixel_10a_specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "Pixel 10a"
+  ],
+  "codenames": [
+    "stallion"
   ]
 }

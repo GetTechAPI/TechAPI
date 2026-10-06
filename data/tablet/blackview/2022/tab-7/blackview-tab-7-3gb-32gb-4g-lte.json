@@ -9,7 +9,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-7",
   "variant": {
@@ -108,5 +109,15 @@
     "height_mm": 241.3,
     "width_mm": 160.0,
     "depth_mm": 8.9
-  }
+  },
+  "model_numbers": [
+    "Tab 7",
+    "Tab 7 WiFi"
+  ],
+  "codenames": [
+    "Tab_7_EEA",
+    "Tab_7_NEU",
+    "Tab_7_WiFi_EEA",
+    "Tab_7_WiFi_NEU"
+  ]
 }

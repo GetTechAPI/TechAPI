@@ -9,7 +9,8 @@
   "os": "Android v12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "30-se",
   "variant": {
@@ -166,5 +167,14 @@
     "Technical.OS": "Android v12"
   },
   "soc": "helio-g25",
-  "os_version": "12"
+  "os_version": "12",
+  "model_numbers": [
+    "6165A",
+    "6165H",
+    "6165H_EEA",
+    "6165S"
+  ],
+  "codenames": [
+    "Cruze_Pro"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pova-2-6gb-ram-128gb",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v11"
   },
   "soc": "mediatek-helio-g85",
-  "os_version": "11"
+  "os_version": "11",
+  "model_numbers": [
+    "TECNO LE7",
+    "TECNO LE7n"
+  ],
+  "codenames": [
+    "TECNO-LE7",
+    "TECNO-LE7n"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "bl5000",
   "variant": {
@@ -110,5 +111,11 @@
     "height_mm": 164.0,
     "width_mm": 80.4,
     "depth_mm": 12.8
-  }
+  },
+  "model_numbers": [
+    "BL5000"
+  ],
+  "codenames": [
+    "BL5000"
+  ]
 }

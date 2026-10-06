@@ -10,7 +10,8 @@
   "os": "Android 5.1 (Lollipop); EMUI 3.1",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -51,5 +52,17 @@
     "bluetooth": "4.1, A2DP, LE",
     "gps": "Yes, with A-GPS, GLONASS/ BDS (region dependent)"
   },
-  "os_version": "5.1"
+  "os_version": "5.1",
+  "model_numbers": [
+    "605HW",
+    "606HW",
+    "FDR-A01L",
+    "FDR-A01w",
+    "FDR-A03L",
+    "FDR-A05L"
+  ],
+  "codenames": [
+    "HWFDR",
+    "hwfdr"
+  ]
 }

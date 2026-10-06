@@ -9,7 +9,8 @@
   "os": "Android 7.1.1 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "blade-force",
   "variant": {
@@ -106,5 +107,11 @@
     "height_mm": 156.0,
     "width_mm": 78.0,
     "depth_mm": 9.1
-  }
+  },
+  "model_numbers": [
+    "N9517"
+  ],
+  "codenames": [
+    "warp8"
+  ]
 }

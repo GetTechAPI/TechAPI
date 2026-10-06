@@ -9,7 +9,8 @@
   "os": "Android 10, MiFavor 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "axon-11-4g",
   "variant": {
@@ -107,5 +108,13 @@
     "height_mm": 159.2,
     "width_mm": 73.4,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "ZTE A2021E",
+    "ZTE A2021L"
+  ],
+  "codenames": [
+    "P671A11",
+    "P671A13"
+  ]
 }

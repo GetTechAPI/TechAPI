@@ -10,7 +10,8 @@
   "os": "Android 7.0 (Nougat); EMUI 5.1",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -50,5 +51,13 @@
     "bluetooth": "4.0, A2DP",
     "gps": "Yes, with A-GPS"
   },
-  "os_version": "7.0"
+  "os_version": "7.0",
+  "model_numbers": [
+    "BAH-AL00",
+    "BAH-L09",
+    "BAH-W09"
+  ],
+  "codenames": [
+    "HWBAH-Q"
+  ]
 }

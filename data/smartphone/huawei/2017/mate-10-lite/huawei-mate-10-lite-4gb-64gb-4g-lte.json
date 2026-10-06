@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 8.0 (Oreo), EMUI 5.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mate-10-lite",
   "variant": {
@@ -116,5 +117,14 @@
     "height_mm": 156.2,
     "width_mm": 75.2,
     "depth_mm": 7.5
-  }
+  },
+  "model_numbers": [
+    "RNE-L01",
+    "RNE-L03",
+    "RNE-L21",
+    "RNE-L23"
+  ],
+  "codenames": [
+    "HWRNE"
+  ]
 }

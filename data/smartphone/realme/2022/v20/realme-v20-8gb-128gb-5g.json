@@ -9,7 +9,8 @@
   "os": "Android 12, ColorOS 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v20",
   "variant": {
@@ -113,5 +114,12 @@
     "height_mm": 164.4,
     "width_mm": 75.1,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "RMX3610",
+    "RMX3611"
+  ],
+  "codenames": [
+    "RE584B"
+  ]
 }

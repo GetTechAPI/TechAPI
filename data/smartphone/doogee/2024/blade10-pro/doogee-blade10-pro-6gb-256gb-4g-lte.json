@@ -9,7 +9,8 @@
   "os": "Android 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "blade10-pro",
   "variant": {
@@ -102,5 +103,12 @@
     256
   ],
   "soc": "unisoc-t606",
-  "os_version": "14"
+  "os_version": "14",
+  "model_numbers": [
+    "Blade10 Pro",
+    "F10S"
+  ],
+  "codenames": [
+    "F1C"
+  ]
 }

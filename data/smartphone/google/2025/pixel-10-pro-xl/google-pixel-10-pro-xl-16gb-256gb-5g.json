@@ -9,7 +9,8 @@
   "os": "Android v16",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pixel-10-pro-xl",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v16"
   },
   "soc": "tensor-g5",
-  "os_version": "16"
+  "os_version": "16",
+  "model_numbers": [
+    "Pixel 10",
+    "Pixel 10 Pro XL"
+  ],
+  "codenames": [
+    "frankel",
+    "mustang"
+  ]
 }

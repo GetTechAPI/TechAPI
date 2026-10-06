@@ -9,7 +9,8 @@
   "os": "Android 11 (Go edition), HIOS 7.6",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "spark-8",
   "variant": {
@@ -112,5 +113,15 @@
     "height_mm": 164.8,
     "width_mm": 76.1,
     "depth_mm": 9.2
-  }
+  },
+  "model_numbers": [
+    "TECNO KG6",
+    "TECNO KG6k",
+    "TECNO Mobile KG6k"
+  ],
+  "codenames": [
+    "TECNO-KG6",
+    "TECNO-KG6k",
+    "TECNO-Mobile-KG6k"
+  ]
 }

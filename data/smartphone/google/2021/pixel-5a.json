@@ -7,7 +7,9 @@
   "release_date": "2021-08-26",
   "msrp_usd": 449,
   "ram_gb": 6,
-  "storage_options_gb": [128],
+  "storage_options_gb": [
+    128
+  ],
   "display": {
     "size_inch": 6.34,
     "resolution": "2400x1080",
@@ -17,23 +19,53 @@
     "ppi": 413
   },
   "cameras": [
-    {"type": "main", "mp": 12.2, "aperture": 1.7, "ois": true},
-    {"type": "ultrawide", "mp": 16, "aperture": 2.2, "ois": false},
-    {"type": "selfie", "mp": 8, "aperture": 2.0}
+    {
+      "type": "main",
+      "mp": 12.2,
+      "aperture": 1.7,
+      "ois": true
+    },
+    {
+      "type": "ultrawide",
+      "mp": 16,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 8,
+      "aperture": 2.0
+    }
   ],
   "battery_mah": 4680,
   "charging_wired_w": 18,
   "charging_wireless_w": 0,
   "weight_g": 183.0,
-  "dimensions": {"height_mm": 156.2, "width_mm": 73.2, "depth_mm": 8.8},
+  "dimensions": {
+    "height_mm": 156.2,
+    "width_mm": 73.2,
+    "depth_mm": 8.8
+  },
   "ip_rating": "IP67",
   "os": "Android",
   "os_version": "11",
-  "connectivity": {"wifi": "Wi-Fi 5", "bluetooth": "5.0", "nfc": true, "usb": "USB-C 2.0"},
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Pixel_5a",
-    "https://store.google.com/product/pixel_5a_specs"
+    "https://store.google.com/product/pixel_5a_specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "Pixel 5a"
+  ],
+  "codenames": [
+    "barbet"
   ]
 }

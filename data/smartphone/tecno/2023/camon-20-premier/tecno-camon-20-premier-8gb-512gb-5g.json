@@ -9,7 +9,8 @@
   "os": "Android 13, HIOS 13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "camon-20-premier",
   "variant": {
@@ -119,5 +120,11 @@
     "height_mm": 161.9,
     "width_mm": 74.3,
     "depth_mm": 8.2
-  }
+  },
+  "model_numbers": [
+    "TECNO CK9n"
+  ],
+  "codenames": [
+    "TECNO-CK9n"
+  ]
 }

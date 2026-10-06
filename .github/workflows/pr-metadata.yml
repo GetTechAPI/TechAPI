@@ -27,10 +27,7 @@ jobs:
             const repo = context.repo.repo;
             const issue_number = pr.number;
 
-            // TechEngineBot is left out while its GitHub account is suspended:
-            // assigning a suspended user 404s the whole call regardless of token.
-            // Re-add it here once the account is reinstated.
-            const assignees = [];
+            const assignees = ['TechEngineBot'];
             if (!pr.user?.type?.endsWith('Bot')) {
               assignees.push(pr.user.login);
             }

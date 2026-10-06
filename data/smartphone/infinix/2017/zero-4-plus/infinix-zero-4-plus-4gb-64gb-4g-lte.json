@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "zero-4-plus",
   "variant": {
@@ -107,5 +108,13 @@
     "height_mm": 160.5,
     "width_mm": 83.0,
     "depth_mm": 8.3
-  }
+  },
+  "model_numbers": [
+    "Infinix Zero 4",
+    "Infinix Zero 4 Plus"
+  ],
+  "codenames": [
+    "X555",
+    "X602"
+  ]
 }

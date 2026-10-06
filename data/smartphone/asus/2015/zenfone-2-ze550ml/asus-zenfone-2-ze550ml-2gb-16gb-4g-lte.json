@@ -9,7 +9,8 @@
   "os": "Android 5.0 (Lollipop), upgradable to 6.0 (Marshmallow), ZenUI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "zenfone-2-ze550ml",
   "variant": {
@@ -108,5 +109,13 @@
     "height_mm": 152.5,
     "width_mm": 77.2,
     "depth_mm": 10.9
-  }
+  },
+  "model_numbers": [
+    "ASUS ZenFone 2",
+    "ASUS ZenFone 2E",
+    "Z00D"
+  ],
+  "codenames": [
+    "ASUS_Z00D"
+  ]
 }

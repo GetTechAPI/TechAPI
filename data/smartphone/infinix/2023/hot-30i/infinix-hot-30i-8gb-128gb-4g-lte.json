@@ -9,7 +9,8 @@
   "os": "Android 12, XOS 10.6",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "hot-30i",
   "variant": {
@@ -111,5 +112,15 @@
     "height_mm": 164.0,
     "width_mm": 75.8,
     "depth_mm": 8.4
-  }
+  },
+  "model_numbers": [
+    "Infinix X669",
+    "Infinix X669C",
+    "Infinix X669D"
+  ],
+  "codenames": [
+    "Infinix-X669",
+    "Infinix-X669C",
+    "Infinix-X669D"
+  ]
 }

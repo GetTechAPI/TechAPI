@@ -10,7 +10,8 @@
   "os": "Android 3.0, upgradable to 4.0 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -43,5 +44,11 @@
     "bluetooth": "2.1, A2DP, EDR",
     "gps": "Yes"
   },
-  "os_version": "3.0"
+  "os_version": "3.0",
+  "model_numbers": [
+    "A500"
+  ],
+  "codenames": [
+    "picasso"
+  ]
 }

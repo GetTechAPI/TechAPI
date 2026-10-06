@@ -10,7 +10,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
-    "https://en.wikipedia.org/wiki/Razer_Phone"
+    "https://en.wikipedia.org/wiki/Razer_Phone",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "phone",
   "variant": {
@@ -167,5 +168,12 @@
     "Technical.OS": "Android v7.1.1 (Nougat)"
   },
   "soc": "snapdragon-835",
-  "os_version": "7.1.1"
+  "os_version": "7.1.1",
+  "model_numbers": [
+    "Phone"
+  ],
+  "codenames": [
+    "cheryl",
+    "cheryl_ckh"
+  ]
 }

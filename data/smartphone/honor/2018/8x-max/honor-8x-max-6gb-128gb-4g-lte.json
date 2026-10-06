@@ -9,7 +9,8 @@
   "os": "Android 8.1 (Oreo), upgradable to Android 9 (Pie), EMUI 9",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "8x-max",
   "variant": {
@@ -111,5 +112,11 @@
     "height_mm": 177.6,
     "width_mm": 86.3,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "ARE-L22HN"
+  ],
+  "codenames": [
+    "HWARE-QC"
+  ]
 }

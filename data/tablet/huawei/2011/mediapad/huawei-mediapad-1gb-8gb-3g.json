@@ -9,7 +9,8 @@
   "os": "Android 3.2 (Honeycomb), upgradable to 4.0 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mediapad",
   "variant": {
@@ -112,5 +113,13 @@
     "height_mm": 190.0,
     "width_mm": 124.0,
     "depth_mm": 10.5
-  }
+  },
+  "model_numbers": [
+    "HUAWEI MediaPad"
+  ],
+  "codenames": [
+    "hws7300c",
+    "hws7300u",
+    "hws7300w"
+  ]
 }

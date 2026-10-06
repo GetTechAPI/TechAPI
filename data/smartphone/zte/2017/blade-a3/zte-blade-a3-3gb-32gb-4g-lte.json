@@ -9,7 +9,8 @@
   "os": "Android 7.1 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "blade-a3",
   "variant": {
@@ -108,5 +109,17 @@
     "height_mm": 152.4,
     "width_mm": 75.8,
     "depth_mm": 8.2
-  }
+  },
+  "model_numbers": [
+    "Blade A3 2019",
+    "Blade A3 2019-T",
+    "P500",
+    "ZTE Blade A3 2019",
+    "ZTE Blade A3 Lite"
+  ],
+  "codenames": [
+    "P932F20",
+    "P932K20",
+    "Z3051T"
+  ]
 }

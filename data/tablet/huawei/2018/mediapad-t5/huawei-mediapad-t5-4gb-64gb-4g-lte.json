@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), EMUI 8",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mediapad-t5",
   "variant": {
@@ -108,5 +109,14 @@
     "height_mm": 243.0,
     "width_mm": 164.0,
     "depth_mm": 7.8
-  }
+  },
+  "model_numbers": [
+    "AGS2-L03",
+    "AGS2-L09",
+    "AGS2-W09",
+    "AGS2-W19"
+  ],
+  "codenames": [
+    "HWAGS2"
+  ]
 }

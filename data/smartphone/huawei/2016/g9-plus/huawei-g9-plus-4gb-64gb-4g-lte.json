@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow), EMUI 4.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g9-plus",
   "variant": {
@@ -110,5 +111,15 @@
     "height_mm": 151.8,
     "width_mm": 75.7,
     "depth_mm": 7.3
-  }
+  },
+  "model_numbers": [
+    "HUAWEI MLA-TL00",
+    "HUAWEI MLA-TL10",
+    "HUAWEI MLA-UL00",
+    "MLA-TL00",
+    "MLA-UL00"
+  ],
+  "codenames": [
+    "HWMLA"
+  ]
 }

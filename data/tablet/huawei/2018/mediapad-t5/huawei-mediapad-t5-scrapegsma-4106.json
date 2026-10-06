@@ -10,7 +10,8 @@
   "os": "Android 8.0 (Oreo); EMUI 8",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -52,5 +53,14 @@
     "bluetooth": "4.2, A2DP, LE",
     "gps": "Yes, with A-GPS (LTE model), GLONASS, BDS"
   },
-  "os_version": "8.0"
+  "os_version": "8.0",
+  "model_numbers": [
+    "AGS2-L03",
+    "AGS2-L09",
+    "AGS2-W09",
+    "AGS2-W19"
+  ],
+  "codenames": [
+    "HWAGS2"
+  ]
 }

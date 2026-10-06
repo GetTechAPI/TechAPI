@@ -12,7 +12,8 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
     "https://github.com/sarangzambare/smartdevices_pricing",
-    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     32,
@@ -115,5 +116,15 @@
         "bluetooth": "4.2, A2DP, LE"
       }
     }
+  ],
+  "model_numbers": [
+    "BAH2-L09",
+    "BAH2-W19",
+    "JDN2-L09",
+    "JDN2-W09"
+  ],
+  "codenames": [
+    "HWBAH2",
+    "HWJDN2"
   ]
 }

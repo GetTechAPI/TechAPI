@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+from collections.abc import Iterator
 from pathlib import Path
 from typing import Any
 
@@ -34,6 +35,9 @@ BRAND_CATEGORIES = {
     "defunct",
 }
 COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
+# Media links may only point at free Wikimedia Commons files (ADR-017), never third-party hotlinks.
+COMMONS_UPLOAD_RE = re.compile(r"https://upload\.wikimedia\.org/wikipedia/commons/\S+")
+COMMONS_FILEPATH_RE = re.compile(r"https://commons\.wikimedia\.org/wiki/Special:FilePath/\S+")
 SOC_REQUIRED = {"slug", "name", "manufacturer", "release_date", "process_nm", "gpu_name"}
 PHONE_REQUIRED = {
     "slug",
@@ -242,6 +246,40 @@ def _check_storage_options_gb(name: str, record: dict[str, Any], errors: list[st
         errors.append(f"{name}: storage_options_gb contains invalid integer GB values {bad}")
 
 
+def _image_urls(value: Any) -> Iterator[Any]:
+    """Every ``image_url`` at any depth; ``raw_merged_records`` keep merged-in copies."""
+    if isinstance(value, dict):
+        for key, item in value.items():
+            if key == "image_url":
+                yield item
+            else:
+                yield from _image_urls(item)
+    elif isinstance(value, list):
+        for item in value:
+            yield from _image_urls(item)
+
+
+def _check_media(name: str, record: dict[str, Any], errors: list[str]) -> None:
+    """Photos and logos may only link Wikimedia Commons files; photos carry their credit."""
+    if any(
+        url is not None and not (isinstance(url, str) and COMMONS_UPLOAD_RE.fullmatch(url))
+        for url in _image_urls(record)
+    ):
+        errors.append(
+            f"{name}: image_url must be an upload.wikimedia.org/wikipedia/commons file or null"
+        )
+    elif record.get("image_url") is not None and not (
+        record.get("image_license") and record.get("image_attribution")
+    ):
+        errors.append(f"{name}: image_url needs image_license and image_attribution")
+    logo = record.get("logo_url")
+    if logo is not None and not (
+        isinstance(logo, str)
+        and (COMMONS_UPLOAD_RE.fullmatch(logo) or COMMONS_FILEPATH_RE.fullmatch(logo))
+    ):
+        errors.append(f"{name}: logo_url must be a Wikimedia Commons file or null")
+
+
 def _check_variant_path(
     fname: str,
     rec: dict[str, Any],
@@ -316,6 +354,8 @@ def validate() -> list[str]:
         ("device_catalog", catalog),
     ):
         _check_unique_slugs(category, records, errors)
+        for fname, rec in records:
+            _check_media(fname, rec, errors)
 
     for fname, rec in brands:
         _check_required(fname, rec, BRAND_REQUIRED, errors)

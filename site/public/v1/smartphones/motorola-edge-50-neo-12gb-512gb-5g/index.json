@@ -24,7 +24,26 @@
     "url": "/v1/socs/dimensity-7300"
   },
   "release_date": "2024-08-28",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "moto g86 5G",
+    "moto g86 power 5G",
+    "motorola edge 2025",
+    "motorola edge 50",
+    "motorola edge 50 neo",
+    "motorola edge 60",
+    "motorola edge 60 fusion",
+    "motorola edge 60 neo",
+    "motorola razr 40"
+  ],
+  "codenames": [
+    "nice",
+    "oulu",
+    "scout",
+    "tank",
+    "vienna"
+  ],
   "ram_gb": 12,
   "storage_options_gb": [
     256,
@@ -81,7 +100,7 @@
     "value": null,
     "perf": {
       "index": 51.8,
-      "percentile": 46.3,
+      "percentile": 46.6,
       "tier": "C",
       "era": "2024-2026",
       "source": "geekbench"
@@ -89,8 +108,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-20T22:03:58",
-  "updated_at": "2026-07-09T13:49:23"
+  "created_at": "2026-06-20T13:03:58Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

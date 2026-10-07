@@ -9,7 +9,8 @@
   "os": "Android 10, upgradable to Android 13, One UI 5.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-s7",
   "variant": {
@@ -119,5 +120,15 @@
     "height_mm": 285.0,
     "width_mm": 185.0,
     "depth_mm": 5.7
-  }
+  },
+  "model_numbers": [
+    "SM-T870",
+    "SM-T875",
+    "SM-T875N",
+    "SM-T878U"
+  ],
+  "codenames": [
+    "gts7l",
+    "gts7lwifi"
+  ]
 }

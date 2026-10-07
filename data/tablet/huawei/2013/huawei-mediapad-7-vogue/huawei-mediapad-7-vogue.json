@@ -5,12 +5,14 @@
   "soc": "hisilicon-k3v2-hi3620",
   "release_date": "2013-07-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": 4100,
   "weight_g": 355.0,
   "os": "Android",
   "verified": true,
   "source_urls": [
-    "https://phonedb.net/index.php?m=device&id=4694"
+    "https://phonedb.net/index.php?m=device&id=4694",
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     8
@@ -30,5 +32,25 @@
       "ram_gb": 1,
       "storage_gb": 8
     }
-  }
+  },
+  "model_numbers": [
+    "MediaPad 7 Classic",
+    "MediaPad 7 Lite II",
+    "MediaPad 7 Lite+",
+    "MediaPad 7 Vogue",
+    "MediaPad 7 Youth",
+    "Orinoquia Roraima S7-932u",
+    "S7",
+    "Telpad Dual S"
+  ],
+  "codenames": [
+    "hws7601c",
+    "hws7601u",
+    "hws7601us",
+    "hws7601w",
+    "hws7701u",
+    "hws7930u",
+    "hws7951w",
+    "qsd8k_s7"
+  ]
 }

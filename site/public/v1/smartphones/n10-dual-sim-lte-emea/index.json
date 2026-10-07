@@ -2,7 +2,7 @@
   "id": 100429626062971,
   "slug": "n10-dual-sim-lte-emea",
   "base_model_slug": "n10-dual-sim-lte-emea",
-  "name": "N10 Dual SIM LTE EMEA",
+  "name": "Doogee N10 Dual SIM LTE EMEA",
   "brand": {
     "id": 54414576304783,
     "slug": "doogee",
@@ -24,7 +24,15 @@
     "url": "/v1/socs/unisoc-sc9863a"
   },
   "release_date": "2019-04-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "N10",
+    "N10_EEA"
+  ],
+  "codenames": [
+    "Y7"
+  ],
   "ram_gb": 3,
   "storage_options_gb": [
     32
@@ -80,10 +88,12 @@
       "source": null
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://phonedb.net/index.php?m=device&id=16435",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:09:59"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

@@ -24,7 +24,28 @@
     "url": "/v1/socs/snapdragon-845"
   },
   "release_date": "2018-08-24",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "SC-01L",
+    "SCV40",
+    "SM-N9600",
+    "SM-N960F",
+    "SM-N960N",
+    "SM-N960U",
+    "SM-N960U1",
+    "SM-N960W"
+  ],
+  "codenames": [
+    "SC-01L",
+    "SCV40",
+    "crownlte",
+    "crownlteks",
+    "crownqltechn",
+    "crownqltecs",
+    "crownqltesq",
+    "crownqlteue"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     128
@@ -74,7 +95,7 @@
     "value": null,
     "perf": {
       "index": 39.0,
-      "percentile": 46.6,
+      "percentile": 47.0,
       "tier": "C",
       "era": "2017-2019",
       "source": "geekbench"
@@ -82,8 +103,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:33:40"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

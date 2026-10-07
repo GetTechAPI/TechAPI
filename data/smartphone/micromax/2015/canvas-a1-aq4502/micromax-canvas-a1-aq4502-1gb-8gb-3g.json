@@ -9,7 +9,8 @@
   "os": "Android 5.1 (Lollipop), Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "canvas-a1-aq4502",
   "variant": {
@@ -108,5 +109,13 @@
     "height_mm": 132.0,
     "width_mm": 67.0,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "Micromax AQ4501",
+    "Micromax AQ4502"
+  ],
+  "codenames": [
+    "AQ4501_sprout",
+    "AQ4502_sprout"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie), Sense UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "u12",
   "variant": {
@@ -122,5 +123,19 @@
     "height_mm": 156.6,
     "width_mm": 73.9,
     "depth_mm": 8.7
-  }
+  },
+  "model_numbers": [
+    "HTC 2Q551",
+    "HTC 2Q551+",
+    "HTC 2Q55100",
+    "HTC 2Q552",
+    "HTC 2Q55300",
+    "HTC U12+"
+  ],
+  "codenames": [
+    "htc_imedtwl",
+    "htc_imedugl",
+    "htc_imeuhl",
+    "htc_imeuhljp"
+  ]
 }

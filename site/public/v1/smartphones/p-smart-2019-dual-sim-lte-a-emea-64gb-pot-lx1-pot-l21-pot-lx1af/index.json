@@ -24,7 +24,16 @@
     "url": "/v1/socs/kirin-710"
   },
   "release_date": "2019-01-02",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "POT-LX1",
+    "POT-LX1AF",
+    "POT-LX3"
+  ],
+  "codenames": [
+    "HWPOT-H"
+  ],
   "ram_gb": 3,
   "storage_options_gb": [
     64
@@ -74,7 +83,7 @@
     "value": null,
     "perf": {
       "index": 21.9,
-      "percentile": 22.8,
+      "percentile": 22.6,
       "tier": "D",
       "era": "2017-2019",
       "source": "geekbench"
@@ -82,8 +91,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:14:52"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

@@ -24,7 +24,22 @@
     "url": "/v1/socs/snapdragon-845"
   },
   "release_date": "2018-07-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "HTC 2Q551",
+    "HTC 2Q551+",
+    "HTC 2Q55100",
+    "HTC 2Q552",
+    "HTC 2Q55300",
+    "HTC U12+"
+  ],
+  "codenames": [
+    "htc_imedtwl",
+    "htc_imedugl",
+    "htc_imeuhl",
+    "htc_imeuhljp"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     128
@@ -74,7 +89,7 @@
     "value": null,
     "perf": {
       "index": 39.0,
-      "percentile": 46.6,
+      "percentile": 47.0,
       "tier": "C",
       "era": "2017-2019",
       "source": "geekbench"
@@ -82,8 +97,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:13:58"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

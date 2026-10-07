@@ -24,7 +24,19 @@
     "url": "/v1/socs/snapdragon-855-plus"
   },
   "release_date": "2019-09-29",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "HD1900",
+    "HD1901",
+    "HD1903",
+    "HD1905",
+    "HD1907"
+  ],
+  "codenames": [
+    "OnePlus7T",
+    "OnePlus7TTMO"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     128
@@ -75,7 +87,7 @@
     "value": null,
     "perf": {
       "index": 48.6,
-      "percentile": 64.0,
+      "percentile": 64.3,
       "tier": "B",
       "era": "2017-2019",
       "source": "geekbench"
@@ -83,8 +95,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:26:12"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

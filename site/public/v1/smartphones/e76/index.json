@@ -2,7 +2,7 @@
   "id": 221144926940468,
   "slug": "e76",
   "base_model_slug": "e76",
-  "name": "E76",
+  "name": "Amoi E76",
   "brand": {
     "id": 25885311663531,
     "slug": "amoi",
@@ -11,20 +11,23 @@
     "url": "/v1/brands/amoi"
   },
   "soc": {
-    "id": 49794753561106,
-    "slug": "amoi-mobile-platform-2007",
-    "name": "Amoi mobile platform 2007",
+    "id": 128880903258186,
+    "slug": "texas-instruments-omap-1710",
+    "name": "Texas Instruments OMAP 1710",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "url": "/v1/brands/texas-instruments"
     },
     "process_nm": 90.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/amoi-mobile-platform-2007"
+    "gpu_name": "N/A",
+    "url": "/v1/socs/texas-instruments-omap-1710"
   },
   "release_date": "2007-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 1,
   "storage_options_gb": [],
   "variant": {},
@@ -43,7 +46,7 @@
   "battery_mah": 1100,
   "charging_wired_w": null,
   "charging_wireless_w": null,
-  "weight_g": 150.0,
+  "weight_g": 95.0,
   "dimensions": {},
   "ip_rating": null,
   "os": "Windows Mobile",
@@ -75,8 +78,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=795"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:04:45"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-09-29T12:47:25Z"
 }

@@ -24,7 +24,15 @@
     "url": "/v1/socs/snapdragon-870"
   },
   "release_date": "2021-10-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "motorola edge 20",
+    "motorola edge plus"
+  ],
+  "codenames": [
+    "berlin"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     128
@@ -76,7 +84,7 @@
     "value": null,
     "perf": {
       "index": 56.4,
-      "percentile": 76.9,
+      "percentile": 76.8,
       "tier": "B",
       "era": "2020-2021",
       "source": "geekbench"
@@ -84,8 +92,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-20T22:34:58",
-  "updated_at": "2026-07-09T11:11:18"
+  "created_at": "2026-06-20T13:34:58Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

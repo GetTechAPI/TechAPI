@@ -9,7 +9,8 @@
   "os": "Android 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "armor-27t-pro",
   "variant": {
@@ -110,5 +111,13 @@
     "height_mm": 182.8,
     "width_mm": 86.8,
     "depth_mm": 18.5
-  }
+  },
+  "model_numbers": [
+    "Armor 27T",
+    "Armor 27T Pro"
+  ],
+  "codenames": [
+    "GQ5008AF2",
+    "GQ5008TF1"
+  ]
 }

@@ -1,4 +1,7 @@
 {
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Google_Pixel_Watch_-_1.jpg",
+  "image_license": "CC-BY-SA-4.0",
+  "image_attribution": "KKPCW（Kyu3）",
   "slug": "google-pixel-watch-2gb-32gb-4g-lte",
   "name": "Google Pixel Watch",
   "brand": "google",
@@ -10,7 +13,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
-    "https://en.wikipedia.org/wiki/Pixel_Watch"
+    "https://en.wikipedia.org/wiki/Pixel_Watch",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pixel-watch",
   "variant": {
@@ -97,5 +101,12 @@
     32
   ],
   "soc": "exynos-9110",
-  "os_version": "3.5"
+  "os_version": "3.5",
+  "model_numbers": [
+    "Google Pixel Watch"
+  ],
+  "codenames": [
+    "r11",
+    "r11btwifi"
+  ]
 }

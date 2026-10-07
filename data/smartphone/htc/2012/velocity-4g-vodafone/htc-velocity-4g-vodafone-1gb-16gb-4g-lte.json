@@ -9,7 +9,8 @@
   "os": "Android 2.3, Sense UI 3.5",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "velocity-4g-vodafone",
   "variant": {
@@ -107,5 +108,15 @@
     "height_mm": 128.8,
     "width_mm": 67.0,
     "depth_mm": 11.3
-  }
+  },
+  "model_numbers": [
+    "HTC PH39100",
+    "HTC Raider X710e",
+    "HTC Velocity 4G",
+    "HTC Velocity 4G X710s",
+    "HTC-X710a"
+  ],
+  "codenames": [
+    "holiday"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 11, TCL UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "30-xe-5g",
   "variant": {
@@ -112,5 +113,14 @@
     "height_mm": 164.1,
     "width_mm": 74.9,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "T767G",
+    "T767W"
+  ],
+  "codenames": [
+    "Buffalo_Boost",
+    "Buffalo_CAN",
+    "Buffalo_TMO"
+  ]
 }

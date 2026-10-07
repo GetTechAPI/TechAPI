@@ -9,7 +9,8 @@
   "os": "Android 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "s23",
   "variant": {
@@ -111,5 +112,13 @@
     "height_mm": 164.0,
     "width_mm": 76.0,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "itel S665L",
+    "itel S665LN"
+  ],
+  "codenames": [
+    "itel-S665L",
+    "itel-S665LN"
+  ]
 }

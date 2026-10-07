@@ -9,7 +9,8 @@
   "os": "Android 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-9",
   "variant": {
@@ -108,5 +109,14 @@
     "height_mm": 243.7,
     "width_mm": 162.5,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "Tab 9",
+    "Tab9"
+  ],
+  "codenames": [
+    "Tab9_EEA",
+    "Tab9_NEU",
+    "Tab9_RU"
+  ]
 }

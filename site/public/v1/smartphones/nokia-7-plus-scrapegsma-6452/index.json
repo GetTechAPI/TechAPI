@@ -24,7 +24,15 @@
     "url": "/v1/socs/snapdragon-660"
   },
   "release_date": "2018-02-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "Nokia 7 plus"
+  ],
+  "codenames": [
+    "B2N",
+    "B2N_sprout"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -73,7 +81,7 @@
     "value": null,
     "perf": {
       "index": 54.8,
-      "percentile": 74.1,
+      "percentile": 74.3,
       "tier": "B",
       "era": "2017-2019",
       "source": "geekbench"
@@ -81,8 +89,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-07-01T12:16:36",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-07-01T03:16:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

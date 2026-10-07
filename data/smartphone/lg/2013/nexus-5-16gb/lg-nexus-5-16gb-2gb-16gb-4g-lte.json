@@ -9,7 +9,8 @@
   "os": "Android v4.4 (KitKat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "nexus-5-16gb",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v4.4 (KitKat)"
   },
   "soc": "qualcomm-snapdragon-800",
-  "os_version": "4.4"
+  "os_version": "4.4",
+  "model_numbers": [
+    "Nexus 5"
+  ],
+  "codenames": [
+    "hammerhead"
+  ]
 }

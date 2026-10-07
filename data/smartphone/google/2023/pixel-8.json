@@ -7,7 +7,10 @@
   "release_date": "2023-10-12",
   "msrp_usd": 699,
   "ram_gb": 8,
-  "storage_options_gb": [128, 256],
+  "storage_options_gb": [
+    128,
+    256
+  ],
   "display": {
     "size_inch": 6.2,
     "resolution": "2400x1080",
@@ -17,23 +20,54 @@
     "ppi": 428
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.68, "ois": true, "sensor": "Samsung GN2"},
-    {"type": "ultrawide", "mp": 12, "aperture": 2.2, "ois": false},
-    {"type": "selfie", "mp": 10.5, "aperture": 2.2}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.68,
+      "ois": true,
+      "sensor": "Samsung GN2"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 10.5,
+      "aperture": 2.2
+    }
   ],
   "battery_mah": 4575,
   "charging_wired_w": 27,
   "charging_wireless_w": 18,
   "weight_g": 187.0,
-  "dimensions": {"height_mm": 150.5, "width_mm": 70.8, "depth_mm": 8.9},
+  "dimensions": {
+    "height_mm": 150.5,
+    "width_mm": 70.8,
+    "depth_mm": 8.9
+  },
   "ip_rating": "IP68",
   "os": "Android",
   "os_version": "14",
-  "connectivity": {"wifi": "Wi-Fi 7", "bluetooth": "5.3", "nfc": true, "usb": "USB-C 3.2"},
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_8_specs",
-    "https://en.wikipedia.org/wiki/Pixel_8"
+    "https://en.wikipedia.org/wiki/Pixel_8",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "Pixel 8"
+  ],
+  "codenames": [
+    "shiba"
   ]
 }

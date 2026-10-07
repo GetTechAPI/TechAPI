@@ -24,7 +24,17 @@
     "url": "/v1/socs/kirin-960"
   },
   "release_date": "2016-11-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "MHA-AL00",
+    "MHA-L09",
+    "MHA-L29",
+    "MHA-TL00"
+  ],
+  "codenames": [
+    "HWMHA"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -73,7 +83,7 @@
     "value": null,
     "perf": {
       "index": 28.1,
-      "percentile": 10.4,
+      "percentile": 10.5,
       "tier": "E",
       "era": "2014-2016",
       "source": "geekbench"
@@ -81,8 +91,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-07-01T12:16:36",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-07-01T03:16:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

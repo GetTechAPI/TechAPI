@@ -8,9 +8,11 @@
   "battery_mah": 425,
   "weight_g": 33.3,
   "os": "Android Wear OS 4, up to 5.0, One UI Watch 6",
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://aitoolbuzz.com/mobiles/samsung-galaxy-watch6"
+    "https://aitoolbuzz.com/mobiles/samsung-galaxy-watch6",
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_6",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -29,10 +31,9 @@
     "source_url": "https://aitoolbuzz.com/mobiles/samsung-galaxy-watch6"
   },
   "storage_options_gb": [
-    2,
     16
   ],
-  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/samsung-galaxy-watch6.jpg",
+  "image_url": null,
   "display": {
     "size": "1.5\"",
     "resolution": "480x480 pixels",
@@ -50,5 +51,22 @@
     "nfc": "Yes",
     "usb": "No"
   },
-  "os_version": "4"
+  "os_version": "4",
+  "model_numbers": [
+    "SM-R930",
+    "SM-R935F",
+    "SM-R935N",
+    "SM-R935U",
+    "SM-R940",
+    "SM-R9450",
+    "SM-R945F",
+    "SM-R945N",
+    "SM-R945U"
+  ],
+  "codenames": [
+    "fresh6bl",
+    "fresh6bs",
+    "fresh6ul",
+    "fresh6us"
+  ]
 }

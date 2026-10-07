@@ -24,7 +24,15 @@
     "url": "/v1/socs/helio-p35"
   },
   "release_date": "2019-07-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "2Q74100",
+    "HTC Desire 19+"
+  ],
+  "codenames": [
+    "htc_bre2pdugl"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     64,
@@ -79,7 +87,7 @@
     "value": null,
     "perf": {
       "index": 10.4,
-      "percentile": 6.7,
+      "percentile": 6.6,
       "tier": "E",
       "era": "2017-2019",
       "source": "geekbench"
@@ -87,8 +95,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-18T17:42:19",
-  "updated_at": "2026-09-25T07:13:58"
+  "created_at": "2026-06-18T08:42:19Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

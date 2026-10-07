@@ -24,7 +24,15 @@
     "url": "/v1/socs/unisoc-t606"
   },
   "release_date": "2022-04-26",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "Nokia G11"
+  ],
+  "codenames": [
+    "SCTA_sprout",
+    "SCT_sprout"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     32,
@@ -81,7 +89,7 @@
     "value": null,
     "perf": {
       "index": 20.6,
-      "percentile": 9.5,
+      "percentile": 9.6,
       "tier": "E",
       "era": "2022-2023",
       "source": "geekbench"
@@ -89,8 +97,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-21T05:07:39",
-  "updated_at": "2026-07-09T11:11:18"
+  "created_at": "2026-06-20T20:07:39Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

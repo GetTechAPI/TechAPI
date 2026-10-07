@@ -24,7 +24,14 @@
     "url": "/v1/socs/kirin-710f"
   },
   "release_date": "2019-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "MAR-LX1R"
+  ],
+  "codenames": [
+    "HWMAR"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     4,
@@ -79,7 +86,7 @@
     "value": null,
     "perf": {
       "index": 26.2,
-      "percentile": 34.7,
+      "percentile": 35.2,
       "tier": "D",
       "era": "2017-2019",
       "source": "geekbench"
@@ -87,8 +94,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:13:18"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

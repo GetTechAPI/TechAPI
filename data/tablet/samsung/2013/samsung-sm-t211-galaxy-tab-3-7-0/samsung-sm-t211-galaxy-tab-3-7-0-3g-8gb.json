@@ -5,12 +5,13 @@
   "soc": "marvell-pxa986",
   "release_date": "2013-06-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": null,
   "weight_g": 306.0,
   "os": "Android",
   "verified": true,
   "source_urls": [
-    "https://phonedb.net/index.php?m=device&id=4478"
+    "https://phonedb.net/index.php?m=device&id=4478",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     8
@@ -36,5 +37,27 @@
     "network": {
       "cellular": "3G"
     }
-  }
+  },
+  "model_numbers": [
+    "SAMSUNG-SM-T217A",
+    "SM-T210",
+    "SM-T210L",
+    "SM-T210R",
+    "SM-T211",
+    "SM-T211M",
+    "SM-T212",
+    "SM-T215",
+    "SM-T217S",
+    "SM-T217T"
+  ],
+  "codenames": [
+    "lt023g",
+    "lt023gdtv",
+    "lt02lte",
+    "lt02lteatt",
+    "lt02ltespr",
+    "lt02ltetmo",
+    "lt02wifi",
+    "lt02wifilgt"
+  ]
 }

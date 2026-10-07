@@ -24,7 +24,18 @@
     "url": "/v1/socs/helio-g99"
   },
   "release_date": "2024-01-01",
+  "release_date_precision": null,
   "msrp_usd": 349,
+  "model_numbers": [
+    "TECNO CK6",
+    "TECNO CK6n",
+    "TECNO CK6ns"
+  ],
+  "codenames": [
+    "TECNO-CK6",
+    "TECNO-CK6n",
+    "TECNO-CK6ns"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     128
@@ -76,7 +87,7 @@
     "value": 63.4,
     "perf": {
       "index": 44.0,
-      "percentile": 32.3,
+      "percentile": 32.5,
       "tier": "D",
       "era": "2024-2026",
       "source": "geekbench"
@@ -84,8 +95,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-18T16:46:36",
-  "updated_at": "2026-09-25T07:38:55"
+  "created_at": "2026-06-18T07:46:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

@@ -24,7 +24,18 @@
     "url": "/v1/socs/qualcomm-snapdragon-680-sm6225"
   },
   "release_date": "2022-03-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "220333QAG",
+    "220333QL",
+    "220333QNY"
+  ],
+  "codenames": [
+    "fog",
+    "rain",
+    "wind"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -91,8 +102,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-21T03:51:21",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-06-20T18:51:21Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

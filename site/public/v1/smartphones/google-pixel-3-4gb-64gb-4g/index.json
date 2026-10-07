@@ -11,20 +11,23 @@
     "url": "/v1/brands/google"
   },
   "soc": {
-    "id": 263503568479194,
-    "slug": "qualcomm-snapdragon",
-    "name": "Qualcomm Snapdragon",
+    "id": 97317797353265,
+    "slug": "snapdragon-845",
+    "name": "Snapdragon 845",
     "manufacturer": {
       "slug": "qualcomm",
       "name": "Qualcomm",
       "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/qualcomm-snapdragon"
+    "process_nm": 10.0,
+    "gpu_name": "Adreno 630",
+    "url": "/v1/socs/snapdragon-845"
   },
   "release_date": "2018-11-06",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -71,7 +74,7 @@
     "usb": "USB Type-C 2.0",
     "gps": "Yes with A-GPS, Glonass"
   },
-  "image_url": "https://www.mobiledokan.com/media/google-pixel-3-clearly-white-official-image.webp",
+  "image_url": null,
   "images": [],
   "image_license": null,
   "image_attribution": null,
@@ -79,26 +82,27 @@
   "body": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 26.0,
-    "performance": null,
+    "overall": 32.9,
+    "performance": 37.7,
     "camera": null,
-    "battery": 16.4,
+    "battery": 24.7,
     "display": 33.7,
     "value": null,
     "perf": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 37.7,
+      "percentile": 42.7,
+      "tier": "C",
       "era": "2017-2019",
-      "source": null
+      "source": "geekbench"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
     "https://www.mobiledokan.com/mobile/google-pixel-3",
-    "https://en.wikipedia.org/wiki/Google_Pixel_3"
+    "https://en.wikipedia.org/wiki/Google_Pixel_3",
+    "https://en.wikipedia.org/wiki/Pixel_3"
   ],
-  "created_at": "2026-06-20T21:34:07",
-  "updated_at": "2026-09-23T22:24:43"
+  "created_at": "2026-06-20T12:34:07Z",
+  "updated_at": "2026-10-07T09:06:14Z"
 }

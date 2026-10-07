@@ -2,7 +2,7 @@
   "id": 236919881958758,
   "slug": "edge-50-ultra",
   "base_model_slug": "edge-50-ultra",
-  "name": "Edge 50 Ultra",
+  "name": "Motorola Edge 50 Ultra",
   "brand": {
     "id": 220063225842437,
     "slug": "motorola",
@@ -11,20 +11,41 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 11955307533809,
-    "slug": "snapdragon-8-gen-3",
-    "name": "Snapdragon 8 Gen 3",
+    "id": 83768094274904,
+    "slug": "snapdragon-8s-gen-3",
+    "name": "Snapdragon 8s Gen 3",
     "manufacturer": {
       "slug": "qualcomm",
       "name": "Qualcomm",
       "url": "/v1/brands/qualcomm"
     },
     "process_nm": 4.0,
-    "gpu_name": "Adreno 750",
-    "url": "/v1/socs/snapdragon-8-gen-3"
+    "gpu_name": "Adreno 735",
+    "url": "/v1/socs/snapdragon-8s-gen-3"
   },
-  "release_date": "2024-01-01",
+  "release_date": "2024-05-23",
+  "release_date_precision": null,
   "msrp_usd": 1499,
+  "model_numbers": [
+    "motorola edge 40 pro",
+    "motorola edge 50",
+    "motorola edge 50 ultra",
+    "motorola edge 70",
+    "motorola edge 70 fusion",
+    "motorola edge 70 fusion plus",
+    "motorola razr 40",
+    "motorola razr fold",
+    "motorola razr fold 2026",
+    "motorola signature"
+  ],
+  "codenames": [
+    "blanc",
+    "ctwo",
+    "marvel",
+    "roadstr",
+    "tank",
+    "vantage"
+  ],
   "ram_gb": 12,
   "storage_options_gb": [
     512
@@ -68,15 +89,15 @@
   "body": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 68.9,
-    "performance": 80.8,
+    "overall": 67.4,
+    "performance": 77.2,
     "camera": 65.0,
     "battery": 55.8,
     "display": null,
-    "value": 38.1,
+    "value": 37.3,
     "perf": {
-      "index": 80.8,
-      "percentile": 79.8,
+      "index": 77.2,
+      "percentile": 75.4,
       "tier": "B",
       "era": "2024-2026",
       "source": "geekbench"
@@ -84,8 +105,12 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025",
+    "https://www.motorola.com/us/smartphones/edge-50-ultra",
+    "https://en.wikipedia.org/wiki/Motorola_Edge_50_Ultra",
+    "https://www.gsmarena.com/motorola_edge_50_ultra-12919.php",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-18T16:46:36",
-  "updated_at": "2026-09-25T07:23:31"
+  "created_at": "2026-06-18T07:46:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

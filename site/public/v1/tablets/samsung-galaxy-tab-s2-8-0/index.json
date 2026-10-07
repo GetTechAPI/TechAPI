@@ -24,9 +24,27 @@
     "url": "/v1/socs/exynos-5433-t710"
   },
   "release_date": "2015-07-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "SM-T710",
+    "SM-T710X",
+    "SM-T713",
+    "SM-T715C",
+    "SM-T715N0",
+    "SM-T715Y"
+  ],
+  "codenames": [
+    "gts28lte",
+    "gts28ltechn",
+    "gts28ltekx",
+    "gts28vewifi",
+    "gts28wifi",
+    "gts28wifichn"
+  ],
   "ram_gb": 3.0,
   "storage_options_gb": [
+    32,
     64
   ],
   "variant": {
@@ -44,6 +62,14 @@
     {
       "type": "main",
       "raw": "8 MP| autofocus"
+    },
+    {
+      "type": "main",
+      "mp": 8.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.1
     }
   ],
   "battery_mah": 4000,
@@ -60,15 +86,18 @@
     "bluetooth": "4.1| A2DP| LE",
     "wlan": "Wi-Fi 802.11 a/b/g/n/ac| dual-band| Wi-Fi Direct| hotspot",
     "usb": "microUSB 2.0 (MHL TV-out)",
-    "gps": "Yes with A-GPS GLONASS"
+    "gps": "Yes with A-GPS GLONASS",
+    "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
   },
-  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s2-80r1.jpg",
+  "image_url": null,
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-20T20:59:10",
-  "updated_at": "2026-07-09T13:04:36",
+  "created_at": "2026-06-20T11:59:10Z",
+  "updated_at": "2026-10-07T09:06:14Z",
   "url": "/v1/tablets/samsung-galaxy-tab-s2-8-0"
 }

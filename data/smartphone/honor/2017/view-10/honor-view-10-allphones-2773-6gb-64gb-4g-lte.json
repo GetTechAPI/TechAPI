@@ -10,7 +10,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -43,5 +44,12 @@
       "raw": "13 MP, f/2.0"
     }
   ],
-  "os_version": "8.0"
+  "os_version": "8.0",
+  "model_numbers": [
+    "BKL-L04",
+    "BKL-L09"
+  ],
+  "codenames": [
+    "HWBKL"
+  ]
 }

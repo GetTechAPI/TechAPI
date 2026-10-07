@@ -2,7 +2,7 @@
   "id": 64281979194922,
   "slug": "aero",
   "base_model_slug": "aero",
-  "name": "Aero",
+  "name": "Dell Aero",
   "brand": {
     "id": 129105102145608,
     "slug": "dell",
@@ -11,20 +11,27 @@
     "url": "/v1/brands/dell"
   },
   "soc": {
-    "id": 247760855741816,
-    "slug": "624-mhz-marvell-pxa310",
-    "name": "624 MHz Marvell PXA310",
+    "id": 63275072358953,
+    "slug": "marvell-pxa935",
+    "name": "Marvell PXA935",
     "manufacturer": {
       "slug": "marvell",
       "name": "Marvell Technology",
       "url": "/v1/brands/marvell"
     },
     "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/624-mhz-marvell-pxa310"
+    "gpu_name": "N/A",
+    "url": "/v1/socs/marvell-pxa935"
   },
   "release_date": "2010-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "Dell Aero"
+  ],
+  "codenames": [
+    "Dell_Grappa"
+  ],
   "ram_gb": 1,
   "storage_options_gb": [],
   "variant": {},
@@ -77,8 +84,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2212",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T11:26:43"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

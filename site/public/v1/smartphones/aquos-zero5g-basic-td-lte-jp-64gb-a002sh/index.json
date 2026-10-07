@@ -2,7 +2,7 @@
   "id": 219899544744897,
   "slug": "aquos-zero5g-basic-td-lte-jp-64gb-a002sh",
   "base_model_slug": "aquos-zero5g-basic-td-lte-jp-64gb-a002sh",
-  "name": "Aquos Zero5G basic TD-LTE JP 64GB A002SH",
+  "name": "Sharp Aquos Zero5G basic TD-LTE JP 64GB A002SH",
   "brand": {
     "id": 62256094239082,
     "slug": "sharp",
@@ -24,7 +24,14 @@
     "url": "/v1/socs/snapdragon-765"
   },
   "release_date": "2020-10-09",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "A002SH"
+  ],
+  "codenames": [
+    "SGA002SH"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     64
@@ -75,7 +82,7 @@
     "value": null,
     "perf": {
       "index": 37.3,
-      "percentile": 44.1,
+      "percentile": 44.0,
       "tier": "C",
       "era": "2020-2021",
       "source": "geekbench"
@@ -83,8 +90,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://phonedb.net/index.php?m=device&id=17577",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:36:39"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

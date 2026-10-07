@@ -9,7 +9,8 @@
   "os": "Android OS/ Optional Windows 10 (64 GB model), MIUI 7",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-pad-2",
   "variant": {
@@ -109,5 +110,11 @@
     "height_mm": 200.4,
     "width_mm": 132.6,
     "depth_mm": 7.0
-  }
+  },
+  "model_numbers": [
+    "MI PAD 2"
+  ],
+  "codenames": [
+    "latte"
+  ]
 }

@@ -24,7 +24,21 @@
     "url": "/v1/socs/snapdragon-855-plus"
   },
   "release_date": "2020-02-14",
+  "release_date_precision": null,
   "msrp_usd": 1380,
+  "model_numbers": [
+    "SCV47",
+    "SM-F7000",
+    "SM-F700F",
+    "SM-F700N",
+    "SM-F700U",
+    "SM-F700U1",
+    "SM-F700W"
+  ],
+  "codenames": [
+    "SCV47",
+    "bloomq"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     256
@@ -74,7 +88,7 @@
     "value": 25.6,
     "perf": {
       "index": 48.6,
-      "percentile": 61.4,
+      "percentile": 61.5,
       "tier": "B",
       "era": "2020-2021",
       "source": "geekbench"
@@ -82,8 +96,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:34:22"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

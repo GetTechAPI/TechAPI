@@ -6,11 +6,13 @@
   "release_date": "2019-01-01",
   "ram_gb": 4,
   "battery_mah": 7600,
-  "weight_g": 150.0,
+  "weight_g": 653.0,
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     4,
@@ -58,5 +60,15 @@
     "network": {
       "cellular": "4G LTE"
     }
-  }
+  },
+  "model_numbers": [
+    "SM-T540",
+    "SM-T545",
+    "SM-T547",
+    "SM-T547U"
+  ],
+  "codenames": [
+    "gtactivexl",
+    "gtactivexlwifi"
+  ]
 }

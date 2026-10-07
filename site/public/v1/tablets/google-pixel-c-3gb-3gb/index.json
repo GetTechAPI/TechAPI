@@ -12,10 +12,16 @@
   },
   "soc": null,
   "release_date": "2015-12-08",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "Pixel C"
+  ],
+  "codenames": [
+    "dragon"
+  ],
   "ram_gb": 3.0,
   "storage_options_gb": [
-    3,
     32,
     64
   ],
@@ -24,14 +30,16 @@
     "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
     "memory": {
       "ram_gb": 3,
-      "storage_gb": 3
+      "storage_gb": null
     },
     "sim": "No"
   },
   "display": {
     "size": "10.2\"",
     "resolution": "2560x1800 pixels",
-    "type": "IPS LCD"
+    "type": "IPS LCD",
+    "size_inch": 10.2,
+    "ppi": 308
   },
   "cameras": [
     {
@@ -49,7 +57,7 @@
   "weight_g": 517.0,
   "dimensions": {},
   "ip_rating": null,
-  "os": "Android 6.0.1, up to Android 8.0",
+  "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "os_version": "6.0.1",
   "connectivity": {
     "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct",
@@ -57,14 +65,17 @@
     "nfc": "No",
     "usb": "USB Type-C 3.0"
   },
-  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/google-pixel-c.jpg",
+  "image_url": null,
   "images": [],
   "verified": true,
   "source_urls": [
     "https://aitoolbuzz.com/mobiles/google-pixel-c",
-    "https://en.wikipedia.org/wiki/Google_Pixel_C"
+    "https://en.wikipedia.org/wiki/Google_Pixel_C",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-20T23:03:09",
-  "updated_at": "2026-09-23T22:24:43",
+  "created_at": "2026-06-20T14:03:09Z",
+  "updated_at": "2026-10-07T09:06:14Z",
   "url": "/v1/tablets/google-pixel-c-3gb-3gb"
 }

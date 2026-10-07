@@ -3,14 +3,15 @@
   "name": "Light Tab V9C",
   "brand": "zte",
   "soc": "800-mhz",
-  "release_date": "2011-01-01",
+  "release_date": "2011-11-01",
   "ram_gb": 1,
   "battery_mah": 3400,
   "weight_g": 389.0,
-  "os": "Android",
+  "os": "Android 2.1 (Eclair)| upgradable to 2.2 (Froyo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
   ],
   "display": {
     "size_inch": 7.0,
@@ -22,12 +23,20 @@
     {
       "type": "main",
       "mp": 2.0
+    },
+    {
+      "type": "main",
+      "raw": "2 MP"
     }
   ],
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g, hotspot (Android 2.2)",
     "bluetooth": "2.1, A2DP, EDR",
-    "usb": "microUSB 2.0"
+    "usb": "microUSB 2.0",
+    "network": "GSM / HSPA",
+    "sim": "Mini-SIM",
+    "wlan": "Wi-Fi 802.11 b/g| hotspot (Android 2.2)",
+    "gps": "Yes with A-GPS"
   },
   "raw_gsmarena": {
     "launch_status": "Discontinued",
@@ -44,5 +53,53 @@
     "network": {
       "cellular": "2G"
     }
-  }
+  },
+  "storage_options_gb": [],
+  "image_url": null,
+  "os_version": "2.1",
+  "raw_merged_records": [
+    {
+      "slug": "zte-light-tab-v9c",
+      "base_model_slug": "light-tab-v9c",
+      "name": "Zte Light Tab V9C",
+      "brand": "zte",
+      "release_date": "2011-11-01",
+      "ram_gb": 1,
+      "storage_options_gb": [],
+      "battery_mah": 3400,
+      "weight_g": 389.0,
+      "os": "Android 2.1 (Eclair)| upgradable to 2.2 (Froyo)",
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "480 x 800 pixels (~133 ppi pixel density)",
+        "type": "LCD capacitive touchscreen",
+        "ppi": 133
+      },
+      "connectivity": {
+        "network": "GSM / HSPA",
+        "sim": "Mini-SIM",
+        "bluetooth": "2.1| A2DP| EDR",
+        "wlan": "Wi-Fi 802.11 b/g| hotspot (Android 2.2)",
+        "usb": "microUSB 2.0",
+        "gps": "Yes with A-GPS"
+      },
+      "variant": {
+        "region": "global",
+        "source_category": "gsmarena-kaggle",
+        "source_dataset": "arwinneil/gsmarena-phone-dataset"
+      },
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+      ],
+      "image_url": null,
+      "cameras": [
+        {
+          "type": "main",
+          "raw": "2 MP"
+        }
+      ],
+      "os_version": "2.1"
+    }
+  ]
 }

@@ -1,17 +1,21 @@
 {
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Sony_Tablet_S.jpg",
+  "image_license": "CC-BY-SA-3.0",
+  "image_attribution": "Caesar Wong",
   "slug": "sony-tablet-s-allphones-7454-1gb-16gb",
   "base_model_slug": "tablet-s",
   "name": "Sony Tablet S",
   "brand": "sony",
   "release_date": "2011-01-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": null,
   "weight_g": 598.0,
   "os": "Android 3.1 (Honeycomb), upgradable to 4.0.3 (Ice Cream Sandwich)",
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
-    "https://en.wikipedia.org/wiki/Sony_Tablet_S"
+    "https://en.wikipedia.org/wiki/Sony_Tablet_S",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -41,5 +45,11 @@
       "raw": "VGA"
     }
   ],
-  "os_version": "3.1"
+  "os_version": "3.1",
+  "model_numbers": [
+    "Sony Tablet S"
+  ],
+  "codenames": [
+    "nbx03"
+  ]
 }

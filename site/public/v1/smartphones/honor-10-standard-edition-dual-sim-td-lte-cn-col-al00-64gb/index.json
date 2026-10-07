@@ -24,7 +24,17 @@
     "url": "/v1/socs/kirin-970"
   },
   "release_date": "2018-04-27",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "COL-AL00",
+    "COL-AL10",
+    "COL-L29",
+    "COL-TL10"
+  ],
+  "codenames": [
+    "HWCOL"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -74,7 +84,7 @@
     "value": null,
     "perf": {
       "index": 60.1,
-      "percentile": 87.8,
+      "percentile": 87.9,
       "tier": "A",
       "era": "2017-2019",
       "source": "geekbench"
@@ -82,8 +92,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:14:38"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

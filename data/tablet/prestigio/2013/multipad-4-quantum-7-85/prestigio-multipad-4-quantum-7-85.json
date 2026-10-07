@@ -23,7 +23,8 @@
     "bluetooth": "4.0| A2DP",
     "wlan": "Wi-Fi 802.11 b/g/n",
     "usb": "microUSB 2.0| USB Host",
-    "gps": "No"
+    "gps": "No",
+    "wifi": "Wi-Fi 802.11 b/g/n"
   },
   "variant": {
     "region": "global",
@@ -32,16 +33,87 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "rockchip-rk3188",
   "raw_price": "About 140 EUR",
-  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/prestigio-multipad4.jpg",
+  "image_url": null,
   "cameras": [
     {
       "type": "main",
       "raw": "2 MP"
+    },
+    {
+      "type": "main",
+      "mp": 2.0
     }
   ],
-  "os_version": "4.2"
+  "os_version": "4.2",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "No cellular connectivity",
+    "platform_chipset": "Rockchip RK3188",
+    "platform_cpu": "Quad-core 1.6 GHz Cortex-A9",
+    "platform_gpu": "Mali-400MP4"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "multipad-4-quantum-7-85",
+      "name": "Multipad 4 Quantum 7.85",
+      "brand": "prestigio",
+      "soc": "rockchip-rk3188",
+      "release_date": "2013-01-01",
+      "ram_gb": 1,
+      "battery_mah": 4700,
+      "weight_g": 406.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        8
+      ],
+      "display": {
+        "size_inch": 7.85,
+        "resolution": "768x1024",
+        "type": "IPS LCD capacitive touchscreen",
+        "ppi": 163
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n",
+        "bluetooth": "4.0, A2DP",
+        "usb": "microUSB 2.0, USB Host"
+      },
+      "raw_price": "About 140 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "No cellular connectivity",
+        "platform_chipset": "Rockchip RK3188",
+        "platform_cpu": "Quad-core 1.6 GHz Cortex-A9",
+        "platform_gpu": "Mali-400MP4"
+      },
+      "base_model_slug": "multipad-4-quantum-7-85",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "multipad-4-quantum-7-85",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 8
+        },
+        "network": {
+          "cellular": "Wi-Fi"
+        }
+      }
+    }
+  ]
 }

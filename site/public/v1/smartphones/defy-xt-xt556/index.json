@@ -2,7 +2,7 @@
   "id": 163707859826278,
   "slug": "defy-xt-xt556",
   "base_model_slug": "defy-xt-xt556",
-  "name": "DEFY XT XT556",
+  "name": "Motorola Defy XT XT556",
   "brand": {
     "id": 220063225842437,
     "slug": "motorola",
@@ -11,20 +11,32 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 261926499558358,
-    "slug": "1-0-ghz",
-    "name": "1.0 GHz",
+    "id": 197744720562644,
+    "slug": "qualcomm-msm7627a",
+    "name": "Qualcomm MSM7627A",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/1-0-ghz"
+    "gpu_name": "Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7627a"
   },
   "release_date": "2012-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "XT535",
+    "XT555C",
+    "XT556",
+    "XT557"
+  ],
+  "codenames": [
+    "XT535",
+    "tinboostplus_cdma",
+    "tinboostplus_umts"
+  ],
   "ram_gb": 1,
   "storage_options_gb": [
     1
@@ -79,8 +91,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=3753",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:22:50"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

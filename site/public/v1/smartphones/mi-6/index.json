@@ -2,7 +2,7 @@
   "id": 222963161041233,
   "slug": "mi-6",
   "base_model_slug": "mi-6",
-  "name": "Mi 6",
+  "name": "Xiaomi Mi 6",
   "brand": {
     "id": 76224251003187,
     "slug": "xiaomi",
@@ -23,8 +23,15 @@
     "gpu_name": "Adreno 540",
     "url": "/v1/socs/qualcomm-msm8998-snapdragon-835"
   },
-  "release_date": "2017-01-01",
+  "release_date": "2017-04-28",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "MI 6"
+  ],
+  "codenames": [
+    "sagit"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     4,
@@ -85,10 +92,13 @@
       "source": null
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://en.wikipedia.org/wiki/Xiaomi_Mi_6",
+    "https://www.mi.com/global/mi6/specs/",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:43:31"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

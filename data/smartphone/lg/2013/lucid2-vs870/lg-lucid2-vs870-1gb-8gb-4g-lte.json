@@ -9,7 +9,8 @@
   "os": "Android 4.1.2 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "lucid2-vs870",
   "variant": {
@@ -108,5 +109,11 @@
     "height_mm": 122.5,
     "width_mm": 62.8,
     "depth_mm": 9.8
-  }
+  },
+  "model_numbers": [
+    "VS870 4G"
+  ],
+  "codenames": [
+    "l1v"
+  ]
 }

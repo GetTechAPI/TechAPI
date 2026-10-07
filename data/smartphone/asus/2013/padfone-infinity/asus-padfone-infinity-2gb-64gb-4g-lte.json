@@ -9,7 +9,8 @@
   "os": "Android 4.1.2 (Jelly Bean), upgradable to 4.4.2 (KitKat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "padfone-infinity",
   "variant": {
@@ -110,5 +111,12 @@
     "height_mm": 143.5,
     "width_mm": 72.8,
     "depth_mm": 8.9
-  }
+  },
+  "model_numbers": [
+    "PadFone Infinity"
+  ],
+  "codenames": [
+    "A80",
+    "ASUS-A80"
+  ]
 }

@@ -24,7 +24,14 @@
     "url": "/v1/socs/snapdragon-8-gen-2"
   },
   "release_date": "2024-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "V2344A"
+  ],
+  "codenames": [
+    "PD2344"
+  ],
   "ram_gb": 12,
   "storage_options_gb": [
     256
@@ -75,7 +82,7 @@
     "value": null,
     "perf": {
       "index": 74.5,
-      "percentile": 71.4,
+      "percentile": 71.5,
       "tier": "B",
       "era": "2024-2026",
       "source": "geekbench"
@@ -83,8 +90,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis"
+    "https://www.kaggle.com/datasets/lileejass/mobile-phone-dataset-prices-and-trend-analysis",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-21T02:46:52",
-  "updated_at": "2026-06-21T02:46:52"
+  "created_at": "2026-06-20T17:46:52Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

@@ -24,7 +24,23 @@
     "url": "/v1/socs/kirin-970"
   },
   "release_date": "2018-04-13",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "CLT-AL00",
+    "CLT-AL00l",
+    "CLT-AL01",
+    "CLT-L04",
+    "CLT-L09",
+    "CLT-L29",
+    "CLT-TL00",
+    "CLT-TL01",
+    "HW-01K"
+  ],
+  "codenames": [
+    "HW-01K",
+    "HWCLT"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     64
@@ -74,7 +90,7 @@
     "value": null,
     "perf": {
       "index": 61.5,
-      "percentile": 90.4,
+      "percentile": 90.5,
       "tier": "A",
       "era": "2017-2019",
       "source": "geekbench"
@@ -82,8 +98,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:14:38"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

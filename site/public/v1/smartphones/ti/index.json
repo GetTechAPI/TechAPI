@@ -2,7 +2,7 @@
   "id": 216127926303092,
   "slug": "ti",
   "base_model_slug": "ti",
-  "name": "Ti",
+  "name": "Vertu Ti",
   "brand": {
     "id": 134288603886117,
     "slug": "vertu",
@@ -11,20 +11,27 @@
     "url": "/v1/brands/vertu"
   },
   "soc": {
-    "id": 136944359425561,
-    "slug": "dual-core-1-7-ghz",
-    "name": "Dual-core 1.7 GHz",
+    "id": 238005303328731,
+    "slug": "qualcomm-snapdragon-s4-msm8260a",
+    "name": "Qualcomm Snapdragon S4 MSM8260A",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
     "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/dual-core-1-7-ghz"
+    "gpu_name": "Qualcomm Adreno 225",
+    "url": "/v1/socs/qualcomm-snapdragon-s4-msm8260a"
   },
   "release_date": "2013-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "VERTU Ti"
+  ],
+  "codenames": [
+    "hermione"
+  ],
   "ram_gb": 1,
   "storage_options_gb": [
     1,
@@ -47,10 +54,10 @@
       "mp": 1.3
     }
   ],
-  "battery_mah": 1500,
+  "battery_mah": 1250,
   "charging_wired_w": null,
   "charging_wireless_w": null,
-  "weight_g": 150.0,
+  "weight_g": 181.0,
   "dimensions": {},
   "ip_rating": null,
   "os": "Android",
@@ -84,8 +91,11 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=4172",
+    "https://en.wikipedia.org/wiki/Vertu_Ti",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:40:45"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

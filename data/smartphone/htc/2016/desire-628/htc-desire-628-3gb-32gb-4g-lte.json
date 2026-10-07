@@ -9,7 +9,8 @@
   "os": "Android 5.1 (Lollipop), Sense 7 UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "desire-628",
   "variant": {
@@ -107,5 +108,14 @@
     "height_mm": 146.9,
     "width_mm": 70.9,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "HTC 2PVG2",
+    "HTC Desire 628",
+    "HTC Desire 628 dual sim"
+  ],
+  "codenames": [
+    "htc_v36bml_dugl",
+    "htc_v36bml_uhl"
+  ]
 }

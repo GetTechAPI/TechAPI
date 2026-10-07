@@ -24,7 +24,28 @@
     "url": "/v1/socs/0"
   },
   "release_date": "2018-05-02",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "SC-03K",
+    "SCV39",
+    "SM-G9650",
+    "SM-G965F",
+    "SM-G965N",
+    "SM-G965U",
+    "SM-G965U1",
+    "SM-G965W"
+  ],
+  "codenames": [
+    "SC-03K",
+    "SCV39",
+    "star2lte",
+    "star2lteks",
+    "star2qltechn",
+    "star2qltecs",
+    "star2qltesq",
+    "star2qlteue"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     256
@@ -91,8 +112,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-21T03:51:21",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-06-20T18:51:21Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

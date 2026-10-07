@@ -24,7 +24,16 @@
     "url": "/v1/socs/helio-g25"
   },
   "release_date": "2023-01-26",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "T430W",
+    "T430WS"
+  ],
+  "codenames": [
+    "Bora_NA_OM",
+    "Bora_TMO"
+  ],
   "ram_gb": 3,
   "storage_options_gb": [
     32
@@ -84,8 +93,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-20T22:34:58",
-  "updated_at": "2026-06-20T22:34:58"
+  "created_at": "2026-06-20T13:34:58Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

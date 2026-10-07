@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 10, MiFavor 10.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "axon-10-pro",
   "variant": {
@@ -112,5 +113,20 @@
     "height_mm": 159.2,
     "width_mm": 73.4,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "ZTE A2020 Pro",
+    "ZTE A2020G Pro",
+    "ZTE A2020N3 Pro",
+    "ZTE A2020RU Pro",
+    "ZTE A2020U Pro",
+    "ZTE Axon 10 Pro"
+  ],
+  "codenames": [
+    "P855A01",
+    "P855A02",
+    "P855A03",
+    "P855A03_NA",
+    "P855A21"
+  ]
 }

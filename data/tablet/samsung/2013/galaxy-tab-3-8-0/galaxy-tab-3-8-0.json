@@ -10,7 +10,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     2,
@@ -57,5 +58,20 @@
     "network": {
       "cellular": "4G LTE"
     }
-  }
+  },
+  "model_numbers": [
+    "SM-T210X",
+    "SM-T310",
+    "SM-T310X",
+    "SM-T311",
+    "SM-T312",
+    "SM-T315",
+    "SM-T315T"
+  ],
+  "codenames": [
+    "lt013g",
+    "lt01lte",
+    "lt01wifi",
+    "lt02lduwifi"
+  ]
 }

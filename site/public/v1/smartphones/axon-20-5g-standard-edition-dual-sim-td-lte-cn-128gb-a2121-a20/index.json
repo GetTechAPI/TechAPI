@@ -24,7 +24,14 @@
     "url": "/v1/socs/snapdragon-765"
   },
   "release_date": "2020-11-11",
+  "release_date_precision": null,
   "msrp_usd": 2198,
+  "model_numbers": [
+    "ZTE A2121"
+  ],
+  "codenames": [
+    "P725A02"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     128
@@ -75,7 +82,7 @@
     "value": 17.9,
     "perf": {
       "index": 37.3,
-      "percentile": 44.1,
+      "percentile": 44.0,
       "tier": "C",
       "era": "2020-2021",
       "source": "geekbench"
@@ -83,8 +90,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:46:30"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

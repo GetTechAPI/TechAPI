@@ -7,7 +7,10 @@
   "release_date": "2024-05-14",
   "msrp_usd": 499,
   "ram_gb": 8,
-  "storage_options_gb": [128, 256],
+  "storage_options_gb": [
+    128,
+    256
+  ],
   "display": {
     "size_inch": 6.1,
     "resolution": "2400x1080",
@@ -17,23 +20,54 @@
     "ppi": 429
   },
   "cameras": [
-    {"type": "main", "mp": 64, "aperture": 1.89, "ois": true, "sensor": "Samsung GN2"},
-    {"type": "ultrawide", "mp": 13, "aperture": 2.2, "ois": false},
-    {"type": "selfie", "mp": 13, "aperture": 2.2}
+    {
+      "type": "main",
+      "mp": 64,
+      "aperture": 1.89,
+      "ois": true,
+      "sensor": "Samsung GN2"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 13,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 13,
+      "aperture": 2.2
+    }
   ],
   "battery_mah": 4492,
   "charging_wired_w": 18,
   "charging_wireless_w": 18,
   "weight_g": 188.0,
-  "dimensions": {"height_mm": 152.1, "width_mm": 72.7, "depth_mm": 8.9},
+  "dimensions": {
+    "height_mm": 152.1,
+    "width_mm": 72.7,
+    "depth_mm": 8.9
+  },
   "ip_rating": "IP67",
   "os": "Android",
   "os_version": "14",
-  "connectivity": {"wifi": "Wi-Fi 6E", "bluetooth": "5.3", "nfc": true, "usb": "USB-C 3.2"},
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_8a_specs",
-    "https://en.wikipedia.org/wiki/Pixel_8a"
+    "https://en.wikipedia.org/wiki/Pixel_8a",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "Pixel 8a"
+  ],
+  "codenames": [
+    "akita"
   ]
 }

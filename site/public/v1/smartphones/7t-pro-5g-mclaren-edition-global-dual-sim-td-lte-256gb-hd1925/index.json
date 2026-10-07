@@ -24,7 +24,14 @@
     "url": "/v1/socs/snapdragon-855-plus"
   },
   "release_date": "2019-12-07",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "HD1925"
+  ],
+  "codenames": [
+    "OnePlus7TProNR"
+  ],
   "ram_gb": 12,
   "storage_options_gb": [
     256
@@ -75,7 +82,7 @@
     "value": null,
     "perf": {
       "index": 51.4,
-      "percentile": 69.5,
+      "percentile": 69.7,
       "tier": "B",
       "era": "2017-2019",
       "source": "geekbench"
@@ -83,8 +90,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:26:12"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

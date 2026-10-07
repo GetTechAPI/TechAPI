@@ -24,7 +24,16 @@
     "url": "/v1/socs/snapdragon-632"
   },
   "release_date": "2019-03-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "ONC",
+    "Redmi 7",
+    "Redmi Y3"
+  ],
+  "codenames": [
+    "onc"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     16,
@@ -79,7 +88,7 @@
     "value": null,
     "perf": {
       "index": 16.5,
-      "percentile": 13.4,
+      "percentile": 13.3,
       "tier": "E",
       "era": "2017-2019",
       "source": "geekbench"
@@ -87,8 +96,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-07-01T12:16:36",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-07-01T03:16:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

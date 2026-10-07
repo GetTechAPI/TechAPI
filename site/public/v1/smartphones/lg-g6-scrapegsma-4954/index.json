@@ -24,7 +24,30 @@
     "url": "/v1/socs/snapdragon-821"
   },
   "release_date": "2017-02-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "LG-AS993",
+    "LG-H870",
+    "LG-H870AR",
+    "LG-H870DS",
+    "LG-H870I",
+    "LG-H870S",
+    "LG-H871",
+    "LG-H871S",
+    "LG-H872",
+    "LG-H872PR",
+    "LG-H873",
+    "LG-LS993",
+    "LGM-G600K",
+    "LGM-G600L",
+    "LGM-G600S",
+    "LGUS997",
+    "VS988"
+  ],
+  "codenames": [
+    "lucye"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     32,
@@ -75,7 +98,7 @@
     "value": null,
     "perf": {
       "index": 51.0,
-      "percentile": 68.1,
+      "percentile": 68.3,
       "tier": "B",
       "era": "2017-2019",
       "source": "geekbench"
@@ -83,8 +106,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-07-01T12:16:36",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-07-01T03:16:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

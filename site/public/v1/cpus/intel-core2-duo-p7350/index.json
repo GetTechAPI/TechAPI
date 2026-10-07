@@ -7,7 +7,7 @@
     "name": "Intel",
     "url": "/v1/brands/intel"
   },
-  "release_date": "2008-12-01",
+  "release_date": "2008-08-01",
   "segment": "laptop",
   "architecture": "Core 2",
   "socket": "BGA479",
@@ -29,14 +29,14 @@
     "overall": 26.2,
     "single": {
       "index": 34.9,
-      "percentile": 53.8,
+      "percentile": 53.7,
       "tier": "C",
       "era": "2006-2009",
       "source": "passmark_single"
     },
     "multi": {
       "index": 19.0,
-      "percentile": 49.7,
+      "percentile": 49.5,
       "tier": "C",
       "era": "2006-2009",
       "source": "passmark_cpu_mark"
@@ -45,9 +45,10 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+P7350"
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core2+Duo+P7350",
+    "https://ark.intel.com/content/www/us/en/ark/products/36750/intel-core2-duo-processor-p7350-3m-cache-2-00-ghz-1066-mhz-fsb.html"
   ],
-  "created_at": "2026-06-17T16:07:24",
-  "updated_at": "2026-09-27T17:11:06",
+  "created_at": "2026-06-17T07:07:24Z",
+  "updated_at": "2026-09-29T22:29:53Z",
   "url": "/v1/cpus/intel-core2-duo-p7350"
 }

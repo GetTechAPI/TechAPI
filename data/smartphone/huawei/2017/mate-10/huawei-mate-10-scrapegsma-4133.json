@@ -10,7 +10,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie); EMUI 8",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "kirin-970",
   "variant": {
@@ -45,5 +46,14 @@
     "nfc": "Yes",
     "usb": "3.1, Type-C 1.0 reversible connector; USB Host"
   },
-  "os_version": "8.0"
+  "os_version": "8.0",
+  "model_numbers": [
+    "ALP-AL00",
+    "ALP-L09",
+    "ALP-L29",
+    "ALP-TL00"
+  ],
+  "codenames": [
+    "HWALP"
+  ]
 }

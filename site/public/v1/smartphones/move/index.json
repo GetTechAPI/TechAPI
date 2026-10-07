@@ -2,7 +2,7 @@
   "id": 126245560157153,
   "slug": "move",
   "base_model_slug": "move",
-  "name": "Move",
+  "name": "T-Mobile Move",
   "brand": {
     "id": 179652491158436,
     "slug": "t-mobile",
@@ -11,20 +11,23 @@
     "url": "/v1/brands/t-mobile"
   },
   "soc": {
-    "id": 57744189186563,
-    "slug": "600-mhz",
-    "name": "600 MHz",
+    "id": 92183916954276,
+    "slug": "qualcomm-msm7227",
+    "name": "Qualcomm MSM7227",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/600-mhz"
+    "process_nm": 65.0,
+    "gpu_name": "Qualcomm Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7227"
   },
   "release_date": "2011-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 1,
   "storage_options_gb": [],
   "variant": {},
@@ -77,8 +80,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2995"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:38:27"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-09-29T12:47:25Z"
 }

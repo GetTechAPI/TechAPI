@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), EMUI 9.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "p10",
   "variant": {
@@ -120,5 +121,14 @@
     "height_mm": 145.3,
     "width_mm": 69.3,
     "depth_mm": 7.0
-  }
+  },
+  "model_numbers": [
+    "VTR-AL00",
+    "VTR-L09",
+    "VTR-L29",
+    "VTR-TL00"
+  ],
+  "codenames": [
+    "HWVTR"
+  ]
 }

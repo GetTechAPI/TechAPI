@@ -24,7 +24,15 @@
     "url": "/v1/socs/snapdragon-665"
   },
   "release_date": "2019-11-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "Redmi Note 8T",
+    "willow"
+  ],
+  "codenames": [
+    "willow"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     32,
@@ -75,7 +83,7 @@
     "value": null,
     "perf": {
       "index": 22.8,
-      "percentile": 27.0,
+      "percentile": 26.9,
       "tier": "D",
       "era": "2017-2019",
       "source": "geekbench"
@@ -83,8 +91,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-07-01T12:16:36",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-07-01T03:16:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

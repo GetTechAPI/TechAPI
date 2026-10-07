@@ -23,11 +23,15 @@
     "gpu_name": "Apple GPU (12-core)",
     "url": "/v1/socs/apple-a10x-fusion"
   },
-  "release_date": "2017-01-01",
+  "release_date": "2017-06-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 4.0,
   "storage_options_gb": [
-    4,
+    64,
+    256,
     512
   ],
   "variant": {
@@ -64,7 +68,7 @@
   "weight_g": 469.0,
   "dimensions": {},
   "ip_rating": null,
-  "os": "iOS",
+  "os": "iOS 10.3.2, upgradable to iOS 12.2",
   "os_version": null,
   "connectivity": {
     "wifi": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
@@ -76,9 +80,11 @@
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
-  "created_at": "2026-06-20T19:44:07",
-  "updated_at": "2026-07-09T13:04:36",
+  "created_at": "2026-06-20T10:44:07Z",
+  "updated_at": "2026-09-28T21:15:12Z",
   "url": "/v1/tablets/ipad-pro-10-5-2017"
 }

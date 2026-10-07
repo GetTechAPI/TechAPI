@@ -9,7 +9,8 @@
   "os": "Android 4.4 (KitKat), TouchWiz UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-pro-8-4",
   "variant": {
@@ -117,5 +118,17 @@
     "height_mm": 219.0,
     "width_mm": 128.5,
     "depth_mm": 7.2
-  }
+  },
+  "model_numbers": [
+    "SM-T320",
+    "SM-T320NU",
+    "SM-T320X",
+    "SM-T325"
+  ],
+  "codenames": [
+    "mondrianlte",
+    "mondrianwifi",
+    "mondrianwifikx",
+    "mondrianwifiue"
+  ]
 }

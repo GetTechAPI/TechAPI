@@ -2,7 +2,7 @@
   "id": 65185644714306,
   "slug": "v30",
   "base_model_slug": null,
-  "name": "V30",
+  "name": "LG V30",
   "brand": {
     "id": 243919706393451,
     "slug": "lg",
@@ -23,8 +23,26 @@
     "gpu_name": "Adreno 540",
     "url": "/v1/socs/qualcomm-msm8998-snapdragon-835"
   },
-  "release_date": "2017-01-01",
+  "release_date": "2017-09-21",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "LG-AS998",
+    "LG-H930",
+    "LG-H931",
+    "LG-H932",
+    "LG-H932PR",
+    "LG-H933",
+    "LG-LS998",
+    "LG-US998",
+    "LGM-V300K",
+    "LGM-V300L",
+    "LGM-V300S",
+    "VS996"
+  ],
+  "codenames": [
+    "joan"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     4,
@@ -84,10 +102,13 @@
       "source": null
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://en.wikipedia.org/wiki/LG_V30",
+    "https://www.lg.com/global/mobile-phones/lg-v30",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

@@ -9,7 +9,8 @@
   "os": "Android 11 (Go edition), TCL UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "305",
   "variant": {
@@ -112,5 +113,12 @@
     "height_mm": 165.2,
     "width_mm": 75.5,
     "depth_mm": 8.9
-  }
+  },
+  "model_numbers": [
+    "6102A",
+    "6102D"
+  ],
+  "codenames": [
+    "Cruze_Lite"
+  ]
 }

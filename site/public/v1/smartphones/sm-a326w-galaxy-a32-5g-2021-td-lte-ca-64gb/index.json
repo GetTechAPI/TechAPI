@@ -24,7 +24,21 @@
     "url": "/v1/socs/dimensity-720"
   },
   "release_date": "2021-02-01",
+  "release_date_precision": null,
   "msrp_usd": 370,
+  "model_numbers": [
+    "SCG08",
+    "SM-A326B",
+    "SM-A326BR",
+    "SM-A326U",
+    "SM-A326U1",
+    "SM-A326W",
+    "SM-S326DL"
+  ],
+  "codenames": [
+    "SCG08",
+    "a32x"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -74,7 +88,7 @@
     "value": 61.0,
     "perf": {
       "index": 34.1,
-      "percentile": 32.4,
+      "percentile": 32.3,
       "tier": "D",
       "era": "2020-2021",
       "source": "geekbench"
@@ -82,8 +96,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:34:36"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

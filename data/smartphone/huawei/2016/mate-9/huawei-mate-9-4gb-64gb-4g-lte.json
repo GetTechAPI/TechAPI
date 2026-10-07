@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), EMUI 9.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mate-9",
   "variant": {
@@ -121,5 +122,14 @@
     "height_mm": 156.9,
     "width_mm": 78.9,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "MHA-AL00",
+    "MHA-L09",
+    "MHA-L29",
+    "MHA-TL00"
+  ],
+  "codenames": [
+    "HWMHA"
+  ]
 }

@@ -7,7 +7,10 @@
   "release_date": "2024-09-04",
   "msrp_usd": 1799,
   "ram_gb": 16,
-  "storage_options_gb": [256, 512],
+  "storage_options_gb": [
+    256,
+    512
+  ],
   "display": {
     "size_inch": 8.0,
     "resolution": "2076x2152",
@@ -17,25 +20,66 @@
     "ppi": 380
   },
   "cameras": [
-    {"type": "main", "mp": 48, "aperture": 1.7, "ois": true, "sensor": "Samsung GN3"},
-    {"type": "ultrawide", "mp": 10.5, "aperture": 1.95, "ois": false},
-    {"type": "telephoto", "mp": 10.5, "aperture": 2.8, "ois": true, "optical_zoom": 5},
-    {"type": "selfie", "mp": 10, "aperture": 2.2},
-    {"type": "inner-selfie", "mp": 10, "aperture": 2.2}
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "Samsung GN3"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 10.5,
+      "aperture": 1.95,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 10.5,
+      "aperture": 2.8,
+      "ois": true,
+      "optical_zoom": 5
+    },
+    {
+      "type": "selfie",
+      "mp": 10,
+      "aperture": 2.2
+    },
+    {
+      "type": "inner-selfie",
+      "mp": 10,
+      "aperture": 2.2
+    }
   ],
   "battery_mah": 4650,
   "charging_wired_w": 45,
   "charging_wireless_w": 21,
   "weight_g": 257.0,
-  "dimensions": {"height_mm": 155.2, "width_mm": 150.2, "depth_mm": 10.5},
+  "dimensions": {
+    "height_mm": 155.2,
+    "width_mm": 150.2,
+    "depth_mm": 10.5
+  },
   "ip_rating": "IPX8",
   "os": "Android",
   "os_version": "14",
-  "connectivity": {"wifi": "Wi-Fi 7", "bluetooth": "5.3", "nfc": true, "usb": "USB-C 3.2"},
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_9_pro_fold_specs",
-    "https://en.wikipedia.org/wiki/Pixel_9"
+    "https://en.wikipedia.org/wiki/Pixel_9",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "Pixel 9"
+  ],
+  "codenames": [
+    "tokay"
   ]
 }

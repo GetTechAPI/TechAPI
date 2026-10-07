@@ -9,7 +9,8 @@
   "os": "Android 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "k52",
   "variant": {
@@ -107,5 +108,11 @@
     "height_mm": 165.0,
     "width_mm": 76.7,
     "depth_mm": 8.4
-  }
+  },
+  "model_numbers": [
+    "LM-K520"
+  ],
+  "codenames": [
+    "meh35lm"
+  ]
 }

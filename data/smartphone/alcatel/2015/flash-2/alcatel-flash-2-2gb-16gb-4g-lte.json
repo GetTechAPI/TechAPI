@@ -9,7 +9,8 @@
   "os": "Android 5.1 (Lollipop)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "flash-2",
   "variant": {
@@ -110,5 +111,11 @@
     "height_mm": 145.8,
     "width_mm": 70.4,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "Flash2_7049D"
+  ],
+  "codenames": [
+    "Lion-5"
+  ]
 }

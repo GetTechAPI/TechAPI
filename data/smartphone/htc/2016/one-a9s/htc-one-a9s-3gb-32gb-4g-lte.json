@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow), Sense UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "one-a9s",
   "variant": {
@@ -112,5 +113,15 @@
     "height_mm": 146.5,
     "width_mm": 71.5,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "HTC 2PWD1",
+    "HTC 2PWD2",
+    "HTC One A9s",
+    "HTC_A9sx"
+  ],
+  "codenames": [
+    "htc_e36_ml_uhl",
+    "htc_e36_ml_ul"
+  ]
 }

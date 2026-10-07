@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "energy-e500s",
   "variant": {
@@ -107,5 +108,13 @@
     "height_mm": 139.8,
     "width_mm": 71.5,
     "depth_mm": 8.6
-  }
+  },
+  "model_numbers": [
+    "EnergyE500S_EU",
+    "EnergyE500S_US"
+  ],
+  "codenames": [
+    "EnergyE500S_EU",
+    "EnergyE500S_US"
+  ]
 }

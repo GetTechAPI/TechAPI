@@ -24,7 +24,14 @@
     "url": "/v1/socs/dimensity-6100-plus"
   },
   "release_date": "2024-03-06",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "RMX3992"
+  ],
+  "codenames": [
+    "RE5C3F"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     128,
@@ -82,7 +89,7 @@
     "value": null,
     "perf": {
       "index": 43.5,
-      "percentile": 26.3,
+      "percentile": 26.4,
       "tier": "D",
       "era": "2024-2026",
       "source": "geekbench"
@@ -90,8 +97,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-20T22:03:58",
-  "updated_at": "2026-07-09T13:49:23"
+  "created_at": "2026-06-20T13:03:58Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

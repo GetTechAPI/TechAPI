@@ -7,9 +7,11 @@
   "battery_mah": 11200,
   "weight_g": 718.0,
   "os": "Android 14, One UI 6.1",
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_Tab_S10",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-s10-ultra",
   "variant": {
@@ -115,5 +117,15 @@
     "height_mm": 326.4,
     "width_mm": 208.6,
     "depth_mm": 5.4
-  }
+  },
+  "model_numbers": [
+    "SM-X920",
+    "SM-X926B",
+    "SM-X926C",
+    "SM-X926N"
+  ],
+  "codenames": [
+    "gts10u",
+    "gts10uwifi"
+  ]
 }

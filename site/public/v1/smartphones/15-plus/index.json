@@ -24,7 +24,14 @@
     "url": "/v1/socs/exynos-8895"
   },
   "release_date": "2018-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "15 Plus"
+  ],
+  "codenames": [
+    "15Plus"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     6,
@@ -76,7 +83,7 @@
     "value": null,
     "perf": {
       "index": 61.0,
-      "percentile": 89.3,
+      "percentile": 89.4,
       "tier": "A",
       "era": "2017-2019",
       "source": "geekbench"
@@ -84,8 +91,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:21:16"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

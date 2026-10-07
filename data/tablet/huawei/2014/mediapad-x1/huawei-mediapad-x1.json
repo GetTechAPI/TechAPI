@@ -23,7 +23,8 @@
     "bluetooth": "4.0| A2DP| EDR",
     "wlan": "Wi-Fi 802.11 b/g/n| hotspot (3G)",
     "usb": "microUSB 2.0",
-    "gps": "Yes with A-GPS GLONASS"
+    "gps": "Yes with A-GPS GLONASS",
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot (3G)Wi-Fi 802.11 a/b/g/n, dual-band, hotspot (LTE)"
   },
   "variant": {
     "region": "global",
@@ -32,16 +33,105 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "hisilicon-kirin-910",
   "raw_price": "About 350 EUR",
-  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/huawei-mediapad-x1-new.jpg",
+  "image_url": null,
   "cameras": [
     {
       "type": "main",
       "raw": "13 MP| autofocus| LED flash"
+    },
+    {
+      "type": "main",
+      "mp": 13.0
+    },
+    {
+      "type": "selfie",
+      "mp": 5.0
     }
   ],
-  "os_version": "4.2.2"
+  "os_version": "4.2.2",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2014, April",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "HiSilicon Kirin 910 (28 nm)",
+    "platform_cpu": "Quad-core 1.6 GHz Cortex-A9",
+    "platform_gpu": "Mali-450MP4"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "mediapad-x1",
+      "name": "MediaPad X1",
+      "brand": "huawei",
+      "soc": "hisilicon-kirin-910",
+      "release_date": "2014-01-01",
+      "ram_gb": 2,
+      "battery_mah": 5000,
+      "weight_g": 239.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        2,
+        16
+      ],
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "1200x1920",
+        "type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 323
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 13.0
+        },
+        {
+          "type": "selfie",
+          "mp": 5.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n, hotspot (3G)Wi-Fi 802.11 a/b/g/n, dual-band, hotspot (LTE)",
+        "bluetooth": "4.0, A2DP, EDR",
+        "usb": "microUSB 2.0"
+      },
+      "raw_price": "About 350 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Available. Released 2014, April",
+        "network_technology": "GSM / HSPA / LTE",
+        "platform_chipset": "HiSilicon Kirin 910 (28 nm)",
+        "platform_cpu": "Quad-core 1.6 GHz Cortex-A9",
+        "platform_gpu": "Mali-450MP4"
+      },
+      "base_model_slug": "mediapad-x1",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "mediapad-x1",
+        "memory": {
+          "ram_gb": 2,
+          "storage_gb": 16
+        },
+        "network": {
+          "cellular": "4G LTE"
+        }
+      }
+    }
+  ],
+  "model_numbers": [
+    "7D-501u",
+    "MediaPad X1",
+    "MediaPad X1 7.0",
+    "X1 7.0"
+  ],
+  "codenames": [
+    "hw7d501l"
+  ]
 }

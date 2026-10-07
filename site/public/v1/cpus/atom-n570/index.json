@@ -8,12 +8,12 @@
     "url": "/v1/brands/intel"
   },
   "release_date": "2011-03-01",
-  "segment": "desktop",
+  "segment": "laptop",
   "architecture": "\" Pineview \" (45 nm)",
   "socket": "FC-BGA 559",
-  "process_node": null,
+  "process_node": "45 nm",
   "cores": 2,
-  "threads": 2,
+  "threads": 4,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 1.67,
@@ -23,30 +23,32 @@
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
-  "msrp_usd": null,
+  "msrp_usd": 86,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 4.5,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 0.0,
+      "percentile": 2.6,
+      "tier": "F",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 8.2,
+      "percentile": 5.0,
+      "tier": "E",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_Intel_Atom_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Atom_processors",
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+N570"
   ],
-  "created_at": "2026-09-22T19:02:33",
-  "updated_at": "2026-09-23T22:24:43",
+  "created_at": "2026-09-22T10:02:33Z",
+  "updated_at": "2026-09-28T18:42:48Z",
   "url": "/v1/cpus/atom-n570"
 }

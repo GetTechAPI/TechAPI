@@ -2,7 +2,7 @@
   "id": 223325633592144,
   "slug": "skate",
   "base_model_slug": "skate",
-  "name": "Skate",
+  "name": "ZTE Skate",
   "brand": {
     "id": 179024966539332,
     "slug": "zte",
@@ -11,20 +11,29 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 67530417852176,
-    "slug": "800-mhz",
-    "name": "800 MHz",
+    "id": 85310524960100,
+    "slug": "qualcomm-msm7227t",
+    "name": "Qualcomm MSM7227T",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/800-mhz"
+    "process_nm": 65.0,
+    "gpu_name": "Qualcomm Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7227t"
   },
   "release_date": "2011-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "ZTE Skate",
+    "ZTE-SKATE",
+    "ZTE-Skate"
+  ],
+  "codenames": [
+    "skate"
+  ],
   "ram_gb": 1,
   "storage_options_gb": [],
   "variant": {},
@@ -77,8 +86,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=3134",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T11:26:43"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

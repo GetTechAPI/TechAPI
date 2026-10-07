@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-j3-2018",
   "variant": {
@@ -108,5 +109,11 @@
     "height_mm": 142.7,
     "width_mm": 70.1,
     "depth_mm": 8.9
-  }
+  },
+  "model_numbers": [
+    "SM-J337W"
+  ],
+  "codenames": [
+    "j3topltecs"
+  ]
 }

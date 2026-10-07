@@ -24,7 +24,14 @@
     "url": "/v1/socs/dimensity-810"
   },
   "release_date": "2021-11-02",
+  "release_date_precision": null,
   "msrp_usd": 1199,
+  "model_numbers": [
+    "21091116AC"
+  ],
+  "codenames": [
+    "evergo"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     128
@@ -75,7 +82,7 @@
     "value": 32.9,
     "perf": {
       "index": 37.2,
-      "percentile": 41.6,
+      "percentile": 41.5,
       "tier": "C",
       "era": "2020-2021",
       "source": "geekbench"
@@ -83,8 +90,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:44:11"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

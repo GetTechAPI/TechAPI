@@ -24,7 +24,16 @@
     "url": "/v1/socs/helio-p22"
   },
   "release_date": "2020-06-01",
+  "release_date_precision": null,
   "msrp_usd": 170,
+  "model_numbers": [
+    "LGL555DL",
+    "LM-K500"
+  ],
+  "codenames": [
+    "mdh30lm",
+    "mdh30xlm"
+  ],
   "ram_gb": 3,
   "storage_options_gb": [
     32
@@ -83,8 +92,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:20:22"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

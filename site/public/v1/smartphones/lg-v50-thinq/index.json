@@ -24,7 +24,17 @@
     "url": "/v1/socs/snapdragon-855"
   },
   "release_date": "2019-05-10",
+  "release_date_precision": null,
   "msrp_usd": 1150,
+  "model_numbers": [
+    "LM-V450",
+    "LM-V500",
+    "LM-V500N"
+  ],
+  "codenames": [
+    "flashlm",
+    "flashlmdd"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     128
@@ -103,7 +113,7 @@
     "value": 33.9,
     "perf": {
       "index": 46.1,
-      "percentile": 58.6,
+      "percentile": 59.0,
       "tier": "C",
       "era": "2017-2019",
       "source": "geekbench"
@@ -112,8 +122,9 @@
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/LG_V50_ThinQ",
-    "https://www.lg.com/global/mobile-phones/lg-v50-thinq-5g"
+    "https://www.lg.com/global/mobile-phones/lg-v50-thinq-5g",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-05-28T23:32:18",
-  "updated_at": "2026-09-25T07:20:22"
+  "created_at": "2026-05-28T14:32:18Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

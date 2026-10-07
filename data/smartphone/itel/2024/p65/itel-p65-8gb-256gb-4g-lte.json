@@ -9,7 +9,8 @@
   "os": "Android 14, itel OS 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "p65",
   "variant": {
@@ -109,5 +110,13 @@
     "height_mm": 165.9,
     "width_mm": 77.3,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "itel P671L",
+    "itel P671LN"
+  ],
+  "codenames": [
+    "itel-P671L",
+    "itel-P671LN"
+  ]
 }

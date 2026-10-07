@@ -5,12 +5,13 @@
   "brand": "motorola",
   "release_date": "2011-01-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": null,
   "weight_g": 730.0,
   "os": "Android 3.0 (Honeycomb), upgradable to 4.0.4 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -41,5 +42,19 @@
       "raw": "2 MP"
     }
   ],
-  "os_version": "3.0"
+  "os_version": "3.0",
+  "model_numbers": [
+    "MZ601",
+    "MZ604",
+    "MZ605",
+    "MZ606",
+    "Xoom"
+  ],
+  "codenames": [
+    "stingray",
+    "umts_everest",
+    "umts_hubble",
+    "wifi_hubble",
+    "wingray"
+  ]
 }

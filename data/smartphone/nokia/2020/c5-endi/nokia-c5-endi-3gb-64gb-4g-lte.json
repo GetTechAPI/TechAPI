@@ -9,7 +9,8 @@
   "os": "Android 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "c5-endi",
   "variant": {
@@ -109,5 +110,11 @@
     "height_mm": 171.7,
     "width_mm": 76.7,
     "depth_mm": 8.9
-  }
+  },
+  "model_numbers": [
+    "Nokia C5 Endi"
+  ],
+  "codenames": [
+    "PMC_CUS"
+  ]
 }

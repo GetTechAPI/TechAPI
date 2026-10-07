@@ -9,7 +9,8 @@
   "os": "Android 10, upgradable to Android 11, One UI 3.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-a-8-4-2020",
   "variant": {
@@ -107,5 +108,11 @@
     "height_mm": 202.0,
     "width_mm": 125.2,
     "depth_mm": 7.1
-  }
+  },
+  "model_numbers": [
+    "SM-T307U"
+  ],
+  "codenames": [
+    "gta4s"
+  ]
 }

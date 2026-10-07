@@ -2,7 +2,7 @@
   "id": 149843196796151,
   "slug": "photon-4g-mb855",
   "base_model_slug": "photon-4g-mb855",
-  "name": "Photon 4G MB855",
+  "name": "Motorola PHOTON 4G MB855",
   "brand": {
     "id": 220063225842437,
     "slug": "motorola",
@@ -24,7 +24,16 @@
     "url": "/v1/socs/nvidia-tegra-2-ap20h"
   },
   "release_date": "2011-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "ISW11M",
+    "MB855",
+    "Motorola Electrify"
+  ],
+  "codenames": [
+    "sunfire"
+  ],
   "ram_gb": 1,
   "storage_options_gb": [
     1,
@@ -43,7 +52,7 @@
       "mp": 8.0
     }
   ],
-  "battery_mah": 1500,
+  "battery_mah": 1700,
   "charging_wired_w": null,
   "charging_wireless_w": null,
   "weight_g": 158.0,
@@ -64,10 +73,10 @@
   "body": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 14.5,
+    "overall": 15.0,
     "performance": null,
     "camera": 5.0,
-    "battery": 0.0,
+    "battery": 2.0,
     "display": 35.5,
     "value": null,
     "perf": {
@@ -80,8 +89,10 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2932",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:22:50"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

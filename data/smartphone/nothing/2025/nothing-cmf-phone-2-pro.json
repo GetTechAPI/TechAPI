@@ -7,7 +7,10 @@
   "release_date": "2025-05-08",
   "msrp_usd": 299,
   "ram_gb": 8,
-  "storage_options_gb": [128, 256],
+  "storage_options_gb": [
+    128,
+    256
+  ],
   "display": {
     "size_inch": 6.77,
     "resolution": "2392x1080",
@@ -17,23 +20,54 @@
     "ppi": 386
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.88, "ois": true, "sensor": "Sony IMX882"},
-    {"type": "ultrawide", "mp": 50, "aperture": 2.2, "ois": false},
-    {"type": "selfie", "mp": 16, "aperture": 2.45}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.88,
+      "ois": true,
+      "sensor": "Sony IMX882"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 16,
+      "aperture": 2.45
+    }
   ],
   "battery_mah": 5000,
   "charging_wired_w": 33,
   "charging_wireless_w": 0,
   "weight_g": 193.0,
-  "dimensions": {"height_mm": 163.7, "width_mm": 76.7, "depth_mm": 7.8},
+  "dimensions": {
+    "height_mm": 163.7,
+    "width_mm": 76.7,
+    "depth_mm": 7.8
+  },
   "ip_rating": "IP54",
   "os": "Android",
   "os_version": "15",
-  "connectivity": {"wifi": "Wi-Fi 6", "bluetooth": "5.4", "nfc": true, "usb": "USB-C 2.0"},
+  "connectivity": {
+    "wifi": "Wi-Fi 6",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://cmf.tech/products/phone-2-pro",
-    "https://en.wikipedia.org/wiki/CMF_Phone_2_Pro"
+    "https://en.wikipedia.org/wiki/CMF_Phone_2_Pro",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "A001"
+  ],
+  "codenames": [
+    "Galaga"
   ]
 }

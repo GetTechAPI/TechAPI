@@ -8,12 +8,12 @@
     "url": "/v1/brands/intel"
   },
   "release_date": "2011-01-01",
-  "segment": "desktop",
+  "segment": "laptop",
   "architecture": "\" Cedarview \" (32 nm)",
   "socket": "FC-BGA 559",
-  "process_node": null,
+  "process_node": "32 nm",
   "cores": 2,
-  "threads": 2,
+  "threads": 4,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 1.87,
@@ -26,27 +26,29 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": null,
+    "overall": 7.3,
     "single": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 2.2,
+      "percentile": 3.5,
+      "tier": "F",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_single"
     },
     "multi": {
-      "index": null,
-      "percentile": null,
-      "tier": null,
+      "index": 11.4,
+      "percentile": 7.7,
+      "tier": "E",
       "era": "2010-2013",
-      "source": null
+      "source": "passmark_cpu_mark"
     }
   },
   "verified": true,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_Intel_Atom_processors"
+    "https://en.wikipedia.org/wiki/List_of_Intel_Atom_processors",
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Atom+N2800"
   ],
-  "created_at": "2026-09-22T19:02:33",
-  "updated_at": "2026-09-23T22:24:43",
+  "created_at": "2026-09-22T10:02:33Z",
+  "updated_at": "2026-09-28T18:42:48Z",
   "url": "/v1/cpus/atom-n2800"
 }

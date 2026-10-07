@@ -12,10 +12,12 @@
   },
   "soc": null,
   "release_date": "2017-06-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 1.5,
   "storage_options_gb": [
-    2,
     16,
     32
   ],
@@ -24,14 +26,16 @@
     "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
     "memory": {
       "ram_gb": 1.5,
-      "storage_gb": 2
+      "storage_gb": null
     },
     "sim": "No"
   },
   "display": {
     "size": "8.0\"",
     "resolution": "800x1280 pixels",
-    "type": "IPS LCD"
+    "type": "IPS LCD",
+    "size_inch": 8.0,
+    "ppi": 189
   },
   "cameras": [
     {
@@ -49,7 +53,7 @@
   "weight_g": 369.0,
   "dimensions": {},
   "ip_rating": null,
-  "os": "Customized Android 5.1, Fire 5.4",
+  "os": "Customized Android 5.1 (Lollipop); Fire 5.4",
   "os_version": "5.1",
   "connectivity": {
     "wifi": "Wi-Fi 802.11 a/b/g/n, dual-band",
@@ -57,13 +61,15 @@
     "nfc": "No",
     "usb": "microUSB 2.0"
   },
-  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/amazon-fire-hd-8-2017.jpg",
+  "image_url": null,
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://aitoolbuzz.com/mobiles/amazon-fire-hd-8-2017"
+    "https://aitoolbuzz.com/mobiles/amazon-fire-hd-8-2017",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
-  "created_at": "2026-06-20T23:03:09",
-  "updated_at": "2026-07-09T13:04:36",
+  "created_at": "2026-06-20T14:03:09Z",
+  "updated_at": "2026-10-07T09:06:14Z",
   "url": "/v1/tablets/amazon-fire-hd-8-1-5gb-2gb"
 }

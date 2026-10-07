@@ -24,7 +24,17 @@
     "url": "/v1/socs/helio-g90t"
   },
   "release_date": "2019-08-29",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "GINKGO",
+    "M1908C3JGG",
+    "Redmi Note 8"
+  ],
+  "codenames": [
+    "biloba",
+    "ginkgo"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     64,
@@ -80,7 +90,7 @@
     "value": null,
     "perf": {
       "index": 34.1,
-      "percentile": 40.2,
+      "percentile": 40.7,
       "tier": "C",
       "era": "2017-2019",
       "source": "geekbench"
@@ -88,8 +98,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-18T17:42:19",
-  "updated_at": "2026-09-25T07:43:44"
+  "created_at": "2026-06-18T08:42:19Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

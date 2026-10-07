@@ -24,7 +24,24 @@
     "url": "/v1/socs/snapdragon-636"
   },
   "release_date": "2019-02-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "XT1965-6",
+    "moto g(6)",
+    "moto g(6) plus",
+    "moto g(7)",
+    "moto g(7) plus",
+    "moto g(8) plus"
+  ],
+  "codenames": [
+    "doha",
+    "doha_n",
+    "lake",
+    "lake_n",
+    "river",
+    "river_n"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -73,7 +90,7 @@
     "value": null,
     "perf": {
       "index": 18.8,
-      "percentile": 17.0,
+      "percentile": 16.9,
       "tier": "E",
       "era": "2017-2019",
       "source": "geekbench"
@@ -81,8 +98,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-07-01T12:16:36",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-07-01T03:16:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

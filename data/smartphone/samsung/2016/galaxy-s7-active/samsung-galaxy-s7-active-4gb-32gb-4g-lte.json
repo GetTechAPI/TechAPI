@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow), upgradable to 7.0 (Nougat), TouchWiz UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-s7-active",
   "variant": {
@@ -122,5 +123,11 @@
     "height_mm": 148.8,
     "width_mm": 74.9,
     "depth_mm": 9.9
-  }
+  },
+  "model_numbers": [
+    "SAMSUNG-SM-G891A"
+  ],
+  "codenames": [
+    "poseidonlteatt"
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "blade-v2020-vita-lte-latam",
   "base_model_slug": "blade-v2020-vita-lte-latam",
-  "name": "Blade V2020 Vita LTE LATAM",
+  "name": "ZTE Blade V2020 Vita LTE LATAM",
   "brand": "zte",
   "soc": "helio-p70",
   "release_date": "2020-05-01",
@@ -11,7 +11,9 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://phonedb.net/index.php?m=device&id=17031",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "os_version": "10",
   "storage_options_gb": [
@@ -38,5 +40,11 @@
     "usb": "Yes"
   },
   "market_countries": "Mexico",
-  "market_regions": "North America"
+  "market_regions": "North America",
+  "model_numbers": [
+    "ZTE 8000"
+  ],
+  "codenames": [
+    "P671F70"
+  ]
 }

@@ -24,7 +24,18 @@
     "url": "/v1/socs/helio-p95"
   },
   "release_date": "2020-03-06",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "CPH2009",
+    "CPH2035",
+    "CPH2036",
+    "CPH2037"
+  ],
+  "codenames": [
+    "OP4C2DL1",
+    "OP4C5FL1"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     256
@@ -82,8 +93,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:27:20"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

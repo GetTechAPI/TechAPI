@@ -9,7 +9,8 @@
   "os": "Android v8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "u12-life",
   "variant": {
@@ -166,5 +167,12 @@
     "Technical.OS": "Android v8.1 (Oreo)"
   },
   "soc": "snapdragon-636",
-  "os_version": "8.1"
+  "os_version": "8.1",
+  "model_numbers": [
+    "HTC 2Q6E1",
+    "HTC U12 life"
+  ],
+  "codenames": [
+    "htc_imldugl"
+  ]
 }

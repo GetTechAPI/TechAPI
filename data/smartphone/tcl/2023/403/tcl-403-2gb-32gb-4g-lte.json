@@ -9,7 +9,8 @@
   "os": "Android 12 (Go edition)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "403",
   "variant": {
@@ -107,5 +108,16 @@
     "height_mm": 159.2,
     "width_mm": 78.2,
     "depth_mm": 9.6
-  }
+  },
+  "model_numbers": [
+    "T431A",
+    "T431D",
+    "T431E",
+    "T431P",
+    "T431Q",
+    "T431U"
+  ],
+  "codenames": [
+    "Rio"
+  ]
 }

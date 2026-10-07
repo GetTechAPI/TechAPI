@@ -9,7 +9,8 @@
   "os": "Android 6.1 (Marshmallow), upgradable to 7.1.1 (Nougat), MiFavor 4",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "axon-7-mini",
   "variant": {
@@ -112,5 +113,11 @@
     "height_mm": 147.5,
     "width_mm": 71.0,
     "depth_mm": 7.8
-  }
+  },
+  "model_numbers": [
+    "AXON 7 mini"
+  ],
+  "codenames": [
+    "msm8952_64"
+  ]
 }

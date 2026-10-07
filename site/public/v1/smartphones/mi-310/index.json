@@ -2,7 +2,7 @@
   "id": 144487950335024,
   "slug": "mi-310",
   "base_model_slug": "mi-310",
-  "name": "Mi-310",
+  "name": "Spice Mi-310",
   "brand": {
     "id": 108073735914594,
     "slug": "spice",
@@ -11,20 +11,23 @@
     "url": "/v1/brands/spice"
   },
   "soc": {
-    "id": 104773257418429,
-    "slug": "spice-mobile-platform-2011",
-    "name": "Spice mobile platform 2011",
+    "id": 92183916954276,
+    "slug": "qualcomm-msm7227",
+    "name": "Qualcomm MSM7227",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 45.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/spice-mobile-platform-2011"
+    "process_nm": 65.0,
+    "gpu_name": "Qualcomm Adreno 200",
+    "url": "/v1/socs/qualcomm-msm7227"
   },
   "release_date": "2011-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 1,
   "storage_options_gb": [],
   "variant": {},
@@ -77,8 +80,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2922"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:38:14"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-09-29T12:47:25Z"
 }

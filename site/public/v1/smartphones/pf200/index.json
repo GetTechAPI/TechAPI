@@ -2,7 +2,7 @@
   "id": 131522970524529,
   "slug": "pf200",
   "base_model_slug": "pf200",
-  "name": "PF200",
+  "name": "ZTE PF200",
   "brand": {
     "id": 179024966539332,
     "slug": "zte",
@@ -11,20 +11,23 @@
     "url": "/v1/brands/zte"
   },
   "soc": {
-    "id": 258198175071435,
-    "slug": "dual-core-1-2-ghz-processor",
-    "name": "Dual-core 1.2 GHz processor",
+    "id": 72831539152268,
+    "slug": "qualcomm-snapdragon-s3-apq8060",
+    "name": "Qualcomm Snapdragon S3 APQ8060",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "url": "/v1/brands/qualcomm"
     },
-    "process_nm": 28.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/dual-core-1-2-ghz-processor"
+    "process_nm": 45.0,
+    "gpu_name": "Qualcomm Adreno 220",
+    "url": "/v1/socs/qualcomm-snapdragon-s3-apq8060"
   },
   "release_date": "2012-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 1,
   "storage_options_gb": [],
   "variant": {},
@@ -82,8 +85,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=3416"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:46:03"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-09-29T12:47:25Z"
 }

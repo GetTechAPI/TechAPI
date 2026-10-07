@@ -1,4 +1,7 @@
 {
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Xperia_Tablet_S_auf_der_Internationalen_Funkausstellung_2012_in_Berlin_1_PD.JPG",
+  "image_license": "CC-BY-SA-3.0",
+  "image_attribution": "Bin im Garten",
   "slug": "sony-xperia-tablet-s-1gb-64gb-2g",
   "name": "Sony Xperia Tablet S",
   "brand": "sony",
@@ -10,7 +13,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
-    "https://en.wikipedia.org/wiki/Sony_Xperia_Tablet_S"
+    "https://en.wikipedia.org/wiki/Sony_Xperia_Tablet_S",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "xperia-tablet-s",
   "variant": {
@@ -112,5 +116,12 @@
     "height_mm": 239.8,
     "width_mm": 174.4,
     "depth_mm": 8.8
-  }
+  },
+  "model_numbers": [
+    "SGPT12",
+    "SGPT13"
+  ],
+  "codenames": [
+    "txs03"
+  ]
 }

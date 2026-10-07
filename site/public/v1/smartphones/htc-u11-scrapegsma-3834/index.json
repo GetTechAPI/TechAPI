@@ -24,7 +24,24 @@
     "url": "/v1/socs/snapdragon-835"
   },
   "release_date": "2017-05-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "2PZC5",
+    "601HT",
+    "HTC 2PZC100",
+    "HTC U-3w",
+    "HTC U11",
+    "HTC_U-3u",
+    "HTV33"
+  ],
+  "codenames": [
+    "htc_ocndtwl",
+    "htc_ocndugl",
+    "htc_ocnuhl",
+    "htc_ocnuhljapan",
+    "htc_ocnwhl"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     64,
@@ -79,7 +96,7 @@
     "value": null,
     "perf": {
       "index": 60.3,
-      "percentile": 88.9,
+      "percentile": 89.0,
       "tier": "A",
       "era": "2017-2019",
       "source": "geekbench"
@@ -87,8 +104,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-07-01T12:16:36",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-07-01T03:16:36Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

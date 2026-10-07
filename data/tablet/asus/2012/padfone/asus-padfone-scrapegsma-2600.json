@@ -1,4 +1,7 @@
 {
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/ASUS_PadFone_1.jpg",
+  "image_license": "CC-BY-2.0",
+  "image_attribution": "Vernon Chan",
   "slug": "asus-padfone-scrapegsma-2600",
   "base_model_slug": "padfone",
   "name": "Asus PadFone",
@@ -11,7 +14,8 @@
   "verified": true,
   "source_urls": [
     "https://github.com/cigarplug/scrape-gsma",
-    "https://en.wikipedia.org/wiki/Asus_PadFone"
+    "https://en.wikipedia.org/wiki/Asus_PadFone",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -48,5 +52,11 @@
     "bluetooth": "Yes",
     "gps": "Yes, with A-GPS"
   },
-  "os_version": "4.0"
+  "os_version": "4.0",
+  "model_numbers": [
+    "PadFone"
+  ],
+  "codenames": [
+    "PadFone"
+  ]
 }

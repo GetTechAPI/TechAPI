@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow), upgradable to Android 8.0 (Oreo), MIUI 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-5",
   "variant": {
@@ -123,5 +124,11 @@
     "height_mm": 144.6,
     "width_mm": 69.2,
     "depth_mm": 7.3
-  }
+  },
+  "model_numbers": [
+    "MI 5"
+  ],
+  "codenames": [
+    "gemini"
+  ]
 }

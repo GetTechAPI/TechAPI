@@ -2,7 +2,7 @@
   "id": 80902099514795,
   "slug": "bv5900-dual-sim-td-lte-emea",
   "base_model_slug": "bv5900-dual-sim-td-lte-emea",
-  "name": "BV5900 Dual SIM TD-LTE EMEA",
+  "name": "Blackview BV5900 Dual SIM TD-LTE EMEA",
   "brand": {
     "id": 261838800562142,
     "slug": "blackview",
@@ -24,7 +24,14 @@
     "url": "/v1/socs/mediatek-helio-a22-mt6761"
   },
   "release_date": "2019-09-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "BV5900"
+  ],
+  "codenames": [
+    "BV5900"
+  ],
   "ram_gb": 3,
   "storage_options_gb": [
     32
@@ -80,10 +87,12 @@
       "source": null
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://phonedb.net/index.php?m=device&id=16438",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:07:42"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

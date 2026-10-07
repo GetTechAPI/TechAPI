@@ -24,7 +24,15 @@
     "url": "/v1/socs/snapdragon-665"
   },
   "release_date": "2020-08-01",
+  "release_date_precision": null,
   "msrp_usd": 269,
+  "model_numbers": [
+    "T782H",
+    "T782P"
+  ],
+  "codenames": [
+    "Boston"
+  ],
   "ram_gb": 6,
   "storage_options_gb": [
     256
@@ -74,7 +82,7 @@
     "value": 62.9,
     "perf": {
       "index": 24.2,
-      "percentile": 22.6,
+      "percentile": 22.5,
       "tier": "D",
       "era": "2020-2021",
       "source": "geekbench"
@@ -82,8 +90,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:38:41"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

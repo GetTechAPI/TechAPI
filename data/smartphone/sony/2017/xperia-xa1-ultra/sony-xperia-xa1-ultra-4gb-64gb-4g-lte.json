@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "xperia-xa1-ultra",
   "variant": {
@@ -123,5 +124,17 @@
     "height_mm": 165.0,
     "width_mm": 79.0,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "G3212",
+    "G3221",
+    "G3223",
+    "G3226"
+  ],
+  "codenames": [
+    "G3212",
+    "G3221",
+    "G3223",
+    "G3226"
+  ]
 }

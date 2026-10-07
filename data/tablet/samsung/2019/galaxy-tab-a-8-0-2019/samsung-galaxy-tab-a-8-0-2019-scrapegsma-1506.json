@@ -10,7 +10,8 @@
   "os": "Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -49,5 +50,16 @@
     "bluetooth": "4.2, A2DP, LE",
     "gps": "Yes, with A-GPS, GLONASS, GALILEO, BDS"
   },
-  "os_version": "9.0"
+  "os_version": "9.0",
+  "model_numbers": [
+    "SM-T290",
+    "SM-T295",
+    "SM-T295C",
+    "SM-T295N",
+    "SM-T297"
+  ],
+  "codenames": [
+    "gto",
+    "gtowifi"
+  ]
 }

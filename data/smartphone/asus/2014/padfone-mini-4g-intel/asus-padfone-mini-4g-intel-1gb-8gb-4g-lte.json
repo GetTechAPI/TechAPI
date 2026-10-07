@@ -9,7 +9,8 @@
   "os": "Android 4.4.2 (KitKat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "padfone-mini-4g-intel",
   "variant": {
@@ -103,5 +104,13 @@
     8
   ],
   "soc": "intel-atom-z2560",
-  "os_version": "4.4.2"
+  "os_version": "4.4.2",
+  "model_numbers": [
+    "ASUS_T00E",
+    "PadFone T00C"
+  ],
+  "codenames": [
+    "ASUS-T00C",
+    "ASUS_T00E"
+  ]
 }

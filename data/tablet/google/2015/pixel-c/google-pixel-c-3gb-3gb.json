@@ -7,18 +7,21 @@
   "ram_gb": 3,
   "battery_mah": 9240,
   "weight_g": 517.0,
-  "os": "Android 6.0.1, up to Android 8.0",
+  "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "verified": true,
   "source_urls": [
     "https://aitoolbuzz.com/mobiles/google-pixel-c",
-    "https://en.wikipedia.org/wiki/Google_Pixel_C"
+    "https://en.wikipedia.org/wiki/Google_Pixel_C",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
     "source_dataset": "devadigax/awesome-mobiles-database-by-aitoolbuzz-com",
     "memory": {
       "ram_gb": 3,
-      "storage_gb": 3
+      "storage_gb": null
     },
     "sim": "No"
   },
@@ -27,15 +30,16 @@
     "source_url": "https://aitoolbuzz.com/mobiles/google-pixel-c"
   },
   "storage_options_gb": [
-    3,
     32,
     64
   ],
-  "image_url": "https://aitoolbuzz.com/assets/agents/mobiles/google-pixel-c.jpg",
+  "image_url": null,
   "display": {
     "size": "10.2\"",
     "resolution": "2560x1800 pixels",
-    "type": "IPS LCD"
+    "type": "IPS LCD",
+    "size_inch": 10.2,
+    "ppi": 308
   },
   "cameras": [
     {
@@ -53,5 +57,68 @@
     "nfc": "No",
     "usb": "USB Type-C 3.0"
   },
-  "os_version": "6.0.1"
+  "os_version": "6.0.1",
+  "raw_source": {
+    "year": "2015, October",
+    "lte": "0",
+    "cpu": "Quad-core 1.9 GHz",
+    "ram": "32/64 GB, 3 GB RAM",
+    "internal": "32/64 GB, 3 GB RAM",
+    "camera": "8 MP, f/2.4",
+    "front_camera": "2 MP",
+    "bluetooth": "4.1, A2DP",
+    "price": "About 340 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "google-pixel-c",
+      "base_model_slug": "google-pixel-c",
+      "name": "Google Pixel C",
+      "brand": "google",
+      "release_date": "2015-10-01",
+      "ram_gb": 3.0,
+      "battery_mah": 9240,
+      "weight_g": 517.0,
+      "os": "Unknown",
+      "verified": true,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing",
+        "https://en.wikipedia.org/wiki/Google_Pixel_C"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2015, October",
+        "lte": "0",
+        "cpu": "Quad-core 1.9 GHz",
+        "ram": "32/64 GB, 3 GB RAM",
+        "internal": "32/64 GB, 3 GB RAM",
+        "camera": "8 MP, f/2.4",
+        "front_camera": "2 MP",
+        "bluetooth": "4.1, A2DP",
+        "price": "About 340 EUR"
+      },
+      "display": {
+        "size_inch": 10.2,
+        "resolution": "2560x1800",
+        "type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 308
+      },
+      "storage_options_gb": [
+        64
+      ],
+      "connectivity": {
+        "bluetooth": "4.1, A2DP"
+      }
+    }
+  ],
+  "model_numbers": [
+    "Pixel C"
+  ],
+  "codenames": [
+    "dragon"
+  ]
 }

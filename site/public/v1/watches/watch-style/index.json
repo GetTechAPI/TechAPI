@@ -23,9 +23,12 @@
     "gpu_name": "Adreno 304",
     "url": "/v1/socs/qualcomm-msm8909w-snapdragon-wear-2100"
   },
-  "release_date": "2017-01-01",
+  "release_date": "2017-02-01",
+  "release_date_precision": null,
   "msrp_usd": null,
-  "ram_gb": 1.0,
+  "model_numbers": [],
+  "codenames": [],
+  "ram_gb": 0.5,
   "storage_options_gb": [
     4
   ],
@@ -34,7 +37,7 @@
     "source_category": "smartphone-reclassified",
     "source_slug": "watch-style",
     "memory": {
-      "ram_gb": 1,
+      "ram_gb": 0.5,
       "storage_gb": 4
     },
     "network": {
@@ -45,16 +48,16 @@
     "size_inch": 1.2,
     "resolution": "360x360",
     "type": "P-OLED capacitive touchscreen, 16M colors",
-    "ppi": 424
+    "ppi": 299
   },
   "cameras": [],
-  "battery_mah": 1500,
+  "battery_mah": 240,
   "charging_wired_w": null,
   "charging_wireless_w": null,
-  "weight_g": 150.0,
+  "weight_g": 46.0,
   "dimensions": {},
   "ip_rating": null,
-  "os": "Android",
+  "os": "Android Wear 2.0, upgradable to 2.1",
   "os_version": null,
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n",
@@ -65,9 +68,11 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
-    "https://en.wikipedia.org/wiki/LG_Watch_Style"
+    "https://en.wikipedia.org/wiki/LG_Watch_Style",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
-  "created_at": "2026-06-20T19:44:07",
-  "updated_at": "2026-09-23T22:24:43",
+  "created_at": "2026-06-20T10:44:07Z",
+  "updated_at": "2026-09-28T21:15:12Z",
   "url": "/v1/watches/watch-style"
 }

@@ -23,11 +23,13 @@
     "gpu_name": "Unknown mobile GPU",
     "url": "/v1/socs/quad-core-1-6-ghz-cortex-a9"
   },
-  "release_date": "2013-01-01",
+  "release_date": "2013-09-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 1.0,
   "storage_options_gb": [
-    1,
     16
   ],
   "variant": {
@@ -59,6 +61,10 @@
     {
       "type": "selfie",
       "mp": 1.2
+    },
+    {
+      "type": "main",
+      "raw": "5 MP"
     }
   ],
   "battery_mah": 3950,
@@ -67,20 +73,25 @@
   "weight_g": 350.0,
   "dimensions": {},
   "ip_rating": null,
-  "os": "Android",
-  "os_version": null,
+  "os": "Android 4.2.2 (Jelly Bean)",
+  "os_version": "4.2.2",
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n",
     "bluetooth": "3.0, EDR",
-    "usb": "microUSB 2.0"
+    "usb": "microUSB 2.0",
+    "network": "No cellular connectivity",
+    "sim": "No",
+    "wlan": "Wi-Fi 802.11 b/g/n",
+    "gps": "No"
   },
   "image_url": null,
   "images": [],
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
   ],
-  "created_at": "2026-06-20T19:44:07",
-  "updated_at": "2026-07-09T13:04:36",
+  "created_at": "2026-06-20T10:44:07Z",
+  "updated_at": "2026-10-07T09:06:14Z",
   "url": "/v1/tablets/memo-pad-8-me180a"
 }

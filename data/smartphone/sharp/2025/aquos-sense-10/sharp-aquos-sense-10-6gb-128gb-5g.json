@@ -9,7 +9,8 @@
   "os": "Android v16",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "aquos-sense-10",
   "variant": {
@@ -166,5 +167,14 @@
     "Technical.OS": "Android v16"
   },
   "soc": "qualcomm-snapdragon-7s-gen3",
-  "os_version": "16"
+  "os_version": "16",
+  "model_numbers": [
+    "A505SH",
+    "SH-53F",
+    "SH-M33"
+  ],
+  "codenames": [
+    "Lyle",
+    "SH-53F"
+  ]
 }

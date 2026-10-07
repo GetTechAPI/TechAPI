@@ -5,12 +5,13 @@
   "soc": "nvidia-tegra-3-t30",
   "release_date": "2012-01-01",
   "ram_gb": 2,
-  "battery_mah": 1500,
-  "weight_g": 150.0,
+  "battery_mah": null,
+  "weight_g": null,
   "os": "Windows Mobile",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     2,
@@ -61,5 +62,11 @@
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "model_numbers": [
+    "ASUS Transformer Pad TF600T"
+  ],
+  "codenames": [
+    "TF600T"
+  ]
 }

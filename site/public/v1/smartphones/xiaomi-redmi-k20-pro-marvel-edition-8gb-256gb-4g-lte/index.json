@@ -24,7 +24,17 @@
     "url": "/v1/socs/snapdragon-855-plus"
   },
   "release_date": "2019-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "Mi 9T Pro",
+    "Redmi K20 Pro",
+    "Redmi K20 Pro Premium Edition"
+  ],
+  "codenames": [
+    "raphael",
+    "raphaelin"
+  ],
   "ram_gb": 8,
   "storage_options_gb": [
     256
@@ -76,7 +86,7 @@
     "value": null,
     "perf": {
       "index": 48.6,
-      "percentile": 64.0,
+      "percentile": 64.3,
       "tier": "B",
       "era": "2017-2019",
       "source": "geekbench"
@@ -84,8 +94,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-20T22:34:58",
-  "updated_at": "2026-07-09T11:11:18"
+  "created_at": "2026-06-20T13:34:58Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

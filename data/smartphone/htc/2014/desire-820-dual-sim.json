@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     2,
@@ -46,5 +47,14 @@
     "platform_chipset": "Qualcomm MSM8939 Snapdragon 615 (28 nm)",
     "platform_cpu": "Octa-core (4x1.7 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53)",
     "platform_gpu": "Adreno 405"
-  }
+  },
+  "model_numbers": [
+    "HTC 0PFJ4",
+    "HTC Desire 820",
+    "HTC Desire 820 dual sim"
+  ],
+  "codenames": [
+    "htc_a51dtul",
+    "htc_a51ul"
+  ]
 }

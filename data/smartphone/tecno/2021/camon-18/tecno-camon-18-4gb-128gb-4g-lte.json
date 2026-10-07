@@ -9,7 +9,8 @@
   "os": "Android v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "camon-18",
   "variant": {
@@ -166,5 +167,15 @@
     "Technical.OS": "Android v11"
   },
   "soc": "helio-g88",
-  "os_version": "11"
+  "os_version": "11",
+  "model_numbers": [
+    "TECNO CH6",
+    "TECNO CH6n",
+    "TECNO Mobile CH6n"
+  ],
+  "codenames": [
+    "TECNO-CH6",
+    "TECNO-CH6n",
+    "TECNO-Mobile-CH6n"
+  ]
 }

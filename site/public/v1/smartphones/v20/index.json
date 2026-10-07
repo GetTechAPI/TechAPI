@@ -2,7 +2,7 @@
   "id": 195062806284425,
   "slug": "v20",
   "base_model_slug": null,
-  "name": "V20",
+  "name": "LG V20",
   "brand": {
     "id": 243919706393451,
     "slug": "lg",
@@ -23,8 +23,26 @@
     "gpu_name": "Adreno 530",
     "url": "/v1/socs/qualcomm-msm8996-snapdragon-820"
   },
-  "release_date": "2016-01-01",
+  "release_date": "2016-09-29",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "LG-F800K",
+    "LG-F800L",
+    "LG-F800S",
+    "LG-H910",
+    "LG-H910PR",
+    "LG-H915",
+    "LG-H918",
+    "LG-H990",
+    "LG-LS997",
+    "LG-US996",
+    "LGV34",
+    "VS995"
+  ],
+  "codenames": [
+    "elsa"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     4,
@@ -83,10 +101,13 @@
       "source": null
     }
   },
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://en.wikipedia.org/wiki/LG_V20",
+    "https://www.lg.com/global/mobile-phones/lg-v20",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-07-09T12:20:47"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

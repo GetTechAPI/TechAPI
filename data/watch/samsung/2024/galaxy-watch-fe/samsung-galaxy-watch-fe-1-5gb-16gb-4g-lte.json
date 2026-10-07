@@ -9,7 +9,8 @@
   "os": "Android Wear OS 4, One UI Watch 5",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-watch-fe",
   "variant": {
@@ -95,5 +96,13 @@
   "storage_options_gb": [
     16
   ],
-  "os_version": "4"
+  "os_version": "4",
+  "model_numbers": [
+    "SM-R861",
+    "SM-R866U"
+  ],
+  "codenames": [
+    "lucky7bs",
+    "lucky7us"
+  ]
 }

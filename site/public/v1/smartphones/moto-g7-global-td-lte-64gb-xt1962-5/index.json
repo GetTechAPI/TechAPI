@@ -24,7 +24,19 @@
     "url": "/v1/socs/snapdragon-632"
   },
   "release_date": "2019-02-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [
+    "moto g(6)",
+    "moto g(7)",
+    "moto g(8) plus"
+  ],
+  "codenames": [
+    "doha",
+    "doha_n",
+    "river",
+    "river_n"
+  ],
   "ram_gb": 4,
   "storage_options_gb": [
     64
@@ -74,7 +86,7 @@
     "value": null,
     "perf": {
       "index": 16.5,
-      "percentile": 13.4,
+      "percentile": 13.3,
       "tier": "E",
       "era": "2017-2019",
       "source": "geekbench"
@@ -82,8 +94,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "created_at": "2026-06-19T11:15:44",
-  "updated_at": "2026-09-25T07:23:03"
+  "created_at": "2026-06-19T02:15:44Z",
+  "updated_at": "2026-10-06T02:16:40Z"
 }

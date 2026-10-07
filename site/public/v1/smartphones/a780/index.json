@@ -2,7 +2,7 @@
   "id": 77307343303506,
   "slug": "a780",
   "base_model_slug": "a780",
-  "name": "A780",
+  "name": "Motorola A780",
   "brand": {
     "id": 220063225842437,
     "slug": "motorola",
@@ -11,20 +11,23 @@
     "url": "/v1/brands/motorola"
   },
   "soc": {
-    "id": 52169222932324,
-    "slug": "312-mhz",
-    "name": "312 MHz",
+    "id": 19125139702636,
+    "slug": "intel-xscale-pxa270",
+    "name": "Intel XScale PXA270",
     "manufacturer": {
-      "slug": "arm",
-      "name": "Arm",
-      "url": "/v1/brands/arm"
+      "slug": "intel",
+      "name": "Intel",
+      "url": "/v1/brands/intel"
     },
-    "process_nm": 90.0,
-    "gpu_name": "Unknown mobile GPU",
-    "url": "/v1/socs/312-mhz"
+    "process_nm": 45.0,
+    "gpu_name": "N/A",
+    "url": "/v1/socs/intel-xscale-pxa270"
   },
   "release_date": "2004-01-01",
+  "release_date_precision": null,
   "msrp_usd": null,
+  "model_numbers": [],
+  "codenames": [],
   "ram_gb": 1,
   "storage_options_gb": [],
   "variant": {},
@@ -76,8 +79,9 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=1258"
   ],
-  "created_at": "2026-06-19T14:17:46",
-  "updated_at": "2026-09-25T07:22:37"
+  "created_at": "2026-06-19T05:17:46Z",
+  "updated_at": "2026-09-29T12:47:25Z"
 }

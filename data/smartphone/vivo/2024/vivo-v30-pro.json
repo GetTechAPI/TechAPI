@@ -7,7 +7,10 @@
   "release_date": "2024-02-15",
   "msrp_usd": 549,
   "ram_gb": 12,
-  "storage_options_gb": [256, 512],
+  "storage_options_gb": [
+    256,
+    512
+  ],
   "display": {
     "size_inch": 6.78,
     "resolution": "2800x1260",
@@ -17,24 +20,61 @@
     "ppi": 452
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.88, "ois": true, "sensor": "Sony IMX920"},
-    {"type": "ultrawide", "mp": 50, "aperture": 2.2, "ois": false},
-    {"type": "telephoto", "mp": 50, "aperture": 2.0, "ois": true, "optical_zoom": 2},
-    {"type": "selfie", "mp": 50, "aperture": 2.0}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.88,
+      "ois": true,
+      "sensor": "Sony IMX920"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 50,
+      "aperture": 2.0,
+      "ois": true,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 50,
+      "aperture": 2.0
+    }
   ],
   "battery_mah": 5000,
   "charging_wired_w": 80,
   "charging_wireless_w": 0,
   "weight_g": 186.0,
-  "dimensions": {"height_mm": 164.3, "width_mm": 75.0, "depth_mm": 7.46},
+  "dimensions": {
+    "height_mm": 164.3,
+    "width_mm": 75.0,
+    "depth_mm": 7.46
+  },
   "ip_rating": "IP54",
   "os": "Android",
   "os_version": "14",
-  "connectivity": {"wifi": "Wi-Fi 6E", "bluetooth": "5.4", "nfc": true, "usb": "USB-C 2.0"},
+  "connectivity": {
+    "wifi": "Wi-Fi 6E",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://www.vivo.com/en/products/v30pro",
-    "https://en.wikipedia.org/wiki/Vivo_V30"
+    "https://en.wikipedia.org/wiki/Vivo_V30",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "V2319"
+  ],
+  "codenames": [
+    "V2319"
   ]
 }

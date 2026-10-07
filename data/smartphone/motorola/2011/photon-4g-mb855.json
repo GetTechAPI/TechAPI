@@ -1,17 +1,19 @@
 {
   "slug": "photon-4g-mb855",
   "base_model_slug": "photon-4g-mb855",
-  "name": "Photon 4G MB855",
+  "name": "Motorola PHOTON 4G MB855",
   "brand": "motorola",
   "soc": "nvidia-tegra-2-ap20h",
   "release_date": "2011-01-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": 1700,
   "weight_g": 158.0,
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=2932",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     1,
@@ -41,5 +43,13 @@
     "platform_chipset": "Nvidia Tegra 2 AP20H",
     "platform_cpu": "Dual-core 1.0 GHz Cortex-A9",
     "platform_gpu": "ULP GeForce"
-  }
+  },
+  "model_numbers": [
+    "ISW11M",
+    "MB855",
+    "Motorola Electrify"
+  ],
+  "codenames": [
+    "sunfire"
+  ]
 }

@@ -3,7 +3,7 @@
   "base_model_slug": "pixel-4a",
   "name": "Google Pixel 4a",
   "brand": "google",
-  "soc": "0",
+  "soc": "snapdragon-730g",
   "release_date": "2020-08-20",
   "ram_gb": 6,
   "storage_options_gb": [
@@ -43,9 +43,11 @@
   "verified": false,
   "source_urls": [
     "https://www.kaggle.com/datasets/rajibdab/global-smartphone-database-2025",
-    "https://www.mobiledokan.com/mobile/google-pixel-4a"
+    "https://www.mobiledokan.com/mobile/google-pixel-4a",
+    "https://en.wikipedia.org/wiki/Pixel_4a",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
-  "image_url": "https://www.mobiledokan.com/media/google-pixel-4a-barely-blue-official-image.webp",
+  "image_url": null,
   "cameras": [
     {
       "type": "main",
@@ -54,5 +56,11 @@
   ],
   "charging_wired_w": 18.0,
   "raw_price": "24,000",
-  "os_version": "10"
+  "os_version": "10",
+  "model_numbers": [
+    "Pixel 4a"
+  ],
+  "codenames": [
+    "sunfish"
+  ]
 }

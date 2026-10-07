@@ -741,7 +741,8 @@ function deviceCard(d, category = "smartphones") {
       el.querySelector(".thumb").appendChild(img);
       const credit = document.createElement("div");
       credit.className = "card-src";
-      credit.innerHTML = `<a href="${esc(photoPage)}" target="_blank" rel="noopener">Photo: Wikimedia Commons</a>`;
+      const who = [d.image_attribution, d.image_license].filter(Boolean).join(", ");
+      credit.innerHTML = `<a href="${esc(photoPage)}" target="_blank" rel="noopener">Photo: ${esc(who ? `${who} · ` : "")}Wikimedia Commons</a>`;
       credit.firstChild.addEventListener("click", (e) => e.stopPropagation());
       el.appendChild(credit);
     };

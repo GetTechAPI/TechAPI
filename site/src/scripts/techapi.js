@@ -702,6 +702,11 @@ const CARD = {
 const prettyBench = (s) => s ? s.replace(/_/g, " ").replace(/\b(cpu|gpu|g3d|fp32|r23|r15|r10|r11 5|2024)\b/gi,
   (m) => m.toUpperCase()).replace(/\bcinebench\b/i, "Cinebench").replace(/\bgeekbench\b/i, "Geekbench")
   .replace(/\bpassmark\b/i, "PassMark").replace(/\bantutu score\b/i, "AnTuTu").replace(/\btimespy\b/i, "Time Spy") : "";
+// Only free-licensed Wikimedia Commons photos are shown; their file page carries the author and license.
+const commonsPage = (url) => {
+  const m = /^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^/?#]+)/.exec(url || "");
+  return m ? `https://commons.wikimedia.org/wiki/File:${m[1]}` : null;
+};
 
 function deviceCard(d, category = "smartphones") {
   const cfg = CARD[category] || CARD.smartphones;
@@ -728,10 +733,18 @@ function deviceCard(d, category = "smartphones") {
     </div>
     <div class="chips">${tier}${era}${specs.map((s) => `<span class="chip">${esc(s)}</span>`).join("")}</div>
     <div class="bars">${cfg.bars(sc).map(([l, v]) => bar(l, v)).join("")}</div>${src}`;
-  if (d.image_url) {
+  const photoPage = commonsPage(d.image_url);
+  if (photoPage) {
     const img = new Image();
     img.src = d.image_url; img.alt = d.name; img.loading = "lazy"; img.className = "thumb-img";
-    img.onload = () => el.querySelector(".thumb").appendChild(img);
+    img.onload = () => {
+      el.querySelector(".thumb").appendChild(img);
+      const credit = document.createElement("div");
+      credit.className = "card-src";
+      credit.innerHTML = `<a href="${esc(photoPage)}" target="_blank" rel="noopener">Photo: Wikimedia Commons</a>`;
+      credit.firstChild.addEventListener("click", (e) => e.stopPropagation());
+      el.appendChild(credit);
+    };
   }
   el.addEventListener("click", () => {
     resSel.value = category; slugIn.value = d.slug; run(category, d.slug);

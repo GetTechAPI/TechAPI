@@ -26,26 +26,27 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 72.2,
+    "overall": 46.4,
     "single": {
-      "index": 82.1,
-      "percentile": 66.6,
-      "tier": "B",
+      "index": 69.3,
+      "percentile": 26.0,
+      "tier": "D",
       "era": "2022-2023",
-      "source": "passmark_single"
+      "source": "geekbench_single"
     },
     "multi": {
-      "index": 64.1,
-      "percentile": 69.3,
-      "tier": "B",
+      "index": 27.6,
+      "percentile": 7.5,
+      "tier": "E",
       "era": "2022-2023",
-      "source": "passmark_cpu_mark"
+      "source": "geekbench_multi"
     }
   },
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors",
-    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+7530U"
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+5+PRO+7530U",
+    "https://www.notebookcheck.net/Mobile-Processors-Benchmark-List.2436.0.html"
   ],
   "created_at": "2026-09-25T05:55:53Z",
   "updated_at": "2026-09-28T17:44:28Z",

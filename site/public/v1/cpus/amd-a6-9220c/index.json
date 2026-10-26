@@ -26,26 +26,27 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 33.1,
+    "overall": 0.0,
     "single": {
-      "index": 43.5,
-      "percentile": 19.9,
-      "tier": "E",
+      "index": 0.0,
+      "percentile": 0.7,
+      "tier": "F",
       "era": "2017-2019",
-      "source": "passmark_single"
+      "source": "geekbench_single"
     },
     "multi": {
-      "index": 24.6,
-      "percentile": 20.6,
-      "tier": "D",
+      "index": 0.0,
+      "percentile": 2.3,
+      "tier": "F",
       "era": "2017-2019",
-      "source": "passmark_cpu_mark"
+      "source": "geekbench_multi"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
-    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9220C"
+    "https://www.cpubenchmark.net/cpu.php?cpu=AMD+A6-9220C",
+    "https://www.notebookcheck.net/Mobile-Processors-Benchmark-List.2436.0.html"
   ],
   "created_at": "2026-06-17T07:07:24Z",
   "updated_at": "2026-09-27T08:11:06Z",

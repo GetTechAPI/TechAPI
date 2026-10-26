@@ -26,27 +26,28 @@
   "msrp_usd": null,
   "score": {
     "algorithm_version": "2.0.0",
-    "overall": 78.7,
+    "overall": 54.0,
     "single": {
-      "index": 87.7,
-      "percentile": 82.5,
-      "tier": "A",
+      "index": 71.7,
+      "percentile": 35.4,
+      "tier": "D",
       "era": "2022-2023",
-      "source": "passmark_single"
+      "source": "cinebench_r23_single"
     },
     "multi": {
-      "index": 71.4,
-      "percentile": 81.4,
-      "tier": "A",
+      "index": 39.6,
+      "percentile": 30.5,
+      "tier": "D",
       "era": "2022-2023",
-      "source": "passmark_cpu_mark"
+      "source": "cinebench_r23_multi"
     }
   },
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Ryzen+9+PRO+6950HS",
-    "https://technical.city/en/cpu/Ryzen-9-PRO-6950HS"
+    "https://technical.city/en/cpu/Ryzen-9-PRO-6950HS",
+    "https://www.notebookcheck.net/Mobile-Processors-Benchmark-List.2436.0.html"
   ],
   "created_at": "2026-06-17T07:07:24Z",
   "updated_at": "2026-09-23T13:24:43Z",

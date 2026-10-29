@@ -1,0 +1,66 @@
+name: weekly-data
+
+# Data collection jobs that open PRs against develop. Each runs TechEngine's
+# workflow here as a reusable workflow, so branches and PRs are created by
+# github-actions[bot] with this repo's GITHUB_TOKEN (ADR-017). PRs made with
+# GITHUB_TOKEN do not trigger pr-validation; each job validates before opening
+# its PR instead.
+#
+# Manual only until each job has been checked by hand. To schedule it, add:
+#   schedule:
+#     - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+# and the scheduled run does `refresh` with the defaults below.
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "What to run"
+        type: choice
+        options: [refresh, ingest, verify-network]
+        default: refresh
+      sleep:
+        description: "refresh: seconds between scrape requests"
+        type: string
+        default: "1.0"
+      category:
+        description: "ingest: category"
+        type: choice
+        options: [cpu, gpu, smartphone]
+        default: cpu
+      limit:
+        description: "ingest: max candidates per source"
+        type: string
+        default: "50"
+      include_drafts:
+        description: "ingest: write incomplete records too (draft PR)"
+        type: boolean
+        default: false
+      apply:
+        description: "verify-network: flip verified->true and open a PR (else dry-run)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    if: github.repository == 'GetTechAPI/TechAPI' && (github.event_name == 'schedule' || inputs.job == 'refresh')
+    uses: GetTechAPI/TechEngine/.github/workflows/weekly-refresh.yml@main
+    with:
+      sleep: ${{ inputs.sleep || '1.0' }}
+
+  ingest:
+    if: github.repository == 'GetTechAPI/TechAPI' && inputs.job == 'ingest'
+    uses: GetTechAPI/TechEngine/.github/workflows/weekly-ingest.yml@main
+    with:
+      category: ${{ inputs.category }}
+      limit: ${{ inputs.limit }}
+      include_drafts: ${{ inputs.include_drafts }}
+
+  verify-network:
+    if: github.repository == 'GetTechAPI/TechAPI' && inputs.job == 'verify-network'
+    uses: GetTechAPI/TechEngine/.github/workflows/verify-network.yml@main
+    with:
+      apply: ${{ inputs.apply }}

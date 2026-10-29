@@ -1,7 +1,7 @@
 // Expose the verification snapshot to the homepage at build time.
 //
 // The verification aggregate lives at data/_verify/status.json (kept in sync by
-// TechEngine's verify-status workflow). The site only serves site/public/v1/**,
+// the dump-develop workflow). The site only serves site/public/v1/**,
 // so we copy a trimmed, render-ready view into site/public/v1/verification.json
 // during the Pages build. Build-only + gitignored: always reflects the committed
 // status.json, never hand-edited, no extra churn in data PRs.

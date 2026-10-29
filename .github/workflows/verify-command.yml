@@ -1,0 +1,54 @@
+name: verify-command
+
+# Type `/verify` in a TechAPI PR comment to trigger an on-demand data
+# verification (Tiers 0-3, Tier 3 dry-run). Restricted to repo
+# members/collaborators. Runs TechEngine's techapi-verify-comment.yml here as a
+# reusable workflow with this repo's GITHUB_TOKEN.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    # Only on PR comments, only for the command, only from trusted authors.
+    if: >-
+      github.repository == 'GetTechAPI/TechAPI' &&
+      github.event.issue.pull_request &&
+      startsWith(github.event.comment.body, '/verify') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    outputs:
+      head_sha: ${{ steps.pr.outputs.head_sha }}
+      base_ref: ${{ steps.pr.outputs.base_ref }}
+      base_sha: ${{ steps.pr.outputs.base_sha }}
+    steps:
+      - name: Acknowledge and resolve the PR
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            try {
+              await github.rest.reactions.createForIssueComment({
+                owner, repo, comment_id: context.payload.comment.id, content: 'eyes',
+              });
+            } catch (e) { core.info(`reaction skipped: ${e.message}`); }
+            const pr = await github.rest.pulls.get({ owner, repo, pull_number: context.issue.number });
+            core.setOutput('head_sha', pr.data.head.sha);
+            core.setOutput('base_ref', pr.data.base.ref);
+            core.setOutput('base_sha', pr.data.base.sha);
+
+  verify:
+    needs: resolve
+    uses: GetTechAPI/TechEngine/.github/workflows/techapi-verify-comment.yml@main
+    with:
+      pr_number: ${{ format('{0}', github.event.issue.number) }}
+      head_sha: ${{ needs.resolve.outputs.head_sha }}
+      base_ref: ${{ needs.resolve.outputs.base_ref }}
+      base_sha: ${{ needs.resolve.outputs.base_sha }}
+      mode: all
+      requested_by: ${{ github.event.comment.user.login }}

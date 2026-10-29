@@ -1,0 +1,32 @@
+name: verify-report
+
+# On every data/verifier PR, post the Tier 0 verification band report.
+# TechEngine's techapi-verify-comment.yml runs here as a reusable workflow
+# (mode=tier0) with this repo's GITHUB_TOKEN. Informational; never gates a merge.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "data/**"
+      - "app/validate.py"
+      - "app/verify/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: verify-report-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  report:
+    if: github.repository == 'GetTechAPI/TechAPI'
+    uses: GetTechAPI/TechEngine/.github/workflows/techapi-verify-comment.yml@main
+    with:
+      pr_number: ${{ format('{0}', github.event.pull_request.number) }}
+      head_sha: ${{ github.event.pull_request.head.sha }}
+      base_ref: ${{ github.event.pull_request.base.ref }}
+      base_sha: ${{ github.event.pull_request.base.sha }}
+      mode: tier0
+      requested_by: ${{ github.event.pull_request.user.login }}

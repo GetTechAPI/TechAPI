@@ -1,0 +1,144 @@
+name: final-check
+
+# TechEngineBot's only job: a maintainer adds the `final-check` label to an
+# important PR, TechEngine validates the records it changes, and TechEngineBot
+# leaves ONE comment with the verdict. Re-labelling edits that same comment.
+#
+# Deliberately narrow, because the account was once flagged for spam:
+#   * runs only when someone with triage access adds the label — no schedule,
+#     no dispatch from other repos, no automatic trigger on every PR;
+#   * the bot comments and nothing else: no pushes, no PRs, no assignments;
+#   * at most one comment per PR.
+#
+# Token: TECHENGINEBOT_TOKEN, a classic PAT of TechEngineBot with only the
+# `public_repo` scope, stored in this repository's secrets. Only the comment
+# job sees it; the job that reads PR content has no secrets.
+on:
+  pull_request_target:
+    types: [labeled]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: final-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    if: github.event.label.name == 'final-check'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      verdict: ${{ steps.validate.outputs.verdict }}
+      report: ${{ steps.validate.outputs.report }}
+      changed: ${{ steps.validate.outputs.changed }}
+      engine_sha: ${{ steps.engine.outputs.sha }}
+    steps:
+      # The PR supplies data only. Validation runs TechEngine's code, never
+      # code from the PR, and this job holds no secrets.
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+          fetch-depth: 100
+          persist-credentials: false
+
+      - name: Checkout TechEngine
+        uses: actions/checkout@v4
+        with:
+          repository: GetTechAPI/TechEngine
+          path: engine
+          persist-credentials: false
+
+      - id: engine
+        run: echo "sha=$(git -C engine rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install TechEngine
+        run: pip install -e ./engine
+
+      - name: Validate changed records
+        id: validate
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          TECHAPI_DATA_DIR: ${{ github.workspace }}/pr/data
+          PYTHONIOENCODING: utf-8
+        run: |
+          git -C pr fetch --no-tags --depth=100 https://github.com/${{ github.repository }}.git "$BASE_SHA"
+          git -C pr merge-base "$BASE_SHA" HEAD >/dev/null 2>&1 \
+            || git -C pr fetch --no-tags --unshallow https://github.com/${{ github.repository }}.git
+          changed=$(git -C pr diff --name-only "$BASE_SHA...HEAD" -- data/ | grep -c '\.json$' || true)
+          set +e
+          (cd engine && python -m app.validate --changed-since "$BASE_SHA") > out.txt 2>&1
+          status=$?
+          set -e
+          cat out.txt
+          if [ "$status" -eq 0 ]; then verdict=pass; else verdict=fail; fi
+          {
+            echo "verdict=$verdict"
+            echo "changed=$changed"
+            echo "report<<REPORT_EOF"
+            head -n 60 out.txt
+            if [ "$(wc -l < out.txt)" -gt 60 ]; then echo "... (truncated, see the workflow log)"; fi
+            echo "REPORT_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+  comment:
+    needs: check
+    if: always() && needs.check.result != 'skipped'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Post or update the TechEngineBot comment
+        env:
+          GH_TOKEN: ${{ secrets.TECHENGINEBOT_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          JOB_RESULT: ${{ needs.check.result }}
+          VERDICT: ${{ needs.check.outputs.verdict }}
+          CHANGED: ${{ needs.check.outputs.changed }}
+          ENGINE_SHA: ${{ needs.check.outputs.engine_sha }}
+          REPORT: ${{ needs.check.outputs.report }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::TECHENGINEBOT_TOKEN is not set; no comment posted."
+            exit 0
+          fi
+          marker='<!-- techengine-final-check -->'
+          case "$JOB_RESULT/$VERDICT" in
+            success/pass) title="✅ Final check passed" ;;
+            success/fail) title="❌ Final check failed" ;;
+            *)            title="⚠️ Final check could not run" ;;
+          esac
+          {
+            echo "$marker"
+            echo "### $title"
+            echo
+            echo "Commit \`${HEAD_SHA:0:7}\` · ${CHANGED:-0} changed record(s) · TechEngine \`${ENGINE_SHA:-?}\` · [run]($RUN_URL)"
+            if [ -n "$REPORT" ]; then
+              echo
+              echo '<details><summary>Validator output</summary>'
+              echo
+              echo '```'
+              echo "$REPORT"
+              echo '```'
+              echo '</details>'
+            fi
+          } > body.md
+          id=$(gh api "repos/$REPO/issues/$PR/comments" --paginate \
+            --jq ".[] | select(.user.login == \"TechEngineBot\" and (.body | contains(\"$marker\"))) | .id" | head -n 1)
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$id" -F body=@body.md > /dev/null
+            echo "updated comment $id"
+          else
+            gh api "repos/$REPO/issues/$PR/comments" -F body=@body.md > /dev/null
+            echo "posted comment"
+          fi

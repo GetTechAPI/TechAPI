@@ -64,7 +64,7 @@ jobs:
         run: |
           files=$(find site/dist -type f | wc -l)
           bytes=$(du -sb site/dist | cut -f1)
-          echo "Published site: $files files, $((bytes / 1000000)) MB" >> "$GITHUB_STEP_SUMMARY"
+          echo "Published site: $files files, $((bytes / 1000000)) MB" | tee -a "$GITHUB_STEP_SUMMARY"
           if [ "$files" -gt 700000 ] || [ "$bytes" -gt 900000000 ]; then
             echo "::error::site/dist is too large to publish safely ($files files, $bytes bytes)"
             exit 1

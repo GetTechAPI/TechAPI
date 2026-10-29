@@ -2,7 +2,7 @@
 
 ## What & why
 
-<!-- What does this change and why? Link the workstream tracker with "Closes #N": #295 new records, #296 data accuracy, #297 engine/bot/CI, #19 site, #1 releases and dumps. pr-metadata adds it automatically if missing. Auto-close is disabled for tracking issues. -->
+<!-- What does this change and why? Link the workstream tracker with "Closes #N": #295 new records, #296 data accuracy, #297 engine/bot/CI, #19 site, #1 releases. Auto-close is disabled for tracking issues. -->
 
 ## Source
 
@@ -15,3 +15,4 @@
 - [ ] Files live at the correct `data/<category>/<...>/<slug>.json` path
 - [ ] Slugs are kebab-case and unique within the category
 - [ ] `source_urls` cites at least one canonical reference
+- [ ] Sidebar filled in by hand (nothing fills it automatically): assignees, labels, milestone, projects, Copilot review, and the tracker under Development

@@ -34,19 +34,37 @@ All paths use singular folder names. Slugs are kebab-case and unique within each
 The Astro site lives under `site/` and is the deploy target for GitHub Pages.
 [`pages.yml`](.github/workflows/pages.yml) generates the static JSON API from
 `main`'s data with the pinned TechEngine at deploy time, checks it against
-`data/`, and publishes it with the site.
+`data/`, and publishes it with the site. The generated API is not committed;
+only the hand-made `site/public/v1/games/index.json` pointer is. To preview the
+site with the API locally:
+
+```bash
+git submodule update --init TechEngine   # never --recursive
+python -m pip install -e ./TechEngine
+bash .github/scripts/build-api.sh        # validates, then writes site/public/v1
+cd site && npm ci && npm run dev
+```
 
 ## Self-Check
 
-A lightweight bundled validator lives at `app/validate.py`. It runs on every PR via
-[`validate-data.yml`](.github/workflows/validate-data.yml) and is also chained into
-the heavier TechEngine validation workflow as a downstream job.
+A lightweight bundled validator lives at `app/validate.py`:
 
 ```bash
 python -m app.validate
 ```
 
 The validator uses only the Python standard library; no install step required.
+
+Every PR into `develop` or `main` runs
+[`pr-checks.yml`](.github/workflows/pr-checks.yml): this validator, TechEngine's
+validator on the changed records, the integrity gate and, when `site/` changes,
+the site build. It has no secrets and reports in the job summary, never in
+comments.
+
+For an important PR, a maintainer adds the `final-check` label.
+[`final-check.yml`](.github/workflows/final-check.yml) then builds everything
+`pages.yml` would publish from the PR, and TechEngineBot posts one comment with
+the verdict; adding the label again updates that comment.
 
 ## Branching
 
@@ -59,6 +77,8 @@ This repo follows git-flow:
 | `feat/*`, `data/*`, `fix/*`, `chore/*` | Short-lived work branches, cut from `develop`. |
 
 A release is a PR from `develop` to `main`; merging it deploys the site.
+Dependabot opens the TechEngine submodule bump (weekly) and GitHub Actions
+updates (monthly) as PRs into `develop`; they are merged by hand like any other.
 
 ## Contributing
 

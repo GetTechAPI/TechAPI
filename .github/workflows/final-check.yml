@@ -1,0 +1,190 @@
+name: final-check
+
+# A maintainer adds the `final-check` label to an important PR. The check job
+# builds what pages.yml would publish from the PR (both validators, the
+# integrity gate, the whole generated API and the site), and TechEngineBot
+# leaves ONE comment with the verdict; adding the label again edits that
+# comment. This is the only place the TechEngineBot account is used.
+#
+# The check job runs PR code, so it gets no secrets and a read-only token.
+# Only the comment job sees TECHENGINEBOT_TOKEN, which must be a fine-grained
+# token of TechEngineBot for this repository with Pull requests: read and write
+# and nothing else; the job refuses any other kind of token or account. Fork
+# PRs never get a comment.
+on:
+  pull_request:
+    types: [labeled]
+    branches: [develop, main]
+
+permissions: {}
+
+jobs:
+  check:
+    if: github.event.label.name == 'final-check'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    permissions:
+      contents: read
+    concurrency:
+      group: final-check-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
+    outputs:
+      body: ${{ steps.report.outputs.body }}
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      # The merge commit, as pages.yml would build it after merging. Not
+      # recursive: TechEngine carries TechAPI as its own submodule.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 2
+          submodules: true
+          persist-credentials: false
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Install the pinned TechEngine
+        id: install
+        continue-on-error: true
+        run: |
+          status=0
+          python -m pip install --disable-pip-version-check -e ./TechEngine > "$RUNNER_TEMP/install.log" 2>&1 || status=$?
+          tail -n 40 "$RUNNER_TEMP/install.log"
+          exit "$status"
+
+      - name: Validate the data and generate the API
+        id: api
+        if: steps.install.outcome == 'success'
+        continue-on-error: true
+        run: |
+          status=0
+          bash .github/scripts/build-api.sh > "$RUNNER_TEMP/api.log" 2>&1 || status=$?
+          cat "$RUNNER_TEMP/api.log"
+          exit "$status"
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        if: steps.api.outcome == 'success'
+        with:
+          node-version: "22"
+          package-manager-cache: false
+
+      - name: Build the site
+        id: site
+        if: steps.api.outcome == 'success'
+        continue-on-error: true
+        working-directory: site
+        run: |
+          status=0
+          { npm ci && npm run build; } > "$RUNNER_TEMP/site.log" 2>&1 || status=$?
+          tail -n 40 "$RUNNER_TEMP/site.log"
+          exit "$status"
+
+      # The comment quotes tool output, which can carry text from the PR's
+      # records: it stays inside code fences with backticks and @ removed, so
+      # it can neither break out into markdown nor mention anyone.
+      - name: Report
+        id: report
+        if: always()
+        env:
+          INSTALL: ${{ steps.install.outcome }}
+          API: ${{ steps.api.outcome }}
+          SITE: ${{ steps.site.outcome }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          clean() { tr -d '`@' | cut -c1-300; }
+          fence() {  # fence <log> <lines>
+            echo '```text'
+            tail -n "$2" "$1" 2>/dev/null | clean
+            echo '```'
+          }
+          verdict='✅ Final check passed'
+          [ "$INSTALL/$API/$SITE" = success/success/success ] || verdict='❌ Final check failed'
+          engine=$(git rev-parse --short HEAD:TechEngine 2>/dev/null || echo '?')
+          {
+            echo '<!-- techapi-final-check -->'
+            echo "### $verdict"
+            echo
+            echo "Head \`${HEAD_SHA::7}\`, checked as merged into the base · TechEngine \`$engine\` · [run]($RUN_URL)"
+            echo
+            echo '| Step | Result |'
+            echo '| --- | --- |'
+            echo "| Install the pinned TechEngine | ${INSTALL:-skipped} |"
+            echo "| Validators, integrity gate, generated API | ${API:-skipped} |"
+            echo "| Site build | ${SITE:-skipped} |"
+            if [ -s "$RUNNER_TEMP/api.log" ]; then
+              echo
+              sed -n '/^| Collection /,/^$/p' "$RUNNER_TEMP/api.log" | tr -d '`@'
+            fi
+            [ "$INSTALL" = failure ] && { echo; echo '<details><summary>Install log</summary>'; echo; fence "$RUNNER_TEMP/install.log" 20; echo '</details>'; }
+            [ "$API" = failure ] && { echo; echo '<details><summary>Validation and generation log</summary>'; echo; fence "$RUNNER_TEMP/api.log" 30; echo '</details>'; }
+            [ "$SITE" = failure ] && { echo; echo '<details><summary>Site build log</summary>'; echo; fence "$RUNNER_TEMP/site.log" 20; echo '</details>'; }
+            true
+          } > "$RUNNER_TEMP/body.md"
+          cat "$RUNNER_TEMP/body.md" >> "$GITHUB_STEP_SUMMARY"
+          delim="BODY_$(openssl rand -hex 16)"
+          { echo "body<<$delim"; cat "$RUNNER_TEMP/body.md"; echo "$delim"; } >> "$GITHUB_OUTPUT"
+          [ "$verdict" = '✅ Final check passed' ]
+
+  comment:
+    needs: check
+    if: >-
+      always() && github.event.label.name == 'final-check' &&
+      (needs.check.result == 'success' || needs.check.result == 'failure') &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - name: Check the token
+        id: token
+        env:
+          TOKEN: ${{ secrets.TECHENGINEBOT_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::warning::TECHENGINEBOT_TOKEN is not set; the verdict is in the check job's summary only."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          case "$TOKEN" in
+            github_pat_*) echo "ok=true" >> "$GITHUB_OUTPUT" ;;
+            *) echo "::error::TECHENGINEBOT_TOKEN must be a fine-grained token (github_pat_...) of TechEngineBot, for this repository only, with Pull requests: read and write."
+               exit 1 ;;
+          esac
+
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        if: steps.token.outputs.ok == 'true'
+        env:
+          BODY: ${{ needs.check.outputs.body }}
+          PR: ${{ github.event.pull_request.number }}
+        with:
+          github-token: ${{ secrets.TECHENGINEBOT_TOKEN }}
+          script: |
+            const marker = '<!-- techapi-final-check -->';
+            const body = process.env.BODY || '';
+            if (!body.startsWith(marker)) {
+              core.setFailed('The check job produced no report; nothing posted.');
+              return;
+            }
+            const { data: me } = await github.rest.users.getAuthenticated();
+            if (me.login !== 'TechEngineBot') {
+              core.setFailed(`TECHENGINEBOT_TOKEN belongs to ${me.login}, not TechEngineBot; nothing posted.`);
+              return;
+            }
+            const { owner, repo } = context.repo;
+            const issue_number = Number(process.env.PR);
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number, per_page: 100,
+            });
+            const mine = comments.find((c) => c.user?.login === me.login && c.body?.startsWith(marker));
+            if (!mine) {
+              const { data } = await github.rest.issues.createComment({ owner, repo, issue_number, body });
+              core.info(`Posted ${data.html_url}`);
+            } else if (mine.body !== body) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: mine.id, body });
+              core.info(`Updated ${mine.html_url}`);
+            } else {
+              core.info(`Unchanged: ${mine.html_url}`);
+            }

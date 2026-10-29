@@ -21,7 +21,8 @@ jobs:
   build:
     if: github.repository == 'GetTechAPI/TechAPI'
     runs-on: ubuntu-24.04
-    timeout-minutes: 90
+    # Generating the whole API took 49 minutes on 2026-10-29.
+    timeout-minutes: 120
     permissions:
       contents: read
     env:

@@ -1,0 +1,93 @@
+name: pages
+
+# Publishes main to GitHub Pages. The static API (v1/, openapi.json) and the
+# verification aggregate are generated in this job from main's data with the
+# pinned TechEngine, so nothing is committed back: the workflow has no write
+# access to the repository and cannot trigger itself. A manual run on any
+# branch other than main is a dry run that builds everything and skips the
+# deploy.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.repository == 'GetTechAPI/TechAPI'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    permissions:
+      contents: read
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      # Full history: the dump stamps created_at/updated_at from git log of
+      # data/ (a shallow clone stamps every record with the tip time), and the
+      # growth chart reads old commits. Submodules are not recursive: TechEngine
+      # carries TechAPI as its own submodule.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          submodules: true
+          persist-credentials: false
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Install the pinned TechEngine
+        run: python -m pip install --disable-pip-version-check -e ./TechEngine
+
+      - name: Validate the data and generate the API
+        run: bash .github/scripts/build-api.sh
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "22"
+          package-manager-cache: false
+
+      - name: Build the site
+        working-directory: site
+        run: |
+          npm ci
+          npm run build
+
+      # Pages publishes at most 1 GB, and a deploy has 10 minutes: 1.2M files
+      # took 9-10 minutes in July 2026.
+      - name: Gate - published size
+        run: |
+          files=$(find site/dist -type f | wc -l)
+          bytes=$(du -sb site/dist | cut -f1)
+          echo "Published site: $files files, $((bytes / 1000000)) MB" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$files" -gt 700000 ] || [ "$bytes" -gt 900000000 ]; then
+            echo "::error::site/dist is too large to publish safely ($files files, $bytes bytes)"
+            exit 1
+          fi
+
+      # Keeps the exact published bytes for 30 days (audit, and rollback by
+      # re-running this run's deploy job).
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site/dist
+          retention-days: 30
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

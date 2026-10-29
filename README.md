@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml"><img src="https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml/badge.svg" alt="validate-data"></a>
+  <a href="https://github.com/GetTechAPI/TechAPI/actions/workflows/pages.yml"><img src="https://github.com/GetTechAPI/TechAPI/actions/workflows/pages.yml/badge.svg" alt="pages"></a>
   &nbsp;Data: <strong>CC-BY-SA 4.0</strong>
 </p>
 
@@ -31,9 +31,10 @@ data/cpu/<manufacturer>/<year>/<segment>/<slug>.json   # data/cpu/intel/2023/con
 
 All paths use singular folder names. Slugs are kebab-case and unique within each category.
 
-The Astro site lives under `site/` and is the deploy target for GitHub Pages. It
-consumes the static JSON dump produced by TechEngine's `weekly-refresh` (rescrapes,
-then dumps) and `dump-refresh` (re-dumps current data without a rescrape) workflows.
+The Astro site lives under `site/` and is the deploy target for GitHub Pages.
+[`pages.yml`](.github/workflows/pages.yml) generates the static JSON API from
+`main`'s data with the pinned TechEngine at deploy time, checks it against
+`data/`, and publishes it with the site.
 
 ## Self-Check
 
@@ -53,13 +54,11 @@ This repo follows git-flow:
 
 | Branch | Role |
 | --- | --- |
-| `main` | Released state. Publishing the site and notifying TechEngine both fire on a push here, so it only moves through a release PR. |
+| `main` | Released state. Publishing the site fires on a push here, so it only moves through a release PR. |
 | `develop` | Integration. Every data, feature and fix branch targets this. |
 | `feat/*`, `data/*`, `fix/*`, `chore/*` | Short-lived work branches, cut from `develop`. |
 
-A release is a PR from `develop` to `main`; merging it deploys the site and tells
-TechEngine to pick up the new data. Automation follows the same rule — the
-submodule bump and the verified-promotion bot both land on `develop`.
+A release is a PR from `develop` to `main`; merging it deploys the site.
 
 ## Contributing
 

@@ -151,4 +151,4 @@ jobs:
                   END { for (c in n) printf "| %s | %d | %d | %d |\n", c, s[c, "A"], s[c, "M"], s[c, "D"] }' | sort
             cat "$RUNNER_TEMP/failures.md" 2>/dev/null
             if [ -s "$RUNNER_TEMP/tier0.md" ]; then echo; echo "### Tier 0 (informational)"; echo; cat "$RUNNER_TEMP/tier0.md"; fi
-          } >> "$GITHUB_STEP_SUMMARY"
+          } | tee -a "$GITHUB_STEP_SUMMARY"

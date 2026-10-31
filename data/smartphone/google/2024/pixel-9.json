@@ -7,7 +7,10 @@
   "release_date": "2024-08-22",
   "msrp_usd": 799,
   "ram_gb": 12,
-  "storage_options_gb": [128, 256],
+  "storage_options_gb": [
+    128,
+    256
+  ],
   "display": {
     "size_inch": 6.3,
     "resolution": "2424x1080",
@@ -17,23 +20,54 @@
     "ppi": 422
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.68, "ois": true, "sensor": "Samsung GNK"},
-    {"type": "ultrawide", "mp": 48, "aperture": 1.7, "ois": false},
-    {"type": "selfie", "mp": 10.5, "aperture": 2.2}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.68,
+      "ois": true,
+      "sensor": "Samsung GNK"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 48,
+      "aperture": 1.7,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 10.5,
+      "aperture": 2.2
+    }
   ],
   "battery_mah": 4700,
   "charging_wired_w": 27,
   "charging_wireless_w": 15,
   "weight_g": 198.0,
-  "dimensions": {"height_mm": 152.8, "width_mm": 72.0, "depth_mm": 8.5},
+  "dimensions": {
+    "height_mm": 152.8,
+    "width_mm": 72.0,
+    "depth_mm": 8.5
+  },
   "ip_rating": "IP68",
   "os": "Android",
   "os_version": "14",
-  "connectivity": {"wifi": "Wi-Fi 7", "bluetooth": "5.3", "nfc": true, "usb": "USB-C 3.2"},
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.3",
+    "nfc": true,
+    "usb": "USB-C 3.2"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://store.google.com/product/pixel_9_specs",
-    "https://en.wikipedia.org/wiki/Pixel_9"
+    "https://en.wikipedia.org/wiki/Pixel_9",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "Pixel 9"
+  ],
+  "codenames": [
+    "tokay"
   ]
 }

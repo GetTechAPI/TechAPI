@@ -9,7 +9,8 @@
   "os": "Android 12, Realme UI 3.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v30",
   "variant": {
@@ -101,5 +102,12 @@
     128
   ],
   "soc": "mediatek",
-  "os_version": "12"
+  "os_version": "12",
+  "model_numbers": [
+    "RMX3618",
+    "RMX3619"
+  ],
+  "codenames": [
+    "RE584B"
+  ]
 }

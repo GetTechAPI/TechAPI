@@ -9,7 +9,8 @@
   "os": "Android 5.0.2 (Lollipop), upgradable to 6.0 (Marshmallow), LG Optimus UX UI 4",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g4c",
   "variant": {
@@ -108,5 +109,13 @@
     "height_mm": 139.7,
     "width_mm": 69.8,
     "depth_mm": 10.2
-  }
+  },
+  "model_numbers": [
+    "LG-H525",
+    "LG-H525n"
+  ],
+  "codenames": [
+    "c90",
+    "c90n"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), HIOS 5.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "spark-go",
   "variant": {
@@ -106,5 +107,11 @@
     "height_mm": 156.1,
     "width_mm": 75.0,
     "depth_mm": 9.2
-  }
+  },
+  "model_numbers": [
+    "TECNO KC1"
+  ],
+  "codenames": [
+    "TECNO-KC1"
+  ]
 }

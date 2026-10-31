@@ -9,7 +9,8 @@
   "os": "Android 11 (Go edition)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "blade-l9",
   "variant": {
@@ -104,5 +105,11 @@
     "height_mm": 137.5,
     "width_mm": 67.5,
     "depth_mm": 10.0
-  }
+  },
+  "model_numbers": [
+    "ZTE Blade L9"
+  ],
+  "codenames": [
+    "P731F21"
+  ]
 }

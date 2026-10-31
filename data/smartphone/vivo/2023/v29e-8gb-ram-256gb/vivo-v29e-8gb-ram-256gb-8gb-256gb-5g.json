@@ -9,7 +9,8 @@
   "os": "Android v13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v29e-8gb-ram-256gb",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v13"
   },
   "soc": "snapdragon-695",
-  "os_version": "13"
+  "os_version": "13",
+  "model_numbers": [
+    "V2303",
+    "V2317"
+  ],
+  "codenames": [
+    "V2303",
+    "V2317"
+  ]
 }

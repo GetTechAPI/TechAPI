@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), EMUI 5.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mediapad-m3-lite-10",
   "variant": {
@@ -107,5 +108,13 @@
     "height_mm": 241.3,
     "width_mm": 171.5,
     "depth_mm": 7.1
-  }
+  },
+  "model_numbers": [
+    "BAH-AL00",
+    "BAH-L09",
+    "BAH-W09"
+  ],
+  "codenames": [
+    "HWBAH-Q"
+  ]
 }

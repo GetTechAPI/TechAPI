@@ -9,7 +9,8 @@
   "os": "Android v10, upgradable to v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "c15-qualcomm-edition",
   "variant": {
@@ -166,5 +167,12 @@
     "Technical.OS": "Android v10, upgradable to v11"
   },
   "soc": "snapdragon-460",
-  "os_version": "10"
+  "os_version": "10",
+  "model_numbers": [
+    "RMX2195"
+  ],
+  "codenames": [
+    "RECE4244",
+    "RMX2195L1"
+  ]
 }

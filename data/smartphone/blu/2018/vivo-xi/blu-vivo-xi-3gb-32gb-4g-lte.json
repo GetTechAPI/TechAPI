@@ -9,7 +9,8 @@
   "os": "Android v8.1 (Oreo), upgradable to v9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "vivo-xi",
   "variant": {
@@ -166,5 +167,12 @@
     "Technical.OS": "Android v8.1 (Oreo), upgradable to v9.0 (Pie)"
   },
   "soc": "helio-p22",
-  "os_version": "8.1"
+  "os_version": "8.1",
+  "model_numbers": [
+    "Vivo XI PLUS",
+    "Vivo XI+"
+  ],
+  "codenames": [
+    "V0310WW"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-xcover-fieldpro",
   "variant": {
@@ -110,5 +111,14 @@
     "height_mm": 158.5,
     "width_mm": 80.7,
     "depth_mm": 14.2
-  }
+  },
+  "model_numbers": [
+    "SM-G889A",
+    "SM-G889G",
+    "SM-G889YB"
+  ],
+  "codenames": [
+    "haechiy19",
+    "haechiy19lteatt"
+  ]
 }

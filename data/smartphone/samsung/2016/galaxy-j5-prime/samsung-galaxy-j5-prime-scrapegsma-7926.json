@@ -10,7 +10,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "exynos-7570-quad",
   "variant": {
@@ -51,5 +52,16 @@
       "raw": "13 MP, f/1.9, 28mm (wide), AF"
     }
   ],
-  "os_version": "6.0.1"
+  "os_version": "6.0.1",
+  "model_numbers": [
+    "SM-G5700",
+    "SM-G570F",
+    "SM-G570M",
+    "SM-G570Y"
+  ],
+  "codenames": [
+    "on5xelte",
+    "on5xelteins",
+    "on5xltechn"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-a21-simple-scv49",
   "variant": {
@@ -166,5 +167,18 @@
     "Technical.OS": "Android v11"
   },
   "soc": "exynos-7884b",
-  "os_version": "11"
+  "os_version": "11",
+  "model_numbers": [
+    "SC-42A",
+    "SCV49",
+    "SM-A215U",
+    "SM-A215U1",
+    "SM-A215W",
+    "SM-S215DL"
+  ],
+  "codenames": [
+    "SC-42A",
+    "SCV49",
+    "a21"
+  ]
 }

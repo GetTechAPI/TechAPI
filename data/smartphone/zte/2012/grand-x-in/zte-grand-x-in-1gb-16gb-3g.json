@@ -9,7 +9,8 @@
   "os": "Android 4.0 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "grand-x-in",
   "variant": {
@@ -105,5 +106,15 @@
     "height_mm": 127.0,
     "width_mm": 65.0,
     "depth_mm": 9.9
-  }
+  },
+  "model_numbers": [
+    "Grand X In",
+    "STARADDICT II Plus",
+    "ZTE Grand X",
+    "ZTE Grand X In"
+  ],
+  "codenames": [
+    "mfld_pr2",
+    "whistler"
+  ]
 }

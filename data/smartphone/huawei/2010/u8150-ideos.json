@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "display": {
     "size_inch": 2.8,
@@ -37,5 +38,15 @@
     "platform_chipset": "Qualcomm MSM7225 Snapdragon S1",
     "platform_cpu": "528 MHz ARM 11",
     "platform_gpu": null
-  }
+  },
+  "model_numbers": [
+    "Comet",
+    "Ideos"
+  ],
+  "codenames": [
+    "U8150",
+    "msm7225",
+    "msm7625",
+    "u8150"
+  ]
 }

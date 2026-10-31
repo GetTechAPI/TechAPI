@@ -10,7 +10,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
-    "https://en.wikipedia.org/wiki/HMD_Key"
+    "https://en.wikipedia.org/wiki/HMD_Key",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "key",
   "variant": {
@@ -167,5 +168,11 @@
     "Technical.OS": "Android v14"
   },
   "soc": "unisoc-sc9832e",
-  "os_version": "14"
+  "os_version": "14",
+  "model_numbers": [
+    "HMD KEY"
+  ],
+  "codenames": [
+    "CMT"
+  ]
 }

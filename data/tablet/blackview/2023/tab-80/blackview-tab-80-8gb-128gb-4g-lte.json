@@ -9,7 +9,8 @@
   "os": "Android 13, Doke OS_P 3.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-80",
   "variant": {
@@ -108,5 +109,13 @@
     "height_mm": 241.0,
     "width_mm": 156.0,
     "depth_mm": 7.5
-  }
+  },
+  "model_numbers": [
+    "Tab 80"
+  ],
+  "codenames": [
+    "Tab80",
+    "Tab80_EEA",
+    "Tab80_RU"
+  ]
 }

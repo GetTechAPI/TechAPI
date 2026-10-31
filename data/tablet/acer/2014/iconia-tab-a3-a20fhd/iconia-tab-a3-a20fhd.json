@@ -3,17 +3,19 @@
   "name": "Iconia Tab A3-A20FHD",
   "brand": "acer",
   "soc": "mediatek-mt8127",
-  "release_date": "2014-01-01",
+  "release_date": "2014-10-01",
   "ram_gb": 2,
-  "battery_mah": 1500,
-  "weight_g": 150.0,
-  "os": "Android",
+  "battery_mah": 5910,
+  "weight_g": 508.0,
+  "os": "Android 4.4 (KitKat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
-    2,
     32
   ],
   "display": {
@@ -60,5 +62,67 @@
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2014, October",
+    "lte": "0",
+    "cpu": "Quad-core 1.5 GHz Cortex-A7",
+    "ram": "32 GB, 2 GB RAM",
+    "internal": "32 GB, 2 GB RAM",
+    "camera": "5 MP, AF",
+    "front_camera": "2 MP",
+    "bluetooth": "4.0, A2DP",
+    "price": "About 230 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "acer-iconia-tab-a3-a20fhd",
+      "base_model_slug": "acer-iconia-tab-a3-a20fhd",
+      "name": "Acer Iconia Tab A3-A20FHD",
+      "brand": "acer",
+      "release_date": "2014-10-01",
+      "ram_gb": 2.0,
+      "battery_mah": 5910,
+      "weight_g": 508.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2014, October",
+        "lte": "0",
+        "cpu": "Quad-core 1.5 GHz Cortex-A7",
+        "ram": "32 GB, 2 GB RAM",
+        "internal": "32 GB, 2 GB RAM",
+        "camera": "5 MP, AF",
+        "front_camera": "2 MP",
+        "bluetooth": "4.0, A2DP",
+        "price": "About 230 EUR"
+      },
+      "display": {
+        "size_inch": 10.1,
+        "resolution": "1920x1200",
+        "type": "LED-backlit IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 224
+      },
+      "storage_options_gb": [
+        32
+      ],
+      "connectivity": {
+        "bluetooth": "4.0, A2DP"
+      }
+    }
+  ],
+  "model_numbers": [
+    "A3-A20FHD"
+  ],
+  "codenames": [
+    "acer_harleyfhd"
+  ]
 }

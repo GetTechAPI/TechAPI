@@ -9,7 +9,8 @@
   "os": "Android v8.0 (Oreo), upgradable to v9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-mix-2s-6gb-ram-128gb",
   "variant": {
@@ -166,5 +167,12 @@
     "Technical.OS": "Android v8.0 (Oreo), upgradable to v9.0 (Pie)"
   },
   "soc": "snapdragon-845",
-  "os_version": "8.0"
+  "os_version": "8.0",
+  "model_numbers": [
+    "MIX 2S",
+    "Mi MIX 2S"
+  ],
+  "codenames": [
+    "polaris"
+  ]
 }

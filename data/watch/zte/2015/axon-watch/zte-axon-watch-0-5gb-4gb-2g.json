@@ -9,7 +9,8 @@
   "os": "Tencent OS",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "axon-watch",
   "variant": {
@@ -91,5 +92,12 @@
   "storage_options_gb": [
     4
   ],
-  "soc": "qualcomm-msm8926-snapdragon-400"
+  "soc": "qualcomm-msm8926-snapdragon-400",
+  "model_numbers": [
+    "AXON WATCH",
+    "ZTE W1010"
+  ],
+  "codenames": [
+    "rolex"
+  ]
 }

@@ -7,7 +7,10 @@
   "release_date": "2024-06-25",
   "msrp_usd": 1099,
   "ram_gb": 12,
-  "storage_options_gb": [256, 512],
+  "storage_options_gb": [
+    256,
+    512
+  ],
   "display": {
     "size_inch": 6.9,
     "resolution": "2640x1080",
@@ -17,23 +20,70 @@
     "ppi": 413
   },
   "cameras": [
-    {"type": "main", "mp": 50, "aperture": 1.7, "ois": true, "sensor": "Sony LYT-700C"},
-    {"type": "ultrawide", "mp": 50, "aperture": 2.2, "ois": false},
-    {"type": "selfie", "mp": 32, "aperture": 2.4}
+    {
+      "type": "main",
+      "mp": 50,
+      "aperture": 1.7,
+      "ois": true,
+      "sensor": "Sony LYT-700C"
+    },
+    {
+      "type": "ultrawide",
+      "mp": 50,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "selfie",
+      "mp": 32,
+      "aperture": 2.4
+    }
   ],
   "battery_mah": 4000,
   "charging_wired_w": 45,
   "charging_wireless_w": 15,
   "weight_g": 189.0,
-  "dimensions": {"height_mm": 171.3, "width_mm": 74.0, "depth_mm": 7.1},
+  "dimensions": {
+    "height_mm": 171.3,
+    "width_mm": 74.0,
+    "depth_mm": 7.1
+  },
   "ip_rating": "IP48",
   "os": "Android",
   "os_version": "14",
-  "connectivity": {"wifi": "Wi-Fi 7", "bluetooth": "5.4", "nfc": true, "usb": "USB-C 2.0"},
+  "connectivity": {
+    "wifi": "Wi-Fi 7",
+    "bluetooth": "5.4",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
   "image_url": null,
   "verified": true,
   "source_urls": [
     "https://www.motorola.com/us/smartphones/razr-50-ultra",
-    "https://en.wikipedia.org/wiki/Motorola_Razr_50_Ultra"
+    "https://en.wikipedia.org/wiki/Motorola_Razr_50_Ultra",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "XT2453-2",
+    "XT2551-3",
+    "motorola razr 2026",
+    "motorola razr 40",
+    "motorola razr 40 ultra",
+    "motorola razr 50",
+    "motorola razr 50 ultra",
+    "motorola razr 60",
+    "motorola razr 60 ultra",
+    "motorola razr 70",
+    "motorola razr 70 plus",
+    "motorola razr plus 2026",
+    "motorola razr ultra 2025"
+  ],
+  "codenames": [
+    "aito",
+    "arcfox",
+    "eiger",
+    "leap",
+    "volcano"
   ]
 }

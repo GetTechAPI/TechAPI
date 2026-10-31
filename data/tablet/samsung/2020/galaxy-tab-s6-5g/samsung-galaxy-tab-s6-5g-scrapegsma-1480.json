@@ -10,7 +10,8 @@
   "os": "Android 10, One UI 2",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -48,5 +49,11 @@
     "bluetooth": "5.0, A2DP, LE",
     "gps": "Yes, with A-GPS, GLONASS, BDS, GALILEO"
   },
-  "os_version": "10"
+  "os_version": "10",
+  "model_numbers": [
+    "SM-T866N"
+  ],
+  "codenames": [
+    "gts6x"
+  ]
 }

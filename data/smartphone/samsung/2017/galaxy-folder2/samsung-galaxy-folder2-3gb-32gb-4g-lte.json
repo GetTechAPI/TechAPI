@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-folder2",
   "variant": {
@@ -106,5 +107,13 @@
     "height_mm": 122.0,
     "width_mm": 60.2,
     "depth_mm": 16.1
-  }
+  },
+  "model_numbers": [
+    "SM-G160N",
+    "SM-G1650"
+  ],
+  "codenames": [
+    "eliteltekx",
+    "elitexlte"
+  ]
 }

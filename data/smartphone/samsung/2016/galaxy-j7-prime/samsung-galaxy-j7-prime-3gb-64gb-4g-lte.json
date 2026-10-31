@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to Android 9.0 (Pie), One UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-j7-prime",
   "variant": {
@@ -115,5 +116,19 @@
     "height_mm": 151.7,
     "width_mm": 75.0,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "SM-G6100",
+    "SM-G610F",
+    "SM-G610M",
+    "SM-G610Y",
+    "SM-J727T",
+    "SM-J727T1"
+  ],
+  "codenames": [
+    "j7popeltemtr",
+    "j7popeltetmo",
+    "on7xelte",
+    "on7xltechn"
+  ]
 }

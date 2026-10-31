@@ -9,7 +9,8 @@
   "os": "Android Wear OS 3.5",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "watch-2-pro",
   "variant": {
@@ -90,5 +91,14 @@
   "storage_options_gb": [
     32
   ],
-  "os_version": "3.5"
+  "os_version": "3.5",
+  "model_numbers": [
+    "Xiaomi Watch 2",
+    "Xiaomi Watch 2 Pro"
+  ],
+  "codenames": [
+    "axolotl",
+    "axolotlaxie",
+    "axolotlte"
+  ]
 }

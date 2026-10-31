@@ -10,7 +10,8 @@
   "os": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); MIUI 10.2",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "snapdragon-660",
   "variant": {
@@ -45,5 +46,12 @@
     "gps": "Yes, with A-GPS, GLONASS, BDS",
     "usb": "Type-C 1.0 reversible connector"
   },
-  "os_version": "8.1"
+  "os_version": "8.1",
+  "model_numbers": [
+    "MI 8 Lite",
+    "Platina"
+  ],
+  "codenames": [
+    "platina"
+  ]
 }

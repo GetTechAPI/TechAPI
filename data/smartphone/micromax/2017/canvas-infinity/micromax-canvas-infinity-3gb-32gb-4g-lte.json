@@ -9,7 +9,8 @@
   "os": "Android 7.1.2 (Nougat), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "canvas-infinity",
   "variant": {
@@ -111,5 +112,11 @@
     "height_mm": 152.0,
     "width_mm": 73.0,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "Micromax HS2"
+  ],
+  "codenames": [
+    "HS2"
+  ]
 }

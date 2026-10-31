@@ -9,7 +9,8 @@
   "os": "Android v13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "spark-go-2024",
   "variant": {
@@ -166,5 +167,17 @@
     "Technical.OS": "Android v13"
   },
   "soc": "unisoc-t606",
-  "os_version": "13"
+  "os_version": "13",
+  "model_numbers": [
+    "TECNO BG6",
+    "TECNO BG6m",
+    "TECNO BG6s",
+    "TECNO Mobile BG6"
+  ],
+  "codenames": [
+    "TECNO-BG6",
+    "TECNO-BG6m",
+    "TECNO-BG6s",
+    "TECNO-Mobile-BG6"
+  ]
 }

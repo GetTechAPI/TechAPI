@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "phab2-pro",
   "variant": {
@@ -116,5 +117,13 @@
     "height_mm": 179.8,
     "width_mm": 88.6,
     "depth_mm": 10.7
-  }
+  },
+  "model_numbers": [
+    "Lenovo PB2-690M",
+    "Lenovo PB2-690N",
+    "Lenovo PB2-690Y"
+  ],
+  "codenames": [
+    "PB2PRO"
+  ]
 }

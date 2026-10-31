@@ -6,6 +6,7 @@
   "release_date": "2010-09-01",
   "ram_gb": 1,
   "storage_options_gb": [
+    16,
     32
   ],
   "battery_mah": 4000,
@@ -23,7 +24,8 @@
     "bluetooth": "3.0| A2DP",
     "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
     "usb": "2.0",
-    "gps": "Yes with A-GPS"
+    "gps": "Yes with A-GPS",
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,16 +34,97 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "hummingbird",
   "raw_price": "About 150 EUR",
-  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-ofic.jpg",
+  "image_url": null,
   "cameras": [
     {
       "type": "main",
       "raw": "3.15 MP| autofocus| LED flash| "
+    },
+    {
+      "type": "main",
+      "mp": 3.15
+    },
+    {
+      "type": "selfie",
+      "mp": 1.3
     }
   ],
-  "os_version": "2.2"
+  "os_version": "2.2",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / HSPA",
+    "platform_chipset": "Hummingbird",
+    "platform_cpu": "1.0 GHz Cortex-A8",
+    "platform_gpu": "PowerVR SGX540"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "p1000-galaxy-tab",
+      "name": "P1000 Galaxy Tab",
+      "brand": "samsung",
+      "soc": "hummingbird",
+      "release_date": "2010-01-01",
+      "ram_gb": 1,
+      "battery_mah": 4000,
+      "weight_g": 380.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        32
+      ],
+      "display": {
+        "size_inch": 7.0,
+        "resolution": "600x1024",
+        "type": "TFT capacitive touchscreen, 16M colors",
+        "ppi": 170
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 3.15
+        },
+        {
+          "type": "selfie",
+          "mp": 1.3
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
+        "bluetooth": "3.0, A2DP",
+        "usb": "2.0"
+      },
+      "raw_price": "About 150 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "GSM / HSPA",
+        "platform_chipset": "Hummingbird",
+        "platform_cpu": "1.0 GHz Cortex-A8",
+        "platform_gpu": "PowerVR SGX540"
+      },
+      "base_model_slug": "p1000-galaxy-tab",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "p1000-galaxy-tab",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 32
+        },
+        "model_numbers": [
+          "P1000-GALAXY-TAB"
+        ],
+        "network": {
+          "cellular": "2G"
+        }
+      }
+    }
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 7.1.2 (Nougat), upgradable to Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v30",
   "variant": {
@@ -120,5 +121,22 @@
     "height_mm": 151.7,
     "width_mm": 75.4,
     "depth_mm": 7.3
-  }
+  },
+  "model_numbers": [
+    "LG-AS998",
+    "LG-H930",
+    "LG-H931",
+    "LG-H932",
+    "LG-H932PR",
+    "LG-H933",
+    "LG-LS998",
+    "LG-US998",
+    "LGM-V300K",
+    "LGM-V300L",
+    "LGM-V300S",
+    "VS996"
+  ],
+  "codenames": [
+    "joan"
+  ]
 }

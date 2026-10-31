@@ -9,7 +9,8 @@
   "os": "Android 5.1 (Lollipop)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "canvas-spark-3-q385",
   "variant": {
@@ -106,5 +107,13 @@
     "height_mm": 153.8,
     "width_mm": 77.5,
     "depth_mm": 9.1
-  }
+  },
+  "model_numbers": [
+    "Micromax Q380N",
+    "Micromax Q385"
+  ],
+  "codenames": [
+    "Q380N",
+    "Q385"
+  ]
 }

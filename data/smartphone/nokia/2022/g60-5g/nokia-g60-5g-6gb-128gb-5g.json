@@ -9,7 +9,8 @@
   "os": "Android v12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g60-5g",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v12"
   },
   "soc": "snapdragon-695",
-  "os_version": "12"
+  "os_version": "12",
+  "model_numbers": [
+    "Nokia G60 5G"
+  ],
+  "codenames": [
+    "APO_sprout"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 4.2.2 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "a880",
   "variant": {
@@ -105,5 +106,15 @@
     "height_mm": 164.0,
     "width_mm": 85.4,
     "depth_mm": 9.3
-  }
+  },
+  "model_numbers": [
+    "Lenovo A708t",
+    "Lenovo A880",
+    "Lenovo PB1-770P"
+  ],
+  "codenames": [
+    "A708t",
+    "A880",
+    "PB1-770P"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 5.0.2 (Lollipop)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "canvas-sliver-5-q450",
   "variant": {
@@ -105,5 +106,11 @@
     16
   ],
   "soc": "qualcomm-msm8916-snapdragon-410",
-  "os_version": "5.0.2"
+  "os_version": "5.0.2",
+  "model_numbers": [
+    "Micromax Q450"
+  ],
+  "codenames": [
+    "Q450"
+  ]
 }

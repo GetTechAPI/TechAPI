@@ -9,7 +9,8 @@
   "os": "Android 5.1 (Lollipop), EMUI 3.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mediapad-t2-10-0-pro",
   "variant": {
@@ -107,5 +108,17 @@
     "height_mm": 259.1,
     "width_mm": 156.4,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "605HW",
+    "606HW",
+    "FDR-A01L",
+    "FDR-A01w",
+    "FDR-A03L",
+    "FDR-A05L"
+  ],
+  "codenames": [
+    "HWFDR",
+    "hwfdr"
+  ]
 }

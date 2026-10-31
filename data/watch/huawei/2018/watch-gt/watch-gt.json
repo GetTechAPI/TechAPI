@@ -3,20 +3,22 @@
   "name": "Watch GT",
   "brand": "huawei",
   "soc": "huawei-mobile-platform-2018",
-  "release_date": "2018-01-01",
-  "ram_gb": 1,
-  "battery_mah": 1500,
-  "weight_g": 150.0,
-  "os": "Feature phone",
+  "release_date": "2018-10-01",
+  "ram_gb": 0.016,
+  "battery_mah": 420,
+  "weight_g": 46.0,
+  "os": "Huawei wearable platform",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "display": {
     "size_inch": 1.39,
     "resolution": "454x454",
     "type": "OLED capacitive touchscreen, 16M colors",
-    "ppi": 462
+    "ppi": 326
   },
   "connectivity": {
     "bluetooth": "4.2, LE, EDR"
@@ -34,5 +36,58 @@
     "region": "global",
     "source_category": "smartphone-reclassified",
     "source_slug": "watch-gt"
-  }
+  },
+  "raw_source": {
+    "year": "2018, October",
+    "lte": "0",
+    "cpu": "",
+    "ram": "128 MB, 16 MB RAM",
+    "internal": "128 MB, 16 MB RAM",
+    "camera": "No",
+    "front_camera": "",
+    "bluetooth": "4.2, LE, EDR",
+    "price": "About 200 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "huawei-watch-gt",
+      "base_model_slug": "huawei-watch-gt",
+      "name": "Huawei Watch GT",
+      "brand": "huawei",
+      "release_date": "2018-10-01",
+      "ram_gb": 0.016,
+      "battery_mah": 420,
+      "weight_g": 46.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2018, October",
+        "lte": "0",
+        "cpu": "",
+        "ram": "128 MB, 16 MB RAM",
+        "internal": "128 MB, 16 MB RAM",
+        "camera": "No",
+        "front_camera": "",
+        "bluetooth": "4.2, LE, EDR",
+        "price": "About 200 EUR"
+      },
+      "display": {
+        "size_inch": 1.39,
+        "resolution": "454x454",
+        "type": "AMOLED capacitive touchscreen, 16M colors",
+        "ppi": 326
+      },
+      "connectivity": {
+        "bluetooth": "4.2, LE, EDR"
+      }
+    }
+  ]
 }

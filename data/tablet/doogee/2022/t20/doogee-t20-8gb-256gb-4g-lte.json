@@ -9,7 +9,8 @@
   "os": "Android 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "t20",
   "variant": {
@@ -108,5 +109,12 @@
     "height_mm": 245.8,
     "width_mm": 155.6,
     "depth_mm": 7.9
-  }
+  },
+  "model_numbers": [
+    "T20"
+  ],
+  "codenames": [
+    "P2",
+    "P2_2"
+  ]
 }

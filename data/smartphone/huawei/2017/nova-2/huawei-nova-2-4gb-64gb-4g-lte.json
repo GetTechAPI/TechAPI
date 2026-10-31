@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), EMUI 5.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "nova-2",
   "variant": {
@@ -109,5 +110,14 @@
     "height_mm": 142.2,
     "width_mm": 68.9,
     "depth_mm": 6.9
-  }
+  },
+  "model_numbers": [
+    "HWV31",
+    "PIC-AL00",
+    "PIC-LX9",
+    "PIC-TL00"
+  ],
+  "codenames": [
+    "HWPIC"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android v10, upgradable to v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "5-4-6gb-ram-64gb",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v10, upgradable to v11"
   },
   "soc": "snapdragon-662",
-  "os_version": "10"
+  "os_version": "10",
+  "model_numbers": [
+    "Nokia 5.4"
+  ],
+  "codenames": [
+    "DRD",
+    "DRDA_sprout",
+    "DRD_sprout"
+  ]
 }

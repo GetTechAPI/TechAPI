@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "moto-g6",
   "variant": {
@@ -123,5 +124,23 @@
     "height_mm": 153.8,
     "width_mm": 72.3,
     "depth_mm": 8.3
-  }
+  },
+  "model_numbers": [
+    "XT1790",
+    "XT1925-10",
+    "moto e6",
+    "moto e6 (XT2005DL)",
+    "moto g(6)",
+    "moto g(6) (XT1925DL)",
+    "moto g(7)",
+    "moto g(7) play"
+  ],
+  "codenames": [
+    "ali",
+    "ali_n",
+    "channel",
+    "river",
+    "river_n",
+    "surfna"
+  ]
 }

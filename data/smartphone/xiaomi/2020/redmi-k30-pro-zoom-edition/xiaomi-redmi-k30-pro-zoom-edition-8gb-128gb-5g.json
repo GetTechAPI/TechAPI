@@ -9,7 +9,8 @@
   "os": "Android v10.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "redmi-k30-pro-zoom-edition",
   "variant": {
@@ -166,5 +167,14 @@
     "Technical.OS": "Android v10.0"
   },
   "soc": "snapdragon-865-plus",
-  "os_version": "10.0"
+  "os_version": "10.0",
+  "model_numbers": [
+    "Lmi",
+    "Redmi K30 Pro",
+    "Redmi K30 Pro Zoom Edition"
+  ],
+  "codenames": [
+    "lmi",
+    "lmipro"
+  ]
 }

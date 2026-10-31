@@ -9,7 +9,8 @@
   "os": "Android v14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v60-pro",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v14"
   },
   "soc": "dimensity-6300",
-  "os_version": "14"
+  "os_version": "14",
+  "model_numbers": [
+    "RMX3953"
+  ],
+  "codenames": [
+    "RE6019"
+  ]
 }

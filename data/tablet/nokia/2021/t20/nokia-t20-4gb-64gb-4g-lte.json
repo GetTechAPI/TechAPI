@@ -9,7 +9,8 @@
   "os": "Android 11, upgradable to Android 13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "t20",
   "variant": {
@@ -116,5 +117,12 @@
     "height_mm": 247.6,
     "width_mm": 157.5,
     "depth_mm": 7.8
-  }
+  },
+  "model_numbers": [
+    "Nokia T20"
+  ],
+  "codenames": [
+    "RDD",
+    "RDDCN"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 5.0.2 (Lollipop), upgradable to 6.0.1 (Marshmallow) - T710, T715",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-s2-8-0",
   "variant": {
@@ -109,5 +110,21 @@
     "height_mm": 198.6,
     "width_mm": 134.8,
     "depth_mm": 5.6
-  }
+  },
+  "model_numbers": [
+    "SM-T710",
+    "SM-T710X",
+    "SM-T713",
+    "SM-T715C",
+    "SM-T715N0",
+    "SM-T715Y"
+  ],
+  "codenames": [
+    "gts28lte",
+    "gts28ltechn",
+    "gts28ltekx",
+    "gts28vewifi",
+    "gts28wifi",
+    "gts28wifichn"
+  ]
 }

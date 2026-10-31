@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 11, MIUI 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-cc9-pro",
   "variant": {
@@ -117,5 +118,16 @@
     "height_mm": 157.8,
     "width_mm": 74.2,
     "depth_mm": 9.7
-  }
+  },
+  "model_numbers": [
+    "MI CC 9",
+    "MI CC9 Pro",
+    "Mi 9 Lite",
+    "Mi Note 10",
+    "Pyxis"
+  ],
+  "codenames": [
+    "pyxis",
+    "tucana"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 11, Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "3-2",
   "variant": {
@@ -112,5 +113,11 @@
     "height_mm": 159.4,
     "width_mm": 76.2,
     "depth_mm": 8.6
-  }
+  },
+  "model_numbers": [
+    "Nokia 3.2"
+  ],
+  "codenames": [
+    "DPL_sprout"
+  ]
 }

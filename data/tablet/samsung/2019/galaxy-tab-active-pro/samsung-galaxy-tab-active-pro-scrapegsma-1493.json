@@ -10,7 +10,8 @@
   "os": "Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -49,5 +50,15 @@
     "bluetooth": "5.0, A2DP, LE",
     "gps": "Yes, with A-GPS, GLONASS"
   },
-  "os_version": "9.0"
+  "os_version": "9.0",
+  "model_numbers": [
+    "SM-T540",
+    "SM-T545",
+    "SM-T547",
+    "SM-T547U"
+  ],
+  "codenames": [
+    "gtactivexl",
+    "gtactivexlwifi"
+  ]
 }

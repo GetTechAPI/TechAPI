@@ -7,7 +7,10 @@
   "release_date": "2019-03-01",
   "msrp_usd": 445,
   "ram_gb": 6,
-  "storage_options_gb": [64, 128],
+  "storage_options_gb": [
+    64,
+    128
+  ],
   "display": {
     "size_inch": 6.39,
     "resolution": "2340x1080",
@@ -17,26 +20,62 @@
     "ppi": 403
   },
   "cameras": [
-    {"type": "main", "mp": 48, "aperture": 1.8, "ois": false},
-    {"type": "ultrawide", "mp": 16, "aperture": 2.2, "ois": false},
-    {"type": "telephoto", "mp": 12, "aperture": 2.2, "ois": false, "optical_zoom": 2},
-    {"type": "selfie", "mp": 20, "aperture": 2.0}
+    {
+      "type": "main",
+      "mp": 48,
+      "aperture": 1.8,
+      "ois": false
+    },
+    {
+      "type": "ultrawide",
+      "mp": 16,
+      "aperture": 2.2,
+      "ois": false
+    },
+    {
+      "type": "telephoto",
+      "mp": 12,
+      "aperture": 2.2,
+      "ois": false,
+      "optical_zoom": 2
+    },
+    {
+      "type": "selfie",
+      "mp": 20,
+      "aperture": 2.0
+    }
   ],
   "battery_mah": 3300,
   "charging_wired_w": 27,
   "charging_wireless_w": 20,
   "weight_g": 173.0,
-  "dimensions": {"height_mm": 157.5, "width_mm": 74.7, "depth_mm": 7.6},
+  "dimensions": {
+    "height_mm": 157.5,
+    "width_mm": 74.7,
+    "depth_mm": 7.6
+  },
   "ip_rating": null,
   "os": "Android",
   "os_version": "9",
-  "connectivity": {"wifi": "Wi-Fi 5", "bluetooth": "5.0", "nfc": true, "usb": "USB-C 2.0"},
+  "connectivity": {
+    "wifi": "Wi-Fi 5",
+    "bluetooth": "5.0",
+    "nfc": true,
+    "usb": "USB-C 2.0"
+  },
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Xiaomi_MI_9_frontpanel.jpg",
   "image_license": "CC-BY-SA-4.0",
   "image_attribution": "BoyuZhang1998",
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/Xiaomi_Mi_9",
-    "https://www.mi.com/global/mi9/specs/"
+    "https://www.mi.com/global/mi9/specs/",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
+  ],
+  "model_numbers": [
+    "MI 9"
+  ],
+  "codenames": [
+    "cepheus"
   ]
 }

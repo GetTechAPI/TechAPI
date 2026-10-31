@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-j5-prime",
   "variant": {
@@ -113,5 +114,16 @@
     "height_mm": 142.8,
     "width_mm": 69.5,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "SM-G5700",
+    "SM-G570F",
+    "SM-G570M",
+    "SM-G570Y"
+  ],
+  "codenames": [
+    "on5xelte",
+    "on5xelteins",
+    "on5xltechn"
+  ]
 }

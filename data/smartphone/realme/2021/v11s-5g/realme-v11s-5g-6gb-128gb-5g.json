@@ -9,7 +9,8 @@
   "os": "Android 11, Realme UI 2.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v11s-5g",
   "variant": {
@@ -106,5 +107,11 @@
   ],
   "soc": "dimensity-810",
   "os_version": "11",
-  "charging_wired_w": 18.0
+  "charging_wired_w": 18.0,
+  "model_numbers": [
+    "RMX3125"
+  ],
+  "codenames": [
+    "RE5485"
+  ]
 }

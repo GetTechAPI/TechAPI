@@ -9,7 +9,8 @@
   "os": "Android 10, upgradable to Android 12, MIUI 14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "redmi-note-9s",
   "variant": {
@@ -122,5 +123,12 @@
     "height_mm": 165.8,
     "width_mm": 76.7,
     "depth_mm": 8.8
-  }
+  },
+  "model_numbers": [
+    "Redmi Note 9 Pro",
+    "Redmi Note 9S"
+  ],
+  "codenames": [
+    "curtana"
+  ]
 }

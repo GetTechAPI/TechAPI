@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "10-evo",
   "variant": {
@@ -123,5 +124,13 @@
     "height_mm": 153.6,
     "width_mm": 77.3,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "HTC 10 evo",
+    "HTC_M10f"
+  ],
+  "codenames": [
+    "htc_acauhl",
+    "htc_acawhl"
+  ]
 }

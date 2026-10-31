@@ -5,12 +5,13 @@
   "soc": "texas-instruments-omap-4430",
   "release_date": "2012-04-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": null,
   "weight_g": 344.0,
   "os": "Android",
   "verified": true,
   "source_urls": [
-    "https://phonedb.net/index.php?m=device&id=3350"
+    "https://phonedb.net/index.php?m=device&id=3350",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     32
@@ -36,5 +37,19 @@
     "network": {
       "cellular": "3G"
     }
-  }
+  },
+  "model_numbers": [
+    "GT-P3100",
+    "GT-P3100B",
+    "GT-P3105",
+    "GT-P3110",
+    "GT-P3113",
+    "SCH-I705",
+    "SCH-i705"
+  ],
+  "codenames": [
+    "espressorf",
+    "espressovzw",
+    "espressowifi"
+  ]
 }

@@ -3,17 +3,18 @@
   "name": "Galaxy Tab A 8.0 (2017)",
   "brand": "samsung",
   "soc": "qualcomm-msm8917-snapdragon-425",
-  "release_date": "2017-01-01",
+  "release_date": "2017-09-01",
   "ram_gb": 2,
   "battery_mah": 5000,
   "weight_g": 364.0,
-  "os": "Android",
+  "os": "Android 7.1 (Nougat), upgradable to Android 8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "storage_options_gb": [
-    2,
     16
   ],
   "display": {
@@ -57,5 +58,61 @@
     "network": {
       "cellular": "4G LTE"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2017, September",
+    "lte": "1",
+    "cpu": "Quad-core 1.4 GHz Cortex-A53",
+    "ram": "16 GB, 2 GB RAM",
+    "internal": "16 GB, 2 GB RAM",
+    "camera": "8 MP, AF, f/1.9",
+    "front_camera": "5 MP",
+    "bluetooth": "4.2, A2DP",
+    "price": "About 200 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "samsung-galaxy-tab-a-8-0-2017",
+      "base_model_slug": "samsung-galaxy-tab-a-8-0-2017",
+      "name": "Samsung Galaxy Tab A 8.0 (2017)",
+      "brand": "samsung",
+      "release_date": "2017-09-01",
+      "ram_gb": 2.0,
+      "battery_mah": 5000,
+      "weight_g": 364.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2017, September",
+        "lte": "1",
+        "cpu": "Quad-core 1.4 GHz Cortex-A53",
+        "ram": "16 GB, 2 GB RAM",
+        "internal": "16 GB, 2 GB RAM",
+        "camera": "8 MP, AF, f/1.9",
+        "front_camera": "5 MP",
+        "bluetooth": "4.2, A2DP",
+        "price": "About 200 EUR"
+      },
+      "display": {
+        "size_inch": 8.0,
+        "resolution": "800x1280",
+        "type": "IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 189
+      },
+      "storage_options_gb": [
+        16
+      ],
+      "connectivity": {
+        "bluetooth": "4.2, A2DP"
+      }
+    }
+  ]
 }

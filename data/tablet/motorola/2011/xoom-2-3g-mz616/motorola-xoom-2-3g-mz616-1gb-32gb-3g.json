@@ -9,7 +9,8 @@
   "os": "Android 3.2 (Honeycomb), upgradable to 4.0.4 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "xoom-2-3g-mz616",
   "variant": {
@@ -107,5 +108,15 @@
     "height_mm": 253.9,
     "width_mm": 173.6,
     "depth_mm": 8.8
-  }
+  },
+  "model_numbers": [
+    "MZ609",
+    "MZ616",
+    "MZ617",
+    "XOOM 2"
+  ],
+  "codenames": [
+    "fleming",
+    "pasteur"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "desire-630",
   "variant": {
@@ -106,5 +107,12 @@
     "height_mm": 146.9,
     "width_mm": 70.9,
     "depth_mm": 8.3
-  }
+  },
+  "model_numbers": [
+    "HTC 2PST5",
+    "HTC Desire 630 dual sim"
+  ],
+  "codenames": [
+    "htc_a16dwgl"
+  ]
 }

@@ -7,9 +7,11 @@
   "battery_mah": 590,
   "weight_g": 60.5,
   "os": "Android Wear OS 5, One UI Watch 6",
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://en.wikipedia.org/wiki/Samsung_Galaxy_Watch_Ultra",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-watch-ultra",
   "variant": {
@@ -95,5 +97,16 @@
   "storage_options_gb": [
     32
   ],
-  "os_version": "5"
+  "os_version": "5",
+  "model_numbers": [
+    "SM-L700",
+    "SM-L7050",
+    "SM-L705F",
+    "SM-L705N",
+    "SM-L705U"
+  ],
+  "codenames": [
+    "projectx2bl",
+    "projectx2ul"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g11",
   "variant": {
@@ -111,5 +112,12 @@
     "height_mm": 164.6,
     "width_mm": 75.9,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "Nokia G11"
+  ],
+  "codenames": [
+    "SCTA_sprout",
+    "SCT_sprout"
+  ]
 }

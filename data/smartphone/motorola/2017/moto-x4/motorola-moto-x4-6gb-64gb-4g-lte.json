@@ -9,7 +9,8 @@
   "os": "Android 7.1 (Nougat), upgradable to Android 9.0 (Pie), Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "moto-x4",
   "variant": {
@@ -123,5 +124,13 @@
     "height_mm": 148.4,
     "width_mm": 73.4,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "XT1789-05",
+    "moto x4"
+  ],
+  "codenames": [
+    "payton",
+    "payton_sprout"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "9-lite",
   "variant": {
@@ -109,5 +110,15 @@
     "height_mm": 151.0,
     "width_mm": 71.9,
     "depth_mm": 7.6
-  }
+  },
+  "model_numbers": [
+    "LLD-AL00",
+    "LLD-AL10",
+    "LLD-L21",
+    "LLD-L31",
+    "LLD-TL10"
+  ],
+  "codenames": [
+    "HWLLD-H"
+  ]
 }

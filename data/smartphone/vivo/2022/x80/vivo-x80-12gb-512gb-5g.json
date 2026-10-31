@@ -9,7 +9,8 @@
   "os": "Android 12, upgradable to Android 14, Funtouch 14 (Global), OriginOS Ocean (China)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "x80",
   "variant": {
@@ -115,5 +116,11 @@
     "height_mm": 165.0,
     "width_mm": 75.2,
     "depth_mm": 8.3
-  }
+  },
+  "model_numbers": [
+    "V2144"
+  ],
+  "codenames": [
+    "V2144"
+  ]
 }

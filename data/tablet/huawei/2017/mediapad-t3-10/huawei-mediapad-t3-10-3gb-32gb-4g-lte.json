@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), EMUI 5.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mediapad-t3-10",
   "variant": {
@@ -106,5 +107,13 @@
     "height_mm": 229.8,
     "width_mm": 159.8,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "AGS-L03",
+    "AGS-L09",
+    "AGS-W09"
+  ],
+  "codenames": [
+    "HWAGS-Q"
+  ]
 }

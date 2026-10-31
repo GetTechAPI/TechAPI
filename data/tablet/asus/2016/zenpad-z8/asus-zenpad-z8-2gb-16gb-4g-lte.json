@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "zenpad-z8",
   "variant": {
@@ -99,5 +100,11 @@
     16
   ],
   "soc": "qualcomm-msm8956-snapdragon-650",
-  "os_version": "6.0"
+  "os_version": "6.0",
+  "model_numbers": [
+    "P008"
+  ],
+  "codenames": [
+    "P008"
+  ]
 }

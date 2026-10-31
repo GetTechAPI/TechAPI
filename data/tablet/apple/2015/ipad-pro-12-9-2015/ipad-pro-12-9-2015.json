@@ -3,24 +3,27 @@
   "name": "iPad Pro 12.9 (2015)",
   "brand": "apple",
   "soc": "apple-a9x",
-  "release_date": "2015-01-01",
+  "release_date": "2015-09-01",
   "ram_gb": 4,
-  "battery_mah": 1500,
-  "weight_g": 150.0,
-  "os": "iOS",
+  "battery_mah": 10307,
+  "weight_g": 713.0,
+  "os": "iOS 9, upgradable to iOS 12.2",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "storage_options_gb": [
-    4,
+    32,
+    128,
     256
   ],
   "display": {
     "size_inch": 12.9,
     "resolution": "2048x2732",
     "type": "IPS LCD capacitive touchscreen, 16M colors",
-    "ppi": 265
+    "ppi": 264
   },
   "cameras": [
     {
@@ -58,5 +61,61 @@
     "network": {
       "cellular": "4G LTE"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2015, September",
+    "lte": "1",
+    "cpu": "Dual-core 2.26 GHz (Twister)",
+    "ram": "32/128/256 GB, 4 GB RAM",
+    "internal": "32/128/256 GB, 4 GB RAM",
+    "camera": "8 MP, f/2.4, 31mm (standard), 1.12m, AF",
+    "front_camera": "1.2 MP",
+    "bluetooth": "4.0, A2DP, EDR",
+    "price": "About 850 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "apple-ipad-pro-12-9-2015",
+      "base_model_slug": "apple-ipad-pro-12-9-2015",
+      "name": "Apple iPad Pro 12.9 (2015)",
+      "brand": "apple",
+      "release_date": "2015-09-01",
+      "ram_gb": 4.0,
+      "battery_mah": 307,
+      "weight_g": 713.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2015, September",
+        "lte": "1",
+        "cpu": "Dual-core 2.26 GHz (Twister)",
+        "ram": "32/128/256 GB, 4 GB RAM",
+        "internal": "32/128/256 GB, 4 GB RAM",
+        "camera": "8 MP, f/2.4, 31mm (standard), 1.12m, AF",
+        "front_camera": "1.2 MP",
+        "bluetooth": "4.0, A2DP, EDR",
+        "price": "About 850 EUR"
+      },
+      "display": {
+        "size_inch": 12.9,
+        "resolution": "2048x2732",
+        "type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "ppi": 264
+      },
+      "storage_options_gb": [
+        256
+      ],
+      "connectivity": {
+        "bluetooth": "4.0, A2DP, EDR"
+      }
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "nord-n100",
   "base_model_slug": "nord-n100",
-  "name": "Nord N100",
+  "name": "OnePlus Nord N100",
   "brand": "oneplus",
   "soc": "snapdragon-460",
   "release_date": "2020-01-01",
@@ -11,13 +11,18 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025"
+    "https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025",
+    "https://www.kaggle.com/datasets/devgondaliya007/smartphone-specifications-dataset"
   ],
   "storage_options_gb": [
     64
   ],
   "display": {
-    "size_inch": 6.52
+    "size_inch": 6.52,
+    "resolution": "720x1600",
+    "refresh_hz": 90,
+    "type": "Punch Hole",
+    "ppi": 269
   },
   "cameras": [
     {
@@ -29,5 +34,12 @@
       "mp": 8.0
     }
   ],
-  "msrp_usd": 179
+  "msrp_usd": 179,
+  "charging_wired_w": 18,
+  "connectivity": {
+    "wifi": null,
+    "bluetooth": null,
+    "nfc": null,
+    "usb": null
+  }
 }

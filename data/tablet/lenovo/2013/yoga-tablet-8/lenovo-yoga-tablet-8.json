@@ -6,6 +6,7 @@
   "release_date": "2013-10-01",
   "ram_gb": 1,
   "storage_options_gb": [
+    16,
     32
   ],
   "battery_mah": 6000,
@@ -23,7 +24,8 @@
     "bluetooth": "4.0| A2DP",
     "wlan": "Wi-Fi 802.11 b/g/n",
     "usb": "microUSB 2.0| USB Host",
-    "gps": "Yes"
+    "gps": "Yes",
+    "wifi": "Wi-Fi 802.11 b/g/n"
   },
   "variant": {
     "region": "global",
@@ -32,16 +34,95 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
   ],
   "soc": "mediatek-mt8125",
   "raw_price": "About 190 EUR",
-  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/lenovo-yoga-tablet-8.jpg",
+  "image_url": null,
   "cameras": [
     {
       "type": "main",
       "raw": "5 MP"
+    },
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 1.6
     }
   ],
-  "os_version": "4.2"
+  "os_version": "4.2",
+  "raw_gsmarena": {
+    "launch_status": "Discontinued",
+    "network_technology": "GSM / HSPA",
+    "platform_chipset": "Mediatek MT8125 (28 nm)",
+    "platform_cpu": "Quad-core 1.2 GHz Cortex-A7",
+    "platform_gpu": "PowerVR SGX544"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "yoga-tablet-8",
+      "name": "Yoga Tablet 8",
+      "brand": "lenovo",
+      "soc": "mediatek-mt8125",
+      "release_date": "2013-01-01",
+      "ram_gb": 1,
+      "battery_mah": 6000,
+      "weight_g": 401.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        1,
+        32
+      ],
+      "display": {
+        "size_inch": 8.0,
+        "resolution": "1280x800",
+        "type": "IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 189
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 5.0
+        },
+        {
+          "type": "selfie",
+          "mp": 1.6
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n",
+        "bluetooth": "4.0, A2DP",
+        "usb": "microUSB 2.0, USB Host"
+      },
+      "raw_price": "About 190 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Discontinued",
+        "network_technology": "GSM / HSPA",
+        "platform_chipset": "Mediatek MT8125 (28 nm)",
+        "platform_cpu": "Quad-core 1.2 GHz Cortex-A7",
+        "platform_gpu": "PowerVR SGX544"
+      },
+      "base_model_slug": "yoga-tablet-8",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "yoga-tablet-8",
+        "memory": {
+          "ram_gb": 1,
+          "storage_gb": 32
+        },
+        "network": {
+          "cellular": "2G"
+        }
+      }
+    }
+  ]
 }

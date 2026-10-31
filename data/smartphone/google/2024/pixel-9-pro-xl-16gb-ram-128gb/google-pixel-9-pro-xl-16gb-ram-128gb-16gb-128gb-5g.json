@@ -9,7 +9,8 @@
   "os": "Android v14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pixel-9-pro-xl-16gb-ram-128gb",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v14"
   },
   "soc": "tensor-g4",
-  "os_version": "14"
+  "os_version": "14",
+  "model_numbers": [
+    "Pixel 9"
+  ],
+  "codenames": [
+    "tokay"
+  ]
 }

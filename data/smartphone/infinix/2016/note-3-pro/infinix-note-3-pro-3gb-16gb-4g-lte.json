@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "note-3-pro",
   "variant": {
@@ -106,5 +107,15 @@
     "height_mm": 162.5,
     "width_mm": 82.8,
     "depth_mm": 8.4
-  }
+  },
+  "model_numbers": [
+    "Infinix NOTE 3",
+    "Infinix NOTE 3 Pro",
+    "Infinix_X601_LTE"
+  ],
+  "codenames": [
+    "X601",
+    "X601-3G",
+    "X601-LTE"
+  ]
 }

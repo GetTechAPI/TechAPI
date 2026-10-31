@@ -23,7 +23,8 @@
     "bluetooth": "4.2| A2DP| LE",
     "wlan": "Wi-Fi 802.11 b/g/n| hotspot",
     "usb": "microUSB 2.0",
-    "gps": "Yes with A-GPS"
+    "gps": "Yes with A-GPS",
+    "wifi": "Wi-Fi 802.11 b/g/n, hotspot"
   },
   "variant": {
     "region": "global",
@@ -32,16 +33,103 @@
   },
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset"
+    "https://www.kaggle.com/datasets/arwinneil/gsmarena-phone-dataset",
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "qualcomm-msm8937-snapdragon-430",
   "raw_price": "About 190 EUR",
-  "image_url": "http://cdn2.gsmarena.com/vv/bigpic/vodafone-tab-prime-7.jpg",
+  "image_url": null,
   "cameras": [
     {
       "type": "main",
       "raw": "5 MP"
+    },
+    {
+      "type": "main",
+      "mp": 5.0
+    },
+    {
+      "type": "selfie",
+      "mp": 2.0
     }
   ],
-  "os_version": "6.0"
+  "os_version": "6.0",
+  "raw_gsmarena": {
+    "launch_status": "Available. Released 2016, August",
+    "network_technology": "GSM / HSPA / LTE",
+    "platform_chipset": "Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+    "platform_cpu": "Octa-core 1.4 GHz Cortex-A53",
+    "platform_gpu": "Adreno 505"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "tab-prime-7",
+      "name": "Tab Prime 7",
+      "brand": "vodafone",
+      "soc": "qualcomm-msm8937-snapdragon-430",
+      "release_date": "2016-01-01",
+      "ram_gb": 2,
+      "battery_mah": 5830,
+      "weight_g": 439.0,
+      "os": "Android",
+      "verified": false,
+      "source_urls": [
+        "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+      ],
+      "storage_options_gb": [
+        2,
+        16
+      ],
+      "display": {
+        "size_inch": 10.1,
+        "resolution": "1200x1920",
+        "type": "IPS LCD capacitive touchscreen, 16M colors",
+        "ppi": 224
+      },
+      "cameras": [
+        {
+          "type": "main",
+          "mp": 5.0
+        },
+        {
+          "type": "selfie",
+          "mp": 2.0
+        }
+      ],
+      "connectivity": {
+        "wifi": "Wi-Fi 802.11 b/g/n, hotspot",
+        "bluetooth": "4.2, A2DP, LE",
+        "usb": "microUSB 2.0"
+      },
+      "raw_price": "About 190 EUR",
+      "raw_gsmarena": {
+        "launch_status": "Available. Released 2016, August",
+        "network_technology": "GSM / HSPA / LTE",
+        "platform_chipset": "Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+        "platform_cpu": "Octa-core 1.4 GHz Cortex-A53",
+        "platform_gpu": "Adreno 505"
+      },
+      "base_model_slug": "tab-prime-7",
+      "variant": {
+        "region": "global",
+        "source_category": "smartphone-reclassified",
+        "source_slug": "tab-prime-7",
+        "memory": {
+          "ram_gb": 2,
+          "storage_gb": 16
+        },
+        "network": {
+          "cellular": "4G LTE"
+        }
+      }
+    }
+  ],
+  "model_numbers": [
+    "VFD 1400",
+    "VFD1400"
+  ],
+  "codenames": [
+    "VFD1400"
+  ]
 }

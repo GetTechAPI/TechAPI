@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow), MIUI 8.2",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-note-2",
   "variant": {
@@ -121,5 +122,13 @@
     "height_mm": 156.2,
     "width_mm": 77.3,
     "depth_mm": 7.6
-  }
+  },
+  "model_numbers": [
+    "Mi Note 2",
+    "Redmi Note 2"
+  ],
+  "codenames": [
+    "hermes",
+    "scorpio"
+  ]
 }

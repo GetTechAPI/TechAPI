@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 11, One UI 3.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-tab-s5e",
   "variant": {
@@ -115,5 +116,21 @@
     "height_mm": 245.0,
     "width_mm": 160.0,
     "depth_mm": 5.5
-  }
+  },
+  "model_numbers": [
+    "SM-T720",
+    "SM-T725",
+    "SM-T725C",
+    "SM-T725N",
+    "SM-T727",
+    "SM-T727A",
+    "SM-T727R4",
+    "SM-T727U",
+    "SM-T727V"
+  ],
+  "codenames": [
+    "gts4lv",
+    "gts4lvwifi",
+    "gts4lvwifichn"
+  ]
 }

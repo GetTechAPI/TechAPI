@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml"><img src="https://github.com/GetTechAPI/TechAPI/actions/workflows/validate-data.yml/badge.svg" alt="validate-data"></a>
+  <a href="https://github.com/GetTechAPI/TechAPI/actions/workflows/pages.yml"><img src="https://github.com/GetTechAPI/TechAPI/actions/workflows/pages.yml/badge.svg" alt="pages"></a>
   &nbsp;Data: <strong>CC-BY-SA 4.0</strong>
 </p>
 
@@ -31,15 +31,23 @@ data/cpu/<manufacturer>/<year>/<segment>/<slug>.json   # data/cpu/intel/2023/con
 
 All paths use singular folder names. Slugs are kebab-case and unique within each category.
 
-The Astro site lives under `site/` and is the deploy target for GitHub Pages. It
-consumes the static JSON dump produced by TechEngine's `weekly-refresh` (rescrapes,
-then dumps) and `dump-refresh` (re-dumps current data without a rescrape) workflows.
+The Astro site lives under `site/` and is the deploy target for GitHub Pages.
+[`pages.yml`](.github/workflows/pages.yml) generates the static JSON API from
+`main`'s data with the pinned TechEngine at deploy time, checks it against
+`data/`, and publishes it with the site. The generated API is not committed;
+only the hand-made `site/public/v1/games/index.json` pointer is. To preview the
+site with the API locally:
+
+```bash
+git submodule update --init TechEngine   # never --recursive
+python -m pip install -e ./TechEngine
+bash .github/scripts/build-api.sh        # validates, then writes site/public/v1
+cd site && npm ci && npm run dev
+```
 
 ## Self-Check
 
-A lightweight bundled validator lives at `app/validate.py`. It runs on every PR via
-[`validate-data.yml`](.github/workflows/validate-data.yml) and is also chained into
-the heavier TechEngine validation workflow as a downstream job.
+A lightweight bundled validator lives at `app/validate.py`:
 
 ```bash
 python -m app.validate
@@ -47,19 +55,30 @@ python -m app.validate
 
 The validator uses only the Python standard library; no install step required.
 
+Every PR into `develop` or `main` runs
+[`pr-checks.yml`](.github/workflows/pr-checks.yml): this validator, TechEngine's
+validator on the changed records, the integrity gate and, when `site/` changes,
+the site build. It has no secrets and reports in the job summary, never in
+comments.
+
+For an important PR, a maintainer adds the `final-check` label.
+[`final-check.yml`](.github/workflows/final-check.yml) then builds everything
+`pages.yml` would publish from the PR, and TechEngineBot posts one comment with
+the verdict; adding the label again updates that comment.
+
 ## Branching
 
 This repo follows git-flow:
 
 | Branch | Role |
 | --- | --- |
-| `main` | Released state. Publishing the site and notifying TechEngine both fire on a push here, so it only moves through a release PR. |
+| `main` | Released state. Publishing the site fires on a push here, so it only moves through a release PR. |
 | `develop` | Integration. Every data, feature and fix branch targets this. |
 | `feat/*`, `data/*`, `fix/*`, `chore/*` | Short-lived work branches, cut from `develop`. |
 
-A release is a PR from `develop` to `main`; merging it deploys the site and tells
-TechEngine to pick up the new data. Automation follows the same rule — the
-submodule bump and the verified-promotion bot both land on `develop`.
+A release is a PR from `develop` to `main`; merging it deploys the site.
+Dependabot opens the TechEngine submodule bump (weekly) and GitHub Actions
+updates (monthly) as PRs into `develop`; they are merged by hand like any other.
 
 ## Contributing
 

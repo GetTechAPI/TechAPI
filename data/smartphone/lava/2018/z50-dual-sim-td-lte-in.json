@@ -1,7 +1,7 @@
 {
   "slug": "z50-dual-sim-td-lte-in",
   "base_model_slug": "z50-dual-sim-td-lte-in",
-  "name": "Z50 Dual SIM TD-LTE IN",
+  "name": "Lava Z50 Dual SIM TD-LTE IN",
   "brand": "lava",
   "soc": "mediatek-mt6737",
   "release_date": "2018-03-02",
@@ -9,9 +9,11 @@
   "battery_mah": 2000,
   "weight_g": 140.0,
   "os": "Android",
-  "verified": false,
+  "verified": true,
   "source_urls": [
-    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs"
+    "https://www.kaggle.com/datasets/sady36/mobile-phones-specs",
+    "https://phonedb.net/index.php?m=device&id=16459",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     8
@@ -37,5 +39,11 @@
     "usb": "USB Micro-AB"
   },
   "market_countries": "India",
-  "market_regions": "Asia"
+  "market_regions": "Asia",
+  "model_numbers": [
+    "Z50"
+  ],
+  "codenames": [
+    "Z50"
+  ]
 }

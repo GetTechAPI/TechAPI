@@ -9,7 +9,8 @@
   "os": "Android 8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g7-fit",
   "variant": {
@@ -113,5 +114,11 @@
     "height_mm": 153.2,
     "width_mm": 71.9,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "LM-Q850"
+  ],
+  "codenames": [
+    "falcon"
+  ]
 }

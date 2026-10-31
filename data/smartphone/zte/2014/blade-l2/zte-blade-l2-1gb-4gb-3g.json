@@ -9,7 +9,8 @@
   "os": "Android 4.2 (Jelly Bean)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "blade-l2",
   "variant": {
@@ -104,5 +105,15 @@
     "height_mm": 142.5,
     "width_mm": 72.2,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "BGH Joy Smart AXS",
+    "BGH Joy Smart AXS D",
+    "Blade L2",
+    "MEO Smart A75",
+    "ZTE Blade L2"
+  ],
+  "codenames": [
+    "P182A10"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 12L",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "nubia-pad-3d",
   "variant": {
@@ -112,5 +113,11 @@
     "height_mm": 285.0,
     "width_mm": 190.0,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "LPD-20W"
+  ],
+  "codenames": [
+    "LumePad"
+  ]
 }

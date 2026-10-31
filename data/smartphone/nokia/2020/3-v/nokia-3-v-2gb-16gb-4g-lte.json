@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 10, Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "3-v",
   "variant": {
@@ -108,5 +109,11 @@
     "height_mm": 161.2,
     "width_mm": 76.2,
     "depth_mm": 9.1
-  }
+  },
+  "model_numbers": [
+    "Nokia 3 V"
+  ],
+  "codenames": [
+    "DPL_VZW"
+  ]
 }

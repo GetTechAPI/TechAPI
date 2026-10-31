@@ -9,7 +9,8 @@
   "os": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie), One UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-a8-2018",
   "variant": {
@@ -123,5 +124,16 @@
     "height_mm": 149.2,
     "width_mm": 70.6,
     "depth_mm": 8.4
-  }
+  },
+  "model_numbers": [
+    "SM-A530F",
+    "SM-A530N",
+    "SM-A530W",
+    "SM-A530X"
+  ],
+  "codenames": [
+    "jackpotlte",
+    "jackpotltecan",
+    "jackpotlteks"
+  ]
 }

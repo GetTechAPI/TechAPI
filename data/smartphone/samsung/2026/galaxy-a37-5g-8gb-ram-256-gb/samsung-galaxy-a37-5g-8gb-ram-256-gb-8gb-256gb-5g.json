@@ -9,7 +9,8 @@
   "os": "Android v16",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-a37-5g-8gb-ram-256-gb",
   "variant": {
@@ -166,5 +167,18 @@
     "Technical.OS": "Android v16"
   },
   "soc": "exynos-1480",
-  "os_version": "16"
+  "os_version": "16",
+  "model_numbers": [
+    "SM-A3760",
+    "SM-A376B",
+    "SM-A376E",
+    "SM-A376N",
+    "SM-A376U",
+    "SM-A376U1",
+    "SM-A376W",
+    "SM-S376V"
+  ],
+  "codenames": [
+    "a37x"
+  ]
 }

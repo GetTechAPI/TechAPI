@@ -9,7 +9,8 @@
   "os": "Android 12, Doke OS_P 3.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-13",
   "variant": {
@@ -103,5 +104,13 @@
     "height_mm": 238.8,
     "width_mm": 157.6,
     "depth_mm": 7.7
-  }
+  },
+  "model_numbers": [
+    "Tab 13",
+    "Tab 13 Pro"
+  ],
+  "codenames": [
+    "Tab13_Pro",
+    "Tab_13"
+  ]
 }

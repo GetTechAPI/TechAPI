@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow), Sense UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "one-s9",
   "variant": {
@@ -110,5 +111,13 @@
     "height_mm": 144.6,
     "width_mm": 69.7,
     "depth_mm": 10.1
-  }
+  },
+  "model_numbers": [
+    "HTC 2PRG100",
+    "HTC One S9",
+    "HTC_S9u"
+  ],
+  "codenames": [
+    "htc_himar2uhl"
+  ]
 }

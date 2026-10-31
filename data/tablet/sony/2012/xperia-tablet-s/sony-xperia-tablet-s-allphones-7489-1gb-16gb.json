@@ -1,4 +1,7 @@
 {
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Xperia_Tablet_S_auf_der_Internationalen_Funkausstellung_2012_in_Berlin_1_PD.JPG",
+  "image_license": "CC-BY-SA-3.0",
+  "image_attribution": "Bin im Garten",
   "slug": "sony-xperia-tablet-s-allphones-7489-1gb-16gb",
   "base_model_slug": "xperia-tablet-s",
   "name": "Sony Xperia Tablet S",
@@ -11,7 +14,8 @@
   "verified": true,
   "source_urls": [
     "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
-    "https://en.wikipedia.org/wiki/Sony_Xperia_Tablet_S"
+    "https://en.wikipedia.org/wiki/Sony_Xperia_Tablet_S",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -42,5 +46,12 @@
       "raw": "1 MP"
     }
   ],
-  "os_version": "4.0.3"
+  "os_version": "4.0.3",
+  "model_numbers": [
+    "SGPT12",
+    "SGPT13"
+  ],
+  "codenames": [
+    "txs03"
+  ]
 }

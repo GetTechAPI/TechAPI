@@ -9,7 +9,8 @@
   "os": "Android v10.0, upgradable to v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "poco-f2-pro",
   "variant": {
@@ -166,5 +167,11 @@
     "Technical.OS": "Android v10.0, upgradable to v11"
   },
   "soc": "snapdragon-865-plus",
-  "os_version": "10.0"
+  "os_version": "10.0",
+  "model_numbers": [
+    "POCO F2 Pro"
+  ],
+  "codenames": [
+    "lmi"
+  ]
 }

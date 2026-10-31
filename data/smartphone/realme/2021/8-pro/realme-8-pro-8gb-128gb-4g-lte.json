@@ -9,7 +9,8 @@
   "os": "Android 11, upgradable to Android 12, Realme UI 3.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "8-pro",
   "variant": {
@@ -119,5 +120,11 @@
     "height_mm": 160.6,
     "width_mm": 73.9,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "RMX3081"
+  ],
+  "codenames": [
+    "RMX3081L1"
+  ]
 }

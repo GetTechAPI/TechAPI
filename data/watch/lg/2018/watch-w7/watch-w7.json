@@ -3,14 +3,16 @@
   "name": "Watch W7",
   "brand": "lg",
   "soc": "qualcomm-msm8909w-snapdragon-wear-2100",
-  "release_date": "2018-01-01",
-  "ram_gb": 1,
-  "battery_mah": 1500,
+  "release_date": "2018-10-01",
+  "ram_gb": 0.75,
+  "battery_mah": 240,
   "weight_g": 79.0,
-  "os": "Android",
+  "os": "Android Wear OS 2.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "storage_options_gb": [
     4
@@ -19,7 +21,7 @@
     "size_inch": 1.2,
     "resolution": "360x360",
     "type": "P-OLED capacitive touchscreen, 16M colors",
-    "ppi": 424
+    "ppi": 300
   },
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n",
@@ -39,11 +41,67 @@
     "source_category": "smartphone-reclassified",
     "source_slug": "watch-w7",
     "memory": {
-      "ram_gb": 1,
+      "ram_gb": 0.75,
       "storage_gb": 4
     },
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2018, October",
+    "lte": "0",
+    "cpu": "Quad-core 1.3 GHz Cortex-A7",
+    "ram": "4 GB, 768 MB RAM",
+    "internal": "4 GB, 768 MB RAM",
+    "camera": "No",
+    "front_camera": "",
+    "bluetooth": "4.2, A2DP, LE",
+    "price": "About 260 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "lg-watch-w7",
+      "base_model_slug": "lg-watch-w7",
+      "name": "LG Watch W7",
+      "brand": "lg",
+      "release_date": "2018-10-01",
+      "ram_gb": 0.75,
+      "battery_mah": 240,
+      "weight_g": 79.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2018, October",
+        "lte": "0",
+        "cpu": "Quad-core 1.3 GHz Cortex-A7",
+        "ram": "4 GB, 768 MB RAM",
+        "internal": "4 GB, 768 MB RAM",
+        "camera": "No",
+        "front_camera": "",
+        "bluetooth": "4.2, A2DP, LE",
+        "price": "About 260 EUR"
+      },
+      "display": {
+        "size_inch": 1.2,
+        "resolution": "360x360",
+        "type": "P-OLED capacitive touchscreen, 16M colors",
+        "ppi": 300
+      },
+      "storage_options_gb": [
+        4
+      ],
+      "connectivity": {
+        "bluetooth": "4.2, A2DP, LE"
+      }
+    }
+  ]
 }

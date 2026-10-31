@@ -9,7 +9,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-8-4g",
   "variant": {
@@ -104,5 +105,15 @@
     "height_mm": 197.0,
     "width_mm": 124.8,
     "depth_mm": 8.9
-  }
+  },
+  "model_numbers": [
+    "9032T",
+    "9032X",
+    "9132G",
+    "9132X"
+  ],
+  "codenames": [
+    "Apollo_8_4G",
+    "Luna"
+  ]
 }

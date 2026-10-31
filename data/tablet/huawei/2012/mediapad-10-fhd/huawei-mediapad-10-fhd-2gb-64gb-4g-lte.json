@@ -9,7 +9,8 @@
   "os": "Android 4.0 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mediapad-10-fhd",
   "variant": {
@@ -106,5 +107,13 @@
     "height_mm": 257.4,
     "width_mm": 175.9,
     "depth_mm": 8.8
-  }
+  },
+  "model_numbers": [
+    "MediaPad 10 FHD",
+    "MediaPad 10 LINK"
+  ],
+  "codenames": [
+    "hws10103l",
+    "hws10201l"
+  ]
 }

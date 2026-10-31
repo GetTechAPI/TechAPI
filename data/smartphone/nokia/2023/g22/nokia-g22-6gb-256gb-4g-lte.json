@@ -9,7 +9,8 @@
   "os": "Android 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g22",
   "variant": {
@@ -111,5 +112,12 @@
     "height_mm": 165.0,
     "width_mm": 76.2,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "Nokia G22"
+  ],
+  "codenames": [
+    "SFI",
+    "SFIA"
+  ]
 }

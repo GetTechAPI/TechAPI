@@ -5,12 +5,13 @@
   "soc": "dual-core-1-6-ghz-cortex-a9",
   "release_date": "2013-01-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": null,
   "weight_g": 372.0,
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     1,
@@ -53,5 +54,14 @@
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "model_numbers": [
+    "HP Slate 7 Beats Special Edition",
+    "HP Slate7 Beats Special Edition",
+    "HP Slate7 Extreme"
+  ],
+  "codenames": [
+    "fairfax",
+    "olive"
+  ]
 }

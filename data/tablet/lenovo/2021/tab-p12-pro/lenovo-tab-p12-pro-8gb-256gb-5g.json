@@ -9,7 +9,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "tab-p12-pro",
   "variant": {
@@ -109,5 +110,13 @@
     "height_mm": 285.6,
     "width_mm": 184.5,
     "depth_mm": 5.6
-  }
+  },
+  "model_numbers": [
+    "Lenovo TB-Q706F",
+    "Lenovo TB-Q706Z"
+  ],
+  "codenames": [
+    "Q706F",
+    "Q706Z"
+  ]
 }

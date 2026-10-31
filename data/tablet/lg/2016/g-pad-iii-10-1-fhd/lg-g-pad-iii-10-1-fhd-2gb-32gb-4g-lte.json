@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g-pad-iii-10-1-fhd",
   "variant": {
@@ -107,5 +108,12 @@
     "height_mm": 256.2,
     "width_mm": 167.9,
     "depth_mm": 6.7
-  }
+  },
+  "model_numbers": [
+    "LG-P755L",
+    "LG-V755"
+  ],
+  "codenames": [
+    "b5"
+  ]
 }

@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     1,
@@ -45,5 +46,13 @@
     "platform_chipset": "Qualcomm MSM8625Q Snapdragon 200 (45 nm)",
     "platform_cpu": "Quad-core 1.2 GHz Cortex-A7",
     "platform_gpu": "Adreno 302"
-  }
+  },
+  "model_numbers": [
+    "HTC Desire 516 dual sim",
+    "HTC V2"
+  ],
+  "codenames": [
+    "htc_v2_dcg",
+    "htc_v2_dug"
+  ]
 }

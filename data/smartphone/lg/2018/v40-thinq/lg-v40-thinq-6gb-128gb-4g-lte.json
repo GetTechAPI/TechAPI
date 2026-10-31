@@ -9,7 +9,8 @@
   "os": "Android 8.1 (Oreo), upgradable to Android 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "v40-thinq",
   "variant": {
@@ -121,5 +122,12 @@
     "height_mm": 158.8,
     "width_mm": 75.7,
     "depth_mm": 7.6
-  }
+  },
+  "model_numbers": [
+    "LM-V405",
+    "LM-V409N"
+  ],
+  "codenames": [
+    "judypn"
+  ]
 }

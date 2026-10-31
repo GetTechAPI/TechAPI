@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), EMUI 8",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mediapad-m5-lite",
   "variant": {
@@ -110,5 +111,15 @@
     "height_mm": 243.4,
     "width_mm": 162.2,
     "depth_mm": 7.7
-  }
+  },
+  "model_numbers": [
+    "BAH2-L09",
+    "BAH2-W19",
+    "JDN2-L09",
+    "JDN2-W09"
+  ],
+  "codenames": [
+    "HWBAH2",
+    "HWJDN2"
+  ]
 }

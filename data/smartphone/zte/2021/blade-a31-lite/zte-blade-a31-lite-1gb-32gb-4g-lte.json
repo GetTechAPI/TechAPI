@@ -9,7 +9,8 @@
   "os": "Android 11 (Go edition)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "blade-a31-lite",
   "variant": {
@@ -106,5 +107,15 @@
     "height_mm": 137.3,
     "width_mm": 67.5,
     "depth_mm": 10.5
-  }
+  },
+  "model_numbers": [
+    "ZTE A31 Lite",
+    "ZTE Blade A31 Lite",
+    "ZTE Blade A31 Lite RU"
+  ],
+  "codenames": [
+    "P932F21",
+    "P932F21_A",
+    "Z3052O"
+  ]
 }

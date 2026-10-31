@@ -9,7 +9,8 @@
   "os": "Android 11, Realme UI 2.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "q3-pro-5g",
   "variant": {
@@ -112,5 +113,11 @@
     "height_mm": 158.5,
     "width_mm": 73.3,
     "depth_mm": 8.4
-  }
+  },
+  "model_numbers": [
+    "RMX2205"
+  ],
+  "codenames": [
+    "RMX2205CN"
+  ]
 }

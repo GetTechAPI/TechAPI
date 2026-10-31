@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie), EMUI 9.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mate-9-pro",
   "variant": {
@@ -121,5 +122,12 @@
     "height_mm": 152.0,
     "width_mm": 75.0,
     "depth_mm": 7.5
-  }
+  },
+  "model_numbers": [
+    "LON-AL00",
+    "LON-L29"
+  ],
+  "codenames": [
+    "HWLON"
+  ]
 }

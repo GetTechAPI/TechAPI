@@ -6,11 +6,12 @@
   "release_date": "2014-09-01",
   "ram_gb": 1.0,
   "battery_mah": 2060,
-  "weight_g": 150.0,
+  "weight_g": null,
   "os": "Android 4.4.2 (KitKat)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -45,5 +46,13 @@
     "bluetooth": "4.0, A2DP, EDR",
     "gps": "Yes, with A-GPS, GLONASS"
   },
-  "os_version": "4.4.2"
+  "os_version": "4.4.2",
+  "model_numbers": [
+    "ASUS_T00E",
+    "PadFone T00C"
+  ],
+  "codenames": [
+    "ASUS-T00C",
+    "ASUS_T00E"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android v14",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "50-xl-nxtpaper-5g",
   "variant": {
@@ -166,5 +167,17 @@
     "Technical.OS": "Android v14"
   },
   "soc": "dimensity-6100-plus",
-  "os_version": "14"
+  "os_version": "14",
+  "model_numbers": [
+    "T702M",
+    "T702Z",
+    "T704SP",
+    "T704V"
+  ],
+  "codenames": [
+    "Goldfinch_Dish",
+    "Goldfinch_Pro_CS",
+    "Ruby_TF",
+    "Ruby_VZW"
+  ]
 }

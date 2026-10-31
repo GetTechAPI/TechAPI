@@ -10,7 +10,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "mediatek-mt6737",
   "variant": {
@@ -50,5 +51,13 @@
       "raw": "5 MP"
     }
   ],
-  "os_version": "6.0"
+  "os_version": "6.0",
+  "model_numbers": [
+    "P6_Energy_TM",
+    "P6_Energy_mini"
+  ],
+  "codenames": [
+    "P6_Energy",
+    "P6_Energy_mini"
+  ]
 }

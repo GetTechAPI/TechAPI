@@ -9,7 +9,8 @@
   "os": "Android v16",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "moto-g67",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v16"
   },
   "soc": "dimensity-6300",
-  "os_version": "16"
+  "os_version": "16",
+  "model_numbers": [
+    "moto g max",
+    "moto g67",
+    "moto g87"
+  ],
+  "codenames": [
+    "naples"
+  ]
 }

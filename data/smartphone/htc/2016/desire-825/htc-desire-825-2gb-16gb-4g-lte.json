@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "desire-825",
   "variant": {
@@ -108,5 +109,16 @@
     "height_mm": 156.9,
     "width_mm": 76.9,
     "depth_mm": 7.4
-  }
+  },
+  "model_numbers": [
+    "HTC 2PUK1",
+    "HTC 2PUK2",
+    "HTC Desire 825",
+    "HTC Desire 825 dual sim",
+    "HTC_D825u"
+  ],
+  "codenames": [
+    "htc_a56dugl",
+    "htc_a56uhl"
+  ]
 }

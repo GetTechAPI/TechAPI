@@ -9,7 +9,8 @@
   "os": "Android 4.4.2 (KitKat), upgradable to 5 (Lollipop)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "s60",
   "variant": {
@@ -108,5 +109,15 @@
     "height_mm": 143.3,
     "width_mm": 72.0,
     "depth_mm": 7.7
-  }
+  },
+  "model_numbers": [
+    "Lenovo S60-a",
+    "Lenovo S60-t",
+    "Lenovo S60-w"
+  ],
+  "codenames": [
+    "sisleylr",
+    "sisleylt",
+    "sisleylw"
+  ]
 }

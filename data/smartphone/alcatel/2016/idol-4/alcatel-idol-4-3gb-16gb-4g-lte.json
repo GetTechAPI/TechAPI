@@ -9,7 +9,8 @@
   "os": "Android 6.0.1 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "idol-4",
   "variant": {
@@ -112,5 +113,16 @@
     "height_mm": 147.0,
     "width_mm": 72.5,
     "depth_mm": 7.1
-  }
+  },
+  "model_numbers": [
+    "6055A",
+    "6055D",
+    "Alcatel 6055U",
+    "Alcatel_6055U",
+    "TCL 580"
+  ],
+  "codenames": [
+    "idol4",
+    "idol4_mini"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow), upgradable to 8.0 (Oreo), MIUI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-5s-plus",
   "variant": {
@@ -121,5 +122,11 @@
     "height_mm": 154.6,
     "width_mm": 77.7,
     "depth_mm": 8.0
-  }
+  },
+  "model_numbers": [
+    "MI 5s Plus"
+  ],
+  "codenames": [
+    "natrium"
+  ]
 }

@@ -9,7 +9,8 @@
   "os": "Android v9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "redmi-k20-pro-signature-edition",
   "variant": {
@@ -166,5 +167,14 @@
     "Technical.OS": "Android v9.0 (Pie)"
   },
   "soc": "snapdragon-855-plus",
-  "os_version": "9.0"
+  "os_version": "9.0",
+  "model_numbers": [
+    "Mi 9T Pro",
+    "Redmi K20 Pro",
+    "Redmi K20 Pro Premium Edition"
+  ],
+  "codenames": [
+    "raphael",
+    "raphaelin"
+  ]
 }

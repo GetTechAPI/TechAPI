@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie), EMUI 9.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "view-10",
   "variant": {
@@ -120,5 +121,12 @@
     "height_mm": 157.0,
     "width_mm": 75.0,
     "depth_mm": 7.0
-  }
+  },
+  "model_numbers": [
+    "BKL-L04",
+    "BKL-L09"
+  ],
+  "codenames": [
+    "HWBKL"
+  ]
 }

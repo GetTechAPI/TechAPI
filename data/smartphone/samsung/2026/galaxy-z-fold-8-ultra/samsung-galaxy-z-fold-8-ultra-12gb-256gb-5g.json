@@ -9,7 +9,8 @@
   "os": "Android v16",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "galaxy-z-fold-8-ultra",
   "variant": {
@@ -166,5 +167,21 @@
     "Technical.OS": "Android v16"
   },
   "soc": "qualcomm-snapdragon",
-  "os_version": "16"
+  "os_version": "16",
+  "model_numbers": [
+    "SC-56G",
+    "SCG39",
+    "SM-F9760",
+    "SM-F976B",
+    "SM-F976C",
+    "SM-F976N",
+    "SM-F976Q",
+    "SM-F976U",
+    "SM-F976U1",
+    "SM-F976W",
+    "SM-F976Z"
+  ],
+  "codenames": [
+    "q8q"
+  ]
 }

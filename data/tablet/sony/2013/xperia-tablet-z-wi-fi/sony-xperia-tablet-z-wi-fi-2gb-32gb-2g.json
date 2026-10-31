@@ -9,7 +9,8 @@
   "os": "Android 4.1.2 (Jelly Bean), upgradable to 5.1.1 (Lollipop)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "xperia-tablet-z-wi-fi",
   "variant": {
@@ -119,5 +120,17 @@
     "height_mm": 266.0,
     "width_mm": 172.0,
     "depth_mm": 6.9
-  }
+  },
+  "model_numbers": [
+    "SGP311",
+    "SGP312",
+    "SGP321",
+    "SGP351"
+  ],
+  "codenames": [
+    "SGP311",
+    "SGP312",
+    "SGP321",
+    "SGP351"
+  ]
 }

@@ -10,7 +10,8 @@
   "os": "Android 8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -49,5 +50,15 @@
     "bluetooth": "4.2, A2DP, LE",
     "gps": "Yes, with A-GPS, GLONASS, BDS"
   },
-  "os_version": "8.1"
+  "os_version": "8.1",
+  "model_numbers": [
+    "SM-T597P",
+    "SM-T597V",
+    "SM-T597W"
+  ],
+  "codenames": [
+    "gta2xlltecs",
+    "gta2xlltespr",
+    "gta2xlltevzw"
+  ]
 }

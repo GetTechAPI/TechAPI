@@ -9,7 +9,8 @@
   "os": "Android v10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "spark-5",
   "variant": {
@@ -166,5 +167,12 @@
     "Technical.OS": "Android v10"
   },
   "soc": "helio-a22",
-  "os_version": "10"
+  "os_version": "10",
+  "model_numbers": [
+    "TECNO KD7S",
+    "TECNO KD7h"
+  ],
+  "codenames": [
+    "TECNO-KD7h"
+  ]
 }

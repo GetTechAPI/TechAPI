@@ -10,7 +10,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 10, One UI 2",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -52,5 +53,20 @@
     "bluetooth": "5.0, A2DP, LE",
     "gps": "Yes, with A-GPS, GLONASS, BDS, GALILEO"
   },
-  "os_version": "9.0"
+  "os_version": "9.0",
+  "model_numbers": [
+    "SM-T860",
+    "SM-T865",
+    "SM-T865N",
+    "SM-T866N",
+    "SM-T867",
+    "SM-T867R4",
+    "SM-T867U",
+    "SM-T867V"
+  ],
+  "codenames": [
+    "gts6l",
+    "gts6lwifi",
+    "gts6x"
+  ]
 }

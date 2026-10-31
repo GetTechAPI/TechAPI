@@ -9,7 +9,8 @@
   "os": "Android 11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "moto-g50-5g",
   "variant": {
@@ -113,5 +114,16 @@
     "height_mm": 167.0,
     "width_mm": 76.4,
     "depth_mm": 9.3
-  }
+  },
+  "model_numbers": [
+    "XT2137-2",
+    "moto g(50)",
+    "moto g(50) 5G",
+    "moto g51 5G"
+  ],
+  "codenames": [
+    "cypfq",
+    "ibiza",
+    "saipan"
+  ]
 }

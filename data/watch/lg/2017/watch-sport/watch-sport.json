@@ -5,13 +5,14 @@
   "soc": "qualcomm-msm8909w-snapdragon-wear-2100",
   "release_date": "2017-01-01",
   "ram_gb": 1,
-  "battery_mah": 1500,
+  "battery_mah": null,
   "weight_g": 86.0,
   "os": "Android",
   "verified": true,
   "source_urls": [
     "https://en.wikipedia.org/wiki/LG_Watch_Sport",
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     4
@@ -47,5 +48,11 @@
     "network": {
       "cellular": "4G LTE"
     }
-  }
+  },
+  "model_numbers": [
+    "LG Watch Sport"
+  ],
+  "codenames": [
+    "swordfish"
+  ]
 }

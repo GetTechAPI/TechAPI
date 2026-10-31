@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie), Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "u11-life",
   "variant": {
@@ -120,5 +121,13 @@
     "height_mm": 149.1,
     "width_mm": 72.9,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "HTC U11 Life",
+    "HTC U11 life"
+  ],
+  "codenames": [
+    "htc_ocla1_sprout",
+    "htc_oclul"
+  ]
 }

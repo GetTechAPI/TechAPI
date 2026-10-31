@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "g-pad-iv-8-0-fhd",
   "variant": {
@@ -106,5 +107,11 @@
     "height_mm": 216.2,
     "width_mm": 127.0,
     "depth_mm": 6.9
-  }
+  },
+  "model_numbers": [
+    "LG-P530L"
+  ],
+  "codenames": [
+    "tf840"
+  ]
 }

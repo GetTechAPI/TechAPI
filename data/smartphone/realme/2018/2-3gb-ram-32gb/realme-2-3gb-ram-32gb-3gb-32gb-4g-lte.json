@@ -9,7 +9,8 @@
   "os": "Android v8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "2-3gb-ram-32gb",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v8.1 (Oreo)"
   },
   "soc": "snapdragon-450",
-  "os_version": "8.1"
+  "os_version": "8.1",
+  "model_numbers": [
+    "RMX1805",
+    "RMX1809"
+  ],
+  "codenames": [
+    "RMX1805",
+    "RMX1809"
+  ]
 }

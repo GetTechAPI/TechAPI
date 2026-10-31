@@ -9,7 +9,8 @@
   "os": "Android 6.0 (Marshmallow)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pixi-4-plus-power",
   "variant": {
@@ -109,5 +110,21 @@
     "height_mm": 152.0,
     "width_mm": 78.3,
     "depth_mm": 9.9
-  }
+  },
+  "model_numbers": [
+    "5012D",
+    "5012F",
+    "5012G",
+    "5023E",
+    "5023F",
+    "A466T",
+    "Alcatel_5045A",
+    "SMART_PLUS"
+  ],
+  "codenames": [
+    "PIXI4_4TF",
+    "PIXI4_55_3G",
+    "PIXI4_5_4G",
+    "Pixi4PlusPower"
+  ]
 }

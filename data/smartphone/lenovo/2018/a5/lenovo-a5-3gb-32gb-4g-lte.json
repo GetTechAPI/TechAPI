@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), ZUI 3.9",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "a5",
   "variant": {
@@ -109,5 +110,13 @@
     "height_mm": 146.2,
     "width_mm": 70.9,
     "depth_mm": 9.8
-  }
+  },
+  "model_numbers": [
+    "L18011",
+    "Lenovo L18021"
+  ],
+  "codenames": [
+    "L18011",
+    "L18021"
+  ]
 }

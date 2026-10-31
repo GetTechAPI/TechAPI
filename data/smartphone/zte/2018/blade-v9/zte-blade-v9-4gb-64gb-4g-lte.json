@@ -9,7 +9,8 @@
   "os": "Android 8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "blade-v9",
   "variant": {
@@ -111,5 +112,16 @@
     "height_mm": 151.4,
     "width_mm": 70.6,
     "depth_mm": 7.5
-  }
+  },
+  "model_numbers": [
+    "BLADE V9",
+    "ZTE BLADE V0900",
+    "ZTE BLADE V9",
+    "ZTE V0900"
+  ],
+  "codenames": [
+    "P450F10",
+    "P450L10",
+    "P450S10"
+  ]
 }

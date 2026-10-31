@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 10, Android One",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "8-sirocco",
   "variant": {
@@ -123,5 +124,12 @@
     "height_mm": 140.9,
     "width_mm": 73.0,
     "depth_mm": 7.5
-  }
+  },
+  "model_numbers": [
+    "Nokia 8 Sirocco"
+  ],
+  "codenames": [
+    "A1N",
+    "A1N_sprout"
+  ]
 }

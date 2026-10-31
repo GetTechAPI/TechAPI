@@ -9,7 +9,8 @@
   "os": "Android 4.1.2 (Jelly Bean), upgradable to 5 (Lollipop), Sense UI 5",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "one-dual-sim",
   "variant": {
@@ -112,5 +113,23 @@
     "height_mm": 137.8,
     "width_mm": 69.3,
     "depth_mm": 10.4
-  }
+  },
+  "model_numbers": [
+    "831C",
+    "HTC M8d",
+    "HTC M8w",
+    "HTC One_M8",
+    "HTC One_M8 dual sim",
+    "HTC6525LVW",
+    "HTC_0P6B",
+    "HTC_0P6B6",
+    "HTC_M8x"
+  ],
+  "codenames": [
+    "htc_m8",
+    "htc_m8dug",
+    "htc_m8dwg",
+    "htc_m8whl",
+    "htc_m8wl"
+  ]
 }

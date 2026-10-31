@@ -10,7 +10,8 @@
   "os": "Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "soc": "snapdragon-855",
   "variant": {
@@ -45,5 +46,14 @@
     "nfc": "Yes",
     "usb": "3.1, Type-C 1.0 reversible connector"
   },
-  "os_version": "9.0"
+  "os_version": "9.0",
+  "model_numbers": [
+    "LM-V450",
+    "LM-V500",
+    "LM-V500N"
+  ],
+  "codenames": [
+    "flashlm",
+    "flashlmdd"
+  ]
 }

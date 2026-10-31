@@ -9,7 +9,8 @@
   "os": "Android 7.0 (Nougat), upgradable to Android 9.0 (Pie)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "3",
   "variant": {
@@ -118,5 +119,14 @@
     "height_mm": 143.4,
     "width_mm": 71.4,
     "depth_mm": 8.5
-  }
+  },
+  "model_numbers": [
+    "TA-1020",
+    "TA-1028",
+    "TA-1032",
+    "TA-1038"
+  ],
+  "codenames": [
+    "NE1"
+  ]
 }

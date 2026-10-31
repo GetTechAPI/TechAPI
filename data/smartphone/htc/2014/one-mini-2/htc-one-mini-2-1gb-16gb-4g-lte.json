@@ -9,7 +9,8 @@
   "os": "Android 4.4.2 (KitKat), Sense UI",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "one-mini-2",
   "variant": {
@@ -118,5 +119,13 @@
     "height_mm": 137.4,
     "width_mm": 65.0,
     "depth_mm": 10.6
-  }
+  },
+  "model_numbers": [
+    "HTC One mini 2",
+    "HTC_M8MINx",
+    "HTC_One_mini_2"
+  ],
+  "codenames": [
+    "htc_memul"
+  ]
 }

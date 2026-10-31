@@ -10,7 +10,8 @@
   "os": "Android 14, One UI 6.1",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones"
+    "https://www.kaggle.com/datasets/madajaswanth/phone-dataset-8461-phones",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -44,5 +45,15 @@
       "raw": "12 MP, f/2.2, 26mm (wide), 12 MP, f/2.4, 120˚ (ultrawide)"
     }
   ],
-  "os_version": "14"
+  "os_version": "14",
+  "model_numbers": [
+    "SM-X920",
+    "SM-X926B",
+    "SM-X926C",
+    "SM-X926N"
+  ],
+  "codenames": [
+    "gts10u",
+    "gts10uwifi"
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "slug": "mediapad-7-vogue",
   "base_model_slug": "mediapad-7-vogue",
-  "name": "MediaPad 7 Vogue",
+  "name": "Huawei MediaPad 7 Vogue",
   "brand": "huawei",
   "soc": "huawei-k3v2",
   "release_date": "2013-01-01",
@@ -11,7 +11,9 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=4694",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     1,
@@ -41,5 +43,12 @@
     "platform_chipset": "Huawei K3V2",
     "platform_cpu": "Quad-core 1.2 GHz Cortex-A9",
     "platform_gpu": "Vivante GC4000"
-  }
+  },
+  "model_numbers": [
+    "MediaPad 7 Vogue"
+  ],
+  "codenames": [
+    "hws7601us",
+    "hws7601w"
+  ]
 }

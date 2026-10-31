@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     1
@@ -40,5 +41,16 @@
     "platform_chipset": "Qualcomm MSM7227A-0 AA Snapdragon S1",
     "platform_cpu": "1.0 GHz Cortex-A5",
     "platform_gpu": "Adreno 200"
-  }
+  },
+  "model_numbers": [
+    "XT535",
+    "XT555C",
+    "XT556",
+    "XT557"
+  ],
+  "codenames": [
+    "XT535",
+    "tinboostplus_cdma",
+    "tinboostplus_umts"
+  ]
 }

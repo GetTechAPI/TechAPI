@@ -3,14 +3,16 @@
   "name": "Gear S3 classic",
   "brand": "samsung",
   "soc": "exynos-7270",
-  "release_date": "2016-01-01",
-  "ram_gb": 1,
-  "battery_mah": 1500,
+  "release_date": "2016-08-01",
+  "ram_gb": 0.75,
+  "battery_mah": 380,
   "weight_g": 59.0,
-  "os": "Feature phone",
+  "os": "Tizen-based wearable platform 4.0",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://github.com/sarangzambare/smartdevices_pricing",
+    "https://raw.githubusercontent.com/sarangzambare/smartdevices_pricing/master/csv/data_full_dirty.csv"
   ],
   "storage_options_gb": [
     4
@@ -19,7 +21,7 @@
     "size_inch": 1.3,
     "resolution": "360x360",
     "type": "Super AMOLED capacitive touchscreen, 16M colors",
-    "ppi": 392
+    "ppi": 278
   },
   "connectivity": {
     "wifi": "Wi-Fi 802.11 b/g/n",
@@ -40,11 +42,67 @@
     "source_category": "smartphone-reclassified",
     "source_slug": "gear-s3-classic",
     "memory": {
-      "ram_gb": 1,
+      "ram_gb": 0.75,
       "storage_gb": 4
     },
     "network": {
       "cellular": "Wi-Fi"
     }
-  }
+  },
+  "raw_source": {
+    "year": "2016, August",
+    "lte": "0",
+    "cpu": "Dual-core 1.0 GHz",
+    "ram": "4 GB, 768 MB RAM",
+    "internal": "4 GB, 768 MB RAM",
+    "camera": "No",
+    "front_camera": "",
+    "bluetooth": "4.2, A2DP, LE",
+    "price": "About 260 EUR"
+  },
+  "raw_merged_records": [
+    {
+      "slug": "samsung-gear-s3-classic",
+      "base_model_slug": "samsung-gear-s3-classic",
+      "name": "Samsung Gear S3 classic",
+      "brand": "samsung",
+      "release_date": "2016-08-01",
+      "ram_gb": 0.75,
+      "battery_mah": 380,
+      "weight_g": 59.0,
+      "os": "Unknown",
+      "verified": false,
+      "source_urls": [
+        "https://github.com/sarangzambare/smartdevices_pricing"
+      ],
+      "variant": {
+        "region": "global",
+        "source_category": "github-gsmarena-derived",
+        "source_dataset": "sarangzambare/smartdevices_pricing"
+      },
+      "raw_source": {
+        "year": "2016, August",
+        "lte": "0",
+        "cpu": "Dual-core 1.0 GHz",
+        "ram": "4 GB, 768 MB RAM",
+        "internal": "4 GB, 768 MB RAM",
+        "camera": "No",
+        "front_camera": "",
+        "bluetooth": "4.2, A2DP, LE",
+        "price": "About 260 EUR"
+      },
+      "display": {
+        "size_inch": 1.3,
+        "resolution": "360x360",
+        "type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "ppi": 278
+      },
+      "storage_options_gb": [
+        4
+      ],
+      "connectivity": {
+        "bluetooth": "4.2, A2DP, LE"
+      }
+    }
+  ]
 }

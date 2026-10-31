@@ -9,7 +9,8 @@
   "os": "Android 11, planned upgrade to Android 13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "edge-20-lite",
   "variant": {
@@ -112,5 +113,15 @@
     "height_mm": 165.9,
     "width_mm": 76.0,
     "depth_mm": 8.3
-  }
+  },
+  "model_numbers": [
+    "motorola",
+    "motorola edge 20",
+    "motorola edge 20 lite",
+    "motorola edge plus"
+  ],
+  "codenames": [
+    "berlin",
+    "kyoto"
+  ]
 }

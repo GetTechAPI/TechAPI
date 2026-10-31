@@ -9,7 +9,8 @@
   "os": "Android 3.2 (Honeycomb), upgradable to 4.0.4 (Ice Cream Sandwich)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "xoom-2-media-edition-3g-mz608",
   "variant": {
@@ -108,5 +109,15 @@
     "height_mm": 216.0,
     "width_mm": 139.0,
     "depth_mm": 9.0
-  }
+  },
+  "model_numbers": [
+    "MZ608",
+    "MZ609",
+    "MZ617",
+    "XOOM 2"
+  ],
+  "codenames": [
+    "fleming",
+    "pasteur"
+  ]
 }

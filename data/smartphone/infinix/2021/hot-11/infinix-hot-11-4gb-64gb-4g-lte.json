@@ -9,7 +9,8 @@
   "os": "Android v11",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "hot-11",
   "variant": {
@@ -166,5 +167,15 @@
     "Technical.OS": "Android v11"
   },
   "soc": "mediatek-helio-g70",
-  "os_version": "11"
+  "os_version": "11",
+  "model_numbers": [
+    "Infinix X662",
+    "Infinix X662B",
+    "Infinix X689F"
+  ],
+  "codenames": [
+    "Infinix-X662",
+    "Infinix-X662B",
+    "Infinix-X689F"
+  ]
 }

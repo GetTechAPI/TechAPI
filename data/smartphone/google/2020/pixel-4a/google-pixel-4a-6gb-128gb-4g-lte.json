@@ -9,7 +9,8 @@
   "os": "Android 10, upgradable to Android 13",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "pixel-4a",
   "variant": {
@@ -116,5 +117,11 @@
     "height_mm": 144.0,
     "width_mm": 69.4,
     "depth_mm": 8.2
-  }
+  },
+  "model_numbers": [
+    "Pixel 4a"
+  ],
+  "codenames": [
+    "sunfish"
+  ]
 }

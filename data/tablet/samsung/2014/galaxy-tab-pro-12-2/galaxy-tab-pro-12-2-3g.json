@@ -6,11 +6,13 @@
   "release_date": "2014-01-01",
   "ram_gb": 3,
   "battery_mah": 9500,
-  "weight_g": 150.0,
+  "weight_g": 730.2,
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     3,
@@ -57,5 +59,14 @@
     "network": {
       "cellular": "3G"
     }
-  }
+  },
+  "model_numbers": [
+    "SM-T900",
+    "SM-T900X",
+    "SM-T905"
+  ],
+  "codenames": [
+    "v2lte",
+    "v2wifi"
+  ]
 }

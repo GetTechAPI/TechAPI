@@ -9,7 +9,8 @@
   "os": "Android 2.3 (Gingerbread)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "spectrum-vs920",
   "variant": {
@@ -109,5 +110,12 @@
     "height_mm": 135.4,
     "width_mm": 68.8,
     "depth_mm": 10.4
-  }
+  },
+  "model_numbers": [
+    "VS920 4G"
+  ],
+  "codenames": [
+    "VS920",
+    "i_vzw"
+  ]
 }

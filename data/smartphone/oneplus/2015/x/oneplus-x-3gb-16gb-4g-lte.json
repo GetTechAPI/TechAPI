@@ -9,7 +9,8 @@
   "os": "Android 5.1.1 (Lollipop), upgradable to 6.0.1 (Marshmallow), OxygenOS 2.2.3",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "x",
   "variant": {
@@ -117,5 +118,11 @@
     "height_mm": 140.0,
     "width_mm": 69.0,
     "depth_mm": 6.9
-  }
+  },
+  "model_numbers": [
+    "ONE E1003"
+  ],
+  "codenames": [
+    "OnePlus"
+  ]
 }

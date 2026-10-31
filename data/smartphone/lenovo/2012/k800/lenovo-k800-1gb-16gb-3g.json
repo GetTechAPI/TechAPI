@@ -9,7 +9,8 @@
   "os": "Android 2.3.7 (Gingerbread)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "k800",
   "variant": {
@@ -103,5 +104,12 @@
     "height_mm": 130.5,
     "width_mm": 71.2,
     "depth_mm": 11.0
-  }
+  },
+  "model_numbers": [
+    "Lenovo K800"
+  ],
+  "codenames": [
+    "K800",
+    "mfld_pr2"
+  ]
 }

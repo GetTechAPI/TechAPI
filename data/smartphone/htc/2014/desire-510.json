@@ -11,7 +11,8 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "storage_options_gb": [
     1,
@@ -46,5 +47,16 @@
     "platform_chipset": "Qualcomm MSM8916 Snapdragon 410 (28 nm) - EU modelQualcomm Snapdragon 400 (28 nm) - USA model",
     "platform_cpu": "Quad-core 1.2 GHz Cortex-A53 - EU modelQuad-core 1.2 GHz Cortex-A7 - USA model",
     "platform_gpu": "Adreno 306 - EU modelAdreno 305 - USA model"
-  }
+  },
+  "model_numbers": [
+    "0PCV1",
+    "HTC 0PCV20",
+    "HTC Desire 510",
+    "HTC_0PCV2"
+  ],
+  "codenames": [
+    "htc_a11chl",
+    "htc_a11ul",
+    "htc_a11ul8x26"
+  ]
 }

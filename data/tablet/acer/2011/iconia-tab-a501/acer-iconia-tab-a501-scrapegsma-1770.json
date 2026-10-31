@@ -10,7 +10,8 @@
   "os": "Android 3.0 (Honeycomb), upgradable to 3.2 (Honeycomb)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -47,5 +48,11 @@
     "bluetooth": "2.1, A2DP, EDR",
     "gps": "Yes, with A-GPS"
   },
-  "os_version": "3.0"
+  "os_version": "3.0",
+  "model_numbers": [
+    "A501"
+  ],
+  "codenames": [
+    "picasso"
+  ]
 }

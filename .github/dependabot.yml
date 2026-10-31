@@ -1,0 +1,35 @@
+# Dependabot is the only thing that opens PRs here on its own, as dependabot[bot]:
+# at most one open PR per ecosystem, into develop, reviewed and merged by hand.
+version: 2
+updates:
+  # The TechEngine pin decides how data is validated and how the API is
+  # generated at deploy time, so it moves by PR and passes pr-checks first.
+  - package-ecosystem: gitsubmodule
+    directory: /
+    target-branch: develop
+    schedule:
+      interval: weekly
+      day: tuesday
+      time: "10:17"
+      timezone: Asia/Seoul
+    open-pull-requests-limit: 1
+    assignees: [Seungpyo1007, TechEngineBot]
+    labels: [ci]
+    commit-message:
+      prefix: chore
+      include: scope
+
+  - package-ecosystem: github-actions
+    directory: /
+    target-branch: develop
+    schedule:
+      interval: monthly
+      timezone: Asia/Seoul
+    open-pull-requests-limit: 1
+    groups:
+      actions:
+        patterns: ["*"]
+    assignees: [Seungpyo1007, TechEngineBot]
+    labels: [ci]
+    commit-message:
+      prefix: ci

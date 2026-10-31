@@ -9,7 +9,8 @@
   "os": "Android 8.0 (Oreo), upgradable to Android 10, MIUI 12",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "mi-mix-2s",
   "variant": {
@@ -120,5 +121,12 @@
     "height_mm": 150.9,
     "width_mm": 74.9,
     "depth_mm": 8.1
-  }
+  },
+  "model_numbers": [
+    "MIX 2S",
+    "Mi MIX 2S"
+  ],
+  "codenames": [
+    "polaris"
+  ]
 }

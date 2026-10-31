@@ -9,7 +9,8 @@
   "os": "Android 14, Magic OS 8",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "x6b",
   "variant": {
@@ -109,5 +110,13 @@
     "height_mm": 163.6,
     "width_mm": 75.3,
     "depth_mm": 8.4
-  }
+  },
+  "model_numbers": [
+    "JDY-LX1",
+    "JDY-LX2",
+    "JDY-LX3P"
+  ],
+  "codenames": [
+    "HNJDY-M1"
+  ]
 }

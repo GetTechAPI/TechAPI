@@ -10,7 +10,8 @@
   "os": "Android 5.0 (Lollipop), upgradable to 7.1.1 (Nougat)",
   "verified": false,
   "source_urls": [
-    "https://github.com/cigarplug/scrape-gsma"
+    "https://github.com/cigarplug/scrape-gsma",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "variant": {
     "region": "global",
@@ -47,5 +48,12 @@
     "bluetooth": "4.1, A2DP, aptX",
     "gps": "Yes, with A-GPS, GLONASS"
   },
-  "os_version": "5.0"
+  "os_version": "5.0",
+  "model_numbers": [
+    "Nexus 9"
+  ],
+  "codenames": [
+    "flounder",
+    "flounder_lte"
+  ]
 }

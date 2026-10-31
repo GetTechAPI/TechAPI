@@ -1,0 +1,154 @@
+name: pr-checks
+
+# Read-only checks for every PR into develop or main. This job runs PR code
+# (TechAPI's validator, the PR's TechEngine pin, npm scripts), so it gets no
+# secrets and a read-only token, keeps no credentials on disk and writes
+# nothing: results are the check status, file annotations and the job summary.
+# It runs on every PR so it can become a required check; the first step decides
+# which checks the change needs.
+on:
+  pull_request:
+    branches: [develop, main]
+
+permissions: {}
+
+concurrency:
+  group: pr-checks-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    # Branches the old TechEngine bots pushed. Nothing should open them any more;
+    # if something does, it gets no run here.
+    if: >-
+      !startsWith(github.head_ref, 'refresh/') && !startsWith(github.head_ref, 'ingest/') &&
+      !startsWith(github.head_ref, 'verify/promote-') && !startsWith(github.head_ref, 'dump-refresh/')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONDONTWRITEBYTECODE: "1"
+      TECHAPI_DATA_DIR: ${{ github.workspace }}/data
+    steps:
+      # The pull_request ref is GitHub's merge commit. Depth 2 brings both
+      # parents, so HEAD^1 is the base the PR merges into: no deepening, no
+      # second checkout. submodules: true is NOT recursive (TechEngine carries
+      # TechAPI as its own submodule; recursion re-clones ~1.8 GB).
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 2
+          submodules: true
+          persist-credentials: false
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+
+      - name: Classify the change
+        id: scope
+        run: |
+          base=$(git rev-parse HEAD^1)
+          git diff --name-only "$base" HEAD > "$RUNNER_TEMP/changed.txt"
+          has() { [ "$(grep -E "$1" "$RUNNER_TEMP/changed.txt" | grep -cvE "${2:-^$}")" -gt 0 ]; }
+          data=false; site=false; engine=false
+          has '^(data/|app/)' '^data/_verify/' && data=true
+          has '^site/' '^site/public/(v1/|openapi\.json$)' && site=true
+          has '^TechEngine$' && engine=true
+          if has '^\.github/(workflows/pr-checks\.yml$|scripts/)'; then data=true; site=true; engine=true; fi
+          { echo "base=$base"; echo "data=$data"; echo "site=$site"; echo "engine=$engine"; } >> "$GITHUB_OUTPUT"
+
+      - name: Data and engine checks
+        if: steps.scope.outputs.data == 'true' || steps.scope.outputs.engine == 'true'
+        env:
+          BASE: ${{ steps.scope.outputs.base }}
+          DATA: ${{ steps.scope.outputs.data }}
+          ENGINE: ${{ steps.scope.outputs.engine }}
+        run: |
+          set +e   # run every check, then fail once at the end
+          fail=0
+          rows="$RUNNER_TEMP/rows.md"
+          # Engine tools run from TechEngine/ (TechAPI's app/ would shadow the
+          # engine's) with every proxy pointed at a closed port: no third-party
+          # site is reachable from them.
+          in_engine() {
+            local p=http://127.0.0.1:9
+            (cd TechEngine && HTTP_PROXY=$p HTTPS_PROXY=$p ALL_PROXY=$p http_proxy=$p https_proxy=$p \
+              all_proxy=$p NO_PROXY= no_proxy= "$@")
+          }
+          check() {  # check <label> <log name> <command...>
+            local label=$1 log="$RUNNER_TEMP/$2"; shift 2
+            "$@" > "$log" 2>&1; local status=$?
+            # Validators print "  - <category>/<path>.json: <message>". GitHub shows
+            # at most 10 error annotations per step; the summary carries the rest.
+            sed -nE 's#^  - ([^:]+\.json): (.*)$#::error file=data/\1::\2#p' "$log" | head -n 10
+            if [ "$status" -eq 0 ]; then
+              echo "| $label | PASS |" >> "$rows"
+            else
+              echo "| $label | **FAIL** |" >> "$rows"; fail=1
+              { echo "<details><summary>$label</summary>"; echo; echo '```text'
+                tail -n 60 "$log"; echo '```'; echo "</details>"; } >> "$RUNNER_TEMP/failures.md"
+            fi
+          }
+          if [ "$DATA" = true ]; then
+            check 'Bundled validator, full scan' bundled.log python -m app.validate
+          fi
+          if [ "$ENGINE" = true ]; then
+            check 'Engine validator, full (engine pin changed)' engine.log in_engine python -m app.validate
+          else
+            check 'Engine validator, changed records' engine.log in_engine python -m app.validate --changed-since "$BASE"
+          fi
+          check 'Integrity gate, whole dataset (--strict)' integrity.log in_engine python integrity_check.py ../data --strict
+          if [ "$ENGINE" = true ]; then
+            # The deploy runs this engine; prove it still seeds and dumps before merge.
+            check 'Engine install' pip.log python -m pip install --disable-pip-version-check -e ./TechEngine
+            check 'Smoke dump (brands, socs)' dump.log in_engine python -m app.dump --only brands --only socs --output "$RUNNER_TEMP/dump"
+          fi
+          if [ "$DATA" = true ]; then
+            # Informational Tier 0 bands for the changed records (offline).
+            in_engine python -m app.verify score --base "$BASE" --changed --no-cache --format md > "$RUNNER_TEMP/tier0.md" 2>&1 \
+              || echo "_Tier 0 report unavailable on this engine pin._" > "$RUNNER_TEMP/tier0.md"
+          fi
+          exit "$fail"
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        if: (success() || failure()) && steps.scope.outputs.site == 'true'
+        with:
+          node-version: "22"
+          package-manager-cache: false
+
+      - name: Site build
+        if: (success() || failure()) && steps.scope.outputs.site == 'true'
+        working-directory: site
+        run: |
+          if npm ci > "$RUNNER_TEMP/site.log" 2>&1 && npm run build >> "$RUNNER_TEMP/site.log" 2>&1; then
+            echo "| Site build (npm ci && npm run build) | PASS |" >> "$RUNNER_TEMP/rows.md"
+          else
+            echo "| Site build (npm ci && npm run build) | **FAIL** |" >> "$RUNNER_TEMP/rows.md"
+            tail -n 60 "$RUNNER_TEMP/site.log"; exit 1
+          fi
+
+      - name: Job summary
+        if: always()
+        env:
+          BASE: ${{ steps.scope.outputs.base }}
+        run: |
+          set +e
+          {
+            echo "## pr-checks for ${GITHUB_SHA::7} (base ${BASE::7})"
+            echo
+            echo "| Check | Result |"
+            echo "| --- | --- |"
+            cat "$RUNNER_TEMP/rows.md" 2>/dev/null || echo "| (no data, engine or site changes) | skipped |"
+            echo
+            echo "### Changed records"
+            echo
+            echo "| Category | Added | Modified | Deleted |"
+            echo "| --- | ---: | ---: | ---: |"
+            git diff --name-status --no-renames "$BASE" HEAD -- data/ \
+              | awk -F'\t' '$2 ~ /\.json$/ { split($2, p, "/"); if (p[2] !~ /^_/) { n[p[2]]++; s[p[2], substr($1, 1, 1)]++ } }
+                  END { for (c in n) printf "| %s | %d | %d | %d |\n", c, s[c, "A"], s[c, "M"], s[c, "D"] }' | sort
+            cat "$RUNNER_TEMP/failures.md" 2>/dev/null
+            if [ -s "$RUNNER_TEMP/tier0.md" ]; then echo; echo "### Tier 0 (informational)"; echo; cat "$RUNNER_TEMP/tier0.md"; fi
+          } | tee -a "$GITHUB_STEP_SUMMARY"

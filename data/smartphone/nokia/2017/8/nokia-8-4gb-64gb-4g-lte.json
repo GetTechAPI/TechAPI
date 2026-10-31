@@ -9,7 +9,8 @@
   "os": "Android v7.1.1 (Nougat), upgradable to v8.1 (Oreo)",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset"
+    "https://www.kaggle.com/datasets/mayankkumarpoddar/smartprix-mobiles-dataset",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "8",
   "variant": {
@@ -166,5 +167,13 @@
     "Technical.OS": "Android v7.1.1 (Nougat), upgradable to v8.1 (Oreo)"
   },
   "soc": "snapdragon-835",
-  "os_version": "7.1.1"
+  "os_version": "7.1.1",
+  "model_numbers": [
+    "TA-1004",
+    "TA-1012",
+    "TA-1052"
+  ],
+  "codenames": [
+    "NB1"
+  ]
 }

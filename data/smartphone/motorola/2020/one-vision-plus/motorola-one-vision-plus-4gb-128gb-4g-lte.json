@@ -9,7 +9,8 @@
   "os": "Android 9.0 (Pie), upgradable to Android 10",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024"
+    "https://www.kaggle.com/datasets/jakubkhalponiak/phones-2024",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "base_model_slug": "one-vision-plus",
   "variant": {
@@ -110,5 +111,11 @@
     "height_mm": 158.4,
     "width_mm": 75.8,
     "depth_mm": 9.1
-  }
+  },
+  "model_numbers": [
+    "motorola one vision plus"
+  ],
+  "codenames": [
+    "doha_n"
+  ]
 }

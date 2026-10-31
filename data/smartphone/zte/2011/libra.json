@@ -1,7 +1,7 @@
 {
   "slug": "libra",
   "base_model_slug": "libra",
-  "name": "Libra",
+  "name": "ZTE Libra",
   "brand": "zte",
   "soc": "qualcomm-msm7227-snapdragon-s1",
   "release_date": "2011-01-01",
@@ -11,7 +11,9 @@
   "os": "Android",
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices"
+    "https://www.kaggle.com/datasets/msainani/gsmarena-mobile-devices",
+    "https://phonedb.net/index.php?m=device&id=3045",
+    "https://storage.googleapis.com/play_public/supported_devices.csv"
   ],
   "display": {
     "size_inch": 3.5,
@@ -37,5 +39,11 @@
     "platform_chipset": "Qualcomm MSM7227 Snapdragon S1",
     "platform_cpu": "600 MHz ARM 11",
     "platform_gpu": "Adreno 200"
-  }
+  },
+  "model_numbers": [
+    "ZTE Libra"
+  ],
+  "codenames": [
+    "blade"
+  ]
 }

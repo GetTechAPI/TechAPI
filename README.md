@@ -63,8 +63,18 @@ comments.
 
 For an important PR, a maintainer adds the `final-check` label.
 [`final-check.yml`](.github/workflows/final-check.yml) then builds everything
-`pages.yml` would publish from the PR, and TechEngineBot posts one comment with
-the verdict; adding the label again updates that comment.
+`pages.yml` would publish from the PR and runs TechEngine's Tier 0-3
+verification of the changed records. TechEngineBot posts one comment with the
+verdict; adding the label again updates that comment.
+
+New and refreshed records come from
+[`collect.yml`](.github/workflows/collect.yml), which a maintainer runs by hand
+from the Actions tab on `develop`. It runs one of TechEngine's collectors
+(`ingest`, `refresh` or `promote`) and keeps one open PR per task on a fixed
+`collect/*` branch, updated in place by later runs. That PR comes from
+github-actions[bot] and starts no checks of its own, so the collector validates
+before it pushes and writes the result into the PR body. Collection never runs
+on a schedule and never posts comments.
 
 ## Branching
 

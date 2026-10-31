@@ -77,8 +77,10 @@ This repo follows git-flow:
 | `feat/*`, `data/*`, `fix/*`, `chore/*` | Short-lived work branches, cut from `develop`. |
 
 A release is a PR from `develop` to `main`; merging it deploys the site.
-Dependabot opens the TechEngine submodule bump (weekly) and GitHub Actions
-updates (monthly) as PRs into `develop`; they are merged by hand like any other.
+The TechEngine pin and the pinned action SHAs are bumped by hand, in a PR into
+`develop` that pr-checks validates like any other. Dependabot can't do it:
+TechEngine carries TechAPI as its own submodule, and Dependabot's recursive
+clone runs out of disk on that loop.
 
 ## Contributing
 

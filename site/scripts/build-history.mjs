@@ -26,12 +26,17 @@ const TRACKED = "site/public/v1/index.json";
 const OUT = resolve(SITE_DIR, "public/v1/history.json");
 const REPO_URL = "https://github.com/GetTechAPI/TechAPI";
 
-// Categories we sum into the record total (matches the public dump manifest).
-const ORDER = ["smartphones", "tablets", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
+// Categories we sum into the record total: every collection in the public dump
+// manifest (v1/index.json). Old manifests that predate a collection just lack it.
+const ORDER = [
+  "smartphones", "tablets", "laptops", "monitors", "watches", "pdas", "socs", "gpus", "cpus",
+  "brands", "software", "websites", "device-catalog",
+];
 // The data/ folder behind each of those collections.
 const DATA_DIR = {
-  smartphones: "smartphone", tablets: "tablet", watches: "watch", pdas: "pda",
-  socs: "soc", gpus: "gpu", cpus: "cpu", brands: "brand",
+  smartphones: "smartphone", tablets: "tablet", laptops: "laptop", monitors: "monitor",
+  watches: "watch", pdas: "pda", socs: "soc", gpus: "gpu", cpus: "cpu", brands: "brand",
+  software: "software", websites: "website", "device-catalog": "device_catalog",
 };
 // Keep the chart legible if the history ever grows large: downsample to at most
 // MAX points, always preserving the first (baseline) and last (latest) commits.
@@ -41,9 +46,12 @@ const MAX = 40;
 const DATA_MAX = 20;
 
 function git(args) {
+  // stderr is captured, not printed: a commit without the manifest (such as the
+  // one that stopped committing it) is skipped, not a "fatal:" line in the log.
   return execFileSync("git", ["-C", REPO_ROOT, ...args], {
     encoding: "utf8",
     maxBuffer: 64 * 1024 * 1024,
+    stdio: ["ignore", "pipe", "pipe"],
   });
 }
 

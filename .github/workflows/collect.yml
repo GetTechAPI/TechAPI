@@ -1,23 +1,27 @@
 name: collect
+# open-collect-pr.sh takes the task from this title, which the run can't change.
+run-name: "collect ${{ inputs.task }}${{ inputs.task == 'ingest' && format(' {0}', inputs.category) || '' }}"
 
 # Runs one of TechEngine's collectors by hand, on develop:
 #   ingest   drafts new SKUs for one category from upstream catalogs
 #   refresh  re-scrapes the benchmark sources into existing records
 #   promote  runs the network verification (Tiers 1-3) and, with apply, flips
 #            `verified` on the records that pass
-# Each task keeps at most ONE open PR into develop, on a fixed collect/* branch
-# that every run force-pushes and whose body it edits in place. Nothing here
-# runs on a schedule or posts a comment, and the engine that runs is the
-# TechEngine commit this repository pins as its submodule.
+# Nothing here runs on a schedule, pushes, opens a PR or posts a comment, and
+# the engine that runs is the TechEngine commit this repository pins as its
+# submodule.
 #
-# The PR comes from github-actions[bot] (this repository's GITHUB_TOKEN), so it
-# starts no other workflow: the collector runs the validators and the
-# integrity gate before it pushes and puts the result in the PR body. Add the
-# `final-check` label for the full build and the Tier 0-3 verification.
+# The token is read-only. A run commits its data changes locally, runs the
+# validators and the integrity gate, and uploads the commit as collect.patch in
+# a collect-* artifact. A maintainer then opens the PR from their own account:
+#   bash .github/scripts/open-collect-pr.sh <run-id>
+# so pr-checks runs on it like on any PR. Each task keeps at most one open PR,
+# on a fixed collect/* branch that the script force-pushes and whose body it
+# edits in place. Add the `final-check` label for the full build and the
+# Tier 0-3 verification.
 #
-# Opening the PR needs "Allow GitHub Actions to create and approve pull
-# requests" (Settings > Actions > General). The TechEngine workflows are pinned
-# by commit SHA; bump it together with the submodule.
+# The TechEngine workflows are pinned by commit SHA; bump it together with the
+# submodule.
 on:
   workflow_dispatch:
     inputs:
@@ -36,7 +40,7 @@ on:
         type: string
         default: "50"
       include_drafts:
-        description: "ingest: also write incomplete records (draft PR)"
+        description: "ingest: also write incomplete records (the PR opens as a draft)"
         type: boolean
         default: false
       sleep:
@@ -44,7 +48,7 @@ on:
         type: string
         default: "1.0"
       apply:
-        description: "promote: flip verified and open the PR (otherwise a dry run)"
+        description: "promote: flip verified and upload the patch (otherwise a dry run)"
         type: boolean
         default: false
       max_urls:
@@ -68,8 +72,7 @@ jobs:
       github.repository == 'GetTechAPI/TechAPI' && github.ref == 'refs/heads/develop' &&
       inputs.task == 'ingest'
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     uses: GetTechAPI/TechEngine/.github/workflows/ingest.yml@bc86016d7e4dc66e9c6204783aaa6e57d426bedf # main, TechEngine #130
     with:
       category: ${{ inputs.category }}
@@ -81,8 +84,7 @@ jobs:
       github.repository == 'GetTechAPI/TechAPI' && github.ref == 'refs/heads/develop' &&
       inputs.task == 'refresh'
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     uses: GetTechAPI/TechEngine/.github/workflows/refresh.yml@bc86016d7e4dc66e9c6204783aaa6e57d426bedf # main, TechEngine #130
     with:
       sleep: ${{ inputs.sleep }}
@@ -92,8 +94,7 @@ jobs:
       github.repository == 'GetTechAPI/TechAPI' && github.ref == 'refs/heads/develop' &&
       inputs.task == 'promote'
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     uses: GetTechAPI/TechEngine/.github/workflows/verify-promote.yml@bc86016d7e4dc66e9c6204783aaa6e57d426bedf # main, TechEngine #130
     with:
       apply: ${{ inputs.apply }}

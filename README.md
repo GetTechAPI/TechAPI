@@ -71,11 +71,17 @@ anyone or reference other issues: `@` is dropped and `#123` links are broken.
 New and refreshed records come from
 [`collect.yml`](.github/workflows/collect.yml), which a maintainer runs by hand
 from the Actions tab on `develop`. It runs one of TechEngine's collectors
-(`ingest`, `refresh` or `promote`) and keeps one open PR per task on a fixed
-`collect/*` branch, updated in place by later runs. That PR comes from
-github-actions[bot] and starts no checks of its own, so the collector validates
-before it pushes and writes the result into the PR body. Collection never runs
-on a schedule and never posts comments.
+(`ingest`, `refresh` or `promote`) with a read-only token: the run validates
+its changes and uploads them as a patch, and never pushes, opens a PR or posts
+a comment. The maintainer then opens the PR from their own account, so
+pr-checks runs on it like on any PR:
+
+```bash
+bash .github/scripts/open-collect-pr.sh <run-id>   # from any TechAPI clone
+```
+
+Each task keeps one open PR on a fixed `collect/*` branch, updated in place by
+later runs. Collection never runs on a schedule.
 
 ## Branching
 

@@ -7,11 +7,11 @@ name: final-check
 # comment with the verdict; adding the label again edits that comment. This is
 # the only place the TechEngineBot account is used.
 #
-# The check job runs PR code, so it gets no secrets and a read-only token.
-# Only the comment job sees TECHENGINEBOT_TOKEN, which must be a fine-grained
-# token of TechEngineBot for this repository with Pull requests: read and write
-# and nothing else; the job refuses any other kind of token or account. Fork
-# PRs never get a comment.
+# The check job runs PR code, so it gets no secrets and a read-only token, and
+# the comment job doesn't trust its report. Only the comment job sees
+# TECHENGINEBOT_TOKEN, which must be a fine-grained token of TechEngineBot with
+# Pull requests: read and write and nothing else; the job refuses any other
+# kind of token or account. Fork PRs never get a comment.
 on:
   pull_request:
     types: [labeled]
@@ -190,7 +190,7 @@ jobs:
           fi
           case "$TOKEN" in
             github_pat_*) echo "ok=true" >> "$GITHUB_OUTPUT" ;;
-            *) echo "::error::TECHENGINEBOT_TOKEN must be a fine-grained token (github_pat_...) of TechEngineBot, for this repository only, with Pull requests: read and write."
+            *) echo "::error::TECHENGINEBOT_TOKEN must be a fine-grained token (github_pat_...) of TechEngineBot with Pull requests: read and write."
                exit 1 ;;
           esac
 
@@ -203,7 +203,16 @@ jobs:
           github-token: ${{ secrets.TECHENGINEBOT_TOKEN }}
           script: |
             const marker = '<!-- techapi-final-check -->';
-            const body = process.env.BODY || '';
+            // The check job ran the PR's code, so its report is untrusted here:
+            // drop every @ and break issue references and issue/PR links, so the
+            // comment can neither mention anyone nor cross-reference anything.
+            const zw = String.fromCharCode(0x200b); // zero-width space
+            const body = (process.env.BODY || '')
+              .replace(/@/g, '')
+              .replace(/(?<!&)#(?=\d+\b)/g, `#${zw}`)
+              .replace(/\bgh-(?=\d+\b)/gi, `$&${zw}`)
+              .replace(/\/(issues|pull|discussions)\/(?=\d)/g, `/$1/${zw}`)
+              .slice(0, 65000);
             if (!body.startsWith(marker)) {
               core.setFailed('The check job produced no report; nothing posted.');
               return;

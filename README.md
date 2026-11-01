@@ -65,7 +65,8 @@ For an important PR, a maintainer adds the `final-check` label.
 [`final-check.yml`](.github/workflows/final-check.yml) then builds everything
 `pages.yml` would publish from the PR and runs TechEngine's Tier 0-3
 verification of the changed records. TechEngineBot posts one comment with the
-verdict; adding the label again updates that comment.
+verdict; adding the label again updates that comment. The comment can't mention
+anyone or reference other issues: `@` is dropped and `#123` links are broken.
 
 New and refreshed records come from
 [`collect.yml`](.github/workflows/collect.yml), which a maintainer runs by hand

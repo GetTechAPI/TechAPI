@@ -2,9 +2,10 @@ name: final-check
 
 # A maintainer adds the `final-check` label to an important PR. The check job
 # builds what pages.yml would publish from the PR (both validators, the
-# integrity gate, the whole generated API and the site), and TechEngineBot
-# leaves ONE comment with the verdict; adding the label again edits that
-# comment. This is the only place the TechEngineBot account is used.
+# integrity gate, the whole generated API and the site) and runs the engine's
+# Tier 0-3 verification of the records the PR changes. TechEngineBot leaves ONE
+# comment with the verdict; adding the label again edits that comment. This is
+# the only place the TechEngineBot account is used.
 #
 # The check job runs PR code, so it gets no secrets and a read-only token.
 # Only the comment job sees TECHENGINEBOT_TOKEN, which must be a fine-grained
@@ -55,6 +56,27 @@ jobs:
           tail -n 40 "$RUNNER_TEMP/install.log"
           exit "$status"
 
+      # The only step here that goes online. Tiers 1 and 2 fetch the source URLs
+      # of at most 40 changed records and look them up on Wikidata, with the
+      # engine's own bot User-Agent; Tier 3 is a dry run that writes nothing.
+      # Informational: the verdict doesn't depend on it.
+      - name: Verify the changed records
+        id: verify
+        if: steps.install.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 20
+        working-directory: TechEngine
+        env:
+          TECHAPI_DATA_DIR: ${{ github.workspace }}/data
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          status=0
+          python -m app.verify pr --base "$(git -C .. rev-parse HEAD^1)" \
+            > "$RUNNER_TEMP/verify.md" 2> "$RUNNER_TEMP/verify.log" || status=$?
+          cat "$RUNNER_TEMP/verify.md"
+          tail -n 20 "$RUNNER_TEMP/verify.log"
+          exit "$status"
+
       - name: Validate the data and generate the API
         id: api
         if: steps.install.outcome == 'success'
@@ -83,13 +105,17 @@ jobs:
           exit "$status"
 
       # The comment quotes tool output, which can carry text from the PR's
-      # records: it stays inside code fences with backticks and @ removed, so
-      # it can neither break out into markdown nor mention anyone.
+      # records: logs stay inside code fences with backticks and @ removed, so
+      # they can neither break out into markdown nor mention anyone. The
+      # verification report keeps its markdown tables, but loses every @ and has
+      # a zero-width space put into #123, GH-123 and links, so it can't mention
+      # anyone or cross-reference another issue either.
       - name: Report
         id: report
         if: always()
         env:
           INSTALL: ${{ steps.install.outcome }}
+          VERIFY: ${{ steps.verify.outcome }}
           API: ${{ steps.api.outcome }}
           SITE: ${{ steps.site.outcome }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
@@ -101,6 +127,9 @@ jobs:
             tail -n "$2" "$1" 2>/dev/null | clean
             echo '```'
           }
+          zw=$(printf '\342\200\213')
+          ref="s/(#|[Gg][Hh]-)([0-9]+)(\$|[^0-9A-Za-z_])/\1$zw\2\3/g"  # not #3fb950, a chart colour
+          md_clean() { tr -d '@' | sed -E -e "$ref" -e "$ref" -e "s#://#:$zw//#g" -e "s/www\./www$zw./g" | cut -c1-300; }
           verdict='✅ Final check passed'
           [ "$INSTALL/$API/$SITE" = success/success/success ] || verdict='❌ Final check failed'
           engine=$(git rev-parse --short HEAD:TechEngine 2>/dev/null || echo '?')
@@ -115,10 +144,20 @@ jobs:
             echo "| Install the pinned TechEngine | ${INSTALL:-skipped} |"
             echo "| Validators, integrity gate, generated API | ${API:-skipped} |"
             echo "| Site build | ${SITE:-skipped} |"
+            echo "| Data verification, Tiers 0-3 (informational) | ${VERIFY:-skipped} |"
             if [ -s "$RUNNER_TEMP/api.log" ]; then
               echo
               sed -n '/^| Collection /,/^$/p' "$RUNNER_TEMP/api.log" | tr -d '`@'
             fi
+            if [ -s "$RUNNER_TEMP/verify.md" ]; then
+              echo
+              echo '<details><summary>Data verification, Tiers 0-3</summary>'
+              echo
+              md_clean < "$RUNNER_TEMP/verify.md" | head -c 30000
+              echo
+              echo '</details>'
+            fi
+            [ "$VERIFY" = failure ] && { echo; echo '<details><summary>Verification log</summary>'; echo; fence "$RUNNER_TEMP/verify.log" 20; echo '</details>'; }
             [ "$INSTALL" = failure ] && { echo; echo '<details><summary>Install log</summary>'; echo; fence "$RUNNER_TEMP/install.log" 20; echo '</details>'; }
             [ "$API" = failure ] && { echo; echo '<details><summary>Validation and generation log</summary>'; echo; fence "$RUNNER_TEMP/api.log" 30; echo '</details>'; }
             [ "$SITE" = failure ] && { echo; echo '<details><summary>Site build log</summary>'; echo; fence "$RUNNER_TEMP/site.log" 20; echo '</details>'; }

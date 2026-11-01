@@ -63,8 +63,18 @@ comments.
 
 For an important PR, a maintainer adds the `final-check` label.
 [`final-check.yml`](.github/workflows/final-check.yml) then builds everything
-`pages.yml` would publish from the PR, and TechEngineBot posts one comment with
-the verdict; adding the label again updates that comment.
+`pages.yml` would publish from the PR and runs TechEngine's Tier 0-3
+verification of the changed records. TechEngineBot posts one comment with the
+verdict; adding the label again updates that comment.
+
+New and refreshed records come from
+[`collect.yml`](.github/workflows/collect.yml), which a maintainer runs by hand
+from the Actions tab on `develop`. It runs one of TechEngine's collectors
+(`ingest`, `refresh` or `promote`) and keeps one open PR per task on a fixed
+`collect/*` branch, updated in place by later runs. That PR comes from
+github-actions[bot] and starts no checks of its own, so the collector validates
+before it pushes and writes the result into the PR body. Collection never runs
+on a schedule and never posts comments.
 
 ## Branching
 
@@ -77,8 +87,10 @@ This repo follows git-flow:
 | `feat/*`, `data/*`, `fix/*`, `chore/*` | Short-lived work branches, cut from `develop`. |
 
 A release is a PR from `develop` to `main`; merging it deploys the site.
-Dependabot opens the TechEngine submodule bump (weekly) and GitHub Actions
-updates (monthly) as PRs into `develop`; they are merged by hand like any other.
+The TechEngine pin and the pinned action SHAs are bumped by hand, in a PR into
+`develop` that pr-checks validates like any other. Dependabot can't do it:
+TechEngine carries TechAPI as its own submodule, and Dependabot's recursive
+clone runs out of disk on that loop.
 
 ## Contributing
 

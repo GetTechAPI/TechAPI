@@ -179,10 +179,12 @@ async function loadList(resource) {
 (function stats() {
   const el = document.getElementById("stats");
   if (!el) return;
-  const order = ["games", "software", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
+  const order = ["games", "software", "websites", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "device-catalog", "socs", "gpus", "cpus", "brands"];
   const label = {
     games: "games",
     software: "software",
+    websites: "websites",
+    "device-catalog": "device catalog",
     smartphones: "phones",
     laptops: "laptops",
     tablets: "tablets",
@@ -244,10 +246,12 @@ function countUp(node, target, opts = {}) {
   const listEl = document.getElementById("history-list");
   if (!totalEl || !countsEl || !chartEl || !listEl) return;
 
-  const order = ["games", "software", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "socs", "gpus", "cpus", "brands"];
+  const order = ["games", "software", "websites", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "device-catalog", "socs", "gpus", "cpus", "brands"];
   const label = {
     games: "Games",
     software: "Software",
+    websites: "Websites",
+    "device-catalog": "Device catalog",
     smartphones: "Phones",
     laptops: "Laptops",
     tablets: "Tablets",
@@ -263,6 +267,8 @@ function countUp(node, target, opts = {}) {
   const shortLabel = {
     games: "games",
     software: "software",
+    websites: "websites",
+    "device-catalog": "device catalog",
     smartphones: "phones",
     laptops: "laptops",
     tablets: "tablets",
@@ -295,7 +301,7 @@ function countUp(node, target, opts = {}) {
     const total = rows.reduce((sum, row) => sum + row.count, 0);
     totalEl.textContent = total.toLocaleString() + " records";
     countsEl.innerHTML = rows.map((row) =>
-      `<div class="history-count"><span>${label[row.key]}</span><b>${row.count.toLocaleString()}</b></div>`
+      `<div class="history-count"><span>${label[row.key] || row.key}</span><b>${row.count.toLocaleString()}</b></div>`
     ).join("");
   }
 
@@ -355,7 +361,7 @@ function countUp(node, target, opts = {}) {
     // max-height) so the full history stays reachable without a giant section.
     listEl.innerHTML = points.slice().reverse().map((point) => {
       const changes = point.changes.length
-        ? point.changes.map((row) => `${shortLabel[row.key]} ${formatDelta(row.delta)}`).join(", ")
+        ? point.changes.map((row) => `${shortLabel[row.key] || row.key} ${formatDelta(row.delta)}`).join(", ")
         : (point.baseline ? "baseline snapshot" : `total ${formatDelta(point.delta)}`);
       const tag = shortTitle(point.title);
       const delta = point.baseline ? "baseline" : formatDelta(point.delta);
@@ -392,7 +398,7 @@ function countUp(node, target, opts = {}) {
       hDot.style.left = px + "px";
       hDot.style.top = py + "px";
       const chg = p.changes && p.changes.length
-        ? p.changes.map((row) => `${shortLabel[row.key]} ${formatDelta(row.delta)}`).join(", ")
+        ? p.changes.map((row) => `${shortLabel[row.key] || row.key} ${formatDelta(row.delta)}`).join(", ")
         : "";
       hTip.innerHTML = `<b>${esc(p.when)}</b>` +
         `<span>${p.total.toLocaleString()} records</span>` +

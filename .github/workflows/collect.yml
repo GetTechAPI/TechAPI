@@ -1,0 +1,102 @@
+name: collect
+
+# Runs one of TechEngine's collectors by hand, on develop:
+#   ingest   drafts new SKUs for one category from upstream catalogs
+#   refresh  re-scrapes the benchmark sources into existing records
+#   promote  runs the network verification (Tiers 1-3) and, with apply, flips
+#            `verified` on the records that pass
+# Each task keeps at most ONE open PR into develop, on a fixed collect/* branch
+# that every run force-pushes and whose body it edits in place. Nothing here
+# runs on a schedule or posts a comment, and the engine that runs is the
+# TechEngine commit this repository pins as its submodule.
+#
+# The PR comes from github-actions[bot] (this repository's GITHUB_TOKEN), so it
+# starts no other workflow: the collector runs the validators and the
+# integrity gate before it pushes and puts the result in the PR body. Add the
+# `final-check` label for the full build and the Tier 0-3 verification.
+#
+# Opening the PR needs "Allow GitHub Actions to create and approve pull
+# requests" (Settings > Actions > General). The TechEngine workflows are pinned
+# by commit SHA; bump it together with the submodule.
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Collector to run"
+        type: choice
+        options: [ingest, refresh, promote]
+        default: ingest
+      category:
+        description: "ingest: category"
+        type: choice
+        options: [cpu, gpu, smartphone]
+        default: cpu
+      limit:
+        description: "ingest: max candidates per source"
+        type: string
+        default: "50"
+      include_drafts:
+        description: "ingest: also write incomplete records (draft PR)"
+        type: boolean
+        default: false
+      sleep:
+        description: "refresh: seconds between requests"
+        type: string
+        default: "1.0"
+      apply:
+        description: "promote: flip verified and open the PR (otherwise a dry run)"
+        type: boolean
+        default: false
+      max_urls:
+        description: "promote: records to URL-check"
+        type: string
+        default: "2000"
+      max_wikidata:
+        description: "promote: Wikidata items to check"
+        type: string
+        default: "20000"
+      max_crossref:
+        description: "promote: records to cross-reference"
+        type: string
+        default: "500"
+
+permissions: {}
+
+jobs:
+  ingest:
+    if: >-
+      github.repository == 'GetTechAPI/TechAPI' && github.ref == 'refs/heads/develop' &&
+      inputs.task == 'ingest'
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: GetTechAPI/TechEngine/.github/workflows/ingest.yml@3c50cb80eb9b5e2eb293e23327af707a4b4c82f5 # main, TechEngine #124
+    with:
+      category: ${{ inputs.category }}
+      limit: ${{ inputs.limit }}
+      include_drafts: ${{ inputs.include_drafts }}
+
+  refresh:
+    if: >-
+      github.repository == 'GetTechAPI/TechAPI' && github.ref == 'refs/heads/develop' &&
+      inputs.task == 'refresh'
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: GetTechAPI/TechEngine/.github/workflows/refresh.yml@3c50cb80eb9b5e2eb293e23327af707a4b4c82f5 # main, TechEngine #124
+    with:
+      sleep: ${{ inputs.sleep }}
+
+  promote:
+    if: >-
+      github.repository == 'GetTechAPI/TechAPI' && github.ref == 'refs/heads/develop' &&
+      inputs.task == 'promote'
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: GetTechAPI/TechEngine/.github/workflows/verify-promote.yml@3c50cb80eb9b5e2eb293e23327af707a4b4c82f5 # main, TechEngine #124
+    with:
+      apply: ${{ inputs.apply }}
+      max_urls: ${{ inputs.max_urls }}
+      max_wikidata: ${{ inputs.max_wikidata }}
+      max_crossref: ${{ inputs.max_crossref }}

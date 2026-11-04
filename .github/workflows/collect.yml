@@ -13,9 +13,10 @@ run-name: "collect ${{ inputs.task }}${{ inputs.task == 'ingest' && format(' {0}
 #
 # The token is read-only. A run commits its data changes locally, runs the
 # validators and the integrity gate, and uploads the commit as collect.patch in
-# a collect-* artifact. A maintainer then opens the PR from their own account:
+# a collect-* artifact. A maintainer then runs this by hand:
 #   bash .github/scripts/open-collect-pr.sh <run-id>
-# so pr-checks runs on it like on any PR. Each task keeps at most one open PR,
+# Their account pushes the task's branch and TechEngineBot opens the PR, so
+# pr-checks runs on it like on any PR. Each task keeps at most one open PR,
 # on a fixed collect/* branch that the script force-pushes and whose body it
 # edits in place. Add the `final-check` label for the full build and the
 # Tier 0-3 verification.

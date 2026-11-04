@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Open the PR for one collect.yml run from your own account:
+# Open the PR for one collect.yml run as TechEngineBot:
 #
 #   bash .github/scripts/open-collect-pr.sh <run-id>
 #
@@ -8,15 +8,24 @@
 # pr.json, in a collect-* artifact. Run this by hand from a TechAPI clone to
 # push the run's changes to the task's collect/* branch and open the PR, or
 # update the task's open one. It never touches your checkout or your branches.
-# The PR comes from your account, so pr-checks runs on it like on any PR.
+# Your account pushes the branch and TechEngineBot opens the PR, so pr-checks
+# runs on it like on any PR.
+#
+# TechEngineBot's gh login lives in its own config directory, so your own gh
+# login is never used for the PR or changed. Log it in once, signing in to
+# GitHub as TechEngineBot in the browser:
+#
+#   GH_CONFIG_DIR="$HOME/.config/gh-techenginebot" gh auth login -h github.com -p ssh --skip-ssh-key -s project -w
+#
+# Set TECHENGINEBOT_GH_CONFIG_DIR to keep it somewhere else.
 #
 # The artifact is the run's output, so nothing in it is trusted. GitHub's own
 # record of the run, its title, says which task ran, and so which branch and PR
 # it may update. Only the patch's changes are used: they are applied to the
 # run's develop base in a scratch index, and may only add or change plain files
 # under data/. The commit is made here, with the task's fixed title as its
-# whole message, and the body loses every @ and issue reference before your
-# account posts it.
+# whole message, and the body loses every @ and issue reference before
+# TechEngineBot posts it.
 set -euo pipefail
 
 run=${1:?usage: bash .github/scripts/open-collect-pr.sh <run-id>}
@@ -37,6 +46,16 @@ for c in python3 python; do
   if "$c" -I -c 'import sys; sys.exit(sys.version_info < (3,))' >/dev/null 2>&1; then py=$c; break; fi
 done
 [ -n "$py" ] || { echo "Python 3 is needed on PATH, as python3 or python." >&2; exit 1; }
+
+# Check TechEngineBot's login before anything is pushed.
+bot_config=${TECHENGINEBOT_GH_CONFIG_DIR:-$HOME/.config/gh-techenginebot}
+# A GH_TOKEN or GITHUB_TOKEN in the environment would win over that login.
+bot() { env -u GH_TOKEN -u GITHUB_TOKEN GH_CONFIG_DIR="$bot_config" gh "$@"; }
+if [ "$(bot api user --jq .login 2>/dev/null)" != TechEngineBot ]; then
+  echo "gh in $bot_config is not logged in as TechEngineBot. Log it in once with:" >&2
+  echo "  GH_CONFIG_DIR=\"$bot_config\" gh auth login -h github.com -p ssh --skip-ssh-key -s project -w" >&2
+  exit 1
+fi
 
 # collect.yml titles each run "collect ingest <category>", "collect refresh" or
 # "collect promote" from its inputs, and the run can't change that.
@@ -149,8 +168,8 @@ number=$(gh api "repos/$repo/pulls?state=open&base=develop&head=${repo%/*}:$bran
 if [ -n "$number" ]; then
   # gh pr edit can't set draft. A drafts run writes incomplete records, so its
   # PR goes back to draft first, even if it was marked ready.
-  if [ "$draft" = true ]; then gh pr ready "$number" --repo "$repo" --undo; fi
-  gh pr edit "$number" --repo "$repo" --title "$title" --body-file "$dir/body.md" \
+  if [ "$draft" = true ]; then bot pr ready "$number" --repo "$repo" --undo; fi
+  bot pr edit "$number" --repo "$repo" --title "$title" --body-file "$dir/body.md" \
     --add-assignee Seungpyo1007 --add-assignee TechEngineBot \
     --add-label data --add-label enhancement \
     --milestone "Massive dataset rebuild (1989-2026)"
@@ -161,5 +180,5 @@ else
     --label data --label enhancement \
     --milestone "Massive dataset rebuild (1989-2026)"
   if [ "$draft" = true ]; then set -- "$@" --draft; fi
-  gh pr create "$@"
+  bot pr create "$@"
 fi

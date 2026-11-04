@@ -73,12 +73,16 @@ New and refreshed records come from
 from the Actions tab on `develop`. It runs one of TechEngine's collectors
 (`ingest`, `refresh` or `promote`) with a read-only token: the run validates
 its changes and uploads them as a patch, and never pushes, opens a PR or posts
-a comment. The maintainer then opens the PR from their own account, so
-pr-checks runs on it like on any PR:
+a comment. The maintainer then runs the helper below by hand. Their account
+pushes the run's branch and TechEngineBot opens the PR, so pr-checks runs on
+it like on any PR:
 
 ```bash
 bash .github/scripts/open-collect-pr.sh <run-id>   # from any TechAPI clone
 ```
+
+TechEngineBot's gh login is kept apart from the maintainer's own. The helper
+prints the one-time login command if it is missing.
 
 Each task keeps one open PR on a fixed `collect/*` branch, updated in place by
 later runs. Collection never runs on a schedule.

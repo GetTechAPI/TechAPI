@@ -7,10 +7,10 @@
   "architecture": "Pentium",
   "socket": "BGA1700",
   "process_node": null,
-  "cores": 1,
-  "threads": 2,
-  "p_cores": null,
-  "e_cores": null,
+  "cores": 5,
+  "threads": 6,
+  "p_cores": 1,
+  "e_cores": 4,
   "base_clock_ghz": 1.2,
   "boost_clock_ghz": 4.4,
   "l3_cache_mb": null,
@@ -40,6 +40,7 @@
   "msrp_usd": null,
   "verified": false,
   "source_urls": [
-    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset"
+    "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_processors"
   ]
 }

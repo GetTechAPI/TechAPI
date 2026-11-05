@@ -7,10 +7,10 @@
   "architecture": "Core",
   "socket": "BGA1700",
   "process_node": null,
-  "cores": 4,
-  "threads": 8,
-  "p_cores": null,
-  "e_cores": null,
+  "cores": 12,
+  "threads": 16,
+  "p_cores": 4,
+  "e_cores": 8,
   "base_clock_ghz": 1.7,
   "boost_clock_ghz": 4.4,
   "l3_cache_mb": 12.0,
@@ -42,6 +42,7 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://en.wikipedia.org/wiki/List_of_Intel_Core_mobile_processors",
-    "https://www.topcpu.net/en/cpu-r/"
+    "https://www.topcpu.net/en/cpu-r/",
+    "https://en.wikipedia.org/wiki/List_of_Intel_Core_processors"
   ]
 }

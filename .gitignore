@@ -26,9 +26,6 @@ __pycache__/
 # Local-only handoff notes (private; never committed to the public repo)
 *.local.md
 
-# Local tooling/editor config (kept out of the public repo)
-.claude/
-
 # The static API is generated on every Pages deploy (.github/scripts/build-api.sh,
 # then site/scripts/build-*.mjs). Only the hand-made games pointer is tracked.
 /site/public/v1/*

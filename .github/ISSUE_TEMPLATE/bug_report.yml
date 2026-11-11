@@ -1,5 +1,5 @@
 name: "🐛 Bug report"
-description: Report a bug in the API or tooling
+description: Report a bug in the static API, the site or the validator
 labels: ["type:bug"]
 body:
   - type: textarea
@@ -13,9 +13,9 @@ body:
     id: reproduce
     attributes:
       label: Steps to reproduce
-      description: Include the exact request (curl) where possible.
+      description: Include the exact URL or command where possible.
       placeholder: |
-        curl https://api.techapi.dev/v1/smartphones/galaxy-s25
+        curl https://gettechapi.github.io/TechAPI/v1/smartphones/galaxy-s25/index.json
     validations:
       required: true
   - type: textarea
@@ -24,8 +24,3 @@ body:
       label: Expected behavior
     validations:
       required: true
-  - type: input
-    id: request-id
-    attributes:
-      label: request_id (if any)
-      description: The `request_id` from the error response helps us trace it.

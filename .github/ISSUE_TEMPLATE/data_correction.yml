@@ -2,6 +2,27 @@ name: "✏️ Data correction"
 description: Correct an existing spec value
 labels: ["type:data", "data:incorrect"]
 body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Slugs are unique only within a category.
+      options:
+        - brand
+        - soc
+        - cpu
+        - gpu
+        - smartphone
+        - tablet
+        - watch
+        - pda
+        - laptop
+        - monitor
+        - device_catalog
+        - software
+        - website
+    validations:
+      required: true
   - type: input
     id: slug
     attributes:

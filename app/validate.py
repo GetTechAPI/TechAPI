@@ -1,8 +1,14 @@
-"""Validate seed JSON against the schema and conventions (§9.3, §15.3).
+"""Validate the records under ``data/`` with the standard library only.
 
-Checks: required fields, slug convention (§14.1), value ranges/units (§14.3),
-and foreign-key integrity by slug. Run with ``python -m app.validate``;
-exits non-zero on the first failure set (used by CI ``validate-data.yml``).
+Checks: required fields, the slug convention, value ranges and units, the
+folder a record lives in, and that references by slug (brand, soc, cpu, gpu)
+resolve. Run with ``python -m app.validate``; it prints every issue and exits
+non-zero if there is any. ``pr-checks.yml`` runs it on every PR and
+``.github/scripts/build-api.sh`` runs it before the API is generated.
+
+Section numbers in the messages (§14.1, §14.2) are those of
+``docs/SPEC.md`` in TechEngine, whose ``app/validate.py`` is the full
+validator.
 """
 
 from __future__ import annotations
@@ -35,7 +41,7 @@ BRAND_CATEGORIES = {
     "defunct",
 }
 COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
-# Media links may only point at free Wikimedia Commons files (ADR-017), never third-party hotlinks.
+# Media links may only point at free Wikimedia Commons files, never third-party hotlinks.
 COMMONS_UPLOAD_RE = re.compile(r"https://upload\.wikimedia\.org/wikipedia/commons/\S+")
 COMMONS_FILEPATH_RE = re.compile(r"https://commons\.wikimedia\.org/wiki/Special:FilePath/\S+")
 SOC_REQUIRED = {"slug", "name", "manufacturer", "release_date", "process_nm", "gpu_name"}
@@ -104,13 +110,6 @@ MONITOR_REQUIRED = {
     "release_date",
     "size_inch",
     "resolution",
-    "source_urls",
-    "verified",
-}
-
-GAME_REQUIRED = {
-    "slug",
-    "name",
     "source_urls",
     "verified",
 }
@@ -327,7 +326,6 @@ def validate() -> list[str]:
     cpus = _load("cpu")
     laptops = _load("laptop")
     monitors = _load("monitor")
-    games = _load("game")
     software = _load("software")
     websites = _load("website")
     catalog = _load("device_catalog")
@@ -348,7 +346,6 @@ def validate() -> list[str]:
         ("cpu", cpus),
         ("laptop", laptops),
         ("monitor", monitors),
-        ("game", games),
         ("software", software),
         ("website", websites),
         ("device_catalog", catalog),
@@ -507,17 +504,6 @@ def validate() -> list[str]:
         if rec.get("brand") not in brand_slugs:
             errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
         _check_variant_path(fname, rec, "monitor", errors, allow_flat=True)
-
-    for fname, rec in games:
-        _check_required(fname, rec, GAME_REQUIRED, errors)
-        _check_source_urls(fname, rec, errors)
-        _check_slug(fname, rec.get("slug"), errors)
-        if rec.get("release_date") is not None:
-            _check_date(fname, rec["release_date"], errors)
-        if rec.get("rating") is not None:
-            _check_range(fname, "rating", rec.get("rating"), 0, 5, errors)
-        if rec.get("metacritic") is not None:
-            _check_range(fname, "metacritic", rec.get("metacritic"), 0, 100, errors)
 
     for fname, rec in software:
         _check_required(fname, rec, SOFTWARE_REQUIRED, errors)

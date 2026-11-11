@@ -35,8 +35,9 @@ jobs:
     env:
       PYTHONIOENCODING: utf-8
     steps:
-      # The merge commit, as pages.yml would build it after merging. Not
-      # recursive: TechEngine carries TechAPI as its own submodule.
+      # The merge commit, as pages.yml would build it after merging. A plain,
+      # non-recursive submodule checkout is all it needs: TechEngine has no
+      # submodules of its own.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 2

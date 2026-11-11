@@ -4,7 +4,7 @@
 # (data/_verify/status.json) with the pinned TechEngine, and check the result.
 # pages.yml runs this before publishing.
 #
-# Needs the TechEngine submodule checked out (never recursively) and its
+# Needs the TechEngine submodule checked out and its
 # dependencies installed: python -m pip install -e ./TechEngine
 set -euo pipefail
 

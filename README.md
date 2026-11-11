@@ -39,7 +39,7 @@ only the hand-made `site/public/v1/games/index.json` pointer is. To preview the
 site with the API locally:
 
 ```bash
-git submodule update --init TechEngine   # never --recursive
+git submodule update --init TechEngine
 python -m pip install -e ./TechEngine
 bash .github/scripts/build-api.sh        # validates, then writes site/public/v1
 cd site && npm ci && npm run dev
@@ -99,9 +99,7 @@ This repo follows git-flow:
 
 A release is a PR from `develop` to `main`; merging it deploys the site.
 The TechEngine pin and the pinned action SHAs are bumped by hand, in a PR into
-`develop` that pr-checks validates like any other. Dependabot can't do it:
-TechEngine carries TechAPI as its own submodule, and Dependabot's recursive
-clone runs out of disk on that loop.
+`develop` that pr-checks validates like any other; Dependabot is not used.
 
 ## Contributing
 

@@ -6,14 +6,14 @@
   "segment": "laptop",
   "architecture": "Athlon",
   "socket": "FP5",
-  "process_node": null,
+  "process_node": "14 nm",
   "cores": 2,
   "threads": 4,
   "p_cores": null,
   "e_cores": null,
   "base_clock_ghz": 2.4,
   "boost_clock_ghz": 3.3,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 4.0,
   "tdp_w": 15,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -42,6 +42,7 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://www.cpubenchmark.net/cpu.php?cpu=AMD+Athlon+Gold+3150U",
-    "https://technical.city/en/cpu/Athlon-Gold-3150U"
+    "https://technical.city/en/cpu/Athlon-Gold-3150U",
+    "https://en.wikipedia.org/wiki/List_of_AMD_Athlon_processors"
   ]
 }

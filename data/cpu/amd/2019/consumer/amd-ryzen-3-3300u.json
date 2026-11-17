@@ -2,9 +2,9 @@
   "slug": "amd-ryzen-3-3300u",
   "name": "AMD Ryzen 3 3300U",
   "manufacturer": "amd",
-  "release_date": "2019-08-01",
+  "release_date": "2019-01-06",
   "segment": "laptop",
-  "architecture": "Ryzen",
+  "architecture": "Zen+",
   "socket": "FP5",
   "process_node": null,
   "cores": 4,
@@ -13,7 +13,7 @@
   "e_cores": null,
   "base_clock_ghz": 2.1,
   "boost_clock_ghz": 3.5,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 4.0,
   "tdp_w": 15,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -42,6 +42,7 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://www.topcpu.net/en/cpu-r/",
-    "https://technical.city/en/cpu/Ryzen-3-3300U"
+    "https://technical.city/en/cpu/Ryzen-3-3300U",
+    "https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors"
   ]
 }

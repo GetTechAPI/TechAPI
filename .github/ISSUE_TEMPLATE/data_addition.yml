@@ -1,5 +1,5 @@
 name: "📥 Data addition"
-description: Request a new device, SoC, or GPU
+description: Request a record that is missing from the dataset
 labels: ["type:data", "data:missing"]
 body:
   - type: dropdown
@@ -7,10 +7,19 @@ body:
     attributes:
       label: Category
       options:
-        - smartphone
-        - soc
-        - gpu
         - brand
+        - soc
+        - cpu
+        - gpu
+        - smartphone
+        - tablet
+        - watch
+        - pda
+        - laptop
+        - monitor
+        - device_catalog
+        - software
+        - website
     validations:
       required: true
   - type: input
@@ -24,6 +33,6 @@ body:
     id: sources
     attributes:
       label: Source URLs (at least one)
-      description: Manufacturer spec sheet preferred (§9.2).
+      description: The manufacturer's product page or datasheet is preferred; a Wikipedia article also works.
     validations:
       required: true

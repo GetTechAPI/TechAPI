@@ -2,9 +2,9 @@
   "slug": "amd-ryzen-5-4600hs",
   "name": "AMD Ryzen 5 4600HS",
   "manufacturer": "amd",
-  "release_date": "2020-07-01",
+  "release_date": "2020-03-16",
   "segment": "laptop",
-  "architecture": "Ryzen",
+  "architecture": "Zen 2",
   "socket": "FP6",
   "process_node": null,
   "cores": 6,
@@ -13,7 +13,7 @@
   "e_cores": null,
   "base_clock_ghz": 3.0,
   "boost_clock_ghz": 4.0,
-  "l3_cache_mb": null,
+  "l3_cache_mb": 8.0,
   "tdp_w": 35,
   "max_tdp_w": null,
   "integrated_graphics": null,
@@ -42,6 +42,7 @@
   "source_urls": [
     "https://www.kaggle.com/datasets/lincolnzh/cpu-specifications-dataset",
     "https://www.topcpu.net/en/cpu-r/",
-    "https://technical.city/en/cpu/Ryzen-5-4600HS"
+    "https://technical.city/en/cpu/Ryzen-5-4600HS",
+    "https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors"
   ]
 }

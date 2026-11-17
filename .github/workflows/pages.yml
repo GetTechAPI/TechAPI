@@ -30,8 +30,8 @@ jobs:
     steps:
       # Full history: the dump stamps created_at/updated_at from git log of
       # data/ (a shallow clone stamps every record with the tip time), and the
-      # growth chart reads old commits. Submodules are not recursive: TechEngine
-      # carries TechAPI as its own submodule.
+      # growth chart reads old commits. A plain, non-recursive submodule
+      # checkout is all it needs: TechEngine has no submodules of its own.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0

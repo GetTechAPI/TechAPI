@@ -29,8 +29,8 @@ jobs:
     steps:
       # The pull_request ref is GitHub's merge commit. Depth 2 brings both
       # parents, so HEAD^1 is the base the PR merges into: no deepening, no
-      # second checkout. submodules: true is NOT recursive (TechEngine carries
-      # TechAPI as its own submodule; recursion re-clones ~1.8 GB).
+      # second checkout. submodules: true is a plain, non-recursive checkout,
+      # which is all it needs: TechEngine has no submodules of its own.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 2

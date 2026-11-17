@@ -21,15 +21,65 @@ static-dump generator live in
 
 ## Layout
 
+### Repository map
+
 ```text
-data/brand/<country>/<slug>.json                       # e.g. data/brand/kr/samsung.json
-data/soc/<manufacturer>/<year>/<slug>.json             # data/soc/qualcomm/2024/snapdragon-8-elite.json
-data/smartphone/<brand>/<year>/<slug>.json             # data/smartphone/samsung/2025/galaxy-s25.json
-data/gpu/<manufacturer>/<year>/<segment>/<slug>.json   # data/gpu/nvidia/2025/consumer/geforce-rtx-5090.json
-data/cpu/<manufacturer>/<year>/<segment>/<slug>.json   # data/cpu/intel/2023/consumer/core-i9-14900k.json
+data/         # the dataset: one JSON file per record (categories below)
+app/          # the bundled validator, standard library only (python -m app.validate)
+site/         # the Astro site that GitHub Pages serves, with the generated API
+TechEngine/   # the engine, a submodule pinned to one commit: full validator,
+              # integrity gate, API dump, collectors and verification
+.github/
+  workflows/
+    pr-checks.yml        # read-only checks on every PR into develop or main
+    final-check.yml      # full build and verification of a PR labelled final-check
+    collect.yml          # runs one engine collector by hand; uploads a patch
+    pages.yml            # builds the API and the site from main and deploys them
+  scripts/
+    build-api.sh         # validates, then generates site/public/v1 and openapi.json
+    check_dump.py        # compares the generated API with data/
+    open-collect-pr.sh   # opens the PR for one collect.yml run
 ```
 
-All paths use singular folder names. Slugs are kebab-case and unique within each category.
+### Data
+
+Every record is one JSON file named `<slug>.json`. Folder names are singular,
+slugs are kebab-case and unique within their category. Counts are as of
+November 2026.
+
+| Category | Path under `data/` | Files | Example |
+| --- | --- | ---: | --- |
+| `brand` | `brand/<country>/<slug>.json` | 3,022 | `brand/kr/samsung.json` |
+| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 2,362 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
+| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 4,641 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
+| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,076 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
+| `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 92,856 | `smartphone/samsung/2025/galaxy-s25.json` |
+| `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,353 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
+| `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 461 | `watch/samsung/2024/galaxy-watch-fe/…` |
+| `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 112 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |
+| `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 2,025 | `laptop/dell/2017/dell-inspiron-5567/…` |
+| `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 231 | `monitor/samsung/2023/samsung-m50b/…` |
+| `device_catalog` | `device_catalog/<brand>/<slug>.json` | 20,366 | `device_catalog/kazam/kazam-thunder-345-lte.json` |
+| `software` | `software/<prefix>/<slug>.json` | 42,493 | `software/sw/sweble.json` |
+| `website` | `website/<prefix>/<slug>.json` | 39,930 | `website/pc/pc-gamer-uk.json` |
+
+- `<year>` is the release year, as in the record's `release_date`.
+- `<country>` is the brand's ISO 3166 country code in lower case. A brand with
+  no sourced country lives under `brand/unknown/`; that is most of them (2,815).
+- `<consumer|enterprise>` is a coarse folder split. A CPU record's own `segment`
+  field is finer: `desktop`, `laptop`, `hedt` or `server`.
+- `<base_model>` groups the variants of one model (memory, storage, region).
+  About a third of the smartphones (31,093) sit directly in the year folder
+  instead.
+- `<prefix>` is the first two characters of the slug, or the whole slug when it
+  is one character long.
+- `device_catalog` lists device identities (model numbers, codenames) whose
+  release date is unknown, so it has no year folder.
+- `data/_verify/` is not a category. It holds the verification ledger
+  (`ledger.jsonl`), the status aggregate (`status.json`) and the caches under
+  `state/` that TechEngine's verify tools write. Don't edit it by hand.
+
+### Site
 
 The Astro site lives under `site/` and is the deploy target for GitHub Pages.
 [`pages.yml`](.github/workflows/pages.yml) generates the static JSON API from
@@ -39,7 +89,7 @@ only the hand-made `site/public/v1/games/index.json` pointer is. To preview the
 site with the API locally:
 
 ```bash
-git submodule update --init TechEngine   # never --recursive
+git submodule update --init TechEngine
 python -m pip install -e ./TechEngine
 bash .github/scripts/build-api.sh        # validates, then writes site/public/v1
 cd site && npm ci && npm run dev
@@ -65,16 +115,27 @@ For an important PR, a maintainer adds the `final-check` label.
 [`final-check.yml`](.github/workflows/final-check.yml) then builds everything
 `pages.yml` would publish from the PR and runs TechEngine's Tier 0-3
 verification of the changed records. TechEngineBot posts one comment with the
-verdict; adding the label again updates that comment.
+verdict; adding the label again updates that comment. The comment can't mention
+anyone or reference other issues: `@` is dropped and `#123` links are broken.
 
 New and refreshed records come from
 [`collect.yml`](.github/workflows/collect.yml), which a maintainer runs by hand
 from the Actions tab on `develop`. It runs one of TechEngine's collectors
-(`ingest`, `refresh` or `promote`) and keeps one open PR per task on a fixed
-`collect/*` branch, updated in place by later runs. That PR comes from
-github-actions[bot] and starts no checks of its own, so the collector validates
-before it pushes and writes the result into the PR body. Collection never runs
-on a schedule and never posts comments.
+(`ingest`, `refresh` or `promote`) with a read-only token: the run validates
+its changes and uploads them as a patch, and never pushes, opens a PR or posts
+a comment. The maintainer then runs the helper below by hand. Their account
+pushes the run's branch and TechEngineBot opens the PR, so pr-checks runs on
+it like on any PR:
+
+```bash
+bash .github/scripts/open-collect-pr.sh <run-id>   # from any TechAPI clone
+```
+
+TechEngineBot's gh login is kept apart from the maintainer's own. The helper
+prints the one-time login command if it is missing.
+
+Each task keeps one open PR on a fixed `collect/*` branch, updated in place by
+later runs. Collection never runs on a schedule.
 
 ## Branching
 
@@ -88,9 +149,16 @@ This repo follows git-flow:
 
 A release is a PR from `develop` to `main`; merging it deploys the site.
 The TechEngine pin and the pinned action SHAs are bumped by hand, in a PR into
-`develop` that pr-checks validates like any other. Dependabot can't do it:
-TechEngine carries TechAPI as its own submodule, and Dependabot's recursive
-clone runs out of disk on that loop.
+`develop` that pr-checks validates like any other; Dependabot is not used.
+
+## Related repositories
+
+| Repository | What it holds |
+| --- | --- |
+| [TechEngine](https://github.com/GetTechAPI/TechEngine) | The engine pinned here as a submodule: validation, the static API generator, the collectors and the verification tiers. |
+| [game-catalog](https://github.com/GetTechAPI/game-catalog) | Video game records. They moved out of this repo in September 2026; `site/public/v1/games/index.json` points there. |
+| [cpu-engineering-samples](https://github.com/GetTechAPI/cpu-engineering-samples) | Engineering-sample CPUs, kept apart from the retail CPUs in `data/cpu/`. |
+| [TechMachine](https://github.com/GetTechAPI/TechMachine) | The organisation's repository health check and the scaffolder for new satellite data repos. |
 
 ## Contributing
 

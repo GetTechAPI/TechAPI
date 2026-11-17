@@ -15,4 +15,4 @@
 - [ ] Files live at the correct `data/<category>/<...>/<slug>.json` path
 - [ ] Slugs are kebab-case and unique within the category
 - [ ] `source_urls` cites at least one canonical reference
-- [ ] Sidebar filled in by hand (nothing fills it automatically): assignees, labels, milestone, projects, Copilot review, and the tracker under Development
+- [ ] Sidebar filled in by hand (nothing fills it automatically): assignees, labels, milestone, projects, and the tracker under Development

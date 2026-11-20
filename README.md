@@ -65,7 +65,7 @@ November 2026.
 
 - `<year>` is the release year, as in the record's `release_date`.
 - `<country>` is the brand's ISO 3166 country code in lower case. A brand with
-  no sourced country lives under `brand/unknown/`; that is most of them (2,815).
+  no sourced country lives under `brand/unknown/`; that is most of them (2,655).
 - `<consumer|enterprise>` is a coarse folder split. A CPU record's own `segment`
   field is finer: `desktop`, `laptop`, `hedt` or `server`.
 - `<base_model>` groups the variants of one model (memory, storage, region).

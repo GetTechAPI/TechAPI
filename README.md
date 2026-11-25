@@ -50,7 +50,7 @@ November 2026.
 | Category | Path under `data/` | Files | Example |
 | --- | --- | ---: | --- |
 | `brand` | `brand/<country>/<slug>.json` | 3,022 | `brand/kr/samsung.json` |
-| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 2,362 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
+| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 2,077 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
 | `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 4,641 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
 | `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,076 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 92,856 | `smartphone/samsung/2025/galaxy-s25.json` |

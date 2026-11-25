@@ -49,7 +49,6 @@ PHONE_REQUIRED = {
     "slug",
     "name",
     "brand",
-    "soc",
     "release_date",
     "ram_gb",
     "os",
@@ -412,7 +411,7 @@ def validate() -> list[str]:
             _check_range(fname, "msrp_usd", rec["msrp_usd"], 50, 5000, errors)
         if rec.get("brand") not in brand_slugs:
             errors.append(f"{fname}: brand '{rec.get('brand')}' not a known brand")
-        if rec.get("soc") not in soc_slugs:
+        if rec.get("soc") is not None and rec.get("soc") not in soc_slugs:
             errors.append(f"{fname}: soc '{rec.get('soc')}' not a known SoC")
         _check_variant_path(fname, rec, "smartphone", errors, allow_flat=True)
 

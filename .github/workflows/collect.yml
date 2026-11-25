@@ -74,7 +74,7 @@ jobs:
       inputs.task == 'ingest'
     permissions:
       contents: read
-    uses: GetTechAPI/TechEngine/.github/workflows/ingest.yml@c0743ba9382dfed2880f0de82adc704cc8f7c4de # main, TechEngine #134
+    uses: GetTechAPI/TechEngine/.github/workflows/ingest.yml@e964a063c04d7f116786ac5c30c2b4c416dc892c # main, TechEngine #138
     with:
       category: ${{ inputs.category }}
       limit: ${{ inputs.limit }}
@@ -86,7 +86,7 @@ jobs:
       inputs.task == 'refresh'
     permissions:
       contents: read
-    uses: GetTechAPI/TechEngine/.github/workflows/refresh.yml@c0743ba9382dfed2880f0de82adc704cc8f7c4de # main, TechEngine #134
+    uses: GetTechAPI/TechEngine/.github/workflows/refresh.yml@e964a063c04d7f116786ac5c30c2b4c416dc892c # main, TechEngine #138
     with:
       sleep: ${{ inputs.sleep }}
 
@@ -96,7 +96,7 @@ jobs:
       inputs.task == 'promote'
     permissions:
       contents: read
-    uses: GetTechAPI/TechEngine/.github/workflows/verify-promote.yml@c0743ba9382dfed2880f0de82adc704cc8f7c4de # main, TechEngine #134
+    uses: GetTechAPI/TechEngine/.github/workflows/verify-promote.yml@e964a063c04d7f116786ac5c30c2b4c416dc892c # main, TechEngine #138
     with:
       apply: ${{ inputs.apply }}
       max_urls: ${{ inputs.max_urls }}

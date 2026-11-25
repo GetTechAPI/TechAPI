@@ -50,17 +50,17 @@ November 2026.
 | Category | Path under `data/` | Files | Example |
 | --- | --- | ---: | --- |
 | `brand` | `brand/<country>/<slug>.json` | 3,022 | `brand/kr/samsung.json` |
-| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 2,362 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
+| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,103 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
 | `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 4,641 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
 | `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,076 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 92,856 | `smartphone/samsung/2025/galaxy-s25.json` |
-| `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,353 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
+| `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,373 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
 | `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 461 | `watch/samsung/2024/galaxy-watch-fe/…` |
 | `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 112 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |
 | `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 2,025 | `laptop/dell/2017/dell-inspiron-5567/…` |
 | `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 231 | `monitor/samsung/2023/samsung-m50b/…` |
 | `device_catalog` | `device_catalog/<brand>/<slug>.json` | 20,366 | `device_catalog/kazam/kazam-thunder-345-lte.json` |
-| `software` | `software/<prefix>/<slug>.json` | 42,493 | `software/sw/sweble.json` |
+| `software` | `software/<prefix>/<slug>.json` | 42,492 | `software/sw/sweble.json` |
 | `website` | `website/<prefix>/<slug>.json` | 39,930 | `website/pc/pc-gamer-uk.json` |
 
 - `<year>` is the release year, as in the record's `release_date`.

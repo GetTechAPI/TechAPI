@@ -60,7 +60,7 @@ November 2026.
 | `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 2,025 | `laptop/dell/2017/dell-inspiron-5567/…` |
 | `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 231 | `monitor/samsung/2023/samsung-m50b/…` |
 | `device_catalog` | `device_catalog/<brand>/<slug>.json` | 20,366 | `device_catalog/kazam/kazam-thunder-345-lte.json` |
-| `software` | `software/<prefix>/<slug>.json` | 42,493 | `software/sw/sweble.json` |
+| `software` | `software/<prefix>/<slug>.json` | 42,492 | `software/sw/sweble.json` |
 | `website` | `website/<prefix>/<slug>.json` | 39,930 | `website/pc/pc-gamer-uk.json` |
 
 - `<year>` is the release year, as in the record's `release_date`.

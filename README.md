@@ -50,9 +50,9 @@ November 2026.
 | Category | Path under `data/` | Files | Example |
 | --- | --- | ---: | --- |
 | `brand` | `brand/<country>/<slug>.json` | 3,022 | `brand/kr/samsung.json` |
-| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,103 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
-| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 4,641 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
-| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,076 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
+| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,339 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
+| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 5,277 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
+| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,340 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
 | `socket` | `socket/<slug>.json` | 78 | `socket/lga1156.json` |
 | `chipset` | `chipset/<manufacturer>/<slug>.json` | 727 | `chipset/intel/intel-z790.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 95,235 | `smartphone/samsung/2025/galaxy-s25.json` |

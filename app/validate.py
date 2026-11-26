@@ -45,22 +45,20 @@ COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
 COMMONS_UPLOAD_RE = re.compile(r"https://upload\.wikimedia\.org/wikipedia/commons/\S+")
 COMMONS_FILEPATH_RE = re.compile(r"https://commons\.wikimedia\.org/wiki/Special:FilePath/\S+")
 SOC_REQUIRED = {"slug", "name", "manufacturer", "release_date", "process_nm", "gpu_name"}
+# Devices need identity and a source only. Specs a source does not state
+# (release_date, ram_gb, os; a monitor's size_inch, resolution) stay null, and a
+# device without a release date lives under <brand>/unknown/.
+DEVICE_UNKNOWN_YEAR_DIR = "unknown"
 PHONE_REQUIRED = {
     "slug",
     "name",
     "brand",
-    "release_date",
-    "ram_gb",
-    "os",
 }
 
 MOBILE_DEVICE_REQUIRED = {
     "slug",
     "name",
     "brand",
-    "release_date",
-    "ram_gb",
-    "os",
     "source_urls",
     "verified",
 }
@@ -95,9 +93,6 @@ LAPTOP_REQUIRED = {
     "slug",
     "name",
     "brand",
-    "release_date",
-    "ram_gb",
-    "os",
     "source_urls",
     "verified",
 }
@@ -106,9 +101,6 @@ MONITOR_REQUIRED = {
     "slug",
     "name",
     "brand",
-    "release_date",
-    "size_inch",
-    "resolution",
     "source_urls",
     "verified",
 }
@@ -278,6 +270,23 @@ def _check_media(name: str, record: dict[str, Any], errors: list[str]) -> None:
         errors.append(f"{name}: logo_url must be a Wikimedia Commons file or null")
 
 
+def _check_year_folder(fname: str, rec: dict[str, Any], year: str, errors: list[str]) -> None:
+    """Year folder = release year, or DEVICE_UNKNOWN_YEAR_DIR without a release date."""
+    release_date = rec.get("release_date")
+    if release_date is None:
+        if year != DEVICE_UNKNOWN_YEAR_DIR:
+            errors.append(
+                f"{fname}: lives in year '{year}' but release_date is null "
+                f"(expected '{DEVICE_UNKNOWN_YEAR_DIR}/')"
+            )
+        return
+    release_year = str(release_date)[:4]
+    if year != release_year:
+        errors.append(
+            f"{fname}: lives in year '{year}' but release_date starts with '{release_year}'"
+        )
+
+
 def _check_variant_path(
     fname: str,
     rec: dict[str, Any],
@@ -288,6 +297,7 @@ def _check_variant_path(
 ) -> None:
     parts = Path(fname).parts
     if allow_flat and len(parts) == 4:
+        _check_year_folder(fname, rec, parts[2], errors)
         return
     if len(parts) != 5:
         errors.append(
@@ -298,11 +308,7 @@ def _check_variant_path(
     _, brand, year, base_model_slug, filename = parts
     if rec.get("brand") != brand:
         errors.append(f"{fname}: lives in brand '{brand}' but brand='{rec.get('brand')}'")
-    release_year = str(rec.get("release_date", ""))[:4]
-    if release_year and year != release_year:
-        errors.append(
-            f"{fname}: lives in year '{year}' but release_date starts with '{release_year}'"
-        )
+    _check_year_folder(fname, rec, year, errors)
     if rec.get("base_model_slug") and rec.get("base_model_slug") != base_model_slug:
         errors.append(
             f"{fname}: lives under base '{base_model_slug}' but "
@@ -401,7 +407,7 @@ def validate() -> list[str]:
         _check_required(fname, rec, PHONE_REQUIRED, errors)
         _check_source_urls(fname, rec, errors)
         _check_slug(fname, rec.get("slug"), errors)
-        if "release_date" in rec:
+        if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
         _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
         _check_identity_fields(fname, rec, errors)
@@ -420,7 +426,7 @@ def validate() -> list[str]:
             _check_required(fname, rec, MOBILE_DEVICE_REQUIRED, errors)
             _check_source_urls(fname, rec, errors)
             _check_slug(fname, rec.get("slug"), errors)
-            if "release_date" in rec:
+            if rec.get("release_date") is not None:
                 _check_date(fname, rec["release_date"], errors)
             _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
             _check_identity_fields(fname, rec, errors)
@@ -469,7 +475,7 @@ def validate() -> list[str]:
         _check_required(fname, rec, LAPTOP_REQUIRED, errors)
         _check_source_urls(fname, rec, errors)
         _check_slug(fname, rec.get("slug"), errors)
-        if "release_date" in rec:
+        if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
         _check_range(fname, "ram_gb", rec.get("ram_gb"), 1, 256, errors)
         if rec.get("storage_gb") is not None:
@@ -490,7 +496,7 @@ def validate() -> list[str]:
         _check_required(fname, rec, MONITOR_REQUIRED, errors)
         _check_source_urls(fname, rec, errors)
         _check_slug(fname, rec.get("slug"), errors)
-        if "release_date" in rec:
+        if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
         _check_range(fname, "size_inch", rec.get("size_inch"), 5, 120, errors)
         _check_range(fname, "refresh_hz", rec.get("refresh_hz"), 24, 1000, errors)

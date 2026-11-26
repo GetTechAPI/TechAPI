@@ -53,7 +53,7 @@ November 2026.
 | `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,103 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
 | `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 4,641 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
 | `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,076 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
-| `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 92,856 | `smartphone/samsung/2025/galaxy-s25.json` |
+| `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 93,240 | `smartphone/samsung/2025/galaxy-s25.json` |
 | `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,373 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
 | `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 461 | `watch/samsung/2024/galaxy-watch-fe/…` |
 | `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 112 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |

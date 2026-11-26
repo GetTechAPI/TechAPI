@@ -179,7 +179,7 @@ async function loadList(resource) {
 (function stats() {
   const el = document.getElementById("stats");
   if (!el) return;
-  const order = ["games", "software", "websites", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "device-catalog", "socs", "gpus", "cpus", "brands"];
+  const order = ["games", "software", "websites", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "device-catalog", "socs", "gpus", "cpus", "sockets", "chipsets", "brands"];
   const label = {
     games: "games",
     software: "software",
@@ -194,6 +194,8 @@ async function loadList(resource) {
     socs: "socs",
     gpus: "gpus",
     cpus: "cpus",
+    sockets: "sockets",
+    chipsets: "chipsets",
     brands: "brands",
   };
   getJSON("v1/index.json").then((m) => {
@@ -246,7 +248,7 @@ function countUp(node, target, opts = {}) {
   const listEl = document.getElementById("history-list");
   if (!totalEl || !countsEl || !chartEl || !listEl) return;
 
-  const order = ["games", "software", "websites", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "device-catalog", "socs", "gpus", "cpus", "brands"];
+  const order = ["games", "software", "websites", "smartphones", "laptops", "tablets", "monitors", "watches", "pdas", "device-catalog", "socs", "gpus", "cpus", "sockets", "chipsets", "brands"];
   const label = {
     games: "Games",
     software: "Software",
@@ -261,6 +263,8 @@ function countUp(node, target, opts = {}) {
     socs: "SoCs",
     gpus: "GPUs",
     cpus: "CPUs",
+    sockets: "Sockets",
+    chipsets: "Chipsets",
     brands: "Brands",
     cpu_es: "CPU eng. samples",
   };
@@ -278,6 +282,8 @@ function countUp(node, target, opts = {}) {
     socs: "socs",
     gpus: "gpus",
     cpus: "cpus",
+    sockets: "sockets",
+    chipsets: "chipsets",
     brands: "brands",
     cpu_es: "cpu eng. samples",
   };

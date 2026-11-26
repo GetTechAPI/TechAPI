@@ -30,13 +30,14 @@ const REPO_URL = "https://github.com/GetTechAPI/TechAPI";
 // manifest (v1/index.json). Old manifests that predate a collection just lack it.
 const ORDER = [
   "smartphones", "tablets", "laptops", "monitors", "watches", "pdas", "socs", "gpus", "cpus",
-  "brands", "software", "websites", "device-catalog",
+  "brands", "software", "websites", "device-catalog", "sockets", "chipsets",
 ];
 // The data/ folder behind each of those collections.
 const DATA_DIR = {
   smartphones: "smartphone", tablets: "tablet", laptops: "laptop", monitors: "monitor",
   watches: "watch", pdas: "pda", socs: "soc", gpus: "gpu", cpus: "cpu", brands: "brand",
   software: "software", websites: "website", "device-catalog": "device_catalog",
+  sockets: "socket", chipsets: "chipset",
 };
 // Keep the chart legible if the history ever grows large: downsample to at most
 // MAX points, always preserving the first (baseline) and last (latest) commits.

@@ -53,6 +53,8 @@ November 2026.
 | `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,103 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
 | `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 4,641 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
 | `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,076 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
+| `socket` | `socket/<slug>.json` | 0 | `socket/lga1156.json` |
+| `chipset` | `chipset/<manufacturer>/<slug>.json` | 0 | `chipset/intel/intel-z790.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 95,235 | `smartphone/samsung/2025/galaxy-s25.json` |
 | `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,401 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
 | `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 483 | `watch/samsung/2024/galaxy-watch-fe/…` |
@@ -75,6 +77,11 @@ November 2026.
   GPU also its `release_date`); other specs may be null. A SoC without a
   `release_date` lives at `soc/<manufacturer>/unknown/<slug>.json`, and a CPU
   without a `segment` at `cpu/<manufacturer>/<year>/unknown/<slug>.json`.
+- Sockets and chipsets have no year folder. `socket/` is flat because a socket
+  shared by several makers has `manufacturer: null`. Their `release_date` may
+  be `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as the source; every other
+  category keeps the full date. A chipset lists the sockets it supports by
+  slug in `sockets`, and each must exist under `socket/`.
 - `<base_model>` groups the variants of one model (memory, storage, region).
   About a third of the smartphones (31,093) sit directly in the year folder
   instead.

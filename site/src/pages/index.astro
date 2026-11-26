@@ -22,6 +22,8 @@ const endpoints = [
   { label: "/v1/socs/{slug}", desc: "System-on-chip detail", href: `${apiBase}v1/socs/snapdragon-8-elite-gen-5/index.json` },
   { label: "/v1/gpus/{slug}", desc: "Discrete GPU detail", href: `${apiBase}v1/gpus/geforce-rtx-5090/index.json` },
   { label: "/v1/cpus/{slug}", desc: "Desktop / laptop CPU", href: `${apiBase}v1/cpus/core-i9-14900k/index.json` },
+  { label: "/v1/sockets", desc: "List all CPU sockets", href: `${apiBase}v1/sockets/index.json` },
+  { label: "/v1/chipsets", desc: "List all chipsets", href: `${apiBase}v1/chipsets/index.json` },
   { label: "/v1/software", desc: "List all software", href: `${apiBase}v1/software/index.json` },
   { label: "/v1/websites", desc: "List all websites", href: `${apiBase}v1/websites/index.json` },
   { label: "/v1/brands", desc: "All brands", href: `${apiBase}v1/brands/index.json` },
@@ -178,6 +180,8 @@ const endpoints = [
                 <option value="socs">socs</option>
                 <option value="gpus">gpus</option>
                 <option value="cpus">cpus</option>
+                <option value="sockets">sockets</option>
+                <option value="chipsets">chipsets</option>
                 <option value="brands">brands</option>
               </select>
             </div>

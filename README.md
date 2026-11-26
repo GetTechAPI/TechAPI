@@ -71,6 +71,10 @@ November 2026.
   no sourced country lives under `brand/unknown/`; that is most of them (2,655).
 - `<consumer|enterprise>` is a coarse folder split. A CPU record's own `segment`
   field is finer: `desktop`, `laptop`, `hedt` or `server`.
+- A CPU, GPU or SoC needs only its name, manufacturer and a source (a CPU or
+  GPU also its `release_date`); other specs may be null. A SoC without a
+  `release_date` lives at `soc/<manufacturer>/unknown/<slug>.json`, and a CPU
+  without a `segment` at `cpu/<manufacturer>/<year>/unknown/<slug>.json`.
 - `<base_model>` groups the variants of one model (memory, storage, region).
   About a third of the smartphones (31,093) sit directly in the year folder
   instead.

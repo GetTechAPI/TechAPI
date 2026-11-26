@@ -44,7 +44,12 @@ COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
 # Media links may only point at free Wikimedia Commons files, never third-party hotlinks.
 COMMONS_UPLOAD_RE = re.compile(r"https://upload\.wikimedia\.org/wikipedia/commons/\S+")
 COMMONS_FILEPATH_RE = re.compile(r"https://commons\.wikimedia\.org/wiki/Special:FilePath/\S+")
-SOC_REQUIRED = {"slug", "name", "manufacturer", "release_date", "process_nm", "gpu_name"}
+# Chips need identity and a source too; a CPU or GPU also needs its release date
+# (the year folder). Other specs stay null when no source states them. A SoC
+# without a release date lives under <manufacturer>/unknown/, and a CPU without
+# a segment under <year>/unknown/ in place of the segment folder.
+SOC_REQUIRED = {"slug", "name", "manufacturer"}
+CHIP_UNKNOWN_SEGMENT_DIR = "unknown"
 # Devices need identity and a source only. Specs a source does not state
 # (release_date, ram_gb, os; a monitor's size_inch, resolution) stay null, and a
 # device without a release date lives under <brand>/unknown/.
@@ -67,15 +72,7 @@ GPU_REQUIRED = {
     "slug",
     "name",
     "manufacturer",
-    "architecture",
     "release_date",
-    "memory_gb",
-    "memory_type",
-    "memory_bus_bit",
-    "base_clock_mhz",
-    "boost_clock_mhz",
-    "tdp_w",
-    "pcie_version",
 }
 
 CPU_REQUIRED = {
@@ -83,10 +80,6 @@ CPU_REQUIRED = {
     "name",
     "manufacturer",
     "release_date",
-    "segment",
-    "architecture",
-    "cores",
-    "threads",
 }
 
 LAPTOP_REQUIRED = {
@@ -397,11 +390,20 @@ def validate() -> list[str]:
         _check_required(fname, rec, SOC_REQUIRED, errors)
         _check_source_urls(fname, rec, errors)
         _check_slug(fname, rec.get("slug"), errors)
-        if "release_date" in rec:
+        if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
         _check_range(fname, "process_nm", rec.get("process_nm"), 1.0, 100.0, errors)
         if rec.get("manufacturer") not in brand_slugs:
             errors.append(f"{fname}: manufacturer '{rec.get('manufacturer')}' not a known brand")
+        # Path convention: soc/<manufacturer>/<year or "unknown">/<slug>.json
+        parts = Path(fname).parts
+        if len(parts) == 4:
+            _check_year_folder(fname, rec, parts[2], errors)
+        elif rec.get("release_date") is None:
+            errors.append(
+                f"{fname}: release_date is null, so it must live at "
+                f"'soc/<manufacturer>/{DEVICE_UNKNOWN_YEAR_DIR}/<slug>.json'"
+            )
 
     for fname, rec in phones:
         _check_required(fname, rec, PHONE_REQUIRED, errors)
@@ -465,9 +467,22 @@ def validate() -> list[str]:
         _check_range(fname, "threads", rec.get("threads"), 1, 1024, errors)
         if "msrp_usd" in rec:
             _check_range(fname, "msrp_usd", rec["msrp_usd"], 20, 50000, errors)
-        if rec.get("segment") not in valid_segments:
-            seg = rec.get("segment")
+        seg = rec.get("segment")
+        if seg is not None and seg not in valid_segments:
             errors.append(f"{fname}: segment '{seg}' not in {sorted(valid_segments)}")
+        # Path convention: cpu/<manufacturer>/<year>/<consumer|enterprise>/<slug>.json,
+        # with CHIP_UNKNOWN_SEGMENT_DIR as the folder when the segment is unknown.
+        parts = Path(fname).parts
+        segment_dir = parts[3] if len(parts) == 5 else None
+        if seg is None and segment_dir != CHIP_UNKNOWN_SEGMENT_DIR:
+            errors.append(
+                f"{fname}: segment is null, so it must live at "
+                f"'cpu/<manufacturer>/<year>/{CHIP_UNKNOWN_SEGMENT_DIR}/<slug>.json'"
+            )
+        elif seg is not None and segment_dir == CHIP_UNKNOWN_SEGMENT_DIR:
+            errors.append(
+                f"{fname}: lives in '{CHIP_UNKNOWN_SEGMENT_DIR}/' but segment='{seg}'"
+            )
         if rec.get("manufacturer") not in brand_slugs:
             errors.append(f"{fname}: manufacturer '{rec.get('manufacturer')}' not a known brand")
 

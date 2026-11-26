@@ -49,25 +49,39 @@ November 2026.
 
 | Category | Path under `data/` | Files | Example |
 | --- | --- | ---: | --- |
-| `brand` | `brand/<country>/<slug>.json` | 3,022 | `brand/kr/samsung.json` |
-| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,103 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
-| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 4,641 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
-| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,076 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
-| `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 92,856 | `smartphone/samsung/2025/galaxy-s25.json` |
-| `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,373 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
-| `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 461 | `watch/samsung/2024/galaxy-watch-fe/…` |
-| `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 112 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |
-| `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 2,025 | `laptop/dell/2017/dell-inspiron-5567/…` |
-| `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 231 | `monitor/samsung/2023/samsung-m50b/…` |
+| `brand` | `brand/<country>/<slug>.json` | 3,101 | `brand/kr/samsung.json` |
+| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,339 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
+| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 5,277 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
+| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,340 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
+| `socket` | `socket/<slug>.json` | 78 | `socket/lga1156.json` |
+| `chipset` | `chipset/<manufacturer>/<slug>.json` | 727 | `chipset/intel/intel-z790.json` |
+| `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 96,407 | `smartphone/samsung/2025/galaxy-s25.json` |
+| `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,416 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
+| `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 546 | `watch/samsung/2024/galaxy-watch-fe/…` |
+| `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 431 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |
+| `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 2,977 | `laptop/dell/2017/dell-inspiron-5567/…` |
+| `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 437 | `monitor/samsung/2023/samsung-m50b/…` |
 | `device_catalog` | `device_catalog/<brand>/<slug>.json` | 20,366 | `device_catalog/kazam/kazam-thunder-345-lte.json` |
 | `software` | `software/<prefix>/<slug>.json` | 42,492 | `software/sw/sweble.json` |
 | `website` | `website/<prefix>/<slug>.json` | 39,930 | `website/pc/pc-gamer-uk.json` |
 
-- `<year>` is the release year, as in the record's `release_date`.
+- `<year>` is the release year, as in the record's `release_date`. A device
+  whose source states no release date has `release_date: null` and lives under
+  `unknown/` in place of the year. Other specs a source does not state (RAM, OS,
+  a monitor's size and resolution) are null as well.
 - `<country>` is the brand's ISO 3166 country code in lower case. A brand with
-  no sourced country lives under `brand/unknown/`; that is most of them (2,655).
+  no sourced country lives under `brand/unknown/`; that is most of them (2,674).
 - `<consumer|enterprise>` is a coarse folder split. A CPU record's own `segment`
   field is finer: `desktop`, `laptop`, `hedt` or `server`.
+- A CPU, GPU or SoC needs only its name, manufacturer and a source (a CPU or
+  GPU also its `release_date`); other specs may be null. A SoC without a
+  `release_date` lives at `soc/<manufacturer>/unknown/<slug>.json`, and a CPU
+  without a `segment` at `cpu/<manufacturer>/<year>/unknown/<slug>.json`.
+- Sockets and chipsets have no year folder. `socket/` is flat because a socket
+  shared by several makers has `manufacturer: null`. Their `release_date` may
+  be `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as the source; every other
+  category keeps the full date. A chipset lists the sockets it supports by
+  slug in `sockets`, and each must exist under `socket/`.
 - `<base_model>` groups the variants of one model (memory, storage, region).
   About a third of the smartphones (31,093) sit directly in the year folder
   instead.

@@ -1,0 +1,25 @@
+{
+  "slug": "nvidia-tegra-x2-t186",
+  "name": "NVIDIA Tegra X2 T186",
+  "manufacturer": "nvidia",
+  "release_date": null,
+  "process_nm": 16.0,
+  "gpu_name": "GP10B",
+  "gpu_clock_mhz": 1465,
+  "cpu_config": {
+    "performance": null,
+    "efficiency": null,
+    "architecture": "2x Denver2 + 4x Cortex-A57",
+    "clocks_ghz": [
+      2.0,
+      2.0
+    ],
+    "core_count": 6
+  },
+  "notes": "Wikipedia gives a CPU clock as '1.4–2.0 GHz', '1.2–2.0 GHz'; the highest value per cluster is given. Wikipedia gives the GPU clock as a range (854-1465 MHz); the highest is given.",
+  "verified": false,
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Tegra#Tegra_X2",
+    "https://en.wikipedia.org/wiki/Tegra#Comparison"
+  ]
+}

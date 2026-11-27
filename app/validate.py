@@ -44,10 +44,10 @@ COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
 # Media links may only point at free Wikimedia Commons files, never third-party hotlinks.
 COMMONS_UPLOAD_RE = re.compile(r"https://upload\.wikimedia\.org/wikipedia/commons/\S+")
 COMMONS_FILEPATH_RE = re.compile(r"https://commons\.wikimedia\.org/wiki/Special:FilePath/\S+")
-# Chips need identity and a source too; a CPU or GPU also needs its release date
-# (the year folder). Other specs stay null when no source states them. A SoC
-# without a release date lives under <manufacturer>/unknown/, and a CPU without
-# a segment under <year>/unknown/ in place of the segment folder.
+# Chips need identity and a source too. Other specs stay null when no source
+# states them. A chip without a release date lives under <manufacturer>/unknown/
+# in place of the year folder, and a CPU without a segment under <year>/unknown/
+# in place of the segment folder.
 SOC_REQUIRED = {"slug", "name", "manufacturer"}
 CHIP_UNKNOWN_SEGMENT_DIR = "unknown"
 # Devices need identity and a source only. Specs a source does not state
@@ -72,14 +72,12 @@ GPU_REQUIRED = {
     "slug",
     "name",
     "manufacturer",
-    "release_date",
 }
 
 CPU_REQUIRED = {
     "slug",
     "name",
     "manufacturer",
-    "release_date",
 }
 
 LAPTOP_REQUIRED = {
@@ -138,6 +136,10 @@ FORM_FACTORS = {"phone", "tablet", "watch", "tv", "other"}
 # Categories a catalog entry can be promoted to (``promoted_to`` = "<category>/<slug>").
 PROMOTION_TARGETS = {"smartphone", "tablet", "watch", "pda"}
 DATE_PRECISIONS = {"day", "month", "year", "year_estimated"}
+# A chip dated only to the month or the year keeps a full release_date; the parts
+# its source does not state are stored as 01 and release_date_precision says so.
+CHIP_DATE_PRECISIONS = ("day", "month", "year")
+CHIP_DATE_PRECISION_SUFFIX = {"month": "-01", "year": "-01-01"}
 RELEASE_YEAR_SOURCES = {"model_code", "record"}
 RESOLUTION_RE = re.compile(r"^[1-9]\d{1,4}x[1-9]\d{1,4}$")
 
@@ -248,6 +250,28 @@ def _check_identity_fields(name: str, record: dict[str, Any], errors: list[str])
         )
 
 
+def _check_chip_date_precision(name: str, record: dict[str, Any], errors: list[str]) -> None:
+    """release_date_precision on a CPU, GPU or SoC: day | month | year (absent or null = day)."""
+    precision = record.get("release_date_precision")
+    if precision is None:
+        return
+    if not isinstance(precision, str) or precision not in CHIP_DATE_PRECISIONS:
+        errors.append(
+            f"{name}: release_date_precision {precision!r} not in {list(CHIP_DATE_PRECISIONS)}"
+        )
+        return
+    release_date = record.get("release_date")
+    if release_date is None:
+        errors.append(f"{name}: release_date_precision '{precision}' needs a release_date")
+        return
+    suffix = CHIP_DATE_PRECISION_SUFFIX.get(precision)
+    if suffix is not None and not str(release_date).endswith(suffix):
+        errors.append(
+            f"{name}: release_date_precision '{precision}' needs a release_date "
+            f"ending in '{suffix}' (got '{release_date}')"
+        )
+
+
 def _check_unique_slugs(
     category: str, records: list[tuple[str, dict[str, Any]]], errors: list[str]
 ) -> None:
@@ -333,6 +357,18 @@ def _check_year_folder(fname: str, rec: dict[str, Any], year: str, errors: list[
     if year != release_year:
         errors.append(
             f"{fname}: lives in year '{year}' but release_date starts with '{release_year}'"
+        )
+
+
+def _check_chip_path(fname: str, rec: dict[str, Any], category: str, errors: list[str]) -> None:
+    """CPU/GPU year folder: <category>/<manufacturer>/<year or "unknown">/<segment>/<slug>.json."""
+    parts = Path(fname).parts
+    if len(parts) == 5:
+        _check_year_folder(fname, rec, parts[2], errors)
+    elif rec.get("release_date") is None:
+        errors.append(
+            f"{fname}: release_date is null, so it must live at "
+            f"'{category}/<manufacturer>/{DEVICE_UNKNOWN_YEAR_DIR}/<segment>/<slug>.json'"
         )
 
 
@@ -453,6 +489,7 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         _check_range(fname, "process_nm", rec.get("process_nm"), 1.0, 100.0, errors)
         if rec.get("manufacturer") not in brand_slugs:
             errors.append(f"{fname}: manufacturer '{rec.get('manufacturer')}' not a known brand")
@@ -491,7 +528,8 @@ def validate() -> list[str]:
             _check_slug(fname, rec.get("slug"), errors)
             if rec.get("release_date") is not None:
                 _check_date(fname, rec["release_date"], errors)
-            _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.016, 64, errors)
+            # Lower bound 0.0001: 1990s PDAs shipped with 128-512 KB.
+            _check_range(fname, "ram_gb", rec.get("ram_gb"), 0.0001, 64, errors)
             _check_identity_fields(fname, rec, errors)
             _check_range(fname, "battery_mah", rec.get("battery_mah"), 50, 20000, errors)
             _check_range(fname, "weight_g", rec.get("weight_g"), 10, 2000, errors)
@@ -508,31 +546,38 @@ def validate() -> list[str]:
         _check_required(fname, rec, GPU_REQUIRED, errors)
         _check_source_urls(fname, rec, errors)
         _check_slug(fname, rec.get("slug"), errors)
-        if "release_date" in rec:
+        if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         _check_range(fname, "memory_gb", rec.get("memory_gb"), 0.001, 512, errors)
-        _check_range(fname, "tdp_w", rec.get("tdp_w"), 1, 3000, errors)
+        _check_number(fname, "tdp_w", rec.get("tdp_w"), 1, 3000, errors)
         if "msrp_usd" in rec:
             _check_range(fname, "msrp_usd", rec["msrp_usd"], 50, 100000, errors)
         if rec.get("manufacturer") not in brand_slugs:
             errors.append(f"{fname}: manufacturer '{rec.get('manufacturer')}' not a known brand")
+        _check_chip_path(fname, rec, "gpu", errors)
 
     valid_segments = {"desktop", "laptop", "hedt", "server"}
     for fname, rec in cpus:
         _check_required(fname, rec, CPU_REQUIRED, errors)
         _check_source_urls(fname, rec, errors)
         _check_slug(fname, rec.get("slug"), errors)
-        if "release_date" in rec:
+        if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         _check_range(fname, "cores", rec.get("cores"), 1, 512, errors)
         _check_range(fname, "threads", rec.get("threads"), 1, 1024, errors)
+        # Fractional watts are real (4.5 W mobile parts, sub-watt embedded ones).
+        _check_number(fname, "tdp_w", rec.get("tdp_w"), 0, 10000, errors)
         if "msrp_usd" in rec:
             _check_range(fname, "msrp_usd", rec["msrp_usd"], 20, 50000, errors)
         seg = rec.get("segment")
         if seg is not None and seg not in valid_segments:
             errors.append(f"{fname}: segment '{seg}' not in {sorted(valid_segments)}")
         # Path convention: cpu/<manufacturer>/<year>/<consumer|enterprise>/<slug>.json,
-        # with CHIP_UNKNOWN_SEGMENT_DIR as the folder when the segment is unknown.
+        # with DEVICE_UNKNOWN_YEAR_DIR as the year when the release date is unknown and
+        # CHIP_UNKNOWN_SEGMENT_DIR as the folder when the segment is unknown.
+        _check_chip_path(fname, rec, "cpu", errors)
         parts = Path(fname).parts
         segment_dir = parts[3] if len(parts) == 5 else None
         if seg is None and segment_dir != CHIP_UNKNOWN_SEGMENT_DIR:
@@ -553,11 +598,12 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
-        _check_range(fname, "ram_gb", rec.get("ram_gb"), 1, 256, errors)
+        # Lower bound 0.0001: 1980s portables shipped with 256 KB and weighed 7-8 kg.
+        _check_number(fname, "ram_gb", rec.get("ram_gb"), 0.0001, 256, errors)
         if rec.get("storage_gb") is not None:
             _check_range(fname, "storage_gb", rec.get("storage_gb"), 1, 65536, errors)
         if rec.get("weight_g") is not None:
-            _check_range(fname, "weight_g", rec.get("weight_g"), 300, 6000, errors)
+            _check_range(fname, "weight_g", rec.get("weight_g"), 300, 10000, errors)
         if "msrp_usd" in rec:
             _check_range(fname, "msrp_usd", rec["msrp_usd"], 50, 50000, errors)
         if rec.get("brand") not in brand_slugs:

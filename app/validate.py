@@ -591,6 +591,13 @@ def validate() -> list[str]:
             )
         if rec.get("manufacturer") not in brand_slugs:
             errors.append(f"{fname}: manufacturer '{rec.get('manufacturer')}' not a known brand")
+        # Optional link to a socket record; the free-text socket field stays as the source wrote it.
+        socket_slug = rec.get("socket_slug")
+        if socket_slug is not None:
+            if not isinstance(socket_slug, str):
+                errors.append(f"{fname}: socket_slug must be a socket slug or null")
+            elif socket_slug not in socket_slugs:
+                errors.append(f"{fname}: socket_slug '{socket_slug}' not a known socket")
 
     for fname, rec in laptops:
         _check_required(fname, rec, LAPTOP_REQUIRED, errors)

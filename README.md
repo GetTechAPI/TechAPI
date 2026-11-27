@@ -86,6 +86,10 @@ November 2026.
   be `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as the source; every other
   category keeps the full date. A chipset lists the sockets it supports by
   slug in `sockets`, and each must exist under `socket/`.
+- A CPU's optional `socket_slug` is the slug of its socket record and must
+  exist under `socket/`. The free-text `socket` stays as the source wrote it;
+  a CPU whose text names a BGA package, several sockets or a socket without a
+  record has no `socket_slug`.
 - `<base_model>` groups the variants of one model (memory, storage, region).
   About a third of the smartphones (31,093) sit directly in the year folder
   instead.

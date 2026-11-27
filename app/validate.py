@@ -136,6 +136,10 @@ FORM_FACTORS = {"phone", "tablet", "watch", "tv", "other"}
 # Categories a catalog entry can be promoted to (``promoted_to`` = "<category>/<slug>").
 PROMOTION_TARGETS = {"smartphone", "tablet", "watch", "pda"}
 DATE_PRECISIONS = {"day", "month", "year", "year_estimated"}
+# A chip dated only to the month or the year keeps a full release_date; the parts
+# its source does not state are stored as 01 and release_date_precision says so.
+CHIP_DATE_PRECISIONS = ("day", "month", "year")
+CHIP_DATE_PRECISION_SUFFIX = {"month": "-01", "year": "-01-01"}
 RELEASE_YEAR_SOURCES = {"model_code", "record"}
 RESOLUTION_RE = re.compile(r"^[1-9]\d{1,4}x[1-9]\d{1,4}$")
 
@@ -243,6 +247,28 @@ def _check_identity_fields(name: str, record: dict[str, Any], errors: list[str])
     if precision is not None and precision not in DATE_PRECISIONS:
         errors.append(
             f"{name}: release_date_precision '{precision}' not in {sorted(DATE_PRECISIONS)}"
+        )
+
+
+def _check_chip_date_precision(name: str, record: dict[str, Any], errors: list[str]) -> None:
+    """release_date_precision on a CPU, GPU or SoC: day | month | year (absent or null = day)."""
+    precision = record.get("release_date_precision")
+    if precision is None:
+        return
+    if not isinstance(precision, str) or precision not in CHIP_DATE_PRECISIONS:
+        errors.append(
+            f"{name}: release_date_precision {precision!r} not in {list(CHIP_DATE_PRECISIONS)}"
+        )
+        return
+    release_date = record.get("release_date")
+    if release_date is None:
+        errors.append(f"{name}: release_date_precision '{precision}' needs a release_date")
+        return
+    suffix = CHIP_DATE_PRECISION_SUFFIX.get(precision)
+    if suffix is not None and not str(release_date).endswith(suffix):
+        errors.append(
+            f"{name}: release_date_precision '{precision}' needs a release_date "
+            f"ending in '{suffix}' (got '{release_date}')"
         )
 
 
@@ -463,6 +489,7 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         _check_range(fname, "process_nm", rec.get("process_nm"), 1.0, 100.0, errors)
         if rec.get("manufacturer") not in brand_slugs:
             errors.append(f"{fname}: manufacturer '{rec.get('manufacturer')}' not a known brand")
@@ -521,6 +548,7 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         _check_range(fname, "memory_gb", rec.get("memory_gb"), 0.001, 512, errors)
         _check_number(fname, "tdp_w", rec.get("tdp_w"), 1, 3000, errors)
         if "msrp_usd" in rec:
@@ -536,6 +564,7 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         _check_range(fname, "cores", rec.get("cores"), 1, 512, errors)
         _check_range(fname, "threads", rec.get("threads"), 1, 1024, errors)
         # Fractional watts are real (4.5 W mobile parts, sub-watt embedded ones).

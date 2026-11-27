@@ -54,7 +54,7 @@ November 2026.
 | `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 6,412 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
 | `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,864 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
 | `socket` | `socket/<slug>.json` | 78 | `socket/lga1156.json` |
-| `chipset` | `chipset/<manufacturer>/<slug>.json` | 727 | `chipset/intel/intel-z790.json` |
+| `chipset` | `chipset/<manufacturer>/<slug>.json` | 725 | `chipset/intel/intel-z790.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 96,407 | `smartphone/samsung/2025/galaxy-s25.json` |
 | `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,416 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
 | `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 547 | `watch/samsung/2024/galaxy-watch-fe/…` |

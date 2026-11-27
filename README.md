@@ -55,12 +55,12 @@ November 2026.
 | `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,864 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
 | `socket` | `socket/<slug>.json` | 82 | `socket/lga1156.json` |
 | `chipset` | `chipset/<manufacturer>/<slug>.json` | 725 | `chipset/intel/intel-z790.json` |
-| `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 96,407 | `smartphone/samsung/2025/galaxy-s25.json` |
-| `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,416 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
-| `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 547 | `watch/samsung/2024/galaxy-watch-fe/…` |
+| `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 96,471 | `smartphone/samsung/2025/galaxy-s25.json` |
+| `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,577 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
+| `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 580 | `watch/samsung/2024/galaxy-watch-fe/…` |
 | `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 443 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |
-| `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 3,016 | `laptop/dell/2017/dell-inspiron-5567/…` |
-| `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 437 | `monitor/samsung/2023/samsung-m50b/…` |
+| `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 4,239 | `laptop/dell/2017/dell-inspiron-5567/…` |
+| `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 440 | `monitor/samsung/2023/samsung-m50b/…` |
 | `device_catalog` | `device_catalog/<brand>/<slug>.json` | 20,366 | `device_catalog/kazam/kazam-thunder-345-lte.json` |
 | `software` | `software/<prefix>/<slug>.json` | 42,492 | `software/sw/sweble.json` |
 | `website` | `website/<prefix>/<slug>.json` | 39,930 | `website/pc/pc-gamer-uk.json` |

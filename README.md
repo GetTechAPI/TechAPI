@@ -50,9 +50,9 @@ November 2026.
 | Category | Path under `data/` | Files | Example |
 | --- | --- | ---: | --- |
 | `brand` | `brand/<country>/<slug>.json` | 3,101 | `brand/kr/samsung.json` |
-| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,339 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
-| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 6,167 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
-| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,597 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
+| `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,449 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
+| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 6,412 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
+| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,864 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
 | `socket` | `socket/<slug>.json` | 78 | `socket/lga1156.json` |
 | `chipset` | `chipset/<manufacturer>/<slug>.json` | 727 | `chipset/intel/intel-z790.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 96,407 | `smartphone/samsung/2025/galaxy-s25.json` |
@@ -78,6 +78,9 @@ November 2026.
   of the year: `soc/<manufacturer>/unknown/<slug>.json`,
   `cpu/<manufacturer>/unknown/<consumer|enterprise>/<slug>.json`. A CPU without
   a `segment` lives at `cpu/<manufacturer>/<year>/unknown/<slug>.json`.
+- A chip whose source states the release only to the month or the year keeps a
+  full `release_date` with the unstated parts as `01`, and
+  `release_date_precision` (`month` or `year`) says so.
 - Sockets and chipsets have no year folder. `socket/` is flat because a socket
   shared by several makers has `manufacturer: null`. Their `release_date` may
   be `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as the source; every other

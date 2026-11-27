@@ -51,15 +51,15 @@ November 2026.
 | --- | --- | ---: | --- |
 | `brand` | `brand/<country>/<slug>.json` | 3,101 | `brand/kr/samsung.json` |
 | `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,339 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
-| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 5,650 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
-| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,513 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
+| `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 6,167 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
+| `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,597 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
 | `socket` | `socket/<slug>.json` | 78 | `socket/lga1156.json` |
 | `chipset` | `chipset/<manufacturer>/<slug>.json` | 727 | `chipset/intel/intel-z790.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 96,407 | `smartphone/samsung/2025/galaxy-s25.json` |
 | `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,416 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
-| `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 546 | `watch/samsung/2024/galaxy-watch-fe/…` |
-| `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 431 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |
-| `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 2,977 | `laptop/dell/2017/dell-inspiron-5567/…` |
+| `watch` | `watch/<brand>/<year>/<base_model>/<slug>.json` | 547 | `watch/samsung/2024/galaxy-watch-fe/…` |
+| `pda` | `pda/<brand>/<year>/<base_model>/<slug>.json` | 443 | `pda/hp/2000/ipaq-h3600/ipaq-h3600-base.json` |
+| `laptop` | `laptop/<brand>/<year>/<base_model>/<slug>.json` | 3,016 | `laptop/dell/2017/dell-inspiron-5567/…` |
 | `monitor` | `monitor/<brand>/<year>/<base_model>/<slug>.json` | 437 | `monitor/samsung/2023/samsung-m50b/…` |
 | `device_catalog` | `device_catalog/<brand>/<slug>.json` | 20,366 | `device_catalog/kazam/kazam-thunder-345-lte.json` |
 | `software` | `software/<prefix>/<slug>.json` | 42,492 | `software/sw/sweble.json` |
@@ -73,10 +73,11 @@ November 2026.
   no sourced country lives under `brand/unknown/`; that is most of them (2,674).
 - `<consumer|enterprise>` is a coarse folder split. A CPU record's own `segment`
   field is finer: `desktop`, `laptop`, `hedt` or `server`.
-- A CPU, GPU or SoC needs only its name, manufacturer and a source (a CPU or
-  GPU also its `release_date`); other specs may be null. A SoC without a
-  `release_date` lives at `soc/<manufacturer>/unknown/<slug>.json`, and a CPU
-  without a `segment` at `cpu/<manufacturer>/<year>/unknown/<slug>.json`.
+- A CPU, GPU or SoC needs only its name, manufacturer and a source; other specs
+  may be null. A chip without a `release_date` lives under `unknown/` in place
+  of the year: `soc/<manufacturer>/unknown/<slug>.json`,
+  `cpu/<manufacturer>/unknown/<consumer|enterprise>/<slug>.json`. A CPU without
+  a `segment` lives at `cpu/<manufacturer>/<year>/unknown/<slug>.json`.
 - Sockets and chipsets have no year folder. `socket/` is flat because a socket
   shared by several makers has `manufacturer: null`. Their `release_date` may
   be `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as the source; every other

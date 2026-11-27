@@ -9,16 +9,17 @@
   "rt_cores": null,
   "tensor_cores": null,
   "memory_gb": 144,
-  "memory_type": null,
+  "memory_type": "HBM3e",
   "memory_bus_bit": 4096,
   "memory_bandwidth_gbps": 8000,
-  "base_clock_mhz": null,
+  "base_clock_mhz": 2200,
   "boost_clock_mhz": 2200,
   "tdp_w": 600,
   "pcie_version": "PCIe 5.0 x16",
   "fp32_tflops": 72.0,
   "verified": false,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_Instinct_series"
+    "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_Instinct_series",
+    "https://en.wikipedia.org/wiki/AMD_Instinct"
   ]
 }

@@ -5,21 +5,22 @@
   "release_date": "2026-11-11",
   "segment": "server",
   "architecture": null,
-  "socket": null,
+  "socket": "SP7",
   "process_node": null,
-  "cores": null,
-  "threads": null,
+  "cores": 128,
+  "threads": 256,
   "p_cores": null,
   "e_cores": null,
-  "base_clock_ghz": null,
-  "boost_clock_ghz": null,
-  "l3_cache_mb": null,
+  "base_clock_ghz": 3.15,
+  "boost_clock_ghz": 4.0,
+  "l3_cache_mb": 512.0,
   "tdp_w": null,
   "max_tdp_w": null,
   "integrated_graphics": null,
   "memory_support": null,
   "verified": false,
   "source_urls": [
-    "https://en.wikipedia.org/wiki/List_of_AMD_Epyc_processors"
+    "https://en.wikipedia.org/wiki/List_of_AMD_Epyc_processors",
+    "https://en.wikipedia.org/wiki/Zen_6"
   ]
 }

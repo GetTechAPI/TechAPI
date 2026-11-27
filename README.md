@@ -53,7 +53,7 @@ November 2026.
 | `soc` | `soc/<manufacturer>/<year>/<slug>.json` | 1,449 | `soc/qualcomm/2024/snapdragon-8-elite.json` |
 | `cpu` | `cpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 6,412 | `cpu/intel/2023/consumer/core-i9-14900k.json` |
 | `gpu` | `gpu/<manufacturer>/<year>/<consumer\|enterprise>/<slug>.json` | 2,864 | `gpu/nvidia/2025/consumer/geforce-rtx-5090.json` |
-| `socket` | `socket/<slug>.json` | 78 | `socket/lga1156.json` |
+| `socket` | `socket/<slug>.json` | 82 | `socket/lga1156.json` |
 | `chipset` | `chipset/<manufacturer>/<slug>.json` | 725 | `chipset/intel/intel-z790.json` |
 | `smartphone` | `smartphone/<brand>/<year>/<slug>.json` or `smartphone/<brand>/<year>/<base_model>/<slug>.json` | 96,407 | `smartphone/samsung/2025/galaxy-s25.json` |
 | `tablet` | `tablet/<brand>/<year>/<base_model>/<slug>.json` | 3,416 | `tablet/huawei/2020/matepad-t8/matepad-t8.json` |
@@ -86,6 +86,10 @@ November 2026.
   be `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as the source; every other
   category keeps the full date. A chipset lists the sockets it supports by
   slug in `sockets`, and each must exist under `socket/`.
+- A CPU's optional `socket_slug` is the slug of its socket record and must
+  exist under `socket/`. The free-text `socket` stays as the source wrote it;
+  a CPU whose text names a BGA package, several sockets or a socket without a
+  record has no `socket_slug`.
 - `<base_model>` groups the variants of one model (memory, storage, region).
   About a third of the smartphones (31,093) sit directly in the year folder
   instead.

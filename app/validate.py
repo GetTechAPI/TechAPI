@@ -136,8 +136,9 @@ FORM_FACTORS = {"phone", "tablet", "watch", "tv", "other"}
 # Categories a catalog entry can be promoted to (``promoted_to`` = "<category>/<slug>").
 PROMOTION_TARGETS = {"smartphone", "tablet", "watch", "pda"}
 DATE_PRECISIONS = {"day", "month", "year", "year_estimated"}
-# A chip dated only to the month or the year keeps a full release_date; the parts
-# its source does not state are stored as 01 and release_date_precision says so.
+# A chip, laptop or monitor dated only to the month or the year keeps a full
+# release_date; the parts its source does not state are stored as 01 and
+# release_date_precision says so.
 CHIP_DATE_PRECISIONS = ("day", "month", "year")
 CHIP_DATE_PRECISION_SUFFIX = {"month": "-01", "year": "-01-01"}
 RELEASE_YEAR_SOURCES = {"model_code", "record"}
@@ -251,7 +252,7 @@ def _check_identity_fields(name: str, record: dict[str, Any], errors: list[str])
 
 
 def _check_chip_date_precision(name: str, record: dict[str, Any], errors: list[str]) -> None:
-    """release_date_precision on a CPU, GPU or SoC: day | month | year (absent or null = day)."""
+    """release_date_precision (chip, laptop, monitor): day | month | year; absent or null = day."""
     precision = record.get("release_date_precision")
     if precision is None:
         return
@@ -605,6 +606,7 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         # Lower bound 0.0001: 1980s portables shipped with 256 KB and weighed 7-8 kg.
         _check_number(fname, "ram_gb", rec.get("ram_gb"), 0.0001, 256, errors)
         if rec.get("storage_gb") is not None:
@@ -627,6 +629,7 @@ def validate() -> list[str]:
         _check_slug(fname, rec.get("slug"), errors)
         if rec.get("release_date") is not None:
             _check_date(fname, rec["release_date"], errors)
+        _check_chip_date_precision(fname, rec, errors)
         _check_range(fname, "size_inch", rec.get("size_inch"), 5, 120, errors)
         _check_range(fname, "refresh_hz", rec.get("refresh_hz"), 24, 1000, errors)
         if rec.get("ppi") is not None:
